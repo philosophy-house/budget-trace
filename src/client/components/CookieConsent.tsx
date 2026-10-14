@@ -24,10 +24,13 @@ declare global {
   }
 }
 
-const gtag = (...args: unknown[]) => {
+// ⚠ **配列ではなく `arguments` を push する**（公式の gtag と同じ形）。GTM は配列を
+// gtag コマンドとして扱わないので、`push(args)` だと consent update が黙って無視され、
+// 同意しても計測は denied のまま（_ga が作られない）になる。2026-10-15 に本番で実測。
+function gtag(..._args: unknown[]) {
   window.dataLayer = window.dataLayer ?? [];
-  window.dataLayer.push(args);
-};
+  window.dataLayer.push(arguments);
+}
 
 /** 同意カテゴリ → Consent Mode の各キー。www.phh.jp と同じ2カテゴリ構成 */
 function syncConsentMode() {
