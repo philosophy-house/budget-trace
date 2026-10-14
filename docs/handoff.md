@@ -2919,12 +2919,16 @@ bun run pipeline:fixture && bun run pipeline:parse fixture-shichoson-kessan-r6 \
   && bun run pipeline:normalize fixture-shichoson-kessan-r6   # パイプライン e2e 確認
 ```
 
-### 本番の手動再デプロイ（main への push で Vercel が自動では走らない間）
+### 本番の手動再デプロイ（自動デプロイが止まったときの予備）
 
-⚠ **リポジトリを `philosophy-house/budget-trace` へ移転してから、main への push で本番デプロイが自動では走らない**
-（2026-10-10 時点）。Vercel のプロジェクトの GitHub 連携先（`/v9/projects/budget-trace` の `link`）が**移転前の
-`chan-shiro/budget-trace` のまま**なのが原因と見ている（未確認）。連携を直すまでは、**PR を squash マージしたら毎回
-手で本番デプロイを出す**。CLAUDE.md の「`main` への push で本番へ自動デプロイ」は、この間は成り立たない。
+**経緯**: リポジトリを `philosophy-house/budget-trace` へ移転した後（2026-10）、main への push で本番デプロイが自動では
+走らなかった。Vercel のプロジェクトの GitHub 連携先（`/v9/projects/budget-trace` の `link`）が移転前の
+`chan-shiro/budget-trace` のままだった。**2026-10-11 に API でつなぎ直し**
+（`POST /v9/projects/<projectId>/link` に `{"type":"github","repo":"philosophy-house/budget-trace"}`・repoId は移転前後で同じ・
+Vercel の GitHub App は philosophy-house の全リポジトリに入っている）、その後の #329（de260ddf）・#330（51fa4dc5）の
+本番デプロイが Git 起点（`source: git`）で READY になったことを確かめた。**いまは手で出す必要はない。**
+マージ後に本番デプロイが出ない（一覧に新しい sha の Git 起点のデプロイが無い）ときは、まず連携（`link.org`）を見て、
+直すまでの間は次の手順で手で出す。
 
 **出し方**（直近の本番デプロイ `dpl_GWTY…`（#328）・`dpl_7XdK…`（#327）と同じ形。チームは `philosophyhouse`）:
 
