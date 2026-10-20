@@ -65,7 +65,8 @@ export default function CookieConsent() {
         necessary: { readOnly: true, enabled: true },
         analytics: {},
       },
-      onFirstConsent: syncConsentMode,
+      // onConsent は初回の同意とページ表示ごとの両方で呼ばれる。onFirstConsent も
+      // 付けると初回だけ update が2回入るので付けない
       onConsent: syncConsentMode,
       onChange: syncConsentMode,
       language: {
