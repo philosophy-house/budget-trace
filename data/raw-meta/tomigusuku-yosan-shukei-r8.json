@@ -1,0 +1,19 @@
+{
+  "sourceId": "tomigusuku-yosan-shukei-r8",
+  "files": [
+    {
+      "filename": "4_r8sainyuu.pdf",
+      "sha256": "22844560ec1c6342ed62ecc9be8a93d176f3e5d8bebb5d0b422c7ae4c43bd9d5",
+      "bytes": 331606,
+      "fetchedAt": "2026-10-21T18:22:43.406Z",
+      "fetchedFrom": "https://www.city.tomigusuku.lg.jp/material/files/group/5/4_r8sainyuu.pdf"
+    },
+    {
+      "filename": "5_r8saisyutu_mokutekibetu.pdf",
+      "sha256": "7042c4e1d175c60204bff21266763b5a09ebf6556bb03552ba400c4284ee32d0",
+      "bytes": 331529,
+      "fetchedAt": "2026-10-21T18:22:43.779Z",
+      "fetchedFrom": "https://www.city.tomigusuku.lg.jp/material/files/group/5/5_r8saisyutu_mokutekibetu.pdf"
+    }
+  ]
+}

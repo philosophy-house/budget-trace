@@ -1,0 +1,19 @@
+{
+  "sourceId": "kashiwara-osaka-yosan-r8",
+  "files": [
+    {
+      "filename": "file_2026330117459_2.pdf",
+      "sha256": "aa346e8629d9673e096925d44ebd0337a69d791d7c512431c5a6f97c21a5e0ee",
+      "bytes": 127270,
+      "fetchedAt": "2026-10-21T18:26:54.042Z",
+      "fetchedFrom": "https://www.city.kashiwara.lg.jp/docs/2026032700082/file_contents/file_2026330117459_2.pdf"
+    },
+    {
+      "filename": "file_2026212415519_1.pdf",
+      "sha256": "4d2d0e2649660b363db5c3ae0453db728fb35e89a9280681dc534e9c40696bec",
+      "bytes": 2038478,
+      "fetchedAt": "2026-10-21T18:26:54.708Z",
+      "fetchedFrom": "https://www.city.kashiwara.lg.jp/docs/2026060200011/file_contents/file_2026212415519_1.pdf"
+    }
+  ]
+}

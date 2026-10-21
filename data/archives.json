@@ -8086,6 +8086,139 @@
       "rawSha256": "4c6bf79884598f239ad29731d690026c85a7f1a6964cb1bcad0b8e652ab298d9"
     },
     {
+      "sourceId": "hashima-yosan-gaiyou-r2",
+      "url": "https://www.city.hashima.lg.jp/1552.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260412091337/https://www.city.hashima.lg.jp/1552.html",
+      "waybackTimestamp": "20260412091337",
+      "checkedAt": "2026-10-21T18:33:55.107Z"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r2",
+      "url": "https://www.city.hashima.lg.jp/secure/1545/R2yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240722202436/https://www.city.hashima.lg.jp/secure/1545/R2yosangaiyou.pdf",
+      "waybackTimestamp": "20240722202436",
+      "checkedAt": "2026-10-21T18:33:54.748Z",
+      "sha256Match": true,
+      "waybackBytes": 827695,
+      "rawSha256": "fd6e4094dccbc31f4e964339e1eca49036035e97b99d0f7b3fb381f6671b0074"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r3",
+      "url": "https://www.city.hashima.lg.jp/1555.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260517031334/https://www.city.hashima.lg.jp/1555.html",
+      "waybackTimestamp": "20260517031334",
+      "checkedAt": "2026-10-21T18:33:50.595Z"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r3",
+      "url": "https://www.city.hashima.lg.jp/secure/1548/R3yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250524190917/https://www.city.hashima.lg.jp/secure/1548/R3yosangaiyou.pdf",
+      "waybackTimestamp": "20250524190917",
+      "checkedAt": "2026-10-21T18:33:48.712Z",
+      "sha256Match": true,
+      "waybackBytes": 816746,
+      "rawSha256": "8607813bf7b6f3eacdb7357203bfc244e5dc9a5f606c71469471450991f2c023"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r4",
+      "url": "https://www.city.hashima.lg.jp/1558.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260518071216/https://www.city.hashima.lg.jp/1558.html",
+      "waybackTimestamp": "20260518071216",
+      "checkedAt": "2026-10-21T18:33:44.786Z"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r4",
+      "url": "https://www.city.hashima.lg.jp/secure/1551/2022yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240405163241/https://www.city.hashima.lg.jp/secure/1551/2022yosangaiyou.pdf",
+      "waybackTimestamp": "20240405163241",
+      "checkedAt": "2026-10-21T18:33:44.260Z",
+      "sha256Match": true,
+      "waybackBytes": 868767,
+      "rawSha256": "a33dd35a92670cbcdec8f145a42d9c7309a75b4e8e35e36fa463a5da40082ccf"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r5",
+      "url": "https://www.city.hashima.lg.jp/1560.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260121014153/https://www.city.hashima.lg.jp/1560.html",
+      "waybackTimestamp": "20260121014153",
+      "checkedAt": "2026-10-21T18:33:41.111Z"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r5",
+      "url": "https://www.city.hashima.lg.jp/secure/1553/2023yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260215210131/https://www.city.hashima.lg.jp/secure/1553/2023yosangaiyou.pdf",
+      "waybackTimestamp": "20260215210131",
+      "checkedAt": "2026-10-21T18:33:40.455Z",
+      "sha256Match": true,
+      "waybackBytes": 867694,
+      "rawSha256": "172e6a2f4c25c91dc5e554cff3217c3fb4b833f2d22b2b3e5b373bfa55003e13"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r6",
+      "url": "https://www.city.hashima.lg.jp/5535.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260611162452/https://www.city.hashima.lg.jp/5535.html",
+      "waybackTimestamp": "20260611162452",
+      "checkedAt": "2026-10-21T18:33:36.504Z"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r6",
+      "url": "https://www.city.hashima.lg.jp/secure/5215/2024yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250622082704/https://www.city.hashima.lg.jp/secure/5215/2024yosangaiyou.pdf",
+      "waybackTimestamp": "20250622082704",
+      "checkedAt": "2026-10-21T18:33:35.894Z",
+      "sha256Match": true,
+      "waybackBytes": 861297,
+      "rawSha256": "9871d20da77d873d23bc0982be1b9c66f4688ede61ca6007d54224c6bf4e3df2"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r7",
+      "url": "https://www.city.hashima.lg.jp/6265.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260611160254/https://www.city.hashima.lg.jp/6265.html",
+      "waybackTimestamp": "20260611160254",
+      "checkedAt": "2026-10-21T18:33:32.349Z"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r7",
+      "url": "https://www.city.hashima.lg.jp/secure/6154/gaiyo20250214.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250214145117/https://www.city.hashima.lg.jp/secure/6154/gaiyo20250214.pdf",
+      "waybackTimestamp": "20250214145117",
+      "checkedAt": "2026-10-21T18:33:31.682Z",
+      "sha256Match": true,
+      "waybackBytes": 935836,
+      "rawSha256": "707b82deb6097f5060bea8e99ef914cb7f0c8b793fc8e5f13dc4acbca8c48040"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r8",
+      "url": "https://www.city.hashima.lg.jp/6722.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260609084735/https://www.city.hashima.lg.jp/6722.html",
+      "waybackTimestamp": "20260609084735",
+      "checkedAt": "2026-10-21T18:33:26.239Z"
+    },
+    {
+      "sourceId": "hashima-yosan-gaiyou-r8",
+      "url": "https://www.city.hashima.lg.jp/secure/6744/gaiyo2026.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260412023831/https://www.city.hashima.lg.jp/secure/6744/gaiyo2026.pdf",
+      "waybackTimestamp": "20260412023831",
+      "checkedAt": "2026-10-21T18:33:25.745Z",
+      "sha256Match": true,
+      "waybackBytes": 500593,
+      "rawSha256": "e9a041ac55e428b402e3f785ff29e44175c2732f1007ba6a1e91345df4ffef1b"
+    },
+    {
       "sourceId": "hatsukaichi-yosansetsumei-r5",
       "url": "https://www.city.hatsukaichi.hiroshima.jp/uploaded/attachment/64823.pdf",
       "kind": "file",
@@ -16449,6 +16582,160 @@
       "waybackUrl": "https://web.archive.org/web/20260822175747/https://www.city.kashiwa.lg.jp/zaisei/policy_pr/budget/budget2/r8-yosan.html",
       "waybackTimestamp": "20260822175747",
       "checkedAt": "2026-09-04T09:06:43.063Z"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r2",
+      "url": "https://www.city.kashiwara.lg.jp/_files/00424257/R2sainyu.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250926062128/https://www.city.kashiwara.lg.jp/_files/00424257/R2sainyu.pdf",
+      "waybackTimestamp": "20250926062128",
+      "checkedAt": "2026-10-21T18:39:55.717Z",
+      "sha256Verified": false,
+      "sha256FailReason": "コピーの取得が 404（3回試行）"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r2",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2020060300016/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250926054227/https://www.city.kashiwara.lg.jp/docs/2020060300016/",
+      "waybackTimestamp": "20250926054227",
+      "checkedAt": "2026-10-21T18:39:56.436Z"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r3",
+      "url": "https://www.city.kashiwara.lg.jp/_files/00442909/R3sainyu.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250926093507/https://www.city.kashiwara.lg.jp/_files/00442909/R3sainyu.pdf",
+      "waybackTimestamp": "20250926093507",
+      "checkedAt": "2026-10-21T18:39:41.456Z",
+      "sha256Verified": false,
+      "sha256FailReason": "コピーの取得が 404（3回試行）"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r3",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2021032200037/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250926060000/https://www.city.kashiwara.lg.jp/docs/2021032200037/",
+      "waybackTimestamp": "20250926060000",
+      "checkedAt": "2026-10-21T18:39:41.968Z"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r4",
+      "url": "https://www.city.kashiwara.lg.jp/_files/00470490/r4-1-yosan02.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021183908/https://www.city.kashiwara.lg.jp/_files/00470490/r4-1-yosan02.pdf",
+      "waybackTimestamp": "20261021183908",
+      "checkedAt": "2026-10-21T18:39:25.556Z",
+      "sha256Match": true,
+      "waybackBytes": 2261798,
+      "rawSha256": "ac5f3b086dcb8b51ee49a0eaeed2d0b9c9db38f63e3ef4e8b8d8e19a0cb1282c"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r4",
+      "url": "https://www.city.kashiwara.lg.jp/_files/00472722/R4sainyu.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250722132928/https://www.city.kashiwara.lg.jp/_files/00472722/R4sainyu.pdf",
+      "waybackTimestamp": "20250722132928",
+      "checkedAt": "2026-10-21T18:39:05.673Z",
+      "sha256Verified": false,
+      "sha256FailReason": "コピーの取得が 404（3回試行）"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r4",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2022032200034/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250722132532/https://www.city.kashiwara.lg.jp/docs/2022032200034/",
+      "waybackTimestamp": "20250722132532",
+      "checkedAt": "2026-10-21T18:39:26.146Z"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r5",
+      "url": "https://www.city.kashiwara.lg.jp/_files/00492072/R5-1yosansankou1.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021183834/https://www.city.kashiwara.lg.jp/_files/00492072/R5-1yosansankou1.pdf",
+      "waybackTimestamp": "20261021183834",
+      "checkedAt": "2026-10-21T18:38:50.007Z",
+      "sha256Match": true,
+      "waybackBytes": 1519257,
+      "rawSha256": "bbc0400e0f2eaa02ce14b7db8ac82b54670435a078db5360e4978f500b69c7f4"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r5",
+      "url": "https://www.city.kashiwara.lg.jp/_files/00494779/R5sainyu.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250926070726/https://www.city.kashiwara.lg.jp/_files/00494779/R5sainyu.pdf",
+      "waybackTimestamp": "20250926070726",
+      "checkedAt": "2026-10-21T18:38:25.587Z",
+      "sha256Verified": false,
+      "sha256FailReason": "コピーの取得が 404（3回試行）"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r5",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2023033000081/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250926053941/https://www.city.kashiwara.lg.jp/docs/2023033000081/",
+      "waybackTimestamp": "20250926053941",
+      "checkedAt": "2026-10-21T18:38:51.542Z"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r7",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2025032100106/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021183744/https://www.city.kashiwara.lg.jp/docs/2025032100106/",
+      "waybackTimestamp": "20261021183744",
+      "checkedAt": "2026-10-21T18:38:11.351Z"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r7",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2025032100106/file_contents/file_2025331114526_1.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021183700/https://www.city.kashiwara.lg.jp/docs/2025032100106/file_contents/file_2025331114526_1.pdf",
+      "waybackTimestamp": "20261021183700",
+      "checkedAt": "2026-10-21T18:37:14.534Z",
+      "sha256Match": true,
+      "waybackBytes": 134080,
+      "rawSha256": "2996acdd3435a79354f9264d93009fbba3e9dc2b6d948589ab7f33eaade7aa1d"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r7",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2025042200056/file_contents/R7yosan-ippan-tokubetu-sankou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021183721/https://www.city.kashiwara.lg.jp/docs/2025042200056/file_contents/R7yosan-ippan-tokubetu-sankou.pdf",
+      "waybackTimestamp": "20261021183721",
+      "checkedAt": "2026-10-21T18:37:38.145Z",
+      "sha256Match": true,
+      "waybackBytes": 2052880,
+      "rawSha256": "ffd47d58035c850c1743767b29a8feb0053561e695c85fb58752df095e6fdddc"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r8",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2026032700082/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021183631/https://www.city.kashiwara.lg.jp/docs/2026032700082/",
+      "waybackTimestamp": "20261021183631",
+      "checkedAt": "2026-10-21T18:36:58.312Z"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r8",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2026032700082/file_contents/file_2026330117459_2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021183400/https://www.city.kashiwara.lg.jp/docs/2026032700082/file_contents/file_2026330117459_2.pdf",
+      "waybackTimestamp": "20261021183400",
+      "checkedAt": "2026-10-21T18:34:12.825Z",
+      "sha256Match": true,
+      "waybackBytes": 127270,
+      "rawSha256": "aa346e8629d9673e096925d44ebd0337a69d791d7c512431c5a6f97c21a5e0ee"
+    },
+    {
+      "sourceId": "kashiwara-osaka-yosan-r8",
+      "url": "https://www.city.kashiwara.lg.jp/docs/2026060200011/file_contents/file_2026212415519_1.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021183512/https://www.city.kashiwara.lg.jp/docs/2026060200011/file_contents/file_2026212415519_1.pdf",
+      "waybackTimestamp": "20261021183512",
+      "checkedAt": "2026-10-21T18:35:23.710Z",
+      "sha256Match": true,
+      "waybackBytes": 2038478,
+      "rawSha256": "4d2d0e2649660b363db5c3ae0453db728fb35e89a9280681dc534e9c40696bec"
     },
     {
       "sourceId": "kashiwazaki-yosan-gaiyou-r6",
@@ -46674,6 +46961,120 @@
       "sha256Match": true,
       "waybackBytes": 8278213,
       "rawSha256": "805d4349264228f8f58ac26a2cacb83f97b6adade59e18ff88c642193bfdd46a"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r3",
+      "url": "https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa03yosann.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250519020305/https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa03yosann.html",
+      "waybackTimestamp": "20250519020305",
+      "checkedAt": "2026-10-21T18:40:22.643Z"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r3",
+      "url": "https://www.city.sodegaura.lg.jp/uploaded/attachment/24187.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250909174159/https://www.city.sodegaura.lg.jp/uploaded/attachment/24187.pdf",
+      "waybackTimestamp": "20250909174159",
+      "checkedAt": "2026-10-21T18:40:22.267Z",
+      "sha256Match": true,
+      "waybackBytes": 343617,
+      "rawSha256": "9652d901be6a0039248aa6097784b2ca36306dae129eb5ae239a8606a314c360"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r4",
+      "url": "https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa04yosann.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250714000343/https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa04yosann.html",
+      "waybackTimestamp": "20250714000343",
+      "checkedAt": "2026-10-21T18:40:20.036Z"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r4",
+      "url": "https://www.city.sodegaura.lg.jp/uploaded/attachment/28406.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20241127205820/https://www.city.sodegaura.lg.jp/uploaded/attachment/28406.pdf",
+      "waybackTimestamp": "20241127205820",
+      "checkedAt": "2026-10-21T18:40:19.076Z",
+      "sha256Match": true,
+      "waybackBytes": 3125527,
+      "rawSha256": "daaee158a8e6ab1f9a994069810505e3e3ff8d6342f79de3b0305e3b3439a0d0"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r5",
+      "url": "https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa05yosann.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250714002029/https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa05yosann.html",
+      "waybackTimestamp": "20250714002029",
+      "checkedAt": "2026-10-21T18:40:15.866Z"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r5",
+      "url": "https://www.city.sodegaura.lg.jp/uploaded/attachment/31864.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240811185448/https://www.city.sodegaura.lg.jp/uploaded/attachment/31864.pdf",
+      "waybackTimestamp": "20240811185448",
+      "checkedAt": "2026-10-21T18:40:15.438Z",
+      "sha256Match": true,
+      "waybackBytes": 586852,
+      "rawSha256": "bbb4e48c0fecdb7d798bce1ffbb66a166f40320b9681d6a0b7220f23c60c1fb1"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r6",
+      "url": "https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa06yosann.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250717041923/https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa06yosann.html",
+      "waybackTimestamp": "20250717041923",
+      "checkedAt": "2026-10-21T18:40:12.832Z"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r6",
+      "url": "https://www.city.sodegaura.lg.jp/uploaded/attachment/45514.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260619173723/https://www.city.sodegaura.lg.jp/uploaded/attachment/45514.pdf",
+      "waybackTimestamp": "20260619173723",
+      "checkedAt": "2026-10-21T18:40:12.317Z",
+      "sha256Match": true,
+      "waybackBytes": 1122463,
+      "rawSha256": "836cef9ee208dea5aa2ee22441b8c35c370977fc37d8ee4588f6515e4afb9c2c"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r7",
+      "url": "https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa07yosann.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250809113745/https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa07yosann.html",
+      "waybackTimestamp": "20250809113745",
+      "checkedAt": "2026-10-21T18:40:10.195Z"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r7",
+      "url": "https://www.city.sodegaura.lg.jp/uploaded/attachment/45516.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260619180509/https://www.city.sodegaura.lg.jp/uploaded/attachment/45516.pdf",
+      "waybackTimestamp": "20260619180509",
+      "checkedAt": "2026-10-21T18:40:05.124Z",
+      "sha256Match": true,
+      "waybackBytes": 1106466,
+      "rawSha256": "31a62bd6d1c3dbaa08e267dff9ab89ea775a60349214fbf7e5fb87784cbfce0b"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r8",
+      "url": "https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa08yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260315205240/https://www.city.sodegaura.lg.jp/soshiki/zaisei/reiwa08yosan.html",
+      "waybackTimestamp": "20260315205240",
+      "checkedAt": "2026-10-21T18:40:01.560Z"
+    },
+    {
+      "sourceId": "sodegaura-yosan-gaiyou-r8",
+      "url": "https://www.city.sodegaura.lg.jp/uploaded/attachment/45515.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260619120115/https://www.city.sodegaura.lg.jp/uploaded/attachment/45515.pdf",
+      "waybackTimestamp": "20260619120115",
+      "checkedAt": "2026-10-21T18:40:00.598Z",
+      "sha256Match": true,
+      "waybackBytes": 1340935,
+      "rawSha256": "fbbb4fe4b2f68ef43bbf514cd861f534840e193051f79de32bacec9bf222d7e4"
     },
     {
       "sourceId": "soja-yosan-gaiyou-r5",
