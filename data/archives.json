@@ -571,6 +571,112 @@
       "checkedAt": "2026-09-14T13:10:18.051Z"
     },
     {
+      "sourceId": "akishima-yosansho-r2",
+      "url": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/269/ippannkaikei.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021150114/https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/269/ippannkaikei.pdf",
+      "waybackTimestamp": "20261021150114",
+      "checkedAt": "2026-10-21T15:01:35.899Z",
+      "sha256Match": true,
+      "waybackBytes": 4975874,
+      "rawSha256": "b0545ba600dac88913fbd38b6857638bfabaf1b34fe38d1e218779d4c1543f0e"
+    },
+    {
+      "sourceId": "akishima-yosansho-r2",
+      "url": "https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005269.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021150140/https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005269.html",
+      "waybackTimestamp": "20261021150140",
+      "checkedAt": "2026-10-21T15:02:02.555Z"
+    },
+    {
+      "sourceId": "akishima-yosansho-r3",
+      "url": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/268/02.r3ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021150024/https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/268/02.r3ippan.pdf",
+      "waybackTimestamp": "20261021150024",
+      "checkedAt": "2026-10-21T15:00:44.296Z",
+      "sha256Match": true,
+      "waybackBytes": 4134409,
+      "rawSha256": "18665d3fd4c95c39f66c39ce12f0f67720fceecf602aeebc2d175553cb87abc7"
+    },
+    {
+      "sourceId": "akishima-yosansho-r3",
+      "url": "https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005268.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021150050/https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005268.html",
+      "waybackTimestamp": "20261021150050",
+      "checkedAt": "2026-10-21T15:01:13.500Z"
+    },
+    {
+      "sourceId": "akishima-yosansho-r4",
+      "url": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/267/02.r4ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021145929/https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/267/02.r4ippan.pdf",
+      "waybackTimestamp": "20261021145929",
+      "checkedAt": "2026-10-21T14:59:55.615Z",
+      "sha256Match": true,
+      "waybackBytes": 5032523,
+      "rawSha256": "9280aadc1dd05d14319a35505f1d39e9f9d24dd7cc5a6a67ee6d53c67b03b4ec"
+    },
+    {
+      "sourceId": "akishima-yosansho-r4",
+      "url": "https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005267.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021145959/https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005267.html",
+      "waybackTimestamp": "20261021145959",
+      "checkedAt": "2026-10-21T15:00:22.133Z"
+    },
+    {
+      "sourceId": "akishima-yosansho-r5",
+      "url": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/266/2-2.ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021150402/https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/266/2-2.ippan.pdf",
+      "waybackTimestamp": "20261021150402",
+      "checkedAt": "2026-10-21T15:04:26.107Z",
+      "sha256Match": true,
+      "waybackBytes": 4087801,
+      "rawSha256": "0376bf6bbc4999a9944ffda05b6cfa1c66c376ab545cf8c4ab3d4527c18c493a"
+    },
+    {
+      "sourceId": "akishima-yosansho-r5",
+      "url": "https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005266.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021145905/https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005266.html",
+      "waybackTimestamp": "20261021145905",
+      "checkedAt": "2026-10-21T15:04:26.550Z"
+    },
+    {
+      "sourceId": "akishima-yosansho-r6",
+      "url": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/265/2-2.ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021145807/https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/265/2-2.ippan.pdf",
+      "waybackTimestamp": "20261021145807",
+      "checkedAt": "2026-10-21T14:58:27.999Z",
+      "sha256Match": true,
+      "waybackBytes": 3688301,
+      "rawSha256": "8a9c4f29795720da3cb71e8b5afb1d0b6d9346ab1a0344c96ed9d871b1e17ad9"
+    },
+    {
+      "sourceId": "akishima-yosansho-r6",
+      "url": "https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005265.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021145831/https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1005265.html",
+      "waybackTimestamp": "20261021145831",
+      "checkedAt": "2026-10-21T14:58:54.239Z"
+    },
+    {
+      "sourceId": "akishima-yosansho-r7",
+      "url": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/264/2-1.ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021145434/https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/264/2-1.ippan.pdf",
+      "waybackTimestamp": "20261021145434",
+      "checkedAt": "2026-10-21T14:57:59.319Z",
+      "sha256Match": true,
+      "waybackBytes": 4004251,
+      "rawSha256": "4662197051b0ec0d9c50e1690c5804d0b31e17dd7d35b972fd272e03068507f8"
+    },
+    {
       "sourceId": "akita-ken-setsumeisho-sokatsu-r8",
       "url": "https://www.pref.akita.lg.jp/pages/archive/94507",
       "kind": "landing",
@@ -7591,6 +7697,131 @@
       "waybackUrl": "https://web.archive.org/web/20251008015702/https://www.city.higashimurayama.tokyo.jp/shisei/gyozaisei/gyozaisei/yosan/zaisei20251007.html",
       "waybackTimestamp": "20251008015702",
       "checkedAt": "2026-09-14T21:21:52.513Z"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r2",
+      "url": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/555/r2gaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021150320/https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/555/r2gaiyou.pdf",
+      "waybackTimestamp": "20261021150320",
+      "checkedAt": "2026-10-21T15:03:35.451Z",
+      "sha256Match": true,
+      "waybackBytes": 2583371,
+      "rawSha256": "a08251f733d8bb987782113fed0a3967473ba7419e7862c3c09b6793f33c4e42"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r2",
+      "url": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004550/1004555.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021150339/https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004550/1004555.html",
+      "waybackTimestamp": "20261021150339",
+      "checkedAt": "2026-10-21T15:04:00.900Z"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r3",
+      "url": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/547/r3gaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021145702/https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/547/r3gaiyou.pdf",
+      "waybackTimestamp": "20261021145702",
+      "checkedAt": "2026-10-21T14:57:16.474Z",
+      "sha256Match": true,
+      "waybackBytes": 1551616,
+      "rawSha256": "cc1640c5c2b93e88de3dc8dc3fd4678a7ffa30e492486998be976e6c11507b6b"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r3",
+      "url": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004542/1004547.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021145721/https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004542/1004547.html",
+      "waybackTimestamp": "20261021145721",
+      "checkedAt": "2026-10-21T14:57:43.790Z"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r4",
+      "url": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/539/r4.gaiyo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021150217/https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/539/r4.gaiyo.pdf",
+      "waybackTimestamp": "20261021150217",
+      "checkedAt": "2026-10-21T15:02:46.680Z",
+      "sha256Match": true,
+      "waybackBytes": 2238409,
+      "rawSha256": "de575da0c65de4b7e5cf9147eced432cadbb6aea940326db1a51e3a2e1f8eeb1"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r4",
+      "url": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004534/1004539.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021150256/https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004534/1004539.html",
+      "waybackTimestamp": "20261021150256",
+      "checkedAt": "2026-10-21T15:03:19.002Z"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r5",
+      "url": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/531/r5gaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021145606/https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/531/r5gaiyou.pdf",
+      "waybackTimestamp": "20261021145606",
+      "checkedAt": "2026-10-21T14:56:21.425Z",
+      "sha256Match": true,
+      "waybackBytes": 1573649,
+      "rawSha256": "1cdd80cb668e702b54f6d73c9e6ed5c60068c33b32e58e62fe48f579632b6049"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r5",
+      "url": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004526/1004531.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021145625/https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004526/1004531.html",
+      "waybackTimestamp": "20261021145625",
+      "checkedAt": "2026-10-21T14:56:47.328Z"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r6",
+      "url": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/523/r6gaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021143300/https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/004/523/r6gaiyou.pdf",
+      "waybackTimestamp": "20261021143300",
+      "checkedAt": "2026-10-21T14:55:57.393Z",
+      "sha256Match": true,
+      "waybackBytes": 5307391,
+      "rawSha256": "d032fb269b7f6087cab58477c9a68f752eec16f803ae4c3f80a628cf7d85b182"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r7",
+      "url": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/008/556/r7tousyoyosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021145505/https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/008/556/r7tousyoyosangaiyou.pdf",
+      "waybackTimestamp": "20261021145505",
+      "checkedAt": "2026-10-21T14:55:20.544Z",
+      "sha256Match": true,
+      "waybackBytes": 2435436,
+      "rawSha256": "5fce9d1c9964cf50e459681e4c0d8acb88d5223ca0ea1af6dc48c3c59a62e64a"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r7",
+      "url": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1008554/1008556/index.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021145524/https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1008554/1008556/index.html",
+      "waybackTimestamp": "20261021145524",
+      "checkedAt": "2026-10-21T14:55:52.350Z"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r8",
+      "url": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/011/033/r8gaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021143212/https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/011/033/r8gaiyou.pdf",
+      "waybackTimestamp": "20261021143212",
+      "checkedAt": "2026-10-21T14:55:03.110Z",
+      "sha256Match": true,
+      "waybackBytes": 2478988,
+      "rawSha256": "6565b51d54d387ad333efc5ce3e4f83530221f7d6c2c86b2f77161d3e85924fa"
+    },
+    {
+      "sourceId": "higashiomi-yosan-gaiyou-r8",
+      "url": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1010624/1011033.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021143229/https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1010624/1011033.html",
+      "waybackTimestamp": "20261021143229",
+      "checkedAt": "2026-10-21T14:55:03.542Z"
     },
     {
       "sourceId": "higashiosaka-yosansho-r7",

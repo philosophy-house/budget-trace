@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 340,
+  "budgetCount": 342,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2634,
-  "fileCount": 4254,
-  "archivedCount": 2452,
+  "sourceCount": 2647,
+  "fileCount": 4267,
+  "archivedCount": 2465,
   "licenseOpen": 109,
-  "licensePermission": 2461,
+  "licensePermission": 2474,
   "licenseUnverified": 64,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1071,6 +1071,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "東近江市",
+      "code": "252131",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "京都市",
       "code": "261009",
       "years": 7,
@@ -1279,6 +1285,12 @@ export const ROADMAP_PROGRESS = {
       "code": "131016",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "昭島市",
+      "code": "132071",
+      "years": 6,
+      "range": "R2〜R7（6年度）"
     },
     {
       "name": "小金井市",
