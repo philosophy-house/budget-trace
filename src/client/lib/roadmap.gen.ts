@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 342,
+  "budgetCount": 347,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2647,
-  "fileCount": 4267,
-  "archivedCount": 2465,
+  "sourceCount": 2680,
+  "fileCount": 4300,
+  "archivedCount": 2474,
   "licenseOpen": 109,
-  "licensePermission": 2474,
+  "licensePermission": 2507,
   "licenseUnverified": 64,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -951,6 +951,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "射水市",
+      "code": "162116",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "小松市",
       "code": "172031",
       "years": 7,
@@ -959,6 +965,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "福井市",
       "code": "182010",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "坂井市",
+      "code": "182109",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1043,6 +1055,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "日進市",
       "code": "232301",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "あま市",
+      "code": "232378",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1245,6 +1263,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "花巻市",
+      "code": "032051",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "酒田市",
       "code": "062049",
       "years": 6,
@@ -1339,6 +1363,12 @@ export const ROADMAP_PROGRESS = {
       "code": "172103",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "袋井市",
+      "code": "222160",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "春日井市",

@@ -64,4 +64,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "飯田市", license: "Copyright Iida City. All rights reserved." },
   { who: "筑紫野市", license: "本サイトに掲載されている全てのコンテンツに関して、その著作権は特に内容について断りがない限り原則として筑紫野市に帰属します。個人として使用する場合を除き、許可なく内容の引用、転載、複写、販売等の目的で使用することは避けてください。もし掲載内容を使用したい場合は、秘書広報課　広報広聴担当までメールにてご連絡ください。" },
   { who: "東近江市", license: "Copyright © Higashiomi City All rights Reserved." },
+  { who: "あま市", license: "当サイトに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、日本国著作権法及び国際条約により保護されています。" },
 ];

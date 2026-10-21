@@ -1865,4 +1865,25 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://warp.ndl.go.jp/20191018/20191016211217/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-30-yosan-index.html",
     checkedOn: "2026-10-21", ref: "docs/data-sources.md §13-22",
   },
+  {
+    // 花巻市（032051）R2。R8〜R3 は収録済み（§13-60）。
+    // 予算書 02yosan.pdf（45ページ）・事項別明細書 02yosan_ippan.pdf（228ページ）とも先頭20ページで pdftotext 0字・pdffonts 0件・画像あり（2026-10-22 に自分で取得して実測）。
+    code: "032051", name: "花巻市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書と予算事項別明細書がどちらも文字の層が無い画像で作られている。" +
+      "文字が取れる参考資料は歳入の款別だけで歳出の款別が無く、広報のあらましは万円単位で前年度の額が無い。",
+    url: "https://www.city.hanamaki.iwate.jp/shisei/shisei/yosan_kessan/1008155/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
+  },
+  {
+    // 袋井市（222160）R4。R8〜R5・R3・R2 は収録済み（§13-60）。パーサの issue に積んだ。
+    code: "222160", name: "袋井市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["parser-unsupported"],
+    reason:
+      "歳入の款別集計表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度1千円）が、名前の上段・金額の行・名前の下段の3行に分かれて組まれていて、" +
+      "こちらの抽出処理では款名を正しく組み立てられない。原典の表は健全。",
+    url: "https://www.city.fukuroi.shizuoka.jp/soshiki/6/2/zaisei/1422534504181.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
+  },
 ];

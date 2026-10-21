@@ -7219,6 +7219,25 @@
       "checkedAt": "2026-09-14T06:09:33.187Z"
     },
     {
+      "sourceId": "hanamaki-yosan-gaiyou-r8",
+      "url": "https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/025/089/r8yosannogaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021160059/https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/025/089/r8yosannogaiyou.pdf",
+      "waybackTimestamp": "20261021160059",
+      "checkedAt": "2026-10-21T16:01:14.015Z",
+      "sha256Match": true,
+      "waybackBytes": 1752267,
+      "rawSha256": "0ccf24004d550dca03011ee6d0e5fa4171b5c13d6dbfd37d7c6e5f1740062a08"
+    },
+    {
+      "sourceId": "hanamaki-yosan-gaiyou-r8",
+      "url": "https://www.city.hanamaki.iwate.jp/shisei/shisei/yosan_kessan/1008155/1025089.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260512040200/https://www.city.hanamaki.iwate.jp/shisei/shisei/yosan_kessan/1008155/1025089.html",
+      "waybackTimestamp": "20260512040200",
+      "checkedAt": "2026-10-21T16:01:14.707Z"
+    },
+    {
       "sourceId": "handa-yosan-kamokubetu-h31",
       "url": "https://www.city.handa.lg.jp/_res/projects/default_project/_page_/001/004/262/h31sainyusaishutukamokubetu.pdf",
       "kind": "file",
@@ -10790,6 +10809,132 @@
       "sha256Match": true,
       "waybackBytes": 2689087,
       "rawSha256": "5d3442cb457f07ba9cc5c4c41e6a4c0e727dd2c8fe11c6b99a5c70253d071bd4"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r2",
+      "url": "https://www.city.imizu.toyama.jp/appupload/EDIT/086/086139.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260316022619/https://www.city.imizu.toyama.jp/appupload/EDIT/086/086139.pdf",
+      "waybackTimestamp": "20260316022619",
+      "checkedAt": "2026-10-21T16:00:54.218Z",
+      "sha256Match": true,
+      "waybackBytes": 3237672,
+      "rawSha256": "3d3c2ef261965cd81c34f20ed7a1a23cba6cc93766bc7a5c5ff42dcb8da0a574"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r2",
+      "url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=37620",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260510023324/https://www.city.imizu.toyama.jp/guide/svguidedtl.aspx?servno=37620",
+      "waybackTimestamp": "20260510023324",
+      "checkedAt": "2026-10-21T16:00:54.992Z"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r3",
+      "url": "https://www.city.imizu.toyama.jp/appupload/EDIT/097/097007.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250514104836/https://www.city.imizu.toyama.jp/appupload/EDIT/097/097007.pdf",
+      "waybackTimestamp": "20250514104836",
+      "checkedAt": "2026-10-21T16:00:50.735Z",
+      "sha256Match": true,
+      "waybackBytes": 1527726,
+      "rawSha256": "87182247a44f6a4cc09e5f227ca097d6d9fca36ff7f358dee3c5df9f9aec214f"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r4",
+      "url": "https://www.city.imizu.toyama.jp/appupload/EDIT/107/107601.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20251204224845/https://www.city.imizu.toyama.jp/appupload/EDIT/107/107601.pdf",
+      "waybackTimestamp": "20251204224845",
+      "checkedAt": "2026-10-21T16:00:47.125Z",
+      "sha256Match": true,
+      "waybackBytes": 856347,
+      "rawSha256": "0976ec7c321e4c8630c1ed2cbff448d16fc6407a2e60177a23de919a5e6dc4a7"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r4",
+      "url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=45163",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20251112142046/https://www.city.imizu.toyama.jp/guide/svguidedtl.aspx?servno=45163",
+      "waybackTimestamp": "20251112142046",
+      "checkedAt": "2026-10-21T16:00:47.660Z"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r5",
+      "url": "https://www.city.imizu.toyama.jp/appupload/EDIT/117/117454.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250418132301/https://www.city.imizu.toyama.jp/appupload/EDIT/117/117454.pdf",
+      "waybackTimestamp": "20250418132301",
+      "checkedAt": "2026-10-21T16:00:38.884Z",
+      "sha256Match": true,
+      "waybackBytes": 1647793,
+      "rawSha256": "8f0e59f0ca254daf5069c581c6a0eac96ded9d7df4372d930318c08c65f2d135"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r5",
+      "url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=33699",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260611162206/https://www.city.imizu.toyama.jp/guide/svguidedtl.aspx?servno=33699",
+      "waybackTimestamp": "20260611162206",
+      "checkedAt": "2026-10-21T16:00:44.345Z"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r6",
+      "url": "https://www.city.imizu.toyama.jp/appupload/EDIT/125/125339.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260311093713/https://www.city.imizu.toyama.jp/appupload/EDIT/125/125339.pdf",
+      "waybackTimestamp": "20260311093713",
+      "checkedAt": "2026-10-21T16:00:33.936Z",
+      "sha256Match": true,
+      "waybackBytes": 3827213,
+      "rawSha256": "8d9f9e2cf9fb61cfe6e3a508c599128064586cb5e371e4d45ab64906eaa0cc8a"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r6",
+      "url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=48597",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260513133136/https://www.city.imizu.toyama.jp/guide/svguidedtl.aspx?servno=48597",
+      "waybackTimestamp": "20260513133136",
+      "checkedAt": "2026-10-21T16:00:34.678Z"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r7",
+      "url": "https://www.city.imizu.toyama.jp/appupload/EDIT/133/133569.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260209120504/https://www.city.imizu.toyama.jp/appupload/EDIT/133/133569.pdf",
+      "waybackTimestamp": "20260209120504",
+      "checkedAt": "2026-10-21T16:00:27.399Z",
+      "sha256Match": true,
+      "waybackBytes": 4171664,
+      "rawSha256": "ae61b52624d5347718e590abcefe796aa131addc45aeb9add70bddd07e8430fd"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r7",
+      "url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=52166",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260515170031/https://www.city.imizu.toyama.jp/guide/svguidedtl.aspx?servno=52166",
+      "waybackTimestamp": "20260515170031",
+      "checkedAt": "2026-10-21T16:00:29.524Z"
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r8",
+      "url": "https://www.city.imizu.toyama.jp/appupload/EDIT/142/142060.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260513220832/https://www.city.imizu.toyama.jp/appupload/EDIT/142/142060.pdf",
+      "waybackTimestamp": "20260513220832",
+      "checkedAt": "2026-10-21T16:00:22.240Z",
+      "sha256Match": false,
+      "waybackBytes": 5242880,
+      "rawSha256": "93971fb93af0020b5e1e439757924d28db726ae873c12a66781823b467194e50",
+      "waybackTruncated": true
+    },
+    {
+      "sourceId": "imizu-yosan-gaiyou-r8",
+      "url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=55029",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260419024641/https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=55029",
+      "waybackTimestamp": "20260419024641",
+      "checkedAt": "2026-10-21T16:00:22.797Z"
     },
     {
       "sourceId": "inagi-yosan-r2",
@@ -33166,6 +33311,25 @@
       "sha256Match": true,
       "waybackBytes": 2459412,
       "rawSha256": "7aa1646bfcf3c715a0038801bb9e8c9267c6db17a5ddd3825919d9df98c87ed3"
+    },
+    {
+      "sourceId": "sakai-fukui-yosan-gaiyou-r8",
+      "url": "https://www.city.fukui-sakai.lg.jp/zaisei/shisei/zaisei/yosan/documents/r8_tousyo-gaiyou-an.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260206053755/https://www.city.fukui-sakai.lg.jp/zaisei/shisei/zaisei/yosan/documents/r8_tousyo-gaiyou-an.pdf",
+      "waybackTimestamp": "20260206053755",
+      "checkedAt": "2026-10-21T16:03:38.841Z",
+      "sha256Match": true,
+      "waybackBytes": 4779436,
+      "rawSha256": "9c594a5fbfc331ff44952b625a365aa59257c6d3d28bedb6e0f8500f291cfbae"
+    },
+    {
+      "sourceId": "sakai-fukui-yosan-gaiyou-r8",
+      "url": "https://www.city.fukui-sakai.lg.jp/zaisei/shisei/zaisei/yosan/yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20251012073324/https://www.city.fukui-sakai.lg.jp/zaisei/shisei/zaisei/yosan/yosan.html",
+      "waybackTimestamp": "20251012073324",
+      "checkedAt": "2026-10-21T16:03:39.644Z"
     },
     {
       "sourceId": "sakai-shigikai-r8",

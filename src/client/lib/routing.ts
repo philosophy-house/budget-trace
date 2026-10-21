@@ -289,6 +289,11 @@ const MUNI_SLUGS: Record<string, string> = {
   "012246": "chitose",
   "132071": "akishima",
   "252131": "higashiomi",
+  "162116": "imizu",
+  "032051": "hanamaki",
+  "182109": "sakai-fukui", // ⚠ 堺市 271403 が "sakai" なので福井の坂井市は県名つき（府中と同じ規則）
+  "232378": "ama",
+  "222160": "fukuroi",
   "472115": "okinawa", // ⚠ 沖縄県 470007 は "ken" スラグなので衝突しない（富山市・佐賀市と同じ規則）
   "232076": "toyokawa", "352039": "yamaguchi", "222038": "numazu", "272191": "izumi",
   // 政令指定都市（2026-07-15）
