@@ -129,6 +129,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "112411": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度",
+        "reason": "一般会計予算書と予算の概要が、どちらも紙をスキャンした画像の PDF で、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "112453": {
     "budget": [
       {
@@ -780,6 +789,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "252085": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "款別の比較表のうち、廃止された款（自動車取得税交付金）の行が当年度の欄を空けた形で、こちらの抽出処理では前年度の額を正しく読めない（前年度の合計が3,000万円合わなくなる）。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "262013": {
     "budget": [
       {
@@ -1415,6 +1433,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成30年度・平成29年度・平成28年度・平成27年度・平成26年度・平成25年度・平成24年度",
         "reason": "予算書がスキャン画像で、取り出せる文字が0字（実測）。",
         "checkedOn": "2026-09-11"
+      }
+    ]
+  },
+  "082058": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "一般会計予算は議会で修正して可決されたが、掲載されている予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（総務費・民生費・衛生費・予備費の4款）。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },

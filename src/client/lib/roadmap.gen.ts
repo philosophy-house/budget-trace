@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 414,
+  "budgetCount": 419,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3117,
-  "fileCount": 4766,
-  "archivedCount": 2692,
+  "sourceCount": 3149,
+  "fileCount": 4799,
+  "archivedCount": 2698,
   "licenseOpen": 130,
-  "licensePermission": 2909,
+  "licensePermission": 2941,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -759,6 +759,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "恵庭市",
+      "code": "012319",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "一関市",
       "code": "032093",
       "years": 7,
@@ -779,6 +785,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "横手市",
       "code": "052035",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "由利本荘市",
+      "code": "052108",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1563,6 +1575,12 @@ export const ROADMAP_PROGRESS = {
       "range": "H30〜R8（6年度）"
     },
     {
+      "name": "石岡市",
+      "code": "082058",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "龍ケ崎市",
       "code": "082082",
       "years": 6,
@@ -1583,6 +1601,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "和光市",
       "code": "112291",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "鶴ケ島市",
+      "code": "112411",
       "years": 6,
       "range": "R2〜R8（6年度）"
     },
@@ -1693,6 +1717,12 @@ export const ROADMAP_PROGRESS = {
       "code": "252042",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "栗東市",
+      "code": "252085",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "福知山市",

@@ -2180,4 +2180,36 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.toyoake.lg.jp/4460.htm",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-73",
   },
+  {
+    // 栗東市（252085）R2。R8〜R3 は収録済み（§13-74）。
+    // 「予算のすがた」R2yosannosugata.pdf p.13 の廃止款の行「 自動車取得税交付金      30,000  0.1%  30,000  0.1%」は款番号・印・「皆減」なし、当年度空欄で整数2つ（前年度当初＝前年度現計）。
+    // 既存の廃止款の分岐（zeroCurAbolished・blankCurAbolished）に当たらず行ごと落ち、前年度 Σ が −30,000（warning 止まり）。印字に無い字を書き足す回避（amountTypos）は採らない。
+    code: "252085", name: "栗東市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の比較表のうち、廃止された款（自動車取得税交付金）の行が当年度の欄を空けた形で、こちらの抽出処理では前年度の額を正しく読めない（前年度の合計が3,000万円合わなくなる）。",
+    url: "https://www.city.ritto.lg.jp/shisei/zaisei/yosan_kesan/7307.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+  },
+  {
+    // 石岡市（082058）R2。R8〜R3 は収録済み（§13-74）。
+    // 年度ページ（page006744）に「令和2年第1回定例会にて令和2年度石岡市一般会計予算が修正可決いたしました。」。予算書 1611556506_doc_32_1.pdf は原案のまま。
+    // 訂正 PDF 1611556506_doc_32_0.pdf（3p）に総務費・民生費・衛生費・予備費の修正後の額だけがある（Σ は 34,460,000 で不変）。
+    code: "082058", name: "石岡市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計予算は議会で修正して可決されたが、掲載されている予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（総務費・民生費・衛生費・予備費の4款）。",
+    url: "https://www.city.ishioka.lg.jp/shiseijoho/zaisei/yosan/page006744.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+  },
+  {
+    // 鶴ヶ島市（112411）R3。R8〜R4・R2 は収録済み（§13-74）。
+    // 予算書 1614166267_doc_430_0.pdf（176p）と予算概要の分割ファイルがすべてスキャン（pdftotext が1ページ1文字・p.16 は 1240×1754 の JPEG のみ＝偵察）。
+    code: "112411", name: "鶴ケ島市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書と予算の概要が、どちらも紙をスキャンした画像の PDF で、文字として取り出せない。",
+    url: "https://www.city.tsurugashima.lg.jp/gyousei/zaiei/yosan/page007850.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+  },
 ];

@@ -4708,6 +4708,101 @@
       "rawSha256": "1e5fa2d8cc3f9789bf1f05e12914acc72e2ebcaf153f086442f9f5f88ec0e4a3"
     },
     {
+      "sourceId": "eniwa-yosan-gaiyou-r4",
+      "url": "https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260314173334/https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "waybackTimestamp": "20260314173334",
+      "checkedAt": "2026-10-21T18:26:20.829Z"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r4",
+      "url": "https://www.city.eniwa.hokkaido.jp/material/files/group/7/R4_yosannnogaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250908142012/https://www.city.eniwa.hokkaido.jp/material/files/group/7/R4_yosannnogaiyou.pdf",
+      "waybackTimestamp": "20250908142012",
+      "checkedAt": "2026-10-21T18:26:20.187Z",
+      "sha256Match": true,
+      "waybackBytes": 2175979,
+      "rawSha256": "7cb2efe2bcae9f894922f28e511792215cd4a1771e0fad329e70714df9fd2f0e"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r5",
+      "url": "https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260314173334/https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "waybackTimestamp": "20260314173334",
+      "checkedAt": "2026-10-21T18:26:11.607Z"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r5",
+      "url": "https://www.city.eniwa.hokkaido.jp/material/files/group/7/yosannnogaiyou_r5.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250908141150/https://www.city.eniwa.hokkaido.jp/material/files/group/7/yosannnogaiyou_r5.pdf",
+      "waybackTimestamp": "20250908141150",
+      "checkedAt": "2026-10-21T18:26:11.060Z",
+      "sha256Match": true,
+      "waybackBytes": 2135970,
+      "rawSha256": "0c4bcd108bf981d2391a8b161b59639b6f8d1a0bb5f3ea541a0edc44a0cc6ac8"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r6",
+      "url": "https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260314173334/https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "waybackTimestamp": "20260314173334",
+      "checkedAt": "2026-10-21T18:26:07.822Z"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r6",
+      "url": "https://www.city.eniwa.hokkaido.jp/material/files/group/7/yosangaiyor6.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250908141212/https://www.city.eniwa.hokkaido.jp/material/files/group/7/yosangaiyor6.pdf",
+      "waybackTimestamp": "20250908141212",
+      "checkedAt": "2026-10-21T18:26:06.288Z",
+      "sha256Match": true,
+      "waybackBytes": 1639569,
+      "rawSha256": "eba04a38eed6b169214c5d31490884c0d49d5bc413c7090d9e5df2e820e3b898"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r7",
+      "url": "https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260314173334/https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "waybackTimestamp": "20260314173334",
+      "checkedAt": "2026-10-21T18:25:59.439Z"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r7",
+      "url": "https://www.city.eniwa.hokkaido.jp/material/files/group/7/R7_yosannnogaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250909074916/https://www.city.eniwa.hokkaido.jp/material/files/group/7/R7_yosannnogaiyou.pdf",
+      "waybackTimestamp": "20250909074916",
+      "checkedAt": "2026-10-21T18:25:58.968Z",
+      "sha256Match": true,
+      "waybackBytes": 1380120,
+      "rawSha256": "c036196d98e0b35718012dff7e2fef50ac5dc53411fa851cedfe21758e1078dc"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r8",
+      "url": "https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260314173334/https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shinozaisei/yosan/3568.html",
+      "waybackTimestamp": "20260314173334",
+      "checkedAt": "2026-10-21T18:25:55.430Z"
+    },
+    {
+      "sourceId": "eniwa-yosan-gaiyou-r8",
+      "url": "https://www.city.eniwa.hokkaido.jp/material/files/group/7/R8_yosannnogaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021182521/https://www.city.eniwa.hokkaido.jp/material/files/group/7/R8_yosannnogaiyou.pdf",
+      "waybackTimestamp": "20261021182521",
+      "checkedAt": "2026-10-21T18:25:53.601Z",
+      "sha256Match": true,
+      "waybackBytes": 6644686,
+      "rawSha256": "1a971588630ab895cd615c5df4dc85cdc6f4a1bf8cd8b1e8bab6f36559ad6316"
+    },
+    {
       "sourceId": "fuchu-shigikai-r8",
       "url": "https://www.city.fuchu.tokyo.jp/gikai/dayori/backnumber/reiwa8/329.files/fuchu-shigikaidayori_329.pdf",
       "kind": "file",
