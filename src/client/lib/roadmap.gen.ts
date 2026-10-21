@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 424,
+  "budgetCount": 429,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3182,
-  "fileCount": 4832,
-  "archivedCount": 2700,
+  "sourceCount": 3214,
+  "fileCount": 4864,
+  "archivedCount": 2709,
   "licenseOpen": 135,
-  "licensePermission": 2969,
+  "licensePermission": 3001,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -969,6 +969,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "香取市",
+      "code": "122360",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "目黒区",
       "code": "131105",
       "years": 7,
@@ -1419,6 +1425,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "総社市",
+      "code": "332089",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "三原市",
       "code": "342041",
       "years": 7,
@@ -1493,6 +1505,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "太宰府市",
       "code": "402214",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "福津市",
+      "code": "402249",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1719,6 +1737,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "鯖江市",
+      "code": "182079",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "袋井市",
       "code": "222160",
       "years": 6,
@@ -1903,6 +1927,12 @@ export const ROADMAP_PROGRESS = {
       "code": "232297",
       "years": 5,
       "range": "R2〜R8（5年度）"
+    },
+    {
+      "name": "清須市",
+      "code": "232335",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
     },
     {
       "name": "大津市",

@@ -35725,6 +35725,36 @@
       "checkedAt": "2026-09-09T06:32:54.765Z"
     },
     {
+      "sourceId": "sabae-yosan-ippan-r7",
+      "url": "https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/Zaimu2025.files/R7Ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021184136/https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/Zaimu2025.files/R7Ippan.pdf",
+      "waybackTimestamp": "20261021184136",
+      "checkedAt": "2026-10-21T18:41:52.289Z",
+      "sha256Match": true,
+      "waybackBytes": 1647390,
+      "rawSha256": "3a46bcc46a7bd9ede69d450caa81570ca886c7084bb982ab37fee4c647e23c3a"
+    },
+    {
+      "sourceId": "sabae-yosan-ippan-r8",
+      "url": "https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/Zaimu20260319.files/R8Ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021184119/https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/Zaimu20260319.files/R8Ippan.pdf",
+      "waybackTimestamp": "20261021184119",
+      "checkedAt": "2026-10-21T18:41:32.438Z",
+      "sha256Match": true,
+      "waybackBytes": 1821288,
+      "rawSha256": "a483e3842b4a565bfc8399e21338cfdbdf1333c813191ee1124cb7ee7d2d0fb3"
+    },
+    {
+      "sourceId": "sabae-yosan-ippan-r8",
+      "url": "https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/Zaimu20260319.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260608115701/https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/Zaimu20260319.html",
+      "waybackTimestamp": "20260608115701",
+      "checkedAt": "2026-10-21T18:41:33.950Z"
+    },
+    {
       "sourceId": "saga-ken-yosansho-r8",
       "url": "https://www.pref.saga.lg.jp/kiji003117997/3_117997_up_6cba1aek.pdf",
       "kind": "file",
@@ -46614,6 +46644,82 @@
       "sha256Match": true,
       "waybackBytes": 8278213,
       "rawSha256": "805d4349264228f8f58ac26a2cacb83f97b6adade59e18ff88c642193bfdd46a"
+    },
+    {
+      "sourceId": "soja-yosan-gaiyou-r5",
+      "url": "https://www.city.soja.okayama.jp/life/6/35/159/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260512082110/https://www.city.soja.okayama.jp/life/6/35/159/",
+      "waybackTimestamp": "20260512082110",
+      "checkedAt": "2026-10-21T18:40:21.955Z"
+    },
+    {
+      "sourceId": "soja-yosan-gaiyou-r5",
+      "url": "https://www.city.soja.okayama.jp/uploaded/attachment/7895.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021184008/https://www.city.soja.okayama.jp/uploaded/attachment/7895.pdf",
+      "waybackTimestamp": "20261021184008",
+      "checkedAt": "2026-10-21T18:40:21.293Z",
+      "sha256Match": true,
+      "waybackBytes": 332938,
+      "rawSha256": "9bdfc685cfd1d19a168211c2499213830b746077b82644e3d408ebebebc25013"
+    },
+    {
+      "sourceId": "soja-yosan-gaiyou-r6",
+      "url": "https://www.city.soja.okayama.jp/life/6/35/159/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260512082110/https://www.city.soja.okayama.jp/life/6/35/159/",
+      "waybackTimestamp": "20260512082110",
+      "checkedAt": "2026-10-21T18:40:05.995Z"
+    },
+    {
+      "sourceId": "soja-yosan-gaiyou-r6",
+      "url": "https://www.city.soja.okayama.jp/uploaded/attachment/7847.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021183951/https://www.city.soja.okayama.jp/uploaded/attachment/7847.pdf",
+      "waybackTimestamp": "20261021183951",
+      "checkedAt": "2026-10-21T18:40:05.542Z",
+      "sha256Match": true,
+      "waybackBytes": 390698,
+      "rawSha256": "69adbac12f9aae7f8d27b240428c3fd29dde17c3145afedc5a9a25828d38f772"
+    },
+    {
+      "sourceId": "soja-yosan-gaiyou-r7",
+      "url": "https://www.city.soja.okayama.jp/life/6/35/159/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260512082110/https://www.city.soja.okayama.jp/life/6/35/159/",
+      "waybackTimestamp": "20260512082110",
+      "checkedAt": "2026-10-21T18:39:43.641Z"
+    },
+    {
+      "sourceId": "soja-yosan-gaiyou-r7",
+      "url": "https://www.city.soja.okayama.jp/uploaded/attachment/7820.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021183929/https://www.city.soja.okayama.jp/uploaded/attachment/7820.pdf",
+      "waybackTimestamp": "20261021183929",
+      "checkedAt": "2026-10-21T18:39:43.179Z",
+      "sha256Match": true,
+      "waybackBytes": 392649,
+      "rawSha256": "8949f019404e48a98886bf0d106215d164c4fdc5ba7da3fbe5d0268edba1f4f1"
+    },
+    {
+      "sourceId": "soja-yosan-gaiyou-r8",
+      "url": "https://www.city.soja.okayama.jp/life/6/35/159/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260512082110/https://www.city.soja.okayama.jp/life/6/35/159/",
+      "waybackTimestamp": "20260512082110",
+      "checkedAt": "2026-10-21T18:39:25.352Z"
+    },
+    {
+      "sourceId": "soja-yosan-gaiyou-r8",
+      "url": "https://www.city.soja.okayama.jp/uploaded/attachment/19981.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260225135903/https://www.city.soja.okayama.jp/uploaded/attachment/19981.pdf",
+      "waybackTimestamp": "20260225135903",
+      "checkedAt": "2026-10-21T18:39:24.733Z",
+      "sha256Match": true,
+      "waybackBytes": 412420,
+      "rawSha256": "160f4837a6f7e3317817d3c6d7dbda0d0abbc9e148d8d1b17082f372b8fbdd89"
     },
     {
       "sourceId": "soka-shigikai-r8",
