@@ -21481,6 +21481,17 @@
       "checkedAt": "2026-09-14T06:13:33.175Z"
     },
     {
+      "sourceId": "kunitachi-yosansho-r8",
+      "url": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R8_tousyo_ippankaikei.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260221004756/https://www.city.kunitachi.tokyo.jp/material/files/group/7/R8_tousyo_ippankaikei.pdf",
+      "waybackTimestamp": "20260221004756",
+      "checkedAt": "2026-10-21T16:58:03.649Z",
+      "sha256Match": true,
+      "waybackBytes": 2057875,
+      "rawSha256": "3207bf4e796921e9c2e13fa8ce232559aeaca0148823f56356f8b5acbaefb981"
+    },
+    {
       "sourceId": "kurashiki-shigikai-r8",
       "url": "https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/023/399/0318giannitiran.pdf",
       "kind": "file",
