@@ -1176,6 +1176,7 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.itami.lg.jp/SOSIKI/ZAISEIKIBAN/ZAISEI/ITAMI_ZAISEI/YOSAN/reiwa7nendoyosan/42737.html": "https://web.archive.org/web/20250811045621/https://www.city.itami.lg.jp/SOSIKI/ZAISEIKIBAN/ZAISEI/ITAMI_ZAISEI/YOSAN/reiwa7nendoyosan/42737.html",
   "https://www.city.itami.lg.jp/material/files/group/12/R8_yosan.pdf": "https://web.archive.org/web/20260902070555/https://www.city.itami.lg.jp/material/files/group/12/R8_yosan.pdf",
   "https://www.city.itami.lg.jp/SOSIKI/ZAISEIKIBAN/ZAISEI/ITAMI_ZAISEI/YOSAN/reiwa8nendo/47177.html": "https://web.archive.org/web/20260902070543/https://www.city.itami.lg.jp/SOSIKI/ZAISEIKIBAN/ZAISEI/ITAMI_ZAISEI/YOSAN/reiwa8nendo/47177.html",
+  "https://www.city.itoshima.lg.jp/s002/010/010/010/010/130/7yosangaiyo.pdf": "https://web.archive.org/web/20250225154442/https://www.city.itoshima.lg.jp/s002/010/010/010/010/130/7yosangaiyo.pdf",
   "https://www.city.iwaki.lg.jp/www/contents/1001000004918/simple/R8.2Tsanpi.pdf": "https://web.archive.org/web/20261001171236/https://www.city.iwaki.lg.jp/www/contents/1001000004918/simple/R8.2Tsanpi.pdf",
   "https://www.city.iwaki.lg.jp/www/contents/1001000004942/simple/R8.2giketsu.pdf": "https://web.archive.org/web/20261001183922/https://www.city.iwaki.lg.jp/www/contents/1001000004942/simple/R8.2giketsu.pdf",
   "https://www.city.iwaki.lg.jp/www/contents/1601452726278/index.html": "https://web.archive.org/web/20251115024710/https://www.city.iwaki.lg.jp/www/contents/1601452726278/index.html",

@@ -3567,6 +3567,17 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r2"] as const).map((fy) => ({
       srcId: `ashiya-yosansho-${fy}`, muniCode: "282065", muniName: "芦屋市", prefName: "兵庫県", isPref: false,
     })),
+    // ---- ライセンスの判断待ちで見送っていた市（2026-10-21・#293・§13-56） ----
+    // ⚠ 糸島の R5 の前年度列は R4（骨格）の6月補正後。R8 は当年度空欄の廃止款を含む
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `itoshima-yosan-gaiyou-${fy}`, muniCode: "402303", muniName: "糸島市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 飯田 R8・R7 は右の説明の列を CropX で落とす
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `iida-yosan-gaiyou-${fy}`, muniCode: "202053", muniName: "飯田市", prefName: "長野県", isPref: false,
+    })),
+    // ⚠ 筑紫野は R8 しかウェブに無い
+    { srcId: "chikushino-yosan-shiryo-r8", muniCode: "402176", muniName: "筑紫野市", prefName: "福岡県", isPref: false },
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

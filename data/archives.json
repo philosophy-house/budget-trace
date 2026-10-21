@@ -11730,6 +11730,17 @@
       "checkedAt": "2026-09-14T17:33:53.339Z"
     },
     {
+      "sourceId": "itoshima-yosan-gaiyou-r7",
+      "url": "https://www.city.itoshima.lg.jp/s002/010/010/010/010/130/7yosangaiyo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250225154442/https://www.city.itoshima.lg.jp/s002/010/010/010/010/130/7yosangaiyo.pdf",
+      "waybackTimestamp": "20250225154442",
+      "checkedAt": "2026-10-21T14:20:37.425Z",
+      "sha256Match": true,
+      "waybackBytes": 753987,
+      "rawSha256": "4a5d650194dafefc215f99e33211a36ec5ac246af0de71e5bc9896a1b3fcee65"
+    },
+    {
       "sourceId": "iwaki-shigikai-r8",
       "url": "https://www.city.iwaki.lg.jp/www/contents/1001000004918/simple/R8.2Tsanpi.pdf",
       "kind": "file",
