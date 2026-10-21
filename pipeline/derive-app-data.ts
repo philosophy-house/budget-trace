@@ -3589,6 +3589,29 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第77巡（2026-10-22・§13-85） ----
+    // ⚠ 愛西は R3 骨格で R4 に prevNote。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `aisai-yosansho-${fy}`, muniCode: "232327", muniName: "愛西市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 日田 R3 は議会修正＋スキャンで見送り。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `hita-yosan-gaiyou-${fy}`, muniCode: "442046", muniName: "日田市", prefName: "大分県", isPref: false,
+    })),
+    // ⚠ 天童は R8 が予算書・R7〜R5 が概要（R6 は WARP）。R4〜R2 は見送り
+    { srcId: "tendo-yosansho-r8", muniCode: "062103", muniName: "天童市", prefName: "山形県", isPref: false },
+    ...(["r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `tendo-yosan-gaiyou-${fy}`, muniCode: "062103", muniName: "天童市", prefName: "山形県", isPref: false,
+    })),
+    // ⚠ 丹波 R2 は WARP。ライセンスは license-no-grant.ts。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tamba-yosansho-${fy}`, muniCode: "282235", muniName: "丹波市", prefName: "兵庫県", isPref: false,
+    })),
+    // ⚠ 下野 R2 は当初予算資料（予算書の掲載なし）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `shimotsuke-yosansho-${fy}`, muniCode: "092169", muniName: "下野市", prefName: "栃木県", isPref: false,
+    })),
+    { srcId: "shimotsuke-yosan-shiryo-r2", muniCode: "092169", muniName: "下野市", prefName: "栃木県", isPref: false },
     // ---- 第76巡（2026-10-22・§13-84） ----
     // ⚠ 蓮田は R8〜R5 が予算書・R4〜R2 が予算の概要
     ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
