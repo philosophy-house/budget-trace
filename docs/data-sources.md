@@ -14813,4 +14813,5 @@ validate は全30ソースで error 0・warning 0。
 
 #### 魚拓（台帳 `data/archives.json` を sourceId で突合）
 
-（archive の実行後に追記）
+2026-10-22 に直列で1回実行した時点で、28ソース中 **7件が file の sha256 照合済み**（十和田 R8〜R4・R2・逗子 R8）、**5件は取得元が Wayback / WARP で台帳の対象外**（日向 R3・R2・十和田 R3・大阪狭山 R3・R2）、
+**16件が未登録**（逗子6・大阪狭山5・日向5。SPN が「Unable to connect」を返した）。次の巡の archive で再試行する。
