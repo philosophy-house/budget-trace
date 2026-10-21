@@ -3589,6 +3589,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第57巡（2026-10-22・§13-62） ----
+    // ⚠ 大和郡山は R8・R4 だけ（他はテキスト層の二重化・見開きの廃止款で #347）
+    ...(["r8", "r4"] as const).map((fy) => ({
+      srcId: `yamatokoriyama-yosan-setsumeisho-${fy}`, muniCode: "292036", muniName: "大和郡山市", prefName: "奈良県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `takayama-yosansho-${fy}`, muniCode: "212032", muniName: "高山市", prefName: "岐阜県", isPref: false,
+    })),
+    // ⚠ 長岡京は license-no-grant.ts で要許可・`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nagaokakyo-yosansho-${fy}`, muniCode: "262099", muniName: "長岡京市", prefName: "京都府", isPref: false,
+    })),
+    // ⚠ 狛江 R4〜R2 は WARP の総括表
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `komae-yosan-${fy}`, muniCode: "132195", muniName: "狛江市", prefName: "東京都", isPref: false,
+    })),
+    // ⚠ 近江八幡 R5 の前年度列は R4（骨格）の肉付け後。R3 は歳出総括の文字が取れず未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `omihachiman-yosansho-${fy}`, muniCode: "252042", muniName: "近江八幡市", prefName: "滋賀県", isPref: false,
+    })),
     // ---- 第56巡（2026-10-22・§13-61） ----
     // ⚠ 射水は款番号が `1款` 形式（`kanNamePrefixStrip`）・内訳行を `kanIndentMax` で外す（字下げは年度で違う）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

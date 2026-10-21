@@ -20989,6 +20989,180 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "「袋井市ホームページ」に掲載されている文章・写真・イラスト・画像などの著作権は、 袋井市またはコンテンツ提供者の方に帰属します。また、「袋井市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ページに記載されている担当課などへお問い合せ下さい。",
     "target": "file"
   },
+  "/sources/yamatokoriyama-yosan-setsumeisho-r8/zaisei_yosansetumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/zaisei_yosansetumeisyo.pdf",
+    "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
+    "target": "file"
+  },
+  "/sources/yamatokoriyama-yosan-setsumeisho-r4/zaisei_yosannsetumeisyo0504.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/zaisei_yosannsetumeisyo0504.pdf",
+    "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
+    "target": "file"
+  },
+  "/sources/takayama-yosansho-r8/r803_gi28gou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/023/213/r803_gi28gou.pdf",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "target": "file"
+  },
+  "/sources/takayama-yosansho-r7/070361_gi40gou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/021/593/070361_gi40gou.pdf",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "target": "file"
+  },
+  "/sources/takayama-yosansho-r6/060356_gi39gou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/019/489/060356_gi39gou.pdf",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "target": "file"
+  },
+  "/sources/takayama-yosansho-r5/050350_gi34gou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/017/881/050350_gi34gou.pdf",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "target": "file"
+  },
+  "/sources/takayama-yosansho-r4/040330_gi25gou_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/016/548/040330_gi25gou_2.pdf",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "target": "file"
+  },
+  "/sources/takayama-yosansho-r3/030339_gi29gou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/014/812/030339_gi29gou.pdf",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "target": "file"
+  },
+  "/sources/takayama-yosansho-r2/26gou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/011/771/26gou.pdf",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "target": "file"
+  },
+  "/sources/nagaokakyo-yosansho-r8/R8tousho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagaokakyo.lg.jp/0000015759.html",
+    "license": "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/nagaokakyo-yosansho-r7/R7tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagaokakyo.lg.jp/0000014870.html",
+    "license": "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/nagaokakyo-yosansho-r6/r6soukatsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagaokakyo.lg.jp/0000014119.html",
+    "license": "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/nagaokakyo-yosansho-r5/R5soukatsuhyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagaokakyo.lg.jp/0000013259.html",
+    "license": "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/nagaokakyo-yosansho-r4/R4soukatsuhyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagaokakyo.lg.jp/0000012274.html",
+    "license": "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/nagaokakyo-yosansho-r3/R3soukatsuhyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagaokakyo.lg.jp/0000010961.html",
+    "license": "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/nagaokakyo-yosansho-r2/R2soukatsuhyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagaokakyo.lg.jp/0000009604.html",
+    "license": "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/komae-yosan-r8/20260326-170920.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.komae.tokyo.jp/index.cfm/46,142125,c,html/142125/20260326-170920.pdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/komae-yosan-r7/20250325-175424.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.komae.tokyo.jp/index.cfm/46,136999,c,html/136999/20250325-175424.pdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/komae-yosan-r6/20240327-140202.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.komae.tokyo.jp/index.cfm/46,132059,c,html/132059/20240327-140202.pdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/komae-yosan-r5/20230327-165935.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.komae.tokyo.jp/index.cfm/46,126778,c,html/126778/20230327-165935.pdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/komae-yosan-r4/sainyuusaishutusoukatu.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220809/20220806220748/https://www.city.komae.tokyo.jp/index.cfm/46,16696,361,pdf/sainyuusaishutusoukatu%2Epdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/komae-yosan-r3/toukatsu.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220809/20220806220748/https://www.city.komae.tokyo.jp/index.cfm/46,16173,361,pdf/toukatsu%2Epdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/komae-yosan-r2/sainyu-saishutsu.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220809/20220806220748/https://www.city.komae.tokyo.jp/index.cfm/46,15748,361,pdf/sainyu%2Dsaishutsu%2Epdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/omihachiman-yosansho-r8/R8_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omihachiman.lg.jp/material/files/group/111/R8_ippan.pdf",
+    "license": "近江八幡市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、近江八幡市ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/omihachiman-yosansho-r7/R7_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omihachiman.lg.jp/material/files/group/111/R7_ippan.pdf",
+    "license": "近江八幡市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、近江八幡市ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/omihachiman-yosansho-r6/R6_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omihachiman.lg.jp/material/files/group/111/R6_ippan.pdf",
+    "license": "近江八幡市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、近江八幡市ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/omihachiman-yosansho-r5/R5_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omihachiman.lg.jp/material/files/group/111/R5_ippan.pdf",
+    "license": "近江八幡市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、近江八幡市ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/omihachiman-yosansho-r4/R4_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omihachiman.lg.jp/material/files/group/111/R4_ippan.pdf",
+    "license": "近江八幡市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、近江八幡市ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/omihachiman-yosansho-r2/R02_tousho_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omihachiman.lg.jp/material/files/group/111/R02_tousho_ippan.pdf",
+    "license": "近江八幡市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、近江八幡市ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
   "/sources/joetsu-yosan-gaiyou-r8/282463.pdf": {
     "mode": "origin",
     "href": "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf",
