@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 459,
+  "budgetCount": 464,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3400,
-  "fileCount": 5071,
-  "archivedCount": 2789,
+  "sourceCount": 3431,
+  "fileCount": 5102,
+  "archivedCount": 2791,
   "licenseOpen": 135,
-  "licensePermission": 3180,
+  "licensePermission": 3211,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1179,6 +1179,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "敦賀市",
+      "code": "182028",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "越前市",
       "code": "182095",
       "years": 7,
@@ -1253,6 +1259,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "可児市",
       "code": "212148",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "伊東市",
+      "code": "222089",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1989,6 +2001,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "佐伯市",
+      "code": "442054",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "都城市",
       "code": "452025",
       "years": 6,
@@ -2009,6 +2027,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "浦添市",
       "code": "472085",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "名護市",
+      "code": "472093",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -2149,6 +2173,12 @@ export const ROADMAP_PROGRESS = {
       "code": "392014",
       "years": 5,
       "range": "H30〜R8（5年度）"
+    },
+    {
+      "name": "玉名市",
+      "code": "432067",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
     },
     {
       "name": "姶良市",
