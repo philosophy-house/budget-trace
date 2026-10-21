@@ -3589,6 +3589,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第65巡（2026-10-22・§13-71） ----
+    // ⚠ 館林は R7 で `^の(増|減)$` が無いと款1 が `の増市税`。R6・R5 は歳出に stripChars
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tatebayashi-yosan-aramashi-${fy}`, muniCode: "102075", muniName: "館林市", prefName: "群馬県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nakatsugawa-yosansho-${fy}`, muniCode: "212067", muniName: "中津川市", prefName: "岐阜県", isPref: false,
+    })),
+    // ⚠ 城陽は R5 以外 decodeGarble。R3・R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `joyo-yosansho-${fy}`, muniCode: "262072", muniName: "城陽市", prefName: "京都府", isPref: false,
+    })),
+    // ⚠ 三木 R2 の前年度（H31）は議会修正の年（prevNote）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `miki-yosan-shiryou-${fy}`, muniCode: "282154", muniName: "三木市", prefName: "兵庫県", isPref: false,
+    })),
+    // ⚠ 須賀川は縦書きラベル「内訳」を stripChars で落とす
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sukagawa-yosan-gaiyou-${fy}`, muniCode: "072079", muniName: "須賀川市", prefName: "福島県", isPref: false,
+    })),
     // ---- 第63巡（2026-10-22・§13-69） ----
     // ⚠ 交野 R2 は decodeGarble が廃止款の印 × で止まる（#354）。`noDeepLink`
     ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
