@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 473,
+  "budgetCount": 478,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3492,
-  "fileCount": 5163,
-  "archivedCount": 2815,
+  "sourceCount": 3524,
+  "fileCount": 5195,
+  "archivedCount": 2819,
   "licenseOpen": 135,
-  "licensePermission": 3272,
+  "licensePermission": 3304,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -789,6 +789,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "多賀城市",
+      "code": "042099",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "登米市",
       "code": "042129",
       "years": 7,
@@ -905,6 +911,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "館林市",
       "code": "102075",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "藤岡市",
+      "code": "102091",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1383,8 +1395,20 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "みよし市",
+      "code": "232360",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "あま市",
       "code": "232378",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "長久手市",
+      "code": "232386",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2323,6 +2347,12 @@ export const ROADMAP_PROGRESS = {
       "code": "352021",
       "years": 4,
       "range": "R3〜R8（4年度）"
+    },
+    {
+      "name": "柳川市",
+      "code": "402079",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
     },
     {
       "name": "延岡市",

@@ -2398,4 +2398,14 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.kuriharacity.jp/li/030/040/001/020/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-84",
   },
+  {
+    // 柳川市（402079）R4〜R2。R8〜R5 は収録済み（§13-87）。
+    // 予算書 R4-tousyoyosannsyo.pdf（170p・18.9MB）・R3（41.9MB）・R2（16.0MB）は pdftotext でノンブルだけ（R4 は170字）。同じ年度の記者会見説明資料もスキャン（偵察）。
+    code: "402079", name: "柳川市", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書と記者会見説明資料が、どちらも紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.city.yanagawa.fukuoka.jp/shisei/zaisei/yosan.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-87",
+  },
 ];

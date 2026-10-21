@@ -4180,6 +4180,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `tsuruga-yosan-about-${fy}`, muniCode: "182028", muniName: "敦賀市", prefName: "福井県", isPref: false,
     })),
+    // ---- 第78巡（2026-10-22・§13-87）: 多賀城・藤岡・柳川・長久手・みよし ----
+    // ⚠ 多賀城は予算説明書（歳入編）の総括。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tagajo-yosansho-${fy}`, muniCode: "042099", muniName: "多賀城市", prefName: "宮城県", isPref: false,
+    })),
+    // ⚠ 藤岡 R3 は Wayback・R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fujioka-yosansho-${fy}`, muniCode: "102091", muniName: "藤岡市", prefName: "群馬県", isPref: false,
+    })),
+    // ⚠ 柳川は R5 から（R4〜R2 はスキャン）。R7 骨格で R8 に prevNote
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `yanagawa-yosansho-${fy}`, muniCode: "402079", muniName: "柳川市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 長久手は概要の比較表（revenueCropX）。R7 は議会修正後の概要。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nagakute-yosangaiyou-${fy}`, muniCode: "232386", muniName: "長久手市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ みよし R5〜R2 は予算説明書の側に総括
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `aichi-miyoshi-yosansho-${fy}`, muniCode: "232360", muniName: "みよし市", prefName: "愛知県", isPref: false,
+    })),
     // ---- 第75巡（2026-10-22・§13-83）: 日向・逗子・大阪狭山・十和田（美濃加茂は収録できず） ----
     // ⚠ 十和田は R8・R7 が横並び（CropX）・R6〜R2 が縦並び（samePage）。R3 は Wayback。ライセンスは台帳で要許可
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
