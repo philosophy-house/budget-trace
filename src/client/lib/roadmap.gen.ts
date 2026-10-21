@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 404,
+  "budgetCount": 409,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3053,
-  "fileCount": 4699,
-  "archivedCount": 2659,
+  "sourceCount": 3088,
+  "fileCount": 4737,
+  "archivedCount": 2674,
   "licenseOpen": 130,
-  "licensePermission": 2845,
+  "licensePermission": 2880,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -771,6 +771,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "登米市",
+      "code": "042129",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "横手市",
       "code": "052035",
       "years": 7,
@@ -809,6 +815,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "ひたちなか市",
       "code": "082210",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "守谷市",
+      "code": "082244",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -981,6 +993,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "武蔵村山市",
+      "code": "132233",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "稲城市",
       "code": "132250",
       "years": 7,
@@ -1145,6 +1163,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "瀬戸市",
       "code": "232041",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "犬山市",
+      "code": "232157",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1409,6 +1433,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "宗像市",
       "code": "402206",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "太宰府市",
+      "code": "402214",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },

@@ -3825,6 +3825,34 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `amakusa-yosansho-${fy}`, muniCode: "432156", muniName: "天草市", prefName: "熊本県", isPref: false,
     })),
+    // ---- 第66巡（2026-10-22・§13-72） ----
+    // ⚠ 登米は全年度「当初予算の概要」（R6 は予算書のテキスト層が議会修正前の原案）。R4・R3 は WARP。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tome-tousho-gaiyou-${fy}`, muniCode: "042129", muniName: "登米市", prefName: "宮城県", isPref: false,
+    })),
+    // ⚠ 太宰府は R8〜R4 が予算書、R3・R2 が説明資料
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `dazaifu-yosansho-${fy}`, muniCode: "402214", muniName: "太宰府市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r3", "r2"] as const).map((fy) => ({
+      srcId: `dazaifu-yosan-setsumei-${fy}`, muniCode: "402214", muniName: "太宰府市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 犬山は noDeepLink（リンク先はトップページに）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `inuyama-yosansho-${fy}`, muniCode: "232157", muniName: "犬山市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 守谷 R8 は全会計1冊（特別会計の総括と取り違えない）。R3 は decodeGarble
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `moriya-ippan-yosansho-${fy}`, muniCode: "082244", muniName: "守谷市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 武蔵村山は R8〜R6 一括 PDF・R5 説明資料・R4〜R2 分割ファイル（歳入・歳出が別ファイル）
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `musashimurayama-yosansho-${fy}`, muniCode: "132233", muniName: "武蔵村山市", prefName: "東京都", isPref: false,
+    })),
+    { srcId: "musashimurayama-yosan-setsumei-r5", muniCode: "132233", muniName: "武蔵村山市", prefName: "東京都", isPref: false },
+    ...(["r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `musashimurayama-yosansho-soukatsu-${fy}`, muniCode: "132233", muniName: "武蔵村山市", prefName: "東京都", isPref: false,
+    })),
     // ---- 第55巡（2026-10-22・§13-60） ----
     // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
