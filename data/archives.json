@@ -7643,6 +7643,25 @@
       "checkedAt": "2026-09-25T12:35:04.867Z"
     },
     {
+      "sourceId": "higashimatsuyama-yosan-soukatsu-r7",
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/4/41785.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260514202036/https://www.city.higashimatsuyama.lg.jp/soshiki/4/41785.html",
+      "waybackTimestamp": "20260514202036",
+      "checkedAt": "2026-10-21T16:09:02.036Z"
+    },
+    {
+      "sourceId": "higashimatsuyama-yosan-soukatsu-r7",
+      "url": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/14415.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250913230059/https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/14415.pdf",
+      "waybackTimestamp": "20250913230059",
+      "checkedAt": "2026-10-21T16:09:01.528Z",
+      "sha256Match": true,
+      "waybackBytes": 381314,
+      "rawSha256": "b5024d4292fd2406ebf8a4c5ed9dfe6faf89017bab24a86a04ff0c059cec4462"
+    },
+    {
       "sourceId": "higashimurayama-shigikai-r8",
       "url": "https://www.city.higashimurayama.tokyo.jp/gikai/katsudo/gikai_09_gian-kekka/r8/8-3shichougian.html",
       "kind": "file",
@@ -33917,6 +33936,44 @@
       "waybackUrl": "https://web.archive.org/web/20260927173528/https://www.city.sanda.lg.jp/soshiki/62/gyomu/gikai/2/shingi_kekka/reiwa8/34794.html",
       "waybackTimestamp": "20260927173528",
       "checkedAt": "2026-09-27T17:38:48.513Z"
+    },
+    {
+      "sourceId": "sanjo-yosan-gaiyou-r3",
+      "url": "https://www.city.sanjo.niigata.jp/material/files/group/6/R3yosanngaiyou_no2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20211027054512/https://www.city.sanjo.niigata.jp/material/files/group/6/R3yosanngaiyou_no2.pdf",
+      "waybackTimestamp": "20211027054512",
+      "checkedAt": "2026-10-21T16:10:23.636Z",
+      "sha256Match": true,
+      "waybackBytes": 930803,
+      "rawSha256": "90642f26ca5135968bc6c0e3755f7624fc37cdab1155667488298028abd583b5"
+    },
+    {
+      "sourceId": "sanjo-yosan-gaiyou-r3",
+      "url": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/3527.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260214171028/https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/3527.html",
+      "waybackTimestamp": "20260214171028",
+      "checkedAt": "2026-10-21T16:10:24.072Z"
+    },
+    {
+      "sourceId": "sanjo-yosan-gaiyou-r4",
+      "url": "https://www.city.sanjo.niigata.jp/material/files/group/6/R3yosangaiyou_no2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021161005/https://www.city.sanjo.niigata.jp/material/files/group/6/R3yosangaiyou_no2.pdf",
+      "waybackTimestamp": "20261021161005",
+      "checkedAt": "2026-10-21T16:10:21.090Z",
+      "sha256Match": true,
+      "waybackBytes": 942737,
+      "rawSha256": "4ce1189ca87270a4c5cb2f5e2486911661688f5f816f40f63cbd2f0587ebf46d"
+    },
+    {
+      "sourceId": "sanjo-yosan-gaiyou-r4",
+      "url": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/15072.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260214162747/https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/15072.html",
+      "waybackTimestamp": "20260214162747",
+      "checkedAt": "2026-10-21T16:10:21.525Z"
     },
     {
       "sourceId": "sano-yosan-kanbetsu-r2",

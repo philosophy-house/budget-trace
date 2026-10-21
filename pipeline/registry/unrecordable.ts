@@ -1868,12 +1868,12 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
   {
     // 北上市（032069）R6〜R2。R8・R7 は収録済み（§13-59）。
     // 予算書（R6 2024-01-01.pdf・R5 2023-01-01.pdf・R4 2022-0202.pdf・R3 r3ippann1.pdf・R2 r2ippan1.pdf）の総括 物理 p.15〜18 は pdftotext がノンブルだけ・pdfimages 0件（文字をアウトライン化）。
-    // 概要（予算（案）の概要）は歳入を「地方譲与税等※」の1行に集約（款2〜10・12 をまとめる・範囲は年度で違う）。
+    // 概要（予算（案）の概要）は歳入を「地方譲与税等※」の1行に集約（注記の内訳は地方譲与税・利子割交付金…と年度で並びが違う。R2 は自動車取得税交付金を含む）。
     code: "032069", name: "北上市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
     categories: ["broken-text-layer", "format-mismatch"],
     reason:
       "一般会計予算書のうち、款ごとの前年度比較が載る総括のページが文字を図形に変換した状態で作られていて、ページ番号のほかは文字として取り出せない（画像も入っていない）。" +
-      "予算（案）の概要にも款別の表はあるが、歳入の地方譲与税から地方特例交付金までの款を「地方譲与税等」の1行にまとめていて、款ごとの額が載っていない。",
+      "予算（案）の概要にも款別の表はあるが、歳入の地方譲与税や各種の交付金を「地方譲与税等」の1行にまとめていて、款ごとの額が載っていない。",
     url: "https://www.city.kitakami.iwate.jp/life/shisei/zaisei/yosan/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-59",
   },

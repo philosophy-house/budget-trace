@@ -24434,7 +24434,7 @@ export const SOURCES: SourceEntry[] = [
       expenditureHeaderExtra: "一般財源",
     },
   } satisfies SourceEntry)),
-  // 東松山市（埼玉県・団体コード 112127 ＝ 総務省 R6.json から実引き）。「一般会計予算説明書（事項別明細・総括）」（5ページの PDF）p.3（歳入）/ p.4（歳出）。千円。
+  // 東松山市（埼玉県・団体コード 112127 ＝ 総務省 R6.json から実引き）。「東松山市一般会計予算に関する説明書」の総括（5ページの PDF）p.3（歳入）/ p.4（歳出）。千円。
   //   列は 款|本年度予算額|前年度予算額|比較。歳入22款・歳出14款。物理 p.1 は表紙・p.2 は白紙・p.5 は財源内訳。総括の表紙に年度が無いので、
   //   同じ年度ページの予算書（第1条）の総額と照合した（R8 38,970,000・R7 38,290,000・R6 34,110,000・R5 33,220,000 で一致）。
   // ⚠ R4（1049.pdf）・R3（1031.pdf）はスキャン画像、R2 は WARP の写しもスキャン ⇒ unrecordable。
@@ -24452,7 +24452,7 @@ export const SOURCES: SourceEntry[] = [
     ["R5", "6539", "12693"],
   ] as const).map(([fy, att, page]) => ({
     id: `higashimatsuyama-yosan-soukatsu-${fy.toLowerCase()}`,
-    title: `${eraYear(fy)}年度 東松山市一般会計予算説明書（事項別明細・総括）`,
+    title: `${eraYear(fy)}年度 東松山市一般会計予算に関する説明書（歳入歳出予算事項別明細書 総括）`,
     publisher: "東松山市",
     url: `https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/${att}.pdf`,
     landingPage: `https://www.city.higashimatsuyama.lg.jp/soshiki/4/${page}.html`,
