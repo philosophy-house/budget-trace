@@ -4221,6 +4221,30 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hyuga-yosan-gaiyou-${fy}`, muniCode: "452068", muniName: "日向市", prefName: "宮崎県", isPref: false,
     })),
+    // ---- 第77巡（2026-10-22・§13-86）: 藤井寺・糸満・白井・大和高田・加賀 ----
+    // ⚠ 藤井寺 R6・R5 は予算書がスキャンで予算説明資料。R5・H31 骨格（R6・R2 に prevNote）
+    ...(["r8", "r7", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fujiidera-yosansho-${fy}`, muniCode: "272264", muniName: "藤井寺市", prefName: "大阪府", isPref: false,
+    })),
+    ...(["r6", "r5"] as const).map((fy) => ({
+      srcId: `fujiidera-yosan-setsumei-${fy}`, muniCode: "272264", muniName: "藤井寺市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 糸満は R8・R7 だけ（R6〜R2 は概要の歳出が性質別）。R7 の前年度は暫定予算を経た修正可決
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `itoman-yosansho-${fy}`, muniCode: "472107", muniName: "糸満市", prefName: "沖縄県", isPref: false,
+    })),
+    // ⚠ 白井 R3・R2 は全会計の合冊。HeaderExtra 必須
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiroi-yosansho-${fy}`, muniCode: "122327", muniName: "白井市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 大和高田 R7 は専決処分の当初予算。R5・H31 骨格（R6・R2 に prevNote）。R8 はスキャンで未収録。noDeepLink
+    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yamatotakada-yosan-gaiyou-${fy}`, muniCode: "292028", muniName: "大和高田市", prefName: "奈良県", isPref: false,
+    })),
+    // ⚠ 加賀は予算説明書（R3 だけページが1つ前）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaga-yosansho-${fy}`, muniCode: "172065", muniName: "加賀市", prefName: "石川県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

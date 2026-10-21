@@ -1108,6 +1108,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "292028": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "予算の概要・予算書・予算に関する説明書のどれもが紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "292036": {
     "budget": [
       {
@@ -1513,6 +1522,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "款別の対前年度比較表で、歳入の市債と歳入合計の額が、翌年度の資料の前年度の列（同じ年度の当初予算額）より90千円少ない（数字の並びが入れ替わった誤植とみられる）。この年度の予算書の総括は文字が正しく取り出せないため、比較表の数字を正しい額に置き換えてよいかを確かめてから収録する。",
         "checkedOn": "2026-09-26"
+      }
+    ]
+  },
+  "472107": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "この年度の予算書はウェブに掲載されておらず、掲載されている予算の概要の歳出は性質別（人件費・扶助費など）の表で、目的別（款別）の表が無い。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },

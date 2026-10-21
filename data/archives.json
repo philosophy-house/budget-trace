@@ -15166,6 +15166,44 @@
       "checkedAt": "2026-10-21T15:52:21.533Z"
     },
     {
+      "sourceId": "kaga-yosansho-r6",
+      "url": "https://www.city.kaga.ishikawa.jp/material/files/group/31/R6_tousyoyosansetumeisyo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021213037/https://www.city.kaga.ishikawa.jp/material/files/group/31/R6_tousyoyosansetumeisyo.pdf",
+      "waybackTimestamp": "20261021213037",
+      "checkedAt": "2026-10-21T21:30:59.674Z",
+      "sha256Match": true,
+      "waybackBytes": 3978320,
+      "rawSha256": "5a39a2fdaa934bc6a773b54dfa400ea0cbcab5510df7624732bdcd0a9e8921ce"
+    },
+    {
+      "sourceId": "kaga-yosansho-r6",
+      "url": "https://www.city.kaga.ishikawa.jp/soshiki/somu/zaisei/11/15_3/12005.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021213153/https://www.city.kaga.ishikawa.jp/soshiki/somu/zaisei/11/15_3/12005.html",
+      "waybackTimestamp": "20261021213153",
+      "checkedAt": "2026-10-21T21:32:20.004Z"
+    },
+    {
+      "sourceId": "kaga-yosansho-r7",
+      "url": "https://www.city.kaga.ishikawa.jp/material/files/group/31/R07yosansetsumeisyo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021212935/https://www.city.kaga.ishikawa.jp/material/files/group/31/R07yosansetsumeisyo.pdf",
+      "waybackTimestamp": "20261021212935",
+      "checkedAt": "2026-10-21T21:30:02.100Z",
+      "sha256Match": true,
+      "waybackBytes": 5683587,
+      "rawSha256": "2411f71da6522480e97f7e37cb63aeb6cdc94208f4b4daa09d444e7d3f4aa2b1"
+    },
+    {
+      "sourceId": "kaga-yosansho-r7",
+      "url": "https://www.city.kaga.ishikawa.jp/soshiki/somu/zaisei/11/15_4/13363.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021213007/https://www.city.kaga.ishikawa.jp/soshiki/somu/zaisei/11/15_4/13363.html",
+      "waybackTimestamp": "20261021213007",
+      "checkedAt": "2026-10-21T21:30:35.253Z"
+    },
+    {
       "sourceId": "kagawa-ken-zaisei-jijo-r8",
       "url": "https://www.pref.kagawa.lg.jp/documents/8155/157_01-14_r8toshogaiyo.pdf",
       "kind": "file",
