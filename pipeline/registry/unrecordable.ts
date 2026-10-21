@@ -1865,4 +1865,27 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://warp.ndl.go.jp/20191018/20191016211217/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-30-yosan-index.html",
     checkedOn: "2026-10-21", ref: "docs/data-sources.md §13-22",
   },
+  {
+    // 北上市（032069）R6〜R2。R8・R7 は収録済み（§13-60）。
+    // 予算書（R6 2024-01-01.pdf・R5 2023-01-01.pdf・R4 2022-0202.pdf・R3 r3ippann1.pdf・R2 r2ippan1.pdf）の総括 物理 p.15〜18 は pdftotext がノンブルだけ・pdfimages 0件（文字をアウトライン化）。
+    // 概要（予算（案）の概要）は歳入を「地方譲与税等※」の1行に集約（注記の内訳は地方譲与税・利子割交付金…と年度で並びが違う。R2 は自動車取得税交付金を含む）。
+    code: "032069", name: "北上市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "一般会計予算書のうち、款ごとの前年度比較が載る総括のページが文字を図形に変換した状態で作られていて、ページ番号のほかは文字として取り出せない（画像も入っていない）。" +
+      "予算（案）の概要にも款別の表はあるが、歳入の地方譲与税や各種の交付金を「地方譲与税等」の1行にまとめていて、款ごとの額が載っていない。",
+    url: "https://www.city.kitakami.iwate.jp/life/shisei/zaisei/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
+  },
+  {
+    // 東松山市（112127）R4〜R2。R8〜R5 は収録済み（§13-60）。
+    // 総括 R4 /uploaded/attachment/1049.pdf（フォント0・画像5）・R3 1031.pdf（文字はノンブルだけ・画像5）・R2 は WARP の 002_soukatsu.pdf（フォント0・画像5）。
+    code: "112127", name: "東松山市", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算説明書の総括（款ごとの前年度比較）が紙をスキャンした画像だけの PDF で、文字として取り出せない。" +
+      "令和2年度は市のサイトから消えていて、国立国会図書館の WARP に残る写しもスキャン画像。",
+    url: "https://www.city.higashimatsuyama.lg.jp/soshiki/4/1056.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
+  },
 ];

@@ -3629,6 +3629,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kadoma-yosansho-${fy}`, muniCode: "272230", muniName: "門真市", prefName: "大阪府", isPref: false,
     })),
+    // ---- 第55巡（2026-10-22・§13-60） ----
+    // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shibata-yosan-gaiyou-${fy}`, muniCode: "152064", muniName: "新発田市", prefName: "新潟県", isPref: false,
+    })),
+    // ⚠ 東松山は R8〜R5 だけ（R4〜R2 の総括はスキャン画像）
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `higashimatsuyama-yosan-soukatsu-${fy}`, muniCode: "112127", muniName: "東松山市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 三条 R4 のファイル名は R3yosangaiyou_no2.pdf（中身は R4）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sanjo-yosan-gaiyou-${fy}`, muniCode: "152048", muniName: "三条市", prefName: "新潟県", isPref: false,
+    })),
+    // ⚠ 北上は R8・R7 だけ（R6〜R2 の総括は文字がアウトライン化）。R5・H31 は骨格予算
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `kitakami-yosansho-${fy}`, muniCode: "032069", muniName: "北上市", prefName: "岩手県", isPref: false,
+    })),
+    // ⚠ 薩摩川内は歳出の財源内訳の列見出しが款1 に付く型（見出しと expenditureHeaderExtra の両方が要る）。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `satsumasendai-yosansho-${fy}`, muniCode: "462152", muniName: "薩摩川内市", prefName: "鹿児島県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
