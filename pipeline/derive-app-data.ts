@@ -10,7 +10,7 @@ import {
   validationResultSchema,
   type NormalizedMuniAccount,
 } from "./types";
-import type { CouncilCompositionDoc } from "./types";
+import type { CouncilCompositionDoc, SourceEntry } from "./types";
 import {
   DATA_DIR,
   normalizedPath,
@@ -21,6 +21,7 @@ import {
 } from "./lib/store";
 import { eraYear, fyRank, fySeq } from "./lib/fy";
 import { findSource, SOURCES } from "./registry/sources";
+import { NO_GRANT_LICENSES } from "./registry/license-no-grant";
 import { ROADMAP } from "./registry/roadmap";
 import { UNRECORDABLE, UNRECORDABLE_CATEGORIES } from "./registry/unrecordable";
 import { SKELETON_BUDGETS, type SkeletonBudget } from "./registry/skeleton-budgets";
@@ -152,7 +153,34 @@ const isArchiveUrl = (url: string): boolean => /^https?:\/\/(web\.archive\.org|w
 // ⚠ **`複製・転用` を読点の `複製、転用` にも広げた**（2026-10-07・酒田 §13-55）。原文「…著作権法で認められた場合を除き、複製、転用をすることはできません。」は
 //   多治見の「無断で複製、転用することはできません」と「無断」の有無しか違わない制限的な文言なのに、中黒の語彙に当たらず unverified に落ちていた。
 //   全 registry で区分が動くのは0件（実測・既存で `複製、転用` を含む原文は他の語でもう要許可に落ちている）。
-const licenseClassOf = (lic: string): "open" | "permission-required" | "unverified" =>
+// ⚠ **区分は `sourceLicenseClass(s)` で引く**（2026-10-21・#293）。`registry/license-no-grant.ts`（許諾の条項が無いと
+//   人が判断した原文の台帳）はここでは見ないので、`licenseClassOf(s.license)` を直接呼ぶと台帳が効かない。
+const NO_GRANT = new Set(NO_GRANT_LICENSES.map((l) => l.license));
+const sourceLicenseClass = (s: SourceEntry): "open" | "permission-required" | "unverified" => {
+  const byText = licenseClassOf(s.license);
+  if (!NO_GRANT.has(s.license)) return byText;
+  if (byText !== "unverified") {
+    throw new Error(
+      `${s.id}: license-no-grant.ts に載っている原文なのに、語彙だけで区分が "${byText}" になります。` +
+        (byText === "open"
+          ? "原文が open の語彙に当たる＝規約が割れています。原文を読み直して人が判断してください。"
+          : "語彙だけで要許可に落ちるので、台帳の行は要りません。外してください。"),
+    );
+  }
+  return "permission-required";
+};
+// 逆方向: 台帳の行がどの資料にも当たらない＝registry の原文が直されて台帳だけが残った（静かに開ける側へ戻る）
+{
+  const used = new Set(SOURCES.map((s) => s.license));
+  const stale = NO_GRANT_LICENSES.filter((l) => !used.has(l.license));
+  if (stale.length) {
+    throw new Error(
+      `license-no-grant.ts の ${stale.length} 行が registry のどの license とも一致しません（原文が直されたなら台帳も直す）:\n` +
+        stale.map((l) => `  ${l.who}: ${l.license.slice(0, 60)}`).join("\n"),
+    );
+  }
+}
+const licenseClassOf =(lic: string): "open" | "permission-required" | "unverified" =>
   /(?:許可|承諾|同意|許諾)を得(?:て|る)[^。]{0,20}必要|要許可|非営利|非商業|無断|複製[・、]転用|転載を禁止|使用を禁止|(?:転載|複製|二次利用|引用)[^。]{0,20}(?:禁じ|禁止)|(?:許可|承諾|同意)(?:・(?:許可|承諾|同意))?(?:なく(?!ても|とも)|を得(?:ず|ない|ないまま))[^。]{0,40}(?:できません|禁じ|禁止|お断り)/.test(lic)
     ? "permission-required"
   : /政府標準利用規約|公共データ利用規約|クリエイティブ・コモンズ|CC[ -]?BY/i.test(lic) ? "open"
@@ -1788,7 +1816,7 @@ export const WAYBACK_BY_URL: Record<string, string> = ${JSON.stringify(byUrl, nu
   let sourceCount = 0;
   for (const s of SOURCES) {
     if (s.fixture) continue;
-    if (licenseClassOf(s.license) !== "permission-required") continue;
+    if (sourceLicenseClass(s) !== "permission-required") continue;
     sourceCount++;
     const meta = readRawMeta(s.id);
     // registry 側の宛先（ファイル直リンク → ランディングページ）。fetchedFrom が使えないときの控え
@@ -4335,7 +4363,7 @@ export const BUDGET_DETAIL: Record<string, BudgetDetailYear[]> = ${JSON.stringif
     return {
       sourceId: s.id, title: s.title, publisher: s.publisher, fiscalYear: s.fiscalYear, kind: s.kind,
       used,
-      license: s.license, licenseClass: licenseClassOf(s.license),
+      license: s.license, licenseClass: sourceLicenseClass(s),
       originUrl, landingPage: s.landingPage ?? null, files,
       archived: arch.length > 0 || isArchiveOrigin,
       archiveOrigin: isArchiveOrigin,
