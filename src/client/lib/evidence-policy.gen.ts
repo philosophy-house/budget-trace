@@ -22699,6 +22699,216 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイト上の文書、画像、レイアウト、デザイン等に関する著作権は、すべて坂東市に帰属しています。ただし、外部委託先の制作による一部の著作権など、坂東市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越しいただいた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。",
     "target": "page"
   },
+  "/sources/fuchu-hiroshima-yosan-gaiyou-r8/31589.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.fuchu.hiroshima.jp/site/finance/54383.html",
+    "license": "「府中町ウェブサイト」（以下、当サイトといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として府中町に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当サイトに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、府中町の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/fuchu-hiroshima-yosan-gaiyou-r7/28820.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.fuchu.hiroshima.jp/site/finance/49445.html",
+    "license": "「府中町ウェブサイト」（以下、当サイトといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として府中町に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当サイトに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、府中町の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/fuchu-hiroshima-yosan-gaiyou-r6/26377.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.fuchu.hiroshima.jp/site/finance/45057.html",
+    "license": "「府中町ウェブサイト」（以下、当サイトといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として府中町に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当サイトに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、府中町の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/fuchu-hiroshima-yosan-gaiyou-r5/23899.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.fuchu.hiroshima.jp/site/finance/40684.html",
+    "license": "「府中町ウェブサイト」（以下、当サイトといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として府中町に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当サイトに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、府中町の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/fuchu-hiroshima-yosan-satei-r4/20665.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.fuchu.hiroshima.jp/site/finance/32498.html",
+    "license": "「府中町ウェブサイト」（以下、当サイトといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として府中町に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当サイトに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、府中町の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/fuchu-hiroshima-yosan-satei-r3/17220.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.fuchu.hiroshima.jp/site/finance/27643.html",
+    "license": "「府中町ウェブサイト」（以下、当サイトといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として府中町に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当サイトに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、府中町の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/fuchu-hiroshima-yosan-satei-r2/13982.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.fuchu.hiroshima.jp/site/finance/21289.html",
+    "license": "「府中町ウェブサイト」（以下、当サイトといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として府中町に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当サイトに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、府中町の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/shiogama-tosho-hikaku-r8/28436.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/28436.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r8/28437.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/28437.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r7/28449.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/28449.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r7/28450.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/28450.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r6/22948.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/22948.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r6/22949.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/22949.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r5/20084.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/20084.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r5/20085.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/20085.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r4/17367.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/17367.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r4/17368.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/17368.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r3/14458.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/14458.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r3/14459.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/14459.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r2/11270.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/11270.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shiogama-tosho-hikaku-r2/11271.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/11271.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/imari-yosansho-r8/01_R8ippan_1soukatu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imari.lg.jp/secure/37403/01_R8ippan_1soukatu.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は伊万里市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/imari-yosansho-r7/01_R7ippan_1soukatu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imari.lg.jp/secure/35330/01_R7ippan_1soukatu.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は伊万里市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/imari-yosansho-r6/01_R06ippan_1soukatsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imari.lg.jp/secure/32820/01_R06ippan_1soukatsu.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は伊万里市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/imari-yosansho-r5/01_R05ippan_1soukatsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imari.lg.jp/secure/30861/01_R05ippan_1soukatsu.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は伊万里市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/imari-yosansho-r4/01_R04ippan_1soukatsu..pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imari.lg.jp/secure/27890/01_R04ippan_1soukatsu..pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は伊万里市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/imari-yosansho-r3/01_R03ippan_1soukatsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imari.lg.jp/secure/25020/01_R03ippan_1soukatsu.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は伊万里市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/imari-yosansho-r2/01_R02ippan_1soukatsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imari.lg.jp/secure/22674/01_R02ippan_1soukatsu.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は伊万里市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/mutsu-kakukaikei-yosan-r8/R8_kakukaikeiyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/R8_kakukaikeiyosan.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
+  "/sources/mutsu-kakukaikei-yosan-r7/r7yosan03.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/r7yosan03.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
+  "/sources/mutsu-kakukaikei-yosan-r6/r6yossan03.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/r6yossan03.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
+  "/sources/mutsu-kakukaikei-yosan-r5/R5kakukaikeiyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/R5kakukaikeiyosan.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
+  "/sources/mutsu-kakukaikei-yosan-r4/r4yosan3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/r4yosan3.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
+  "/sources/mutsu-kakukaikei-yosan-r3/r3yosan3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/r3yosan3.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
+  "/sources/mutsu-kakukaikei-yosan-r2/20200316-094812.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20200405/20200404013538/http://www.city.mutsu.lg.jp/index.cfm/13,81971,c,html/81971/20200316-094812.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
   "/sources/joetsu-yosan-gaiyou-r8/282463.pdf": {
     "mode": "origin",
     "href": "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf",

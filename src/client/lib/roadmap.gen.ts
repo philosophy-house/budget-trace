@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 526,
+  "budgetCount": 530,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3821,
-  "fileCount": 5492,
-  "archivedCount": 2935,
+  "sourceCount": 3849,
+  "fileCount": 5527,
+  "archivedCount": 2937,
   "licenseOpen": 135,
-  "licensePermission": 3601,
+  "licensePermission": 3629,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -789,6 +789,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "むつ市",
+      "code": "022080",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "一関市",
       "code": "032093",
       "years": 7,
@@ -797,6 +803,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "奥州市",
       "code": "032158",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "塩竈市",
+      "code": "042030",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1773,6 +1785,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "府中町",
+      "code": "343021",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "山陽小野田市",
       "code": "352161",
       "years": 7,
@@ -1889,6 +1907,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "鳥栖市",
       "code": "412031",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "伊万里市",
+      "code": "412058",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },

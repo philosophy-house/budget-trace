@@ -479,6 +479,14 @@ const MINAMIUONUMA_LICENSE =
   "南魚沼市ウェブサイトに掲載されている文章、写真などに関する著作権は原則として南魚沼市に帰属しています。ただし、一部の写真の著作権などについては原著作者が所有しています。南魚沼市ウェブサイトの全部もしくは一部について、「私的使用のための複製」や、「引用」など著作権法上認められた場合を除き、南魚沼市に無断で複製・転用することはできません。南魚沼市ウェブサイトの掲載コンテンツを複製・転用する場合は、必ず事前に各ページを所管する各担当課にご相談ください。";
 const BANDO_LICENSE =
   "本サイト上の文書、画像、レイアウト、デザイン等に関する著作権は、すべて坂東市に帰属しています。ただし、外部委託先の制作による一部の著作権など、坂東市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越しいただいた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。";
+const FUCHU_HIROSHIMA_LICENSE =
+  "「府中町ウェブサイト」（以下、当サイトといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として府中町に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当サイトに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、府中町の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。";
+const SHIOGAMA_LICENSE =
+  "本サイトに掲載の文章、画像などの著作権は、塩竈市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。";
+const IMARI_LICENSE =
+  "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は伊万里市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。";
+const MUTSU_LICENSE =
+  "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。";
 const JOETSU_LICENSE =
   "上越市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、上越市に帰属します。また一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書、画像などの無断使用・転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越えて、当ホームページの情報の使用を希望する場合は事前に広報対話課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。";
 const CHITOSE_LICENSE =
@@ -26284,6 +26292,208 @@ export const SOURCES: SourceEntry[] = [
       revenueTotalLabel: "合計",
       expenditureTotalLabel: "合計",
       revenueHeaderExtra: "一般会計予算の概要",
+    },
+  } satisfies SourceEntry)),
+  // ---- 第85巡（2026-10-22・§13-97）: 府中町・塩竈・伊万里・むつ（宇佐は見送り） ----
+  // 府中町（広島県安芸郡・団体コード 343021 ＝ 総務省 R6.json から実引き。東京都府中市 132063・広島県府中市とは別団体）。千円。歳入21款（R2 は廃止款を含め22）・歳出13款（款6 は `農林業費`）。
+  //   R8〜R5: 「各会計歳入歳出予算の概要」の「（２）歳入集計表」「（２）目的別集計表」（R8・R7 は p.4/7、R6・R5 は p.5/8）。
+  // ⚠ R8 だけ合計行の構成比が整数 `100`（R7〜R5 は `100.0`）⇒ totalAmountIntIndex・totalPrevIntIndex が無いと前年度合計を 100 と読む（warning 止まり）。
+  //   R4〜R2: 年度ページに PDF が無く（HTML の款別表だけ・億万千円表記）、「当初予算編成過程の公表」の「一般会計（款別）」査定状況 PDF（千円・歳入/歳出が左右に並ぶ・
+  //   列は [前年度当初, 当年度査定額, 増減]）を使う。査定額は同じ年度ページの HTML 表（「令和N年度予算」）と当年度・前年度とも全款一致し、翌年度の前年度列とも全款一致（偵察）。
+  // ⚠ 査定 PDF は expenditureHeaderExtra の `現在】` が無いと日付行が款として混入（Σ で捕まる）、R2 は `査定額` が無いと `査定額町税`（Σ 差0）。
+  // 前年度列は当初（R8→R2 の6組で款単位全一致）。骨格予算: 0件（町長選は5月だが R2・R6 の当初は通常規模で骨格の語なし）。議会修正: 原典に修正の語0件。
+  // 総額突合: R6 当初 20,396,895 ÷ 総務省 R6 決算歳出 22,207,395 = 91.8%。
+  // ライセンス: 「リンク・著作権・免責事項」（/site/userguide/3524.html）＝`無断` で要許可。
+  //   リンク「…ただし、リンク設定はトップページ（…）へお願いします。他のページへのリンクは、予告なくアドレスが変更になる可能性がありますのでご遠慮ください。」⇒ `noDeepLink`。
+  // ⚠ 主な事業（R8・R7 の「主要事業一覧」・款は縦書き・前年度なし・国保・介護・下水道を含む）は別の巡（docs §13-97）。事業報告はウェブ未掲載。
+  ...([
+    ["R8", "31589", "54383", 4, 7],
+    ["R7", "28820", "49445", 4, 7],
+    ["R6", "26377", "45057", 5, 8],
+    ["R5", "23899", "40684", 5, 8],
+  ] as const).map(([fy, att, page, rp, ep]) => ({
+    id: `fuchu-hiroshima-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 府中町各会計歳入歳出予算の概要（歳入集計表・目的別集計表）`,
+    publisher: "府中町",
+    url: `https://www.town.fuchu.hiroshima.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: `https://www.town.fuchu.hiroshima.jp/site/finance/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "府中町（一般会計・団体コード343021）",
+    license: FUCHU_HIROSHIMA_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: ep,
+      revenueHeading: "歳入集計表",
+      expenditureHeading: "目的別集計表",
+      revenueTotalLabel: "合計",
+      expenditureTotalLabel: "合計",
+      ...(fy === "R8" ? { totalAmountIntIndex: 0, totalPrevIntIndex: 2 } : {}),
+    },
+  } satisfies SourceEntry)),
+  ...([
+    ["R4", "20665", "32498", "当初予算査定状況"],
+    ["R3", "17220", "27643", "一般会計（款別）"],
+    ["R2", "13982", "21289", "一般会計（款別）"],
+  ] as const).map(([fy, att, page, label]) => ({
+    id: `fuchu-hiroshima-yosan-satei-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 府中町当初予算編成過程の公表（${label}）`,
+    publisher: "府中町",
+    url: `https://www.town.fuchu.hiroshima.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: `https://www.town.fuchu.hiroshima.jp/site/finance/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "府中町（一般会計・団体コード343021）",
+    license: FUCHU_HIROSHIMA_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 1,
+      expenditurePage: 1,
+      revenueCropX: { from: 0, to: 430 },
+      expenditureCropX: { from: 430, to: 842 },
+      revenueHeading: "歳入",
+      expenditureHeading: "歳出",
+      revenueTotalLabel: "合計",
+      expenditureTotalLabel: "合計",
+      prevColumnFirst: true,
+      kanNoless: true,
+      revenueHeaderExtra: "査定額",
+      expenditureHeaderExtra: "現在】|査定額",
+    },
+  } satisfies SourceEntry)),
+  // 宇佐市（大分県・442119）は見送り（docs §13-97）: 歳入のゴルフ場利用税交付金の折返し行で、金額行の先頭の数字が款番号に読まれる（パーサの改修が要る）。
+  // 塩竈市（宮城県・団体コード 042030 ＝ 総務省 R6.json から実引き）。財政課「予算の概要」の年度ページの「一般会計当初予算 歳入対前年度比較表」「対前年度歳出目的別比較表」
+  //   （各1ページの別ファイル・千円）。歳入22款（R2 は廃止款を含め23）・歳出14款。表に市名は無い（総額が同じページの概要・総括表と一致・備考の固有名で同定）。
+  // ⚠⚠ 右端の「備考」列を CropX で切らないと、歳出は Σ 差0 のまま款名に事業名が連結する。増減率列まで落とさないと「相手側が1千円」の皆増・皆減の行
+  //   （R8 自動車税環境性能割交付金 1/17,000 皆減など）で当年度を0と読む。crop は前年度構成比列と増減率列のすき間（年度ごとに用紙が違う・偵察が bbox で実測）。
+  // ⚠ 見出しは左上の「令和N年度一般会計当初予算」（右側の表題は crop で切れる）。
+  // 前年度列は当初（R2→R8 の6リンクで款単位全一致）。骨格予算: R5（R5 概要「令和５年度当初予算は、「骨格予算」としています。」）⇒ R6 に prevNote。
+  // 総額突合: R6 当初 25,170,000 ÷ 総務省 R6 決算歳出 29,665,963 = 84.8%（R6 は補正6回）。
+  // ライセンス: 「リンク・著作権・免責事項」（/site/userguide/7348.html）＝`無断` で要許可。
+  //   リンク「本サイトへのリンクは自由ですが、リンクはトップページ（…）への設定をお願いします。トップページ以外に設定された場合は、…ご了承ください。」（三木・奥州と同型）⇒ 立てない。
+  // ⚠ 主な事業（概要の「◇主な事業◇」・款と前年度なし）は別の巡（docs §13-97）。事業報告はウェブ未掲載。
+  ...([
+    ["R8", "28436", "28437", "56967", 500, 490],
+    ["R7", "28449", "28450", "51410", 360, 348],
+    ["R6", "22948", "22949", "44689", 360, 348],
+    ["R5", "20084", "20085", "37494", 500, 502],
+    ["R4", "17367", "17368", "29781", 400, 405],
+    ["R3", "14458", "14459", "21442", 399, 405],
+    ["R2", "11270", "11271", "11401", 352, 360],
+  ] as const).map(([fy, rev, exp, page, rx, ex]) => ({
+    id: `shiogama-tosho-hikaku-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 塩竈市一般会計当初予算 歳入対前年度比較表・対前年度歳出目的別比較表`,
+    publisher: "塩竈市",
+    url: null,
+    urls: [
+      `https://www.city.shiogama.miyagi.jp/uploaded/attachment/${rev}.pdf`,
+      `https://www.city.shiogama.miyagi.jp/uploaded/attachment/${exp}.pdf`,
+    ],
+    landingPage: `https://www.city.shiogama.miyagi.jp/soshiki/7/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "塩竈市（一般会計・団体コード042030）",
+    license: SHIOGAMA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenueFile: `${rev}.pdf`,
+      expenditureFile: `${exp}.pdf`,
+      revenuePage: 1,
+      expenditurePage: 1,
+      revenueHeading: "一般会計当初予算",
+      expenditureHeading: "一般会計当初予算",
+      revenueCropX: { from: 0, to: rx },
+      expenditureCropX: { from: 0, to: ex },
+      ...(fy === "R6"
+        ? { prevNote: "前年度（令和5年度）の当初予算は骨格予算だった（「令和５年度一般会計・特別会計当初予算概要」に「令和５年度当初予算は、「骨格予算」としています。」）。前年度の額はその当初予算の額で、補正で肉付けした後の額ではない。" }
+        : {}),
+    },
+  } satisfies SourceEntry)),
+  // 伊万里市（佐賀県・団体コード 412058 ＝ 総務省 R6.json から実引き）。予算説明書の分冊「歳入歳出予算事項別明細書 １ 総括」（4ページ）の物理 p.2（歳入）/ p.3（歳出）。千円。
+  //   歳入21款（R2 は廃止款を含め22）・歳出14款。見出しは歳入が「総括」（「歳入」だと表題に当たる）、歳出が「歳出」。分冊の PDF に「伊万里」の文字は無い（年度ページで担保）。
+  // ⚠ R3・R5 は ToUnicode 欠落 ⇒ decodeGarble。R5 は印字ノンブル（－ 29 －）が別の帯（+0x80）と ᴪ(U+1D2A) で化ける ⇒ decodeGarbleBand 0x80 と、復号表に `ᴪ` を「－」で足した
+  //   （真の字は R4・R6 の同じ位置の「－」）。
+  // ⚠⚠ 骨格予算は R8・R4（市長改選・skeleton-budgets.ts）。R5 の前年度列は R4 の骨格の当初額（27,700,000）⇒ R5 に prevNote。
+  //   （R5 の概要書の比較は「令和4年度6月補正後」29,523,554 との比較なので主資料にしない）
+  // 前年度列は当初（R8→R2 の6リンクで款単位全一致・第1号補正の補正前の額も7年度とも当初総額と一致）。
+  // 総額突合: R6 当初 34,252,000 ÷ 総務省 R6 決算歳出 36,153,575 = 94.7%。
+  // ライセンス: 「免責事項・著作権」（/1084.htm）＝`無断` で要許可。オープンデータ（CC BY 4.0）は「下記リンク先で公開しているデータ」（統計伊万里3件）に限る。
+  //   リンク（/1085.htm）「…原則として当サイトトップページ（…）へのリンク設定をお願いします。…当サイトへのリンクは原則として自由ですので、…」（白岡・湖西と同型）⇒ 立てない。
+  // ⚠ 主な事業（概要書の「事業概要（一般会計）」・款見出しつき・前年度なし）と事業報告（主要な施策の成果に関する説明書 R1〜R7・1事業1ページ・款項目と事務事業コード）は別の巡（docs §13-97）。
+  ...([
+    ["R8", "37403/01_R8ippan_1soukatu.pdf", "25892"],
+    ["R7", "35330/01_R7ippan_1soukatu.pdf", "24484"],
+    ["R6", "32820/01_R06ippan_1soukatsu.pdf", "22855"],
+    ["R5", "30861/01_R05ippan_1soukatsu.pdf", "21518"],
+    ["R4", "27890/01_R04ippan_1soukatsu..pdf", "19509"],
+    ["R3", "25020/01_R03ippan_1soukatsu.pdf", "17606"],
+    ["R2", "22674/01_R02ippan_1soukatsu.pdf", "16282"],
+  ] as const).map(([fy, path, landing]) => ({
+    id: `imari-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 伊万里市一般会計予算説明書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "伊万里市",
+    url: `https://www.city.imari.lg.jp/secure/${path}`,
+    landingPage: `https://www.city.imari.lg.jp/${landing}.htm`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "伊万里市（一般会計・団体コード412058）",
+    license: IMARI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 2,
+      expenditurePage: 3,
+      revenueHeading: "総括",
+      expenditureHeading: "歳出",
+      ...(fy === "R3" ? { decodeGarble: true } : {}),
+      ...(fy === "R5"
+        ? {
+            decodeGarble: true,
+            decodeGarbleBand: { revenue: 0x80, expenditure: 0x80 },
+            prevNote: "前年度（令和4年度）の当初予算は骨格予算だった（「令和4年度当初予算の概要」に「令和４年度は市長改選の年であるため、当初予算については、主に扶助費や公債費、維持補修費などの義務的経費や経常的経費を計上し、…必要最小限の事業を選択し、予算の編成を行いました。」）。前年度の額はその当初予算の額で、補正で肉付けした後の額ではない。",
+          }
+        : {}),
+    },
+  } satisfies SourceEntry)),
+  // むつ市（青森県・団体コード 022080 ＝ 総務省 R6.json から実引き）。「むつ市各会計予算」のうち「令和N年度 むつ市一般会計予算（前年度対比表）」歳入 p.6・歳出 p.7（全7年度とも物理ページ同じ）。千円。
+  //   歳入21款（R2 は廃止款を含め22）・歳出13款（災害復旧費の款は無い）。合計ラベルは既定。
+  // ⚠⚠ 歳入の款5 は `株式等譲渡所得割` / `5.`（款番号だけの行）/ `交付金` / 金額行 の4行組で、`5.` のピリオドのせいで款番号単独行の分岐に入らず款5 が丸ごと落ちる（Σ で捕まる）
+  //   ⇒ `stripChars: { revenue: "." }`（増減率・構成比の小数が整数になるが、使うのは先頭2整数なので影響なし・7年度とも Σ 差0）。
+  // ⚠⚠ 款9 `国有提供施設等所在` / `市町村助成交付金` の下段が款10 に漏れて `市町村助成交付金地方特例交付金`（Σ 差0）⇒ `kanNameContinues`。
+  // ⚠ R3・R2 は `（歳 入）`/`（歳 出）` の行が無いので、両側とも `（前年度対比表）` を見出しにする。
+  // ⚠ R2 は現行サイトから消えていて（旧 CMS）Wayback にも無く、WARP にだけある。
+  // 前年度列は当初（R8→R2 の6組で款単位全一致）。骨格予算・議会修正: 成立ページと PDF に0件。
+  // 総額突合: R6 当初 40,051,000 ÷ 総務省 R6 決算歳出 41,482,132 = 96.6%。
+  // ライセンス: 著作権情報（/siteinformation/chosakuken.html）＝「権利者の許可なく使用・転載・二次利用することを禁止します」で要許可。リンク条項はサイトに無い ⇒ 立てない。
+  // ⚠ 主な事業（当初予算（概要）の「主な重点事業一覧」・款と前年度なし）と事業報告（主要施策の実績報告書・5分冊）は別の巡（docs §13-97）。
+  ...([
+    ["R8", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/R8_kakukaikeiyosan.pdf", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/2026-0331-1009-29.html"],
+    ["R7", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/r7yosan03.pdf", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/r7yosan.html"],
+    ["R6", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/r6yossan03.pdf", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/r6yosan.html"],
+    ["R5", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/R5kakukaikeiyosan.pdf", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/r5yosan.html"],
+    ["R4", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/r4yosan3.pdf", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/r4yosan.html"],
+    ["R3", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/files/r3yosan3.pdf", "https://www.city.mutsu.lg.jp/government/gyosei/zaisei/r3yosan.html"],
+    ["R2", "https://warp.ndl.go.jp/20200405/20200404013538/http://www.city.mutsu.lg.jp/index.cfm/13,81971,c,html/81971/20200316-094812.pdf", "https://warp.ndl.go.jp/20200405/20200404013538/https://www.city.mutsu.lg.jp/index.cfm/13,81971,15,292,html"],
+  ] as const).map(([fy, url, landingPage]) => ({
+    id: `mutsu-kakukaikei-yosan-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 むつ市各会計予算（一般会計予算 前年度対比表）`,
+    publisher: "むつ市",
+    url,
+    landingPage,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "むつ市（一般会計・団体コード022080）",
+    license: MUTSU_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 6,
+      expenditurePage: 7,
+      revenueHeading: "（前年度対比表）",
+      expenditureHeading: "（前年度対比表）",
+      kanNameContinues: { revenue: [9] },
+      stripChars: { revenue: "." },
     },
   } satisfies SourceEntry)),
   // 上越市（新潟県・団体コード 152226 ＝ 総務省 R6.json から実引き）。財政課「当初予算の概要」の「● 一般会計 歳入」「● 一般会計 歳出（目的別）」。千円。

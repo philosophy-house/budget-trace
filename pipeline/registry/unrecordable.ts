@@ -2648,4 +2648,16 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.takizawa.iwate.jp/about-takizawa/soshiki-gaiyo/zaisei-gaiyo/contents-2269",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
   },
+  {
+    // 宇佐市（442119）R8〜R2。1年度も収録できていない（§13-97）。
+    // 「当初予算（一般会計）の概要」p.4 歳入・p.5 歳出（目的別）は7年度とも同じ様式・テキスト層あり。歳出は CropX と kanNoless で Σ 差0（偵察）。
+    // 歳入の「ゴルフ場利用税交付金」は款名が2行に折り返し、金額が名前欄の空いた別行に来る（`200   134   66   49.3`）。当年度額にカンマが無いので
+    // kanNoless でも行頭の数字が款番号に読まれて1列ずれ、全年度で歳入の Σ が割れる。amountTypos での回避は採らない（原典の誤植ではない）。
+    code: "442119", name: "宇佐市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の歳入の表のうち、ゴルフ場利用税交付金の行は款名が2行に折り返して金額が別の行に来るため、こちらの抽出処理では金額の先頭の数字を款の番号と取り違え、歳入の合計が合わなくなる。原典の表は健全。",
+    url: "https://www.city.usa.oita.jp/sougo/soshiki/10/gyozaiseikeiei/2/1_2/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-97",
+  },
 ];

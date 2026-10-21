@@ -535,6 +535,7 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.eniwa.hokkaido.jp/material/files/group/7/yosangaiyor6.pdf": "https://web.archive.org/web/20250908141212/https://www.city.eniwa.hokkaido.jp/material/files/group/7/yosangaiyor6.pdf",
   "https://www.city.eniwa.hokkaido.jp/material/files/group/7/R7_yosannnogaiyou.pdf": "https://web.archive.org/web/20250909074916/https://www.city.eniwa.hokkaido.jp/material/files/group/7/R7_yosannnogaiyou.pdf",
   "https://www.city.eniwa.hokkaido.jp/material/files/group/7/R8_yosannnogaiyou.pdf": "https://web.archive.org/web/20261021182521/https://www.city.eniwa.hokkaido.jp/material/files/group/7/R8_yosannnogaiyou.pdf",
+  "https://www.town.fuchu.hiroshima.jp/uploaded/attachment/31589.pdf": "https://web.archive.org/web/20261021225632/https://www.town.fuchu.hiroshima.jp/uploaded/attachment/31589.pdf",
   "https://www.city.fuchu.tokyo.jp/gikai/dayori/backnumber/reiwa8/329.files/fuchu-shigikaidayori_329.pdf": "https://web.archive.org/web/20261009000938/https://www.city.fuchu.tokyo.jp/gikai/dayori/backnumber/reiwa8/329.files/fuchu-shigikaidayori_329.pdf",
   "https://www.city.fuchu.tokyo.jp/gikai/member/kaiha.html": "https://web.archive.org/web/20261009001311/https://www.city.fuchu.tokyo.jp/gikai/member/kaiha.html",
   "https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html": "https://web.archive.org/web/20261009001126/https://www.city.fuchu.tokyo.jp/gikai/shingi/naiyo/r8dai1kaigiketukekka.html",
