@@ -1,0 +1,194 @@
+{
+  "docType": "council-composition",
+  "sourceId": "osaka-fu-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T14:46:44.753Z",
+  "fiscalYear": "R8",
+  "body": "大阪府議会",
+  "seats": 79,
+  "asOf": "2026-03-09",
+  "factions": [
+    {
+      "name": "大阪維新の会大阪府議会議員団",
+      "seats": 53,
+      "isIndependent": false,
+      "members": [
+        "久谷眞敬",
+        "魚森ゴータロー",
+        "橋本ゆうと",
+        "坂上敏也",
+        "横倉廉幸",
+        "三田勝久",
+        "金城克典",
+        "和田賢治",
+        "中川誠太",
+        "山下昌彦",
+        "森田彩音",
+        "角谷庄一",
+        "くすのき好美",
+        "紀田馨",
+        "徳村さとる",
+        "置田浩之",
+        "永井公大",
+        "河崎大樹",
+        "富田武彦",
+        "岩木均",
+        "中川あきひと",
+        "奥村ユキエ",
+        "中野稔子",
+        "三橋弘幸",
+        "西林克敏",
+        "いらはら勉",
+        "前田将臣",
+        "木下昌久",
+        "植田正裕",
+        "浦本ともえ",
+        "杉江友介",
+        "大橋一功",
+        "市來隼",
+        "中川剛",
+        "坂元正幸",
+        "岩本ゆうすけ",
+        "岡沢龍一",
+        "大野ちかこ",
+        "前田洋輔",
+        "日根野谷和人",
+        "鈴木憲",
+        "上田健二",
+        "山本真吾",
+        "土井一慶",
+        "森和臣",
+        "堀江ゆう",
+        "中谷恭典",
+        "西元宗一",
+        "泰江まさき",
+        "西野弘一",
+        "広野瑞穂",
+        "渡辺ひでつな",
+        "みよしかおる"
+      ],
+      "locator": {
+        "file": "0802giin.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党大阪府議会議員団",
+      "seats": 14,
+      "isIndependent": false,
+      "members": [
+        "川岡栄一",
+        "加治木一彦",
+        "横道淳子",
+        "藤村昌隆",
+        "垣見大志朗",
+        "八重樫善幸",
+        "大竹いずみ",
+        "吉田忠則",
+        "大橋章夫",
+        "中野剛",
+        "堀川裕子",
+        "肥後洋一朗",
+        "内海久子",
+        "山下浩昭"
+      ],
+      "locator": {
+        "file": "0802giin.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "自由民主党大阪府議会議員団",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "しかた松男",
+        "中井もとき",
+        "うらべ走馬",
+        "須田旭",
+        "杉本太平",
+        "由井聖太"
+      ],
+      "locator": {
+        "file": "0802giin.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "民主ネット大阪府議会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "野々上愛",
+        "山田けんた"
+      ],
+      "locator": {
+        "file": "0802giin.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党大阪府議会議員団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "石川たえ"
+      ],
+      "locator": {
+        "file": "0802giin.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "大阪なにわの和",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "笹川理"
+      ],
+      "locator": {
+        "file": "0802giin.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "おおさか未来プロジェクト",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "道端俊彦"
+      ],
+      "locator": {
+        "file": "0802giin.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "せっつ府民の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森西正"
+      ],
+      "locator": {
+        "file": "0802giin.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "1",
+    "billName": "令和８年度大阪府一般会計予算の件",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gian0802_1.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和8年2月定例会）（令和8年3月9日現在）",
+  "resultTitle": "令和8年2月定例会 提出議案・議決結果"
+}

@@ -1,0 +1,137 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kishiwada-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T14:46:44.871Z",
+  "fiscalYear": "R8",
+  "body": "岸和田市議会",
+  "seats": 23,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "南加代子",
+        "友永修",
+        "桑原佳一",
+        "岩崎雅秋",
+        "米田貴志",
+        "松本妙子"
+      ],
+      "locator": {
+        "file": "r8-1giketukekka.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "海老原友子",
+        "田中市子",
+        "中井良介",
+        "岸田厚"
+      ],
+      "locator": {
+        "file": "r8-1giketukekka.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "無所属フォーラム",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "昼馬光一",
+        "宇野真悟",
+        "井舎英生"
+      ],
+      "locator": {
+        "file": "r8-1giketukekka.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "にじの会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "高比良正明",
+        "河合達雄",
+        "殿本マリ子"
+      ],
+      "locator": {
+        "file": "r8-1giketukekka.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "きしわだ未来",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小西拓槙",
+        "反甫旭",
+        "烏野隆生"
+      ],
+      "locator": {
+        "file": "r8-1giketukekka.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "次世代政策会議",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "西田武史",
+        "京西且哲"
+      ],
+      "locator": {
+        "file": "r8-1giketukekka.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無所属クラブ1（中岡佐織）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中岡佐織"
+      ],
+      "locator": {
+        "file": "r8-1giketukekka.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無所属クラブ2（藤原豊和）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "藤原豊和"
+      ],
+      "locator": {
+        "file": "r8-1giketukekka.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第24号",
+    "billName": "令和8年度岸和田市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "r8-1giketukekka.html"
+    }
+  },
+  "rosterTitle": "令和8年第1回定例会議決結果（議員の賛否一覧・会派名の列）",
+  "resultTitle": "令和8年第1回定例会議決結果"
+}

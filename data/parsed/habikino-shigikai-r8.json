@@ -1,0 +1,112 @@
+{
+  "docType": "council-composition",
+  "sourceId": "habikino-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T14:46:48.639Z",
+  "fiscalYear": "R8",
+  "body": "羽曳野市議会",
+  "seats": 18,
+  "asOf": "2026-03-30",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "大阪維新の会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "沼元さえか",
+        "清水ひでただ",
+        "まりやま百合子",
+        "大坪正尚",
+        "阪本菜津代",
+        "百谷孝浩"
+      ],
+      "locator": {
+        "file": "081giketukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "自由民主党・もっと羽曳野議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "阪倉禎明",
+        "黒川実",
+        "田中もとかず"
+      ],
+      "locator": {
+        "file": "081giketukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "外園康裕",
+        "通堂義弘",
+        "古澤悟"
+      ],
+      "locator": {
+        "file": "081giketukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "石田幸平",
+        "南玲",
+        "笹井喜世子"
+      ],
+      "locator": {
+        "file": "081giketukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "樽井佳代子",
+        "花川雅昭"
+      ],
+      "locator": {
+        "file": "081giketukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "会派に属さない議員（麻野彰子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "麻野彰子"
+      ],
+      "locator": {
+        "file": "081giketukekka.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "19",
+    "billName": "令和８年度羽曳野市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "原案可決",
+    "locator": {
+      "file": "081giketukekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "令和８年３月定例会で審議された案件と議決結果（議案等に対する各議員の状況）の会派別の列見出し",
+  "resultTitle": "令和８年３月定例会で審議された案件と議決結果"
+}

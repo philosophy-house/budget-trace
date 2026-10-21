@@ -1,0 +1,121 @@
+{
+  "docType": "council-composition",
+  "sourceId": "daito-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T14:46:47.715Z",
+  "fiscalYear": "R8",
+  "body": "大東市議会",
+  "seats": 17,
+  "asOf": "2026-03-24",
+  "teisu": 17,
+  "factions": [
+    {
+      "name": "公明党議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "あずま健太郎",
+        "杉本みゆき",
+        "酒井一樹",
+        "おおつか真司"
+      ],
+      "locator": {
+        "file": "Kh133_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "大阪維新の会大東市議会議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "安田恵子",
+        "田中大貴",
+        "児玉亮",
+        "中村晴樹"
+      ],
+      "locator": {
+        "file": "Kh133_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "次世代だいとう",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小南いちお",
+        "品川大介",
+        "みずおち康一郎"
+      ],
+      "locator": {
+        "file": "Kh133_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "天野一之",
+        "あらさき美枝"
+      ],
+      "locator": {
+        "file": "Kh133_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "二人会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "光城敏雄",
+        "澤田貞良"
+      ],
+      "locator": {
+        "file": "Kh133_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "無会派（木田伸幸）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "木田伸幸"
+      ],
+      "locator": {
+        "file": "Kh133_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "無会派（北村哲夫）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "北村哲夫"
+      ],
+      "locator": {
+        "file": "Kh133_1.pdf",
+        "page": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第14号",
+    "billName": "令和8年度大東市一般会計予算",
+    "sessionLabel": "令和8年3月定例月議会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "修正可決(賛成多数)",
+    "locator": {
+      "file": "g07_giketsu.asp.html"
+    }
+  },
+  "rosterTitle": "だいとうし議会だより130号（令和8年3月定例月議会号）付議された議案の審議結果",
+  "resultTitle": "大東市議会 議決結果（令和8年3月定例月議会）"
+}

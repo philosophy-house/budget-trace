@@ -1,0 +1,153 @@
+{
+  "docType": "council-composition",
+  "sourceId": "higashiosaka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T14:46:48.947Z",
+  "fiscalYear": "R8",
+  "body": "東大阪市議会",
+  "seats": 38,
+  "asOf": "2025-11-07",
+  "teisu": 38,
+  "factions": [
+    {
+      "name": "大阪維新の会東大阪市議団",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "森脇啓司",
+        "岸本光生",
+        "河村明",
+        "横山幹祐",
+        "那須宏幸",
+        "小間祐貴",
+        "阪本満華",
+        "井越智嘉代",
+        "高橋正子",
+        "中原健氏",
+        "森田典博"
+      ],
+      "locator": {
+        "file": "Kh112_232.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "東大阪市議会公明党議員団",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "山﨑毅海",
+        "菱田英継",
+        "十鳥雅雄",
+        "松尾武",
+        "安田秀夫",
+        "馬場徳子",
+        "伊計大樹",
+        "米満綾子",
+        "福元清文",
+        "松川啓子"
+      ],
+      "locator": {
+        "file": "Kh112_232.pdf",
+        "row": 2
+      }
+    },
+    {
+      "name": "自由民主党東大阪議員団",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "鳥居善太郎",
+        "右近徳博",
+        "川口泰弘",
+        "木村芳浩",
+        "横田信一",
+        "浅川拓郎",
+        "西村潤也",
+        "岡修一郎"
+      ],
+      "locator": {
+        "file": "Kh112_232.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "日本共産党東大阪市会議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "塩田清人",
+        "長岡嘉一",
+        "上原賢作",
+        "嶋倉久美子",
+        "神野淳一"
+      ],
+      "locator": {
+        "file": "Kh112_232.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "照隅の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中西進泰"
+      ],
+      "locator": {
+        "file": "Kh112_232.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "東大阪翔の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "野田彰子"
+      ],
+      "locator": {
+        "file": "Kh112_232.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "れいわ新選組東大阪勇愛会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "伊藤勇樹"
+      ],
+      "locator": {
+        "file": "Kh112_232.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "吉村太貴"
+      ],
+      "locator": {
+        "file": "Kh112_232.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第36号",
+    "billName": "令和８年度東大阪市一般会計予算",
+    "sessionLabel": "令和８年２月 第１回定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "修正可決（起立多数）",
+    "locator": {
+      "file": "g07_giketsu.asp.html"
+    }
+  },
+  "rosterTitle": "東大阪市議会だより第232号（令和8年1月1日発行）会派別議員一覧（令和７年１１月７日現在）",
+  "resultTitle": "議案一覧表（令和８年２月 第１回定例会）"
+}

@@ -1,0 +1,19 @@
+{
+  "sourceId": "kishiwada-shigikai-r8",
+  "files": [
+    {
+      "filename": "r8-1giketukekka.html",
+      "sha256": "f641e9505d9badc79593efecff53627c563776f3a39b37ac2eb3de058d802b98",
+      "bytes": 57475,
+      "fetchedAt": "2026-10-21T14:46:16.273Z",
+      "fetchedFrom": "https://www.city.kishiwada.lg.jp/site/gikai/r8-1giketukekka.html"
+    },
+    {
+      "filename": "aramasi.html",
+      "sha256": "408073f87b2509ee768745eb6be9ec4a1b26bc6e53568a65ce293835143bb1da",
+      "bytes": 35523,
+      "fetchedAt": "2026-10-21T14:46:16.274Z",
+      "fetchedFrom": "https://www.city.kishiwada.lg.jp/site/gikai/aramasi.html"
+    }
+  ]
+}

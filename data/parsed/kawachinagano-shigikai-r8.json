@@ -1,0 +1,201 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kawachinagano-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T14:46:46.772Z",
+  "fiscalYear": "R8",
+  "body": "河内長野市議会",
+  "seats": 16,
+  "asOf": "2026-03-26",
+  "factions": [
+    {
+      "name": "自民党・市民クラブ・無所属議員の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "奥村亮",
+        "堀川和彦",
+        "土井昭",
+        "峯満寿人",
+        "桂聖"
+      ],
+      "locator": {
+        "file": "128186_370701_misc.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "奥井良一",
+        "浦山宣之",
+        "三島克則",
+        "大原一郎"
+      ],
+      "locator": {
+        "file": "128186_370701_misc.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "林史隆",
+        "吉竹英行",
+        "若林靖"
+      ],
+      "locator": {
+        "file": "128186_370701_misc.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "駄場中大介",
+        "宮本哲",
+        "丹羽実"
+      ],
+      "locator": {
+        "file": "128186_370701_misc.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "会派に所属しない（工藤敬子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "工藤敬子"
+      ],
+      "locator": {
+        "file": "128186_370701_misc.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２８号",
+    "billName": "令和８年度河内長野市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "122030_347939_misc.pdf",
+      "page": 4
+    }
+  },
+  "rosterTitle": "市議会だより No.272（令和8年6月1日発行）議案等に対する各議員の態度（令和8年3月定例会）",
+  "resultTitle": "令和８年３月定例会 審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "市議会だより No.272 議案等に対する各議員の態度（全会一致でない議案等の賛否）",
+    "sourceFile": "128186_370701_misc.pdf",
+    "columns": [
+      {
+        "label": "奥村亮",
+        "faction": "自民党・市民クラブ・無所属議員の会",
+        "member": "奥村亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀川和彦",
+        "faction": "自民党・市民クラブ・無所属議員の会",
+        "member": "堀川和彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "土井昭",
+        "faction": "自民党・市民クラブ・無所属議員の会",
+        "member": "土井昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "峯満寿人",
+        "faction": "自民党・市民クラブ・無所属議員の会",
+        "member": "峯満寿人",
+        "stance": "賛成"
+      },
+      {
+        "label": "桂聖",
+        "faction": "自民党・市民クラブ・無所属議員の会",
+        "member": "桂聖",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥井良一",
+        "faction": "公明党",
+        "member": "奥井良一",
+        "stance": "賛成"
+      },
+      {
+        "label": "浦山宣之",
+        "faction": "公明党",
+        "member": "浦山宣之",
+        "stance": "賛成"
+      },
+      {
+        "label": "三島克則",
+        "faction": "公明党",
+        "member": "三島克則",
+        "stance": "賛成"
+      },
+      {
+        "label": "林史隆",
+        "faction": "大阪維新の会",
+        "member": "林史隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉竹英行",
+        "faction": "大阪維新の会",
+        "member": "吉竹英行",
+        "stance": "賛成"
+      },
+      {
+        "label": "若林靖",
+        "faction": "大阪維新の会",
+        "member": "若林靖",
+        "stance": "賛成"
+      },
+      {
+        "label": "駄場中大介",
+        "faction": "日本共産党",
+        "member": "駄場中大介",
+        "stance": "反対"
+      },
+      {
+        "label": "宮本哲",
+        "faction": "日本共産党",
+        "member": "宮本哲",
+        "stance": "反対"
+      },
+      {
+        "label": "丹羽実",
+        "faction": "日本共産党",
+        "member": "丹羽実",
+        "stance": "反対"
+      },
+      {
+        "label": "工藤敬子",
+        "faction": "会派に所属しない（工藤敬子）",
+        "member": "工藤敬子",
+        "stance": "賛成"
+      },
+      {
+        "label": "大原一郎",
+        "faction": "公明党",
+        "member": "大原一郎",
+        "stance": "議長"
+      }
+    ]
+  }
+}

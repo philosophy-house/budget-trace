@@ -1,0 +1,101 @@
+{
+  "docType": "council-composition",
+  "sourceId": "matsubara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T14:46:47.297Z",
+  "fiscalYear": "R8",
+  "body": "松原市議会",
+  "seats": 18,
+  "asOf": "2026-03-26",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "太田和之",
+        "藤林伸一",
+        "依田眞美子",
+        "河内徹"
+      ],
+      "locator": {
+        "file": "_____5___No.205_HP_rr____.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "池田幸則",
+        "植松栄次",
+        "野口真知子",
+        "森田夏江"
+      ],
+      "locator": {
+        "file": "_____5___No.205_HP_rr____.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "まつばら未来",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "井上彰人",
+        "篠本雄嗣",
+        "松井育人",
+        "橋本邦寿"
+      ],
+      "locator": {
+        "file": "_____5___No.205_HP_rr____.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "自由民主党・無所属の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "村川航介",
+        "中田靖人",
+        "河本晋一",
+        "池内秀仁"
+      ],
+      "locator": {
+        "file": "_____5___No.205_HP_rr____.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "久保貴作",
+        "鍋谷悟"
+      ],
+      "locator": {
+        "file": "_____5___No.205_HP_rr____.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第４号",
+    "billName": "令和８年度松原市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "____________HP__.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "松原市議会だより No.205 令和8年第1回定例会 議案と結果（賛否が分かれた議案の結果）",
+  "resultTitle": "付議事件議決顛末一覧表（令和８年第１回定例会）"
+}

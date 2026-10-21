@@ -1,0 +1,101 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tondabayashi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T14:46:46.224Z",
+  "fiscalYear": "R8",
+  "body": "富田林市議会",
+  "seats": 18,
+  "asOf": "2026-03-24",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "遠藤智子",
+        "村山理恵",
+        "堀辺まゆみ",
+        "草尾勝司"
+      ],
+      "locator": {
+        "file": "113665.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "とんだばやし未来",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "尾崎哲哉",
+        "南齋哲平",
+        "辰巳真司"
+      ],
+      "locator": {
+        "file": "113665.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "伊東寛光",
+        "酒本千紘",
+        "寺内裕介"
+      ],
+      "locator": {
+        "file": "113665.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "自民・笑顔の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "南方泉",
+        "今城克久",
+        "西川宏"
+      ],
+      "locator": {
+        "file": "113665.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "岩﨑哲也",
+        "山本剛史",
+        "寺尾千秋",
+        "坂口真紀",
+        "京谷精久"
+      ],
+      "locator": {
+        "file": "113665.pdf",
+        "page": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２４号",
+    "billName": "令和８年度大阪府富田林市一般会計予算",
+    "sessionLabel": "令和８年第１回（３月）富田林市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "112421.pdf",
+      "page": 4
+    }
+  },
+  "rosterTitle": "とんだばやし議会だより No.266 3月定例会号 令和8年第1回（3月）定例会 議案に対する賛否一覧表",
+  "resultTitle": "令和８年第１回（３月）富田林市議会定例会 結果"
+}
