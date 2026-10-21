@@ -3,10 +3,10 @@
 // 一次資料の元 URL → Wayback Machine スナップショット URL
 
 export const WAYBACK_BY_URL: Record<string, string> = {
-  "https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html": "https://web.archive.org/web/20260124120524/https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html",
+  "https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html": "https://web.archive.org/web/20261021005717/https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html",
   "https://www.city.abiko.chiba.jp/shisei/shigikai/gikaidayori.files/237gou1-4men.pdf": "https://web.archive.org/web/20260710202300/http://www.city.abiko.chiba.jp/shisei/shigikai/gikaidayori.files/237gou1-4men.pdf",
   "https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/kakonosaiketsu/index.files/saiketsukekkaR8.3.sai.pdf": "https://web.archive.org/web/20261021004052/https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/kakonosaiketsu/index.files/saiketsukekkaR8.3.sai.pdf",
-  "https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/r8dai1kai3gatsu/r8-3kaikinittei.html": "https://web.archive.org/web/20260516175734/http://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/r8dai1kai3gatsu/r8-3kaikinittei.html",
+  "https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/r8dai1kai3gatsu/r8-3kaikinittei.html": "https://web.archive.org/web/20261021005910/https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/r8dai1kai3gatsu/r8-3kaikinittei.html",
   "https://www.city.abiko.chiba.jp/shisei/zaisei/yosansho/R5tousyoyosann.html": "https://web.archive.org/web/20260511180317/https://www.city.abiko.chiba.jp/shisei/zaisei/yosansho/R5tousyoyosann.html",
   "https://www.city.abiko.chiba.jp/shisei/zaisei/yosansho/R6tousho.html": "https://web.archive.org/web/20260518095709/https://www.city.abiko.chiba.jp/shisei/zaisei/yosansho/R6tousho.html",
   "https://www.city.abiko.chiba.jp/shisei/zaisei/yosansho/R7tousho.html": "https://web.archive.org/web/20260615114138/https://www.city.abiko.chiba.jp/shisei/zaisei/yosansho/R7tousho.html",

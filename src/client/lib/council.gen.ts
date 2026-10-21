@@ -7173,7 +7173,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "議員名簿（会派別）（令和8年2月17日現在）",
         "localUrl": "/sources/abiko-shigikai-r8/kaiha.html",
         "originUrl": "https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html",
-        "archiveUrl": "https://web.archive.org/web/20260124120524/https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html"
+        "archiveUrl": "https://web.archive.org/web/20261021005717/https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html"
       },
       "result": {
         "title": "あびこ議会だより No.237（令和８年第１回定例会（３月議会）・令和８年５月１日発行）",
