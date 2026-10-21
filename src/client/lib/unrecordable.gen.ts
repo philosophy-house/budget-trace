@@ -481,7 +481,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       },
       {
         "fyLabel": "令和3年度・令和2年度",
-        "reason": "市のサイトに当初予算の資料が残っておらず、インターネットアーカイブにも見当たらない。国立国会図書館の WARP には保存されているが、館内でしか閲覧できない。",
+        "reason": "市のサイトに当初予算の資料が残っておらず、インターネットアーカイブにも見当たらない。国立国会図書館の WARP では、この市のサイトは館内でしか閲覧できない。",
         "checkedOn": "2026-10-22"
       }
     ]

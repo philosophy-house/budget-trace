@@ -1973,7 +1973,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["no-material"],
     reason:
       "市のサイトに当初予算の資料が残っておらず、インターネットアーカイブにも見当たらない。" +
-      "国立国会図書館の WARP には保存されているが、館内でしか閲覧できない。",
+      "国立国会図書館の WARP では、この市のサイトは館内でしか閲覧できない。",
     url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
