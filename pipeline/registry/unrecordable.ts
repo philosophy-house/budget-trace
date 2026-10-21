@@ -2049,7 +2049,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["broken-text-layer"],
     reason:
       "一般会計予算書の総括のページの文字が別の字に化けている（令和4年度は款の名前の漢字が抜け落ち、令和2年度はこちらの復号の対応表に無い字を含む）。款の名前を確かめられないので収録しない。",
-    url: "https://warp.ndl.go.jp/20231005/20231004012958/https://www.city.muroran.lg.jp/main/org2300/documents/01_r4_ippankaikei.pdf",
+    url: "https://www.city.muroran.lg.jp/administration/?content=1921",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
   },
   {
