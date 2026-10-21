@@ -3873,6 +3873,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `musashimurayama-yosansho-soukatsu-${fy}`, muniCode: "132233", muniName: "武蔵村山市", prefName: "東京都", isPref: false,
     })),
+    // ---- 第68巡（2026-10-22・§13-74） ----
+    // ⚠ 恵庭は予算の概要（予算書はアウトライン化）。歳出は prevIntIndex 3。R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `eniwa-yosan-gaiyou-${fy}`, muniCode: "012319", muniName: "恵庭市", prefName: "北海道", isPref: false,
+    })),
+    // ⚠ 栗東は予算のすがた（dashAsZero）。R2 は廃止款の行が読めず未収録。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `ritto-yosan-no-sugata-${fy}`, muniCode: "252085", muniName: "栗東市", prefName: "滋賀県", isPref: false,
+    })),
+    // ⚠ 由利本荘は R7・R3 骨格（R8・R4 に prevNote）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yurihonjo-yosansho-${fy}`, muniCode: "052108", muniName: "由利本荘市", prefName: "秋田県", isPref: false,
+    })),
+    // ⚠ 石岡 R2 は修正前の原案しか無く未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `ishioka-yosansho-soukatsu-${fy}`, muniCode: "082058", muniName: "石岡市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 鶴ヶ島 R3 はスキャンで未収録。R2 は予算概要（歳入・歳出が別ファイル）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `tsurugashima-yosansho-${fy}`, muniCode: "112411", muniName: "鶴ケ島市", prefName: "埼玉県", isPref: false,
+    })),
+    { srcId: "tsurugashima-yosan-gaiyou-r2", muniCode: "112411", muniName: "鶴ケ島市", prefName: "埼玉県", isPref: false },
     // ---- 第55巡（2026-10-22・§13-60） ----
     // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
