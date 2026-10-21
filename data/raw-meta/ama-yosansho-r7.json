@@ -1,0 +1,12 @@
+{
+  "sourceId": "ama-yosansho-r7",
+  "files": [
+    {
+      "filename": "ippan.pdf",
+      "sha256": "5fb75f1772ec3f78b36bb1c4a376dd5bfb47309b46561ddaf0c84225ae7fa6be",
+      "bytes": 2724491,
+      "fetchedAt": "2026-10-21T15:53:22.299Z",
+      "fetchedFrom": "https://www.city.ama.aichi.jp/_res/projects/default_project/_page_/001/010/167/ippan.pdf"
+    }
+  ]
+}
