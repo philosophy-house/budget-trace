@@ -4159,6 +4159,23 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hyuga-yosan-gaiyou-${fy}`, muniCode: "452068", muniName: "日向市", prefName: "宮崎県", isPref: false,
     })),
+    // ---- 第OO巡（2026-10-22・§13-OO）: 湖西・秩父・石狩・下松（白河は収録できず） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kosai-yosan-gaiyou-${fy}`, muniCode: "222216", muniName: "湖西市", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 秩父 R3 だけ1ページ縦積み・款番号なし
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chichibu-kanbetsu-hikaku-${fy}`, muniCode: "112071", muniName: "秩父市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 石狩 R6・R2 の前年度列は肉付補正後（prevBasis 補正後）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ishikari-yosan-shiryou-${fy}`, muniCode: "012351", muniName: "石狩市", prefName: "北海道", isPref: false,
+    })),
+    // ⚠ 下松 R8〜R4 は見開きの説明資料（列指定必須）・R3 は予算書。R2 は未収録。noDeepLink。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `kudamatsu-yosan-setsumei-${fy}`, muniCode: "352071", muniName: "下松市", prefName: "山口県", isPref: false,
+    })),
+    { srcId: "kudamatsu-yosansho-r3", muniCode: "352071", muniName: "下松市", prefName: "山口県", isPref: false },
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

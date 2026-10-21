@@ -1,0 +1,424 @@
+{
+  "docType": "budget-book",
+  "sourceId": "chichibu-kanbetsu-hikaku-r5",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T21:33:46.130Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R5",
+  "account": "一般会計",
+  "revenueTotal": 29670000,
+  "expenditureTotal": 29670000,
+  "prevRevenueTotal": 28050000,
+  "prevExpenditureTotal": 28050000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 8623180,
+      "prevAmount": 8515612,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 290916,
+      "prevAmount": 295988,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 4000,
+      "prevAmount": 6700,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 19000,
+      "prevAmount": 11000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 8800,
+      "prevAmount": 12000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 59000,
+      "prevAmount": 57000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 1450000,
+      "prevAmount": 1320000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 49000,
+      "prevAmount": 46000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "自動車取得税交付金",
+      "amount": 1,
+      "prevAmount": 1,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "環境性能割交付金",
+      "amount": 34000,
+      "prevAmount": 42000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方特例交付金",
+      "amount": 40000,
+      "prevAmount": 40000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "地方交付税",
+      "amount": 6850000,
+      "prevAmount": 6750000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 8000,
+      "prevAmount": 8000,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "分担金及び負担金",
+      "amount": 166002,
+      "prevAmount": 164850,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "使用料及び手数料",
+      "amount": 406915,
+      "prevAmount": 451630,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "国庫支出金",
+      "amount": 3743140,
+      "prevAmount": 3315723,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "県支出金",
+      "amount": 1810730,
+      "prevAmount": 1817764,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "財産収入",
+      "amount": 152571,
+      "prevAmount": 120478,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "寄附金",
+      "amount": 236502,
+      "prevAmount": 156402,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰入金",
+      "amount": 2603576,
+      "prevAmount": 1860940,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "繰越金",
+      "amount": 943486,
+      "prevAmount": 871260,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "諸収入",
+      "amount": 563181,
+      "prevAmount": 392352,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 23,
+      "kanName": "市債",
+      "amount": 1608000,
+      "prevAmount": 1794300,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 211555,
+      "prevAmount": 224826,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 3888564,
+      "prevAmount": 3776419,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 11207457,
+      "prevAmount": 10826313,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 3346059,
+      "prevAmount": 3016717,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 53701,
+      "prevAmount": 72162,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 679208,
+      "prevAmount": 612433,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 863185,
+      "prevAmount": 754187,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 2346028,
+      "prevAmount": 2157106,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 1131169,
+      "prevAmount": 1145051,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 3020311,
+      "prevAmount": 2184211,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 4,
+      "prevAmount": 215203,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 2484844,
+      "prevAmount": 2692147,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "諸支出金",
+      "amount": 351696,
+      "prevAmount": 268629,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 14,
+      "kanName": "予備費",
+      "amount": 86219,
+      "prevAmount": 104596,
+      "locator": {
+        "file": "令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf",
+        "page": 2
+      }
+    }
+  ]
+}

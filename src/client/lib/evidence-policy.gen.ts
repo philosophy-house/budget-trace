@@ -25387,6 +25387,168 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
     "target": "file"
   },
+  "/sources/kosai-yosan-gaiyou-r8/R8gaiyou0319.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kosai.shizuoka.jp/material/files/group/4/R8gaiyou0319.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は湖西市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/kosai-yosan-gaiyou-r7/R7gaiyou0321.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kosai.shizuoka.jp/material/files/group/4/R7gaiyou0321.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は湖西市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/kosai-yosan-gaiyou-r6/R6gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kosai.shizuoka.jp/material/files/group/4/R6gaiyou.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は湖西市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/kosai-yosan-gaiyou-r5/R5_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kosai.shizuoka.jp/material/files/group/4/R5_gaiyou.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は湖西市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/kosai-yosan-gaiyou-r4/R4_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kosai.shizuoka.jp/material/files/group/4/R4_gaiyou.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は湖西市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/kosai-yosan-gaiyou-r3/R3gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kosai.shizuoka.jp/material/files/group/4/R3gaiyou.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は湖西市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/kosai-yosan-gaiyou-r2/reiwa2nendoyosannannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kosai.shizuoka.jp/material/files/group/4/reiwa2nendoyosannannogaiyou.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は湖西市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/chichibu-kanbetsu-hikaku-r8/taizennendohi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/28802/taizennendohi.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-kanbetsu-hikaku-r7/R7taizennendohikaku.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/27743/R7taizennendohikaku.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-kanbetsu-hikaku-r6/taizennendohikaku.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/26930/taizennendohikaku.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-kanbetsu-hikaku-r5/令和5年度一般会計当初予算款別前年度比・構成比一覧表.pdf.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/25933/%E4%BB%A4%E5%92%8C5%E5%B9%B4%E5%BA%A6%E4%B8%80%E8%88%AC%E4%BC%9A%E8%A8%88%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%AC%BE%E5%88%A5%E5%89%8D%E5%B9%B4%E5%BA%A6%E6%AF%94%E3%83%BB%E6%A7%8B%E6%88%90%E6%AF%94%E4%B8%80%E8%A6%A7%E8%A1%A8.pdf.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-kanbetsu-hikaku-r4/令和4年度一般会計当初予算款別前年度比・構成比一覧表(47KB).pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/24071/%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%BA%A6%E4%B8%80%E8%88%AC%E4%BC%9A%E8%A8%88%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%AC%BE%E5%88%A5%E5%89%8D%E5%B9%B4%E5%BA%A6%E6%AF%94%E3%83%BB%E6%A7%8B%E6%88%90%E6%AF%94%E4%B8%80%E8%A6%A7%E8%A1%A8%2847KB%29.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-kanbetsu-hikaku-r2/kanbetsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/21043/kanbetsu.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-kanbetsu-hikaku-r3/令和3年度一般会計当初予算款別前年度比・構成比一覧.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/23076/%E4%BB%A4%E5%92%8C3%E5%B9%B4%E5%BA%A6%E4%B8%80%E8%88%AC%E4%BC%9A%E8%A8%88%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%AC%BE%E5%88%A5%E5%89%8D%E5%B9%B4%E5%BA%A6%E6%AF%94%E3%83%BB%E6%A7%8B%E6%88%90%E6%AF%94%E4%B8%80%E8%A6%A7.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/ishikari-yosan-shiryou-r8/20260331.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ishikari.hokkaido.jp/_res/projects/default_project/_page_/001/003/800/20260331.pdf",
+    "license": "石狩市のホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として石狩市に帰属します。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "file"
+  },
+  "/sources/ishikari-yosan-shiryou-r7/50703191.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ishikari.hokkaido.jp/_res/projects/default_project/_page_/001/003/800/50703191.pdf",
+    "license": "石狩市のホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として石狩市に帰属します。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "file"
+  },
+  "/sources/ishikari-yosan-shiryou-r6/r6yosannsiryousyuyounasesaku.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ishikari.hokkaido.jp/_res/projects/default_project/_page_/001/003/800/r6yosannsiryousyuyounasesaku.pdf",
+    "license": "石狩市のホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として石狩市に帰属します。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "file"
+  },
+  "/sources/ishikari-yosan-shiryou-r5/1003800_008.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ishikari.hokkaido.jp/_res/projects/default_project/_page_/001/003/800/1003800_008.pdf",
+    "license": "石狩市のホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として石狩市に帰属します。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "file"
+  },
+  "/sources/ishikari-yosan-shiryou-r4/1003800_013.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ishikari.hokkaido.jp/_res/projects/default_project/_page_/001/003/800/1003800_013.pdf",
+    "license": "石狩市のホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として石狩市に帰属します。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "file"
+  },
+  "/sources/ishikari-yosan-shiryou-r3/1003800_024.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ishikari.hokkaido.jp/_res/projects/default_project/_page_/001/003/800/1003800_024.pdf",
+    "license": "石狩市のホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として石狩市に帰属します。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "file"
+  },
+  "/sources/ishikari-yosan-shiryou-r2/1003800_035.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ishikari.hokkaido.jp/_res/projects/default_project/_page_/001/003/800/1003800_035.pdf",
+    "license": "石狩市のホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として石狩市に帰属します。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "file"
+  },
+  "/sources/kudamatsu-yosan-setsumei-r8/r8yosansetumeitsiryouuuu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kudamatsu.lg.jp/kikaku/kikaku/zaisei/yosansho.html",
+    "license": "Copyright (C) Kudamatsu City All rights reserved.",
+    "target": "page"
+  },
+  "/sources/kudamatsu-yosan-setsumei-r7/r7yosansetsumeisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kudamatsu.lg.jp/kikaku/kikaku/zaisei/yosansho.html",
+    "license": "Copyright (C) Kudamatsu City All rights reserved.",
+    "target": "page"
+  },
+  "/sources/kudamatsu-yosan-setsumei-r6/r6_yosansetsumeisiryou.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20240723201540/https://www.city.kudamatsu.lg.jp/kikaku/kikaku/zaisei/yosansho.html",
+    "license": "Copyright (C) Kudamatsu City All rights reserved.",
+    "target": "page"
+  },
+  "/sources/kudamatsu-yosan-setsumei-r5/8_r5_setumeisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kudamatsu.lg.jp/kikaku/kikaku/zaisei/yosansho.html",
+    "license": "Copyright (C) Kudamatsu City All rights reserved.",
+    "target": "page"
+  },
+  "/sources/kudamatsu-yosan-setsumei-r4/8_r4_setumeisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kudamatsu.lg.jp/kikaku/kikaku/zaisei/yosansho.html",
+    "license": "Copyright (C) Kudamatsu City All rights reserved.",
+    "target": "page"
+  },
+  "/sources/kudamatsu-yosansho-r3/r3yosansho1.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20211022121952/https://www.city.kudamatsu.lg.jp/kikaku/kikaku/zaisei/yosansho.html",
+    "license": "Copyright (C) Kudamatsu City All rights reserved.",
+    "target": "page"
+  },
   "/sources/nago-yosansho-r8/R8toushoyosansho.pdf": {
     "mode": "origin",
     "href": "https://www.city.nago.okinawa.jp/municipal/2021032400017/",
