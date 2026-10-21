@@ -353,6 +353,11 @@ const MUNI_SLUGS: Record<string, string> = {
   "082163": "kasama",
   "112437": "yoshikawa",
   "282294": "tatsuno",
+  "352161": "sanyoonoda",
+  "202185": "chikuma",
+  "302031": "hashimoto",
+  "232165": "tokoname",
+  "272281": "sennan",
   "232084": "tsushima",
   "402109": "yame",
   "402168": "ogori",
@@ -428,6 +433,10 @@ const MUNI_SLUGS: Record<string, string> = {
   "142085": "zushi",
   "272311": "osakasayama",
   "452068": "hyuga",
+  "222216": "kosai",
+  "112071": "chichibu",
+  "012351": "ishikari",
+  "352071": "kudamatsu",
   "472115": "okinawa", // ⚠ 沖縄県 470007 は "ken" スラグなので衝突しない（富山市・佐賀市と同じ規則）
   "232076": "toyokawa", "352039": "yamaguchi", "222038": "numazu", "272191": "izumi",
   // 政令指定都市（2026-07-15）

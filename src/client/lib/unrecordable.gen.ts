@@ -766,6 +766,25 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "232165": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度",
+        "reason": "当初予算の概要の歳入の款別表が画像で作られていて、文字として取り出せない。一般会計予算書の総括と第1表も、文字として取り出せるのはページ番号だけ。",
+        "checkedOn": "2026-10-22"
+      },
+      {
+        "fyLabel": "令和3年度",
+        "reason": "当初予算の概要の歳入の款別表で、諸収入の額が2行に分かれて書かれていて、既存のパーサが片方の行しか読めず合計が合わない。",
+        "checkedOn": "2026-10-22"
+      },
+      {
+        "fyLabel": "令和2年度",
+        "reason": "当初予算の概要（国立国会図書館の WARP に保存された版）の文字が別の字に化けていて、既存の復号の対応表に無い字があるため読み取れない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "232203": {
     "budget": [
       {
@@ -1250,6 +1269,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度",
         "reason": "当初予算参考資料は案・確定版とも総括表を含む前半28ページに文字の情報が入っていない。同じ年度の当初予算の概要は歳入を区分にまとめていて款別になっていない。",
         "checkedOn": "2026-09-27"
+      }
+    ]
+  },
+  "352071": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算説明資料の款別の表は見開きの組みで、新しくできた款の前年度欄が「-」になっているため、いまの読み取りでは前年度の額を正しく取り出せない。予算書は紙をスキャンした画像で、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
@@ -1775,6 +1803,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "072052": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "市が公表している当初予算の概要は、款ごとの歳入・歳出を円グラフや主な科目だけで示していて、款ごとに前年度の当初予算と比べた表が載っていない。令和6年度以前の概要は紙をスキャンした画像で、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "010006": {
     "budget": [
       {
@@ -1900,6 +1937,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "060003": [
+    "budget"
+  ],
+  "072052": [
     "budget"
   ]
 };

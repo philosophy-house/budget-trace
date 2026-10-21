@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 483,
+  "budgetCount": 487,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3553,
-  "fileCount": 5224,
-  "archivedCount": 2821,
+  "sourceCount": 3578,
+  "fileCount": 5249,
+  "archivedCount": 2845,
   "licenseOpen": 135,
-  "licensePermission": 3333,
+  "licensePermission": 3358,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -771,6 +771,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "石狩市",
+      "code": "012351",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "十和田市",
       "code": "022063",
       "years": 7,
@@ -785,12 +791,6 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "奥州市",
       "code": "032158",
-      "years": 7,
-      "range": "R2〜R8（7年度）"
-    },
-    {
-      "name": "多賀城市",
-      "code": "042099",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -915,12 +915,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
-      "name": "藤岡市",
-      "code": "102091",
-      "years": 7,
-      "range": "R2〜R8（7年度）"
-    },
-    {
       "name": "川越市",
       "code": "112011",
       "years": 7,
@@ -929,6 +923,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "行田市",
       "code": "112062",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "秩父市",
+      "code": "112071",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1263,6 +1263,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "千曲市",
+      "code": "202185",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "安曇野市",
       "code": "202207",
       "years": 7,
@@ -1319,6 +1325,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "御殿場市",
       "code": "222151",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "湖西市",
+      "code": "222216",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1407,20 +1419,8 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
-      "name": "みよし市",
-      "code": "232360",
-      "years": 7,
-      "range": "R2〜R8（7年度）"
-    },
-    {
       "name": "あま市",
       "code": "232378",
-      "years": 7,
-      "range": "R2〜R8（7年度）"
-    },
-    {
-      "name": "長久手市",
-      "code": "232386",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1551,6 +1551,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "泉南市",
+      "code": "272281",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "大阪狭山市",
       "code": "272311",
       "years": 7,
@@ -1599,6 +1605,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "橋本市",
+      "code": "302031",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "紀の川市",
       "code": "302082",
       "years": 7,
@@ -1631,6 +1643,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "東広島市",
       "code": "342122",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "山陽小野田市",
+      "code": "352161",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2067,6 +2085,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "下松市",
+      "code": "352071",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "今治市",
       "code": "382027",
       "years": 6,
@@ -2373,12 +2397,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（4年度）"
     },
     {
-      "name": "柳川市",
-      "code": "402079",
-      "years": 4,
-      "range": "R5〜R8（4年度）"
-    },
-    {
       "name": "延岡市",
       "code": "452033",
       "years": 4,
@@ -2513,6 +2531,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "金沢市",
       "code": "172014",
+      "years": 2,
+      "range": "R4〜R5（2年度）"
+    },
+    {
+      "name": "常滑市",
+      "code": "232165",
       "years": 2,
       "range": "R4〜R5（2年度）"
     },
