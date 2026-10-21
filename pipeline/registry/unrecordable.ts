@@ -2469,7 +2469,17 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-88",
   },
   {
-    // 日田市（442046）R3。R8〜R4・R2 は収録済み（§13-89）。
+    // 柳川市（402079）R4〜R2。R8〜R5 は収録済み（§13-89）。
+    // 予算書 R4-tousyoyosannsyo.pdf（170p・18.9MB）・R3（41.9MB）・R2（16.0MB）は pdftotext でノンブルだけ（R4 は170字）。同じ年度の記者会見説明資料もスキャン（偵察）。
+    code: "402079", name: "柳川市", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書と記者会見説明資料が、どちらも紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.city.yanagawa.fukuoka.jp/shisei/zaisei/yosan.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-89",
+  },
+  {
+    // 日田市（442046）R3。R8〜R4・R2 は収録済み（§13-90）。
     // 議会が一般会計予算を修正可決（R3-03-22・総額 38,121,169 から 38,111,857 に・繰入金・市債・民生費の3款）。当初予算の概要（5413.pdf）はスキャン画像。
     // 予算に関する説明書（4431.pdf）は総括 p.12 が化け（復号表に無い字が2字）、p.13・p.14 は修正後と原案の額が上下に重ねて印字されている（偵察）。
     code: "442046", name: "日田市", dataset: "budget", fiscalYears: ["R3"],
@@ -2477,26 +2487,26 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "一般会計予算は議会で修正して可決された。当初予算の概要は紙をスキャンした画像だけの PDF で、予算に関する説明書は文字の一部が化けていて修正後と修正前の額が重ねて印字されているため、款ごとの額を正しく取り出せない。",
     url: "https://www.city.hita.oita.jp/soshiki/4/2349.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-89",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-90",
   },
   {
-    // 天童市（062103）R4。R8〜R5 は収録済み（§13-89）。
+    // 天童市（062103）R4。R8〜R5 は収録済み（§13-90）。
     // 予算概要説明資料（現行サーバに残る）は ToUnicode 欠落で、表題「３ 一般会計予算内訳表」と「伸び率」「備考」の13字が復号表に無く throw する（偵察）。
     code: "062103", name: "天童市", dataset: "budget", fiscalYears: ["R4"],
     categories: ["parser-unsupported"],
     reason:
       "予算概要説明資料の文字が PDF の中で別の字に置き換わっていて、こちらの対応表に無い字が13字あるため読めない。",
     url: "https://www.city.tendo.yamagata.jp/municipal/shisaku/zaisei_zaisei.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-89",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-90",
   },
   {
-    // 天童市（062103）R3・R2。R8〜R5 は収録済み（§13-89）。
+    // 天童市（062103）R3・R2。R8〜R5 は収録済み（§13-90）。
     // 発行元は年度ページをローリングで差し替え、WARP の2020〜2023年の各版を見ても R3・R2 は「当初予算のあらまし」（8ページ・円グラフと万円単位の本文）しか掲載されていない（偵察）。
     code: "062103", name: "天童市", dataset: "budget", fiscalYears: ["R3", "R2"],
     categories: ["no-material"],
     reason:
       "ウェブに掲載されていたのは円グラフと文章の「当初予算のあらまし」だけで、款ごとに前年度と比べた表や予算書は掲載されていない。",
     url: "https://www.city.tendo.yamagata.jp/municipal/shisaku/zaisei_zaisei.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-89",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-90",
   },
 ];

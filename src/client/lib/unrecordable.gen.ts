@@ -1336,6 +1336,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "402079": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度・令和3年度・令和2年度",
+        "reason": "一般会計予算書と記者会見説明資料が、どちらも紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "402184": {
     "budget": [
       {
