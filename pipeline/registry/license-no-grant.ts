@@ -15,6 +15,9 @@
 // 画面のリンクは発行元へ振り替える（要許可と同じ扱い）。ここに載っている原文の資料は、
 // 語彙によらず `permission-required` になる。
 //
+// 2026-10-22 に人が決めた: **利用を許諾する規約の本文があるなら、フッターの `Copyright … All rights reserved` より本文を優先する**
+// （江南 R8・R7・丸亀・昭島 R8 は本文の原文で open、門真は条件つきの許諾で unverified・docs §13-59）。この台帳は「本文が無い」市だけのもの。
+//
 // ---- 書くときのルール ----------------------------------------------------------
 //
 // 1. **`license` は registry の `license` と1字違わず同じ文字列**にする（完全一致で引く）。
@@ -64,4 +67,8 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "飯田市", license: "Copyright Iida City. All rights reserved." },
   { who: "筑紫野市", license: "本サイトに掲載されている全てのコンテンツに関して、その著作権は特に内容について断りがない限り原則として筑紫野市に帰属します。個人として使用する場合を除き、許可なく内容の引用、転載、複写、販売等の目的で使用することは避けてください。もし掲載内容を使用したい場合は、秘書広報課　広報広聴担当までメールにてご連絡ください。" },
   { who: "東近江市", license: "Copyright © Higashiomi City All rights Reserved." },
+  { who: "北名古屋市", license: "Copyright © Kitanagoya City All rights Reserved." },
+  { who: "三原市", license: "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
+  { who: "あま市", license: "当サイトに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、日本国著作権法及び国際条約により保護されています。" },
+  { who: "薩摩川内市", license: "Copyright (c) 2023 Satsumasendai city. All Rights Reserved." },
 ];
