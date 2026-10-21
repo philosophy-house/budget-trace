@@ -21979,6 +21979,162 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載の文章、画像などの著作権は、福知山市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
     "target": "file"
   },
+  "/sources/yukuhashi-zaisei-jijo-r8/20695.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/20695.pdf",
+    "license": "当サイトに掲載している内容（文章、画像、ファイル等）に関する著作権は、原則として当市が所有しております。ただし、一部の画像等の著作権は、当市以外の原著作者が所有しています。当サイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ご利用をご希望の場合には、ページ内に記載された担当課へ直接ご連絡ください。担当課が不明な場合などは市長公室秘書課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/yukuhashi-zaisei-jijo-r7/17877.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/17877.pdf",
+    "license": "当サイトに掲載している内容（文章、画像、ファイル等）に関する著作権は、原則として当市が所有しております。ただし、一部の画像等の著作権は、当市以外の原著作者が所有しています。当サイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ご利用をご希望の場合には、ページ内に記載された担当課へ直接ご連絡ください。担当課が不明な場合などは市長公室秘書課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/yukuhashi-zaisei-jijo-r6/17878.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/17878.pdf",
+    "license": "当サイトに掲載している内容（文章、画像、ファイル等）に関する著作権は、原則として当市が所有しております。ただし、一部の画像等の著作権は、当市以外の原著作者が所有しています。当サイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ご利用をご希望の場合には、ページ内に記載された担当課へ直接ご連絡ください。担当課が不明な場合などは市長公室秘書課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/yukuhashi-zaisei-jijo-r5/12245.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/12245.pdf",
+    "license": "当サイトに掲載している内容（文章、画像、ファイル等）に関する著作権は、原則として当市が所有しております。ただし、一部の画像等の著作権は、当市以外の原著作者が所有しています。当サイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ご利用をご希望の場合には、ページ内に記載された担当課へ直接ご連絡ください。担当課が不明な場合などは市長公室秘書課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/yukuhashi-zaisei-jijo-r4/2971.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20230607/20230607083131/https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/2971.pdf",
+    "license": "当サイトに掲載している内容（文章、画像、ファイル等）に関する著作権は、原則として当市が所有しております。ただし、一部の画像等の著作権は、当市以外の原著作者が所有しています。当サイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ご利用をご希望の場合には、ページ内に記載された担当課へ直接ご連絡ください。担当課が不明な場合などは市長公室秘書課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/yukuhashi-zaisei-jijo-r3/2972.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20230607/20230607083131/https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/2972.pdf",
+    "license": "当サイトに掲載している内容（文章、画像、ファイル等）に関する著作権は、原則として当市が所有しております。ただし、一部の画像等の著作権は、当市以外の原著作者が所有しています。当サイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ご利用をご希望の場合には、ページ内に記載された担当課へ直接ご連絡ください。担当課が不明な場合などは市長公室秘書課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/yukuhashi-zaisei-jijo-r2/2973.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20230607/20230607083131/https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/2973.pdf",
+    "license": "当サイトに掲載している内容（文章、画像、ファイル等）に関する著作権は、原則として当市が所有しております。ただし、一部の画像等の著作権は、当市以外の原著作者が所有しています。当サイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ご利用をご希望の場合には、ページ内に記載された担当課へ直接ご連絡ください。担当課が不明な場合などは市長公室秘書課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/hekinan-yosan-keisu-r8/keisuhen8.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hekinan.lg.jp/material/files/group/70/keisuhen8.pdf",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-yosan-keisu-r7/keisuhen3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hekinan.lg.jp/material/files/group/70/keisuhen3.pdf",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-yosan-keisu-r6/keisuhen6.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hekinan.lg.jp/material/files/group/5/keisuhen6.pdf",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-yosan-keisu-r5/R5keisuuhen.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hekinan.lg.jp/material/files/group/5/R5keisuuhen.pdf",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-yosan-keisu-r3/yosan-keisu03.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hekinan.lg.jp/material/files/group/5/yosan-keisu03.pdf",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-yosan-keisu-r2/yosan-keisu02.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hekinan.lg.jp/material/files/group/5/yosan-keisu02.pdf",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/kyotanabe-yosansho-r8/R8ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000023/23615/R8ippan.pdf",
+    "license": "京田辺市ホームページに掲載している内容（文章・写真・イラストなど）の著作権は、原則として京田辺市に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kyotanabe-yosansho-r7/R7ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000022/22033/R7ippan.pdf",
+    "license": "京田辺市ホームページに掲載している内容（文章・写真・イラストなど）の著作権は、原則として京田辺市に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kyotanabe-yosansho-r6/R6ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000020/20305/R6ippan.pdf",
+    "license": "京田辺市ホームページに掲載している内容（文章・写真・イラストなど）の著作権は、原則として京田辺市に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kyotanabe-yosansho-r5/R5-ippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000018/18904/R5-ippannkaikei.pdf",
+    "license": "京田辺市ホームページに掲載している内容（文章・写真・イラストなど）の著作権は、原則として京田辺市に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kyotanabe-yosansho-r4/R4ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000017/17402/R4ippan.pdf",
+    "license": "京田辺市ホームページに掲載している内容（文章・写真・イラストなど）の著作権は、原則として京田辺市に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kyotanabe-yosansho-r3/R3ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000015/15931/R3ippan.pdf",
+    "license": "京田辺市ホームページに掲載している内容（文章・写真・イラストなど）の著作権は、原則として京田辺市に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kyotanabe-yosansho-r2/R2ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000014/14470/R2ippan.pdf",
+    "license": "京田辺市ホームページに掲載している内容（文章・写真・イラストなど）の著作権は、原則として京田辺市に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/amakusa-yosansho-r7/3_13019_67143_up_wk1y7kul.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amakusa.kumamoto.jp/kiji00313019/3_13019_67143_up_wk1y7kul.pdf",
+    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/amakusa-yosansho-r6/3_11818_57684_up_6o77ihvx.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amakusa.kumamoto.jp/kiji00311818/3_11818_57684_up_6o77ihvx.pdf",
+    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/amakusa-yosansho-r5/3_10451_47459_up_6wbe8y1e.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amakusa.kumamoto.jp/kiji00310451/3_10451_47459_up_6wbe8y1e.pdf",
+    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/amakusa-yosansho-r4/3_9127_36690_up_gok4bywn.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amakusa.kumamoto.jp/kiji0039127/3_9127_36690_up_gok4bywn.pdf",
+    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/amakusa-yosansho-r3/3_8056_28974_up_evo21bom.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amakusa.kumamoto.jp/kiji0038056/3_8056_28974_up_evo21bom.pdf",
+    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/amakusa-yosansho-r2/3_6793_20443_up_xasip6ks.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amakusa.kumamoto.jp/kiji0036793/3_6793_20443_up_xasip6ks.pdf",
+    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
   "/sources/kitanagoya-yosansho-r8/r8_ippan.pdf": {
     "mode": "origin",
     "href": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/308/r8_ippan.pdf",

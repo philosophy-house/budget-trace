@@ -30,6 +30,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "102083": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款ごとに前年度と比べる表は、予算書の総括と予算内示説明会資料の総括表にあるが、予算書の総括は全年度とも文字を図形に変換した状態で作られていて、内示説明会資料は紙をスキャンした画像になっている。令和5年度だけ修正後の予算概要に文字の表があるが、歳出の前年度の列がこちらの抽出処理で読める形になっていない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "112038": {
     "budget": [
       {
@@ -694,6 +703,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "232092": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "款ごとの前年度比較が載る予算の概要（係数編）が紙をスキャンした画像の PDF で、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "232114": {
     "budget": [
       {
@@ -1204,6 +1222,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "432156": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "一般会計予算書の総括のページが図形として描かれていて、文字として取り出せない。当初予算の概要は紙をスキャンした画像に読み取った文字を重ねたもので、前年度の列も当初ではなく6月補正後の額になっている。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "442011": {
     "budget": [
       {
@@ -1571,6 +1598,9 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
  * 「収録済み」の案内のままで正しいので、画面の文言を差し替える対象ではない。
  */
 export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
+  "102083": [
+    "budget"
+  ],
   "112186": [
     "budget"
   ],
