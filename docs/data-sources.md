@@ -13564,7 +13564,7 @@ validate は全29ソースで error 0・warning 0。
   R7 https://www.city.echizen.lg.jp/office/030/060/r7r7_d/fil/R7tousyoyosanngaiyou.pdf・R6 https://www.city.echizen.lg.jp/office/030/060/reiwa06yosan_d/fil/R06toushoyosanngaiyou.pdf・
   R5 …/r5yosan_d/fil/sosyogaisyo.pdf（政策分野（款）別）・R4 …/r4yosan_d/fil/todyo_gaiyo.pdf・R3 …/r3yosan_d/fil/R3jigyougaiyousyo.pdf（12件・1事業1ページ・費目）・R2 …/r2yosan_d/fil/R2jigyougaiyousyo.pdf（13件）。
   事業報告: 「主要な施策の成果等決算報告書」（https://www.city.echizen.lg.jp/office/100/010/kessan.html）R7 https://www.city.echizen.lg.jp/office/100/010/kessan_d/fil/R7shisaku.pdf（115p）・R6 R6shisaku.pdf・R5 R5shisaku.pdf・R4 R4shisaku.pdf（款→項→目の記述と実績表）。R3 以前は無い。⚠ R5 は「財産に関する調書」のリンクも R5shisaku.pdf を指す（発行元のリンク誤り）。
-### §13-66 中核市など — 綾瀬・牛久・尾張旭・御殿場・知多（2026-10-22・loop.md の第60巡）
+### §13-67 中核市など — 綾瀬・牛久・尾張旭・御殿場・知多（2026-10-22・loop.md の第60巡）
 
 元のセッションが割り当てたバッチ A の5市を `source-scout` 5体で並列に偵察し、同じセッションで収録した。**5市とも収録（31ソース）**。
 パーサ・判定器・derive には手を入れていない（5市とも既存の `kofu-yosansho` に parserOptions だけで乗る）。
