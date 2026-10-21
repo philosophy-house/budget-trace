@@ -2331,4 +2331,31 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.koshi.lg.jp/kiji00320384/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
   },
+  {
+    // 常滑市（232165）R8・R7・R6。R5・R4 は収録済み（§13-M）。概要の歳入の款別表（R8 R8_tosyo_gaiyo.pdf p.6 ほか）がラスタ画像で、予算書の総括・第1表もテキストはノンブルだけ。
+    code: "232165", name: "常滑市", dataset: "budget", fiscalYears: ["R8", "R7", "R6"],
+    categories: ["scanned-image"],
+    reason:
+      "当初予算の概要の歳入の款別表が画像で作られていて、文字として取り出せない。一般会計予算書の総括と第1表も、文字として取り出せるのはページ番号だけ。",
+    url: "https://www.city.tokoname.aichi.jp/shisei/zaisei/1001458/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-M",
+  },
+  {
+    // 常滑市（232165）R3。概要 R3gaiyou.pdf p.8 の歳入で、款21 諸収入が「(競艇事業収入)」の行と合わせて2行に分かれ、既存パーサが片方しか読まず歳入 Σ が割れる。
+    code: "232165", name: "常滑市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["parser-unsupported"],
+    reason:
+      "当初予算の概要の歳入の款別表で、諸収入の額が2行に分かれて書かれていて、既存のパーサが片方の行しか読めず合計が合わない。",
+    url: "https://www.city.tokoname.aichi.jp/shisei/zaisei/1001458/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-M",
+  },
+  {
+    // 常滑市（232165）R2。概要 R2_yosanngaiyo.pdf は現行サイトで 404・WARP（20201113）だけ。文字が化けていて、復号表に無い字で止まる。
+    code: "232165", name: "常滑市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["broken-text-layer"],
+    reason:
+      "当初予算の概要（国立国会図書館の WARP に保存された版）の文字が別の字に化けていて、既存の復号の対応表に無い字があるため読み取れない。",
+    url: "https://warp.ndl.go.jp/20201114/20201113082546/https://www.city.tokoname.aichi.jp/_res/projects/default_project/_page_/001/001/459/R2_yosanngaiyo.pdf",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-M",
+  },
 ];

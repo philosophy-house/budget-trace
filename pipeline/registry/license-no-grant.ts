@@ -82,4 +82,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "合志市", license: "Copyrights (C) 2019 City-Koshi Allrights Reserved." },
   { who: "姶良市", license: "Copyright © The Official Website of Aira City. All Rights Reserved." },
   { who: "大仙市", license: "©2024 DAISEN City" },
+  { who: "泉南市", license: "本市ウェブサイト内の情報は、すべて著作権法による保護の対象となっています（ただし、法令・条例・規則などはのぞきます）。" },
 ];

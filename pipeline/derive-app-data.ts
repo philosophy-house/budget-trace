@@ -4118,6 +4118,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `daisen-yosan-gaiyou-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
     })),
+    // ---- 山陽小野田・千曲・橋本・常滑・泉南（2026-10-22・§13-M） ----
+    // ⚠ 山陽小野田 R8・R7 は予算書、R6〜R2 は概要。R4 の前年度列は R3 の6月補正後（prevBasis）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `sanyoonoda-yosansho-${fy}`, muniCode: "352161", muniName: "山陽小野田市", prefName: "山口県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sanyoonoda-yosan-gaiyo-${fy}`, muniCode: "352161", muniName: "山陽小野田市", prefName: "山口県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chikuma-yosan-gaiyou-${fy}`, muniCode: "202185", muniName: "千曲市", prefName: "長野県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hashimoto-yosan-setsumeisho-${fy}`, muniCode: "302031", muniName: "橋本市", prefName: "和歌山県", isPref: false,
+    })),
+    ...(["r5", "r4"] as const).map((fy) => ({
+      srcId: `tokoname-yosan-gaiyou-${fy}`, muniCode: "232165", muniName: "常滑市", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sennan-yosansho-${fy}`, muniCode: "272281", muniName: "泉南市", prefName: "大阪府", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
