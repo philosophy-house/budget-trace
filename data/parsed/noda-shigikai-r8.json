@@ -1,0 +1,154 @@
+{
+  "docType": "council-composition",
+  "sourceId": "noda-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.8",
+  "parsedAt": "2026-10-21T00:33:24.998Z",
+  "fiscalYear": "R8",
+  "body": "野田市議会",
+  "seats": 28,
+  "asOf": "2025-06-10",
+  "teisu": 28,
+  "factions": [
+    {
+      "name": "政清会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "平井正一",
+        "中村裕介",
+        "深井和幸",
+        "木村欽一",
+        "木名瀬宣人",
+        "山口克己"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "六諭会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "竹内美穂",
+        "邑樂等",
+        "川崎貴志",
+        "濵田勇次",
+        "古橋敏夫",
+        "染谷信一"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "椿博文",
+        "吉岡美雪",
+        "小林裕子",
+        "桜田康則",
+        "内田陽一"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "民主連合",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小椋直樹",
+        "古矢千晴",
+        "滝本恵一"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "のだみらい",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "谷口早苗",
+        "栗原基起",
+        "庄司真生"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党野田市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "星野幸治",
+        "長勝則"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "市民ネットワーク",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小室美枝子"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "野田の明日を考える会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "金木祐輔"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "いちいの会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "河井哲弥"
+      ],
+      "locator": {
+        "file": "1028151.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和8年度一般会計予算",
+    "sessionLabel": "令和8年第2回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "1050107.html"
+    }
+  },
+  "rosterTitle": "会派名簿（更新日 令和7年6月10日）",
+  "resultTitle": "審議結果 令和8年3月定例会（定例会議案等の審議結果一覧）"
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "nagareyama-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha.html",
+      "sha256": "f5bc94916ae3b62f1c118d3a13cd6b6b076f3c765757a17062c707a08988a357",
+      "bytes": 14789,
+      "fetchedAt": "2026-10-21T00:31:57.336Z",
+      "fetchedFrom": "https://www.nagareyamagikai.jp/gaiyo/kaiha.html"
+    },
+    {
+      "filename": "R8_1_giketsukeka.pdf",
+      "sha256": "681a8107bada2ef059bce96e17f945f664f1c031fc4eeffc9419d0865c8ab8fc",
+      "bytes": 386219,
+      "fetchedAt": "2026-10-21T00:31:57.337Z",
+      "fetchedFrom": "https://www.nagareyamagikai.jp/doc/2026032700013/file_contents/R8_1_giketsukeka.pdf"
+    },
+    {
+      "filename": "shikumi.html",
+      "sha256": "b0bbebf341486b3546e222dc32af148febcc8519d00443be0ca312a87921a951",
+      "bytes": 11929,
+      "fetchedAt": "2026-10-21T00:31:57.338Z",
+      "fetchedFrom": "https://www.nagareyamagikai.jp/gaiyo/shikumi.html"
+    },
+    {
+      "filename": "aisatsu2.html",
+      "sha256": "01749b4bfe462505f2738f9af909276256c7f40cbe509015ee0c267b75610f50",
+      "bytes": 12712,
+      "fetchedAt": "2026-10-21T00:31:57.339Z",
+      "fetchedFrom": "https://www.nagareyamagikai.jp/gaiyo/aisatsu2.html"
+    }
+  ]
+}

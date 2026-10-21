@@ -1,0 +1,26 @@
+{
+  "sourceId": "ichikawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "43401.pdf",
+      "sha256": "b271da72f276f8fcdce79ab3796727535799e6d255fd9fb3817ad149b14acf8f",
+      "bytes": 65903,
+      "fetchedAt": "2026-10-21T00:31:57.330Z",
+      "fetchedFrom": "https://www.city.ichikawa.lg.jp/uploaded/attachment/43401.pdf"
+    },
+    {
+      "filename": "32594.html",
+      "sha256": "ee53b984262d09758f1d745dde717acbcae9e840f0d04ce854ca20eea405f0b2",
+      "bytes": 57432,
+      "fetchedAt": "2026-10-21T00:31:57.331Z",
+      "fetchedFrom": "https://www.city.ichikawa.lg.jp/site/gikai/32594.html"
+    },
+    {
+      "filename": "5242.html",
+      "sha256": "774298efc26d7073d42737235b8371bd9edfc4d7b5fa1cb5756063de93b5aecc",
+      "bytes": 43171,
+      "fetchedAt": "2026-10-21T00:31:57.332Z",
+      "fetchedFrom": "https://www.city.ichikawa.lg.jp/site/gikai/5242.html"
+    }
+  ]
+}

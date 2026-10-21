@@ -1,0 +1,449 @@
+{
+  "docType": "council-composition",
+  "sourceId": "matsudo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.8",
+  "parsedAt": "2026-10-21T00:33:22.446Z",
+  "fiscalYear": "R8",
+  "body": "松戸市議会",
+  "seats": 42,
+  "asOf": "2026-02-09",
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "飯箸公明",
+        "高橋伸之",
+        "芦田満春",
+        "丹呉顕子",
+        "井出昌子",
+        "鈴木智明",
+        "岩瀬麻理",
+        "松尾尚",
+        "伊東英一",
+        "織原正幸"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "清風まつど",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "市川恵一",
+        "大橋博",
+        "田中睦生",
+        "石塚裕",
+        "大和山太郎",
+        "岡本優子",
+        "中村典子",
+        "渋谷剛士",
+        "杉山由祥",
+        "末松裕人"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "松戸志政会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "石井勇",
+        "西田善昭",
+        "広瀬優斗",
+        "大塚健児",
+        "大谷茂範",
+        "鈴木大介",
+        "深山能一"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "政策実現フォーラム・社民",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "増田薫",
+        "原裕二",
+        "竹内幸枝",
+        "ＤＥＬＩ",
+        "工藤鈴子"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "ミール計恵",
+        "宇津野史行",
+        "嶋村新一",
+        "山口正子"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "無所属（湯浅文）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "湯浅文"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "無所属（柿沼光利）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "柿沼光利"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "無所属（戸張友子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "戸張友子"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "無所属（二階堂剛）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "二階堂剛"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "無所属（鴫原舞）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "鴫原舞"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "無所属（鴈野聡）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "鴈野聡"
+      ],
+      "locator": {
+        "file": "matsudo_gikai_265.pdf",
+        "page": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第６９号",
+    "billName": "令和８年度松戸市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "202603teireikai3.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "まつど議会だより 第265号（令和8年5月1日発行）8面 会派別一覧（令和８年２月９日現在）",
+  "resultTitle": "令和8年3月定例会審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月定例会 賛否が分かれた市長提出議案に対する議員個人の賛否",
+    "sourceFile": "2026_3_sanpi.pdf",
+    "columns": [
+      {
+        "label": "飯箸公明",
+        "faction": "公明党",
+        "member": "飯箸公明",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋伸之",
+        "faction": "公明党",
+        "member": "高橋伸之",
+        "stance": "賛成"
+      },
+      {
+        "label": "芦田満春",
+        "faction": "公明党",
+        "member": "芦田満春",
+        "stance": "賛成"
+      },
+      {
+        "label": "丹呉顕子",
+        "faction": "公明党",
+        "member": "丹呉顕子",
+        "stance": "賛成"
+      },
+      {
+        "label": "井出昌子",
+        "faction": "公明党",
+        "member": "井出昌子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木智明",
+        "faction": "公明党",
+        "member": "鈴木智明",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩瀬麻理",
+        "faction": "公明党",
+        "member": "岩瀬麻理",
+        "stance": "賛成"
+      },
+      {
+        "label": "松尾尚",
+        "faction": "公明党",
+        "member": "松尾尚",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊東英一",
+        "faction": "公明党",
+        "member": "伊東英一",
+        "stance": "賛成"
+      },
+      {
+        "label": "織原正幸",
+        "faction": "公明党",
+        "member": "織原正幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "市川恵一",
+        "faction": "清風まつど",
+        "member": "市川恵一",
+        "stance": "賛成"
+      },
+      {
+        "label": "大橋博",
+        "faction": "清風まつど",
+        "member": "大橋博",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中睦生",
+        "faction": "清風まつど",
+        "member": "田中睦生",
+        "stance": "賛成"
+      },
+      {
+        "label": "石塚裕",
+        "faction": "清風まつど",
+        "member": "石塚裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "大和山太郎",
+        "faction": "清風まつど",
+        "member": "大和山太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡本優子",
+        "faction": "清風まつど",
+        "member": "岡本優子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村典子",
+        "faction": "清風まつど",
+        "member": "中村典子",
+        "stance": "賛成"
+      },
+      {
+        "label": "渋谷剛士",
+        "faction": "清風まつど",
+        "member": "渋谷剛士",
+        "stance": "議長"
+      },
+      {
+        "label": "杉山由祥",
+        "faction": "清風まつど",
+        "member": "杉山由祥",
+        "stance": "賛成"
+      },
+      {
+        "label": "末松裕人",
+        "faction": "清風まつど",
+        "member": "末松裕人",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井勇",
+        "faction": "松戸志政会",
+        "member": "石井勇",
+        "stance": "賛成"
+      },
+      {
+        "label": "西田善昭",
+        "faction": "松戸志政会",
+        "member": "西田善昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "広瀬優斗",
+        "faction": "松戸志政会",
+        "member": "広瀬優斗",
+        "stance": "賛成"
+      },
+      {
+        "label": "大塚健児",
+        "faction": "松戸志政会",
+        "member": "大塚健児",
+        "stance": "賛成"
+      },
+      {
+        "label": "大谷茂範",
+        "faction": "松戸志政会",
+        "member": "大谷茂範",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木大介",
+        "faction": "松戸志政会",
+        "member": "鈴木大介",
+        "stance": "賛成"
+      },
+      {
+        "label": "深山能一",
+        "faction": "松戸志政会",
+        "member": "深山能一",
+        "stance": "賛成"
+      },
+      {
+        "label": "増田薫",
+        "faction": "政策実現フォーラム・社民",
+        "member": "増田薫",
+        "stance": "賛成"
+      },
+      {
+        "label": "原裕二",
+        "faction": "政策実現フォーラム・社民",
+        "member": "原裕二",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹内幸枝",
+        "faction": "政策実現フォーラム・社民",
+        "member": "竹内幸枝",
+        "stance": "賛成"
+      },
+      {
+        "label": "ＤＥＬＩ",
+        "faction": "政策実現フォーラム・社民",
+        "member": "ＤＥＬＩ",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤鈴子",
+        "faction": "政策実現フォーラム・社民",
+        "member": "工藤鈴子",
+        "stance": "賛成"
+      },
+      {
+        "label": "ミール計恵",
+        "faction": "日本共産党",
+        "member": "ミール計恵",
+        "stance": "反対"
+      },
+      {
+        "label": "宇津野史行",
+        "faction": "日本共産党",
+        "member": "宇津野史行",
+        "stance": "反対"
+      },
+      {
+        "label": "嶋村新一",
+        "faction": "日本共産党",
+        "member": "嶋村新一",
+        "stance": "反対"
+      },
+      {
+        "label": "山口正子",
+        "faction": "日本共産党",
+        "member": "山口正子",
+        "stance": "反対"
+      },
+      {
+        "label": "湯浅文",
+        "faction": "無所属（湯浅文）",
+        "member": "湯浅文",
+        "stance": "反対"
+      },
+      {
+        "label": "柿沼光利",
+        "faction": "無所属（柿沼光利）",
+        "member": "柿沼光利",
+        "stance": "賛成"
+      },
+      {
+        "label": "鴫原舞",
+        "faction": "無所属（鴫原舞）",
+        "member": "鴫原舞",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸張友子",
+        "faction": "無所属（戸張友子）",
+        "member": "戸張友子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鴈野聡",
+        "faction": "無所属（鴈野聡）",
+        "member": "鴈野聡",
+        "stance": "賛成"
+      },
+      {
+        "label": "二階堂剛",
+        "faction": "無所属（二階堂剛）",
+        "member": "二階堂剛",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

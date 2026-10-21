@@ -1,0 +1,279 @@
+{
+  "docType": "council-composition",
+  "sourceId": "abiko-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.8",
+  "parsedAt": "2026-10-21T00:33:25.514Z",
+  "fiscalYear": "R8",
+  "body": "我孫子市議会",
+  "seats": 24,
+  "asOf": "2026-02-17",
+  "factions": [
+    {
+      "name": "清風会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "甲斐俊光",
+        "椎名幸雄",
+        "日暮俊一",
+        "西垣一郎",
+        "高木宏樹",
+        "澤田敦士"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "木村得道",
+        "江川克哉",
+        "山下佳代",
+        "島田安子"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "あびこ未来",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "坂巻宗男",
+        "早川真",
+        "飯塚誠"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "我孫子政策倶楽部",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "豊島庸市",
+        "芹澤正子",
+        "深井優也"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民フォーラム",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐々木豊治",
+        "内田美恵子"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岩井康",
+        "船橋優"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に所属していない議員",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "茅野理",
+        "海津にいな",
+        "西川佳克",
+        "芝田真代"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第25号",
+    "billName": "令和８年度一般会計予算",
+    "sessionLabel": "令和８年第１回定例会（３月議会）",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "237gou1-4men.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議員名簿（会派別）（令和8年2月17日現在）",
+  "resultTitle": "あびこ議会だより No.237（令和８年第１回定例会（３月議会）・令和８年５月１日発行）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会採決結果一覧",
+    "sourceFile": "saiketsukekkaR8.3.sai.pdf",
+    "columns": [
+      {
+        "label": "甲斐俊光",
+        "faction": "清風会",
+        "member": "甲斐俊光",
+        "stance": "賛成"
+      },
+      {
+        "label": "椎名幸雄",
+        "faction": "清風会",
+        "member": "椎名幸雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "西垣一郎",
+        "faction": "清風会",
+        "member": "西垣一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "高木宏樹",
+        "faction": "清風会",
+        "member": "高木宏樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤田敦士",
+        "faction": "清風会",
+        "member": "澤田敦士",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村得道",
+        "faction": "公明党",
+        "member": "木村得道",
+        "stance": "賛成"
+      },
+      {
+        "label": "江川克哉",
+        "faction": "公明党",
+        "member": "江川克哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下佳代",
+        "faction": "公明党",
+        "member": "山下佳代",
+        "stance": "賛成"
+      },
+      {
+        "label": "島田安子",
+        "faction": "公明党",
+        "member": "島田安子",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂巻宗男",
+        "faction": "あびこ未来",
+        "member": "坂巻宗男",
+        "stance": "賛成"
+      },
+      {
+        "label": "早川真",
+        "faction": "あびこ未来",
+        "member": "早川真",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯塚誠",
+        "faction": "あびこ未来",
+        "member": "飯塚誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "豊島庸市",
+        "faction": "我孫子政策倶楽部",
+        "member": "豊島庸市",
+        "stance": "賛成"
+      },
+      {
+        "label": "芹澤正子",
+        "faction": "我孫子政策倶楽部",
+        "member": "芹澤正子",
+        "stance": "賛成"
+      },
+      {
+        "label": "深井優也",
+        "faction": "我孫子政策倶楽部",
+        "member": "深井優也",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木豊治",
+        "faction": "市民フォーラム",
+        "member": "佐々木豊治",
+        "stance": "賛成"
+      },
+      {
+        "label": "内田美恵子",
+        "faction": "市民フォーラム",
+        "member": "内田美恵子",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩井康",
+        "faction": "日本共産党",
+        "member": "岩井康",
+        "stance": "反対"
+      },
+      {
+        "label": "船橋優",
+        "faction": "日本共産党",
+        "member": "船橋優",
+        "stance": "反対"
+      },
+      {
+        "label": "茅野理",
+        "faction": "会派に所属していない議員",
+        "member": "茅野理",
+        "stance": "賛成"
+      },
+      {
+        "label": "海津にいな",
+        "faction": "会派に所属していない議員",
+        "member": "海津にいな",
+        "stance": "賛成"
+      },
+      {
+        "label": "西川佳克",
+        "faction": "会派に所属していない議員",
+        "member": "西川佳克",
+        "stance": "賛成"
+      },
+      {
+        "label": "芝田真代",
+        "faction": "会派に所属していない議員",
+        "member": "芝田真代",
+        "stance": "賛成"
+      },
+      {
+        "label": "日暮俊一",
+        "faction": "清風会",
+        "member": "日暮俊一",
+        "stance": "議長"
+      }
+    ]
+  }
+}

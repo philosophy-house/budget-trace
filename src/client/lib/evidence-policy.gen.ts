@@ -22170,5 +22170,209 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www.city.fujimino.saitama.jp/shinojoho/shigikai/shigikainitsuite/4604.html",
     "license": "本サイトに記載された文章・画像に関する権利はふじみ野市に帰属しています。無断で転載することを禁じます。もし、これらの文書等について転用等を希望される場合は、その旨をご連絡ください。",
     "target": "page"
+  },
+  "/sources/matsudo-shigikai-r8/matsudo_gikai_265.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.matsudo.chiba.jp/gikai/gikaidayori/gikaidayorireiwa6.files/matsudo_gikai_265.pdf",
+    "license": "これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。ただし、特段の定めがある場合は、この限りでありません。",
+    "target": "file"
+  },
+  "/sources/matsudo-shigikai-r8/2026_3_sanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.matsudo.chiba.jp/gikai/kaigi_kekka/sanpikoukai/2026_3_sanpi.files/2026_3_sanpi.pdf",
+    "license": "これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。ただし、特段の定めがある場合は、この限りでありません。",
+    "target": "file"
+  },
+  "/sources/matsudo-shigikai-r8/202603teireikai3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.matsudo.chiba.jp/gikai/kaigi_kekka/shingikekka.files/202603teireikai3.pdf",
+    "license": "これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。ただし、特段の定めがある場合は、この限りでありません。",
+    "target": "file"
+  },
+  "/sources/ichikawa-shigikai-r8/43401.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ichikawa.lg.jp/uploaded/attachment/43401.pdf",
+    "license": "市公式Webサイトに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、市公式Webサイト全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ichikawa-shigikai-r8/32594.html": {
+    "mode": "origin",
+    "href": "https://www.city.ichikawa.lg.jp/site/gikai/32594.html",
+    "license": "市公式Webサイトに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、市公式Webサイト全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ichikawa-shigikai-r8/5242.html": {
+    "mode": "origin",
+    "href": "https://www.city.ichikawa.lg.jp/site/gikai/5242.html",
+    "license": "市公式Webサイトに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、市公式Webサイト全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ichihara-shigikai-r8/R8①_議決結果.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ichihara.chiba.jp/blob/images/common-article/605d337febefad5392f9e333/R8%E2%91%A0_%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C.pdf",
+    "license": "市原市ウェブサイトに掲載されている文章、画像等の著作権は、市原市または文章、画像等の提供者に帰属します。これらの著作権は、「私的使用のための複製」や「引用」など著作権法上認められている場合を除き、無断で転載・引用することはできません。ただし、市原市ウェブサイト内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/ichihara-shigikai-r8/会期日程.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ichihara.chiba.jp/blob/images/common-article/6965c7d5b34c1e31ba24135c/%E4%BC%9A%E6%9C%9F%E6%97%A5%E7%A8%8B.pdf",
+    "license": "市原市ウェブサイトに掲載されている文章、画像等の著作権は、市原市または文章、画像等の提供者に帰属します。これらの著作権は、「私的使用のための複製」や「引用」など著作権法上認められている場合を除き、無断で転載・引用することはできません。ただし、市原市ウェブサイト内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/ichihara-shigikai-r8/いちはら議会だよりNo232WEB.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ichihara.chiba.jp/blob/images/common-article/6058184c4082c254c7c6def4/%E3%81%84%E3%81%A1%E3%81%AF%E3%82%89%E8%AD%B0%E4%BC%9A%E3%81%9F%E3%82%99%E3%82%88%E3%82%8ANo232WEB.pdf",
+    "license": "市原市ウェブサイトに掲載されている文章、画像等の著作権は、市原市または文章、画像等の提供者に帰属します。これらの著作権は、「私的使用のための複製」や「引用」など著作権法上認められている場合を除き、無断で転載・引用することはできません。ただし、市原市ウェブサイト内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/nagareyama-shigikai-r8/kaiha.html": {
+    "mode": "origin",
+    "href": "https://www.nagareyamagikai.jp/gaiyo/kaiha.html",
+    "license": "流山市議会ホームページ「議会オープンデータについて」: 本議会で公開しているデータを利用する場合には、本議会のデータを利用している旨の表示をし、 各データを公開しているページへリンクを張って頂ければ、自由に利用でき、二次的著作物の作成が可能となります。 ※ライセンスは、クリエイティブ・コモンズの「表示」（CC BY） としています。 ／ 流山市ホームページ: 流山市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、ホームページ全体も編集著作物としての著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nagareyama-shigikai-r8/R8_1_giketsukeka.pdf": {
+    "mode": "origin",
+    "href": "https://www.nagareyamagikai.jp/doc/2026032700013/file_contents/R8_1_giketsukeka.pdf",
+    "license": "流山市議会ホームページ「議会オープンデータについて」: 本議会で公開しているデータを利用する場合には、本議会のデータを利用している旨の表示をし、 各データを公開しているページへリンクを張って頂ければ、自由に利用でき、二次的著作物の作成が可能となります。 ※ライセンスは、クリエイティブ・コモンズの「表示」（CC BY） としています。 ／ 流山市ホームページ: 流山市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、ホームページ全体も編集著作物としての著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/nagareyama-shigikai-r8/shikumi.html": {
+    "mode": "origin",
+    "href": "https://www.nagareyamagikai.jp/gaiyo/shikumi.html",
+    "license": "流山市議会ホームページ「議会オープンデータについて」: 本議会で公開しているデータを利用する場合には、本議会のデータを利用している旨の表示をし、 各データを公開しているページへリンクを張って頂ければ、自由に利用でき、二次的著作物の作成が可能となります。 ※ライセンスは、クリエイティブ・コモンズの「表示」（CC BY） としています。 ／ 流山市ホームページ: 流山市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、ホームページ全体も編集著作物としての著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nagareyama-shigikai-r8/aisatsu2.html": {
+    "mode": "origin",
+    "href": "https://www.nagareyamagikai.jp/gaiyo/aisatsu2.html",
+    "license": "流山市議会ホームページ「議会オープンデータについて」: 本議会で公開しているデータを利用する場合には、本議会のデータを利用している旨の表示をし、 各データを公開しているページへリンクを張って頂ければ、自由に利用でき、二次的著作物の作成が可能となります。 ※ライセンスは、クリエイティブ・コモンズの「表示」（CC BY） としています。 ／ 流山市ホームページ: 流山市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、ホームページ全体も編集著作物としての著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/yachiyo-shigikai-r8/45999.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yachiyo.lg.jp/uploaded/attachment/45999.pdf",
+    "license": "八千代市公式ホームページ（以下、「本ホームページ」という）全体及び掲載情報の著作権は、原則として八千代市（以下、「本市」という）に帰属します（一部の画像等の著作権は、原著作者が所有しています。）。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、本市の許可なく本ホームページに掲載している文書・画像等を無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/yachiyo-shigikai-r8/77034.html": {
+    "mode": "origin",
+    "href": "https://www.city.yachiyo.lg.jp/soshiki/52/77034.html",
+    "license": "八千代市公式ホームページ（以下、「本ホームページ」という）全体及び掲載情報の著作権は、原則として八千代市（以下、「本市」という）に帰属します（一部の画像等の著作権は、原著作者が所有しています。）。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、本市の許可なく本ホームページに掲載している文書・画像等を無断で複製・転用することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yachiyo-shigikai-r8/4147.html": {
+    "mode": "origin",
+    "href": "https://www.city.yachiyo.lg.jp/site/yachiyosigikai/4147.html",
+    "license": "八千代市公式ホームページ（以下、「本ホームページ」という）全体及び掲載情報の著作権は、原則として八千代市（以下、「本市」という）に帰属します（一部の画像等の著作権は、原著作者が所有しています。）。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、本市の許可なく本ホームページに掲載している文書・画像等を無断で複製・転用することを禁止します。",
+    "target": "page"
+  },
+  "/sources/narashino-shigikai-r8/kaiha.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20251018064912id_/https://www.city.narashino.lg.jp/joho/shigikai/meibo/kaiha.html",
+    "license": "当ウェブサイト全体および掲載情報（資料、画像、文章）などは、著作権法および国際条約による著作権保護の対象となっています。個人的な使用または引用等の著作権法上認められた行為をのぞいて、無断で転載等を行うことはできません。 また、一部を引用、転載する場合においても出所を明示してください。",
+    "target": "page"
+  },
+  "/sources/narashino-shigikai-r8/sanpiR8y1T.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.narashino.lg.jp/material/files/group/112/sanpiR8y1T.pdf",
+    "license": "当ウェブサイト全体および掲載情報（資料、画像、文章）などは、著作権法および国際条約による著作権保護の対象となっています。個人的な使用または引用等の著作権法上認められた行為をのぞいて、無断で転載等を行うことはできません。 また、一部を引用、転載する場合においても出所を明示してください。",
+    "target": "file"
+  },
+  "/sources/narashino-shigikai-r8/210.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.narashino.lg.jp/material/files/group/21/210.pdf",
+    "license": "当ウェブサイト全体および掲載情報（資料、画像、文章）などは、著作権法および国際条約による著作権保護の対象となっています。個人的な使用または引用等の著作権法上認められた行為をのぞいて、無断で転載等を行うことはできません。 また、一部を引用、転載する場合においても出所を明示してください。",
+    "target": "file"
+  },
+  "/sources/sakura-shigikai-r8/Kh110_sakurashigikaidayori_120.pdf": {
+    "mode": "origin",
+    "href": "https://sakurashigikai.gijiroku.com/voices/gikaidoc/attach/koho/Kh110_sakurashigikaidayori_120.pdf",
+    "license": "本サイトが提供する文書、写真、イラスト等の情報は、告示・訓令・通達その他これらに類するもの（及びそれらの翻訳物及び編集物含む）を除き、佐倉市ならびに第三者が保有する著作権により保護されています。私的な目的で使用する場合や、著作権法上認められている場合を除き、無断で転載、引用、複製することは禁じられています。ただし、個々の情報に別途定めがある場合はこの取り扱いに優先するものとします。",
+    "target": "file"
+  },
+  "/sources/sakura-shigikai-r8/Kg83_080324.pdf": {
+    "mode": "origin",
+    "href": "https://sakurashigikai.gijiroku.com/voices/GikaiDoc/attach/Congress/Kg83_080324.pdf",
+    "license": "本サイトが提供する文書、写真、イラスト等の情報は、告示・訓令・通達その他これらに類するもの（及びそれらの翻訳物及び編集物含む）を除き、佐倉市ならびに第三者が保有する著作権により保護されています。私的な目的で使用する場合や、著作権法上認められている場合を除き、無断で転載、引用、複製することは禁じられています。ただし、個々の情報に別途定めがある場合はこの取り扱いに優先するものとします。",
+    "target": "file"
+  },
+  "/sources/sakura-shigikai-r8/g07_Giketsu_View.asp_db4f6bd9c1b6.html": {
+    "mode": "origin",
+    "href": "https://sakurashigikai.gijiroku.com/g07_Giketsu_View.asp?SrchID=2743",
+    "license": "本サイトが提供する文書、写真、イラスト等の情報は、告示・訓令・通達その他これらに類するもの（及びそれらの翻訳物及び編集物含む）を除き、佐倉市ならびに第三者が保有する著作権により保護されています。私的な目的で使用する場合や、著作権法上認められている場合を除き、無断で転載、引用、複製することは禁じられています。ただし、個々の情報に別途定めがある場合はこの取り扱いに優先するものとします。",
+    "target": "file"
+  },
+  "/sources/sakura-shigikai-r8/g07_giketsu.asp_527b49a46d89.html": {
+    "mode": "origin",
+    "href": "https://sakurashigikai.gijiroku.com/g07_giketsu.asp?kaigi=2026%2F02%2F24%2C2026%2F03%2F24%2C123",
+    "license": "本サイトが提供する文書、写真、イラスト等の情報は、告示・訓令・通達その他これらに類するもの（及びそれらの翻訳物及び編集物含む）を除き、佐倉市ならびに第三者が保有する著作権により保護されています。私的な目的で使用する場合や、著作権法上認められている場合を除き、無断で転載、引用、複製することは禁じられています。ただし、個々の情報に別途定めがある場合はこの取り扱いに優先するものとします。",
+    "target": "file"
+  },
+  "/sources/narita-shigikai-r8/page243000.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20250907182237id_/https://www.city.narita.chiba.jp/gikai/page243000.html",
+    "license": "このサイトの文章・画像は著作権により保護されていますので、無断での転用・転載はご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/narita-shigikai-r8/bill_2026-3.html": {
+    "mode": "origin",
+    "href": "https://www.city.narita.chiba.jp/gikai/bill_2026-3.html",
+    "license": "このサイトの文章・画像は著作権により保護されていますので、無断での転用・転載はご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/narita-shigikai-r8/schedule_2026-3.html": {
+    "mode": "origin",
+    "href": "https://www.city.narita.chiba.jp/gikai/schedule_2026-3.html",
+    "license": "このサイトの文章・画像は著作権により保護されていますので、無断での転用・転載はご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/narita-shigikai-r8/000217235.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.narita.chiba.jp/content/000217235.pdf",
+    "license": "このサイトの文章・画像は著作権により保護されていますので、無断での転用・転載はご遠慮ください。",
+    "target": "file"
+  },
+  "/sources/abiko-shigikai-r8/kaiha.html": {
+    "mode": "origin",
+    "href": "https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html",
+    "license": "我孫子市サイトポリシー「著作権について」: 当市のホームページに掲載されている個々の情報（文章、写真、イラストなど）は、著作権保護の対象となります。私的使用や引用など著作権法上認められた場合を除き、無断で複製・転用等をすることはできません。／「リンクについて」: 当市のホームページへのリンクについては、ご希望のページにリンクを設定していただいて結構です。事前の掲載申し込みは必要ありません。ただし、トップページ以外の各ページは、予告なく移動または削除することがありますのでご注意ください。リンクを設定する個所には、我孫子市ホームページへのリンクである旨を明記してください。また、フレーム内リンクなど、「我孫子市ホームページ」の独立性が不明確になるような方法でのリンク、または公序良俗に反する内容や教育上好ましくない内容を掲載するページ上のリンクはご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/abiko-shigikai-r8/237gou1-4men.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.abiko.chiba.jp/shisei/shigikai/gikaidayori.files/237gou1-4men.pdf",
+    "license": "我孫子市サイトポリシー「著作権について」: 当市のホームページに掲載されている個々の情報（文章、写真、イラストなど）は、著作権保護の対象となります。私的使用や引用など著作権法上認められた場合を除き、無断で複製・転用等をすることはできません。／「リンクについて」: 当市のホームページへのリンクについては、ご希望のページにリンクを設定していただいて結構です。事前の掲載申し込みは必要ありません。ただし、トップページ以外の各ページは、予告なく移動または削除することがありますのでご注意ください。リンクを設定する個所には、我孫子市ホームページへのリンクである旨を明記してください。また、フレーム内リンクなど、「我孫子市ホームページ」の独立性が不明確になるような方法でのリンク、または公序良俗に反する内容や教育上好ましくない内容を掲載するページ上のリンクはご遠慮ください。",
+    "target": "file"
+  },
+  "/sources/abiko-shigikai-r8/r8-3kaikinittei.html": {
+    "mode": "origin",
+    "href": "https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/r8dai1kai3gatsu/r8-3kaikinittei.html",
+    "license": "我孫子市サイトポリシー「著作権について」: 当市のホームページに掲載されている個々の情報（文章、写真、イラストなど）は、著作権保護の対象となります。私的使用や引用など著作権法上認められた場合を除き、無断で複製・転用等をすることはできません。／「リンクについて」: 当市のホームページへのリンクについては、ご希望のページにリンクを設定していただいて結構です。事前の掲載申し込みは必要ありません。ただし、トップページ以外の各ページは、予告なく移動または削除することがありますのでご注意ください。リンクを設定する個所には、我孫子市ホームページへのリンクである旨を明記してください。また、フレーム内リンクなど、「我孫子市ホームページ」の独立性が不明確になるような方法でのリンク、または公序良俗に反する内容や教育上好ましくない内容を掲載するページ上のリンクはご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/abiko-shigikai-r8/saiketsukekkaR8.3.sai.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/kakonosaiketsu/index.files/saiketsukekkaR8.3.sai.pdf",
+    "license": "我孫子市サイトポリシー「著作権について」: 当市のホームページに掲載されている個々の情報（文章、写真、イラストなど）は、著作権保護の対象となります。私的使用や引用など著作権法上認められた場合を除き、無断で複製・転用等をすることはできません。／「リンクについて」: 当市のホームページへのリンクについては、ご希望のページにリンクを設定していただいて結構です。事前の掲載申し込みは必要ありません。ただし、トップページ以外の各ページは、予告なく移動または削除することがありますのでご注意ください。リンクを設定する個所には、我孫子市ホームページへのリンクである旨を明記してください。また、フレーム内リンクなど、「我孫子市ホームページ」の独立性が不明確になるような方法でのリンク、または公序良俗に反する内容や教育上好ましくない内容を掲載するページ上のリンクはご遠慮ください。",
+    "target": "file"
+  },
+  "/sources/inzai-shigikai-r8/0000021818.html": {
+    "mode": "origin",
+    "href": "https://www.city.inzai.lg.jp/0000021818.html",
+    "license": "印西市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として印西市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "page"
+  },
+  "/sources/inzai-shigikai-r8/kekka8-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.inzai.lg.jp/cmsfiles/contents/0000000/60/kekka8-1.pdf",
+    "license": "印西市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として印西市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/inzai-shigikai-r8/No.216_web.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.inzai.lg.jp/cmsfiles/contents/0000021/21658/No.216_web.pdf",
+    "license": "印西市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として印西市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
   }
 };

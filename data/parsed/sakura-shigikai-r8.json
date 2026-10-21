@@ -1,0 +1,317 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sakura-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.8",
+  "parsedAt": "2026-10-21T00:33:24.850Z",
+  "fiscalYear": "R8",
+  "body": "佐倉市議会",
+  "seats": 28,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "さくら会",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "齋藤寛之",
+        "密本成章",
+        "望月圧子",
+        "斎藤明美",
+        "敷根文裕",
+        "村田穣史",
+        "高木大輔",
+        "爲田浩",
+        "平野裕子",
+        "櫻井道明"
+      ],
+      "locator": {
+        "file": "Kh110_sakurashigikaidayori_120.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "自由民主さくら",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "石井秀明",
+        "徳永由美子",
+        "橋岡協美",
+        "山本英司"
+      ],
+      "locator": {
+        "file": "Kh110_sakurashigikaidayori_120.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "長谷川泰弘",
+        "押木孝和",
+        "鍋田達子",
+        "岡村芳樹"
+      ],
+      "locator": {
+        "file": "Kh110_sakurashigikaidayori_120.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "市民ネットワーク",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "松島梢",
+        "伊藤とし子",
+        "五十嵐智美"
+      ],
+      "locator": {
+        "file": "Kh110_sakurashigikaidayori_120.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "石井昇",
+        "木崎俊行"
+      ],
+      "locator": {
+        "file": "Kh110_sakurashigikaidayori_120.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "公開と改革",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "三谷英継",
+        "髙橋とみお"
+      ],
+      "locator": {
+        "file": "Kh110_sakurashigikaidayori_120.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "無会派の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "三井義文",
+        "宇田みおこ"
+      ],
+      "locator": {
+        "file": "Kh110_sakurashigikaidayori_120.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "無所属（稲田敏昭）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "稲田敏昭"
+      ],
+      "locator": {
+        "file": "Kh110_sakurashigikaidayori_120.pdf",
+        "page": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和８年度佐倉市一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "g07_Giketsu_View.asp_db4f6bd9c1b6.html"
+    }
+  },
+  "rosterTitle": "佐倉市議会だより第120号（令和8年5月1日発行）2月定例会 議案賛否一覧",
+  "resultTitle": "市長提出議案 議決結果（議案第1号 令和８年度佐倉市一般会計予算）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "佐倉市議会だより第120号 2月定例会 議案賛否一覧",
+    "sourceFile": "Kh110_sakurashigikaidayori_120.pdf",
+    "columns": [
+      {
+        "label": "齋藤寛之",
+        "faction": "さくら会",
+        "member": "齋藤寛之",
+        "stance": "賛成"
+      },
+      {
+        "label": "密本成章",
+        "faction": "さくら会",
+        "member": "密本成章",
+        "stance": "賛成"
+      },
+      {
+        "label": "望月圧子",
+        "faction": "さくら会",
+        "member": "望月圧子",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤明美",
+        "faction": "さくら会",
+        "member": "斎藤明美",
+        "stance": "賛成"
+      },
+      {
+        "label": "敷根文裕",
+        "faction": "さくら会",
+        "member": "敷根文裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "村田穣史",
+        "faction": "さくら会",
+        "member": "村田穣史",
+        "stance": "議長"
+      },
+      {
+        "label": "高木大輔",
+        "faction": "さくら会",
+        "member": "高木大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "爲田浩",
+        "faction": "さくら会",
+        "member": "爲田浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "平野裕子",
+        "faction": "さくら会",
+        "member": "平野裕子",
+        "stance": "賛成"
+      },
+      {
+        "label": "櫻井道明",
+        "faction": "さくら会",
+        "member": "櫻井道明",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井秀明",
+        "faction": "自由民主さくら",
+        "member": "石井秀明",
+        "stance": "賛成"
+      },
+      {
+        "label": "徳永由美子",
+        "faction": "自由民主さくら",
+        "member": "徳永由美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋岡協美",
+        "faction": "自由民主さくら",
+        "member": "橋岡協美",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本英司",
+        "faction": "自由民主さくら",
+        "member": "山本英司",
+        "stance": "賛成"
+      },
+      {
+        "label": "長谷川泰弘",
+        "faction": "公明党",
+        "member": "長谷川泰弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "押木孝和",
+        "faction": "公明党",
+        "member": "押木孝和",
+        "stance": "賛成"
+      },
+      {
+        "label": "鍋田達子",
+        "faction": "公明党",
+        "member": "鍋田達子",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡村芳樹",
+        "faction": "公明党",
+        "member": "岡村芳樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "松島梢",
+        "faction": "市民ネットワーク",
+        "member": "松島梢",
+        "stance": "反対"
+      },
+      {
+        "label": "伊藤とし子",
+        "faction": "市民ネットワーク",
+        "member": "伊藤とし子",
+        "stance": "反対"
+      },
+      {
+        "label": "五十嵐智美",
+        "faction": "市民ネットワーク",
+        "member": "五十嵐智美",
+        "stance": "反対"
+      },
+      {
+        "label": "石井昇",
+        "faction": "日本共産党",
+        "member": "石井昇",
+        "stance": "反対"
+      },
+      {
+        "label": "木崎俊行",
+        "faction": "日本共産党",
+        "member": "木崎俊行",
+        "stance": "反対"
+      },
+      {
+        "label": "三谷英継",
+        "faction": "公開と改革",
+        "member": "三谷英継",
+        "stance": "反対"
+      },
+      {
+        "label": "髙橋とみお",
+        "faction": "公開と改革",
+        "member": "髙橋とみお",
+        "stance": "反対"
+      },
+      {
+        "label": "三井義文",
+        "faction": "無会派の会",
+        "member": "三井義文",
+        "stance": "反対"
+      },
+      {
+        "label": "宇田みおこ",
+        "faction": "無会派の会",
+        "member": "宇田みおこ",
+        "stance": "欠席"
+      },
+      {
+        "label": "稲田敏昭",
+        "faction": "無所属（稲田敏昭）",
+        "member": "稲田敏昭",
+        "stance": "反対"
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ichikawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.8",
+  "parsedAt": "2026-10-21T00:33:22.617Z",
+  "fiscalYear": "R8",
+  "body": "市川市議会",
+  "seats": 42,
+  "asOf": "2026-03-05",
+  "teisu": 42,
+  "factions": [
+    {
+      "name": "れいわ・無所属・共生の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "門田直人",
+        "とくたけ純平",
+        "増田好秀"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "地域政党チームいちかわ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "野口じゅん",
+        "丸金ゆきこ",
+        "冨家薫"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新しい流れ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "沢田あきひと",
+        "にしむた勲",
+        "石原よしのり",
+        "松永鉄兵"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "小山田なおと",
+        "川畑いつこ",
+        "浅野さち",
+        "久保川隆志",
+        "西村敦",
+        "中村よしお",
+        "宮本均",
+        "大場諭"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "未来市川",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "ほとだゆうな",
+        "国松ひろき",
+        "大久保たかし",
+        "堀内しんご",
+        "竹内清海"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "やなぎ美智子",
+        "清水みな子",
+        "廣田德子"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いちかわ市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "中町けい",
+        "つちや正順",
+        "石崎ひでゆき"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創生市川・自民党",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "つかこしたかのり",
+        "石原たかゆき",
+        "石原みさ子",
+        "稲葉健二",
+        "小泉文人",
+        "加藤武央",
+        "岩井清郎"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "加藤圭一",
+        "細田伸一",
+        "青山ひろかず",
+        "中山幸紀"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（太田丈之）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "太田丈之"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（越川雅史）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "越川雅史"
+      ],
+      "locator": {
+        "file": "43401.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第59号",
+    "billName": "令和8年度市川市一般会計予算",
+    "sessionLabel": "令和8年2月市川市議会定例会",
+    "decidedDate": "2026-03-05",
+    "decidedDateLabel": "令和8年3月5日",
+    "result": "多数可決",
+    "locator": {
+      "file": "32594.html"
+    }
+  },
+  "rosterTitle": "令和８年２月市川市議会定例会 議員別表決結果一覧（令和８年3月5日採決）",
+  "resultTitle": "令和8年2月市川市議会定例会 議案等の審議結果一覧"
+}

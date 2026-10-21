@@ -1,0 +1,335 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ichihara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.8",
+  "parsedAt": "2026-10-21T00:33:23.324Z",
+  "fiscalYear": "R8",
+  "body": "市原市議会",
+  "seats": 32,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "相川真樹",
+        "伊藤重明",
+        "関学",
+        "田尻貢",
+        "永野喜光",
+        "浜中吾郎",
+        "平出泰秀",
+        "保坂好則",
+        "増茂誠二"
+      ],
+      "locator": {
+        "file": "R8①_議決結果.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "安在尚太",
+        "伊藤浩士",
+        "菊地洋己",
+        "斎藤武士",
+        "塚本利政",
+        "山内一平",
+        "吉田峰行",
+        "渡辺直樹"
+      ],
+      "locator": {
+        "file": "R8①_議決結果.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "秋田信一",
+        "伊佐和子",
+        "橋本秀和",
+        "堀田祐介",
+        "目黒秀樹",
+        "吉田あけみ"
+      ],
+      "locator": {
+        "file": "R8①_議決結果.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市凛会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大曽根友三",
+        "勝地豊",
+        "竹内直子"
+      ],
+      "locator": {
+        "file": "R8①_議決結果.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いちはら奏会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小沢美佳",
+        "中島拓",
+        "森山薫"
+      ],
+      "locator": {
+        "file": "R8①_議決結果.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "駒形八寿子",
+        "福田雅彦"
+      ],
+      "locator": {
+        "file": "R8①_議決結果.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（岡泉）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "岡泉"
+      ],
+      "locator": {
+        "file": "R8①_議決結果.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第32号",
+    "billName": "令和８年度市原市一般会計予算について",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8①_議決結果.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "令和８年第１回定例会議決（審査）結果（会派・議員別の賛否表）",
+  "resultTitle": "令和８年第１回定例会議決（審査）結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会議決（審査）結果",
+    "sourceFile": "R8①_議決結果.pdf",
+    "columns": [
+      {
+        "label": "相川真樹",
+        "faction": "自由民主党",
+        "member": "相川真樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤重明",
+        "faction": "自由民主党",
+        "member": "伊藤重明",
+        "stance": "賛成"
+      },
+      {
+        "label": "関学",
+        "faction": "自由民主党",
+        "member": "関学",
+        "stance": "賛成"
+      },
+      {
+        "label": "田尻貢",
+        "faction": "自由民主党",
+        "member": "田尻貢",
+        "stance": "賛成"
+      },
+      {
+        "label": "永野喜光",
+        "faction": "自由民主党",
+        "member": "永野喜光",
+        "stance": "賛成"
+      },
+      {
+        "label": "浜中吾郎",
+        "faction": "自由民主党",
+        "member": "浜中吾郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "平出泰秀",
+        "faction": "自由民主党",
+        "member": "平出泰秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "保坂好則",
+        "faction": "自由民主党",
+        "member": "保坂好則",
+        "stance": "賛成"
+      },
+      {
+        "label": "増茂誠二",
+        "faction": "自由民主党",
+        "member": "増茂誠二",
+        "stance": "賛成"
+      },
+      {
+        "label": "安在尚太",
+        "faction": "市民クラブ",
+        "member": "安在尚太",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤浩士",
+        "faction": "市民クラブ",
+        "member": "伊藤浩士",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊地洋己",
+        "faction": "市民クラブ",
+        "member": "菊地洋己",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤武士",
+        "faction": "市民クラブ",
+        "member": "斎藤武士",
+        "stance": "賛成"
+      },
+      {
+        "label": "塚本利政",
+        "faction": "市民クラブ",
+        "member": "塚本利政",
+        "stance": "賛成"
+      },
+      {
+        "label": "山内一平",
+        "faction": "市民クラブ",
+        "member": "山内一平",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田峰行",
+        "faction": "市民クラブ",
+        "member": "吉田峰行",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺直樹",
+        "faction": "市民クラブ",
+        "member": "渡辺直樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "秋田信一",
+        "faction": "公明党",
+        "member": "秋田信一",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋本秀和",
+        "faction": "公明党",
+        "member": "橋本秀和",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀田祐介",
+        "faction": "公明党",
+        "member": "堀田祐介",
+        "stance": "賛成"
+      },
+      {
+        "label": "目黒秀樹",
+        "faction": "公明党",
+        "member": "目黒秀樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田あけみ",
+        "faction": "公明党",
+        "member": "吉田あけみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "大曽根友三",
+        "faction": "市凛会",
+        "member": "大曽根友三",
+        "stance": "賛成"
+      },
+      {
+        "label": "勝地豊",
+        "faction": "市凛会",
+        "member": "勝地豊",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹内直子",
+        "faction": "市凛会",
+        "member": "竹内直子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小沢美佳",
+        "faction": "いちはら奏会",
+        "member": "小沢美佳",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島拓",
+        "faction": "いちはら奏会",
+        "member": "中島拓",
+        "stance": "賛成"
+      },
+      {
+        "label": "森山薫",
+        "faction": "いちはら奏会",
+        "member": "森山薫",
+        "stance": "賛成"
+      },
+      {
+        "label": "駒形八寿子",
+        "faction": "日本共産党",
+        "member": "駒形八寿子",
+        "stance": "反対"
+      },
+      {
+        "label": "福田雅彦",
+        "faction": "日本共産党",
+        "member": "福田雅彦",
+        "stance": "反対"
+      },
+      {
+        "label": "岡泉",
+        "faction": "無所属（岡泉）",
+        "member": "岡泉",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊佐和子",
+        "faction": "公明党",
+        "member": "伊佐和子",
+        "stance": "議長"
+      }
+    ]
+  }
+}

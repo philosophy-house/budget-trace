@@ -1,0 +1,26 @@
+{
+  "sourceId": "yachiyo-shigikai-r8",
+  "files": [
+    {
+      "filename": "45999.pdf",
+      "sha256": "4c68f59bd9edf15d082053e1a13e14db58ef040a1d90f0d7009a6611579a9693",
+      "bytes": 256317,
+      "fetchedAt": "2026-10-21T00:31:57.337Z",
+      "fetchedFrom": "https://www.city.yachiyo.lg.jp/uploaded/attachment/45999.pdf"
+    },
+    {
+      "filename": "77034.html",
+      "sha256": "4614170994362962a5a3046983ea33d13ef0929afb8a4fa2f522c066d48fbf03",
+      "bytes": 31848,
+      "fetchedAt": "2026-10-21T00:31:57.338Z",
+      "fetchedFrom": "https://www.city.yachiyo.lg.jp/soshiki/52/77034.html"
+    },
+    {
+      "filename": "4147.html",
+      "sha256": "0655ff1ba30290b89eae4ca3c8761d510e36223c7a43d0388df55e491f5730d1",
+      "bytes": 28618,
+      "fetchedAt": "2026-10-21T00:31:57.339Z",
+      "fetchedFrom": "https://www.city.yachiyo.lg.jp/site/yachiyosigikai/4147.html"
+    }
+  ]
+}

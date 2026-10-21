@@ -1,0 +1,39 @@
+{
+  "sourceId": "sakura-shigikai-r8",
+  "files": [
+    {
+      "filename": "Kh110_sakurashigikaidayori_120.pdf",
+      "sha256": "ed5b9c71896016c02c7f62da7798abbe09a955577a329c8516cbb8fb6a7b388e",
+      "bytes": 3401099,
+      "fetchedAt": "2026-10-21T00:31:58.255Z",
+      "fetchedFrom": "https://sakurashigikai.gijiroku.com/voices/gikaidoc/attach/koho/Kh110_sakurashigikaidayori_120.pdf"
+    },
+    {
+      "filename": "Kg83_080324.pdf",
+      "sha256": "b9671caba2493e942ce301e53b5449a10a4fe78d8520e1e3edc37dfd400a0eea",
+      "bytes": 217725,
+      "fetchedAt": "2026-10-21T00:31:58.256Z",
+      "fetchedFrom": "https://sakurashigikai.gijiroku.com/voices/GikaiDoc/attach/Congress/Kg83_080324.pdf"
+    },
+    {
+      "filename": "g07_Giketsu_View.asp_db4f6bd9c1b6.html",
+      "sha256": "ccb3f36478d233446ffaef8fe98270529abb898a350b30c5401e2dd0ccac258f",
+      "bytes": 9958,
+      "fetchedAt": "2026-10-21T00:31:58.257Z",
+      "fetchedFrom": "https://sakurashigikai.gijiroku.com/g07_Giketsu_View.asp?SrchID=2743",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "g07_giketsu.asp_527b49a46d89.html",
+      "sha256": "7fbc5dd65b0d0ce1d7eb0a6e45a88e4ba6885b4ed8dc91c0af179878d74bf0d9",
+      "bytes": 34541,
+      "fetchedAt": "2026-10-21T00:31:58.258Z",
+      "fetchedFrom": "https://sakurashigikai.gijiroku.com/g07_giketsu.asp?kaigi=2026%2F02%2F24%2C2026%2F03%2F24%2C123",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

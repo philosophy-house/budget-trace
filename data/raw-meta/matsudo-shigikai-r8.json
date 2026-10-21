@@ -1,0 +1,26 @@
+{
+  "sourceId": "matsudo-shigikai-r8",
+  "files": [
+    {
+      "filename": "matsudo_gikai_265.pdf",
+      "sha256": "51e8bdd09dacf64438bc66f5ba538744c710d6648249b0131f8716b72f4a21b4",
+      "bytes": 2070926,
+      "fetchedAt": "2026-10-21T00:31:57.328Z",
+      "fetchedFrom": "https://www.city.matsudo.chiba.jp/gikai/gikaidayori/gikaidayorireiwa6.files/matsudo_gikai_265.pdf"
+    },
+    {
+      "filename": "2026_3_sanpi.pdf",
+      "sha256": "96ade07a12ee4299f51aedefaa71f080367e2a62e33f515f0900ce5dac76fe27",
+      "bytes": 177455,
+      "fetchedAt": "2026-10-21T00:31:57.329Z",
+      "fetchedFrom": "https://www.city.matsudo.chiba.jp/gikai/kaigi_kekka/sanpikoukai/2026_3_sanpi.files/2026_3_sanpi.pdf"
+    },
+    {
+      "filename": "202603teireikai3.pdf",
+      "sha256": "b00fe4369fa2dbd5f13577343db0c3bce505a811f83962f3a634393e78205ea3",
+      "bytes": 89979,
+      "fetchedAt": "2026-10-21T00:31:57.330Z",
+      "fetchedFrom": "https://www.city.matsudo.chiba.jp/gikai/kaigi_kekka/shingikekka.files/202603teireikai3.pdf"
+    }
+  ]
+}

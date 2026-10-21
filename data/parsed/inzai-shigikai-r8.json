@@ -1,0 +1,291 @@
+{
+  "docType": "council-composition",
+  "sourceId": "inzai-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.8",
+  "parsedAt": "2026-10-21T00:33:26.385Z",
+  "fiscalYear": "R8",
+  "body": "印西市議会",
+  "seats": 21,
+  "asOf": "2026-03-13",
+  "factions": [
+    {
+      "name": "至誠",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "米井重行",
+        "大野忠寄",
+        "岩崎成子",
+        "大﨑亜希"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新政",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "軍司俊紀",
+        "海老原作一",
+        "板橋睦",
+        "津田憲吾"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "TO BE",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "稲葉健",
+        "都築真理子",
+        "林勝利"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "創進",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小川利彦",
+        "増田葉子",
+        "松尾榮子"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "藤江研一",
+        "鈴木博美"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党（山田喜代子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山田喜代子"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "響（ひびき）（金丸和史）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "金丸和史"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "いま未来（松谷知美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "松谷知美"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "印西ダイバーシティ（加藤亮二）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "加藤亮二"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "無所属（近藤瑞枝）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "近藤瑞枝"
+      ],
+      "locator": {
+        "file": "0000021818.html",
+        "row": 10
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第21号",
+    "billName": "令和８年度印西市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kekka8-1.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和7年度政務活動費収支報告（領収証等含）について（令和7年度 政務活動費に関する会派の状況）",
+  "resultTitle": "令和8年第1回定例会 会議結果（議案等処理結果一覧表）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "いんざい議会だより No.216（令和8年5月）議案と審議結果",
+    "sourceFile": "No.216_web.pdf",
+    "columns": [
+      {
+        "label": "大﨑亜希",
+        "faction": "至誠",
+        "member": "大﨑亜希",
+        "stance": "賛成"
+      },
+      {
+        "label": "大野忠寄",
+        "faction": "至誠",
+        "member": "大野忠寄",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤亮二",
+        "faction": "印西ダイバーシティ（加藤亮二）",
+        "member": "加藤亮二",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木博美",
+        "faction": "公明党",
+        "member": "鈴木博美",
+        "stance": "賛成"
+      },
+      {
+        "label": "津田憲吾",
+        "faction": "新政",
+        "member": "津田憲吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "都築真理子",
+        "faction": "TO BE",
+        "member": "都築真理子",
+        "stance": "賛成"
+      },
+      {
+        "label": "林勝利",
+        "faction": "TO BE",
+        "member": "林勝利",
+        "stance": "賛成"
+      },
+      {
+        "label": "松谷知美",
+        "faction": "いま未来（松谷知美）",
+        "member": "松谷知美",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲葉健",
+        "faction": "TO BE",
+        "member": "稲葉健",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川利彦",
+        "faction": "創進",
+        "member": "小川利彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "米井重行",
+        "faction": "至誠",
+        "member": "米井重行",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩崎成子",
+        "faction": "至誠",
+        "member": "岩崎成子",
+        "stance": "賛成"
+      },
+      {
+        "label": "海老原作一",
+        "faction": "新政",
+        "member": "海老原作一",
+        "stance": "賛成"
+      },
+      {
+        "label": "増田葉子",
+        "faction": "創進",
+        "member": "増田葉子",
+        "stance": "賛成"
+      },
+      {
+        "label": "松尾榮子",
+        "faction": "創進",
+        "member": "松尾榮子",
+        "stance": "賛成"
+      },
+      {
+        "label": "軍司俊紀",
+        "faction": "新政",
+        "member": "軍司俊紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "金丸和史",
+        "faction": "響（ひびき）（金丸和史）",
+        "member": "金丸和史",
+        "stance": "賛成"
+      },
+      {
+        "label": "板橋睦",
+        "faction": "新政",
+        "member": "板橋睦",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田喜代子",
+        "faction": "日本共産党（山田喜代子）",
+        "member": "山田喜代子",
+        "stance": "反対"
+      },
+      {
+        "label": "藤江研一",
+        "faction": "公明党",
+        "member": "藤江研一",
+        "stance": "賛成"
+      },
+      {
+        "label": "近藤瑞枝",
+        "faction": "無所属（近藤瑞枝）",
+        "member": "近藤瑞枝",
+        "stance": "議長"
+      }
+    ]
+  }
+}
