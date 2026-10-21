@@ -1264,6 +1264,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "082325": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度",
+        "reason": "一般会計予算に関する説明書のうち、款ごとの前年度比較が載る総括の2ページだけが文字を図形に変換した状態で作られていて、文字として取り出せない（画像も入っていない）。一般会計予算書の第1表は款と項の金額だけで、前年度の額が無い。",
+        "checkedOn": "2026-10-21"
+      }
+    ]
+  },
   "042021": {
     "budget": [
       {
