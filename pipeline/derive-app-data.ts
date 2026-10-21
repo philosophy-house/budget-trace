@@ -3983,6 +3983,32 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `chita-yosan-gaiyou-${fy}`, muniCode: "232246", muniName: "知多市", prefName: "愛知県", isPref: false,
     })),
+    // ---- 泉大津・知立・笠間・吉川・たつの（2026-10-22・§13-76） ----
+    // ⚠ 泉大津は概要の右端の「増減額の主な内容」を CropX で落とす。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `izumiotsu-yosan-gaiyou-${fy}`, muniCode: "272060", muniName: "泉大津市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 知立 R5・R4 は予算書が OCR で崩れるので概要。R3・R2 は decodeGarble。license-no-grant・noDeepLink
+    ...(["r8", "r7", "r6", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chiryu-yosansho-${fy}`, muniCode: "232254", muniName: "知立市", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r5", "r4"] as const).map((fy) => ({
+      srcId: `chiryu-yosan-gaiyou-${fy}`, muniCode: "232254", muniName: "知立市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 笠間は HeaderExtra 必須（筑西と同じ型）。R2 は概要版。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `kasama-yosansho-${fy}`, muniCode: "082163", muniName: "笠間市", prefName: "茨城県", isPref: false,
+    })),
+    { srcId: "kasama-yosan-gaiyo-r2", muniCode: "082163", muniName: "笠間市", prefName: "茨城県", isPref: false },
+    // ⚠ 吉川 R7・R6 は歳入ページの「白紙」の判を CropX で落とす。R2 は WARP の参考資料（議会修正後）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `yoshikawa-yosansho-${fy}`, muniCode: "112437", muniName: "吉川市", prefName: "埼玉県", isPref: false,
+    })),
+    { srcId: "yoshikawa-yosan-sankou-r2", muniCode: "112437", muniName: "吉川市", prefName: "埼玉県", isPref: false },
+    // ⚠ たつの R8〜R3 は decodeGarble（R5〜R3 は復号表に1字足した）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tatsuno-yosan-sankou-${fy}`, muniCode: "282294", muniName: "たつの市", prefName: "兵庫県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
