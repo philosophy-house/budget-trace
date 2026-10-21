@@ -3,7 +3,7 @@
   "sourceId": "itoman-yosansho-r7",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-21T21:27:14.076Z",
+  "parsedAt": "2026-10-21T21:41:19.621Z",
   "unit": "thousandYen",
   "fiscalYear": "R7",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 32039238,
   "prevExpenditureTotal": 32039238,
   "prevBasis": "当初",
-  "prevNote": "前年度（令和6年度）の一般会計予算は、3月の市議会で否決され、暫定予算を経て5月2日に修正可決で成立した（市議会の議決結果）。前年度額は予算書の前年度列のとおり。",
+  "prevNote": "前年度（令和6年度）の一般会計予算は、3月の市議会でいったん修正可決されたが再議の結果否決され、暫定予算を経て、5月2日に改めて提出された予算が修正可決されて成立した（市議会の議決結果）。前年度額は予算書の前年度列のとおり。",
   "facts": [
     {
       "side": "revenue",
