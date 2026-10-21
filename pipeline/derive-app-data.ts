@@ -3698,7 +3698,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `wako-yosan-gaiyou-${fy}`, muniCode: "112291", muniName: "和光市", prefName: "埼玉県", isPref: false,
     })),
-    // ---- 第59巡（2026-10-22・§13-64） ----
+    // ---- 第61巡（2026-10-22・§13-66） ----
     // ⚠ 名取は license-no-grant・noDeepLink。R3・R2 はスキャンで未収録
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `natori-yosan-setsumei-${fy}`, muniCode: "042072", muniName: "名取市", prefName: "宮城県", isPref: false,
