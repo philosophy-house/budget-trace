@@ -1,0 +1,12 @@
+{
+  "sourceId": "komae-yosan-r2",
+  "files": [
+    {
+      "filename": "sainyu-saishutsu.pdf",
+      "sha256": "91688dda33ba816d1dc493628317277966b68be6f8a455ade81ec9527dc4acb5",
+      "bytes": 64822,
+      "fetchedAt": "2026-10-21T16:27:10.609Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20220809/20220806220748/https://www.city.komae.tokyo.jp/index.cfm/46,15748,361,pdf/sainyu%2Dsaishutsu%2Epdf"
+    }
+  ]
+}
