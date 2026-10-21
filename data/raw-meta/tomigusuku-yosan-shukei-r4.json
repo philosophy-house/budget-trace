@@ -1,0 +1,19 @@
+{
+  "sourceId": "tomigusuku-yosan-shukei-r4",
+  "files": [
+    {
+      "filename": "5.pdf",
+      "sha256": "d0dfa37c5060a6a56aa78fce35290e1b233fb11ba0d1d5cb87c3e746b92c348b",
+      "bytes": 352069,
+      "fetchedAt": "2026-10-21T18:22:47.702Z",
+      "fetchedFrom": "https://www.city.tomigusuku.lg.jp/material/files/group/5/5.pdf"
+    },
+    {
+      "filename": "6.pdf",
+      "sha256": "57f2eac250566d5322e89e2e1d5b0e1727e58f9a8273cbf44597353cc5e402e7",
+      "bytes": 358849,
+      "fetchedAt": "2026-10-21T18:22:48.081Z",
+      "fetchedFrom": "https://www.city.tomigusuku.lg.jp/material/files/group/5/6.pdf"
+    }
+  ]
+}

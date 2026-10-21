@@ -1,0 +1,19 @@
+{
+  "sourceId": "kashiwara-osaka-yosan-r2",
+  "files": [
+    {
+      "filename": "R2sainyu.pdf",
+      "sha256": "a165026b8f2c3effa1455c8fbc14c062d756359fba70ca1768e2e46a61227389",
+      "bytes": 148681,
+      "fetchedAt": "2026-10-21T18:27:01.002Z",
+      "fetchedFrom": "https://www.city.kashiwara.lg.jp/_files/00424257/R2sainyu.pdf"
+    },
+    {
+      "filename": "R2-yosan2.pdf",
+      "sha256": "6ae113304a50d6382b657176a0875f60c68490f27e6c548b3300695246156513",
+      "bytes": 603324,
+      "fetchedAt": "2026-10-21T18:27:01.512Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20200517/20200516141610/http://www.city.kashiwara.osaka.jp/_files/00207799/R2-yosan2.pdf"
+    }
+  ]
+}

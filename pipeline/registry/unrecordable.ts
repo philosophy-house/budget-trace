@@ -2278,6 +2278,26 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-77",
   },
   {
+    // 柏原市（272213）R6。R8・R7・R5〜R2 は収録済み（§13-78）。
+    // 当初予算参考資料（/docs/2024052700037/）は60ページすべて CCITT 300dpi の画像（テキスト60字）。予算書（/_files/00512862/r6yosan-ippan-tokubetu.pdf）の総括 p.36 は
+    // 歳出の消防費の数字がテキスト層で `962 ,18 1` と割れる（画像では 962,181）。`amountTypos` で直せば Σ 差0 だが、誤植用の指定をテキスト層の割れに流用するかは人の判断。
+    code: "272213", name: "柏原市", dataset: "budget", fiscalYears: ["R6"],
+    categories: ["broken-text-layer"],
+    reason:
+      "款別の歳出が載る当初予算参考資料が紙をスキャンした画像だけの PDF で、予算書の総括は一部の款の数字が文字の層の上で途中で割れていて、そのままでは正しく取り出せない。",
+    url: "https://www.city.kashiwara.lg.jp/docs/2024032700019/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-78",
+  },
+  {
+    // 大館市（052043）R2。R8〜R3 は収録済み（§13-78）。パーサの issue #361。
+    code: "052043", name: "大館市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "当初予算の概要の歳入の総括表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度25,000千円）に付いている印（●）を、こちらの抽出処理が廃止の印として扱えず、その款が落ちる。原典の表は健全。",
+    url: "https://warp.ndl.go.jp/20260707/20260705021444/https://www.city.odate.lg.jp/city/soshiki/zaisei/p647",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-78",
+  },
+  {
     // 名張市（242080）R7〜R3。R8・R2 は収録済み（§13-79）。
     // R7・R6 は予算書その1 の総括 p.11/12 の款名がアウトライン化（款番号と金額だけが文字）。R7 の「当初予算（案）のポイント」の対前年度比較は歳入の款を「譲与税・交付金」に合算。
     // R5・R4・R3 は予算書がスキャン画像（テキスト層0）。R5 の概要は円グラフだけ。推測のファイル名11通り・Wayback・WARP にも総括表は無い。
