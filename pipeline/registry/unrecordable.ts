@@ -2309,4 +2309,26 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.nabari.lg.jp/130/045/100/020/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-79",
   },
+  {
+    // 北本市（112330）R4・R3。R8〜R5・R2 は収録済み（§13-81）。
+    // 年度ページ（あらまし）に「当初案に対し、修正案により修正可決されました」。予算参考資料・予算書はどちらも原案（R4 は原案 22,343,000・修正後 22,326,410、R3 は原案 21,492,000・修正後 21,478,178）。R3 のあらましは …/g2/3/3/12102.html。
+    // 年度ページの HTML に修正後の款別の表（前年度は比率だけ）があり、修正案 PDF（R4 R4toushoyosan_shuuseian.pdf・R3 R3tousyoyosannitaisurusyuuseian.pdf）は変わった款だけ（R4 は繰入金・土木費。前年度列つき）。
+    code: "112330", name: "北本市", dataset: "budget", fiscalYears: ["R4", "R3"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計予算は議会で修正して可決された。前年度との比較が載っている予算参考資料と予算書は修正前の原案のままで、修正案には額が変わった款だけが載っている。年度ページの款別の表は修正後の額だが前年度の額が無い。",
+    url: "https://www.city.kitamoto.lg.jp/soshiki/seisakusuisinbu/zaisei/gyomu/g2/3/3/13620.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
+  },
+  {
+    // 合志市（432164）R3。R8〜R4・R2 は収録済み（§13-81）。
+    // 概要説明資料 p.4 の廃止款の行「（自動車取得税交付金） 0 0.0 1 ▲ 1 ▲ 100.0 0」は款番号・印・「皆減」なしの括弧書きで、末尾に市民一人当り額が付く。
+    // 既存の廃止款の分岐に当たらず行ごと落ち、前年度 Σ が −1（warning 止まり）。栗東 R2・大館 R2 と同じ扱いで見送る。
+    code: "432164", name: "合志市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の構成表のうち、廃止された款（自動車取得税交付金）の行が括弧書きで款番号の無い形になっていて、こちらの抽出処理ではその行を読めない（前年度の合計が1千円合わなくなる）。原典の表は健全。",
+    url: "https://www.city.koshi.lg.jp/kiji00320384/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
+  },
 ];
