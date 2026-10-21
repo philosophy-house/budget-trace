@@ -1,0 +1,12 @@
+{
+  "sourceId": "nakatsu-yosansetsumeisho-r8",
+  "files": [
+    {
+      "filename": "yosansetsumeisho.pdf",
+      "sha256": "a7d3d81bbd344b2c2b585d8763caca9170099eb9a500018f218a73998a221d7f",
+      "bytes": 2880434,
+      "fetchedAt": "2026-10-21T16:34:25.285Z",
+      "fetchedFrom": "https://www.city-nakatsu.jp/doc/2026031800080/file_contents/yosansetsumeisho.pdf"
+    }
+  ]
+}

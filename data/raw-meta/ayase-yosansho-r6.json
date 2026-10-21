@@ -1,0 +1,19 @@
+{
+  "sourceId": "ayase-yosansho-r6",
+  "files": [
+    {
+      "filename": "r6yosansyo.pdf",
+      "sha256": "2ed92e1a87252cb1b1611e9456f8d432e1b3e73235c5c5fea15098508d68f139",
+      "bytes": 6529906,
+      "fetchedAt": "2026-10-21T16:22:23.942Z",
+      "fetchedFrom": "https://www.city.ayase.kanagawa.jp/material/files/group/6/r6yosansyo.pdf"
+    },
+    {
+      "filename": "r6gaiyo.pdf",
+      "sha256": "6da3a53ab11bbd126355b82ef08415ac527cc22478660890b6f7efdc3661ebaf",
+      "bytes": 3710872,
+      "fetchedAt": "2026-10-21T16:22:24.509Z",
+      "fetchedFrom": "https://www.city.ayase.kanagawa.jp/material/files/group/6/r6gaiyo.pdf"
+    }
+  ]
+}

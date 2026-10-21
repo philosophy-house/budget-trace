@@ -1944,6 +1944,50 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
   },
   {
+    // 名取市（042072）R3・R2。R8〜R4 は収録済み（§13-66）。
+    // R3 の説明書 11384.pdf は p.4（歳入の総括）が CCITT のスキャン画像でテキスト6字（p.5 の歳出の総括は文字がある）。R2 の説明書(1) 11291.pdf は p.5 以降のテキストが計12字。
+    code: "042072", name: "名取市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "予算に関する説明書のうち、款ごとの前年度比較が載る総括のページが紙をスキャンした画像で、文字として取り出せない" +
+      "（令和3年度は歳入側だけ、令和2年度は本文全体）。予算書・予算資料もほぼ画像で、概要には款別の表が無い。",
+    url: "https://www.city.natori.miyagi.jp/page/5131.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-66",
+  },
+  {
+    // 木津川市（262145）R2。R8〜R3 は収録済み（§13-66）。
+    // 予算書 /cmsfiles/contents/0000000/41/ の総括 p.12・p.13 は ToUnicode 欠落の化け。decodeGarble は柱のダッシュ U+0336 で throw し、p.13 は重なった二重のテキスト層で復号表に無い字が多数出る。
+    code: "262145", name: "木津川市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["broken-text-layer"],
+    reason:
+      "一般会計予算書の総括のページの文字が別の字に化けていて、歳出のページは文字の層が二重に重なっている。" +
+      "この化け方はこちらの復号の対応表に無い字を含み、款ごとの金額を正しく取り出せない。",
+    url: "https://www.city.kizugawa.lg.jp/0000000041.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-66",
+  },
+  {
+    // 香芝市（292109）R7・R5・R4。R6・R3・R2 は収録済み（§13-66）。
+    // 本体の説明書（24988・14947・10215.pdf）の総括は「一部訂正」前の数字。訂正後は別ファイル（24989・15204・10640.pdf）に変わった行だけ。翌年度の前年度列は訂正後と一致。
+    code: "292109", name: "香芝市", dataset: "budget", fiscalYears: ["R7", "R5", "R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "予算に関する説明書の総括は、後から一部訂正される前の数字のままで（令和7年度 34,760,000千円に対し訂正後 34,548,000千円など）、" +
+      "訂正後の額は変わった行だけを並べた別の資料にしか載っていない。款ごとの前年度比較を訂正後の額でそろえた表が無い。",
+    url: "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-66",
+  },
+  {
+    // 香芝市（292109）R8。説明書 31777.pdf の総括 p.5・p.6 は ToUnicode 欠落。数字は既知の帯（ASCII−0x1D）だが、款名の化け方が GARBLE_CHAR_MAP に無い変種で、
+    // 本物のかな（「あ」＝諸・「わ」＝議など）に化ける字を含み isSuspectGarble が素通りさせる。decodeGarble は U+0480 ほかで throw。
+    code: "292109", name: "香芝市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算に関する説明書の総括のページの文字が別の字に化けていて、款の名前の化け方がこちらの復号の対応表に無い（本物のひらがなに化けている字もある）。" +
+      "金額の数字は読めるが、款の名前を確かめずに収録はしない。",
+    url: "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-66",
+  },
+  {
     // 大和郡山市（292036）R7・R6・R5・R3・R2。R8・R4 は収録済み（§13-64）。パーサの issue #347。
     // R7・R6・R5・R3 は説明書の総括に同一のテキスト層が x 方向に約22.7pt ずれて2重に入る。R2 は歳入の見開きで番号なしの廃止款が款名ページから落ちる。
     code: "292036", name: "大和郡山市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R3", "R2"],
@@ -1966,12 +2010,46 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
   {
-    // 交野市（272302）R2。R8〜R3 は収録済み（§13-65）。パーサの issue #354。
+    // 牛久市（082198）R3。R8〜R4・R2 は収録済み（§13-67）。
+    // 議案第18号に対する修正案「第１条中「２８，４６３，０００千円」を「２８，０１０，９５３千円」に改める。」（/data/doc/1616734624_doc_21_0.pdf）。
+    // 概要（1614146964_doc_21_0.pdf）は原案で、款6 法人事業税交付金の行は整数が1つしかなく落ちる。予算書（1616734582_doc_21_0.pdf）の総括 p.11/12 は原案の額に取り消し線を引いて
+    // 修正後の額を書き足した版面で、decodeGarble で読むと原案の額が Σ 差0 で通る（静かに誤る）。
+    code: "082198", name: "牛久市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["format-mismatch"],
+    reason:
+      "議会で一般会計予算が修正されたが、市が公開している当初予算案の概要は修正前の原案のまま。" +
+      "予算書の総括は原案の額に取り消し線を引いて修正後の額を書き足した版面で、修正後の款ごとの額を文字として正しく取り出せない。",
+    url: "https://www.city.ushiku.lg.jp/shisei/shinotorikumi/keikaku-zeisei-shisaku-kaikaku/yosan-kessan/yosan/page009643.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
+  },
+  {
+    // 綾瀬市（142182）R5。R8・R7・R6・R4 は収録済み（§13-67）。
+    // 予算書 r5yosansyo.pdf の歳入総括 p.19 は poppler で文字が二重に出る（`歳歳入入`・`1133,,447788,,026`）。見出しも取れず throw。概要 r5gaiyo.pdf の〔歳入〕は款を合算した12区分。
+    code: "142182", name: "綾瀬市", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "予算書のうち歳入の款ごとの前年度比較が載る総括のページが、同じ文字が二重に重なった状態で作られていて、文字として正しく取り出せない。" +
+      "予算の概要の歳入の表は款をまとめた区分で、款ごとの額が載っていない。",
+    url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/14542.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
+  },
+  {
+    // 綾瀬市（142182）R3・R2。現行サイトの財政ページに年度が無く、r3yosansyo.pdf 等を推測で叩いて 404。Wayback の CDX（material/files/group/6/・旧サイト /hp/）に予算 PDF 0件。WARP は館内限定（403）。
+    code: "142182", name: "綾瀬市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason:
+      "市のサイトに当初予算の資料が残っておらず、インターネットアーカイブにも見当たらない。" +
+      "国立国会図書館の WARP では、この市のサイトは館内でしか閲覧できない。",
+    url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
+  },
+  {
+    // 交野市（272302）R2。R8〜R3 は収録済み（§13-68）。パーサの issue #354。
     code: "272302", name: "交野市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["parser-unsupported"],
     reason:
       "一般会計予算書の総括のページは数字の文字コードの対応表が欠けていて復号が要るが、廃止された款に付いている印（×）を、こちらの抽出処理が化けた文字と取り違えて止まる。原典の表は健全。",
     url: "https://www.city.katano.osaka.jp/docs/2020051300032/",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-65",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
   },
 ];

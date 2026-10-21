@@ -1,0 +1,26 @@
+{
+  "sourceId": "matsubara-shigikai-r8",
+  "files": [
+    {
+      "filename": "_____5___No.205_HP_rr____.pdf",
+      "sha256": "a02d7b53a5ff3fc3954cb26e879a2ad9ffa07ceb526cb46e750ad22fa5176a0e",
+      "bytes": 6571938,
+      "fetchedAt": "2026-10-21T14:46:16.295Z",
+      "fetchedFrom": "https://www.city.matsubara.lg.jp/fs/3/4/1/5/5/1/_/_____5___No.205_HP_rr____.pdf"
+    },
+    {
+      "filename": "____________HP__.pdf",
+      "sha256": "caa086c5689a88e4d9d83e3548e7e0af354ffced71f54956f2ae848cbbe879ce",
+      "bytes": 160436,
+      "fetchedAt": "2026-10-21T14:46:16.296Z",
+      "fetchedFrom": "https://www.city.matsubara.lg.jp/fs/3/3/2/6/0/6/_/____________HP__.pdf"
+    },
+    {
+      "filename": "page3827.html",
+      "sha256": "812d9e78fe3aa46e1693469b3b4f3ec7e01a2602cbc02d5e87194d5d41db939a",
+      "bytes": 57498,
+      "fetchedAt": "2026-10-21T14:46:16.297Z",
+      "fetchedFrom": "https://web.archive.org/web/20250531220947id_/https://www.city.matsubara.lg.jp/docs/page3827.html"
+    }
+  ]
+}

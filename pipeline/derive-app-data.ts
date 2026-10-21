@@ -3589,7 +3589,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
-    // ---- 第60巡（2026-10-22・§13-65） ----
+    // ---- 第62巡（2026-10-22・§13-68） ----
     // ⚠ 交野 R2 は decodeGarble が廃止款の印 × で止まる（#354）。`noDeepLink`
     ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
       srcId: `katano-yosansho-${fy}`, muniCode: "272302", muniName: "交野市", prefName: "大阪府", isPref: false,
@@ -3740,6 +3740,31 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `wako-yosan-gaiyou-${fy}`, muniCode: "112291", muniName: "和光市", prefName: "埼玉県", isPref: false,
     })),
+    // ---- 第61巡（2026-10-22・§13-66） ----
+    // ⚠ 名取は license-no-grant・noDeepLink。R3・R2 はスキャンで未収録
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `natori-yosan-setsumei-${fy}`, muniCode: "042072", muniName: "名取市", prefName: "宮城県", isPref: false,
+    })),
+    // ⚠ 君津は R8〜R6 が予算書、R5〜R2 が概要（縦書きの財源区分を revenueCropX で落とす）。noDeepLink
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `kimitsu-yosansho-${fy}`, muniCode: "122254", muniName: "君津市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kimitsu-yosangaiyou-${fy}`, muniCode: "122254", muniName: "君津市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 木津川は textSource raw。R5 骨格（R6 に prevNote）。R2 は化けで未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `kizugawa-yosansho-${fy}`, muniCode: "262145", muniName: "木津川市", prefName: "京都府", isPref: false,
+    })),
+    // ⚠ あきる野は kanNameContinues 必須。R2 は修正可決後の当初予算資料。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `akiruno-yosansho-${fy}`, muniCode: "132284", muniName: "あきる野市", prefName: "東京都", isPref: false,
+    })),
+    { srcId: "akiruno-tousho-yosan-shiryou-r2", muniCode: "132284", muniName: "あきる野市", prefName: "東京都", isPref: false },
+    // ⚠ 香芝は R6（open）・R3・R2 だけ。R7・R5・R4 は総括が訂正前、R8 は化けで未収録
+    ...(["r6", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kashiba-yosan-setsumei-${fy}`, muniCode: "292109", muniName: "香芝市", prefName: "奈良県", isPref: false,
+    })),
     // ---- 第55巡（2026-10-22・§13-60） ----
     // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -3760,6 +3785,51 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     // ⚠ 薩摩川内は歳出の財源内訳の列見出しが款1 に付く型（見出しと expenditureHeaderExtra の両方が要る）。ライセンスは台帳で要許可
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `satsumasendai-yosansho-${fy}`, muniCode: "462152", muniName: "薩摩川内市", prefName: "鹿児島県", isPref: false,
+    })),
+    // ---- 中津・貝塚・四国中央・横手・越前（2026-10-22・§13-65） ----
+    // ⚠ 中津 R8・R7 は説明書（R7 の比較表は商工費・土木費が予算書と110千円ずれる）、R6〜R2 は対前年度比較表（R2 は WARP）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `nakatsu-yosansetsumeisho-${fy}`, muniCode: "442038", muniName: "中津市", prefName: "大分県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nakatsu-yosan-taizennen-${fy}`, muniCode: "442038", muniName: "中津市", prefName: "大分県", isPref: false,
+    })),
+    // ⚠ 貝塚は R4・R8 が骨格（R5 に prevNote）。ライセンスは門真と同文で unverified
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaizuka-yosansho-${fy}`, muniCode: "272086", muniName: "貝塚市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 四国中央は大綱の款別。次のページに同じ合計の性質別
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shikokuchuo-yosan-taiko-${fy}`, muniCode: "382132", muniName: "四国中央市", prefName: "愛媛県", isPref: false,
+    })),
+    // ⚠ 横手 R5 は予算書が原案と修正後の2層 PDF なので概要
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yokote-yosansho-${fy}`, muniCode: "052035", muniName: "横手市", prefName: "秋田県", isPref: false,
+    })),
+    { srcId: "yokote-yosan-gaiyou-r5", muniCode: "052035", muniName: "横手市", prefName: "秋田県", isPref: false },
+    // ⚠ 越前 R6・R5 は歳入ページに別文書の透明テキストが重なる（revenueCropX）。R8 は骨格的予算
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `echizenshi-yosansho-soukatsu-${fy}`, muniCode: "182095", muniName: "越前市", prefName: "福井県", isPref: false,
+    })),
+    // ---- 第60巡（2026-10-22・§13-67） ----
+    // ⚠ 綾瀬は R8・R7・R6・R4（R5 は文字層の二重化・R3・R2 はウェブに無い）。R6 は歳入が予算書・歳出が概要の2ファイル。款10 は kanNameContinues
+    ...(["r8", "r7", "r6", "r4"] as const).map((fy) => ({
+      srcId: `ayase-yosansho-${fy}`, muniCode: "142182", muniName: "綾瀬市", prefName: "神奈川県", isPref: false,
+    })),
+    // ⚠ 牛久 R3 は議会修正で概要が原案のまま（未収録）。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `ushiku-yosan-gaiyou-${fy}`, muniCode: "082198", muniName: "牛久市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 尾張旭 R5 は骨格予算（R6 に prevNote）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `owariasahi-yosansho-${fy}`, muniCode: "232262", muniName: "尾張旭市", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gotemba-yosan-gaiyou-${fy}`, muniCode: "222151", muniName: "御殿場市", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 知多は款と項が同じ表に並ぶ（kanIndentMax: 2）。R4〜R2 は Wayback
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chita-yosan-gaiyou-${fy}`, muniCode: "232246", muniName: "知多市", prefName: "愛知県", isPref: false,
     })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。

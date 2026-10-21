@@ -1,0 +1,39 @@
+{
+  "sourceId": "moriguchi-shigikai-r8",
+  "files": [
+    {
+      "filename": "giinnbetsusaiketsu0802_5.pdf",
+      "sha256": "62807a860c91e9f8d43df07be68e5f824c85b11f87ceea5b632dbdd1524cf4ce",
+      "bytes": 227461,
+      "fetchedAt": "2026-10-21T14:46:16.283Z",
+      "fetchedFrom": "https://www.city.moriguchi.osaka.jp/material/files/group/71/giinnbetsusaiketsu0802_5.pdf"
+    },
+    {
+      "filename": "20238.html",
+      "sha256": "2ebfaa18791976a67e1ee61ed7e895270d0feb14b2c9b8ab4f002242adca1ae5",
+      "bytes": 74633,
+      "fetchedAt": "2026-10-21T14:46:16.284Z",
+      "fetchedFrom": "https://www.city.moriguchi.osaka.jp/kakukanoannai/gikaijimukyoku/1/1/111/1_3/20238.html"
+    },
+    {
+      "filename": "GetText3_R080324A_0.html",
+      "sha256": "ce55dee6fde00f4fe349be35ea13d670b7001ca91ea40fc12538276f1b328c76",
+      "bytes": 6263,
+      "fetchedAt": "2026-10-21T14:46:16.285Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/moriguchi/cgi-bin3/GetText3.exe?dkd57ztmiohveiaaba/R080324A/0/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "GetText3_R080324A_67168.html",
+      "sha256": "2c288faf9b088e7fddf3357719c901449b47e428896c844a4c22af276e9a0ab0",
+      "bytes": 736,
+      "fetchedAt": "2026-10-21T14:46:16.286Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/moriguchi/cgi-bin3/GetText3.exe?dkd57ztmiohveiaaba/R080324A/67168/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

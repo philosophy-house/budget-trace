@@ -1,0 +1,12 @@
+{
+  "sourceId": "nakatsu-yosan-taizennen-r6",
+  "files": [
+    {
+      "filename": "taizennen.pdf",
+      "sha256": "1394d024c673d284b1ed6454c18e493e053e2447ce14d646328a031877db9408",
+      "bytes": 101478,
+      "fetchedAt": "2026-10-21T16:34:26.368Z",
+      "fetchedFrom": "https://www.city-nakatsu.jp/doc/2024032700033/file_contents/taizennen.pdf"
+    }
+  ]
+}

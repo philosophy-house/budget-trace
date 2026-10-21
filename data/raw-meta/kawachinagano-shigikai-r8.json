@@ -1,0 +1,33 @@
+{
+  "sourceId": "kawachinagano-shigikai-r8",
+  "files": [
+    {
+      "filename": "128186_370701_misc.pdf",
+      "sha256": "9ab8b08af57b05e0c66056018c5bf43a86c1d38230d35b4c6b6810fc51d38984",
+      "bytes": 1821661,
+      "fetchedAt": "2026-10-21T14:46:16.290Z",
+      "fetchedFrom": "https://www.city.kawachinagano.lg.jp/uploaded/life/128186_370701_misc.pdf"
+    },
+    {
+      "filename": "122030_347939_misc.pdf",
+      "sha256": "c3114f8671d9dc7bd25017208dd27582498071a1ffe25a5deee83169242ac482",
+      "bytes": 154603,
+      "fetchedAt": "2026-10-21T14:46:16.291Z",
+      "fetchedFrom": "https://www.city.kawachinagano.lg.jp/uploaded/life/122030_347939_misc.pdf"
+    },
+    {
+      "filename": "116970_331298_misc.pdf",
+      "sha256": "07fb9c80750064234ae0a4eece7dd6c5e5371e73d815807d2f290b62901a8c9a",
+      "bytes": 2169188,
+      "fetchedAt": "2026-10-21T14:46:16.292Z",
+      "fetchedFrom": "https://www.city.kawachinagano.lg.jp/uploaded/life/116970_331298_misc.pdf"
+    },
+    {
+      "filename": "5169.html",
+      "sha256": "53721601772b90ab43a12ebb2296d429a70548d34e2fffc6fd97cb76e432724c",
+      "bytes": 27047,
+      "fetchedAt": "2026-10-21T14:46:16.293Z",
+      "fetchedFrom": "https://web.archive.org/web/20250525024617id_/https://www.city.kawachinagano.lg.jp/site/gikai/5169.html"
+    }
+  ]
+}

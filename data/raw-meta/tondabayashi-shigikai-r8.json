@@ -1,0 +1,26 @@
+{
+  "sourceId": "tondabayashi-shigikai-r8",
+  "files": [
+    {
+      "filename": "113665.pdf",
+      "sha256": "907d1671a2287daa93284ca05ec3eef9dcf6e2e13447f6f8a211bebee4348b1e",
+      "bytes": 6371080,
+      "fetchedAt": "2026-10-21T14:46:16.284Z",
+      "fetchedFrom": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/113665.pdf"
+    },
+    {
+      "filename": "112421.pdf",
+      "sha256": "dae5cd4ed44c4e1caa2192cf130e8cdecd4130105fe1ed83791516a768d5faf6",
+      "bytes": 179559,
+      "fetchedAt": "2026-10-21T14:46:16.285Z",
+      "fetchedFrom": "https://www.city.tondabayashi.lg.jp/uploaded/attachment/112421.pdf"
+    },
+    {
+      "filename": "kousei.html",
+      "sha256": "7a13926a9bf552025ed0617b34674c90d01daaa71c2e2753cdde2751c8ed2091",
+      "bytes": 27897,
+      "fetchedAt": "2026-10-21T14:46:16.286Z",
+      "fetchedFrom": "https://www.city.tondabayashi.lg.jp/site/gikai/kousei.html"
+    }
+  ]
+}
