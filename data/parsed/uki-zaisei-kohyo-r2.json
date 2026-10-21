@@ -1,0 +1,391 @@
+{
+  "docType": "budget-book",
+  "sourceId": "uki-zaisei-kohyo-r2",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T22:22:59.788Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R2",
+  "account": "一般会計",
+  "revenueTotal": 33987393,
+  "expenditureTotal": 33987393,
+  "prevRevenueTotal": 35145736,
+  "prevExpenditureTotal": 35145736,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 5921704,
+      "prevAmount": 5833408,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 274387,
+      "prevAmount": 264583,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 2261,
+      "prevAmount": 3032,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 13894,
+      "prevAmount": 16233,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 8988,
+      "prevAmount": 17234,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "地方消費税交付金",
+      "amount": 1109134,
+      "prevAmount": 975363,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 35065,
+      "prevAmount": 35267,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 17198,
+      "prevAmount": 0,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 26945,
+      "prevAmount": 26732,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 8770000,
+      "prevAmount": 9090000,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "自動車取得税交付金",
+      "amount": 0,
+      "prevAmount": 28433,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 6440,
+      "prevAmount": 6900,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 140988,
+      "prevAmount": 246064,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 314288,
+      "prevAmount": 326876,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 5696312,
+      "prevAmount": 5947725,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 2990014,
+      "prevAmount": 2805169,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 22258,
+      "prevAmount": 36077,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 422000,
+      "prevAmount": 360001,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 2224968,
+      "prevAmount": 1678655,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 300000,
+      "prevAmount": 300000,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 239649,
+      "prevAmount": 176284,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 5450900,
+      "prevAmount": 6971700,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 213519,
+      "prevAmount": 211818,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 4438177,
+      "prevAmount": 4196452,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 11520259,
+      "prevAmount": 11241588,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 1848531,
+      "prevAmount": 2008807,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "農林水産業費",
+      "amount": 1396831,
+      "prevAmount": 1259380,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "商工費",
+      "amount": 365063,
+      "prevAmount": 298541,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "土木費",
+      "amount": 3569673,
+      "prevAmount": 4068496,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "消防費",
+      "amount": 1515163,
+      "prevAmount": 3119163,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "教育費",
+      "amount": 4779322,
+      "prevAmount": 5171966,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "災害復旧費",
+      "amount": 333274,
+      "prevAmount": 104481,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "公債費",
+      "amount": 3982581,
+      "prevAmount": 3440044,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "予備費",
+      "amount": 25000,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "uki_zaisei_kohyo_R2.pdf",
+        "page": 13
+      }
+    }
+  ]
+}
