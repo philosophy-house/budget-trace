@@ -471,6 +471,14 @@ const SHIMOTSUKE_LICENSE =
   "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として下野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、下野市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。";
 const TAMBA_LICENSE =
   "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。";
+const NAKA_IBARAKI_LICENSE =
+  "那珂市公式ホームページに記載される記事、画像、データ等の著作権は、那珂市に帰属します。その全てについて、「私的利用のための複製」や「引用」など、著作権法上認められる場合を除き、那珂市の許可を得ないまま転載することはお断りします。";
+const SHIRAOKA_LICENSE =
+  "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は白岡市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。";
+const MINAMIUONUMA_LICENSE =
+  "南魚沼市ウェブサイトに掲載されている文章、写真などに関する著作権は原則として南魚沼市に帰属しています。ただし、一部の写真の著作権などについては原著作者が所有しています。南魚沼市ウェブサイトの全部もしくは一部について、「私的使用のための複製」や、「引用」など著作権法上認められた場合を除き、南魚沼市に無断で複製・転用することはできません。南魚沼市ウェブサイトの掲載コンテンツを複製・転用する場合は、必ず事前に各ページを所管する各担当課にご相談ください。";
+const BANDO_LICENSE =
+  "本サイト上の文書、画像、レイアウト、デザイン等に関する著作権は、すべて坂東市に帰属しています。ただし、外部委託先の制作による一部の著作権など、坂東市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越しいただいた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。";
 const JOETSU_LICENSE =
   "上越市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、上越市に帰属します。また一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書、画像などの無断使用・転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越えて、当ホームページの情報の使用を希望する場合は事前に広報対話課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。";
 const CHITOSE_LICENSE =
@@ -26086,6 +26094,178 @@ export const SOURCES: SourceEntry[] = [
       kanNamePrefixStrip: "廃",
     },
   },
+  // ---- 第81巡（2026-10-22・§13-91）: 那珂・白岡・南魚沼・坂東（富谷は見送り） ----
+  // 那珂市（茨城県・団体コード 082261 ＝ 総務省 R6.json から実引き）。予算書の「歳入歳出予算事項別明細書 1 総括」。千円。歳入22款（R2 は廃止款を含め23）・歳出13款。
+  // ⚠ 全年度 ToUnicode 欠落（数字＝ASCII−0x1D・漢字は健全）⇒ decodeGarble。R8・R2 の廃止款の印「×」は復号表に恒等で足した（garble-decode.ts）。
+  // ⚠⚠ revenueHeaderExtra が無いと款1 が `歳入歳出予算事項別明細書総括市税`（Σ 差0）。`事項別明細書` だけだと `総括市税` が残る。
+  //   R8 は環境性能割の廃止で款番号が1つ繰り上がる（照合は款名で）。
+  // 前年度列は当初（R8→R2 の6組で款単位全一致・R2 の前年度 19,500,000 は H31 予算書第1条と一致）。骨格予算・議会修正: 0件（市長選は1月で無投票）。
+  // 総額突合: R6 当初 23,100,000 ÷ 総務省 R6 決算歳出 23,400,387 = 98.7%。
+  // ライセンス: 「このサイトについて」（/hp-about/page001697.html）＝「許可を得ないまま転載することはお断り」で要許可。リンク「原則自由です」⇒ 立てない。
+  // ⚠ 主な事業（予算説明書・地の文）と事業報告（事務事業評価シート R7 160事業・款項目コードつき）は別の巡（docs §13-91）。
+  ...([
+    ["R8", "1772083006_doc_269_0", 23],
+    ["R7", "1742530594_doc_575_0", 23],
+    ["R6", "1711600308_doc_785_0", 21],
+    ["R5", "1678409950_doc_36_0", 21],
+    ["R4", "1678242229_doc_36_0", 21],
+    ["R3", "1678242221_doc_36_0", 14],
+    ["R2", "1678242213_doc_36_0", 15],
+  ] as const).map(([fy, file, rp]) => ({
+    id: `naka-ibaraki-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 那珂市予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "那珂市",
+    url: `https://www.city.naka.lg.jp/data/doc/${file}.pdf`,
+    landingPage: "https://www.city.naka.lg.jp/gyousei/zaisei/page009313.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "那珂市（一般会計・団体コード082261）",
+    license: NAKA_IBARAKI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: rp + 1,
+      revenueHeading: "（歳入）",
+      expenditureHeading: "（歳出）",
+      revenueHeaderExtra: "事項別明細書|総括",
+      decodeGarble: true,
+    },
+  } satisfies SourceEntry)),
+  // 富谷市（宮城県・042161）は見送り（docs §13-91）: 当初予算の概要・予算書とも R4 以外はスキャン画像。R4 は取れるがライセンスが割れる（人の判断待ち）。
+  // 白岡市（埼玉県・団体コード 112461 ＝ 総務省 R6.json から実引き）。「予算案の概要」の「一般会計当初予算内訳表【歳入】」「【歳出（目的別）】」。千円。歳入21款（R2 は廃止款を含め22）・歳出13款。
+  // ⚠⚠ 見出しを `【歳入】` にすると款1 が `一般会計当初予算内訳表市税`、表題を見出しにすると `【歳入】市税`（どちらも Σ 差0）⇒ 表題を見出しに・`revenueHeaderExtra: "【歳入】"`。
+  // ⚠ R2 の廃止款は3行組みで款名が `自動車取得税△交付金`（Σ 差0）⇒ `stripChars: { revenue: "△" }`（R2 の歳入ページの他の △ は増減列だけ）。
+  // ⚠ R4 は議会で修正可決（財産収入 △1,017・繰入金 +1,017）。概要・予算書とも原案のまま ⇒ unrecordable。R5 の前年度列は修正後（＝議決された当初）なので prevNote なし。
+  // 前年度列は当初（R4→R5 以外の各リンクで款単位全一致）。骨格予算: 0件。
+  // 総額突合: R6 当初 17,958,000 ÷ 総務省 R6 決算歳出 20,061,875 = 89.5%。
+  // ライセンス: 「免責事項・著作権」（/3/1559.html）＝`無断` で要許可。リンク（/3/1560.html）「…原則として当サイトトップページ…へのリンク設定をお願いします。」（依頼形・湖西と同型）⇒ 立てない。
+  // ⚠ 主な事業（概要の「主要事業の概要」・款なし／「歳出予算事業別概要書」・款項目と事業コードつき）と事業報告（主要な施策に関する説明書 R7〜H24）は別の巡（docs §13-91）。
+  ...([
+    ["R8", "R8yosangaiyou", 5, 8],
+    ["R7", "03_gaiyo0218", 5, 10],
+    ["R6", "r6yosangaiyou", 5, 10],
+    ["R5", "R5yosangaiyou", 6, 11],
+    ["R3", "R3yosangaiyou", 4, 8],
+    ["R2", "R2yosangaiyou", 4, 8],
+  ] as const).map(([fy, file, rp, ep]) => ({
+    id: `shiraoka-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 白岡市予算案の概要（一般会計当初予算内訳表）`,
+    publisher: "白岡市",
+    url: `https://www.city.shiraoka.lg.jp/material/files/group/6/${file}.pdf`,
+    landingPage: "https://www.city.shiraoka.lg.jp/shiseijoho/gyozaisei/2/7509.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "白岡市（一般会計・団体コード112461）",
+    license: SHIRAOKA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: ep,
+      revenueHeading: "一般会計当初予算内訳表",
+      revenueHeaderExtra: "【歳入】",
+      expenditureHeading: "【歳出（目的別）】",
+      ...(fy === "R2" ? { stripChars: { revenue: "△" } } : {}),
+    },
+  } satisfies SourceEntry)),
+  // 南魚沼市（新潟県・団体コード 152269 ＝ 総務省 R6.json から実引き）。「当初予算の概要」の「２ 一般会計歳入予算の状況（１）科目別」「３ 一般会計歳出予算の状況（１）目的別」。千円。歳入21款・歳出14款。
+  // ⚠⚠ 右端の「主な増減項目」欄を CropX で切らないと款名に混入して Σ が崩れる。隙間は 2.5〜3pt と狭く、to は年度ごとに bbox で実測（偵察）。R3 だけページが1つ前。
+  // ⚠ R2 は概要だと CropX で廃止款の行が割れて前年度 Σ が −57,000（warning 止まり）⇒ 予算書の総括。款6・款8 は前年度セルが空欄で `prevBlankAsZero`。
+  //   廃止款は原典どおり半角括弧の `(自動車取得税交付金)`。
+  // 前年度列は当初（R2→R8 の6リンクで款単位全一致）。骨格予算: 0件（市長選は11月）。当初予算の議会修正なし（決算書資料の「修正可決」欄が暦年 2020〜2025 すべて「-」）。
+  // 総額突合: R6 当初 39,560,000 ÷ 総務省 R6 決算歳出 43,573,678 = 90.8%。
+  // ライセンス: 「リンク･著作権･免責事項」（/site/copyright.html）＝`無断` で要許可。リンク「…トップページへのリンクは原則自由です。」（深いリンクを認める句が無い）⇒ 丹波と同じく閉じる側に倒して `noDeepLink`。
+  // ⚠ 主な事業（概要「重点施策の概要」・億万円表記・款なし）と事業報告（歳入歳出決算書資料「主要な施策の成果の概要」・活動統計中心）は別の巡（docs §13-91）。
+  ...([
+    ["R8", "78846", "/fs/2/8/6/9/5/8/_/%E4%BB%A4%E5%92%8C8%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E3%81%AE%E6%A6%82%E8%A6%81.pdf", 4, 6, 402, 389],
+    ["R7", "67705", "/fs/2/6/8/8/5/5/_/R7gaiyou.pdf", 4, 6, 411, 388],
+    ["R6", "57060", "/fs/2/5/3/2/4/3/_/R6gaiyou.pdf", 4, 6, 411, 383],
+    ["R5", "43863", "/fs/2/3/7/8/2/4/_/%E4%BB%A4%E5%92%8C5%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E3%81%AE%E6%A6%82%E8%A6%81.pdf", 4, 6, 414, 401],
+    ["R4", "28788", "/fs/1/7/4/8/6/2/_/%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E3%81%AE%E6%A6%82%E8%A6%81.pdf", 4, 6, 421, 401],
+    ["R3", "2065", "/fs/1/5/9/9/4/1/_/3yosangaiyou.pdf", 3, 5, 443, 415],
+  ] as const).map(([fy, doc, path, rp, ep, revTo, expTo]) => ({
+    id: `minamiuonuma-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 南魚沼市当初予算の概要（一般会計歳入予算の状況・一般会計歳出予算の状況）`,
+    publisher: "南魚沼市",
+    url: `https://www.city.minamiuonuma.niigata.jp${path}`,
+    landingPage: `https://www.city.minamiuonuma.niigata.jp/docs/${doc}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "南魚沼市（一般会計・団体コード152269）",
+    license: MINAMIUONUMA_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: ep,
+      revenueHeading: "一般会計歳入予算の状況",
+      expenditureHeading: "一般会計歳出予算の状況",
+      revenueTotalLabel: "合計",
+      expenditureTotalLabel: "合計",
+      revenueCropX: { from: 0, to: revTo },
+      expenditureCropX: { from: 0, to: expTo },
+    },
+  } satisfies SourceEntry)),
+  {
+    id: "minamiuonuma-yosansho-r2",
+    title: "令和2年度 南魚沼市一般会計・特別会計予算書（歳入歳出予算事項別明細書 総括）",
+    publisher: "南魚沼市",
+    url: "https://www.city.minamiuonuma.niigata.jp/fs/2/2/5/0/6/4/_/R2yosansho.pdf",
+    landingPage: "https://www.city.minamiuonuma.niigata.jp/docs/2061.html",
+    kind: "pdf",
+    fiscalYear: "R2",
+    scope: "南魚沼市（一般会計・団体コード152269）",
+    license: MINAMIUONUMA_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho",
+    parserOptions: {
+      revenuePages: { from: 16, to: 17 },
+      expenditurePage: 18,
+      revenueHeading: "総括",
+      expenditureHeading: "歳出",
+      prevBlankAsZero: { revenue: [6, 8] },
+    },
+  },
+  // 坂東市（茨城県・団体コード 082287 ＝ 総務省 R6.json から実引き）。「予算の概要」のうち「一般会計予算の概要」（1枚 PDF・千円）。歳入・歳出が同じ p.1 に縦積み（samePage）。
+  //   歳入22款（R2 は廃止款を含め23）・歳出13款。合計ラベルは両側とも `合計`。
+  // ⚠⚠ revenueHeaderExtra が無いと款1 が `一般会計予算の概要市税`（Σ 差0）。
+  // ⚠ PDF 本体に「坂東市」の文字が無い（表題は「一般会計予算の概要」だけ）。来歴は年度ページで担保する。
+  // 前年度列は当初（R8→R2 の6組で款単位全一致）。骨格予算: 0件（市長選は3月だが R7・R3 の当初は通常規模で骨格の記載なし）。
+  //   議会修正: R8・R7・R3 は第1号補正の補正前の額＝当初の額で一致。
+  // 総額突合: R6 当初 22,290,000 ÷ 総務省 R6 決算歳出 23,286,294 = 95.7%。
+  // ライセンス: プライバシーポリシー「著作権等について」（/page/page001250.html）＝`無断` で要許可。
+  //   リンク「…リンク設定される場合は、トップページ（…)に設定してください。なお、セカンドページ以降にページリンク設定される場合は、必ず市へご連絡ください。」⇒ `noDeepLink`。
+  // ⚠ 主な事業（課別事業別歳出（主な事業）・部局別10本の PDF・8桁の款項目事業コードと前年度当初額つき）と事業報告（主要な施策の成果説明書・同じ8桁コード）は別の巡（docs §13-91）。
+  ...([
+    ["R8", "1773634720_doc_14_0", "page011043"],
+    ["R7", "1740018806_doc_14_0", "page010494"],
+    ["R6", "1710476034_doc_14_0", "page009911"],
+    ["R5", "1678858047_doc_14_0", "page009279"],
+    ["R4", "1645078183_doc_14_2", "page008521"],
+    ["R3", "1613521378_doc_14_2", "page007382"],
+    ["R2", "1583990277_doc_14_0", "page006009"],
+  ] as const).map(([fy, file, page]) => ({
+    id: `bando-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 坂東市予算の概要（一般会計予算の概要）`,
+    publisher: "坂東市",
+    url: `https://www.city.bando.lg.jp/data/doc/${file}.pdf`,
+    landingPage: `https://www.city.bando.lg.jp/page/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "坂東市（一般会計・団体コード082287）",
+    license: BANDO_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 1,
+      expenditurePage: 1,
+      samePage: true,
+      revenueHeading: "歳入",
+      expenditureHeading: "歳出",
+      revenueTotalLabel: "合計",
+      expenditureTotalLabel: "合計",
+      revenueHeaderExtra: "一般会計予算の概要",
+    },
+  } satisfies SourceEntry)),
   // 上越市（新潟県・団体コード 152226 ＝ 総務省 R6.json から実引き）。財政課「当初予算の概要」の「● 一般会計 歳入」「● 一般会計 歳出（目的別）」。千円。
   //   歳入23款（H31 は款9 自動車取得税交付金を含め番号つき24款、R2 は番号つき23款＋番号なしの廃止款 `× 自動車取得税交付金`、H28・H27 は22款）・歳出14款。列は [前年度, 当年度, 増減]（`prevColumnFirst`）・合計ラベルの次の行に金額（`totalAmountNextLine`）。
   //   R8〜R5 は1冊、R4〜H31 は2分冊の後半、H28・H27 は2分冊の前半。R2〜H27 は現行サイトから消えていて WARP。

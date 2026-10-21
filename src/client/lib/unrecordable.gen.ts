@@ -165,6 +165,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "112461": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "一般会計予算は議会で修正して可決されたが、掲載されている予算案の概要と予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（財産収入・繰入金の2款）。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "121002": {
     "report": [
       {
@@ -1740,6 +1749,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "042161": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和3年度・令和2年度",
+        "reason": "当初予算の概要と予算書が、どちらも紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "060003": {
     "budget": [
       {
@@ -1957,6 +1975,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "470007": [
+    "budget"
+  ],
+  "042161": [
     "budget"
   ],
   "060003": [

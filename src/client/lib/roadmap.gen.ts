@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 497,
+  "budgetCount": 501,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3641,
-  "fileCount": 5312,
+  "sourceCount": 3668,
+  "fileCount": 5339,
   "archivedCount": 2858,
   "licenseOpen": 135,
-  "licensePermission": 3421,
+  "licensePermission": 3448,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -879,6 +879,18 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "那珂市",
+      "code": "082261",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "坂東市",
+      "code": "082287",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "佐野市",
       "code": "092045",
       "years": 7,
@@ -1205,6 +1217,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "燕市",
       "code": "152137",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "南魚沼市",
+      "code": "152269",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1951,6 +1969,12 @@ export const ROADMAP_PROGRESS = {
       "code": "112453",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "白岡市",
+      "code": "112461",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "市川市",
