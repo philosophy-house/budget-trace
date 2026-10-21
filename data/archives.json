@@ -41878,6 +41878,120 @@
       "checkedAt": "2026-09-15T01:48:08.029Z"
     },
     {
+      "sourceId": "shibata-yosan-gaiyou-r3",
+      "url": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/015/233/r3_yosangaiyou2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250320142510/https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/015/233/r3_yosangaiyou2.pdf",
+      "waybackTimestamp": "20250320142510",
+      "checkedAt": "2026-10-21T15:55:40.508Z",
+      "sha256Match": true,
+      "waybackBytes": 594047,
+      "rawSha256": "cf936e8d62ecf5c2b89c1cc13beb6aab695c4885590814bd67255b46262e1faf"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r3",
+      "url": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1015233.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250512055335/https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1015233.html",
+      "waybackTimestamp": "20250512055335",
+      "checkedAt": "2026-10-21T15:55:41.783Z"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r4",
+      "url": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/018/169/r4_yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250418092748/https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/018/169/r4_yosangaiyou.pdf",
+      "waybackTimestamp": "20250418092748",
+      "checkedAt": "2026-10-21T15:55:35.259Z",
+      "sha256Match": true,
+      "waybackBytes": 1006768,
+      "rawSha256": "39380f026b333cc7032c19b0b4427249463cc48e4b446c541ba3021f2c313d08"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r4",
+      "url": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1018169.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20251005131410/https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1018169.html",
+      "waybackTimestamp": "20251005131410",
+      "checkedAt": "2026-10-21T15:55:35.923Z"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r5",
+      "url": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/022/271/r5_yosangaiyou0221.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250318170704/https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/022/271/r5_yosangaiyou0221.pdf",
+      "waybackTimestamp": "20250318170704",
+      "checkedAt": "2026-10-21T15:55:27.227Z",
+      "sha256Match": true,
+      "waybackBytes": 888120,
+      "rawSha256": "2eec5b79967d6890fe8354c935081c80e9d4c83a77e37197a8dc5f21bedc5db9"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r5",
+      "url": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1022271.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20251009021648/https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1022271.html",
+      "waybackTimestamp": "20251009021648",
+      "checkedAt": "2026-10-21T15:55:31.204Z"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r6",
+      "url": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/024/670/r6_yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240612212746/https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/024/670/r6_yosangaiyou.pdf",
+      "waybackTimestamp": "20240612212746",
+      "checkedAt": "2026-10-21T15:55:20.581Z",
+      "sha256Match": true,
+      "waybackBytes": 1052007,
+      "rawSha256": "cce660ac270792d2968196e5ad3f90b96a6c3f6d6e5bd985da12b225adebbbca"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r6",
+      "url": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1024670.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260712183411/https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1024670.html",
+      "waybackTimestamp": "20260712183411",
+      "checkedAt": "2026-10-21T15:55:22.153Z"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r7",
+      "url": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/026/841/r7_yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250518184428/https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/026/841/r7_yosangaiyou.pdf",
+      "waybackTimestamp": "20250518184428",
+      "checkedAt": "2026-10-21T15:55:12.994Z",
+      "sha256Match": true,
+      "waybackBytes": 1062609,
+      "rawSha256": "cfd6afe55304e847cc9606ba741388362af96fde43026bc6f1fc699d04062abf"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r7",
+      "url": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1026841.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250916082019/https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1026841.html",
+      "waybackTimestamp": "20250916082019",
+      "checkedAt": "2026-10-21T15:55:14.337Z"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r8",
+      "url": "https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/030/588/r8_yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260416083414/https://www.city.shibata.lg.jp/_res/projects/default_project/_page_/001/030/588/r8_yosangaiyou.pdf",
+      "waybackTimestamp": "20260416083414",
+      "checkedAt": "2026-10-21T15:55:05.579Z",
+      "sha256Match": true,
+      "waybackBytes": 2052180,
+      "rawSha256": "f47c5dd6382a3260c0de7354a130f347b170d3fc631de32ef273d7b09bee8b49"
+    },
+    {
+      "sourceId": "shibata-yosan-gaiyou-r8",
+      "url": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1030588.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260417221206/https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1030588.html",
+      "waybackTimestamp": "20260417221206",
+      "checkedAt": "2026-10-21T15:55:08.167Z"
+    },
+    {
       "sourceId": "shibuya-yosansho-r5",
       "url": "https://files.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/e0b774174e384a5da3a056344280fea2/yosan05_yosansho05.pdf",
       "kind": "file",

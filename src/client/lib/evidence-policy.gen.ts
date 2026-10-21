@@ -21061,6 +21061,168 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "Copyright © Higashiomi City All rights Reserved.",
     "target": "page"
   },
+  "/sources/sanjo-yosan-gaiyou-r8/R8yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/r8.html",
+    "license": "三条市ホームページに掲載されている個々の情報（文字、写真、イラストなど）は著作権の対象となっています。また、ホームページ全体も編集著作権の対象となっています。これらの著作権は、三条市および写真撮影者、イラスト作成者などに帰属しており著作権法および国際条約により保護されています。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。 また、本ホームページの内容の全部または一部について無断で改変することもできません。御利用に当たってはあらかじめ三条市政策推進課広報広聴係までご連絡ください。",
+    "target": "page"
+  },
+  "/sources/sanjo-yosan-gaiyou-r7/R7yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/r7.html",
+    "license": "三条市ホームページに掲載されている個々の情報（文字、写真、イラストなど）は著作権の対象となっています。また、ホームページ全体も編集著作権の対象となっています。これらの著作権は、三条市および写真撮影者、イラスト作成者などに帰属しており著作権法および国際条約により保護されています。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。 また、本ホームページの内容の全部または一部について無断で改変することもできません。御利用に当たってはあらかじめ三条市政策推進課広報広聴係までご連絡ください。",
+    "target": "page"
+  },
+  "/sources/sanjo-yosan-gaiyou-r6/R6yosangaiyou_no2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/r6.html",
+    "license": "三条市ホームページに掲載されている個々の情報（文字、写真、イラストなど）は著作権の対象となっています。また、ホームページ全体も編集著作権の対象となっています。これらの著作権は、三条市および写真撮影者、イラスト作成者などに帰属しており著作権法および国際条約により保護されています。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。 また、本ホームページの内容の全部または一部について無断で改変することもできません。御利用に当たってはあらかじめ三条市政策推進課広報広聴係までご連絡ください。",
+    "target": "page"
+  },
+  "/sources/sanjo-yosan-gaiyou-r5/R5yosangaiyou_no2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/r5.html",
+    "license": "三条市ホームページに掲載されている個々の情報（文字、写真、イラストなど）は著作権の対象となっています。また、ホームページ全体も編集著作権の対象となっています。これらの著作権は、三条市および写真撮影者、イラスト作成者などに帰属しており著作権法および国際条約により保護されています。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。 また、本ホームページの内容の全部または一部について無断で改変することもできません。御利用に当たってはあらかじめ三条市政策推進課広報広聴係までご連絡ください。",
+    "target": "page"
+  },
+  "/sources/sanjo-yosan-gaiyou-r4/R3yosangaiyou_no2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/15072.html",
+    "license": "三条市ホームページに掲載されている個々の情報（文字、写真、イラストなど）は著作権の対象となっています。また、ホームページ全体も編集著作権の対象となっています。これらの著作権は、三条市および写真撮影者、イラスト作成者などに帰属しており著作権法および国際条約により保護されています。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。 また、本ホームページの内容の全部または一部について無断で改変することもできません。御利用に当たってはあらかじめ三条市政策推進課広報広聴係までご連絡ください。",
+    "target": "page"
+  },
+  "/sources/sanjo-yosan-gaiyou-r3/R3yosanngaiyou_no2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/3527.html",
+    "license": "三条市ホームページに掲載されている個々の情報（文字、写真、イラストなど）は著作権の対象となっています。また、ホームページ全体も編集著作権の対象となっています。これらの著作権は、三条市および写真撮影者、イラスト作成者などに帰属しており著作権法および国際条約により保護されています。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。 また、本ホームページの内容の全部または一部について無断で改変することもできません。御利用に当たってはあらかじめ三条市政策推進課広報広聴係までご連絡ください。",
+    "target": "page"
+  },
+  "/sources/sanjo-yosan-gaiyou-r2/R2tousyo2(gaiyou).pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanjo.niigata.jp/soshiki/somubu/zaimuka/zaisei/yosankessan/yosan/13574.html",
+    "license": "三条市ホームページに掲載されている個々の情報（文字、写真、イラストなど）は著作権の対象となっています。また、ホームページ全体も編集著作権の対象となっています。これらの著作権は、三条市および写真撮影者、イラスト作成者などに帰属しており著作権法および国際条約により保護されています。本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。 また、本ホームページの内容の全部または一部について無断で改変することもできません。御利用に当たってはあらかじめ三条市政策推進課広報広聴係までご連絡ください。",
+    "target": "page"
+  },
+  "/sources/shibata-yosan-gaiyou-r8/r8_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1030588.html",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-yosan-gaiyou-r7/r7_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1026841.html",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-yosan-gaiyou-r6/r6_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1024670.html",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-yosan-gaiyou-r5/r5_yosangaiyou0221.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1022271.html",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-yosan-gaiyou-r4/r4_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1018169.html",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-yosan-gaiyou-r3/r3_yosangaiyou2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1015233.html",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-yosan-gaiyou-r2/r2yosangaiyou2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibata.lg.jp/machidukuri/zaisei/zaisei/yosan/1011725.html",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/kitakami-yosansho-r8/R8yosan_ippann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitakami.iwate.jp/material/files/group/5/R8yosan_ippann.pdf",
+    "license": "市公式ホームページに掲載している個々の情報（文書、写真、イラスト等を含む）について、原著作権者が他にいる場合を除き、原則として北上市に帰属します。市公式ホームページに掲載している個々の情報は、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載、複製、改変、販売等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/kitakami-yosansho-r7/R7_yosan_ippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitakami.iwate.jp/material/files/group/5/R7_yosan_ippannkaikei.pdf",
+    "license": "市公式ホームページに掲載している個々の情報（文書、写真、イラスト等を含む）について、原著作権者が他にいる場合を除き、原則として北上市に帰属します。市公式ホームページに掲載している個々の情報は、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載、複製、改変、販売等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/satsumasendai-yosansho-r8/R8tousyoyosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satsumasendai.lg.jp/material/files/group/6/R8tousyoyosannsyo.pdf",
+    "license": "Copyright (c) 2023 Satsumasendai city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/satsumasendai-yosansho-r7/R7tousyoyosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satsumasendai.lg.jp/material/files/group/6/R7tousyoyosannsyo.pdf",
+    "license": "Copyright (c) 2023 Satsumasendai city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/satsumasendai-yosansho-r6/r6tousyoyosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satsumasendai.lg.jp/material/files/group/6/r6tousyoyosannsyo.pdf",
+    "license": "Copyright (c) 2023 Satsumasendai city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/satsumasendai-yosansho-r5/R5tousyoyosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satsumasendai.lg.jp/material/files/group/6/R5tousyoyosansyo.pdf",
+    "license": "Copyright (c) 2023 Satsumasendai city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/satsumasendai-yosansho-r4/r4yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satsumasendai.lg.jp/material/files/group/6/r4yosansyo.pdf",
+    "license": "Copyright (c) 2023 Satsumasendai city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/satsumasendai-yosansho-r3/r3yosansyo_24022543.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satsumasendai.lg.jp/material/files/group/6/r3yosansyo_24022543.pdf",
+    "license": "Copyright (c) 2023 Satsumasendai city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/satsumasendai-yosansho-r2/r2yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satsumasendai.lg.jp/material/files/group/6/r2yosansyo.pdf",
+    "license": "Copyright (c) 2023 Satsumasendai city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/higashimatsuyama-yosan-soukatsu-r8/18161.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/18161.pdf",
+    "license": "東松山市ホームページに掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、東松山市ホームページ全体についても編集著作物として著作権の対象となっており、ともに著作権法により保護されています。また、一部の画像等の著作権は原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転載することはできません。「引用」を行う際は、必ず出典を明示してください。また、利用許諾については各ページの担当課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/higashimatsuyama-yosan-soukatsu-r7/14415.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/14415.pdf",
+    "license": "東松山市ホームページに掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、東松山市ホームページ全体についても編集著作物として著作権の対象となっており、ともに著作権法により保護されています。また、一部の画像等の著作権は原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転載することはできません。「引用」を行う際は、必ず出典を明示してください。また、利用許諾については各ページの担当課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/higashimatsuyama-yosan-soukatsu-r6/10233.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/10233.pdf",
+    "license": "東松山市ホームページに掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、東松山市ホームページ全体についても編集著作物として著作権の対象となっており、ともに著作権法により保護されています。また、一部の画像等の著作権は原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転載することはできません。「引用」を行う際は、必ず出典を明示してください。また、利用許諾については各ページの担当課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/higashimatsuyama-yosan-soukatsu-r5/6539.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashimatsuyama.lg.jp/uploaded/attachment/6539.pdf",
+    "license": "東松山市ホームページに掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、東松山市ホームページ全体についても編集著作物として著作権の対象となっており、ともに著作権法により保護されています。また、一部の画像等の著作権は原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転載することはできません。「引用」を行う際は、必ず出典を明示してください。また、利用許諾については各ページの担当課へお問い合わせください。",
+    "target": "file"
+  },
   "/sources/yamanashi-ken-gikai-r8/kaihabetu_meibo.html": {
     "mode": "archive",
     "href": "https://web.archive.org/web/20260209231452id_/https://www.pref.yamanashi.jp/gikaisom/kaihabetu_meibo.html",
