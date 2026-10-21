@@ -76,4 +76,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "名取市", license: "Copyright © City of Natori. All Rights Reserved." },
   { who: "牛久市", license: "© CITY OF USHIKU." },
   { who: "天草市", license: "© 2023 Amakusa City." },
+  { who: "姶良市", license: "Copyright © The Official Website of Aira City. All Rights Reserved." },
 ];
