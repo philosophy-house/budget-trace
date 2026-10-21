@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 375,
+  "budgetCount": 380,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2871,
-  "fileCount": 4516,
-  "archivedCount": 2579,
-  "licenseOpen": 119,
-  "licensePermission": 2674,
+  "sourceCount": 2899,
+  "fileCount": 4544,
+  "archivedCount": 2582,
+  "licenseOpen": 120,
+  "licensePermission": 2701,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -879,6 +879,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "君津市",
+      "code": "122254",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "四街道市",
       "code": "122289",
       "years": 7,
@@ -947,6 +953,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "稲城市",
       "code": "132250",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "あきる野市",
+      "code": "132284",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1521,6 +1533,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "木津川市",
+      "code": "262145",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "八尾市",
       "code": "272124",
       "years": 6,
@@ -1595,6 +1613,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "弘前市",
       "code": "022021",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
+      "name": "名取市",
+      "code": "042072",
       "years": 5,
       "range": "R4〜R8（5年度）"
     },
@@ -1831,6 +1855,12 @@ export const ROADMAP_PROGRESS = {
       "code": "282065",
       "years": 3,
       "range": "R2〜R8（3年度）"
+    },
+    {
+      "name": "香芝市",
+      "code": "292109",
+      "years": 3,
+      "range": "R2〜R6（3年度）"
     },
     {
       "name": "北上市",
