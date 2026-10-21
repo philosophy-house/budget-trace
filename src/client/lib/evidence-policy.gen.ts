@@ -25219,6 +25219,186 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
     "target": "file"
   },
+  "/sources/sanyoonoda-yosansho-r8/75419.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/75419.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-yosansho-r7/68092.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/68092.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-yosan-gaiyo-r6/61150.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/61150.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-yosan-gaiyo-r5/54585.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/54585.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-yosan-gaiyo-r4/47807.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/47807.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-yosan-gaiyo-r3/41016.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/41016.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-yosan-gaiyo-r2/34957.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/34957.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/chikuma-yosan-gaiyou-r8/R8gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikuma.lg.jp/material/files/group/7/R8gaiyou.pdf",
+    "license": "本ウェブサイトに掲載している文章、写真、イラスト、画像等の著作権は、千曲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikuma-yosan-gaiyou-r7/R7gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikuma.lg.jp/material/files/group/7/R7gaiyou.pdf",
+    "license": "本ウェブサイトに掲載している文章、写真、イラスト、画像等の著作権は、千曲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikuma-yosan-gaiyou-r6/R6gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikuma.lg.jp/material/files/group/7/R6gaiyou.pdf",
+    "license": "本ウェブサイトに掲載している文章、写真、イラスト、画像等の著作権は、千曲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikuma-yosan-gaiyou-r5/R5gaiyou1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikuma.lg.jp/material/files/group/7/R5gaiyou1.pdf",
+    "license": "本ウェブサイトに掲載している文章、写真、イラスト、画像等の著作権は、千曲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikuma-yosan-gaiyou-r4/R4gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikuma.lg.jp/material/files/group/7/R4gaiyou.pdf",
+    "license": "本ウェブサイトに掲載している文章、写真、イラスト、画像等の著作権は、千曲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikuma-yosan-gaiyou-r3/R3toushoyosanngaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikuma.lg.jp/material/files/group/7/R3toushoyosanngaiyou.pdf",
+    "license": "本ウェブサイトに掲載している文章、写真、イラスト、画像等の著作権は、千曲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikuma-yosan-gaiyou-r2/2020tousyoyosannogaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220511/20220511111619/https://www.city.chikuma.lg.jp/material/files/group/7/2020tousyoyosannogaiyou.pdf",
+    "license": "本ウェブサイトに掲載している文章、写真、イラスト、画像等の著作権は、千曲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/hashimoto-yosan-setsumeisho-r8/01ippan08.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hashimoto.lg.jp/guide/somubu/zaisei/yosan_kessan/yosansyo/R8yosan_2/22293.html",
+    "license": "橋本市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として橋本市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、当サイト内にて掲載された会社名・製品名などの名称は一般に各社の商標あるいは登録商標です。",
+    "target": "page"
+  },
+  "/sources/hashimoto-yosan-setsumeisho-r7/01ippan07.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hashimoto.lg.jp/guide/somubu/zaisei/yosan_kessan/yosansyo/R7yosan_1/20277.html",
+    "license": "橋本市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として橋本市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、当サイト内にて掲載された会社名・製品名などの名称は一般に各社の商標あるいは登録商標です。",
+    "target": "page"
+  },
+  "/sources/hashimoto-yosan-setsumeisho-r6/01ippan06.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hashimoto.lg.jp/guide/somubu/zaisei/yosan_kessan/yosansyo/R6yosan/17787.html",
+    "license": "橋本市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として橋本市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、当サイト内にて掲載された会社名・製品名などの名称は一般に各社の商標あるいは登録商標です。",
+    "target": "page"
+  },
+  "/sources/hashimoto-yosan-setsumeisho-r5/01R5ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hashimoto.lg.jp/guide/somubu/zaisei/yosan_kessan/yosansyo/r05yosan_1/15807.html",
+    "license": "橋本市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として橋本市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、当サイト内にて掲載された会社名・製品名などの名称は一般に各社の商標あるいは登録商標です。",
+    "target": "page"
+  },
+  "/sources/hashimoto-yosan-setsumeisho-r4/01R4ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hashimoto.lg.jp/guide/somubu/zaisei/yosan_kessan/yosansyo/r04yosan/12568.html",
+    "license": "橋本市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として橋本市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、当サイト内にて掲載された会社名・製品名などの名称は一般に各社の商標あるいは登録商標です。",
+    "target": "page"
+  },
+  "/sources/hashimoto-yosan-setsumeisho-r3/01R3ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hashimoto.lg.jp/guide/somubu/zaisei/yosan_kessan/yosansyo/r03yosan/11271.html",
+    "license": "橋本市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として橋本市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、当サイト内にて掲載された会社名・製品名などの名称は一般に各社の商標あるいは登録商標です。",
+    "target": "page"
+  },
+  "/sources/hashimoto-yosan-setsumeisho-r2/01R2ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hashimoto.lg.jp/guide/somubu/zaisei/yosan_kessan/yosansyo/r02yosan/9644.html",
+    "license": "橋本市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として橋本市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、当サイト内にて掲載された会社名・製品名などの名称は一般に各社の商標あるいは登録商標です。",
+    "target": "page"
+  },
+  "/sources/tokoname-yosan-gaiyou-r5/R5gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tokoname.aichi.jp/_res/projects/default_project/_page_/001/006/591/R5gaiyo.pdf",
+    "license": "常滑市ホームページ（以下当サイト）に掲載している文章や画像などの著作権は、すべて常滑市または原著作者に帰属します。無断複製、転用、転売、再利用などは禁止します。",
+    "target": "file"
+  },
+  "/sources/tokoname-yosan-gaiyou-r4/R4gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tokoname.aichi.jp/_res/projects/default_project/_page_/001/001/459/R4gaiyou.pdf",
+    "license": "常滑市ホームページ（以下当サイト）に掲載している文章や画像などの著作権は、すべて常滑市または原著作者に帰属します。無断複製、転用、転売、再利用などは禁止します。",
+    "target": "file"
+  },
+  "/sources/sennan-yosansho-r8/r8_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sennan.lg.jp/material/files/group/7/r8_yosansho.pdf",
+    "license": "本市ウェブサイト内の情報は、すべて著作権法による保護の対象となっています（ただし、法令・条例・規則などはのぞきます）。",
+    "target": "file"
+  },
+  "/sources/sennan-yosansho-r7/r7_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sennan.lg.jp/material/files/group/7/r7_yosansho.pdf",
+    "license": "本市ウェブサイト内の情報は、すべて著作権法による保護の対象となっています（ただし、法令・条例・規則などはのぞきます）。",
+    "target": "file"
+  },
+  "/sources/sennan-yosansho-r6/R6_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sennan.lg.jp/material/files/group/7/R6_yosansho.pdf",
+    "license": "本市ウェブサイト内の情報は、すべて著作権法による保護の対象となっています（ただし、法令・条例・規則などはのぞきます）。",
+    "target": "file"
+  },
+  "/sources/sennan-yosansho-r5/R5_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sennan.lg.jp/material/files/group/7/R5_yosansho.pdf",
+    "license": "本市ウェブサイト内の情報は、すべて著作権法による保護の対象となっています（ただし、法令・条例・規則などはのぞきます）。",
+    "target": "file"
+  },
+  "/sources/sennan-yosansho-r4/r4_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sennan.lg.jp/material/files/group/7/r4_yosansyo.pdf",
+    "license": "本市ウェブサイト内の情報は、すべて著作権法による保護の対象となっています（ただし、法令・条例・規則などはのぞきます）。",
+    "target": "file"
+  },
+  "/sources/sennan-yosansho-r3/r3_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sennan.lg.jp/material/files/group/7/r3_yosansyo.pdf",
+    "license": "本市ウェブサイト内の情報は、すべて著作権法による保護の対象となっています（ただし、法令・条例・規則などはのぞきます）。",
+    "target": "file"
+  },
+  "/sources/sennan-yosansho-r2/ippan_r2.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260214132045id_/https://www.city.sennan.lg.jp/material/files/group/7/ippan_r2.pdf",
+    "license": "本市ウェブサイト内の情報は、すべて著作権法による保護の対象となっています（ただし、法令・条例・規則などはのぞきます）。",
+    "target": "file"
+  },
   "/sources/yamanashi-ken-gikai-r8/kaihabetu_meibo.html": {
     "mode": "archive",
     "href": "https://web.archive.org/web/20260209231452id_/https://www.pref.yamanashi.jp/gikaisom/kaihabetu_meibo.html",

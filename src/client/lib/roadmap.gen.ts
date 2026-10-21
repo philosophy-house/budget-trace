@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 454,
+  "budgetCount": 459,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3372,
-  "fileCount": 5043,
-  "archivedCount": 2779,
+  "sourceCount": 3402,
+  "fileCount": 5073,
+  "archivedCount": 2781,
   "licenseOpen": 135,
-  "licensePermission": 3152,
+  "licensePermission": 3182,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1215,6 +1215,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "千曲市",
+      "code": "202185",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "安曇野市",
       "code": "202207",
       "years": 7,
@@ -1473,6 +1479,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "泉南市",
+      "code": "272281",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "明石市",
       "code": "282031",
       "years": 7,
@@ -1509,6 +1521,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "橋本市",
+      "code": "302031",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "岡山市",
       "code": "331007",
       "years": 7,
@@ -1535,6 +1553,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "東広島市",
       "code": "342122",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "山陽小野田市",
+      "code": "352161",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2345,6 +2369,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "金沢市",
       "code": "172014",
+      "years": 2,
+      "range": "R4〜R5（2年度）"
+    },
+    {
+      "name": "常滑市",
+      "code": "232165",
       "years": 2,
       "range": "R4〜R5（2年度）"
     },
