@@ -14354,3 +14354,77 @@ validate は32ソースで error 0・warning 0。ライセンス・リンクの�
 
 32ソース中 **5件が file の sha256 照合済み**（恵庭 R8〜R4）、**1件は取得元が WARP**（恵庭 R2）。**残る26件は未登録**（恵庭 R3・栗東6・由利本荘7・石岡6・鶴ヶ島6。途中から SPN が「Unable to connect」）。
 ユーザーの指示で未登録のまま進めた。⇒ SPN が戻ったらこの26件を直列で `bun run pipeline:archive <id>`。
+### §13-75 国立・燕・舞鶴・日光・豊岡（2026-10-22・loop.md の1巡）
+
+元のセッションが担当に割り振った5市（バッチ B）を `source-scout` 5体で並列に偵察し、**5市とも収録（33ソース）**。パーサ・判定器・derive には手を入れていない。
+
+| 市 | 収録年度 | 資料・効いた指定 | ライセンス |
+| --- | --- | --- | --- |
+| 国立市 132152 | R2〜R8 の7年度 | 予算書「Ⅰ．歳入歳出予算款別比較表」p.10/p.11。**`revenueHeaderExtra: "^歳入$"` 必須** | 要許可 |
+| 燕市 152137 | R2〜R8 の7年度 | 予算書の総括 p.14/p.15（全年度同じ） | **R8〜R4 は open**・R3・R2 は要許可＋`noDeepLink` |
+| 舞鶴市 262021 | R4〜R8 の5年度（**R3 はスキャン・R2 はパーサの穴**） | 「一般会計予算説明書」冒頭の総括。`expenditureHeaderExtra`・R4 は `kanIndentMax: 3` | 台帳で要許可 |
+| 日光市 092061 | R2〜R8 の7年度 | 予算書の総括 p.19/p.20（R4 は `decodeGarble`）。**R2 は「当初予算の概要」第2表** | 要許可（掲載時点の新旧の規約） |
+| 豊岡市 282090 | R2〜R8 の7年度 | 「一般会計予算並びに予算説明書」の総括（R3・R2 は A3 の2面付けでページが違う） | 要許可 |
+
+5市とも団体コードは総務省 R6.json から実引きし、収録時に自分で**款名を全件目視**し、**隣接年度の鎖を parsed から款単位で突合**し（全リンクで不一致0・前年度列は当初）、
+**R6 の当初総額を総務省 R6 決算の歳出と突合**した（国立 96.7%・燕 104.2%・舞鶴 93.1%・日光 100.2%・豊岡 97.5%）。validate は全33ソースで error 0・warning 0。ライセンスの原文は5市とも 2026-10-22 に自分で取り直して照合した。
+
+#### ⚠⚠ 燕のライセンス — 予算資料そのものが「オープンデータ」と明示されている（神栖 §13-57 と同じ型）
+
+- 予算・決算の一覧ページ（https://www.city.tsubame.niigata.jp/keikaku/yosan/4171.html ・更新 2025-09-30）の本文:
+  「燕市の予算・決算・財政状況についてお知らせします。以下の予算・決算・財政状況（PDFデータ及びEXCELデータ）はオープンデータです。」＋ CC BY 4.0 の表示（画像）＋「データ利用の際は燕市オープンデータ利用規約をご確認ください。」
+- 燕市オープンデータ利用規約（/material/files/group/5/100880717.pdf・H31-03-19 制定）は「コンテンツは、…オープンデータと明示して掲載する情報を指します。」「コンテンツについては、特段の定めがある場合を除いてクリエイティブ・コモンズ・ライセンス表示4.0 国際…のもとでライセンスされています。」
+- サイト全体の「著作権・リンクについて」（/soshiki/somu/4/5/3309.html）は「…燕市の許可なく無断で複製・転用することはできません。」
+- ⇒ **資料を名指しした個別の表示がサイト全体の条項より優先する**と読み、神栖（区画ごとの CC BY 表示）と同じく **open** にした。license には一覧ページの本文と規約の該当条を写した（語彙で open）。
+- ⚠⚠ **掲載時点の規約で分ける**（江南 §13-59）: 一覧ページの本文が確かめられる最古の捕捉は Wayback 20211122014601（20230925024355 も同文）。それより後に掲載された **R8〜R4 だけを open** にし、
+  **R3（2021-03）・R2（2020）は掲載時点の文面が確かめられないので、サイト全体の著作権で要許可**に倒した（[[open-side-never]]）。
+  ⚠ 2021-11 の捕捉では R3（8013）・R2（1249）の年度ページも同じ文の下に既に並んでいる（レビューの実測）。要許可にしたのは掲載時点（2021-03・2020-03）の文面が捕捉で確かめられないことによる保守的な判断で、開ける側へ戻すかは人の判断。リンク条項「燕市ホームページへのリンクは、トップページに限り原則として自由です。」は
+  §11h 第2群 ⇒ 要許可の R3・R2 に `noDeepLink`（open の年度には振替が効かない）。
+- ⚠ 割れていると読むなら人の判断になる論点（規約の本文は資料を名指し、サイト全体の条項は閉じる）。閉じる側へ倒すなら license を `3309.html` の原文に差し替えるだけでよい。
+
+#### ⚠⚠ 舞鶴 — R5 は「肉付け予算」、R6 は修正可決から再議で原案可決、R3・R2 は収録できない
+
+- **R5**: 当初予算の資料に「骨格」の語は無いが、「令和5年度6月補正予算概要」（/shisei/cmsfiles/contents/0000011/11113/05_06_3hoseigaiyou.pdf）物理 p.23 に
+  「本市の令和５年度一般会計補正予算（第３号）につきましては、…各主要事業を政策的経費とした肉付け予算を編成しました。」、R6 の資料1に「…肉付け予算である一般会計補正予算（第３号）までを加えた額」。
+  ⇒ 千葉市 R7（§13-32「肉付け予算」）と同じ扱いで `skeleton-budgets.ts` に R5、**R6 に `prevNote`**（前年度列は R5 の当初額 36,793,470。R6 の資料1の前年度列は6月補正後の 38,512,640 で別の基準＝説明書を正にした）。
+- **R6**: 「令和６年３月定例会 概要報告」（/sigikai/cmsfiles/contents/0000009/9169/6-3teireikaihoukoku.pdf）「⑶ 本会議において修正案が可決［3月27日］」「⑷ 市長から再議請求と臨時会の招集告示［3月28日］」
+  「⑸ 本会議（臨時会）において３月定例会と同じ議決（修正可決）をすることについては否決［3月29日］」「⑹ 本会議（臨時会）において原案を可決［3月29日］」。説明書は原案＝確定額（R7 の前年度列 36,169,180 と全款一致）。
+- **R3**（`scanned-image`）: 事項別明細書（総括）・予算書・資料1・資料3 が 600dpi CCITT の画像。Wayback の CDX は0件。
+- **R2**（`parser-unsupported`）: 事項別明細書（総括）（/shisei/cmsfiles/contents/0000006/6027/2jikoubetsumeisai(soukatsu).pdf）は文字が取れるが、廃止款「（自動車取得税交付金）」が当年度空欄・比較が半角の `-61,800` で、
+  当年度空欄の廃止款の判定（`△`/`▲` 前提）に当たらず前年度 Σ が −61,800（warning 止まり）。`amountTypos` は款と項の2行に同じ字面があって使えない。⚠ パーサの判定を半角の `-` に広げれば読める見込み（未実装）。
+- **静かに壊れる型**: R8 の歳出は財源内訳の列見出しが款1 に付く（`一般財源国庫支出金府支出金地方債その他議会費`・Σ 差0）⇒ `expenditureHeaderExtra` を全年度に。R4 は款と項が同じ表（`kanIndentMax: 3`）。
+- **ライセンス**: 著作権・利用条件・リンクのページがサイトに無く、全ページのフッター「Copyright © 舞鶴市役所 All Right Reserved」だけ（原文は Right が単数）⇒ `license-no-grant.ts`。BODIK の30件（CC BY 4.0）に予算・財政は0件。リンクの条項も無い ⇒ `noDeepLink` なし。
+
+#### ⚠ そのほか
+
+- **国立**: 表題の下の「歳 入」の行が款1 に付いて `歳入市税`（Σ 差0）⇒ `revenueHeaderExtra: "^歳入$"`。市議会の議案ページ（group/73）にも同じ予算案があり表紙が1枚多い（数値は同一）。R7 は市長交代の後だが骨格の語は0件・鎖も切れない。
+- **燕**: R6 当初が総務省の決算（普通会計）を上回る（104.2%。決算概要の一般会計歳出 519億1,721万8千円に対しては 92.5%・予算に借換分を含む）。R8 の歳出は「比較」列のセルが折り返す（今は Σ 差0 で通る）。
+- **日光**: R4 は数字のフォントに ToUnicode が無い（`decodeGarble`）。R2 の予算書は全文が化け、復号表に無い字（U+15EB・廃止款の行）で throw ⇒ 「令和2年度日光市当初予算の概要」第2表（https://www.city.nikko.lg.jp/material/files/group/6/yosannsyuyoujigyounogaiyou.pdf p.4/p.5）。
+  ライセンスは掲載時点で書き分けた（R8〜R6 は現行サイト 2024-02-01〜、R5〜R2 は旧サイトの「リンク・著作権・免責事項」＝WARP 20230406090511。PDF の Last-Modified が 2023-10-05）。どちらも要許可。R6 当初が決算をわずかに上回る（100.2%・理由は未確認）。
+- **豊岡**: **R3 は議会修正**（予算決算委員会審査報告書 https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/015/227/iinkai.pdf「第１条第１項中「48,123,000千円」を「47,945,143千円」に改める。」）。
+  掲載は修正可決後の版（年度ページのリンク名に明記・R4 の前年度列と全款一致）⇒ R4 に `prevNote` は付けない。R8 は p.15・p.17 が p.14・p.16 の重複。R3・R2 は A3 の2面付け。
+- `noDeepLink` は燕 R3・R2 だけ。国立「リンクフリー…事前に…許可を取る必要はありません」・日光「原則としてリンクフリーです」・豊岡「原則自由です。…承諾は必要ありません」は立てない。
+
+#### 収録できなかった年度（`unrecordable.ts` に記録）
+
+- **舞鶴 R3**（`scanned-image`）・**舞鶴 R2**（`parser-unsupported`）— 上記。
+
+#### 魚拓
+
+33ソース中 **2件が file の sha256 照合済み**（国立 R8・R7）、**31件は file が未登録**（日光 R6 は landing だけ登録）。2026-10-22 は IA の Save Page Now が「Unable to connect」を返し続けた（§13-62・§13-65 と同じ日）。⚠ 未登録の31件は次の巡で `pipeline:archive` を再実行すること。
+
+#### 主な事業・事業報告の在り処（別の巡で設計する・偵察レポートの記述をそのまま残す）
+
+- **国立** — 主な事業: 記者会見資料の巻末「政策事業一覧」（款の紐付けなし・担当部）R8 https://www.city.kunitachi.tokyo.jp/material/files/group/7/KunitachiR8yosankisyakaiken.pdf（p.42〜54・161件）・R7 group/1/R7yosan.pdf・R6 group/7/R6yosankishakaiken.pdf・
+  R5 group/7/R5yosankishakaiken_73078562.pdf（化け）・R4 group/7/20220217_kisyakaiken.pdf（数字だけ抽出）・R3 group/7/20210219_kisyakaiken.pdf・R2 group/7/83005889.pdf。
+  事業報告: 事務報告書（https://www.city.kunitachi.tokyo.jp/shisei/zaisei/2/7752.html・R7〜R3。R6 group/13/jimuhoukokusyoreiwaroku.pdf 578p）・行政評価（https://www.city.kunitachi.tokyo.jp/shisei/zaisei/1/2/index.html。R6 は施策29件 group/6/R6_sesaku01〜29.pdf・事務事業13件 group/6/R6_jimu01〜13.pdf＝予算科目の款コードつき）。
+- **燕** — 主な事業: 当初予算概要の「５ 主要事業」（物理 p.19〜・款・予算書ページ・当初予算額・前年度予算額）R8 2026yosan_gaiyou.pdf・R7 R7yosangaiyo0313.pdf・R6 R6yosangaiyo4.pdf・R5 R5yosanngaiyou2.pdf・R4 R4yosanngaiyou.pdf・R3 2021tosyoyosangaiyo.pdf・R2 100892130.pdf
+  （いずれも https://www.city.tsubame.niigata.jp/material/files/group/5/ 配下）。事業報告: 決算概要の主要事業（R6 https://www.city.tsubame.niigata.jp/material/files/group/5/R6kessangaiyou.pdf p.23〜70）・事務報告書（R6 https://www.city.tsubame.niigata.jp/material/files/group/5/R6jimuhoukokusyo.pdf 237p。R7 は R7tubamesikessanngaiyou.pdf・R7jimuhoukoku.pdf）。
+- **舞鶴** — 主な事業: 資料2-1「主な事務事業調べ」R8 https://www.city.maizuru.kyoto.jp/shisei/cmsfiles/contents/0000014/14776/siryo21.pdf（一般会計 No.1〜138・款名つき・前年度なし・後ろに特別会計 No.139〜151）・
+  資料2-2「主な事務事業調」https://www.city.maizuru.kyoto.jp/shisei/cmsfiles/contents/0000014/14776/siryou22.pdf（152p・事業シート・款項目）。R6 は修正版 060315syusei_siryou2-2.pdf が置いてある。
+  事業報告: 事業実績報告書（地方自治法233条5項）R7 https://www.city.maizuru.kyoto.jp/shisei/cmsfiles/contents/0000015/15448/R7jigyoujisseki.pdf（303p・事業ごとに支出額・財源内訳・実績）。決算の一覧 /shisei/category/3-1-2-0-0-0-0-0-0-0.html に H30〜R7。
+- **日光** — 主な事業: 「一般会計主要事業の概要」（款見出しの下に事業ごとの当年度・前年度・比較・内数の注記あり）R8 https://www.city.nikko.lg.jp/material/files/group/6/r8_shuyojigyougaiyou.pdf・R7 r7_shuyoujigyougaiyou.pdf・R6 r6_shuyoujigyougaiyou.pdf・
+  R5 r5_shuyoujigyougaiyou.pdf・R4 shuyoujigyougaiyou_2.pdf・R3 shuyoujigyougaiyou.pdf（R2 は概要の p.12〜）。事業報告: 決算明細書だけ（https://www.city.nikko.lg.jp/soshiki/2/1005/1/72.html・R7 R7kessannmeisaisyo.pdf 539p〜H30）。成果説明書・行政評価はウェブに無い。
+- **豊岡** — 主な事業: 「主要事業の概要」（款なし・前年度なし）R8 https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/036/503/2026_5.pdf（№1〜70）・R7 032/477/2025yosan03-1-1.pdf＋2025yosan03-1-2.pdf・R6 028/880/2024yosan03-2-1-2.pdf＋2024yosan03-2-2.pdf・
+  R5 025/055/2023yosan03_2_1.pdf＋2023yosan03_2_2.pdf・R4 019/692/2022yosan03_2.pdf・R3 016/013/syuyoujigyou2.pdf・R2 009/405/2020_03_02.pdf。款別・節別の「一般会計予算説明資料」R8 036/503/2026_6.pdf。
+  事業報告: 「主要な施策の成果」（普通建設事業だけ・https://www.city.toyooka.lg.jp/shisei/zaisei/kessan/index.html）R7 038/656/2025_02seika.pdf・R6 033/946/2024_02seika_syuusei.pdf・R5 030/822/02_2023ippannkaikei.pdf・R4 027/447/02.2022ippannkaikei.pdf・R3 023/647/2021-02ippannkaikei.pdf・R2 017/971/02_2020ippankaikei.pdf。

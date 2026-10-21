@@ -3941,6 +3941,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `echizenshi-yosansho-soukatsu-${fy}`, muniCode: "182095", muniName: "越前市", prefName: "福井県", isPref: false,
     })),
+    // ---- 国立・燕・舞鶴・日光・豊岡（2026-10-22・§13-75） ----
+    // ⚠ 国立は revenueHeaderExtra "^歳入$" 必須（無いと 歳入市税）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kunitachi-yosansho-${fy}`, muniCode: "132152", muniName: "国立市", prefName: "東京都", isPref: false,
+    })),
+    // ⚠ 燕は R8〜R4 が open（一覧ページが予算資料を CC BY のオープンデータと明示）、R3・R2 は要許可・noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tsubame-yosansho-${fy}`, muniCode: "152137", muniName: "燕市", prefName: "新潟県", isPref: false,
+    })),
+    // ⚠ 舞鶴は R8〜R4（R3 スキャン・R2 は廃止款の行で unrecordable）。R6 に prevNote（R5 は肉付け予算）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `maizuru-yosan-setsumeisho-${fy}`, muniCode: "262021", muniName: "舞鶴市", prefName: "京都府", isPref: false,
+    })),
+    // ⚠ 日光 R4 は decodeGarble、R2 は予算書が化けるので概要
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `nikko-yosansho-${fy}`, muniCode: "092061", muniName: "日光市", prefName: "栃木県", isPref: false,
+    })),
+    { srcId: "nikko-tousho-gaiyou-r2", muniCode: "092061", muniName: "日光市", prefName: "栃木県", isPref: false },
+    // ⚠ 豊岡 R3 は議会修正後の版。R3・R2 は A3 の2面付け
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `toyooka-yosansho-soukatsu-${fy}`, muniCode: "282090", muniName: "豊岡市", prefName: "兵庫県", isPref: false,
+    })),
     // ---- 第60巡（2026-10-22・§13-67） ----
     // ⚠ 綾瀬は R8・R7・R6・R4（R5 は文字層の二重化・R3・R2 はウェブに無い）。R6 は歳入が予算書・歳出が概要の2ファイル。款10 は kanNameContinues
     ...(["r8", "r7", "r6", "r4"] as const).map((fy) => ({

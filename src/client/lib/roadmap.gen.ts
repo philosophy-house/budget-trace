@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 419,
+  "budgetCount": 424,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3149,
-  "fileCount": 4799,
-  "archivedCount": 2698,
-  "licenseOpen": 130,
-  "licensePermission": 2941,
+  "sourceCount": 3182,
+  "fileCount": 4832,
+  "archivedCount": 2700,
+  "licenseOpen": 135,
+  "licensePermission": 2969,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -849,6 +849,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "日光市",
+      "code": "092061",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "大田原市",
       "code": "092100",
       "years": 7,
@@ -1011,6 +1017,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "国立市",
+      "code": "132152",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "狛江市",
       "code": "132195",
       "years": 7,
@@ -1073,6 +1085,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "新発田市",
       "code": "152064",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "燕市",
+      "code": "152137",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1361,6 +1379,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "明石市",
       "code": "282031",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "豊岡市",
+      "code": "282090",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1883,6 +1907,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "大津市",
       "code": "252018",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
+      "name": "舞鶴市",
+      "code": "262021",
       "years": 5,
       "range": "R4〜R8（5年度）"
     },
