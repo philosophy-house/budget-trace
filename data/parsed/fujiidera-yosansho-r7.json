@@ -1,0 +1,391 @@
+{
+  "docType": "budget-book",
+  "sourceId": "fujiidera-yosansho-r7",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T21:26:52.017Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R7",
+  "account": "一般会計",
+  "revenueTotal": 29104000,
+  "expenditureTotal": 29104000,
+  "prevRevenueTotal": 25864405,
+  "prevExpenditureTotal": 25864405,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 8724477,
+      "prevAmount": 8244955,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 106693,
+      "prevAmount": 112637,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 58323,
+      "prevAmount": 7488,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 111504,
+      "prevAmount": 65974,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 126508,
+      "prevAmount": 77046,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 187316,
+      "prevAmount": 156302,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 1708440,
+      "prevAmount": 1394030,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 38716,
+      "prevAmount": 40548,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 48669,
+      "prevAmount": 345560,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 5468340,
+      "prevAmount": 5217483,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 10000,
+      "prevAmount": 10000,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 163235,
+      "prevAmount": 166016,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 284423,
+      "prevAmount": 290307,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 6281922,
+      "prevAmount": 5236746,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "府支出金",
+      "amount": 2415963,
+      "prevAmount": 2122071,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 86781,
+      "prevAmount": 43219,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 302900,
+      "prevAmount": 205200,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 890422,
+      "prevAmount": 809250,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 1,
+      "prevAmount": 1,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 710267,
+      "prevAmount": 1044371,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 1379100,
+      "prevAmount": 275200,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "自動車取得税交付金",
+      "amount": 0,
+      "prevAmount": 1,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 212527,
+      "prevAmount": 200328,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 7559329,
+      "prevAmount": 7157940,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 12383492,
+      "prevAmount": 10668374,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 2001815,
+      "prevAmount": 2067171,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "農林水産業費",
+      "amount": 28657,
+      "prevAmount": 28586,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "商工費",
+      "amount": 274893,
+      "prevAmount": 328385,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "土木費",
+      "amount": 638249,
+      "prevAmount": 641596,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "消防費",
+      "amount": 919691,
+      "prevAmount": 877450,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "教育費",
+      "amount": 3064020,
+      "prevAmount": 2055846,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "公債費",
+      "amount": 1693000,
+      "prevAmount": 1618729,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "諸支出金",
+      "amount": 308327,
+      "prevAmount": 200000,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "予備費",
+      "amount": 20000,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "07_R701T_gian16.pdf",
+        "page": 16
+      }
+    }
+  ]
+}

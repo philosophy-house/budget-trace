@@ -3589,7 +3589,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
-    // ---- 第77巡（2026-10-22・§13-85） ----
+    // ---- 第79巡（2026-10-22・§13-89） ----
     // ⚠ 愛西は R3 骨格で R4 に prevNote。`noDeepLink`
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `aisai-yosansho-${fy}`, muniCode: "232327", muniName: "愛西市", prefName: "愛知県", isPref: false,
@@ -4165,6 +4165,43 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `daisen-yosan-gaiyou-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
     })),
+    // ---- 山陽小野田・千曲・橋本・常滑・泉南（2026-10-22・§13-87） ----
+    // ⚠ 山陽小野田 R8・R7 は予算書、R6〜R2 は概要。R4 の前年度列は R3 の6月補正後（prevBasis）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `sanyoonoda-yosansho-${fy}`, muniCode: "352161", muniName: "山陽小野田市", prefName: "山口県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sanyoonoda-yosan-gaiyo-${fy}`, muniCode: "352161", muniName: "山陽小野田市", prefName: "山口県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chikuma-yosan-gaiyou-${fy}`, muniCode: "202185", muniName: "千曲市", prefName: "長野県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hashimoto-yosan-setsumeisho-${fy}`, muniCode: "302031", muniName: "橋本市", prefName: "和歌山県", isPref: false,
+    })),
+    ...(["r5", "r4"] as const).map((fy) => ({
+      srcId: `tokoname-yosan-gaiyou-${fy}`, muniCode: "232165", muniName: "常滑市", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sennan-yosansho-${fy}`, muniCode: "272281", muniName: "泉南市", prefName: "大阪府", isPref: false,
+    })),
+    // ---- 津島・八女・小郡・古賀・紀の川（2026-10-22・§13-85） ----
+    // ⚠ 津島は表題が款1 に付く（revenueHeaderExtra）。R8・R4 骨格で R5 に prevNote。license-no-grant・noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tsushima-aichi-yosansho-${fy}`, muniCode: "232084", muniName: "津島市", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yame-yosansho-${fy}`, muniCode: "402109", muniName: "八女市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ogori-yosansho-hikaku-${fy}`, muniCode: "402168", muniName: "小郡市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `koga-fukuoka-yosan-setsumei-${fy}`, muniCode: "402231", muniName: "古賀市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kinokawa-yosan-${fy}`, muniCode: "302082", muniName: "紀の川市", prefName: "和歌山県", isPref: false,
+    })),
     // ---- 第74巡（2026-10-22・§13-82）: 名護・佐伯・伊東・玉名・敦賀 ----
     // ⚠ 名護は R3 から（R2 以前は予算書の掲載なし）。リンク条項が割れて noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
@@ -4206,6 +4243,47 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hyuga-yosan-gaiyou-${fy}`, muniCode: "452068", muniName: "日向市", prefName: "宮崎県", isPref: false,
     })),
+    // ---- 第77巡（2026-10-22・§13-86）: 藤井寺・糸満・白井・大和高田・加賀 ----
+    // ⚠ 藤井寺 R6・R5 は予算書がスキャンで予算説明資料。R5・H31 骨格（R6・R2 に prevNote）
+    ...(["r8", "r7", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fujiidera-yosansho-${fy}`, muniCode: "272264", muniName: "藤井寺市", prefName: "大阪府", isPref: false,
+    })),
+    ...(["r6", "r5"] as const).map((fy) => ({
+      srcId: `fujiidera-yosan-setsumei-${fy}`, muniCode: "272264", muniName: "藤井寺市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 糸満は R8・R7 だけ（R6〜R2 は概要の歳出が性質別）。R7 の前年度は暫定予算を経た修正可決
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `itoman-yosansho-${fy}`, muniCode: "472107", muniName: "糸満市", prefName: "沖縄県", isPref: false,
+    })),
+    // ⚠ 白井 R3・R2 は全会計の合冊。HeaderExtra 必須
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiroi-yosansho-${fy}`, muniCode: "122327", muniName: "白井市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 大和高田 R7 は専決処分の当初予算。R5・H31 骨格（R6・R2 に prevNote）。R8 はスキャンで未収録。noDeepLink
+    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yamatotakada-yosan-gaiyou-${fy}`, muniCode: "292028", muniName: "大和高田市", prefName: "奈良県", isPref: false,
+    })),
+    // ⚠ 加賀は予算説明書（R3 だけページが1つ前）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaga-yosansho-${fy}`, muniCode: "172065", muniName: "加賀市", prefName: "石川県", isPref: false,
+    })),
+    // ---- 第78巡（2026-10-22・§13-88）: 湖西・秩父・石狩・下松（白河は収録できず） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kosai-yosan-gaiyou-${fy}`, muniCode: "222216", muniName: "湖西市", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 秩父 R3 だけ1ページ縦積み・款番号なし
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chichibu-kanbetsu-hikaku-${fy}`, muniCode: "112071", muniName: "秩父市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 石狩 R6・R2 の前年度列は肉付補正後（prevBasis 補正後）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ishikari-yosan-shiryou-${fy}`, muniCode: "012351", muniName: "石狩市", prefName: "北海道", isPref: false,
+    })),
+    // ⚠ 下松 R8〜R4 は見開きの説明資料（列指定必須）・R3 は予算書。R2 は未収録。noDeepLink。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `kudamatsu-yosan-setsumei-${fy}`, muniCode: "352071", muniName: "下松市", prefName: "山口県", isPref: false,
+    })),
+    { srcId: "kudamatsu-yosansho-r3", muniCode: "352071", muniName: "下松市", prefName: "山口県", isPref: false },
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
