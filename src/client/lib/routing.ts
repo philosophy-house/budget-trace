@@ -289,6 +289,12 @@ const MUNI_SLUGS: Record<string, string> = {
   "012246": "chitose",
   "132071": "akishima",
   "252131": "higashiomi",
+  "232173": "konan", "372021": "marugame", "272230": "kadoma",
+  "152064": "shibata",
+  "112127": "higashimatsuyama",
+  "152048": "sanjo",
+  "032069": "kitakami",
+  "462152": "satsumasendai",
   "162116": "imizu",
   "032051": "hanamaki",
   "182109": "sakai-fukui", // ⚠ 堺市 271403 が "sakai" なので福井の坂井市は県名つき（府中と同じ規則）
