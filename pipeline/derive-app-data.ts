@@ -3695,6 +3695,31 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `satsumasendai-yosansho-${fy}`, muniCode: "462152", muniName: "薩摩川内市", prefName: "鹿児島県", isPref: false,
     })),
+    // ---- 中津・貝塚・四国中央・横手・越前（2026-10-22・§13-63） ----
+    // ⚠ 中津 R8・R7 は説明書（R7 の比較表は商工費・土木費が予算書と110千円ずれる）、R6〜R2 は対前年度比較表（R2 は WARP）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `nakatsu-yosansetsumeisho-${fy}`, muniCode: "442038", muniName: "中津市", prefName: "大分県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nakatsu-yosan-taizennen-${fy}`, muniCode: "442038", muniName: "中津市", prefName: "大分県", isPref: false,
+    })),
+    // ⚠ 貝塚は R4・R8 が骨格（R5 に prevNote）。ライセンスは門真と同文で unverified
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaizuka-yosansho-${fy}`, muniCode: "272086", muniName: "貝塚市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 四国中央は大綱の款別。次のページに同じ合計の性質別
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shikokuchuo-yosan-taiko-${fy}`, muniCode: "382132", muniName: "四国中央市", prefName: "愛媛県", isPref: false,
+    })),
+    // ⚠ 横手 R5 は予算書が原案と修正後の2層 PDF なので概要
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yokote-yosansho-${fy}`, muniCode: "052035", muniName: "横手市", prefName: "秋田県", isPref: false,
+    })),
+    { srcId: "yokote-yosan-gaiyou-r5", muniCode: "052035", muniName: "横手市", prefName: "秋田県", isPref: false },
+    // ⚠ 越前 R6・R5 は歳入ページに別文書の透明テキストが重なる（revenueCropX）。R8 は骨格的予算
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `echizenshi-yosansho-soukatsu-${fy}`, muniCode: "182095", muniName: "越前市", prefName: "福井県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

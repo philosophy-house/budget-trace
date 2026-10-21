@@ -13,15 +13,15 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 360,
+  "budgetCount": 365,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2763,
-  "fileCount": 4383,
-  "archivedCount": 2533,
+  "sourceCount": 2798,
+  "fileCount": 4418,
+  "archivedCount": 2534,
   "licenseOpen": 119,
-  "licensePermission": 2573,
-  "licenseUnverified": 71,
+  "licensePermission": 2601,
+  "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
   "kofuBudgetYears": 7,
@@ -771,6 +771,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "横手市",
+      "code": "052035",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "鶴岡市",
       "code": "062031",
       "years": 7,
@@ -987,6 +993,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "越前市",
+      "code": "182095",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "坂井市",
       "code": "182109",
       "years": 7,
@@ -1143,6 +1155,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "貝塚市",
+      "code": "272086",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "泉佐野市",
       "code": "272132",
       "years": 7,
@@ -1227,6 +1245,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "四国中央市",
+      "code": "382132",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "北九州市",
       "code": "401005",
       "years": 7,
@@ -1277,6 +1301,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "別府市",
       "code": "442020",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "中津市",
+      "code": "442038",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
