@@ -4159,7 +4159,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hyuga-yosan-gaiyou-${fy}`, muniCode: "452068", muniName: "日向市", prefName: "宮崎県", isPref: false,
     })),
-    // ---- 第OO巡（2026-10-22・§13-OO）: 湖西・秩父・石狩・下松（白河は収録できず） ----
+    // ---- 第78巡（2026-10-22・§13-88）: 湖西・秩父・石狩・下松（白河は収録できず） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kosai-yosan-gaiyou-${fy}`, muniCode: "222216", muniName: "湖西市", prefName: "静岡県", isPref: false,
     })),

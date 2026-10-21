@@ -2367,7 +2367,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-83",
   },
   {
-    // 白河市（072052）R8〜R2。1年度も収録できていない（§13-OO）。
+    // 白河市（072052）R8〜R2。1年度も収録できていない（§13-88）。
     // 「当初予算の概要」（/data/doc/1773647214_doc_32_0.pdf ほか）は款別を円グラフと主要6科目でしか示さず、款別×前年度当初の表が無い（R8 p.4 が参照する「別紙 対前年度比較表」は PDF に無い）。
     // R6〜R2 の概要はスキャン画像。議案要旨は款別の当年度額を文章で述べるだけ。予算書の本体はウェブで見つからない。
     code: "072052", name: "白河市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
@@ -2376,10 +2376,10 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "市が公表している当初予算の概要は、款ごとの歳入・歳出を円グラフや主な科目だけで示していて、款ごとに前年度の当初予算と比べた表が載っていない。" +
       "令和6年度以前の概要は紙をスキャンした画像で、文字として取り出せない。",
     url: "https://www.city.shirakawa.fukushima.jp/page/dir001196.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-OO",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-88",
   },
   {
-    // 下松市（352071）R2。R8〜R3 は収録済み（§13-OO）。
+    // 下松市（352071）R2。R8〜R3 は収録済み（§13-88）。
     // 予算説明資料 r2yosansetumeisiryou.pdf の歳入（見開き p.7/8）で、新設の法人事業税交付金の前年度セルが「-」。見開き組み（revenueSpread）では前処理（dashAsZero）が効かず前年度 Σ が +75,500 ずれる。
     // 予算書 r2yosansho1.pdf はスキャン画像（テキスト層0）。
     code: "352071", name: "下松市", dataset: "budget", fiscalYears: ["R2"],
@@ -2387,6 +2387,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "予算説明資料の款別の表は見開きの組みで、新しくできた款の前年度欄が「-」になっているため、いまの読み取りでは前年度の額を正しく取り出せない。予算書は紙をスキャンした画像で、文字として取り出せない。",
     url: "https://www.city.kudamatsu.lg.jp/kikaku/kikaku/zaisei/yosansho.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-OO",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-88",
   },
 ];
