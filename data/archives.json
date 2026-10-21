@@ -18444,6 +18444,17 @@
       "rawSha256": "7af33469b5c273ffea57a2c5fe7aaa85e9d4e27fa9ebfc6dbc2078e0b2e62519"
     },
     {
+      "sourceId": "kiyose-yosan-setsumei-r8",
+      "url": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/944/r8ippannkaikeisetumeisiryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260407211457/https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/944/r8ippannkaikeisetumeisiryou.pdf",
+      "waybackTimestamp": "20260407211457",
+      "checkedAt": "2026-10-21T17:00:51.085Z",
+      "sha256Match": true,
+      "waybackBytes": 5551093,
+      "rawSha256": "2e3c67889468446ee2aa63288e768f5c5319607bdb90c7bf9a9d96f6c1472db9"
+    },
+    {
       "sourceId": "kobe-shikai-r8",
       "url": "https://www.city.kobe.lg.jp/a71064/shise/municipal/giinnmeibo/kaiha.html",
       "kind": "landing",

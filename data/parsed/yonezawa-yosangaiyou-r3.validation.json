@@ -1,0 +1,11 @@
+{
+  "sourceId": "yonezawa-yosangaiyou-r3",
+  "validatedAt": "2026-10-21T16:59:26.027Z",
+  "status": "ok",
+  "issues": [
+    {
+      "level": "warning",
+      "message": "歳入: 款番号が昇順ではありません（1,12,13,16,17,18,19,20,2,3,4,5,6,7,8,9,10,11,14,15,21）。行の取り違えの可能性"
+    }
+  ]
+}
