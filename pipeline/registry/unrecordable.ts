@@ -2277,4 +2277,16 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.hanno.lg.jp/shiseijoho/zaisei/yosan/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-77",
   },
+  {
+    // 名張市（242080）R7〜R3。R8・R2 は収録済み（§13-CC）。
+    // R7・R6 は予算書その1 の総括 p.11/12 の款名がアウトライン化（款番号と金額だけが文字）。R7 の「当初予算（案）のポイント」の対前年度比較は歳入の款を「譲与税・交付金」に合算。
+    // R5・R4・R3 は予算書がスキャン画像（テキスト層0）。R5 の概要は円グラフだけ。推測のファイル名11通り・Wayback・WARP にも総括表は無い。
+    code: "242080", name: "名張市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3"],
+    categories: ["broken-text-layer", "scanned-image", "format-mismatch"],
+    reason:
+      "款ごとの前年度比較が載る予算書の総括は、令和7・6年度は款名が文字として取り出せない形（図形）で作られ、令和5・4・3年度は紙をスキャンした画像になっている。" +
+      "令和7年度の予算のポイントの比較表は、歳入の款をまとめた区分で款ごとの額が載っていない。",
+    url: "https://www.city.nabari.lg.jp/130/045/100/020/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-CC",
+  },
 ];

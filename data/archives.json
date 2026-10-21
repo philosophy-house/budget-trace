@@ -52878,6 +52878,84 @@
       "rawSha256": "3bd7b32656021f795361f8174ff0b380c3174330f234b37e28627bd1ae803e82"
     },
     {
+      "sourceId": "tosu-yosan-gaiyou-r5",
+      "url": "https://www.city.tosu.lg.jp/soshiki/3/2041.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606100910/https://www.city.tosu.lg.jp/soshiki/3/2041.html",
+      "waybackTimestamp": "20260606100910",
+      "checkedAt": "2026-10-21T18:59:06.675Z"
+    },
+    {
+      "sourceId": "tosu-yosan-gaiyou-r5",
+      "url": "https://www.city.tosu.lg.jp/uploaded/attachment/27154.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260712024613/https://www.city.tosu.lg.jp/uploaded/attachment/27154.pdf",
+      "waybackTimestamp": "20260712024613",
+      "checkedAt": "2026-10-21T18:59:05.621Z",
+      "sha256Match": true,
+      "waybackBytes": 494188,
+      "rawSha256": "200cc927052f0f6326d2e704c945f97363df1cef5bcdb1c9ac9796b4869405b8"
+    },
+    {
+      "sourceId": "tosu-yosan-gaiyou-r6",
+      "url": "https://www.city.tosu.lg.jp/soshiki/3/2041.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606100910/https://www.city.tosu.lg.jp/soshiki/3/2041.html",
+      "waybackTimestamp": "20260606100910",
+      "checkedAt": "2026-10-21T18:59:00.310Z"
+    },
+    {
+      "sourceId": "tosu-yosan-gaiyou-r6",
+      "url": "https://www.city.tosu.lg.jp/uploaded/attachment/33046.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260712023526/https://www.city.tosu.lg.jp/uploaded/attachment/33046.pdf",
+      "waybackTimestamp": "20260712023526",
+      "checkedAt": "2026-10-21T18:58:59.806Z",
+      "sha256Match": false,
+      "waybackBytes": 5242880,
+      "rawSha256": "1973ceaabb6d0d97edc21965a21f2a0e228868140fcea8bed5f649479fc72831",
+      "waybackTruncated": true
+    },
+    {
+      "sourceId": "tosu-yosan-gaiyou-r7",
+      "url": "https://www.city.tosu.lg.jp/soshiki/3/2041.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606100910/https://www.city.tosu.lg.jp/soshiki/3/2041.html",
+      "waybackTimestamp": "20260606100910",
+      "checkedAt": "2026-10-21T18:58:55.726Z"
+    },
+    {
+      "sourceId": "tosu-yosan-gaiyou-r7",
+      "url": "https://www.city.tosu.lg.jp/uploaded/attachment/37859.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260712033705/https://www.city.tosu.lg.jp/uploaded/attachment/37859.pdf",
+      "waybackTimestamp": "20260712033705",
+      "checkedAt": "2026-10-21T18:58:55.112Z",
+      "sha256Match": false,
+      "waybackBytes": 5242880,
+      "rawSha256": "b6a15f9f063483be8a98b0bce95c3b09a612881eb38bebaffe680b5c2241489b",
+      "waybackTruncated": true
+    },
+    {
+      "sourceId": "tosu-yosan-gaiyou-r8",
+      "url": "https://www.city.tosu.lg.jp/soshiki/3/16904.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260218001541/https://www.city.tosu.lg.jp/soshiki/3/16904.html",
+      "waybackTimestamp": "20260218001541",
+      "checkedAt": "2026-10-21T18:58:49.322Z"
+    },
+    {
+      "sourceId": "tosu-yosan-gaiyou-r8",
+      "url": "https://www.city.tosu.lg.jp/uploaded/attachment/37849.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021185830/https://www.city.tosu.lg.jp/uploaded/attachment/37849.pdf",
+      "waybackTimestamp": "20261021185830",
+      "checkedAt": "2026-10-21T18:58:45.778Z",
+      "sha256Match": true,
+      "waybackBytes": 5112402,
+      "rawSha256": "da864582a8a89096807f637ee4e6a2a4d4901222bf9f0bcef72e9752ef206a2c"
+    },
+    {
       "sourceId": "tottori-ken-yosan-gaiyou-bunseki-r8",
       "url": "https://www.pref.tottori.lg.jp/327294.htm",
       "kind": "landing",

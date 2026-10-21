@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 434,
+  "budgetCount": 439,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3242,
-  "fileCount": 4899,
-  "archivedCount": 2710,
+  "sourceCount": 3272,
+  "fileCount": 4930,
+  "archivedCount": 2723,
   "licenseOpen": 135,
-  "licensePermission": 3022,
+  "licensePermission": 3052,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -753,6 +753,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "岩見沢市",
+      "code": "012106",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "千歳市",
       "code": "012246",
       "years": 7,
@@ -791,6 +797,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "由利本荘市",
       "code": "052108",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "大仙市",
+      "code": "052124",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -917,6 +929,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "志木市",
       "code": "112283",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "桶川市",
+      "code": "112313",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1541,6 +1559,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "唐津市",
       "code": "412023",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "鳥栖市",
+      "code": "412031",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2239,6 +2263,12 @@ export const ROADMAP_PROGRESS = {
       "code": "240001",
       "years": 2,
       "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "名張市",
+      "code": "242080",
+      "years": 2,
+      "range": "R2〜R8（2年度）"
     },
     {
       "name": "東大阪市",
