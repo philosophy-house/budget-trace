@@ -21421,6 +21421,210 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "東松山市ホームページに掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、東松山市ホームページ全体についても編集著作物として著作権の対象となっており、ともに著作権法により保護されています。また、一部の画像等の著作権は原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転載することはできません。「引用」を行う際は、必ず出典を明示してください。また、利用許諾については各ページの担当課へお問い合わせください。",
     "target": "file"
   },
+  "/sources/kameoka-yosan-shiryohen-r8/84347_197665_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameoka.kyoto.jp/uploaded/life/84347_197665_misc.pdf",
+    "license": "亀岡市ホームページの情報については、原則として亀岡市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/kameoka-yosan-shiryohen-r7/72426_167246_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameoka.kyoto.jp/uploaded/life/72426_167246_misc.pdf",
+    "license": "亀岡市ホームページの情報については、原則として亀岡市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/kameoka-yosan-shiryohen-r6/59245_137212_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameoka.kyoto.jp/uploaded/life/59245_137212_misc.pdf",
+    "license": "亀岡市ホームページの情報については、原則として亀岡市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/kameoka-yosan-shiryohen-r5/44774_102556_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameoka.kyoto.jp/uploaded/life/44774_102556_misc.pdf",
+    "license": "亀岡市ホームページの情報については、原則として亀岡市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/kameoka-yosan-shiryohen-r4/24622.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameoka.kyoto.jp/uploaded/attachment/24622.pdf",
+    "license": "亀岡市ホームページの情報については、原則として亀岡市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/kameoka-yosan-shiryohen-r3/9959.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameoka.kyoto.jp/uploaded/attachment/9959.pdf",
+    "license": "亀岡市ホームページの情報については、原則として亀岡市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/kameoka-yosan-shiryohen-r2/9955.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameoka.kyoto.jp/uploaded/attachment/9955.pdf",
+    "license": "亀岡市ホームページの情報については、原則として亀岡市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/koka-shiga-yosan-shiryo-r8/R8.yosanshiryouippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koka.lg.jp/5535.htm",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は甲賀市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/koka-shiga-yosan-shiryo-r7/R7yosanshiryouippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koka.lg.jp/5535.htm",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は甲賀市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/koka-shiga-yosan-shiryo-r6/R6yosanshiryouippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koka.lg.jp/5535.htm",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は甲賀市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/koka-shiga-yosan-shiryo-r5/yosanshiryouippankaikei5.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koka.lg.jp/5535.htm",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は甲賀市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/koka-shiga-yosan-shiryo-r4/yosanshiryouippankaikei4.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koka.lg.jp/5535.htm",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は甲賀市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/koka-shiga-yosan-shiryo-r3/yosanshiryouippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koka.lg.jp/5535.htm",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は甲賀市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/koka-shiga-yosan-shiryo-r2/2020yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koka.lg.jp/5535.htm",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は甲賀市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/settsu-yosan-soukatsu-r8/R8ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.settsu.osaka.jp/material/files/group/57/R8ippankaikei.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、本サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上、認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/settsu-yosan-soukatsu-r7/R7ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.settsu.osaka.jp/material/files/group/57/R7ippankaikei.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、本サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上、認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/settsu-yosan-soukatsu-r6/R6ippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.settsu.osaka.jp/material/files/group/57/R6ippannkaikei.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、本サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上、認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/settsu-yosan-soukatsu-r5/ippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.settsu.osaka.jp/material/files/group/57/ippannkaikei.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、本サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上、認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/settsu-yosan-soukatsu-r4/R4ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.settsu.osaka.jp/material/files/group/57/R4ippankaikei.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、本サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上、認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/settsu-yosan-soukatsu-r3/R03tousyoyosannippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.settsu.osaka.jp/material/files/group/57/R03tousyoyosannippannkaikei.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、本サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上、認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/settsu-yosan-soukatsu-r2/R02tousyoyosannippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.settsu.osaka.jp/material/files/group/57/R02tousyoyosannippannkaikei.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、本サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上、認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/takasago-yosan-gaiyou-r8/20260213-2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takasago.lg.jp/material/files/group/12/20260213-2.pdf",
+    "license": "高砂市ウェブサイトに掲載されている情報（文字、写真、イラストなど）に関する著作権は、原則として高砂市または情報提供者に帰属します。著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、高砂市の許可なく、無断で利用することはできません。",
+    "target": "file"
+  },
+  "/sources/takasago-yosan-gaiyou-r7/20250213-6.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takasago.lg.jp/material/files/group/12/20250213-6.pdf",
+    "license": "高砂市ウェブサイトに掲載されている情報（文字、写真、イラストなど）に関する著作権は、原則として高砂市または情報提供者に帰属します。著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、高砂市の許可なく、無断で利用することはできません。",
+    "target": "file"
+  },
+  "/sources/takasago-yosan-gaiyou-r6/20240216-2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takasago.lg.jp/material/files/group/12/20240216-2.pdf",
+    "license": "高砂市ウェブサイトに掲載されている情報（文字、写真、イラストなど）に関する著作権は、原則として高砂市または情報提供者に帰属します。著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、高砂市の許可なく、無断で利用することはできません。",
+    "target": "file"
+  },
+  "/sources/takasago-yosan-gaiyou-r5/20230215-2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takasago.lg.jp/material/files/group/12/20230215-2.pdf",
+    "license": "高砂市ウェブサイトに掲載されている情報（文字、写真、イラストなど）に関する著作権は、原則として高砂市または情報提供者に帰属します。著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、高砂市の許可なく、無断で利用することはできません。",
+    "target": "file"
+  },
+  "/sources/takasago-yosan-gaiyou-r3/20210310-184726.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takasago.lg.jp/material/files/group/12/20210310-184726.pdf",
+    "license": "高砂市ウェブサイトに掲載されている情報（文字、写真、イラストなど）に関する著作権は、原則として高砂市または情報提供者に帰属します。著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、高砂市の許可なく、無断で利用することはできません。",
+    "target": "file"
+  },
+  "/sources/takasago-yosan-gaiyou-r2/20200218-083703.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takasago.lg.jp/material/files/group/12/20200218-083703.pdf",
+    "license": "高砂市ウェブサイトに掲載されている情報（文字、写真、イラストなど）に関する著作権は、原則として高砂市または情報提供者に帰属します。著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、高砂市の許可なく、無断で利用することはできません。",
+    "target": "file"
+  },
+  "/sources/mihara-yosan-gaiyou-r8/161416.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mihara.hiroshima.jp/soshiki/7/tosyoyosan.html",
+    "license": "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/mihara-yosan-gaiyou-r7/152633.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mihara.hiroshima.jp/soshiki/7/tosyoyosan.html",
+    "license": "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/mihara-yosan-gaiyou-r6/143949.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mihara.hiroshima.jp/soshiki/7/tosyoyosan.html",
+    "license": "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/mihara-yosan-gaiyou-r5/134100.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mihara.hiroshima.jp/soshiki/7/tosyoyosan.html",
+    "license": "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/mihara-yosan-gaiyou-r4/123621.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mihara.hiroshima.jp/soshiki/7/tosyoyosan.html",
+    "license": "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/mihara-yosan-gaiyou-r3/112970.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mihara.hiroshima.jp/soshiki/7/tosyoyosan.html",
+    "license": "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/mihara-yosan-gaiyou-r2/100578.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mihara.hiroshima.jp/soshiki/7/tosyoyosan.html",
+    "license": "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
   "/sources/konan-yosansho-r6/r6.tousho_yosan.pdf": {
     "mode": "origin",
     "href": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/014/929/r6.tousho_yosan.pdf",

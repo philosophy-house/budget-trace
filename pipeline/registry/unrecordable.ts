@@ -1866,6 +1866,18 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-21", ref: "docs/data-sources.md §13-22",
   },
   {
+    // 高砂市（282162）R4。R8〜R5・R3・R2 は収録済み（§13-62）。
+    // 概要 20220216-5.pdf の当年度 36,496,125 は原案訂正の前。議決額 36,468,186 は R5 の前年度列・財政事情 R4 予算（20220530-3.pdf）と款単位一致（繰入金・総務費が 27,939 ずつ違う）。
+    // 財政事情の版には前年度の額が無い。R4 の予算書は年度ページに掲載が無い。原案訂正は議会だより第217号（/material/files/group/85/25.pdf）。
+    code: "282162", name: "高砂市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "市が公開している「予算の概要」は、市長が議会の審議中に予算案を訂正する前の数字のままで、繰入金と総務費の額が成立した予算と違う。" +
+      "成立した予算の款ごとの額は財政事情の公表資料に載っているが、そちらには前年度の額が無い。",
+    url: "https://www.city.takasago.lg.jp/gyoseisite/shiseijoho/gyozaisei/4/6/6251.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-62",
+  },
+  {
     // 花巻市（032051）R2。R8〜R3 は収録済み（§13-61）。
     // 予算書 02yosan.pdf（45ページ）・事項別明細書 02yosan_ippan.pdf（228ページ）とも先頭20ページで pdftotext 0字・pdffonts 0件・画像あり（2026-10-22 に自分で取得して実測）。
     code: "032051", name: "花巻市", dataset: "budget", fiscalYears: ["R2"],
