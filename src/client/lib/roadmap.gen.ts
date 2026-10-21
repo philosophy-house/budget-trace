@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 380,
+  "budgetCount": 385,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2899,
-  "fileCount": 4544,
-  "archivedCount": 2582,
+  "sourceCount": 2930,
+  "fileCount": 4576,
+  "archivedCount": 2603,
   "licenseOpen": 120,
-  "licensePermission": 2701,
+  "licensePermission": 2732,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1083,6 +1083,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "御殿場市",
+      "code": "222151",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "名古屋市",
       "code": "231002",
       "years": 7,
@@ -1115,6 +1121,18 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "大府市",
       "code": "232238",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "知多市",
+      "code": "232246",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "尾張旭市",
+      "code": "232262",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1423,6 +1441,12 @@ export const ROADMAP_PROGRESS = {
       "code": "082015",
       "years": 6,
       "range": "H30〜R8（6年度）"
+    },
+    {
+      "name": "牛久市",
+      "code": "082198",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "神栖市",
@@ -1759,6 +1783,12 @@ export const ROADMAP_PROGRESS = {
       "code": "142140",
       "years": 4,
       "range": "R3〜R8（4年度）"
+    },
+    {
+      "name": "綾瀬市",
+      "code": "142182",
+      "years": 4,
+      "range": "R4〜R8（4年度）"
     },
     {
       "name": "佐久市",
