@@ -3612,6 +3612,25 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `shimotsuke-yosansho-${fy}`, muniCode: "092169", muniName: "下野市", prefName: "栃木県", isPref: false,
     })),
     { srcId: "shimotsuke-yosan-shiryo-r2", muniCode: "092169", muniName: "下野市", prefName: "栃木県", isPref: false },
+    // ---- 第RR巡（2026-10-22・§13-RR） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `minamisoma-yosansho-${fy}`, muniCode: "072125", muniName: "南相馬市", prefName: "福島県", isPref: false,
+    })),
+    // ⚠ 宮古島 R4・R3 は議会修正の見え消しで収録しない（unrecordable.ts）
+    ...(["r8", "r7", "r6", "r5", "r2"] as const).map((fy) => ({
+      srcId: `miyakojima-yosansho-${fy}`, muniCode: "472140", muniName: "宮古島市", prefName: "沖縄県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nonoichi-yosansho-${fy}`, muniCode: "172120", muniName: "野々市市", prefName: "石川県", isPref: false,
+    })),
+    // ⚠ 直方 R2 は予算書がウェブに無い（unrecordable.ts）。R6 は前年度が骨格（prevNote）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `nogata-yosansho-${fy}`, muniCode: "402044", muniName: "直方市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 滝沢 R3・R2 は説明書が無く、「当初予算の内容」は会計別総額表が先に来る（unrecordable.ts）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `takizawa-yosan-setsumeisho-${fy}`, muniCode: "032166", muniName: "滝沢市", prefName: "岩手県", isPref: false,
+    })),
     // ---- 第76巡（2026-10-22・§13-84） ----
     // ⚠ 蓮田は R8〜R5 が予算書・R4〜R2 が予算の概要
     ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({

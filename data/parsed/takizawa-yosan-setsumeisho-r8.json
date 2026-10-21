@@ -1,0 +1,424 @@
+{
+  "docType": "budget-book",
+  "sourceId": "takizawa-yosan-setsumeisho-r8",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T22:44:22.583Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R8",
+  "account": "一般会計",
+  "revenueTotal": 24000000,
+  "expenditureTotal": 24000000,
+  "prevRevenueTotal": 22252000,
+  "prevExpenditureTotal": 22252000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 5817929,
+      "prevAmount": 5607309,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 207254,
+      "prevAmount": 214994,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 12965,
+      "prevAmount": 10072,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 28369,
+      "prevAmount": 17956,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 34683,
+      "prevAmount": 20675,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 64843,
+      "prevAmount": 65056,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 1454387,
+      "prevAmount": 1340091,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 4144,
+      "prevAmount": 4884,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "環境性能割交付金",
+      "amount": 2316,
+      "prevAmount": 13761,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "国有提供施設等所在市町村助成交付金",
+      "amount": 21082,
+      "prevAmount": 20555,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方特例交付金",
+      "amount": 87048,
+      "prevAmount": 76244,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "地方交付税",
+      "amount": 5304674,
+      "prevAmount": 5084164,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 4703,
+      "prevAmount": 5274,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "分担金及び負担金",
+      "amount": 79249,
+      "prevAmount": 76771,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "使用料及び手数料",
+      "amount": 144567,
+      "prevAmount": 141340,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "国庫支出金",
+      "amount": 4796092,
+      "prevAmount": 5113395,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "県支出金",
+      "amount": 2137245,
+      "prevAmount": 1985517,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "財産収入",
+      "amount": 26509,
+      "prevAmount": 25164,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "寄附金",
+      "amount": 123368,
+      "prevAmount": 115536,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰入金",
+      "amount": 1044069,
+      "prevAmount": 727424,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "繰越金",
+      "amount": 150000,
+      "prevAmount": 150000,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "諸収入",
+      "amount": 516804,
+      "prevAmount": 838818,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 23,
+      "kanName": "市債",
+      "amount": 1937700,
+      "prevAmount": 597000,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 193887,
+      "prevAmount": 197106,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 2503218,
+      "prevAmount": 2290127,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 10312008,
+      "prevAmount": 9871290,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 2180273,
+      "prevAmount": 2115776,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 29324,
+      "prevAmount": 28822,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 462726,
+      "prevAmount": 974292,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 553828,
+      "prevAmount": 551350,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 1846162,
+      "prevAmount": 1840792,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 817500,
+      "prevAmount": 778788,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 2450751,
+      "prevAmount": 1997465,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 4,
+      "prevAmount": 4,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 2640318,
+      "prevAmount": 1596187,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "諸支出金",
+      "amount": 1,
+      "prevAmount": 1,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 14,
+      "kanName": "予備費",
+      "amount": 10000,
+      "prevAmount": 10000,
+      "locator": {
+        "file": "令和8年度当初に関する説明書.pdf",
+        "page": 7
+      }
+    }
+  ]
+}
