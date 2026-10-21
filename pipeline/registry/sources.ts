@@ -701,6 +701,9 @@ export const SOURCES: SourceEntry[] = [
     url: null,
     urls: ["https://www.city.fuefuki.yamanashi.jp/documents/1033/r8toushoyosangaiyou.pdf"],
     landingPage: "https://www.city.fuefuki.yamanashi.jp/zaise/shisejoho/zaise/yosan.html",
+    // リンク条項は `fuefuki-gikai-r8` と同じ（「原則としてトップページへのリンクを…お願いいたします」＝東大阪型）。
+    //   license が仮置きで unverified の間は効かないが、原文を取り直して要許可になった瞬間に効くよう先に立てる。
+    noDeepLink: true,
     kind: "pdf",
     fiscalYear: "R8",
     scope: "笛吹市（一般会計・団体コード192112）",
@@ -18396,8 +18399,11 @@ export const SOURCES: SourceEntry[] = [
     // ライセンス: 「このサイトについて」の著作権の条項（`IRUMA_LICENSE`）で **permission-required**（「許可・承諾を得ないまま…お断り」）。
     //   ⚠ 2026-09-10 の収録時は「規約のページが無い」として unverified にしていた（取り違え・2026-10-21 に訂正）。
     //   オープンデータは埼玉県ポータル登載だが**行財政カテゴリは「投票所一覧」1件のみで予算・決算は0件** → 県規約は及ばない（§9g）。
-    //   ⚠ リンク集に「個々のページはできる限りリンクをはらないようお願いします」とあるが**依頼形**で、
-    //   unverified はエビデンスが自サーバー配信で開かれる（発行元への直リンクは補助）ので衝突しない。
+    //   リンク（「リンク集」/this_site/5379.html 末尾・確認日 2026-10-21）: 「入間市公式ホームページはリンクフリーです」
+    //   「リンクをはる際は、トップページ（index.html）にリンクするようにしてください。個々のページはできる限りリンクをはらないようお願いします。…」
+    //   「やむを得ず個々のページにリンクをはる場合は、…そのページが入間市公式ホームページ内にあることがわかるよう明記してください。」
+    //   ⇒ 宛先を**指示形**でトップページに指定している（§13-13 の基準で立てる側）ので `noDeepLink` を立てる。「やむを得ず」は
+    //   例外の許容で、閉じる側に倒しても失うものは無い（掲載ページへ振り替わるだけ）。2026-10-21 に要許可へ移って効き始めた。
     // ⚠ **R7 の総括 PDF だけ本文に `入間` が1件も無い**（予算書の抜き刷りで表紙が無い）。
     //   R7 予算書ページからのリンクであることと、**R8・R6 との鎖が款単位で一致すること**で同定した。
     // [年度, 系統, ファイル名, 年度ページのスラグ, 歳入p, 歳出p]
@@ -18423,6 +18429,7 @@ export const SOURCES: SourceEntry[] = [
     publisher: "入間市",
     url: `https://www.city.iruma.saitama.jp/material/files/group/7/${file}.pdf`,
     landingPage: `https://www.city.iruma.saitama.jp/soshiki/zaiseka/gyozaisei/yosan/${slug}.html`,
+    noDeepLink: true,
     kind: "pdf" as const,
     fiscalYear: fy,
     scope: "入間市（一般会計・団体コード112259）",
@@ -24727,6 +24734,9 @@ export const SOURCES: SourceEntry[] = [
     // 議決当日（R8.3.12）の会議録の出席議員名簿（55名・欠席なし）に全議員の氏名が出ることを confirmUrls で見る。議会だより212号（R8.4.1現在の名簿）とも一致（高村直也の共産党市議団脱会は R8.3.31 付で議決後）
     // 会議結果のページは件名を「一般会計[14]」としか書かず、件名の全文は附帯決議の行にしか無い（その行の結果は附帯決議のもの）。件名・議案番号・結果は議決当日の会議録の採決の段（「第十四号議案 令和八年度仙台市一般会計予算 を採決いたします。委員長報告は可決であります。…原案のとおり可決されました」）で照合する
     // 会議録は日付が漢数字（令和八年三月十二日）で月日として読めないため、議決日は議会だより212号の会期日程「３月12日 本会議 （委員長報告、 採決）」で照合する（farOk）
+    // リンク: 議会のサイト（gikai.city.sendai.jp）にはリンクの規約も無い（トップのフッターは個人情報保護方針とリンク集のみ・
+    //   /sitepolicy.html /policy.html /about.html は 404・privacypolicy.html に著作権・リンクの条項なし・2026-10-21 実測）。
+    //   市の条項（第2群・`sendai-yosansho-r8` は noDeepLink）は別ホストの議会には及ばないので立てない（§6-9）。
     // 議会のサイト（gikai.city.sendai.jp）に著作権の定めのページが無いため、license はフッターの表記
     id: "sendai-shigikai-r8",
     title: "令和8年度 仙台市議会の構成（会派別議席数）と当初予算の議決",
@@ -28977,6 +28987,8 @@ export const SOURCES: SourceEntry[] = [
       "https://www3.city.iruma.saitama.jp/voices/cgi/voiweb.exe?ACT=203&KENSAKU=0&SORT=0&KTYP=0,1,2,3&KGTP=1&FYY=2026&TYY=2026&TITL_SUBT=%97%DF%98a%81@%82W%94N%81@%81@%82R%8C%8E%81@%92%E8%97%E1%89%EF%81i%91%E6%82P%89%F1%81j%81%7C03%8C%8E16%93%FA-07%8D%86&HUID=243686&KGNO=515&FINO=1929&HATSUGENMODE=1&HYOUJIMODE=0&STYLE=0",
     ],
     landingPage: "https://www.city.iruma.saitama.jp/gyosei_joho/83/87/7715.html",
+    // 資料の2本は市の公式サイトに載るので、市のリンク条項（`iruma-yosansho-*` のコメント）で `noDeepLink`。
+    noDeepLink: true,
     kind: "page",
     fiscalYear: "R8",
     scope: "入間市議会（団体コード112259）",
