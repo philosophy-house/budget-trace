@@ -21499,6 +21499,168 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "和光市ホームページに掲載される記事、画像、データ類の著作権は、和光市、又はその情報提供者に帰属します。また、その全てについて、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、和光市の許可・承諾を得ないままほかの媒体へ転載することはお断りします。／「情報などの転載について」: 和光市ホームページに掲載されている情報や画像などの転載を希望する場合は、必ず転載の許可を得てください。なお、版権などの問題により、一部の画像などについては転載を認められない場合がありますのでご了承ください。",
     "target": "file"
   },
+  "/sources/natori-yosan-setsumei-r8/23518.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.natori.miyagi.jp/page/36630.html",
+    "license": "Copyright © City of Natori. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/natori-yosan-setsumei-r7/18872.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.natori.miyagi.jp/page/25599.html",
+    "license": "Copyright © City of Natori. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/natori-yosan-setsumei-r6/14314.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.natori.miyagi.jp/page/5132.html",
+    "license": "Copyright © City of Natori. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/natori-yosan-setsumei-r5/11582.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.natori.miyagi.jp/page/5138.html",
+    "license": "Copyright © City of Natori. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/natori-yosan-setsumei-r4/11492.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.natori.miyagi.jp/page/5137.html",
+    "license": "Copyright © City of Natori. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/kimitsu-yosansho-r8/60561.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kimitsu.lg.jp/soshiki/9/6004.html",
+    "license": "「君津市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として君津市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、君津市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kimitsu-yosansho-r7/52362.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kimitsu.lg.jp/soshiki/9/6004.html",
+    "license": "「君津市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として君津市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、君津市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kimitsu-yosansho-r6/46041.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kimitsu.lg.jp/soshiki/9/6004.html",
+    "license": "「君津市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として君津市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、君津市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kimitsu-yosangaiyou-r5/39255.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kimitsu.lg.jp/soshiki/9/6004.html",
+    "license": "「君津市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として君津市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、君津市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kimitsu-yosangaiyou-r4/32563.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kimitsu.lg.jp/soshiki/9/6004.html",
+    "license": "「君津市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として君津市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、君津市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kimitsu-yosangaiyou-r3/26731.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kimitsu.lg.jp/soshiki/9/6004.html",
+    "license": "「君津市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として君津市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、君津市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kimitsu-yosangaiyou-r2/21361.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kimitsu.lg.jp/soshiki/9/6004.html",
+    "license": "「君津市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として君津市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、君津市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kizugawa-yosansho-r8/20260324.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000002/2943/20260324.pdf",
+    "license": "木津川市ウェブサイトに掲載されているすべてのコンテンツ(文書、画像、イラストなど)の著作権は、木津川市または原著作者に帰属します。 「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kizugawa-yosansho-r7/20250324-090145.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000000/50/20250324-090145.pdf",
+    "license": "木津川市ウェブサイトに掲載されているすべてのコンテンツ(文書、画像、イラストなど)の著作権は、木津川市または原著作者に帰属します。 「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kizugawa-yosansho-r6/20240325-105123.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000000/52/20240325-105123.pdf",
+    "license": "木津川市ウェブサイトに掲載されているすべてのコンテンツ(文書、画像、イラストなど)の著作権は、木津川市または原著作者に帰属します。 「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kizugawa-yosansho-r5/20230222-090555.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000000/49/20230222-090555.pdf",
+    "license": "木津川市ウェブサイトに掲載されているすべてのコンテンツ(文書、画像、イラストなど)の著作権は、木津川市または原著作者に帰属します。 「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kizugawa-yosansho-r4/20220329-113353.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000000/40/20220329-113353.pdf",
+    "license": "木津川市ウェブサイトに掲載されているすべてのコンテンツ(文書、画像、イラストなど)の著作権は、木津川市または原著作者に帰属します。 「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kizugawa-yosansho-r3/20210326-101350.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000000/51/20210326-101350.pdf",
+    "license": "木津川市ウェブサイトに掲載されているすべてのコンテンツ(文書、画像、イラストなど)の著作権は、木津川市または原著作者に帰属します。 「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/akiruno-yosansho-r8/R8_0ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000020096.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/akiruno-yosansho-r7/R7_0ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000018252.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/akiruno-yosansho-r6/R6ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000016699.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/akiruno-yosansho-r5/R5ippan_2_n.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000015218.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/akiruno-yosansho-r4/PR4ippan_3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000014035.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/akiruno-yosansho-r3/R3ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000012666.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/akiruno-tousho-yosan-shiryou-r2/R2setumeisyo_tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000010592.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/kashiba-yosan-setsumei-r3/6176.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+    "license": "著作権法上認められる場合を除き、香芝市の許可なく香芝市ホームページ上に掲載されている文書や画像、その他データなどを無断使用、複製、転載、販売、改変、印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kashiba-yosan-setsumei-r2/6177.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+    "license": "著作権法上認められる場合を除き、香芝市の許可なく香芝市ホームページ上に掲載されている文書や画像、その他データなどを無断使用、複製、転載、販売、改変、印刷配布することを禁止します。",
+    "target": "page"
+  },
   "/sources/kitanagoya-yosansho-r8/r8_ippan.pdf": {
     "mode": "origin",
     "href": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/308/r8_ippan.pdf",

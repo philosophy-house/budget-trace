@@ -1943,4 +1943,48 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.higashimatsuyama.lg.jp/soshiki/4/1056.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
   },
+  {
+    // 名取市（042072）R3・R2。R8〜R4 は収録済み（§13-64）。
+    // R3 の説明書 11384.pdf は p.4（歳入の総括）が CCITT のスキャン画像でテキスト6字（p.5 の歳出の総括は文字がある）。R2 の説明書(1) 11291.pdf は p.5 以降のテキストが計12字。
+    code: "042072", name: "名取市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "予算に関する説明書のうち、款ごとの前年度比較が載る総括のページが紙をスキャンした画像で、文字として取り出せない" +
+      "（令和3年度は歳入側だけ、令和2年度は本文全体）。予算書・予算資料もほぼ画像で、概要には款別の表が無い。",
+    url: "https://www.city.natori.miyagi.jp/page/5131.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
+  },
+  {
+    // 木津川市（262145）R2。R8〜R3 は収録済み（§13-64）。
+    // 予算書 /cmsfiles/contents/0000000/41/ の総括 p.12・p.13 は ToUnicode 欠落の化け。decodeGarble は柱のダッシュ U+0336 で throw し、p.13 は重なった二重のテキスト層で復号表に無い字が多数出る。
+    code: "262145", name: "木津川市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["broken-text-layer"],
+    reason:
+      "一般会計予算書の総括のページの文字が別の字に化けていて、歳出のページは文字の層が二重に重なっている。" +
+      "この化け方はこちらの復号の対応表に無い字を含み、款ごとの金額を正しく取り出せない。",
+    url: "https://www.city.kizugawa.lg.jp/0000000041.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
+  },
+  {
+    // 香芝市（292109）R7・R5・R4。R6・R3・R2 は収録済み（§13-64）。
+    // 本体の説明書（24988・14947・10215.pdf）の総括は「一部訂正」前の数字。訂正後は別ファイル（24989・15204・10640.pdf）に変わった行だけ。翌年度の前年度列は訂正後と一致。
+    code: "292109", name: "香芝市", dataset: "budget", fiscalYears: ["R7", "R5", "R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "予算に関する説明書の総括は、後から一部訂正される前の数字のままで（令和7年度 34,760,000千円に対し訂正後 34,548,000千円など）、" +
+      "訂正後の額は変わった行だけを並べた別の資料にしか載っていない。款ごとの前年度比較を訂正後の額でそろえた表が無い。",
+    url: "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
+  },
+  {
+    // 香芝市（292109）R8。説明書 31777.pdf の総括 p.5・p.6 は ToUnicode 欠落。数字は既知の帯（ASCII−0x1D）だが、款名の化け方が GARBLE_CHAR_MAP に無い変種で、
+    // 本物のかな（「あ」＝諸・「わ」＝議など）に化ける字を含み isSuspectGarble が素通りさせる。decodeGarble は U+0480 ほかで throw。
+    code: "292109", name: "香芝市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算に関する説明書の総括のページの文字が別の字に化けていて、款の名前の化け方がこちらの復号の対応表に無い（本物のひらがなに化けている字もある）。" +
+      "金額の数字は読めるが、款の名前を確かめずに収録はしない。",
+    url: "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
+  },
 ];

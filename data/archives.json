@@ -15364,6 +15364,44 @@
       "checkedAt": "2026-09-10T04:45:44.540Z"
     },
     {
+      "sourceId": "kashiba-yosan-setsumei-r2",
+      "url": "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260118144404/https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+      "waybackTimestamp": "20260118144404",
+      "checkedAt": "2026-10-21T16:40:45.420Z"
+    },
+    {
+      "sourceId": "kashiba-yosan-setsumei-r2",
+      "url": "https://www.city.kashiba.lg.jp/uploaded/attachment/6177.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220308002118/https://www.city.kashiba.lg.jp/uploaded/attachment/6177.pdf",
+      "waybackTimestamp": "20220308002118",
+      "checkedAt": "2026-10-21T16:40:44.764Z",
+      "sha256Match": true,
+      "waybackBytes": 1827516,
+      "rawSha256": "0e2d448871fd1a7e2470942b0c178cfc4ba01795e070a9dca70c265818094a30"
+    },
+    {
+      "sourceId": "kashiba-yosan-setsumei-r3",
+      "url": "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260118144404/https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
+      "waybackTimestamp": "20260118144404",
+      "checkedAt": "2026-10-21T16:40:41.342Z"
+    },
+    {
+      "sourceId": "kashiba-yosan-setsumei-r3",
+      "url": "https://www.city.kashiba.lg.jp/uploaded/attachment/6176.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220308002148/https://www.city.kashiba.lg.jp/uploaded/attachment/6176.pdf",
+      "waybackTimestamp": "20220308002148",
+      "checkedAt": "2026-10-21T16:40:40.589Z",
+      "sha256Match": true,
+      "waybackBytes": 1670702,
+      "rawSha256": "ffc28d787b2fc740d48671a53067d38ffea96f5bd47bca8e7ee67830238cef07"
+    },
+    {
       "sourceId": "kashihara-yosan-gaiyou-r8",
       "url": "https://www.city.kashihara.nara.jp/material/files/group/45/yosangaiyou_2.pdf",
       "kind": "file",
@@ -29604,6 +29642,17 @@
       "waybackUrl": "https://web.archive.org/web/20260925151019/https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/zaiseika/shinoyosan_kessan_zaiseijokyo/1/3/3752.html",
       "waybackTimestamp": "20260925151019",
       "checkedAt": "2026-09-25T15:10:57.463Z"
+    },
+    {
+      "sourceId": "natori-yosan-setsumei-r8",
+      "url": "https://www.city.natori.miyagi.jp/uploaded/attachment/23518.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021163859/https://www.city.natori.miyagi.jp/uploaded/attachment/23518.pdf",
+      "waybackTimestamp": "20261021163859",
+      "checkedAt": "2026-10-21T16:39:14.119Z",
+      "sha256Match": true,
+      "waybackBytes": 4483298,
+      "rawSha256": "3754cb0eaa986f9851fcebe3201d841cad26cfc65df3ffd02b660d3389a44211"
     },
     {
       "sourceId": "nerima-kanbetsu-h23",

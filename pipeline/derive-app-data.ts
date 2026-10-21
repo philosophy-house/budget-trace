@@ -3698,6 +3698,31 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `wako-yosan-gaiyou-${fy}`, muniCode: "112291", muniName: "和光市", prefName: "埼玉県", isPref: false,
     })),
+    // ---- 第59巡（2026-10-22・§13-64） ----
+    // ⚠ 名取は license-no-grant・noDeepLink。R3・R2 はスキャンで未収録
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `natori-yosan-setsumei-${fy}`, muniCode: "042072", muniName: "名取市", prefName: "宮城県", isPref: false,
+    })),
+    // ⚠ 君津は R8〜R6 が予算書、R5〜R2 が概要（縦書きの財源区分を revenueCropX で落とす）。noDeepLink
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `kimitsu-yosansho-${fy}`, muniCode: "122254", muniName: "君津市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kimitsu-yosangaiyou-${fy}`, muniCode: "122254", muniName: "君津市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 木津川は textSource raw。R5 骨格（R6 に prevNote）。R2 は化けで未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `kizugawa-yosansho-${fy}`, muniCode: "262145", muniName: "木津川市", prefName: "京都府", isPref: false,
+    })),
+    // ⚠ あきる野は kanNameContinues 必須。R2 は修正可決後の当初予算資料。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `akiruno-yosansho-${fy}`, muniCode: "132284", muniName: "あきる野市", prefName: "東京都", isPref: false,
+    })),
+    { srcId: "akiruno-tousho-yosan-shiryou-r2", muniCode: "132284", muniName: "あきる野市", prefName: "東京都", isPref: false },
+    // ⚠ 香芝は R6（open）・R3・R2 だけ。R7・R5・R4 は総括が訂正前、R8 は化けで未収録
+    ...(["r6", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kashiba-yosan-setsumei-${fy}`, muniCode: "292109", muniName: "香芝市", prefName: "奈良県", isPref: false,
+    })),
     // ---- 第55巡（2026-10-22・§13-60） ----
     // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

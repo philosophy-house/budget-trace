@@ -71,4 +71,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "三原市", license: "「三原市公式ホームページ」に掲載されている情報（文章、写真、イラストなど）は原則として三原市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
   { who: "あま市", license: "当サイトに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、日本国著作権法及び国際条約により保護されています。" },
   { who: "薩摩川内市", license: "Copyright (c) 2023 Satsumasendai city. All Rights Reserved." },
+  { who: "名取市", license: "Copyright © City of Natori. All Rights Reserved." },
 ];
