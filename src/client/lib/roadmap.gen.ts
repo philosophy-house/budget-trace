@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 336,
+  "budgetCount": 339,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2612,
-  "fileCount": 4232,
-  "archivedCount": 2436,
+  "sourceCount": 2627,
+  "fileCount": 4247,
+  "archivedCount": 2445,
   "licenseOpen": 109,
-  "licensePermission": 2439,
+  "licensePermission": 2454,
   "licenseUnverified": 64,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -969,6 +969,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "飯田市",
+      "code": "202053",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "安曇野市",
       "code": "202207",
       "years": 7,
@@ -1157,6 +1163,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "宗像市",
       "code": "402206",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "糸島市",
+      "code": "402303",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
