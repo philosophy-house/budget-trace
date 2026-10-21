@@ -1272,6 +1272,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "352071": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算説明資料の款別の表は見開きの組みで、新しくできた款の前年度欄が「-」になっているため、いまの読み取りでは前年度の額を正しく取り出せない。予算書は紙をスキャンした画像で、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "352152": {
     "budget": [
       {
@@ -1785,6 +1794,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "072052": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "市が公表している当初予算の概要は、款ごとの歳入・歳出を円グラフや主な科目だけで示していて、款ごとに前年度の当初予算と比べた表が載っていない。令和6年度以前の概要は紙をスキャンした画像で、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "010006": {
     "budget": [
       {
@@ -1910,6 +1928,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "060003": [
+    "budget"
+  ],
+  "072052": [
     "budget"
   ]
 };

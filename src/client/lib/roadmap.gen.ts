@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 483,
+  "budgetCount": 487,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3551,
-  "fileCount": 5222,
-  "archivedCount": 2819,
+  "sourceCount": 3578,
+  "fileCount": 5249,
+  "archivedCount": 2845,
   "licenseOpen": 135,
-  "licensePermission": 3331,
+  "licensePermission": 3358,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -771,6 +771,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "石狩市",
+      "code": "012351",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "十和田市",
       "code": "022063",
       "years": 7,
@@ -917,6 +923,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "行田市",
       "code": "112062",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "秩父市",
+      "code": "112071",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1313,6 +1325,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "御殿場市",
       "code": "222151",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "湖西市",
+      "code": "222216",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2065,6 +2083,12 @@ export const ROADMAP_PROGRESS = {
       "code": "352063",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "下松市",
+      "code": "352071",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "今治市",

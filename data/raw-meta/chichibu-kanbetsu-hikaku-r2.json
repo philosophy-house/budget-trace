@@ -1,0 +1,12 @@
+{
+  "sourceId": "chichibu-kanbetsu-hikaku-r2",
+  "files": [
+    {
+      "filename": "kanbetsu.pdf",
+      "sha256": "ce4f50564af942b441442e526cdb7d5200e9daf47faf52db5e7a081e1192ccf9",
+      "bytes": 47732,
+      "fetchedAt": "2026-10-21T21:33:47.273Z",
+      "fetchedFrom": "https://www.city.chichibu.lg.jp/secure/21043/kanbetsu.pdf"
+    }
+  ]
+}
