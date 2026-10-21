@@ -20983,6 +20983,84 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載されている全てのコンテンツに関して、その著作権は特に内容について断りがない限り原則として筑紫野市に帰属します。個人として使用する場合を除き、許可なく内容の引用、転載、複写、販売等の目的で使用することは避けてください。もし掲載内容を使用したい場合は、秘書広報課　広報広聴担当までメールにてご連絡ください。",
     "target": "page"
   },
+  "/sources/akishima-yosansho-r7/2-1.ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/264/2-1.ippan.pdf",
+    "license": "昭島市公式ホームページに掲載されている文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として昭島市に帰属します。また、一部の画像等の著作権は、その作者・撮影者が所有しているものを、昭島市が許可を得て掲載しています。従いまして、昭島市公式ホームページ上の文書・画像等の無断使用を禁止します。",
+    "target": "file"
+  },
+  "/sources/akishima-yosansho-r6/2-2.ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/265/2-2.ippan.pdf",
+    "license": "昭島市公式ホームページに掲載されている文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として昭島市に帰属します。また、一部の画像等の著作権は、その作者・撮影者が所有しているものを、昭島市が許可を得て掲載しています。従いまして、昭島市公式ホームページ上の文書・画像等の無断使用を禁止します。",
+    "target": "file"
+  },
+  "/sources/akishima-yosansho-r5/2-2.ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/266/2-2.ippan.pdf",
+    "license": "昭島市公式ホームページに掲載されている文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として昭島市に帰属します。また、一部の画像等の著作権は、その作者・撮影者が所有しているものを、昭島市が許可を得て掲載しています。従いまして、昭島市公式ホームページ上の文書・画像等の無断使用を禁止します。",
+    "target": "file"
+  },
+  "/sources/akishima-yosansho-r4/02.r4ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/267/02.r4ippan.pdf",
+    "license": "昭島市公式ホームページに掲載されている文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として昭島市に帰属します。また、一部の画像等の著作権は、その作者・撮影者が所有しているものを、昭島市が許可を得て掲載しています。従いまして、昭島市公式ホームページ上の文書・画像等の無断使用を禁止します。",
+    "target": "file"
+  },
+  "/sources/akishima-yosansho-r3/02.r3ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/268/02.r3ippan.pdf",
+    "license": "昭島市公式ホームページに掲載されている文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として昭島市に帰属します。また、一部の画像等の著作権は、その作者・撮影者が所有しているものを、昭島市が許可を得て掲載しています。従いまして、昭島市公式ホームページ上の文書・画像等の無断使用を禁止します。",
+    "target": "file"
+  },
+  "/sources/akishima-yosansho-r2/ippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/005/269/ippannkaikei.pdf",
+    "license": "昭島市公式ホームページに掲載されている文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として昭島市に帰属します。また、一部の画像等の著作権は、その作者・撮影者が所有しているものを、昭島市が許可を得て掲載しています。従いまして、昭島市公式ホームページ上の文書・画像等の無断使用を禁止します。",
+    "target": "file"
+  },
+  "/sources/higashiomi-yosan-gaiyou-r8/r8gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1010624/1011033.html",
+    "license": "Copyright © Higashiomi City All rights Reserved.",
+    "target": "page"
+  },
+  "/sources/higashiomi-yosan-gaiyou-r7/r7tousyoyosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1008554/1008556/index.html",
+    "license": "Copyright © Higashiomi City All rights Reserved.",
+    "target": "page"
+  },
+  "/sources/higashiomi-yosan-gaiyou-r6/r6gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004518/1004523.html",
+    "license": "Copyright © Higashiomi City All rights Reserved.",
+    "target": "page"
+  },
+  "/sources/higashiomi-yosan-gaiyou-r5/r5gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004526/1004531.html",
+    "license": "Copyright © Higashiomi City All rights Reserved.",
+    "target": "page"
+  },
+  "/sources/higashiomi-yosan-gaiyou-r4/r4.gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004534/1004539.html",
+    "license": "Copyright © Higashiomi City All rights Reserved.",
+    "target": "page"
+  },
+  "/sources/higashiomi-yosan-gaiyou-r3/r3gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004542/1004547.html",
+    "license": "Copyright © Higashiomi City All rights Reserved.",
+    "target": "page"
+  },
+  "/sources/higashiomi-yosan-gaiyou-r2/r2gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.higashiomi.shiga.jp/shiseijouhou/zaisei/1004517/1004550/1004555.html",
+    "license": "Copyright © Higashiomi City All rights Reserved.",
+    "target": "page"
+  },
   "/sources/yamanashi-ken-gikai-r8/kaihabetu_meibo.html": {
     "mode": "archive",
     "href": "https://web.archive.org/web/20260209231452id_/https://www.pref.yamanashi.jp/gikaisom/kaihabetu_meibo.html",

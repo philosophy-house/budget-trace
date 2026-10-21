@@ -3608,6 +3608,14 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `chitose-yosan-setsumei-${fy}`, muniCode: "012246", muniName: "千歳市", prefName: "北海道", isPref: false,
     })),
+    // ⚠ 昭島は R7〜R2 だけ（R8 は掲載時点の規約が PDL1.0 で要許可へ倒せず見送り・docs §13-42）。R6 だけ kanNoless
+    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `akishima-yosansho-${fy}`, muniCode: "132071", muniName: "昭島市", prefName: "東京都", isPref: false,
+    })),
+    // ⚠ 東近江は R7・R3 が骨格（R8 に prevNote、R4 は前年度列が補正後）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `higashiomi-yosan-gaiyou-${fy}`, muniCode: "252131", muniName: "東近江市", prefName: "滋賀県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
