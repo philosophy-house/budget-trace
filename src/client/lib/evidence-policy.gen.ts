@@ -22183,6 +22183,174 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本市ウェブサイトへ上の文書や画像等の各ファイル、及びその内容に関する諸権利は、伊那市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。私的使用、及び引用などの著作権法上認められた場合を除き、伊那市に無断でウェブサイト上の内容を複製、転載、改変、頒布、販売等することはできません。",
     "target": "page"
   },
+  "/sources/hasuda-yosansho-r8/r8ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/zaise/shise/zaise/yosansho/documents/r8ippan.pdf",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "file"
+  },
+  "/sources/hasuda-yosansho-r7/r7ippan_syusei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/zaise/shise/zaise/yosansho/documents/r7ippan_syusei.pdf",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "file"
+  },
+  "/sources/hasuda-yosansho-r6/r6ippann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/zaise/shise/zaise/yosansho/documents/r6ippann.pdf",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "file"
+  },
+  "/sources/hasuda-yosansho-r5/r5ippann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/zaise/shise/zaise/yosansho/documents/r5ippann.pdf",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "file"
+  },
+  "/sources/hasuda-yosan-gaiyou-r4/r4yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/zaise/shise/zaise/yosansho/documents/r4yosangaiyou.pdf",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "file"
+  },
+  "/sources/hasuda-yosan-gaiyou-r3/r3yosangaiyou_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/zaise/shise/zaise/yosansho/documents/r3yosangaiyou_1.pdf",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "file"
+  },
+  "/sources/hasuda-yosan-gaiyou-r2/r2yosangaiyou_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/zaise/shise/zaise/yosansho/documents/r2yosangaiyou_1.pdf",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "file"
+  },
+  "/sources/tenri-yosan-gaiyou-r8/R8yosannannnogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tenri.nara.jp/material/files/group/13/R8yosannannnogaiyou.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、天理市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/tenri-yosan-gaiyou-r7/R7yosannannnogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tenri.nara.jp/material/files/group/13/R7yosannannnogaiyou.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、天理市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/tenri-yosan-gaiyou-r6/r6gaiyouu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tenri.nara.jp/material/files/group/13/r6gaiyouu.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、天理市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/tenri-yosan-gaiyou-r5/R5yosan-gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tenri.nara.jp/material/files/group/13/R5yosan-gaiyou.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、天理市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/tenri-yosan-gaiyou-r4/r4yosanannogaiyou_.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tenri.nara.jp/material/files/group/13/r4yosanannogaiyou_.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、天理市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/tenri-yosan-gaiyou-r3/R3gaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210610/20210609193008/https://www.city.tenri.nara.jp/material/files/group/13/R3gaiyou.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、天理市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/tenri-yosan-gaiyou-r2/77999379.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210610/20210609193011/https://www.city.tenri.nara.jp/material/files/group/13/77999379.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、天理市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/joso-yosansho-r8/1772413453_doc_290_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.joso.lg.jp/kurashi_gyousei/shisei/zaisei/budget/budget_doc/page004774.html",
+    "license": "常総市のホームページに掲載されている個々の情報（文章、画像、レイアウト、デザインなど）に関する著作権は、原則として常総市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載・複製・転用などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/joso-yosansho-r7/1742969447_doc_290_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.joso.lg.jp/kurashi_gyousei/shisei/zaisei/budget/budget_doc/page003975.html",
+    "license": "常総市のホームページに掲載されている個々の情報（文章、画像、レイアウト、デザインなど）に関する著作権は、原則として常総市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載・複製・転用などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/joso-yosansho-r6/1708413628_doc_290_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.joso.lg.jp/kurashi_gyousei/shisei/zaisei/budget/budget_doc/page003184.html",
+    "license": "常総市のホームページに掲載されている個々の情報（文章、画像、レイアウト、デザインなど）に関する著作権は、原則として常総市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載・複製・転用などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/joso-yosansho-r5/1678352339_doc_5_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.joso.lg.jp/kurashi_gyousei/shisei/zaisei/budget/budget_doc/r5.html",
+    "license": "常総市のホームページに掲載されている個々の情報（文章、画像、レイアウト、デザインなど）に関する著作権は、原則として常総市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載・複製・転用などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/joso-yosansho-r2/1675066266_doc_8_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.joso.lg.jp/kurashi_gyousei/shisei/zaisei/budget/budget_doc/r2.html",
+    "license": "常総市のホームページに掲載されている個々の情報（文章、画像、レイアウト、デザインなど）に関する著作権は、原則として常総市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載・複製・転用などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/kurihara-yosansho-r8/R7_tousho_all.pdf.pdf": {
+    "mode": "origin",
+    "href": "https://www.kuriharacity.jp/w003/030/010/010/20260401/PAGE000000000000015470.html",
+    "license": "栗原市公式ウェブサイトに掲載している文章、画像、写真、イラストなどの情報は、著作権法で認められている私的使用のための複製や引用などの場合を除き、無断で複製したり、転用したりしないでください。著作権は、基本的に栗原市に帰属します。",
+    "target": "page"
+  },
+  "/sources/kurihara-yosansho-r7/R7_tousho_all.pdf.pdf": {
+    "mode": "origin",
+    "href": "https://www.kuriharacity.jp/w003/030/010/010/R7/PAGE000000000000015470.html",
+    "license": "栗原市公式ウェブサイトに掲載している文章、画像、写真、イラストなどの情報は、著作権法で認められている私的使用のための複製や引用などの場合を除き、無断で複製したり、転用したりしないでください。著作権は、基本的に栗原市に帰属します。",
+    "target": "page"
+  },
+  "/sources/mitoyo-yosanan-gaiyou-r8/yosanannnogaiyouR8.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mitoyo.lg.jp/material/files/group/11/yosanannnogaiyouR8.pdf",
+    "license": "当サイトで提供するすべてのコンテンツ（文章・画像など）について、権利者の許可なく複製・転用・販売することはできません。",
+    "target": "file"
+  },
+  "/sources/mitoyo-yosanan-gaiyou-r7/yosanannnogaiyouR7.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mitoyo.lg.jp/material/files/group/11/yosanannnogaiyouR7.pdf",
+    "license": "当サイトで提供するすべてのコンテンツ（文章・画像など）について、権利者の許可なく複製・転用・販売することはできません。",
+    "target": "file"
+  },
+  "/sources/mitoyo-yosanan-gaiyou-r6/R6yosanannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mitoyo.lg.jp/material/files/group/11/R6yosanannogaiyou.pdf",
+    "license": "当サイトで提供するすべてのコンテンツ（文章・画像など）について、権利者の許可なく複製・転用・販売することはできません。",
+    "target": "file"
+  },
+  "/sources/mitoyo-yosanan-gaiyou-r5/R5yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mitoyo.lg.jp/material/files/group/11/R5yosangaiyou.pdf",
+    "license": "当サイトで提供するすべてのコンテンツ（文章・画像など）について、権利者の許可なく複製・転用・販売することはできません。",
+    "target": "file"
+  },
+  "/sources/mitoyo-yosanan-gaiyou-r4/R4yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mitoyo.lg.jp/material/files/group/11/R4yosangaiyou.pdf",
+    "license": "当サイトで提供するすべてのコンテンツ（文章・画像など）について、権利者の許可なく複製・転用・販売することはできません。",
+    "target": "file"
+  },
+  "/sources/mitoyo-yosanan-gaiyou-r3/R3yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mitoyo.lg.jp/material/files/group/11/R3yosangaiyou.pdf",
+    "license": "当サイトで提供するすべてのコンテンツ（文章・画像など）について、権利者の許可なく複製・転用・販売することはできません。",
+    "target": "file"
+  },
+  "/sources/mitoyo-yosanan-gaiyou-r2/R2yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mitoyo.lg.jp/material/files/group/11/R2yosangaiyou.pdf",
+    "license": "当サイトで提供するすべてのコンテンツ（文章・画像など）について、権利者の許可なく複製・転用・販売することはできません。",
+    "target": "file"
+  },
   "/sources/joetsu-yosan-gaiyou-r8/282463.pdf": {
     "mode": "origin",
     "href": "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf",
