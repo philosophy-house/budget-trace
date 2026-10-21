@@ -2300,10 +2300,11 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
   {
     // 北本市（112330）R4・R3。R8〜R5・R2 は収録済み（§13-79）。
     // 年度ページ（あらまし）に「当初案に対し、修正案により修正可決されました」。予算参考資料・予算書はどちらも原案（R4 は原案 22,343,000・修正後 22,326,410、R3 は原案 21,492,000・修正後 21,478,178）。R3 のあらましは …/g2/3/3/12102.html。
+    // 年度ページの HTML に修正後の款別の表（前年度は比率だけ）があり、修正案 PDF（R4 R4toushoyosan_shuuseian.pdf・R3 R3tousyoyosannitaisurusyuuseian.pdf）は変わった款だけ（R4 は繰入金・土木費。前年度列つき）。
     code: "112330", name: "北本市", dataset: "budget", fiscalYears: ["R4", "R3"],
     categories: ["format-mismatch"],
     reason:
-      "一般会計予算は議会で修正して可決されたが、掲載されている予算参考資料と予算書は修正前の原案のままで、議決された款ごとの額が載っていない。",
+      "一般会計予算は議会で修正して可決された。前年度との比較が載っている予算参考資料と予算書は修正前の原案のままで、修正案には額が変わった款だけが載っている。年度ページの款別の表は修正後の額だが前年度の額が無い。",
     url: "https://www.city.kitamoto.lg.jp/soshiki/seisakusuisinbu/zaisei/gyomu/g2/3/3/13620.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-79",
   },
