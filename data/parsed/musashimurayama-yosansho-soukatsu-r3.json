@@ -1,0 +1,380 @@
+{
+  "docType": "budget-book",
+  "sourceId": "musashimurayama-yosansho-soukatsu-r3",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T17:51:35.170Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R3",
+  "account": "一般会計",
+  "revenueTotal": 28620206,
+  "expenditureTotal": 28620206,
+  "prevRevenueTotal": 29154492,
+  "prevExpenditureTotal": 29154492,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 9871679,
+      "prevAmount": 10359977,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 121466,
+      "prevAmount": 135758,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 10100,
+      "prevAmount": 11873,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 51300,
+      "prevAmount": 61216,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 46500,
+      "prevAmount": 33889,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 77000,
+      "prevAmount": 25963,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 1506500,
+      "prevAmount": 1619940,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 26105,
+      "prevAmount": 32619,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "国有提供施設等所在市町村助成交付金",
+      "amount": 459630,
+      "prevAmount": 458973,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方特例交付金",
+      "amount": 272698,
+      "prevAmount": 115161,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方交付税",
+      "amount": 2159625,
+      "prevAmount": 2100254,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 10706,
+      "prevAmount": 9921,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "分担金及び負担金",
+      "amount": 120061,
+      "prevAmount": 123546,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "使用料及び手数料",
+      "amount": 267801,
+      "prevAmount": 252857,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "国庫支出金",
+      "amount": 6252523,
+      "prevAmount": 6306985,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "都支出金",
+      "amount": 4786076,
+      "prevAmount": 4976972,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "財産収入",
+      "amount": 9403,
+      "prevAmount": 15205,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "寄附金",
+      "amount": 15258,
+      "prevAmount": 12197,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰入金",
+      "amount": 572562,
+      "prevAmount": 585573,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰越金",
+      "amount": 500000,
+      "prevAmount": 500000,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "諸収入",
+      "amount": 178884,
+      "prevAmount": 185394,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "市債",
+      "amount": 1304329,
+      "prevAmount": 1230219,
+      "locator": {
+        "file": "r3_jiko_sainyusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 269248,
+      "prevAmount": 271845,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 2662578,
+      "prevAmount": 2749882,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 15619538,
+      "prevAmount": 15489927,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 2260279,
+      "prevAmount": 2108616,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "農林業費",
+      "amount": 43769,
+      "prevAmount": 55774,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "商工費",
+      "amount": 188662,
+      "prevAmount": 214886,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "土木費",
+      "amount": 1677768,
+      "prevAmount": 1875858,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "消防費",
+      "amount": 1095545,
+      "prevAmount": 1055668,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "教育費",
+      "amount": 3500619,
+      "prevAmount": 4045554,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "公債費",
+      "amount": 1282200,
+      "prevAmount": 1266482,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "予備費",
+      "amount": 20000,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "r3_jiko_saisyutusoukatu.pdf",
+        "page": 1
+      }
+    }
+  ]
+}
