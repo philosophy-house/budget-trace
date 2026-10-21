@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 360,
+  "budgetCount": 370,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2758,
-  "fileCount": 4378,
-  "archivedCount": 2524,
+  "sourceCount": 2825,
+  "fileCount": 4445,
+  "archivedCount": 2558,
   "licenseOpen": 119,
-  "licensePermission": 2568,
+  "licensePermission": 2635,
   "licenseUnverified": 71,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -855,6 +855,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "茂原市",
+      "code": "122106",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "柏市",
       "code": "122173",
       "years": 7,
@@ -1095,6 +1101,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "北名古屋市",
+      "code": "232343",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "あま市",
       "code": "232378",
       "years": 7,
@@ -1125,6 +1137,18 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "守山市",
+      "code": "252077",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "甲賀市",
+      "code": "252093",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "東近江市",
       "code": "252131",
       "years": 7,
@@ -1133,6 +1157,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "京都市",
       "code": "261009",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "亀岡市",
+      "code": "262064",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1173,6 +1203,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "摂津市",
+      "code": "272248",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "明石市",
       "code": "282031",
       "years": 7,
@@ -1199,6 +1235,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "津山市",
       "code": "332038",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "三原市",
+      "code": "342041",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1347,6 +1389,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "和光市",
+      "code": "112291",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "ふじみ野市",
       "code": "112453",
       "years": 6,
@@ -1385,6 +1433,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "東村山市",
       "code": "132136",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "東大和市",
+      "code": "132209",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -1445,6 +1499,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "羽曳野市",
       "code": "272221",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "高砂市",
+      "code": "282162",
       "years": 6,
       "range": "R2〜R8（6年度）"
     },

@@ -1,0 +1,12 @@
+{
+  "sourceId": "moriyama-yosan-gaiyou-r2",
+  "files": [
+    {
+      "filename": "gaiyou1.pdf",
+      "sha256": "1011f7018fe089c8438bff8f887fed435b97746a7314751bdb4f5ed71e5c46fd",
+      "bytes": 825961,
+      "fetchedAt": "2026-10-21T16:09:31.302Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20200819/20200817085712/https://www.city.moriyama.lg.jp/zaisei/documents/gaiyou1.pdf"
+    }
+  ]
+}

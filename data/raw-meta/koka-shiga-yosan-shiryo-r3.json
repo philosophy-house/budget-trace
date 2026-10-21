@@ -1,0 +1,12 @@
+{
+  "sourceId": "koka-shiga-yosan-shiryo-r3",
+  "files": [
+    {
+      "filename": "yosanshiryouippankaikei.pdf",
+      "sha256": "7c60ddb2b6fd5023fcfd47bc8c750c9ae047a0991b8628de4f46c131e218e17a",
+      "bytes": 3753209,
+      "fetchedAt": "2026-10-21T16:06:59.286Z",
+      "fetchedFrom": "https://www.city.koka.lg.jp/secure/26496/yosanshiryouippankaikei.pdf"
+    }
+  ]
+}

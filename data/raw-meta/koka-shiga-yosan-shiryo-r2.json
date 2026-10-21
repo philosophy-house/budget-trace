@@ -1,0 +1,12 @@
+{
+  "sourceId": "koka-shiga-yosan-shiryo-r2",
+  "files": [
+    {
+      "filename": "2020yosan.pdf",
+      "sha256": "cc01073203707bdd5c08f25aa0429194324fa3f8c4708d771f09ab6c4a578878",
+      "bytes": 4806283,
+      "fetchedAt": "2026-10-21T16:07:00.484Z",
+      "fetchedFrom": "https://www.city.koka.lg.jp/secure/21871/2020yosan.pdf"
+    }
+  ]
+}
