@@ -25141,31 +25141,31 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "伊東市ホームページに掲載している記事・写真・イラスト等は、伊東市またはコンテンツ提供者が著作権を有しています。これらの情報は著作権法上で認められている私的使用や引用などを除き、著作権者の事前に許可なく無断で複写、複製、翻訳、転載等することはできません。利用許諾を求める場合は、各ページを作成・更新している担当課等へお問い合わせください。",
     "target": "file"
   },
-  "/sources/tamana-yosansho-r8/dl": {
+  "/sources/tamana-yosansho-r8/tamana_yosansho_R8.pdf": {
     "mode": "origin",
     "href": "https://www.city.tamana.lg.jp/dl?q=175335_filelib_6920572b4ac8ace8ad4e6e01c98ddd01.pdf",
     "license": "Copyright © 2015 TAMANA CITY All rights reserved.",
     "target": "file"
   },
-  "/sources/tamana-yosansho-r7/dl": {
+  "/sources/tamana-yosansho-r7/tamana_yosansho_R7.pdf": {
     "mode": "origin",
     "href": "https://www.city.tamana.lg.jp/dl?q=153295_filelib_56df212d9696696ace44316ad7cd6c6a.pdf",
     "license": "Copyright © 2015 TAMANA CITY All rights reserved.",
     "target": "file"
   },
-  "/sources/tamana-yosansho-r6/dl": {
+  "/sources/tamana-yosansho-r6/tamana_yosansho_R6.pdf": {
     "mode": "origin",
     "href": "https://www.city.tamana.lg.jp/dl?q=127057_filelib_b635f54f8444f5985ff74b70ceead549.pdf",
     "license": "Copyright © 2015 TAMANA CITY All rights reserved.",
     "target": "file"
   },
-  "/sources/tamana-yosansho-r5/dl": {
+  "/sources/tamana-yosansho-r5/tamana_yosansho_R5.pdf": {
     "mode": "origin",
     "href": "https://www.city.tamana.lg.jp/dl?q=110735_filelib_d3bed8075623c61f4eef10de2062dbb0.pdf",
     "license": "Copyright © 2015 TAMANA CITY All rights reserved.",
     "target": "file"
   },
-  "/sources/tamana-yosansho-r4/dl": {
+  "/sources/tamana-yosansho-r4/tamana_yosansho_R4.pdf": {
     "mode": "origin",
     "href": "https://www.city.tamana.lg.jp/dl?q=97321_filelib_02ed42151507d77415d0157925596ee2.pdf",
     "license": "Copyright © 2015 TAMANA CITY All rights reserved.",

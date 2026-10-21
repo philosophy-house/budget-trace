@@ -14875,6 +14875,8 @@ R5 は骨格（資料No.1 p.3「（１） 骨格予算の編成 ４月に市長�
 - **敦賀 R2** は現行サイトで 404 ⇒ Wayback（20220324104122id_）。fetch は Wayback の 429 で落ちたので、偵察が同じ URL から取得したファイル（1,011,261 バイト・表紙「令和２年度当初予算について」）を `pipeline:ingest` した。
 - **伊東 R3** だけ物理ページが2つ前にずれる（目次が無い）。**名護 R7** だけ1つ後ろ（第2表が2ページ）。**佐伯 R3** は p.19/20。
 - **名護 R3** のファイル名は `R3toushoyosannsho.pdf`（n が2つ）。
+- ⚠ **玉名の URL は `/dl?q=<ID>.pdf`** で、fetch すると raw のファイル名が `dl`（拡張子なし）になる（fetch.ts は URL の pathname の basename を採る）。自サーバー配信の写しが PDF として扱われないので、
+  raw を `tamana_yosansho_R<N>.pdf` に改名し `data/raw-meta` の filename だけ直して parse し直した（fetchedFrom は発行元の URL のまま）。**取り直すと `dl` に戻る**ので同じ手当てが要る。
 
 #### 収録できなかった年度
 

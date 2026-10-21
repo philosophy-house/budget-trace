@@ -3,7 +3,7 @@
   "sourceId": "tamana-yosansho-r5",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-21T21:08:52.311Z",
+  "parsedAt": "2026-10-21T21:12:54.588Z",
   "unit": "thousandYen",
   "fiscalYear": "R5",
   "account": "一般会計",
@@ -20,7 +20,7 @@
       "amount": 7057483,
       "prevAmount": 6727300,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -31,7 +31,7 @@
       "amount": 277560,
       "prevAmount": 294504,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -42,7 +42,7 @@
       "amount": 1700,
       "prevAmount": 3900,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -53,7 +53,7 @@
       "amount": 26700,
       "prevAmount": 12600,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -64,7 +64,7 @@
       "amount": 33800,
       "prevAmount": 19100,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -75,7 +75,7 @@
       "amount": 81300,
       "prevAmount": 81300,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -86,7 +86,7 @@
       "amount": 1567000,
       "prevAmount": 1552000,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -97,7 +97,7 @@
       "amount": 18900,
       "prevAmount": 19100,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -108,7 +108,7 @@
       "amount": 25100,
       "prevAmount": 20200,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -119,7 +119,7 @@
       "amount": 57600,
       "prevAmount": 48800,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -130,7 +130,7 @@
       "amount": 9600000,
       "prevAmount": 9500000,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -141,7 +141,7 @@
       "amount": 6000,
       "prevAmount": 7000,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -152,7 +152,7 @@
       "amount": 152540,
       "prevAmount": 170582,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -163,7 +163,7 @@
       "amount": 313514,
       "prevAmount": 321319,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -174,7 +174,7 @@
       "amount": 5056013,
       "prevAmount": 5153775,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -185,7 +185,7 @@
       "amount": 3109097,
       "prevAmount": 2940404,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -196,7 +196,7 @@
       "amount": 42796,
       "prevAmount": 85536,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -207,7 +207,7 @@
       "amount": 1305001,
       "prevAmount": 1300101,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -218,7 +218,7 @@
       "amount": 1625504,
       "prevAmount": 1235762,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -229,7 +229,7 @@
       "amount": 437266,
       "prevAmount": 487873,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -240,7 +240,7 @@
       "amount": 624026,
       "prevAmount": 635544,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -251,7 +251,7 @@
       "amount": 2700100,
       "prevAmount": 1820300,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 20
       }
     },
@@ -262,7 +262,7 @@
       "amount": 243818,
       "prevAmount": 250994,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -273,7 +273,7 @@
       "amount": 3473715,
       "prevAmount": 3432062,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -284,7 +284,7 @@
       "amount": 13023530,
       "prevAmount": 12960126,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -295,7 +295,7 @@
       "amount": 3119164,
       "prevAmount": 2735466,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -306,7 +306,7 @@
       "amount": 2498744,
       "prevAmount": 2134665,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -317,7 +317,7 @@
       "amount": 527861,
       "prevAmount": 725964,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -328,7 +328,7 @@
       "amount": 2369473,
       "prevAmount": 2365092,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -339,7 +339,7 @@
       "amount": 1151293,
       "prevAmount": 1449949,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -350,7 +350,7 @@
       "amount": 3999461,
       "prevAmount": 2566180,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -361,7 +361,7 @@
       "amount": 36455,
       "prevAmount": 54031,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -372,7 +372,7 @@
       "amount": 3645486,
       "prevAmount": 3732471,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     },
@@ -383,7 +383,7 @@
       "amount": 30000,
       "prevAmount": 30000,
       "locator": {
-        "file": "dl",
+        "file": "tamana_yosansho_R5.pdf",
         "page": 21
       }
     }
