@@ -2398,4 +2398,24 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.kuriharacity.jp/li/030/040/001/020/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-84",
   },
+  {
+    // 糸満市（472107）R6〜R2。R8・R7 は収録済み（§13-86）。
+    // 財政情報ページ（/soshiki/3/11747.html）の予算の欄は、R6〜H29 が「予算概要」の PDF 1本だけ（R6 14877・R5 14482・R4 14483・R3 14484・R2 14485）。中身は歳入の款別と歳出の性質別で、目的別の款が無い。WARP の年度一覧（2024-06・2025-03）も同じ（偵察）。
+    code: "472107", name: "糸満市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "この年度の予算書はウェブに掲載されておらず、掲載されている予算の概要の歳出は性質別（人件費・扶助費など）の表で、目的別（款別）の表が無い。",
+    url: "https://www.city.itoman.lg.jp/soshiki/3/11747.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
+  },
+  {
+    // 大和高田市（292028）R8。R7〜R2 は収録済み（§13-86）。
+    // 「令和8年度 予算の概要」（R8-yosan-gaiyou.pdf・32p）は26ページが画像（CCITT）で抽出できるのはノンブルだけ。予算書一般会計・予算に関する説明書も全ページがスキャン（偵察）。
+    code: "292028", name: "大和高田市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["scanned-image"],
+    reason:
+      "予算の概要・予算書・予算に関する説明書のどれもが紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.city.yamatotakada.nara.jp/shisei/zaisei_yosan_kessan/3298.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
+  },
 ];
