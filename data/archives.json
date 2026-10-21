@@ -53974,6 +53974,112 @@
       "rawSha256": "c7ea3be48e23bef13c6d5a51efeb15b53325f0ad651f3951dab76fb2dd722d08"
     },
     {
+      "sourceId": "towada-yosan-gaiyou-r2",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/reiwa2yosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240715184125/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/reiwa2yosan.pdf",
+      "waybackTimestamp": "20240715184125",
+      "checkedAt": "2026-10-21T21:21:57.410Z",
+      "sha256Match": true,
+      "waybackBytes": 364376,
+      "rawSha256": "5a9889db4022761fadd2e1658a8a65d22d7ca89be8dfd8011b516f332fb7c3ed"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r4",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2022-0308-1025-68.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250121080508/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2022-0308-1025-68.html",
+      "waybackTimestamp": "20250121080508",
+      "checkedAt": "2026-10-21T21:21:54.547Z"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r4",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/gaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240717232517/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/gaiyou.pdf",
+      "waybackTimestamp": "20240717232517",
+      "checkedAt": "2026-10-21T21:21:54.047Z",
+      "sha256Match": true,
+      "waybackBytes": 567879,
+      "rawSha256": "e00d733e2eabe3775473559e085939d3ff619ff632f2858d75be11e0c3d68cb0"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r5",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2023-0320-1129-68.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250530230907/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2023-0320-1129-68.html",
+      "waybackTimestamp": "20250530230907",
+      "checkedAt": "2026-10-21T21:21:51.691Z"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r5",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R5gaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240714080614/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R5gaiyou.pdf",
+      "waybackTimestamp": "20240714080614",
+      "checkedAt": "2026-10-21T21:21:51.225Z",
+      "sha256Match": true,
+      "waybackBytes": 568886,
+      "rawSha256": "49e6282e403e0e3ce08dedb7c42285b2680d0468f8be54929d420e14f1c15e77"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r6",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R6_yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240901024240/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R6_yosangaiyou.pdf",
+      "waybackTimestamp": "20240901024240",
+      "checkedAt": "2026-10-21T21:21:46.448Z",
+      "sha256Match": true,
+      "waybackBytes": 403933,
+      "rawSha256": "e8dff99b503081b05c9b6b2832f5acaafd8a786c9ff8eecbb5453a8714797dc5"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r6",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/r06yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20240616084827/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/r06yosan.html",
+      "waybackTimestamp": "20240616084827",
+      "checkedAt": "2026-10-21T21:21:46.926Z"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r7",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2025-0221-1310-68.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20251108062533/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2025-0221-1310-68.html",
+      "waybackTimestamp": "20251108062533",
+      "checkedAt": "2026-10-21T21:21:43.980Z"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r7",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R7tousyoyosan_gaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20251210025801/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R7tousyoyosan_gaiyou.pdf",
+      "waybackTimestamp": "20251210025801",
+      "checkedAt": "2026-10-21T21:21:42.504Z",
+      "sha256Match": true,
+      "waybackBytes": 349385,
+      "rawSha256": "689f4c30d0d8e3757388a117a6ee03514fdac6369caa7038e0875802521e18d9"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r8",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R8tousyoyosan_gaiyou2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021212125/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R8tousyoyosan_gaiyou2.pdf",
+      "waybackTimestamp": "20261021212125",
+      "checkedAt": "2026-10-21T21:21:39.908Z",
+      "sha256Match": true,
+      "waybackBytes": 502325,
+      "rawSha256": "a5e014d928e07ee1deaabf02be116579f06d1e6a8914375ac26621d72a5fdd03"
+    },
+    {
+      "sourceId": "towada-yosan-gaiyou-r8",
+      "url": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/R8tousyoyosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260713065505/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/R8tousyoyosan.html",
+      "waybackTimestamp": "20260713065505",
+      "checkedAt": "2026-10-21T21:21:40.412Z"
+    },
+    {
       "sourceId": "toyama-ken-yosansetsumeisho-r8",
       "url": "https://www.pref.toyama.jp/1105/kensei/kenseiunei/zaisei/yosan/r08yosan/r08tousyoyosan.html",
       "kind": "landing",
@@ -62752,6 +62858,17 @@
       "waybackUrl": "https://web.archive.org/web/20260418202236/https://www.city.zama.kanagawa.jp/shigikai/giin/1005884.html",
       "waybackTimestamp": "20260418202236",
       "checkedAt": "2026-10-09T01:11:19.979Z"
+    },
+    {
+      "sourceId": "zushi-yosansho-r8",
+      "url": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/816/r8yosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021212202/https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/816/r8yosan.pdf",
+      "waybackTimestamp": "20261021212202",
+      "checkedAt": "2026-10-21T21:22:14.406Z",
+      "sha256Match": true,
+      "waybackBytes": 2807445,
+      "rawSha256": "5f32a0dfd5de41e0333b158b3e92f75426f51d1803085831284d7b361496fa1e"
     }
   ]
 }

@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 459,
+  "budgetCount": 463,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3403,
-  "fileCount": 5074,
-  "archivedCount": 2781,
+  "sourceCount": 3431,
+  "fileCount": 5102,
+  "archivedCount": 2793,
   "licenseOpen": 135,
-  "licensePermission": 3183,
+  "licensePermission": 3211,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -771,6 +771,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "十和田市",
+      "code": "022063",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "一関市",
       "code": "032093",
       "years": 7,
@@ -1115,6 +1121,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "藤沢市",
       "code": "142051",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "逗子市",
+      "code": "142085",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1485,6 +1497,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "大阪狭山市",
+      "code": "272311",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "明石市",
       "code": "282031",
       "years": 7,
@@ -1661,6 +1679,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "宮崎市",
       "code": "452017",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "日向市",
+      "code": "452068",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
