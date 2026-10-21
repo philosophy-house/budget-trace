@@ -1,0 +1,33 @@
+{
+  "sourceId": "abiko-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha.html",
+      "sha256": "60467051a1d26aedf607dc0b68010dea500d2e72bb0a8ecb6b50cfff05e82568",
+      "bytes": 16995,
+      "fetchedAt": "2026-10-21T00:32:00.756Z",
+      "fetchedFrom": "https://www.city.abiko.chiba.jp/shisei/shigikai/giinmeibo/kaiha.html"
+    },
+    {
+      "filename": "237gou1-4men.pdf",
+      "sha256": "9a79f89c6523ee3836f4efb60c78c440dcbe0e44077d67d36b94c9b741d52a32",
+      "bytes": 1368379,
+      "fetchedAt": "2026-10-21T00:32:00.757Z",
+      "fetchedFrom": "https://www.city.abiko.chiba.jp/shisei/shigikai/gikaidayori.files/237gou1-4men.pdf"
+    },
+    {
+      "filename": "r8-3kaikinittei.html",
+      "sha256": "e0b0f68d90a5339a67dd385f459ee418b59218f95aaf6aff2582f2a1ede30aba",
+      "bytes": 19035,
+      "fetchedAt": "2026-10-21T00:32:00.758Z",
+      "fetchedFrom": "https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/r8dai1kai3gatsu/r8-3kaikinittei.html"
+    },
+    {
+      "filename": "saiketsukekkaR8.3.sai.pdf",
+      "sha256": "df143d5017e93255399b9922a470032e01b7c8333bd583280c8b74a87122dec6",
+      "bytes": 144118,
+      "fetchedAt": "2026-10-21T00:32:00.759Z",
+      "fetchedFrom": "https://www.city.abiko.chiba.jp/shisei/shigikai/teirei_rinji/kakonosaiketsu/index.files/saiketsukekkaR8.3.sai.pdf"
+    }
+  ]
+}

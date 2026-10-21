@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.8";
+export const PARSER_VERSION = "0.8.9";
 
 const factionSchema = z
   .object({
@@ -1218,17 +1218,21 @@ export function parseCouncilTranscribed(
   /** 会派 i の範囲（モード×ページごと）。枠があれば切り出し、無ければ会派名から次の会派名まで */
   const sectionsOf = (i: number): string[] => {
     const f = opt.factions[i]!;
-    if (f.url) {
-      const doc = readDoc(fileFor(f.url));
+    // url と box の両方があれば、その URL の PDF を枠で切る（印西: 会派ページの本文全体だと他の会派の議員も入り、
+    // 枠の外の照合が常に鳴る／枠の照合が効かないまま合流の書き写しが通る＝0.8.9・レビューで実測）
+    const boxFile = f.url ? fileFor(f.url) : rosterFile;
+    if (f.url && !f.box) {
+      const doc = readDoc(boxFile);
       if (f.asOfText && !has(doc.views, f.asOfText)) missing.push(`${f.url}: 基準日「${f.asOfText}」が本文に見つかりません`);
       return doc.views.map((v) => v.text);
     }
     if (f.box) {
-      if (!isPdf(rosterFile)) throw new Error(`${source.id}: box は PDF の名簿にだけ使えます（${f.name}）`);
+      if (!isPdf(boxFile)) throw new Error(`${source.id}: box は PDF の名簿にだけ使えます（${f.name}）`);
+      if (f.url && f.asOfText && !has(readDoc(boxFile).views, f.asOfText)) missing.push(`${f.url}: 基準日「${f.asOfText}」が本文に見つかりません`);
       const [x, y, w, h] = f.box;
       const pg = String(f.page ?? 1);
       return ["-layout", "-raw"].map((mode) =>
-        norm(pdftotext(rosterFile.path, [mode, "-f", pg, "-l", pg, "-x", String(x), "-y", String(y), "-W", String(w), "-H", String(h)])),
+        norm(pdftotext(boxFile.path, [mode, "-f", pg, "-l", pg, "-x", String(x), "-y", String(y), "-W", String(w), "-H", String(h)])),
       );
     }
     const head = allNames[i]![0]!;

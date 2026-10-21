@@ -1,0 +1,329 @@
+{
+  "docType": "council-composition",
+  "sourceId": "narashino-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T01:06:44.737Z",
+  "fiscalYear": "R8",
+  "body": "習志野市議会",
+  "seats": 28,
+  "asOf": "2025-04-15",
+  "factions": [
+    {
+      "name": "真政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "宮本博之",
+        "荒木和幸",
+        "金子友之",
+        "斉藤賢治",
+        "佐々木秀一",
+        "三代川雄哉"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "元気な習志野をつくる会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "田中真太郎",
+        "相原和幸",
+        "飯生喜正",
+        "関根洋幸",
+        "髙橋正明"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "布施孝一",
+        "金井宏志",
+        "田中慶子",
+        "丸山秀雄"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "環境みらい",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "央重則",
+        "市角雄幸",
+        "寺川貴隆"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "谷岡隆",
+        "荒原ちえみ",
+        "入沢としゆき"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "民意と歩む会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "佐野正人",
+        "鴨哲登志",
+        "木村孝"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "市民の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宮内一夫",
+        "佐藤まり"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "都市政策研究会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "平川博文"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "明日の習志野",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "大宮こうた"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度習志野市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "sanpiR8y1T.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "習志野市議会 会派別名簿",
+  "resultTitle": "令和８年第１回定例会 議員別賛否一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会 議員別賛否一覧",
+    "sourceFile": "sanpiR8y1T.pdf",
+    "columns": [
+      {
+        "label": "荒木和幸",
+        "faction": "真政会",
+        "member": "荒木和幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "金子友之",
+        "faction": "真政会",
+        "member": "金子友之",
+        "stance": "賛成"
+      },
+      {
+        "label": "斉藤賢治",
+        "faction": "真政会",
+        "member": "斉藤賢治",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木秀一",
+        "faction": "真政会",
+        "member": "佐々木秀一",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮本博之",
+        "faction": "真政会",
+        "member": "宮本博之",
+        "stance": "賛成"
+      },
+      {
+        "label": "三代川雄哉",
+        "faction": "真政会",
+        "member": "三代川雄哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "相原和幸",
+        "faction": "元気な習志野をつくる会",
+        "member": "相原和幸",
+        "stance": "議長"
+      },
+      {
+        "label": "飯生喜正",
+        "faction": "元気な習志野をつくる会",
+        "member": "飯生喜正",
+        "stance": "賛成"
+      },
+      {
+        "label": "関根洋幸",
+        "faction": "元気な習志野をつくる会",
+        "member": "関根洋幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋正明",
+        "faction": "元気な習志野をつくる会",
+        "member": "髙橋正明",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中真太郎",
+        "faction": "元気な習志野をつくる会",
+        "member": "田中真太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "金井宏志",
+        "faction": "公明党",
+        "member": "金井宏志",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中慶子",
+        "faction": "公明党",
+        "member": "田中慶子",
+        "stance": "賛成"
+      },
+      {
+        "label": "布施孝一",
+        "faction": "公明党",
+        "member": "布施孝一",
+        "stance": "賛成"
+      },
+      {
+        "label": "丸山秀雄",
+        "faction": "公明党",
+        "member": "丸山秀雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "市角雄幸",
+        "faction": "環境みらい",
+        "member": "市角雄幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺川貴隆",
+        "faction": "環境みらい",
+        "member": "寺川貴隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "央重則",
+        "faction": "環境みらい",
+        "member": "央重則",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒原ちえみ",
+        "faction": "日本共産党",
+        "member": "荒原ちえみ",
+        "stance": "反対"
+      },
+      {
+        "label": "入沢としゆき",
+        "faction": "日本共産党",
+        "member": "入沢としゆき",
+        "stance": "反対"
+      },
+      {
+        "label": "谷岡隆",
+        "faction": "日本共産党",
+        "member": "谷岡隆",
+        "stance": "反対"
+      },
+      {
+        "label": "鴨哲登志",
+        "faction": "民意と歩む会",
+        "member": "鴨哲登志",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村孝",
+        "faction": "民意と歩む会",
+        "member": "木村孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐野正人",
+        "faction": "民意と歩む会",
+        "member": "佐野正人",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤まり",
+        "faction": "市民の会",
+        "member": "佐藤まり",
+        "stance": "反対"
+      },
+      {
+        "label": "宮内一夫",
+        "faction": "市民の会",
+        "member": "宮内一夫",
+        "stance": "反対"
+      },
+      {
+        "label": "平川博文",
+        "faction": "都市政策研究会",
+        "member": "平川博文",
+        "stance": "賛成"
+      },
+      {
+        "label": "大宮こうた",
+        "faction": "明日の習志野",
+        "member": "大宮こうた",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

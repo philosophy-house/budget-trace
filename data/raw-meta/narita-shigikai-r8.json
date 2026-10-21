@@ -1,0 +1,33 @@
+{
+  "sourceId": "narita-shigikai-r8",
+  "files": [
+    {
+      "filename": "page243000.html",
+      "sha256": "786ce60b34dbcec5161fde6654090f420fb596e2a0737351ae7056da7b064c71",
+      "bytes": 17982,
+      "fetchedAt": "2026-10-21T00:31:59.584Z",
+      "fetchedFrom": "https://web.archive.org/web/20250907182237id_/https://www.city.narita.chiba.jp/gikai/page243000.html"
+    },
+    {
+      "filename": "bill_2026-3.html",
+      "sha256": "7f8ad5e8720f49b80beccadc9d1d73c0327ff00416895d93c9c7bc8ac85b462c",
+      "bytes": 28149,
+      "fetchedAt": "2026-10-21T00:31:59.585Z",
+      "fetchedFrom": "https://www.city.narita.chiba.jp/gikai/bill_2026-3.html"
+    },
+    {
+      "filename": "schedule_2026-3.html",
+      "sha256": "b62c7710208457be41daef89e1c85c31386c28abcd64588b4031fee95ec1ba65",
+      "bytes": 25033,
+      "fetchedAt": "2026-10-21T00:31:59.586Z",
+      "fetchedFrom": "https://www.city.narita.chiba.jp/gikai/schedule_2026-3.html"
+    },
+    {
+      "filename": "000217235.pdf",
+      "sha256": "0c825ba9062e99420dd2977f874f170aafe26a2e7b37b45f3323efa3604a9949",
+      "bytes": 670346,
+      "fetchedAt": "2026-10-21T00:31:59.587Z",
+      "fetchedFrom": "https://www.city.narita.chiba.jp/content/000217235.pdf"
+    }
+  ]
+}

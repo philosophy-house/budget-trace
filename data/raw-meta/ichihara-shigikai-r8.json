@@ -1,0 +1,26 @@
+{
+  "sourceId": "ichihara-shigikai-r8",
+  "files": [
+    {
+      "filename": "R8①_議決結果.pdf",
+      "sha256": "f9141fd4456edd1c4165f967ff4def46bb8d2d2d754db5d482e53e2aab783f80",
+      "bytes": 393854,
+      "fetchedAt": "2026-10-21T00:31:57.330Z",
+      "fetchedFrom": "https://www.city.ichihara.chiba.jp/blob/images/common-article/605d337febefad5392f9e333/R8%E2%91%A0_%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C.pdf"
+    },
+    {
+      "filename": "会期日程.pdf",
+      "sha256": "955c333501e6f65f7af1b4e1fc2756ff8035c083b3f0b6670167b9ce91d7ed93",
+      "bytes": 89114,
+      "fetchedAt": "2026-10-21T00:31:57.331Z",
+      "fetchedFrom": "https://www.city.ichihara.chiba.jp/blob/images/common-article/6965c7d5b34c1e31ba24135c/%E4%BC%9A%E6%9C%9F%E6%97%A5%E7%A8%8B.pdf"
+    },
+    {
+      "filename": "いちはら議会だよりNo232WEB.pdf",
+      "sha256": "4e66c5ce9d284c8d2580c41ec9fd24158655d60d972cee26d457dae0cddbf5c9",
+      "bytes": 8385072,
+      "fetchedAt": "2026-10-21T00:31:57.332Z",
+      "fetchedFrom": "https://www.city.ichihara.chiba.jp/blob/images/common-article/6058184c4082c254c7c6def4/%E3%81%84%E3%81%A1%E3%81%AF%E3%82%89%E8%AD%B0%E4%BC%9A%E3%81%9F%E3%82%99%E3%82%88%E3%82%8ANo232WEB.pdf"
+    }
+  ]
+}

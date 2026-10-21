@@ -1,0 +1,311 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yachiyo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T01:06:25.173Z",
+  "fiscalYear": "R8",
+  "body": "八千代市議会",
+  "seats": 24,
+  "asOf": "2026-03-23",
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "石山泰之",
+        "末永隆",
+        "髙橋秀行",
+        "立川清英",
+        "森妙子"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "自由民主党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "大塚裕介",
+        "菅野文男",
+        "辰己百恵",
+        "塚本路明",
+        "萩原麻由美"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小澤宏司",
+        "澤田新一",
+        "成田忠志",
+        "林隆文"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "飯川英樹",
+        "伊原忠",
+        "堀口明子"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "八千代市民に寄り添う会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "飛知和真理子",
+        "山口勇"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "会派に属さない議員（嵐芳隆）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "嵐芳隆"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "会派に属さない議員（大竹秀樹）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大竹秀樹"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "会派に属さない議員（高山敏朗）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "高山敏朗"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "会派に属さない議員（三田登）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "三田登"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "会派に属さない議員（若松博）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "若松博"
+      ],
+      "locator": {
+        "file": "45999.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第21号",
+    "billName": "令和８年度八千代市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "77034.html"
+    }
+  },
+  "rosterTitle": "議員別賛否一覧表（令和8年第1回定例会）",
+  "resultTitle": "議決結果（令和８年第１回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議員別賛否一覧表（令和8年第1回定例会）",
+    "sourceFile": "45999.pdf",
+    "columns": [
+      {
+        "label": "石山泰之",
+        "faction": "公明党",
+        "member": "石山泰之",
+        "stance": "賛成"
+      },
+      {
+        "label": "末永隆",
+        "faction": "公明党",
+        "member": "末永隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋秀行",
+        "faction": "公明党",
+        "member": "髙橋秀行",
+        "stance": "賛成"
+      },
+      {
+        "label": "立川清英",
+        "faction": "公明党",
+        "member": "立川清英",
+        "stance": "賛成"
+      },
+      {
+        "label": "森妙子",
+        "faction": "公明党",
+        "member": "森妙子",
+        "stance": "賛成"
+      },
+      {
+        "label": "大塚裕介",
+        "faction": "自由民主党",
+        "member": "大塚裕介",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅野文男",
+        "faction": "自由民主党",
+        "member": "菅野文男",
+        "stance": "欠席"
+      },
+      {
+        "label": "辰己百恵",
+        "faction": "自由民主党",
+        "member": "辰己百恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "萩原麻由美",
+        "faction": "自由民主党",
+        "member": "萩原麻由美",
+        "stance": "賛成"
+      },
+      {
+        "label": "小澤宏司",
+        "faction": "市民クラブ",
+        "member": "小澤宏司",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤田新一",
+        "faction": "市民クラブ",
+        "member": "澤田新一",
+        "stance": "賛成"
+      },
+      {
+        "label": "成田忠志",
+        "faction": "市民クラブ",
+        "member": "成田忠志",
+        "stance": "賛成"
+      },
+      {
+        "label": "林隆文",
+        "faction": "市民クラブ",
+        "member": "林隆文",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯川英樹",
+        "faction": "日本共産党",
+        "member": "飯川英樹",
+        "stance": "反対"
+      },
+      {
+        "label": "伊原忠",
+        "faction": "日本共産党",
+        "member": "伊原忠",
+        "stance": "反対"
+      },
+      {
+        "label": "堀口明子",
+        "faction": "日本共産党",
+        "member": "堀口明子",
+        "stance": "反対"
+      },
+      {
+        "label": "飛知和真理子",
+        "faction": "八千代市民に寄り添う会",
+        "member": "飛知和真理子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口勇",
+        "faction": "八千代市民に寄り添う会",
+        "member": "山口勇",
+        "stance": "賛成"
+      },
+      {
+        "label": "嵐芳隆",
+        "faction": "会派に属さない議員（嵐芳隆）",
+        "member": "嵐芳隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "大竹秀樹",
+        "faction": "会派に属さない議員（大竹秀樹）",
+        "member": "大竹秀樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "高山敏朗",
+        "faction": "会派に属さない議員（高山敏朗）",
+        "member": "高山敏朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "三田登",
+        "faction": "会派に属さない議員（三田登）",
+        "member": "三田登",
+        "stance": "反対"
+      },
+      {
+        "label": "若松博",
+        "faction": "会派に属さない議員（若松博）",
+        "member": "若松博",
+        "stance": "賛成"
+      },
+      {
+        "label": "塚本路明",
+        "faction": "自由民主党",
+        "member": "塚本路明",
+        "stance": "議長"
+      }
+    ]
+  }
+}

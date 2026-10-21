@@ -1,0 +1,43 @@
+{
+  "sourceId": "noda-shigikai-r8",
+  "files": [
+    {
+      "filename": "1028151.html",
+      "sha256": "254762605e501c0193681ea865cff1cb353715ce8674ab7eba4991a30f4d516e",
+      "bytes": 27197,
+      "fetchedAt": "2026-10-21T00:31:58.263Z",
+      "fetchedFrom": "https://web.archive.org/web/20260218150539id_/https://www.city.noda.chiba.jp/gikai/1028150/1028151.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "1050107.html",
+      "sha256": "e081812c3f559866e49ae9651d45a6b2ff5ad0536b6abc568ca83cac384e292d",
+      "bytes": 40685,
+      "fetchedAt": "2026-10-21T00:31:58.264Z",
+      "fetchedFrom": "https://www.city.noda.chiba.jp/gikai/1028233/1028235/1050107.html"
+    },
+    {
+      "filename": "1049615.html",
+      "sha256": "ebb57f34616fe6b252755eb84588920c57a416370cbe78c0ecf8588479d038f6",
+      "bytes": 34014,
+      "fetchedAt": "2026-10-21T00:31:58.265Z",
+      "fetchedFrom": "https://www.city.noda.chiba.jp/gikai/1028160/1028161/1049615.html"
+    },
+    {
+      "filename": "1027517.html",
+      "sha256": "a6d4d515d52e07ac42bae01971172250d5e4a89cc2dbef0cc7845a9d4b0d8eb4",
+      "bytes": 27815,
+      "fetchedAt": "2026-10-21T00:31:58.266Z",
+      "fetchedFrom": "https://www.city.noda.chiba.jp/gikai/1028148/1027517.html"
+    },
+    {
+      "filename": "R8.3.pdf",
+      "sha256": "d49e5fdbe97c3c0f969e655ba8e6cb3a6d34cd759e126acacfd1000e3a08b4d6",
+      "bytes": 224060,
+      "fetchedAt": "2026-10-21T00:31:58.267Z",
+      "fetchedFrom": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/050/107/R6.9/R8.3.pdf"
+    }
+  ]
+}

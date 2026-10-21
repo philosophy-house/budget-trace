@@ -1,0 +1,352 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nagareyama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T01:06:44.269Z",
+  "fiscalYear": "R8",
+  "body": "流山市議会",
+  "seats": 28,
+  "asOf": "2025-05-22",
+  "teisu": 28,
+  "factions": [
+    {
+      "name": "流政会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "近藤みほ",
+        "小沢えみり",
+        "川本大岳",
+        "渡辺仁二",
+        "坂巻儀一",
+        "笠原久恵",
+        "青野直",
+        "石原修治"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "戸辺滋",
+        "桑畑伴子",
+        "岡明彦",
+        "野村誠"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "おだぎりたかし",
+        "乾えり",
+        "高橋あきら",
+        "植田和子"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "流山みらい",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "中村彰男",
+        "うた桜子",
+        "西尾段",
+        "藤井俊行"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "自由民主党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "海老原功一",
+        "中川弘"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に所属しない議員（鈴木ゆうすけ）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "鈴木ゆうすけ"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に所属しない議員（清水大）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "清水大"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "会派に所属しない議員（矢口輝美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "矢口輝美"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "会派に所属しない議員（森田洋一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "森田洋一"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "会派に所属しない議員（阿部治正）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "阿部治正"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "会派に所属しない議員（楠山栄子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "楠山栄子"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 11
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号",
+    "billName": "令和８年度流山市一般会計予算",
+    "sessionLabel": "令和８年流山市議会第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "R8_1_giketsukeka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派等構成（令和７年５月２２日）",
+  "resultTitle": "令和８年流山市議会第１回定例会 議員別表決結果一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年流山市議会第１回定例会 議員別表決結果一覧",
+    "sourceFile": "R8_1_giketsukeka.pdf",
+    "columns": [
+      {
+        "label": "小沢えみり",
+        "faction": "流政会",
+        "member": "小沢えみり",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木ゆうすけ",
+        "faction": "会派に所属しない議員（鈴木ゆうすけ）",
+        "member": "鈴木ゆうすけ",
+        "stance": "賛成"
+      },
+      {
+        "label": "うた桜子",
+        "faction": "流山みらい",
+        "member": "うた桜子",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水大",
+        "faction": "会派に所属しない議員（清水大）",
+        "member": "清水大",
+        "stance": "賛成"
+      },
+      {
+        "label": "矢口輝美",
+        "faction": "会派に所属しない議員（矢口輝美）",
+        "member": "矢口輝美",
+        "stance": "賛成"
+      },
+      {
+        "label": "川本大岳",
+        "faction": "流政会",
+        "member": "川本大岳",
+        "stance": "賛成"
+      },
+      {
+        "label": "桑畑伴子",
+        "faction": "公明党",
+        "member": "桑畑伴子",
+        "stance": "賛成"
+      },
+      {
+        "label": "乾えり",
+        "faction": "日本共産党",
+        "member": "乾えり",
+        "stance": "反対"
+      },
+      {
+        "label": "渡辺仁二",
+        "faction": "流政会",
+        "member": "渡辺仁二",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡明彦",
+        "faction": "公明党",
+        "member": "岡明彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋あきら",
+        "faction": "日本共産党",
+        "member": "高橋あきら",
+        "stance": "反対"
+      },
+      {
+        "label": "近藤みほ",
+        "faction": "流政会",
+        "member": "近藤みほ",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸辺滋",
+        "faction": "公明党",
+        "member": "戸辺滋",
+        "stance": "賛成"
+      },
+      {
+        "label": "西尾段",
+        "faction": "流山みらい",
+        "member": "西尾段",
+        "stance": "賛成"
+      },
+      {
+        "label": "野村誠",
+        "faction": "公明党",
+        "member": "野村誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂巻儀一",
+        "faction": "流政会",
+        "member": "坂巻儀一",
+        "stance": "賛成"
+      },
+      {
+        "label": "植田和子",
+        "faction": "日本共産党",
+        "member": "植田和子",
+        "stance": "反対"
+      },
+      {
+        "label": "笠原久恵",
+        "faction": "流政会",
+        "member": "笠原久恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "森田洋一",
+        "faction": "会派に所属しない議員（森田洋一）",
+        "member": "森田洋一",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部治正",
+        "faction": "会派に所属しない議員（阿部治正）",
+        "member": "阿部治正",
+        "stance": "反対"
+      },
+      {
+        "label": "中村彰男",
+        "faction": "流山みらい",
+        "member": "中村彰男",
+        "stance": "賛成"
+      },
+      {
+        "label": "楠山栄子",
+        "faction": "会派に所属しない議員（楠山栄子）",
+        "member": "楠山栄子",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤井俊行",
+        "faction": "流山みらい",
+        "member": "藤井俊行",
+        "stance": "賛成"
+      },
+      {
+        "label": "中川弘",
+        "faction": "自由民主党",
+        "member": "中川弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "海老原功一",
+        "faction": "自由民主党",
+        "member": "海老原功一",
+        "stance": "賛成"
+      },
+      {
+        "label": "おだぎりたかし",
+        "faction": "日本共産党",
+        "member": "おだぎりたかし",
+        "stance": "反対"
+      },
+      {
+        "label": "青野直",
+        "faction": "流政会",
+        "member": "青野直",
+        "stance": "賛成"
+      },
+      {
+        "label": "石原修治",
+        "faction": "流政会",
+        "member": "石原修治",
+        "stance": "議長"
+      }
+    ]
+  }
+}

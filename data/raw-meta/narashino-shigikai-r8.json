@@ -1,0 +1,26 @@
+{
+  "sourceId": "narashino-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha.html",
+      "sha256": "98f2b0d87e4f2fd507cb8988f9ee27387fad41c74aa8d08869fbce29bc898b97",
+      "bytes": 35793,
+      "fetchedAt": "2026-10-21T00:31:57.338Z",
+      "fetchedFrom": "https://web.archive.org/web/20251018064912id_/https://www.city.narashino.lg.jp/joho/shigikai/meibo/kaiha.html"
+    },
+    {
+      "filename": "sanpiR8y1T.pdf",
+      "sha256": "b2f2cb3e385fa022c566d3fe7b876b91913980fd83d208aa24c0dd51ef74c4f1",
+      "bytes": 153923,
+      "fetchedAt": "2026-10-21T00:31:57.339Z",
+      "fetchedFrom": "https://www.city.narashino.lg.jp/material/files/group/112/sanpiR8y1T.pdf"
+    },
+    {
+      "filename": "210.pdf",
+      "sha256": "bf5da3d93b79df182911718ee104a8a17757a3f7a26b7ea5aacb95579ba7a4e1",
+      "bytes": 1115248,
+      "fetchedAt": "2026-10-21T00:31:57.340Z",
+      "fetchedFrom": "https://www.city.narashino.lg.jp/material/files/group/21/210.pdf"
+    }
+  ]
+}

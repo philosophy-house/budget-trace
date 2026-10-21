@@ -1,0 +1,26 @@
+{
+  "sourceId": "inzai-shigikai-r8",
+  "files": [
+    {
+      "filename": "0000021818.html",
+      "sha256": "8acfa0cefe5a4816c66076725d110d7efaf1245bd0090875667a04a3df9896a0",
+      "bytes": 23784,
+      "fetchedAt": "2026-10-21T00:32:00.761Z",
+      "fetchedFrom": "https://www.city.inzai.lg.jp/0000021818.html"
+    },
+    {
+      "filename": "kekka8-1.pdf",
+      "sha256": "560ad1f1f88802021aaf64482ec6739fd2078e8e430f1708c6d665c2db3e184e",
+      "bytes": 124549,
+      "fetchedAt": "2026-10-21T00:32:00.762Z",
+      "fetchedFrom": "https://www.city.inzai.lg.jp/cmsfiles/contents/0000000/60/kekka8-1.pdf"
+    },
+    {
+      "filename": "No.216_web.pdf",
+      "sha256": "9c169615371e52cc5c3a2b35622c64695e9203cc64210f0cce4d876e67805589",
+      "bytes": 4739260,
+      "fetchedAt": "2026-10-21T00:32:00.763Z",
+      "fetchedFrom": "https://www.city.inzai.lg.jp/cmsfiles/contents/0000021/21658/No.216_web.pdf"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "docType": "council-composition",
+  "sourceId": "narita-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.9",
+  "parsedAt": "2026-10-21T01:06:52.843Z",
+  "fiscalYear": "R8",
+  "body": "成田市議会",
+  "seats": 29,
+  "asOf": "2025-06-06",
+  "factions": [
+    {
+      "name": "政友クラブ",
+      "seats": 14,
+      "isIndependent": false,
+      "members": [
+        "石渡孝春",
+        "宇都宮高明",
+        "荒木博",
+        "秋山忍",
+        "神崎勝",
+        "鳥海直樹",
+        "藤崎勇一",
+        "眞野義行",
+        "葛生孝浩",
+        "飯嶋重一",
+        "別府弘隆",
+        "中島圭介",
+        "小泉英樹",
+        "中島達也"
+      ],
+      "locator": {
+        "file": "page243000.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "豪政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "上田信博",
+        "村嶋照等",
+        "神崎利一",
+        "飯島照明",
+        "鬼澤雅弘"
+      ],
+      "locator": {
+        "file": "page243000.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "水上幸彦",
+        "一山貴志",
+        "細貝正安"
+      ],
+      "locator": {
+        "file": "page243000.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "リベラル成田",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "油田清",
+        "伊藤竹夫",
+        "海保茂喜"
+      ],
+      "locator": {
+        "file": "page243000.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "荒川さくら",
+        "鵜澤治"
+      ],
+      "locator": {
+        "file": "page243000.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "虹と緑（会津素子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "会津素子"
+      ],
+      "locator": {
+        "file": "page243000.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "暁真世（星野慎太郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "星野慎太郎"
+      ],
+      "locator": {
+        "file": "page243000.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "30",
+    "billName": "令和8年度成田市一般会計予算",
+    "sessionLabel": "令和8年3月 成田市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "bill_2026-3.html"
+    }
+  },
+  "rosterTitle": "会派等別名簿（更新日 2025年6月6日）",
+  "resultTitle": "令和8年3月 成田市議会定例会審議案件一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月定例会議決結果詳細（令和8年3月定例会審議案件一覧（詳細））",
+    "sourceFile": "000217235.pdf",
+    "columns": [
+      {
+        "label": "中島達也",
+        "faction": "政友クラブ",
+        "member": "中島達也",
+        "stance": "賛成"
+      },
+      {
+        "label": "小泉英樹",
+        "faction": "政友クラブ",
+        "member": "小泉英樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島圭介",
+        "faction": "政友クラブ",
+        "member": "中島圭介",
+        "stance": "賛成"
+      },
+      {
+        "label": "別府弘隆",
+        "faction": "政友クラブ",
+        "member": "別府弘隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯嶋重一",
+        "faction": "政友クラブ",
+        "member": "飯嶋重一",
+        "stance": "賛成"
+      },
+      {
+        "label": "葛生孝浩",
+        "faction": "政友クラブ",
+        "member": "葛生孝浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "眞野義行",
+        "faction": "政友クラブ",
+        "member": "眞野義行",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤崎勇一",
+        "faction": "政友クラブ",
+        "member": "藤崎勇一",
+        "stance": "賛成"
+      },
+      {
+        "label": "鳥海直樹",
+        "faction": "政友クラブ",
+        "member": "鳥海直樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "神崎勝",
+        "faction": "政友クラブ",
+        "member": "神崎勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "秋山忍",
+        "faction": "政友クラブ",
+        "member": "秋山忍",
+        "stance": "賛成"
+      },
+      {
+        "label": "石渡孝春",
+        "faction": "政友クラブ",
+        "member": "石渡孝春",
+        "stance": "賛成"
+      },
+      {
+        "label": "宇都宮高明",
+        "faction": "政友クラブ",
+        "member": "宇都宮高明",
+        "stance": "賛成"
+      },
+      {
+        "label": "鬼澤雅弘",
+        "faction": "豪政会",
+        "member": "鬼澤雅弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯島照明",
+        "faction": "豪政会",
+        "member": "飯島照明",
+        "stance": "賛成"
+      },
+      {
+        "label": "神崎利一",
+        "faction": "豪政会",
+        "member": "神崎利一",
+        "stance": "賛成"
+      },
+      {
+        "label": "村嶋照等",
+        "faction": "豪政会",
+        "member": "村嶋照等",
+        "stance": "賛成"
+      },
+      {
+        "label": "上田信博",
+        "faction": "豪政会",
+        "member": "上田信博",
+        "stance": "賛成"
+      },
+      {
+        "label": "細貝正安",
+        "faction": "公明党",
+        "member": "細貝正安",
+        "stance": "賛成"
+      },
+      {
+        "label": "一山貴志",
+        "faction": "公明党",
+        "member": "一山貴志",
+        "stance": "賛成"
+      },
+      {
+        "label": "水上幸彦",
+        "faction": "公明党",
+        "member": "水上幸彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "海保茂喜",
+        "faction": "リベラル成田",
+        "member": "海保茂喜",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤竹夫",
+        "faction": "リベラル成田",
+        "member": "伊藤竹夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "油田清",
+        "faction": "リベラル成田",
+        "member": "油田清",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒川さくら",
+        "faction": "日本共産党",
+        "member": "荒川さくら",
+        "stance": "反対"
+      },
+      {
+        "label": "鵜澤治",
+        "faction": "日本共産党",
+        "member": "鵜澤治",
+        "stance": "反対"
+      },
+      {
+        "label": "会津素子",
+        "faction": "虹と緑（会津素子）",
+        "member": "会津素子",
+        "stance": "反対"
+      },
+      {
+        "label": "星野慎太郎",
+        "faction": "暁真世（星野慎太郎）",
+        "member": "星野慎太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒木博",
+        "faction": "政友クラブ",
+        "member": "荒木博",
+        "stance": "議長"
+      }
+    ]
+  }
+}
