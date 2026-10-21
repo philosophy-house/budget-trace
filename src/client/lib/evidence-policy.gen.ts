@@ -21541,6 +21541,180 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "城陽市ホームページで提供するすべてのコンテンツ（情報・文章・画像など）について、権利者の許可なく複製・転用・販売といった二次利用することをかたく禁じます。城陽市ホームページに掲載した著作物（文章・画像・音声など）、プログラムに係る著作権は、特別の断りがない限り城陽市が保有します。",
     "target": "file"
   },
+  "/sources/ohtawara-yosan-gaiyou-r8/R8yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ohtawara.tochigi.jp/docs/2023051700017/file_contents/R8yosangaiyou.pdf",
+    "license": "「大田原市ホームページ」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、大田原市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ohtawara-yosan-gaiyou-r7/R7_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ohtawara.tochigi.jp/docs/2023051700017/file_contents/R7_yosangaiyou.pdf",
+    "license": "「大田原市ホームページ」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、大田原市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ohtawara-yosan-gaiyou-r6/R6_yosangaiyour.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ohtawara.tochigi.jp/docs/2023051700017/file_contents/R6_yosangaiyour.pdf",
+    "license": "「大田原市ホームページ」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、大田原市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ohtawara-yosan-gaiyou-r5/R5_yosangaiyour.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ohtawara.tochigi.jp/docs/2023051700017/file_contents/R5_yosangaiyour.pdf",
+    "license": "「大田原市ホームページ」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、大田原市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ohtawara-yosan-gaiyou-r4/R4_yosangaiyour.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ohtawara.tochigi.jp/docs/2023051700017/file_contents/R4_yosangaiyour.pdf",
+    "license": "「大田原市ホームページ」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、大田原市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ohtawara-yosan-gaiyou-r3/R3_yosangaiyour.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ohtawara.tochigi.jp/docs/2023051700017/file_contents/R3_yosangaiyour.pdf",
+    "license": "「大田原市ホームページ」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、大田原市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ohtawara-yosan-gaiyou-r2/R2_yosangaiyour.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ohtawara.tochigi.jp/docs/2023051700017/file_contents/R2_yosangaiyour.pdf",
+    "license": "「大田原市ホームページ」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、大田原市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/anan-yosan-gaiyou-r8/tousyo_gaiyou_r8_giketugo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.anan.tokushima.jp/docs/2026021700062/",
+    "license": "阿南市ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、阿南市の許可なく複製・転用・販売することはできません。",
+    "target": "page"
+  },
+  "/sources/anan-yosan-gaiyou-r7/tosyo_gaiyo_r7_giketugo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.anan.tokushima.jp/docs/2025022000089/",
+    "license": "阿南市ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、阿南市の許可なく複製・転用・販売することはできません。",
+    "target": "page"
+  },
+  "/sources/anan-yosan-gaiyou-r6/tousyo_gaiyo_r6-anCler.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.anan.tokushima.jp/docs/2024030700066/",
+    "license": "阿南市ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、阿南市の許可なく複製・転用・販売することはできません。",
+    "target": "page"
+  },
+  "/sources/toyoake-yosan-gaiyou-r8/11_gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyoake.lg.jp/secure/4633/11_gaiyo.pdf",
+    "license": "「豊明市ホームページ」に掲載されている文章、写真、イラスト、画像等の著作権は、豊明市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/toyoake-yosan-gaiyou-r7/04_gaiyou2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyoake.lg.jp/secure/4633/04_gaiyou2.pdf",
+    "license": "「豊明市ホームページ」に掲載されている文章、写真、イラスト、画像等の著作権は、豊明市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/toyoake-yosan-gaiyou-r6/R6gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyoake.lg.jp/secure/4633/R6gaiyou.pdf",
+    "license": "「豊明市ホームページ」に掲載されている文章、写真、イラスト、画像等の著作権は、豊明市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/toyoake-yosan-gaiyou-r3/R3gaiyou2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyoake.lg.jp/secure/4633/R3gaiyou2.pdf",
+    "license": "「豊明市ホームページ」に掲載されている文章、写真、イラスト、画像等の著作権は、豊明市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/toyoake-yosan-gaiyou-r2/yosannnogaiyou2020.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyoake.lg.jp/secure/4633/yosannnogaiyou2020.pdf",
+    "license": "「豊明市ホームページ」に掲載されている文章、写真、イラスト、画像等の著作権は、豊明市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ホームページに記載されている課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/uwajima-yosan-setsumei-r8/65504.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uwajima.ehime.jp/uploaded/attachment/65504.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/uwajima-yosan-setsumei-r7/59496.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uwajima.ehime.jp/uploaded/attachment/59496.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/uwajima-yosan-setsumei-r6/53555.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uwajima.ehime.jp/uploaded/attachment/53555.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/uwajima-yosan-setsumei-r5/46841.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uwajima.ehime.jp/uploaded/attachment/46841.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/uwajima-yosan-setsumei-r4/39697.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uwajima.ehime.jp/uploaded/attachment/39697.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/uwajima-yosan-setsumei-r3/33429.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uwajima.ehime.jp/uploaded/attachment/33429.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/uwajima-yosan-setsumei-r2/26392.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uwajima.ehime.jp/uploaded/attachment/26392.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/yachimata-yosansho-r8/25905.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yachimata.lg.jp/soshiki/6/6006.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、八街市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yachimata-yosansho-r7/23266.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yachimata.lg.jp/soshiki/6/6006.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、八街市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yachimata-yosansho-r6/20822.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yachimata.lg.jp/soshiki/6/6006.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、八街市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yachimata-yosansho-r5/18487.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yachimata.lg.jp/soshiki/6/6006.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、八街市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yachimata-yosansho-r4/15596.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yachimata.lg.jp/soshiki/6/6006.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、八街市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yachimata-yosansho-r3/13246.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yachimata.lg.jp/soshiki/6/6006.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、八街市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yachimata-yosansho-r2/10338.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yachimata.lg.jp/soshiki/6/6006.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、八街市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
   "/sources/joetsu-yosan-gaiyou-r8/282463.pdf": {
     "mode": "origin",
     "href": "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf",

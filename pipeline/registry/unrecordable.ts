@@ -2148,4 +2148,36 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.katano.osaka.jp/docs/2020051300032/",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-69",
   },
+  {
+    // 阿南市（362042）R5・R4。R8〜R6 は収録済み（§13-72）。
+    // 当初予算（案）の概要 R5（/docs/2022030100060/ の tousyo_gaiyou_R5-anCler.pdf・51ページ）は表紙のほか文字0字・RICOH のスキャン、
+    // R4（tousyo_gaiyo_r4.pdf・46ページ）は全文0字・pdffonts 0件（2026-10-22 に実測）。予算書は R5 以前がウェブに無い。
+    code: "362042", name: "阿南市", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["scanned-image"],
+    reason:
+      "当初予算（案）の概要が紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。同じ年度の予算書はウェブに掲載されていない。",
+    url: "https://www.city.anan.tokushima.jp/docs/2010090900065/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-72",
+  },
+  {
+    // 阿南市（362042）R3・R2。WARP（2020-03〜2022-03）の「予算・決算」一覧と財政情報ページに概要へのリンクが無い。
+    // 広報の「あらまし」は万円単位で前年度額が無い（R3・R2）。
+    code: "362042", name: "阿南市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason:
+      "千円単位の款ごとの当初予算と前年度の額を載せた資料が、市のサイトにも国立国会図書館の WARP に保存された版にも見当たらない。" +
+      "広報のあらましは万円単位で、前年度の額が無い。",
+    url: "https://www.city.anan.tokushima.jp/docs/2010090900065/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-72",
+  },
+  {
+    // 豊明市（232297）R5・R4。R8〜R6・R3・R2 は収録済み（§13-72）。
+    // 当初予算の概要 R5（202302_tousyoyosannogaiyou.pdf・58ページ）は文字0字・pdffonts 0件、R4（R4gaiyou.pdf・29.7MB）も 600dpi CCITT の画像。予算書・説明資料もスキャン。
+    code: "232297", name: "豊明市", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["scanned-image"],
+    reason:
+      "当初予算の概要・予算書・予算説明資料がどれも紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.city.toyoake.lg.jp/4460.htm",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-72",
+  },
 ];

@@ -1,0 +1,12 @@
+{
+  "sourceId": "toyoake-yosan-gaiyou-r6",
+  "files": [
+    {
+      "filename": "R6gaiyou.pdf",
+      "sha256": "693ea97981b51ca4d050663fa8916fe6a7f49e0921b71ab9e17a9b46fd05ea49",
+      "bytes": 800255,
+      "fetchedAt": "2026-10-21T18:01:58.003Z",
+      "fetchedFrom": "https://www.city.toyoake.lg.jp/secure/4633/R6gaiyou.pdf"
+    }
+  ]
+}
