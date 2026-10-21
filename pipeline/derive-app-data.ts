@@ -3589,6 +3589,30 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第76巡（2026-10-22・§13-84） ----
+    // ⚠ 蓮田は R8〜R5 が予算書・R4〜R2 が予算の概要
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `hasuda-yosansho-${fy}`, muniCode: "112381", muniName: "蓮田市", prefName: "埼玉県", isPref: false,
+    })),
+    ...(["r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hasuda-yosan-gaiyou-${fy}`, muniCode: "112381", muniName: "蓮田市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 天理 R3・R2 は WARP から
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tenri-yosan-gaiyou-${fy}`, muniCode: "292044", muniName: "天理市", prefName: "奈良県", isPref: false,
+    })),
+    // ⚠ 常総 R4・R3 はスキャン画像で見送り。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r2"] as const).map((fy) => ({
+      srcId: `joso-yosansho-${fy}`, muniCode: "082112", muniName: "常総市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 栗原 R6〜R2 は zip で見送り。`noDeepLink`
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `kurihara-yosansho-${fy}`, muniCode: "042137", muniName: "栗原市", prefName: "宮城県", isPref: false,
+    })),
+    // ⚠ 三豊は R4・R8 骨格で R5 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `mitoyo-yosanan-gaiyou-${fy}`, muniCode: "372081", muniName: "三豊市", prefName: "香川県", isPref: false,
+    })),
     // ---- 第73巡（2026-10-22・§13-81） ----
     // ⚠ 北本は予算参考資料。R4・R3 は議会修正可決で資料が原案のため見送り
     ...(["r8", "r7", "r6", "r5", "r2"] as const).map((fy) => ({
@@ -4159,7 +4183,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hyuga-yosan-gaiyou-${fy}`, muniCode: "452068", muniName: "日向市", prefName: "宮崎県", isPref: false,
     })),
-    // ---- 第76巡（2026-10-22・§13-84）: 藤井寺・糸満・白井・大和高田・加賀 ----
+    // ---- 第77巡（2026-10-22・§13-85）: 藤井寺・糸満・白井・大和高田・加賀 ----
     // ⚠ 藤井寺 R6・R5 は予算書がスキャンで予算説明資料。R5・H31 骨格（R6・R2 に prevNote）
     ...(["r8", "r7", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `fujiidera-yosansho-${fy}`, muniCode: "272264", muniName: "藤井寺市", prefName: "大阪府", isPref: false,
