@@ -4046,6 +4046,31 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `gamagori-yosan-gaiyou-${fy}`, muniCode: "232149", muniName: "蒲郡市", prefName: "愛知県", isPref: false,
     })),
+    // ---- 第72巡（2026-10-22・§13-79）: 鳥栖・名張・岩見沢・桶川・大仙 ----
+    // ⚠ 鳥栖 R3 は明細書の総括（概要が図形化）。R5・R1 骨格で R6・R2 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `tosu-yosan-gaiyou-${fy}`, muniCode: "412031", muniName: "鳥栖市", prefName: "佐賀県", isPref: false,
+    })),
+    { srcId: "tosu-yosansho-r3", muniCode: "412031", muniName: "鳥栖市", prefName: "佐賀県", isPref: false },
+    // ⚠ 名張は R8・R2 だけ（R7〜R3 は総括が図形化かスキャン）。列指定が無いと前年度に一般財源を読む
+    { srcId: "nabari-yosan-shiryou-r8", muniCode: "242080", muniName: "名張市", prefName: "三重県", isPref: false },
+    { srcId: "nabari-yosan-soukatsu-r2", muniCode: "242080", muniName: "名張市", prefName: "三重県", isPref: false },
+    // ⚠ 岩見沢は1ページに歳入・歳出を縦に積む（samePage）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `iwamizawa-ippan-yosan-${fy}`, muniCode: "012106", muniName: "岩見沢市", prefName: "北海道", isPref: false,
+    })),
+    // ⚠ 桶川 R5 だけ説明書（概要の表がテキストを持たない）
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `okegawa-yosan-gaiyou-${fy}`, muniCode: "112313", muniName: "桶川市", prefName: "埼玉県", isPref: false,
+    })),
+    { srcId: "okegawa-yosan-setsumei-r5", muniCode: "112313", muniName: "桶川市", prefName: "埼玉県", isPref: false },
+    // ⚠ 大仙は WARP（発行元が 502）。R8・R7 は予算書・R6〜R2 は概要（prevColumnFirst）。R7 骨格で R8 に prevNote。ライセンスは台帳で要許可
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `daisen-yosansho-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `daisen-yosan-gaiyou-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
