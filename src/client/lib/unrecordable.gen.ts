@@ -84,6 +84,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "112160": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "掲載されている当初予算の概要は文字の対応表が欠けていて、数字と漢字が化けて取り出せない。予算説明書は文字を持たない画像の PDF。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "112186": {
     "budget": [
       {
@@ -698,6 +707,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "212164": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度",
+        "reason": "この年度の予算概要は骨格予算の簡略版で、款ごとの額と前年度の額を並べた表が載っていない。予算書はウェブに掲載されていない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "222062": {
     "budget": [
       {
@@ -1060,6 +1078,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度",
         "reason": "R3 以前は予算書（事項別明細書の総括）がウェブ未掲載で、掲載されている「予算の概要」は性質別・財源別の表のみ（市税・地方交付税など款名に似た行が並ぶが款別ではない）。R3 の概要は Wayback と WARP にも同じ構成で残っており、款別＋前年当初比較の資料が存在しない。R2 以前は未確認。",
         "checkedOn": "2026-08-22"
+      }
+    ]
+  },
+  "272299": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和2年度",
+        "reason": "令和6・5年度の予算書の総括は文字が図形として描かれていて文字として取り出せない。令和4年度は歳出の表の文字が二重に重ねて描かれていて、こちらの抽出処理では読めない。令和2年度は紙をスキャンした画像の PDF。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
@@ -1726,6 +1753,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "082350": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "予算書は紙をスキャンした画像の PDF。予算資料の款別の比較表は歳入と歳出が1ページに横に並んだ回転したページで、こちらの抽出処理では左右を分けられない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "032051": {
     "budget": [
       {
@@ -1755,6 +1791,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成22年度",
         "reason": "説明書はスキャン画像に文字認識の層が載っているが、認識そのものが壊れている。目次の時点で土木費が別の2文字に、災害復旧費が途中で英字に、使用料が判読できない綴りになる。款名をそのまま信じられないので、総括の表も裏取りなしには使えない。",
         "checkedOn": "2026-09-12"
+      }
+    ]
+  },
+  "042056": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "一般会計予算説明書の総括（前年度の額と並べた表）のページが、文字ではなく図形として描かれていて、文字として取り出せない。文字で取れる総括表には当年度の額しか無い。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
@@ -1876,6 +1921,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
         "reason": "市が公表している当初予算の概要は、款ごとの歳入・歳出を円グラフや主な科目だけで示していて、款ごとに前年度の当初予算と比べた表が載っていない。令和6年度以前の概要は紙をスキャンした画像で、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "072133": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度",
+        "reason": "当初予算の概要の款別の表が、文字ではなく図形として描かれていて、文字として取り出せない。予算書はウェブに掲載されていない。",
+        "checkedOn": "2026-10-22"
+      },
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "ウェブに掲載されている当初予算の資料は、款別の額を円グラフで示しているだけで、前年度の額と並べた表が無い。予算書は掲載されていない。",
         "checkedOn": "2026-10-22"
       }
     ]

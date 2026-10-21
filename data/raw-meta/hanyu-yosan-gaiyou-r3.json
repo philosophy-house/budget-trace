@@ -1,0 +1,12 @@
+{
+  "sourceId": "hanyu-yosan-gaiyou-r3",
+  "files": [
+    {
+      "filename": "R3gaiyou.pdf",
+      "sha256": "226461a19d6cc2f1d46579d409841e484db2439b037fcddb82566062cf43e773",
+      "bytes": 1266941,
+      "fetchedAt": "2026-10-21T22:42:27.134Z",
+      "fetchedFrom": "https://www.city.hanyu.lg.jp/docs/2021021900016/file_contents/R3gaiyou.pdf"
+    }
+  ]
+}

@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 515,
+  "budgetCount": 525,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3763,
-  "fileCount": 5441,
-  "archivedCount": 2873,
+  "sourceCount": 3819,
+  "fileCount": 5497,
+  "archivedCount": 2910,
   "licenseOpen": 135,
-  "licensePermission": 3543,
+  "licensePermission": 3599,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1251,6 +1251,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "村上市",
+      "code": "152129",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "燕市",
       "code": "152137",
       "years": 7,
@@ -1581,6 +1587,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "向日市",
+      "code": "262081",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "長岡京市",
       "code": "262099",
       "years": 7,
@@ -1637,6 +1649,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "摂津市",
       "code": "272248",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "高石市",
+      "code": "272256",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2025,6 +2043,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "羽生市",
+      "code": "112160",
+      "years": 6,
+      "range": "R2〜R7（6年度）"
+    },
+    {
       "name": "和光市",
       "code": "112291",
       "years": 6,
@@ -2133,6 +2157,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "瑞穂市",
+      "code": "212164",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "袋井市",
       "code": "222160",
       "years": 6,
@@ -2235,6 +2265,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "鳴門市",
+      "code": "362026",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "今治市",
       "code": "382027",
       "years": 6,
@@ -2313,6 +2349,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "気仙沼市",
+      "code": "042056",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
       "name": "名取市",
       "code": "042072",
       "years": 5,
@@ -2329,6 +2371,12 @@ export const ROADMAP_PROGRESS = {
       "code": "082112",
       "years": 5,
       "range": "R2〜R8（5年度）"
+    },
+    {
+      "name": "つくばみらい市",
+      "code": "082350",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
     },
     {
       "name": "所沢市",
@@ -2487,6 +2535,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R5〜R8（4年度）"
     },
     {
+      "name": "伊達市",
+      "code": "072133",
+      "years": 4,
+      "range": "R4〜R8（4年度）"
+    },
+    {
       "name": "筑西市",
       "code": "082279",
       "years": 4,
@@ -2617,6 +2671,12 @@ export const ROADMAP_PROGRESS = {
       "code": "272183",
       "years": 3,
       "range": "R6〜R8（3年度）"
+    },
+    {
+      "name": "四條畷市",
+      "code": "272299",
+      "years": 3,
+      "range": "R3〜R8（3年度）"
     },
     {
       "name": "神戸市",
