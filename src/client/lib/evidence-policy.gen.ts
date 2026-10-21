@@ -22003,6 +22003,150 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "著作権法上認められる場合を除き、香芝市の許可なく香芝市ホームページ上に掲載されている文書や画像、その他データなどを無断使用、複製、転載、販売、改変、印刷配布することを禁止します。",
     "target": "page"
   },
+  "/sources/kiyose-yosan-setsumei-r8/r8ippannkaikeisetumeisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/944/r8ippannkaikeisetumeisiryou.pdf",
+    "license": "「清瀬市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、当ホームページ全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法および国際条約により保護されています。当ホームページの内容の全部または一部については、著作権上認められた場合を除き、無断で引用・転載・複製を行うことができません。",
+    "target": "file"
+  },
+  "/sources/kiyose-yosan-setsumei-r7/r7ippannkaikeisetumeisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/014/710/r7ippannkaikeisetumeisiryou.pdf",
+    "license": "「清瀬市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、当ホームページ全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法および国際条約により保護されています。当ホームページの内容の全部または一部については、著作権上認められた場合を除き、無断で引用・転載・複製を行うことができません。",
+    "target": "file"
+  },
+  "/sources/kiyose-yosan-setsumei-r6/r6yosannsetumei_saisyuu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/013/487/r6yosannsetumei_saisyuu.pdf",
+    "license": "「清瀬市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、当ホームページ全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法および国際条約により保護されています。当ホームページの内容の全部または一部については、著作権上認められた場合を除き、無断で引用・転載・複製を行うことができません。",
+    "target": "file"
+  },
+  "/sources/kiyose-yosan-setsumei-r5/r5yosansetumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/011/471/r5yosansetumei.pdf",
+    "license": "「清瀬市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、当ホームページ全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法および国際条約により保護されています。当ホームページの内容の全部または一部については、著作権上認められた場合を除き、無断で引用・転載・複製を行うことができません。",
+    "target": "file"
+  },
+  "/sources/kiyose-yosan-setsumei-r4/r4tousyoyosannsetumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/009/746/r4tousyoyosannsetumei.pdf",
+    "license": "「清瀬市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、当ホームページ全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法および国際条約により保護されています。当ホームページの内容の全部または一部については、著作権上認められた場合を除き、無断で引用・転載・複製を行うことができません。",
+    "target": "file"
+  },
+  "/sources/kiyose-yosan-setsumei-r3/r3tousyoyosannsetsumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/007/762/r3tousyoyosannsetsumei.pdf",
+    "license": "「清瀬市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、当ホームページ全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法および国際条約により保護されています。当ホームページの内容の全部または一部については、著作権上認められた場合を除き、無断で引用・転載・複製を行うことができません。",
+    "target": "file"
+  },
+  "/sources/ryugasaki-yosansho-r8/R8toushoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ryugasaki.ibaraki.jp/shisei/zaisei/yosankessan/yosan/y-yosansyo/R8yosansyo.files/R8toushoyosan.pdf",
+    "license": "本サイト上の文書や画像などの著作権は原則として龍ケ崎市に帰属します。本サイト上の文書、画像などの無断使用・転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/ryugasaki-yosansho-r7/R7toushoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ryugasaki.ibaraki.jp/shisei/zaisei/yosankessan/yosan/y-yosansyo/R7yosansyo.files/R7toushoyosan.pdf",
+    "license": "本サイト上の文書や画像などの著作権は原則として龍ケ崎市に帰属します。本サイト上の文書、画像などの無断使用・転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/ryugasaki-yosansho-r6/R6toushoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ryugasaki.ibaraki.jp/shisei/zaisei/yosankessan/yosan/y-yosansyo/R6-yosanshyo.files/R6toushoyosansho.pdf",
+    "license": "本サイト上の文書や画像などの著作権は原則として龍ケ崎市に帰属します。本サイト上の文書、画像などの無断使用・転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/ryugasaki-yosansho-r5/R5tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ryugasaki.ibaraki.jp/shisei/zaisei/yosankessan/yosan/y-yosansyo/R5-yosannsyo.files/R5tousyo.pdf",
+    "license": "本サイト上の文書や画像などの著作権は原則として龍ケ崎市に帰属します。本サイト上の文書、画像などの無断使用・転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/ryugasaki-yosansho-r4/4tousyoyosann4.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ryugasaki.ibaraki.jp/shisei/zaisei/yosankessan/yosan/y-yosansyo/R4-yosannsyo.files/4tousyoyosann4.pdf",
+    "license": "本サイト上の文書や画像などの著作権は原則として龍ケ崎市に帰属します。本サイト上の文書、画像などの無断使用・転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/ryugasaki-yosansho-r3/R3_Ryugasaki_Initial_Budget.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ryugasaki.ibaraki.jp/shisei/zaisei/yosankessan/yosan/y-yosansyo/R3_Ryugasaki_Budget.files/R3_Ryugasaki_Initial_Budget.pdf",
+    "license": "本サイト上の文書や画像などの著作権は原則として龍ケ崎市に帰属します。本サイト上の文書、画像などの無断使用・転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/yonezawa-yosansho-r8/R8_ippanyosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yonezawa.yamagata.jp/category/shisei/4/1/4853.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonezawa-yosansho-r7/R7_ippanyosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yonezawa.yamagata.jp/category/shisei/4/1/4854.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonezawa-yosansho-r6/R6_ippanyosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yonezawa.yamagata.jp/category/shisei/4/1/4855.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonezawa-yosansho-r5/R5_ippanyosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yonezawa.yamagata.jp/category/shisei/4/1/4864.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonezawa-yosansho-r4/R4_ippanyosansyo.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220407/20220407050308/https://www.city.yonezawa.yamagata.jp/6245.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonezawa-yosangaiyou-r3/01_R3yosannogaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210410/20210410094039/https://www.city.yonezawa.yamagata.jp/2083.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/fukuchiyama-yosansho-r8/52283.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/52283.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、福知山市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/fukuchiyama-yosansho-r7/45913.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/45913.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、福知山市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/fukuchiyama-yosansho-r6/40258.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/40258.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、福知山市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/fukuchiyama-yosansho-r5/35189.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/35189.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、福知山市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/fukuchiyama-yosansho-r4/30003.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/30003.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、福知山市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/fukuchiyama-yosan-youryou-r3/23795.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/23795.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、福知山市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
   "/sources/kitanagoya-yosansho-r8/r8_ippan.pdf": {
     "mode": "origin",
     "href": "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/308/r8_ippan.pdf",

@@ -1,0 +1,402 @@
+{
+  "docType": "budget-book",
+  "sourceId": "ryugasaki-yosansho-r3",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T16:59:17.781Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R3",
+  "account": "一般会計",
+  "revenueTotal": 25782000,
+  "expenditureTotal": 25782000,
+  "prevRevenueTotal": 25610000,
+  "prevExpenditureTotal": 25610000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 9578425,
+      "prevAmount": 10099030,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 249700,
+      "prevAmount": 257100,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 7278,
+      "prevAmount": 9900,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 40634,
+      "prevAmount": 43100,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 42642,
+      "prevAmount": 23600,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 33661,
+      "prevAmount": 73444,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 1499784,
+      "prevAmount": 1602100,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 36800,
+      "prevAmount": 42800,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "環境性能割交付金",
+      "amount": 16000,
+      "prevAmount": 28800,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方特例交付金",
+      "amount": 92900,
+      "prevAmount": 65000,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方交付税",
+      "amount": 3070000,
+      "prevAmount": 3736520,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 8700,
+      "prevAmount": 9200,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "分担金及び負担金",
+      "amount": 137669,
+      "prevAmount": 171333,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "使用料及び手数料",
+      "amount": 315625,
+      "prevAmount": 331080,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "国庫支出金",
+      "amount": 3727427,
+      "prevAmount": 3686108,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "県支出金",
+      "amount": 2089572,
+      "prevAmount": 1944037,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "財産収入",
+      "amount": 13184,
+      "prevAmount": 14083,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "寄附金",
+      "amount": 200001,
+      "prevAmount": 203701,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰入金",
+      "amount": 906169,
+      "prevAmount": 979815,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰越金",
+      "amount": 300000,
+      "prevAmount": 150000,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "諸収入",
+      "amount": 526429,
+      "prevAmount": 510949,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "市債",
+      "amount": 2889400,
+      "prevAmount": 1628300,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 231207,
+      "prevAmount": 232365,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 3430836,
+      "prevAmount": 3458733,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 10058911,
+      "prevAmount": 10044818,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 2109542,
+      "prevAmount": 2570663,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 14404,
+      "prevAmount": 13600,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 739142,
+      "prevAmount": 639529,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 219610,
+      "prevAmount": 237638,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 1685779,
+      "prevAmount": 1636745,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 1159704,
+      "prevAmount": 1436128,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 3476081,
+      "prevAmount": 2720344,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "公債費",
+      "amount": 2632104,
+      "prevAmount": 2602477,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "諸支出金",
+      "amount": 75,
+      "prevAmount": 98,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "予備費",
+      "amount": 24605,
+      "prevAmount": 16862,
+      "locator": {
+        "file": "R3_Ryugasaki_Initial_Budget.pdf",
+        "page": 15
+      }
+    }
+  ]
+}

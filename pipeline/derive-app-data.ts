@@ -3589,7 +3589,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
-    // ---- 第62巡（2026-10-22・§13-68） ----
+    // ---- 第63巡（2026-10-22・§13-69） ----
     // ⚠ 交野 R2 は decodeGarble が廃止款の印 × で止まる（#354）。`noDeepLink`
     ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
       srcId: `katano-yosansho-${fy}`, muniCode: "272302", muniName: "交野市", prefName: "大阪府", isPref: false,
@@ -3765,6 +3765,29 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r6", "r3", "r2"] as const).map((fy) => ({
       srcId: `kashiba-yosan-setsumei-${fy}`, muniCode: "292109", muniName: "香芝市", prefName: "奈良県", isPref: false,
     })),
+    // ---- 第62巡（2026-10-22・§13-68） ----
+    // ⚠ 清瀬は説明資料の予算計上額（左右2表・CropX が年度で違う）。R2 は未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `kiyose-yosan-setsumei-${fy}`, muniCode: "132217", muniName: "清瀬市", prefName: "東京都", isPref: false,
+    })),
+    // ⚠ 龍ケ崎 R5 は decodeGarble。R2 は復号表に無い印で未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `ryugasaki-yosansho-${fy}`, muniCode: "082082", muniName: "龍ケ崎市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 室蘭は open（サイト全体が CC BY）。R8 はアウトライン化・R4・R2 は化けで未収録
+    ...(["r7", "r6", "r5", "r3"] as const).map((fy) => ({
+      srcId: `muroran-yosansho-${fy}`, muniCode: "012050", muniName: "室蘭市", prefName: "北海道", isPref: false,
+    })),
+    // ⚠ 米沢 R8 は撤回・再提案後の成立版（概要は撤回前）。R3 は概要（prevColumnFirst）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `yonezawa-yosansho-${fy}`, muniCode: "062022", muniName: "米沢市", prefName: "山形県", isPref: false,
+    })),
+    { srcId: "yonezawa-yosangaiyou-r3", muniCode: "062022", muniName: "米沢市", prefName: "山形県", isPref: false },
+    // ⚠ 福知山 R4 は罫線組み、R3 は議決された予算の要領。R6・R2 骨格（R7・R3 に prevNote）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `fukuchiyama-yosansho-${fy}`, muniCode: "262013", muniName: "福知山市", prefName: "京都府", isPref: false,
+    })),
+    { srcId: "fukuchiyama-yosan-youryou-r3", muniCode: "262013", muniName: "福知山市", prefName: "京都府", isPref: false },
     // ---- 第55巡（2026-10-22・§13-60） ----
     // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

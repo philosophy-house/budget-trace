@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 390,
+  "budgetCount": 395,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2964,
-  "fileCount": 4610,
-  "archivedCount": 2622,
-  "licenseOpen": 126,
-  "licensePermission": 2760,
+  "sourceCount": 2992,
+  "fileCount": 4638,
+  "archivedCount": 2627,
+  "licenseOpen": 130,
+  "licensePermission": 2784,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1455,6 +1455,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "米沢市",
+      "code": "062022",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "酒田市",
       "code": "062049",
       "years": 6,
@@ -1465,6 +1471,12 @@ export const ROADMAP_PROGRESS = {
       "code": "082015",
       "years": 6,
       "range": "H30〜R8（6年度）"
+    },
+    {
+      "name": "龍ケ崎市",
+      "code": "082082",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "牛久市",
@@ -1533,6 +1545,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "清瀬市",
+      "code": "132217",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "多摩市",
       "code": "132241",
       "years": 6,
@@ -1579,6 +1597,12 @@ export const ROADMAP_PROGRESS = {
       "code": "252042",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "福知山市",
+      "code": "262013",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "木津川市",
@@ -1777,6 +1801,12 @@ export const ROADMAP_PROGRESS = {
       "code": "472131",
       "years": 5,
       "range": "R3〜R8（5年度）"
+    },
+    {
+      "name": "室蘭市",
+      "code": "012050",
+      "years": 4,
+      "range": "R3〜R7（4年度）"
     },
     {
       "name": "筑西市",

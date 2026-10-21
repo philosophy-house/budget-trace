@@ -394,6 +394,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "132217": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "款ごとの前年度比較が載る当初予算説明資料は、表紙の後ろが紙をスキャンした画像で文字として取り出せない。一般会計予算書には款ごとの総括の表が無い。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "141003": {
     "detail": [
       {
@@ -740,6 +749,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和3年度",
         "reason": "一般会計予算書の歳出の総括（款ごとの前年度比較）のページだけ、ページ番号のほかに文字として取り出せない（画像も入っていない）。代わりになる資料も無く、第1表は当年度の款項だけ、予算の概要は構成のグラフだけで前年度の額が無い。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "262013": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算説明書は紙をスキャンした画像に機械で読み取った文字を重ねたもので、款の名前や数字に読み取りの誤りがある。議決された予算の要領は文字の無い画像。",
         "checkedOn": "2026-10-22"
       }
     ]
@@ -1350,6 +1368,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "082082": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "一般会計予算書の文字が別の字に化けていて、廃止された款の行の印がこちらの復号の対応表に無いため、款ごとの表を読み切れない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "082198": {
     "budget": [
       {
@@ -1450,6 +1477,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "062022": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "この年度は予算書がウェブに掲載されておらず、予算の概要は紙をスキャンした画像の PDF で文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "062031": {
     "budget": [
       {
@@ -1492,6 +1528,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和7年度",
         "reason": "予算の概要 PDF がスキャン画像。",
         "checkedOn": "2026-07-25"
+      }
+    ]
+  },
+  "012050": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "一般会計予算書は文字を図形に変換した状態で作られていて、文字として取り出せない。予算の概要にも款別の表はあるが百万円単位に丸めてあり、款の合計が総額と一致しない。",
+        "checkedOn": "2026-10-22"
+      },
+      {
+        "fyLabel": "令和4年度・令和2年度",
+        "reason": "一般会計予算書の総括のページの文字が別の字に化けている（令和4年度は款の名前の漢字が抜け落ち、令和2年度はこちらの復号の対応表に無い字を含む）。款の名前を確かめられないので収録しない。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
