@@ -1,0 +1,12 @@
+{
+  "sourceId": "nakatsu-yosan-taizennen-r2",
+  "files": [
+    {
+      "filename": "2020zennendohikaku.pdf",
+      "sha256": "aeafc986e6fe8b92780464e08264723146b885e31ef186d2c56833494e700924",
+      "bytes": 122302,
+      "fetchedAt": "2026-10-21T16:34:28.099Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20210305/20210304004531/https://www.city-nakatsu.jp/doc/2020032300112/file_contents/2020zennendohikaku.pdf"
+    }
+  ]
+}
