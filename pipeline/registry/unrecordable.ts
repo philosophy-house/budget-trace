@@ -2332,13 +2332,13 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
   },
   {
-    // 常滑市（232165）R8・R7・R6。R5・R4 は収録済み（§13-86）。概要の歳入の款別表（R8 R8_tosyo_gaiyo.pdf p.6 ほか）がラスタ画像で、予算書の総括・第1表もテキストはノンブルだけ。
+    // 常滑市（232165）R8・R7・R6。R5・R4 は収録済み（§13-87）。概要の歳入の款別表（R8 R8_tosyo_gaiyo.pdf p.6 ほか）がラスタ画像で、予算書の総括・第1表もテキストはノンブルだけ。
     code: "232165", name: "常滑市", dataset: "budget", fiscalYears: ["R8", "R7", "R6"],
     categories: ["scanned-image"],
     reason:
       "当初予算の概要の歳入の款別表が画像で作られていて、文字として取り出せない。一般会計予算書の総括と第1表も、文字として取り出せるのはページ番号だけ。",
     url: "https://www.city.tokoname.aichi.jp/shisei/zaisei/1001458/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-87",
   },
   {
     // 常滑市（232165）R3。概要 R3gaiyou.pdf p.8 の歳入で、款21 諸収入が「(競艇事業収入)」の行と合わせて2行に分かれ、既存パーサが片方しか読まず歳入 Σ が割れる。
@@ -2347,7 +2347,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "当初予算の概要の歳入の款別表で、諸収入の額が2行に分かれて書かれていて、既存のパーサが片方の行しか読めず合計が合わない。",
     url: "https://www.city.tokoname.aichi.jp/shisei/zaisei/1001458/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-87",
   },
   {
     // 常滑市（232165）R2。概要 R2_yosanngaiyo.pdf は現行サイトで 404・WARP（20201113）だけ。文字が化けていて、復号表に無い字で止まる。
@@ -2356,7 +2356,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "当初予算の概要（国立国会図書館の WARP に保存された版）の文字が別の字に化けていて、既存の復号の対応表に無い字があるため読み取れない。",
     url: "https://warp.ndl.go.jp/20201114/20201113082546/https://www.city.tokoname.aichi.jp/_res/projects/default_project/_page_/001/001/459/R2_yosanngaiyo.pdf",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-87",
   },
   {
     // 古賀市（402231）R8・R7。R6〜R2 は収録済み（§13-85）。説明書 R8setsumeisho.pdf・R7setumeisho.pdf の p.4 は A3 見開きを1ページに収めた版で、歳入の総括が左右2段。
@@ -2424,5 +2424,25 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "予算書が全会計をまとめた圧縮ファイル（zip）で配られていて、こちらの抽出処理はその中の一般会計のファイルを取り出して読む手順を持っていない。中の資料は健全。",
     url: "https://www.kuriharacity.jp/li/030/040/001/020/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-84",
+  },
+  {
+    // 糸満市（472107）R6〜R2。R8・R7 は収録済み（§13-86）。
+    // 財政情報ページ（/soshiki/3/11747.html）の予算の欄は、R6〜H29 が「予算概要」の PDF 1本だけ（R6 14877・R5 14482・R4 14483・R3 14484・R2 14485）。中身は歳入の款別と歳出の性質別で、目的別の款が無い。WARP の年度一覧（2024-06・2025-03）も同じ（偵察）。
+    code: "472107", name: "糸満市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "この年度の予算書はウェブに掲載されておらず、掲載されている予算の概要の歳出は性質別（人件費・扶助費など）の表で、目的別（款別）の表が無い。",
+    url: "https://www.city.itoman.lg.jp/soshiki/3/11747.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
+  },
+  {
+    // 大和高田市（292028）R8。R7〜R2 は収録済み（§13-86）。
+    // 「令和8年度 予算の概要」（R8-yosan-gaiyou.pdf・32p）は26ページが画像（CCITT）で抽出できるのはノンブルだけ。予算書一般会計・予算に関する説明書も全ページがスキャン（偵察）。
+    code: "292028", name: "大和高田市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["scanned-image"],
+    reason:
+      "予算の概要・予算書・予算に関する説明書のどれもが紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.city.yamatotakada.nara.jp/shisei/zaisei_yosan_kessan/3298.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
   },
 ];
