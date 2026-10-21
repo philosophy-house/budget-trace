@@ -1,0 +1,19 @@
+{
+  "sourceId": "nabari-yosan-soukatsu-r2",
+  "files": [
+    {
+      "filename": "R2.sainyuu.pdf",
+      "sha256": "59894c6b929ec3932211e2dcccb8ca6714e28127b09194749841f4b0010455c0",
+      "bytes": 38524,
+      "fetchedAt": "2026-10-21T18:56:30.194Z",
+      "fetchedFrom": "https://www.city.nabari.lg.jp/s011/110/010/130/010/710/030/R2.sainyuu.pdf"
+    },
+    {
+      "filename": "R2.kanbetsu.pdf",
+      "sha256": "7d7d765adebc4ccf139a2ccf8f4ceb7a8772179faa06241819210d66e02257bb",
+      "bytes": 29995,
+      "fetchedAt": "2026-10-21T18:56:30.627Z",
+      "fetchedFrom": "https://www.city.nabari.lg.jp/s011/110/010/130/010/710/030/R2.kanbetsu.pdf"
+    }
+  ]
+}

@@ -2233,4 +2233,80 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.tsurugashima.lg.jp/gyousei/zaiei/yosan/page007850.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
   },
+  {
+    // 清須市（232335）R3・R2。R8〜R4 は収録済み（§13-76）。
+    // 現行サイトの /yosan/3nendo/・/2nendo/ は 404。Wayback の CDX は年度索引（20220709）だけで予算書のページも PDF も無い。WARP は「Available only within the facilities of the National Diet Library」（館内限定）＝偵察。
+    code: "232335", name: "清須市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason:
+      "発行元のサイトから令和3年度・令和2年度の予算資料が削除されていて、ウェブ上の写し（Wayback Machine）にも残っていない。国立国会図書館の保存分は館内でしか閲覧できない。",
+    url: "https://www.city.kiyosu.aichi.jp/shisei_joho/zaisei_jokyo/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
+  },
+  {
+    // 鯖江市（182079）R2。R8〜R3 は収録済み（§13-76）。
+    // WARP 20220809 の 2020tousyo.files/ippann.pdf p.5 で、廃止款「自動車取得税交付金」の行が金額の行「0 40,000 △40,000」と款名の行に分かれ、前年度 Σ が −40,000（try-parse で再現）。
+    code: "182079", name: "鯖江市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の総括のうち、廃止された款（自動車取得税交付金）の行が金額と款名で別々の行に割れていて、こちらの抽出処理では前年度の額を読めない（前年度の合計が4,000万円合わなくなる）。",
+    url: "https://warp.ndl.go.jp/20220809/20220808141731/https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/2020tousyo.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
+  },
+  {
+    // 姶良市（462250）R3・R2。R8〜R4 は収録済み（§13-77）。
+    // R3: 原案 32,047,000（予算書 2021-02-16 提出）を議案第37号（2021-03-29 提出・32,519,148）で出し直して成立。成立額の款別は修正箇所の
+    //   syuseisetumei.pdf・syuseiyosan.pdf・syuseigaiyou.pdf（いずれもスキャン画像に取り消し線と修正値）だけ。r3_tosyo_yosangaiyou.pdf は原案。R3 の年度ページの setumei.pdf は R4 に上書き。
+    // R2: 説明書 r2yosannsetumeisyo.pdf は議会修正前の原案 32,069,000、成立額 32,058,481。修正分 r2seumeisyosyuusei.pdf・r2yosannsyosyuusei.pdf はスキャン画像。
+    code: "462250", name: "姶良市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["format-mismatch", "scanned-image"],
+    reason:
+      "当初予算が議会で修正（令和2年度）または出し直し（令和3年度）されて成立したが、文字として読める款別の表は修正前の原案のもの。" +
+      "成立した額の款別は、原案の額に修正値を書き加えたスキャン画像にしか載っておらず、文字として取り出せない。",
+    url: "https://www.city.aira.lg.jp/zaisei/gyosei/yosan/kohyo/jokyo.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-77",
+  },
+  {
+    // 飯能市（112097）R6〜R2。R8・R7 は収録済み（§13-77）。
+    // 説明書 r6b01_j_ippan.pdf・r5b01_j_ippan.pdf・273440f074c4b.pdf（R4）・22949b2aadfdb.pdf（R3）・187793c28e22c.pdf（R2）は pdftotext 186〜193 文字・フォント0（R6 は CCITT 400dpi の画像）。
+    // R6 の予算参考資料 r6c00_sankou2.pdf の款別表は金額順で「その他」に括り、使用料と手数料も合算。
+    code: "112097", name: "飯能市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算に関する説明書（款ごとの前年度比較が載る総括を含む）が紙をスキャンした画像だけの PDF で、文字として取り出せない。",
+    url: "https://www.city.hanno.lg.jp/shiseijoho/zaisei/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-77",
+  },
+  {
+    // 柏原市（272213）R6。R8・R7・R5〜R2 は収録済み（§13-78）。
+    // 当初予算参考資料（/docs/2024052700037/）は60ページすべて CCITT 300dpi の画像（テキスト60字）。予算書（/_files/00512862/r6yosan-ippan-tokubetu.pdf）の総括 p.36 は
+    // 歳出の消防費の数字がテキスト層で `962 ,18 1` と割れる（画像では 962,181）。`amountTypos` で直せば Σ 差0 だが、誤植用の指定をテキスト層の割れに流用するかは人の判断。
+    code: "272213", name: "柏原市", dataset: "budget", fiscalYears: ["R6"],
+    categories: ["broken-text-layer"],
+    reason:
+      "款別の歳出が載る当初予算参考資料が紙をスキャンした画像だけの PDF で、予算書の総括は一部の款の数字が文字の層の上で途中で割れていて、そのままでは正しく取り出せない。",
+    url: "https://www.city.kashiwara.lg.jp/docs/2024032700019/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-78",
+  },
+  {
+    // 大館市（052043）R2。R8〜R3 は収録済み（§13-78）。パーサの issue #361。
+    code: "052043", name: "大館市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "当初予算の概要の歳入の総括表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度25,000千円）に付いている印（●）を、こちらの抽出処理が廃止の印として扱えず、その款が落ちる。原典の表は健全。",
+    url: "https://warp.ndl.go.jp/20260707/20260705021444/https://www.city.odate.lg.jp/city/soshiki/zaisei/p647",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-78",
+  },
+  {
+    // 名張市（242080）R7〜R3。R8・R2 は収録済み（§13-79）。
+    // R7・R6 は予算書その1 の総括 p.11/12 の款名がアウトライン化（款番号と金額だけが文字）。R7 の「当初予算（案）のポイント」の対前年度比較は歳入の款を「譲与税・交付金」に合算。
+    // R5・R4・R3 は予算書がスキャン画像（テキスト層0）。R5 の概要は円グラフだけ。推測のファイル名11通り・Wayback・WARP にも総括表は無い。
+    code: "242080", name: "名張市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3"],
+    categories: ["broken-text-layer", "scanned-image", "format-mismatch"],
+    reason:
+      "款ごとの前年度比較が載る予算書の総括は、令和7・6年度は款名が文字として取り出せない形（図形）で作られ、令和5・4・3年度は紙をスキャンした画像になっている。" +
+      "令和7年度の予算のポイントの比較表は、歳入の款をまとめた区分で款ごとの額が載っていない。",
+    url: "https://www.city.nabari.lg.jp/130/045/100/020/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-79",
+  },
 ];

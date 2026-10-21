@@ -1,0 +1,19 @@
+{
+  "sourceId": "moka-yosan-r7",
+  "files": [
+    {
+      "filename": "R7_sainyuyosan.pdf",
+      "sha256": "e8729723d073d4ac83bdea0eb49cf915e1c24f88fbc5366812b5dcfa0ca1f8cb",
+      "bytes": 136878,
+      "fetchedAt": "2026-10-21T17:02:23.948Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/R7_sainyuyosan.pdf"
+    },
+    {
+      "filename": "R7_saisyutuyosan.pdf",
+      "sha256": "15698c9dcdfa81694fed89a2dff9da73702f00fd9a9104b844e596454d230fc2",
+      "bytes": 122810,
+      "fetchedAt": "2026-10-21T17:02:24.526Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/R7_saisyutuyosan.pdf"
+    }
+  ]
+}

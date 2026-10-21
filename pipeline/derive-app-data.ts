@@ -3589,6 +3589,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第71巡（2026-10-22・§13-78） ----
+    // ⚠ 羽島は概要（災害復旧費の款なし）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hashima-yosan-gaiyou-${fy}`, muniCode: "212091", muniName: "羽島市", prefName: "岐阜県", isPref: false,
+    })),
+    // ⚠ 柏原は歳入（今年の予算）と歳出（議会提出の参考資料）の2ファイル。R6 は見送り。R7・R3 骨格
+    ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kashiwara-osaka-yosan-${fy}`, muniCode: "272213", muniName: "柏原市", prefName: "大阪府", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sodegaura-yosan-gaiyou-${fy}`, muniCode: "122297", muniName: "袖ケ浦市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 豊見城は2ファイル型の集計表（本文に市名なし）・R2・R4 は議会修正後。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tomigusuku-yosan-shukei-${fy}`, muniCode: "472123", muniName: "豊見城市", prefName: "沖縄県", isPref: false,
+    })),
+    // ⚠ 大館は発行元が 502 で WARP から取得。R5 骨格・R2 は廃止印 ● で見送り
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `odate-yosan-gaiyou-${fy}`, muniCode: "052043", muniName: "大館市", prefName: "秋田県", isPref: false,
+    })),
     // ---- 第67巡（2026-10-22・§13-73） ----
     // ⚠ 大田原は revenueHeading `一般会計`（`［歳入］` だと R4〜R2 で `一般会計市税`）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -3895,6 +3915,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `tsurugashima-yosansho-${fy}`, muniCode: "112411", muniName: "鶴ケ島市", prefName: "埼玉県", isPref: false,
     })),
     { srcId: "tsurugashima-yosan-gaiyou-r2", muniCode: "112411", muniName: "鶴ケ島市", prefName: "埼玉県", isPref: false },
+    // ---- 第69巡（2026-10-22・§13-76） ----
+    // ⚠ 総社は当初予算の概要（kanNoless・R8 だけ CropX）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `soja-yosan-gaiyou-${fy}`, muniCode: "332089", muniName: "総社市", prefName: "岡山県", isPref: false,
+    })),
+    // ⚠ 香取は予算書の総括（歳入は見開き）。R2 だけ当初予算の概要
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `katori-yosansho-${fy}`, muniCode: "122360", muniName: "香取市", prefName: "千葉県", isPref: false,
+    })),
+    { srcId: "katori-yosan-gaiyou-r2", muniCode: "122360", muniName: "香取市", prefName: "千葉県", isPref: false },
+    // ⚠ 福津は R7・R3 骨格（R8・R4 は前年度列が補正後＋prevNote）。R2 は Wayback
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fukutsu-yosansho-${fy}`, muniCode: "402249", muniName: "福津市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 清須は主要施策の概要（kanNoless）。R3・R2 はウェブに無く未収録
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `kiyosu-shuyou-sesaku-${fy}`, muniCode: "232335", muniName: "清須市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 鯖江 R4・R3 は WARP。R2 は廃止款の行が読めず未収録。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `sabae-yosan-ippan-${fy}`, muniCode: "182079", muniName: "鯖江市", prefName: "福井県", isPref: false,
+    })),
     // ---- 第55巡（2026-10-22・§13-60） ----
     // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -3983,7 +4025,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `chita-yosan-gaiyou-${fy}`, muniCode: "232246", muniName: "知多市", prefName: "愛知県", isPref: false,
     })),
-    // ---- 泉大津・知立・笠間・吉川・たつの（2026-10-22・§13-76） ----
+    // ---- 泉大津・知立・笠間・吉川・たつの（2026-10-22・§13-80） ----
     // ⚠ 泉大津は概要の右端の「増減額の主な内容」を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `izumiotsu-yosan-gaiyou-${fy}`, muniCode: "272060", muniName: "泉大津市", prefName: "大阪府", isPref: false,
@@ -4008,6 +4050,52 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     // ⚠ たつの R8〜R3 は decodeGarble（R5〜R3 は復号表に1字足した）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `tatsuno-yosan-sankou-${fy}`, muniCode: "282294", muniName: "たつの市", prefName: "兵庫県", isPref: false,
+    })),
+    // ---- 第70巡（2026-10-22・§13-77）: 真岡・姶良・飯能・行田・蒲郡 ----
+    // ⚠ 真岡は歳入・歳出が別ファイル（R2 の歳入は 2saisyutu.pdf）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `moka-yosan-${fy}`, muniCode: "092096", muniName: "真岡市", prefName: "栃木県", isPref: false,
+    })),
+    // ⚠ 姶良 R3・R2 は議会修正・出し直しで成立額がスキャンにしか無い（未収録）。R8 は骨格。ライセンスは台帳で要許可・noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `aira-yosansho-${fy}`, muniCode: "462250", muniName: "姶良市", prefName: "鹿児島県", isPref: false,
+    })),
+    // ⚠ 飯能は R8・R7 だけ（R6〜R2 の説明書はスキャン）。noDeepLink
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `hanno-yosan-setsumei-${fy}`, muniCode: "112097", muniName: "飯能市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 行田 R2 は款番号なし。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gyoda-yosan-gaiyou-${fy}`, muniCode: "112062", muniName: "行田市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 蒲郡は規約の本文が引用を承認する条件つきの許諾で unverified（門真と同じ扱い）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gamagori-yosan-gaiyou-${fy}`, muniCode: "232149", muniName: "蒲郡市", prefName: "愛知県", isPref: false,
+    })),
+    // ---- 第72巡（2026-10-22・§13-79）: 鳥栖・名張・岩見沢・桶川・大仙 ----
+    // ⚠ 鳥栖 R3 は明細書の総括（概要が図形化）。R5・R1 骨格で R6・R2 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `tosu-yosan-gaiyou-${fy}`, muniCode: "412031", muniName: "鳥栖市", prefName: "佐賀県", isPref: false,
+    })),
+    { srcId: "tosu-yosansho-r3", muniCode: "412031", muniName: "鳥栖市", prefName: "佐賀県", isPref: false },
+    // ⚠ 名張は R8・R2 だけ（R7〜R3 は総括が図形化かスキャン）。列指定が無いと前年度に一般財源を読む
+    { srcId: "nabari-yosan-shiryou-r8", muniCode: "242080", muniName: "名張市", prefName: "三重県", isPref: false },
+    { srcId: "nabari-yosan-soukatsu-r2", muniCode: "242080", muniName: "名張市", prefName: "三重県", isPref: false },
+    // ⚠ 岩見沢は1ページに歳入・歳出を縦に積む（samePage）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `iwamizawa-ippan-yosan-${fy}`, muniCode: "012106", muniName: "岩見沢市", prefName: "北海道", isPref: false,
+    })),
+    // ⚠ 桶川 R5 だけ説明書（概要の表がテキストを持たない）
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `okegawa-yosan-gaiyou-${fy}`, muniCode: "112313", muniName: "桶川市", prefName: "埼玉県", isPref: false,
+    })),
+    { srcId: "okegawa-yosan-setsumei-r5", muniCode: "112313", muniName: "桶川市", prefName: "埼玉県", isPref: false },
+    // ⚠ 大仙は WARP（発行元が 502）。R8・R7 は予算書・R6〜R2 は概要（prevColumnFirst）。R7 骨格で R8 に prevNote。ライセンスは台帳で要許可
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `daisen-yosansho-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `daisen-yosan-gaiyou-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
     })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。

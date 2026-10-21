@@ -57,6 +57,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "112097": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "一般会計予算に関する説明書（款ごとの前年度比較が載る総括を含む）が紙をスキャンした画像だけの PDF で、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "112127": {
     "budget": [
       {
@@ -558,6 +567,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "182079": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "款別の総括のうち、廃止された款（自動車取得税交付金）の行が金額と款名で別々の行に割れていて、こちらの抽出処理では前年度の額を読めない（前年度の合計が4,000万円合わなくなる）。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "192058": {
     "budget": [
       {
@@ -748,6 +766,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "232335": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "発行元のサイトから令和3年度・令和2年度の予算資料が削除されていて、ウェブ上の写し（Wayback Machine）にも残っていない。国立国会図書館の保存分は館内でしか閲覧できない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "242012": {
     "budget": [
       {
@@ -777,6 +804,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成22年度",
         "reason": "「平成22年度当初予算説明資料」の款別構成表の比較列が「平成21年度 肉付け後」で、前年度当初との比較になっていない。",
         "checkedOn": "2026-09-10"
+      }
+    ]
+  },
+  "242080": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度・令和6年度・令和5年度・令和4年度・令和3年度",
+        "reason": "款ごとの前年度比較が載る予算書の総括は、令和7・6年度は款名が文字として取り出せない形（図形）で作られ、令和5・4・3年度は紙をスキャンした画像になっている。令和7年度の予算のポイントの比較表は、歳入の款をまとめた区分で款ごとの額が載っていない。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
@@ -937,6 +973,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和4年度・令和3年度・令和2年度",
         "reason": "予算概要も予算書も全ページが画像で、ページ番号以外の文字の情報が入っていない。国立国会図書館の保存記録にある令和2年度の写しも同じ画像のファイルだった。",
         "checkedOn": "2026-09-26"
+      }
+    ]
+  },
+  "272213": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度",
+        "reason": "款別の歳出が載る当初予算参考資料が紙をスキャンした画像だけの PDF で、予算書の総括は一部の款の数字が文字の層の上で途中で割れていて、そのままでは正しく取り出せない。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
@@ -1358,6 +1403,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "462250": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "当初予算が議会で修正（令和2年度）または出し直し（令和3年度）されて成立したが、文字として読める款別の表は修正前の原案のもの。成立した額の款別は、原案の額に修正値を書き加えたスキャン画像にしか載っておらず、文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "470007": {
     "budget": [
       {
@@ -1592,6 +1646,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "一般会計予算書がウェブに掲載されていない。款別の前年度比較が載っている「当初予算資料」の表は3年度分を並べた表で、新しく設けられた款や廃止された款の古い年度の欄が空欄のため列が詰まり、既存パーサが前年度の列を取り違える。",
         "checkedOn": "2026-10-07"
+      }
+    ]
+  },
+  "052043": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "当初予算の概要の歳入の総括表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度25,000千円）に付いている印（●）を、こちらの抽出処理が廃止の印として扱えず、その款が落ちる。原典の表は健全。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
