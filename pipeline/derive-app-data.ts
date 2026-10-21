@@ -3616,6 +3616,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `higashiomi-yosan-gaiyou-${fy}`, muniCode: "252131", muniName: "東近江市", prefName: "滋賀県", isPref: false,
     })),
+    // ---- 甲賀・三原・高砂・摂津・亀岡（2026-10-22・§13-60） ----
+    // ⚠ 甲賀は歳入の款名に自主財源◇・依存財源◆の印（kanNamePrefixStrip）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `koka-shiga-yosan-shiryo-${fy}`, muniCode: "252093", muniName: "甲賀市", prefName: "滋賀県", isPref: false,
+    })),
+    // ⚠ 三原は概要の右端の増減要因を CropX 440 で落とす（540 だと款名が静かに壊れる）。license-no-grant で要許可・noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `mihara-yosan-gaiyou-${fy}`, muniCode: "342041", muniName: "三原市", prefName: "広島県", isPref: false,
+    })),
+    // ⚠ 高砂は R4 を収録しない（概要が原案訂正の前）。R6 は骨格予算で R7 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `takasago-yosan-gaiyou-${fy}`, muniCode: "282162", muniName: "高砂市", prefName: "兵庫県", isPref: false,
+    })),
+    // ⚠ 摂津 R5・R4 は地方譲与税の構成比の誤印字を amountTypos で空白にする（金額には触らない）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `settsu-yosan-soukatsu-${fy}`, muniCode: "272248", muniName: "摂津市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 亀岡 R2 は款名の注記記号「※」を kanNameSuffixStrip で落とす
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kameoka-yosan-shiryohen-${fy}`, muniCode: "262064", muniName: "亀岡市", prefName: "京都府", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

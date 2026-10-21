@@ -14130,6 +14130,44 @@
       "checkedAt": "2026-09-14T18:51:26.677Z"
     },
     {
+      "sourceId": "kameoka-yosan-shiryohen-r7",
+      "url": "https://www.city.kameoka.kyoto.jp/soshiki/8/72426.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260510114823/https://www.city.kameoka.kyoto.jp/soshiki/8/72426.html",
+      "waybackTimestamp": "20260510114823",
+      "checkedAt": "2026-10-21T16:10:11.116Z"
+    },
+    {
+      "sourceId": "kameoka-yosan-shiryohen-r7",
+      "url": "https://www.city.kameoka.kyoto.jp/uploaded/life/72426_167246_misc.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260123080234/https://www.city.kameoka.kyoto.jp/uploaded/life/72426_167246_misc.pdf",
+      "waybackTimestamp": "20260123080234",
+      "checkedAt": "2026-10-21T16:10:10.514Z",
+      "sha256Match": true,
+      "waybackBytes": 625989,
+      "rawSha256": "4cf20cfcbcb41b460d692a1d92da9138f69bb7f20438ee3b89af800657020ef6"
+    },
+    {
+      "sourceId": "kameoka-yosan-shiryohen-r8",
+      "url": "https://www.city.kameoka.kyoto.jp/soshiki/8/84347.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261014031706/https://www.city.kameoka.kyoto.jp/soshiki/8/84347.html",
+      "waybackTimestamp": "20261014031706",
+      "checkedAt": "2026-10-21T16:10:08.049Z"
+    },
+    {
+      "sourceId": "kameoka-yosan-shiryohen-r8",
+      "url": "https://www.city.kameoka.kyoto.jp/uploaded/life/84347_197665_misc.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261014031924/https://www.city.kameoka.kyoto.jp/uploaded/life/84347_197665_misc.pdf",
+      "waybackTimestamp": "20261014031924",
+      "checkedAt": "2026-10-21T16:10:07.552Z",
+      "sha256Match": true,
+      "waybackBytes": 593905,
+      "rawSha256": "e57c41bd03636b511f552332254faa4c2c84239d2b9570b6c9ce038652c6816e"
+    },
+    {
       "sourceId": "kamisu-yosan-setsumei-r2",
       "url": "https://www.city.kamisu.ibaraki.jp/_res/projects/default_project/_page_/001/003/304/r2ippankaikeisetsumeisyo.pdf",
       "kind": "file",
@@ -46613,6 +46651,25 @@
       "waybackUrl": "https://web.archive.org/web/20260203092141/https://www.city.takarazuka.hyogo.jp/1060687/1060727/1000137/1042315/1059274.html",
       "waybackTimestamp": "20260203092141",
       "checkedAt": "2026-08-23T20:52:41.345Z"
+    },
+    {
+      "sourceId": "takasago-yosan-gaiyou-r2",
+      "url": "https://www.city.takasago.lg.jp/gyoseisite/shiseijoho/gyozaisei/4/6/4623.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021161146/https://www.city.takasago.lg.jp/gyoseisite/shiseijoho/gyozaisei/4/6/4623.html",
+      "waybackTimestamp": "20261021161146",
+      "checkedAt": "2026-10-21T16:12:09.864Z"
+    },
+    {
+      "sourceId": "takasago-yosan-gaiyou-r2",
+      "url": "https://www.city.takasago.lg.jp/material/files/group/12/20200218-083703.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021161129/https://www.city.takasago.lg.jp/material/files/group/12/20200218-083703.pdf",
+      "waybackTimestamp": "20261021161129",
+      "checkedAt": "2026-10-21T16:11:40.591Z",
+      "sha256Match": true,
+      "waybackBytes": 400197,
+      "rawSha256": "b3df12d1a57f386cc62fd9597748f99836b9e575ad94e620b47baabf19cdfe67"
     },
     {
       "sourceId": "takasaki-shigikai-r8",
