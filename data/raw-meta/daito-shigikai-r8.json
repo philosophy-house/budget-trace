@@ -1,0 +1,32 @@
+{
+  "sourceId": "daito-shigikai-r8",
+  "files": [
+    {
+      "filename": "Kh133_1.pdf",
+      "sha256": "d637e0134281652e0e4c7301697fea78fd78c7c8920845b71744e68ae881f847",
+      "bytes": 6665579,
+      "fetchedAt": "2026-10-21T14:46:16.301Z",
+      "fetchedFrom": "https://daito.gijiroku.com/gikai/GikaiDoc/attach/koho/Kh133%5F1%2Epdf"
+    },
+    {
+      "filename": "g07_giketsu.asp.html",
+      "sha256": "ff1bb7784bbe69e5da002898cc813488f1bee0846a9dca5aa98fda7ee406e3be",
+      "bytes": 41386,
+      "fetchedAt": "2026-10-21T14:46:16.302Z",
+      "fetchedFrom": "https://daito.gijiroku.com/gikai/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026/02/24,2026/03/24,140&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "shikumi2.asp.html",
+      "sha256": "83b90adea00b1e0ac032b20eb07f6898f0fadfa9f310c64dbfad1cdc97802355",
+      "bytes": 8174,
+      "fetchedAt": "2026-10-21T14:46:16.303Z",
+      "fetchedFrom": "https://daito.gijiroku.com/gikai/shikumi2.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

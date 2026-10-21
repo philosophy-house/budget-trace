@@ -1,0 +1,265 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ikeda-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.11",
+  "parsedAt": "2026-10-21T16:18:24.096Z",
+  "fiscalYear": "R8",
+  "body": "池田市議会",
+  "seats": 22,
+  "asOf": "2026-03-27",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "大阪維新の会池田",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "安黒善雄",
+        "三宅正起",
+        "古川裕倫",
+        "笹村有里子",
+        "土田麻衣"
+      ],
+      "locator": {
+        "file": "gikai_dayori_R8_5.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "自民党保守の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小林義典",
+        "浜地慎一郎",
+        "沖本純子",
+        "松本康二郎"
+      ],
+      "locator": {
+        "file": "gikai_dayori_R8_5.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "池田未来の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "下窄明",
+        "西垣智",
+        "中田正紀",
+        "坂上昭栄"
+      ],
+      "locator": {
+        "file": "gikai_dayori_R8_5.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "多田隆一",
+        "荒木眞澄",
+        "藤本昌宏"
+      ],
+      "locator": {
+        "file": "gikai_dayori_R8_5.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "未来はぐくむプロジェクト",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "園部佳子",
+        "倉田晃",
+        "名村研二郎"
+      ],
+      "locator": {
+        "file": "gikai_dayori_R8_5.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山元建",
+        "藤原美知子"
+      ],
+      "locator": {
+        "file": "gikai_dayori_R8_5.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "無所属（守屋大道）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "守屋大道"
+      ],
+      "locator": {
+        "file": "gikai_dayori_R8_5.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第33号",
+    "billName": "令和8年度池田市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決(賛成多数)",
+    "locator": {
+      "file": "20615.html"
+    }
+  },
+  "rosterTitle": "いけだ市議会だより No.199（令和8年5月1日発行）議決結果〈3月定例会〉",
+  "resultTitle": "令和8年3月定例会 市長提出議案及び議決の結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "いけだ市議会だより No.199 議決結果〈3月定例会〉",
+    "sourceFile": "gikai_dayori_R8_5.pdf",
+    "columns": [
+      {
+        "label": "安黒善雄",
+        "faction": "大阪維新の会池田",
+        "member": "安黒善雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "三宅正起",
+        "faction": "大阪維新の会池田",
+        "member": "三宅正起",
+        "stance": "賛成"
+      },
+      {
+        "label": "古川裕倫",
+        "faction": "大阪維新の会池田",
+        "member": "古川裕倫",
+        "stance": "賛成"
+      },
+      {
+        "label": "笹村有里子",
+        "faction": "大阪維新の会池田",
+        "member": "笹村有里子",
+        "stance": "賛成"
+      },
+      {
+        "label": "土田麻衣",
+        "faction": "大阪維新の会池田",
+        "member": "土田麻衣",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林義典",
+        "faction": "自民党保守の会",
+        "member": "小林義典",
+        "stance": "賛成"
+      },
+      {
+        "label": "浜地慎一郎",
+        "faction": "自民党保守の会",
+        "member": "浜地慎一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "沖本純子",
+        "faction": "自民党保守の会",
+        "member": "沖本純子",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本康二郎",
+        "faction": "自民党保守の会",
+        "member": "松本康二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "下窄明",
+        "faction": "池田未来の会",
+        "member": "下窄明",
+        "stance": "賛成"
+      },
+      {
+        "label": "西垣智",
+        "faction": "池田未来の会",
+        "member": "西垣智",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂上昭栄",
+        "faction": "池田未来の会",
+        "member": "坂上昭栄",
+        "stance": "賛成"
+      },
+      {
+        "label": "多田隆一",
+        "faction": "公明党",
+        "member": "多田隆一",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒木眞澄",
+        "faction": "公明党",
+        "member": "荒木眞澄",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤本昌宏",
+        "faction": "公明党",
+        "member": "藤本昌宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "園部佳子",
+        "faction": "未来はぐくむプロジェクト",
+        "member": "園部佳子",
+        "stance": "賛成"
+      },
+      {
+        "label": "倉田晃",
+        "faction": "未来はぐくむプロジェクト",
+        "member": "倉田晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "名村研二郎",
+        "faction": "未来はぐくむプロジェクト",
+        "member": "名村研二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "山元建",
+        "faction": "日本共産党",
+        "member": "山元建",
+        "stance": "反対"
+      },
+      {
+        "label": "藤原美知子",
+        "faction": "日本共産党",
+        "member": "藤原美知子",
+        "stance": "反対"
+      },
+      {
+        "label": "守屋大道",
+        "faction": "無所属（守屋大道）",
+        "member": "守屋大道",
+        "stance": "賛成"
+      },
+      {
+        "label": "中田正紀",
+        "faction": "池田未来の会",
+        "member": "中田正紀",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "docType": "council-composition",
+  "sourceId": "moriguchi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.11",
+  "parsedAt": "2026-10-21T16:18:24.379Z",
+  "fiscalYear": "R8",
+  "body": "守口市議会",
+  "seats": 21,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "守口市議会公明党",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "工藤百合子",
+        "福本健一",
+        "寺嶋美和",
+        "小鍛冶宗親",
+        "西田久美",
+        "松本満義",
+        "西尾博道"
+      ],
+      "locator": {
+        "file": "giinnbetsusaiketsu0802_5.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "大阪維新の会守口市議会議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山本もちかた",
+        "山口たくや",
+        "梅村正明",
+        "山口真由美",
+        "武田賢一"
+      ],
+      "locator": {
+        "file": "giinnbetsusaiketsu0802_5.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党守口市会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "由井龍一郎",
+        "寺本けんた"
+      ],
+      "locator": {
+        "file": "giinnbetsusaiketsu0802_5.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "守口未来会議",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "服部浩之",
+        "高島賢",
+        "井内昌幸",
+        "福西寿光",
+        "江端将哲"
+      ],
+      "locator": {
+        "file": "giinnbetsusaiketsu0802_5.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党守口市議会議員団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "水原慶明"
+      ],
+      "locator": {
+        "file": "giinnbetsusaiketsu0802_5.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "守口市民の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "池嶋一夫"
+      ],
+      "locator": {
+        "file": "giinnbetsusaiketsu0802_5.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第21号",
+    "billName": "令和8年度守口市一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "20238.html"
+    }
+  },
+  "rosterTitle": "令和8年2月定例会 議員別採決結果一覧",
+  "resultTitle": "令和8年2月定例会 議案・議決結果一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年2月定例会 議員別採決結果一覧",
+    "sourceFile": "giinnbetsusaiketsu0802_5.pdf",
+    "columns": [
+      {
+        "label": "工藤百合子",
+        "faction": "守口市議会公明党",
+        "member": "工藤百合子",
+        "stance": "賛成"
+      },
+      {
+        "label": "福本健一",
+        "faction": "守口市議会公明党",
+        "member": "福本健一",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺嶋美和",
+        "faction": "守口市議会公明党",
+        "member": "寺嶋美和",
+        "stance": "賛成"
+      },
+      {
+        "label": "小鍛冶宗親",
+        "faction": "守口市議会公明党",
+        "member": "小鍛冶宗親",
+        "stance": "賛成"
+      },
+      {
+        "label": "西田久美",
+        "faction": "守口市議会公明党",
+        "member": "西田久美",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本満義",
+        "faction": "守口市議会公明党",
+        "member": "松本満義",
+        "stance": "賛成"
+      },
+      {
+        "label": "西尾博道",
+        "faction": "守口市議会公明党",
+        "member": "西尾博道",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本もちかた",
+        "faction": "大阪維新の会守口市議会議員団",
+        "member": "山本もちかた",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口たくや",
+        "faction": "大阪維新の会守口市議会議員団",
+        "member": "山口たくや",
+        "stance": "賛成"
+      },
+      {
+        "label": "梅村正明",
+        "faction": "大阪維新の会守口市議会議員団",
+        "member": "梅村正明",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口真由美",
+        "faction": "大阪維新の会守口市議会議員団",
+        "member": "山口真由美",
+        "stance": "賛成"
+      },
+      {
+        "label": "武田賢一",
+        "faction": "大阪維新の会守口市議会議員団",
+        "member": "武田賢一",
+        "stance": "賛成"
+      },
+      {
+        "label": "由井龍一郎",
+        "faction": "日本共産党守口市会議員団",
+        "member": "由井龍一郎",
+        "stance": "反対"
+      },
+      {
+        "label": "寺本けんた",
+        "faction": "日本共産党守口市会議員団",
+        "member": "寺本けんた",
+        "stance": "反対"
+      },
+      {
+        "label": "服部浩之",
+        "faction": "守口未来会議",
+        "member": "服部浩之",
+        "stance": "賛成"
+      },
+      {
+        "label": "高島賢",
+        "faction": "守口未来会議",
+        "member": "高島賢",
+        "stance": "賛成"
+      },
+      {
+        "label": "井内昌幸",
+        "faction": "守口未来会議",
+        "member": "井内昌幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "福西寿光",
+        "faction": "守口未来会議",
+        "member": "福西寿光",
+        "stance": "賛成"
+      },
+      {
+        "label": "水原慶明",
+        "faction": "自由民主党守口市議会議員団",
+        "member": "水原慶明",
+        "stance": "賛成"
+      },
+      {
+        "label": "池嶋一夫",
+        "faction": "守口市民の会",
+        "member": "池嶋一夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "江端将哲",
+        "faction": "守口未来会議",
+        "member": "江端将哲",
+        "stance": "議長"
+      }
+    ]
+  }
+}
