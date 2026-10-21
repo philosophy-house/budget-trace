@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 395,
+  "budgetCount": 399,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2992,
-  "fileCount": 4638,
-  "archivedCount": 2627,
+  "sourceCount": 3018,
+  "fileCount": 4664,
+  "archivedCount": 2650,
   "licenseOpen": 130,
-  "licensePermission": 2784,
+  "licensePermission": 2810,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1239,6 +1239,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "京田辺市",
+      "code": "262111",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "池田市",
       "code": "272043",
       "years": 7,
@@ -1361,6 +1367,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "飯塚市",
       "code": "402052",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "行橋市",
+      "code": "402133",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1593,6 +1605,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "碧南市",
+      "code": "232092",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "近江八幡市",
       "code": "252042",
       "years": 6,
@@ -1663,6 +1681,12 @@ export const ROADMAP_PROGRESS = {
       "code": "422011",
       "years": 6,
       "range": "H29〜R8（6年度）"
+    },
+    {
+      "name": "天草市",
+      "code": "432156",
+      "years": 6,
+      "range": "R2〜R7（6年度）"
     },
     {
       "name": "都城市",
