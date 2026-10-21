@@ -16,11 +16,11 @@ export const ROADMAP_PROGRESS = {
   "budgetCount": 473,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3488,
-  "fileCount": 5159,
-  "archivedCount": 2805,
+  "sourceCount": 3492,
+  "fileCount": 5163,
+  "archivedCount": 2815,
   "licenseOpen": 135,
-  "licensePermission": 3268,
+  "licensePermission": 3272,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1035,12 +1035,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
-      "name": "白井市",
-      "code": "122327",
-      "years": 7,
-      "range": "R2〜R8（7年度）"
-    },
-    {
       "name": "香取市",
       "code": "122360",
       "years": 7,
@@ -1191,12 +1185,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
-      "name": "加賀市",
-      "code": "172065",
-      "years": 7,
-      "range": "R2〜R8（7年度）"
-    },
-    {
       "name": "福井市",
       "code": "182010",
       "years": 7,
@@ -1325,6 +1313,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "瀬戸市",
       "code": "232041",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "津島市",
+      "code": "232084",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1515,12 +1509,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
-      "name": "藤井寺市",
-      "code": "272264",
-      "years": 7,
-      "range": "R2〜R8（7年度）"
-    },
-    {
       "name": "大阪狭山市",
       "code": "272311",
       "years": 7,
@@ -1565,6 +1553,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "天理市",
       "code": "292044",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "紀の川市",
+      "code": "302082",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1653,8 +1647,20 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "八女市",
+      "code": "402109",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "行橋市",
       "code": "402133",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "小郡市",
+      "code": "402168",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2001,12 +2007,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
-      "name": "大和高田市",
-      "code": "292028",
-      "years": 6,
-      "range": "R2〜R7（6年度）"
-    },
-    {
       "name": "呉市",
       "code": "342025",
       "years": 6,
@@ -2221,6 +2221,12 @@ export const ROADMAP_PROGRESS = {
       "code": "392014",
       "years": 5,
       "range": "H30〜R8（5年度）"
+    },
+    {
+      "name": "古賀市",
+      "code": "402231",
+      "years": 5,
+      "range": "R2〜R6（5年度）"
     },
     {
       "name": "玉名市",
@@ -2491,12 +2497,6 @@ export const ROADMAP_PROGRESS = {
       "code": "412015",
       "years": 2,
       "range": "R5〜R8（2年度）"
-    },
-    {
-      "name": "糸満市",
-      "code": "472107",
-      "years": 2,
-      "range": "R7〜R8（2年度）"
     }
   ],
   "kofuDetail": {
