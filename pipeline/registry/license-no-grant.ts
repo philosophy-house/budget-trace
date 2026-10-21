@@ -81,4 +81,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "たつの市", license: "Copyright (c) 2025 Tatsuno city. All Rights Reserved." },
   { who: "姶良市", license: "Copyright © The Official Website of Aira City. All Rights Reserved." },
   { who: "大仙市", license: "©2024 DAISEN City" },
+  { who: "玉名市", license: "Copyright © 2015 TAMANA CITY All rights reserved." },
 ];

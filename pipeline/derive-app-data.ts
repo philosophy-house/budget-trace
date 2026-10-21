@@ -4097,6 +4097,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `daisen-yosan-gaiyou-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
     })),
+    // ---- 第74巡（2026-10-22・§13-82）: 名護・佐伯・伊東・玉名・敦賀 ----
+    // ⚠ 名護は R3 から（R2 以前は予算書の掲載なし）。リンク条項が割れて noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `nago-yosansho-${fy}`, muniCode: "472093", muniName: "名護市", prefName: "沖縄県", isPref: false,
+    })),
+    // ⚠ 佐伯は R7・R3 骨格（R8・R4 に prevNote）。R2 はテキスト層なしで未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `saiki-yosansho-${fy}`, muniCode: "442054", muniName: "佐伯市", prefName: "大分県", isPref: false,
+    })),
+    // ⚠ 伊東は歳出の見出しを財源内訳の列見出しにする（「歳」だと款1 が汚れる）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ito-shizuoka-yosansho-${fy}`, muniCode: "222089", muniName: "伊東市", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 玉名は R4 から（R3・R2 は歳入が款別でない）。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `tamana-yosansho-${fy}`, muniCode: "432067", muniName: "玉名市", prefName: "熊本県", isPref: false,
+    })),
+    // ⚠ 敦賀は R5 骨格。R6・R2 の前年度列は6月補正後（prevBasis＋prevNote）。R2 は Wayback
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tsuruga-yosan-about-${fy}`, muniCode: "182028", muniName: "敦賀市", prefName: "福井県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

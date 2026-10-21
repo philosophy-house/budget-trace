@@ -2959,6 +2959,8 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.nagasaki.lg.jp/site/gikai/5681.html": "https://web.archive.org/web/20260612083032/https://www.city.nagasaki.lg.jp/site/gikai/5681.html",
   "https://www.city.nagasaki.lg.jp/site/gikai/75929.html": "https://web.archive.org/web/20260413075255/https://www.city.nagasaki.lg.jp/site/gikai/75929.html",
   "https://www.city.nagasaki.lg.jp/uploaded/attachment/56672.pdf": "https://web.archive.org/web/20261001183345/https://www.city.nagasaki.lg.jp/uploaded/attachment/56672.pdf",
+  "https://www.city.nago.okinawa.jp/municipal/2021032400017/": "https://web.archive.org/web/20260207015619/https://www.city.nago.okinawa.jp/municipal/2021032400017/",
+  "https://www.city.nago.okinawa.jp/municipal/2021032400017/file_contents/R8toushoyosansho.pdf": "https://web.archive.org/web/20261021210955/https://www.city.nago.okinawa.jp/municipal/2021032400017/file_contents/R8toushoyosansho.pdf",
   "https://www.city.nagoya.jp/shikai/about/1030637/1030640/index.html": "https://web.archive.org/web/20260119120549/https://www.city.nagoya.jp/shikai/about/1030637/1030640/index.html",
   "https://www.city.nagoya.jp/shikai/about/1030778/1030799.html": "https://web.archive.org/web/20260606172347/https://www.city.nagoya.jp/shikai/about/1030778/1030799.html",
   "https://www.city.nagoya.jp/shikai/kouhou/1030998/1030999/1051058/1045525/1049358/1049365.html": "https://web.archive.org/web/20261001153704/https://www.city.nagoya.jp/shikai/kouhou/1030998/1030999/1051058/1045525/1049358/1049365.html",

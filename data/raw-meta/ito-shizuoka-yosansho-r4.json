@@ -1,0 +1,12 @@
+{
+  "sourceId": "ito-shizuoka-yosansho-r4",
+  "files": [
+    {
+      "filename": "ippanntousho.pdf",
+      "sha256": "20324dce9d289646cb1acd30a0c59f9e01120d6a7ecde775d94511dd541fccf3",
+      "bytes": 3201715,
+      "fetchedAt": "2026-10-21T21:08:39.683Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/material/files/group/7/ippanntousho.pdf"
+    }
+  ]
+}

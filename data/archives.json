@@ -30162,6 +30162,25 @@
       "checkedAt": "2026-10-01T18:34:09.768Z"
     },
     {
+      "sourceId": "nago-yosansho-r8",
+      "url": "https://www.city.nago.okinawa.jp/municipal/2021032400017/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260207015619/https://www.city.nago.okinawa.jp/municipal/2021032400017/",
+      "waybackTimestamp": "20260207015619",
+      "checkedAt": "2026-10-21T21:10:17.867Z"
+    },
+    {
+      "sourceId": "nago-yosansho-r8",
+      "url": "https://www.city.nago.okinawa.jp/municipal/2021032400017/file_contents/R8toushoyosansho.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021210955/https://www.city.nago.okinawa.jp/municipal/2021032400017/file_contents/R8toushoyosansho.pdf",
+      "waybackTimestamp": "20261021210955",
+      "checkedAt": "2026-10-21T21:10:17.249Z",
+      "sha256Match": true,
+      "waybackBytes": 6138400,
+      "rawSha256": "3015860c23e9f4bec54c06729bd5e44411bb612cc686165226c3a8f257b8ed83"
+    },
+    {
       "sourceId": "nagoya-shikai-r8",
       "url": "https://www.city.nagoya.jp/shikai/about/1030637/1030640/index.html",
       "kind": "file",

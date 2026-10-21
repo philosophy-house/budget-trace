@@ -1,0 +1,12 @@
+{
+  "sourceId": "ito-shizuoka-yosansho-r5",
+  "files": [
+    {
+      "filename": "ippannkaikei.pdf",
+      "sha256": "6c4469546c4f139cd6dee05c6846f6b341f2cdc209abac1175498915c1adf59d",
+      "bytes": 3200616,
+      "fetchedAt": "2026-10-21T21:08:37.170Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/material/files/group/7/ippannkaikei.pdf"
+    }
+  ]
+}
