@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 502,
+  "budgetCount": 507,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3675,
-  "fileCount": 5346,
-  "archivedCount": 2862,
+  "sourceCount": 3708,
+  "fileCount": 5379,
+  "archivedCount": 2871,
   "licenseOpen": 135,
-  "licensePermission": 3455,
+  "licensePermission": 3488,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -771,6 +771,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "北広島市",
+      "code": "012343",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "石狩市",
       "code": "012351",
       "years": 7,
@@ -1025,6 +1031,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "茂原市",
       "code": "122106",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "東金市",
+      "code": "122131",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1725,6 +1737,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "観音寺市",
+      "code": "372056",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "三豊市",
       "code": "372081",
       "years": 7,
@@ -1829,6 +1847,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "大村市",
       "code": "422053",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "宇城市",
+      "code": "432130",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2275,6 +2299,12 @@ export const ROADMAP_PROGRESS = {
       "code": "131091",
       "years": 5,
       "range": "R4〜R8（5年度）"
+    },
+    {
+      "name": "福生市",
+      "code": "132187",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
     },
     {
       "name": "浜松市",

@@ -4327,6 +4327,25 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `kudamatsu-yosan-setsumei-${fy}`, muniCode: "352071", muniName: "下松市", prefName: "山口県", isPref: false,
     })),
     { srcId: "kudamatsu-yosansho-r3", muniCode: "352071", muniName: "下松市", prefName: "山口県", isPref: false },
+    // ---- 福生・東金・北広島・観音寺・宇城（2026-10-22・§13-92） ----
+    ...(["r8", "r7", "r6", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fussa-yosansho-${fy}`, muniCode: "132187", muniName: "福生市", prefName: "東京都", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `togane-yosansho-${fy}`, muniCode: "122131", muniName: "東金市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kitahiroshima-yosansho-${fy}`, muniCode: "012343", muniName: "北広島市", prefName: "北海道", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kanonji-yosan-gaiyou-${fy}`, muniCode: "372056", muniName: "観音寺市", prefName: "香川県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `uki-yosansho-${fy}`, muniCode: "432130", muniName: "宇城市", prefName: "熊本県", isPref: false,
+    })),
+    ...(["r3", "r2"] as const).map((fy) => ({
+      srcId: `uki-zaisei-kohyo-${fy}`, muniCode: "432130", muniName: "宇城市", prefName: "熊本県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
