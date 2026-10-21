@@ -3589,7 +3589,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
-    // ---- 第69巡（2026-10-22・§13-76） ----
+    // ---- 第70巡（2026-10-22・§13-77） ----
     // ⚠ 羽島は概要（災害復旧費の款なし）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hashima-yosan-gaiyou-${fy}`, muniCode: "212091", muniName: "羽島市", prefName: "岐阜県", isPref: false,
@@ -3915,6 +3915,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `tsurugashima-yosansho-${fy}`, muniCode: "112411", muniName: "鶴ケ島市", prefName: "埼玉県", isPref: false,
     })),
     { srcId: "tsurugashima-yosan-gaiyou-r2", muniCode: "112411", muniName: "鶴ケ島市", prefName: "埼玉県", isPref: false },
+    // ---- 第69巡（2026-10-22・§13-76） ----
+    // ⚠ 総社は当初予算の概要（kanNoless・R8 だけ CropX）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `soja-yosan-gaiyou-${fy}`, muniCode: "332089", muniName: "総社市", prefName: "岡山県", isPref: false,
+    })),
+    // ⚠ 香取は予算書の総括（歳入は見開き）。R2 だけ当初予算の概要
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `katori-yosansho-${fy}`, muniCode: "122360", muniName: "香取市", prefName: "千葉県", isPref: false,
+    })),
+    { srcId: "katori-yosan-gaiyou-r2", muniCode: "122360", muniName: "香取市", prefName: "千葉県", isPref: false },
+    // ⚠ 福津は R7・R3 骨格（R8・R4 は前年度列が補正後＋prevNote）。R2 は Wayback
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fukutsu-yosansho-${fy}`, muniCode: "402249", muniName: "福津市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 清須は主要施策の概要（kanNoless）。R3・R2 はウェブに無く未収録
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `kiyosu-shuyou-sesaku-${fy}`, muniCode: "232335", muniName: "清須市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 鯖江 R4・R3 は WARP。R2 は廃止款の行が読めず未収録。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `sabae-yosan-ippan-${fy}`, muniCode: "182079", muniName: "鯖江市", prefName: "福井県", isPref: false,
+    })),
     // ---- 第55巡（2026-10-22・§13-60） ----
     // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

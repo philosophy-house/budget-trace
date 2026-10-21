@@ -2234,7 +2234,27 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
   },
   {
-    // 柏原市（272213）R6。R8・R7・R5〜R2 は収録済み（§13-76）。
+    // 清須市（232335）R3・R2。R8〜R4 は収録済み（§13-76）。
+    // 現行サイトの /yosan/3nendo/・/2nendo/ は 404。Wayback の CDX は年度索引（20220709）だけで予算書のページも PDF も無い。WARP は「Available only within the facilities of the National Diet Library」（館内限定）＝偵察。
+    code: "232335", name: "清須市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason:
+      "発行元のサイトから令和3年度・令和2年度の予算資料が削除されていて、ウェブ上の写し（Wayback Machine）にも残っていない。国立国会図書館の保存分は館内でしか閲覧できない。",
+    url: "https://www.city.kiyosu.aichi.jp/shisei_joho/zaisei_jokyo/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
+  },
+  {
+    // 鯖江市（182079）R2。R8〜R3 は収録済み（§13-76）。
+    // WARP 20220809 の 2020tousyo.files/ippann.pdf p.5 で、廃止款「自動車取得税交付金」の行が金額の行「0 40,000 △40,000」と款名の行に分かれ、前年度 Σ が −40,000（try-parse で再現）。
+    code: "182079", name: "鯖江市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の総括のうち、廃止された款（自動車取得税交付金）の行が金額と款名で別々の行に割れていて、こちらの抽出処理では前年度の額を読めない（前年度の合計が4,000万円合わなくなる）。",
+    url: "https://warp.ndl.go.jp/20220809/20220808141731/https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/2020tousyo.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
+  },
+  {
+    // 柏原市（272213）R6。R8・R7・R5〜R2 は収録済み（§13-77）。
     // 当初予算参考資料（/docs/2024052700037/）は60ページすべて CCITT 300dpi の画像（テキスト60字）。予算書（/_files/00512862/r6yosan-ippan-tokubetu.pdf）の総括 p.36 は
     // 歳出の消防費の数字がテキスト層で `962 ,18 1` と割れる（画像では 962,181）。`amountTypos` で直せば Σ 差0 だが、誤植用の指定をテキスト層の割れに流用するかは人の判断。
     code: "272213", name: "柏原市", dataset: "budget", fiscalYears: ["R6"],
@@ -2242,15 +2262,15 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "款別の歳出が載る当初予算参考資料が紙をスキャンした画像だけの PDF で、予算書の総括は一部の款の数字が文字の層の上で途中で割れていて、そのままでは正しく取り出せない。",
     url: "https://www.city.kashiwara.lg.jp/docs/2024032700019/",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-77",
   },
   {
-    // 大館市（052043）R2。R8〜R3 は収録済み（§13-76）。パーサの issue #361。
+    // 大館市（052043）R2。R8〜R3 は収録済み（§13-77）。パーサの issue #361。
     code: "052043", name: "大館市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["parser-unsupported"],
     reason:
       "当初予算の概要の歳入の総括表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度25,000千円）に付いている印（●）を、こちらの抽出処理が廃止の印として扱えず、その款が落ちる。原典の表は健全。",
     url: "https://warp.ndl.go.jp/20260707/20260705021444/https://www.city.odate.lg.jp/city/soshiki/zaisei/p647",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-77",
   },
 ];
