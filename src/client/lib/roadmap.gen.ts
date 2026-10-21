@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 454,
+  "budgetCount": 459,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3372,
-  "fileCount": 5043,
-  "archivedCount": 2779,
+  "sourceCount": 3405,
+  "fileCount": 5076,
+  "archivedCount": 2791,
   "licenseOpen": 135,
-  "licensePermission": 3152,
+  "licensePermission": 3185,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1287,6 +1287,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "津島市",
+      "code": "232084",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "蒲郡市",
       "code": "232149",
       "years": 7,
@@ -1509,6 +1515,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "紀の川市",
+      "code": "302082",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "岡山市",
       "code": "331007",
       "years": 7,
@@ -1587,8 +1599,20 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "八女市",
+      "code": "402109",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "行橋市",
       "code": "402133",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "小郡市",
+      "code": "402168",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2125,6 +2149,12 @@ export const ROADMAP_PROGRESS = {
       "code": "392014",
       "years": 5,
       "range": "H30〜R8（5年度）"
+    },
+    {
+      "name": "古賀市",
+      "code": "402231",
+      "years": 5,
+      "range": "R2〜R6（5年度）"
     },
     {
       "name": "姶良市",
