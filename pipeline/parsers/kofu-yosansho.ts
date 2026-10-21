@@ -630,6 +630,30 @@ interface Options {
    * ⚠ 款の後に款名の下段が続く様式（下段待ち）とは組み合わせない — 下段も内訳として捨てられる。
    */
   detailRowsAfterKan?: boolean;
+  /**
+   * **款の金額行が款名の行の上にある様式**（側ごと・2026-10-21・千歳の歳出 #312）。千歳の「（款別）会計：一般会計」は款ごとに
+   * 「金額行／款番号つき款名行／(一般財源) 行」の3行組で、合計も「金額行／`合 計`／(一般財源) 行」になる:
+   * ```
+   *                    217,180   208,545   8,015   620   220,537   210,016   9,034   ← 金額（款番号も款名も無い）
+   *  １議会費                                                                      ← 款名（金額が無い）
+   *                   (217,179) (208,544) (8,015) (620) (220,536) (210,015) (9,034) ← 一般財源（parenAltRows で消す）
+   * ```
+   * 指定すると、**金額の無い款番号つきの行**の直前の空でない行が日本語を含まない金額行なら、それをその款の金額にする。
+   * 合計ラベルだけの行も同じく直前の金額行を合計にする。指定しないと款名の後ろの (一般財源) 行が款の金額に読まれる。
+   */
+  amountsAboveName?: { revenue?: boolean; expenditure?: boolean };
+  /**
+   * **当年度の合計の後に当年度の内訳が続き、その後に前年度の合計が来る様式**（側ごと・2026-10-21・千歳の歳出 #312）。
+   * 千歳は当年度の合計・経常費・臨時費・投資的経費、前年度の合計・経常費・臨時費を1行に並べ、**空欄のセルで列が詰まる**
+   * ため、前年度の合計の添字が款ごとに 4・3・2 と動く（`prevIntIndex` で固定できない）。
+   * 指定すると、前年度の位置を「**当年度の合計 ＝ その後に続く整数の和**」になる最初の位置の次と決める
+   * （`54,114 19,380 34,734 47,187 …` なら 19,380＋34,734＝54,114 なので前年度は 47,187）。款行と合計行の両方に効く。
+   * ⚠ 和が一致する位置が無ければ throw する（推測で列を選ばない）。
+   * ⚠ 内訳のセルに `0` が印字される様式では、和が早く一致して前年度に `0` を読みうる（千歳 R8〜R2 は空欄のままで `0` は印字されない）。
+   *   その場合も合計行が同じ規則で読むので、ずれは前年度 Σ の error で止まる。前年度側の内訳は見開きの次ページに切れていて和で確かめられない
+   *   ので、前年度は Σ と年度間の照合で確かめる。
+   */
+  prevAfterBreakdown?: { revenue?: boolean; expenditure?: boolean };
 }
 
 /** 丸数字（①〜㊿・㉑〜㉟ の追加面も含む）→ 半角数字。`kanNoCircled` のときだけ行頭に適用する */
@@ -902,6 +926,21 @@ function parseKanPage(
     typeof v === "object" ? v[side] : v;
   const amountIntIndex = pickSide(opts.amountIntIndex);
   const prevIntIndex = pickSide(opts.prevIntIndex);
+  // 金額行が款名の上にある様式・前年度が内訳の後に来る様式（Options.amountsAboveName / prevAfterBreakdown 参照）
+  const amountsAbove = side === "revenue" ? opts.amountsAboveName?.revenue : opts.amountsAboveName?.expenditure;
+  const prevAfterBreakdown =
+    side === "revenue" ? opts.prevAfterBreakdown?.revenue : opts.prevAfterBreakdown?.expenditure;
+  const breakdownPrevIdx = (ints: string[], raw: string): number => {
+    const head = toAmount(ints[0]!);
+    let sum = 0;
+    for (let k = 1; k < ints.length - 1; k++) {
+      sum += toAmount(ints[k]!);
+      if (sum === head) return k + 1;
+    }
+    throw new Error(
+      `${filename} ${pageLabel}: prevAfterBreakdown — 当年度の合計 ${ints[0]} に和が一致する内訳が見つかりません: ${raw.trim()}`,
+    );
+  };
   // 款名が次行へ続く款（Options.kanNameContinues 参照）
   const tailKans = new Set(
     (side === "revenue" ? opts.kanNameContinues?.revenue : opts.kanNameContinues?.expenditure) ?? [],
@@ -1118,7 +1157,11 @@ function parseKanPage(
     // 前年度が **△1 → −1** になる（正: 1）。
     let amount: number;
     let prevAmount: number;
-    if (amountIntIndex != null && prevIntIndex != null) {
+    if (prevAfterBreakdown) {
+      // 前年度は内訳の後（Options.prevAfterBreakdown 参照）。皆増/皆減の推測は通さない
+      amount = toAmount(ints[0]!);
+      prevAmount = toAmount(ints[breakdownPrevIdx(ints, raw)]!);
+    } else if (amountIntIndex != null && prevIntIndex != null) {
       // 列位置を直接指定する様式（Options.amountIntIndex 参照）。**皆増/皆減の推測は通さない** —
       // 位置が固定である様式にだけ使うオプションなので、推測を混ぜると逆に壊れる。
       // 範囲外は throw（静かに別の列を読ませない）。
@@ -1294,6 +1337,14 @@ function parseKanPage(
         ? raw.replace(/(?<=[\d,.]) (?=[\d,.])/g, "")
         : raw;
       let ints = (stripPercents(forAmount).match(AMOUNT_RE) ?? []).filter((t) => !t.includes("."));
+      // 合計の金額行がラベルの上にある様式（Options.amountsAboveName 参照）。日本語を含まない行だけ
+      if (amountsAbove && ints.length < 2) {
+        const prev = allLines.slice(0, i).reverse().find((l) => l.replace(/[\s　]/g, "") !== "");
+        if (prev != null && !hasCJKChars(prev)) {
+          const above = (stripPercents(prev).match(AMOUNT_RE) ?? []).filter((t) => !t.includes("."));
+          if (above.length >= 2) ints = [...ints, ...above];
+        }
+      }
       // 合計ラベルと金額が別行の様式（Options.totalAmountNextLine 参照）
       if (opts.totalAmountNextLine && ints.length < 2) {
         const next = allLines.slice(i + 1).find((l) => l.replace(/[\s　]/g, "") !== "");
@@ -1321,7 +1372,10 @@ function parseKanPage(
       // （Options 参照・豊橋）。指定が無ければ従来どおり款行と同じ添字を使う。
       const totalAmtIdx = pickSide(opts.totalAmountIntIndex) ?? amountIntIndex;
       const totalPrevIdx = pickSide(opts.totalPrevIntIndex) ?? prevIntIndex;
-      if (totalAmtIdx != null && totalPrevIdx != null) {
+      if (prevAfterBreakdown) {
+        total = toAmount(ints[0]!);
+        prevTotal = toAmount(ints[breakdownPrevIdx(ints, bestRaw)]!);
+      } else if (totalAmtIdx != null && totalPrevIdx != null) {
         // 既定では款行と同じ添字（列指定の様式は合計行も同じ列構成であることが多い。京都府で実測）。
         // **合計行だけ列が違う様式**は上の `total*IntIndex` がこれを上書きする（豊橋）。
         // どちらの経路でも範囲外なら throw する（＝静かに別の列を読ませない）。
@@ -1563,6 +1617,19 @@ function parseKanPage(
       .replace(/\([ｱ-ﾝ]\)$/, "")
       // 縦書きの表側ラベルが1文字だけ紛れ込む様式（Options.kanNamePrefixStrip 参照）
       .replace(opts.kanNamePrefixStrip ? new RegExp(`^[${opts.kanNamePrefixStrip}]`) : /(?!)/, "");
+
+    // 金額行が款名の上にある様式（Options.amountsAboveName 参照）: 金額の無い款番号つきの行は、直前の空でない行が
+    // 日本語を含まない金額行ならそれを款の金額にする
+    if (amountsAbove && lead && tokens.length === 0 && hasCJK(namePart)) {
+      const prev = allLines.slice(0, li).reverse().find((l) => l.replace(/[\s　]/g, "") !== "");
+      const above = prev != null && !hasCJKChars(prev)
+        ? (stripPercents(prev).match(AMOUNT_RE) ?? []).filter((t) => !t.includes("."))
+        : [];
+      if (above.length >= 2) {
+        emit(Number(lead[1]), pendName + namePart, above, prev!);
+        continue;
+      }
+    }
 
     // **廃止款**（当年度に廃止された税目）。原典は款番号の代わりに記号を置くか、何も置かない:
     //   甲府 R2   `廃款 （自動車取得税交付金）        76,900  △ 76,900   皆減`

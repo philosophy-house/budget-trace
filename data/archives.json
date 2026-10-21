@@ -3167,6 +3167,63 @@
       "rawSha256": "657e6b170b857f8c04b2d967d1e5a225dba375485a9755907977bd2a7e2980fb"
     },
     {
+      "sourceId": "chitose-yosan-setsumei-r6",
+      "url": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/937/__6_________________.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021145053/https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/937/__6_________________.pdf",
+      "waybackTimestamp": "20261021145053",
+      "checkedAt": "2026-10-21T14:51:20.767Z",
+      "sha256Match": true,
+      "waybackBytes": 3068826,
+      "rawSha256": "63e4ca7dd34bcd4644de4403127387c279f6667255dcfd140c3efda36d1eb500"
+    },
+    {
+      "sourceId": "chitose-yosan-setsumei-r6",
+      "url": "https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1003937.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260411212117/https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1003937.html",
+      "waybackTimestamp": "20260411212117",
+      "checkedAt": "2026-10-21T14:51:21.277Z"
+    },
+    {
+      "sourceId": "chitose-yosan-setsumei-r7",
+      "url": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/004/182/__7_________________.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021145022/https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/004/182/__7_________________.pdf",
+      "waybackTimestamp": "20261021145022",
+      "checkedAt": "2026-10-21T14:50:51.032Z",
+      "sha256Match": true,
+      "waybackBytes": 3033076,
+      "rawSha256": "cbb8829bf38536a3b6c71a473f0a90631ec456bed51c13acc5a5ec0dd2609063"
+    },
+    {
+      "sourceId": "chitose-yosan-setsumei-r7",
+      "url": "https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1004182.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260411202740/https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1004182.html",
+      "waybackTimestamp": "20260411202740",
+      "checkedAt": "2026-10-21T14:50:51.614Z"
+    },
+    {
+      "sourceId": "chitose-yosan-setsumei-r8",
+      "url": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/005/846/2026-03.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260411204224/https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/005/846/2026-03.pdf",
+      "waybackTimestamp": "20260411204224",
+      "checkedAt": "2026-10-21T14:50:19.536Z",
+      "sha256Match": true,
+      "waybackBytes": 3172088,
+      "rawSha256": "898dbb6933c493b835e5e32b4ddd0ee1934c85e3c6333f8586e4033e315b8652"
+    },
+    {
+      "sourceId": "chitose-yosan-setsumei-r8",
+      "url": "https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1005846.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260411201438/https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1005846.html",
+      "waybackTimestamp": "20260411201438",
+      "checkedAt": "2026-10-21T14:50:19.985Z"
+    },
+    {
       "sourceId": "chiyoda-kugikai-r8",
       "url": "https://gikai-chiyoda-tokyo.jp/kaigi/kekka/files/20261teikekka.pdf",
       "kind": "file",
