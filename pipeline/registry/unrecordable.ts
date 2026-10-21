@@ -1965,4 +1965,25 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.omihachiman.lg.jp/gyosei/gyozaisei/yosan/17908.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
+  {
+    // 舞鶴市（262021）R3。R8〜R4 は収録済み（§13-66）。
+    // 事項別明細書（総括）/shisei/cmsfiles/contents/0000007/7730/3jikoubetsumeisai(soukatsu).pdf（5ページ）・一般会計予算書・資料1・資料3 とも 600dpi CCITT の画像（pdftotext はページ番号だけ）。Wayback の CDX は0件。
+    code: "262021", name: "舞鶴市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書・事項別明細書（総括）・当初予算概要の資料が、どれも紙をスキャンした画像の PDF で、文字として取り出せない。",
+    url: "https://www.city.maizuru.kyoto.jp/shisei/0000007730.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-66",
+  },
+  {
+    // 舞鶴市（262021）R2。事項別明細書（総括）/shisei/cmsfiles/contents/0000006/6027/2jikoubetsumeisai(soukatsu).pdf は文字が取れるが、
+    // 廃止款の行「（自動車取得税交付金）」が当年度空欄・比較が半角の `-61,800` で、当年度空欄の廃止款の判定（`△`/`▲` 前提）に当たらず前年度 Σ が −61,800 ずれる。
+    // `amountTypos` は款と項の2行に同じ字面があり1回一致の制約で使えない。資料1・資料3 はスキャン。
+    code: "262021", name: "舞鶴市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款ごとの前年度比較が載る事項別明細書（総括）は文字が取れるが、廃止された款の行が当年度の欄が空白で減少額を半角のハイフンで書く形になっていて、既存のパーサがこの行を読めず前年度の合計が合わない。",
+    url: "https://www.city.maizuru.kyoto.jp/shisei/0000006027.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-66",
+  },
 ];

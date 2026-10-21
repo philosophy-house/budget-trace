@@ -72,4 +72,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "あま市", license: "当サイトに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、日本国著作権法及び国際条約により保護されています。" },
   { who: "長岡京市", license: "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。" },
   { who: "薩摩川内市", license: "Copyright (c) 2023 Satsumasendai city. All Rights Reserved." },
+  { who: "舞鶴市", license: "Copyright © 舞鶴市役所 All Right Reserved" },
 ];
