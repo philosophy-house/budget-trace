@@ -1,0 +1,12 @@
+{
+  "sourceId": "takaishi-yosansho-r2",
+  "files": [
+    {
+      "filename": "2yosan.pdf",
+      "sha256": "192aa1c3937b9ab3a35d8b613c1e5724c3ae49a0f1787d168d5187a94961f99a",
+      "bytes": 8732962,
+      "fetchedAt": "2026-10-21T22:26:38.943Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20230209/20230209100627/https://www.city.takaishi.lg.jp/material/files/group/18/2yosan.pdf"
+    }
+  ]
+}

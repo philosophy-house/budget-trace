@@ -2531,33 +2531,121 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-92",
   },
   {
-    // 宮古島市（472140）R4・R3。R8〜R5・R2 は収録済み（§13-RR）。
+    // 白岡市（112461）R4。R8〜R5・R3・R2 は収録済み（§13-93）。
+    // 年度ページ（7509.html）「※一般会計予算は、議会において修正案が提出され、可決されました。」。修正内容 PDF（R4_ippan_syusei.pdf）は財産収入 48,348 を 47,331 に（△1,017）・繰入金 588,736 を 589,753 に（+1,017）。
+    // 予算案の概要・予算書（R4yosansyo.pdf）とも原案のまま。R5 の前年度列は修正後と一致。
+    code: "112461", name: "白岡市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計予算は議会で修正して可決されたが、掲載されている予算案の概要と予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（財産収入・繰入金の2款）。",
+    url: "https://www.city.shiraoka.lg.jp/shiseijoho/gyozaisei/2/7509.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-93",
+  },
+  {
+    // 富谷市（042161）R8〜R5・R3・R2。R4 は概要にテキスト層があり収録できるが、ライセンスが割れるので人の判断待ち（§13-93）。
+    // 記者発表【資料②】「当初予算の概要」と「各種会計予算及び予算に関する説明書」が、R4 の概要を除いて CCITT のスキャン画像（ページごとの文字数を偵察が実測）。
+    code: "042161", name: "富谷市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "当初予算の概要と予算書が、どちらも紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.tomiya-city.miyagi.jp/shisei/zaisei/giansyo/koukai-yosansyo.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-93",
+  },
+  {
+    // 瑞穂市（212164）R5。R8〜R6・R4〜R2 は収録済み（§13-94）。R5 は市長選挙を控えた骨格予算で、年度ページの「予算概要」（11ページ）は当初予算のポイントと会計別の総額だけで款別表が無い。予算書はウェブに無い。
+    code: "212164", name: "瑞穂市", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["format-mismatch"],
+    reason:
+      "この年度の予算概要は骨格予算の簡略版で、款ごとの額と前年度の額を並べた表が載っていない。予算書はウェブに掲載されていない。",
+    url: "https://www.city.mizuho.lg.jp/12568.htm",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-94",
+  },
+  {
+    // 気仙沼市（042056）R3・R2。R8〜R4 は収録済み（§13-94）。説明書（03_02_ichi_01.pdf・R2.tousyo_setumei1.pdf）の総括（物理 p.10-11）に文字層が無い（表がベクタ描画・pdfimages 0件）。p.6-7 の歳入歳出予算総括表は文字で取れるが当年度の列だけ。
+    code: "042056", name: "気仙沼市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["broken-text-layer"],
+    reason:
+      "一般会計予算説明書の総括（前年度の額と並べた表）のページが、文字ではなく図形として描かれていて、文字として取り出せない。文字で取れる総括表には当年度の額しか無い。",
+    url: "https://www.kesennuma.miyagi.jp/li/shisei/040/010/010/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-94",
+  },
+  {
+    // 伊達市（072133）R7。R8・R6〜R4 は収録済み（§13-94）。「当初予算の概要」（69489.pdf）は DocuWorks 出力で、テキスト層もフォントも画像も持たないアウトライン図形（pdftotext は3字）。Wayback 20250624 の捕捉も同じファイル。
+    code: "072133", name: "伊達市", dataset: "budget", fiscalYears: ["R7"],
+    categories: ["broken-text-layer"],
+    reason:
+      "当初予算の概要の款別の表が、文字ではなく図形として描かれていて、文字として取り出せない。予算書はウェブに掲載されていない。",
+    url: "https://www.city.fukushima-date.lg.jp/soshiki/6/77519.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-94",
+  },
+  {
+    // 伊達市（072133）R3・R2。概要（64639.pdf・44731.pdf）は記者会見のスライドで、款別は円グラフの万円表記だけ。事業説明書・R2 ポイントにも款別×前年度の表が無い。予算書は未掲載。
+    code: "072133", name: "伊達市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "ウェブに掲載されている当初予算の資料は、款別の額を円グラフで示しているだけで、前年度の額と並べた表が無い。予算書は掲載されていない。",
+    url: "https://www.city.fukushima-date.lg.jp/soshiki/6/50720.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-94",
+  },
+  {
+    // 四條畷市（272299）R6・R5・R4・R2。R8・R7・R3 は収録済み（§13-95）。
+    // R6（26641.pdf）は歳入の総括 p.8 が50字だけで画像も0件＝字が図形。R5（22071.pdf）は総括の両ページが50〜62字。R4（18010.pdf）は歳出 p.9 の字が約36pt ずれて二重に描かれ、layout は合計行が割れ、raw は款番号が金額の間に入る。R2（9448.pdf）はスキャン（偵察）。
+    code: "272299", name: "四條畷市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R2"],
+    categories: ["broken-text-layer", "scanned-image", "parser-unsupported"],
+    reason:
+      "令和6・5年度の予算書の総括は文字が図形として描かれていて文字として取り出せない。令和4年度は歳出の表の文字が二重に重ねて描かれていて、こちらの抽出処理では読めない。令和2年度は紙をスキャンした画像の PDF。",
+    url: "https://www.city.shijonawate.lg.jp/life/8/53/251/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-95",
+  },
+  {
+    // 羽生市（112160）R8。R7〜R2 は収録済み（§13-95）。
+    // 現行の「当初予算の概要」（/docs/2025022500022/file_contents/file_20262183144022_1.pdf・CubePDF/Ghostscript）は ToUnicode 欠落で、数字は ASCII−0x1E、漢字は既存の復号表に無い化け方（decodeGarble でも throw）。
+    // テキスト層が健全な（案）版（file_20262124171224_1.pdf）は発行元で 404・Wayback にだけある。予算説明書はテキスト層が無い（偵察）。
+    code: "112160", name: "羽生市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer"],
+    reason:
+      "掲載されている当初予算の概要は文字の対応表が欠けていて、数字と漢字が化けて取り出せない。予算説明書は文字を持たない画像の PDF。",
+    url: "https://www.city.hanyu.lg.jp/docs/2025022500022/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-95",
+  },
+  {
+    // つくばみらい市（082350）R3・R2。R8〜R4 は収録済み（§13-95）。
+    // 予算書（表紙から歳入）は Canon スキャナの画像でフォント0。予算資料の款別前年度比較表は歳入と歳出が1ページに横並びの回転ページ（R3 p.10・R2 p.14）で、CropX は縦に切れて左右に分けられない（pdftotext -y/-H なら分かれる＝y 方向の切り出しが要る・偵察）。
+    code: "082350", name: "つくばみらい市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["scanned-image", "parser-unsupported"],
+    reason:
+      "予算書は紙をスキャンした画像の PDF。予算資料の款別の比較表は歳入と歳出が1ページに横に並んだ回転したページで、こちらの抽出処理では左右を分けられない。",
+    url: "https://www.city.tsukubamirai.lg.jp/gyousei/zaisei/yosan/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-95",
+  },
+  {
+    // 宮古島市（472140）R4・R3。R8〜R5・R2 は収録済み（§13-96）。
     // どちらも議会で修正可決（R4-03-25 議案第10号・R3-03-25 議案第12号）。予算書は見え消しで、テキスト層に原案と修正後が両方入る（偵察）。
     code: "472140", name: "宮古島市", dataset: "budget", fiscalYears: ["R4", "R3"],
     categories: ["parser-unsupported"],
     reason:
       "議会で修正して可決された予算で、予算書は原案の数字に取消線を引いて修正後の数字を重ねて印字しており、文字の情報には修正前と修正後の両方の数字が入っているため、修正後の額だけを取り出せない。",
     url: "https://www.city.miyakojima.lg.jp/soshiki/shityo/soumubu/zaisei/",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-RR",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
   },
   {
-    // 直方市（402044）R2。R8〜R3 は収録済み（§13-RR）。
+    // 直方市（402044）R2。R8〜R3 は収録済み（§13-96）。
     // 年度ページ /shisei/_1236/_12739/_12744.html は現行で 404・Wayback 2023-08 に参考資料・概要だけ。予算書は Wayback の CDX にも無い（偵察）。
     code: "402044", name: "直方市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["no-material"],
     reason:
       "予算書がウェブに無い。年度ページは参考資料・概要だけで、参考資料の歳出は性質別と款×性質の表で、款ごとの前年度額が無い。",
     url: "https://www.city.nogata.fukuoka.jp/shisei/_1236/_12739.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-RR",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
   },
   {
-    // 滝沢市（032166）R3・R2。R8〜R4 は収録済み（§13-RR）。
+    // 滝沢市（032166）R3・R2。R8〜R4 は収録済み（§13-96）。
     // 「当初予算の内容」（WARP 20220710 …/var/rev0/0116/6193/01_r3yosan-naiyou.pdf・…/0116/6197/01_r2yosan-naiyou.pdf）は会計別総額表が先に来る（偵察）。
     code: "032166", name: "滝沢市", dataset: "budget", fiscalYears: ["R3", "R2"],
     categories: ["parser-unsupported"],
     reason:
       "予算に関する説明書が掲載されていない。代わりの「当初予算の内容」は、款ごとの表の前に会計ごとの総額の表があり、合計の行の名前が同じなので、会計ごとの総額を歳入の款として読んでしまう。",
     url: "https://www.city.takizawa.iwate.jp/about-takizawa/soshiki-gaiyo/zaisei-gaiyo/contents-2269",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-RR",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
   },
 ];
