@@ -1358,6 +1358,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "432164": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度",
+        "reason": "款別の構成表のうち、廃止された款（自動車取得税交付金）の行が括弧書きで款番号の無い形になっていて、こちらの抽出処理ではその行を読めない（前年度の合計が1千円合わなくなる）。原典の表は健全。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "442011": {
     "budget": [
       {

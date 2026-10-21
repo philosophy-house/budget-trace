@@ -2330,6 +2330,8 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "款別の構成表のうち、廃止された款（自動車取得税交付金）の行が括弧書きで款番号の無い形になっていて、こちらの抽出処理ではその行を読めない（前年度の合計が1千円合わなくなる）。原典の表は健全。",
     url: "https://www.city.koshi.lg.jp/kiji00320384/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
+  },
+  {
     // 佐伯市（442054）R2。R8〜R3 は収録済み（§13-82）。
     // 予算書 3_1997_4470_up_4n0mxoso.pdf（36MB・337p・Producer「Microsoft: Print To PDF」）はテキスト層もフォントも無い。概要の分冊「歳入」は「地方譲与税･各種交付金」をまとめた集約表で款別でない（偵察）。
     code: "442054", name: "佐伯市", dataset: "budget", fiscalYears: ["R2"],
