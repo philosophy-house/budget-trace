@@ -1844,4 +1844,14 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.ashiya.lg.jp/zaisei/kako_yosan.html",
     checkedOn: "2026-10-07", ref: "docs/data-sources.md §13-55",
   },
+  {
+    // 上越市（152226）H30・H29。R8〜H31・H28・H27 は収録済み（§13-22・#294）。
+    code: "152226", name: "上越市", dataset: "budget", fiscalYears: ["H30", "H29"],
+    categories: ["broken-text-layer"],
+    reason:
+      "「当初予算の概要」（国立国会図書館の WARP に保存された版）の文字が別の字に化けていて、" +
+      "金額の数字は埋め込まれていないフォントで描かれているため1つも取り出せない。",
+    url: "https://warp.ndl.go.jp/20191018/20191016211217/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-30-yosan-index.html",
+    checkedOn: "2026-10-21", ref: "docs/data-sources.md §13-22",
+  },
 ];

@@ -250,6 +250,8 @@ const SAKATA_LICENSE =
   "酒田市ホームページに掲載されている個々の情報（文書、写真、イラスト等）に関する諸権利は、著作権法によって保護されています。これらの情報について、著作権法で認められた場合を除き、複製、転用をすることはできません。";
 const ASHIYA_LICENSE =
   "「芦屋市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、「芦屋市ホームページ」全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法及び国際条約により保護されています。 当ホームページの内容の全部または一部については、適宜の方法により出所を明示することにより、引用・転載・複製を行なうことができますが、無断転載はご遠慮ください。なお、商用目的での複製はお断りしています。 当ホームページの内容の全部または一部について、芦屋市に無断で改変を行なうことはできません。";
+const JOETSU_LICENSE =
+  "上越市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、上越市に帰属します。また一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書、画像などの無断使用・転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越えて、当ホームページの情報の使用を希望する場合は事前に広報対話課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。";
 const KOGA_IBARAKI_LICENSE =
   "古河市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として古河市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。古河市ホームページは利用目的を問わず自由な閲覧が可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、古河市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。";
 
@@ -23721,6 +23723,54 @@ export const SOURCES: SourceEntry[] = [
     license: ASHIYA_LICENSE,
     parser: "kofu-yosansho" as const,
     parserOptions: { revenuePage: 9, expenditurePage: 10, revenueHeading: "（歳入）", expenditureHeading: "（歳出）" },
+  } satisfies SourceEntry)),
+
+  // 上越市（新潟県・団体コード 152226 ＝ 総務省 R6.json から実引き）。財政課「当初予算の概要」の「● 一般会計 歳入」「● 一般会計 歳出（目的別）」。千円。
+  //   歳入23款（H31 は款9 自動車取得税交付金を含め番号つき24款、R2 は番号つき23款＋番号なしの廃止款 `× 自動車取得税交付金`、H28・H27 は22款）・歳出14款。列は [前年度, 当年度, 増減]（`prevColumnFirst`）・合計ラベルの次の行に金額（`totalAmountNextLine`）。
+  //   R8〜R5 は1冊、R4〜H31 は2分冊の後半、H28・H27 は2分冊の前半。R2〜H27 は現行サイトから消えていて WARP。
+  // ⚠⚠ 款ごとに「（ ）内は制度融資預託金元金収入・借換債を除いた値」の行が付く3行組で、**市債の内訳（通常債…借換債）と公債費の内訳（定時償還元金…）が
+  //   款番号なし・金額つきで款の間に挟まる**（#294）。既定の経路では R8 の歳出款13 が `繰上償還元金－－－－諸支出金` になり、R7・H31 は内訳が廃止款として湧いて
+  //   前年度 Σ が warning 止まり、R6〜R3 は `0 / 0` の行が Σ 差0 のまま通る。⇒ `parenAltRows`（別値の行を消す・款10 の上段 `国有提供施設等所在` を残す）と
+  //   `detailRowsAfterKan`（款の後の番号なしの行を捨てる）。H31 は公債費の内訳にも別値の行が付く。R2 の `× 自動車取得税交付金` は市債の内訳の直後に来る。
+  // ⚠ R2 の歳入款6・款9 は「皆増」が前年度側の前年度比の列にある（R1 が新設の年）＝この行の前年度は 0 ではない。前年度先行の列で3つの整数が整合する行は印字値を採る（#294 のパーサ改修）。
+  // ⚠ H30・H29 はテキスト層が化けていて金額の数字が1つも取れない ⇒ unrecordable。
+  // 前年度列は当初（R8→H31 と H28→H27 の各リンクで合計一致）。骨格予算: 収録した10冊と R4〜H31 の前半の冊に「骨格」「肉付」0件。
+  // 総額突合: R6 当初 102,319,037 ÷ 総務省 R6 決算歳出 106,860,468 = 95.8%。
+  // ライセンス: 「著作権等」（/site/userguide/copyright.html・確認日 2026-10-21）＝要許可。リンクは「原則として自由に設定していただいてかまいません。」「リンクを設定する箇所には、上越市のホームページへのリンクである旨を明記してください。」（チップが「発行元で開く」と出るので満たす）⇒ `noDeepLink` は立てない。
+  //   オープンデータ（CC BY 2.1）は「本サイトのみに適用」と範囲を自ら限り、予算は0件（§13-22）。
+  // ⚠ 主な事業（概要の主要事業・特別会計／事業会計を含む）と事業報告（9月定例会の事業別決算説明・部局別12冊）は新様式で別の巡（§13-22）。
+  ...([
+    ["R8", "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-08-yosan-index.html", 27, 35],
+    ["R7", "https://www.city.joetsu.niigata.jp/uploaded/attachment/266970.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-07-yosan-index.html", 30, 38],
+    ["R6", "https://www.city.joetsu.niigata.jp/uploaded/attachment/249081.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-06-yosan-index.html", 30, 38],
+    ["R5", "https://www.city.joetsu.niigata.jp/uploaded/attachment/234677.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-05-yosan-index.html", 33, 41],
+    ["R4", "https://www.city.joetsu.niigata.jp/uploaded/attachment/214408.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-04-yosan-index.html", 12, 20],
+    ["R3", "https://www.city.joetsu.niigata.jp/uploaded/attachment/195099.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-03-yosan-index.html", 3, 11],
+    ["R2", "https://warp.ndl.go.jp/20201106/20201105060116/https://www.city.joetsu.niigata.jp/uploaded/attachment/176591.pdf", "https://warp.ndl.go.jp/20201106/20201105060116/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-02-yosan-index.html", 3, 11],
+    ["H31", "https://warp.ndl.go.jp/20191018/20191016211217/https://www.city.joetsu.niigata.jp/uploaded/attachment/159248.pdf", "https://warp.ndl.go.jp/20191018/20191016211217/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-31-yosan-index.html", 3, 11],
+    ["H28", "https://warp.ndl.go.jp/20180507/20180506125229/https://www.city.joetsu.niigata.jp/uploaded/attachment/113615.pdf", "https://warp.ndl.go.jp/20180507/20180506125229/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-28-yosan-index.html", 20, 27],
+    ["H27", "https://warp.ndl.go.jp/20150805/20150804235111/https://www.city.joetsu.niigata.jp/uploaded/attachment/98835.pdf", "https://warp.ndl.go.jp/20150805/20150804235111/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-27-yosan-index.html", 18, 25],
+  ] as const).map(([fy, url, landingPage, rp, ep]) => ({
+    id: `joetsu-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 上越市当初予算の概要（一般会計 歳入・歳出（目的別））`,
+    publisher: "上越市",
+    url,
+    landingPage,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "上越市（一般会計・団体コード152226）",
+    license: JOETSU_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: ep,
+      revenueHeading: "一般会計歳入",
+      expenditureHeading: "歳出（目的別）",
+      prevColumnFirst: true,
+      totalAmountNextLine: true,
+      parenAltRows: true,
+      detailRowsAfterKan: true,
+    },
   } satisfies SourceEntry)),
 
   {
