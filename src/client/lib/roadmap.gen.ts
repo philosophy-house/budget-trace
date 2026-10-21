@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 459,
+  "budgetCount": 464,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3403,
-  "fileCount": 5074,
-  "archivedCount": 2781,
+  "sourceCount": 3432,
+  "fileCount": 5103,
+  "archivedCount": 2783,
   "licenseOpen": 135,
-  "licensePermission": 3183,
+  "licensePermission": 3212,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1023,6 +1023,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "白井市",
+      "code": "122327",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "香取市",
       "code": "122360",
       "years": 7,
@@ -1163,6 +1169,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "小松市",
       "code": "172031",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "加賀市",
+      "code": "172065",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1481,6 +1493,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "摂津市",
       "code": "272248",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "藤井寺市",
+      "code": "272264",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1939,6 +1957,12 @@ export const ROADMAP_PROGRESS = {
       "code": "282162",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "大和高田市",
+      "code": "292028",
+      "years": 6,
+      "range": "R2〜R7（6年度）"
     },
     {
       "name": "呉市",
@@ -2413,6 +2437,12 @@ export const ROADMAP_PROGRESS = {
       "code": "412015",
       "years": 2,
       "range": "R5〜R8（2年度）"
+    },
+    {
+      "name": "糸満市",
+      "code": "472107",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
     }
   ],
   "kofuDetail": {
