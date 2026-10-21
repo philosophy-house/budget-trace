@@ -2106,4 +2106,13 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
   },
+  {
+    // 交野市（272302）R2。R8〜R3 は収録済み（§13-69）。パーサの issue #354。
+    code: "272302", name: "交野市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "一般会計予算書の総括のページは数字の文字コードの対応表が欠けていて復号が要るが、廃止された款に付いている印（×）を、こちらの抽出処理が化けた文字と取り違えて止まる。原典の表は健全。",
+    url: "https://www.city.katano.osaka.jp/docs/2020051300032/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-69",
+  },
 ];
