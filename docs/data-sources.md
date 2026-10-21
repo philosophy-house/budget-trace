@@ -12641,4 +12641,7 @@ URL・物理ページ・年度は偵察の記録を信じず 2026-10-21 に自�
 
 #### 魚拓
 
-（2026-10-21 時点）Internet Archive が一時停止していて、SPN が「Unable to connect」を返した。下の追記で結果を書く。
+2026-10-21 の夜は Internet Archive が断続的に一時停止していて（CDX も「Temporarily Offline」）、3回に分けて登録した（台帳 `data/archives.json` を sourceId で確認）。
+- **飯田 7件・筑紫野 1件は file の sha256 照合済み**（飯田 R8・筑紫野 R8 は新規保存、ほかは既存の捕捉で照合）。landing も登録済み。
+- **糸島は R7 の file だけ照合済み**（既存の 2025-02-25 の捕捉）。**ほかの6年度の file と7年度の landing は SPN が確認を返さず未照合**。
+  発行元の拒否ではない（素の curl・`archive.org_bot`・ブラウザ UA の3通りとも 200）＝IA 側の停止。次の巡で再試行する。

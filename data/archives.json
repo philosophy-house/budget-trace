@@ -3148,6 +3148,25 @@
       "rawSha256": "fedcecb72e9be3600a463fafb0bce5b4b4e179aaacc371e47e6be9e90ae8460f"
     },
     {
+      "sourceId": "chikushino-yosan-shiryo-r8",
+      "url": "https://www.city.chikushino.fukuoka.jp/soshiki/5/44313.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260420224622/https://www.city.chikushino.fukuoka.jp/soshiki/5/44313.html",
+      "waybackTimestamp": "20260420224622",
+      "checkedAt": "2026-10-21T14:44:50.342Z"
+    },
+    {
+      "sourceId": "chikushino-yosan-shiryo-r8",
+      "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/32388.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021144435/https://www.city.chikushino.fukuoka.jp/uploaded/attachment/32388.pdf",
+      "waybackTimestamp": "20261021144435",
+      "checkedAt": "2026-10-21T14:44:49.270Z",
+      "sha256Match": true,
+      "waybackBytes": 3357747,
+      "rawSha256": "657e6b170b857f8c04b2d967d1e5a225dba375485a9755907977bd2a7e2980fb"
+    },
+    {
       "sourceId": "chiyoda-kugikai-r8",
       "url": "https://gikai-chiyoda-tokyo.jp/kaigi/kekka/files/20261teikekka.pdf",
       "kind": "file",
@@ -9875,6 +9894,141 @@
       "rawSha256": "b3837e10071defae554dfcafd8085d4893ed2b8687a4855d50dfe274680a6ef0"
     },
     {
+      "sourceId": "iida-yosan-gaiyou-r2",
+      "url": "https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260122020420/https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "waybackTimestamp": "20260122020420",
+      "checkedAt": "2026-10-21T14:44:32.785Z"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r2",
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/43530.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250806174959/https://www.city.iida.lg.jp/uploaded/attachment/43530.pdf",
+      "waybackTimestamp": "20250806174959",
+      "checkedAt": "2026-10-21T14:44:32.308Z",
+      "sha256Match": true,
+      "waybackBytes": 3520704,
+      "rawSha256": "58a6932e270015c86205e8f3c2e18d77bc337e8c9c1e0a8e8757ce931a78c505"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r3",
+      "url": "https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260122020420/https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "waybackTimestamp": "20260122020420",
+      "checkedAt": "2026-10-21T14:44:29.627Z"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r3",
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/48872.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250806182410/https://www.city.iida.lg.jp/uploaded/attachment/48872.pdf",
+      "waybackTimestamp": "20250806182410",
+      "checkedAt": "2026-10-21T14:44:29.114Z",
+      "sha256Match": true,
+      "waybackBytes": 1569817,
+      "rawSha256": "9c13650c3db2ae4f6683f93d7b3d153fdadc496302d9e11c0d573b15c764fc05"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r4",
+      "url": "https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260122020420/https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "waybackTimestamp": "20260122020420",
+      "checkedAt": "2026-10-21T14:44:26.869Z"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r4",
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/55077.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220308003550/https://www.city.iida.lg.jp/uploaded/attachment/55077.pdf",
+      "waybackTimestamp": "20220308003550",
+      "checkedAt": "2026-10-21T14:44:26.378Z",
+      "sha256Match": true,
+      "waybackBytes": 9366814,
+      "rawSha256": "f7b7fb51e849ac12b0d34f67d81cf22876c23862bb8c99390031d410652f1472"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r5",
+      "url": "https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260122020420/https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "waybackTimestamp": "20260122020420",
+      "checkedAt": "2026-10-21T14:44:20.685Z"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r5",
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/60159.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250806183041/https://www.city.iida.lg.jp/uploaded/attachment/60159.pdf",
+      "waybackTimestamp": "20250806183041",
+      "checkedAt": "2026-10-21T14:44:19.305Z",
+      "sha256Match": false,
+      "waybackBytes": 5242880,
+      "rawSha256": "e583b4c28559788d18b4aba49ce1140994d6f63c327c03bb4cd8acb0161a7e38",
+      "waybackTruncated": true
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r6",
+      "url": "https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260122020420/https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "waybackTimestamp": "20260122020420",
+      "checkedAt": "2026-10-21T14:44:15.105Z"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r6",
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/67148.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250806182302/https://www.city.iida.lg.jp/uploaded/attachment/67148.pdf",
+      "waybackTimestamp": "20250806182302",
+      "checkedAt": "2026-10-21T14:44:13.808Z",
+      "sha256Match": false,
+      "waybackBytes": 5242880,
+      "rawSha256": "c050545d70ccb49ad6c5511ca643b405530a433e4cdcc6baaa2f1a33699d6bc8",
+      "waybackTruncated": true
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r7",
+      "url": "https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260122020420/https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "waybackTimestamp": "20260122020420",
+      "checkedAt": "2026-10-21T14:44:09.710Z"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r7",
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/73894.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250806175706/https://www.city.iida.lg.jp/uploaded/attachment/73894.pdf",
+      "waybackTimestamp": "20250806175706",
+      "checkedAt": "2026-10-21T14:44:09.215Z",
+      "sha256Match": true,
+      "waybackBytes": 4198716,
+      "rawSha256": "1419388a3c88683cebef34cc15dd14a84d6e9ae31cac3206ac71a686da6651bd"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r8",
+      "url": "https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260122020420/https://www.city.iida.lg.jp/soshiki/2/yosan.html",
+      "waybackTimestamp": "20260122020420",
+      "checkedAt": "2026-10-21T14:44:05.686Z"
+    },
+    {
+      "sourceId": "iida-yosan-gaiyou-r8",
+      "url": "https://www.city.iida.lg.jp/uploaded/attachment/79514.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021144348/https://www.city.iida.lg.jp/uploaded/attachment/79514.pdf",
+      "waybackTimestamp": "20261021144348",
+      "checkedAt": "2026-10-21T14:44:03.593Z",
+      "sha256Match": true,
+      "waybackBytes": 4868643,
+      "rawSha256": "e8fd2a7b7b0b140afd13bfad1166bcd69f407c16bd844ab726a3c9e840f9d5ee"
+    },
+    {
       "sourceId": "iizuka-yosan-shiryo-r5",
       "url": "https://www.city.iizuka.lg.jp/soshiki/2/2777.html",
       "kind": "landing",
@@ -11735,7 +11889,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20250225154442/https://www.city.itoshima.lg.jp/s002/010/010/010/010/130/7yosangaiyo.pdf",
       "waybackTimestamp": "20250225154442",
-      "checkedAt": "2026-10-21T14:20:37.425Z",
+      "checkedAt": "2026-10-21T14:46:48.606Z",
       "sha256Match": true,
       "waybackBytes": 753987,
       "rawSha256": "4a5d650194dafefc215f99e33211a36ec5ac246af0de71e5bc9896a1b3fcee65"
