@@ -1,0 +1,26 @@
+{
+  "sourceId": "ikeda-shigikai-r8",
+  "files": [
+    {
+      "filename": "gikai_dayori_R8_5.pdf",
+      "sha256": "2cf257faa7705d10d9bd4ff2c58bff743f4c77a55f90df7aba0237adf4ec36be",
+      "bytes": 9924773,
+      "fetchedAt": "2026-10-21T14:46:16.273Z",
+      "fetchedFrom": "https://www.city.ikeda.osaka.jp/material/files/group/39/gikai_dayori_R8_5.pdf"
+    },
+    {
+      "filename": "20615.html",
+      "sha256": "162af4334fb4ea1b7b3fee0fc2e92f0598cbbd3e949c0144662b350dcc29141d",
+      "bytes": 122123,
+      "fetchedAt": "2026-10-21T14:46:16.274Z",
+      "fetchedFrom": "https://www.city.ikeda.osaka.jp/soshiki/gikai/ikedashigikai/teishutu/reiwa8nennteisyutugianngiketukekka/20615.html"
+    },
+    {
+      "filename": "20250513_rinjikai_kaikai.pdf",
+      "sha256": "e504ef65f158ee53cee413675dd4419dc48013c06a9c1ec16d36fe745ee4a528",
+      "bytes": 228451,
+      "fetchedAt": "2026-10-21T14:46:16.275Z",
+      "fetchedFrom": "https://www.city.ikeda.osaka.jp/material/files/group/1/20250513_rinjikai_kaikai.pdf"
+    }
+  ]
+}

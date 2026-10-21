@@ -1,0 +1,33 @@
+{
+  "sourceId": "habikino-shigikai-r8",
+  "files": [
+    {
+      "filename": "081giketukekka.pdf",
+      "sha256": "422c0fa509a17dd3e5089c2e7a6a4e4b922e3388c25f3331d664e69a020da07b",
+      "bytes": 237252,
+      "fetchedAt": "2026-10-21T14:46:16.311Z",
+      "fetchedFrom": "https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf"
+    },
+    {
+      "filename": "13435.html",
+      "sha256": "09a4be6ab61b4cc2ebb06688654963b03b05d306333fdff1d7c8402653a81a41",
+      "bytes": 35965,
+      "fetchedAt": "2026-10-21T14:46:16.312Z",
+      "fetchedFrom": "https://www.city.habikino.lg.jp/soshiki/gyousei/senkyokanri/tisiki/13435.html"
+    },
+    {
+      "filename": "950.html",
+      "sha256": "00a591b332a7c5b9f8492caf78dc8f4f871b18937facb2ad8dee98bb54dc617f",
+      "bytes": 35954,
+      "fetchedAt": "2026-10-21T14:46:16.313Z",
+      "fetchedFrom": "https://www.city.habikino.lg.jp/soshiki/gikaijimu/gikaijimu_shigikai/950.html"
+    },
+    {
+      "filename": "26shigikaidayori06.pdf",
+      "sha256": "dfded310ea77c96a60cdda4e8a7e43646ec9b9741c42fae3544e3c19e11746bd",
+      "bytes": 818038,
+      "fetchedAt": "2026-10-21T14:46:16.314Z",
+      "fetchedFrom": "https://www.city.habikino.lg.jp/material/files/group/50/26shigikaidayori06.pdf"
+    }
+  ]
+}
