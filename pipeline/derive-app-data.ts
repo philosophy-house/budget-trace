@@ -3589,6 +3589,24 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第82巡（2026-10-22・§13-93） ----
+    // ⚠ 那珂は decodeGarble（R8・R2 は × の恒等マップ）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `naka-ibaraki-yosansho-${fy}`, muniCode: "082261", muniName: "那珂市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 白岡 R4 は議会修正で見送り
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiraoka-yosan-gaiyou-${fy}`, muniCode: "112461", muniName: "白岡市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 南魚沼は年度ごとの CropX・R2 は予算書。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `minamiuonuma-yosan-gaiyou-${fy}`, muniCode: "152269", muniName: "南魚沼市", prefName: "新潟県", isPref: false,
+    })),
+    { srcId: "minamiuonuma-yosansho-r2", muniCode: "152269", muniName: "南魚沼市", prefName: "新潟県", isPref: false },
+    // ⚠ 坂東は1枚の概要（PDF に市名なし）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `bando-yosan-gaiyou-${fy}`, muniCode: "082287", muniName: "坂東市", prefName: "茨城県", isPref: false,
+    })),
     // ---- 第80巡（2026-10-22・§13-90） ----
     // ⚠ 愛西は R3 骨格で R4 に prevNote。`noDeepLink`
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -4352,6 +4370,42 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `kudamatsu-yosan-setsumei-${fy}`, muniCode: "352071", muniName: "下松市", prefName: "山口県", isPref: false,
     })),
     { srcId: "kudamatsu-yosansho-r3", muniCode: "352071", muniName: "下松市", prefName: "山口県", isPref: false },
+    // ---- 福生・東金・北広島・観音寺・宇城（2026-10-22・§13-92） ----
+    ...(["r8", "r7", "r6", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fussa-yosansho-${fy}`, muniCode: "132187", muniName: "福生市", prefName: "東京都", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `togane-yosansho-${fy}`, muniCode: "122131", muniName: "東金市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kitahiroshima-yosansho-${fy}`, muniCode: "012343", muniName: "北広島市", prefName: "北海道", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kanonji-yosan-gaiyou-${fy}`, muniCode: "372056", muniName: "観音寺市", prefName: "香川県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `uki-yosansho-${fy}`, muniCode: "432130", muniName: "宇城市", prefName: "熊本県", isPref: false,
+    })),
+    ...(["r3", "r2"] as const).map((fy) => ({
+      srcId: `uki-zaisei-kohyo-${fy}`, muniCode: "432130", muniName: "宇城市", prefName: "熊本県", isPref: false,
+    })),
+    // ---- 瑞穂・気仙沼・向日・伊達・高石（2026-10-22・§13-94） ----
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gifu-mizuho-yosan-gaiyou-${fy}`, muniCode: "212164", muniName: "瑞穂市", prefName: "岐阜県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `kesennuma-yosansho-${fy}`, muniCode: "042056", muniName: "気仙沼市", prefName: "宮城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `muko-yosansho-${fy}`, muniCode: "262081", muniName: "向日市", prefName: "京都府", isPref: false,
+    })),
+    ...(["r8", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `fukushima-date-yosan-gaiyou-${fy}`, muniCode: "072133", muniName: "伊達市", prefName: "福島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `takaishi-yosansho-${fy}`, muniCode: "272256", muniName: "高石市", prefName: "大阪府", isPref: false,
+    })),
+    { srcId: "takaishi-yosan-gaiyou-r5", muniCode: "272256", muniName: "高石市", prefName: "大阪府", isPref: false },
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
