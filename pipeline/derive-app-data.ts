@@ -3629,6 +3629,30 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kadoma-yosansho-${fy}`, muniCode: "272230", muniName: "門真市", prefName: "大阪府", isPref: false,
     })),
+    // ---- 第58巡（2026-10-22・§13-62） ----
+    // ⚠ 守山は縦書きの表側「歳／入／出」を kanNamePrefixStrip で落とす。R2 は WARP（現行サイトの R2 は R3 のファイル）。R6 に R5 骨格の prevNote。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `moriyama-yosan-gaiyou-${fy}`, muniCode: "252077", muniName: "守山市", prefName: "滋賀県", isPref: false,
+    })),
+    // ⚠ 茂原は R8〜R4 が予算書（R8 は decodeGarble）、R3・R2 が概要。R6・R2 が骨格（R7 に prevNote・R3 は前年度列が補正後）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `mobara-yosansho-${fy}`, muniCode: "122106", muniName: "茂原市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r3", "r2"] as const).map((fy) => ({
+      srcId: `mobara-toushogaiyou-${fy}`, muniCode: "122106", muniName: "茂原市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 北名古屋は R8〜R4 が decodeGarble、R3・R2 は WARP。R4 は語の無い骨格（R5 に prevNote）。ライセンスは license-no-grant
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kitanagoya-yosansho-${fy}`, muniCode: "232343", muniName: "北名古屋市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 東大和は1ページに歳入・歳出を縦に積む総括表。R2 はスキャン画像で未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `higashiyamato-yosan-gaiyo-${fy}`, muniCode: "132209", muniName: "東大和市", prefName: "東京都", isPref: false,
+    })),
+    // ⚠ 和光 R6 は議会修正で、読める表が原案だけのため未収録
+    ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `wako-yosan-gaiyou-${fy}`, muniCode: "112291", muniName: "和光市", prefName: "埼玉県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

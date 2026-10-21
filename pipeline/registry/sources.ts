@@ -274,6 +274,7 @@ const KANUMA_LICENSE =
   "本サイト上の文書や写真、画像等の各ファイル、及びその内容に関する諸権利は、原則として鹿沼市に帰属します。 また、一部の画像等の著作権は、原著作者が所有しています。 著作権法上認められている行為を除き、鹿沼市の許可なく、本サイト上の文書・画像等の無断使用・転載を禁止します。";
 const MORIYAMA_LICENSE =
   "守山市公式ウェブサイト（ホームページ）に掲載されている文書や画像等の各ファイルおよびその内容に関するすべての権利は、原則として守山市に帰属し、法律等によって保護されています。これらの情報を、私的使用その他法律で認める範囲を超えて権利者の許可なく複製、転用することは、法律で禁止されています。";
+const KITANAGOYA_LICENSE = "Copyright © Kitanagoya City All rights Reserved.";
 const WAKO_LICENSE =
   "和光市ホームページに掲載される記事、画像、データ類の著作権は、和光市、又はその情報提供者に帰属します。また、その全てについて、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、和光市の許可・承諾を得ないままほかの媒体へ転載することはお断りします。／「情報などの転載について」: 和光市ホームページに掲載されている情報や画像などの転載を希望する場合は、必ず転載の許可を得てください。なお、版権などの問題により、一部の画像などについては転載を認められない場合がありますのでご了承ください。";
 const HIGASHIYAMATO_LICENSE =
@@ -24373,6 +24374,47 @@ export const SOURCES: SourceEntry[] = [
       expenditurePage: 6,
       revenueHeading: "一般会計歳入予算概要",
       expenditureHeading: "一般会計歳出予算概要",
+    },
+  } satisfies SourceEntry)),
+
+  // 北名古屋市（愛知県・団体コード 232343 ＝ 総務省 R6.json から実引き）。一般会計予算書の「歳入歳出予算事項別明細書 １ 総括」千円。
+  //   歳入 p.14〜15（印字 -12-/-13-）／歳出 p.16（印字 -14-）。R5 だけ p.13〜14／p.15。歳入22款・歳出14款（`農林水産費` は原典どおり）。
+  //   p.4〜10 の「第1表 歳入歳出予算」は款・項だけで前年度額が無い表なので使わない。
+  // ⚠⚠ R8〜R4 は総括ページが ToUnicode 欠落（MS-Mincho Identity-H・uni=no。数字は −0x1D シフト）⇒ `decodeGarble`。無いと見出しが無いと throw する（静かには通らない）。R3・R2 は健全。
+  // ⚠ R3・R2 は現行サイトから消えていて（旧サイトのファイルは 404）、Wayback にも PDF が無い ⇒ WARP。掲載ページは Wayback の旧サイト。
+  // 前年度列は当初（R3←R2 から R8←R7 まで款単位全一致）。
+  // 骨格予算: **R4**（「骨格」の語は無い。議会だより Vol.80「令和４年度当初予算については…政策的判断を要する事業…については…新市長の判断により補正予算で対応するものとして予算編成が行われました」）
+  //   ⇒ skeleton-budgets.ts（東近江 R3 と同じく語の無い型）・R5 に `prevNote`。R8 は無投票の再選で、概要・予算資料に4語0件・同趣旨の記述も無い＝通常。
+  // 総額突合: R6 当初 30,693,000 ÷ 総務省 R6 決算歳出 32,082,721 = 95.7%。
+  // ライセンス: 著作権・利用条件・リンクの条項のページが市サイトに無く（確認日 2026-10-22）、フッターの帰属表示だけ ⇒ license-no-grant.ts に載せて要許可（野田と同型）。
+  //   リンクの条項も無い（6群のどれにも当たらない）⇒ `noDeepLink` は立てない。
+  // ⚠ 主な事業（R8 概要「部局別主要事業」18件・各年度「予算資料」の事業シート）は別の巡（docs §13-62）。事業報告はウェブ未掲載。
+  ...([
+    ["R8", "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/007/308/r8_ippan.pdf", "https://www.city.kitanagoya.lg.jp/shisei/zaisei/1005116/1005117/1007307/1007308.html", {}],
+    ["R7", "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/006/638/r7_ippan.pdf", "https://www.city.kitanagoya.lg.jp/shisei/zaisei/1005116/1005117/1006637/1006638.html", {}],
+    ["R6", "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/005/120/r6_ippan.pdf", "https://www.city.kitanagoya.lg.jp/shisei/zaisei/1005116/1005117/1005119/1005120.html", {}],
+    ["R5", "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/005/123/r5ippan.pdf", "https://www.city.kitanagoya.lg.jp/shisei/zaisei/1005116/1005117/1005122/1005123.html", {
+      revenuePages: { from: 13, to: 14 }, expenditurePage: 15,
+      prevNote: "前年度（令和4年度）の当初予算は、市長選挙を控えて、政策的判断を要する事業などは新市長の判断により補正予算で対応するものとして編成されている（北名古屋市議会だより Vol.80）。前年当初比はその当初予算との比較。",
+    }],
+    ["R4", "https://www.city.kitanagoya.lg.jp/_res/projects/default_project/_page_/001/005/127/4ippan.pdf", "https://www.city.kitanagoya.lg.jp/shisei/zaisei/1005116/1005117/1005126/1005127.html", {}],
+    ["R3", "https://warp.ndl.go.jp/20210516/20210516043806/https://www.city.kitanagoya.lg.jp/zaisei/files/upload/files/3ippan.pdf", "https://web.archive.org/web/20240303115226/https://www.city.kitanagoya.lg.jp/zaisei/1100385.php", { decodeGarble: false }],
+    ["R2", "https://warp.ndl.go.jp/20200517/20200517020615/https://www.city.kitanagoya.lg.jp/zaisei/files/upload/files/2ippan%281%29.pdf", "https://web.archive.org/web/20240303113210/https://www.city.kitanagoya.lg.jp/zaisei/1100364.php", { decodeGarble: false }],
+  ] as const).map(([fy, url, landing, extra]) => ({
+    id: `kitanagoya-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 北名古屋市一般会計予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "北名古屋市",
+    url,
+    landingPage: landing,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "北名古屋市（一般会計・団体コード232343）",
+    license: KITANAGOYA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: 14, to: 15 }, expenditurePage: 16,
+      revenueHeading: "歳入歳出予算事項別明細書", expenditureHeading: "歳出",
+      decodeGarble: true, ...extra,
     },
   } satisfies SourceEntry)),
 
