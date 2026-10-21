@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 444,
+  "budgetCount": 449,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3305,
-  "fileCount": 4976,
-  "archivedCount": 2748,
+  "sourceCount": 3340,
+  "fileCount": 5011,
+  "archivedCount": 2768,
   "licenseOpen": 135,
-  "licensePermission": 3085,
+  "licensePermission": 3120,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -831,6 +831,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "笠間市",
+      "code": "082163",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "取手市",
       "code": "082171",
       "years": 7,
@@ -953,6 +959,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "坂戸市",
       "code": "112399",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "吉川市",
+      "code": "112437",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1293,6 +1305,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "知立市",
+      "code": "232254",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "尾張旭市",
       "code": "232262",
       "years": 7,
@@ -1395,6 +1413,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "泉大津市",
+      "code": "272060",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "貝塚市",
       "code": "272086",
       "years": 7,
@@ -1459,6 +1483,12 @@ export const ROADMAP_PROGRESS = {
       "code": "282171",
       "years": 7,
       "range": "H28〜R7（7年度）"
+    },
+    {
+      "name": "たつの市",
+      "code": "282294",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
     },
     {
       "name": "岡山市",
