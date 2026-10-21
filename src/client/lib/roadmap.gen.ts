@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 333,
+  "budgetCount": 334,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2583,
-  "fileCount": 4203,
-  "archivedCount": 2401,
+  "sourceCount": 2593,
+  "fileCount": 4213,
+  "archivedCount": 2411,
   "licenseOpen": 103,
-  "licensePermission": 2416,
+  "licensePermission": 2426,
   "licenseUnverified": 64,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -481,6 +481,12 @@ export const ROADMAP_PROGRESS = {
       "code": "131024",
       "years": 10,
       "range": "H29〜R8（10年度）"
+    },
+    {
+      "name": "上越市",
+      "code": "152226",
+      "years": 10,
+      "range": "H27〜R8（10年度）"
     },
     {
       "name": "高岡市",

@@ -3578,6 +3578,10 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     })),
     // ⚠ 筑紫野は R8 しかウェブに無い
     { srcId: "chikushino-yosan-shiryo-r8", muniCode: "402176", muniName: "筑紫野市", prefName: "福岡県", isPref: false },
+    // ⚠ 上越は款の間に市債・公債費の内訳が挟まる3行組（parenAltRows・detailRowsAfterKan・#294）。H30・H29 はテキスト層が化けて未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2", "h31", "h28", "h27"] as const).map((fy) => ({
+      srcId: `joetsu-yosan-gaiyou-${fy}`, muniCode: "152226", muniName: "上越市", prefName: "新潟県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

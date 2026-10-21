@@ -595,6 +595,41 @@ interface Options {
    * （偵察がリポジトリの raw に当てて再現済み）。**款名の一部に丸数字が出る資料が実在する**。
    */
   kanNoCircled?: boolean;
+  /**
+   * **款ごとに「（ ）書きの別の値」の行が付く様式**（2026-10-21・上越 #294）。上越の款は3行組で、上段に
+   * 「制度融資預託金元金収入・借換債を除いた値」を括弧書きで、下段に本来の金額を置く:
+   * ```
+   *                            (31,906,297)  (31.5)  (4.7) (32,483,110)  (30.9)  (576,813)  (0.7)   ← 別の値
+   *  1 市                    税                                                                    ← 款名
+   *                             31,906,297    31.1    4.7    32,483,110   30.0    576,813    1.8    ← 本来の金額
+   *     国 有 提 供 施 設 等 所 在     (27,045)  (0.0) (△ 1.5)  (27,014)  (0.0)  (△31) (△ 0.1)   ← 款名の上段が同居
+   * 10 市 町 村 助 成 交 付 金
+   * ```
+   * 指定すると、**括弧書きの数値を2つ以上持つ行**を別値の行とみなして括弧書きの数値（と原典の表計算の
+   * エラー表示 `#DIV/0!`）を消し、行に残った款名の断片だけを通常の断片として読む。指定しないと款10 の
+   * 上段が金額つきの孤児行として捨てられ、款名が `市町村助成交付金` に切れる（**Σ は差0 のまま**）。
+   * ⚠ 別値の行は、次の空でない行が款番号で始まるとき `detailRowsAfterKan` の内訳の終わりの印にもなる
+   *   （内訳の行にも別値の行が付く年度がある＝上越 H31 の公債費）。
+   */
+  parenAltRows?: boolean;
+  /**
+   * **款行の直後に、款番号の無い内訳の行が金額つきで続く様式**（2026-10-21・上越 #294）。上越は市債の内訳
+   * （`通常債（従来分）`・`合併特例債`…）と公債費の内訳（`定時償還元金`・`繰上償還元金`…）を款の下に挟む:
+   * ```
+   * 12 公         債       費
+   *                            12,044,603  11.7 △ 13.9  14,286,152  13.2  2,241,549  18.6
+   *   定 時 償 還 元 金               10,863,196  10.6  △ 2.0  10,811,475  10.0  △ 51,721  △ 0.5
+   *   繰 上 償 還 元 金                          －        －               －               －
+   * 13 諸     支       出   金
+   * ```
+   * 既定の経路では、金額がダッシュだけの内訳（`繰上償還元金－－－－`）が款名の断片として次の款の頭に付き
+   * （`繰上償還元金－－－－諸支出金`）、`皆減` の付いた内訳（`臨時財政対策債 0 / 577,300`）が廃止款として湧く
+   * （前年度 Σ が warning 止まりで流れる年度と、`0 / 0` で Σ 差0 のまま通る年度がある）。
+   * 指定すると、款を1つ読んだ後は**次に款番号のある行（か、款番号の行の直前の `parenAltRows` の別値の行）が来るまで**、款番号の無い行を
+   * すべて捨てる。⚠ `kanIndentMax` では代われない — 上越は款の金額行そのものが内訳より深く字下げされている。
+   * ⚠ 款の後に款名の下段が続く様式（下段待ち）とは組み合わせない — 下段も内訳として捨てられる。
+   */
+  detailRowsAfterKan?: boolean;
 }
 
 /** 丸数字（①〜㊿・㉑〜㉟ の追加面も含む）→ 半角数字。`kanNoCircled` のときだけ行頭に適用する */
@@ -1051,6 +1086,8 @@ function parseKanPage(
   // その款の上段だったと分かる（Options 参照なしの構造判定。静岡 R8 の第5の折返し型）
   let orphan: { namePart: string; ints: string[]; raw: string } | null = null;
   let orphanLi = -1;
+  // 款の内訳の行を読み飛ばしている間（Options.detailRowsAfterKan 参照）
+  let inDetail = false;
   const emit = (kanNo: number | null, name: string, ints: string[], raw: string, awaitTail = false) => {
     if (!name) return;
     if (ints.length < 2) {
@@ -1106,6 +1143,22 @@ function parseKanPage(
       const amountIdx = zeroPrev && toAmount(ints[0]!) !== 0 ? 0 : 1;
       amount = zeroAmount ? 0 : toAmount(ints[amountIdx]!);
       prevAmount = zeroPrev ? 0 : toAmount(ints[0]!);
+      // **皆増・皆減の語が前年度側の「前年度比」列にある行**（2026-10-21・上越 R2 #294）:
+      //   `9 環境性能割交付金  51,700  0.1  皆増  126,900  0.1  75,200  145.5`
+      // ＝前年度（R1）が前々年度比で皆増だったという印で、この行の前年度は 0 ではない。皆増分岐が前年度を 0・
+      // 当年度を ints[0] と読み、当年度 Σ が割れていた。**前年度・当年度とも非0 で、3つ目の整数が差の絶対値に
+      // 一致する**（＝[前年度, 当年度, 増減] の3列として整合する）ときは語より印字値を採る。どちらかが 0 の行
+      // （足立 R6 の `1,535,000 0 △1,535,000 皆減`）はこの条件に当たらず従来どおり。
+      if (
+        (zeroPrev || zeroAmount) &&
+        ints.length >= 3 &&
+        toAmount(ints[0]!) !== 0 &&
+        toAmount(ints[1]!) !== 0 &&
+        Math.abs(toAmount(ints[2]!)) === Math.abs(toAmount(ints[1]!) - toAmount(ints[0]!))
+      ) {
+        prevAmount = toAmount(ints[0]!);
+        amount = toAmount(ints[1]!);
+      }
     } else {
       const prevIdx = zeroAmount && toAmount(ints[0]!) !== 0 ? 0 : 1;
       amount = zeroAmount ? 0 : toAmount(ints[0]!);
@@ -1154,6 +1207,7 @@ function parseKanPage(
     reset();
     openLine = awaitTail ? line : null;
     blanksSinceOpen = 0;
+    if (opts.detailRowsAfterKan) inDetail = true;
   };
 
   // 款名の断片（折返し）に日本語（漢字・かな）が含まれるか。列見出し「Ａ ％ Ｂ」等の
@@ -1170,6 +1224,17 @@ function parseKanPage(
   // 本体の合計行＝当年度/前年度/増減の3個以上が選ばれる）。以降のドーナツ凡例・注記を款に
   // 誤認しないよう、款のパースは合計行の手前で打ち切る。
   const allLines = text.split("\n").map((l) => toHalfDigits(l));
+  // 別値の行（Options.parenAltRows 参照）。括弧書きの数値を消し、残った款名の断片だけを残す。合計行の選定より先に
+  // 消す（合計の上の別値の行が整数の数で合計行と競わないように）
+  const altRows = new Set<number>();
+  if (opts.parenAltRows) {
+    const parenNum = /[(（][\s　]*[△▲]?[\s　]*[\d,]+(?:\.\d+)?[\s　]*[)）]/g;
+    allLines.forEach((l, i) => {
+      if ((l.match(parenNum) ?? []).length < 2) return;
+      altRows.add(i);
+      allLines[i] = l.replace(parenNum, " ").replace(/#DIV\/0!/g, " ");
+    });
+  }
   let totalIdx = allLines.length;
   {
     // ⚠ **合計行の「選定」と「金額の取り出し」を分ける**（2026-07-25）。ここは候補を全行走査して
@@ -1322,6 +1387,15 @@ function parseKanPage(
     if (li >= totalIdx) break; // 合計行以降（凡例・注記）は款ではない
     const raw = allLines[li]!; // 全角款番号（豊川）を半角化済み
     const compact = raw.replace(/[\s　]/g, "");
+    // 別値の行（Options.parenAltRows 参照）は、**次の空でない行が款番号か廃止の印で始まるときだけ**款の内訳の終わりの
+    // 印にする。内訳の行にも別値の行が付く年度がある（上越 H31 の公債費の内訳）ので、別値の行だけでは次の款の始まりと
+    // 言えない。廃止の印は上越 R2 の `× 自動車取得税交付金`（市債の内訳の直後・款番号なし）
+    if (inDetail && altRows.has(li)) {
+      const next = allLines.slice(li + 1).find((l) => l.replace(/[\s　]/g, "") !== "");
+      if (next != null && (/^\s*[○◎●]*\s*[(（]?\s*0?[1-9]\d*(?![\d,])/.test(next) || ABOLISHED_MARK_RE.test(next))) {
+        inDetail = false;
+      }
+    }
     // 款項が同一表に混在する様式（Options.kanIndentMax 参照）: 深く字下げされた項・目を外す
     if (opts.kanIndentMax != null && compact !== "") {
       const indent = raw.length - raw.trimStart().length;
@@ -1376,6 +1450,7 @@ function parseKanPage(
     // （最大は相模原の 90）。
     const bare = compact.match(/^[○◎●]*(\d{1,2})$/);
     if (bare) {
+      inDetail = false;
       // **金額が款番号より前（上段）に来る第5の折返し型**（2026-07-16・静岡 R8）:
       //   `     農    林     5,152,466   4,616,851   535,615 …`  ← 上段に款名前半＋金額
       //   `６`                                                    ← 款番号が単独行
@@ -1436,6 +1511,11 @@ function parseKanPage(
     // その年度だけ収録できない）。款番号の直後には必ず款名（日本語）が来るので、小数の百分率が
     // 続く行は款行ではないと判定してよい。⚠ 整数の百分率は `stripPercents` が別途落とす。
     if (lead && /^[.．]\d+\s*[%％]/.test(rawForLead.slice(lead[0].length))) continue;
+    // 款の内訳の行（Options.detailRowsAfterKan 参照）。款番号のある行が来るまで捨てる
+    if (inDetail) {
+      if (!lead) continue;
+      inDetail = false;
+    }
     // **款名末尾の脚注番号 `(※1)` を金額化の前に落とす**（2026-09-10・栃木）。
     // 栃木の歳入は款名の末尾に脚注の参照番号が付く（`1 市税(※1)  22,760,423 …`）。ここで落とさないと
     // **`1` が第1金額として読まれ**、その款だけ列が1つずれる（栃木は9年度すべての歳入がこれで落ちる）。
@@ -1612,7 +1692,10 @@ function parseKanPage(
         .replace(/[○〇]$/, "")
         .replace(/[-‐‑‒–—―−－─━]/g, "");
       // 上段に名前があり下段が続く廃止款（Options.abolishedAwaitTail 参照・松山 R8）
-      emit(null, pendName + cleaned, ints, raw, cleaned === "" || abolishedTails.has(pendName + cleaned));
+      // **廃止の印が款名だけの行（上段）にある様式**（2026-10-21・上越 R2 `× 自動車取得税交付金` / 金額行 `… 皆減`）では
+      // 印が断片側に残るので、断片の頭の印も落とす（Σ は差0 のまま款名が `×自動車取得税交付金` になる）
+      const pendClean = pendName.replace(ABOLISHED_MARK_RE, "");
+      emit(null, pendClean + cleaned, ints, raw, cleaned === "" || abolishedTails.has(pendClean + cleaned));
     } else if (pendNo != null && lead && namePart === "" && ints.length >= 1) {
       // **折返し款の金額行なのに、当年度額そのものが lead に食われる**（2026-07-17・台東 R8 の
       // 款7 環境性能割交付金）。原典は**象徴計上の1千円**を置く:
