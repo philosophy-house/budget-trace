@@ -1866,6 +1866,39 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-21", ref: "docs/data-sources.md §13-22",
   },
   {
+    // 高砂市（282162）R4。R8〜R5・R3・R2 は収録済み（§13-62）。
+    // 概要 20220216-5.pdf の当年度 36,496,125 は原案訂正の前。議決額 36,468,186 は R5 の前年度列・財政事情 R4 予算（20220530-3.pdf）と款単位一致（繰入金・総務費が 27,939 ずつ違う）。
+    // 財政事情の版には前年度の額が無い。R4 の予算書は年度ページに掲載が無い。原案訂正は議会だより第217号（/material/files/group/85/25.pdf）。
+    code: "282162", name: "高砂市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "市が公開している「予算の概要」は、市長が議会の審議中に予算案を訂正する前の数字のままで、繰入金と総務費の額が成立した予算と違う。" +
+      "成立した予算の款ごとの額は財政事情の公表資料に載っているが、そちらには前年度の額が無い。",
+    url: "https://www.city.takasago.lg.jp/gyoseisite/shiseijoho/gyozaisei/4/6/6251.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-62",
+  },
+  {
+    // 花巻市（032051）R2。R8〜R3 は収録済み（§13-61）。
+    // 予算書 02yosan.pdf（45ページ）・事項別明細書 02yosan_ippan.pdf（228ページ）とも先頭20ページで pdftotext 0字・pdffonts 0件・画像あり（2026-10-22 に自分で取得して実測）。
+    code: "032051", name: "花巻市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書と予算事項別明細書がどちらも文字の層が無い画像で作られている。" +
+      "文字が取れる参考資料は歳入の款別だけで歳出の款別が無く、広報のあらましは万円単位で前年度の額が無い。",
+    url: "https://www.city.hanamaki.iwate.jp/shisei/shisei/yosan_kessan/1008155/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-61",
+  },
+  {
+    // 袋井市（222160）R4。R8〜R5・R3・R2 は収録済み（§13-61）。パーサの issue に積んだ。
+    code: "222160", name: "袋井市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["parser-unsupported"],
+    reason:
+      "歳入の款別集計表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度1千円）が、名前の上段・金額の行・名前の下段の3行に分かれて組まれていて、" +
+      "こちらの抽出処理では款名を正しく組み立てられない。原典の表は健全。",
+    url: "https://www.city.fukuroi.shizuoka.jp/soshiki/6/2/zaisei/1422534504181.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-61",
+  },
+  {
     // 北上市（032069）R6〜R2。R8・R7 は収録済み（§13-60）。
     // 予算書（R6 2024-01-01.pdf・R5 2023-01-01.pdf・R4 2022-0202.pdf・R3 r3ippann1.pdf・R2 r2ippan1.pdf）の総括 物理 p.15〜18 は pdftotext がノンブルだけ・pdfimages 0件（文字をアウトライン化）。
     // 概要（予算（案）の概要）は歳入を「地方譲与税等※」の1行に集約（注記の内訳は地方譲与税・利子割交付金…と年度で並びが違う。R2 は自動車取得税交付金を含む）。
@@ -1889,7 +1922,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
   },
   {
-    // 牛久市（082198）R3。R8〜R4・R2 は収録済み（§13-62）。
+    // 牛久市（082198）R3。R8〜R4・R2 は収録済み（§13-64）。
     // 議案第18号に対する修正案「第１条中「２８，４６３，０００千円」を「２８，０１０，９５３千円」に改める。」（/data/doc/1616734624_doc_21_0.pdf）。
     // 概要（1614146964_doc_21_0.pdf）は原案で、款6 法人事業税交付金の行は整数が1つしかなく落ちる。予算書（1616734582_doc_21_0.pdf）の総括 p.11/12 は原案の額に取り消し線を引いて
     // 修正後の額を書き足した版面で、decodeGarble で読むと原案の額が Σ 差0 で通る（静かに誤る）。
@@ -1899,10 +1932,10 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "議会で一般会計予算が修正されたが、市が公開している当初予算案の概要は修正前の原案のまま。" +
       "予算書の総括は原案の額に取り消し線を引いて修正後の額を書き足した版面で、修正後の款ごとの額を文字として正しく取り出せない。",
     url: "https://www.city.ushiku.lg.jp/shisei/shinotorikumi/keikaku-zeisei-shisaku-kaikaku/yosan-kessan/yosan/page009643.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-62",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
   {
-    // 綾瀬市（142182）R5。R8・R7・R6・R4 は収録済み（§13-62）。
+    // 綾瀬市（142182）R5。R8・R7・R6・R4 は収録済み（§13-64）。
     // 予算書 r5yosansyo.pdf の歳入総括 p.19 は poppler で文字が二重に出る（`歳歳入入`・`1133,,447788,,026`）。見出しも取れず throw。概要 r5gaiyo.pdf の〔歳入〕は款を合算した12区分。
     code: "142182", name: "綾瀬市", dataset: "budget", fiscalYears: ["R5"],
     categories: ["broken-text-layer", "format-mismatch"],
@@ -1910,7 +1943,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "予算書のうち歳入の款ごとの前年度比較が載る総括のページが、同じ文字が二重に重なった状態で作られていて、文字として正しく取り出せない。" +
       "予算の概要の歳入の表は款をまとめた区分で、款ごとの額が載っていない。",
     url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/14542.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-62",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
   {
     // 綾瀬市（142182）R3・R2。現行サイトの財政ページに年度が無く、r3yosansyo.pdf 等を推測で叩いて 404。Wayback の CDX（material/files/group/6/・旧サイト /hp/）に予算 PDF 0件。WARP は館内限定（403）。
@@ -1920,6 +1953,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "市のサイトに当初予算の資料が残っておらず、インターネットアーカイブにも見当たらない。" +
       "国立国会図書館の WARP には保存されているが、館内でしか閲覧できない。",
     url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-62",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
 ];
