@@ -2619,7 +2619,37 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-95",
   },
   {
-    // 宇佐市（442119）R8〜R2。1年度も収録できていない（§13-96）。
+    // 宮古島市（472140）R4・R3。R8〜R5・R2 は収録済み（§13-96）。
+    // どちらも議会で修正可決（R4-03-25 議案第10号・R3-03-25 議案第12号）。予算書は見え消しで、テキスト層に原案と修正後が両方入る（偵察）。
+    code: "472140", name: "宮古島市", dataset: "budget", fiscalYears: ["R4", "R3"],
+    categories: ["parser-unsupported"],
+    reason:
+      "議会で修正して可決された予算で、予算書は原案の数字に取消線を引いて修正後の数字を重ねて印字しており、文字の情報には修正前と修正後の両方の数字が入っているため、修正後の額だけを取り出せない。",
+    url: "https://www.city.miyakojima.lg.jp/soshiki/shityo/soumubu/zaisei/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
+  },
+  {
+    // 直方市（402044）R2。R8〜R3 は収録済み（§13-96）。
+    // 年度ページ /shisei/_1236/_12739/_12744.html は現行で 404・Wayback 2023-08 に参考資料・概要だけ。予算書は Wayback の CDX にも無い（偵察）。
+    code: "402044", name: "直方市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material"],
+    reason:
+      "予算書がウェブに無い。年度ページは参考資料・概要だけで、参考資料の歳出は性質別と款×性質の表で、款ごとの前年度額が無い。",
+    url: "https://www.city.nogata.fukuoka.jp/shisei/_1236/_12739.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
+  },
+  {
+    // 滝沢市（032166）R3・R2。R8〜R4 は収録済み（§13-96）。
+    // 「当初予算の内容」（WARP 20220710 …/var/rev0/0116/6193/01_r3yosan-naiyou.pdf・…/0116/6197/01_r2yosan-naiyou.pdf）は会計別総額表が先に来る（偵察）。
+    code: "032166", name: "滝沢市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算に関する説明書が掲載されていない。代わりの「当初予算の内容」は、款ごとの表の前に会計ごとの総額の表があり、合計の行の名前が同じなので、会計ごとの総額を歳入の款として読んでしまう。",
+    url: "https://www.city.takizawa.iwate.jp/about-takizawa/soshiki-gaiyo/zaisei-gaiyo/contents-2269",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
+  },
+  {
+    // 宇佐市（442119）R8〜R2。1年度も収録できていない（§13-97）。
     // 「当初予算（一般会計）の概要」p.4 歳入・p.5 歳出（目的別）は7年度とも同じ様式・テキスト層あり。歳出は CropX と kanNoless で Σ 差0（偵察）。
     // 歳入の「ゴルフ場利用税交付金」は款名が2行に折り返し、金額が名前欄の空いた別行に来る（`200   134   66   49.3`）。当年度額にカンマが無いので
     // kanNoless でも行頭の数字が款番号に読まれて1列ずれ、全年度で歳入の Σ が割れる。amountTypos での回避は採らない（原典の誤植ではない）。
@@ -2628,6 +2658,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "款別の歳入の表のうち、ゴルフ場利用税交付金の行は款名が2行に折り返して金額が別の行に来るため、こちらの抽出処理では金額の先頭の数字を款の番号と取り違え、歳入の合計が合わなくなる。原典の表は健全。",
     url: "https://www.city.usa.oita.jp/sougo/soshiki/10/gyozaiseikeiei/2/1_2/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-97",
   },
 ];
