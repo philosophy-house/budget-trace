@@ -2107,17 +2107,17 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
   },
   {
-    // 碧南市（232092）R4。R8〜R5・R3・R2 は収録済み（§13-69）。
+    // 碧南市（232092）R4。R8〜R5・R3・R2 は収録済み（§13-70）。
     // 係数編 R4_yosankeisu.pdf（52p・4,650,593B）は Canon iR-ADV 6565 のスキャンで pdftotext 52バイト。
     code: "232092", name: "碧南市", dataset: "budget", fiscalYears: ["R4"],
     categories: ["scanned-image"],
     reason:
       "款ごとの前年度比較が載る予算の概要（係数編）が紙をスキャンした画像の PDF で、文字として取り出せない。",
     url: "https://www.city.hekinan.lg.jp/soshiki/kikaku_zaisei/zaiseika/finance/15078.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-69",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-70",
   },
   {
-    // 天草市（432156）R8。R7〜R2 は収録済み（§13-69）。
+    // 天草市（432156）R8。R7〜R2 は収録済み（§13-70）。
     // 予算書 3_14086_75309_up_scyceax3.pdf（207p・25.9MB・PDFium）は pp.3–7 と 11–192 にテキストが無い（総括は描画された図形）。概要はスキャン＋OCR で前年度列が「令和7年度（6月補正後）」。
     code: "432156", name: "天草市", dataset: "budget", fiscalYears: ["R8"],
     categories: ["broken-text-layer", "format-mismatch"],
@@ -2125,10 +2125,10 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "一般会計予算書の総括のページが図形として描かれていて、文字として取り出せない。" +
       "当初予算の概要は紙をスキャンした画像に読み取った文字を重ねたもので、前年度の列も当初ではなく6月補正後の額になっている。",
     url: "https://www.city.amakusa.kumamoto.jp/kiji00314086/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-69",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-70",
   },
   {
-    // 渋川市（102083）R8〜R2。1年度も収録できていない（§13-69）。
+    // 渋川市（102083）R8〜R2。1年度も収録できていない（§13-70）。
     // 予算書の「歳入歳出予算事項別明細書 1 総括」は全年度でフォント0・画像0（pdftotext 1バイト＝文字を図形化）。予算内示説明会資料の「歳入歳出予算総括表」はスキャン（R7 だけ OCR が崩れている）。
     // R5 だけ「予算書及び予算に関する資料（修正後）」の予算概要 p.5・p.6 に文字の款別表があるが、歳出の前年度が「末尾から2番目の整数」で既存の指定で読めず、財源内訳が修正前のまま（偵察の実測）。
     code: "102083", name: "渋川市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
@@ -2137,6 +2137,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "款ごとに前年度と比べる表は、予算書の総括と予算内示説明会資料の総括表にあるが、予算書の総括は全年度とも文字を図形に変換した状態で作られていて、" +
       "内示説明会資料は紙をスキャンした画像になっている。令和5年度だけ修正後の予算概要に文字の表があるが、歳出の前年度の列がこちらの抽出処理で読める形になっていない。",
     url: "https://www.city.shibukawa.lg.jp/shisei/000276/000277/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-69",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-70",
   },
 ];

@@ -3766,7 +3766,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `fukuchiyama-yosansho-${fy}`, muniCode: "262013", muniName: "福知山市", prefName: "京都府", isPref: false,
     })),
     { srcId: "fukuchiyama-yosan-youryou-r3", muniCode: "262013", muniName: "福知山市", prefName: "京都府", isPref: false },
-    // ---- 第63巡（2026-10-22・§13-69） ----
+    // ---- 第64巡（2026-10-22・§13-70） ----
     // ⚠ 行橋は財政事情 p.2（左右2表・CropX）。R4〜R2 は WARP。R8・R5・R4 骨格（R6・R5 に prevNote）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yukuhashi-zaisei-jijo-${fy}`, muniCode: "402133", muniName: "行橋市", prefName: "福岡県", isPref: false,
