@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 463,
+  "budgetCount": 468,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3431,
-  "fileCount": 5102,
-  "archivedCount": 2793,
+  "sourceCount": 3459,
+  "fileCount": 5130,
+  "archivedCount": 2803,
   "licenseOpen": 135,
-  "licensePermission": 3211,
+  "licensePermission": 3239,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -969,6 +969,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "蓮田市",
+      "code": "112381",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "坂戸市",
       "code": "112399",
       "years": 7,
@@ -1539,6 +1545,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "天理市",
+      "code": "292044",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "岡山市",
       "code": "331007",
       "years": 7,
@@ -1571,6 +1583,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "丸亀市",
       "code": "372021",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "三豊市",
+      "code": "372081",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2061,6 +2079,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（5年度）"
     },
     {
+      "name": "常総市",
+      "code": "082112",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
+    },
+    {
       "name": "所沢市",
       "code": "112089",
       "years": 5,
@@ -2351,6 +2375,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "北上市",
       "code": "032069",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "栗原市",
+      "code": "042137",
       "years": 2,
       "range": "R7〜R8（2年度）"
     },
