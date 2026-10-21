@@ -3650,6 +3650,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `satsumasendai-yosansho-${fy}`, muniCode: "462152", muniName: "薩摩川内市", prefName: "鹿児島県", isPref: false,
     })),
+    // ---- 第57巡（2026-10-22・§13-62） ----
+    // ⚠ 綾瀬は R8・R7・R6・R4（R5 は文字層の二重化・R3・R2 はウェブに無い）。R6 は歳入が予算書・歳出が概要の2ファイル。款10 は kanNameContinues
+    ...(["r8", "r7", "r6", "r4"] as const).map((fy) => ({
+      srcId: `ayase-yosansho-${fy}`, muniCode: "142182", muniName: "綾瀬市", prefName: "神奈川県", isPref: false,
+    })),
+    // ⚠ 牛久 R3 は議会修正で概要が原案のまま（未収録）。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `ushiku-yosan-gaiyou-${fy}`, muniCode: "082198", muniName: "牛久市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 尾張旭 R5 は骨格予算（R6 に prevNote）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `owariasahi-yosansho-${fy}`, muniCode: "232262", muniName: "尾張旭市", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gotemba-yosan-gaiyou-${fy}`, muniCode: "222151", muniName: "御殿場市", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 知多は款と項が同じ表に並ぶ（kanIndentMax: 2）。R4〜R2 は Wayback
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chita-yosan-gaiyou-${fy}`, muniCode: "232246", muniName: "知多市", prefName: "愛知県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
