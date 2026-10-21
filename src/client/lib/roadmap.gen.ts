@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 439,
+  "budgetCount": 444,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3275,
-  "fileCount": 4945,
-  "archivedCount": 2735,
+  "sourceCount": 3307,
+  "fileCount": 4977,
+  "archivedCount": 2746,
   "licenseOpen": 135,
-  "licensePermission": 3055,
+  "licensePermission": 3087,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -831,6 +831,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "鹿嶋市",
+      "code": "082228",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "守谷市",
       "code": "082244",
       "years": 7,
@@ -1163,6 +1169,18 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "飯田市",
       "code": "202053",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "伊那市",
+      "code": "202096",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "塩尻市",
+      "code": "202151",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1893,6 +1911,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R7（6年度）"
     },
     {
+      "name": "合志市",
+      "code": "432164",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "都城市",
       "code": "452025",
       "years": 6,
@@ -1939,6 +1963,12 @@ export const ROADMAP_PROGRESS = {
       "code": "112089",
       "years": 5,
       "range": "R4〜R8（5年度）"
+    },
+    {
+      "name": "北本市",
+      "code": "112330",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
     },
     {
       "name": "品川区",

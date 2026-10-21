@@ -3589,6 +3589,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第72巡（2026-10-22・§13-79） ----
+    // ⚠ 北本は予算参考資料。R4・R3 は議会修正可決で資料が原案のため見送り
+    ...(["r8", "r7", "r6", "r5", "r2"] as const).map((fy) => ({
+      srcId: `kitamoto-yosan-sankou-${fy}`, muniCode: "112330", muniName: "北本市", prefName: "埼玉県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kashima-yosan-setsumei-${fy}`, muniCode: "082228", muniName: "鹿嶋市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 塩尻は概要（textSource raw）。R3 だけ予算書の総括。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `shiojiri-yosan-gaiyou-${fy}`, muniCode: "202151", muniName: "塩尻市", prefName: "長野県", isPref: false,
+    })),
+    { srcId: "shiojiri-yosansho-r3", muniCode: "202151", muniName: "塩尻市", prefName: "長野県", isPref: false },
+    // ⚠ 合志は R3 見送り（廃止款の括弧書きの行）。ライセンスは license-no-grant.ts
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `koshi-yosan-gaiyou-${fy}`, muniCode: "432164", muniName: "合志市", prefName: "熊本県", isPref: false,
+    })),
+    // ⚠ 伊那は R8・R4 骨格、R5 の前年度列は6月補正後。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ina-yosan-gaiyou-${fy}`, muniCode: "202096", muniName: "伊那市", prefName: "長野県", isPref: false,
+    })),
     // ---- 第71巡（2026-10-22・§13-78） ----
     // ⚠ 羽島は概要（災害復旧費の款なし）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

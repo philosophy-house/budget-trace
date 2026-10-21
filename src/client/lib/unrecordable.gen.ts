@@ -129,6 +129,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "112330": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度・令和3年度",
+        "reason": "一般会計予算は議会で修正して可決されたが、掲載されている予算参考資料と予算書は修正前の原案のままで、議決された款ごとの額が載っていない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "112372": {
     "budget": [
       {
@@ -1327,6 +1336,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和8年度",
         "reason": "一般会計予算書の総括のページが図形として描かれていて、文字として取り出せない。当初予算の概要は紙をスキャンした画像に読み取った文字を重ねたもので、前年度の列も当初ではなく6月補正後の額になっている。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "432164": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度",
+        "reason": "款別の構成表のうち、廃止された款（自動車取得税交付金）の行が括弧書きで款番号の無い形になっていて、こちらの抽出処理ではその行を読めない（前年度の合計が1千円合わなくなる）。原典の表は健全。",
         "checkedOn": "2026-10-22"
       }
     ]
