@@ -2010,6 +2010,27 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
   {
+    // 舞鶴市（262021）R3。R8〜R4 は収録済み（§13-75）。
+    // 事項別明細書（総括）/shisei/cmsfiles/contents/0000007/7730/3jikoubetsumeisai(soukatsu).pdf（5ページ）・一般会計予算書・資料1・資料3 とも 600dpi CCITT の画像（pdftotext はページ番号だけ）。Wayback の CDX は0件。
+    code: "262021", name: "舞鶴市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書・事項別明細書（総括）・当初予算概要の資料が、どれも紙をスキャンした画像の PDF で、文字として取り出せない。",
+    url: "https://www.city.maizuru.kyoto.jp/shisei/0000007730.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-75",
+  },
+  {
+    // 舞鶴市（262021）R2。事項別明細書（総括）/shisei/cmsfiles/contents/0000006/6027/2jikoubetsumeisai(soukatsu).pdf は文字が取れるが、
+    // 廃止款の行「（自動車取得税交付金）」が当年度空欄・比較が半角の `-61,800` で、当年度空欄の廃止款の判定（`△`/`▲` 前提）に当たらず前年度 Σ が −61,800 ずれる。
+    // `amountTypos` は款と項の2行に同じ字面があり1回一致の制約で使えない。資料1・資料3 はスキャン。
+    code: "262021", name: "舞鶴市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款ごとの前年度比較が載る事項別明細書（総括）は文字が取れるが、廃止された款の行が当年度の欄が空白で減少額を半角のハイフンで書く形になっていて、既存のパーサがこの行を読めず前年度の合計が合わない。",
+    url: "https://www.city.maizuru.kyoto.jp/shisei/0000006027.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-75",
+  },
+  {
     // 清瀬市（132217）R2。R8〜R3 は収録済み（§13-68）。
     // 説明資料 r2tousyoyosansetsumei.pdf（78p）は p.1〜2 だけテキスト・p.3 以降はスキャン JPEG。予算書 r2ippankaikeitousyo.pdf には総括が無い（款名も途中で切れる）。
     code: "132217", name: "清瀬市", dataset: "budget", fiscalYears: ["R2"],
@@ -2181,7 +2202,39 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-73",
   },
   {
-    // 柏原市（272213）R6。R8・R7・R5〜R2 は収録済み（§13-74）。
+    // 栗東市（252085）R2。R8〜R3 は収録済み（§13-74）。
+    // 「予算のすがた」R2yosannosugata.pdf p.13 の廃止款の行「 自動車取得税交付金      30,000  0.1%  30,000  0.1%」は款番号・印・「皆減」なし、当年度空欄で整数2つ（前年度当初＝前年度現計）。
+    // 既存の廃止款の分岐（zeroCurAbolished・blankCurAbolished）に当たらず行ごと落ち、前年度 Σ が −30,000（warning 止まり）。印字に無い字を書き足す回避（amountTypos）は採らない。
+    code: "252085", name: "栗東市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の比較表のうち、廃止された款（自動車取得税交付金）の行が当年度の欄を空けた形で、こちらの抽出処理では前年度の額を正しく読めない（前年度の合計が3,000万円合わなくなる）。",
+    url: "https://www.city.ritto.lg.jp/shisei/zaisei/yosan_kesan/7307.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+  },
+  {
+    // 石岡市（082058）R2。R8〜R3 は収録済み（§13-74）。
+    // 年度ページ（page006744）に「令和2年第1回定例会にて令和2年度石岡市一般会計予算が修正可決いたしました。」。予算書 1611556506_doc_32_1.pdf は原案のまま。
+    // 訂正 PDF 1611556506_doc_32_0.pdf（3p）に総務費・民生費・衛生費・予備費の修正後の額だけがある（Σ は 34,460,000 で不変）。
+    code: "082058", name: "石岡市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計予算は議会で修正して可決されたが、掲載されている予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（総務費・民生費・衛生費・予備費の4款）。",
+    url: "https://www.city.ishioka.lg.jp/shiseijoho/zaisei/yosan/page006744.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+  },
+  {
+    // 鶴ヶ島市（112411）R3。R8〜R4・R2 は収録済み（§13-74）。
+    // 予算書 1614166267_doc_430_0.pdf（176p）と予算概要の分割ファイルがすべてスキャン（pdftotext が1ページ1文字・p.16 は 1240×1754 の JPEG のみ＝偵察）。
+    code: "112411", name: "鶴ケ島市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書と予算の概要が、どちらも紙をスキャンした画像の PDF で、文字として取り出せない。",
+    url: "https://www.city.tsurugashima.lg.jp/gyousei/zaiei/yosan/page007850.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+  },
+  {
+    // 柏原市（272213）R6。R8・R7・R5〜R2 は収録済み（§13-76）。
     // 当初予算参考資料（/docs/2024052700037/）は60ページすべて CCITT 300dpi の画像（テキスト60字）。予算書（/_files/00512862/r6yosan-ippan-tokubetu.pdf）の総括 p.36 は
     // 歳出の消防費の数字がテキスト層で `962 ,18 1` と割れる（画像では 962,181）。`amountTypos` で直せば Σ 差0 だが、誤植用の指定をテキスト層の割れに流用するかは人の判断。
     code: "272213", name: "柏原市", dataset: "budget", fiscalYears: ["R6"],
@@ -2189,15 +2242,15 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "款別の歳出が載る当初予算参考資料が紙をスキャンした画像だけの PDF で、予算書の総括は一部の款の数字が文字の層の上で途中で割れていて、そのままでは正しく取り出せない。",
     url: "https://www.city.kashiwara.lg.jp/docs/2024032700019/",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
   },
   {
-    // 大館市（052043）R2。R8〜R3 は収録済み（§13-74）。パーサの issue #361。
+    // 大館市（052043）R2。R8〜R3 は収録済み（§13-76）。パーサの issue #361。
     code: "052043", name: "大館市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["parser-unsupported"],
     reason:
       "当初予算の概要の歳入の総括表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度25,000千円）に付いている印（●）を、こちらの抽出処理が廃止の印として扱えず、その款が落ちる。原典の表は健全。",
     url: "https://warp.ndl.go.jp/20260707/20260705021444/https://www.city.odate.lg.jp/city/soshiki/zaisei/p647",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
   },
 ];
