@@ -21061,6 +21061,36 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "Copyright © Higashiomi City All rights Reserved.",
     "target": "page"
   },
+  "/sources/konan-yosansho-r6/r6.tousho_yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/014/929/r6.tousho_yosan.pdf",
+    "license": "江南市のホームページに掲載されている文章、写真、イラスト、画像等の著作権は、江南市または著作権者の方にあります。著作権法上認められた場合を除き、著作権者の許可なく文章、写真、イラスト、画像等の全部または一部を利用することは禁止します。",
+    "target": "file"
+  },
+  "/sources/konan-yosansho-r5/r5.tousho_yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/013/016/r5.tousho_yosan.pdf",
+    "license": "江南市のホームページに掲載されている文章、写真、イラスト、画像等の著作権は、江南市または著作権者の方にあります。著作権法上認められた場合を除き、著作権者の許可なく文章、写真、イラスト、画像等の全部または一部を利用することは禁止します。",
+    "target": "file"
+  },
+  "/sources/konan-yosansho-r4/r4ippantosyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/011/358/r4ippantosyo.pdf",
+    "license": "江南市のホームページに掲載されている文章、写真、イラスト、画像等の著作権は、江南市または著作権者の方にあります。著作権法上認められた場合を除き、著作権者の許可なく文章、写真、イラスト、画像等の全部または一部を利用することは禁止します。",
+    "target": "file"
+  },
+  "/sources/konan-yosansho-r3/r3ippantosyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/008/839/r3ippantosyo.pdf",
+    "license": "江南市のホームページに掲載されている文章、写真、イラスト、画像等の著作権は、江南市または著作権者の方にあります。著作権法上認められた場合を除き、著作権者の許可なく文章、写真、イラスト、画像等の全部または一部を利用することは禁止します。",
+    "target": "file"
+  },
+  "/sources/konan-yosansho-r2/r2_ippann_kaikei_tousho_s.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/006/998/r2_ippann_kaikei_tousho_s.pdf",
+    "license": "江南市のホームページに掲載されている文章、写真、イラスト、画像等の著作権は、江南市または著作権者の方にあります。著作権法上認められた場合を除き、著作権者の許可なく文章、写真、イラスト、画像等の全部または一部を利用することは禁止します。",
+    "target": "file"
+  },
   "/sources/yamanashi-ken-gikai-r8/kaihabetu_meibo.html": {
     "mode": "archive",
     "href": "https://web.archive.org/web/20260209231452id_/https://www.pref.yamanashi.jp/gikaisom/kaihabetu_meibo.html",
