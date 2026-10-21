@@ -1,0 +1,19 @@
+{
+  "sourceId": "musashimurayama-yosansho-soukatsu-r4",
+  "files": [
+    {
+      "filename": "r4_jikousainyuusoukatu.pdf",
+      "sha256": "1eb79ca35e53db007148cbb44e1d0742112b2b8b994908128a794145117250d0",
+      "bytes": 46983,
+      "fetchedAt": "2026-10-21T17:51:33.298Z",
+      "fetchedFrom": "https://www.city.musashimurayama.lg.jp/_res/projects/default_project/_page_/001/014/606/r4_jikousainyuusoukatu.pdf"
+    },
+    {
+      "filename": "r4_jikousaisyutusoukatu.pdf",
+      "sha256": "684e0fb5a50d392827b0050d5f3c80ecd5a223a560fd19e8be6965e38db99edc",
+      "bytes": 76570,
+      "fetchedAt": "2026-10-21T17:51:33.671Z",
+      "fetchedFrom": "https://www.city.musashimurayama.lg.jp/_res/projects/default_project/_page_/001/014/606/r4_jikousaisyutusoukatu.pdf"
+    }
+  ]
+}

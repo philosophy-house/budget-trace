@@ -1,0 +1,12 @@
+{
+  "sourceId": "honjo-yosansho-r3",
+  "files": [
+    {
+      "filename": "tousyo_ippan0225.pdf",
+      "sha256": "d08cbad5f3e3abcc6555c459960ee7bc0f2a6212be7cc99eb51f11b19f24576f",
+      "bytes": 999038,
+      "fetchedAt": "2026-10-21T16:52:39.543Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20220110/20220110013128/https://www.city.honjo.lg.jp/material/files/group/4/tousyo_ippan0225.pdf"
+    }
+  ]
+}

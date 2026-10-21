@@ -1,0 +1,12 @@
+{
+  "sourceId": "hekinan-yosan-keisu-r7",
+  "files": [
+    {
+      "filename": "keisuhen3.pdf",
+      "sha256": "dbc825ec09150882dfd6fc3139b85917dc0f9acfd4640bda90f1666dea5b5d21",
+      "bytes": 1298784,
+      "fetchedAt": "2026-10-21T17:13:47.841Z",
+      "fetchedFrom": "https://www.city.hekinan.lg.jp/material/files/group/70/keisuhen3.pdf"
+    }
+  ]
+}

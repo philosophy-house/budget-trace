@@ -2010,6 +2010,90 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
   {
+    // 舞鶴市（262021）R3。R8〜R4 は収録済み（§13-75）。
+    // 事項別明細書（総括）/shisei/cmsfiles/contents/0000007/7730/3jikoubetsumeisai(soukatsu).pdf（5ページ）・一般会計予算書・資料1・資料3 とも 600dpi CCITT の画像（pdftotext はページ番号だけ）。Wayback の CDX は0件。
+    code: "262021", name: "舞鶴市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書・事項別明細書（総括）・当初予算概要の資料が、どれも紙をスキャンした画像の PDF で、文字として取り出せない。",
+    url: "https://www.city.maizuru.kyoto.jp/shisei/0000007730.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-75",
+  },
+  {
+    // 舞鶴市（262021）R2。事項別明細書（総括）/shisei/cmsfiles/contents/0000006/6027/2jikoubetsumeisai(soukatsu).pdf は文字が取れるが、
+    // 廃止款の行「（自動車取得税交付金）」が当年度空欄・比較が半角の `-61,800` で、当年度空欄の廃止款の判定（`△`/`▲` 前提）に当たらず前年度 Σ が −61,800 ずれる。
+    // `amountTypos` は款と項の2行に同じ字面があり1回一致の制約で使えない。資料1・資料3 はスキャン。
+    code: "262021", name: "舞鶴市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款ごとの前年度比較が載る事項別明細書（総括）は文字が取れるが、廃止された款の行が当年度の欄が空白で減少額を半角のハイフンで書く形になっていて、既存のパーサがこの行を読めず前年度の合計が合わない。",
+    url: "https://www.city.maizuru.kyoto.jp/shisei/0000006027.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-75",
+  },
+  {
+    // 清瀬市（132217）R2。R8〜R3 は収録済み（§13-68）。
+    // 説明資料 r2tousyoyosansetsumei.pdf（78p）は p.1〜2 だけテキスト・p.3 以降はスキャン JPEG。予算書 r2ippankaikeitousyo.pdf には総括が無い（款名も途中で切れる）。
+    code: "132217", name: "清瀬市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image", "format-mismatch"],
+    reason:
+      "款ごとの前年度比較が載る当初予算説明資料は、表紙の後ろが紙をスキャンした画像で文字として取り出せない。" +
+      "一般会計予算書には款ごとの総括の表が無い。",
+    url: "https://www.city.kiyose.lg.jp/siseijouhou/zaisei/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 龍ケ崎市（082082）R2。R8〜R3 は収録済み（§13-68）。
+    // R2_Ryugasaki_Initial_Budget.pdf は全文が ToUnicode 欠落の化け。decodeGarble は廃止款の印「×」が U+0099 に化けて GARBLE_CHAR_MAP に無く throw（印を足せば Σ 差0・偵察がスクラッチで実測）。
+    code: "082082", name: "龍ケ崎市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "一般会計予算書の文字が別の字に化けていて、廃止された款の行の印がこちらの復号の対応表に無いため、款ごとの表を読み切れない。",
+    url: "https://www.city.ryugasaki.ibaraki.jp/shisei/zaisei/yosankessan/yosan/y-yosansyo/R2_Ryugasaki_Budget.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 室蘭市（012050）R8。R7・R6・R5・R3 は収録済み（§13-68）。
+    // 予算書 content_20260318_112055.pdf（152p・29.6MB）は InDesign の電子原本だが文字が全部アウトライン化（p.13 で Tj/TJ 0・曲線 c 12,319）。
+    // 予算の概要の款別表（物理 p.15/16）は百万円の四捨五入で Σ が −1 百万円割れる（validate の厳密一致で error）。
+    code: "012050", name: "室蘭市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "一般会計予算書は文字を図形に変換した状態で作られていて、文字として取り出せない。" +
+      "予算の概要にも款別の表はあるが百万円単位に丸めてあり、款の合計が総額と一致しない。",
+    url: "https://www.city.muroran.lg.jp/administration/?content=1921",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 室蘭市（012050）R4・R2。WARP の旧サイトの予算書。R4（01_r4_ippankaikei.pdf）は ToUnicode の一部欠落で款名の漢字が消える（数字は健全）。
+    // R2（01_r2_ippankaikei.pdf・総括 p.7/8）は化け字で、decodeGarble で19款は復号できるが港湾費・広域連合負担金・職員費とノンブルの「〜」が復号表に無い。
+    code: "012050", name: "室蘭市", dataset: "budget", fiscalYears: ["R4", "R2"],
+    categories: ["broken-text-layer"],
+    reason:
+      "一般会計予算書の総括のページの文字が別の字に化けている（令和4年度は款の名前の漢字が抜け落ち、令和2年度はこちらの復号の対応表に無い字を含む）。款の名前を確かめられないので収録しない。",
+    url: "https://www.city.muroran.lg.jp/administration/?content=1921",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 米沢市（062022）R2。R8〜R3 は収録済み（§13-68）。
+    // 年度ページ（旧サイト /2084.html・WARP）に予算書は一度も載っていない。予算の概要 r02yosannogaiyou2.pdf（13p）は全ページがスキャン（DocuCentre-V 4070・pdftotext 13バイト）。
+    code: "062022", name: "米沢市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason:
+      "この年度は予算書がウェブに掲載されておらず、予算の概要は紙をスキャンした画像の PDF で文字として取り出せない。",
+    url: "https://warp.ndl.go.jp/20210410/20210410094039/https://www.city.yonezawa.yamagata.jp/2083.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 福知山市（262013）R2。R8〜R3 は収録済み（§13-68）。
+    // 予算説明書 16865.pdf はスキャン画像に OCR の文字を重ねたもので誤認識がある（「市 仟」「士木費」「37フ,000」）。予算の要領 17343.pdf はフォント0の画像。
+    code: "262013", name: "福知山市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason:
+      "予算説明書は紙をスキャンした画像に機械で読み取った文字を重ねたもので、款の名前や数字に読み取りの誤りがある。議決された予算の要領は文字の無い画像。",
+    url: "https://www.city.fukuchiyama.lg.jp/site/yosan/20303.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
     // 牛久市（082198）R3。R8〜R4・R2 は収録済み（§13-67）。
     // 議案第18号に対する修正案「第１条中「２８，４６３，０００千円」を「２８，０１０，９５３千円」に改める。」（/data/doc/1616734624_doc_21_0.pdf）。
     // 概要（1614146964_doc_21_0.pdf）は原案で、款6 法人事業税交付金の行は整数が1つしかなく落ちる。予算書（1616734582_doc_21_0.pdf）の総括 p.11/12 は原案の額に取り消し線を引いて
@@ -2042,6 +2126,112 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "国立国会図書館の WARP では、この市のサイトは館内でしか閲覧できない。",
     url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
+  },
+  {
+    // 碧南市（232092）R4。R8〜R5・R3・R2 は収録済み（§13-70）。
+    // 係数編 R4_yosankeisu.pdf（52p・4,650,593B）は Canon iR-ADV 6565 のスキャンで pdftotext 52バイト。
+    code: "232092", name: "碧南市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["scanned-image"],
+    reason:
+      "款ごとの前年度比較が載る予算の概要（係数編）が紙をスキャンした画像の PDF で、文字として取り出せない。",
+    url: "https://www.city.hekinan.lg.jp/soshiki/kikaku_zaisei/zaiseika/finance/15078.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-70",
+  },
+  {
+    // 天草市（432156）R8。R7〜R2 は収録済み（§13-70）。
+    // 予算書 3_14086_75309_up_scyceax3.pdf（207p・25.9MB・PDFium）は pp.3–7 と 11–192 にテキストが無い（総括は描画された図形）。概要はスキャン＋OCR で前年度列が「令和7年度（6月補正後）」。
+    code: "432156", name: "天草市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "一般会計予算書の総括のページが図形として描かれていて、文字として取り出せない。" +
+      "当初予算の概要は紙をスキャンした画像に読み取った文字を重ねたもので、前年度の列も当初ではなく6月補正後の額になっている。",
+    url: "https://www.city.amakusa.kumamoto.jp/kiji00314086/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-70",
+  },
+  {
+    // 渋川市（102083）R8〜R2。1年度も収録できていない（§13-70）。
+    // 予算書の「歳入歳出予算事項別明細書 1 総括」は全年度でフォント0・画像0（pdftotext 1バイト＝文字を図形化）。予算内示説明会資料の「歳入歳出予算総括表」はスキャン（R7 だけ OCR が崩れている）。
+    // R5 だけ「予算書及び予算に関する資料（修正後）」の予算概要 p.5・p.6 に文字の款別表があるが、歳出の前年度が「末尾から2番目の整数」で既存の指定で読めず、財源内訳が修正前のまま（偵察の実測）。
+    code: "102083", name: "渋川市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["broken-text-layer", "scanned-image", "parser-unsupported"],
+    reason:
+      "款ごとに前年度と比べる表は、予算書の総括と予算内示説明会資料の総括表にあるが、予算書の総括は全年度とも文字を図形に変換した状態で作られていて、" +
+      "内示説明会資料は紙をスキャンした画像になっている。令和5年度だけ修正後の予算概要に文字の表があるが、歳出の前年度の列がこちらの抽出処理で読める形になっていない。",
+    url: "https://www.city.shibukawa.lg.jp/shisei/000276/000277/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-70",
+  },
+  {
+    // 交野市（272302）R2。R8〜R3 は収録済み（§13-69）。パーサの issue #354。
+    code: "272302", name: "交野市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "一般会計予算書の総括のページは数字の文字コードの対応表が欠けていて復号が要るが、廃止された款に付いている印（×）を、こちらの抽出処理が化けた文字と取り違えて止まる。原典の表は健全。",
+    url: "https://www.city.katano.osaka.jp/docs/2020051300032/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-69",
+  },
+  {
+    // 阿南市（362042）R5・R4。R8〜R6 は収録済み（§13-73）。
+    // 当初予算（案）の概要 R5（/docs/2022030100060/ の tousyo_gaiyou_R5-anCler.pdf・51ページ）は表紙のほか文字0字・RICOH のスキャン、
+    // R4（tousyo_gaiyo_r4.pdf・46ページ）は全文0字・pdffonts 0件（2026-10-22 に実測）。予算書は R5 以前がウェブに無い。
+    code: "362042", name: "阿南市", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["scanned-image"],
+    reason:
+      "当初予算（案）の概要が紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。同じ年度の予算書はウェブに掲載されていない。",
+    url: "https://www.city.anan.tokushima.jp/docs/2010090900065/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-73",
+  },
+  {
+    // 阿南市（362042）R3・R2。WARP（2020-03〜2022-03）の「予算・決算」一覧と財政情報ページに概要へのリンクが無い。
+    // 広報の「あらまし」は万円単位で前年度額が無い（R3・R2）。
+    code: "362042", name: "阿南市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason:
+      "千円単位の款ごとの当初予算と前年度の額を載せた資料が、市のサイトにも国立国会図書館の WARP に保存された版にも見当たらない。" +
+      "広報のあらましは万円単位で、前年度の額が無い。",
+    url: "https://www.city.anan.tokushima.jp/docs/2010090900065/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-73",
+  },
+  {
+    // 豊明市（232297）R5・R4。R8〜R6・R3・R2 は収録済み（§13-73）。
+    // 当初予算の概要 R5（202302_tousyoyosannogaiyou.pdf・58ページ）は文字0字・pdffonts 0件、R4（R4gaiyou.pdf・29.7MB）も 600dpi CCITT の画像。予算書・説明資料もスキャン。
+    code: "232297", name: "豊明市", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["scanned-image"],
+    reason:
+      "当初予算の概要・予算書・予算説明資料がどれも紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.city.toyoake.lg.jp/4460.htm",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-73",
+  },
+  {
+    // 栗東市（252085）R2。R8〜R3 は収録済み（§13-74）。
+    // 「予算のすがた」R2yosannosugata.pdf p.13 の廃止款の行「 自動車取得税交付金      30,000  0.1%  30,000  0.1%」は款番号・印・「皆減」なし、当年度空欄で整数2つ（前年度当初＝前年度現計）。
+    // 既存の廃止款の分岐（zeroCurAbolished・blankCurAbolished）に当たらず行ごと落ち、前年度 Σ が −30,000（warning 止まり）。印字に無い字を書き足す回避（amountTypos）は採らない。
+    code: "252085", name: "栗東市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の比較表のうち、廃止された款（自動車取得税交付金）の行が当年度の欄を空けた形で、こちらの抽出処理では前年度の額を正しく読めない（前年度の合計が3,000万円合わなくなる）。",
+    url: "https://www.city.ritto.lg.jp/shisei/zaisei/yosan_kesan/7307.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+  },
+  {
+    // 石岡市（082058）R2。R8〜R3 は収録済み（§13-74）。
+    // 年度ページ（page006744）に「令和2年第1回定例会にて令和2年度石岡市一般会計予算が修正可決いたしました。」。予算書 1611556506_doc_32_1.pdf は原案のまま。
+    // 訂正 PDF 1611556506_doc_32_0.pdf（3p）に総務費・民生費・衛生費・予備費の修正後の額だけがある（Σ は 34,460,000 で不変）。
+    code: "082058", name: "石岡市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計予算は議会で修正して可決されたが、掲載されている予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（総務費・民生費・衛生費・予備費の4款）。",
+    url: "https://www.city.ishioka.lg.jp/shiseijoho/zaisei/yosan/page006744.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
+  },
+  {
+    // 鶴ヶ島市（112411）R3。R8〜R4・R2 は収録済み（§13-74）。
+    // 予算書 1614166267_doc_430_0.pdf（176p）と予算概要の分割ファイルがすべてスキャン（pdftotext が1ページ1文字・p.16 は 1240×1754 の JPEG のみ＝偵察）。
+    code: "112411", name: "鶴ケ島市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書と予算の概要が、どちらも紙をスキャンした画像の PDF で、文字として取り出せない。",
+    url: "https://www.city.tsurugashima.lg.jp/gyousei/zaiei/yosan/page007850.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
   },
   {
     // 姶良市（462250）R3・R2。R8〜R4 は収録済み（§13-76）。
