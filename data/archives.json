@@ -12845,6 +12845,120 @@
       "checkedAt": "2026-09-14T19:03:45.190Z"
     },
     {
+      "sourceId": "joetsu-yosan-gaiyou-r3",
+      "url": "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-03-yosan-index.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021141840/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-03-yosan-index.html",
+      "waybackTimestamp": "20261021141840",
+      "checkedAt": "2026-10-21T14:22:39.141Z"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r3",
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/195099.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021141821/https://www.city.joetsu.niigata.jp/uploaded/attachment/195099.pdf",
+      "waybackTimestamp": "20261021141821",
+      "checkedAt": "2026-10-21T14:22:38.663Z",
+      "sha256Match": true,
+      "waybackBytes": 3529793,
+      "rawSha256": "fe12cb3e5a0a4a347bbd5db9fa6c955582123ebcf496a62a0119278e9394ef93"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r4",
+      "url": "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-04-yosan-index.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20251213140302/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-04-yosan-index.html",
+      "waybackTimestamp": "20251213140302",
+      "checkedAt": "2026-10-21T14:17:03.570Z"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r4",
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/214408.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250320092420/https://www.city.joetsu.niigata.jp/uploaded/attachment/214408.pdf",
+      "waybackTimestamp": "20250320092420",
+      "checkedAt": "2026-10-21T14:17:03.150Z",
+      "sha256Match": true,
+      "waybackBytes": 3031547,
+      "rawSha256": "42ddce02ff33ef4ea385eada6dd69e87c161a3efdd2563d49719b3585a8da031"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r5",
+      "url": "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-05-yosan-index.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20251216215330/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-05-yosan-index.html",
+      "waybackTimestamp": "20251216215330",
+      "checkedAt": "2026-10-21T14:16:37.387Z"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r5",
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/234677.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021141614/https://www.city.joetsu.niigata.jp/uploaded/attachment/234677.pdf",
+      "waybackTimestamp": "20261021141614",
+      "checkedAt": "2026-10-21T14:16:36.214Z",
+      "sha256Match": true,
+      "waybackBytes": 7524437,
+      "rawSha256": "214f9206fe08ce246901d5050a4dd3c224c2c45c924441ca488d654808db431d"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r6",
+      "url": "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-06-yosan-index.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250315183139/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-06-yosan-index.html",
+      "waybackTimestamp": "20250315183139",
+      "checkedAt": "2026-10-21T14:16:12.850Z"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r6",
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/249081.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021141557/https://www.city.joetsu.niigata.jp/uploaded/attachment/249081.pdf",
+      "waybackTimestamp": "20261021141557",
+      "checkedAt": "2026-10-21T14:16:12.332Z",
+      "sha256Match": true,
+      "waybackBytes": 6774764,
+      "rawSha256": "a27a928d363cdafe22f5e3fc6049796998f332835a881e3eab7a1086c87294de"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r7",
+      "url": "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-07-yosan-index.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021142209/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-07-yosan-index.html",
+      "waybackTimestamp": "20261021142209",
+      "checkedAt": "2026-10-21T14:22:33.029Z"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r7",
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/266970.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021142050/https://www.city.joetsu.niigata.jp/uploaded/attachment/266970.pdf",
+      "waybackTimestamp": "20261021142050",
+      "checkedAt": "2026-10-21T14:21:05.834Z",
+      "sha256Match": true,
+      "waybackBytes": 6457507,
+      "rawSha256": "d52a96d4bde83bee584523727f244b88ac629b53277429d7035d64250cd8d75f"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r8",
+      "url": "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-08-yosan-index.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260221144626/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-08-yosan-index.html",
+      "waybackTimestamp": "20260221144626",
+      "checkedAt": "2026-10-21T14:15:44.385Z"
+    },
+    {
+      "sourceId": "joetsu-yosan-gaiyou-r8",
+      "url": "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021141518/https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf",
+      "waybackTimestamp": "20261021141518",
+      "checkedAt": "2026-10-21T14:15:44.010Z",
+      "sha256Match": true,
+      "waybackBytes": 7823221,
+      "rawSha256": "956d666a3f5a6cc6ec13495fb4d44235b05dc71f1e08d867f0f8399dfcfc9629"
+    },
+    {
       "sourceId": "kagawa-ken-zaisei-jijo-r8",
       "url": "https://www.pref.kagawa.lg.jp/documents/8155/157_01-14_r8toshogaiyo.pdf",
       "kind": "file",

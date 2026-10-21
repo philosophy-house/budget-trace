@@ -454,6 +454,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "152226": {
+    "budget": [
+      {
+        "fyLabel": "平成30年度・平成29年度",
+        "reason": "「当初予算の概要」（国立国会図書館の WARP に保存された版）の文字が別の字に化けていて、金額の数字は埋め込まれていないフォントで描かれているため1つも取り出せない。",
+        "checkedOn": "2026-10-21"
+      }
+    ]
+  },
   "162019": {
     "budget": [
       {

@@ -33,9 +33,13 @@ const TAMA_LICENSE =
 const MISATO_LICENSE =
   "本サイトのコンテンツの著作権はすべて三郷市に帰属します。本サイト内の記事・写真の無断転載を禁じます。また、すべての内容は日本の著作権法並びに国際条約により保護されています。";
 
+// 「このサイトについて」（/this_site/index.html・確認日 2026-10-21）の「著作権について」「掲載情報等の転載について」。
+// 「掲載情報等の転載について」節の末尾「なお、版権等の問題により、一部の画像等については転載を認められない場合がありますのでご了承ください。」は
+// 画像の注記なので引いていない（区分にも表示にも影響しない）。
+// ⚠ 2026-09-10 の収録時は「規約のページが無い」と書いていた（旧 CMS の `/site/` の 404 をページ不存在と取り違えた）。
+//   Wayback には 2026-02-08 以降このページの捕捉があり、当時も実在した（#293 のレビューで判明）。
 const IRUMA_LICENSE =
-  "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。" +
-  "著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。";
+  "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。";
 
 // 米子市の「前年度は6月補正後」の脚注。**原典の逐語**を年度ごとに持つ（2026-09-11・レビューの指摘で修正）。
 // ⚠⚠ 以前はラベルだけ差し替えるテンプレートで生成していたが、**H30・H26・H22 は原典が
@@ -257,6 +261,8 @@ const OBU_LICENSE =
   "大府市公式ウェブサイトに掲載されています情報（文章、写真、イラストなど）の著作権は、原則として大府市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。 大府市公式ウェブサイトの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、大府市の許可なく複製・転用することはできません。";
 const KANUMA_LICENSE =
   "本サイト上の文書や写真、画像等の各ファイル、及びその内容に関する諸権利は、原則として鹿沼市に帰属します。 また、一部の画像等の著作権は、原著作者が所有しています。 著作権法上認められている行為を除き、鹿沼市の許可なく、本サイト上の文書・画像等の無断使用・転載を禁止します。";
+const JOETSU_LICENSE =
+  "上越市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、上越市に帰属します。また一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書、画像などの無断使用・転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越えて、当ホームページの情報の使用を希望する場合は事前に広報対話課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。";
 const KOGA_IBARAKI_LICENSE =
   "古河市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として古河市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。古河市ホームページは利用目的を問わず自由な閲覧が可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、古河市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。";
 
@@ -710,6 +716,9 @@ export const SOURCES: SourceEntry[] = [
     url: null,
     urls: ["https://www.city.fuefuki.yamanashi.jp/documents/1033/r8toushoyosangaiyou.pdf"],
     landingPage: "https://www.city.fuefuki.yamanashi.jp/zaise/shisejoho/zaise/yosan.html",
+    // リンク条項は `fuefuki-gikai-r8` と同じ（「原則としてトップページへのリンクを…お願いいたします」＝東大阪型）。
+    //   license が仮置きで unverified の間は効かないが、原文を取り直して要許可になった瞬間に効くよう先に立てる。
+    noDeepLink: true,
     kind: "pdf",
     fiscalYear: "R8",
     scope: "笛吹市（一般会計・団体コード192112）",
@@ -5056,6 +5065,10 @@ export const SOURCES: SourceEntry[] = [
     ],
     landingPage:
       "https://www.city.sendai.jp/yosandaichi/shise/zaise/zaimu/zaise/sendaishi/yosan/r8terekai/r8-1/index/index/yosansetumei.html",
+    // リンク: 「著作権・リンク・免責事項」（/sesakukoho/chosakuken/index.html・確認日 2026-10-21）
+    //   「仙台市のトップページへのリンクはフリーです。その他のページへリンクを希望される場合は、それぞれの担当課へお問い合わせください。」
+    //   ＝§11h 第2群（広島・三郷と同型）。収録時に判断が抜けていた（#293 のレビューで判明）。
+    noDeepLink: true,
     kind: "pdf",
     fiscalYear: "R8",
     scope: "仙台市（一般会計・団体コード041009）",
@@ -18398,11 +18411,14 @@ export const SOURCES: SourceEntry[] = [
     //   入間市長選は 2023-02（無投票）と 2024-10 でどちらも年度途中。
     // ⚠ 収録できない年度: **H25 は `GARBLE_CHAR_MAP` 外の化け字**（新しい復号マップの確定作業が要る＝手当ての当てがある）、
     //   **H24 は CCITT スキャン画像**（pdftotext が9バイト）。
-    // ライセンス: **市サイトに著作権・利用規約のページが無い**（旧 CMS の `/site/` は 404）。フッターの
-    //   `Copyright (c) 2023 Iruma City. All Rights Reserved.` だけなので **unverified**（判定語に当たる語が1つも無い）。
+    // ライセンス: 「このサイトについて」の著作権の条項（`IRUMA_LICENSE`）で **permission-required**（「許可・承諾を得ないまま…お断り」）。
+    //   ⚠ 2026-09-10 の収録時は「規約のページが無い」として unverified にしていた（取り違え・2026-10-21 に訂正）。
     //   オープンデータは埼玉県ポータル登載だが**行財政カテゴリは「投票所一覧」1件のみで予算・決算は0件** → 県規約は及ばない（§9g）。
-    //   ⚠ リンク集に「個々のページはできる限りリンクをはらないようお願いします」とあるが**依頼形**で、
-    //   unverified はエビデンスが自サーバー配信で開かれる（発行元への直リンクは補助）ので衝突しない。
+    //   リンク（「リンク集」/this_site/5379.html 末尾・確認日 2026-10-21）: 「入間市公式ホームページはリンクフリーです」
+    //   「リンクをはる際は、トップページ（index.html）にリンクするようにしてください。個々のページはできる限りリンクをはらないようお願いします。…」
+    //   「やむを得ず個々のページにリンクをはる場合は、…そのページが入間市公式ホームページ内にあることがわかるよう明記してください。」
+    //   ⇒ 宛先を**指示形**でトップページに指定している（§13-13 の基準で立てる側）ので `noDeepLink` を立てる。「やむを得ず」は
+    //   例外の許容で、閉じる側に倒しても失うものは無い（掲載ページへ振り替わるだけ）。2026-10-21 に要許可へ移って効き始めた。
     // ⚠ **R7 の総括 PDF だけ本文に `入間` が1件も無い**（予算書の抜き刷りで表紙が無い）。
     //   R7 予算書ページからのリンクであることと、**R8・R6 との鎖が款単位で一致すること**で同定した。
     // [年度, 系統, ファイル名, 年度ページのスラグ, 歳入p, 歳出p]
@@ -18428,6 +18444,7 @@ export const SOURCES: SourceEntry[] = [
     publisher: "入間市",
     url: `https://www.city.iruma.saitama.jp/material/files/group/7/${file}.pdf`,
     landingPage: `https://www.city.iruma.saitama.jp/soshiki/zaiseka/gyozaisei/yosan/${slug}.html`,
+    noDeepLink: true,
     kind: "pdf" as const,
     fiscalYear: fy,
     scope: "入間市（一般会計・団体コード112259）",
@@ -23725,7 +23742,7 @@ export const SOURCES: SourceEntry[] = [
   //   R3・R2 は「歳入歳出予算集計表等」の p.1（同じ調書）。1ページに歳入・歳出を縦に積む（`samePage`）。列は本年度[A,B,C] 前年度[D,E,F]… ⇒ `amountIntIndex: 0`・`prevIntIndex: 3`。
   //   款番号なし（`kanNoless`）。歳入23款（R2 は廃止款 自動車取得税交付金を含め24）・歳出12款（款名は原典どおり `農林費`）。
   // ⚠⚠ **`revenueHeaderExtra: "^分$"` は必須** — 外すと Σ 差0 のまま款1 が `分市税`（静かに壊れる）。`kanNamePrefixStrip` に「分」を入れない（`分担金及び負担金` が削れる）。
-  // 前年度列は当初（R8→R2 の6リンクで款単位全一致・R2 の前年度 35,694,000 は H31 当初）。骨格予算: 7本とも「骨格」「肉付」「暫定予算」0件。
+  // 前年度列は当初（R8→R2 の6リンクで款単位全一致。R2 の前年度 35,694,000 は原典の見出しが「前年度」だけで、H31 の当初か補正後かは原典では確かめられない）。骨格予算: 7本とも「骨格」「肉付」「暫定予算」0件。
   // 総額突合: R6 当初 42,080,000 ÷ 総務省 R6 決算歳出 42,760,937 = 98.4%。
   // ライセンス: 「このホームページについて」（/this_hp/1010128.html・確認日 2026-10-21）＝要許可。CC BY はオープンデータカタログ内に限り、予算は非登載。
   //   リンクは「…フリー（自由）です。また、リンク設定を行う際、事前に稲城市に許可を取る必要はありません。」⇒ `noDeepLink` は立てない。
@@ -23927,6 +23944,54 @@ export const SOURCES: SourceEntry[] = [
       expenditureTotalLabel: "合計",
       kanNoless: true,
       revenueHeaderExtra: "自主財源|依存財源",
+    },
+  } satisfies SourceEntry)),
+
+  // 上越市（新潟県・団体コード 152226 ＝ 総務省 R6.json から実引き）。財政課「当初予算の概要」の「● 一般会計 歳入」「● 一般会計 歳出（目的別）」。千円。
+  //   歳入23款（H31 は款9 自動車取得税交付金を含め番号つき24款、R2 は番号つき23款＋番号なしの廃止款 `× 自動車取得税交付金`、H28・H27 は22款）・歳出14款。列は [前年度, 当年度, 増減]（`prevColumnFirst`）・合計ラベルの次の行に金額（`totalAmountNextLine`）。
+  //   R8〜R5 は1冊、R4〜H31 は2分冊の後半、H28・H27 は2分冊の前半。R2〜H27 は現行サイトから消えていて WARP。
+  // ⚠⚠ 款ごとに「（ ）内は制度融資預託金元金収入・借換債を除いた値」の行が付く3行組で、**市債の内訳（通常債…借換債）と公債費の内訳（定時償還元金…）が
+  //   款番号なし・金額つきで款の間に挟まる**（#294）。既定の経路では R8 の歳出款13 が `繰上償還元金－－－－諸支出金` になり、R7・H31 は内訳が廃止款として湧いて
+  //   前年度 Σ が warning 止まり、R6〜R3 は `0 / 0` の行が Σ 差0 のまま通る。⇒ `parenAltRows`（別値の行を消す・款10 の上段 `国有提供施設等所在` を残す）と
+  //   `detailRowsAfterKan`（款の後の番号なしの行を捨てる）。H31 は公債費の内訳にも別値の行が付く。R2 の `× 自動車取得税交付金` は市債の内訳の直後に来る。
+  // ⚠ R2 の歳入款6・款9 は「皆増」が前年度側の前年度比の列にある（R1 が新設の年）＝この行の前年度は 0 ではない。前年度先行の列で3つの整数が整合する行は印字値を採る（#294 のパーサ改修）。
+  // ⚠ H30・H29 はテキスト層が化けていて金額の数字が1つも取れない ⇒ unrecordable。
+  // 前年度列は当初（R8→H31 と H28→H27 の各リンクで合計一致）。骨格予算: 収録した10冊と R4〜H31 の前半の冊に「骨格」「肉付」0件。
+  // 総額突合: R6 当初 102,319,037 ÷ 総務省 R6 決算歳出 106,860,468 = 95.8%。
+  // ライセンス: 「著作権等」（/site/userguide/copyright.html・確認日 2026-10-21）＝要許可。リンクは「原則として自由に設定していただいてかまいません。」「リンクを設定する箇所には、上越市のホームページへのリンクである旨を明記してください。」（チップが「発行元で開く」と出るので満たす）⇒ `noDeepLink` は立てない。
+  //   オープンデータ（CC BY 2.1）は「本サイトのみに適用」と範囲を自ら限り、予算は0件（§13-22）。
+  // ⚠ 主な事業（概要の主要事業・特別会計／事業会計を含む）と事業報告（9月定例会の事業別決算説明・部局別12冊）は新様式で別の巡（§13-22）。
+  ...([
+    ["R8", "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-08-yosan-index.html", 27, 35],
+    ["R7", "https://www.city.joetsu.niigata.jp/uploaded/attachment/266970.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-07-yosan-index.html", 30, 38],
+    ["R6", "https://www.city.joetsu.niigata.jp/uploaded/attachment/249081.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-06-yosan-index.html", 30, 38],
+    ["R5", "https://www.city.joetsu.niigata.jp/uploaded/attachment/234677.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-05-yosan-index.html", 33, 41],
+    ["R4", "https://www.city.joetsu.niigata.jp/uploaded/attachment/214408.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-04-yosan-index.html", 12, 20],
+    ["R3", "https://www.city.joetsu.niigata.jp/uploaded/attachment/195099.pdf", "https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-03-yosan-index.html", 3, 11],
+    ["R2", "https://warp.ndl.go.jp/20201106/20201105060116/https://www.city.joetsu.niigata.jp/uploaded/attachment/176591.pdf", "https://warp.ndl.go.jp/20201106/20201105060116/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-02-yosan-index.html", 3, 11],
+    ["H31", "https://warp.ndl.go.jp/20191018/20191016211217/https://www.city.joetsu.niigata.jp/uploaded/attachment/159248.pdf", "https://warp.ndl.go.jp/20191018/20191016211217/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-31-yosan-index.html", 3, 11],
+    ["H28", "https://warp.ndl.go.jp/20180507/20180506125229/https://www.city.joetsu.niigata.jp/uploaded/attachment/113615.pdf", "https://warp.ndl.go.jp/20180507/20180506125229/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-28-yosan-index.html", 20, 27],
+    ["H27", "https://warp.ndl.go.jp/20150805/20150804235111/https://www.city.joetsu.niigata.jp/uploaded/attachment/98835.pdf", "https://warp.ndl.go.jp/20150805/20150804235111/https://www.city.joetsu.niigata.jp/soshiki/zaisei/zaisei-27-yosan-index.html", 18, 25],
+  ] as const).map(([fy, url, landingPage, rp, ep]) => ({
+    id: `joetsu-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 上越市当初予算の概要（一般会計 歳入・歳出（目的別））`,
+    publisher: "上越市",
+    url,
+    landingPage,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "上越市（一般会計・団体コード152226）",
+    license: JOETSU_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: ep,
+      revenueHeading: "一般会計歳入",
+      expenditureHeading: "歳出（目的別）",
+      prevColumnFirst: true,
+      totalAmountNextLine: true,
+      parenAltRows: true,
+      detailRowsAfterKan: true,
     },
   } satisfies SourceEntry)),
 
@@ -24254,6 +24319,10 @@ export const SOURCES: SourceEntry[] = [
       "https://www.city.fuefuki.yamanashi.jp/documents/11778/r81giketuitirann.pdf",
     ],
     landingPage: "https://www.city.fuefuki.yamanashi.jp/gikai/shisejoho/shigikai/ginmebo/index.html",
+    // リンク: 「このサイトについて」（/kikaku/site.html・確認日 2026-10-21）「下記のバナーを使用の上、原則としてトップページへの
+    //   リンクを張っていただきますようお願いいたします。」＝「原則として」が宛先に掛かり「自由」の宣言が無い＝東大阪型（§13-4）。
+    //   2026-10-21 に license-no-grant.ts で要許可へ移ったので効き始める。
+    noDeepLink: true,
     kind: "pdf",
     fiscalYear: "R8",
     scope: "笛吹市議会（団体コード192112）",
@@ -24939,6 +25008,9 @@ export const SOURCES: SourceEntry[] = [
     // 議決当日（R8.3.12）の会議録の出席議員名簿（55名・欠席なし）に全議員の氏名が出ることを confirmUrls で見る。議会だより212号（R8.4.1現在の名簿）とも一致（高村直也の共産党市議団脱会は R8.3.31 付で議決後）
     // 会議結果のページは件名を「一般会計[14]」としか書かず、件名の全文は附帯決議の行にしか無い（その行の結果は附帯決議のもの）。件名・議案番号・結果は議決当日の会議録の採決の段（「第十四号議案 令和八年度仙台市一般会計予算 を採決いたします。委員長報告は可決であります。…原案のとおり可決されました」）で照合する
     // 会議録は日付が漢数字（令和八年三月十二日）で月日として読めないため、議決日は議会だより212号の会期日程「３月12日 本会議 （委員長報告、 採決）」で照合する（farOk）
+    // リンク: 議会のサイト（gikai.city.sendai.jp）にはリンクの規約も無い（トップのフッターは個人情報保護方針とリンク集のみ・
+    //   /sitepolicy.html /policy.html /about.html は 404・privacypolicy.html に著作権・リンクの条項なし・2026-10-21 実測）。
+    //   市の条項（第2群・`sendai-yosansho-r8` は noDeepLink）は別ホストの議会には及ばないので立てない（§6-9）。
     // 議会のサイト（gikai.city.sendai.jp）に著作権の定めのページが無いため、license はフッターの表記
     id: "sendai-shigikai-r8",
     title: "令和8年度 仙台市議会の構成（会派別議席数）と当初予算の議決",
@@ -29189,10 +29261,15 @@ export const SOURCES: SourceEntry[] = [
       "https://www3.city.iruma.saitama.jp/voices/cgi/voiweb.exe?ACT=203&KENSAKU=0&SORT=0&KTYP=0,1,2,3&KGTP=1&FYY=2026&TYY=2026&TITL_SUBT=%97%DF%98a%81@%82W%94N%81@%81@%82R%8C%8E%81@%92%E8%97%E1%89%EF%81i%91%E6%82P%89%F1%81j%81%7C03%8C%8E16%93%FA-07%8D%86&HUID=243686&KGNO=515&FINO=1929&HATSUGENMODE=1&HYOUJIMODE=0&STYLE=0",
     ],
     landingPage: "https://www.city.iruma.saitama.jp/gyosei_joho/83/87/7715.html",
+    // 資料のうち議会だより（gikai214.pdf）は市の公式サイトに載るので、市のリンク条項（`iruma-yosansho-*` のコメント）で `noDeepLink`。
+    // ⚠ `noDeepLink` は行単位なので、www3（議会情報公開システム・規約なし）の議決詳細と会議録の2本も landingPage（会派別名簿）へ
+    //   振り替わる。名簿ページから www3 へは辿れるが、出典チップから議決の載ったページへ直接は飛べない（限界・#293 のレビューで判明）。
+    //   直リンクを断る市の指示に従う側を採った。ファイル単位の振替は別の設計（registry に資料ごとの指定を足す）。
+    noDeepLink: true,
     kind: "page",
     fiscalYear: "R8",
     scope: "入間市議会（団体コード112259）",
-    license: "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。",
+    license: IRUMA_LICENSE + "入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。",
     parser: "council-transcribed",
     parserOptions: {
       body: "入間市議会",
