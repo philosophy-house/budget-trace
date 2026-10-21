@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 370,
+  "budgetCount": 375,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2825,
-  "fileCount": 4445,
-  "archivedCount": 2558,
-  "licenseOpen": 119,
-  "licensePermission": 2635,
+  "sourceCount": 2859,
+  "fileCount": 4479,
+  "archivedCount": 2577,
+  "licenseOpen": 125,
+  "licensePermission": 2663,
   "licenseUnverified": 71,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -831,8 +831,26 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "本庄市",
+      "code": "112119",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "上尾市",
       "code": "112194",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "蕨市",
+      "code": "112232",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "志木市",
+      "code": "112283",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -971,6 +989,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "三条市",
       "code": "152048",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "柏崎市",
+      "code": "152056",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1501,6 +1525,12 @@ export const ROADMAP_PROGRESS = {
       "code": "272221",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "交野市",
+      "code": "272302",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "高砂市",
