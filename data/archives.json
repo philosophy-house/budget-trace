@@ -677,6 +677,25 @@
       "rawSha256": "4662197051b0ec0d9c50e1690c5804d0b31e17dd7d35b972fd272e03068507f8"
     },
     {
+      "sourceId": "akishima-yosansho-r8",
+      "url": "https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/011/521/2-1.ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261016154842/https://www.city.akishima.lg.jp/_res/projects/default_project/_page_/001/011/521/2-1.ippan.pdf",
+      "waybackTimestamp": "20261016154842",
+      "checkedAt": "2026-10-21T15:50:59.486Z",
+      "sha256Match": true,
+      "waybackBytes": 2866809,
+      "rawSha256": "a4e8f80efec7ab22af3013e61f8a8215a47354ce8599673c2478d8511e7aac8b"
+    },
+    {
+      "sourceId": "akishima-yosansho-r8",
+      "url": "https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1011521.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021155104/https://www.city.akishima.lg.jp/shisei/gyozaisei/1005263/1011521.html",
+      "waybackTimestamp": "20261021155104",
+      "checkedAt": "2026-10-21T15:51:32.222Z"
+    },
+    {
       "sourceId": "akita-ken-setsumeisho-sokatsu-r8",
       "url": "https://www.pref.akita.lg.jp/pages/archive/94507",
       "kind": "landing",
@@ -13412,6 +13431,104 @@
       "rawSha256": "956d666a3f5a6cc6ec13495fb4d44235b05dc71f1e08d867f0f8399dfcfc9629"
     },
     {
+      "sourceId": "kadoma-yosansho-r4",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/4/reiwa4nenndotousyo_ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20251013221245/https://www.city.kadoma.osaka.jp/material/files/group/4/reiwa4nenndotousyo_ippan.pdf",
+      "waybackTimestamp": "20251013221245",
+      "checkedAt": "2026-10-21T15:55:31.127Z",
+      "sha256Match": true,
+      "waybackBytes": 5066894,
+      "rawSha256": "5380b818a07092cb39a97dd8e69fe239590388b9358a7d7d0ea7a73ba2820001"
+    },
+    {
+      "sourceId": "kadoma-yosansho-r4",
+      "url": "https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260211154732/https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "waybackTimestamp": "20260211154732",
+      "checkedAt": "2026-10-21T15:55:32.259Z"
+    },
+    {
+      "sourceId": "kadoma-yosansho-r5",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/4/R5_ippan_tousyoyosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20251013204542/https://www.city.kadoma.osaka.jp/material/files/group/4/R5_ippan_tousyoyosan.pdf",
+      "waybackTimestamp": "20251013204542",
+      "checkedAt": "2026-10-21T15:55:06.736Z",
+      "sha256Match": false,
+      "waybackBytes": 5242880,
+      "rawSha256": "78fbc036b68cc52bd1b2a1b917b5c7a0b8327494a692b455270bee5e7618062c",
+      "waybackTruncated": true
+    },
+    {
+      "sourceId": "kadoma-yosansho-r5",
+      "url": "https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260211154732/https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "waybackTimestamp": "20260211154732",
+      "checkedAt": "2026-10-21T15:55:08.213Z"
+    },
+    {
+      "sourceId": "kadoma-yosansho-r6",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/4/r6tousyo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20251006172905/https://www.city.kadoma.osaka.jp/material/files/group/4/r6tousyo.pdf",
+      "waybackTimestamp": "20251006172905",
+      "checkedAt": "2026-10-21T15:54:24.809Z",
+      "sha256Match": false,
+      "waybackBytes": 5242880,
+      "rawSha256": "972c5fe28ea3e9c2ef4c3e648afc3f9a461cacf516d2ff29d231f647a1e44402",
+      "waybackTruncated": true
+    },
+    {
+      "sourceId": "kadoma-yosansho-r6",
+      "url": "https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260211154732/https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "waybackTimestamp": "20260211154732",
+      "checkedAt": "2026-10-21T15:54:25.677Z"
+    },
+    {
+      "sourceId": "kadoma-yosansho-r7",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/4/r7ippankaikeitousyoyosannsyo2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20251006162212/https://www.city.kadoma.osaka.jp/material/files/group/4/r7ippankaikeitousyoyosannsyo2.pdf",
+      "waybackTimestamp": "20251006162212",
+      "checkedAt": "2026-10-21T15:54:03.003Z",
+      "sha256Match": false,
+      "waybackBytes": 5242880,
+      "rawSha256": "55bc337ac72214c95af1bcd26740d0f41c974e56df77bc11af3bd0422c4c65c5",
+      "waybackTruncated": true
+    },
+    {
+      "sourceId": "kadoma-yosansho-r7",
+      "url": "https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260211154732/https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "waybackTimestamp": "20260211154732",
+      "checkedAt": "2026-10-21T15:54:05.520Z"
+    },
+    {
+      "sourceId": "kadoma-yosansho-r8",
+      "url": "https://www.city.kadoma.osaka.jp/material/files/group/4/R8ippannkaikeitousyoyosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021143150/https://www.city.kadoma.osaka.jp/material/files/group/4/R8ippannkaikeitousyoyosan.pdf",
+      "waybackTimestamp": "20261021143150",
+      "checkedAt": "2026-10-21T15:52:20.504Z",
+      "sha256Match": true,
+      "waybackBytes": 6040678,
+      "rawSha256": "844dc6d7387f23c81b1b3f5cee9d44fedf602754f358ece9d3ca289ea77ef493"
+    },
+    {
+      "sourceId": "kadoma-yosansho-r8",
+      "url": "https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260211154732/https://www.city.kadoma.osaka.jp/soshiki/kikakuzaisei/3/3/4/3099.html",
+      "waybackTimestamp": "20260211154732",
+      "checkedAt": "2026-10-21T15:52:21.533Z"
+    },
+    {
       "sourceId": "kagawa-ken-zaisei-jijo-r8",
       "url": "https://www.pref.kagawa.lg.jp/documents/8155/157_01-14_r8toshogaiyo.pdf",
       "kind": "file",
@@ -18969,6 +19086,120 @@
       "checkedAt": "2026-09-27T20:04:48.001Z"
     },
     {
+      "sourceId": "konan-yosansho-r3",
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/008/839/r3ippantosyo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220707204121/https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/008/839/r3ippantosyo.pdf",
+      "waybackTimestamp": "20220707204121",
+      "checkedAt": "2026-10-21T15:55:37.895Z",
+      "sha256Match": true,
+      "waybackBytes": 3781751,
+      "rawSha256": "42e78d70d5a9c0af76dbd7e05d14aface7900b0768a2d2bb360e961d3a4fef41"
+    },
+    {
+      "sourceId": "konan-yosansho-r3",
+      "url": "https://www.city.konan.lg.jp/shisei/zaisei/1004985/1008839.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260516181954/https://www.city.konan.lg.jp/shisei/zaisei/1004985/1008839.html",
+      "waybackTimestamp": "20260516181954",
+      "checkedAt": "2026-10-21T15:55:39.229Z"
+    },
+    {
+      "sourceId": "konan-yosansho-r4",
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/011/358/r4ippantosyo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220708074849/https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/011/358/r4ippantosyo.pdf",
+      "waybackTimestamp": "20220708074849",
+      "checkedAt": "2026-10-21T15:55:13.414Z",
+      "sha256Match": true,
+      "waybackBytes": 3296249,
+      "rawSha256": "8e2598a0275c45e691f569f7ee870e5cb34af8608f25c0e3152d188e043bfb9a"
+    },
+    {
+      "sourceId": "konan-yosansho-r4",
+      "url": "https://www.city.konan.lg.jp/shisei/zaisei/1004985/1011358.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260516175146/https://www.city.konan.lg.jp/shisei/zaisei/1004985/1011358.html",
+      "waybackTimestamp": "20260516175146",
+      "checkedAt": "2026-10-21T15:55:14.851Z"
+    },
+    {
+      "sourceId": "konan-yosansho-r5",
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/013/016/r5.tousho_yosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021155428/https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/013/016/r5.tousho_yosan.pdf",
+      "waybackTimestamp": "20261021155428",
+      "checkedAt": "2026-10-21T15:54:45.581Z",
+      "sha256Match": true,
+      "waybackBytes": 4067358,
+      "rawSha256": "d268555c9d74f0f1c8cfd9b23bfb2c798aa7919bc716bd97144c16a4a62a397a"
+    },
+    {
+      "sourceId": "konan-yosansho-r5",
+      "url": "https://www.city.konan.lg.jp/shisei/zaisei/1004985/1013016.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260516170401/https://www.city.konan.lg.jp/shisei/zaisei/1004985/1013016.html",
+      "waybackTimestamp": "20260516170401",
+      "checkedAt": "2026-10-21T15:54:47.817Z"
+    },
+    {
+      "sourceId": "konan-yosansho-r6",
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/014/929/r6.tousho_yosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260615073157/https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/014/929/r6.tousho_yosan.pdf",
+      "waybackTimestamp": "20260615073157",
+      "checkedAt": "2026-10-21T15:54:11.193Z",
+      "sha256Match": true,
+      "waybackBytes": 3405413,
+      "rawSha256": "ce873538eb05f06b2b448cc0448dd274dc4d00da681d1e740fb040eeac1fc31c"
+    },
+    {
+      "sourceId": "konan-yosansho-r6",
+      "url": "https://www.city.konan.lg.jp/shisei/zaisei/1004985/1014929.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260516170552/https://www.city.konan.lg.jp/shisei/zaisei/1004985/1014929.html",
+      "waybackTimestamp": "20260516170552",
+      "checkedAt": "2026-10-21T15:54:12.057Z"
+    },
+    {
+      "sourceId": "konan-yosansho-r7",
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/017/540/r7tosyoippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021155337/https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/017/540/r7tosyoippan.pdf",
+      "waybackTimestamp": "20261021155337",
+      "checkedAt": "2026-10-21T15:53:51.216Z",
+      "sha256Match": true,
+      "waybackBytes": 3965393,
+      "rawSha256": "327cea95e5d0370239bc34599e97d8464c00f1851b9afe1db44fbf2ee13af8f6"
+    },
+    {
+      "sourceId": "konan-yosansho-r7",
+      "url": "https://www.city.konan.lg.jp/shisei/zaisei/1004985/1017540.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260516183216/https://www.city.konan.lg.jp/shisei/zaisei/1004985/1017540.html",
+      "waybackTimestamp": "20260516183216",
+      "checkedAt": "2026-10-21T15:53:52.153Z"
+    },
+    {
+      "sourceId": "konan-yosansho-r8",
+      "url": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/019/208/r8tosyo_ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021155136/https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/019/208/r8tosyo_ippan.pdf",
+      "waybackTimestamp": "20261021155136",
+      "checkedAt": "2026-10-21T15:51:54.139Z",
+      "sha256Match": true,
+      "waybackBytes": 15156147,
+      "rawSha256": "a2fa6750918b624374e9ac7dce77c1f52561328643033302646554b02e282a50"
+    },
+    {
+      "sourceId": "konan-yosansho-r8",
+      "url": "https://www.city.konan.lg.jp/shisei/zaisei/1004985/1019208.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260516164310/https://www.city.konan.lg.jp/shisei/zaisei/1004985/1019208.html",
+      "waybackTimestamp": "20260516164310",
+      "checkedAt": "2026-10-21T15:51:55.082Z"
+    },
+    {
       "sourceId": "konosu-shigikai-r8",
       "url": "https://www.city.kounosu.saitama.jp/page/14209.html",
       "kind": "file",
@@ -21887,6 +22118,120 @@
       "waybackUrl": "https://web.archive.org/web/20260419175812/https://www.city.maebashi.gunma.jp/soshiki/zaimu/zaisei/gyomu/3/2/4/24148.html",
       "waybackTimestamp": "20260419175812",
       "checkedAt": "2026-09-14T12:31:17.939Z"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r3",
+      "url": "https://www.city.marugame.lg.jp/page/1137.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606221536/https://www.city.marugame.lg.jp/page/1137.html",
+      "waybackTimestamp": "20260606221536",
+      "checkedAt": "2026-10-21T15:55:49.610Z"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r3",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/1240.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260316215155/https://www.city.marugame.lg.jp/uploaded/attachment/1240.pdf",
+      "waybackTimestamp": "20260316215155",
+      "checkedAt": "2026-10-21T15:55:44.959Z",
+      "sha256Match": true,
+      "waybackBytes": 2586946,
+      "rawSha256": "8bcbf62c9c262f6606273a0d7ddaba7dde49a73546b908c7621ce72f02f4c47c"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r4",
+      "url": "https://www.city.marugame.lg.jp/page/1137.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606221536/https://www.city.marugame.lg.jp/page/1137.html",
+      "waybackTimestamp": "20260606221536",
+      "checkedAt": "2026-10-21T15:55:25.904Z"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r4",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/1239.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260316214432/https://www.city.marugame.lg.jp/uploaded/attachment/1239.pdf",
+      "waybackTimestamp": "20260316214432",
+      "checkedAt": "2026-10-21T15:55:24.898Z",
+      "sha256Match": true,
+      "waybackBytes": 2658867,
+      "rawSha256": "c0619a1e510927f2448a69fce349210f0cd639d2a6d495044aa42bd36f41735e"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r5",
+      "url": "https://www.city.marugame.lg.jp/page/1137.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606221536/https://www.city.marugame.lg.jp/page/1137.html",
+      "waybackTimestamp": "20260606221536",
+      "checkedAt": "2026-10-21T15:55:00.115Z"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r5",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/10822.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260316210926/https://www.city.marugame.lg.jp/uploaded/attachment/10822.pdf",
+      "waybackTimestamp": "20260316210926",
+      "checkedAt": "2026-10-21T15:54:57.651Z",
+      "sha256Match": true,
+      "waybackBytes": 2712815,
+      "rawSha256": "4cc3b4e598df8fa36a93b791a3c5491e383309a7a763624b4e0ae497fbccfaf7"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r6",
+      "url": "https://www.city.marugame.lg.jp/page/1137.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606221536/https://www.city.marugame.lg.jp/page/1137.html",
+      "waybackTimestamp": "20260606221536",
+      "checkedAt": "2026-10-21T15:54:19.757Z"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r6",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/15372.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260316203825/https://www.city.marugame.lg.jp/uploaded/attachment/15372.pdf",
+      "waybackTimestamp": "20260316203825",
+      "checkedAt": "2026-10-21T15:54:18.972Z",
+      "sha256Match": true,
+      "waybackBytes": 1137716,
+      "rawSha256": "6af708301bb544603d24da9609a1b5e61fb77ac0e6ac2b1615a700eabd0cfd56"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r7",
+      "url": "https://www.city.marugame.lg.jp/page/1137.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606221536/https://www.city.marugame.lg.jp/page/1137.html",
+      "waybackTimestamp": "20260606221536",
+      "checkedAt": "2026-10-21T15:53:57.463Z"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r7",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/20339.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260316204818/https://www.city.marugame.lg.jp/uploaded/attachment/20339.pdf",
+      "waybackTimestamp": "20260316204818",
+      "checkedAt": "2026-10-21T15:53:56.476Z",
+      "sha256Match": true,
+      "waybackBytes": 740796,
+      "rawSha256": "4302ee729ca5279abe10f3f6e5c4e0fe8081c67cb514a9a7b788ff86daa01abe"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r8",
+      "url": "https://www.city.marugame.lg.jp/page/1137.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260606221536/https://www.city.marugame.lg.jp/page/1137.html",
+      "waybackTimestamp": "20260606221536",
+      "checkedAt": "2026-10-21T15:52:13.657Z"
+    },
+    {
+      "sourceId": "marugame-yosan-taikou-r8",
+      "url": "https://www.city.marugame.lg.jp/uploaded/attachment/25366.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021155159/https://www.city.marugame.lg.jp/uploaded/attachment/25366.pdf",
+      "waybackTimestamp": "20261021155159",
+      "checkedAt": "2026-10-21T15:52:12.485Z",
+      "sha256Match": true,
+      "waybackBytes": 880557,
+      "rawSha256": "05a7c1792e3387b789daf8fb7106ad4dd34cac9872ac85c56856562cb807a409"
     },
     {
       "sourceId": "matsubara-yosan-gaiyou-r4",
