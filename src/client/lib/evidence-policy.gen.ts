@@ -21004,43 +21004,43 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/takayama-yosansho-r8/r803_gi28gou.pdf": {
     "mode": "origin",
     "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/023/213/r803_gi28gou.pdf",
-    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。",
     "target": "file"
   },
   "/sources/takayama-yosansho-r7/070361_gi40gou.pdf": {
     "mode": "origin",
     "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/021/593/070361_gi40gou.pdf",
-    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。",
     "target": "file"
   },
   "/sources/takayama-yosansho-r6/060356_gi39gou.pdf": {
     "mode": "origin",
     "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/019/489/060356_gi39gou.pdf",
-    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。",
     "target": "file"
   },
   "/sources/takayama-yosansho-r5/050350_gi34gou.pdf": {
     "mode": "origin",
     "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/017/881/050350_gi34gou.pdf",
-    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。",
     "target": "file"
   },
   "/sources/takayama-yosansho-r4/040330_gi25gou_2.pdf": {
     "mode": "origin",
     "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/016/548/040330_gi25gou_2.pdf",
-    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。",
     "target": "file"
   },
   "/sources/takayama-yosansho-r3/030339_gi29gou.pdf": {
     "mode": "origin",
     "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/014/812/030339_gi29gou.pdf",
-    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。",
     "target": "file"
   },
   "/sources/takayama-yosansho-r2/26gou.pdf": {
     "mode": "origin",
     "href": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/011/771/26gou.pdf",
-    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。ただし、観光情報の「写真ライブラリー」についてはご利用いただけます。",
+    "license": "高山市のホームページに掲載されている情報は、原則高山市に著作権がありますので無断での利用はお断りしています。",
     "target": "file"
   },
   "/sources/nagaokakyo-yosansho-r8/R8tousho.pdf": {
