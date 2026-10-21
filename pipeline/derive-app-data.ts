@@ -3589,7 +3589,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
-    // ---- 第75巡（2026-10-22・§13-83） ----
+    // ---- 第76巡（2026-10-22・§13-84） ----
     // ⚠ 蓮田は R8〜R5 が予算書・R4〜R2 が予算の概要
     ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
       srcId: `hasuda-yosansho-${fy}`, muniCode: "112381", muniName: "蓮田市", prefName: "埼玉県", isPref: false,
@@ -4162,6 +4162,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     // ⚠ 敦賀は R5 骨格。R6・R2 の前年度列は6月補正後（prevBasis＋prevNote）。R2 は Wayback
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `tsuruga-yosan-about-${fy}`, muniCode: "182028", muniName: "敦賀市", prefName: "福井県", isPref: false,
+    })),
+    // ---- 第75巡（2026-10-22・§13-83）: 日向・逗子・大阪狭山・十和田（美濃加茂は収録できず） ----
+    // ⚠ 十和田は R8・R7 が横並び（CropX）・R6〜R2 が縦並び（samePage）。R3 は Wayback。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `towada-yosan-gaiyou-${fy}`, muniCode: "022063", muniName: "十和田市", prefName: "青森県", isPref: false,
+    })),
+    // ⚠ 逗子 R8〜R6 は予算書（R7・R6 は修正可決後の版）・R5〜R2 は概要。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `zushi-yosansho-${fy}`, muniCode: "142085", muniName: "逗子市", prefName: "神奈川県", isPref: false,
+    })),
+    ...(["r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `zushi-yosan-gaiyou-${fy}`, muniCode: "142085", muniName: "逗子市", prefName: "神奈川県", isPref: false,
+    })),
+    // ⚠ 大阪狭山 R6 だけページが +1。R5・H31 骨格で R6・R2 に prevNote。R3・R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `osakasayama-yosansho-${fy}`, muniCode: "272311", muniName: "大阪狭山市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 日向は年度ごとに指定が違う（R3・R2 は amountTypos の空白まで原文どおり）。R6・R2 骨格で R7・R3 に prevNote。R3・R2 は Wayback。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hyuga-yosan-gaiyou-${fy}`, muniCode: "452068", muniName: "日向市", prefName: "宮崎県", isPref: false,
     })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。

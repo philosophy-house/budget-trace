@@ -5176,6 +5176,17 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.tosu.lg.jp/uploaded/attachment/37849.pdf": "https://web.archive.org/web/20261021185830/https://www.city.tosu.lg.jp/uploaded/attachment/37849.pdf",
   "https://www.pref.tottori.lg.jp/327294.htm": "https://web.archive.org/web/20260730053534/https://www.pref.tottori.lg.jp/327294.htm",
   "https://www.pref.tottori.lg.jp/secure/1417694/R8tousyogaiyoubunseki.pdf": "https://web.archive.org/web/20260730053550/https://www.pref.tottori.lg.jp/secure/1417694/R8tousyogaiyoubunseki.pdf",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/reiwa2yosan.pdf": "https://web.archive.org/web/20240715184125/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/reiwa2yosan.pdf",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2022-0308-1025-68.html": "https://web.archive.org/web/20250121080508/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2022-0308-1025-68.html",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/gaiyou.pdf": "https://web.archive.org/web/20240717232517/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/gaiyou.pdf",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2023-0320-1129-68.html": "https://web.archive.org/web/20250530230907/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2023-0320-1129-68.html",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R5gaiyou.pdf": "https://web.archive.org/web/20240714080614/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R5gaiyou.pdf",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R6_yosangaiyou.pdf": "https://web.archive.org/web/20240901024240/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R6_yosangaiyou.pdf",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/r06yosan.html": "https://web.archive.org/web/20240616084827/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/r06yosan.html",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2025-0221-1310-68.html": "https://web.archive.org/web/20251108062533/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/2025-0221-1310-68.html",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R7tousyoyosan_gaiyou.pdf": "https://web.archive.org/web/20251210025801/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R7tousyoyosan_gaiyou.pdf",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R8tousyoyosan_gaiyou2.pdf": "https://web.archive.org/web/20261021212125/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R8tousyoyosan_gaiyou2.pdf",
+  "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/R8tousyoyosan.html": "https://web.archive.org/web/20260713065505/https://www.city.towada.lg.jp/shisei/gyousei/zaisei/R8tousyoyosan.html",
   "https://www.pref.toyama.jp/1105/kensei/kenseiunei/zaisei/yosan/r08yosan/r08tousyoyosan.html": "https://web.archive.org/web/20260304120701/https://www.pref.toyama.jp/1105/kensei/kenseiunei/zaisei/yosan/r08yosan/r08tousyoyosan.html",
   "https://www.pref.toyama.jp/documents/52665/08yosansetsumeisyo.pdf": "https://web.archive.org/web/20260727144145/https://www.pref.toyama.jp/documents/52665/08yosansetsumeisyo.pdf",
   "https://www.city.toyama.lg.jp/_res/projects/default_project/_page_/001/003/081/2703giangaiyou-tousyo.pdf": "https://web.archive.org/web/20250928142717/https://www.city.toyama.lg.jp/_res/projects/default_project/_page_/001/003/081/2703giangaiyou-tousyo.pdf",
@@ -5964,5 +5975,6 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/20695.pdf": "https://web.archive.org/web/20260508090608/https://www.city.yukuhashi.fukuoka.jp/uploaded/attachment/20695.pdf",
   "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/013/147/hyouketsuR080324.pdf": "https://web.archive.org/web/20260513193742/https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/013/147/hyouketsuR080324.pdf",
   "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/013/561/202605158men.pdf": "https://web.archive.org/web/20260514223830/https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/013/561/202605158men.pdf",
-  "https://www.city.zama.kanagawa.jp/shigikai/giin/1005884.html": "https://web.archive.org/web/20260418202236/https://www.city.zama.kanagawa.jp/shigikai/giin/1005884.html"
+  "https://www.city.zama.kanagawa.jp/shigikai/giin/1005884.html": "https://web.archive.org/web/20260418202236/https://www.city.zama.kanagawa.jp/shigikai/giin/1005884.html",
+  "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/816/r8yosan.pdf": "https://web.archive.org/web/20261021212202/https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/816/r8yosan.pdf"
 };

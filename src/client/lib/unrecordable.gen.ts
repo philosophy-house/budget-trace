@@ -671,6 +671,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "212113": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款ごとの前年度比較が載る予算書の総括は、数字や款名が文字として取り出せない形（図形や画像）で作られている。文字として読める予算の概要は、歳入の地方譲与税や各種の交付金を「譲与税・交付金」の1行にまとめていて、款ごとの額が載っていない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "222062": {
     "budget": [
       {
@@ -1819,6 +1828,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "192147": [
+    "budget"
+  ],
+  "212113": [
     "budget"
   ],
   "262048": [
