@@ -1,0 +1,391 @@
+{
+  "docType": "budget-book",
+  "sourceId": "takayama-yosansho-r8",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T16:26:24.483Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R8",
+  "account": "一般会計",
+  "revenueTotal": 60700000,
+  "expenditureTotal": 60700000,
+  "prevRevenueTotal": 60500000,
+  "prevExpenditureTotal": 60500000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 15560234,
+      "prevAmount": 14805948,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 772000,
+      "prevAmount": 792000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 10000,
+      "prevAmount": 8000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 105000,
+      "prevAmount": 68000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 130000,
+      "prevAmount": 110000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 240000,
+      "prevAmount": 190000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 2500000,
+      "prevAmount": 2100000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 25000,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "環境性能割交付金",
+      "amount": 5000,
+      "prevAmount": 80000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方特例交付金",
+      "amount": 160000,
+      "prevAmount": 76000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方交付税",
+      "amount": 12800000,
+      "prevAmount": 12200000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 10000,
+      "prevAmount": 10000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "分担金及び負担金",
+      "amount": 235183,
+      "prevAmount": 214483,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "使用料及び手数料",
+      "amount": 663422,
+      "prevAmount": 612331,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "国庫支出金",
+      "amount": 10176556,
+      "prevAmount": 9235525,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "県支出金",
+      "amount": 4004632,
+      "prevAmount": 3794456,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "財産収入",
+      "amount": 486110,
+      "prevAmount": 379251,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "寄附金",
+      "amount": 3006202,
+      "prevAmount": 3006202,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰入金",
+      "amount": 7160111,
+      "prevAmount": 7938768,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰越金",
+      "amount": 100000,
+      "prevAmount": 100000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "諸収入",
+      "amount": 1664550,
+      "prevAmount": 1520736,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "市債",
+      "amount": 886000,
+      "prevAmount": 3233300,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 20
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 314966,
+      "prevAmount": 312938,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 11859305,
+      "prevAmount": 10306617,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 15856820,
+      "prevAmount": 15734138,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 4624182,
+      "prevAmount": 9557974,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "農林水産業費",
+      "amount": 2530170,
+      "prevAmount": 2795059,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "商工費",
+      "amount": 3434111,
+      "prevAmount": 3291351,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "土木費",
+      "amount": 9955484,
+      "prevAmount": 7302634,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "消防費",
+      "amount": 1954031,
+      "prevAmount": 2523516,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "教育費",
+      "amount": 7301634,
+      "prevAmount": 5645428,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "災害復旧費",
+      "amount": 165000,
+      "prevAmount": 71000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "公債費",
+      "amount": 2504297,
+      "prevAmount": 2759345,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "予備費",
+      "amount": 200000,
+      "prevAmount": 200000,
+      "locator": {
+        "file": "r803_gi28gou.pdf",
+        "page": 22
+      }
+    }
+  ]
+}

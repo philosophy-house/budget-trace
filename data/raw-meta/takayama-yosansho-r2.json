@@ -1,0 +1,12 @@
+{
+  "sourceId": "takayama-yosansho-r2",
+  "files": [
+    {
+      "filename": "26gou.pdf",
+      "sha256": "654469ac039028f083f629aa1ec0b55143fefb17a6cdb742bbc230898093c07b",
+      "bytes": 3046464,
+      "fetchedAt": "2026-10-21T16:26:39.016Z",
+      "fetchedFrom": "https://www.city.takayama.lg.jp/_res/projects/default_project/_page_/001/011/771/26gou.pdf"
+    }
+  ]
+}

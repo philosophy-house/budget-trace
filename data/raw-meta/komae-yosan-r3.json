@@ -1,0 +1,12 @@
+{
+  "sourceId": "komae-yosan-r3",
+  "files": [
+    {
+      "filename": "toukatsu.pdf",
+      "sha256": "7b0b6e8367e3d7b92d4157157987655099061382039ffdaf79fc814bbdeb36e2",
+      "bytes": 64383,
+      "fetchedAt": "2026-10-21T16:27:09.381Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20220809/20220806220748/https://www.city.komae.tokyo.jp/index.cfm/46,16173,361,pdf/toukatsu%2Epdf"
+    }
+  ]
+}
