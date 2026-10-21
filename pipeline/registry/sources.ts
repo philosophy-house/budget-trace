@@ -31521,8 +31521,8 @@ export const SOURCES: SourceEntry[] = [
   //   条件つきの許諾 ⇒ 判定器は `unverified`。門真・蒲郡と同じく license-no-grant.ts には載せない（条件つきで認める原文は載せない規約）。
   //   リンク「リンクは、必ずトップページのURL「https://www.city.choshi.chiba.jp/index.html」にしてください。…」＝指示形（愛西と同じ第2群）⇒ `noDeepLink`。
   ...([
-    ["R8", "https://www.city.choshi.chiba.jp/content/000066267.pdf", "https://www.city.choshi.chiba.jp/shisei/page0301_00050.html", "予算の概要（一般会計予算の概要）", 2, 4],
-    ["R7", "https://www.city.choshi.chiba.jp/content/000053982.pdf", "https://www.city.choshi.chiba.jp/shisei/page0301_00030.html", "予算の概要（一般会計予算の概要）", 2, 4],
+    ["R8", "https://www.city.choshi.chiba.jp/content/000066267.pdf", "https://www.city.choshi.chiba.jp/shisei/page0301_00050.html", "予算の概要", 2, 4],
+    ["R7", "https://www.city.choshi.chiba.jp/content/000053982.pdf", "https://www.city.choshi.chiba.jp/shisei/page0301_00030.html", "予算の概要", 2, 4],
     ["R6", "https://www.city.choshi.chiba.jp/content/000042724.pdf", "https://www.city.choshi.chiba.jp/shisei/page030058_00003.html", "当初予算案について", 6, 8],
     ["R5", "https://www.city.choshi.chiba.jp/content/000029505.pdf", "https://www.city.choshi.chiba.jp/shisei/page030058.html", "当初予算案について", 6, 8],
     ["R4", "https://www.city.choshi.chiba.jp/content/000004756.pdf", "https://www.city.choshi.chiba.jp/shisei/page030024.html", "当初予算案について", 6, 8],
