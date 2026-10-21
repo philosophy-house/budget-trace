@@ -34,6 +34,8 @@ const MISATO_LICENSE =
   "本サイトのコンテンツの著作権はすべて三郷市に帰属します。本サイト内の記事・写真の無断転載を禁じます。また、すべての内容は日本の著作権法並びに国際条約により保護されています。";
 
 // 「このサイトについて」（/this_site/index.html・確認日 2026-10-21）の「著作権について」「掲載情報等の転載について」。
+// 「掲載情報等の転載について」節の末尾「なお、版権等の問題により、一部の画像等については転載を認められない場合がありますのでご了承ください。」は
+// 画像の注記なので引いていない（区分にも表示にも影響しない）。
 // ⚠ 2026-09-10 の収録時は「規約のページが無い」と書いていた（旧 CMS の `/site/` の 404 をページ不存在と取り違えた）。
 //   Wayback には 2026-02-08 以降このページの捕捉があり、当時も実在した（#293 のレビューで判明）。
 const IRUMA_LICENSE =
@@ -28987,7 +28989,10 @@ export const SOURCES: SourceEntry[] = [
       "https://www3.city.iruma.saitama.jp/voices/cgi/voiweb.exe?ACT=203&KENSAKU=0&SORT=0&KTYP=0,1,2,3&KGTP=1&FYY=2026&TYY=2026&TITL_SUBT=%97%DF%98a%81@%82W%94N%81@%81@%82R%8C%8E%81@%92%E8%97%E1%89%EF%81i%91%E6%82P%89%F1%81j%81%7C03%8C%8E16%93%FA-07%8D%86&HUID=243686&KGNO=515&FINO=1929&HATSUGENMODE=1&HYOUJIMODE=0&STYLE=0",
     ],
     landingPage: "https://www.city.iruma.saitama.jp/gyosei_joho/83/87/7715.html",
-    // 資料の2本は市の公式サイトに載るので、市のリンク条項（`iruma-yosansho-*` のコメント）で `noDeepLink`。
+    // 資料のうち議会だより（gikai214.pdf）は市の公式サイトに載るので、市のリンク条項（`iruma-yosansho-*` のコメント）で `noDeepLink`。
+    // ⚠ `noDeepLink` は行単位なので、www3（議会情報公開システム・規約なし）の議決詳細と会議録の2本も landingPage（会派別名簿）へ
+    //   振り替わる。名簿ページから www3 へは辿れるが、出典チップから議決の載ったページへ直接は飛べない（限界・#293 のレビューで判明）。
+    //   直リンクを断る市の指示に従う側を採った。ファイル単位の振替は別の設計（registry に資料ごとの指定を足す）。
     noDeepLink: true,
     kind: "page",
     fiscalYear: "R8",
