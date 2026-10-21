@@ -3589,6 +3589,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第67巡（2026-10-22・§13-73） ----
+    // ⚠ 大田原は revenueHeading `一般会計`（`［歳入］` だと R4〜R2 で `一般会計市税`）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ohtawara-yosan-gaiyou-${fy}`, muniCode: "092100", muniName: "大田原市", prefName: "栃木県", isPref: false,
+    })),
+    // ⚠ 阿南は R8〜R6 だけ（R5・R4 スキャン・R3・R2 資料なし）。列指定を外すと前年度＝一般財源で静かに通る。`noDeepLink`
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `anan-yosan-gaiyou-${fy}`, muniCode: "362042", muniName: "阿南市", prefName: "徳島県", isPref: false,
+    })),
+    // ⚠ 豊明 R5・R4 はスキャン。サイトが Incapsula 配下（curl で取得）
+    ...(["r8", "r7", "r6", "r3", "r2"] as const).map((fy) => ({
+      srcId: `toyoake-yosan-gaiyou-${fy}`, muniCode: "232297", muniName: "豊明市", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `uwajima-yosan-setsumei-${fy}`, muniCode: "382035", muniName: "宇和島市", prefName: "愛媛県", isPref: false,
+    })),
+    // ⚠ 八街は HeaderExtra 2つが必須。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yachimata-yosansho-${fy}`, muniCode: "122301", muniName: "八街市", prefName: "千葉県", isPref: false,
+    })),
     // ---- 第65巡（2026-10-22・§13-71） ----
     // ⚠ 館林は R7 で `^の(増|減)$` が無いと款1 が `の増市税`。R6・R5 は歳出に stripChars
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

@@ -354,6 +354,11 @@ const MUNI_SLUGS: Record<string, string> = {
   "262072": "joyo",
   "282154": "miki",
   "072079": "sukagawa",
+  "092100": "ohtawara",
+  "362042": "anan", // ⚠ 長野県阿南町 204048 は未収録（収録するときは県名つきにする）
+  "232297": "toyoake",
+  "382035": "uwajima",
+  "122301": "yachimata",
   "472115": "okinawa", // ⚠ 沖縄県 470007 は "ken" スラグなので衝突しない（富山市・佐賀市と同じ規則）
   "232076": "toyokawa", "352039": "yamaguchi", "222038": "numazu", "272191": "izumi",
   // 政令指定都市（2026-07-15）

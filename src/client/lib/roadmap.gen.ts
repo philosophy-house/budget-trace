@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 409,
+  "budgetCount": 414,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3088,
-  "fileCount": 4737,
-  "archivedCount": 2674,
+  "sourceCount": 3117,
+  "fileCount": 4766,
+  "archivedCount": 2692,
   "licenseOpen": 130,
-  "licensePermission": 2880,
+  "licensePermission": 2909,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -837,6 +837,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "大田原市",
+      "code": "092100",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "桐生市",
       "code": "102032",
       "years": 7,
@@ -929,6 +935,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "四街道市",
       "code": "122289",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "八街市",
+      "code": "122301",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1389,6 +1401,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "宇和島市",
+      "code": "382035",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "西条市",
       "code": "382060",
       "years": 7,
@@ -1827,6 +1845,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "豊明市",
+      "code": "232297",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
+    },
+    {
       "name": "大津市",
       "code": "252018",
       "years": 5,
@@ -2035,6 +2059,12 @@ export const ROADMAP_PROGRESS = {
       "code": "292109",
       "years": 3,
       "range": "R2〜R6（3年度）"
+    },
+    {
+      "name": "阿南市",
+      "code": "362042",
+      "years": 3,
+      "range": "R6〜R8（3年度）"
     },
     {
       "name": "北上市",
