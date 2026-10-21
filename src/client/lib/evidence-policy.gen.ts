@@ -21163,6 +21163,174 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "近江八幡市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、近江八幡市ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "file"
   },
+  "/sources/katano-yosansho-r8/R8ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.katano.osaka.jp/docs/2026021800014/",
+    "license": "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/katano-yosansho-r7/R7ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.katano.osaka.jp/docs/2025021900038/",
+    "license": "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/katano-yosansho-r6/R6_ippan_yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.katano.osaka.jp/docs/2024021400012/",
+    "license": "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/katano-yosansho-r5/R5_ippan_yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.katano.osaka.jp/docs/2023021300018/",
+    "license": "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/katano-yosansho-r4/R4_ippann_yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.katano.osaka.jp/docs/2021030400019/",
+    "license": "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/katano-yosansho-r3/3yosan_.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.katano.osaka.jp/docs/2021052000037/",
+    "license": "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/honjo-yosansho-r8/R8_tousyo_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.honjo.lg.jp/material/files/group/4/R8_tousyo_ippan.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/honjo-yosansho-r7/R7_tousyo_yosan_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.honjo.lg.jp/material/files/group/4/R7_tousyo_yosan_ippan.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/honjo-yosansho-r6/R6ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.honjo.lg.jp/material/files/group/4/R6ippan.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/honjo-yosansho-r5/R5ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.honjo.lg.jp/material/files/group/4/R5ippan.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/honjo-yosansho-r4/R4ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.honjo.lg.jp/material/files/group/4/R4ippan.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/honjo-yosansho-r3/tousyo_ippan0225.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220110/20220110013128/https://www.city.honjo.lg.jp/material/files/group/4/tousyo_ippan0225.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/honjo-yosansho-r2/63754115.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220110/20220110013128/https://www.city.honjo.lg.jp/material/files/group/4/63754115.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/warabi-yosan-gaiyou-r8/r8gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/012/672/r8gaiyou.pdf",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-yosan-gaiyou-r7/r7gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/011/362/r7gaiyou.pdf",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-yosan-gaiyou-r6/r6gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r6gaiyou.pdf",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-yosan-gaiyou-r5/r5gaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20231009/20231006233050/https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r5gaiyou.pdf",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-yosan-gaiyou-r4/r4gaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20221009/20221007212638/https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r4gaiyou.pdf",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-yosan-gaiyou-r3/r3gaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20211015/20211013010333/https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r3gaiyou.pdf",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-yosan-gaiyou-r2/r2gaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20201013/20201011144757/https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r2gaiyou.pdf",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/kashiwazaki-yosan-gaiyou-r8/R8tousyoyosanannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2026yosan/48189.html",
+    "license": "当サイトに掲載する情報（テキスト、画像、ファイル、プログラムなど）は、著作権の対象であり、法律によって保護されています。また「柏崎市ホームページ」の全体についても、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、柏崎市の許可なく無断で複製・転用することはできません（各ページに利用規約など特段の定めがある場合を除く）。",
+    "target": "page"
+  },
+  "/sources/kashiwazaki-yosan-gaiyou-r7/r7tousyoyosannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2025yosan/45007.html",
+    "license": "当サイトに掲載する情報（テキスト、画像、ファイル、プログラムなど）は、著作権の対象であり、法律によって保護されています。また「柏崎市ホームページ」の全体についても、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、柏崎市の許可なく無断で複製・転用することはできません（各ページに利用規約など特段の定めがある場合を除く）。",
+    "target": "page"
+  },
+  "/sources/kashiwazaki-yosan-gaiyou-r6/r6tousyoyosanannogaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2024yosan/39876.html",
+    "license": "当サイトに掲載する情報（テキスト、画像、ファイル、プログラムなど）は、著作権の対象であり、法律によって保護されています。また「柏崎市ホームページ」の全体についても、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、柏崎市の許可なく無断で複製・転用することはできません（各ページに利用規約など特段の定めがある場合を除く）。",
+    "target": "page"
+  },
+  "/sources/kashiwazaki-yosan-gaiyou-r5/r5tousyoyosanannogaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2023yosan/34870.html",
+    "license": "当サイトに掲載する情報（テキスト、画像、ファイル、プログラムなど）は、著作権の対象であり、法律によって保護されています。また「柏崎市ホームページ」の全体についても、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、柏崎市の許可なく無断で複製・転用することはできません（各ページに利用規約など特段の定めがある場合を除く）。",
+    "target": "page"
+  },
+  "/sources/kashiwazaki-yosan-gaiyou-r3/r3tousyoyosanannogaiyo.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210812/20210811194215/https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2021/24875.html",
+    "license": "当サイトに掲載する情報（テキスト、画像、ファイル、プログラムなど）は、著作権の対象であり、法律によって保護されています。また「柏崎市ホームページ」の全体についても、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、柏崎市の許可なく無断で複製・転用することはできません（各ページに利用規約など特段の定めがある場合を除く）。",
+    "target": "page"
+  },
+  "/sources/kashiwazaki-yosan-gaiyou-r2/r2tousyoyosanannogaiyo.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20200813/20200812190553/https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2020yosan/18654.html",
+    "license": "当サイトに掲載する情報（テキスト、画像、ファイル、プログラムなど）は、著作権の対象であり、法律によって保護されています。また「柏崎市ホームページ」の全体についても、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、柏崎市の許可なく無断で複製・転用することはできません（各ページに利用規約など特段の定めがある場合を除く）。",
+    "target": "page"
+  },
+  "/sources/kashiwazaki-yosansho-r4/r4ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2022yosan/31037.html",
+    "license": "当サイトに掲載する情報（テキスト、画像、ファイル、プログラムなど）は、著作権の対象であり、法律によって保護されています。また「柏崎市ホームページ」の全体についても、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、柏崎市の許可なく無断で複製・転用することはできません（各ページに利用規約など特段の定めがある場合を除く）。",
+    "target": "page"
+  },
+  "/sources/shiki-yosansho-r2/4567.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiki.lg.jp/soshiki/8/2068.html",
+    "license": "志木市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として志木市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
+    "target": "page"
+  },
   "/sources/joetsu-yosan-gaiyou-r8/282463.pdf": {
     "mode": "origin",
     "href": "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf",

@@ -340,6 +340,19 @@ const KOMAE_LICENSE =
   "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。";
 const OMIHACHIMAN_LICENSE =
   "近江八幡市ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、近江八幡市ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。";
+const KATANO_LICENSE =
+  "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。";
+const HONJO_LICENSE =
+  "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。";
+const WARABI_LICENSE =
+  "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。";
+const KASHIWAZAKI_LICENSE =
+  "当サイトに掲載する情報（テキスト、画像、ファイル、プログラムなど）は、著作権の対象であり、法律によって保護されています。また「柏崎市ホームページ」の全体についても、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、柏崎市の許可なく無断で複製・転用することはできません（各ページに利用規約など特段の定めがある場合を除く）。";
+// 志木の現行の利用ルール（/site/userguide/7386.html）の「著作権について」冒頭の1文と、末尾「その他」の1文を連結した抜粋（どちらも逐語）。
+const SHIKI_LICENSE =
+  "当ホームページで公開している情報（以下「コンテンツ」といいます。）は、どなたでも以下に従って、複製、公衆送信、翻訳・変形等の翻案等、自由に利用できます。本利用ルールは、政府標準利用規約（第2.0版）に準拠しています。";
+const SHIKI_LICENSE_BEFORE_2020_06 =
+  "志木市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として志木市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。";
 const JOETSU_LICENSE =
   "上越市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、上越市に帰属します。また一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書、画像などの無断使用・転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越えて、当ホームページの情報の使用を希望する場合は事前に広報対話課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。";
 const CHITOSE_LICENSE =
@@ -24454,6 +24467,213 @@ export const SOURCES: SourceEntry[] = [
       ...(fy === "R5"
         ? { prevBasis: "補正後" as const, prevNote: "前年度（令和4年度）の当初予算は骨格予算（原典の令和4年度「予算の概要」に「令和４年度当初予算については、本年４月の市長選挙を控え、新たな政策的経費を除いた『骨格予算』と位置付け」と明記）。前年度の額は、当初予算額に6月補正予算のうち肉付け予算の分を加えた額（令和5年度「予算の概要」の注「令和４年度は当初予算額（骨格予算）と６月補正予算額のうち、一部（肉付け予算）の合計額です。」）。" }
         : {}),
+    },
+  } satisfies SourceEntry)),
+
+  // ---- 第63巡（2026-10-22・§13-69）: 交野・本庄・蕨・柏崎・志木 ----
+
+  // 交野市（大阪府・団体コード 272302 ＝ 総務省 R6.json から実引き）。「一般会計予算書」の「歳入歳出予算事項別明細書 １．総括」。千円。
+  //   歳入21款・歳出12款（労働費・災害復旧費の款が無い）。歳入は2ページ（合計行は2ページ目）＝`revenuePages`。
+  // ⚠⚠ `expenditureHeaderExtra: "一般財源|国府支出金"` は必須。外すと Σ 差0 のまま款1 が `一般財源国府支出金地方債その他議会費`。
+  // ⚠ R2（2yosannsyo.pdf）は総括の数字だけ ToUnicode が欠けていて、`decodeGarble` が廃止款の印 `×`（U+00D7）を化け字とみなして throw ⇒ unrecordable（parser-unsupported・#354）。
+  // 前年度列は当初（R8→R3 の5リンクで款単位全一致）。骨格予算: 予算書 R8〜R2 で0件（R8 予算資料に「令和８年９月に交野市長選挙」＝選挙前の通常予算）。
+  // 総額突合: R6 当初 35,329,156 ÷ 総務省 R6 決算歳出 38,888,487 = 90.8%。
+  // ライセンス: 「サイトの利用・個人情報の取り扱いについて」（/docs/about-site/・確認日 2026-10-22）の「２ 著作権について」＝`無断` で要許可（許諾は著作権法上認められた行為の範囲だけ）。
+  //   リンクは「トップページ以外の各部局等のページへのリンクについては、各ページに記載の担当までお問い合わせください。」＝§11h 第2群 ⇒ `noDeepLink`。BODIK に予算は0件。
+  // ⚠ 主な事業（予算と財政のはなしの「主な事業」・款なし）と事業報告（事務事業概要実績報告書 R6・R7）は別の巡（§13-69）。
+  ...([
+    ["R8", "2026021800014", "R8ippan.pdf", 21, 23],
+    ["R7", "2025021900038", "R7ippan.pdf", 21, 23],
+    ["R6", "2024021400012", "R6_ippan_yosan.pdf", 19, 21],
+    ["R5", "2023021300018", "R5_ippan_yosan.pdf", 19, 21],
+    ["R4", "2021030400019", "R4_ippann_yosan.pdf", 18, 20],
+    ["R3", "2021052000037", "3yosan_.pdf", 18, 20],
+  ] as const).map(([fy, page, file, rp, ep]) => ({
+    id: `katano-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 交野市一般会計予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "交野市",
+    url: `https://www.city.katano.osaka.jp/docs/${page}/file_contents/${file}`,
+    landingPage: `https://www.city.katano.osaka.jp/docs/${page}/`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "交野市（一般会計・団体コード272302）",
+    license: KATANO_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: rp, to: rp + 1 },
+      expenditurePage: ep,
+      revenueHeading: "（歳入）",
+      expenditureHeading: "（歳出）",
+      expenditureHeaderExtra: "一般財源|国府支出金",
+    },
+  } satisfies SourceEntry)),
+
+  // 本庄市（埼玉県・団体コード 112119 ＝ 総務省 R6.json から実引き）。「本庄市一般会計予算」の「歳入歳出予算事項別明細書 １ 総括」。千円。
+  //   7年度とも物理 p.17–18（歳入）・p.19（歳出）。歳入22款（R2 は番号なしの廃止款 `自動車取得税交付金 0/56,291` を含め23）・歳出13款。
+  //   現行サイトは R8〜R4。R3・R2 は WARP（2022-01-10 の捕捉）。
+  // ⚠ R7・R4・R3 は3月下旬に「当初予算（追加）」＝一般会計補正予算（第1号）がある。翌年度の前年度列は追加前の当初額（R8 の前年度 33,703,000 = R7 当初）。
+  // 前年度列は当初（R8→R2 の6リンクで35款全一致）。骨格予算: 予算書・概要とも0件（7年度とも同じ市長）。
+  // 総額突合: R6 当初 31,954,000 ÷ 総務省 R6 決算歳出 33,173,334 = 96.3%。
+  // ライセンス: 「著作権・リンクについて」（/shiseijoho/koho_kocho/rinku/8390.html・確認日 2026-10-22）＝`無断` で要許可。オープンデータ規約（CC BY 2.1 JP）はオープンデータのページ以下に範囲を限る。
+  //   リンクは「原則として自由です。」＋事後のメール連絡・フレーム表示の遠慮 ⇒ `noDeepLink` は立てない。
+  // ⚠ 主な事業（広報の当初予算紹介記事のみ・款なし）と事業報告（決算に係る主要な施策の実績報告書 R2〜R7・予算事業コードと款項目つき）は別の巡（§13-69）。
+  ...([
+    ["R8", "https://www.city.honjo.lg.jp/material/files/group/4/R8_tousyo_ippan.pdf"],
+    ["R7", "https://www.city.honjo.lg.jp/material/files/group/4/R7_tousyo_yosan_ippan.pdf"],
+    ["R6", "https://www.city.honjo.lg.jp/material/files/group/4/R6ippan.pdf"],
+    ["R5", "https://www.city.honjo.lg.jp/material/files/group/4/R5ippan.pdf"],
+    ["R4", "https://www.city.honjo.lg.jp/material/files/group/4/R4ippan.pdf"],
+    ["R3", "https://warp.ndl.go.jp/20220110/20220110013128/https://www.city.honjo.lg.jp/material/files/group/4/tousyo_ippan0225.pdf"],
+    ["R2", "https://warp.ndl.go.jp/20220110/20220110013128/https://www.city.honjo.lg.jp/material/files/group/4/63754115.pdf"],
+  ] as const).map(([fy, url]) => ({
+    id: `honjo-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 本庄市一般会計予算（歳入歳出予算事項別明細書 総括）`,
+    publisher: "本庄市",
+    url,
+    landingPage: fy === "R3" || fy === "R2"
+      ? "https://warp.ndl.go.jp/20220110/20220110013128/https://www.city.honjo.lg.jp/soshiki/kikakuzaisei/zaisei/tantoujouhou/yosan/yosan/yosan_setsumei.html"
+      : "https://www.city.honjo.lg.jp/soshiki/kikakuzaisei/zaisei/tantoujouhou/yosan/yosan/yosan_setsumei.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "本庄市（一般会計・団体コード112119）",
+    license: HONJO_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: 17, to: 18 },
+      expenditurePage: 19,
+      revenueHeading: "(歳入)",
+      expenditureHeading: "(歳出)",
+    },
+  } satisfies SourceEntry)),
+
+  // 蕨市（埼玉県・団体コード 112232 ＝ 総務省 R6.json から実引き）。「蕨市当初予算（案）概要」p.4「一般会計歳入予算（案）の内訳」・p.6「歳出予算（案）目的別の内訳」。千円。
+  //   7年度ともページ・見出し・合計ラベルが同じ。歳入21款（R2 は番号なしの廃止款 `自動車取得税交付金 0/15,000` を含め22）・歳出13款。歳入表の市税の内訳行（番号なし）は款として拾わない。
+  //   ⚠ 予算書は R8〜R4 ともスキャン画像（本文は画像・フォントはノンブルだけ）＝概要を使う。R5〜R2 の概要は現行サイトから消えていて WARP（ページ番号 1002880 は年度ごとに使い回されている）。
+  // 前年度列は当初（R8→R2 と R2←H31 の7組で款単位全一致）。骨格予算: 概要7年度・年度ページで0件。
+  // 総額突合: R6 当初 28,200,000 ÷ 総務省 R6 決算歳出 30,786,390 = 91.6%。
+  // ライセンス: 「著作権・免責事項」（/about/1003454.html・確認日 2026-10-22）＝`無断` で要許可。リンクの条項はサイトに無い ⇒ `noDeepLink` は立てない。
+  // ⚠ 主な事業（概要の「目的別の主な増減内容」＝款の見出しの下に事業・「新規・拡充施策など」＝款なし）と事業報告（行政評価結果概要 R7）は別の巡（§13-69）。
+  ...([
+    ["R8", "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/012/672/r8gaiyou.pdf", "https://www.city.warabi.saitama.jp/shisei/zaisei/kouhyo/1012672.html"],
+    ["R7", "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/011/362/r7gaiyou.pdf", "https://www.city.warabi.saitama.jp/shisei/zaisei/kouhyo/1011362.html"],
+    ["R6", "https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r6gaiyou.pdf", "https://www.city.warabi.saitama.jp/shisei/zaisei/kouhyo/1002880.html"],
+    ["R5", "https://warp.ndl.go.jp/20231009/20231006233050/https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r5gaiyou.pdf", "https://www.city.warabi.saitama.jp/shisei/zaisei/kouhyo/1010337.html"],
+    ["R4", "https://warp.ndl.go.jp/20221009/20221007212638/https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r4gaiyou.pdf", "https://www.city.warabi.saitama.jp/shisei/zaisei/kouhyo/1010338.html"],
+    ["R3", "https://warp.ndl.go.jp/20211015/20211013010333/https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r3gaiyou.pdf", "https://www.city.warabi.saitama.jp/shisei/zaisei/kouhyo/index.html"],
+    ["R2", "https://warp.ndl.go.jp/20201013/20201011144757/https://www.city.warabi.saitama.jp/_res/projects/default_project/_page_/001/002/880/r2gaiyou.pdf", "https://www.city.warabi.saitama.jp/shisei/zaisei/kouhyo/index.html"],
+  ] as const).map(([fy, url, landingPage]) => ({
+    id: `warabi-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 蕨市当初予算（案）概要（一般会計歳入予算（案）の内訳・歳出予算（案）目的別の内訳）`,
+    publisher: "蕨市",
+    url,
+    landingPage,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "蕨市（一般会計・団体コード112232）",
+    license: WARABI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 4,
+      expenditurePage: 6,
+      revenueHeading: "一般会計歳入予算（案）の内訳",
+      expenditureHeading: "一般会計歳出予算（案）目的別の内訳",
+      revenueTotalLabel: "合計",
+      expenditureTotalLabel: "合計",
+    },
+  } satisfies SourceEntry)),
+
+  // 柏崎市（新潟県・団体コード 152056 ＝ 総務省 R6.json から実引き）。財政管理課「柏崎市当初予算案の概要」の「（１）歳入（款別）」「（２）歳出（目的別）」。千円。
+  //   7年度とも物理 p.7/p.10（印字 5/8）。歳入23款（柏崎に固有の款13 `電源立地地域対策等交付金`・R2 は番号なしの廃止款 `自動車取得税交付金 0/53,000` を含め24）・
+  //   歳出13款（R4〜R2 は諸支出金を含め14・R5 は番号なしの廃止款 `諸支出金 0/470,000`）。
+  // ⚠ R2 だけページ冒頭の「５ 一般会計当初予算案の状況」が款1 に連結して `一般会計当初予算案の状況市税`（Σ 差0 のまま）⇒ `revenueHeaderExtra`。
+  // ⚠ R4 の概要は現行サイトで 404（Wayback にだけある・IA が不通で取れなかった）⇒ R4 は予算書の総括（下の別エントリ）。R3・R2 は年度ページごと消えていて WARP。
+  // 前年度列は当初（列見出し「当初予算額」・R8→R2 の6リンクで款単位全一致）。骨格予算: 7本とも0件。概要は「案」だが議決後の予算書の総括と総額が一致する。
+  // 総額突合: R6 当初 47,800,000 ÷ 総務省 R6 決算歳出 48,768,758 = 98.0%。
+  // ライセンス: サイト利用案内（/soshikiichiran/sogokikakubu/genkihasshinka/1/4/9564.html・確認日 2026-10-22）＝`無断`・`複製・転用` で要許可。オープンデータの CC BY は統計年鑑等で、当初予算は無い。
+  //   リンクは「トップページ以外にリンクする場合は、必ずhtmlファイルにリンクさせてください。画像やダウンロードファイルへの直接リンクは禁止します。」＝§11h 第1群 ⇒ `noDeepLink`。
+  // ⚠ 主な事業（「一般会計当初予算案における主な事業」・款見出しつき・前年度額なし／R8 のデジタル予算書 XLSX・細節単位・円）と事業報告（決算主要施策等に関する報告 R3〜R6）は別の巡（§13-69）。
+  ...([
+    ["R8", "https://www.city.kashiwazaki.lg.jp/material/files/group/9/R8tousyoyosanannogaiyou.pdf", "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2026yosan/48189.html"],
+    ["R7", "https://www.city.kashiwazaki.lg.jp/material/files/group/9/r7tousyoyosannogaiyou.pdf", "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2025yosan/45007.html"],
+    ["R6", "https://www.city.kashiwazaki.lg.jp/material/files/group/9/r6tousyoyosanannogaiyo.pdf", "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2024yosan/39876.html"],
+    ["R5", "https://www.city.kashiwazaki.lg.jp/material/files/group/9/r5tousyoyosanannogaiyo.pdf", "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2023yosan/34870.html"],
+    ["R3", "https://warp.ndl.go.jp/20210812/20210811194215/https://www.city.kashiwazaki.lg.jp/material/files/group/9/r3tousyoyosanannogaiyo.pdf", "https://warp.ndl.go.jp/20210812/20210811194215/https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2021/24875.html"],
+    ["R2", "https://warp.ndl.go.jp/20200813/20200812190553/https://www.city.kashiwazaki.lg.jp/material/files/group/9/r2tousyoyosanannogaiyo.pdf", "https://warp.ndl.go.jp/20200813/20200812190553/https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2020yosan/18654.html"],
+  ] as const).map(([fy, url, landingPage]) => ({
+    id: `kashiwazaki-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 柏崎市当初予算案の概要（一般会計 歳入（款別）・歳出（目的別））`,
+    publisher: "柏崎市",
+    url,
+    landingPage,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "柏崎市（一般会計・団体コード152056）",
+    license: KASHIWAZAKI_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 7,
+      expenditurePage: 10,
+      revenueHeading: "歳入（款別）",
+      expenditureHeading: "歳出（目的別）",
+      revenueTotalLabel: "合計",
+      expenditureTotalLabel: "合計",
+      ...(fy === "R2" ? { revenueHeaderExtra: "一般会計当初予算案の状況" } : {}),
+    },
+  } satisfies SourceEntry)),
+  {
+    // 柏崎 R4 は概要が現行サイトで 404（Wayback にだけある）なので、現行サイトの予算書の「歳入歳出予算事項別明細書 総括」（物理 p.17/18）を使う（偵察が try-parse で概要と同じ数字を実測）。
+    id: "kashiwazaki-yosansho-r4",
+    title: "令和4年度 柏崎市一般会計予算書（歳入歳出予算事項別明細書 総括）",
+    publisher: "柏崎市",
+    url: "https://www.city.kashiwazaki.lg.jp/material/files/group/9/r4ippan.pdf",
+    landingPage: "https://www.city.kashiwazaki.lg.jp/shiseijoho/yosan_kessan_zaisei/yosan/2022yosan/31037.html",
+    kind: "pdf",
+    fiscalYear: "R4",
+    scope: "柏崎市（一般会計・団体コード152056）",
+    license: KASHIWAZAKI_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho",
+    parserOptions: { revenuePage: 17, expenditurePage: 18, revenueHeading: "（歳       入）", expenditureHeading: "（歳       出）" },
+  } satisfies SourceEntry,
+
+  // 志木市（埼玉県・団体コード 112283 ＝ 総務省 R6.json から実引き）。一般会計 歳入歳出予算事項別明細書「１ 総括表」。千円。
+  //   R8〜R5 は「一般会計・特別会計予算書」1冊（総括表は一般会計分）、R4〜R2 は分冊の「予算説明書表紙・総括表」（4ページ）。歳入22款（R4 は廃止款を含め23・R3・R2 は自動車取得税交付金が番号つきで23）・歳出12款。
+  // ⚠⚠ `expenditureHeaderExtra` は必須。外すと Σ 差0 のまま款1 が `一般財源国県支出金地方債その他議会費`。
+  // ⚠ R6 の予算書は ToUnicode が欠落（Identity-H・uni=no）⇒ `decodeGarble`。
+  // 前年度列は当初（R8→R2 の6リンクで款単位全一致・R2 の前年度 24,800,000 ＝ H31 概要の当初）。骨格予算: 0件（「骨格」のヒットは事業名の偽陽性だけ）。
+  // ⚠ 総額突合: R6 当初 30,454,000 ÷ 総務省 R6 決算歳出 28,235,867 = 107.9%（当初が決算を上回る・§13-69）。
+  // ⚠⚠ ライセンスは掲載時点で割れる: 「著作権・リンク」（/site/userguide/7386.html・確認日 2026-10-22）は政府標準利用規約（第2.0版）準拠＝open。旧サイトの「著作権とリンク」
+  //   （/index.cfm/37,80348,166,html）は Wayback 2019-09-18 の捕捉で「許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。」、2020-06-13 以降の捕捉は現行と同じ利用ルール。
+  //   ⇒ R3 以降（掲載は 2021 年以降）は open、R2（2020年初めの掲載で、その時点の規約の捕捉が無い）は閉じる側（旧規約の原文）で書いた（[[open-side-never]]・昭島と同じ扱い）。
+  //   リンクは旧規約・現行とも「リンク先は（トップページ）としてください」＝§11h 第2群 ⇒ `noDeepLink`（open の年度では振替が効かない）。
+  // ⚠ 主な事業（予算及び事業概要説明の事業概要・款なし）と事業報告（行政評価制度は H27 に廃止・教育委員会の点検評価のみ）は別の巡（§13-69）。
+  ...([
+    ["R8", "22051", "39333", { revenuePages: { from: 25, to: 26 }, expenditurePage: 27 }],
+    ["R7", "22049", "28635", { revenuePages: { from: 25, to: 26 }, expenditurePage: 27 }],
+    ["R6", "13308", "19525", { revenuePages: { from: 25, to: 26 }, expenditurePage: 27, decodeGarble: true }],
+    ["R5", "9393", "11111", { revenuePages: { from: 23, to: 24 }, expenditurePage: 25 }],
+    ["R4", "4685", "2077", { revenuePages: { from: 2, to: 3 }, expenditurePage: 4 }],
+    ["R3", "4628", "2074", { revenuePages: { from: 2, to: 3 }, expenditurePage: 4 }],
+    ["R2", "4567", "2068", { revenuePages: { from: 2, to: 3 }, expenditurePage: 4 }],
+  ] as const).map(([fy, att, page, pages]) => ({
+    id: `shiki-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 志木市一般会計予算（歳入歳出予算事項別明細書 総括表）`,
+    publisher: "志木市",
+    url: `https://www.city.shiki.lg.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: `https://www.city.shiki.lg.jp/soshiki/8/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "志木市（一般会計・団体コード112283）",
+    license: fy === "R2" ? SHIKI_LICENSE_BEFORE_2020_06 : SHIKI_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      ...pages,
+      revenueHeading: "総",
+      expenditureHeading: "出）",
+      expenditureHeaderExtra: "一\\s*般\\s*財\\s*源|国県支出金",
     },
   } satisfies SourceEntry)),
 

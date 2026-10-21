@@ -3589,6 +3589,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第63巡（2026-10-22・§13-69） ----
+    // ⚠ 交野 R2 は decodeGarble が廃止款の印 × で止まる（#354）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `katano-yosansho-${fy}`, muniCode: "272302", muniName: "交野市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 本庄 R3・R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `honjo-yosansho-${fy}`, muniCode: "112119", muniName: "本庄市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 蕨は概要（予算書はスキャン画像）。R5〜R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `warabi-yosan-gaiyou-${fy}`, muniCode: "112232", muniName: "蕨市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 柏崎 R4 は予算書の総括（概要は Wayback にだけある）。R3・R2 は WARP。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kashiwazaki-yosan-gaiyou-${fy}`, muniCode: "152056", muniName: "柏崎市", prefName: "新潟県", isPref: false,
+    })),
+    { srcId: "kashiwazaki-yosansho-r4", muniCode: "152056", muniName: "柏崎市", prefName: "新潟県", isPref: false },
+    // ⚠ 志木は R3 以降 open（政府標準利用規約）・R2 は掲載時点の規約が確かめられず閉じる側
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiki-yosansho-${fy}`, muniCode: "112283", muniName: "志木市", prefName: "埼玉県", isPref: false,
+    })),
     // ---- 第59巡（2026-10-22・§13-64） ----
     // ⚠ 大和郡山は R8・R4 だけ（他はテキスト層の二重化・見開きの廃止款で #347）
     ...(["r8", "r4"] as const).map((fy) => ({

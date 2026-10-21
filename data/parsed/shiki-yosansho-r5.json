@@ -1,0 +1,391 @@
+{
+  "docType": "budget-book",
+  "sourceId": "shiki-yosansho-r5",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T16:52:49.784Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R5",
+  "account": "一般会計",
+  "revenueTotal": 27696000,
+  "expenditureTotal": 27696000,
+  "prevRevenueTotal": 29164000,
+  "prevExpenditureTotal": 29164000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 11070577,
+      "prevAmount": 10727379,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 100400,
+      "prevAmount": 99700,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 5000,
+      "prevAmount": 6000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 90000,
+      "prevAmount": 40000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 40000,
+      "prevAmount": 55000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 2600,
+      "prevAmount": 2600,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "法人事業税交付金",
+      "amount": 62000,
+      "prevAmount": 58000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "地方消費税交付金",
+      "amount": 1500000,
+      "prevAmount": 1380000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "環境性能割交付金",
+      "amount": 12000,
+      "prevAmount": 18000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方特例交付金",
+      "amount": 90000,
+      "prevAmount": 82000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方交付税",
+      "amount": 2350000,
+      "prevAmount": 1950000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 7000,
+      "prevAmount": 7000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "分担金及び負担金",
+      "amount": 307040,
+      "prevAmount": 283762,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "使用料及び手数料",
+      "amount": 126311,
+      "prevAmount": 123434,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "国庫支出金",
+      "amount": 4970746,
+      "prevAmount": 4798158,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "県支出金",
+      "amount": 2393056,
+      "prevAmount": 2154879,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "財産収入",
+      "amount": 20673,
+      "prevAmount": 21841,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "寄附金",
+      "amount": 57002,
+      "prevAmount": 101002,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰入金",
+      "amount": 2474598,
+      "prevAmount": 3432405,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰越金",
+      "amount": 400000,
+      "prevAmount": 400000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "諸収入",
+      "amount": 167997,
+      "prevAmount": 178340,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "市債",
+      "amount": 1449000,
+      "prevAmount": 3244500,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 23
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 189403,
+      "prevAmount": 202635,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 3858419,
+      "prevAmount": 5480326,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 13523145,
+      "prevAmount": 12954141,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 1849413,
+      "prevAmount": 1908335,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 23601,
+      "prevAmount": 24170,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 40357,
+      "prevAmount": 38338,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 102698,
+      "prevAmount": 97750,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 1974276,
+      "prevAmount": 2188284,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 895083,
+      "prevAmount": 883708,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 3257645,
+      "prevAmount": 3368553,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "公債費",
+      "amount": 1951960,
+      "prevAmount": 1987760,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "予備費",
+      "amount": 30000,
+      "prevAmount": 30000,
+      "locator": {
+        "file": "9393.pdf",
+        "page": 25
+      }
+    }
+  ]
+}

@@ -922,6 +922,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "272302": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "一般会計予算書の総括のページは数字の文字コードの対応表が欠けていて復号が要るが、廃止された款に付いている印（×）を、こちらの抽出処理が化けた文字と取り違えて止まる。原典の表は健全。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "280003": {
     "budget": [
       {
