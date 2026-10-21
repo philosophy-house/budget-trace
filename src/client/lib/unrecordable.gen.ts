@@ -421,6 +421,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "132187": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度・令和4年度",
+        "reason": "予算書の総括のページは、R4 は歳入の表の文字が図形として描かれ、R5 は文字が二重に描かれていて、どちらも数字を正しく取り出せない。代わりの予算説明書の款別表は、すぐ下に続く市税の内訳表を合計の行と取り違えてしまい、今の読み取り方では読めない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "132209": {
     "budget": [
       {

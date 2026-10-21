@@ -2478,4 +2478,15 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.yanagawa.fukuoka.jp/shisei/zaisei/yosan.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-89",
   },
+  {
+    // 福生市（132187）R5・R4。R8〜R6・R3・R2 は収録済み（§13-P）。予算書の総括は R4 が歳入ページ（物理 p.19）だけ文字が図形に変換されていて（pdfimages 0件）、R5 は文字が二重に描かれて「88,,092,」のように崩れる。
+    //   代わりの予算説明書（実施計画）の「４ 一般会計予算」は款別表の下に市税の内訳表が続き、「５ 都市計画税」の行（整数4個）が合計行「計」（整数3個）より多くの整数を持つため、既存パーサの合計行の選定が外れる（Σ が +34,148,659 ずれて止まる）。
+    //   合計行のラベルに金額を書く回避策はパーサのコメントで禁じている。表の下端で打ち切る指定が無い。
+    code: "132187", name: "福生市", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["broken-text-layer", "parser-unsupported"],
+    reason:
+      "予算書の総括のページは、R4 は歳入の表の文字が図形として描かれ、R5 は文字が二重に描かれていて、どちらも数字を正しく取り出せない。代わりの予算説明書の款別表は、すぐ下に続く市税の内訳表を合計の行と取り違えてしまい、今の読み取り方では読めない。",
+    url: "https://www.city.fussa.tokyo.jp/municipal/aboutfussa/finances/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-P",
+  },
 ];

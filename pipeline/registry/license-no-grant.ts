@@ -89,4 +89,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "逗子市", license: "Copyright © Zushi City All rights reserved." },
   { who: "日向市", license: "© HYUGA City." },
   { who: "下松市", license: "Copyright (C) Kudamatsu City All rights reserved." },
+  { who: "北広島市", license: "Copyright © Kitahiroshima City All rights reserved." },
 ];
