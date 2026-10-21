@@ -2332,13 +2332,13 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
   },
   {
-    // 常滑市（232165）R8・R7・R6。R5・R4 は収録済み（§13-M）。概要の歳入の款別表（R8 R8_tosyo_gaiyo.pdf p.6 ほか）がラスタ画像で、予算書の総括・第1表もテキストはノンブルだけ。
+    // 常滑市（232165）R8・R7・R6。R5・R4 は収録済み（§13-86）。概要の歳入の款別表（R8 R8_tosyo_gaiyo.pdf p.6 ほか）がラスタ画像で、予算書の総括・第1表もテキストはノンブルだけ。
     code: "232165", name: "常滑市", dataset: "budget", fiscalYears: ["R8", "R7", "R6"],
     categories: ["scanned-image"],
     reason:
       "当初予算の概要の歳入の款別表が画像で作られていて、文字として取り出せない。一般会計予算書の総括と第1表も、文字として取り出せるのはページ番号だけ。",
     url: "https://www.city.tokoname.aichi.jp/shisei/zaisei/1001458/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-M",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
   },
   {
     // 常滑市（232165）R3。概要 R3gaiyou.pdf p.8 の歳入で、款21 諸収入が「(競艇事業収入)」の行と合わせて2行に分かれ、既存パーサが片方しか読まず歳入 Σ が割れる。
@@ -2347,7 +2347,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "当初予算の概要の歳入の款別表で、諸収入の額が2行に分かれて書かれていて、既存のパーサが片方の行しか読めず合計が合わない。",
     url: "https://www.city.tokoname.aichi.jp/shisei/zaisei/1001458/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-M",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
   },
   {
     // 常滑市（232165）R2。概要 R2_yosanngaiyo.pdf は現行サイトで 404・WARP（20201113）だけ。文字が化けていて、復号表に無い字で止まる。
@@ -2356,6 +2356,73 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "当初予算の概要（国立国会図書館の WARP に保存された版）の文字が別の字に化けていて、既存の復号の対応表に無い字があるため読み取れない。",
     url: "https://warp.ndl.go.jp/20201114/20201113082546/https://www.city.tokoname.aichi.jp/_res/projects/default_project/_page_/001/001/459/R2_yosanngaiyo.pdf",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-M",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
+  },
+  {
+    // 古賀市（402231）R8・R7。R6〜R2 は収録済み（§13-85）。説明書 R8setsumeisho.pdf・R7setumeisho.pdf の p.4 は A3 見開きを1ページに収めた版で、歳入の総括が左右2段。
+    // 既存パーサは1ページを1つの帯としてしか読めない（CropX は1区間だけ）。歳出の総括 p.5 は読めるが、歳入が読めないので年度ごと見送る。
+    code: "402231", name: "古賀市", dataset: "budget", fiscalYears: ["R8", "R7"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款ごとの前年度比較が載る予算に関する説明書が、見開きの2ページを1ページに収めた版で、歳入の総括表が左右2段（左に款1〜22、右に款23と合計）に分かれていて、既存のパーサで読めない。" +
+      "予算書の第1表には前年度の額が無く、予算案の概要には款別の表が無い。",
+    url: "https://www.city.koga.fukuoka.jp/cityhall/work/zaisei/015.php",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-85",
+  },
+  {
+    // 佐伯市（442054）R2。R8〜R3 は収録済み（§13-82）。
+    // 予算書 3_1997_4470_up_4n0mxoso.pdf（36MB・337p・Producer「Microsoft: Print To PDF」）はテキスト層もフォントも無い。概要の分冊「歳入」は「地方譲与税･各種交付金」をまとめた集約表で款別でない（偵察）。
+    code: "442054", name: "佐伯市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image", "format-mismatch"],
+    reason:
+      "一般会計予算書が文字を持たない画像の PDF で、款ごとの表を文字として取り出せない。予算の概要の歳入の表は、いくつかの款をまとめた集計で款別になっていない。",
+    url: "https://www.city.saiki.oita.jp/kiji0031997/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-82",
+  },
+  {
+    // 玉名市（432067）R3・R2。R8〜R4 は収録済み（§13-82）。
+    // 予算書は現行サイトに無い（議会の「市長提出議案」一覧は令和4年第2回から・R3 年度ページの Wayback 2022-01 版にも予算書なし）。
+    // 「予算説明書（全体版）」（R3 dl?q=90540_…・R2 dl?q=73556_…）の歳入 p.5 は財源区分別（普通交付税・特別交付税の分割・小計行）で款別でない（偵察・try-parse で throw）。
+    code: "432067", name: "玉名市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "この年度の予算書はウェブに掲載されておらず、掲載されている予算説明書の歳入の表は財源の区分ごと（市税の内訳・交付税の種類別など）で、款別の表になっていない。",
+    url: "https://www.city.tamana.lg.jp/q/list/123.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-82",
+  },
+  {
+    // 美濃加茂市（212113）R8〜R2。1年度も収録できていない（§13-83）。
+    // R8: 概要 /uploaded/attachment/20115.pdf の款別表（p.12・p.15）は表のセルが JPEG 画像、予算書 20182.pdf の総括（物理 p.8・p.9）は文字がノンブルだけ（アウトライン化）。
+    // R7〜R5: 概要（16397・12807・6815）は歳入を「譲与税・交付金」に合算し万円の億表記。予算書（16386・12814・Wayback の 6812）は文字がノンブルか表題だけ。
+    // R4: 概要（6816）は千円だが歳入を合算。予算書は現行サイトで 404・Wayback は 1 MiB で途中切れ。
+    // R3・R2: 概要（6817・6818）は歳入を合算。p.5 に「譲与税・交付金」の内訳表があり合成すれば22款に戻せるが、既存のパーサでは読めない（新しい読み方の判断が要る）。
+    code: "212113", name: "美濃加茂市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "款ごとの前年度比較が載る予算書の総括は、数字や款名が文字として取り出せない形（図形や画像）で作られている。" +
+      "文字として読める予算の概要は、歳入の地方譲与税や各種の交付金を「譲与税・交付金」の1行にまとめていて、款ごとの額が載っていない。",
+    url: "https://www.city.minokamo.lg.jp/soshiki/28/2568.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-83",
+  },
+  {
+    // 常総市（082112）R4・R3。R8〜R5・R2 は収録済み（§13-84）。
+    // 予算書（R4 1675057585_doc_8_0.pdf・R3 1675062386_doc_8_0.pdf）は CCITT のスキャン画像でテキスト層が無い（偵察）。R4 は議会ページの別版（402頁）も画像。
+    code: "082112", name: "常総市", dataset: "budget", fiscalYears: ["R4", "R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計の予算書が紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.city.joso.lg.jp/kurashi_gyousei/shisei/zaisei/budget/budget_doc/r4.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-84",
+  },
+  {
+    // 栗原市（042137）R6〜R2。R8・R7 は収録済み（§13-84）。
+    // 全会計の予算書を1本にまとめた zip（R6 20240311.zip・R5 20230310.zip・R4 20220307.zip・R3 20210308.zip（72.5MB）・R2 20200309.zip）。
+    // 中の一般会計 PDF は総括のテキスト層があり try-parse で Σ 差0（偵察）だが、kofu-yosansho は zip の中のエントリを選べない。
+    code: "042137", name: "栗原市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算書が全会計をまとめた圧縮ファイル（zip）で配られていて、こちらの抽出処理はその中の一般会計のファイルを取り出して読む手順を持っていない。中の資料は健全。",
+    url: "https://www.kuriharacity.jp/li/030/040/001/020/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-84",
   },
 ];

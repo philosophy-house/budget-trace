@@ -671,6 +671,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "212113": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款ごとの前年度比較が載る予算書の総括は、数字や款名が文字として取り出せない形（図形や画像）で作られている。文字として読める予算の概要は、歳入の地方譲与税や各種の交付金を「譲与税・交付金」の1行にまとめていて、款ごとの額が載っていない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "222062": {
     "budget": [
       {
@@ -1327,6 +1336,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "402231": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度",
+        "reason": "款ごとの前年度比較が載る予算に関する説明書が、見開きの2ページを1ページに収めた版で、歳入の総括表が左右2段（左に款1〜22、右に款23と合計）に分かれていて、既存のパーサで読めない。予算書の第1表には前年度の額が無く、予算案の概要には款別の表が無い。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "412015": {
     "budget": [
       {
@@ -1359,6 +1377,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "432067": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "この年度の予算書はウェブに掲載されておらず、掲載されている予算説明書の歳入の表は財源の区分ごと（市税の内訳・交付税の種類別など）で、款別の表になっていない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "432156": {
     "budget": [
       {
@@ -1383,6 +1410,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成28年度・平成27年度・平成26年度・平成25年度・平成24年度",
         "reason": "「当初予算（案）の概要」PDF が H28・H27・H24 は複合機スキャン（テキスト層なし）、H26・H25 は Canon の OCR で見出し〈歳入〉や金額が壊れている（「苗日」「∠ゝ 12,770,000」）。R8〜H29 は同じ資料で収録済み。",
         "checkedOn": "2026-08-22"
+      }
+    ]
+  },
+  "442054": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "一般会計予算書が文字を持たない画像の PDF で、款ごとの表を文字として取り出せない。予算の概要の歳入の表は、いくつかの款をまとめた集計で款別になっていない。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
@@ -1559,6 +1595,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "082112": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度・令和3年度",
+        "reason": "一般会計の予算書が紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "082198": {
     "budget": [
       {
@@ -1637,6 +1682,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和3年度・令和2年度",
         "reason": "予算に関する説明書のうち、款ごとの前年度比較が載る総括のページが紙をスキャンした画像で、文字として取り出せない（令和3年度は歳入側だけ、令和2年度は本文全体）。予算書・予算資料もほぼ画像で、概要には款別の表が無い。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "042137": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "予算書が全会計をまとめた圧縮ファイル（zip）で配られていて、こちらの抽出処理はその中の一般会計のファイルを取り出して読む手順を持っていない。中の資料は健全。",
         "checkedOn": "2026-10-22"
       }
     ]
@@ -1802,6 +1856,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "192147": [
+    "budget"
+  ],
+  "212113": [
     "budget"
   ],
   "262048": [
