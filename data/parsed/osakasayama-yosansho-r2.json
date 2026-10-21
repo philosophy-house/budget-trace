@@ -3,7 +3,7 @@
   "sourceId": "osakasayama-yosansho-r2",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-21T21:19:01.252Z",
+  "parsedAt": "2026-10-21T21:28:39.469Z",
   "unit": "thousandYen",
   "fiscalYear": "R2",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 19995865,
   "prevExpenditureTotal": 19995865,
   "prevBasis": "当初",
-  "prevNote": "前年度（平成31年度）の当初予算は、4月の市長選挙を控えて義務的経費を中心とした骨格型予算として編成された（原典の市の「平成31年度当初予算について」）。ここでの前年度額はその当初額で、補正後の額ではない。",
+  "prevNote": "前年度（平成31年度）の当初予算は、4月の市長選挙を控えて義務的経費を中心とした骨格型予算として編成された（大阪狭山市「平成31年度当初予算について」）。ここでの前年度額はその当初額で、補正後の額ではない。",
   "facts": [
     {
       "side": "revenue",

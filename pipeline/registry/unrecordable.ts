@@ -2310,7 +2310,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-79",
   },
   {
-    // 美濃加茂市（212113）R8〜R2。1年度も収録できていない（§13-NN）。
+    // 美濃加茂市（212113）R8〜R2。1年度も収録できていない（§13-83）。
     // R8: 概要 /uploaded/attachment/20115.pdf の款別表（p.12・p.15）は表のセルが JPEG 画像、予算書 20182.pdf の総括（物理 p.8・p.9）は文字がノンブルだけ（アウトライン化）。
     // R7〜R5: 概要（16397・12807・6815）は歳入を「譲与税・交付金」に合算し万円の億表記。予算書（16386・12814・Wayback の 6812）は文字がノンブルか表題だけ。
     // R4: 概要（6816）は千円だが歳入を合算。予算書は現行サイトで 404・Wayback は 1 MiB で途中切れ。
@@ -2321,6 +2321,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "款ごとの前年度比較が載る予算書の総括は、数字や款名が文字として取り出せない形（図形や画像）で作られている。" +
       "文字として読める予算の概要は、歳入の地方譲与税や各種の交付金を「譲与税・交付金」の1行にまとめていて、款ごとの額が載っていない。",
     url: "https://www.city.minokamo.lg.jp/soshiki/28/2568.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-NN",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-83",
   },
 ];

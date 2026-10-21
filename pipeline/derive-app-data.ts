@@ -4071,7 +4071,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `daisen-yosan-gaiyou-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
     })),
-    // ---- 第NN巡（2026-10-22・§13-NN）: 日向・逗子・大阪狭山・十和田（美濃加茂は収録できず） ----
+    // ---- 第75巡（2026-10-22・§13-83）: 日向・逗子・大阪狭山・十和田（美濃加茂は収録できず） ----
     // ⚠ 十和田は R8・R7 が横並び（CropX）・R6〜R2 が縦並び（samePage）。R3 は Wayback。ライセンスは台帳で要許可
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `towada-yosan-gaiyou-${fy}`, muniCode: "022063", muniName: "十和田市", prefName: "青森県", isPref: false,
