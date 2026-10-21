@@ -252,6 +252,8 @@ const ASHIYA_LICENSE =
   "「芦屋市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、「芦屋市ホームページ」全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法及び国際条約により保護されています。 当ホームページの内容の全部または一部については、適宜の方法により出所を明示することにより、引用・転載・複製を行なうことができますが、無断転載はご遠慮ください。なお、商用目的での複製はお断りしています。 当ホームページの内容の全部または一部について、芦屋市に無断で改変を行なうことはできません。";
 const JOETSU_LICENSE =
   "上越市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、上越市に帰属します。また一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書、画像などの無断使用・転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越えて、当ホームページの情報の使用を希望する場合は事前に広報対話課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。";
+const CHITOSE_LICENSE =
+  "本ホームページ(https://www.city.chitose.lg.jp/ で運営するウェブサイト)に掲載している著作物(文章・写真・画像・映像・音声・プログラム等)に関する諸権利は、原則として千歳市もしくは、千歳市に情報提供していただいた提供元に帰属します。私的使用のための複製や、引用など著作権法上認められた場合を除き、本ホームページに掲載している著作物は、権利者の許可なく使用・転載することはできません。必ず事前にそれぞれのページを所管する各担当課にご相談ください。";
 const KOGA_IBARAKI_LICENSE =
   "古河市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として古河市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。古河市ホームページは利用目的を問わず自由な閲覧が可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、古河市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。";
 
@@ -23770,6 +23772,70 @@ export const SOURCES: SourceEntry[] = [
       totalAmountNextLine: true,
       parenAltRows: true,
       detailRowsAfterKan: true,
+    },
+  } satisfies SourceEntry)),
+
+  // 千歳市（北海道・団体コード 012246 ＝ 総務省 R6.json から実引き）。「各会計予算（予算編成説明資料）」の p.4「歳入科目」と p.8「（款別）会計：一般会計」。千円。
+  //   歳入23款（R2 は番号なしの廃止款 自動車取得税交付金を加えて24行）・歳出14款（款13 職員費を独立した款に持つ＝苫小牧・小樽と同型）。
+  //   歳入は [当年度, 一般財源, 特定財源, 前年度, …] で `amountIntIndex`/`prevIntIndex`（款番号なしの内訳行は孤児として捨てられる）。
+  // ⚠⚠ 歳出は款ごとに「金額行／款番号つき款名行／(一般財源) 行」の3行組で、金額行に当年度の合計・経常・臨時・投資と前年度の合計・経常・臨時が並び、
+  //   **空欄のセルで列が詰まって前年度合計の添字が款ごとに 4・3・2 と動く**（#312）。⇒ `amountsAboveName`（款名の上の金額行を採る・合計も同じ）・
+  //   `prevAfterBreakdown`（前年度は「当年度合計＝内訳の和」になる位置の次）・`parenAltRows`（(一般財源) 行を消す）・`expenditureHeaderExtra`（列見出しの
+  //   `予算の内訳`・`経常費…` の行が款1 の頭に付く）。見開きの右（p.9）に前年度の投資的経費と増減が続くので、前年度側の内訳では確かめられない。
+  // ⚠ **前年度列が補正後の年度**: R6（p.5・p.9「令和５年度予算との比較（６月補正時点の予算）」・p.3「※令和5年度は6月補正後の予算」）と
+  //   R2（「一般会計については6月補正後の予算」・p.3「※令和元年度は6月補正後の予算」）。p.4・p.8 には注記が無い ⇒ `prevBasis: "補正後"` を明示。
+  //   **骨格予算は H31・R5**（表紙「【骨格予算】」・skeleton-budgets.ts）。R5 には別に6月補正の「【政策予算】」の説明資料があり、当初ではないので掴まない。
+  //   予算書（全文一括）はスキャンに OCR を重ねたもので款名・数字が化ける（使えない）。
+  // 前年度列は当初（R8→R7・R7→R6・R5→R4・R4→R3・R3→R2 で合計一致。R6・R2 は補正後）。総額突合: R6 当初 52,676,000 ÷ 総務省 R6 決算歳出 63,064,314 = 83.5%
+  //   （ページの見出しが「会計：一般会計」・歳入合計と一致。決算は補正で膨らむ）。
+  // ライセンス: 「著作権・免責事項・リンク」（/1003243.html・確認日 2026-10-21）＝要許可。リンクは「トップページ以外へのリンクにつきましては、お手数ですが
+  //   それぞれのページを所管する各担当課へお問合わせください。」⇒ `noDeepLink`。R5〜R2 は現行サイトから消えていて WARP（landing も WARP の年度ページ）。
+  // ⚠ 主な事業（説明資料の「予算案の主要な施策」・款・前年度額なし）と事業報告（施策・事務事業評価表 R3〜R7）は別の巡（§13-54）。
+  ...([
+    ["R8", "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/005/846/2026-03.pdf", "https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1005846.html"],
+    ["R7", "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/004/182/__7_________________.pdf", "https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1004182.html"],
+    ["R6", "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/937/__6_________________.pdf", "https://www.city.chitose.lg.jp/c70/1002791/1002816/1002817/1003937.html"],
+    ["R5", "https://warp.ndl.go.jp/20230706/20230705201948/https://www.city.chitose.lg.jp/fs/5/3/9/0/6/1/_/__5_________________.pdf", "https://warp.ndl.go.jp/20230706/20230705201948/https://www.city.chitose.lg.jp/docs/27765.html"],
+    ["R4", "https://warp.ndl.go.jp/20220707/20220706043020/https://www.city.chitose.lg.jp/fs/3/4/1/6/6/4/_/__4_________________.pdf", "https://warp.ndl.go.jp/20230706/20230705201948/https://www.city.chitose.lg.jp/docs/23221.html"],
+    ["R3", "https://warp.ndl.go.jp/20220707/20220706043019/https://www.city.chitose.lg.jp/fs/2/4/0/1/2/0/_/__3_________________.pdf", "https://warp.ndl.go.jp/20230706/20230705201948/https://www.city.chitose.lg.jp/docs/12403.html"],
+    ["R2", "https://warp.ndl.go.jp/20220707/20220706043021/https://www.city.chitose.lg.jp/fs/2/0/0/0/4/1/_/____________________.pdf", "https://warp.ndl.go.jp/20230706/20230705201948/https://www.city.chitose.lg.jp/docs/9095.html"],
+  ] as const).map(([fy, url, landingPage]) => ({
+    id: `chitose-yosan-setsumei-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 千歳市各会計予算（予算編成説明資料）（歳入科目・款別 一般会計）`,
+    publisher: "千歳市",
+    url,
+    landingPage,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "千歳市（一般会計・団体コード012246）",
+    license: CHITOSE_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 4,
+      expenditurePage: 8,
+      revenueHeading: "歳入科目",
+      expenditureHeading: "（款別）会計：一般会計",
+      expenditureTotalLabel: "合計",
+      expenditureHeaderExtra: "予算の内訳|経常費",
+      amountIntIndex: { revenue: 0 },
+      prevIntIndex: { revenue: 3 },
+      parenAltRows: true,
+      amountsAboveName: { expenditure: true },
+      prevAfterBreakdown: { expenditure: true },
+      ...(fy === "R6"
+        ? {
+            prevBasis: "補正後" as const,
+            prevNote:
+              "前年度（令和5年度）の当初予算は骨格予算として編成されています（千歳市「令和5年度各会計予算（予算編成説明資料）」の表紙に「【骨格予算】」）。この資料の前年度額は、その骨格予算の当初額ではなく6月補正後の予算です（同じ資料 p.3 に「※令和5年度は6月補正後の予算」と記載）。",
+          }
+        : fy === "R2"
+          ? {
+              prevBasis: "補正後" as const,
+              prevNote:
+                "前年度（令和元年度）の当初予算は骨格予算として編成されています（千歳市「令和元年度各会計予算（予算編成説明資料）」の表紙に「【骨格予算】」）。この資料の前年度額は、その骨格予算の当初額ではなく6月補正後の予算です（同じ資料 p.3 に「※令和元年度は6月補正後の予算」と記載）。",
+            }
+          : {}),
     },
   } satisfies SourceEntry)),
 

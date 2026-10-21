@@ -3571,6 +3571,10 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2", "h31", "h28", "h27"] as const).map((fy) => ({
       srcId: `joetsu-yosan-gaiyou-${fy}`, muniCode: "152226", muniName: "上越市", prefName: "新潟県", isPref: false,
     })),
+    // ⚠ 千歳の歳出は「金額行／款名行／(一般財源) 行」の3行組で前年度の列が款ごとに動く（amountsAboveName・prevAfterBreakdown・#312）。R6・R2 の前年度列は6月補正後
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chitose-yosan-setsumei-${fy}`, muniCode: "012246", muniName: "千歳市", prefName: "北海道", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

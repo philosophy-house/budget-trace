@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 331,
+  "budgetCount": 332,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2578,
-  "fileCount": 4198,
-  "archivedCount": 2402,
+  "sourceCount": 2585,
+  "fileCount": 4205,
+  "archivedCount": 2409,
   "licenseOpen": 103,
-  "licensePermission": 2411,
+  "licensePermission": 2418,
   "licenseUnverified": 64,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -749,6 +749,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "小樽市",
       "code": "012033",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "千歳市",
+      "code": "012246",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
