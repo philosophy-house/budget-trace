@@ -2587,4 +2587,35 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.fukushima-date.lg.jp/soshiki/6/50720.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-94",
   },
+  {
+    // 四條畷市（272299）R6・R5・R4・R2。R8・R7・R3 は収録済み（§13-95）。
+    // R6（26641.pdf）は歳入の総括 p.8 が50字だけで画像も0件＝字が図形。R5（22071.pdf）は総括の両ページが50〜62字。R4（18010.pdf）は歳出 p.9 の字が約36pt ずれて二重に描かれ、layout は合計行が割れ、raw は款番号が金額の間に入る。R2（9448.pdf）はスキャン（偵察）。
+    code: "272299", name: "四條畷市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R2"],
+    categories: ["broken-text-layer", "scanned-image", "parser-unsupported"],
+    reason:
+      "令和6・5年度の予算書の総括は文字が図形として描かれていて文字として取り出せない。令和4年度は歳出の表の文字が二重に重ねて描かれていて、こちらの抽出処理では読めない。令和2年度は紙をスキャンした画像の PDF。",
+    url: "https://www.city.shijonawate.lg.jp/life/8/53/251/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-95",
+  },
+  {
+    // 羽生市（112160）R8。R7〜R2 は収録済み（§13-95）。
+    // 現行の「当初予算の概要」（/docs/2025022500022/file_contents/file_20262183144022_1.pdf・CubePDF/Ghostscript）は ToUnicode 欠落で、数字は ASCII−0x1E、漢字は既存の復号表に無い化け方（decodeGarble でも throw）。
+    // テキスト層が健全な（案）版（file_20262124171224_1.pdf）は発行元で 404・Wayback にだけある。予算説明書はテキスト層が無い（偵察）。
+    code: "112160", name: "羽生市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer"],
+    reason:
+      "掲載されている当初予算の概要は文字の対応表が欠けていて、数字と漢字が化けて取り出せない。予算説明書は文字を持たない画像の PDF。",
+    url: "https://www.city.hanyu.lg.jp/docs/2025022500022/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-95",
+  },
+  {
+    // つくばみらい市（082350）R3・R2。R8〜R4 は収録済み（§13-95）。
+    // 予算書（表紙から歳入）は Canon スキャナの画像でフォント0。予算資料の款別前年度比較表は歳入と歳出が1ページに横並びの回転ページ（R3 p.10・R2 p.14）で、CropX は縦に切れて左右に分けられない（pdftotext -y/-H なら分かれる＝y 方向の切り出しが要る・偵察）。
+    code: "082350", name: "つくばみらい市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["scanned-image", "parser-unsupported"],
+    reason:
+      "予算書は紙をスキャンした画像の PDF。予算資料の款別の比較表は歳入と歳出が1ページに横に並んだ回転したページで、こちらの抽出処理では左右を分けられない。",
+    url: "https://www.city.tsukubamirai.lg.jp/gyousei/zaisei/yosan/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-95",
+  },
 ];

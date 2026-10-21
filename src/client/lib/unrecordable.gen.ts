@@ -84,6 +84,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "112160": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "掲載されている当初予算の概要は文字の対応表が欠けていて、数字と漢字が化けて取り出せない。予算説明書は文字を持たない画像の PDF。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "112186": {
     "budget": [
       {
@@ -1072,6 +1081,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "272299": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和2年度",
+        "reason": "令和6・5年度の予算書の総括は文字が図形として描かれていて文字として取り出せない。令和4年度は歳出の表の文字が二重に重ねて描かれていて、こちらの抽出処理では読めない。令和2年度は紙をスキャンした画像の PDF。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "272302": {
     "budget": [
       {
@@ -1723,6 +1741,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度",
         "reason": "一般会計予算に関する説明書のうち、款ごとの前年度比較が載る総括の2ページだけが文字を図形に変換した状態で作られていて、文字として取り出せない（画像も入っていない）。一般会計予算書の第1表は款と項の金額だけで、前年度の額が無い。",
         "checkedOn": "2026-10-21"
+      }
+    ]
+  },
+  "082350": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "予算書は紙をスキャンした画像の PDF。予算資料の款別の比較表は歳入と歳出が1ページに横に並んだ回転したページで、こちらの抽出処理では左右を分けられない。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },
