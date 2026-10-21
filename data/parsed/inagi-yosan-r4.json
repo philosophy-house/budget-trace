@@ -1,0 +1,402 @@
+{
+  "docType": "budget-book",
+  "sourceId": "inagi-yosan-r4",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T14:25:25.659Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R4",
+  "account": "一般会計",
+  "revenueTotal": 36067000,
+  "expenditureTotal": 36067000,
+  "prevRevenueTotal": 35609000,
+  "prevExpenditureTotal": 35609000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "市税",
+      "amount": 16087644,
+      "prevAmount": 14983250,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方譲与税",
+      "amount": 157377,
+      "prevAmount": 139137,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "利子割交付金",
+      "amount": 18591,
+      "prevAmount": 21135,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "配当割交付金",
+      "amount": 127100,
+      "prevAmount": 107816,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 144750,
+      "prevAmount": 90483,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "法人事業税交付金",
+      "amount": 162885,
+      "prevAmount": 95969,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方消費税交付金",
+      "amount": 1870303,
+      "prevAmount": 1895388,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 74508,
+      "prevAmount": 68942,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "環境性能割交付金",
+      "amount": 38713,
+      "prevAmount": 32801,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国有提供施設等所在市町村助成交付金等",
+      "amount": 233726,
+      "prevAmount": 233460,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方特例交付金",
+      "amount": 113092,
+      "prevAmount": 126376,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方交付税",
+      "amount": 874772,
+      "prevAmount": 747723,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 10067,
+      "prevAmount": 9399,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "分担金及び負担金",
+      "amount": 329649,
+      "prevAmount": 297575,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "使用料及び手数料",
+      "amount": 705658,
+      "prevAmount": 711836,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国庫支出金",
+      "amount": 6358605,
+      "prevAmount": 5541874,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "都支出金",
+      "amount": 5926326,
+      "prevAmount": 6168860,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "財産収入",
+      "amount": 177290,
+      "prevAmount": 125371,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "寄附金",
+      "amount": 8180,
+      "prevAmount": 7555,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰入金",
+      "amount": 829893,
+      "prevAmount": 909282,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰越金",
+      "amount": 300000,
+      "prevAmount": 300000,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "諸収入",
+      "amount": 1040536,
+      "prevAmount": 1121921,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "市債",
+      "amount": 477335,
+      "prevAmount": 1872847,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "議会費",
+      "amount": 282829,
+      "prevAmount": 330811,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "総務費",
+      "amount": 3401385,
+      "prevAmount": 3248024,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "民生費",
+      "amount": 17002726,
+      "prevAmount": 16432468,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "衛生費",
+      "amount": 3366812,
+      "prevAmount": 3021313,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "労働費",
+      "amount": 26517,
+      "prevAmount": 26434,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "農林費",
+      "amount": 77592,
+      "prevAmount": 65650,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "商工費",
+      "amount": 394045,
+      "prevAmount": 322725,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "土木費",
+      "amount": 3686220,
+      "prevAmount": 4302430,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "消防費",
+      "amount": 1121356,
+      "prevAmount": 1151016,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "教育費",
+      "amount": 4643934,
+      "prevAmount": 4592962,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "公債費",
+      "amount": 2013584,
+      "prevAmount": 2065167,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "予備費",
+      "amount": 50000,
+      "prevAmount": 50000,
+      "locator": {
+        "file": "r4_gaiyou.pdf",
+        "page": 9
+      }
+    }
+  ]
+}

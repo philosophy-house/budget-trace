@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 334,
+  "budgetCount": 339,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2593,
-  "fileCount": 4213,
-  "archivedCount": 2411,
-  "licenseOpen": 103,
-  "licensePermission": 2426,
+  "sourceCount": 2627,
+  "fileCount": 4247,
+  "archivedCount": 2445,
+  "licenseOpen": 109,
+  "licensePermission": 2454,
   "licenseUnverified": 64,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -801,6 +801,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "鹿沼市",
+      "code": "092053",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "桐生市",
       "code": "102032",
       "years": 7,
@@ -821,6 +827,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "上尾市",
       "code": "112194",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "八潮市",
+      "code": "112348",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -899,6 +911,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "青梅市",
       "code": "132055",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "稲城市",
+      "code": "132250",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1007,6 +1025,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "東海市",
       "code": "232220",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "大府市",
+      "code": "232238",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1219,6 +1243,12 @@ export const ROADMAP_PROGRESS = {
       "code": "082015",
       "years": 6,
       "range": "H30〜R8（6年度）"
+    },
+    {
+      "name": "神栖市",
+      "code": "082325",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "ふじみ野市",
