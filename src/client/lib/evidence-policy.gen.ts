@@ -24823,6 +24823,402 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "「豊岡市公式ウェブサイト」に掲載している文章、画像などの著作権は、豊岡市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "file"
   },
+  "/sources/tosu-yosan-gaiyou-r8/37849.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tosu.lg.jp/uploaded/attachment/37849.pdf",
+    "license": "鳥栖市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tosu-yosan-gaiyou-r7/37859.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tosu.lg.jp/uploaded/attachment/37859.pdf",
+    "license": "鳥栖市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tosu-yosan-gaiyou-r6/33046.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tosu.lg.jp/uploaded/attachment/33046.pdf",
+    "license": "鳥栖市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tosu-yosan-gaiyou-r5/27154.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tosu.lg.jp/uploaded/attachment/27154.pdf",
+    "license": "鳥栖市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tosu-yosan-gaiyou-r4/22220.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tosu.lg.jp/uploaded/attachment/22220.pdf",
+    "license": "鳥栖市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tosu-yosan-gaiyou-r2/12808.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20220308010622id_/https://www.city.tosu.lg.jp/uploaded/attachment/12808.pdf",
+    "license": "鳥栖市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tosu-yosansho-r3/12762.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20220308010228id_/https://www.city.tosu.lg.jp/uploaded/attachment/12762.pdf",
+    "license": "鳥栖市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nabari-yosan-shiryou-r8/R8tousho_yosansiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nabari.lg.jp/s011/110/010/130/010/780/R8tousho_yosansiryou.pdf",
+    "license": "本サイト上の文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として名張市に帰属します。また、一部の画像・イラスト等の著作権は、原著作者が所有していますので、これらの無断使用、転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越え、本ページの情報の使用を希望する場合は事前に秘書広報室までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。なお、掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードができます。",
+    "target": "file"
+  },
+  "/sources/nabari-yosan-soukatsu-r2/R2.sainyuu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nabari.lg.jp/s011/110/010/130/010/710/030/R2.sainyuu.pdf",
+    "license": "本サイト上の文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として名張市に帰属します。また、一部の画像・イラスト等の著作権は、原著作者が所有していますので、これらの無断使用、転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越え、本ページの情報の使用を希望する場合は事前に秘書広報室までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。なお、掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードができます。",
+    "target": "file"
+  },
+  "/sources/nabari-yosan-soukatsu-r2/R2.kanbetsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nabari.lg.jp/s011/110/010/130/010/710/030/R2.kanbetsu.pdf",
+    "license": "本サイト上の文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として名張市に帰属します。また、一部の画像・イラスト等の著作権は、原著作者が所有していますので、これらの無断使用、転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越え、本ページの情報の使用を希望する場合は事前に秘書広報室までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。なお、掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードができます。",
+    "target": "file"
+  },
+  "/sources/iwamizawa-ippan-yosan-r8/R08iltupankaikeiyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwamizawa.hokkaido.jp/shiseijoho/gyozaisei/6239.html",
+    "license": "当ホームページに掲載されている情報（文章、写真、イラスト、画像など)に関する著作権は、原則として岩見沢市に帰属します。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。ただし、一部の画像等の著作権は、原著作者が所有しています。私的使用」や「引用」など著作権法上認められた場合を除き、無断で複製、転用、販売、貸与などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/iwamizawa-ippan-yosan-r7/r7iltupankaikeiyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwamizawa.hokkaido.jp/shiseijoho/gyozaisei/6239.html",
+    "license": "当ホームページに掲載されている情報（文章、写真、イラスト、画像など)に関する著作権は、原則として岩見沢市に帰属します。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。ただし、一部の画像等の著作権は、原著作者が所有しています。私的使用」や「引用」など著作権法上認められた場合を除き、無断で複製、転用、販売、貸与などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/iwamizawa-ippan-yosan-r6/r6i-yosannsho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwamizawa.hokkaido.jp/shiseijoho/gyozaisei/6239.html",
+    "license": "当ホームページに掲載されている情報（文章、写真、イラスト、画像など)に関する著作権は、原則として岩見沢市に帰属します。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。ただし、一部の画像等の著作権は、原著作者が所有しています。私的使用」や「引用」など著作権法上認められた場合を除き、無断で複製、転用、販売、貸与などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/iwamizawa-ippan-yosan-r5/i-yosannsho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwamizawa.hokkaido.jp/shiseijoho/gyozaisei/6239.html",
+    "license": "当ホームページに掲載されている情報（文章、写真、イラスト、画像など)に関する著作権は、原則として岩見沢市に帰属します。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。ただし、一部の画像等の著作権は、原著作者が所有しています。私的使用」や「引用」など著作権法上認められた場合を除き、無断で複製、転用、販売、貸与などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/iwamizawa-ippan-yosan-r4/i-yosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwamizawa.hokkaido.jp/shiseijoho/gyozaisei/6239.html",
+    "license": "当ホームページに掲載されている情報（文章、写真、イラスト、画像など)に関する著作権は、原則として岩見沢市に帰属します。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。ただし、一部の画像等の著作権は、原著作者が所有しています。私的使用」や「引用」など著作権法上認められた場合を除き、無断で複製、転用、販売、貸与などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/iwamizawa-ippan-yosan-r3/content_20210322_131952.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwamizawa.hokkaido.jp/shiseijoho/gyozaisei/6239.html",
+    "license": "当ホームページに掲載されている情報（文章、写真、イラスト、画像など)に関する著作権は、原則として岩見沢市に帰属します。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。ただし、一部の画像等の著作権は、原著作者が所有しています。私的使用」や「引用」など著作権法上認められた場合を除き、無断で複製、転用、販売、貸与などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/iwamizawa-ippan-yosan-r2/content_20200324_171539.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwamizawa.hokkaido.jp/shiseijoho/gyozaisei/6239.html",
+    "license": "当ホームページに掲載されている情報（文章、写真、イラスト、画像など)に関する著作権は、原則として岩見沢市に帰属します。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。ただし、一部の画像等の著作権は、原著作者が所有しています。私的使用」や「引用」など著作権法上認められた場合を除き、無断で複製、転用、販売、貸与などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/okegawa-yosan-gaiyou-r8/R8tousyoyosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/5/R8tousyoyosangaiyou.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/okegawa-yosan-gaiyou-r7/r7_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/5/r7_gaiyou.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/okegawa-yosan-gaiyou-r6/R6yosan_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/5/R6yosan_gaiyou.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/okegawa-yosan-gaiyou-r4/R4_yosanngaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/5/R4_yosanngaiyou.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/okegawa-yosan-gaiyou-r3/R3_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/5/R3_yosangaiyou.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/okegawa-yosan-gaiyou-r2/yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/5/yosangaiyou.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/okegawa-yosan-setsumei-r5/R5_setumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/5/R5_setumei.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/daisen-yosansho-r8/R8_当初予算書（訂正後）.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000671_01/R8_%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8%EF%BC%88%E8%A8%82%E6%AD%A3%E5%BE%8C%EF%BC%89.pdf",
+    "license": "©2024 DAISEN City",
+    "target": "file"
+  },
+  "/sources/daisen-yosansho-r7/令和７年度大仙市各会計予算.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000671_01/%E4%BB%A4%E5%92%8C%EF%BC%97%E5%B9%B4%E5%BA%A6%E5%A4%A7%E4%BB%99%E5%B8%82%E5%90%84%E4%BC%9A%E8%A8%88%E4%BA%88%E7%AE%97.pdf",
+    "license": "©2024 DAISEN City",
+    "target": "file"
+  },
+  "/sources/daisen-yosan-gaiyou-r6/当初予算の概要について.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000671_01/%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E3%81%AE%E6%A6%82%E8%A6%81%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+    "license": "©2024 DAISEN City",
+    "target": "file"
+  },
+  "/sources/daisen-yosan-gaiyou-r5/r5_tousyoyosan.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000671_00/r5_tousyoyosan.pdf",
+    "license": "©2024 DAISEN City",
+    "target": "file"
+  },
+  "/sources/daisen-yosan-gaiyou-r4/r4tousyoyosanngaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000671_00/r4tousyoyosanngaiyou.pdf",
+    "license": "©2024 DAISEN City",
+    "target": "file"
+  },
+  "/sources/daisen-yosan-gaiyou-r3/2021001.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000671_00/2021001.pdf",
+    "license": "©2024 DAISEN City",
+    "target": "file"
+  },
+  "/sources/daisen-yosan-gaiyou-r2/20202.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000671_00/20202.pdf",
+    "license": "©2024 DAISEN City",
+    "target": "file"
+  },
+  "/sources/izumiotsu-yosan-gaiyou-r8/R8yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.izumiotsu.lg.jp/kakuka/somu/zaisei/yosan/14973.html",
+    "license": "泉大津市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、その他のデータ）の著作権は泉大津市に帰属します。なお、一部の画像などの著作権は原著作者が所有しているものもあります。泉大津市ホームページ上の文書・画像などの無断使用・転載、二次利用は原則禁止しています。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は、秘書広報課までお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/izumiotsu-yosan-gaiyou-r7/R7yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.izumiotsu.lg.jp/kakuka/somu/zaisei/yosan/13672.html",
+    "license": "泉大津市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、その他のデータ）の著作権は泉大津市に帰属します。なお、一部の画像などの著作権は原著作者が所有しているものもあります。泉大津市ホームページ上の文書・画像などの無断使用・転載、二次利用は原則禁止しています。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は、秘書広報課までお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/izumiotsu-yosan-gaiyou-r6/R6yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.izumiotsu.lg.jp/kakuka/somu/zaisei/yosan/11854.html",
+    "license": "泉大津市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、その他のデータ）の著作権は泉大津市に帰属します。なお、一部の画像などの著作権は原著作者が所有しているものもあります。泉大津市ホームページ上の文書・画像などの無断使用・転載、二次利用は原則禁止しています。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は、秘書広報課までお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/izumiotsu-yosan-gaiyou-r5/R5yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.izumiotsu.lg.jp/kakuka/somu/zaisei/yosan/9481.html",
+    "license": "泉大津市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、その他のデータ）の著作権は泉大津市に帰属します。なお、一部の画像などの著作権は原著作者が所有しているものもあります。泉大津市ホームページ上の文書・画像などの無断使用・転載、二次利用は原則禁止しています。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は、秘書広報課までお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/izumiotsu-yosan-gaiyou-r4/R4yosanannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.izumiotsu.lg.jp/kakuka/somu/zaisei/yosan/7879.html",
+    "license": "泉大津市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、その他のデータ）の著作権は泉大津市に帰属します。なお、一部の画像などの著作権は原著作者が所有しているものもあります。泉大津市ホームページ上の文書・画像などの無断使用・転載、二次利用は原則禁止しています。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は、秘書広報課までお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/izumiotsu-yosan-gaiyou-r3/17479120.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.izumiotsu.lg.jp/kakuka/somu/zaisei/yosan/1603160298707.html",
+    "license": "泉大津市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、その他のデータ）の著作権は泉大津市に帰属します。なお、一部の画像などの著作権は原著作者が所有しているものもあります。泉大津市ホームページ上の文書・画像などの無断使用・転載、二次利用は原則禁止しています。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は、秘書広報課までお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/izumiotsu-yosan-gaiyou-r2/R2yosanannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.izumiotsu.lg.jp/kakuka/somu/zaisei/yosan/1581658790367.html",
+    "license": "泉大津市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、その他のデータ）の著作権は泉大津市に帰属します。なお、一部の画像などの著作権は原著作者が所有しているものもあります。泉大津市ホームページ上の文書・画像などの無断使用・転載、二次利用は原則禁止しています。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は、秘書広報課までお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/chiryu-yosansho-r8/R8toushoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/shisei/unnei/7/yosan/19101.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-yosansho-r7/R7yosansyoippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/shisei/unnei/7/yosan/17530.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-yosansho-r6/r6tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/shisei/unnei/7/yosan/14831.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-yosansho-r3/yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/shisei/unnei/7/yosan/1615882025128.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-yosansho-r2/R2yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/shisei/unnei/7/yosan/1584519650307.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-yosan-gaiyou-r5/reiwa5gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/shisei/unnei/7/yosan/1680135998617.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-yosan-gaiyou-r4/R4yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/shisei/unnei/7/yosan/1647236890671.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/kasama-yosansho-r8/1773820085_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasama.lg.jp/page/page017126.html",
+    "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として笠間市に帰属しています。ただし、外部委託先の制作による一部の著作物など、笠間市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasama-yosansho-r7/1741753183_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasama.lg.jp/page/page016107.html",
+    "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として笠間市に帰属しています。ただし、外部委託先の制作による一部の著作物など、笠間市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasama-yosansho-r6/1709536812_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasama.lg.jp/page/page015153.html",
+    "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として笠間市に帰属しています。ただし、外部委託先の制作による一部の著作物など、笠間市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasama-yosansho-r5/1679475286_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasama.lg.jp/page/page014239.html",
+    "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として笠間市に帰属しています。ただし、外部委託先の制作による一部の著作物など、笠間市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasama-yosansho-r4/1647566049_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasama.lg.jp/page/page013258.html",
+    "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として笠間市に帰属しています。ただし、外部委託先の制作による一部の著作物など、笠間市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasama-yosansho-r3/1614917993_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasama.lg.jp/page/page012194.html",
+    "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として笠間市に帰属しています。ただし、外部委託先の制作による一部の著作物など、笠間市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasama-yosan-gaiyo-r2/1582261674_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasama.lg.jp/page/page002598.html",
+    "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として笠間市に帰属しています。ただし、外部委託先の制作による一部の著作物など、笠間市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/yoshikawa-yosansho-r8/20260302-155505.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,116453,c,html/116453/20260302-155505.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/yoshikawa-yosansho-r7/20250311-142643.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,110796,c,html/110796/20250311-142643.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/yoshikawa-yosansho-r6/20240312-120621.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,104718,c,html/104718/20240312-120621.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/yoshikawa-yosansho-r5/20230216-120115.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,98373,c,html/98373/20230216-120115.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/yoshikawa-yosansho-r4/20220310-114543.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,92874,c,html/92874/20220310-114543.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/yoshikawa-yosansho-r3/20210312-160220.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/27,86012,c,html/86012/20210312-160220.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/yoshikawa-yosan-sankou-r2/20200317-081144.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20201013/20201011170522/https://www.city.yoshikawa.saitama.jp:443/index.cfm/27,78839,c,html/78839/20200317-081144.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/tatsuno-yosan-sankou-r8/R8yosansannkousiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tatsuno.lg.jp/material/files/group/10/R8yosansannkousiryou.pdf",
+    "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/tatsuno-yosan-sankou-r7/yosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tatsuno.lg.jp/material/files/group/10/yosann.pdf",
+    "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/tatsuno-yosan-sankou-r6/r6yosannsannkousiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tatsuno.lg.jp/material/files/group/10/r6yosannsannkousiryou.pdf",
+    "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/tatsuno-yosan-sankou-r5/r5_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tatsuno.lg.jp/material/files/group/10/r5_yosangaiyou.pdf",
+    "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/tatsuno-yosan-sankou-r4/r4_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tatsuno.lg.jp/material/files/group/10/r4_yosangaiyou.pdf",
+    "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/tatsuno-yosan-sankou-r3/r3_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tatsuno.lg.jp/material/files/group/10/r3_yosangaiyou.pdf",
+    "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/tatsuno-yosan-sankou-r2/r2yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tatsuno.lg.jp/material/files/group/10/r2yosangaiyou.pdf",
+    "license": "Copyright (c) 2025 Tatsuno city. All Rights Reserved.",
+    "target": "file"
+  },
   "/sources/yamanashi-ken-gikai-r8/kaihabetu_meibo.html": {
     "mode": "archive",
     "href": "https://web.archive.org/web/20260209231452id_/https://www.pref.yamanashi.jp/gikaisom/kaihabetu_meibo.html",

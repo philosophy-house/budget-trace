@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 444,
+  "budgetCount": 454,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3307,
-  "fileCount": 4977,
-  "archivedCount": 2746,
+  "sourceCount": 3372,
+  "fileCount": 5043,
+  "archivedCount": 2779,
   "licenseOpen": 135,
-  "licensePermission": 3087,
+  "licensePermission": 3152,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -753,6 +753,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "岩見沢市",
+      "code": "012106",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "千歳市",
       "code": "012246",
       "years": 7,
@@ -795,6 +801,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "大仙市",
+      "code": "052124",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "鶴岡市",
       "code": "062031",
       "years": 7,
@@ -815,6 +827,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "須賀川市",
       "code": "072079",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "笠間市",
+      "code": "082163",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -927,6 +945,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "桶川市",
+      "code": "112313",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "八潮市",
       "code": "112348",
       "years": 7,
@@ -941,6 +965,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "坂戸市",
       "code": "112399",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "吉川市",
+      "code": "112437",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1293,6 +1323,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "知立市",
+      "code": "232254",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "尾張旭市",
       "code": "232262",
       "years": 7,
@@ -1395,6 +1431,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "泉大津市",
+      "code": "272060",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "貝塚市",
       "code": "272086",
       "years": 7,
@@ -1459,6 +1501,12 @@ export const ROADMAP_PROGRESS = {
       "code": "282171",
       "years": 7,
       "range": "H28〜R7（7年度）"
+    },
+    {
+      "name": "たつの市",
+      "code": "282294",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
     },
     {
       "name": "岡山市",
@@ -1571,6 +1619,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "唐津市",
       "code": "412023",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "鳥栖市",
+      "code": "412031",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2299,6 +2353,12 @@ export const ROADMAP_PROGRESS = {
       "code": "240001",
       "years": 2,
       "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "名張市",
+      "code": "242080",
+      "years": 2,
+      "range": "R2〜R8（2年度）"
     },
     {
       "name": "東大阪市",

@@ -1,0 +1,12 @@
+{
+  "sourceId": "chiryu-yosansho-r3",
+  "files": [
+    {
+      "filename": "yosansyo.pdf",
+      "sha256": "d4cef59960ba40ee1419ee491eff336b5ee2d5b750daaadf49d0cbe1ba8b9bda",
+      "bytes": 6771411,
+      "fetchedAt": "2026-10-21T18:43:59.727Z",
+      "fetchedFrom": "https://www.city.chiryu.aichi.jp/material/files/group/4/yosansyo.pdf"
+    }
+  ]
+}

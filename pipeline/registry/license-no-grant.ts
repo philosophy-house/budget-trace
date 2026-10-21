@@ -76,6 +76,10 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "名取市", license: "Copyright © City of Natori. All Rights Reserved." },
   { who: "牛久市", license: "© CITY OF USHIKU." },
   { who: "天草市", license: "© 2023 Amakusa City." },
+  { who: "知立市", license: "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。" },
+  { who: "吉川市", license: "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。" },
+  { who: "たつの市", license: "Copyright (c) 2025 Tatsuno city. All Rights Reserved." },
   { who: "合志市", license: "Copyrights (C) 2019 City-Koshi Allrights Reserved." },
   { who: "姶良市", license: "Copyright © The Official Website of Aira City. All Rights Reserved." },
+  { who: "大仙市", license: "©2024 DAISEN City" },
 ];
