@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 507,
+  "budgetCount": 512,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3708,
-  "fileCount": 5379,
-  "archivedCount": 2871,
+  "sourceCount": 3738,
+  "fileCount": 5409,
+  "archivedCount": 2898,
   "licenseOpen": 135,
-  "licensePermission": 3488,
+  "licensePermission": 3518,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -855,6 +855,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "南相馬市",
+      "code": "072125",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "笠間市",
       "code": "082163",
       "years": 7,
@@ -1247,6 +1253,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "加賀市",
       "code": "172065",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "野々市市",
+      "code": "172120",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2193,6 +2205,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "直方市",
+      "code": "402044",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "春日市",
       "code": "402184",
       "years": 6,
@@ -2261,6 +2279,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "弘前市",
       "code": "022021",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
+      "name": "滝沢市",
+      "code": "032166",
       "years": 5,
       "range": "R4〜R8（5年度）"
     },
@@ -2425,6 +2449,12 @@ export const ROADMAP_PROGRESS = {
       "code": "472131",
       "years": 5,
       "range": "R3〜R8（5年度）"
+    },
+    {
+      "name": "宮古島市",
+      "code": "472140",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
     },
     {
       "name": "室蘭市",

@@ -26281,6 +26281,186 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本ウェブサイトに掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。また、本ウェブサイト全体も、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "page"
   },
+  "/sources/minamisoma-yosansho-r8/ippannyosannsho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamisoma.lg.jp/material/files/group/4/ippannyosannsho.pdf",
+    "license": "南相馬市公式ウェブサイトに掲載されている個々の情報(文章、写真、イラストなど)について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/minamisoma-yosansho-r7/IPPANKAIKEIYOSANSHO.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamisoma.lg.jp/material/files/group/4/IPPANKAIKEIYOSANSHO.pdf",
+    "license": "南相馬市公式ウェブサイトに掲載されている個々の情報(文章、写真、イラストなど)について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/minamisoma-yosansho-r6/03_20240326.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamisoma.lg.jp/material/files/group/4/03_20240326.pdf",
+    "license": "南相馬市公式ウェブサイトに掲載されている個々の情報(文章、写真、イラストなど)について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/minamisoma-yosansho-r5/ippann20230412.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamisoma.lg.jp/material/files/group/4/ippann20230412.pdf",
+    "license": "南相馬市公式ウェブサイトに掲載されている個々の情報(文章、写真、イラストなど)について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/minamisoma-yosansho-r4/4_20220302_022.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamisoma.lg.jp/material/files/group/4/4_20220302_022.pdf",
+    "license": "南相馬市公式ウェブサイトに掲載されている個々の情報(文章、写真、イラストなど)について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/minamisoma-yosansho-r3/6_20210405.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamisoma.lg.jp/material/files/group/4/6_20210405.pdf",
+    "license": "南相馬市公式ウェブサイトに掲載されている個々の情報(文章、写真、イラストなど)について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/minamisoma-yosansho-r2/07_20200330.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamisoma.lg.jp/material/files/group/4/07_20200330.pdf",
+    "license": "南相馬市公式ウェブサイトに掲載されている個々の情報(文章、写真、イラストなど)について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/miyakojima-yosansho-r8/01_R8_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miyakojima.lg.jp/soshiki/shityo/soumubu/zaisei/oshirase/files/01_R8_ippan.pdf",
+    "license": "当ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、市公式ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/miyakojima-yosansho-r7/01_R7_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miyakojima.lg.jp/soshiki/shityo/soumubu/zaisei/oshirase/files/01_R7_ippan.pdf",
+    "license": "当ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、市公式ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/miyakojima-yosansho-r6/01_R6_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miyakojima.lg.jp/soshiki/shityo/soumubu/zaisei/oshirase/files/01_R6_ippan.pdf",
+    "license": "当ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、市公式ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/miyakojima-yosansho-r5/01_ippan_3.24.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miyakojima.lg.jp/soshiki/shityo/soumubu/zaisei/oshirase/files/01_ippan_3.24.pdf",
+    "license": "当ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、市公式ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/miyakojima-yosansho-r2/ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miyakojima.lg.jp/soshiki/shityo/soumubu/zaisei/oshirase/files/ippankaikei.pdf",
+    "license": "当ホームページに掲載されている文章、写真、イラストなどの個々の情報は、著作権の対象となります。また、市公式ホームページ全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/nonoichi-yosansho-r8/43281.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nonoichi.lg.jp/uploaded/attachment/43281.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、野々市市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nonoichi-yosansho-r7/39177.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nonoichi.lg.jp/uploaded/attachment/39177.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、野々市市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nonoichi-yosansho-r6/34972.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nonoichi.lg.jp/uploaded/attachment/34972.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、野々市市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nonoichi-yosansho-r5/31095.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nonoichi.lg.jp/uploaded/attachment/31095.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、野々市市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nonoichi-yosansho-r4/27388.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nonoichi.lg.jp/uploaded/attachment/27388.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、野々市市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nonoichi-yosansho-r3/22071.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nonoichi.lg.jp/uploaded/attachment/22071.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、野々市市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nonoichi-yosansho-r2/17621.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nonoichi.lg.jp/uploaded/attachment/17621.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、野々市市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nogata-yosansho-r8/R8tousyoyosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nogata.fukuoka.jp/library/R8tousyoyosansyo.pdf",
+    "license": "当ホームページに掲載されている文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として直方市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標であることがあります。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、直方市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nogata-yosansho-r7/R7-tousyoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nogata.fukuoka.jp/library/R7-tousyoyosan.pdf",
+    "license": "当ホームページに掲載されている文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として直方市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標であることがあります。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、直方市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nogata-yosansho-r6/R6_toushoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nogata.fukuoka.jp/library/zaisei/R6_toushoyosansho.pdf",
+    "license": "当ホームページに掲載されている文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として直方市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標であることがあります。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、直方市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nogata-yosansho-r5/R5_yosannsho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nogata.fukuoka.jp/library/zaisei/R5_yosannsho.pdf",
+    "license": "当ホームページに掲載されている文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として直方市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標であることがあります。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、直方市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nogata-yosansho-r4/R4_yosannsho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nogata.fukuoka.jp/library/zaisei/R4_yosannsho.pdf",
+    "license": "当ホームページに掲載されている文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として直方市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標であることがあります。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、直方市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nogata-yosansho-r3/R3_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nogata.fukuoka.jp/library/zaisei/R3_yosansho.pdf",
+    "license": "当ホームページに掲載されている文書や画像等の各ファイルおよびその内容に関する諸権利は、原則として直方市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標であることがあります。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、直方市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/takizawa-yosan-setsumeisho-r8/令和8年度当初に関する説明書.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takizawa.iwate.jp/uploads/public/pages_0000001033_00/%E4%BB%A4%E5%92%8C8%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%AC%E6%98%8E%E6%9B%B8.pdf",
+    "license": "本市ホームページ「滝沢市公式サイト」内に掲載しているすべての文章、画像等の各表現、各ファイルの内容に関する著作権は、原則として滝沢市に帰属します。例外として、一部の画像等、滝沢市以外で作成したものの著作権は、作成した原著作権者に帰属します。著作権を持つ各情報は「私的利用のための複製」、「引用」等の著作権法上、使用が認められる場合を除いて、無断で転載、転用、引用をすることはできません。各情報を使用したい場合は、企画政策課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/takizawa-yosan-setsumeisho-r7/令和7年度当初予算に関する説明書.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takizawa.iwate.jp/uploads/public/pages_0000001033_00/%E4%BB%A4%E5%92%8C7%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%AC%E6%98%8E%E6%9B%B8.pdf",
+    "license": "本市ホームページ「滝沢市公式サイト」内に掲載しているすべての文章、画像等の各表現、各ファイルの内容に関する著作権は、原則として滝沢市に帰属します。例外として、一部の画像等、滝沢市以外で作成したものの著作権は、作成した原著作権者に帰属します。著作権を持つ各情報は「私的利用のための複製」、「引用」等の著作権法上、使用が認められる場合を除いて、無断で転載、転用、引用をすることはできません。各情報を使用したい場合は、企画政策課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/takizawa-yosan-setsumeisho-r6/r6_yosankansuru.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takizawa.iwate.jp/uploads/public/pages_0000001033_00/r6_yosankansuru.pdf",
+    "license": "本市ホームページ「滝沢市公式サイト」内に掲載しているすべての文章、画像等の各表現、各ファイルの内容に関する著作権は、原則として滝沢市に帰属します。例外として、一部の画像等、滝沢市以外で作成したものの著作権は、作成した原著作権者に帰属します。著作権を持つ各情報は「私的利用のための複製」、「引用」等の著作権法上、使用が認められる場合を除いて、無断で転載、転用、引用をすることはできません。各情報を使用したい場合は、企画政策課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/takizawa-yosan-setsumeisho-r5/123322143815.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20230413/20230412145938/https://www.city.takizawa.iwate.jp/var/rev0/0127/7315/123322143815.pdf",
+    "license": "本市ホームページ「滝沢市公式サイト」内に掲載しているすべての文章、画像等の各表現、各ファイルの内容に関する著作権は、原則として滝沢市に帰属します。例外として、一部の画像等、滝沢市以外で作成したものの著作権は、作成した原著作権者に帰属します。著作権を持つ各情報は「私的利用のための複製」、「引用」等の著作権法上、使用が認められる場合を除いて、無断で転載、転用、引用をすることはできません。各情報を使用したい場合は、企画政策課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/takizawa-yosan-setsumeisho-r4/R4setumeisho.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220710/20220709062651/https://www.city.takizawa.iwate.jp/var/rev0/0116/6192/R4setumeisho.pdf",
+    "license": "本市ホームページ「滝沢市公式サイト」内に掲載しているすべての文章、画像等の各表現、各ファイルの内容に関する著作権は、原則として滝沢市に帰属します。例外として、一部の画像等、滝沢市以外で作成したものの著作権は、作成した原著作権者に帰属します。著作権を持つ各情報は「私的利用のための複製」、「引用」等の著作権法上、使用が認められる場合を除いて、無断で転載、転用、引用をすることはできません。各情報を使用したい場合は、企画政策課へお問い合わせください。",
+    "target": "file"
+  },
   "/sources/fussa-yosansho-r8/r8yosansyo.pdf": {
     "mode": "origin",
     "href": "https://www.city.fussa.tokyo.jp/_res/projects/default_project/_page_/001/020/986/r8yosansyo.pdf",
