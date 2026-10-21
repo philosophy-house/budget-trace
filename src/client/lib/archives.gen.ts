@@ -5061,7 +5061,7 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.tosu.lg.jp/uploaded/attachment/27154.pdf": "https://web.archive.org/web/20260712024613/https://www.city.tosu.lg.jp/uploaded/attachment/27154.pdf",
   "https://www.city.tosu.lg.jp/uploaded/attachment/33046.pdf": "https://web.archive.org/web/20260712023526/https://www.city.tosu.lg.jp/uploaded/attachment/33046.pdf",
   "https://www.city.tosu.lg.jp/uploaded/attachment/37859.pdf": "https://web.archive.org/web/20260712033705/https://www.city.tosu.lg.jp/uploaded/attachment/37859.pdf",
-  "https://www.city.tosu.lg.jp/soshiki/3/16904.html": "https://web.archive.org/web/20260218001541/https://www.city.tosu.lg.jp/soshiki/3/16904.html",
+  "https://www.city.tosu.lg.jp/soshiki/3/16904.html": "https://web.archive.org/web/20261021191241/https://www.city.tosu.lg.jp/soshiki/3/16904.html",
   "https://www.city.tosu.lg.jp/uploaded/attachment/37849.pdf": "https://web.archive.org/web/20261021185830/https://www.city.tosu.lg.jp/uploaded/attachment/37849.pdf",
   "https://www.pref.tottori.lg.jp/327294.htm": "https://web.archive.org/web/20260730053534/https://www.pref.tottori.lg.jp/327294.htm",
   "https://www.pref.tottori.lg.jp/secure/1417694/R8tousyogaiyoubunseki.pdf": "https://web.archive.org/web/20260730053550/https://www.pref.tottori.lg.jp/secure/1417694/R8tousyogaiyoubunseki.pdf",

@@ -4026,7 +4026,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `gamagori-yosan-gaiyou-${fy}`, muniCode: "232149", muniName: "蒲郡市", prefName: "愛知県", isPref: false,
     })),
-    // ---- 第CC巡（2026-10-22・§13-CC）: 鳥栖・名張・岩見沢・桶川・大仙 ----
+    // ---- 第72巡（2026-10-22・§13-79）: 鳥栖・名張・岩見沢・桶川・大仙 ----
     // ⚠ 鳥栖 R3 は明細書の総括（概要が図形化）。R5・R1 骨格で R6・R2 に prevNote
     ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
       srcId: `tosu-yosan-gaiyou-${fy}`, muniCode: "412031", muniName: "鳥栖市", prefName: "佐賀県", isPref: false,
