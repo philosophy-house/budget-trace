@@ -20683,6 +20683,96 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "上越市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、上越市に帰属します。また一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書、画像などの無断使用・転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越えて、当ホームページの情報の使用を希望する場合は事前に広報対話課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。",
     "target": "file"
   },
+  "/sources/itoshima-yosan-gaiyou-r8/r8nenndotousyoyosannnogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.itoshima.lg.jp/s002/010/010/010/010/140/20260218162736.html",
+    "license": "Copyright © Itoshima City. All rights reserved",
+    "target": "page"
+  },
+  "/sources/itoshima-yosan-gaiyou-r7/7yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.itoshima.lg.jp/s002/010/010/010/010/130/20240220161929.html",
+    "license": "Copyright © Itoshima City. All rights reserved",
+    "target": "page"
+  },
+  "/sources/itoshima-yosan-gaiyou-r6/6yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.itoshima.lg.jp/s002/010/010/010/010/120/20240220161929.html",
+    "license": "Copyright © Itoshima City. All rights reserved",
+    "target": "page"
+  },
+  "/sources/itoshima-yosan-gaiyou-r5/5yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.itoshima.lg.jp/s002/010/010/010/010/110/20230227160809.html",
+    "license": "Copyright © Itoshima City. All rights reserved",
+    "target": "page"
+  },
+  "/sources/itoshima-yosan-gaiyou-r4/4yosangaiyo1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.itoshima.lg.jp/s002/010/010/010/010/100/20220228091614.html",
+    "license": "Copyright © Itoshima City. All rights reserved",
+    "target": "page"
+  },
+  "/sources/itoshima-yosan-gaiyou-r3/r3tousyogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.itoshima.lg.jp/s002/010/010/010/010/090/20210224170952.html",
+    "license": "Copyright © Itoshima City. All rights reserved",
+    "target": "page"
+  },
+  "/sources/itoshima-yosan-gaiyou-r2/r02nendotoshoyosangaiyousono1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.itoshima.lg.jp/s002/010/010/010/010/080/20200226100636.html",
+    "license": "Copyright © Itoshima City. All rights reserved",
+    "target": "page"
+  },
+  "/sources/iida-yosan-gaiyou-r8/79514.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iida.lg.jp/uploaded/attachment/79514.pdf",
+    "license": "Copyright Iida City. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/iida-yosan-gaiyou-r7/73894.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iida.lg.jp/uploaded/attachment/73894.pdf",
+    "license": "Copyright Iida City. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/iida-yosan-gaiyou-r6/67148.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iida.lg.jp/uploaded/attachment/67148.pdf",
+    "license": "Copyright Iida City. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/iida-yosan-gaiyou-r5/60159.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iida.lg.jp/uploaded/attachment/60159.pdf",
+    "license": "Copyright Iida City. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/iida-yosan-gaiyou-r4/55077.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iida.lg.jp/uploaded/attachment/55077.pdf",
+    "license": "Copyright Iida City. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/iida-yosan-gaiyou-r3/48872.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iida.lg.jp/uploaded/attachment/48872.pdf",
+    "license": "Copyright Iida City. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/iida-yosan-gaiyou-r2/43530.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iida.lg.jp/uploaded/attachment/43530.pdf",
+    "license": "Copyright Iida City. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/chikushino-yosan-shiryo-r8/32388.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikushino.fukuoka.jp/soshiki/5/44313.html",
+    "license": "本サイトに掲載されている全てのコンテンツに関して、その著作権は特に内容について断りがない限り原則として筑紫野市に帰属します。個人として使用する場合を除き、許可なく内容の引用、転載、複写、販売等の目的で使用することは避けてください。もし掲載内容を使用したい場合は、秘書広報課　広報広聴担当までメールにてご連絡ください。",
+    "target": "page"
+  },
   "/sources/yamanashi-ken-gikai-r8/kaihabetu_meibo.html": {
     "mode": "archive",
     "href": "https://web.archive.org/web/20260209231452id_/https://www.pref.yamanashi.jp/gikaisom/kaihabetu_meibo.html",

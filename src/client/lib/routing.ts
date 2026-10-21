@@ -277,6 +277,9 @@ const MUNI_SLUGS: Record<string, string> = {
   "232301": "nisshin",
   "062049": "sakata",
   "282065": "ashiya",
+  "402303": "itoshima",
+  "202053": "iida",
+  "402176": "chikushino",
   "152226": "joetsu",
   "472115": "okinawa", // ⚠ 沖縄県 470007 は "ken" スラグなので衝突しない（富山市・佐賀市と同じ規則）
   "232076": "toyokawa", "352039": "yamaguchi", "222038": "numazu", "272191": "izumi",
