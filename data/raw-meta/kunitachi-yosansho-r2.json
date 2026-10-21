@@ -1,0 +1,12 @@
+{
+  "sourceId": "kunitachi-yosansho-r2",
+  "files": [
+    {
+      "filename": "ippan_R2tosho.pdf",
+      "sha256": "35e8cff66056d8c2a394a3a24081914546e57c69cc58858adc226ce987191398",
+      "bytes": 2781628,
+      "fetchedAt": "2026-10-21T16:56:45.250Z",
+      "fetchedFrom": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/ippan_R2tosho.pdf"
+    }
+  ]
+}

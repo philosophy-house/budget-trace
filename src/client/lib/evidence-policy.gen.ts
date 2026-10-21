@@ -24019,6 +24019,174 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "1. 越前市ホームページに掲載している内容（文章、写真、イラスト、画像など）に関する著作権は、越前市に帰属します。2. 当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、越前市の許可なく無断で複製・転用することはできません。",
     "target": "file"
   },
+  "/sources/kunitachi-yosansho-r8/R8_tousyo_ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R8_tousyo_ippankaikei.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kunitachi-yosansho-r7/R7_tousyo_ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R7_tousyo_ippankaikei.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kunitachi-yosansho-r6/R6_tousyo_ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R6_tousyo_ippankaikei.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kunitachi-yosansho-r5/R5_tousyo_ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R5_tousyo_ippankaikei.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kunitachi-yosansho-r4/R4ippankaikeiyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R4ippankaikeiyosan.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kunitachi-yosansho-r3/R3ippankaikeiyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R3ippankaikeiyosan.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kunitachi-yosansho-r2/ippan_R2tosho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/ippan_R2tosho.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/tsubame-yosansho-r3/2021tosyoyosansyo_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tsubame.niigata.jp/soshiki/kikaku_zaisei/1/9/8013.html",
+    "license": "燕市ホームページに掲載されている情報（文章、写真、イラストなど）は、著作権の対象であり、法律によって保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、燕市の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/tsubame-yosansho-r2/100891422.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tsubame.niigata.jp/soshiki/kikaku_zaisei/1/9/1249.html",
+    "license": "燕市ホームページに掲載されている情報（文章、写真、イラストなど）は、著作権の対象であり、法律によって保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、燕市の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/maizuru-yosan-setsumeisho-r8/yosansetumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.maizuru.kyoto.jp/shisei/cmsfiles/contents/0000014/14776/yosansetumeisyo.pdf",
+    "license": "Copyright © 舞鶴市役所 All Right Reserved",
+    "target": "file"
+  },
+  "/sources/maizuru-yosan-setsumeisho-r7/02R7ippansetumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.maizuru.kyoto.jp/shisei/cmsfiles/contents/0000013/13518/02R7ippansetumeisyo.pdf",
+    "license": "Copyright © 舞鶴市役所 All Right Reserved",
+    "target": "file"
+  },
+  "/sources/maizuru-yosan-setsumeisho-r6/06_03ippanyosansetumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.maizuru.kyoto.jp/shisei/cmsfiles/contents/0000012/12185/06_03ippanyosansetumeisyo.pdf",
+    "license": "Copyright © 舞鶴市役所 All Right Reserved",
+    "target": "file"
+  },
+  "/sources/maizuru-yosan-setsumeisho-r5/5ippanyosansetumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.maizuru.kyoto.jp/shisei/cmsfiles/contents/0000010/10817/5ippanyosansetumeisyo.pdf",
+    "license": "Copyright © 舞鶴市役所 All Right Reserved",
+    "target": "file"
+  },
+  "/sources/maizuru-yosan-setsumeisho-r4/4ippanyosansetumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.maizuru.kyoto.jp/shisei/cmsfiles/contents/0000009/9483/4ippanyosansetumeisyo.pdf",
+    "license": "Copyright © 舞鶴市役所 All Right Reserved",
+    "target": "file"
+  },
+  "/sources/nikko-yosansho-r8/r8_tousyoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nikko.lg.jp/material/files/group/6/r8_tousyoyosansho.pdf",
+    "license": "日光市ホームページに掲載されている情報（文章、写真、画像など）は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、日光市の許可なく複製、転用等する事は法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nikko-yosansho-r7/r7_tousyoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nikko.lg.jp/material/files/group/6/r7_tousyoyosansho.pdf",
+    "license": "日光市ホームページに掲載されている情報（文章、写真、画像など）は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、日光市の許可なく複製、転用等する事は法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nikko-yosansho-r6/r6_tousyoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nikko.lg.jp/material/files/group/6/r6_tousyoyosansho.pdf",
+    "license": "日光市ホームページに掲載されている情報（文章、写真、画像など）は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、日光市の許可なく複製、転用等する事は法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nikko-yosansho-r5/r5_tousyoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nikko.lg.jp/material/files/group/6/r5_tousyoyosansho.pdf",
+    "license": "「日光市ホームページ」に掲載されている情報（文章、写真、画像、プログラムなど）は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、日光市の許可なく複製、転用等する事は法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nikko-yosansho-r4/r4_tousyoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nikko.lg.jp/material/files/group/6/r4_tousyoyosansho.pdf",
+    "license": "「日光市ホームページ」に掲載されている情報（文章、写真、画像、プログラムなど）は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、日光市の許可なく複製、転用等する事は法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nikko-yosansho-r3/r3_tousyoyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nikko.lg.jp/material/files/group/6/r3_tousyoyosansho.pdf",
+    "license": "「日光市ホームページ」に掲載されている情報（文章、写真、画像、プログラムなど）は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、日光市の許可なく複製、転用等する事は法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nikko-tousho-gaiyou-r2/yosannsyuyoujigyounogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nikko.lg.jp/material/files/group/6/yosannsyuyoujigyounogaiyou.pdf",
+    "license": "「日光市ホームページ」に掲載されている情報（文章、写真、画像、プログラムなど）は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、日光市の許可なく複製、転用等する事は法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/toyooka-yosansho-soukatsu-r8/2026_01.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/036/503/2026_01.pdf",
+    "license": "「豊岡市公式ウェブサイト」に掲載している文章、画像などの著作権は、豊岡市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/toyooka-yosansho-soukatsu-r7/2025ippanosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/032/477/2025ippanosann.pdf",
+    "license": "「豊岡市公式ウェブサイト」に掲載している文章、画像などの著作権は、豊岡市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/toyooka-yosansho-soukatsu-r6/2024ippanyosan-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/028/880/2024ippanyosan-1.pdf",
+    "license": "「豊岡市公式ウェブサイト」に掲載している文章、画像などの著作権は、豊岡市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/toyooka-yosansho-soukatsu-r5/2023ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/025/055/2023ippan.pdf",
+    "license": "「豊岡市公式ウェブサイト」に掲載している文章、画像などの著作権は、豊岡市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/toyooka-yosansho-soukatsu-r4/2022tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/019/692/2022tousyo.pdf",
+    "license": "「豊岡市公式ウェブサイト」に掲載している文章、画像などの著作権は、豊岡市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/toyooka-yosansho-soukatsu-r3/2021ippankaikeitousyoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/016/013/2021ippankaikeitousyoyosan.pdf",
+    "license": "「豊岡市公式ウェブサイト」に掲載している文章、画像などの著作権は、豊岡市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/toyooka-yosansho-soukatsu-r2/2020ippanyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/009/405/2020ippanyosan.pdf",
+    "license": "「豊岡市公式ウェブサイト」に掲載している文章、画像などの著作権は、豊岡市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
   "/sources/yamanashi-ken-gikai-r8/kaihabetu_meibo.html": {
     "mode": "archive",
     "href": "https://web.archive.org/web/20260209231452id_/https://www.pref.yamanashi.jp/gikaisom/kaihabetu_meibo.html",

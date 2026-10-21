@@ -22287,6 +22287,44 @@
       "checkedAt": "2026-09-14T06:13:33.175Z"
     },
     {
+      "sourceId": "kunitachi-yosansho-r7",
+      "url": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R7_tousyo_ippankaikei.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20251110225953/https://www.city.kunitachi.tokyo.jp/material/files/group/7/R7_tousyo_ippankaikei.pdf",
+      "waybackTimestamp": "20251110225953",
+      "checkedAt": "2026-10-21T16:59:50.970Z",
+      "sha256Match": true,
+      "waybackBytes": 2076317,
+      "rawSha256": "6da3e3763101f5e393002011edc9a473b4d886a1467edc78466bb2091a0810eb"
+    },
+    {
+      "sourceId": "kunitachi-yosansho-r7",
+      "url": "https://www.city.kunitachi.tokyo.jp/shisei/zaisei/2/1/12324.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021170032/https://www.city.kunitachi.tokyo.jp/shisei/zaisei/2/1/12324.html",
+      "waybackTimestamp": "20261021170032",
+      "checkedAt": "2026-10-21T17:00:52.924Z"
+    },
+    {
+      "sourceId": "kunitachi-yosansho-r8",
+      "url": "https://www.city.kunitachi.tokyo.jp/material/files/group/7/R8_tousyo_ippankaikei.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260221004756/https://www.city.kunitachi.tokyo.jp/material/files/group/7/R8_tousyo_ippankaikei.pdf",
+      "waybackTimestamp": "20260221004756",
+      "checkedAt": "2026-10-21T16:58:03.649Z",
+      "sha256Match": true,
+      "waybackBytes": 2057875,
+      "rawSha256": "3207bf4e796921e9c2e13fa8ce232559aeaca0148823f56356f8b5acbaefb981"
+    },
+    {
+      "sourceId": "kunitachi-yosansho-r8",
+      "url": "https://www.city.kunitachi.tokyo.jp/shisei/zaisei/2/1/13794.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021165924/https://www.city.kunitachi.tokyo.jp/shisei/zaisei/2/1/13794.html",
+      "waybackTimestamp": "20261021165924",
+      "checkedAt": "2026-10-21T16:59:47.728Z"
+    },
+    {
       "sourceId": "kurashiki-shigikai-r8",
       "url": "https://www.city.kurashiki.okayama.jp/_res/projects/default_project/_page_/001/023/399/0318giannitiran.pdf",
       "kind": "file",
@@ -31758,6 +31796,14 @@
       "sha256Match": true,
       "waybackBytes": 2897688,
       "rawSha256": "dabc0959aaeedc892233bcfb4b2608cc47345b112eef50c271c4b544d407c5a7"
+    },
+    {
+      "sourceId": "nikko-yosansho-r6",
+      "url": "https://www.city.nikko.lg.jp/soshiki/2/1005/1/78.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260207103800/https://www.city.nikko.lg.jp/soshiki/2/1005/1/78.html",
+      "waybackTimestamp": "20260207103800",
+      "checkedAt": "2026-10-21T17:01:07.585Z"
     },
     {
       "sourceId": "nishinomiya-shigikai-r8",

@@ -1,0 +1,402 @@
+{
+  "docType": "budget-book",
+  "sourceId": "tsubame-yosansho-r4",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T16:56:49.801Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R4",
+  "account": "一般会計",
+  "revenueTotal": 45547000,
+  "expenditureTotal": 45547000,
+  "prevRevenueTotal": 39979000,
+  "prevExpenditureTotal": 39979000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 10306450,
+      "prevAmount": 9755766,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 354054,
+      "prevAmount": 323996,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 7000,
+      "prevAmount": 5000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 39000,
+      "prevAmount": 31000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 42000,
+      "prevAmount": 14000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 161000,
+      "prevAmount": 51000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 2000000,
+      "prevAmount": 1800000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 23000,
+      "prevAmount": 14000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 50000,
+      "prevAmount": 292400,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 7700000,
+      "prevAmount": 7200000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 11217,
+      "prevAmount": 11224,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 234131,
+      "prevAmount": 231446,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 195227,
+      "prevAmount": 195198,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 5160260,
+      "prevAmount": 3641482,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 2339423,
+      "prevAmount": 2274682,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 34439,
+      "prevAmount": 193400,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 2500009,
+      "prevAmount": 2700009,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 3514722,
+      "prevAmount": 2226924,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 500000,
+      "prevAmount": 500000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 1012578,
+      "prevAmount": 982627,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 9362490,
+      "prevAmount": 7534846,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 209977,
+      "prevAmount": 208812,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 4943623,
+      "prevAmount": 4873540,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 11253847,
+      "prevAmount": 10389068,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 4092405,
+      "prevAmount": 3688046,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 30390,
+      "prevAmount": 23362,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 847100,
+      "prevAmount": 876001,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 1846537,
+      "prevAmount": 1784274,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 3912785,
+      "prevAmount": 3587667,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 1688206,
+      "prevAmount": 1710178,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 4989564,
+      "prevAmount": 3815279,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 3,
+      "prevAmount": 3,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 11691753,
+      "prevAmount": 8992450,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "諸支出金",
+      "amount": 10810,
+      "prevAmount": 320,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 14,
+      "kanName": "予備費",
+      "amount": 30000,
+      "prevAmount": 30000,
+      "locator": {
+        "file": "2022ippankaikleiyosan.pdf",
+        "page": 15
+      }
+    }
+  ]
+}
