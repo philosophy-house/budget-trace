@@ -3589,6 +3589,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第68巡（2026-10-22・§13-74） ----
+    // ⚠ 羽島は概要（災害復旧費の款なし）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hashima-yosan-gaiyou-${fy}`, muniCode: "212091", muniName: "羽島市", prefName: "岐阜県", isPref: false,
+    })),
+    // ⚠ 柏原は歳入（今年の予算）と歳出（議会提出の参考資料）の2ファイル。R6 は見送り。R7・R3 骨格
+    ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kashiwara-osaka-yosan-${fy}`, muniCode: "272213", muniName: "柏原市", prefName: "大阪府", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sodegaura-yosan-gaiyou-${fy}`, muniCode: "122297", muniName: "袖ケ浦市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 豊見城は2ファイル型の集計表（本文に市名なし）・R2・R4 は議会修正後。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tomigusuku-yosan-shukei-${fy}`, muniCode: "472123", muniName: "豊見城市", prefName: "沖縄県", isPref: false,
+    })),
+    // ⚠ 大館は発行元が 502 で WARP から取得。R5 骨格・R2 は廃止印 ● で見送り
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `odate-yosan-gaiyou-${fy}`, muniCode: "052043", muniName: "大館市", prefName: "秋田県", isPref: false,
+    })),
     // ---- 第67巡（2026-10-22・§13-73） ----
     // ⚠ 大田原は revenueHeading `一般会計`（`［歳入］` だと R4〜R2 で `一般会計市税`）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

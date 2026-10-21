@@ -1,0 +1,19 @@
+{
+  "sourceId": "tomigusuku-yosan-shukei-r7",
+  "files": [
+    {
+      "filename": "4_r7sainyuu.pdf",
+      "sha256": "88e2632ef76c28aac7412f4f05b286a203f770bcc9c5f9b491262118fbdee10e",
+      "bytes": 96701,
+      "fetchedAt": "2026-10-21T18:22:44.518Z",
+      "fetchedFrom": "https://www.city.tomigusuku.lg.jp/material/files/group/5/4_r7sainyuu.pdf"
+    },
+    {
+      "filename": "5_r7saisyutu.pdf",
+      "sha256": "1dd66bfbaf7c5fdc7ee01ee72177d63646b4c840987f7018e7adb5f067c11555",
+      "bytes": 91617,
+      "fetchedAt": "2026-10-21T18:22:44.894Z",
+      "fetchedFrom": "https://www.city.tomigusuku.lg.jp/material/files/group/5/5_r7saisyutu.pdf"
+    }
+  ]
+}

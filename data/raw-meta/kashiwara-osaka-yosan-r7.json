@@ -1,0 +1,19 @@
+{
+  "sourceId": "kashiwara-osaka-yosan-r7",
+  "files": [
+    {
+      "filename": "file_2025331114526_1.pdf",
+      "sha256": "2996acdd3435a79354f9264d93009fbba3e9dc2b6d948589ab7f33eaade7aa1d",
+      "bytes": 134080,
+      "fetchedAt": "2026-10-21T18:26:55.466Z",
+      "fetchedFrom": "https://www.city.kashiwara.lg.jp/docs/2025032100106/file_contents/file_2025331114526_1.pdf"
+    },
+    {
+      "filename": "R7yosan-ippan-tokubetu-sankou.pdf",
+      "sha256": "ffd47d58035c850c1743767b29a8feb0053561e695c85fb58752df095e6fdddc",
+      "bytes": 2052880,
+      "fetchedAt": "2026-10-21T18:26:56.075Z",
+      "fetchedFrom": "https://www.city.kashiwara.lg.jp/docs/2025042200056/file_contents/R7yosan-ippan-tokubetu-sankou.pdf"
+    }
+  ]
+}

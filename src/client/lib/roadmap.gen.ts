@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 414,
+  "budgetCount": 419,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3117,
-  "fileCount": 4766,
-  "archivedCount": 2692,
+  "sourceCount": 3150,
+  "fileCount": 4812,
+  "archivedCount": 2717,
   "licenseOpen": 130,
-  "licensePermission": 2909,
+  "licensePermission": 2942,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -939,6 +939,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "袖ケ浦市",
+      "code": "122297",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "八街市",
       "code": "122301",
       "years": 7,
@@ -1133,6 +1139,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "中津川市",
       "code": "212067",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "羽島市",
+      "code": "212091",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1515,6 +1527,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "豊見城市",
+      "code": "472123",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "北見市",
       "code": "012084",
       "years": 6,
@@ -1541,6 +1559,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "花巻市",
       "code": "032051",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "大館市",
+      "code": "052043",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -1711,6 +1735,12 @@ export const ROADMAP_PROGRESS = {
       "code": "272124",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "柏原市",
+      "code": "272213",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "羽曳野市",
