@@ -286,4 +286,6 @@ export const SKELETON_BUDGETS: SkeletonBudget[] = [
   { code: "012351", name: "石狩市", fy: "H31", evidence: "「平成31年度予算の概要」（/_res/projects/default_project/_page_/001/003/800/1003800_045.pdf）「～市長・市議会議員選挙を控えた骨格予算～」／R2 の予算資料の注記「※令和元年度予算額については、令和元年度７月補正（肉付補正予算）後の予算額である。」（偵察が取得して照合）", ref: "docs/data-sources.md §13-88" },
   { code: "352071", name: "下松市", fy: "R6", evidence: "「令和6年度当初予算の概要」（/kikaku/kikaku/zaisei/documents/r6toushoyosannkishahappyou.pdf）物理 p.3「令和６年度当初予算は、骨格予算となりますが、…」（2026-10-22 に自分で取得して照合）", ref: "docs/data-sources.md §13-88" },
   { code: "352071", name: "下松市", fy: "R2", evidence: "「令和２年度 施策の概要」（/kikaku/kikaku/zaisei/documents/r2sisakunogaiyou.pdf）物理 p.3「また、令和２年度は、骨格予算での予算編成となりますが、…」（2026-10-22 に自分で取得して照合）", ref: "docs/data-sources.md §13-88" },
+  { code: "402079", name: "柳川市", fy: "R7", evidence: "「令和７年度 記者会見説明資料」（年度ページ /shisei/zaisei/yosan.html）「令和７年度の予算編成に当たっては、４月が市長の改選期に当たることから、骨格予算として編成し、新規性及び政策性の高い施策については、予算計上を手控えています。」（偵察が取得した原本を自分で pdftotext して照合・2026-10-22）。R8 の予算書の前年度列はその骨格の当初額 35,140,000", ref: "docs/data-sources.md §13-89" },
+  { code: "402079", name: "柳川市", fy: "R3", evidence: "「令和３年度 記者会見説明資料」物理 p.4「一般会計当初予算額の推移」の R3（当初予算額 33,121,000）の備考「骨格予算」（スキャン画像を自分で目視・2026-10-22）／R5・R8 の同じ推移表は R3 に「肉付け予算後（６月補正予算後） 34,618,354」。R4 は未収録（スキャン）", ref: "docs/data-sources.md §13-89" },
 ];
