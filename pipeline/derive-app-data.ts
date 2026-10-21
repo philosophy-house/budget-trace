@@ -3589,6 +3589,30 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第56巡（2026-10-22・§13-61） ----
+    // ⚠ 射水は款番号が `1款` 形式（`kanNamePrefixStrip`）・内訳行を `kanIndentMax` で外す（字下げは年度で違う）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `imizu-yosan-gaiyou-${fy}`, muniCode: "162116", muniName: "射水市", prefName: "富山県", isPref: false,
+    })),
+    // ⚠ 花巻 R5 の前年度列は R4（骨格）の5月補正後。R4・R3 は明細書の総括（見開き）。R2 は画像で未収録。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `hanamaki-yosan-gaiyou-${fy}`, muniCode: "032051", muniName: "花巻市", prefName: "岩手県", isPref: false,
+    })),
+    ...(["r4", "r3"] as const).map((fy) => ({
+      srcId: `hanamaki-yosan-meisai-${fy}`, muniCode: "032051", muniName: "花巻市", prefName: "岩手県", isPref: false,
+    })),
+    // ⚠ 坂井は歳入・歳出が1ページに左右に並ぶ（CropX の境界は年度ごと）。R4 は骨格
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sakai-fukui-yosan-gaiyou-${fy}`, muniCode: "182109", muniName: "坂井市", prefName: "福井県", isPref: false,
+    })),
+    // ⚠ あまは R4・R8 が骨格。ライセンスは license-no-grant.ts で要許可・`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ama-yosansho-${fy}`, muniCode: "232378", muniName: "あま市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 袋井は右端の増減理由を CropX で落とす。R4 は廃止款の3行組で未収録（パーサ）
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fukuroi-yosan-kanbetsu-${fy}`, muniCode: "222160", muniName: "袋井市", prefName: "静岡県", isPref: false,
+    })),
     // ---- ライセンスの判断待ちで見送っていた市（2026-10-21・#293・§13-56） ----
     // ⚠ 糸島の R5 の前年度列は R4（骨格）の6月補正後。R8 は当年度空欄の廃止款を含む
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
