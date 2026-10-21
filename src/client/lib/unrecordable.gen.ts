@@ -558,6 +558,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "182079": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "款別の総括のうち、廃止された款（自動車取得税交付金）の行が金額と款名で別々の行に割れていて、こちらの抽出処理では前年度の額を読めない（前年度の合計が4,000万円合わなくなる）。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "192058": {
     "budget": [
       {
@@ -744,6 +753,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和5年度・令和4年度",
         "reason": "当初予算の概要・予算書・予算説明資料がどれも紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "232335": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "発行元のサイトから令和3年度・令和2年度の予算資料が削除されていて、ウェブ上の写し（Wayback Machine）にも残っていない。国立国会図書館の保存分は館内でしか閲覧できない。",
         "checkedOn": "2026-10-22"
       }
     ]

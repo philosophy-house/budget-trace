@@ -2212,4 +2212,24 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.tsurugashima.lg.jp/gyousei/zaiei/yosan/page007850.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-74",
   },
+  {
+    // 清須市（232335）R3・R2。R8〜R4 は収録済み（§13-76）。
+    // 現行サイトの /yosan/3nendo/・/2nendo/ は 404。Wayback の CDX は年度索引（20220709）だけで予算書のページも PDF も無い。WARP は「Available only within the facilities of the National Diet Library」（館内限定）＝偵察。
+    code: "232335", name: "清須市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason:
+      "発行元のサイトから令和3年度・令和2年度の予算資料が削除されていて、ウェブ上の写し（Wayback Machine）にも残っていない。国立国会図書館の保存分は館内でしか閲覧できない。",
+    url: "https://www.city.kiyosu.aichi.jp/shisei_joho/zaisei_jokyo/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
+  },
+  {
+    // 鯖江市（182079）R2。R8〜R3 は収録済み（§13-76）。
+    // WARP 20220809 の 2020tousyo.files/ippann.pdf p.5 で、廃止款「自動車取得税交付金」の行が金額の行「0 40,000 △40,000」と款名の行に分かれ、前年度 Σ が −40,000（try-parse で再現）。
+    code: "182079", name: "鯖江市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の総括のうち、廃止された款（自動車取得税交付金）の行が金額と款名で別々の行に割れていて、こちらの抽出処理では前年度の額を読めない（前年度の合計が4,000万円合わなくなる）。",
+    url: "https://warp.ndl.go.jp/20220809/20220808141731/https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/2020tousyo.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
+  },
 ];
