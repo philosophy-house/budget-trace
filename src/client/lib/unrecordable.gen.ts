@@ -900,6 +900,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "282162": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "市が公開している「予算の概要」は、市長が議会の審議中に予算案を訂正する前の数字のままで、繰入金と総務費の額が成立した予算と違う。成立した予算の款ごとの額は財政事情の公表資料に載っているが、そちらには前年度の額が無い。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "282171": {
     "budget": [
       {

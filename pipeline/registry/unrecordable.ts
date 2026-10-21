@@ -1866,7 +1866,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-21", ref: "docs/data-sources.md §13-22",
   },
   {
-    // 和光市（112291）R6。R8・R7・R5〜R2 は収録済み（§13-62）。
+    // 和光市（112291）R6。R8・R7・R5〜R2 は収録済み（§13-63）。
     // 年度ページ（/shisei/zaisei/1006866/1010434/1010438.html）に「令和6年和光市議会3月定例会において、一般会計当初予算（案）の修正があり…」。
     // 概要は「各資料は原案に基づき作成しています」。【修正】版 r6ippanshusei.pdf の総括は原案のスキャン画像に赤字の修正値だけを重ねたもの。
     code: "112291", name: "和光市", dataset: "budget", fiscalYears: ["R6"],
@@ -1875,16 +1875,28 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "市議会3月定例会で一般会計当初予算（案）が修正されて可決されたが、文字として読める款別の表（予算の概要）は修正前の原案（一般会計 31,850,000千円）のもので、" +
       "可決された当初予算は修正後の 31,248,000千円（令和7年度の資料の前年度の列）。修正後の予算書は総括のページが画像に修正値を書き加えたもので、款別の金額を文字として取り出せない。",
     url: "https://www.city.wako.lg.jp/shisei/zaisei/1006866/1010434/1010438.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-62",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-63",
   },
   {
-    // 東大和市（132209）R2。R8〜R3 は収録済み（§13-62）。
+    // 東大和市（132209）R2。R8〜R3 は収録済み（§13-63）。
     // 予算概要 20200217-135155.pdf は 67 ページで pdftotext の全文が 67 バイト・pdffonts 0件（2026-10-22 に自分で確認）。
     code: "132209", name: "東大和市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["scanned-image"],
     reason:
       "予算概要は紙をスキャンした画像の PDF で、文字として取り出せない。予算書の総括の PDF も数字の字形に文字の対応が無く、金額を取り出せない。",
     url: "https://www.city.higashiyamato.lg.jp/shisei/zaisei/1004304/1004317/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-63",
+  },
+  {
+    // 高砂市（282162）R4。R8〜R5・R3・R2 は収録済み（§13-62）。
+    // 概要 20220216-5.pdf の当年度 36,496,125 は原案訂正の前。議決額 36,468,186 は R5 の前年度列・財政事情 R4 予算（20220530-3.pdf）と款単位一致（繰入金・総務費が 27,939 ずつ違う）。
+    // 財政事情の版には前年度の額が無い。R4 の予算書は年度ページに掲載が無い。原案訂正は議会だより第217号（/material/files/group/85/25.pdf）。
+    code: "282162", name: "高砂市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "市が公開している「予算の概要」は、市長が議会の審議中に予算案を訂正する前の数字のままで、繰入金と総務費の額が成立した予算と違う。" +
+      "成立した予算の款ごとの額は財政事情の公表資料に載っているが、そちらには前年度の額が無い。",
+    url: "https://www.city.takasago.lg.jp/gyoseisite/shiseijoho/gyozaisei/4/6/6251.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-62",
   },
   {
