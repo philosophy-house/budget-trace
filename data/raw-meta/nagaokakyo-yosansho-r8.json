@@ -1,0 +1,12 @@
+{
+  "sourceId": "nagaokakyo-yosansho-r8",
+  "files": [
+    {
+      "filename": "R8tousho.pdf",
+      "sha256": "2be35ec781edab2bbd98fc39ac5d9afd1d4771bac2b8794c8611b4db023ec842",
+      "bytes": 10971739,
+      "fetchedAt": "2026-10-21T16:26:52.693Z",
+      "fetchedFrom": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000015/15759/R8tousho.pdf"
+    }
+  ]
+}

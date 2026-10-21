@@ -1,0 +1,12 @@
+{
+  "sourceId": "nagaokakyo-yosansho-r7",
+  "files": [
+    {
+      "filename": "R7tousyo.pdf",
+      "sha256": "7434241dee2d7021d985e1aec6dadb56a392e1ed8da075890272b30a5f778b2c",
+      "bytes": 5308332,
+      "fetchedAt": "2026-10-21T16:26:54.527Z",
+      "fetchedFrom": "https://www.city.nagaokakyo.lg.jp/cmsfiles/contents/0000014/14870/R7tousyo.pdf"
+    }
+  ]
+}
