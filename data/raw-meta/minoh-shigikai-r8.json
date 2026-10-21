@@ -1,0 +1,33 @@
+{
+  "sourceId": "minoh-shigikai-r8",
+  "files": [
+    {
+      "filename": "r8-1sanpihyou.pdf",
+      "sha256": "18610d85fff52d99184d2f6b8e3866a3fcc569cf950de900289f380bd99aa043",
+      "bytes": 81837,
+      "fetchedAt": "2026-10-21T14:46:16.307Z",
+      "fetchedFrom": "https://www.city.minoh.lg.jp/giji/kaigijyouhou-kekka/documents/r8-1sanpihyou.pdf"
+    },
+    {
+      "filename": "r8-1.html",
+      "sha256": "1eabf2c24e01aba58ecd95729583beafcbf2a9f2d980ff9b2ef9b926e99ee388",
+      "bytes": 38821,
+      "fetchedAt": "2026-10-21T14:46:16.308Z",
+      "fetchedFrom": "https://www.city.minoh.lg.jp/giji/kaigijyouhou-kekka/r8-1.html"
+    },
+    {
+      "filename": "sasayuri_143.pdf",
+      "sha256": "5182917c6c81d7be8caf6c802d820f044e9f70194e0831c666776f25ba9bfead",
+      "bytes": 3745168,
+      "fetchedAt": "2026-10-21T14:46:16.309Z",
+      "fetchedFrom": "https://www.city.minoh.lg.jp/gikai/gikaidayori/back-number/documents/sasayuri_143.pdf"
+    },
+    {
+      "filename": "sigikainosikumi.html",
+      "sha256": "f8a7af8da0b03fd31f16607d66e4067ac93ab8b27aa35d400c220bbb26b4a6f5",
+      "bytes": 21923,
+      "fetchedAt": "2026-10-21T14:46:16.310Z",
+      "fetchedFrom": "https://www.city.minoh.lg.jp/giji/gaiyou/sigikainosikumi.html"
+    }
+  ]
+}

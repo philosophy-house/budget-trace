@@ -1987,4 +1987,26 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-66",
   },
+  {
+    // 大和郡山市（292036）R7・R6・R5・R3・R2。R8・R4 は収録済み（§13-64）。パーサの issue #347。
+    // R7・R6・R5・R3 は説明書の総括に同一のテキスト層が x 方向に約22.7pt ずれて2重に入る。R2 は歳入の見開きで番号なしの廃止款が款名ページから落ちる。
+    code: "292036", name: "大和郡山市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "令和7・6・5・3年度の予算に関する説明書は、款別の総括のページに同じ文字の層が少し横にずれて二重に入っていて、こちらの抽出処理では表を正しく読み取れない。" +
+      "令和2年度は歳入の総括が左右2ページに分かれていて、廃止された款の行に番号が無いため、款名と金額の行をこちらの抽出処理で対応づけられない。原典の表は健全。",
+    url: "https://www.city.yamatokoriyama.lg.jp/soshiki/zaiseika/shinozaisei/1/yosan/1490.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
+  },
+  {
+    // 近江八幡市（252042）R3。R8〜R4・R2 は収録済み（§13-64）。
+    // 予算書 R3_ippan_yosan.pdf の歳出総括 p.20 は pdftotext 4字（ノンブル）・非埋め込みの MSPGothic 1つ・画像0（2026-10-22 に実測）。歳入 p.18〜19 は読める。
+    code: "252042", name: "近江八幡市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["broken-text-layer"],
+    reason:
+      "一般会計予算書の歳出の総括（款ごとの前年度比較）のページだけ、ページ番号のほかに文字として取り出せない（画像も入っていない）。" +
+      "代わりになる資料も無く、第1表は当年度の款項だけ、予算の概要は構成のグラフだけで前年度の額が無い。",
+    url: "https://www.city.omihachiman.lg.jp/gyosei/gyozaisei/yosan/17908.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
+  },
 ];

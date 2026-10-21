@@ -1,0 +1,42 @@
+{
+  "sourceId": "higashiosaka-shigikai-r8",
+  "files": [
+    {
+      "filename": "Kh112_232.pdf",
+      "sha256": "3a52d366ebd2076f298cb8c2cbfa0cccbdfb319cd4281a362e7e0e6569eac0f0",
+      "bytes": 272960,
+      "fetchedAt": "2026-10-21T14:46:16.312Z",
+      "fetchedFrom": "https://higashiosaka.gijiroku.com/gikai/GikaiDoc/attach/koho/Kh112_232.pdf"
+    },
+    {
+      "filename": "g07_Kaiha.asp.html",
+      "sha256": "593a258de809b15ed9b1666874ce069754e778102d8e47de3e07303b51cc30fc",
+      "bytes": 8720,
+      "fetchedAt": "2026-10-21T14:46:16.313Z",
+      "fetchedFrom": "https://web.archive.org/web/20260303031757id_/https://higashiosaka.gijiroku.com/gikai/g07_Kaiha.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "g07_giketsu.asp.html",
+      "sha256": "1f0923b71fc73eaa4d5e95fb63600d6ecee9254c0b99c36acb47761cd29050bd",
+      "bytes": 44984,
+      "fetchedAt": "2026-10-21T14:46:16.314Z",
+      "fetchedFrom": "https://higashiosaka.gijiroku.com/gikai/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026/02/20,2026/03/27,100&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "shikumi.asp.html",
+      "sha256": "b6ef4c096bb79c465f3fae17d14317bd08aa569cdb414f0cdde36bad85c26428",
+      "bytes": 10414,
+      "fetchedAt": "2026-10-21T14:46:16.315Z",
+      "fetchedFrom": "https://higashiosaka.gijiroku.com/gikai/shikumi.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 370,
+  "budgetCount": 375,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2824,
-  "fileCount": 4444,
-  "archivedCount": 2549,
+  "sourceCount": 2864,
+  "fileCount": 4509,
+  "archivedCount": 2572,
   "licenseOpen": 120,
-  "licensePermission": 2633,
+  "licensePermission": 2673,
   "licenseUnverified": 71,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -939,6 +939,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "狛江市",
+      "code": "132195",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "稲城市",
       "code": "132250",
       "years": 7,
@@ -1031,6 +1037,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "安曇野市",
       "code": "202207",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "高山市",
+      "code": "212032",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1163,6 +1175,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "亀岡市",
       "code": "262064",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "長岡京市",
+      "code": "262099",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1477,6 +1495,12 @@ export const ROADMAP_PROGRESS = {
       "code": "232068",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "近江八幡市",
+      "code": "252042",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "木津川市",
@@ -1867,6 +1891,12 @@ export const ROADMAP_PROGRESS = {
       "code": "272272",
       "years": 2,
       "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "大和郡山市",
+      "code": "292036",
+      "years": 2,
+      "range": "R4〜R8（2年度）"
     },
     {
       "name": "和歌山市",

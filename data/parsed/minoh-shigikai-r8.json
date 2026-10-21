@@ -1,0 +1,272 @@
+{
+  "docType": "council-composition",
+  "sourceId": "minoh-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.11",
+  "parsedAt": "2026-10-21T16:18:26.992Z",
+  "fiscalYear": "R8",
+  "body": "箕面市議会",
+  "seats": 23,
+  "asOf": "2026-03-25",
+  "teisu": 23,
+  "factions": [
+    {
+      "name": "大阪維新の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "久野井優子",
+        "吉田栄美子",
+        "尾﨑夏樹",
+        "山根ひとみ",
+        "神代繁近"
+      ],
+      "locator": {
+        "file": "r8-1sanpihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "牧馨",
+        "浦川倫子",
+        "増田京子",
+        "中西智子"
+      ],
+      "locator": {
+        "file": "r8-1sanpihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民保守の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "竹内洋人",
+        "牧野寿美",
+        "木下伸雄",
+        "藤田貴支"
+      ],
+      "locator": {
+        "file": "r8-1sanpihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "箕面政友会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "高橋竜馬",
+        "大脇典子",
+        "中嶋三四郎"
+      ],
+      "locator": {
+        "file": "r8-1sanpihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "楠政則",
+        "岡沢聡",
+        "田中真由美"
+      ],
+      "locator": {
+        "file": "r8-1sanpihyou.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "箕面の未来をひらく会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "桃山悟",
+        "武智秀生"
+      ],
+      "locator": {
+        "file": "r8-1sanpihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "村川真実",
+        "金森いずみ"
+      ],
+      "locator": {
+        "file": "r8-1sanpihyou.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号議案",
+    "billName": "令和8年度箕面市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r8-1.html"
+    }
+  },
+  "rosterTitle": "賛成・反対が分かれた議案（令和8年第1回定例会）の政策会派別の列見出し",
+  "resultTitle": "令和8年第1回定例会（会議情報・結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "賛成・反対が分かれた議案（令和8年第1回定例会）",
+    "sourceFile": "r8-1sanpihyou.pdf",
+    "columns": [
+      {
+        "label": "久野井優子",
+        "faction": "大阪維新の会",
+        "member": "久野井優子",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田栄美子",
+        "faction": "大阪維新の会",
+        "member": "吉田栄美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "尾﨑夏樹",
+        "faction": "大阪維新の会",
+        "member": "尾﨑夏樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "山根ひとみ",
+        "faction": "大阪維新の会",
+        "member": "山根ひとみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "神代繁近",
+        "faction": "大阪維新の会",
+        "member": "神代繁近",
+        "stance": "賛成"
+      },
+      {
+        "label": "牧馨",
+        "faction": "市民クラブ",
+        "member": "牧馨",
+        "stance": "賛成"
+      },
+      {
+        "label": "浦川倫子",
+        "faction": "市民クラブ",
+        "member": "浦川倫子",
+        "stance": "賛成"
+      },
+      {
+        "label": "増田京子",
+        "faction": "市民クラブ",
+        "member": "増田京子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中西智子",
+        "faction": "市民クラブ",
+        "member": "中西智子",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹内洋人",
+        "faction": "自民保守の会",
+        "member": "竹内洋人",
+        "stance": "賛成"
+      },
+      {
+        "label": "牧野寿美",
+        "faction": "自民保守の会",
+        "member": "牧野寿美",
+        "stance": "賛成"
+      },
+      {
+        "label": "木下伸雄",
+        "faction": "自民保守の会",
+        "member": "木下伸雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤田貴支",
+        "faction": "自民保守の会",
+        "member": "藤田貴支",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋竜馬",
+        "faction": "箕面政友会",
+        "member": "高橋竜馬",
+        "stance": "賛成"
+      },
+      {
+        "label": "大脇典子",
+        "faction": "箕面政友会",
+        "member": "大脇典子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中嶋三四郎",
+        "faction": "箕面政友会",
+        "member": "中嶋三四郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "楠政則",
+        "faction": "公明党",
+        "member": "楠政則",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡沢聡",
+        "faction": "公明党",
+        "member": "岡沢聡",
+        "stance": "賛成"
+      },
+      {
+        "label": "桃山悟",
+        "faction": "箕面の未来をひらく会",
+        "member": "桃山悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "武智秀生",
+        "faction": "箕面の未来をひらく会",
+        "member": "武智秀生",
+        "stance": "賛成"
+      },
+      {
+        "label": "村川真実",
+        "faction": "日本共産党",
+        "member": "村川真実",
+        "stance": "反対"
+      },
+      {
+        "label": "金森いずみ",
+        "faction": "日本共産党",
+        "member": "金森いずみ",
+        "stance": "反対"
+      },
+      {
+        "label": "田中真由美",
+        "faction": "公明党",
+        "member": "田中真由美",
+        "stance": "議長"
+      }
+    ]
+  }
+}

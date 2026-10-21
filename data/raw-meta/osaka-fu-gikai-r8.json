@@ -1,0 +1,19 @@
+{
+  "sourceId": "osaka-fu-gikai-r8",
+  "files": [
+    {
+      "filename": "0802giin.html",
+      "sha256": "d046a244836752d9e177ab0fa207488b3545c28fbb9dae73b717b7b8dfff80f9",
+      "bytes": 17049,
+      "fetchedAt": "2026-10-21T14:46:16.271Z",
+      "fetchedFrom": "https://www.pref.osaka.lg.jp/o170010/gikai_giji/giininfo/0802giin.html"
+    },
+    {
+      "filename": "gian0802_1.pdf",
+      "sha256": "b4231b57bd27cae3d0a8f007bdf7548d8f09d9f51803d5259badecab6abfb7df",
+      "bytes": 1024894,
+      "fetchedAt": "2026-10-21T14:46:16.272Z",
+      "fetchedFrom": "https://www.pref.osaka.lg.jp/documents/125850/gian0802_1.pdf"
+    }
+  ]
+}
