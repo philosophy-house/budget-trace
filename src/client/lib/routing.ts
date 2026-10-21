@@ -338,6 +338,11 @@ const MUNI_SLUGS: Record<string, string> = {
   "082163": "kasama",
   "112437": "yoshikawa",
   "282294": "tatsuno",
+  "232084": "tsushima",
+  "402109": "yame",
+  "402168": "ogori",
+  "402231": "koga-fukuoka", // ⚠ 古河市 082040 が "koga" なので県名つき
+  "302082": "kinokawa",
   "132152": "kunitachi",
   "152137": "tsubame",
   "262021": "maizuru",

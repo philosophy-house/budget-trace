@@ -4118,6 +4118,23 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `daisen-yosan-gaiyou-${fy}`, muniCode: "052124", muniName: "大仙市", prefName: "秋田県", isPref: false,
     })),
+    // ---- 津島・八女・小郡・古賀・紀の川（2026-10-22・§13-L） ----
+    // ⚠ 津島は表題が款1 に付く（revenueHeaderExtra）。R8・R4 骨格で R5 に prevNote。license-no-grant・noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tsushima-aichi-yosansho-${fy}`, muniCode: "232084", muniName: "津島市", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yame-yosansho-${fy}`, muniCode: "402109", muniName: "八女市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ogori-yosansho-hikaku-${fy}`, muniCode: "402168", muniName: "小郡市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `koga-fukuoka-yosan-setsumei-${fy}`, muniCode: "402231", muniName: "古賀市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kinokawa-yosan-${fy}`, muniCode: "302082", muniName: "紀の川市", prefName: "和歌山県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

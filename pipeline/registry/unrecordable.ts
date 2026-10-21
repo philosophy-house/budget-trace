@@ -2331,4 +2331,15 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.koshi.lg.jp/kiji00320384/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
   },
+  {
+    // 古賀市（402231）R8・R7。R6〜R2 は収録済み（§13-L）。説明書 R8setsumeisho.pdf・R7setumeisho.pdf の p.4 は A3 見開きを1ページに収めた版で、歳入の総括が左右2段。
+    // 既存パーサは1ページを1つの帯としてしか読めない（CropX は1区間だけ）。歳出の総括 p.5 は読めるが、歳入が読めないので年度ごと見送る。
+    code: "402231", name: "古賀市", dataset: "budget", fiscalYears: ["R8", "R7"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款ごとの前年度比較が載る予算に関する説明書が、見開きの2ページを1ページに収めた版で、歳入の総括表が左右2段（左に款1〜22、右に款23と合計）に分かれていて、既存のパーサで読めない。" +
+      "予算書の第1表には前年度の額が無く、予算案の概要には款別の表が無い。",
+    url: "https://www.city.koga.fukuoka.jp/cityhall/work/zaisei/015.php",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-L",
+  },
 ];

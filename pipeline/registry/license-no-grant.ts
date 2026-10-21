@@ -82,4 +82,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "合志市", license: "Copyrights (C) 2019 City-Koshi Allrights Reserved." },
   { who: "姶良市", license: "Copyright © The Official Website of Aira City. All Rights Reserved." },
   { who: "大仙市", license: "©2024 DAISEN City" },
+  { who: "津島市", license: "津島市公式ホームページ「リンク及び著作権について」（/thissite/linkchosakuken.html）の著作権の条項は「HP掲載写真の著作権の帰属」だけで写真に限られ、文章・PDF の利用条件の条項は市サイトに存在しない（2026-10-22 時点で確認）。" },
 ];
