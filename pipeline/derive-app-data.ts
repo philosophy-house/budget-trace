@@ -3567,9 +3567,54 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r2"] as const).map((fy) => ({
       srcId: `ashiya-yosansho-${fy}`, muniCode: "282065", muniName: "芦屋市", prefName: "兵庫県", isPref: false,
     })),
+    // ---- 第54巡（2026-10-21・§13-57） ----
+    // ⚠ 稲城は1ページに歳入・歳出を縦に積む調書。`revenueHeaderExtra: "^分$"` が無いと款1 が `分市税`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `inagi-yosan-${fy}`, muniCode: "132250", muniName: "稲城市", prefName: "東京都", isPref: false,
+    })),
+    // ⚠ 神栖は open（説明書がオープンデータのページに CC BY 4.0 で登載）。R3 は総括が図形化で未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `kamisu-yosan-setsumei-${fy}`, muniCode: "082325", muniName: "神栖市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 八潮 R5 は議会修正後の概要（予算書は原案）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yashio-yosan-gaiyou-${fy}`, muniCode: "112348", muniName: "八潮市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 大府 R3・R2 は WARP。R2 は予算書にテキスト層が無く補足説明資料
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `obu-yosansho-${fy}`, muniCode: "232238", muniName: "大府市", prefName: "愛知県", isPref: false,
+    })),
+    { srcId: "obu-yosan-hosoku-r2", muniCode: "232238", muniName: "大府市", prefName: "愛知県", isPref: false },
+    // ⚠ 鹿沼は概要の「歳入の内訳」（自主財源→依存財源の順で款番号なし）。R2 は Wayback
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
+    })),
+    // ---- ライセンスの判断待ちで見送っていた市（2026-10-21・#293・§13-56） ----
+    // ⚠ 糸島の R5 の前年度列は R4（骨格）の6月補正後。R8 は当年度空欄の廃止款を含む
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `itoshima-yosan-gaiyou-${fy}`, muniCode: "402303", muniName: "糸島市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 飯田 R8・R7 は右の説明の列を CropX で落とす
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `iida-yosan-gaiyou-${fy}`, muniCode: "202053", muniName: "飯田市", prefName: "長野県", isPref: false,
+    })),
+    // ⚠ 筑紫野は R8 しかウェブに無い
+    { srcId: "chikushino-yosan-shiryo-r8", muniCode: "402176", muniName: "筑紫野市", prefName: "福岡県", isPref: false },
     // ⚠ 上越は款の間に市債・公債費の内訳が挟まる3行組（parenAltRows・detailRowsAfterKan・#294）。H30・H29 はテキスト層が化けて未収録
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2", "h31", "h28", "h27"] as const).map((fy) => ({
       srcId: `joetsu-yosan-gaiyou-${fy}`, muniCode: "152226", muniName: "上越市", prefName: "新潟県", isPref: false,
+    })),
+    // ⚠ 千歳の歳出は「金額行／款名行／(一般財源) 行」の3行組で前年度の列が款ごとに動く（amountsAboveName・prevAfterBreakdown・#312）。R6・R2 の前年度列は6月補正後
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chitose-yosan-setsumei-${fy}`, muniCode: "012246", muniName: "千歳市", prefName: "北海道", isPref: false,
+    })),
+    // ⚠ 昭島は R7〜R2 だけ（R8 は掲載時点の規約が PDL1.0 で要許可へ倒せず見送り・docs §13-42）。R6 だけ kanNoless
+    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `akishima-yosansho-${fy}`, muniCode: "132071", muniName: "昭島市", prefName: "東京都", isPref: false,
+    })),
+    // ⚠ 東近江は R7・R3 が骨格（R8 に prevNote、R4 は前年度列が補正後）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `higashiomi-yosan-gaiyou-${fy}`, muniCode: "252131", muniName: "東近江市", prefName: "滋賀県", isPref: false,
     })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。

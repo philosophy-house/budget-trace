@@ -60,4 +60,8 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "盛岡市", license: "盛岡市WWWサーバで提供する内容の著作権は、盛岡市が所有しています。盛岡市WWWサーバの内容を転載・掲載する場合は、各内容を所管する課等宛てにお問い合わせをお願いします。各ページ下部に記載されている問い合わせ先が担当課等です。" },
   { who: "秋田市", license: "秋田市ホームページから発信する文章や画像等のコンテンツの著作権は、秋田市に属します。秋田市のホームページ（https://www.city.akita.lg.jp/）へのリンクはフリーです。" },
   { who: "ひたちなか市", license: "「ひたちなか市公式ウェブサイト」に掲載されている情報（文書、写真、イラストなど）は原則としてひたちなか市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
+  { who: "糸島市", license: "Copyright © Itoshima City. All rights reserved" },
+  { who: "飯田市", license: "Copyright Iida City. All rights reserved." },
+  { who: "筑紫野市", license: "本サイトに掲載されている全てのコンテンツに関して、その著作権は特に内容について断りがない限り原則として筑紫野市に帰属します。個人として使用する場合を除き、許可なく内容の引用、転載、複写、販売等の目的で使用することは避けてください。もし掲載内容を使用したい場合は、秘書広報課　広報広聴担当までメールにてご連絡ください。" },
+  { who: "東近江市", license: "Copyright © Higashiomi City All rights Reserved." },
 ];

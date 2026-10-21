@@ -21755,7 +21755,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "令和8年3月定例会 市長提出議案及び議決の結果",
         "localUrl": "/sources/ikeda-shigikai-r8/20615.html",
         "originUrl": "https://www.city.ikeda.osaka.jp/soshiki/gikai/ikedashigikai/teishutu/reiwa8nennteisyutugianngiketukekka/20615.html",
-        "archiveUrl": "https://web.archive.org/web/20260409183843/https://www.city.ikeda.osaka.jp/soshiki/gikai/ikedashigikai/teishutu/reiwa8nennteisyutugianngiketukekka/20615.html"
+        "archiveUrl": "https://web.archive.org/web/20261021151939/https://www.city.ikeda.osaka.jp/soshiki/gikai/ikedashigikai/teishutu/reiwa8nennteisyutugianngiketukekka/20615.html"
       },
       "minutesUrl": null,
       "newsletterUrl": null,
@@ -23283,13 +23283,13 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "令和８年３月定例会で審議された案件と議決結果（議案等に対する各議員の状況）の会派別の列見出し",
         "localUrl": "/sources/habikino-shigikai-r8/081giketukekka.pdf",
         "originUrl": "https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf",
-        "archiveUrl": "https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf"
+        "archiveUrl": "https://web.archive.org/web/20261021151515/https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf"
       },
       "result": {
         "title": "令和８年３月定例会で審議された案件と議決結果",
         "localUrl": "/sources/habikino-shigikai-r8/081giketukekka.pdf",
         "originUrl": "https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf",
-        "archiveUrl": "https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf"
+        "archiveUrl": "https://web.archive.org/web/20261021151515/https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf"
       },
       "minutesUrl": null,
       "newsletterUrl": null
@@ -23359,13 +23359,13 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "東大阪市議会だより第232号（令和8年1月1日発行）会派別議員一覧（令和７年１１月７日現在）",
         "localUrl": "/sources/higashiosaka-shigikai-r8/Kh112_232.pdf",
         "originUrl": "https://higashiosaka.gijiroku.com/gikai/GikaiDoc/attach/koho/Kh112_232.pdf",
-        "archiveUrl": "https://higashiosaka.gijiroku.com/gikai/GikaiDoc/attach/koho/Kh112_232.pdf"
+        "archiveUrl": "https://web.archive.org/web/20261021151638/https://higashiosaka.gijiroku.com/gikai/GikaiDoc/attach/koho/Kh112_232.pdf"
       },
       "result": {
         "title": "議案一覧表（令和８年２月 第１回定例会）",
         "localUrl": "/sources/higashiosaka-shigikai-r8/g07_giketsu.asp.html",
         "originUrl": "https://higashiosaka.gijiroku.com/gikai/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026/02/20,2026/03/27,100&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2",
-        "archiveUrl": "https://higashiosaka.gijiroku.com/gikai/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026/02/20,2026/03/27,100&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2"
+        "archiveUrl": "https://web.archive.org/web/20261021151654/https://higashiosaka.gijiroku.com/gikai/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026%2F02%2F20,2026%2F03%2F27,100&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2"
       },
       "minutesUrl": null,
       "newsletterUrl": null
