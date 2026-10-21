@@ -289,6 +289,7 @@ const MUNI_SLUGS: Record<string, string> = {
   "012246": "chitose",
   "132071": "akishima",
   "252131": "higashiomi",
+  "232173": "konan", "372021": "marugame", "272230": "kadoma",
   "152064": "shibata",
   "112127": "higashimatsuyama",
   "152048": "sanjo",

@@ -3608,15 +3608,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `chitose-yosan-setsumei-${fy}`, muniCode: "012246", muniName: "千歳市", prefName: "北海道", isPref: false,
     })),
-    // ⚠ 昭島は R7〜R2 だけ（R8 は掲載時点の規約が PDL1.0 で要許可へ倒せず見送り・docs §13-42）。R6 だけ kanNoless
-    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+    // ⚠ 昭島は R7〜R2 が掲載時点の旧規約で要許可、R8 だけが PDL1.0 で open（2026-10-22 の人の判断・docs §13-59）。R6 だけ kanNoless
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `akishima-yosansho-${fy}`, muniCode: "132071", muniName: "昭島市", prefName: "東京都", isPref: false,
     })),
     // ⚠ 東近江は R7・R3 が骨格（R8 に prevNote、R4 は前年度列が補正後）。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `higashiomi-yosan-gaiyou-${fy}`, muniCode: "252131", muniName: "東近江市", prefName: "滋賀県", isPref: false,
     })),
-    // ---- 第55巡（2026-10-22・§13-59） ----
+    // ---- 2026-10-22・§13-59: 規約の本文が利用を許諾していて人の判断待ちだった江南・丸亀・門真（本文をフッターの定型文に優先する） ----
+    // ⚠ 江南は R7・R8 が政府標準利用規約準拠で open、R6〜R2 は掲載時点の旧規約で要許可。R6・R2 に骨格の prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `konan-yosansho-${fy}`, muniCode: "232173", muniName: "江南市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 丸亀は CC BY 2.1 JP で open。R3 は修正後の 1240
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `marugame-yosan-taikou-${fy}`, muniCode: "372021", muniName: "丸亀市", prefName: "香川県", isPref: false,
+    })),
+    // ⚠ 門真は条件つきの許諾で unverified（台帳に載せない）。R8・R6・R5・R3・R2 は decodeGarble
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kadoma-yosansho-${fy}`, muniCode: "272230", muniName: "門真市", prefName: "大阪府", isPref: false,
+    })),
+    // ---- 第55巡（2026-10-22・§13-60） ----
     // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `shibata-yosan-gaiyou-${fy}`, muniCode: "152064", muniName: "新発田市", prefName: "新潟県", isPref: false,
