@@ -13,15 +13,15 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 385,
+  "budgetCount": 390,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2930,
-  "fileCount": 4576,
+  "sourceCount": 2958,
+  "fileCount": 4611,
   "archivedCount": 2603,
   "licenseOpen": 120,
-  "licensePermission": 2732,
-  "licenseUnverified": 78,
+  "licensePermission": 2753,
+  "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
   "kofuBudgetYears": 7,
@@ -819,6 +819,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "真岡市",
+      "code": "092096",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "桐生市",
       "code": "102032",
       "years": 7,
@@ -827,6 +833,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "川越市",
       "code": "112011",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "行田市",
+      "code": "112062",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1103,6 +1115,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "瀬戸市",
       "code": "232041",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "蒲郡市",
+      "code": "232149",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1743,6 +1761,12 @@ export const ROADMAP_PROGRESS = {
       "range": "H30〜R8（5年度）"
     },
     {
+      "name": "姶良市",
+      "code": "462250",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
       "name": "うるま市",
       "code": "472131",
       "years": 5,
@@ -1907,6 +1931,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "さいたま市",
       "code": "111007",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "飯能市",
+      "code": "112097",
       "years": 2,
       "range": "R7〜R8（2年度）"
     },

@@ -1,0 +1,12 @@
+{
+  "sourceId": "aira-yosansho-r6",
+  "files": [
+    {
+      "filename": "yosansetumei.pdf",
+      "sha256": "6a3c66b64105b406aceccf4a7b58d03d1f6812ab955404c3ebf8971083da2d77",
+      "bytes": 1363475,
+      "fetchedAt": "2026-10-21T17:02:34.650Z",
+      "fetchedFrom": "https://www.city.aira.lg.jp/zaisei/gyosei/yosan/kohyo/documents/yosansetumei.pdf"
+    }
+  ]
+}

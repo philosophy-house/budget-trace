@@ -26527,6 +26527,36 @@
       "rawSha256": "e71313ca3ef58eca085af4356236ec7a1d6d856aafdffbbbbd5d3d40dc437658"
     },
     {
+      "sourceId": "moka-yosan-r8",
+      "url": "https://www.city.moka.lg.jp/material/files/group/48/sainyuunikaime.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021170454/https://www.city.moka.lg.jp/material/files/group/48/sainyuunikaime.pdf",
+      "waybackTimestamp": "20261021170454",
+      "checkedAt": "2026-10-21T17:05:06.686Z",
+      "sha256Match": true,
+      "waybackBytes": 137043,
+      "rawSha256": "0d9c0eb07ab29663ca016cb5484e5c4e9e5699bd395055776e7894af1ef015d9"
+    },
+    {
+      "sourceId": "moka-yosan-r8",
+      "url": "https://www.city.moka.lg.jp/material/files/group/48/saisyutuni.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021170508/https://www.city.moka.lg.jp/material/files/group/48/saisyutuni.pdf",
+      "waybackTimestamp": "20261021170508",
+      "checkedAt": "2026-10-21T17:05:22.765Z",
+      "sha256Match": true,
+      "waybackBytes": 122832,
+      "rawSha256": "338a299e8eeeeedfe70a5705bad97ba0680f268d71e276e2596833ac92a9f39b"
+    },
+    {
+      "sourceId": "moka-yosan-r8",
+      "url": "https://www.city.moka.lg.jp/shisei/gyozaisei/zaisei_yosan_kessan/yosan/17500.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261021170712/https://www.city.moka.lg.jp/shisei/gyozaisei/zaisei_yosan_kessan/yosan/17500.html",
+      "waybackTimestamp": "20261021170712",
+      "checkedAt": "2026-10-21T17:07:44.057Z"
+    },
+    {
       "sourceId": "moriguchi-shigikai-r8",
       "url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/gikaijimukyoku/1/1/111/1_3/20238.html",
       "kind": "file",

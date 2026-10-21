@@ -3809,6 +3809,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `chita-yosan-gaiyou-${fy}`, muniCode: "232246", muniName: "知多市", prefName: "愛知県", isPref: false,
     })),
+    // ---- 第BB巡（2026-10-22・§13-BB）: 真岡・姶良・飯能・行田・蒲郡 ----
+    // ⚠ 真岡は歳入・歳出が別ファイル（R2 の歳入は 2saisyutu.pdf）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `moka-yosan-${fy}`, muniCode: "092096", muniName: "真岡市", prefName: "栃木県", isPref: false,
+    })),
+    // ⚠ 姶良 R3・R2 は議会修正・出し直しで成立額がスキャンにしか無い（未収録）。R8 は骨格。ライセンスは台帳で要許可・noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `aira-yosansho-${fy}`, muniCode: "462250", muniName: "姶良市", prefName: "鹿児島県", isPref: false,
+    })),
+    // ⚠ 飯能は R8・R7 だけ（R6〜R2 の説明書はスキャン）。noDeepLink
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `hanno-yosan-setsumei-${fy}`, muniCode: "112097", muniName: "飯能市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 行田 R2 は款番号なし。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gyoda-yosan-gaiyou-${fy}`, muniCode: "112062", muniName: "行田市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 蒲郡は規約の本文が引用を承認する条件つきの許諾で unverified（門真と同じ扱い）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gamagori-yosan-gaiyou-${fy}`, muniCode: "232149", muniName: "蒲郡市", prefName: "愛知県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。

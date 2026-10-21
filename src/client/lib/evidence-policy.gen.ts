@@ -22549,6 +22549,174 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "1. 越前市ホームページに掲載している内容（文章、写真、イラスト、画像など）に関する著作権は、越前市に帰属します。2. 当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、越前市の許可なく無断で複製・転用することはできません。",
     "target": "file"
   },
+  "/sources/moka-yosan-r8/sainyuunikaime.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/sainyuunikaime.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r8/saisyutuni.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/saisyutuni.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r7/R7_sainyuyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/R7_sainyuyosan.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r7/R7_saisyutuyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/R7_saisyutuyosan.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r6/6sainyu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/6sainyu.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r6/6saisyutu-2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/6saisyutu-2.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r5/reiwa5nendosainyuuyosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/reiwa5nendosainyuuyosann.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r5/reiwa5nendosaisyutuyosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/reiwa5nendosaisyutuyosann.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r4/002.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/002.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r4/003.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/003.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r3/sainyuu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/sainyuu.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r3/saishutu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/saishutu.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r2/2saisyutu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/2saisyutu.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/moka-yosan-r2/2sa2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.moka.lg.jp/material/files/group/48/2sa2.pdf",
+    "license": "真岡市ホームページに掲載されている画像、文章などの著作権は真岡市に帰属します。「私的使用のための複製」や「引用」など著作権上認められた場合を除き、無断で転用、引用することはできません。",
+    "target": "file"
+  },
+  "/sources/aira-yosansho-r8/r8yosansetsumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aira.lg.jp/zaisei/gyosei/yosan/kohyo/20260217.html",
+    "license": "Copyright © The Official Website of Aira City. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/aira-yosansho-r7/setumeisyo_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aira.lg.jp/zaisei/gyosei/yosan/kohyo/zaisei3.html",
+    "license": "Copyright © The Official Website of Aira City. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/aira-yosansho-r6/yosansetumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aira.lg.jp/zaisei/gyosei/yosan/kohyo/202402140001.html",
+    "license": "Copyright © The Official Website of Aira City. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/aira-yosansho-r5/r5tousyoyosansetumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aira.lg.jp/zaisei/gyosei/yosan/kohyo/202402140002.html",
+    "license": "Copyright © The Official Website of Aira City. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/aira-yosansho-r4/setumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aira.lg.jp/zaisei/gyosei/yosan/kohyo/202402140003.html",
+    "license": "Copyright © The Official Website of Aira City. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/hanno-yosan-setsumei-r8/r8_jikoubetu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hanno.lg.jp/shiseijoho/zaisei/yosan/13185.html",
+    "license": "飯能市ホームページや広報はんのうなど飯能市の発行物に掲載されている文書や画像等の各ファイル、およびその内容に関する諸権利は、飯能市に帰属します(一部の画像等の著作権は、原著作者が所有しています)。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/hanno-yosan-setsumei-r7/r7b01_j_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hanno.lg.jp/shiseijoho/zaisei/yosan/11296.html",
+    "license": "飯能市ホームページや広報はんのうなど飯能市の発行物に掲載されている文書や画像等の各ファイル、およびその内容に関する諸権利は、飯能市に帰属します(一部の画像等の著作権は、原著作者が所有しています)。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/gyoda-yosan-gaiyou-r8/R8tousyoyosannnogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/zaisei/gyomu/gyozaisei/zaisei_yosan/yosan/2957.html",
+    "license": "行田市ホームページに掲載されている文書や画像等の情報及び内容に関しては、著作権の対象になっています。著作権は本市及びページ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。",
+    "target": "page"
+  },
+  "/sources/gyoda-yosan-gaiyou-r7/R7tousyoyosannnogaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/zaisei/gyomu/gyozaisei/zaisei_yosan/yosan/2957.html",
+    "license": "行田市ホームページに掲載されている文書や画像等の情報及び内容に関しては、著作権の対象になっています。著作権は本市及びページ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。",
+    "target": "page"
+  },
+  "/sources/gyoda-yosan-gaiyou-r6/R0604tousyoyosannnogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/zaisei/gyomu/gyozaisei/zaisei_yosan/yosan/2957.html",
+    "license": "行田市ホームページに掲載されている文書や画像等の情報及び内容に関しては、著作権の対象になっています。著作権は本市及びページ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。",
+    "target": "page"
+  },
+  "/sources/gyoda-yosan-gaiyou-r5/R5tousyoyosannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/zaisei/gyomu/gyozaisei/zaisei_yosan/yosan/2957.html",
+    "license": "行田市ホームページに掲載されている文書や画像等の情報及び内容に関しては、著作権の対象になっています。著作権は本市及びページ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。",
+    "target": "page"
+  },
+  "/sources/gyoda-yosan-gaiyou-r4/R4gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/zaisei/gyomu/gyozaisei/zaisei_yosan/yosan/2957.html",
+    "license": "行田市ホームページに掲載されている文書や画像等の情報及び内容に関しては、著作権の対象になっています。著作権は本市及びページ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。",
+    "target": "page"
+  },
+  "/sources/gyoda-yosan-gaiyou-r3/r3gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/zaisei/gyomu/gyozaisei/zaisei_yosan/yosan/2957.html",
+    "license": "行田市ホームページに掲載されている文書や画像等の情報及び内容に関しては、著作権の対象になっています。著作権は本市及びページ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。",
+    "target": "page"
+  },
+  "/sources/gyoda-yosan-gaiyou-r2/r2gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gyoda.lg.jp/soshiki/sougouseisakubu/zaisei/gyomu/gyozaisei/zaisei_yosan/yosan/2957.html",
+    "license": "行田市ホームページに掲載されている文書や画像等の情報及び内容に関しては、著作権の対象になっています。著作権は本市及びページ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。",
+    "target": "page"
+  },
   "/sources/yamanashi-ken-gikai-r8/kaihabetu_meibo.html": {
     "mode": "archive",
     "href": "https://web.archive.org/web/20260209231452id_/https://www.pref.yamanashi.jp/gikaisom/kaihabetu_meibo.html",

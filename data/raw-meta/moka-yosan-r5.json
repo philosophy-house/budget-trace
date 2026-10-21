@@ -1,0 +1,19 @@
+{
+  "sourceId": "moka-yosan-r5",
+  "files": [
+    {
+      "filename": "reiwa5nendosainyuuyosann.pdf",
+      "sha256": "217fa16dca5e0ca4ee2a876c78e574428305cd882dabba735684907ecc0440a5",
+      "bytes": 621158,
+      "fetchedAt": "2026-10-21T17:02:27.126Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/reiwa5nendosainyuuyosann.pdf"
+    },
+    {
+      "filename": "reiwa5nendosaisyutuyosann.pdf",
+      "sha256": "68184d5f7d56eb86d59ac8f654b6cbb58dc74ccd30d978b5d4ee3203253dab89",
+      "bytes": 620195,
+      "fetchedAt": "2026-10-21T17:02:28.124Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/reiwa5nendosaisyutuyosann.pdf"
+    }
+  ]
+}
