@@ -3,7 +3,7 @@
   "sourceId": "kyotanabe-yosansho-r2",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-21T17:13:56.189Z",
+  "parsedAt": "2026-10-21T17:28:22.568Z",
   "unit": "thousandYen",
   "fiscalYear": "R2",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 24480000,
   "prevExpenditureTotal": 24480000,
   "prevBasis": "当初",
-  "prevNote": "前年度（平成31年度）の当初予算は、市長選挙を控えて経常事業や継続事業を中心とした骨格的予算として編成されている（発行元の年度ページ「平成31年度一般会計当初予算の概要」）。前年当初比はその骨格的予算との比較。",
+  "prevNote": "前年度（令和元年度）の当初予算は、市長選挙を控えて経常事業や継続事業を中心とした骨格的予算として編成されている（発行元の年度ページ「平成31年度一般会計当初予算の概要」）。前年当初比はその骨格的予算との比較。",
   "facts": [
     {
       "side": "revenue",

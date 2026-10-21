@@ -74,5 +74,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "薩摩川内市", license: "Copyright (c) 2023 Satsumasendai city. All Rights Reserved." },
   { who: "名取市", license: "Copyright © City of Natori. All Rights Reserved." },
   { who: "牛久市", license: "© CITY OF USHIKU." },
-  { who: "天草市", license: "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。" },
+  { who: "天草市", license: "© 2023 Amakusa City." },
 ];

@@ -13961,5 +13961,5 @@ validate は28ソースで error 0。warning は米沢 R3 の1件だけ（概要
 
 #### 魚拓（2026-10-22 の台帳 `data/archives.json` を sourceId で突合）
 
-26ソース中 **20件が file の sha256 照合済み**（行橋 R8〜R5・碧南6・京田辺7 — SPN が一時的に戻った）、**3件は取得元が WARP**（行橋 R4〜R2）。
-**残る天草6件は未登録**（再試行でも「Unable to connect」）。ユーザーの指示で未登録のまま進めた。⇒ SPN が戻ったら `bun run pipeline:archive amakusa-yosansho-r7`〜`-r2` を直列で。
+26ソース中 **20件が file の sha256 照合済み**（行橋 R8〜R5・碧南6・京田辺7・天草 R7〜R5 — SPN が一時的に戻った）、**3件は取得元が WARP**（行橋 R4〜R2・`archive.ts` が登録対象外にする）。
+**残る天草 R4〜R2 の3件は未登録**（再試行でも「Unable to connect」）。ユーザーの指示で未登録のまま進めた。⇒ SPN が戻ったら `bun run pipeline:archive amakusa-yosansho-r4`〜`-r2` を直列で。

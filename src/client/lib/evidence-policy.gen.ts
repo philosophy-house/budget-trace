@@ -22102,37 +22102,37 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/amakusa-yosansho-r7/3_13019_67143_up_wk1y7kul.pdf": {
     "mode": "origin",
     "href": "https://www.city.amakusa.kumamoto.jp/kiji00313019/3_13019_67143_up_wk1y7kul.pdf",
-    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "license": "© 2023 Amakusa City.",
     "target": "file"
   },
   "/sources/amakusa-yosansho-r6/3_11818_57684_up_6o77ihvx.pdf": {
     "mode": "origin",
     "href": "https://www.city.amakusa.kumamoto.jp/kiji00311818/3_11818_57684_up_6o77ihvx.pdf",
-    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "license": "© 2023 Amakusa City.",
     "target": "file"
   },
   "/sources/amakusa-yosansho-r5/3_10451_47459_up_6wbe8y1e.pdf": {
     "mode": "origin",
     "href": "https://www.city.amakusa.kumamoto.jp/kiji00310451/3_10451_47459_up_6wbe8y1e.pdf",
-    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "license": "© 2023 Amakusa City.",
     "target": "file"
   },
   "/sources/amakusa-yosansho-r4/3_9127_36690_up_gok4bywn.pdf": {
     "mode": "origin",
     "href": "https://www.city.amakusa.kumamoto.jp/kiji0039127/3_9127_36690_up_gok4bywn.pdf",
-    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "license": "© 2023 Amakusa City.",
     "target": "file"
   },
   "/sources/amakusa-yosansho-r3/3_8056_28974_up_evo21bom.pdf": {
     "mode": "origin",
     "href": "https://www.city.amakusa.kumamoto.jp/kiji0038056/3_8056_28974_up_evo21bom.pdf",
-    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "license": "© 2023 Amakusa City.",
     "target": "file"
   },
   "/sources/amakusa-yosansho-r2/3_6793_20443_up_xasip6ks.pdf": {
     "mode": "origin",
     "href": "https://www.city.amakusa.kumamoto.jp/kiji0036793/3_6793_20443_up_xasip6ks.pdf",
-    "license": "© 2023 Amakusa City.（天草市ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "license": "© 2023 Amakusa City.",
     "target": "file"
   },
   "/sources/kitanagoya-yosansho-r8/r8_ippan.pdf": {
