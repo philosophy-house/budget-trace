@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 360,
+  "budgetCount": 370,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2763,
-  "fileCount": 4383,
-  "archivedCount": 2533,
+  "sourceCount": 2827,
+  "fileCount": 4448,
+  "archivedCount": 2567,
   "licenseOpen": 119,
-  "licensePermission": 2573,
+  "licensePermission": 2637,
   "licenseUnverified": 71,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -855,6 +855,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "茂原市",
+      "code": "122106",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "柏市",
       "code": "122173",
       "years": 7,
@@ -1041,6 +1047,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "御殿場市",
+      "code": "222151",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "名古屋市",
       "code": "231002",
       "years": 7,
@@ -1077,8 +1089,26 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "知多市",
+      "code": "232246",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "尾張旭市",
+      "code": "232262",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "日進市",
       "code": "232301",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "北名古屋市",
+      "code": "232343",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1109,6 +1139,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "長浜市",
       "code": "252034",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "守山市",
+      "code": "252077",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1347,8 +1383,20 @@ export const ROADMAP_PROGRESS = {
       "range": "H30〜R8（6年度）"
     },
     {
+      "name": "牛久市",
+      "code": "082198",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "神栖市",
       "code": "082325",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "和光市",
+      "code": "112291",
       "years": 6,
       "range": "R2〜R8（6年度）"
     },
@@ -1391,6 +1439,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "東村山市",
       "code": "132136",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "東大和市",
+      "code": "132209",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -1651,6 +1705,12 @@ export const ROADMAP_PROGRESS = {
       "code": "142140",
       "years": 4,
       "range": "R3〜R8（4年度）"
+    },
+    {
+      "name": "綾瀬市",
+      "code": "142182",
+      "years": 4,
+      "range": "R4〜R8（4年度）"
     },
     {
       "name": "佐久市",

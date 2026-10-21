@@ -8148,6 +8148,25 @@
       "rawSha256": "018e736b103168a4b4d2ef67b62b1c0cef81a9be72edec8e5cda4141126be33a"
     },
     {
+      "sourceId": "higashiyamato-yosan-gaiyo-r6",
+      "url": "https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/009/285/20240214-1009285.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250712101735/https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/009/285/20240214-1009285.pdf",
+      "waybackTimestamp": "20250712101735",
+      "checkedAt": "2026-10-21T16:16:14.061Z",
+      "sha256Match": true,
+      "waybackBytes": 4713479,
+      "rawSha256": "84a821ec95fd91dd162c0f79db5b30e8993d5248a748463a51175e6ede8f7ec2"
+    },
+    {
+      "sourceId": "higashiyamato-yosan-gaiyo-r6",
+      "url": "https://www.city.higashiyamato.lg.jp/shisei/zaisei/1004304/1008904/1009285.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260419012546/https://www.city.higashiyamato.lg.jp/shisei/zaisei/1004304/1008904/1009285.html",
+      "waybackTimestamp": "20260419012546",
+      "checkedAt": "2026-10-21T16:16:17.055Z"
+    },
+    {
       "sourceId": "hikone-kakukaikei-yosan-r8",
       "url": "https://www.city.hikone.lg.jp/material/files/group/108/08-04_kakukaikeiyosan.pdf",
       "kind": "file",
@@ -26049,6 +26068,63 @@
       "rawSha256": "b82f3740efc7383eb313785e5061592c411aae1b0273aa476006aaf261c47280"
     },
     {
+      "sourceId": "mobara-yosansho-r4",
+      "url": "https://www.city.mobara.chiba.jp/0000007077.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20241013033949/https://www.city.mobara.chiba.jp/0000007077.html",
+      "waybackTimestamp": "20241013033949",
+      "checkedAt": "2026-10-21T16:14:40.576Z"
+    },
+    {
+      "sourceId": "mobara-yosansho-r4",
+      "url": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000007/7077/R4yosannshoippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220618234254/https://www.city.mobara.chiba.jp/cmsfiles/contents/0000007/7077/R4yosannshoippan.pdf",
+      "waybackTimestamp": "20220618234254",
+      "checkedAt": "2026-10-21T16:14:39.836Z",
+      "sha256Match": true,
+      "waybackBytes": 2638902,
+      "rawSha256": "463021be0efb3bd4bd68eb8a242239bf84a303bec65a5f180a004d85d1c4cecc"
+    },
+    {
+      "sourceId": "mobara-yosansho-r5",
+      "url": "https://www.city.mobara.chiba.jp/0000007665.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20240713133910/https://www.city.mobara.chiba.jp/0000007665.html",
+      "waybackTimestamp": "20240713133910",
+      "checkedAt": "2026-10-21T16:14:34.505Z"
+    },
+    {
+      "sourceId": "mobara-yosansho-r5",
+      "url": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000007/7665/R5yosannshoippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021161418/https://www.city.mobara.chiba.jp/cmsfiles/contents/0000007/7665/R5yosannshoippan.pdf",
+      "waybackTimestamp": "20261021161418",
+      "checkedAt": "2026-10-21T16:14:33.970Z",
+      "sha256Match": true,
+      "waybackBytes": 2297483,
+      "rawSha256": "017f0e66b31fada51e793197fd2f88d6450cbc6421d842d7e6e5521ef3d0f7c8"
+    },
+    {
+      "sourceId": "mobara-yosansho-r6",
+      "url": "https://www.city.mobara.chiba.jp/0000008287.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250212074928/https://www.city.mobara.chiba.jp/0000008287.html",
+      "waybackTimestamp": "20250212074928",
+      "checkedAt": "2026-10-21T16:14:17.670Z"
+    },
+    {
+      "sourceId": "mobara-yosansho-r6",
+      "url": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000008/8287/R6yosannshoippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021161400/https://www.city.mobara.chiba.jp/cmsfiles/contents/0000008/8287/R6yosannshoippan.pdf",
+      "waybackTimestamp": "20261021161400",
+      "checkedAt": "2026-10-21T16:14:17.140Z",
+      "sha256Match": true,
+      "waybackBytes": 2388632,
+      "rawSha256": "e71313ca3ef58eca085af4356236ec7a1d6d856aafdffbbbbd5d3d40dc437658"
+    },
+    {
       "sourceId": "moriguchi-yosan-gaiyou-r6",
       "url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/kikakuzaiseibu/zaiseika/yosankessann/yosan/reiwa6/16135.html",
       "kind": "landing",
@@ -26562,6 +26638,120 @@
       "waybackUrl": "https://web.archive.org/web/20260823090806/https://www.city.morioka.iwate.jp/shisei/zaisei/suii/1054620/1056173.html",
       "waybackTimestamp": "20260823090806",
       "checkedAt": "2026-09-14T13:34:41.967Z"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r3",
+      "url": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/003/680/gaiyou1.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240217215634/https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/003/680/gaiyou1.pdf",
+      "waybackTimestamp": "20240217215634",
+      "checkedAt": "2026-10-21T16:13:06.767Z",
+      "sha256Match": true,
+      "waybackBytes": 696856,
+      "rawSha256": "25074995a0d8f85cf8e48b66260ed59b311548bf723192c63ae3bdaea35faa06"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r3",
+      "url": "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1003680.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20240217215601/https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1003680.html",
+      "waybackTimestamp": "20240217215601",
+      "checkedAt": "2026-10-21T16:13:07.130Z"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r4",
+      "url": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/003/678/part12022.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240325235642/https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/003/678/part12022.pdf",
+      "waybackTimestamp": "20240325235642",
+      "checkedAt": "2026-10-21T16:13:03.905Z",
+      "sha256Match": true,
+      "waybackBytes": 770997,
+      "rawSha256": "d79c3675581618c6c48f7d61f79d0e4a82ca4a10d1fce3f648f8c7fab693ed16"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r4",
+      "url": "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1003678.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20240325234618/https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1003678.html",
+      "waybackTimestamp": "20240325234618",
+      "checkedAt": "2026-10-21T16:13:04.281Z"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r5",
+      "url": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/006/039/gaiyou1_1.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240406044538/https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/006/039/gaiyou1_1.pdf",
+      "waybackTimestamp": "20240406044538",
+      "checkedAt": "2026-10-21T16:13:00.748Z",
+      "sha256Match": true,
+      "waybackBytes": 838965,
+      "rawSha256": "ee3813d0603926cb43cae9187fd6cf54922a9885ab1329d31f6f6411fcddeb4b"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r5",
+      "url": "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1006039.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20240406044248/https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1006039.html",
+      "waybackTimestamp": "20240406044248",
+      "checkedAt": "2026-10-21T16:13:01.329Z"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r6",
+      "url": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/009/788/r6gaiyou1.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250221094241/https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/009/788/r6gaiyou1.pdf",
+      "waybackTimestamp": "20250221094241",
+      "checkedAt": "2026-10-21T16:12:57.608Z",
+      "sha256Match": true,
+      "waybackBytes": 1380198,
+      "rawSha256": "91a6aaaba8e4cbd3ded32609291de3bafd33ca38540d0a54a0b8bf5b1f7a0b4c"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r6",
+      "url": "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1009788.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250221093900/https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1009788.html",
+      "waybackTimestamp": "20250221093900",
+      "checkedAt": "2026-10-21T16:12:57.972Z"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r7",
+      "url": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/011/417/siryou2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250221093908/https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/011/417/siryou2.pdf",
+      "waybackTimestamp": "20250221093908",
+      "checkedAt": "2026-10-21T16:12:54.885Z",
+      "sha256Match": true,
+      "waybackBytes": 1345049,
+      "rawSha256": "8d112edc8b6481e235e46865297eaa1d3dd0117ec9cc60d2e72672215be67e0e"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r7",
+      "url": "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1011417.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20250221094034/https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1011417.html",
+      "waybackTimestamp": "20250221094034",
+      "checkedAt": "2026-10-21T16:12:55.385Z"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r8",
+      "url": "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/014/776/r8_gaiyo1.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261007144949/https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/014/776/r8_gaiyo1.pdf",
+      "waybackTimestamp": "20261007144949",
+      "checkedAt": "2026-10-21T16:12:40.035Z",
+      "sha256Match": true,
+      "waybackBytes": 1944070,
+      "rawSha256": "9f5cc5952f4f655535b8444f12d9e4dfe3f40b8ed761fb5794ae3ef45e45a818"
+    },
+    {
+      "sourceId": "moriyama-yosan-gaiyou-r8",
+      "url": "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1014776.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261007102633/https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1014776.html",
+      "waybackTimestamp": "20261007102633",
+      "checkedAt": "2026-10-21T16:12:40.505Z"
     },
     {
       "sourceId": "munakata-yosansho-r2",
