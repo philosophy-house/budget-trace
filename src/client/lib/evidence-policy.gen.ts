@@ -6831,9 +6831,9 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   },
   "/sources/sendai-yosansho-r8/1_r8tousho_mokuji.pdf": {
     "mode": "origin",
-    "href": "https://www.city.sendai.jp/yosandaichi/shise/zaise/zaimu/zaise/sendaishi/yosan/r8terekai/r8-1/index/index/documents/1_r8tousho_mokuji.pdf",
+    "href": "https://www.city.sendai.jp/yosandaichi/shise/zaise/zaimu/zaise/sendaishi/yosan/r8terekai/r8-1/index/index/yosansetumei.html",
     "license": "仙台市ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、仙台市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、仙台市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/sakai-yosansho-r8/R8-2yosannannsetsumeisiryou.pdf": {
     "mode": "origin",
@@ -16066,79 +16066,79 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/iruma-yosansho-r8/r8gaiyou_hyoushi_etc_2.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/r8gaiyou_hyoushi_etc_2.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-r7/03r7jikkoubetumeisaisokatu.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/03r7jikkoubetumeisaisokatu.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-r6/meisai06.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/meisai06.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-r5/29R5_gaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/29R5_gaiyou.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-r4/R4gaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/R4gaiyou.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-r3/R3gaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/R3gaiyou.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-r2/R2-gaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/R2-gaiyou.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-h31/31gaiyou_s.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/31gaiyou_s.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-h30/H30gaiyou_boutou.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/H30gaiyou_boutou.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-h29/29gaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/29gaiyou.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-h28/H28_gaiyou02.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/H28_gaiyou02.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-h27/H27gaiyou_ippannkaikei.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/H27gaiyou_ippannkaikei.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/iruma-yosansho-h26/H26gaiyou_ippannkaikei.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/7/H26gaiyou_ippannkaikei.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。",
     "target": "file"
   },
   "/sources/toda-yosan-gaiyou-r8/78136.pdf": {
@@ -20661,15 +20661,15 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   },
   "/sources/fuefuki-gikai-r8/kaihaitiran.pdf": {
     "mode": "origin",
-    "href": "https://www.city.fuefuki.yamanashi.jp/documents/1142/kaihaitiran.pdf",
+    "href": "https://www.city.fuefuki.yamanashi.jp/gikai/shisejoho/shigikai/ginmebo/index.html",
     "license": "このウェブサイトに掲載または表示されている写真・図面、動画等の表現物などの全部または一部を（「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き）引用又は転載しようとする者は、引用転載許可申請書（ワード：24KB）を市長へ提出していただきます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/fuefuki-gikai-r8/r81giketuitirann.pdf": {
     "mode": "origin",
-    "href": "https://www.city.fuefuki.yamanashi.jp/documents/11778/r81giketuitirann.pdf",
+    "href": "https://www.city.fuefuki.yamanashi.jp/gikai/shisejoho/shigikai/ginmebo/index.html",
     "license": "このウェブサイトに掲載または表示されている写真・図面、動画等の表現物などの全部または一部を（「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き）引用又は転載しようとする者は、引用転載許可申請書（ワード：24KB）を市長へ提出していただきます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/minami-alps-gikai-r8/______R8.1.9__.pdf": {
     "mode": "origin",
@@ -23284,19 +23284,19 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/iruma-shigikai-r8/gikai214.pdf": {
     "mode": "origin",
     "href": "https://www.city.iruma.saitama.jp/material/files/group/50/gikai214.pdf",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。",
     "target": "file"
   },
   "/sources/iruma-shigikai-r8/g07_Giketsu_View.asp_SrchID_3262_Sflg_2_kword1_kword2_.html": {
     "mode": "origin",
     "href": "https://www3.city.iruma.saitama.jp/voices/g07_Giketsu_View.asp?SrchID=3262&Sflg=2&kword1=&kword2=",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。",
     "target": "file"
   },
   "/sources/iruma-shigikai-r8/voiweb.exe_f5550cf4d79c.html": {
     "mode": "origin",
     "href": "https://www3.city.iruma.saitama.jp/voices/cgi/voiweb.exe?ACT=203&KENSAKU=0&SORT=0&KTYP=0,1,2,3&KGTP=1&FYY=2026&TYY=2026&TITL_SUBT=%97%DF%98a%81@%82W%94N%81@%81@%82R%8C%8E%81@%92%E8%97%E1%89%EF%81i%91%E6%82P%89%F1%81j%81%7C03%8C%8E16%93%FA-07%8D%86&HUID=243686&KGNO=515&FINO=1929&HATSUGENMODE=1&HYOUJIMODE=0&STYLE=0",
-    "license": "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。",
+    "license": "入間市公式ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、入間市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、入間市の許可・承諾を得ないままほかのメディアへ転載・引用することはお断りします。／「掲載情報等の転載について」: 入間市公式ホームページに掲載されている情報や画像等の転載を希望する場合は、必ず転載の承認を得てください。入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。",
     "target": "file"
   },
   "/sources/asaka-shigikai-r8/iinkaimeibo2023.html": {

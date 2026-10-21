@@ -1,8 +1,13 @@
 // 「発行元が利用を許諾していない」と人が判断したライセンス原文の台帳（2026-10-21・#293）。
 //
-// ライセンス区分（derive-app-data.ts の `licenseClassOf`）は原文の語彙で決まる。禁止・許可の述語が
+// ライセンス区分（derive-app-data.ts の `licenseClassOf`）は原文の語彙で決まる。利用を認める述語が
 // 1つも無い原文 — 市サイトに著作権・利用条件の条項が無くフッターの `Copyright … All rights reserved`
-// だけの市、権利の所在や問い合わせ先だけを述べる市 — は語彙に当たらず `unverified` に落ちる。
+// だけの市、権利の所在だけを述べる市、転載の前に問い合わせ・届け出・許可申請を求めるだけの市 — は
+// 語彙に当たらず `unverified` に落ちる。
+// ⚠ 笛吹市議会の「引用転載許可申請書…を市長へ提出」は許可の要求そのものだが、語彙（`許可申請`）を足すと
+//   全 registry の実測が要るので、ここに載せて閉じている。語彙を足すときはこの行を外す（derive が「要らない行」で知らせる）。
+// ⚠ 松阪の「二次利用に際しては…侵害しないよう、ご注意ください」は四日市と冒頭が同じだが、引用の条件も
+//   「認める」述語も無いので閉じる側（四日市は引用の条件を示すので台帳の外）。
 // ⚠ **`unverified` は画面では open と同じ経路**（自サーバーの原本コピーを開く）なので、
 // 放っておくと**開ける側へ倒れる**。
 //
@@ -31,8 +36,6 @@ export interface NoGrantLicense {
 
 export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "鴻巣市", license: "© 2023 Konosu City（鴻巣市公式ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（2026-09-25 時点で確認）。" },
-  { who: "入間市", license: "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。" },
-  { who: "入間市", license: "Copyright (c) 2023 Iruma City. All Rights Reserved.（入間市公式ホームページ フッター）。著作権・二次利用に関する規約のページは市サイトに存在しない（2026-09-10 時点で確認）。入間市議会情報公開システムのフッターは「Copyright © 2008- Iruma City Council. All Rights Reserved.」。" },
   { who: "野田市", license: "Copyright © City Noda, All Rights Reserved." },
   { who: "富山市", license: "本サイトに掲載している著作物（文章・画像・映像・音声・イラストなど）及び、プログラムにかかわる著作権は、富山市または原著作者に帰属します。" },
   { who: "北杜市", license: "Copyright(C) Hokuto City All Rights Reserved." },
