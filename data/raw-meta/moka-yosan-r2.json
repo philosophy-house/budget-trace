@@ -1,0 +1,19 @@
+{
+  "sourceId": "moka-yosan-r2",
+  "files": [
+    {
+      "filename": "2saisyutu.pdf",
+      "sha256": "f37b7aeeb6292531fb37a80a51345eb371dcce633e2febce23182d32c5e69a8e",
+      "bytes": 88536,
+      "fetchedAt": "2026-10-21T17:02:31.541Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/2saisyutu.pdf"
+    },
+    {
+      "filename": "2sa2.pdf",
+      "sha256": "8e6cfd8796bd5eda67aaeedd4d699fe11523c6c6b1713bedc6c4f20fc40745bb",
+      "bytes": 69211,
+      "fetchedAt": "2026-10-21T17:02:32.145Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/2sa2.pdf"
+    }
+  ]
+}

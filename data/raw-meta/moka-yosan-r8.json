@@ -1,0 +1,19 @@
+{
+  "sourceId": "moka-yosan-r8",
+  "files": [
+    {
+      "filename": "sainyuunikaime.pdf",
+      "sha256": "0d9c0eb07ab29663ca016cb5484e5c4e9e5699bd395055776e7894af1ef015d9",
+      "bytes": 137043,
+      "fetchedAt": "2026-10-21T17:02:22.417Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/sainyuunikaime.pdf"
+    },
+    {
+      "filename": "saisyutuni.pdf",
+      "sha256": "338a299e8eeeeedfe70a5705bad97ba0680f268d71e276e2596833ac92a9f39b",
+      "bytes": 122832,
+      "fetchedAt": "2026-10-21T17:02:22.954Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/saisyutuni.pdf"
+    }
+  ]
+}

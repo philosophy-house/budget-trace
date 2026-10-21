@@ -2253,4 +2253,28 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://warp.ndl.go.jp/20220809/20220808141731/https://www.city.sabae.fukui.jp/about_city/yosan_kessan_kansa/yosan/2020tousyo.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-76",
   },
+  {
+    // 姶良市（462250）R3・R2。R8〜R4 は収録済み（§13-77）。
+    // R3: 原案 32,047,000（予算書 2021-02-16 提出）を議案第37号（2021-03-29 提出・32,519,148）で出し直して成立。成立額の款別は修正箇所の
+    //   syuseisetumei.pdf・syuseiyosan.pdf・syuseigaiyou.pdf（いずれもスキャン画像に取り消し線と修正値）だけ。r3_tosyo_yosangaiyou.pdf は原案。R3 の年度ページの setumei.pdf は R4 に上書き。
+    // R2: 説明書 r2yosannsetumeisyo.pdf は議会修正前の原案 32,069,000、成立額 32,058,481。修正分 r2seumeisyosyuusei.pdf・r2yosannsyosyuusei.pdf はスキャン画像。
+    code: "462250", name: "姶良市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["format-mismatch", "scanned-image"],
+    reason:
+      "当初予算が議会で修正（令和2年度）または出し直し（令和3年度）されて成立したが、文字として読める款別の表は修正前の原案のもの。" +
+      "成立した額の款別は、原案の額に修正値を書き加えたスキャン画像にしか載っておらず、文字として取り出せない。",
+    url: "https://www.city.aira.lg.jp/zaisei/gyosei/yosan/kohyo/jokyo.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-77",
+  },
+  {
+    // 飯能市（112097）R6〜R2。R8・R7 は収録済み（§13-77）。
+    // 説明書 r6b01_j_ippan.pdf・r5b01_j_ippan.pdf・273440f074c4b.pdf（R4）・22949b2aadfdb.pdf（R3）・187793c28e22c.pdf（R2）は pdftotext 186〜193 文字・フォント0（R6 は CCITT 400dpi の画像）。
+    // R6 の予算参考資料 r6c00_sankou2.pdf の款別表は金額順で「その他」に括り、使用料と手数料も合算。
+    code: "112097", name: "飯能市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算に関する説明書（款ごとの前年度比較が載る総括を含む）が紙をスキャンした画像だけの PDF で、文字として取り出せない。",
+    url: "https://www.city.hanno.lg.jp/shiseijoho/zaisei/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-77",
+  },
 ];

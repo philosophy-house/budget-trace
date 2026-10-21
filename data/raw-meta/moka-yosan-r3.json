@@ -1,0 +1,19 @@
+{
+  "sourceId": "moka-yosan-r3",
+  "files": [
+    {
+      "filename": "sainyuu.pdf",
+      "sha256": "f1e57aa5a8abc7ed42f680b9befbae413b0c3ab71c7b53a84879719baaac3f2e",
+      "bytes": 86578,
+      "fetchedAt": "2026-10-21T17:02:30.117Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/sainyuu.pdf"
+    },
+    {
+      "filename": "saishutu.pdf",
+      "sha256": "9e64443db6d47787b70dccc26135c1f3da92f5271379a8a6fe67e5d1e1b71c1a",
+      "bytes": 69527,
+      "fetchedAt": "2026-10-21T17:02:30.578Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/48/saishutu.pdf"
+    }
+  ]
+}
