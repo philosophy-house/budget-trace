@@ -3809,7 +3809,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `chita-yosan-gaiyou-${fy}`, muniCode: "232246", muniName: "知多市", prefName: "愛知県", isPref: false,
     })),
-    // ---- 第BB巡（2026-10-22・§13-BB）: 真岡・姶良・飯能・行田・蒲郡 ----
+    // ---- 第69巡（2026-10-22・§13-76）: 真岡・姶良・飯能・行田・蒲郡 ----
     // ⚠ 真岡は歳入・歳出が別ファイル（R2 の歳入は 2saisyutu.pdf）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `moka-yosan-${fy}`, muniCode: "092096", muniName: "真岡市", prefName: "栃木県", isPref: false,
