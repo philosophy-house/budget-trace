@@ -267,6 +267,14 @@ const OBU_LICENSE =
   "大府市公式ウェブサイトに掲載されています情報（文章、写真、イラストなど）の著作権は、原則として大府市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。 大府市公式ウェブサイトの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、大府市の許可なく複製・転用することはできません。";
 const KANUMA_LICENSE =
   "本サイト上の文書や写真、画像等の各ファイル、及びその内容に関する諸権利は、原則として鹿沼市に帰属します。 また、一部の画像等の著作権は、原著作者が所有しています。 著作権法上認められている行為を除き、鹿沼市の許可なく、本サイト上の文書・画像等の無断使用・転載を禁止します。";
+const MORIYAMA_LICENSE =
+  "守山市公式ウェブサイト（ホームページ）に掲載されている文書や画像等の各ファイルおよびその内容に関するすべての権利は、原則として守山市に帰属し、法律等によって保護されています。これらの情報を、私的使用その他法律で認める範囲を超えて権利者の許可なく複製、転用することは、法律で禁止されています。";
+const WAKO_LICENSE =
+  "和光市ホームページに掲載される記事、画像、データ類の著作権は、和光市、又はその情報提供者に帰属します。また、その全てについて、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、和光市の許可・承諾を得ないままほかの媒体へ転載することはお断りします。／「情報などの転載について」: 和光市ホームページに掲載されている情報や画像などの転載を希望する場合は、必ず転載の許可を得てください。なお、版権などの問題により、一部の画像などについては転載を認められない場合がありますのでご了承ください。";
+const HIGASHIYAMATO_LICENSE =
+  "本ホームページに掲載されているデジタルコンテンツの著作権は東大和市に帰属します。また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、東大和市が許可を得て使用しています。したがって、本ホームページに掲載されている文書や画像等の各ファイル及び内容の無断使用及び転載はご遠慮ください。";
+const MOBARA_LICENSE =
+  "本サイトに掲載するコンテンツ（テキスト・画像・PDF等）に関する著作権は、原則として茂原市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用・引用・複製などをすることは出来ません。";
 const JOETSU_LICENSE =
   "上越市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、上越市に帰属します。また一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書、画像などの無断使用・転載、二次利用を禁止します。著作権法上の「私的使用」や「引用」の範囲を越えて、当ホームページの情報の使用を希望する場合は事前に広報対話課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。";
 const CHITOSE_LICENSE =
@@ -24282,6 +24290,188 @@ export const SOURCES: SourceEntry[] = [
     },
   } satisfies SourceEntry)),
 
+  // ---- 第58巡（2026-10-22・§13-62）: 守山・茂原・北名古屋・東大和・和光 ----------------
+
+  // 守山市（滋賀県・団体コード 252077 ＝ 総務省 R6.json から実引き）。「当初予算の概要1」の「一般会計歳入予算調書（総括）」物理 p.4／
+  //   「一般会計歳出予算調書（目的別）」物理 p.7（R8〜R2 で共通。p.8 は性質別で見出しが同じなのでページで区別する）。千円。
+  //   歳入22款（R2 は皆減の自動車取得税交付金を含め23）・歳出12款（原典の表記は `農水産業費`・`寄付金`）。
+  //   列は [当年度, 特定財源, 一般財源, 前年度, …] ⇒ `amountIntIndex: 0`・`prevIntIndex: 3`。款番号なし ⇒ `kanNoless`。
+  //   内訳行（普通交付税・特別交付税・建設事業債・臨時財政対策債）は字下げ5〜6 ⇒ `kanIndentMax: 4`（款は4。余裕は1桁）。
+  // ⚠⚠ 縦書きの表側「歳／入／出」が款名の頭に付く（`歳地方交付税`・`入国庫支出金`・`歳農水産業費`・`出土木費`）。**Σ 差0 のまま**＝静かに壊れる ⇒ `kanNamePrefixStrip`。
+  // ⚠ R4・R3 は「うちコロナウイルス感染症対策地方税減収補填特別交付金」、R2 は「うち子ども・子育て支援臨時交付金」が款と同じ字下げ ⇒ `revenueHeaderExtra`
+  //   （無いと R4・R2 は前年度 Σ だけが割れる＝warning 止まりで流れうる型）。
+  // ⚠⚠ R2 は現行サイトの年度ページ（1003682.html）の gaiyou1.pdf が **R3 のファイル**（md5 一致・中身は「令和３年度当初予算概要」）⇒ WARP 20200819 の旧サイト版を使う。
+  // 骨格予算: **R5**（R5「当初予算案のポイント」物理 p.2「…令和５年度当初予算は骨格的予算としています。」）⇒ skeleton-budgets.ts・R6 に `prevNote`。
+  // 前年度列は当初（R8←R7 から R3←R2 まで款単位全一致。R6 の前年度 33,480,000 は R5 骨格の当初額）。
+  // 総額突合: R6 当初 35,500,000 ÷ 総務省 R6 決算歳出 37,108,151 = 95.7%。
+  // ライセンス: 「個人情報・著作権・リンク・免責事項」（/about/1004962.html・確認日 2026-10-22）＝要許可。
+  //   リンクは「トップページをリンクに設定することは自由です（リンク先はトップページとしてください）」＝§11h 第2群（否定句なし）⇒ `noDeepLink: true`。
+  // ⚠ 主な事業（「当初予算の概要2」・款→項→目のコードで全事業）は別の巡（docs §13-62）。事業報告はウェブ未掲載。
+  ...([
+    ["R8", "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/014/776/r8_gaiyo1.pdf", "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1014776.html", {}],
+    ["R7", "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/011/417/siryou2.pdf", "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1011417.html", {}],
+    ["R6", "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/009/788/r6gaiyou1.pdf", "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1009788.html", {
+      prevNote: "前年度（令和5年度）の当初予算は骨格的予算として編成されている（発行元の別資料「令和５年度当初予算案のポイント」）。前年当初比はその骨格的予算との比較。",
+    }],
+    ["R5", "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/006/039/gaiyou1_1.pdf", "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1006039.html", {}],
+    ["R4", "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/003/678/part12022.pdf", "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1003678.html", { revenueHeaderExtra: "うちコロナ|減収補填特別交付金" }],
+    ["R3", "https://www.city.moriyama.lg.jp/_res/projects/default_project/_page_/001/003/680/gaiyou1.pdf", "https://www.city.moriyama.lg.jp/shiseijouhou/zaisei/1003673/1003680.html", { revenueHeaderExtra: "うちコロナ|減収補填特別交付金" }],
+    ["R2", "https://warp.ndl.go.jp/20200819/20200817085712/https://www.city.moriyama.lg.jp/zaisei/documents/gaiyou1.pdf", "https://warp.ndl.go.jp/20200819/20200817085712/https://www.city.moriyama.lg.jp/zaisei/20200401reiwa2nenndoyosan.html", { revenueHeaderExtra: "うち子ども" }],
+  ] as const).map(([fy, url, landing, extra]) => ({
+    id: `moriyama-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 守山市当初予算概要（一般会計歳入予算調書（総括）・歳出予算調書（目的別））`,
+    publisher: "守山市",
+    url,
+    landingPage: landing,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "守山市（一般会計・団体コード252077）",
+    license: MORIYAMA_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 4, expenditurePage: 7, revenueHeading: "歳入予算調書", expenditureHeading: "歳出予算調書",
+      kanNoless: true, amountIntIndex: 0, prevIntIndex: 3, kanIndentMax: 4, kanNamePrefixStrip: "歳入出", ...extra,
+    },
+  } satisfies SourceEntry)),
+
+  // 和光市（埼玉県・団体コード 112291 ＝ 総務省 R6.json から実引き）。「令和N年度予算の概要」p.5「一般会計歳入予算概要」／p.6「一般会計歳出予算概要」（印字＝物理）。千円。
+  //   歳入23款（R2 は廃止款 自動車取得税交付金を含め24）・歳出13款。R8〜R2 とも同じページ・同じ指定。
+  // ⚠⚠ **R6 は議会修正**（年度ページ「令和6年和光市議会3月定例会において、一般会計当初予算（案）の修正があり…」・概要は「原案に基づき作成」）。
+  //   原案 31,850,000 に対し修正後 31,248,000（R7 の前年度列）。修正版 PDF（r6ippanshusei.pdf）の総括はスキャン画像に赤字の修正値だけを重ねたもの ⇒ R6 は unrecordable.ts（宇都宮 R3 と同じ扱い）。
+  // ⚠ 予算書本体の総括 p.24/25 は R8・R7 だけテキスト層（R6〜R2 はスキャン＋OCR で数字が縦に割れる）。予算書ルートは歳出款6 が「農林水産」で切れたまま Σ 差0 で通るので使わない。
+  // 前年度列は当初（列見出し「前年度予算額」。R8/R7・R5/R4・R4/R3・R3/R2 の鎖で款単位全一致。R7 の前年度列は R6 の修正後当初）。
+  // 骨格予算: 概要7冊に「骨格」「改選」「計上を留保」「肉付」は R4 の「行政運営の骨格となる」1件だけ（骨格予算の意味ではない）。
+  // 総額突合: R6 当初（修正後）31,248,000 ÷ 総務省 R6 決算歳出 33,939,925 = 92.1%。
+  // ライセンス: サイトポリシー（/about/1000293.html・確認日 2026-10-22）＝要許可。リンクは「原則として自由です…リンクに対してのご連絡は不要です」⇒ `noDeepLink` は立てない。
+  // ⚠ 主な事業（主要事業の概要・様式が年ごとに違う）と事業報告（主要な施策の成果と予算執行の実績報告書）は別の巡（docs §13-62）。
+  ...([
+    ["R8", "001/013/206/r8yosangaiyou.pdf", "1013205/1013206"],
+    ["R7", "001/011/957/r7yosannogaiyou.pdf", "1011956/1011957"],
+    ["R5", "001/006/868/123210112010.pdf", "1006867/1006868"],
+    ["R4", "001/006/871/2022216144137.pdf", "1006870/1006871"],
+    ["R3", "001/006/874/2021215162146.pdf", "1006873/1006874"],
+    ["R2", "001/006/877/2020220102925.pdf", "1006876/1006877"],
+  ] as const).map(([fy, file, slug]) => ({
+    id: `wako-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 和光市予算の概要（一般会計歳入・歳出予算概要）`,
+    publisher: "和光市",
+    url: `https://www.city.wako.lg.jp/_res/projects/default_project/_page_/${file}`,
+    landingPage: `https://www.city.wako.lg.jp/shisei/zaisei/1006866/${slug}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "和光市（一般会計・団体コード112291）",
+    license: WAKO_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 5,
+      expenditurePage: 6,
+      revenueHeading: "一般会計歳入予算概要",
+      expenditureHeading: "一般会計歳出予算概要",
+    },
+  } satisfies SourceEntry)),
+
+  // 東大和市（東京都・団体コード 132209 ＝ 総務省 R6.json から実引き）。「予算概要」の「２ 一般会計（２）歳入歳出予算 ①総括表」。千円。
+  //   歳入22款・歳出13款（款名は原典どおり `農林業費`・`都支出金`）。1ページに歳入・歳出を縦に積む（`samePage`・合計ラベルは両側 `合計`）。
+  //   物理ページ: R8 13（印字11）・R7/R6 12（印字10）・R5/R4/R3 14（印字12）。直前のページの「予算の編成過程」は別の表なので取り違えない。
+  // ⚠⚠ R3 は行間に空行が無く、表題 `①総括表` が款1 に付き（`①総括表市税`）、財源内訳の見出し `一般財源` が歳出の款1 に付く（`一般財源議会費`）。
+  //   **どちらも Σ 差0 のまま**（静かに壊れる）⇒ HeaderExtra を全年度に付ける（R8〜R4 では無害）。
+  // ⚠ 予算書の「歳入歳出予算事項別明細書 総括」（別 PDF）は数字フォントに ToUnicode が無く金額が抽出できない（R5 だけ可）＝使わない。
+  // ⚠ R2 は概要・参考資料ともスキャン画像で、予算書の総括も数字が無い ⇒ unrecordable.ts。
+  // 前年度列は当初（R8→R3 の5リンクで款単位全一致）。骨格予算: R8〜R3 の概要に「骨格」「計上を留保」「肉付」は0件。
+  // 総額突合: R6 当初 34,829,000 ÷ 総務省 R6 決算歳出 37,645,851 = 92.5%。
+  // ライセンス: 「ご利用にあたって」（/about/1006166.html・確認日 2026-10-22）＝要許可。
+  //   リンクは「自由にご利用いただけますが…リンク先URLを「https://www.city.higashiyamato.lg.jp」に設定してくださるようお願いします」＝§13-4 の福山型（自由＋依頼形）⇒ `noDeepLink` は立てない。
+  // ⚠ 主な事業（概要の「一般会計予算における主な事業」）と事業報告（行政報告書・行政評価）は別の巡（docs §13-62）。
+  ...([
+    ["R8", "011/885/20260212.pdf", "1011420/1011885", 13],
+    ["R7", "010/521/1010521-01.pdf", "1010374/1010521", 12],
+    ["R6", "009/285/20240214-1009285.pdf", "1008904/1009285", 12],
+    ["R5", "007/311/2023214-120002.pdf", "1007308/1007311", 14],
+    ["R4", "004/308/20220214-133031.pdf", "1004305/1004308", 14],
+    ["R3", "004/314/20210209-1124332.pdf", "1004311/1004314", 14],
+  ] as const).map(([fy, file, slug, page]) => ({
+    id: `higashiyamato-yosan-gaiyo-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 東大和市予算概要（一般会計 歳入歳出予算 総括表）`,
+    publisher: "東大和市",
+    url: `https://www.city.higashiyamato.lg.jp/_res/projects/default_project/_page_/001/${file}`,
+    landingPage: `https://www.city.higashiyamato.lg.jp/shisei/zaisei/1004304/${slug}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "東大和市（一般会計・団体コード132209）",
+    license: HIGASHIYAMATO_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: page,
+      expenditurePage: page,
+      samePage: true,
+      revenueHeading: "【歳入】",
+      expenditureHeading: "【歳出】",
+      revenueTotalLabel: "合計",
+      expenditureTotalLabel: "合計",
+      revenueHeaderExtra: "総括表",
+      expenditureHeaderExtra: "一般財源",
+    },
+  } satisfies SourceEntry)),
+
+  // 茂原市（千葉県・団体コード 122106 ＝ 総務省 R6.json から実引き）。千円。歳入23款・歳出12款。
+  //   R8〜R4 は予算書（一般会計の分冊）の「歳入歳出予算事項別明細書 １．総括」。R3・R2 は予算書がスキャン画像（フォント0）のため「当初予算の概要」の「① 歳入」「③ 歳出（目的別）」。
+  //   物理ページ: R8 19/20・R7 8/9（A3 見開き）・R6 20/21・R5 9/10（A3）・R4 20/21・概要 R3/R2 6/10。
+  // ⚠⚠ R8 の予算書は数字だけ ToUnicode 欠落（制御文字＝真の字−0x1D）⇒ `decodeGarble`（無いと「款行が1件も抽出できませんでした」で throw）。
+  //   R8 の Last-Modified は 2026-10-19（公開後に差し替えの可能性）。R8 の概要（テキスト層は健全）と全35款が一致することは偵察で実測。
+  // ⚠⚠ R7・R5 は A3 見開きで歳出の総括に財源内訳列がある。`expenditureHeaderExtra` が無いと **Σ 差0 のまま**款1 が `一般財源国県支出金地方債その他議会費`（静かに壊れる）。
+  // 骨格予算: **R6 と R2**（どちらも概要の表紙に「（骨格予算）」）⇒ skeleton-budgets.ts。R7 は前年度列が R6 の骨格当初なので `prevNote`。
+  //   R3 の前年度列は「令和2年度6月補正後」（5月補正1・2号は控除。原典の注記）⇒ `prevBasis: "補正後"`。
+  // 前年度列は R8〜R4 が当初（R8↔R7↔R6↔R5↔R4↔R3 の5リンクで全35款一致）。R2 の前年度列 30,051,395 は H31 当初（H31 概要の会計別表と一致）。
+  // 総額突合: R6 当初 32,100,000 ÷ 総務省 R6 決算歳出 34,924,198 = 91.9%（R6 は骨格）。
+  // ライセンス: 「茂原市公式ウェブサイトについて」（/site_policy/0000000007.html・確認日 2026-10-22）＝要許可。リンクは「原則的にはリンクフリー」＋フレーム禁止のみ（第3群）⇒ `noDeepLink` は立てない。
+  // ⚠ 主な事業（概要の「５．主要事業」）と事業報告（3か年事務事業戦略シート）は別の巡（docs §13-62）。
+  ...([
+    ["R8", "0000009/9365/R8yosannshoippan.pdf", "0000009365", { revenuePage: 19, expenditurePage: 20, decodeGarble: true }],
+    ["R7", "0000008/8855/R7yosannshoippan.pdf", "0000008855", {
+      revenuePage: 8, expenditurePage: 9, expenditureHeaderExtra: "一般財源|国県支出金地方債",
+      prevNote: "前年度（令和6年度）の当初予算は骨格予算として編成されている（発行元の別資料「令和6年度当初予算の概要」の表紙に「（骨格予算）」）。前年当初比はその骨格予算との比較。",
+    }],
+    ["R6", "0000008/8287/R6yosannshoippan.pdf", "0000008287", { revenuePage: 20, expenditurePage: 21 }],
+    ["R5", "0000007/7665/R5yosannshoippan.pdf", "0000007665", { revenuePage: 9, expenditurePage: 10, expenditureHeaderExtra: "一般財源|国県支出金地方債" }],
+    ["R4", "0000007/7077/R4yosannshoippan.pdf", "0000007077", { revenuePage: 20, expenditurePage: 21 }],
+  ] as const).map(([fy, path, landing, opts]) => ({
+    id: `mobara-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 茂原市予算書（一般会計 歳入歳出予算事項別明細書 総括）`,
+    publisher: "茂原市",
+    url: `https://www.city.mobara.chiba.jp/cmsfiles/contents/${path}`,
+    landingPage: `https://www.city.mobara.chiba.jp/${landing}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "茂原市（一般会計・団体コード122106）",
+    license: MOBARA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: { revenueHeading: "総括", expenditureHeading: "歳出", ...opts },
+  } satisfies SourceEntry)),
+  ...([
+    ["R3", "0000006/6441/R3toushogaioyou.pdf", "0000006441", {
+      prevBasis: "補正後" as const,
+      prevNote: "前年度列は令和2年度6月補正後の予算額（原典の注記「※令和2年度一般会計当初予算は骨格予算であったため、令和2年6月補正後予算を使用して増減額、増減率を算出した。ただし、令和2年5月に行った補正予算（1号）及び（2号）は控除している。」）。",
+    }],
+    ["R2", "0000005/5775/R2toushogaiyou.pdf", "0000005775", {
+      prevNote: "本年度（令和2年度）の当初予算は骨格予算として編成されている（原典の表紙「（骨格予算）」）。",
+    }],
+  ] as const).map(([fy, path, landing, opts]) => ({
+    id: `mobara-toushogaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 茂原市当初予算の概要（一般会計 歳入・歳出（目的別））`,
+    publisher: "茂原市",
+    url: `https://www.city.mobara.chiba.jp/cmsfiles/contents/${path}`,
+    landingPage: `https://www.city.mobara.chiba.jp/${landing}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "茂原市（一般会計・団体コード122106）",
+    license: MOBARA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 6, expenditurePage: 10, revenueHeading: "①歳入", expenditureHeading: "③歳出",
+      revenueTotalLabel: "計", expenditureTotalLabel: "計", kanNoless: true, ...opts,
+    },
+  } satisfies SourceEntry)),
   {
     // 山梨県（都道府県・団体コード 190004）R6 一般会計決算「決算の状況」PDF。
     // 款別の予算現額・決算額・執行率（歳出）／収入率（歳入）。単位=円（円→億は /1e8）。
