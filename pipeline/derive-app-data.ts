@@ -3589,6 +3589,24 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第82巡（2026-10-22・§13-93） ----
+    // ⚠ 那珂は decodeGarble（R8・R2 は × の恒等マップ）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `naka-ibaraki-yosansho-${fy}`, muniCode: "082261", muniName: "那珂市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 白岡 R4 は議会修正で見送り
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiraoka-yosan-gaiyou-${fy}`, muniCode: "112461", muniName: "白岡市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 南魚沼は年度ごとの CropX・R2 は予算書。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `minamiuonuma-yosan-gaiyou-${fy}`, muniCode: "152269", muniName: "南魚沼市", prefName: "新潟県", isPref: false,
+    })),
+    { srcId: "minamiuonuma-yosansho-r2", muniCode: "152269", muniName: "南魚沼市", prefName: "新潟県", isPref: false },
+    // ⚠ 坂東は1枚の概要（PDF に市名なし）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `bando-yosan-gaiyou-${fy}`, muniCode: "082287", muniName: "坂東市", prefName: "茨城県", isPref: false,
+    })),
     // ---- 第80巡（2026-10-22・§13-90） ----
     // ⚠ 愛西は R3 骨格で R4 に prevNote。`noDeepLink`
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -4346,7 +4364,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r3", "r2"] as const).map((fy) => ({
       srcId: `uki-zaisei-kohyo-${fy}`, muniCode: "432130", muniName: "宇城市", prefName: "熊本県", isPref: false,
     })),
-    // ---- 瑞穂・気仙沼・向日・伊達・高石（2026-10-22・§13-93） ----
+    // ---- 瑞穂・気仙沼・向日・伊達・高石（2026-10-22・§13-94） ----
     ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `gifu-mizuho-yosan-gaiyou-${fy}`, muniCode: "212164", muniName: "瑞穂市", prefName: "岐阜県", isPref: false,
     })),
