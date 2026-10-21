@@ -2530,4 +2530,25 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.fussa.tokyo.jp/municipal/aboutfussa/finances/yosan/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-92",
   },
+  {
+    // 白岡市（112461）R4。R8〜R5・R3・R2 は収録済み（§13-93）。
+    // 年度ページ（7509.html）「※一般会計予算は、議会において修正案が提出され、可決されました。」。修正内容 PDF（R4_ippan_syusei.pdf）は財産収入 48,348 を 47,331 に（△1,017）・繰入金 588,736 を 589,753 に（+1,017）。
+    // 予算案の概要・予算書（R4yosansyo.pdf）とも原案のまま。R5 の前年度列は修正後と一致。
+    code: "112461", name: "白岡市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計予算は議会で修正して可決されたが、掲載されている予算案の概要と予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（財産収入・繰入金の2款）。",
+    url: "https://www.city.shiraoka.lg.jp/shiseijoho/gyozaisei/2/7509.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-93",
+  },
+  {
+    // 富谷市（042161）R8〜R5・R3・R2。R4 は概要にテキスト層があり収録できるが、ライセンスが割れるので人の判断待ち（§13-93）。
+    // 記者発表【資料②】「当初予算の概要」と「各種会計予算及び予算に関する説明書」が、R4 の概要を除いて CCITT のスキャン画像（ページごとの文字数を偵察が実測）。
+    code: "042161", name: "富谷市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "当初予算の概要と予算書が、どちらも紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.tomiya-city.miyagi.jp/shisei/zaisei/giansyo/koukai-yosansyo.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-93",
+  },
 ];
