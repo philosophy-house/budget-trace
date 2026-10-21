@@ -14429,7 +14429,7 @@ validate は32ソースで error 0・warning 0。ライセンス・リンクの�
   R5 025/055/2023yosan03_2_1.pdf＋2023yosan03_2_2.pdf・R4 019/692/2022yosan03_2.pdf・R3 016/013/syuyoujigyou2.pdf・R2 009/405/2020_03_02.pdf。款別・節別の「一般会計予算説明資料」R8 036/503/2026_6.pdf。
   事業報告: 「主要な施策の成果」（普通建設事業だけ・https://www.city.toyooka.lg.jp/shisei/zaisei/kessan/index.html）R7 038/656/2025_02seika.pdf・R6 033/946/2024_02seika_syuusei.pdf・R5 030/822/02_2023ippannkaikei.pdf・R4 027/447/02.2022ippannkaikei.pdf・R3 023/647/2021-02ippannkaikei.pdf・R2 017/971/02_2020ippankaikei.pdf。
 
-### §13-76 中核市など — 真岡・姶良・飯能・行田・蒲郡（2026-10-22・loop.md の第69巡）
+### §13-77 中核市など — 真岡・姶良・飯能・行田・蒲郡（2026-10-22・loop.md の第70巡）
 
 元のセッションが割り当てたバッチ B の5市を `source-scout` 5体で並列に偵察し、同じセッションで収録した。**5市とも収録（28ソース）**。
 パーサ・判定器・derive には手を入れていない（5市とも既存の `kofu-yosansho` に parserOptions だけで乗る）。
