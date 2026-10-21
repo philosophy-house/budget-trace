@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 365,
+  "budgetCount": 370,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2798,
-  "fileCount": 4418,
-  "archivedCount": 2543,
+  "sourceCount": 2831,
+  "fileCount": 4451,
+  "archivedCount": 2556,
   "licenseOpen": 119,
-  "licensePermission": 2601,
+  "licensePermission": 2634,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -861,6 +861,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "茂原市",
+      "code": "122106",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "柏市",
       "code": "122173",
       "years": 7,
@@ -1095,6 +1101,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "北名古屋市",
+      "code": "232343",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "あま市",
       "code": "232378",
       "years": 7,
@@ -1121,6 +1133,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "長浜市",
       "code": "252034",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "守山市",
+      "code": "252077",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1383,6 +1401,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "和光市",
+      "code": "112291",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "ふじみ野市",
       "code": "112453",
       "years": 6,
@@ -1421,6 +1445,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "東村山市",
       "code": "132136",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "東大和市",
+      "code": "132209",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },

@@ -1,0 +1,12 @@
+{
+  "sourceId": "kitanagoya-yosansho-r3",
+  "files": [
+    {
+      "filename": "3ippan.pdf",
+      "sha256": "d674cd487072e24f16b3276ed7cca26eb031ac8c348b372bfa9e19d938cbd382",
+      "bytes": 2700198,
+      "fetchedAt": "2026-10-21T16:14:05.005Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20210516/20210516043806/https://www.city.kitanagoya.lg.jp/zaisei/files/upload/files/3ippan.pdf"
+    }
+  ]
+}
