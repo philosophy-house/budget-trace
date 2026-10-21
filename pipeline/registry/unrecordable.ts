@@ -2509,4 +2509,14 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.tendo.yamagata.jp/municipal/shisaku/zaisei_zaisei.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-90",
   },
+  {
+    // 玉野市（332046）R8。R7〜R2 は収録済み（§13-91）。
+    // 「令和8年度 玉野市一般会計・特別会計予算書」（/uploaded/attachment/33556.pdf・42.6MB・353p・JUST PDF 6）は全ページの文字がアウトライン化され、pdftotext は改ページ記号だけ。総括ページはフォントも画像も0。当初概要は百万円で款をまとめた区分しか無い（偵察）。
+    code: "332046", name: "玉野市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "一般会計予算書の文字がすべて図形として描かれていて、文字として取り出せない。当初予算の概要は百万円単位で、いくつかの款をまとめた区分しか載っていない。",
+    url: "https://www.city.tamano.lg.jp/site/zaisei/54011.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-91",
+  },
 ];

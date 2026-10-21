@@ -52417,6 +52417,25 @@
       "checkedAt": "2026-09-10T10:07:34.484Z"
     },
     {
+      "sourceId": "tamano-yosansho-r4",
+      "url": "https://www.city.tamano.lg.jp/site/zaisei/26825.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260123103122/https://www.city.tamano.lg.jp/site/zaisei/26825.html",
+      "waybackTimestamp": "20260123103122",
+      "checkedAt": "2026-10-21T22:29:48.692Z"
+    },
+    {
+      "sourceId": "tamano-yosansho-r4",
+      "url": "https://www.city.tamano.lg.jp/uploaded/attachment/16604.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220217105553/https://www.city.tamano.lg.jp/uploaded/attachment/16604.pdf",
+      "waybackTimestamp": "20220217105553",
+      "checkedAt": "2026-10-21T22:29:48.160Z",
+      "sha256Match": true,
+      "waybackBytes": 1613192,
+      "rawSha256": "7dc9979c61d9edc31195772e4c7221576ab804b0e73a394c6eb348667e054e37"
+    },
+    {
       "sourceId": "tatebayashi-yosan-aramashi-r2",
       "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
       "kind": "landing",
@@ -53305,6 +53324,25 @@
       "waybackUrl": "https://web.archive.org/web/20260416120727/https://www.city.tokai.aichi.jp/shisei/1003714/1003715/1003716/1009331.html",
       "waybackTimestamp": "20260416120727",
       "checkedAt": "2026-09-27T09:29:47.278Z"
+    },
+    {
+      "sourceId": "toki-yosansho-r6",
+      "url": "https://www.city.toki.lg.jp/_res/projects/default_project/_page_/001/008/530/r6yosannsho.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20251005121253/https://www.city.toki.lg.jp/_res/projects/default_project/_page_/001/008/530/r6yosannsho.pdf",
+      "waybackTimestamp": "20251005121253",
+      "checkedAt": "2026-10-21T22:29:33.170Z",
+      "sha256Match": true,
+      "waybackBytes": 1368257,
+      "rawSha256": "f09464ebc1b892e04bb9957d936fb2ff35668ebd1b644dd0c3923c09de1d2d80"
+    },
+    {
+      "sourceId": "toki-yosansho-r6",
+      "url": "https://www.city.toki.lg.jp/shisei/zaisei/1004976/1008530.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260411141051/https://www.city.toki.lg.jp/shisei/zaisei/1004976/1008530.html",
+      "waybackTimestamp": "20260411141051",
+      "checkedAt": "2026-10-21T22:29:37.272Z"
     },
     {
       "sourceId": "tokorozawa-shigikai-r8",

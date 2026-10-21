@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 497,
+  "budgetCount": 502,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3641,
-  "fileCount": 5312,
-  "archivedCount": 2858,
+  "sourceCount": 3675,
+  "fileCount": 5346,
+  "archivedCount": 2862,
   "licenseOpen": 135,
-  "licensePermission": 3421,
+  "licensePermission": 3455,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1011,6 +1011,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "日高市",
+      "code": "112429",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "吉川市",
       "code": "112437",
       "years": 7,
@@ -1145,6 +1151,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "稲城市",
       "code": "132250",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "羽村市",
+      "code": "132276",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1313,6 +1325,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "羽島市",
       "code": "212091",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "土岐市",
+      "code": "212121",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1643,6 +1661,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "天理市",
       "code": "292044",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "桜井市",
+      "code": "292061",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2111,6 +2135,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "大和高田市",
       "code": "292028",
+      "years": 6,
+      "range": "R2〜R7（6年度）"
+    },
+    {
+      "name": "玉野市",
+      "code": "332046",
       "years": 6,
       "range": "R2〜R7（6年度）"
     },
