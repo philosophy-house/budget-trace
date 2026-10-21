@@ -4364,6 +4364,23 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r3", "r2"] as const).map((fy) => ({
       srcId: `uki-zaisei-kohyo-${fy}`, muniCode: "432130", muniName: "宇城市", prefName: "熊本県", isPref: false,
     })),
+    // ---- 瑞穂・気仙沼・向日・伊達・高石（2026-10-22・§13-94） ----
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gifu-mizuho-yosan-gaiyou-${fy}`, muniCode: "212164", muniName: "瑞穂市", prefName: "岐阜県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `kesennuma-yosansho-${fy}`, muniCode: "042056", muniName: "気仙沼市", prefName: "宮城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `muko-yosansho-${fy}`, muniCode: "262081", muniName: "向日市", prefName: "京都府", isPref: false,
+    })),
+    ...(["r8", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `fukushima-date-yosan-gaiyou-${fy}`, muniCode: "072133", muniName: "伊達市", prefName: "福島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `takaishi-yosansho-${fy}`, muniCode: "272256", muniName: "高石市", prefName: "大阪府", isPref: false,
+    })),
+    { srcId: "takaishi-yosan-gaiyou-r5", muniCode: "272256", muniName: "高石市", prefName: "大阪府", isPref: false },
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
