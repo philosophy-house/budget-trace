@@ -1844,4 +1844,15 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.ashiya.lg.jp/zaisei/kako_yosan.html",
     checkedOn: "2026-10-07", ref: "docs/data-sources.md §13-55",
   },
+  {
+    // 神栖市（082325）R3。R8〜R4・R2 は収録済み（§13-56）。
+    // 説明書 r3ippankaikeisetsumeisyo.pdf（177ページ・Adobe Acrobat 8.1 Combine Files）の p.1〜2 は pdftotext が1文字、pdffonts・pdfimages とも0件。p.3 以降は文字がある。
+    code: "082325", name: "神栖市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["broken-text-layer"],
+    reason:
+      "一般会計予算に関する説明書のうち、款ごとの前年度比較が載る総括の2ページだけが文字を図形に変換した状態で作られていて、文字として取り出せない（画像も入っていない）。" +
+      "一般会計予算書の第1表は款と項の金額だけで、前年度の額が無い。",
+    url: "https://www.city.kamisu.ibaraki.jp/opendata/1003175/1003304.html",
+    checkedOn: "2026-10-21", ref: "docs/data-sources.md §13-56",
+  },
 ];

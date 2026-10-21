@@ -3539,6 +3539,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r2"] as const).map((fy) => ({
       srcId: `ashiya-yosansho-${fy}`, muniCode: "282065", muniName: "芦屋市", prefName: "兵庫県", isPref: false,
     })),
+    // ---- 第54巡（2026-10-21・§13-56） ----
+    // ⚠ 稲城は1ページに歳入・歳出を縦に積む調書。`revenueHeaderExtra: "^分$"` が無いと款1 が `分市税`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `inagi-yosan-${fy}`, muniCode: "132250", muniName: "稲城市", prefName: "東京都", isPref: false,
+    })),
+    // ⚠ 神栖は open（説明書がオープンデータのページに CC BY 4.0 で登載）。R3 は総括が図形化で未収録
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `kamisu-yosan-setsumei-${fy}`, muniCode: "082325", muniName: "神栖市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 八潮 R5 は議会修正後の概要（予算書は原案）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yashio-yosan-gaiyou-${fy}`, muniCode: "112348", muniName: "八潮市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 大府 R3・R2 は WARP。R2 は予算書にテキスト層が無く補足説明資料
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `obu-yosansho-${fy}`, muniCode: "232238", muniName: "大府市", prefName: "愛知県", isPref: false,
+    })),
+    { srcId: "obu-yosan-hosoku-r2", muniCode: "232238", muniName: "大府市", prefName: "愛知県", isPref: false },
+    // ⚠ 鹿沼は概要の「歳入の内訳」（自主財源→依存財源の順で款番号なし）。R2 は Wayback
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
+    })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
   // 当初予算（BUDGET_SOURCES）と別年度でよい（山梨県: 当初R8 に対し 決算はR6 が最新）。
