@@ -12658,3 +12658,9 @@ https://www.city.yashio.lg.jp/shisei/zaiseijokyo/yosan/r5/tosyoyosan/r5ippann.fi
   事業報告: 「主要施策の成果ならびに予算執行の実績報告書」款別分冊（R6 https://www.city.obu.aichi.jp/shisei/zaisei/kessan/1037202/1037206.html、R5 1033040・R4 1029228・R3 1025315・R2 1020573）。主要事業№で予算と引き当てられる
 - **鹿沼** — 主な事業: 主要事業一覧表 R2〜R8（款なし・水道・下水道が混在）＝新様式。
   事業報告: 政策評価 https://www.city.kanuma.tochigi.jp/0366/info-0000009788-0.html（R5jigyou.pdf 160p・事業評価調書）
+
+#### 魚拓（2026-10-21 の台帳 `data/archives.json` を sourceId で突合）
+
+34ソース中 **31件が file の sha256 照合済み**、**3件は取得元が WARP / Wayback**（大府 R3・R2、鹿沼 R2）。未照合は0件。
+1回目の直列実行の途中から SPN が「Unable to connect」を返し、16ソースが台帳に入らなかった（再実行で全件入った）。
+八潮 R3・神栖 R7 は既存の捕捉が 5 MiB で打ち切られていて、`--force` で取り直して照合済みになった。
