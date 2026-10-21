@@ -310,6 +310,11 @@ const MUNI_SLUGS: Record<string, string> = {
   "182109": "sakai-fukui", // ⚠ 堺市 271403 が "sakai" なので福井の坂井市は県名つき（府中と同じ規則）
   "232378": "ama",
   "222160": "fukuroi",
+  "292036": "yamatokoriyama",
+  "212032": "takayama",
+  "262099": "nagaokakyo",
+  "132195": "komae",
+  "252042": "omihachiman",
   "142182": "ayase",
   "082198": "ushiku",
   "232262": "owariasahi",
