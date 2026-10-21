@@ -1,0 +1,19 @@
+{
+  "sourceId": "tsurugashima-yosan-gaiyou-r2",
+  "files": [
+    {
+      "filename": "1582606333_doc_430_2.pdf",
+      "sha256": "3715aab94628d573864ff549962cb381e7d5103e1829c31b822397d6971eca13",
+      "bytes": 696883,
+      "fetchedAt": "2026-10-21T18:23:49.406Z",
+      "fetchedFrom": "https://www.city.tsurugashima.lg.jp/data/doc/1582606333_doc_430_2.pdf"
+    },
+    {
+      "filename": "1582606333_doc_430_3.pdf",
+      "sha256": "19f297bf6eabaed875624937a0eda853737786815821a2167b86eb0197716b3e",
+      "bytes": 808717,
+      "fetchedAt": "2026-10-21T18:23:49.794Z",
+      "fetchedFrom": "https://www.city.tsurugashima.lg.jp/data/doc/1582606333_doc_430_3.pdf"
+    }
+  ]
+}

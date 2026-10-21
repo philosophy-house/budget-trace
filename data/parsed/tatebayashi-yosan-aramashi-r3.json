@@ -1,0 +1,402 @@
+{
+  "docType": "budget-book",
+  "sourceId": "tatebayashi-yosan-aramashi-r3",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-21T17:18:45.897Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R3",
+  "account": "一般会計",
+  "revenueTotal": 29320000,
+  "expenditureTotal": 29320000,
+  "prevRevenueTotal": 29080000,
+  "prevExpenditureTotal": 29080000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 10829901,
+      "prevAmount": 11637551,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 246484,
+      "prevAmount": 266484,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 10000,
+      "prevAmount": 13000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 43000,
+      "prevAmount": 45000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 34000,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 90000,
+      "prevAmount": 60000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 1700000,
+      "prevAmount": 1670000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 26000,
+      "prevAmount": 35000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 444000,
+      "prevAmount": 73000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 2240000,
+      "prevAmount": 2090000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 13000,
+      "prevAmount": 13000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 177480,
+      "prevAmount": 212795,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 382986,
+      "prevAmount": 417195,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 3653548,
+      "prevAmount": 3322335,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 2669055,
+      "prevAmount": 2791193,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 57071,
+      "prevAmount": 48545,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 20,
+      "prevAmount": 20,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 2167258,
+      "prevAmount": 2035797,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 80000,
+      "prevAmount": 80000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 2277797,
+      "prevAmount": 1576485,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 2178400,
+      "prevAmount": 2667600,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 224241,
+      "prevAmount": 224169,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 2396234,
+      "prevAmount": 2661610,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 9482919,
+      "prevAmount": 9309475,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 4065899,
+      "prevAmount": 3817382,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 53596,
+      "prevAmount": 71589,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 544557,
+      "prevAmount": 400398,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 2229385,
+      "prevAmount": 1353176,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 3590555,
+      "prevAmount": 3764188,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 1019455,
+      "prevAmount": 1467629,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 3482912,
+      "prevAmount": 3800561,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 10,
+      "prevAmount": 10,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 2170002,
+      "prevAmount": 2159781,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "諸支出金",
+      "amount": 235,
+      "prevAmount": 32,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 14,
+      "kanName": "予備費",
+      "amount": 60000,
+      "prevAmount": 50000,
+      "locator": {
+        "file": "R3aramashi.pdf",
+        "page": 4
+      }
+    }
+  ]
+}

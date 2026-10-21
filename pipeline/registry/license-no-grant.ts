@@ -73,4 +73,7 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "長岡京市", license: "市ホームページに掲載している文章や画像など全ての著作権は、長岡京市または原著作者に帰属します。市ホームページに掲載している内容を利用したい場合は、お問い合わせください。" },
   { who: "薩摩川内市", license: "Copyright (c) 2023 Satsumasendai city. All Rights Reserved." },
   { who: "舞鶴市", license: "Copyright © 舞鶴市役所 All Right Reserved" },
+  { who: "名取市", license: "Copyright © City of Natori. All Rights Reserved." },
+  { who: "牛久市", license: "© CITY OF USHIKU." },
+  { who: "天草市", license: "© 2023 Amakusa City." },
 ];
