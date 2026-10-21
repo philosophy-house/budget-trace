@@ -26995,6 +26995,84 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として高石市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "page"
   },
+  "/sources/iwade-yosan-gaiyou-r8/8510.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwade.lg.jp/uploaded/attachment/8510.pdf",
+    "license": "岩出市ウェブサイトに掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、岩出市ウェブサイト全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています（一部の画像等の著作権は、原著作者が所有しています）。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/iwade-yosan-gaiyou-r7/8013.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.iwade.lg.jp/uploaded/attachment/8013.pdf",
+    "license": "岩出市ウェブサイトに掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、岩出市ウェブサイト全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています（一部の画像等の著作権は、原著作者が所有しています）。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/annaka-yosan-gaiyou-r8/19941.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.annaka.lg.jp/uploaded/attachment/19941.pdf",
+    "license": "当サイトに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として安中市に帰属し、国際条約・法律等によって保護されています。（ただし、一部の画像等の著作権は、原著作者が所有しています。）「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、安中市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/annaka-yosan-gaiyou-r7/14991.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.annaka.lg.jp/uploaded/attachment/14991.pdf",
+    "license": "当サイトに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として安中市に帰属し、国際条約・法律等によって保護されています。（ただし、一部の画像等の著作権は、原著作者が所有しています。）「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、安中市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/annaka-yosan-gaiyou-r3/6809.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.annaka.lg.jp/uploaded/attachment/6809.pdf",
+    "license": "当サイトに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として安中市に帰属し、国際条約・法律等によって保護されています。（ただし、一部の画像等の著作権は、原著作者が所有しています。）「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、安中市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/annaka-yosan-gaiyou-r2/6813.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.annaka.lg.jp/uploaded/attachment/6813.pdf",
+    "license": "当サイトに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として安中市に帰属し、国際条約・法律等によって保護されています。（ただし、一部の画像等の著作権は、原著作者が所有しています。）「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、安中市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/konan-shiga-yosan-gaiyou-r8/R8gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiga-konan.lg.jp/material/files/group/7/R8gaiyou.pdf",
+    "license": "湖南市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は湖南市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。湖南市ホームページ上の文書、画像などの無断使用、転載、二次使用を原則禁止します。ただし、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/konan-shiga-yosan-gaiyou-r6/R6toushoyosangaiyou_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiga-konan.lg.jp/material/files/group/7/R6toushoyosangaiyou_2.pdf",
+    "license": "湖南市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は湖南市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。湖南市ホームページ上の文書、画像などの無断使用、転載、二次使用を原則禁止します。ただし、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/konan-shiga-yosan-gaiyou-r5/R5toushoyosangaiyou_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiga-konan.lg.jp/material/files/group/7/R5toushoyosangaiyou_2.pdf",
+    "license": "湖南市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は湖南市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。湖南市ホームページ上の文書、画像などの無断使用、転載、二次使用を原則禁止します。ただし、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/konan-shiga-yosan-gaiyou-r4/R4toushoyosangaiyou_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiga-konan.lg.jp/material/files/group/7/R4toushoyosangaiyou_2.pdf",
+    "license": "湖南市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は湖南市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。湖南市ホームページ上の文書、画像などの無断使用、転載、二次使用を原則禁止します。ただし、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/konan-shiga-yosan-gaiyou-r3/R3toushoyosangaiyou_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiga-konan.lg.jp/material/files/group/7/R3toushoyosangaiyou_2.pdf",
+    "license": "湖南市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は湖南市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。湖南市ホームページ上の文書、画像などの無断使用、転載、二次使用を原則禁止します。ただし、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/konan-shiga-yosan-gaiyou-r2/R2toushoyosangaiyou_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiga-konan.lg.jp/material/files/group/7/R2toushoyosangaiyou_2.pdf",
+    "license": "湖南市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は湖南市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。湖南市ホームページ上の文書、画像などの無断使用、転載、二次使用を原則禁止します。ただし、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/chino-yosansho-r8/41333.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chino.lg.jp/soshiki/kanri/yosan.html",
+    "license": "「茅野市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として茅野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、茅野市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
   "/sources/nago-yosansho-r8/R8toushoyosansho.pdf": {
     "mode": "origin",
     "href": "https://www.city.nago.okinawa.jp/municipal/2021032400017/",

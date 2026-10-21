@@ -453,6 +453,11 @@ const MUNI_SLUGS: Record<string, string> = {
   "172120": "nonoichi",
   "402044": "nogata",
   "032166": "takizawa",
+  "202142": "chino",
+  "252115": "konan-shiga", // ⚠ 江南市 232173 が "konan" なので県名つき
+  "122025": "choshi",
+  "302091": "iwade",
+  "102113": "annaka",
   "212091": "hashima",
   "272213": "kashiwara",
   "122297": "sodegaura",

@@ -13,15 +13,15 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 526,
+  "budgetCount": 531,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3821,
-  "fileCount": 5492,
-  "archivedCount": 2935,
+  "sourceCount": 3841,
+  "fileCount": 5512,
+  "archivedCount": 2955,
   "licenseOpen": 135,
-  "licensePermission": 3601,
-  "licenseUnverified": 85,
+  "licensePermission": 3614,
+  "licenseUnverified": 92,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
   "kofuBudgetYears": 7,
@@ -1043,6 +1043,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "吉川市",
       "code": "112437",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "銚子市",
+      "code": "122025",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2181,6 +2187,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "湖南市",
+      "code": "252115",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "福知山市",
       "code": "262013",
       "years": 6,
@@ -2553,6 +2565,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（4年度）"
     },
     {
+      "name": "安中市",
+      "code": "102113",
+      "years": 4,
+      "range": "R2〜R8（4年度）"
+    },
+    {
       "name": "東松山市",
       "code": "112127",
       "years": 4,
@@ -2801,6 +2819,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "和歌山市",
       "code": "302015",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "岩出市",
+      "code": "302091",
       "years": 2,
       "range": "R7〜R8（2年度）"
     },

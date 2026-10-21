@@ -31509,6 +31509,171 @@ export const SOURCES: SourceEntry[] = [
       expenditureHeading: "歳出",
     },
   },
+  // ---- 第SS巡（2026-10-22・§13-SS）: 茅野・湖南・銚子・岩出・安中 ----------------
+  // 銚子市（千葉県・団体コード 122025 ＝ 総務省 R6.json から実引き）。款別は「予算の概要」（R8・R7）／「当初予算案について」（R6〜R3）／「当初予算案の概要」（R2・WARP）の
+  //   「一般会計款別予算額」（歳入）と「歳出（目的別）」。千円。歳入20〜22款・歳出12〜13款。
+  // ⚠ 予算書の総括は使わない: R8・R7 の歳入ページは文字が図形（テキスト層なし）、R6〜R4 は全ページが化ける（偵察）。概要の合計は全年度で予算書第1条の総額と一致。
+  // ⚠ 歳入の款番号に自主財源の印 `*` が付く ⇒ `kanNamePrefixStrip`（無いと `*市税` など8款に `*` が残ったまま Σ 差0＝偵察の実測）。歳出の合計ラベルは「計」。
+  // 前年度列は当初（R8←R7〜R3←R2 の6リンクで款単位全一致・R2 の前年度合計 23,892,000 ＝ H31 予算書 第1条）。議会: R8〜R2 とも可決（各定例会ページに修正・否決・組替の語なし）。
+  // 骨格予算: **R3**（「令和3年度当初予算案について」p.2「令和３年度の当初予算は、年度当初に市長選挙を控え、経常的経費や継続的な事業を中心に計上する「骨格予算」として編成しました。」・自分で取得して照合）⇒ R4 に prevNote。
+  // 総額突合: R6 当初 26,013,000 ÷ 総務省 R6 決算歳出 29,609,956 = 87.9%。
+  // ライセンス: 「リンクの取扱いについて」（/about/link.html・確認日 2026-10-22・自分で取得して照合）の「著作権」＝営利目的の使用を禁じ、出所の明示を条件に引用・転載複製を認める
+  //   条件つきの許諾 ⇒ 判定器は `unverified`。門真・蒲郡と同じく license-no-grant.ts には載せない（条件つきで認める原文は載せない規約）。
+  //   リンク「リンクは、必ずトップページのURL「https://www.city.choshi.chiba.jp/index.html」にしてください。…」＝指示形（愛西と同じ第2群）⇒ `noDeepLink`。
+  ...([
+    ["R8", "https://www.city.choshi.chiba.jp/content/000066267.pdf", "https://www.city.choshi.chiba.jp/shisei/page0301_00050.html", "予算の概要（一般会計予算の概要）", 2, 4],
+    ["R7", "https://www.city.choshi.chiba.jp/content/000053982.pdf", "https://www.city.choshi.chiba.jp/shisei/page0301_00030.html", "予算の概要（一般会計予算の概要）", 2, 4],
+    ["R6", "https://www.city.choshi.chiba.jp/content/000042724.pdf", "https://www.city.choshi.chiba.jp/shisei/page030058_00003.html", "当初予算案について", 6, 8],
+    ["R5", "https://www.city.choshi.chiba.jp/content/000029505.pdf", "https://www.city.choshi.chiba.jp/shisei/page030058.html", "当初予算案について", 6, 8],
+    ["R4", "https://www.city.choshi.chiba.jp/content/000004756.pdf", "https://www.city.choshi.chiba.jp/shisei/page030024.html", "当初予算案について", 6, 8],
+    ["R3", "https://www.city.choshi.chiba.jp/content/000005674.pdf", "https://www.city.choshi.chiba.jp/shisei/page030032.html", "当初予算案について", 6, 8],
+    ["R2", "https://warp.ndl.go.jp/20230509/20230508102617/https://www.city.choshi.chiba.jp/content/000004445.pdf",
+      "https://warp.ndl.go.jp/20230509/20230508102617/https://www.city.choshi.chiba.jp/shisei/page030014.html", "当初予算案の概要", 7, 9],
+  ] as const).map(([fy, url, landing, doc, rp, ep]) => ({
+    id: `choshi-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 銚子市${doc}（一般会計款別予算額・歳出（目的別））`,
+    publisher: "銚子市",
+    url,
+    landingPage: landing,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "銚子市（一般会計・団体コード122025）",
+    license: "銚子市ホームページで使用されている個々の情報（文章、画像など）は、著作権の対象となっていますので、これらの情報を営利目的に使用することはできません。ただし、著作権法上認められている行為として、私的利用および合理的な方法によって出所を明示することにより、引用・転載複製などを行うことができます。",
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: ep,
+      revenueHeading: "歳入",
+      expenditureHeading: "目的別",
+      expenditureTotalLabel: "計",
+      kanNamePrefixStrip: "*",
+      ...(fy === "R4"
+        ? { prevNote: "前年度（令和3年度）の当初予算は骨格予算（原典の「令和3年度当初予算案について」に「令和３年度の当初予算は、年度当初に市長選挙を控え、経常的経費や継続的な事業を中心に計上する「骨格予算」として編成しました。」と明記）。ここでの前年度額はその骨格予算の当初額で、補正で肉付けした後の額ではない。" }
+        : {}),
+    },
+  } satisfies SourceEntry)),
+  // 岩出市（和歌山県・団体コード 302091 ＝ 総務省 R6.json から実引き）。財務課「一般会計予算の概要」p.3【歳入】・p.4【歳出】（印字 2・3）。千円。歳入22款・歳出13款（款5 は原典どおり `農林業費`）。
+  // ⚠ 見出しを列見出し3段目の `比率` にしないと款1 に `金額比率` が付き、歳出はさらにページ冒頭の `【歳 出】` が款1 に付く ⇒ `expenditureHeaderExtra`（どちらも Σ 差0＝偵察の実測）。
+  // 前年度列は当初（R8←R7 は35款すべて一致、R7←R6 はスキャンの R6 予算書「第1表」を偵察が目視して35款すべて一致）。議会: R8・R7 とも原案可決。骨格予算: R8・R7 の概要に0件（市長選は秋）。
+  // 総額突合: R6 当初 18,682,500 ÷ 総務省 R6 決算歳出 20,703,516 = 90.2%。
+  // ライセンス: 「リンク・著作権について」（/soshiki/1/2695.html・確認日 2026-10-22）＝`無断` で要許可。BODIK のオープンデータ（4件）に予算・財政は無い。
+  //   リンク「岩出市のトップページ(…)へのリンクは原則フリーです。…トップページ以外のページへのリンクについてはアドレスが変わる可能性がありますのでご注意ください。」＝注意だけ（射水型）⇒ `noDeepLink` は立てない。
+  // ⚠ R6〜R2 は予算書・予算説明書ともスキャン画像だけで、概要は当時から掲載されていない（WARP で確認）⇒ unrecordable.ts。⚠ 発行元は連続取得で 403 を返す（間隔とブラウザの UA で通る）。
+  ...([
+    ["R8", "8510", "8557"],
+    ["R7", "8013", "2765"],
+  ] as const).map(([fy, att, land]) => ({
+    id: `iwade-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 岩出市一般会計予算の概要（歳入・歳出予算額）`,
+    publisher: "岩出市",
+    url: `https://www.city.iwade.lg.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: `https://www.city.iwade.lg.jp/soshiki/4/${land}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "岩出市（一般会計・団体コード302091）",
+    license: "岩出市ウェブサイトに掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、岩出市ウェブサイト全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています（一部の画像等の著作権は、原著作者が所有しています）。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 3,
+      expenditurePage: 4,
+      revenueHeading: "比率",
+      expenditureHeading: "比率",
+      expenditureHeaderExtra: "^【歳出】$",
+    },
+  } satisfies SourceEntry)),
+  // 安中市（群馬県・団体コード 102113 ＝ 総務省 R6.json から実引き）。「安中市当初予算の概要」の一般会計 歳入・歳出【目的別】（予算書・事項別明細書はウェブに無い）。千円。
+  //   ランディングは「各会計予算の概要について」（/page/2461.html・カテゴリ一覧には出ない）。物理ページは R8・R2 が 3/5、R7・R3 が 4/6。合計ラベルは「合 計」。
+  // ⚠ 依存財源の款は頭に `※` が付く ⇒ `stripChars`（無いと ※ の付いた14款が落ちて Σ が割れる＝大声で落ちる側）。
+  // 前年度列は当初（R8←R7・R4←R3・R3←R2 は款単位で全一致、R7←R6 と R6←R5 は画像の R6・R5 を偵察が目視で照合）。骨格予算: 7年度の概要・重点事業等で0件。
+  // 総額突合: R6 当初 28,847,000（R7 の前年度列）÷ 総務省 R6 決算歳出 29,132,916 = 99.0%。
+  // ライセンス: 「リンク・著作権・免責事項」（/site/userguide/6997.html・確認日 2026-10-22）＝`無断` で要許可。
+  //   リンク「…リンク設定は、原則として自由です。…ただし、リンク設定はトップページ（…）へお願いします。トップページ以外のページは、予告なくアドレスを変更する場合があります。…」＝依頼形（福山型）⇒ `noDeepLink` は立てない。
+  // ⚠ R6・R5 は表が図形で描かれていてテキスト層が無い（WARP 版も同一ハッシュ）、R4 は掲載されているのが修正可決前の案 ⇒ unrecordable.ts。
+  ...([
+    ["R8", "19941", 3, 5],
+    ["R7", "14991", 4, 6],
+    ["R3", "6809", 4, 6],
+    ["R2", "6813", 3, 5],
+  ] as const).map(([fy, att, rp, ep]) => ({
+    id: `annaka-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 安中市当初予算の概要（一般会計 歳入・歳出）`,
+    publisher: "安中市",
+    url: `https://www.city.annaka.lg.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: "https://www.city.annaka.lg.jp/page/2461.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "安中市（一般会計・団体コード102113）",
+    license: "当サイトに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として安中市に帰属し、国際条約・法律等によって保護されています。（ただし、一部の画像等の著作権は、原著作者が所有しています。）「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、安中市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: ep,
+      revenueHeading: "一般会計",
+      expenditureHeading: "一般会計",
+      revenueTotalLabel: "合計",
+      expenditureTotalLabel: "合計",
+      stripChars: { revenue: "※" },
+    },
+  } satisfies SourceEntry)),
+  // 湖南市（滋賀県・団体コード 252115 ＝ 総務省 R6.json から実引き）。⚠ 江南市（232173）が `konan-*`・スラグ `konan` を使っているので `konan-shiga`。
+  //   「当初予算の概要」の款別表（歳入予算のあらまし／目的別歳出予算。予算書はウェブに無い）。千円。物理ページは R8 が 29/33、R6〜R2 が 9/13。歳入22款（R3・R2 は23款）・歳出13款。
+  // ⚠ 列は [本年度, うち一般財源, 前年度, うち一般財源, 増減, 増減率(, 構成比)] ⇒ `amountIntIndex: 0`・`prevIntIndex: 2`。款名に ○（自主財源）／●（依存財源）⇒ `kanNamePrefixStrip`。
+  // ⚠ 表の上の解説文に数字で始まる行（「1億5,741万…」）⇒ HeaderExtra `万|億`（無いと R2 は解説文の断片が款に入って Σ が +1〜+10,102 ずれる）。
+  // ⚠ 左端の縦書き「歳／入／出」と右の囲みを `CropX` で切る（年度ごとに座標が違う・R8 歳入の from は余裕が約4pt）。切らないと款が抜ける・款名に `【財源種別】自主財源市税` が混ざる・合計行が崩れて throw（偵察の実測）。
+  // 前年度列は当初（R6←R5〜R2←H31 の5リンクで款単位全一致・R8 の前年度列は R7 の歳入テキストと歳出の画像に全件一致）。議会: R8〜R2 とも原案可決（R3 は同日に予算の「訂正」が承認されている。中身は未確認だが R3 の款額は R4 の前年度列と全件一致）。
+  // 骨格予算: R8〜H31 の全文で「骨格」「肉付」0件。総額突合: R6 当初 25,300,000 ÷ 総務省 R6 決算歳出 25,030,838 = 101.1%。
+  // ライセンス: 「著作権について」（/this_site/3885.html・確認日 2026-10-22）＝`無断` で要許可。市のオープンデータのページは無い。
+  //   リンク「…原則としてリンクは自由です。特にリンク許可等の返信はいたしませんが、リンクする際には事前に秘書広報課あて、下記の項目についてお知らせください。」＝連絡の依頼でトップ以外を断る文言は無い ⇒ `noDeepLink` は立てない。
+  // ⚠ R7 は歳出 p.13 の款別表がラスタ画像（R7〜R2 は 2025-12-25 に一括で差し替え）⇒ unrecordable.ts。
+  ...([
+    ["R8", "R8gaiyou", "39380", 29, 33, { from: 30, to: 548 }, { from: 45, to: 645 }],
+    ["R6", "R6toushoyosangaiyou_2", "33801", 9, 13, { from: 102, to: 631 }, { from: 148, to: 650 }],
+    ["R5", "R5toushoyosangaiyou_2", "30862", 9, 13, { from: 107, to: 624 }, { from: 146, to: 622 }],
+    ["R4", "R4toushoyosangaiyou_2", "26479", 9, 13, { from: 108, to: 624 }, { from: 140, to: 645 }],
+    ["R3", "R3toushoyosangaiyou_2", "23677", 9, 13, { from: 134, to: 633 }, { from: 143, to: 654 }],
+    ["R2", "R2toushoyosangaiyou_2", "14170", 9, 13, { from: 130, to: 620 }, { from: 140, to: 650 }],
+  ] as const).map(([fy, file, page, rp, ep, rx, ex]) => ({
+    id: `konan-shiga-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 湖南市一般会計当初予算の概要（歳入予算のあらまし・目的別歳出予算）`,
+    publisher: "湖南市",
+    url: `https://www.city.shiga-konan.lg.jp/material/files/group/7/${file}.pdf`,
+    landingPage: `https://www.city.shiga-konan.lg.jp/shisei/zaisei_gyoseikaikaku/2_1/yosan/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "湖南市（一般会計・団体コード252115）",
+    license: "湖南市ホームページに掲載しているコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は湖南市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。湖南市ホームページ上の文書、画像などの無断使用、転載、二次使用を原則禁止します。ただし、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp, expenditurePage: ep,
+      revenueHeading: "款名称", expenditureHeading: "款名称",
+      amountIntIndex: 0, prevIntIndex: 2,
+      kanNamePrefixStrip: "○●",
+      revenueHeaderExtra: "万|億", expenditureHeaderExtra: "万|億",
+      revenueCropX: rx, expenditureCropX: ex,
+    },
+  } satisfies SourceEntry)),
+  // 茅野市（長野県・団体コード 202142 ＝ 総務省 R6.json から実引き）。財政課「一般会計予算書」の「歳入歳出予算事項別明細書 １ 総括表」（物理 p.8 歳入 / p.9 歳出・見開き）。千円。歳入22款・歳出14款。
+  //   発行元は最新年度の予算書だけを載せ、年度が替わると前年度分を消す（R7〜R2 は下）。見出しを既定のままにすると throw する。
+  // 前年度列は当初（R8 の前年度列は R7 概要の歳出14款・R7 予算書 p.8 の画像を偵察が目視した歳入22款と全一致）。議会: R8 は議案第25号・令和8年3月19日 可決。骨格予算: R8 予算書・概要に0件。
+  // 総額突合: R6 当初 30,180,000（R7 の前年度列）÷ 総務省 R6 決算歳出 29,228,388 = 103.3%。
+  // ライセンス: 「リンク・著作権・免責事項」（/site/userguide/copyright.html・確認日 2026-10-22）＝`無断` で要許可。オープンデータ（BODIK・CC BY 4.0）に予算・財政は0件。
+  //   リンク「…ただし、リンク設定はトップページ（…）へお願いします。他のページへのリンクは、予告なくアドレスが変更になる可能性がありますのでご遠慮ください。」＝トップ以外を断る ⇒ `noDeepLink`。
+  {
+    id: "chino-yosansho-r8",
+    title: "令和8年度 茅野市一般会計予算書（歳入歳出予算事項別明細書 総括表）",
+    publisher: "茅野市",
+    url: "https://www.city.chino.lg.jp/uploaded/attachment/41333.pdf",
+    landingPage: "https://www.city.chino.lg.jp/soshiki/kanri/yosan.html",
+    kind: "pdf",
+    fiscalYear: "R8",
+    scope: "茅野市（一般会計・団体コード202142）",
+    license:
+      "「茅野市公式ホームページ」（以下、当ページといいます）に掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として茅野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、茅野市の許可なく当ページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    noDeepLink: true,
+    parser: "kofu-yosansho",
+    parserOptions: { revenuePage: 8, expenditurePage: 9, revenueHeading: "総括", expenditureHeading: "歳出" },
+  } satisfies SourceEntry,
 
   {
     // 山梨県（都道府県・団体コード 190004）R6 一般会計決算「決算の状況」PDF。
