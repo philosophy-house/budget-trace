@@ -3739,7 +3739,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `satsumasendai-yosansho-${fy}`, muniCode: "462152", muniName: "薩摩川内市", prefName: "鹿児島県", isPref: false,
     })),
-    // ---- 第60巡（2026-10-22・§13-65） ----
+    // ---- 第60巡（2026-10-22・§13-66） ----
     // ⚠ 綾瀬は R8・R7・R6・R4（R5 は文字層の二重化・R3・R2 はウェブに無い）。R6 は歳入が予算書・歳出が概要の2ファイル。款10 は kanNameContinues
     ...(["r8", "r7", "r6", "r4"] as const).map((fy) => ({
       srcId: `ayase-yosansho-${fy}`, muniCode: "142182", muniName: "綾瀬市", prefName: "神奈川県", isPref: false,
