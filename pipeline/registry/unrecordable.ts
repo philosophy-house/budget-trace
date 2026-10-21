@@ -2331,4 +2331,25 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.koshi.lg.jp/kiji00320384/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
   },
+  {
+    // 常総市（082112）R4・R3。R8〜R5・R2 は収録済み（§13-82）。
+    // 予算書（R4 1675057585_doc_8_0.pdf・R3 1675062386_doc_8_0.pdf）は CCITT のスキャン画像でテキスト層が無い（偵察）。R4 は議会ページの別版（402頁）も画像。
+    code: "082112", name: "常総市", dataset: "budget", fiscalYears: ["R4", "R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計の予算書が紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
+    url: "https://www.city.joso.lg.jp/kurashi_gyousei/shisei/zaisei/budget/budget_doc/r4.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-82",
+  },
+  {
+    // 栗原市（042137）R6〜R2。R8・R7 は収録済み（§13-82）。
+    // 全会計の予算書を1本にまとめた zip（R6 20240311.zip・R5 20230310.zip・R4 20220307.zip・R3 20210308.zip（72.5MB）・R2 20200309.zip）。
+    // 中の一般会計 PDF は総括のテキスト層があり try-parse で Σ 差0（偵察）だが、kofu-yosansho は zip の中のエントリを選べない。
+    code: "042137", name: "栗原市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算書が全会計をまとめた圧縮ファイル（zip）で配られていて、こちらの抽出処理はその中の一般会計のファイルを取り出して読む手順を持っていない。中の資料は健全。",
+    url: "https://www.kuriharacity.jp/li/030/040/001/020/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-82",
+  },
 ];
