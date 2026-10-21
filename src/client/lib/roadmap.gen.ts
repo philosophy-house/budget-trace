@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 492,
+  "budgetCount": 497,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3610,
-  "fileCount": 5281,
-  "archivedCount": 2849,
+  "sourceCount": 3641,
+  "fileCount": 5312,
+  "archivedCount": 2858,
   "licenseOpen": 135,
-  "licensePermission": 3390,
+  "licensePermission": 3421,
   "licenseUnverified": 85,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -909,6 +909,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "下野市",
+      "code": "092169",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "桐生市",
       "code": "102032",
       "years": 7,
@@ -1425,6 +1431,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "愛西市",
+      "code": "232327",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "北名古屋市",
       "code": "232343",
       "years": 7,
@@ -1615,6 +1627,12 @@ export const ROADMAP_PROGRESS = {
       "code": "282171",
       "years": 7,
       "range": "H28〜R7（7年度）"
+    },
+    {
+      "name": "丹波市",
+      "code": "282235",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
     },
     {
       "name": "たつの市",
@@ -2145,6 +2163,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "日田市",
+      "code": "442046",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "佐伯市",
       "code": "442054",
       "years": 6,
@@ -2347,6 +2371,12 @@ export const ROADMAP_PROGRESS = {
       "code": "012050",
       "years": 4,
       "range": "R3〜R7（4年度）"
+    },
+    {
+      "name": "天童市",
+      "code": "062103",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
     },
     {
       "name": "筑西市",

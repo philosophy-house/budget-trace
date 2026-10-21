@@ -89,4 +89,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "逗子市", license: "Copyright © Zushi City All rights reserved." },
   { who: "日向市", license: "© HYUGA City." },
   { who: "下松市", license: "Copyright (C) Kudamatsu City All rights reserved." },
+  { who: "丹波市", license: "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
 ];
