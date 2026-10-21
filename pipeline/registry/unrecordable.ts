@@ -2310,6 +2310,49 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-79",
   },
   {
+    // 北本市（112330）R4・R3。R8〜R5・R2 は収録済み（§13-81）。
+    // 年度ページ（あらまし）に「当初案に対し、修正案により修正可決されました」。予算参考資料・予算書はどちらも原案（R4 は原案 22,343,000・修正後 22,326,410、R3 は原案 21,492,000・修正後 21,478,178）。R3 のあらましは …/g2/3/3/12102.html。
+    // 年度ページの HTML に修正後の款別の表（前年度は比率だけ）があり、修正案 PDF（R4 R4toushoyosan_shuuseian.pdf・R3 R3tousyoyosannitaisurusyuuseian.pdf）は変わった款だけ（R4 は繰入金・土木費。前年度列つき）。
+    code: "112330", name: "北本市", dataset: "budget", fiscalYears: ["R4", "R3"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計予算は議会で修正して可決された。前年度との比較が載っている予算参考資料と予算書は修正前の原案のままで、修正案には額が変わった款だけが載っている。年度ページの款別の表は修正後の額だが前年度の額が無い。",
+    url: "https://www.city.kitamoto.lg.jp/soshiki/seisakusuisinbu/zaisei/gyomu/g2/3/3/13620.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
+  },
+  {
+    // 合志市（432164）R3。R8〜R4・R2 は収録済み（§13-81）。
+    // 概要説明資料 p.4 の廃止款の行「（自動車取得税交付金） 0 0.0 1 ▲ 1 ▲ 100.0 0」は款番号・印・「皆減」なしの括弧書きで、末尾に市民一人当り額が付く。
+    // 既存の廃止款の分岐に当たらず行ごと落ち、前年度 Σ が −1（warning 止まり）。栗東 R2・大館 R2 と同じ扱いで見送る。
+    code: "432164", name: "合志市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の構成表のうち、廃止された款（自動車取得税交付金）の行が括弧書きで款番号の無い形になっていて、こちらの抽出処理ではその行を読めない（前年度の合計が1千円合わなくなる）。原典の表は健全。",
+    url: "https://www.city.koshi.lg.jp/kiji00320384/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-81",
+  },
+  {
+    // 佐伯市（442054）R2。R8〜R3 は収録済み（§13-82）。
+    // 予算書 3_1997_4470_up_4n0mxoso.pdf（36MB・337p・Producer「Microsoft: Print To PDF」）はテキスト層もフォントも無い。概要の分冊「歳入」は「地方譲与税･各種交付金」をまとめた集約表で款別でない（偵察）。
+    code: "442054", name: "佐伯市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image", "format-mismatch"],
+    reason:
+      "一般会計予算書が文字を持たない画像の PDF で、款ごとの表を文字として取り出せない。予算の概要の歳入の表は、いくつかの款をまとめた集計で款別になっていない。",
+    url: "https://www.city.saiki.oita.jp/kiji0031997/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-82",
+  },
+  {
+    // 玉名市（432067）R3・R2。R8〜R4 は収録済み（§13-82）。
+    // 予算書は現行サイトに無い（議会の「市長提出議案」一覧は令和4年第2回から・R3 年度ページの Wayback 2022-01 版にも予算書なし）。
+    // 「予算説明書（全体版）」（R3 dl?q=90540_…・R2 dl?q=73556_…）の歳入 p.5 は財源区分別（普通交付税・特別交付税の分割・小計行）で款別でない（偵察・try-parse で throw）。
+    code: "432067", name: "玉名市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "この年度の予算書はウェブに掲載されておらず、掲載されている予算説明書の歳入の表は財源の区分ごと（市税の内訳・交付税の種類別など）で、款別の表になっていない。",
+    url: "https://www.city.tamana.lg.jp/q/list/123.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-82",
+  },
+  {
     // 美濃加茂市（212113）R8〜R2。1年度も収録できていない（§13-83）。
     // R8: 概要 /uploaded/attachment/20115.pdf の款別表（p.12・p.15）は表のセルが JPEG 画像、予算書 20182.pdf の総括（物理 p.8・p.9）は文字がノンブルだけ（アウトライン化）。
     // R7〜R5: 概要（16397・12807・6815）は歳入を「譲与税・交付金」に合算し万円の億表記。予算書（16386・12814・Wayback の 6812）は文字がノンブルか表題だけ。

@@ -1,0 +1,12 @@
+{
+  "sourceId": "ito-shizuoka-yosansho-r7",
+  "files": [
+    {
+      "filename": "R7ippan.pdf",
+      "sha256": "7bde5bc333df7eec7d234492771a85483b185c259d3ee98432190cc453c9ba61",
+      "bytes": 3328194,
+      "fetchedAt": "2026-10-21T21:08:32.940Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/material/files/group/7/R7ippan.pdf"
+    }
+  ]
+}

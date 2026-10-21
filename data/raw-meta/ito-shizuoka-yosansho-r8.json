@@ -1,0 +1,12 @@
+{
+  "sourceId": "ito-shizuoka-yosansho-r8",
+  "files": [
+    {
+      "filename": "R8ippan.pdf",
+      "sha256": "9cd75d9fc0ddbd9b35f932f372e8ca527454dc6fe21b2762b433c5bd297156da",
+      "bytes": 3459082,
+      "fetchedAt": "2026-10-21T21:08:30.396Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/material/files/group/7/R8ippan.pdf"
+    }
+  ]
+}
