@@ -15199,7 +15199,7 @@ validate は全33ソースで error 0・warning 0。ライセンスの原文は5
   事業報告: 「決算主要施策の成果報告書」（https://www.city.kinokawa.lg.jp/008/seikahyou.html・R7〜H28・1事業1票・R7 https://www.city.kinokawa.lg.jp/008/files/R7seikahyo.pdf 339件）。
 
 
-### §13-85 中核市など — 藤井寺・糸満・白井・大和高田・加賀（2026-10-22・loop.md の第77巡）
+### §13-86 中核市など — 藤井寺・糸満・白井・大和高田・加賀（2026-10-22・loop.md の第77巡）
 
 元のセッションが並行の巡と重ならないよう割り当てた H 組の5市を、1市1体の偵察で調べて収録した。**5市とも収録（29ソース）**。
 パーサ・判定器・derive の判定には手を入れていない（5市とも既存の `kofu-yosansho` に parserOptions だけで乗る）。

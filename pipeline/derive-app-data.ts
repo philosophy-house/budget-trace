@@ -4200,7 +4200,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hyuga-yosan-gaiyou-${fy}`, muniCode: "452068", muniName: "日向市", prefName: "宮崎県", isPref: false,
     })),
-    // ---- 第77巡（2026-10-22・§13-85）: 藤井寺・糸満・白井・大和高田・加賀 ----
+    // ---- 第77巡（2026-10-22・§13-86）: 藤井寺・糸満・白井・大和高田・加賀 ----
     // ⚠ 藤井寺 R6・R5 は予算書がスキャンで予算説明資料。R5・H31 骨格（R6・R2 に prevNote）
     ...(["r8", "r7", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `fujiidera-yosansho-${fy}`, muniCode: "272264", muniName: "藤井寺市", prefName: "大阪府", isPref: false,
