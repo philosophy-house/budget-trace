@@ -2072,4 +2072,38 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.fukuchiyama.lg.jp/site/yosan/20303.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
   },
+  {
+    // 牛久市（082198）R3。R8〜R4・R2 は収録済み（§13-67）。
+    // 議案第18号に対する修正案「第１条中「２８，４６３，０００千円」を「２８，０１０，９５３千円」に改める。」（/data/doc/1616734624_doc_21_0.pdf）。
+    // 概要（1614146964_doc_21_0.pdf）は原案で、款6 法人事業税交付金の行は整数が1つしかなく落ちる。予算書（1616734582_doc_21_0.pdf）の総括 p.11/12 は原案の額に取り消し線を引いて
+    // 修正後の額を書き足した版面で、decodeGarble で読むと原案の額が Σ 差0 で通る（静かに誤る）。
+    code: "082198", name: "牛久市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["format-mismatch"],
+    reason:
+      "議会で一般会計予算が修正されたが、市が公開している当初予算案の概要は修正前の原案のまま。" +
+      "予算書の総括は原案の額に取り消し線を引いて修正後の額を書き足した版面で、修正後の款ごとの額を文字として正しく取り出せない。",
+    url: "https://www.city.ushiku.lg.jp/shisei/shinotorikumi/keikaku-zeisei-shisaku-kaikaku/yosan-kessan/yosan/page009643.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
+  },
+  {
+    // 綾瀬市（142182）R5。R8・R7・R6・R4 は収録済み（§13-67）。
+    // 予算書 r5yosansyo.pdf の歳入総括 p.19 は poppler で文字が二重に出る（`歳歳入入`・`1133,,447788,,026`）。見出しも取れず throw。概要 r5gaiyo.pdf の〔歳入〕は款を合算した12区分。
+    code: "142182", name: "綾瀬市", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "予算書のうち歳入の款ごとの前年度比較が載る総括のページが、同じ文字が二重に重なった状態で作られていて、文字として正しく取り出せない。" +
+      "予算の概要の歳入の表は款をまとめた区分で、款ごとの額が載っていない。",
+    url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/14542.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
+  },
+  {
+    // 綾瀬市（142182）R3・R2。現行サイトの財政ページに年度が無く、r3yosansyo.pdf 等を推測で叩いて 404。Wayback の CDX（material/files/group/6/・旧サイト /hp/）に予算 PDF 0件。WARP は館内限定（403）。
+    code: "142182", name: "綾瀬市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason:
+      "市のサイトに当初予算の資料が残っておらず、インターネットアーカイブにも見当たらない。" +
+      "国立国会図書館の WARP では、この市のサイトは館内でしか閲覧できない。",
+    url: "https://www.city.ayase.kanagawa.jp/soshiki/zaiseika/zaisei/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-67",
+  },
 ];
