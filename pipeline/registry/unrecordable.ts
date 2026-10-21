@@ -2479,7 +2479,38 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-89",
   },
   {
-    // 福生市（132187）R5・R4。R8〜R6・R3・R2 は収録済み（§13-P）。予算書の総括は R4 が歳入ページ（物理 p.19）だけ文字が図形に変換されていて（pdfimages 0件）、R5 は文字が二重に描かれて「88,,092,」のように崩れる。
+    // 日田市（442046）R3。R8〜R4・R2 は収録済み（§13-90）。
+    // 議会が一般会計予算を修正可決（R3-03-22・総額 38,121,169 から 38,111,857 に・繰入金・市債・民生費の3款）。当初予算の概要（5413.pdf）はスキャン画像。
+    // 予算に関する説明書（4431.pdf）は総括 p.12 が化け（復号表に無い字が2字）、p.13・p.14 は修正後と原案の額が上下に重ねて印字されている（偵察）。
+    code: "442046", name: "日田市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算は議会で修正して可決された。当初予算の概要は紙をスキャンした画像だけの PDF で、予算に関する説明書は文字の一部が化けていて修正後と修正前の額が重ねて印字されているため、款ごとの額を正しく取り出せない。",
+    url: "https://www.city.hita.oita.jp/soshiki/4/2349.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-90",
+  },
+  {
+    // 天童市（062103）R4。R8〜R5 は収録済み（§13-90）。
+    // 予算概要説明資料（現行サーバに残る）は ToUnicode 欠落で、表題「３ 一般会計予算内訳表」と「伸び率」「備考」の13字が復号表に無く throw する（偵察）。
+    code: "062103", name: "天童市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算概要説明資料の文字が PDF の中で別の字に置き換わっていて、こちらの対応表に無い字が13字あるため読めない。",
+    url: "https://www.city.tendo.yamagata.jp/municipal/shisaku/zaisei_zaisei.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-90",
+  },
+  {
+    // 天童市（062103）R3・R2。R8〜R5 は収録済み（§13-90）。
+    // 発行元は年度ページをローリングで差し替え、WARP の2020〜2023年の各版を見ても R3・R2 は「当初予算のあらまし」（8ページ・円グラフと万円単位の本文）しか掲載されていない（偵察）。
+    code: "062103", name: "天童市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason:
+      "ウェブに掲載されていたのは円グラフと文章の「当初予算のあらまし」だけで、款ごとに前年度と比べた表や予算書は掲載されていない。",
+    url: "https://www.city.tendo.yamagata.jp/municipal/shisaku/zaisei_zaisei.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-90",
+  },
+  {
+    // 福生市（132187）R5・R4。R8〜R6・R3・R2 は収録済み（§13-91）。予算書の総括は R4 が歳入ページ（物理 p.19）だけ文字が図形に変換されていて（pdfimages 0件）、R5 は文字が二重に描かれて「88,,092,」のように崩れる。
     //   代わりの予算説明書（実施計画）の「４ 一般会計予算」は款別表の下に市税の内訳表が続き、「５ 都市計画税」の行（整数4個）が合計行「計」（整数3個）より多くの整数を持つため、既存パーサの合計行の選定が外れる（Σ が +34,148,659 ずれて止まる）。
     //   合計行のラベルに金額を書く回避策はパーサのコメントで禁じている。表の下端で打ち切る指定が無い。
     code: "132187", name: "福生市", dataset: "budget", fiscalYears: ["R5", "R4"],
@@ -2487,6 +2518,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "予算書の総括のページは、R4 は歳入の表の文字が図形として描かれ、R5 は文字が二重に描かれていて、どちらも数字を正しく取り出せない。代わりの予算説明書の款別表は、すぐ下に続く市税の内訳表を合計の行と取り違えてしまい、今の読み取り方では読めない。",
     url: "https://www.city.fussa.tokyo.jp/municipal/aboutfussa/finances/yosan/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-P",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-91",
   },
 ];

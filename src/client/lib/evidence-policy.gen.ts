@@ -22351,6 +22351,192 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "当サイトで提供するすべてのコンテンツ（文章・画像など）について、権利者の許可なく複製・転用・販売することはできません。",
     "target": "file"
   },
+  "/sources/aisai-yosansho-r8/R8ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/0000017757.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/aisai-yosansho-r7/R7ippanyosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/0000016827.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/aisai-yosansho-r6/R6ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/0000015913.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/aisai-yosansho-r5/R5ippanyosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/0000014777.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/aisai-yosansho-r4/04ippan_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/0000013828.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/aisai-yosansho-r3/03ippan_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/0000012714.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/aisai-yosansho-r2/02ippan_yosansyo1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/0000011718.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/hita-yosan-gaiyou-r8/8627.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hita.oita.jp/soshiki/4/2349.html",
+    "license": "日田市公式ホームページに掲載している文書・写真・画像・イラスト等の各ファイル及びその内容に関する諸権利は、原則として日田市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。",
+    "target": "page"
+  },
+  "/sources/hita-yosan-gaiyou-r7/5409.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hita.oita.jp/soshiki/4/2349.html",
+    "license": "日田市公式ホームページに掲載している文書・写真・画像・イラスト等の各ファイル及びその内容に関する諸権利は、原則として日田市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。",
+    "target": "page"
+  },
+  "/sources/hita-yosan-gaiyou-r6/5410.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hita.oita.jp/soshiki/4/2349.html",
+    "license": "日田市公式ホームページに掲載している文書・写真・画像・イラスト等の各ファイル及びその内容に関する諸権利は、原則として日田市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。",
+    "target": "page"
+  },
+  "/sources/hita-yosan-gaiyou-r5/5411.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hita.oita.jp/soshiki/4/2349.html",
+    "license": "日田市公式ホームページに掲載している文書・写真・画像・イラスト等の各ファイル及びその内容に関する諸権利は、原則として日田市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。",
+    "target": "page"
+  },
+  "/sources/hita-yosan-gaiyou-r4/5412.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hita.oita.jp/soshiki/4/2349.html",
+    "license": "日田市公式ホームページに掲載している文書・写真・画像・イラスト等の各ファイル及びその内容に関する諸権利は、原則として日田市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。",
+    "target": "page"
+  },
+  "/sources/hita-yosan-gaiyou-r2/5414.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hita.oita.jp/soshiki/4/2349.html",
+    "license": "日田市公式ホームページに掲載している文書・写真・画像・イラスト等の各ファイル及びその内容に関する諸権利は、原則として日田市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断の転用・引用を禁止します。",
+    "target": "page"
+  },
+  "/sources/tendo-yosansho-r8/R08_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tendo.yamagata.jp/municipal/shisaku/R08_yosansho.pdf",
+    "license": "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    "target": "file"
+  },
+  "/sources/tendo-yosan-gaiyou-r7/R07_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tendo.yamagata.jp/municipal/shisaku/R07_yosangaiyou.pdf",
+    "license": "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    "target": "file"
+  },
+  "/sources/tendo-yosan-gaiyou-r6/R06_yosangaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20240707/20240706213440/https://www.city.tendo.yamagata.jp/municipal/shisaku/R06_yosangaiyou.pdf",
+    "license": "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    "target": "file"
+  },
+  "/sources/tendo-yosan-gaiyou-r5/R05yosanngaiyousetumeisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tendo.yamagata.jp/municipal/shisaku/R05yosanngaiyousetumeisiryou.pdf",
+    "license": "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    "target": "file"
+  },
+  "/sources/tamba-yosansho-r8/r08ippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamba.lg.jp/soshiki/zaiseka/gyomuannai/3/2/2/12389.html",
+    "license": "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/tamba-yosansho-r7/380.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamba.lg.jp/soshiki/zaiseka/gyomuannai/3/2/2/10366.html",
+    "license": "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/tamba-yosansho-r6/01_69875.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamba.lg.jp/soshiki/zaiseka/gyomuannai/3/2/2/7729.html",
+    "license": "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/tamba-yosansho-r5/69875.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamba.lg.jp/soshiki/zaiseka/gyomuannai/3/2/2/1576.html",
+    "license": "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/tamba-yosansho-r4/62365.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamba.lg.jp/soshiki/zaiseka/gyomuannai/3/2/2/2072.html",
+    "license": "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/tamba-yosansho-r3/54628.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamba.lg.jp/soshiki/zaiseka/gyomuannai/3/2/2/2135.html",
+    "license": "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/tamba-yosansho-r2/47064.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20240306/20240304174236/https://www.city.tamba.lg.jp/soshiki/zaisei/zaisei02yosan.html",
+    "license": "「丹波市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として丹波市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/shimotsuke-yosansho-r8/69a69edd8262b.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shimotsuke.lg.jp/manage/contents/upload/69a69edd8262b.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として下野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、下野市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shimotsuke-yosansho-r7/67b7cc3086f82.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shimotsuke.lg.jp/manage/contents/upload/67b7cc3086f82.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として下野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、下野市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shimotsuke-yosansho-r6/65f39f86f2747.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shimotsuke.lg.jp/manage/contents/upload/65f39f86f2747.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として下野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、下野市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shimotsuke-yosansho-r5/65ea94a6e15bf.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shimotsuke.lg.jp/manage/contents/upload/65ea94a6e15bf.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として下野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、下野市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shimotsuke-yosansho-r4/6412c1ee9b18f.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shimotsuke.lg.jp/manage/contents/upload/6412c1ee9b18f.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として下野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、下野市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shimotsuke-yosansho-r3/6412c458aff8f.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shimotsuke.lg.jp/manage/contents/upload/6412c458aff8f.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として下野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、下野市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/shimotsuke-yosan-shiryo-r2/5e68765a794fd.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shimotsuke.lg.jp/manage/contents/upload/5e68765a794fd.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として下野市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、下野市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
   "/sources/joetsu-yosan-gaiyou-r8/282463.pdf": {
     "mode": "origin",
     "href": "https://www.city.joetsu.niigata.jp/uploaded/attachment/282463.pdf",
