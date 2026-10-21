@@ -25009,6 +25009,174 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "©2024 DAISEN City",
     "target": "file"
   },
+  "/sources/towada-yosan-gaiyou-r8/R8tousyoyosan_gaiyou2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R8tousyoyosan_gaiyou2.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-yosan-gaiyou-r7/R7tousyoyosan_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R7tousyoyosan_gaiyou.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-yosan-gaiyou-r6/R6_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R6_yosangaiyou.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-yosan-gaiyou-r5/R5gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/R5gaiyou.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-yosan-gaiyou-r4/gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/gaiyou.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-yosan-gaiyou-r3/r03gaiyou.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20220127112556id_/https://www.city.towada.lg.jp/shisei/gyousei/files/r03gaiyou.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-yosan-gaiyou-r2/reiwa2yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/reiwa2yosan.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/zushi-yosansho-r8/r8yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/816/r8yosan.pdf",
+    "license": "Copyright © Zushi City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/zushi-yosansho-r7/r7yosanv2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/814/r7yosanv2.pdf",
+    "license": "Copyright © Zushi City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/zushi-yosansho-r6/r6yosansyusei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/805/r6yosansyusei.pdf",
+    "license": "Copyright © Zushi City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/zushi-yosan-gaiyou-r5/r5yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/806/r5yosangaiyou.pdf",
+    "license": "Copyright © Zushi City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/zushi-yosan-gaiyou-r4/r4yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/807/r4yosangaiyou.pdf",
+    "license": "Copyright © Zushi City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/zushi-yosan-gaiyou-r3/r3yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/811/r3yosangaiyou.pdf",
+    "license": "Copyright © Zushi City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/zushi-yosan-gaiyou-r2/r2yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zushi.kanagawa.jp/_res/projects/default_project/_page_/001/013/812/r2yosangaiyou.pdf",
+    "license": "Copyright © Zushi City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/osakasayama-yosansho-r8/01ippan2026.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.osakasayama.osaka.jp/material/files/group/13/01ippan2026.pdf",
+    "license": "当ホームページで提供するすべてのコンテンツ（情報・文章・画像など)について、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/osakasayama-yosansho-r7/01ippan2025.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.osakasayama.osaka.jp/material/files/group/13/01ippan2025.pdf",
+    "license": "当ホームページで提供するすべてのコンテンツ（情報・文章・画像など)について、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/osakasayama-yosansho-r6/01ippan2024.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.osakasayama.osaka.jp/material/files/group/13/01ippan2024.pdf",
+    "license": "当ホームページで提供するすべてのコンテンツ（情報・文章・画像など)について、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/osakasayama-yosansho-r5/01ippan2023.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.osakasayama.osaka.jp/material/files/group/13/01ippan2023.pdf",
+    "license": "当ホームページで提供するすべてのコンテンツ（情報・文章・画像など)について、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/osakasayama-yosansho-r4/01ippan2022.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.osakasayama.osaka.jp/material/files/group/13/01ippan2022.pdf",
+    "license": "当ホームページで提供するすべてのコンテンツ（情報・文章・画像など)について、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/osakasayama-yosansho-r3/01ippan2021.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210817/20210815160759/http://www.city.osakasayama.osaka.jp/ikkrwebBrowse/material/files/group/11/01ippan2021.pdf",
+    "license": "当ホームページで提供するすべてのコンテンツ（情報・文章・画像など)について、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/osakasayama-yosansho-r2/01ippan2020.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20200819/20200818110319/http://www.city.osakasayama.osaka.jp/ikkrwebBrowse/material/files/group/11/01ippan2020.pdf",
+    "license": "当ホームページで提供するすべてのコンテンツ（情報・文章・画像など)について、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/hyuga-yosan-gaiyou-r8/20260220170527.pdf": {
+    "mode": "origin",
+    "href": "https://www.hyugacity.jp/tempimg/20260220170527.pdf",
+    "license": "© HYUGA City.",
+    "target": "file"
+  },
+  "/sources/hyuga-yosan-gaiyou-r7/20250501085948.pdf": {
+    "mode": "origin",
+    "href": "https://www.hyugacity.jp/tempimg/20250501085948.pdf",
+    "license": "© HYUGA City.",
+    "target": "file"
+  },
+  "/sources/hyuga-yosan-gaiyou-r6/20240126135049.pdf": {
+    "mode": "origin",
+    "href": "https://www.hyugacity.jp/tempimg/20240126135049.pdf",
+    "license": "© HYUGA City.",
+    "target": "file"
+  },
+  "/sources/hyuga-yosan-gaiyou-r5/20230217093338.pdf": {
+    "mode": "origin",
+    "href": "https://www.hyugacity.jp/tempimg/20230217093338.pdf",
+    "license": "© HYUGA City.",
+    "target": "file"
+  },
+  "/sources/hyuga-yosan-gaiyou-r4/20220218141006.pdf": {
+    "mode": "origin",
+    "href": "https://www.hyugacity.jp/tempimg/20220218141006.pdf",
+    "license": "© HYUGA City.",
+    "target": "file"
+  },
+  "/sources/hyuga-yosan-gaiyou-r3/20210301145314.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20221205140722id_/https://www.hyugacity.jp/tempimg/20210301145314.pdf",
+    "license": "© HYUGA City.",
+    "target": "file"
+  },
+  "/sources/hyuga-yosan-gaiyou-r2/20200124131621.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20221205172828id_/https://www.hyugacity.jp/tempimg/20200124131621.pdf",
+    "license": "© HYUGA City.",
+    "target": "file"
+  },
   "/sources/izumiotsu-yosan-gaiyou-r8/R8yosangaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.izumiotsu.lg.jp/kakuka/somu/zaisei/yosan/14973.html",

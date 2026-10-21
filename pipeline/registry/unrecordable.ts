@@ -2353,23 +2353,37 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-82",
   },
   {
-    // 糸満市（472107）R6〜R2。R8・R7 は収録済み（§13-83）。
+    // 美濃加茂市（212113）R8〜R2。1年度も収録できていない（§13-83）。
+    // R8: 概要 /uploaded/attachment/20115.pdf の款別表（p.12・p.15）は表のセルが JPEG 画像、予算書 20182.pdf の総括（物理 p.8・p.9）は文字がノンブルだけ（アウトライン化）。
+    // R7〜R5: 概要（16397・12807・6815）は歳入を「譲与税・交付金」に合算し万円の億表記。予算書（16386・12814・Wayback の 6812）は文字がノンブルか表題だけ。
+    // R4: 概要（6816）は千円だが歳入を合算。予算書は現行サイトで 404・Wayback は 1 MiB で途中切れ。
+    // R3・R2: 概要（6817・6818）は歳入を合算。p.5 に「譲与税・交付金」の内訳表があり合成すれば22款に戻せるが、既存のパーサでは読めない（新しい読み方の判断が要る）。
+    code: "212113", name: "美濃加茂市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "款ごとの前年度比較が載る予算書の総括は、数字や款名が文字として取り出せない形（図形や画像）で作られている。" +
+      "文字として読める予算の概要は、歳入の地方譲与税や各種の交付金を「譲与税・交付金」の1行にまとめていて、款ごとの額が載っていない。",
+    url: "https://www.city.minokamo.lg.jp/soshiki/28/2568.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-83",
+  },
+  {
+    // 糸満市（472107）R6〜R2。R8・R7 は収録済み（§13-84）。
     // 財政情報ページ（/soshiki/3/11747.html）の予算の欄は、R6〜H29 が「予算概要」の PDF 1本だけ（R6 14877・R5 14482・R4 14483・R3 14484・R2 14485）。中身は歳入の款別と歳出の性質別で、目的別の款が無い。WARP の年度一覧（2024-06・2025-03）も同じ（偵察）。
     code: "472107", name: "糸満市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
     categories: ["format-mismatch"],
     reason:
       "この年度の予算書はウェブに掲載されておらず、掲載されている予算の概要の歳出は性質別（人件費・扶助費など）の表で、目的別（款別）の表が無い。",
     url: "https://www.city.itoman.lg.jp/soshiki/3/11747.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-83",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-84",
   },
   {
-    // 大和高田市（292028）R8。R7〜R2 は収録済み（§13-83）。
+    // 大和高田市（292028）R8。R7〜R2 は収録済み（§13-84）。
     // 「令和8年度 予算の概要」（R8-yosan-gaiyou.pdf・32p）は26ページが画像（CCITT）で抽出できるのはノンブルだけ。予算書一般会計・予算に関する説明書も全ページがスキャン（偵察）。
     code: "292028", name: "大和高田市", dataset: "budget", fiscalYears: ["R8"],
     categories: ["scanned-image"],
     reason:
       "予算の概要・予算書・予算に関する説明書のどれもが紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
     url: "https://www.city.yamatotakada.nara.jp/shisei/zaisei_yosan_kessan/3298.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-83",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-84",
   },
 ];

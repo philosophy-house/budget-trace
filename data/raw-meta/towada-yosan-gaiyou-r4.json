@@ -1,0 +1,12 @@
+{
+  "sourceId": "towada-yosan-gaiyou-r4",
+  "files": [
+    {
+      "filename": "gaiyou.pdf",
+      "sha256": "e00d733e2eabe3775473559e085939d3ff619ff632f2858d75be11e0c3d68cb0",
+      "bytes": 567879,
+      "fetchedAt": "2026-10-21T21:15:09.031Z",
+      "fetchedFrom": "https://www.city.towada.lg.jp/shisei/gyousei/zaisei/files/gaiyou.pdf"
+    }
+  ]
+}

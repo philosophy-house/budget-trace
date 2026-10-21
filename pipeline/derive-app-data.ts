@@ -4139,7 +4139,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `tsuruga-yosan-about-${fy}`, muniCode: "182028", muniName: "敦賀市", prefName: "福井県", isPref: false,
     })),
-    // ---- 第75巡（2026-10-22・§13-83）: 藤井寺・糸満・白井・大和高田・加賀 ----
+    // ---- 第75巡（2026-10-22・§13-83）: 日向・逗子・大阪狭山・十和田（美濃加茂は収録できず） ----
+    // ⚠ 十和田は R8・R7 が横並び（CropX）・R6〜R2 が縦並び（samePage）。R3 は Wayback。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `towada-yosan-gaiyou-${fy}`, muniCode: "022063", muniName: "十和田市", prefName: "青森県", isPref: false,
+    })),
+    // ⚠ 逗子 R8〜R6 は予算書（R7・R6 は修正可決後の版）・R5〜R2 は概要。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `zushi-yosansho-${fy}`, muniCode: "142085", muniName: "逗子市", prefName: "神奈川県", isPref: false,
+    })),
+    ...(["r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `zushi-yosan-gaiyou-${fy}`, muniCode: "142085", muniName: "逗子市", prefName: "神奈川県", isPref: false,
+    })),
+    // ⚠ 大阪狭山 R6 だけページが +1。R5・H31 骨格で R6・R2 に prevNote。R3・R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `osakasayama-yosansho-${fy}`, muniCode: "272311", muniName: "大阪狭山市", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 日向は年度ごとに指定が違う（R3・R2 は amountTypos の空白まで原文どおり）。R6・R2 骨格で R7・R3 に prevNote。R3・R2 は Wayback。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hyuga-yosan-gaiyou-${fy}`, muniCode: "452068", muniName: "日向市", prefName: "宮崎県", isPref: false,
+    })),
+    // ---- 第76巡（2026-10-22・§13-84）: 藤井寺・糸満・白井・大和高田・加賀 ----
     // ⚠ 藤井寺 R6・R5 は予算書がスキャンで予算説明資料。R5・H31 骨格（R6・R2 に prevNote）
     ...(["r8", "r7", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `fujiidera-yosansho-${fy}`, muniCode: "272264", muniName: "藤井寺市", prefName: "大阪府", isPref: false,
