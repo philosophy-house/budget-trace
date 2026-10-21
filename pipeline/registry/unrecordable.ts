@@ -2009,4 +2009,67 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.omihachiman.lg.jp/gyosei/gyozaisei/yosan/17908.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
+  {
+    // 清瀬市（132217）R2。R8〜R3 は収録済み（§13-68）。
+    // 説明資料 r2tousyoyosansetsumei.pdf（78p）は p.1〜2 だけテキスト・p.3 以降はスキャン JPEG。予算書 r2ippankaikeitousyo.pdf には総括が無い（款名も途中で切れる）。
+    code: "132217", name: "清瀬市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image", "format-mismatch"],
+    reason:
+      "款ごとの前年度比較が載る当初予算説明資料は、表紙の後ろが紙をスキャンした画像で文字として取り出せない。" +
+      "一般会計予算書には款ごとの総括の表が無い。",
+    url: "https://www.city.kiyose.lg.jp/siseijouhou/zaisei/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 龍ケ崎市（082082）R2。R8〜R3 は収録済み（§13-68）。
+    // R2_Ryugasaki_Initial_Budget.pdf は全文が ToUnicode 欠落の化け。decodeGarble は廃止款の印「×」が U+0099 に化けて GARBLE_CHAR_MAP に無く throw（印を足せば Σ 差0・偵察がスクラッチで実測）。
+    code: "082082", name: "龍ケ崎市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "一般会計予算書の文字が別の字に化けていて、廃止された款の行の印がこちらの復号の対応表に無いため、款ごとの表を読み切れない。",
+    url: "https://www.city.ryugasaki.ibaraki.jp/shisei/zaisei/yosankessan/yosan/y-yosansyo/R2_Ryugasaki_Budget.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 室蘭市（012050）R8。R7・R6・R5・R3 は収録済み（§13-68）。
+    // 予算書 content_20260318_112055.pdf（152p・29.6MB）は InDesign の電子原本だが文字が全部アウトライン化（p.13 で Tj/TJ 0・曲線 c 12,319）。
+    // 予算の概要の款別表（物理 p.15/16）は百万円の四捨五入で Σ が −1 百万円割れる（validate の厳密一致で error）。
+    code: "012050", name: "室蘭市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "一般会計予算書は文字を図形に変換した状態で作られていて、文字として取り出せない。" +
+      "予算の概要にも款別の表はあるが百万円単位に丸めてあり、款の合計が総額と一致しない。",
+    url: "https://www.city.muroran.lg.jp/administration/?content=1921",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 室蘭市（012050）R4・R2。WARP の旧サイトの予算書。R4（01_r4_ippankaikei.pdf）は ToUnicode の一部欠落で款名の漢字が消える（数字は健全）。
+    // R2（01_r2_ippankaikei.pdf・総括 p.7/8）は化け字で、decodeGarble で19款は復号できるが港湾費・広域連合負担金・職員費とノンブルの「〜」が復号表に無い。
+    code: "012050", name: "室蘭市", dataset: "budget", fiscalYears: ["R4", "R2"],
+    categories: ["broken-text-layer"],
+    reason:
+      "一般会計予算書の総括のページの文字が別の字に化けている（令和4年度は款の名前の漢字が抜け落ち、令和2年度はこちらの復号の対応表に無い字を含む）。款の名前を確かめられないので収録しない。",
+    url: "https://warp.ndl.go.jp/20231005/20231004012958/https://www.city.muroran.lg.jp/main/org2300/documents/01_r4_ippankaikei.pdf",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 米沢市（062022）R2。R8〜R3 は収録済み（§13-68）。
+    // 年度ページ（旧サイト /2084.html・WARP）に予算書は一度も載っていない。予算の概要 r02yosannogaiyou2.pdf（13p）は全ページがスキャン（DocuCentre-V 4070・pdftotext 13バイト）。
+    code: "062022", name: "米沢市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason:
+      "この年度は予算書がウェブに掲載されておらず、予算の概要は紙をスキャンした画像の PDF で文字として取り出せない。",
+    url: "https://warp.ndl.go.jp/20210410/20210410094039/https://www.city.yonezawa.yamagata.jp/2083.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
+  {
+    // 福知山市（262013）R2。R8〜R3 は収録済み（§13-68）。
+    // 予算説明書 16865.pdf はスキャン画像に OCR の文字を重ねたもので誤認識がある（「市 仟」「士木費」「37フ,000」）。予算の要領 17343.pdf はフォント0の画像。
+    code: "262013", name: "福知山市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason:
+      "予算説明書は紙をスキャンした画像に機械で読み取った文字を重ねたもので、款の名前や数字に読み取りの誤りがある。議決された予算の要領は文字の無い画像。",
+    url: "https://www.city.fukuchiyama.lg.jp/site/yosan/20303.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-68",
+  },
 ];

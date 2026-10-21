@@ -1,0 +1,12 @@
+{
+  "sourceId": "muroran-yosansho-r5",
+  "files": [
+    {
+      "filename": "01_r5_ippankaikei.pdf",
+      "sha256": "f5057262fa804adb4ec86e0cbcb1c019d481ca71175c6fb4fc8c7915ec8c74f0",
+      "bytes": 2412319,
+      "fetchedAt": "2026-10-21T16:59:20.632Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20231005/20231004012958/https://www.city.muroran.lg.jp/main/org2300/documents/01_r5_ippankaikei.pdf"
+    }
+  ]
+}

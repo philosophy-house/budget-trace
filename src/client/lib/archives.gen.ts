@@ -1803,6 +1803,7 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.kitami.lg.jp/common/img/content/content_20260325_113138.pdf": "https://web.archive.org/web/20260927131504/https://www.city.kitami.lg.jp/common/img/content/content_20260325_113138.pdf",
   "https://www.city.kitami.lg.jp/administration/town/detail.php?content=14268": "https://web.archive.org/web/20260927123414/https://www.city.kitami.lg.jp/administration/town/detail.php?content=14268",
   "https://www.city.kitami.lg.jp/common/img/content/content_20260310_115714.pdf": "https://web.archive.org/web/20260927123317/https://www.city.kitami.lg.jp/common/img/content/content_20260310_115714.pdf",
+  "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/944/r8ippannkaikeisetumeisiryou.pdf": "https://web.archive.org/web/20260407211457/https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/944/r8ippannkaikeisetumeisiryou.pdf",
   "https://www.city.kobe.lg.jp/a71064/shise/municipal/giinnmeibo/kaiha.html": "https://web.archive.org/web/20260309125942/https://www.city.kobe.lg.jp/a71064/shise/municipal/giinnmeibo/kaiha.html",
   "https://www.city.kobe.lg.jp/documents/83465/20260326_sanpiichiran2.pdf": "https://web.archive.org/web/20261001154437/https://www.city.kobe.lg.jp/documents/83465/20260326_sanpiichiran2.pdf",
   "https://www.city.kobe.lg.jp/z/shikaijimukyoku/giann_etc/r8/2gatsukekka.html": "https://web.archive.org/web/20260317083801/https://www.city.kobe.lg.jp/z/shikaijimukyoku/giann_etc/r8/2gatsukekka.html",
