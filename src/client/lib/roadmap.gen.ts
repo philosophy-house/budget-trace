@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 395,
+  "budgetCount": 400,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2992,
-  "fileCount": 4638,
-  "archivedCount": 2627,
+  "sourceCount": 3027,
+  "fileCount": 4673,
+  "archivedCount": 2636,
   "licenseOpen": 130,
-  "licensePermission": 2784,
+  "licensePermission": 2819,
   "licenseUnverified": 78,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -795,6 +795,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "須賀川市",
+      "code": "072079",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "取手市",
       "code": "082171",
       "years": 7,
@@ -821,6 +827,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "桐生市",
       "code": "102032",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "館林市",
+      "code": "102075",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1089,6 +1101,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "中津川市",
+      "code": "212067",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "可児市",
       "code": "212148",
       "years": 7,
@@ -1233,6 +1251,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "城陽市",
+      "code": "262072",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "長岡京市",
       "code": "262099",
       "years": 7,
@@ -1289,6 +1313,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "加古川市",
       "code": "282103",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "三木市",
+      "code": "282154",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },

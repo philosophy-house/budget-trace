@@ -49829,6 +49829,139 @@
       "checkedAt": "2026-09-10T10:07:34.484Z"
     },
     {
+      "sourceId": "tatebayashi-yosan-aramashi-r2",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20241102051458/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "waybackTimestamp": "20241102051458",
+      "checkedAt": "2026-10-21T17:22:15.024Z"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r2",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R2aramashi.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260401222214/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R2aramashi.pdf",
+      "waybackTimestamp": "20260401222214",
+      "checkedAt": "2026-10-21T17:22:14.552Z",
+      "sha256Match": true,
+      "waybackBytes": 624201,
+      "rawSha256": "32af2b666e16bbdd4b78b615e2a4648b25fb60d5de18e6951799594da355d6bb"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r3",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20241102051458/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "waybackTimestamp": "20241102051458",
+      "checkedAt": "2026-10-21T17:22:12.447Z"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r3",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R3aramashi.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260401223302/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R3aramashi.pdf",
+      "waybackTimestamp": "20260401223302",
+      "checkedAt": "2026-10-21T17:22:11.909Z",
+      "sha256Match": true,
+      "waybackBytes": 244983,
+      "rawSha256": "df01a21df6c35092f72d9a0bd922651658edc62d08db71ce683fdf02b27e954b"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r4",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20241102051458/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "waybackTimestamp": "20241102051458",
+      "checkedAt": "2026-10-21T17:22:09.497Z"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r4",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R4yosannoaramashi.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260401070130/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R4yosannoaramashi.pdf",
+      "waybackTimestamp": "20260401070130",
+      "checkedAt": "2026-10-21T17:22:09.145Z",
+      "sha256Match": true,
+      "waybackBytes": 243151,
+      "rawSha256": "71ecfc7baa962f5645248e97e97de1bbba79bf7d91b9bec096d7713553b399e6"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r5",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20241102051458/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "waybackTimestamp": "20241102051458",
+      "checkedAt": "2026-10-21T17:22:06.988Z"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r5",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R5yosan-aramashi.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260401070130/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R5yosan-aramashi.pdf",
+      "waybackTimestamp": "20260401070130",
+      "checkedAt": "2026-10-21T17:22:06.442Z",
+      "sha256Match": true,
+      "waybackBytes": 483705,
+      "rawSha256": "423f1aa7e7cb4a85c6a61c891522f78fbe252afccb694eff2bc22fe113229895"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r6",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20241102051458/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "waybackTimestamp": "20241102051458",
+      "checkedAt": "2026-10-21T17:22:03.778Z"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r6",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/aramashi.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260401222213/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/aramashi.pdf",
+      "waybackTimestamp": "20260401222213",
+      "checkedAt": "2026-10-21T17:22:03.419Z",
+      "sha256Match": true,
+      "waybackBytes": 592475,
+      "rawSha256": "f929f276a3d5a1647be05098606511497c49f753fe77baf13fbf57ebba04ba40"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r7",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20241102051458/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "waybackTimestamp": "20241102051458",
+      "checkedAt": "2026-10-21T17:22:01.327Z"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r7",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R07yosanaramashi.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021172146/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R07yosanaramashi.pdf",
+      "waybackTimestamp": "20261021172146",
+      "checkedAt": "2026-10-21T17:22:00.735Z",
+      "sha256Match": true,
+      "waybackBytes": 490719,
+      "rawSha256": "22a4cdf9cc49adf2896cbb6eb3e3556c9216835213adc04caa4f0852b8dfafa0"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r8",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20241102051458/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/20200102235000.html",
+      "waybackTimestamp": "20241102051458",
+      "checkedAt": "2026-10-21T17:21:44.958Z"
+    },
+    {
+      "sourceId": "tatebayashi-yosan-aramashi-r8",
+      "url": "https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R8.aramashi.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021172133/https://www.city.tatebayashi.gunma.jp/s005/shisei/080/030/R8.aramashi.pdf",
+      "waybackTimestamp": "20261021172133",
+      "checkedAt": "2026-10-21T17:21:44.519Z",
+      "sha256Match": true,
+      "waybackBytes": 393630,
+      "rawSha256": "0cd3632ea6803586157c56f1f1a880a01b8149031b2f73734831e33f1388cbc2"
+    },
+    {
       "sourceId": "tochigi-shi-yosan-aramashi-h30",
       "url": "https://www.city.tochigi.lg.jp/soshiki/14/1853.html",
       "kind": "landing",
