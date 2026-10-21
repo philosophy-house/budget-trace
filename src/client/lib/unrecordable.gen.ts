@@ -1218,6 +1218,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "332046": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "一般会計予算書の文字がすべて図形として描かれていて、文字として取り出せない。当初予算の概要は百万円単位で、いくつかの款をまとめた区分しか載っていない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "341002": {
     "report": [
       {
