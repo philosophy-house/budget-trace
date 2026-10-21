@@ -3601,7 +3601,7 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20250215191029/https://daito.gijiroku.com/gikai/g07_Congress.asp",
       "waybackTimestamp": "20250215191029",
-      "checkedAt": "2026-10-21T14:54:14.325Z"
+      "checkedAt": "2026-10-21T15:18:19.528Z"
     },
     {
       "sourceId": "daito-shigikai-r8",
@@ -3609,7 +3609,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261021145351/https://daito.gijiroku.com/gikai/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026%2F02%2F24,2026%2F03%2F24,140&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2",
       "waybackTimestamp": "20261021145351",
-      "checkedAt": "2026-10-21T14:54:12.724Z"
+      "checkedAt": "2026-10-21T15:18:18.652Z"
     },
     {
       "sourceId": "daito-shigikai-r8",
@@ -3617,7 +3617,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261021145331/https://daito.gijiroku.com/gikai/GikaiDoc/attach/koho/Kh133_1.pdf",
       "waybackTimestamp": "20261021145331",
-      "checkedAt": "2026-10-21T14:53:46.972Z"
+      "checkedAt": "2026-10-21T15:18:17.583Z"
     },
     {
       "sourceId": "daito-shigikai-r8",
@@ -3625,7 +3625,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261021145807/https://daito.gijiroku.com/gikai/shikumi2.asp",
       "waybackTimestamp": "20261021145807",
-      "checkedAt": "2026-10-21T14:58:28.602Z"
+      "checkedAt": "2026-10-21T15:18:18.993Z"
     },
     {
       "sourceId": "daito-yosan-gaiyou-r6",
@@ -6308,11 +6308,22 @@
     },
     {
       "sourceId": "habikino-shigikai-r8",
+      "url": "https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021151515/https://www.city.habikino.lg.jp/material/files/group/50/081giketukekka.pdf",
+      "waybackTimestamp": "20261021151515",
+      "checkedAt": "2026-10-21T15:15:31.130Z",
+      "sha256Match": true,
+      "waybackBytes": 237252,
+      "rawSha256": "422c0fa509a17dd3e5089c2e7a6a4e4b922e3388c25f3331d664e69a020da07b"
+    },
+    {
+      "sourceId": "habikino-shigikai-r8",
       "url": "https://www.city.habikino.lg.jp/material/files/group/50/26shigikaidayori06.pdf",
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261021145506/https://www.city.habikino.lg.jp/material/files/group/50/26shigikaidayori06.pdf",
       "waybackTimestamp": "20261021145506",
-      "checkedAt": "2026-10-21T14:57:02.538Z",
+      "checkedAt": "2026-10-21T15:15:35.099Z",
       "sha256Match": true,
       "waybackBytes": 818038,
       "rawSha256": "dfded310ea77c96a60cdda4e8a7e43646ec9b9741c42fae3544e3c19e11746bd"
@@ -6323,7 +6334,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20260728002129/https://www.city.habikino.lg.jp/soshiki/gikaijimu/gikaijimu_shigikai/950.html",
       "waybackTimestamp": "20260728002129",
-      "checkedAt": "2026-10-21T14:57:02.048Z",
+      "checkedAt": "2026-10-21T15:15:33.482Z",
       "sha256Match": true,
       "waybackBytes": 35954,
       "rawSha256": "00a591b332a7c5b9f8492caf78dc8f4f871b18937facb2ad8dee98bb54dc617f"
@@ -6334,7 +6345,7 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20261021145707/https://www.city.habikino.lg.jp/soshiki/gikaijimu/gikaijimu_shigikai/teireikai/R8_3/17432.html",
       "waybackTimestamp": "20261021145707",
-      "checkedAt": "2026-10-21T14:57:34.581Z"
+      "checkedAt": "2026-10-21T15:15:35.519Z"
     },
     {
       "sourceId": "habikino-shigikai-r8",
@@ -6342,7 +6353,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20260124022313/https://www.city.habikino.lg.jp/soshiki/gyousei/senkyokanri/tisiki/13435.html",
       "waybackTimestamp": "20260124022313",
-      "checkedAt": "2026-10-21T14:57:01.457Z",
+      "checkedAt": "2026-10-21T15:15:31.707Z",
       "sha256Match": true,
       "waybackBytes": 35965,
       "rawSha256": "09a4be6ab61b4cc2ebb06688654963b03b05d306333fdff1d7c8402653a81a41"
@@ -7591,11 +7602,27 @@
     },
     {
       "sourceId": "higashiosaka-shigikai-r8",
+      "url": "https://higashiosaka.gijiroku.com/gikai/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026/02/20,2026/03/27,100&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021151654/https://higashiosaka.gijiroku.com/gikai/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026%2F02%2F20,2026%2F03%2F27,100&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2",
+      "waybackTimestamp": "20261021151654",
+      "checkedAt": "2026-10-21T15:17:15.570Z"
+    },
+    {
+      "sourceId": "higashiosaka-shigikai-r8",
       "url": "https://higashiosaka.gijiroku.com/gikai/g07_Koho.asp",
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20251222002812/https://higashiosaka.gijiroku.com/gikai/g07_Koho.asp",
       "waybackTimestamp": "20251222002812",
-      "checkedAt": "2026-10-21T14:57:49.348Z"
+      "checkedAt": "2026-10-21T15:17:16.426Z"
+    },
+    {
+      "sourceId": "higashiosaka-shigikai-r8",
+      "url": "https://higashiosaka.gijiroku.com/gikai/GikaiDoc/attach/koho/Kh112_232.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021151638/https://higashiosaka.gijiroku.com/gikai/GikaiDoc/attach/koho/Kh112_232.pdf",
+      "waybackTimestamp": "20261021151638",
+      "checkedAt": "2026-10-21T15:16:49.832Z"
     },
     {
       "sourceId": "higashiosaka-shigikai-r8",
@@ -7603,7 +7630,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20251204040758/https://higashiosaka.gijiroku.com/gikai/shikumi.asp",
       "waybackTimestamp": "20251204040758",
-      "checkedAt": "2026-10-21T14:57:48.816Z"
+      "checkedAt": "2026-10-21T15:17:15.968Z"
     },
     {
       "sourceId": "higashiosaka-yosansho-r7",
@@ -10178,7 +10205,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20260609235153/https://www.city.ikeda.osaka.jp/material/files/group/1/20250513_rinjikai_kaikai.pdf",
       "waybackTimestamp": "20260609235153",
-      "checkedAt": "2026-10-21T14:47:29.677Z",
+      "checkedAt": "2026-10-21T15:20:32.849Z",
       "sha256Match": true,
       "waybackBytes": 228451,
       "rawSha256": "e504ef65f158ee53cee413675dd4419dc48013c06a9c1ec16d36fe745ee4a528"
@@ -10189,7 +10216,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261021144706/https://www.city.ikeda.osaka.jp/material/files/group/39/gikai_dayori_R8_5.pdf",
       "waybackTimestamp": "20261021144706",
-      "checkedAt": "2026-10-21T14:47:27.425Z",
+      "checkedAt": "2026-10-21T15:19:34.016Z",
       "sha256Match": true,
       "waybackBytes": 9924773,
       "rawSha256": "2cf257faa7705d10d9bd4ff2c58bff743f4c77a55f90df7aba0237adf4ec36be"
@@ -10200,16 +10227,16 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20261021144743/https://www.city.ikeda.osaka.jp/shisei_info/gikai/gikaidayori/R8_tayori_1/20984.html",
       "waybackTimestamp": "20261021144743",
-      "checkedAt": "2026-10-21T14:48:24.084Z"
+      "checkedAt": "2026-10-21T15:20:46.902Z"
     },
     {
       "sourceId": "ikeda-shigikai-r8",
       "url": "https://www.city.ikeda.osaka.jp/soshiki/gikai/ikedashigikai/teishutu/reiwa8nennteisyutugianngiketukekka/20615.html",
       "kind": "file",
-      "waybackUrl": "https://web.archive.org/web/20260409183843/https://www.city.ikeda.osaka.jp/soshiki/gikai/ikedashigikai/teishutu/reiwa8nennteisyutugianngiketukekka/20615.html",
-      "waybackTimestamp": "20260409183843",
-      "checkedAt": "2026-10-21T14:47:28.509Z",
-      "sha256Match": false,
+      "waybackUrl": "https://web.archive.org/web/20261021151939/https://www.city.ikeda.osaka.jp/soshiki/gikai/ikedashigikai/teishutu/reiwa8nennteisyutugianngiketukekka/20615.html",
+      "waybackTimestamp": "20261021151939",
+      "checkedAt": "2026-10-21T15:20:18.297Z",
+      "sha256Match": true,
       "waybackBytes": 122123,
       "rawSha256": "162af4334fb4ea1b7b3fee0fc2e92f0598cbbd3e949c0144662b350dcc29141d"
     },

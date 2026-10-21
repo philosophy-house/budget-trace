@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.9";
+export const PARSER_VERSION = "0.8.10";
 
 const factionSchema = z
   .object({
@@ -1471,7 +1471,12 @@ export function parseCouncilTranscribed(
       // 件名が議案番号で始まる書き方（南アルプス「議案26一般会計予算」）のときだけ件名の頭も窓に含める。
       // 「件名のどこかに番号の字がある」で広げると、1桁の番号が「令和８年度」の８に当たる（草加で実測）
       const before = v.text.slice(Math.max(0, i - win), i + (nameN.startsWith(billNoN) ? billNoN.length : 0));
-      if (r.farOk?.includes("billNo") || before.includes(billNoN)) anchors.push({ text: v.text, at: i, page: v.page });
+      // 窓の中で議案番号の後ろに**別の議案番号**があれば、件名に最も近いのはそちら（0.8.10）。
+      // 松原は -layout で前の行の多行セルが崩れ、件名の直前20字が「議案第3号〃〃〃2号)令和議案第4号」になって
+      // 「議案第3号」（介護保険の補正予算）を書いても通った（レビューで実測）
+      const at = before.lastIndexOf(billNoN);
+      const nearest = at >= 0 && !(/号$/.test(billNoN) && /第\d+号/.test(before.slice(at + billNoN.length)));
+      if (r.farOk?.includes("billNo") || nearest) anchors.push({ text: v.text, at: i, page: v.page });
     }
   }
   if (!resultViews.some((v) => v.text.includes(nameN))) {
