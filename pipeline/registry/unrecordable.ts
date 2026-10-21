@@ -1866,7 +1866,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-21", ref: "docs/data-sources.md §13-22",
   },
   {
-    // 高砂市（282162）R4。R8〜R5・R3・R2 は収録済み（§13-60）。
+    // 高砂市（282162）R4。R8〜R5・R3・R2 は収録済み（§13-62）。
     // 概要 20220216-5.pdf の当年度 36,496,125 は原案訂正の前。議決額 36,468,186 は R5 の前年度列・財政事情 R4 予算（20220530-3.pdf）と款単位一致（繰入金・総務費が 27,939 ずつ違う）。
     // 財政事情の版には前年度の額が無い。R4 の予算書は年度ページに掲載が無い。原案訂正は議会だより第217号（/material/files/group/85/25.pdf）。
     code: "282162", name: "高砂市", dataset: "budget", fiscalYears: ["R4"],
@@ -1875,6 +1875,50 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "市が公開している「予算の概要」は、市長が議会の審議中に予算案を訂正する前の数字のままで、繰入金と総務費の額が成立した予算と違う。" +
       "成立した予算の款ごとの額は財政事情の公表資料に載っているが、そちらには前年度の額が無い。",
     url: "https://www.city.takasago.lg.jp/gyoseisite/shiseijoho/gyozaisei/4/6/6251.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-62",
+  },
+  {
+    // 花巻市（032051）R2。R8〜R3 は収録済み（§13-61）。
+    // 予算書 02yosan.pdf（45ページ）・事項別明細書 02yosan_ippan.pdf（228ページ）とも先頭20ページで pdftotext 0字・pdffonts 0件・画像あり（2026-10-22 に自分で取得して実測）。
+    code: "032051", name: "花巻市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算書と予算事項別明細書がどちらも文字の層が無い画像で作られている。" +
+      "文字が取れる参考資料は歳入の款別だけで歳出の款別が無く、広報のあらましは万円単位で前年度の額が無い。",
+    url: "https://www.city.hanamaki.iwate.jp/shisei/shisei/yosan_kessan/1008155/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-61",
+  },
+  {
+    // 袋井市（222160）R4。R8〜R5・R3・R2 は収録済み（§13-61）。パーサの issue に積んだ。
+    code: "222160", name: "袋井市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["parser-unsupported"],
+    reason:
+      "歳入の款別集計表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度1千円）が、名前の上段・金額の行・名前の下段の3行に分かれて組まれていて、" +
+      "こちらの抽出処理では款名を正しく組み立てられない。原典の表は健全。",
+    url: "https://www.city.fukuroi.shizuoka.jp/soshiki/6/2/zaisei/1422534504181.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-61",
+  },
+  {
+    // 北上市（032069）R6〜R2。R8・R7 は収録済み（§13-60）。
+    // 予算書（R6 2024-01-01.pdf・R5 2023-01-01.pdf・R4 2022-0202.pdf・R3 r3ippann1.pdf・R2 r2ippan1.pdf）の総括 物理 p.15〜18 は pdftotext がノンブルだけ・pdfimages 0件（文字をアウトライン化）。
+    // 概要（予算（案）の概要）は歳入を「地方譲与税等※」の1行に集約（注記の内訳は地方譲与税・利子割交付金…と年度で並びが違う。R2 は自動車取得税交付金を含む）。
+    code: "032069", name: "北上市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "一般会計予算書のうち、款ごとの前年度比較が載る総括のページが文字を図形に変換した状態で作られていて、ページ番号のほかは文字として取り出せない（画像も入っていない）。" +
+      "予算（案）の概要にも款別の表はあるが、歳入の地方譲与税や各種の交付金を「地方譲与税等」の1行にまとめていて、款ごとの額が載っていない。",
+    url: "https://www.city.kitakami.iwate.jp/life/shisei/zaisei/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
+  },
+  {
+    // 東松山市（112127）R4〜R2。R8〜R5 は収録済み（§13-60）。
+    // 総括 R4 /uploaded/attachment/1049.pdf（フォント0・画像5）・R3 1031.pdf（文字はノンブルだけ・画像5）・R2 は WARP の 002_soukatsu.pdf（フォント0・画像5）。
+    code: "112127", name: "東松山市", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason:
+      "一般会計予算説明書の総括（款ごとの前年度比較）が紙をスキャンした画像だけの PDF で、文字として取り出せない。" +
+      "令和2年度は市のサイトから消えていて、国立国会図書館の WARP に残る写しもスキャン画像。",
+    url: "https://www.city.higashimatsuyama.lg.jp/soshiki/4/1056.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-60",
   },
 ];

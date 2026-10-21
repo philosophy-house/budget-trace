@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 350,
+  "budgetCount": 360,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 2703,
-  "fileCount": 4323,
-  "archivedCount": 2508,
+  "sourceCount": 2763,
+  "fileCount": 4383,
+  "archivedCount": 2533,
   "licenseOpen": 119,
-  "licensePermission": 2513,
+  "licensePermission": 2573,
   "licenseUnverified": 71,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -957,6 +957,24 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "三条市",
+      "code": "152048",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "新発田市",
+      "code": "152064",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "射水市",
+      "code": "162116",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "小松市",
       "code": "172031",
       "years": 7,
@@ -965,6 +983,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "福井市",
       "code": "182010",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "坂井市",
+      "code": "182109",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1055,6 +1079,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "日進市",
       "code": "232301",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "あま市",
+      "code": "232378",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1257,6 +1287,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "薩摩川内市",
+      "code": "462152",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "霧島市",
       "code": "462187",
       "years": 7,
@@ -1289,6 +1325,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "八戸市",
       "code": "022039",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "花巻市",
+      "code": "032051",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -1381,6 +1423,12 @@ export const ROADMAP_PROGRESS = {
       "code": "172103",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "袋井市",
+      "code": "222160",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "春日井市",
@@ -1575,6 +1623,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（4年度）"
     },
     {
+      "name": "東松山市",
+      "code": "112127",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
+    },
+    {
       "name": "渋谷区",
       "code": "131130",
       "years": 4,
@@ -1693,6 +1747,12 @@ export const ROADMAP_PROGRESS = {
       "code": "282065",
       "years": 3,
       "range": "R2〜R8（3年度）"
+    },
+    {
+      "name": "北上市",
+      "code": "032069",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
     },
     {
       "name": "山形市",

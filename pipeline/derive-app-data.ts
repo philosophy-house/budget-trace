@@ -3589,6 +3589,30 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第56巡（2026-10-22・§13-61） ----
+    // ⚠ 射水は款番号が `1款` 形式（`kanNamePrefixStrip`）・内訳行を `kanIndentMax` で外す（字下げは年度で違う）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `imizu-yosan-gaiyou-${fy}`, muniCode: "162116", muniName: "射水市", prefName: "富山県", isPref: false,
+    })),
+    // ⚠ 花巻 R5 の前年度列は R4（骨格）の5月補正後。R4・R3 は明細書の総括（見開き）。R2 は画像で未収録。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `hanamaki-yosan-gaiyou-${fy}`, muniCode: "032051", muniName: "花巻市", prefName: "岩手県", isPref: false,
+    })),
+    ...(["r4", "r3"] as const).map((fy) => ({
+      srcId: `hanamaki-yosan-meisai-${fy}`, muniCode: "032051", muniName: "花巻市", prefName: "岩手県", isPref: false,
+    })),
+    // ⚠ 坂井は歳入・歳出が1ページに左右に並ぶ（CropX の境界は年度ごと）。R4 は骨格
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sakai-fukui-yosan-gaiyou-${fy}`, muniCode: "182109", muniName: "坂井市", prefName: "福井県", isPref: false,
+    })),
+    // ⚠ あまは R4・R8 が骨格。ライセンスは license-no-grant.ts で要許可・`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ama-yosansho-${fy}`, muniCode: "232378", muniName: "あま市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 袋井は右端の増減理由を CropX で落とす。R4 は廃止款の3行組で未収録（パーサ）
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fukuroi-yosan-kanbetsu-${fy}`, muniCode: "222160", muniName: "袋井市", prefName: "静岡県", isPref: false,
+    })),
     // ---- ライセンスの判断待ちで見送っていた市（2026-10-21・#293・§13-56） ----
     // ⚠ 糸島の R5 の前年度列は R4（骨格）の6月補正後。R8 は当年度空欄の廃止款を含む
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -3616,7 +3640,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `higashiomi-yosan-gaiyou-${fy}`, muniCode: "252131", muniName: "東近江市", prefName: "滋賀県", isPref: false,
     })),
-    // ---- 甲賀・三原・高砂・摂津・亀岡（2026-10-22・§13-60） ----
+    // ---- 甲賀・三原・高砂・摂津・亀岡（2026-10-22・§13-62） ----
     // ⚠ 甲賀は歳入の款名に自主財源◇・依存財源◆の印（kanNamePrefixStrip）。noDeepLink
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `koka-shiga-yosan-shiryo-${fy}`, muniCode: "252093", muniName: "甲賀市", prefName: "滋賀県", isPref: false,
@@ -3649,6 +3673,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     // ⚠ 門真は条件つきの許諾で unverified（台帳に載せない）。R8・R6・R5・R3・R2 は decodeGarble
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kadoma-yosansho-${fy}`, muniCode: "272230", muniName: "門真市", prefName: "大阪府", isPref: false,
+    })),
+    // ---- 第55巡（2026-10-22・§13-60） ----
+    // ⚠ 新発田は歳入の直前の段落を `revenueHeaderExtra: "[、。]"`、歳出の右の「主な事務事業」の列を CropX で落とす。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shibata-yosan-gaiyou-${fy}`, muniCode: "152064", muniName: "新発田市", prefName: "新潟県", isPref: false,
+    })),
+    // ⚠ 東松山は R8〜R5 だけ（R4〜R2 の総括はスキャン画像）
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `higashimatsuyama-yosan-soukatsu-${fy}`, muniCode: "112127", muniName: "東松山市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 三条 R4 のファイル名は R3yosangaiyou_no2.pdf（中身は R4）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sanjo-yosan-gaiyou-${fy}`, muniCode: "152048", muniName: "三条市", prefName: "新潟県", isPref: false,
+    })),
+    // ⚠ 北上は R8・R7 だけ（R6〜R2 の総括は文字がアウトライン化）。R5・H31 は骨格予算
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `kitakami-yosansho-${fy}`, muniCode: "032069", muniName: "北上市", prefName: "岩手県", isPref: false,
+    })),
+    // ⚠ 薩摩川内は歳出の財源内訳の列見出しが款1 に付く型（見出しと expenditureHeaderExtra の両方が要る）。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `satsumasendai-yosansho-${fy}`, muniCode: "462152", muniName: "薩摩川内市", prefName: "鹿児島県", isPref: false,
     })),
   ] as const;
   // budget 階層で決算＋執行率も収録できた自治体（款別 予算現額/決算額/執行率）。
