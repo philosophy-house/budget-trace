@@ -2510,7 +2510,17 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-90",
   },
   {
-    // 白岡市（112461）R4。R8〜R5・R3・R2 は収録済み（§13-91）。
+    // 玉野市（332046）R8。R7〜R2 は収録済み（§13-91）。
+    // 「令和8年度 玉野市一般会計・特別会計予算書」（/uploaded/attachment/33556.pdf・42.6MB・353p・JUST PDF 6）は全ページの文字がアウトライン化され、pdftotext は改ページ記号だけ。総括ページはフォントも画像も0。当初概要は百万円で款をまとめた区分しか無い（偵察）。
+    code: "332046", name: "玉野市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "一般会計予算書の文字がすべて図形として描かれていて、文字として取り出せない。当初予算の概要は百万円単位で、いくつかの款をまとめた区分しか載っていない。",
+    url: "https://www.city.tamano.lg.jp/site/zaisei/54011.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-91",
+  },
+  {
+    // 白岡市（112461）R4。R8〜R5・R3・R2 は収録済み（§13-92）。
     // 年度ページ（7509.html）「※一般会計予算は、議会において修正案が提出され、可決されました。」。修正内容 PDF（R4_ippan_syusei.pdf）は財産収入 48,348 を 47,331 に（△1,017）・繰入金 588,736 を 589,753 に（+1,017）。
     // 予算案の概要・予算書（R4yosansyo.pdf）とも原案のまま。R5 の前年度列は修正後と一致。
     code: "112461", name: "白岡市", dataset: "budget", fiscalYears: ["R4"],
@@ -2518,16 +2528,16 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "一般会計予算は議会で修正して可決されたが、掲載されている予算案の概要と予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（財産収入・繰入金の2款）。",
     url: "https://www.city.shiraoka.lg.jp/shiseijoho/gyozaisei/2/7509.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-91",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-92",
   },
   {
-    // 富谷市（042161）R8〜R5・R3・R2。R4 は概要にテキスト層があり収録できるが、ライセンスが割れるので人の判断待ち（§13-91）。
+    // 富谷市（042161）R8〜R5・R3・R2。R4 は概要にテキスト層があり収録できるが、ライセンスが割れるので人の判断待ち（§13-92）。
     // 記者発表【資料②】「当初予算の概要」と「各種会計予算及び予算に関する説明書」が、R4 の概要を除いて CCITT のスキャン画像（ページごとの文字数を偵察が実測）。
     code: "042161", name: "富谷市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R3", "R2"],
     categories: ["scanned-image"],
     reason:
       "当初予算の概要と予算書が、どちらも紙をスキャンした画像だけの PDF で、款ごとの表を文字として取り出せない。",
     url: "https://www.tomiya-city.miyagi.jp/shisei/zaisei/giansyo/koukai-yosansyo.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-91",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-92",
   },
 ];

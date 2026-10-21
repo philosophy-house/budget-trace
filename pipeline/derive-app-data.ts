@@ -3589,7 +3589,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
-    // ---- 第81巡（2026-10-22・§13-91） ----
+    // ---- 第82巡（2026-10-22・§13-92） ----
     // ⚠ 那珂は decodeGarble（R8・R2 は × の恒等マップ）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `naka-ibaraki-yosansho-${fy}`, muniCode: "082261", muniName: "那珂市", prefName: "茨城県", isPref: false,
@@ -4261,6 +4261,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     // ⚠ みよし R5〜R2 は予算説明書の側に総括
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `aichi-miyoshi-yosansho-${fy}`, muniCode: "232360", muniName: "みよし市", prefName: "愛知県", isPref: false,
+    })),
+    // ---- 第81巡（2026-10-22・§13-91）: 桜井・土岐・日高・玉野・羽村 ----
+    // ⚠ 桜井は概要の款別の内訳（歳入 raw・amountTypos）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sakurai-yosan-gaiyou-${fy}`, muniCode: "292061", muniName: "桜井市", prefName: "奈良県", isPref: false,
+    })),
+    // ⚠ 土岐 R3 は WARP・R2 は WARP の予算の概要。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `toki-yosansho-${fy}`, muniCode: "212121", muniName: "土岐市", prefName: "岐阜県", isPref: false,
+    })),
+    { srcId: "toki-yosan-gaiyou-r2", muniCode: "212121", muniName: "土岐市", prefName: "岐阜県", isPref: false },
+    // ⚠ 日高（埼玉）は HeaderExtra 必須。ライセンスは台帳で要許可
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `saitama-hidaka-yosansho-${fy}`, muniCode: "112429", muniName: "日高市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 玉野は歳出が化け（decodeGarble）。R8 はアウトライン化で未収録
+    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tamano-yosansho-${fy}`, muniCode: "332046", muniName: "玉野市", prefName: "岡山県", isPref: false,
+    })),
+    // ⚠ 羽村 R4・R3 は歳出が二重描画（raw）。noDeepLink
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hamura-yosansho-${fy}`, muniCode: "132276", muniName: "羽村市", prefName: "東京都", isPref: false,
     })),
     // ---- 第75巡（2026-10-22・§13-83）: 日向・逗子・大阪狭山・十和田（美濃加茂は収録できず） ----
     // ⚠ 十和田は R8・R7 が横並び（CropX）・R6〜R2 が縦並び（samePage）。R3 は Wayback。ライセンスは台帳で要許可
