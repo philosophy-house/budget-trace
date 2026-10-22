@@ -20977,6 +20977,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "「袋井市ホームページ」に掲載されている文章・写真・イラスト・画像などの著作権は、 袋井市またはコンテンツ提供者の方に帰属します。また、「袋井市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ページに記載されている担当課などへお問い合せ下さい。",
     "target": "file"
   },
+  "/sources/fukuroi-yosan-kanbetsu-r4/2gaiyouzenkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukuroi.shizuoka.jp/material/files/group/17/2gaiyouzenkaikei.pdf",
+    "license": "「袋井市ホームページ」に掲載されている文章・写真・イラスト・画像などの著作権は、 袋井市またはコンテンツ提供者の方に帰属します。また、「袋井市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ページに記載されている担当課などへお問い合せ下さい。",
+    "target": "file"
+  },
   "/sources/fukuroi-yosan-kanbetsu-r3/syuukeihyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.fukuroi.shizuoka.jp/material/files/group/17/syuukeihyou.pdf",
@@ -20995,9 +21001,39 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
     "target": "file"
   },
+  "/sources/yamatokoriyama-yosan-setsumeisho-r7/zaisei_yosannsetumeisyo0507.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/zaisei_yosannsetumeisyo0507.pdf",
+    "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
+    "target": "file"
+  },
+  "/sources/yamatokoriyama-yosan-setsumeisho-r6/zaisei_yosannsetumeisyo0506.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/zaisei_yosannsetumeisyo0506.pdf",
+    "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
+    "target": "file"
+  },
+  "/sources/yamatokoriyama-yosan-setsumeisho-r5/zaisei_yosannsetumeisyo0505.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/zaisei_yosannsetumeisyo0505.pdf",
+    "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
+    "target": "file"
+  },
   "/sources/yamatokoriyama-yosan-setsumeisho-r4/zaisei_yosannsetumeisyo0504.pdf": {
     "mode": "origin",
     "href": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/zaisei_yosannsetumeisyo0504.pdf",
+    "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
+    "target": "file"
+  },
+  "/sources/yamatokoriyama-yosan-setsumeisho-r3/zaisei_yosannsetumeisyo0503.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/zaisei_yosannsetumeisyo0503.pdf",
+    "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
+    "target": "file"
+  },
+  "/sources/yamatokoriyama-yosan-setsumeisho-r2/yosan__setsumei_r2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamatokoriyama.lg.jp/material/files/group/6/yosan__setsumei_r2.pdf",
     "license": "大和郡山市ホームページの情報に関する著作権は、大和郡山市に帰属しています。 これらの情報を営利目的に使用することはできません。 また、当ホームページの本文および写真を許可無く複製・複写することを禁じます。",
     "target": "file"
   },
@@ -21196,6 +21232,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/katano-yosansho-r3/3yosan_.pdf": {
     "mode": "origin",
     "href": "https://www.city.katano.osaka.jp/docs/2021052000037/",
+    "license": "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/katano-yosansho-r2/2yosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.katano.osaka.jp/docs/2020051300032/",
     "license": "交野市ホームページに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、交野市及び現著作者に帰属します。また、交野市ホームページ全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。このホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。このホームページの内容の全部又は一部について、交野市に無断で改変を行うことはできません。",
     "target": "page"
   },
@@ -21862,6 +21904,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/odate-yosan-gaiyou-r3/000_yosan_R03.pdf": {
     "mode": "archive",
     "href": "https://warp.ndl.go.jp/20260707/20260705021444/https://www.city.odate.lg.jp/uploads/public/pages_0000001990_00/000_yosan_R03.pdf",
+    "license": "大館市ウェブサイトから発信するコンテンツ（テキスト、画像、ＰＤＦ、その他のデータ）の著作権は大館市に帰属します。大館市ウェブサイト上の文書・画像などの無断使用・転載、二次利用を禁止します。",
+    "target": "file"
+  },
+  "/sources/odate-yosan-gaiyou-r2/yosan_R02.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260707/20260705021444/https://www.city.odate.lg.jp/uploads/public/pages_0000001990_00/yosan_R02.pdf",
     "license": "大館市ウェブサイトから発信するコンテンツ（テキスト、画像、ＰＤＦ、その他のデータ）の著作権は大館市に帰属します。大館市ウェブサイト上の文書・画像などの無断使用・転載、二次利用を禁止します。",
     "target": "file"
   },
