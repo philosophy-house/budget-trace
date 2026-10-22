@@ -991,15 +991,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
-  "262102": {
-    "budget": [
-      {
-        "fyLabel": "令和6年度・令和5年度",
-        "reason": "予算内容一覧表は文字の情報が化けていて復号が要るが、こちらの復号表に無い字が多く、まだ正しく読み取れない。原典の表は健全。",
-        "checkedOn": "2026-10-22"
-      }
-    ]
-  },
   "262145": {
     "budget": [
       {

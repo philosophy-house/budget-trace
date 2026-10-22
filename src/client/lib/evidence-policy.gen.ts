@@ -27337,6 +27337,18 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "八幡市ホームページに掲載されている個々の情報（文章・写真・イラストなど）についての著作権は原則として八幡市に帰属します。また、一部の画像等の著作権については、原著作者が所有しています。市ホームページの内容については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、著作権者の許可なく、無断で複製・転用することができません。",
     "target": "page"
   },
+  "/sources/yawata-yosannaiyou-r6/6nendotousyoyosannaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawata.kyoto.jp/0000009164.html",
+    "license": "八幡市ホームページに掲載されている個々の情報（文章・写真・イラストなど）についての著作権は原則として八幡市に帰属します。また、一部の画像等の著作権については、原著作者が所有しています。市ホームページの内容については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、著作権者の許可なく、無断で複製・転用することができません。",
+    "target": "page"
+  },
+  "/sources/yawata-yosannaiyou-r5/5nendotousyoyosannaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawata.kyoto.jp/0000008406.html",
+    "license": "八幡市ホームページに掲載されている個々の情報（文章・写真・イラストなど）についての著作権は原則として八幡市に帰属します。また、一部の画像等の著作権については、原著作者が所有しています。市ホームページの内容については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、著作権者の許可なく、無断で複製・転用することができません。",
+    "target": "page"
+  },
   "/sources/yawata-yosannaiyou-r4/4nendotousyoyosannaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.yawata.kyoto.jp/0000007685.html",
