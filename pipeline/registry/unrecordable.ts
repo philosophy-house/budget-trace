@@ -2747,4 +2747,24 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.nihonmatsu.lg.jp/shisei/zaisei/yosan/",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-102",
   },
+  {
+    // 坂出市（372030）R8〜R4。「予算の概要」p.2（歳入）・p.3（歳出）の款別対前年度対比表（§13-103）。歳出は既存パーサに乗る（14款・Σ 差0・R8〜R4 で鎖が全款一致）が、
+    // 歳入は (1) 地方交付税の行に「普通・特別」の内訳額が同居する3行組 (2) 繰越金の象徴計上「1」が款番号として読まれる (3) R8 の皆減款が kanNolessUpperOnly を無視して次の款名と連結、の3点で Σ error（大声で落ちる側）。パーサの issue #395。
+    code: "372030", name: "坂出市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算の概要の款別対前年度対比表は健全だが、歳入の表で地方交付税の行に内訳（普通・特別）の金額が同じ行に並ぶ組み方や、繰越金の1千円の計上を、" +
+      "こちらの抽出処理が正しく読み分けられず、款の合計が合わない。歳出の表は読める。",
+    url: "https://www.city.sakaide.lg.jp/soshiki/zaimu/yosan.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-103",
+  },
+  {
+    // 阪南市（272329）R2。R8〜R5 は予算書・R3 は当初予算案の概要で収録（§13-103）。R2 の概要（R2tousyogaiyou3.pdf・10p）は pdftotext が10字のスキャン画像。予算書は現行サイトにも WARP の初回収集（2022-05）の一覧にも無い（偵察）。
+    code: "272329", name: "阪南市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason:
+      "当初予算案の概要は紙をスキャンした画像で文字の情報が無く、予算書はウェブに掲載されていない。",
+    url: "https://www.city.hannan.lg.jp/kakuka/somu/gyoukaku/zaisei/yosan_kessan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-103",
+  },
 ];

@@ -309,4 +309,10 @@ export const SKELETON_BUDGETS: SkeletonBudget[] = [
   { code: "262102", name: "八幡市", fy: "R2", evidence: "「令和2年度八幡市当初予算案の概要」（/cmsfiles/contents/0000006/6170/reiwa2nendotoushoyosanannogaiyou.pdf）p.2「市長選を控えた骨格的予算として、第５次総計に基づく継続事業を中心に編成」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-100" },
   { code: "462080", name: "出水市", fy: "R8", evidence: "出水市議会 令和8年第1回定例会 第1日（/gikai/gijiroku/detail/533/56123）市長の提案理由説明「私の市長としての任期は、本年４月22日をもって満了いたしますことから、当初予算は、基本的には政策的経費を除いた骨格的予算として編成いたしております。」（2026-10-22 に発行元から取得して照合）", ref: "docs/data-sources.md §13-102" },
   { code: "462080", name: "出水市", fy: "R4", evidence: "出水市議会 令和4年第1回定例会 第1日（/gikai/gijiroku/detail/430/44724）市長の提案理由説明「私の市長としての任期は本年４月22日をもって満了いたしますことから、当初予算は基本的には政策的経費を除いた骨格的予算として編成いたしております。」（2026-10-22 に発行元から取得して照合）", ref: "docs/data-sources.md §13-102" },
+  { code: "402281", name: "朝倉市", fy: "R8", evidence: "「令和８年度当初（骨格）予算の概要」（年度ページ /site/zaisei/10694.html）表題「令和８年度当初（骨格）予算の概要」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-103" },
+  { code: "402281", name: "朝倉市", fy: "R4", evidence: "朝倉市議会だより 令和4年6月1日号（/uploaded/attachment/3808.pdf）「…市長選が予定されていたため、政策的経費を除く…」（2026-10-22 に発行元から取得して照合）。R5 の当初予算の概要は R4 を6月補正後の「本予算額」と比較。市の予算資料には「骨格」の語が無い", ref: "docs/data-sources.md §13-103" },
+  { code: "262129", name: "京丹後市", fy: "R6", evidence: "「令和6年度当初予算の概要」p.1「～市長選挙を控えた『骨格型』予算～」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-103" },
+  { code: "262129", name: "京丹後市", fy: "R2", evidence: "「令和2年度当初予算の概要」p.1「～市長選挙を控えた『骨格型』予算～」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-103" },
+  { code: "172111", name: "能美市", fy: "R7", evidence: "「令和7年度能美市予算のあらまし」p.8「…編成時期が市長選挙と重なったことから、…骨格予算として編成しました。」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-103" },
+  { code: "172111", name: "能美市", fy: "R3", evidence: "「令和3年度能美市予算のあらまし」「令和３年度一般会計当初予算は、編成時期が市長選挙と重なったことから、…骨格予算として編成しました。」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-103" },
 ];
