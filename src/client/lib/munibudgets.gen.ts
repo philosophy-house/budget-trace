@@ -4422,6 +4422,8 @@ export const MUNI_BUDGET_INDEX: Record<string, MuniBudgetIndexEntry> = {
     "fys": [
       "R8",
       "R7",
+      "R6",
+      "R5",
       "R4",
       "R3",
       "R2"

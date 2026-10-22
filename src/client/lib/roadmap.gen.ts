@@ -16,11 +16,11 @@ export const ROADMAP_PROGRESS = {
   "budgetCount": 540,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3908,
-  "fileCount": 5586,
+  "sourceCount": 3910,
+  "fileCount": 5588,
   "archivedCount": 2959,
   "licenseOpen": 135,
-  "licensePermission": 3681,
+  "licensePermission": 3683,
   "licenseUnverified": 92,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1641,6 +1641,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "八幡市",
+      "code": "262102",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "京田辺市",
       "code": "262111",
       "years": 7,
@@ -2515,12 +2521,6 @@ export const ROADMAP_PROGRESS = {
       "code": "262021",
       "years": 5,
       "range": "R4〜R8（5年度）"
-    },
-    {
-      "name": "八幡市",
-      "code": "262102",
-      "years": 5,
-      "range": "R2〜R8（5年度）"
     },
     {
       "name": "堺市",

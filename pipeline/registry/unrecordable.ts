@@ -2715,15 +2715,4 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.iga.lg.jp/0000013789.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-100",
   },
-  {
-    // 八幡市（262102）R6・R5。R8・R7・R4〜R2 は収録済み（§13-100）。年度ページは R6 /0000009164.html・R5 /0000008406.html（url は R6 のページ）。予算内容一覧表（R6 0000009/9164/6nendotousyoyosannaiyou.pdf・R5 0000008/8406/5nendotousyoyosannaiyou.pdf）は
-    // ToUnicode 欠落で、decodeGarble の復号表に無い字が14字（イ・ロ・ハ・考・借・換・除・く・－×2・よ・険・健・。）。R6 は款9 の整数1個の皆増行も落ちる（偵察）。
-    // 14字にはかなの帯に落ちて isSuspectGarble を素通りする字があり、静かに壊れうるので巡の中では足さない（パーサの issue #391）。
-    code: "262102", name: "八幡市", dataset: "budget", fiscalYears: ["R6", "R5"],
-    categories: ["parser-unsupported"],
-    reason:
-      "予算内容一覧表は文字の情報が化けていて復号が要るが、こちらの復号表に無い字が多く、まだ正しく読み取れない。原典の表は健全。",
-    url: "https://www.city.yawata.kyoto.jp/0000009164.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-100",
-  },
 ];
