@@ -1,0 +1,12 @@
+{
+  "sourceId": "ami-yosansho-r7",
+  "files": [
+    {
+      "filename": "R7ippannkaikeiyosannsyo.pdf",
+      "sha256": "bc79013d1ca02118802360ba0395fa08453195cd2905b787020d925414b16bc3",
+      "bytes": 1438620,
+      "fetchedAt": "2026-10-22T14:25:13.636Z",
+      "fetchedFrom": "https://www.town.ami.lg.jp/cmsfiles/contents/0000014/14494/R7ippannkaikeiyosannsyo.pdf"
+    }
+  ]
+}

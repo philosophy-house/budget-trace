@@ -1,0 +1,12 @@
+{
+  "sourceId": "susono-yosansho-r5",
+  "files": [
+    {
+      "filename": "1ippan.pdf",
+      "sha256": "e93826280a5a78d8243012cb20ff12bab9a50a6cf11668141bed39b546936fec",
+      "bytes": 3106342,
+      "fetchedAt": "2026-10-22T14:26:22.175Z",
+      "fetchedFrom": "https://www.city.susono.shizuoka.jp/material/files/group/14/1ippan.pdf"
+    }
+  ]
+}

@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 555,
+  "budgetCount": 564,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4001,
-  "fileCount": 5679,
+  "sourceCount": 4054,
+  "fileCount": 5732,
   "archivedCount": 2965,
   "licenseOpen": 135,
-  "licensePermission": 3774,
+  "licensePermission": 3827,
   "licenseUnverified": 92,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -927,6 +927,18 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "小美玉市",
+      "code": "082368",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "阿見町",
+      "code": "084433",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "佐野市",
       "code": "092045",
       "years": 7,
@@ -1479,6 +1491,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "裾野市",
+      "code": "222208",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "湖西市",
       "code": "222216",
       "years": 7,
@@ -1847,6 +1865,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "紀の川市",
       "code": "302082",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "浜田市",
+      "code": "322024",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2265,10 +2289,22 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R7（6年度）"
     },
     {
+      "name": "寒川町",
+      "code": "143219",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "長岡市",
       "code": "152021",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "佐渡市",
+      "code": "152242",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "白山市",
@@ -2299,6 +2335,12 @@ export const ROADMAP_PROGRESS = {
       "code": "232092",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "東浦町",
+      "code": "234427",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "近江八幡市",
@@ -2655,6 +2697,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "日南市",
+      "code": "452041",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
       "name": "姶良市",
       "code": "462250",
       "years": 5,
@@ -2891,6 +2939,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "二本松市",
       "code": "072109",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "みどり市",
+      "code": "102121",
       "years": 2,
       "range": "R7〜R8（2年度）"
     },

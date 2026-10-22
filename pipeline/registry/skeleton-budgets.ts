@@ -315,4 +315,5 @@ export const SKELETON_BUDGETS: SkeletonBudget[] = [
   { code: "262129", name: "京丹後市", fy: "R2", evidence: "「令和2年度当初予算の概要」（/material/files/group/8/yosannanngaiyou_R2.pdf）表紙「～市長選挙を控えた『骨格型』予算～」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-103" },
   { code: "172111", name: "能美市", fy: "R7", evidence: "「令和7年度能美市予算のあらまし」（/fs/1/6/0/2/3/_/R7_4_tousho_yosan_aramashi.pdf）p.8「令和７年度一般会計当初予算は、編成時期が市長選挙と重なったことから、人件費、扶助費、公債費等の義務的経費をはじめ、施設管理費等の経常経費を中心とした骨格予算として編成しており、…」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-103" },
   { code: "172111", name: "能美市", fy: "R3", evidence: "「令和3年度能美市予算のあらまし」「令和３年度一般会計当初予算は、編成時期が市長選挙と重なったことから、…骨格予算として編成しました。」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-103" },
+  { code: "452041", name: "日南市", fy: "R7", evidence: "「令和7年度 当初予算案の概要（提出議案の概要より一部抜粋）」（/material/files/group/23/7gaiyou.pdf）p.2「令和７年度は市長選挙を控えているため、一般会計につきましては、恒常的、継続的な事業について措置する、いわゆる「骨格予算」を編成し、…」（2026-10-22 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-105" },
 ];

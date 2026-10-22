@@ -53,6 +53,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "102121": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "予算書は令和7年度からしか掲載されていない。それ以前の当初予算概要は広報紙の1ページで、款別の金額は円グラフの億円単位だけで前年度の款別の金額も無い（令和3年度はスキャン画像）。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "112038": {
     "budget": [
       {
@@ -587,6 +596,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成30年度・平成29年度",
         "reason": "「当初予算の概要」（国立国会図書館の WARP に保存された版）の文字が別の字に化けていて、金額の数字は埋め込まれていないフォントで描かれているため1つも取り出せない。",
         "checkedOn": "2026-10-21"
+      }
+    ]
+  },
+  "152242": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "一般会計当初予算は議会で修正されて可決されたが、予算書は修正前の原案で、歳入の総括ページは文字の情報が無い。修正後の予算の概要は修正前の数字を取消線で並べた見え消しで、款別の金額をそのまま読み取れない。",
+        "checkedOn": "2026-10-22"
       }
     ]
   },

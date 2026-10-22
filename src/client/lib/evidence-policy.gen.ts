@@ -27253,6 +27253,324 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として高石市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "page"
   },
+  "/sources/higashiura-yosan-setsumeisho-r8/R8tousyoyosan_setumeisyo_ippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.aichi-higashiura.lg.jp/material/files/group/91/R8tousyoyosan_setumeisyo_ippannkaikei.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/higashiura-yosan-setsumeisho-r7/02R7tousyoyosansetsumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.aichi-higashiura.lg.jp/material/files/group/13/02R7tousyoyosansetsumeisyo.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/higashiura-yosan-setsumeisho-r6/R6tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.aichi-higashiura.lg.jp/material/files/group/13/R6tousyo.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/higashiura-yosan-setsumeisho-r5/r5tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.aichi-higashiura.lg.jp/material/files/group/13/r5tousyo.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/higashiura-yosan-setsumeisho-r4/R4yosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.aichi-higashiura.lg.jp/material/files/group/13/R4yosann.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/higashiura-yosan-setsumeisho-r3/3yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.aichi-higashiura.lg.jp/material/files/group/13/3yosan.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/ami-yosansho-r8/R8ippannkaikeiyosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ami.lg.jp/0000016159.html",
+    "license": "本ホームページの各ファイル、およびその内容に関しての諸権利は特記事項がない限り、阿見町に帰属します。阿見町の許可なく無断で使用、転載、加工することを禁止します。",
+    "target": "page"
+  },
+  "/sources/ami-yosansho-r7/R7ippannkaikeiyosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ami.lg.jp/0000014494.html",
+    "license": "本ホームページの各ファイル、およびその内容に関しての諸権利は特記事項がない限り、阿見町に帰属します。阿見町の許可なく無断で使用、転載、加工することを禁止します。",
+    "target": "page"
+  },
+  "/sources/ami-yosansho-r6/R6ippannkaikeiyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ami.lg.jp/0000012815.html",
+    "license": "本ホームページの各ファイル、およびその内容に関しての諸権利は特記事項がない限り、阿見町に帰属します。阿見町の許可なく無断で使用、転載、加工することを禁止します。",
+    "target": "page"
+  },
+  "/sources/ami-yosansho-r5/R5yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ami.lg.jp/0000011281.html",
+    "license": "本ホームページの各ファイル、およびその内容に関しての諸権利は特記事項がない限り、阿見町に帰属します。阿見町の許可なく無断で使用、転載、加工することを禁止します。",
+    "target": "page"
+  },
+  "/sources/ami-yosansho-r4/R4yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ami.lg.jp/0000009953.html",
+    "license": "本ホームページの各ファイル、およびその内容に関しての諸権利は特記事項がない限り、阿見町に帰属します。阿見町の許可なく無断で使用、転載、加工することを禁止します。",
+    "target": "page"
+  },
+  "/sources/ami-yosan-gaiyou-r3/r3yosan-gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ami.lg.jp/0000008649.html",
+    "license": "本ホームページの各ファイル、およびその内容に関しての諸権利は特記事項がない限り、阿見町に帰属します。阿見町の許可なく無断で使用、転載、加工することを禁止します。",
+    "target": "page"
+  },
+  "/sources/ami-yosan-gaiyou-r2/r2yosan-gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ami.lg.jp/0000006978.html",
+    "license": "本ホームページの各ファイル、およびその内容に関しての諸権利は特記事項がない限り、阿見町に帰属します。阿見町の許可なく無断で使用、転載、加工することを禁止します。",
+    "target": "page"
+  },
+  "/sources/samukawa-yosansho-r8/R8yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.samukawa.kanagawa.jp/material/files/group/2/R8yosan.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、寒川町の許可なく当ホームページに掲載されている文書、図表、画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/samukawa-yosansho-r7/R7yosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.samukawa.kanagawa.jp/material/files/group/2/R7yosannsyo.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、寒川町の許可なく当ホームページに掲載されている文書、図表、画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/samukawa-yosansho-r6/R6yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.samukawa.kanagawa.jp/material/files/group/2/R6yosansyo.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、寒川町の許可なく当ホームページに掲載されている文書、図表、画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/samukawa-yosansho-r5/r05_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.samukawa.kanagawa.jp/material/files/group/2/r05_yosansho.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、寒川町の許可なく当ホームページに掲載されている文書、図表、画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/samukawa-yosansho-r4/r04_yosansho_25.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.samukawa.kanagawa.jp/material/files/group/2/r04_yosansho_25.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、寒川町の許可なく当ホームページに掲載されている文書、図表、画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/samukawa-yosansho-r3/r03_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.samukawa.kanagawa.jp/material/files/group/2/r03_yosansho.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、寒川町の許可なく当ホームページに掲載されている文書、図表、画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/susono-yosansho-r8/R8ippankaikeitoushoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.susono.shizuoka.jp/shisei/4/5/21580.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/susono-yosansho-r7/R7ippankaikeitousho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.susono.shizuoka.jp/shisei/4/5/20439.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/susono-yosansho-r6/R6ippankaikeitoushoA3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.susono.shizuoka.jp/shisei/4/5/19007.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/susono-yosansho-r5/1ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.susono.shizuoka.jp/shisei/4/5/17753.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/susono-yosansho-r4/4ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.susono.shizuoka.jp/shisei/4/5/16809.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/susono-yosansho-r3/R3-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.susono.shizuoka.jp/shisei/4/5/15319.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/susono-yosansho-r2/R2tousyoyosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.susono.shizuoka.jp/shisei/4/5/13467.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/hamada-yosan-gaiyou-r8/R8_P20-36_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/contents/1771292817453/simple/R8_P20-36_gaiyou.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/hamada-yosan-gaiyou-r7/R7_P18-34_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/contents/1739764308196/simple/R7_P18-34_gaiyou.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/hamada-yosan-gaiyou-r6/R6gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/contents/1708504595989/simple/R6gaiyou.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/hamada-yosan-gaiyou-r5/18-31.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/contents/1676439258563/simple/18-31.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/hamada-yosan-gaiyou-r4/18_30.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/contents/1644459630827/simple/18_30.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/hamada-yosan-gaiyou-r3/toshoyosangaiyou_R3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/contents/1616024602171/simple/toshoyosangaiyou_R3.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/hamada-yosan-gaiyou-r2/toshoyosangaiyou_R2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/contents/1585098065986/simple/toshoyosangaiyou_R2.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/omitama-yosansho-r8/69b8dd50dc5cd.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/69b8dd50dc5cd.pdf",
+    "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "file"
+  },
+  "/sources/omitama-yosansho-r7/67cfa321c3912.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/67cfa321c3912.pdf",
+    "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "file"
+  },
+  "/sources/omitama-yosansho-r6/65fbb368e8a13.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/65fbb368e8a13.pdf",
+    "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "file"
+  },
+  "/sources/omitama-yosansho-r5/641a7fd658cae.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/641a7fd658cae.pdf",
+    "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "file"
+  },
+  "/sources/omitama-yosansho-r4/623d277340aaf.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/623d277340aaf.pdf",
+    "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "file"
+  },
+  "/sources/omitama-yosansho-r3/604ef7ea7133a.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/604ef7ea7133a.pdf",
+    "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "file"
+  },
+  "/sources/omitama-yosansho-r2/5e716d6f51df0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/5e716d6f51df0.pdf",
+    "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "file"
+  },
+  "/sources/midori-yosansho-r8/yosansyor8.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.midori.gunma.jp/_res/projects/default_project/_page_/001/003/151/yosansyor8.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、みどり市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/midori-yosansho-r7/yosansyor7.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.midori.gunma.jp/_res/projects/default_project/_page_/001/003/151/yosansyor7.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、みどり市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/nichinan-yosan-gaiyou-r8/R8_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nichinan.lg.jp/soshikikarasagasu/zaiseika/2/1/1/1/6748.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nichinan-yosansho-r7/yosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nichinan.lg.jp/soshikikarasagasu/zaiseika/2/1/1/1/6209.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nichinan-yosan-gaiyou-r6/R6_tousho_ippan_teisyutsugiangaiyou_bassui.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nichinan.lg.jp/soshikikarasagasu/zaiseika/2/1/1/1/5051.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nichinan-yosansho-r5/07c76f5fd532d1a63fdb7adac659b76e_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nichinan.lg.jp/soshikikarasagasu/zaiseika/2/1/1/1/1935.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nichinan-yosansho-r4/f68bfa6670a852b14d217a9c7573139b_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nichinan.lg.jp/soshikikarasagasu/zaiseika/2/1/1/1/1758.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/sado-yosansho-r8/57695.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sado.niigata.jp/uploaded/attachment/57695.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、佐渡市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/sado-yosansho-r7/50262.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sado.niigata.jp/uploaded/attachment/50262.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、佐渡市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/sado-yosansho-r6/58912_95283_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sado.niigata.jp/uploaded/life/58912_95283_misc.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、佐渡市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/sado-yosansho-r5/51244_80153_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sado.niigata.jp/uploaded/life/51244_80153_misc.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、佐渡市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/sado-yosansho-r4/35709_44876_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sado.niigata.jp/uploaded/life/35709_44876_misc.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、佐渡市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
+  "/sources/sado-yosan-gaiyou-r3/22430.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sado.niigata.jp/uploaded/attachment/22430.pdf",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、佐渡市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。",
+    "target": "file"
+  },
   "/sources/suzaka-yosan-gaiyou-r8/2026toushoyosangaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.suzaka.nagano.jp/material/files/group/4/2026toushoyosangaiyou.pdf",

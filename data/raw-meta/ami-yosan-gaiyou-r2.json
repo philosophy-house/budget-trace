@@ -1,0 +1,12 @@
+{
+  "sourceId": "ami-yosan-gaiyou-r2",
+  "files": [
+    {
+      "filename": "r2yosan-gaiyo.pdf",
+      "sha256": "810f9433c0f849e0c5047da3a527a2d42ee208732e512c5aa96ce68885ab9296",
+      "bytes": 754961,
+      "fetchedAt": "2026-10-22T14:25:37.165Z",
+      "fetchedFrom": "https://www.town.ami.lg.jp/cmsfiles/contents/0000006/6978/r2yosan-gaiyo.pdf"
+    }
+  ]
+}

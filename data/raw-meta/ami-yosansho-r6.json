@@ -1,0 +1,12 @@
+{
+  "sourceId": "ami-yosansho-r6",
+  "files": [
+    {
+      "filename": "R6ippannkaikeiyosan.pdf",
+      "sha256": "fa5c2ab102f4e1722e4a23f98ce6599f3d93935e18caeb12d092dbec88d286d7",
+      "bytes": 1466114,
+      "fetchedAt": "2026-10-22T14:25:17.224Z",
+      "fetchedFrom": "https://www.town.ami.lg.jp/cmsfiles/contents/0000012/12815/R6ippannkaikeiyosan.pdf"
+    }
+  ]
+}

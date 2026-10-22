@@ -2777,4 +2777,24 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.takahama.lg.jp/soshiki/zaimu/2414.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-104",
   },
+  {
+    // みどり市（102121）R6〜R2。予算書（各会計予算及び同説明書）の掲載は R7 から（WARP 2024-04・2024-07・2025-01 の年度ページは概要だけ・2025-07-08 版に R7 予算書が初出＝偵察）。
+    // R6〜R2 の「当初予算概要」は広報みどり4月号の1ページで、款別は円グラフの億円丸め・前年度の款別額なし。R3 はスキャン画像（§13-105）。
+    code: "102121", name: "みどり市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "予算書は令和7年度からしか掲載されていない。それ以前の当初予算概要は広報紙の1ページで、款別の金額は円グラフの億円単位だけで前年度の款別の金額も無い（令和3年度はスキャン画像）。",
+    url: "https://www.city.midori.gunma.jp/shisei/1001657/1001832/1003151.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-105",
+  },
+  {
+    // 佐渡市（152242）R2。一般会計当初予算は議会修正（44,540,000→44,502,926・教育費・国庫支出金・繰入金）。予算書（10569.pdf）は原案で、歳入の総括ページはアウトライン化（テキスト層なし）。
+    // 「当初予算の概要（修正可決後）」（21928.pdf）は見え消し（上段＝修正後・下段＝修正前の取消線）で、既存パーサは throw（§13-105）。
+    code: "152242", name: "佐渡市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["format-mismatch", "broken-text-layer"],
+    reason:
+      "一般会計当初予算は議会で修正されて可決されたが、予算書は修正前の原案で、歳入の総括ページは文字の情報が無い。修正後の予算の概要は修正前の数字を取消線で並べた見え消しで、款別の金額をそのまま読み取れない。",
+    url: "https://www.city.sado.niigata.jp/life/4/34/161/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-105",
+  },
 ];
