@@ -1577,6 +1577,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "442119": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款別の歳入の表のうち、ゴルフ場利用税交付金の行は款名が2行に折り返して金額が別の行に来るため、こちらの抽出処理では金額の先頭の数字を款の番号と取り違え、歳入の合計が合わなくなる。原典の表は健全。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "452017": {
     "budget": [
       {
@@ -2132,6 +2141,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "402192": [
+    "budget"
+  ],
+  "442119": [
     "budget"
   ],
   "470007": [

@@ -3589,6 +3589,26 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kanuma-yosan-${fy}`, muniCode: "092053", muniName: "鹿沼市", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第85巡（2026-10-22・§13-97） ----
+    // ⚠ 府中町は R8〜R5 が概要・R4〜R2 が編成過程の査定状況。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `fuchu-hiroshima-yosan-gaiyou-${fy}`, muniCode: "343021", muniName: "府中町", prefName: "広島県", isPref: false,
+    })),
+    ...(["r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fuchu-hiroshima-yosan-satei-${fy}`, muniCode: "343021", muniName: "府中町", prefName: "広島県", isPref: false,
+    })),
+    // ⚠ 塩竈は歳入・歳出が別ファイル。R5 骨格で R6 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiogama-tosho-hikaku-${fy}`, muniCode: "042030", muniName: "塩竈市", prefName: "宮城県", isPref: false,
+    })),
+    // ⚠ 伊万里は R8・R4 骨格で R5 に prevNote。R3・R5 は decodeGarble
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `imari-yosansho-${fy}`, muniCode: "412058", muniName: "伊万里市", prefName: "佐賀県", isPref: false,
+    })),
+    // ⚠ むつ R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `mutsu-kakukaikei-yosan-${fy}`, muniCode: "022080", muniName: "むつ市", prefName: "青森県", isPref: false,
+    })),
     // ---- 第82巡（2026-10-22・§13-93） ----
     // ⚠ 那珂は decodeGarble（R8・R2 は × の恒等マップ）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -3649,7 +3669,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `takizawa-yosan-setsumeisho-${fy}`, muniCode: "032166", muniName: "滝沢市", prefName: "岩手県", isPref: false,
     })),
-    // ---- 第SS巡（2026-10-22・§13-SS） ----
+    // ---- 第86巡（2026-10-22・§13-98） ----
     // ⚠ 茅野は R8 だけ（R7〜R2 は unrecordable.ts）。ライセンスは要許可・`noDeepLink`
     { srcId: "chino-yosansho-r8", muniCode: "202142", muniName: "茅野市", prefName: "長野県", isPref: false },
     // ⚠ 湖南 R7 は歳出の款別表が画像（unrecordable.ts）。江南（konan）と別団体

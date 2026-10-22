@@ -2649,13 +2649,25 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-96",
   },
   {
-    // 茅野市（202142）R7。R8 は収録済み（§13-SS）。予算書 37082.pdf・概要 37081.pdf は現行 404、Wayback 2025-04-01 に完全版（偵察）。
+    // 宇佐市（442119）R8〜R2。1年度も収録できていない（§13-97）。
+    // 「当初予算（一般会計）の概要」p.4 歳入・p.5 歳出（目的別）は7年度とも同じ様式・テキスト層あり。歳出は CropX と kanNoless で Σ 差0（偵察）。
+    // 歳入の「ゴルフ場利用税交付金」は款名が2行に折り返し、金額が名前欄の空いた別行に来る（`200   134   66   49.3`）。当年度額にカンマが無いので
+    // kanNoless でも行頭の数字が款番号に読まれて1列ずれ、全年度で歳入の Σ が割れる。amountTypos での回避は採らない（原典の誤植ではない）。
+    code: "442119", name: "宇佐市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "款別の歳入の表のうち、ゴルフ場利用税交付金の行は款名が2行に折り返して金額が別の行に来るため、こちらの抽出処理では金額の先頭の数字を款の番号と取り違え、歳入の合計が合わなくなる。原典の表は健全。",
+    url: "https://www.city.usa.oita.jp/sougo/soshiki/10/gyozaiseikeiei/2/1_2/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-97",
+  },
+  {
+    // 茅野市（202142）R7。R8 は収録済み（§13-98）。予算書 37082.pdf・概要 37081.pdf は現行 404、Wayback 2025-04-01 に完全版（偵察）。
     code: "202142", name: "茅野市", dataset: "budget", fiscalYears: ["R7"],
     categories: ["broken-text-layer"],
     reason:
       "予算書の総括のページは文字が図形で描かれていて文字の情報が無い。代わりの予算概要は、款の番号が金額と別の行にある款があり、歳入の款ごとの額を正しく取り出せない。",
     url: "https://www.city.chino.lg.jp/soshiki/kanri/yosan.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-SS",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
   {
     // 茅野市（202142）R6・R5。R6 は 32414/32418.pdf（Wayback 0件）、R5 は 27913/27912.pdf（Wayback は 1,048,576 B で切れた1件だけ）。WARP は館内限定で 403（偵察）。
@@ -2664,7 +2676,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "予算書と予算概要は発行元のサイトから消えていて、国立国会図書館の保存は館内でしか見られず、インターネットアーカイブにも完全な写しが無い。",
     url: "https://www.city.chino.lg.jp/soshiki/kanri/yosan.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-SS",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
   {
     // 茅野市（202142）R4・R3。説明書は Wayback 20220705 の 23233.pdf・23255.pdf。歳出は切り抜きで Σ 差0、歳入は Σ が割れる（偵察）。
@@ -2673,7 +2685,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "予算書は掲載されていない。代わりの「わかりやすい予算説明書」は、款の番号が金額と別の行にある款があり、歳入の款ごとの額を正しく取り出せない。",
     url: "https://web.archive.org/web/20221208040523/https://www.city.chino.lg.jp/soshiki/kanri/wakariyasuiyosan.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-SS",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
   {
     // 茅野市（202142）R2。説明書は Wayback 20220706 の 12524.pdf（偵察）。
@@ -2682,34 +2694,34 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "予算書は掲載されていない。代わりの「わかりやすい予算説明書」は金額が億円・万円に丸めてあり、千円単位の款ごとの額が無い。",
     url: "https://web.archive.org/web/20221208040523/https://www.city.chino.lg.jp/soshiki/kanri/wakariyasuiyosan.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-SS",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
   {
-    // 湖南市（252115）R7。R8・R6〜R2 は収録済み（§13-SS）。R7toushoyosangaiyou_2.pdf の物理 p.13 が JPEG 2枚（歳入 p.9 はテキストあり）。差し替え前の版は未確認（偵察）。
+    // 湖南市（252115）R7。R8・R6〜R2 は収録済み（§13-98）。R7toushoyosangaiyou_2.pdf の物理 p.13 が JPEG 2枚（歳入 p.9 はテキストあり）。差し替え前の版は未確認（偵察）。
     code: "252115", name: "湖南市", dataset: "budget", fiscalYears: ["R7"],
     categories: ["scanned-image"],
     reason:
       "当初予算の概要の歳出の款別の表が画像で、文字の情報が無い。予算書はウェブに掲載されていない。",
     url: "https://www.city.shiga-konan.lg.jp/shisei/zaisei_gyoseikaikaku/2_1/yosan/36904.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-SS",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
   {
-    // 岩出市（302091）R6〜R2。R8・R7 は収録済み（§13-SS）。WARP の旧サイトの年度一覧でも予算書と予算説明書の2点だけ（偵察）。
+    // 岩出市（302091）R6〜R2。R8・R7 は収録済み（§13-98）。WARP の旧サイトの年度一覧でも予算書と予算説明書の2点だけ（偵察）。
     code: "302091", name: "岩出市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
     categories: ["scanned-image"],
     reason:
       "予算書・予算説明書は紙をスキャンした画像だけの PDF で、款ごとの額を載せた文字の資料（予算の概要）は当時から掲載されていない。",
     url: "https://www.city.iwade.lg.jp/life/6/21/93/",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-SS",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
   {
-    // 安中市（102113）R6・R5。R8・R7・R3・R2 は収録済み（§13-SS）。10171.pdf・6801.pdf とも WARP 版と同一ハッシュ（偵察）。
+    // 安中市（102113）R6・R5。R8・R7・R3・R2 は収録済み（§13-98）。10171.pdf・6801.pdf とも WARP 版と同一ハッシュ（偵察）。
     code: "102113", name: "安中市", dataset: "budget", fiscalYears: ["R6", "R5"],
     categories: ["broken-text-layer"],
     reason:
       "当初予算の概要の表が図形で描かれていて文字の情報が無い。予算書はウェブに掲載されていない。",
     url: "https://www.city.annaka.lg.jp/page/2461.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-SS",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
   {
     // 安中市（102113）R4。概要 6805.pdf は案の 25,280,000、議決は 25,264,266（R5 の前年度列・広報あんなか 2022年5月号）（偵察）。
@@ -2718,6 +2730,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "一般会計予算は議会で修正して可決されたが、掲載されている当初予算の概要は修正前の案の額のままで、議決された額と教育費・繰入金・諸収入が合わない。",
     url: "https://www.city.annaka.lg.jp/page/2461.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-SS",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
 ];

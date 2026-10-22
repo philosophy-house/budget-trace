@@ -5382,6 +5382,17 @@
       "rawSha256": "1a971588630ab895cd615c5df4dc85cdc6f4a1bf8cd8b1e8bab6f36559ad6316"
     },
     {
+      "sourceId": "fuchu-hiroshima-yosan-gaiyou-r8",
+      "url": "https://www.town.fuchu.hiroshima.jp/uploaded/attachment/31589.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261021225632/https://www.town.fuchu.hiroshima.jp/uploaded/attachment/31589.pdf",
+      "waybackTimestamp": "20261021225632",
+      "checkedAt": "2026-10-21T22:56:42.190Z",
+      "sha256Match": true,
+      "waybackBytes": 362554,
+      "rawSha256": "1477d1a2681f4765e3268fc9d242c333d62bd08a898ac9ecf463509482af5660"
+    },
+    {
       "sourceId": "fuchu-shigikai-r8",
       "url": "https://www.city.fuchu.tokyo.jp/gikai/dayori/backnumber/reiwa8/329.files/fuchu-shigikaidayori_329.pdf",
       "kind": "file",

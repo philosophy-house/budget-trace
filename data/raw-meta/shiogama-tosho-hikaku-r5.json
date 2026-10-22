@@ -1,0 +1,19 @@
+{
+  "sourceId": "shiogama-tosho-hikaku-r5",
+  "files": [
+    {
+      "filename": "20084.pdf",
+      "sha256": "836252bb3d8a85fb685310557be50be85b53155b07618890552ad211ee6ab2e5",
+      "bytes": 148936,
+      "fetchedAt": "2026-10-21T22:51:57.917Z",
+      "fetchedFrom": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/20084.pdf"
+    },
+    {
+      "filename": "20085.pdf",
+      "sha256": "781a3d730bc08b17c4a82c023b6badad1b123d57c447e8360428797e583e2937",
+      "bytes": 177094,
+      "fetchedAt": "2026-10-21T22:51:58.272Z",
+      "fetchedFrom": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/20085.pdf"
+    }
+  ]
+}
