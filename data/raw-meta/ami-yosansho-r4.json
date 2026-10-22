@@ -1,0 +1,12 @@
+{
+  "sourceId": "ami-yosansho-r4",
+  "files": [
+    {
+      "filename": "R4yosansyo.pdf",
+      "sha256": "07cbddad13613272c62f1549266a5c2722cda4228fb8cf823d7c987c2aaed489",
+      "bytes": 10028643,
+      "fetchedAt": "2026-10-22T14:25:29.804Z",
+      "fetchedFrom": "https://www.town.ami.lg.jp/cmsfiles/contents/0000009/9953/R4yosansyo.pdf"
+    }
+  ]
+}

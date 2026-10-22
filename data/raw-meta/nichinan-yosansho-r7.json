@@ -1,0 +1,12 @@
+{
+  "sourceId": "nichinan-yosansho-r7",
+  "files": [
+    {
+      "filename": "yosannsyo.pdf",
+      "sha256": "ea14f0b7b07ebc3263b5e48d5b1cfce598d2e74647bf466cf270c12b04381b51",
+      "bytes": 4082138,
+      "fetchedAt": "2026-10-22T14:28:18.458Z",
+      "fetchedFrom": "https://www.city.nichinan.lg.jp/material/files/group/23/yosannsyo.pdf"
+    }
+  ]
+}

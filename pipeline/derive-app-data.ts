@@ -3669,6 +3669,50 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `takizawa-yosan-setsumeisho-${fy}`, muniCode: "032166", muniName: "滝沢市", prefName: "岩手県", isPref: false,
     })),
+    // ---- 第91巡（2026-10-22・§13-105） ----
+    // ⚠ 東浦町 R3 は decodeGarble
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `higashiura-yosan-setsumeisho-${fy}`, muniCode: "234427", muniName: "東浦町", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 阿見町 R8 は撤回・再提出後の議案第35号。R3・R2 は概要（別 srcId）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `ami-yosansho-${fy}`, muniCode: "084433", muniName: "阿見町", prefName: "茨城県", isPref: false,
+    })),
+    // 阿見町の概要
+    ...(["r3", "r2"] as const).map((fy) => ({
+      srcId: `ami-yosan-gaiyou-${fy}`, muniCode: "084433", muniName: "阿見町", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 寒川町は歳入が見開き（`revenueSpread`）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `samukawa-yosansho-${fy}`, muniCode: "143219", muniName: "寒川町", prefName: "神奈川県", isPref: false,
+    })),
+    // ⚠ 裾野は `noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `susono-yosansho-${fy}`, muniCode: "222208", muniName: "裾野市", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 浜田は概要（R7 は修正後）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hamada-yosan-gaiyou-${fy}`, muniCode: "322024", muniName: "浜田市", prefName: "島根県", isPref: false,
+    })),
+    // 小美玉
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `omitama-yosansho-${fy}`, muniCode: "082368", muniName: "小美玉市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ みどりは R8・R7 だけ（R6〜R2 は unrecordable.ts）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `midori-yosansho-${fy}`, muniCode: "102121", muniName: "みどり市", prefName: "群馬県", isPref: false,
+    })),
+    // ⚠ 日南は予算書と概要が混在。R7 骨格 ⇒ R8 は肉付後の前年度列（prevBasis 補正後）。`noDeepLink`
+    { srcId: "nichinan-yosan-gaiyou-r8", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
+    { srcId: "nichinan-yosansho-r7", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
+    { srcId: "nichinan-yosan-gaiyou-r6", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
+    { srcId: "nichinan-yosansho-r5", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
+    { srcId: "nichinan-yosansho-r4", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
+    // ⚠ 佐渡 R3 は概要（別 srcId）・R2 は unrecordable.ts
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `sado-yosansho-${fy}`, muniCode: "152242", muniName: "佐渡市", prefName: "新潟県", isPref: false,
+    })),
+    { srcId: "sado-yosan-gaiyou-r3", muniCode: "152242", muniName: "佐渡市", prefName: "新潟県", isPref: false },
     // ---- 第90巡（2026-10-22・§13-104） ----
     // ⚠ 須坂は概要（款番号なし・同一ページ）。R7 は修正可決で総額不変
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
