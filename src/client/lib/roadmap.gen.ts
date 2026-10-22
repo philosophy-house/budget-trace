@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 550,
+  "budgetCount": 555,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3966,
-  "fileCount": 5644,
-  "archivedCount": 2959,
+  "sourceCount": 4001,
+  "fileCount": 5679,
+  "archivedCount": 2965,
   "licenseOpen": 135,
-  "licensePermission": 3739,
+  "licensePermission": 3774,
   "licenseUnverified": 92,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -783,6 +783,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "五所川原市",
+      "code": "022055",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "十和田市",
       "code": "022063",
       "years": 7,
@@ -1371,6 +1377,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "須坂市",
+      "code": "202070",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "伊那市",
       "code": "202096",
       "years": 7,
@@ -1595,6 +1607,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "伊勢市",
       "code": "242039",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "亀山市",
+      "code": "242101",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1941,6 +1959,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "筑後市",
+      "code": "402117",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "行橋市",
       "code": "402133",
       "years": 7,
@@ -2151,6 +2175,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "幸手市",
+      "code": "112402",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "鶴ケ島市",
       "code": "112411",
       "years": 6,
@@ -2317,6 +2347,12 @@ export const ROADMAP_PROGRESS = {
       "code": "272221",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "阪南市",
+      "code": "272329",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "高砂市",
@@ -2577,12 +2613,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
-      "name": "阪南市",
-      "code": "272329",
-      "years": 5,
-      "range": "R3〜R8（5年度）"
-    },
-    {
       "name": "姫路市",
       "code": "282014",
       "years": 5,
@@ -2647,12 +2677,6 @@ export const ROADMAP_PROGRESS = {
       "code": "012050",
       "years": 4,
       "range": "R3〜R7（4年度）"
-    },
-    {
-      "name": "五所川原市",
-      "code": "022055",
-      "years": 4,
-      "range": "R5〜R8（4年度）"
     },
     {
       "name": "天童市",
@@ -2731,6 +2755,12 @@ export const ROADMAP_PROGRESS = {
       "code": "232017",
       "years": 4,
       "range": "R3〜R8（4年度）"
+    },
+    {
+      "name": "高浜市",
+      "code": "232271",
+      "years": 4,
+      "range": "R2〜R8（4年度）"
     },
     {
       "name": "橿原市",

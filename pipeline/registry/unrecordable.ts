@@ -2767,4 +2767,14 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.hannan.lg.jp/kakuka/somu/gyoukaku/zaisei/yosan_kessan/index.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-103",
   },
+  {
+    // 高浜市（232271）R4。予算書 /uploaded/attachment/20269.pdf（423p・DocuWorks）の総括 p.51 は pdftotext が化け字だけで数字が1つも無い（2026-10-22 に自分で取得して確認）。
+    // SimSun・Malgun 等15種の CID で ToUnicode が別字に当たる型。記者発表資料・概要は歳入が7区分にまとめた表だけ（偵察・§13-104）。
+    code: "232271", name: "高浜市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason:
+      "予算書は文字の情報が壊れていて、金額の数字も読み取れない。記者発表資料と概要は歳入を款別ではなく7つの区分にまとめた表だけ。",
+    url: "https://www.city.takahama.lg.jp/soshiki/zaimu/2414.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-104",
+  },
 ];

@@ -27253,6 +27253,192 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として高石市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "page"
   },
+  "/sources/suzaka-yosan-gaiyou-r8/2026toushoyosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.suzaka.nagano.jp/material/files/group/4/2026toushoyosangaiyou.pdf",
+    "license": "須坂市ホームページから発信する情報（写真・イラスト・音声・動画及び記事、その他のデータ）の著作権は須坂市に帰属し（一部の画像等の著作権は、原著作者が所有しています）、「私的使用のための複製」「非営利的な使用」の目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。須坂市ホームページの内容の全部または一部については、利用する皆様の方法に応じ出所を明示することにより、引用・転載・複製を行うことができますが、無断転載はご遠慮ください。ただし、商用目的で複製する場合には、事前に須坂市政策推進課の許諾を得てください。その他、改変・配布・掲示（注釈） についても事前に許諾を得てください。（注釈）ウェブ上での引用による配布、ウェブ上での引用による掲示の場合で、出所を明示する場合については除きます。",
+    "target": "file"
+  },
+  "/sources/suzaka-yosan-gaiyou-r7/2025tousyoyosannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.suzaka.nagano.jp/material/files/group/4/2025tousyoyosannogaiyou.pdf",
+    "license": "須坂市ホームページから発信する情報（写真・イラスト・音声・動画及び記事、その他のデータ）の著作権は須坂市に帰属し（一部の画像等の著作権は、原著作者が所有しています）、「私的使用のための複製」「非営利的な使用」の目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。須坂市ホームページの内容の全部または一部については、利用する皆様の方法に応じ出所を明示することにより、引用・転載・複製を行うことができますが、無断転載はご遠慮ください。ただし、商用目的で複製する場合には、事前に須坂市政策推進課の許諾を得てください。その他、改変・配布・掲示（注釈） についても事前に許諾を得てください。（注釈）ウェブ上での引用による配布、ウェブ上での引用による掲示の場合で、出所を明示する場合については除きます。",
+    "target": "file"
+  },
+  "/sources/suzaka-yosan-gaiyou-r6/202402_yosan_gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.suzaka.nagano.jp/material/files/group/4/202402_yosan_gaiyo.pdf",
+    "license": "須坂市ホームページから発信する情報（写真・イラスト・音声・動画及び記事、その他のデータ）の著作権は須坂市に帰属し（一部の画像等の著作権は、原著作者が所有しています）、「私的使用のための複製」「非営利的な使用」の目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。須坂市ホームページの内容の全部または一部については、利用する皆様の方法に応じ出所を明示することにより、引用・転載・複製を行うことができますが、無断転載はご遠慮ください。ただし、商用目的で複製する場合には、事前に須坂市政策推進課の許諾を得てください。その他、改変・配布・掲示（注釈） についても事前に許諾を得てください。（注釈）ウェブ上での引用による配布、ウェブ上での引用による掲示の場合で、出所を明示する場合については除きます。",
+    "target": "file"
+  },
+  "/sources/suzaka-yosan-gaiyou-r5/202302_yosan_gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.suzaka.nagano.jp/material/files/group/4/202302_yosan_gaiyo.pdf",
+    "license": "須坂市ホームページから発信する情報（写真・イラスト・音声・動画及び記事、その他のデータ）の著作権は須坂市に帰属し（一部の画像等の著作権は、原著作者が所有しています）、「私的使用のための複製」「非営利的な使用」の目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。須坂市ホームページの内容の全部または一部については、利用する皆様の方法に応じ出所を明示することにより、引用・転載・複製を行うことができますが、無断転載はご遠慮ください。ただし、商用目的で複製する場合には、事前に須坂市政策推進課の許諾を得てください。その他、改変・配布・掲示（注釈） についても事前に許諾を得てください。（注釈）ウェブ上での引用による配布、ウェブ上での引用による掲示の場合で、出所を明示する場合については除きます。",
+    "target": "file"
+  },
+  "/sources/suzaka-yosan-gaiyou-r4/202202_yosan_gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.suzaka.nagano.jp/material/files/group/4/202202_yosan_gaiyo.pdf",
+    "license": "須坂市ホームページから発信する情報（写真・イラスト・音声・動画及び記事、その他のデータ）の著作権は須坂市に帰属し（一部の画像等の著作権は、原著作者が所有しています）、「私的使用のための複製」「非営利的な使用」の目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。須坂市ホームページの内容の全部または一部については、利用する皆様の方法に応じ出所を明示することにより、引用・転載・複製を行うことができますが、無断転載はご遠慮ください。ただし、商用目的で複製する場合には、事前に須坂市政策推進課の許諾を得てください。その他、改変・配布・掲示（注釈） についても事前に許諾を得てください。（注釈）ウェブ上での引用による配布、ウェブ上での引用による掲示の場合で、出所を明示する場合については除きます。",
+    "target": "file"
+  },
+  "/sources/suzaka-yosan-gaiyou-r3/202103_yosan_gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.suzaka.nagano.jp/material/files/group/4/202103_yosan_gaiyo.pdf",
+    "license": "須坂市ホームページから発信する情報（写真・イラスト・音声・動画及び記事、その他のデータ）の著作権は須坂市に帰属し（一部の画像等の著作権は、原著作者が所有しています）、「私的使用のための複製」「非営利的な使用」の目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。須坂市ホームページの内容の全部または一部については、利用する皆様の方法に応じ出所を明示することにより、引用・転載・複製を行うことができますが、無断転載はご遠慮ください。ただし、商用目的で複製する場合には、事前に須坂市政策推進課の許諾を得てください。その他、改変・配布・掲示（注釈） についても事前に許諾を得てください。（注釈）ウェブ上での引用による配布、ウェブ上での引用による掲示の場合で、出所を明示する場合については除きます。",
+    "target": "file"
+  },
+  "/sources/suzaka-yosan-gaiyou-r2/202003_toshoyosan_gaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.suzaka.nagano.jp/material/files/group/4/202003_toshoyosan_gaiyo.pdf",
+    "license": "須坂市ホームページから発信する情報（写真・イラスト・音声・動画及び記事、その他のデータ）の著作権は須坂市に帰属し（一部の画像等の著作権は、原著作者が所有しています）、「私的使用のための複製」「非営利的な使用」の目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。須坂市ホームページの内容の全部または一部については、利用する皆様の方法に応じ出所を明示することにより、引用・転載・複製を行うことができますが、無断転載はご遠慮ください。ただし、商用目的で複製する場合には、事前に須坂市政策推進課の許諾を得てください。その他、改変・配布・掲示（注釈） についても事前に許諾を得てください。（注釈）ウェブ上での引用による配布、ウェブ上での引用による掲示の場合で、出所を明示する場合については除きます。",
+    "target": "file"
+  },
+  "/sources/satte-yosansho-r8/R8ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/gyoseijoho/gyozaisei/2/1/15458.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-yosansho-r7/R7ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/gyoseijoho/gyozaisei/2/1/14429.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-yosansho-r6/R6ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/gyoseijoho/gyozaisei/2/1/13597.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-yosansho-r5/R5ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/gyoseijoho/gyozaisei/2/1/11362.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-yosansho-r4/R04ippan000.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/gyoseijoho/gyozaisei/2/1/11361.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-yosansho-r3/R3ixtupann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/gyoseijoho/gyozaisei/2/1/11360.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/chikugo-yosansho-r8/126317113219.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikugo.lg.jp/var/rev0/0059/0892/126317113219.pdf",
+    "license": "ホームページに掲載されている文章、画像等の著作権は、筑後市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については情報発信元へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikugo-yosansho-r7/125318163024.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikugo.lg.jp/var/rev0/0055/7567/125318163024.pdf",
+    "license": "ホームページに掲載されている文章、画像等の著作権は、筑後市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については情報発信元へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikugo-yosansho-r6/12431513332.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikugo.lg.jp/var/rev0/0049/8910/12431513332.pdf",
+    "license": "ホームページに掲載されている文章、画像等の著作権は、筑後市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については情報発信元へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikugo-yosansho-r5/12337171644.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikugo.lg.jp/var/rev0/0046/6612/12337171644.pdf",
+    "license": "ホームページに掲載されている文章、画像等の著作権は、筑後市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については情報発信元へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikugo-yosansho-r4/122316154712.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chikugo.lg.jp/var/rev0/0046/6561/122316154712.pdf",
+    "license": "ホームページに掲載されている文章、画像等の著作権は、筑後市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については情報発信元へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikugo-yosansho-r3/1213248332.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20230308/20230308080955/https://www.city.chikugo.lg.jp/var/rev0/0029/7807/1213248332.pdf",
+    "license": "ホームページに掲載されている文章、画像等の著作権は、筑後市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については情報発信元へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/chikugo-yosansho-r2/1204891641.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20230308/20230308080955/https://www.city.chikugo.lg.jp/var/rev0/0022/5305/1204891641.pdf",
+    "license": "ホームページに掲載されている文章、画像等の著作権は、筑後市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については情報発信元へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/kameyama-yosansho-r8/R8_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameyama.mie.jp/shisei/2014112309522/yosansho.html",
+    "license": "本サイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は、亀山市に帰属します。また、一部の画像などの著作権は、原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。これらの転用等をご希望の方は、政策課広報グループまでお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/kameyama-yosansho-r7/R7_yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameyama.mie.jp/shisei/2014112309522/yosansho.html",
+    "license": "本サイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は、亀山市に帰属します。また、一部の画像などの著作権は、原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。これらの転用等をご希望の方は、政策課広報グループまでお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/kameyama-yosansho-r6/R06_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameyama.mie.jp/shisei/2014112309522/yosansho.html",
+    "license": "本サイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は、亀山市に帰属します。また、一部の画像などの著作権は、原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。これらの転用等をご希望の方は、政策課広報グループまでお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/kameyama-yosansho-r5/R5_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameyama.mie.jp/shisei/2014112309522/yosansho.html",
+    "license": "本サイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は、亀山市に帰属します。また、一部の画像などの著作権は、原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。これらの転用等をご希望の方は、政策課広報グループまでお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/kameyama-yosansho-r4/R4_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameyama.mie.jp/shisei/2014112309522/yosansho.html",
+    "license": "本サイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は、亀山市に帰属します。また、一部の画像などの著作権は、原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。これらの転用等をご希望の方は、政策課広報グループまでお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/kameyama-yosansho-r3/R3_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameyama.mie.jp/shisei/2014112309522/yosansho.html",
+    "license": "本サイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は、亀山市に帰属します。また、一部の画像などの著作権は、原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。これらの転用等をご希望の方は、政策課広報グループまでお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/kameyama-yosansho-r2/R2_yosansyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kameyama.mie.jp/shisei/2014112309522/yosansho.html",
+    "license": "本サイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は、亀山市に帰属します。また、一部の画像などの著作権は、原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。これらの転用等をご希望の方は、政策課広報グループまでお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/takahama-yosansho-r8/28769.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takahama.lg.jp/soshiki/zaimu/2414.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、高浜市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/takahama-yosansho-r5/22373.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takahama.lg.jp/soshiki/zaimu/2414.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、高浜市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/takahama-yosansho-r3/18282.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takahama.lg.jp/soshiki/zaimu/2414.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、高浜市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/takahama-yosansho-r2/15281.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takahama.lg.jp/soshiki/zaimu/2414.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、高浜市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
   "/sources/tomisato-yosansho-r8/R8ippannkakei.pdf": {
     "mode": "origin",
     "href": "https://www.city.tomisato.lg.jp/0000017117.html",
@@ -27463,6 +27649,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載の文章、画像などの著作権は、阪南市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
     "target": "file"
   },
+  "/sources/hannan-yosansho-r4/R4tousyoyosan_ippan.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20220513/20220512201652/https://www.city.hannan.lg.jp/material/files/group/46/R4tousyoyosan_ippan.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、阪南市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
   "/sources/hannan-yosan-gaiyou-r3/R3yosangaiyou.pdf": {
     "mode": "origin",
     "href": "https://www.city.hannan.lg.jp/material/files/group/46/R3yosangaiyou.pdf",
@@ -27490,6 +27682,24 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/goshogawara-yosansho-r5/R5_tousho_1.pdf": {
     "mode": "origin",
     "href": "https://www.city.goshogawara.lg.jp/jouhou/sosiki/zaisei.html",
+    "license": "五所川原市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として五所川原市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/goshogawara-yosansho-r4/R4_tousho_1.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20230701/20230701000000/https://www.city.goshogawara.lg.jp/jouhou/sosiki/zaisei.html",
+    "license": "五所川原市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として五所川原市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/goshogawara-yosansho-r3/R3_tousho_1.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210701/20210701000000/https://www.city.goshogawara.lg.jp/jouhou/sosiki/zaisei.html",
+    "license": "五所川原市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として五所川原市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/goshogawara-yosansho-r2/R02_tousyo.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210701/20210701000000/https://www.city.goshogawara.lg.jp/jouhou/sosiki/zaisei.html",
     "license": "五所川原市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として五所川原市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
     "target": "page"
   },

@@ -859,6 +859,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "232271": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "予算書は文字の情報が壊れていて、金額の数字も読み取れない。記者発表資料と概要は歳入を款別ではなく7つの区分にまとめた表だけ。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "232297": {
     "budget": [
       {
