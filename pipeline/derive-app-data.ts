@@ -3749,8 +3749,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `tomigusuku-yosan-shukei-${fy}`, muniCode: "472123", muniName: "豊見城市", prefName: "沖縄県", isPref: false,
     })),
-    // ⚠ 大館は発行元が 502 で WARP から取得。R5 骨格・R2 は廃止印 ● で見送り
-    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+    // ⚠ 大館は発行元が 502 で WARP から取得。R5・H31 骨格。R2 は款名が金額行の上だけの廃止款（#361）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `odate-yosan-gaiyou-${fy}`, muniCode: "052043", muniName: "大館市", prefName: "秋田県", isPref: false,
     })),
     // ---- 第67巡（2026-10-22・§13-73） ----
@@ -3794,8 +3794,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `sukagawa-yosan-gaiyou-${fy}`, muniCode: "072079", muniName: "須賀川市", prefName: "福島県", isPref: false,
     })),
     // ---- 第63巡（2026-10-22・§13-69） ----
-    // ⚠ 交野 R2 は decodeGarble が廃止款の印 × で止まる（#354）。`noDeepLink`
-    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+    // ⚠ 交野 R2 は decodeGarble（#354・廃止款の印 × は #382 で復号表に恒等）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `katano-yosansho-${fy}`, muniCode: "272302", muniName: "交野市", prefName: "大阪府", isPref: false,
     })),
     // ⚠ 本庄 R3・R2 は WARP
@@ -3816,8 +3816,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `shiki-yosansho-${fy}`, muniCode: "112283", muniName: "志木市", prefName: "埼玉県", isPref: false,
     })),
     // ---- 第59巡（2026-10-22・§13-64） ----
-    // ⚠ 大和郡山は R8・R4 だけ（他はテキスト層の二重化・見開きの廃止款で #347）
-    ...(["r8", "r4"] as const).map((fy) => ({
+    // ⚠ 大和郡山 R7・R6・R5・R3 は `visibleTextOnly`（テキスト層の二重化）・R2 は見開き（#347）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yamatokoriyama-yosan-setsumeisho-${fy}`, muniCode: "292036", muniName: "大和郡山市", prefName: "奈良県", isPref: false,
     })),
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -3855,8 +3855,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `ama-yosansho-${fy}`, muniCode: "232378", muniName: "あま市", prefName: "愛知県", isPref: false,
     })),
-    // ⚠ 袋井は右端の増減理由を CropX で落とす。R4 は廃止款の3行組で未収録（パーサ）
-    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+    // ⚠ 袋井は右端の増減理由を CropX で落とす。R4 は款名が金額行の上下に割れる廃止款（#342）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `fukuroi-yosan-kanbetsu-${fy}`, muniCode: "222160", muniName: "袋井市", prefName: "静岡県", isPref: false,
     })),
     // ---- ライセンスの判断待ちで見送っていた市（2026-10-21・#293・§13-56） ----

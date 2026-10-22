@@ -1911,16 +1911,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-61",
   },
   {
-    // 袋井市（222160）R4。R8〜R5・R3・R2 は収録済み（§13-61）。パーサの issue に積んだ。
-    code: "222160", name: "袋井市", dataset: "budget", fiscalYears: ["R4"],
-    categories: ["parser-unsupported"],
-    reason:
-      "歳入の款別集計表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度1千円）が、名前の上段・金額の行・名前の下段の3行に分かれて組まれていて、" +
-      "こちらの抽出処理では款名を正しく組み立てられない。原典の表は健全。",
-    url: "https://www.city.fukuroi.shizuoka.jp/soshiki/6/2/zaisei/1422534504181.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-61",
-  },
-  {
     // 北上市（032069）R6〜R2。R8・R7 は収録済み（§13-60）。
     // 予算書（R6 2024-01-01.pdf・R5 2023-01-01.pdf・R4 2022-0202.pdf・R3 r3ippann1.pdf・R2 r2ippan1.pdf）の総括 物理 p.15〜18 は pdftotext がノンブルだけ・pdfimages 0件（文字をアウトライン化）。
     // 概要（予算（案）の概要）は歳入を「地方譲与税等※」の1行に集約（注記の内訳は地方譲与税・利子割交付金…と年度で並びが違う。R2 は自動車取得税交付金を含む）。
@@ -1986,17 +1976,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "金額の数字は読めるが、款の名前を確かめずに収録はしない。",
     url: "https://www.city.kashiba.lg.jp/soshiki/8/6311.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-66",
-  },
-  {
-    // 大和郡山市（292036）R7・R6・R5・R3・R2。R8・R4 は収録済み（§13-64）。パーサの issue #347。
-    // R7・R6・R5・R3 は説明書の総括に同一のテキスト層が x 方向に約22.7pt ずれて2重に入る。R2 は歳入の見開きで番号なしの廃止款が款名ページから落ちる。
-    code: "292036", name: "大和郡山市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R3", "R2"],
-    categories: ["parser-unsupported"],
-    reason:
-      "令和7・6・5・3年度の予算に関する説明書は、款別の総括のページに同じ文字の層が少し横にずれて二重に入っていて、こちらの抽出処理では表を正しく読み取れない。" +
-      "令和2年度は歳入の総括が左右2ページに分かれていて、廃止された款の行に番号が無いため、款名と金額の行をこちらの抽出処理で対応づけられない。原典の表は健全。",
-    url: "https://www.city.yamatokoriyama.lg.jp/soshiki/zaiseika/shinozaisei/1/yosan/1490.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-64",
   },
   {
     // 近江八幡市（252042）R3。R8〜R4・R2 は収録済み（§13-64）。
@@ -2161,15 +2140,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-70",
   },
   {
-    // 交野市（272302）R2。R8〜R3 は収録済み（§13-69）。パーサの issue #354。
-    code: "272302", name: "交野市", dataset: "budget", fiscalYears: ["R2"],
-    categories: ["parser-unsupported"],
-    reason:
-      "一般会計予算書の総括のページは数字の文字コードの対応表が欠けていて復号が要るが、廃止された款に付いている印（×）を、こちらの抽出処理が化けた文字と取り違えて止まる。原典の表は健全。",
-    url: "https://www.city.katano.osaka.jp/docs/2020051300032/",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-69",
-  },
-  {
     // 阿南市（362042）R5・R4。R8〜R6 は収録済み（§13-73）。
     // 当初予算（案）の概要 R5（/docs/2022030100060/ の tousyo_gaiyou_R5-anCler.pdf・51ページ）は表紙のほか文字0字・RICOH のスキャン、
     // R4（tousyo_gaiyo_r4.pdf・46ページ）は全文0字・pdffonts 0件（2026-10-22 に実測）。予算書は R5 以前がウェブに無い。
@@ -2286,15 +2256,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "款別の歳出が載る当初予算参考資料が紙をスキャンした画像だけの PDF で、予算書の総括は一部の款の数字が文字の層の上で途中で割れていて、そのままでは正しく取り出せない。",
     url: "https://www.city.kashiwara.lg.jp/docs/2024032700019/",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-78",
-  },
-  {
-    // 大館市（052043）R2。R8〜R3 は収録済み（§13-78）。パーサの issue #361。
-    code: "052043", name: "大館市", dataset: "budget", fiscalYears: ["R2"],
-    categories: ["parser-unsupported"],
-    reason:
-      "当初予算の概要の歳入の総括表の末尾にある廃止された款（自動車取得税交付金・当年度0千円・前年度25,000千円）に付いている印（●）を、こちらの抽出処理が廃止の印として扱えず、その款が落ちる。原典の表は健全。",
-    url: "https://warp.ndl.go.jp/20260707/20260705021444/https://www.city.odate.lg.jp/city/soshiki/zaisei/p647",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-78",
   },
   {

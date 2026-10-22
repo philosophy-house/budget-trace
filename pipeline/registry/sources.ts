@@ -24449,15 +24449,16 @@ export const SOURCES: SourceEntry[] = [
   // ライセンス: 「著作権・免責事項について」（/soshiki/4/city_promotion/homepage/1422535837235.html・確認日 2026-10-22）＝`無断` で要許可（焼津とほぼ同文）。
   //   オープンデータ規約（CC BY 4.0）はカタログサイトの掲載データに範囲を限り、予算・財政は0件。
   //   リンクは「原則としてご自由に…リンク設定の場所は、できるだけトップページにお願いします。」（推奨）⇒ `noDeepLink` は立てない。
-  // ⚠⚠ R4（2gaiyouzenkaikei.pdf）は見送り＝unrecordable（parser-unsupported）。歳入の市債と合計の間に番号なしの廃止款 `自動車取得税交付金`（0/1千円）が
-  //   名前の上段 `自動 車 取 得 税`・金額行・下段 `交 付 金` の3行で組まれ、既定では行ごと落ちて前年度 Σ 差-1（warning）。`kanNoless`＋`kanNolessUpperOnly` で拾うと
-  //   款名が `自動車取得税` で切れ（`abolishedAwaitTail` も効かない）款5 の番号も外れる。パーサの手当ては #342（§13-61）。
+  // ⚠⚠ R4（2gaiyouzenkaikei.pdf）は歳入の市債と合計の間に番号なしの廃止款 `自動車取得税交付金`（0/1千円）が
+  //   名前の上段 `自動 車 取 得 税`・金額行・下段 `交 付 金` の3行で組まれる。従来は行ごと落ちて前年度 Σ 差-1（warning）だったので見送っていたが、
+  //   2026-10-22 にパーサの `nameAboveAbolished`（当年度 0・比較 △前年度額の名前の無い金額行）で読めるようにして収録した（#342）。parserOptions は他年度と同じ。
   // ⚠ 主な事業（主要事業説明資料・款なし・R7 はスキャン画像）と事業報告（政策評価の取組別評価）は別の巡（§13-61）。
   ...([
     ["R8", "kanbetuyoukyuusyo_R8.pdf"],
     ["R7", "2kanbetuyoukyuushoR7.pdf"],
     ["R6", "2kanbetusyuukeihyouR6.pdf"],
     ["R5", "2kannbetusyuukeisyou.pdf"],
+    ["R4", "2gaiyouzenkaikei.pdf"],
     ["R3", "syuukeihyou.pdf"],
     ["R2", "fukuroisiitibujimukumiair2.pdf"],
   ] as const).map(([fy, file]) => ({
@@ -24489,17 +24490,25 @@ export const SOURCES: SourceEntry[] = [
   // 大和郡山市（奈良県・団体コード 292036 ＝ 総務省 R6.json から実引き）。「一般会計特別会計 予算に関する説明書」の事項別明細書「１ 総括」（歳入 p.6・歳出 p.7）。千円。
   // ⚠⚠ `revenueHeaderExtra: "明細書"`・`expenditureHeaderExtra: "一般財源|国県支出金"` は必須。外すと Σ 差0 のまま款1 が `歳入歳出予算事項別明細書市税`・`一般財源国県支出金地方債その他議会費`。
   // ⚠ R8 は番号なしの廃止款 `環境性能割交付金 0/40,000`。R8 のファイル名に年度が付いていない（R9 掲載時に上書きされうる）。
-  // ⚠⚠ 収録は R8・R4 だけ。R7・R6・R5・R3 は同じページに同一のテキスト層が x 方向に約22.7pt ずれて2重に入っていて読めない、R2 は歳入が見開きで番号なしの廃止款が
-  //   款名ページから落ちて行数が合わない（どちらも大声で落ちる）＝unrecordable（parser-unsupported・#347）。
+  // ⚠⚠ R7・R6・R5・R3 は見開きの版面を2回貼り込んだ組版（MC0＝左半分のクリップ・MC1＝同じ版面を x +22.68pt ずらして右半分のクリップ）で、
+  //   pdftotext がクリップの外の字まで拾って全語が2つずつ出る ⇒ `visibleTextOnly`（pdftocairo で描き直してから読む・#347）。R5・R3 は総括が p.5/p.6。
+  // ⚠ R2 は歳入が見開き（款名と本年度 p.8・前年度と比較 p.9）＝`revenueSpread`。款名ページの番号なしの廃止款 `自動車取得税交付金 0`（前年度 29,000）は
+  //   #347 でパーサが採るようにした（構成千分比の `0` が4個目に付く）。R2 の歳出は p.10 の1ページ。
+  // ⚠ R3 と R7 の当年度総額はどちらも 37,050,000（R4・R8 の前年度列で裏が取れる＝偶然の一致）。
   // 前年度列は当初（偵察が R3〜R8 の鎖を重複除去した値で突合・全一致）。骨格予算: 概要と説明書 R2〜R8・年度ページで0件。
   // 総額突合: R6 当初 34,080,000 ÷ 総務省 R6 決算歳出 35,864,920 = 95.0%（R6 は未収録・偵察の実測）。
   // ライセンス: 「リンク・著作権・免責事項」（/konositenitsuite/5517.html・確認日 2026-10-22）＝「許可無く複製・複写することを禁じます」で要許可。
   //   リンクは「特に制限は設けておりません。…リンクはフリーです。」⇒ `noDeepLink` は立てない。
   // ⚠ 主な事業（主要施策の概要・款なし）と事業報告（主要施策の成果及び予算執行の実績報告書 R6・R7）は別の巡（§13-64）。
   ...([
-    ["R8", "zaisei_yosansetumeisyo.pdf"],
-    ["R4", "zaisei_yosannsetumeisyo0504.pdf"],
-  ] as const).map(([fy, file]) => ({
+    ["R8", "zaisei_yosansetumeisyo.pdf", 6, false],
+    ["R7", "zaisei_yosannsetumeisyo0507.pdf", 6, true],
+    ["R6", "zaisei_yosannsetumeisyo0506.pdf", 6, true],
+    ["R5", "zaisei_yosannsetumeisyo0505.pdf", 5, true],
+    ["R4", "zaisei_yosannsetumeisyo0504.pdf", 6, false],
+    ["R3", "zaisei_yosannsetumeisyo0503.pdf", 5, true],
+    ["R2", "yosan__setsumei_r2.pdf", 8, false],
+  ] as const).map(([fy, file, rp, visible]) => ({
     id: `yamatokoriyama-yosan-setsumeisho-${fy.toLowerCase()}`,
     title: `${eraYear(fy)}年度 大和郡山市予算に関する説明書（一般会計 歳入歳出予算事項別明細書 総括）`,
     publisher: "大和郡山市",
@@ -24511,12 +24520,14 @@ export const SOURCES: SourceEntry[] = [
     license: YAMATOKORIYAMA_LICENSE,
     parser: "kofu-yosansho" as const,
     parserOptions: {
-      revenuePage: 6,
-      expenditurePage: 7,
+      ...(fy === "R2"
+        ? { revenueSpread: { namePage: rp, amountPage: rp + 1 }, expenditurePage: rp + 2 }
+        : { revenuePage: rp, expenditurePage: rp + 1 }),
       revenueHeading: "総括",
       expenditureHeading: "歳出",
       revenueHeaderExtra: "明細書",
       expenditureHeaderExtra: "一般財源|国県支出金",
+      ...(visible ? { visibleTextOnly: true } : {}),
     },
   } satisfies SourceEntry)),
 
@@ -24668,7 +24679,8 @@ export const SOURCES: SourceEntry[] = [
   // 交野市（大阪府・団体コード 272302 ＝ 総務省 R6.json から実引き）。「一般会計予算書」の「歳入歳出予算事項別明細書 １．総括」。千円。
   //   歳入21款・歳出12款（労働費・災害復旧費の款が無い）。歳入は2ページ（合計行は2ページ目）＝`revenuePages`。
   // ⚠⚠ `expenditureHeaderExtra: "一般財源|国府支出金"` は必須。外すと Σ 差0 のまま款1 が `一般財源国府支出金地方債その他議会費`。
-  // ⚠ R2（2yosannsyo.pdf）は総括の数字だけ ToUnicode が欠けていて、`decodeGarble` が廃止款の印 `×`（U+00D7）を化け字とみなして throw ⇒ unrecordable（parser-unsupported・#354）。
+  // ⚠ R2（2yosannsyo.pdf）は総括の数字だけ ToUnicode が欠けている ⇒ `decodeGarble`。廃止款の印 `×`（U+00D7）は #382 で復号表に恒等で入った（那珂）ので、
+  //   R2 はそのまま通る（#354・2026-10-22 に収録）。歳入は番号なしの廃止款 `×. 自動車取得税交付金 0/35,000` を含めて22行。
   // 前年度列は当初（R8→R3 の5リンクで款単位全一致）。骨格予算: 予算書 R8〜R2 で0件（R8 予算資料に「令和８年９月に交野市長選挙」＝選挙前の通常予算）。
   // 総額突合: R6 当初 35,329,156 ÷ 総務省 R6 決算歳出 38,888,487 = 90.8%。
   // ライセンス: 「サイトの利用・個人情報の取り扱いについて」（/docs/about-site/・確認日 2026-10-22）の「２ 著作権について」＝`無断` で要許可（許諾は著作権法上認められた行為の範囲だけ）。
@@ -24681,7 +24693,8 @@ export const SOURCES: SourceEntry[] = [
     ["R5", "2023021300018", "R5_ippan_yosan.pdf", 19, 21],
     ["R4", "2021030400019", "R4_ippann_yosan.pdf", 18, 20],
     ["R3", "2021052000037", "3yosan_.pdf", 18, 20],
-  ] as const).map(([fy, page, file, rp, ep]) => ({
+    ["R2", "2020051300032", "2yosannsyo.pdf", 17, 19, true],
+  ] as const).map(([fy, page, file, rp, ep, garble]) => ({
     id: `katano-yosansho-${fy.toLowerCase()}`,
     title: `${eraYear(fy)}年度 交野市一般会計予算書（歳入歳出予算事項別明細書 総括）`,
     publisher: "交野市",
@@ -24699,6 +24712,7 @@ export const SOURCES: SourceEntry[] = [
       revenueHeading: "（歳入）",
       expenditureHeading: "（歳出）",
       expenditureHeaderExtra: "一般財源|国府支出金",
+      ...(garble ? { decodeGarble: true } : {}),
     },
   } satisfies SourceEntry)),
 
@@ -25367,7 +25381,9 @@ export const SOURCES: SourceEntry[] = [
   //   `expenditureHeaderExtra` が無いと款1 が `当初当初当初補正後補正後議会費`（Σ 差0）。前年度は既定で2番目の整数＝前年度当初を取る（R5 の当年度列と一致）。
   // ⚠⚠ 発行元のサイトが 2026-10-22 にトップ以外の全パスで HTTP 502（CloudFront）⇒ PDF と掲載ページは WARP（2026-07-05 の収集）から取った。R8〜R5 の PDF は Wayback に無い。
   // ⚠⚠ 骨格予算: R5（と範囲外の H31）。R6 の前年度列は R5 の骨格の当初額 ⇒ R6 に prevNote・skeleton-budgets.ts に R5・H31。
-  // ⚠ R2 は見送り（unrecordable・#361）: 歳入の末尾の廃止款 `● 自動車取得税交付金`（0/25,000・3行組）の `●` が廃止の印として扱われず落ち、前年度 Σ 差 −25,000（warning 止まりで流れる）。
+  // ⚠ R2 は歳入の末尾の廃止款 `自 動 車 取 得 税` / `● 交 付 金` / 金額行 `0 25,000 25,000 △25,000 △25,000`（款名が金額行の上だけの3行組）。
+  //   2026-10-22 にパーサの `nameAboveAbolished` で読めるようにして収録した（#361）。R2 も列が5本（R6 と同じ）で `expenditureHeaderExtra` が要る。
+  //   前年度（H31）は骨格予算 ⇒ R2 に prevNote（列は2番目＝前年度当初＝骨格の当初額。3番目は6月補正後）。
   // ⚠ R8 の6月補正の概要の「補正前」は 36,157,054 で、当初 35,888,804 と 268,250 千円違う（補正か専決か議会修正か未確認。R8 の予算書の総括も 35,888,804）。R9 の前年度列で確かめる。
   // 前年度列は当初（R8→R3 の5リンクで全36款一致）。総額突合: R6 当初 36,305,716 ÷ 総務省 R6 決算歳出 42,647,088 = 85.1%。
   // ライセンス: 「リンク・著作権・免責事項」（/city/copylight・発行元が 502 なので Wayback 2026-06-16 の捕捉で確認・2020-04・2023-02 と同文）＝`無断` で要許可。原文が対象に「ＰＤＦ」を明記。
@@ -25380,6 +25396,7 @@ export const SOURCES: SourceEntry[] = [
     ["R5", "yosan_R05.pdf", 7, 362, 362],
     ["R4", "yosan_R04_.pdf", 7, 362, 362],
     ["R3", "000_yosan_R03.pdf", 7, 362, 362],
+    ["R2", "yosan_R02.pdf", 7, 362, 362],
   ] as const).map(([fy, file, rp, rx, ex]) => ({
     id: `odate-yosan-gaiyou-${fy.toLowerCase()}`,
     title: `${eraYear(fy)}年度 大館市当初予算の概要（一般会計歳入予算総括表・歳出予算総括表）`,
@@ -25403,7 +25420,12 @@ export const SOURCES: SourceEntry[] = [
             expenditureHeaderExtra: "当\\s*初|補正後",
             prevNote: "前年度（令和5年度）の当初予算は骨格予算（原典の「令和６年度当初予算の概要」に「前年度が義務的経費などを中心とした骨格予算であったため、令和６年度一般会計当初予算は、前年度当初予算との対比では４．４％の増となっています」と明記）。ここでの前年度額はその骨格予算の当初額で、6月補正後の額ではない。",
           }
-        : {}),
+        : fy === "R2"
+          ? {
+              expenditureHeaderExtra: "当\\s*初|補正後",
+              prevNote: "前年度（平成31年度）の当初予算は骨格予算（原典の「令和２年度当初予算の概要」に「前年度が義務的経費、継続事業費などを中心とした骨格予算であったことや新庁舎建設事業費の計上などにより、令和２年度一般会計当初予算は、前年度６月補正後予算との対比で６．３％の増となっています」と明記）。ここでの前年度額はその骨格予算の当初額で、6月補正後の額ではない。",
+            }
+          : {}),
     },
   } satisfies SourceEntry)),
 
