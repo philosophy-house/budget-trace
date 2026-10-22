@@ -3669,6 +3669,25 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `takizawa-yosan-setsumeisho-${fy}`, muniCode: "032166", muniName: "滝沢市", prefName: "岩手県", isPref: false,
     })),
+    // ---- 第86巡（2026-10-22・§13-98） ----
+    // ⚠ 茅野は R8 だけ（R7〜R2 は unrecordable.ts）。ライセンスは要許可・`noDeepLink`
+    { srcId: "chino-yosansho-r8", muniCode: "202142", muniName: "茅野市", prefName: "長野県", isPref: false },
+    // ⚠ 湖南 R7 は歳出の款別表が画像（unrecordable.ts）。江南（konan）と別団体
+    ...(["r8", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `konan-shiga-yosan-gaiyou-${fy}`, muniCode: "252115", muniName: "湖南市", prefName: "滋賀県", isPref: false,
+    })),
+    // ⚠ 銚子のライセンスは条件つき許諾で unverified。R4 は前年度が骨格（prevNote）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `choshi-yosan-gaiyou-${fy}`, muniCode: "122025", muniName: "銚子市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 岩出 R6〜R2 はスキャンのみ（unrecordable.ts）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `iwade-yosan-gaiyou-${fy}`, muniCode: "302091", muniName: "岩出市", prefName: "和歌山県", isPref: false,
+    })),
+    // ⚠ 安中 R6・R5 はテキスト層なし、R4 は修正前の案（unrecordable.ts）
+    ...(["r8", "r7", "r3", "r2"] as const).map((fy) => ({
+      srcId: `annaka-yosan-gaiyou-${fy}`, muniCode: "102113", muniName: "安中市", prefName: "群馬県", isPref: false,
+    })),
     // ---- 第76巡（2026-10-22・§13-84） ----
     // ⚠ 蓮田は R8〜R5 が予算書・R4〜R2 が予算の概要
     ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
