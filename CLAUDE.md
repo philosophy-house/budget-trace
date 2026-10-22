@@ -121,7 +121,7 @@ bun run pipeline:archive [sourceId] [--force]   # Wayback Machine へ登録（�
 **資料の発見・収録・レビューは3つの再利用可能な手続きに切り出してある**（毎回 docs から手順を組み立て直さない）:
 - **発見** — `source-scout` サブエージェント（`.claude/agents/source-scout.md`）。「○○市の款別＋前年当初比較 PDF はどこか」を調べ、直リンク・物理ページ・見出し語・ライセンス原文・`parserOptions` の見込みまで報告する。**registry・data は書き換えない**。複数自治体は1体ずつ**並列**で起動する。
 - **収録** — `/ingest-source` スキル（`.claude/skills/ingest-source/SKILL.md`）。registry 登録 → fetch → parse → validate → archive → derive → アプリ配線（`BUDGET_SOURCES`・`MUNI_SLUGS`）→ レビュー → docs 追記を通す。
-- **レビュー** — `ingest-reviewer` サブエージェント（`.claude/agents/ingest-reviewer.md`）。収録 PR の前に、検証ゲートが守らない領域（款名の全件目視・表示専用項目・団体コード同一性・ライセンス振替・画面目視）を検査して所見を報告する。**ファイルは書き換えない**。**frontmatter でモデルを Fable 5 に固定してある**ので、収録をより軽いモデルのセッションで進めても、レビューだけは常に Fable 5 が担う。
+- **レビュー** — `ingest-reviewer` サブエージェント（`.claude/agents/ingest-reviewer.md`）。収録 PR の前に、検証ゲートが守らない領域（款名の全件目視・表示専用項目・団体コード同一性・ライセンス振替・画面目視）を検査して所見を報告する。**ファイルは書き換えない**。**frontmatter でモデルを Opus（Opus 5.5）に固定してある**ので、収録をより軽いモデルのセッションで進めても、レビューだけは常に Opus 5.5 が担う（2026-10-22 に Fable 5 固定から変更）。
 - **自律運転** — [loop.md](loop.md)。`/loop loop.md に従って次の1巡を進める` で、上の3つを**1巡＝1 PR**の単位で人が居ない間に回すときの手順書（仕事の選び方・マージ条件・止まる条件）。**知識は持たせない**（正は docs）— 順番・境界・止まり方だけを書く。
 
 # アーキテクチャ規約
