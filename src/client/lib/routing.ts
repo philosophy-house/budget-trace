@@ -457,6 +457,13 @@ const MUNI_SLUGS: Record<string, string> = {
   "042030": "shiogama",
   "412058": "imari",
   "022080": "mutsu",
+  "122335": "tomisato",
+  "472077": "ishigaki",
+  "402281": "asakura",
+  "262129": "kyotango",
+  "172111": "nomi",
+  "272329": "hannan",
+  "022055": "goshogawara",
   "232319": "tahara",
   "462080": "izumi-kagoshima", // ⚠ 和泉市 272191 が "izumi" なので県名つき
   "072109": "nihonmatsu",

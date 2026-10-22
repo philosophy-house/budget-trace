@@ -3669,6 +3669,36 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `takizawa-yosan-setsumeisho-${fy}`, muniCode: "032166", muniName: "滝沢市", prefName: "岩手県", isPref: false,
     })),
+    // ---- 第89巡（2026-10-22・§13-103） ----
+    // ⚠ 富里 R4〜R2 は decodeGarble。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tomisato-yosansho-${fy}`, muniCode: "122335", muniName: "富里市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 石垣は R8〜R6 だけ掲載。ライセンスは Copyright 表記のみ ⇒ license-no-grant.ts
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `ishigaki-yosansho-${fy}`, muniCode: "472077", muniName: "石垣市", prefName: "沖縄県", isPref: false,
+    })),
+    // ⚠ 朝倉 R8・R4 骨格 ⇒ R5 に prevNote。`noDeepLink`（規約ページ以外へのリンクを断る）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `asakura-yosansho-${fy}`, muniCode: "402281", muniName: "朝倉市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 京丹後 R7・R4・R3 は修正可決後の予算書。R6・R2 骨格 ⇒ R7・R3 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kyotango-yosansho-${fy}`, muniCode: "262129", muniName: "京丹後市", prefName: "京都府", isPref: false,
+    })),
+    // ⚠ 能美 R7・R3 骨格 ⇒ R8・R4 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nomi-yosansho-${fy}`, muniCode: "172111", muniName: "能美市", prefName: "石川県", isPref: false,
+    })),
+    // ⚠ 阪南 R4 は WARP 403 で未取得・R2 は unrecordable.ts。R3 は概要（別 srcId）
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `hannan-yosansho-${fy}`, muniCode: "272329", muniName: "阪南市", prefName: "大阪府", isPref: false,
+    })),
+    { srcId: "hannan-yosan-gaiyou-r3", muniCode: "272329", muniName: "阪南市", prefName: "大阪府", isPref: false },
+    // ⚠ 五所川原 R4〜R2 は WARP 403 で未取得。R7 の前年度列は組替（prevNote）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `goshogawara-yosansho-${fy}`, muniCode: "022055", muniName: "五所川原市", prefName: "青森県", isPref: false,
+    })),
     // ---- 第88巡（2026-10-22・§13-102） ----
     // ⚠ 田原は `noDeepLink`（トップページへの指示）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

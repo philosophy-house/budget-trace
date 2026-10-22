@@ -1156,6 +1156,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "272329": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "当初予算案の概要は紙をスキャンした画像で文字の情報が無く、予算書はウェブに掲載されていない。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
   "280003": {
     "budget": [
       {
@@ -1411,6 +1420,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和3年度・令和2年度",
         "reason": "千円単位の款ごとの当初予算と前年度の額を載せた資料が、市のサイトにも国立国会図書館の WARP に保存された版にも見当たらない。広報のあらましは万円単位で、前年度の額が無い。",
+        "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "372030": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度",
+        "reason": "予算の概要の款別対前年度対比表は健全だが、歳入の表で地方交付税の行に内訳（普通・特別）の金額が同じ行に並ぶ組み方や、繰越金の1千円の計上を、こちらの抽出処理が正しく読み分けられず、款の合計が合わない。歳出の表は読める。",
         "checkedOn": "2026-10-22"
       }
     ]
@@ -2140,6 +2158,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
   ],
   "341002": [
     "report"
+  ],
+  "372030": [
+    "budget"
   ],
   "382051": [
     "budget"

@@ -93,4 +93,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "日高市", license: "このサイトに掲載されている記事、絵、写真等の著作権は、本文中に記載がない限り日高市に帰属します。著作権法上認められた場合を除き、無許可での複写転載はしないでください。" },
   { who: "北広島市", license: "Copyright © Kitahiroshima City All rights reserved." },
   { who: "関市", license: "関市ホームページの著作権は原則として関市にありますが、一部の写真やイラストなど外部に著作権のある場合があります。" },
+  { who: "石垣市", license: "Copyright (c) 2020 Ishigaki City. All Rights Reserved." },
 ];
