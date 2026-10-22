@@ -3669,6 +3669,27 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `takizawa-yosan-setsumeisho-${fy}`, muniCode: "032166", muniName: "滝沢市", prefName: "岩手県", isPref: false,
     })),
+    // ---- 第90巡（2026-10-22・§13-104） ----
+    // ⚠ 須坂は概要（款番号なし・同一ページ）。R7 は修正可決で総額不変
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `suzaka-yosan-gaiyou-${fy}`, muniCode: "202070", muniName: "須坂市", prefName: "長野県", isPref: false,
+    })),
+    // ⚠ 幸手は R2 の年度ページが無い。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `satte-yosansho-${fy}`, muniCode: "112402", muniName: "幸手市", prefName: "埼玉県", isPref: false,
+    })),
+    // ⚠ 筑後 R3・R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chikugo-yosansho-${fy}`, muniCode: "402117", muniName: "筑後市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ 亀山は `noDeepLink`（トップ以外を原則禁止）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kameyama-yosansho-${fy}`, muniCode: "242101", muniName: "亀山市", prefName: "三重県", isPref: false,
+    })),
+    // ⚠ 高浜（愛知）は R7・R6 が図形化・R4 が化けて未収録。`noDeepLink`
+    ...(["r8", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `takahama-yosansho-${fy}`, muniCode: "232271", muniName: "高浜市", prefName: "愛知県", isPref: false,
+    })),
     // ---- 第89巡（2026-10-22・§13-103） ----
     // ⚠ 富里 R4〜R2 は decodeGarble。`noDeepLink`
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -3690,13 +3711,13 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `nomi-yosansho-${fy}`, muniCode: "172111", muniName: "能美市", prefName: "石川県", isPref: false,
     })),
-    // ⚠ 阪南 R4 は WARP 403 で未取得・R2 は unrecordable.ts。R3 は概要（別 srcId）
-    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+    // ⚠ 阪南 R4 は WARP（第90巡で取得）・R2 は unrecordable.ts。R3 は概要（別 srcId）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `hannan-yosansho-${fy}`, muniCode: "272329", muniName: "阪南市", prefName: "大阪府", isPref: false,
     })),
     { srcId: "hannan-yosan-gaiyou-r3", muniCode: "272329", muniName: "阪南市", prefName: "大阪府", isPref: false },
-    // ⚠ 五所川原 R4〜R2 は WARP 403 で未取得。R7 の前年度列は組替（prevNote）。`noDeepLink`
-    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+    // ⚠ 五所川原 R4〜R2 は WARP（第90巡で取得）。R7 の前年度列は組替（prevNote）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `goshogawara-yosansho-${fy}`, muniCode: "022055", muniName: "五所川原市", prefName: "青森県", isPref: false,
     })),
     // ---- 第88巡（2026-10-22・§13-102） ----

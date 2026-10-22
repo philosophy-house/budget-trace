@@ -457,6 +457,11 @@ const MUNI_SLUGS: Record<string, string> = {
   "042030": "shiogama",
   "412058": "imari",
   "022080": "mutsu",
+  "202070": "suzaka",
+  "112402": "satte",
+  "402117": "chikugo",
+  "242101": "kameyama",
+  "232271": "takahama", // ⚠ 福井県高浜町 184811 とは別団体
   "122335": "tomisato",
   "472077": "ishigaki",
   "402281": "asakura",
