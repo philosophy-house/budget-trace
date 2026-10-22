@@ -1634,7 +1634,9 @@ function parseKanPage(
     //   ダッシュで整数が当年度の1個しかなく、どの分岐にも入らず行ごと落ちて当年度 Σ が −1 になっていた（大声で落ちる側）。
     //   ⚠ 列を直接指定する様式・前年度→当年度の列順の様式には当てない（[x, x] の読み順が既定の列順の前提）。
     if (
-      (opts.kanNoless || (lead && amountIntIndex == null && !opts.prevColumnFirst)) &&
+      // ⚠ 款番号は2桁まで（lead の正規表現は桁数に上限が無く、款番号の無い金額行の先頭の3桁の金額 `500` を食うと
+      //   残りが1個になって [500, 500] の偽の款ができる＝静かに通る。#393 のレビューの理論ケース）
+      (opts.kanNoless || (lead && lead[1]!.length <= 2 && amountIntIndex == null && !opts.prevColumnFirst)) &&
       ints.length === 1 &&
       /(?<!ほぼ)皆[増減]/.test(compact)
     )
