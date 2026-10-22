@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 540,
+  "budgetCount": 543,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 3910,
-  "fileCount": 5588,
+  "sourceCount": 3926,
+  "fileCount": 5604,
   "archivedCount": 2959,
   "licenseOpen": 135,
-  "licensePermission": 3683,
+  "licensePermission": 3699,
   "licenseUnverified": 92,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1539,6 +1539,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "田原市",
+      "code": "232319",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "愛西市",
       "code": "232327",
       "years": 7,
@@ -2003,6 +2009,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "日向市",
       "code": "452068",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "出水市",
+      "code": "462080",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2801,6 +2813,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "山形市",
       "code": "062014",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "二本松市",
+      "code": "072109",
       "years": 2,
       "range": "R7〜R8（2年度）"
     },

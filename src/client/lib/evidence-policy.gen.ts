@@ -27253,6 +27253,102 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）に関する諸権利は、原則として高石市に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "page"
   },
+  "/sources/tahara-yosansho-r8/r8tousho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tahara.aichi.jp/seisaku/zaisei/1001529.html",
+    "license": "このサイトに掲載されている文章や画像の著作権は、田原市に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、これらの著作物を無断で複製、転用、再利用することはできません。",
+    "target": "page"
+  },
+  "/sources/tahara-yosansho-r7/r7tousho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tahara.aichi.jp/seisaku/zaisei/1001529.html",
+    "license": "このサイトに掲載されている文章や画像の著作権は、田原市に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、これらの著作物を無断で複製、転用、再利用することはできません。",
+    "target": "page"
+  },
+  "/sources/tahara-yosansho-r6/r6tousho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tahara.aichi.jp/seisaku/zaisei/1001529.html",
+    "license": "このサイトに掲載されている文章や画像の著作権は、田原市に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、これらの著作物を無断で複製、転用、再利用することはできません。",
+    "target": "page"
+  },
+  "/sources/tahara-yosansho-r5/r5tousho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tahara.aichi.jp/seisaku/zaisei/1001529.html",
+    "license": "このサイトに掲載されている文章や画像の著作権は、田原市に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、これらの著作物を無断で複製、転用、再利用することはできません。",
+    "target": "page"
+  },
+  "/sources/tahara-yosansho-r4/r4yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tahara.aichi.jp/seisaku/zaisei/1001529.html",
+    "license": "このサイトに掲載されている文章や画像の著作権は、田原市に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、これらの著作物を無断で複製、転用、再利用することはできません。",
+    "target": "page"
+  },
+  "/sources/tahara-yosansho-r3/r3tousho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tahara.aichi.jp/seisaku/zaisei/1001529.html",
+    "license": "このサイトに掲載されている文章や画像の著作権は、田原市に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、これらの著作物を無断で複製、転用、再利用することはできません。",
+    "target": "page"
+  },
+  "/sources/tahara-yosansho-r2/r2tousho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tahara.aichi.jp/seisaku/zaisei/1001529.html",
+    "license": "このサイトに掲載されている文章や画像の著作権は、田原市に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、これらの著作物を無断で複製、転用、再利用することはできません。",
+    "target": "page"
+  },
+  "/sources/kagoshima-izumi-yosansho-r8/SpcDocumentDetail_167295_file.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/167/SpcDocumentDetail_167295_file.pdf",
+    "license": "出水市ホームページ(以下、当サイト)に掲載しているすべてのコンテンツ（文章・画像・イラストなど)は、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/kagoshima-izumi-yosansho-r7/SpcDocumentDetail_144241_file.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/144/SpcDocumentDetail_144241_file.pdf",
+    "license": "出水市ホームページ(以下、当サイト)に掲載しているすべてのコンテンツ（文章・画像・イラストなど)は、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/kagoshima-izumi-yosansho-r6/SpcDocumentDetail_124698_file.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/124/SpcDocumentDetail_124698_file.pdf",
+    "license": "出水市ホームページ(以下、当サイト)に掲載しているすべてのコンテンツ（文章・画像・イラストなど)は、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/kagoshima-izumi-yosansho-r5/SpcDocumentDetail_106986_file.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/106/SpcDocumentDetail_106986_file.pdf",
+    "license": "出水市ホームページ(以下、当サイト)に掲載しているすべてのコンテンツ（文章・画像・イラストなど)は、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/kagoshima-izumi-yosansho-r4/SpcDocumentDetail_87738_file.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/87/SpcDocumentDetail_87738_file.pdf",
+    "license": "出水市ホームページ(以下、当サイト)に掲載しているすべてのコンテンツ（文章・画像・イラストなど)は、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/kagoshima-izumi-yosansho-r3/SpcDocumentDetail_69752_file.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/69/SpcDocumentDetail_69752_file.pdf",
+    "license": "出水市ホームページ(以下、当サイト)に掲載しているすべてのコンテンツ（文章・画像・イラストなど)は、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/kagoshima-izumi-yosansho-r2/SpcDocumentDetail_55082_file.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/55/SpcDocumentDetail_55082_file.pdf",
+    "license": "出水市ホームページ(以下、当サイト)に掲載しているすべてのコンテンツ（文章・画像・イラストなど)は、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/nihonmatsu-yosansho-r8/1773204097_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nihonmatsu.lg.jp/data/doc/1773204097_doc_20_0.pdf",
+    "license": "「二本松市ウェブサイト」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「二本松市ウェブサイト」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
+  "/sources/nihonmatsu-yosansho-r7/1747974249_doc_20_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nihonmatsu.lg.jp/data/doc/1747974249_doc_20_0.pdf",
+    "license": "「二本松市ウェブサイト」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「二本松市ウェブサイト」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
   "/sources/iga-yosansho-r7/R7_ippankaikei.pdf": {
     "mode": "origin",
     "href": "https://www.city.iga.lg.jp/0000012866.html",
