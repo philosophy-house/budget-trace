@@ -12,6 +12,9 @@
 // 自治体差は parserOptions で吸収する: 見出し語・合計ラベル（甲府=「歳入合計」/豊川=「合計」）、
 // 款番号の全角（豊川）・○接頭辞（山口）・負号 △/▲。
 import { execFileSync } from "node:child_process";
+import { mkdtempSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { decodeGarbleText } from "../lib/garble-decode";
 import type { BudgetBookDoc, BudgetLineFact, BudgetProjectFact, SourceEntry } from "../types";
 
@@ -142,6 +145,18 @@ interface Options {
    *   ⚠ 単一値のときは両側に効く（既存の指定は意味が変わらない）。
    */
   textSource?: "layout" | "raw" | { revenue?: "layout" | "raw"; expenditure?: "layout" | "raw" };
+  /**
+   * **クリップの外に隠れた字を読まない**（2026-10-22・大和郡山 R7・R6・R5・R3 #347）。
+   *
+   * 大和郡山の説明書は見開きの版面を2回貼り込んで組んである（内容ストリームに `/PlacedPDF /MC0 BDC` と
+   * `/PlacedPDF /MC1 BDC`。MC0 は元の版面を左半分のクリップで、MC1 は同じ版面を **x 方向に +22.68pt** ずらして
+   * 右半分のクリップで描く）。**画面には1層しか見えない**が、pdftotext はクリップを見ないので**全部の語が
+   * 22.68pt ずれて2つずつ**出て、款名・金額が行ごとに割れて throw する（`-layout` / `-raw` のどちらでも）。
+   * `true` で、**pdftocairo -pdf でそのページを描き直した PDF**（クリップの外の字が落ちる）から pdftotext する。
+   * pdftocairo は pdftotext と同じ poppler の道具なので依存は増えない。座標を自前で組み直さない（CropX と同じ方針）。
+   * ⚠ **opt-in** — 既定では何もしない。描き直すと字の並びが変わりうるので、**資料ごとに実測して指定する**。
+   */
+  visibleTextOnly?: boolean;
   /**
    * **罫線文字で組まれた表**（小平 §13-20）— 表が `┃┣┏┗━` などの罫線素片（U+2500〜U+257F）で描画されていて、
    * 行頭が `┃` になるため款番号の lead が当たらず「款行が1件も抽出できませんでした」で throw する型。
@@ -815,24 +830,37 @@ function pdfPageText(
   page: number,
   crop?: CropX,
   source: "layout" | "raw" = "layout",
+  visibleOnly = false,
 ): string {
+  // クリップの外の字を落とす（Options.visibleTextOnly 参照）: そのページだけを pdftocairo で描き直した PDF から読む
+  let target = filePath;
+  let targetPage = page;
+  let tmpDir: string | null = null;
   try {
+    if (visibleOnly) {
+      tmpDir = mkdtempSync(join(tmpdir(), "kofu-yosansho-"));
+      target = join(tmpDir, "page.pdf");
+      targetPage = 1;
+      execFileSync("pdftocairo", ["-pdf", "-f", String(page), "-l", String(page), filePath, target]);
+    }
     return execFileSync(
       "pdftotext",
       [
-        "-f", String(page), "-l", String(page), source === "raw" ? "-raw" : "-layout",
+        "-f", String(targetPage), "-l", String(targetPage), source === "raw" ? "-raw" : "-layout",
         // 横並び2側の切り出しは **pdftotext 自身の -x/-W** に任せる（座標計算を自前でやらない）。
         // -H は用紙高より十分大きい値でよい（縦は切らない）。
         ...(crop ? ["-x", String(crop.from), "-y", "0", "-W", String(crop.to - crop.from), "-H", "2000"] : []),
-        filePath, "-",
+        target, "-",
       ],
       { encoding: "utf8" },
     );
   } catch (e: unknown) {
     if ((e as NodeJS.ErrnoException).code === "ENOENT") {
-      throw new Error("pdftotext が見つかりません。poppler を入れてください（brew install poppler）");
+      throw new Error("pdftotext / pdftocairo が見つかりません。poppler を入れてください（brew install poppler）");
     }
     throw e;
+  } finally {
+    if (tmpDir) rmSync(tmpDir, { recursive: true, force: true });
   }
 }
 
@@ -962,10 +990,10 @@ function parseKanPage(
       ? (side === "revenue" ? srcOpt.revenue : srcOpt.expenditure) ?? "layout"
       : srcOpt ?? "layout";
   let text = spread
-    ? pdfPageText(filePath, spread.namePage, undefined, src) +
+    ? pdfPageText(filePath, spread.namePage, undefined, src, opts.visibleTextOnly) +
       "\n" +
-      pdfPageText(filePath, spread.amountPage, undefined, src)
-    : pages.map((p) => pdfPageText(filePath, p, cropX, src)).join("\n");
+      pdfPageText(filePath, spread.amountPage, undefined, src, opts.visibleTextOnly)
+    : pages.map((p) => pdfPageText(filePath, p, cropX, src, opts.visibleTextOnly)).join("\n");
   // ToUnicode 欠落の復号（Options.decodeGarble 参照）。パース前にページ全文を復元する
   if (opts.decodeGarble) {
     const band = side === "revenue" ? opts.decodeGarbleBand?.revenue : opts.decodeGarbleBand?.expenditure;
@@ -1031,8 +1059,8 @@ function parseKanPage(
   // 以降は通常の1ページ表と同じ経路で読む（皆減・折返し・ヘッダ除外・合計検出をそのまま使えるため）。
   if (spread) {
     const [nameText, amountText] = [
-      pdfPageText(filePath, spread.namePage, cropX, src),
-      pdfPageText(filePath, spread.amountPage, cropX, src),
+      pdfPageText(filePath, spread.namePage, cropX, src, opts.visibleTextOnly),
+      pdfPageText(filePath, spread.amountPage, cropX, src, opts.visibleTextOnly),
     ];
     // 款名ページ: 見出し（（歳入）等）より後ろの「款番号で始まる行」＋合計ラベル行だけを採る。
     // 見出しより前を捨てるのは `１ 総 括` を款1 と取り違えないため（全角1が半角化される）。
@@ -1050,6 +1078,12 @@ function parseKanPage(
         break; // 合計行が最後
       }
       if (/^\s*[○◎●]*\s*\d+(?![\d,])/.test(toHalfDigits(l))) nameLines.push(l);
+      // **番号の無い廃止款**（2026-10-22・大和郡山 R2 #347）。款名ページに本年度額の列もある様式で、
+      //   `     自 動 車 取 得 税 交 付 金        0`   ← 款番号なし・本年度 0（金額ページ側は `29,000 △29,000 0`）
+      // 款番号で始まる行だけを採っていたので落ち、行数が合わず throw していた。**款名（日本語）の後ろに
+      // 本年度の 0（またはダッシュ）が1つだけある行**に限って採る（注記・単位の行は数字を持たないか、0 で終わらない）。
+      // ⚠ 件数の一致の assert（下）は残る — 採りすぎれば throw する。
+      else if (hasCJKChars(c) && /^[^\d０-９]+[\s　]+(?:0|０|[-‐‑‒–—―−－─━])[\s　]*$/.test(l)) nameLines.push(l);
     }
     // 金額ページ: 整数金額を2つ以上持つ行だけ（ページ番号は1つなので落ちる）
     const amountLines = amountText.split("\n").filter((l) => {
@@ -1656,9 +1690,11 @@ function parseKanPage(
     // ⚠ 条件を緩めない — 整数が3個ちょうど・先頭が 0・末尾が負号つきで絶対値が2番目と一致、の全部を要求する。
     // ⚠ **款名が同じ行にあるときだけ**（`hasCJKChars(namePart)`）— 折返し款の金額行（上段 `21 款名`・下段 `0 x △x`）
     //   に当たると kanNo が null に落ちて次の断片を吸う（レビューの理論ケース・既存には無い）。
+    // ⚠ 4個目に構成比の `0` が付く様式（2026-10-22・大和郡山 R2 `自動車取得税交付金 0 29,000 △29,000 0`・構成千分比）だけは
+    //   4個を許す（4個目が 0 のときだけ。比較の後ろに来る整数の列は構成比しか無い）。
     const zeroCurAbolished =
       hasCJKChars(namePart) &&
-      ints.length === 3 &&
+      (ints.length === 3 || (ints.length === 4 && ints[3] === "0")) &&
       ints[0]!.replace(/[△▲,]/g, "") === "0" &&
       !/^[△▲]/.test(ints[1]!) &&
       /^[△▲]/.test(ints[2]!) &&
@@ -1719,10 +1755,35 @@ function parseKanPage(
       ).test(rest)
     )
       ints = [ints[0]!, "0", ints[1]!];
+    // **款名が金額行の上（と下）にだけある廃止款**（2026-10-22・大館 R2 #361・袋井 R4 #342）:
+    //   大館 R2  `  自 動 車 取 得 税` / `● 交    付    金` / `      0   25,000   25,000 △ 25,000 △ 25,000`
+    //   袋井 R4  `     自動 車 取 得 税` / `      0   0.0     1   0.0    △ 1 △ 100.0` / `     交   付    金`
+    // 金額行に款番号も款名も印も「皆減」も無く、上段の断片（pendName）だけが残ったまま**行ごと落ちていた**
+    // （前年度 Σ が −25,000 / −1 で warning 止まり＝静かに流れる）。`zeroCurAbolished` と同じく
+    // **当年度 0・比較 △前年度額**という算術を印として扱う。名前欄が空なので下段を待つ（emit の awaitTail）。
+    // ⚠ 条件を緩めない — 款番号なし・名前欄が空・上段の断片がある・折返し款の途中でない（pendNo なし）・先頭が 0・
+    //   2番目が 0 でなく負号なし・字面に「△ 2番目」がある、の全部を要求する。列を直接指定する様式には当てない。
+    const nameAboveAbolished =
+      !lead &&
+      pendNo == null &&
+      namePart === "" &&
+      hasCJKChars(pendName) &&
+      amountIntIndex == null &&
+      !opts.prevColumnFirst &&
+      ints.length >= 3 &&
+      ints[0]!.replace(/[△▲,]/g, "") === "0" &&
+      !/^[△▲]/.test(ints[1]!) &&
+      ints[1]!.replace(/,/g, "") !== "0" &&
+      new RegExp(`[△▲][\\s　]*${esc(ints[1]!.replace(/^[△▲]/, ""))}(?![\\d,])`).test(rest);
     const abolished =
       !lead &&
       ints.length >= 2 &&
-      (ABOLISHED_MARK_RE.test(raw) || TAIL_ABOLISHED_MARK_RE.test(raw) || compact.includes("皆減") || zeroCurAbolished || blankCurAbolished);
+      (ABOLISHED_MARK_RE.test(raw) ||
+        TAIL_ABOLISHED_MARK_RE.test(raw) ||
+        compact.includes("皆減") ||
+        zeroCurAbolished ||
+        blankCurAbolished ||
+        nameAboveAbolished);
     if (abolished) {
       // 款名から**廃止マーカーと空セルのダッシュ**を落とす（`▲自動車取得税交付金--` `自動車税環境△`）。
       // 表示専用なので Σ も款名重複ゲートも守ってくれない領域＝出力を目視して確かめること。
@@ -1761,7 +1822,10 @@ function parseKanPage(
       // 上段に名前があり下段が続く廃止款（Options.abolishedAwaitTail 参照・松山 R8）
       // **廃止の印が款名だけの行（上段）にある様式**（2026-10-21・上越 R2 `× 自動車取得税交付金` / 金額行 `… 皆減`）では
       // 印が断片側に残るので、断片の頭の印も落とす（Σ は差0 のまま款名が `×自動車取得税交付金` になる）
-      const pendClean = pendName.replace(ABOLISHED_MARK_RE, "");
+      // 大館 R2 は印 `●` が下段の断片（`●交付金`）の頭にあり、款名の途中に残る（`自動車取得税●交付金`）。
+      // `●` は lead の付番マーカー（`[○◎●]*`）と同じ字で、廃止の印としては `nameAboveAbolished` のときだけ落とす
+      // （ABOLISHED_MARK_RE には足さない — 款番号の前の飾りとして使う様式がある）。
+      const pendClean = (nameAboveAbolished ? pendName.replace(/●/g, "") : pendName).replace(ABOLISHED_MARK_RE, "");
       emit(null, pendClean + cleaned, ints, raw, cleaned === "" || abolishedTails.has(pendClean + cleaned));
     } else if (pendNo != null && lead && namePart === "" && ints.length >= 1) {
       // **折返し款の金額行なのに、当年度額そのものが lead に食われる**（2026-07-17・台東 R8 の
