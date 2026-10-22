@@ -457,6 +457,11 @@ const MUNI_SLUGS: Record<string, string> = {
   "042030": "shiogama",
   "412058": "imari",
   "022080": "mutsu",
+  "242161": "iga",
+  "212059": "seki",
+  "302066": "tanabe", // ⚠ 京田辺市 262111 は "kyotanabe"
+  "262102": "yawata", // ⚠ 近江八幡市 252042 は "omihachiman"
+  "122157": "asahi", // ⚠ 尾張旭市 232262 は "owariasahi"
   "202142": "chino",
   "252115": "konan-shiga", // ⚠ 江南市 232173 が "konan" なので県名つき
   "122025": "choshi",

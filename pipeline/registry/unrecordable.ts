@@ -2693,4 +2693,37 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.annaka.lg.jp/page/2461.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-98",
   },
+  {
+    // 伊賀市（242161）R6。R7・R5〜R2 は収録済み（§13-100）。発議第2号（令和6年3月22日）で 46,499,286→46,466,743（総務費・繰入金を各 32,543 減額）。
+    // 予算書（0000011/11845/R6_ippankaikei.pdf）・予算概要書は原案のまま。修正後の款別は R7 予算書の前年度列にしかない（偵察・R7 の前年度列で裏が取れる）。
+    code: "242161", name: "伊賀市", dataset: "budget", fiscalYears: ["R6"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計当初予算は議会で修正されて可決されたが、掲載されている予算書・予算概要書は修正前の原案のもので、総務費・繰入金と合計が議決された額と合わない。" +
+      "議決された額の款別の表は翌年度の予算書の前年度の列にしか載っていない。",
+    url: "https://www.city.iga.lg.jp/0000011845.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-100",
+  },
+  {
+    // 伊賀市（242161）R8。発議第1号（令和8年3月26日）で 48,716,783→48,710,177（教育費・繰入金を各 6,606 減額）。
+    // 予算書（0000013/13789/9toushoyosannsho.pdf）は原案のまま。修正後の総括は発議の議案資料に修正前と並べた見え消しで、パーサは「歳入合計 行が見つかりません」で throw（偵察）。
+    code: "242161", name: "伊賀市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計当初予算は議会で修正されて可決されたが、掲載されている予算書・予算概要書は修正前の原案のもので、教育費・繰入金と合計が議決された額と合わない。" +
+      "修正後の総括は修正案の資料に修正前の数字と並べて載っているだけで、そのままでは款別の金額を読み取れない。",
+    url: "https://www.city.iga.lg.jp/0000013789.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-100",
+  },
+  {
+    // 八幡市（262102）R6・R5。R8・R7・R4〜R2 は収録済み（§13-100）。予算内容一覧表（R6 0000009/9164/6nendotousyoyosannaiyou.pdf・R5 0000008/8406/5nendotousyoyosannaiyou.pdf）は
+    // ToUnicode 欠落で、decodeGarble の復号表に無い字が14字（イ・ロ・ハ・考・借・換・除・く・－×2・よ・険・健・。）。R6 は款9 の整数1個の皆増行も落ちる（偵察）。
+    // 14字にはかなの帯に落ちて isSuspectGarble を素通りする字があり、静かに壊れうるので巡の中では足さない（パーサの issue #391）。
+    code: "262102", name: "八幡市", dataset: "budget", fiscalYears: ["R6", "R5"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算内容一覧表は文字の情報が化けていて復号が要るが、こちらの復号表に無い字が多く、まだ正しく読み取れない。原典の表は健全。",
+    url: "https://www.city.yawata.kyoto.jp/0000009164.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-100",
+  },
 ];

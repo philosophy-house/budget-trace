@@ -3669,6 +3669,28 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `takizawa-yosan-setsumeisho-${fy}`, muniCode: "032166", muniName: "滝沢市", prefName: "岩手県", isPref: false,
     })),
+    // ---- 第87巡（2026-10-22・§13-100） ----
+    // ⚠ 伊賀 R8・R6 は議会修正で原案しか無い（unrecordable.ts）。`noDeepLink`
+    ...(["r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `iga-yosansho-${fy}`, muniCode: "242161", muniName: "伊賀市", prefName: "三重県", isPref: false,
+    })),
+    // ⚠ 田辺は京田辺（kyotanabe）と別団体。R7 骨格 ⇒ R8 に prevNote。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tanabe-yosangaiyou-${fy}`, muniCode: "302066", muniName: "田辺市", prefName: "和歌山県", isPref: false,
+    })),
+    // ⚠ 八幡は近江八幡（omihachiman）と別団体。R6・R5 は化けで未収録（unrecordable.ts）。R2 骨格 ⇒ R3 に prevNote。`noDeepLink`
+    ...(["r8", "r7", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yawata-yosannaiyou-${fy}`, muniCode: "262102", muniName: "八幡市", prefName: "京都府", isPref: false,
+    })),
+    // ⚠ 旭は尾張旭（owariasahi）と別団体。R4 だけ概要（予算書の総括が化ける）。R6・R2 は decodeGarble
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `asahi-yosansho-${fy}`, muniCode: "122157", muniName: "旭市", prefName: "千葉県", isPref: false,
+    })),
+    { srcId: "asahi-yosan-gaiyou-r4", muniCode: "122157", muniName: "旭市", prefName: "千葉県", isPref: false },
+    // ⚠ 関は CropX 必須（円グラフのラベル）。R2 は WARP。ライセンスは license-no-grant.ts で要許可・`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `seki-yosan-gaiyou-${fy}`, muniCode: "212059", muniName: "関市", prefName: "岐阜県", isPref: false,
+    })),
     // ---- 第86巡（2026-10-22・§13-98） ----
     // ⚠ 茅野は R8 だけ（R7〜R2 は unrecordable.ts）。ライセンスは要許可・`noDeepLink`
     { srcId: "chino-yosansho-r8", muniCode: "202142", muniName: "茅野市", prefName: "長野県", isPref: false },
