@@ -31743,6 +31743,122 @@ export const SOURCES: SourceEntry[] = [
       expenditureHeading: "歳出",
     },
   },
+  // ---- 第88巡（2026-10-22・§13-102）: 田原・出水・二本松（野洲は収録できず） ----------------
+  // 田原市（愛知県・団体コード 232319 ＝ 総務省 R6.json から実引き）。「愛知県田原市予算書」（全会計の単一 PDF）の「歳入歳出予算事項別明細書 １ 総括」
+  //   物理 p.19（印字 －13－）歳入・p.20（印字 －14－）歳出。千円。7年度とも同じページ。歳入22款（R2 は廃止款を含め23）・歳出13款（R4〜R2 は諸支出金を含め14）。
+  // ⚠ 現行サイトは Incapsula で、cookie なしの curl は HTML が 307 のループ（PDF は fetch で通る）。R4 だけファイル名の規則が違う。
+  // 前年度列は当初（R8←R7〜R3←R2 で款単位全一致）。骨格予算: 原典に記載なし（市長選は4月で当初予算の議決の後）。議会: 7年度とも原案可決。
+  // 総額突合: R6 当初 31,970,000 ÷ 総務省 R6 決算歳出 34,863,103 = 91.7%（偵察）。
+  // ライセンス: 「田原市ホームページについて」（/site/1002165.html・確認日 2026-10-22）＝`無断` で要許可。東三河オープンデータの CC BY は最終予算額・決算額の CSV だけで本資料に及ばない。
+  //   リンク「このサイトへのリンクは、原則として自由ですが、メールにてご一報いただければ幸いです。ただし、リンクはトップページ（…）に対してリンクしてください。
+  //   トップページ以外へリンク設定されますと、利用に当たって必要事項が欠けたり、ページが正常に表示されない場合があります。…」
+  //   ＝「原則として自由」のあとに「ただし」でトップページを指示の形で求め、否定句も無い ⇒ §11h 第2群 ⇒ `noDeepLink`（田辺と同じ読み）。
+  // ⚠ 主な事業（概要の「新年度の重点施策」・款なし・`marked-bullets` は throw せずに別の3件を返す）と事業報告（事務事業評価シート R8 評価 323事業）は別の巡（§13-102）。
+  ...([
+    ["R8", "r8tousho.pdf"],
+    ["R7", "r7tousho.pdf"],
+    ["R6", "r6tousho.pdf"],
+    ["R5", "r5tousho.pdf"],
+    ["R4", "r4yosansho.pdf"],
+    ["R3", "r3tousho.pdf"],
+    ["R2", "r2tousho.pdf"],
+  ] as const).map(([fy, file]) => ({
+    id: `tahara-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 田原市予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "田原市",
+    url: `https://www.city.tahara.aichi.jp/_res/projects/default_project/_page_/001/001/529/${file}`,
+    landingPage: "https://www.city.tahara.aichi.jp/seisaku/zaisei/1001529.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "田原市（一般会計・団体コード232319）",
+    license:
+      "このサイトに掲載されている文章や画像の著作権は、田原市に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、これらの著作物を無断で複製、転用、再利用することはできません。",
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 19,
+      expenditurePage: 20,
+      revenueHeading: "（歳入）",
+      expenditureHeading: "（歳出）",
+    },
+  } satisfies SourceEntry)),
+
+  // 出水市（鹿児島県・団体コード 462080 ＝ 総務省 R6.json から実引き。⚠ 大阪府和泉市 272191（`izumi-*`・スラグ izumi）とは別団体 ⇒ id `kagoshima-izumi-*`・スラグ `izumi-kagoshima`）。
+  //   「各会計予算 予算に関する説明書」の「歳入歳出予算事項別明細書 １ 総括」。千円。歳入は2ページ（`revenuePages` p.18–19）・歳出 p.20（物理＝印字+4）。
+  //   歳入22款（款9 は欠番＝原典どおり。R3 は款番号 `0` の廃止款 `自動車取得税交付金 0/1` を含む）・歳出13款（款13 欠番・R2 は諸支出金で14・R3 は廃止款 `諸支出金 0/89,258`）。
+  // ⚠ サイトは curl の既定 UA を 403 で弾く（fetch.ts のブラウザ UA なら 200）。旧ドメイン city.izumi.kagoshima.jp は名前解決できない。
+  // 前年度列は当初（R8←R7〜R3←R2 で款単位全一致）。骨格予算: **R8・R4**（と範囲外の H30）＝市長の提案理由説明（会議録）「当初予算は基本的には政策的経費を除いた骨格的予算として編成いたしております」
+  //   ⇒ 台帳に R8・R4、R5 に prevNote（R8 の翌年度 R9 は未収録）。予算書本体に「骨格」の語は無い。議会修正: 当初予算には無い。
+  // 総額突合: R6 当初 26,926,000 ÷ 総務省 R6 決算歳出 33,869,792 = 79.5%（補正が多い。偵察）。
+  // ライセンス: 「著作権・免責事項」（/page/copyright.html・確認日 2026-10-22）＝「権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます」で要許可。
+  //   オープンデータ（CC BY 4.0）は「出水市オープンデータカタログサイト」内のデータだけ（BODIK 4件・予算0件）。外からのリンクを扱う条項は無い ⇒ `noDeepLink` は立てない。
+  // ⚠ 主な事業（款つきの一覧はウェブに無い）と事業報告（主要な施策の成果の説明書 H30〜R6 決算・款→項→目→細目）は別の巡（§13-102）。
+  ...([
+    ["R8", "167/SpcDocumentDetail_167295", "page_012759"],
+    ["R7", "144/SpcDocumentDetail_144241", "page_011086"],
+    ["R6", "124/SpcDocumentDetail_124698", "page_09678"],
+    ["R5", "106/SpcDocumentDetail_106986", "page_07486"],
+    ["R4", "87/SpcDocumentDetail_87738", "page_06234"],
+    ["R3", "69/SpcDocumentDetail_69752", "page_04976"],
+    ["R2", "55/SpcDocumentDetail_55082", "page_04029"],
+  ] as const).map(([fy, file, landing]) => ({
+    id: `kagoshima-izumi-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 出水市各会計予算 予算に関する説明書（一般会計 歳入歳出予算事項別明細書 総括）`,
+    publisher: "出水市",
+    url: `https://www.city.kagoshima-izumi.lg.jp/files/SpcDocumentDetail/${file}_file.pdf`,
+    landingPage: `https://www.city.kagoshima-izumi.lg.jp/page/${landing}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "出水市（一般会計・団体コード462080）",
+    license:
+      "出水市ホームページ(以下、当サイト)に掲載しているすべてのコンテンツ（文章・画像・イラストなど)は、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: 18, to: 19 },
+      expenditurePage: 20,
+      revenueHeading: "（歳入）",
+      expenditureHeading: "（歳出）",
+      ...(fy === "R5"
+        ? {
+            prevNote:
+              "前年度（令和4年度）の当初予算は骨格的予算（出水市議会 令和4年第1回定例会 第1日の市長の提案理由説明に「私の市長としての任期は本年４月22日をもって満了いたしますことから、当初予算は基本的には政策的経費を除いた骨格的予算として編成いたしております」と明記）。ここでの前年度額はその骨格予算の当初額で、肉付け（補正）後の額ではない。",
+          }
+        : {}),
+    },
+  } satisfies SourceEntry)),
+
+  // 二本松市（福島県・団体コード 072109 ＝ 総務省 R6.json から実引き）。「一般会計・特別会計予算書」の一般会計「歳入歳出予算事項別明細書 １ 総括」
+  //   物理 p.12（印字 -10-）歳入・p.13（印字 -11-）歳出。千円。歳入22款・歳出14款。予算書の掲載は R7 から（R6〜R2 は概要だけで歳入が款別でない ⇒ unrecordable）。
+  // ⚠⚠ 歳出の表に財源内訳の列見出し（一般財源／国県／支出金／地方債 その他）があり、款1 に付いて `一般財源国県地方債その他支出金議会費` になる（Σ 差0）
+  //   ⇒ `expenditureHeaderExtra`（歳出側だけ。歳入には国庫支出金・県支出金の款が実在する）。
+  // 前年度列は当初（R8←R7 で款単位全一致・R7 の前年度は R6 の概要・当初ページの款別額と一致）。議決: R8 議案第21号・R7 議案第30号とも原案可決。骨格予算: 記載なし（市長選は11月）。
+  // ライセンス: 「リンク・著作権・免責事項などについて」（/riyou_guide/page000033.html・確認日 2026-10-22）＝`無断` で要許可。オープンデータの CC は「当サイトにおいて公開するデータ」に限り行財政0件。
+  //   リンク「「二本松市ウェブサイト」へのリンクは、原則フリーです。事前の連絡は必要ありませんが、リンクを行った場合は…リンク元のURLをご連絡ください。…」＝第5群 ⇒ `noDeepLink` は立てない。
+  // ⚠ 主な事業（R8「予算説明資料」款→項→目→事務事業・前年度額なし）と事業報告（R7 決算の主要な施策の成果説明書 525p）は別の巡（§13-102）。
+  ...([
+    ["R8", "1773204097", "r8/page013863"],
+    ["R7", "1747974249", "r7/page012844"],
+  ] as const).map(([fy, doc, page]) => ({
+    id: `nihonmatsu-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 二本松市一般会計予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "二本松市",
+    url: `https://www.city.nihonmatsu.lg.jp/data/doc/${doc}_doc_20_0.pdf`,
+    landingPage: `https://www.city.nihonmatsu.lg.jp/shisei/zaisei/yosan/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "二本松市（一般会計・団体コード072109）",
+    license:
+      "「二本松市ウェブサイト」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「二本松市ウェブサイト」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 12,
+      expenditurePage: 13,
+      revenueHeading: "(歳 入)",
+      expenditureHeading: "(歳 出)",
+      expenditureHeaderExtra: "財源|^国県$|^支出金$|地方債",
+    },
+  } satisfies SourceEntry)),
+
   // ---- 第87巡（2026-10-22・§13-100）: 伊賀・田辺・八幡・旭（関は下） ----------------
   // 伊賀市（三重県・団体コード 242161 ＝ 総務省 R6.json から実引き）。一般会計予算書（附 予算に関する説明書）の「歳入歳出予算事項別明細書 １ 総括」。千円。
   //   歳入23款（R2 は番号なしの廃止款 `自動車取得税交付金 -/129,248` を含め24）・歳出13款（款6 は `農林業費`＝原典どおり）。物理 R7〜R4 p.13/14・R3・R2 p.15/16。
