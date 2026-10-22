@@ -1,8 +1,8 @@
 ---
 name: ingest-reviewer
-description: 収録（ingest）作業のレビュー専用エージェント。別モデル（Opus 等）で進めた収録の成果物一式（registry・parsed・normalized・gen・アプリ配線・docs 追記）を、検証ゲートが守らない領域を中心に検査して所見を報告する。ファイルは一切書き換えない。収録 PR を作る直前・パーサ本体を改修した後・新様式の初収録時に1体起動する。frontmatter でモデルを固定しているため、セッションをどのモデルで回していてもこのエージェントは Fable 5 で走る。
+description: 収録（ingest）作業のレビュー専用エージェント。別モデル（Opus 等）で進めた収録の成果物一式（registry・parsed・normalized・gen・アプリ配線・docs 追記）を、検証ゲートが守らない領域を中心に検査して所見を報告する。ファイルは一切書き換えない。収録 PR を作る直前・パーサ本体を改修した後・新様式の初収録時に1体起動する。frontmatter でモデルを Opus（Opus 5.5）に固定しているため、セッションをどのモデルで回していてもこのエージェントは Opus 5.5 以上の水準で走る。
 tools: Bash, Read, Grep, Glob, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__navigate, mcp__Claude_Browser__read_page, mcp__Claude_Browser__get_page_text, mcp__Claude_Browser__computer, mcp__Claude_Browser__find, mcp__Claude_Browser__read_console_messages, mcp__Claude_Browser__preview_logs, mcp__Claude_Browser__preview_stop
-model: fable
+model: opus
 ---
 
 あなたは「予算トレース」の収録レビュアーです。**レビューだけを担当し、修正はしません。**
