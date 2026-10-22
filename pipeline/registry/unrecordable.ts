@@ -2742,8 +2742,8 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     code: "072109", name: "二本松市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
     categories: ["format-mismatch"],
     reason:
-      "ウェブに掲載されている当初予算の資料（予算概要・重点事業等の概要）は、歳入を款ではなく自主財源・依存財源の区分で示し、歳出も一部の款を「その他」にまとめている。" +
-      "予算書は令和7年度からしか掲載されていない。",
+      "ウェブに掲載されている当初予算の資料は、令和6〜3年度が予算概要・重点事業等の概要（歳入を款ではなく自主財源・依存財源の区分で示し、歳出も一部の款を「その他」にまとめている）、" +
+      "令和2年度が重点事項のパンフレットだけで、款別の前年度比較の表が無い。予算書は令和7年度からしか掲載されていない。",
     url: "https://www.city.nihonmatsu.lg.jp/shisei/zaisei/yosan/",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-102",
   },
