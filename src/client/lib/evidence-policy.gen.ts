@@ -27453,45 +27453,45 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   },
   "/sources/omitama-yosansho-r8/69b8dd50dc5cd.pdf": {
     "mode": "origin",
-    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/69b8dd50dc5cd.pdf",
+    "href": "https://www.city.omitama.lg.jp/0694/info-0000012371-0.html",
     "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/omitama-yosansho-r7/67cfa321c3912.pdf": {
     "mode": "origin",
-    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/67cfa321c3912.pdf",
+    "href": "https://www.city.omitama.lg.jp/0694/info-0000011426-0.html",
     "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/omitama-yosansho-r6/65fbb368e8a13.pdf": {
     "mode": "origin",
-    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/65fbb368e8a13.pdf",
+    "href": "https://www.city.omitama.lg.jp/0694/info-0000010586-0.html",
     "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/omitama-yosansho-r5/641a7fd658cae.pdf": {
     "mode": "origin",
-    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/641a7fd658cae.pdf",
+    "href": "https://www.city.omitama.lg.jp/0694/info-0000009654-0.html",
     "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/omitama-yosansho-r4/623d277340aaf.pdf": {
     "mode": "origin",
-    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/623d277340aaf.pdf",
+    "href": "https://www.city.omitama.lg.jp/0694/info-0000008576-0.html",
     "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/omitama-yosansho-r3/604ef7ea7133a.pdf": {
     "mode": "origin",
-    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/604ef7ea7133a.pdf",
+    "href": "https://www.city.omitama.lg.jp/0694/info-0000007531-0.html",
     "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/omitama-yosansho-r2/5e716d6f51df0.pdf": {
     "mode": "origin",
-    "href": "https://www.city.omitama.lg.jp/manage/contents/upload/5e716d6f51df0.pdf",
+    "href": "https://www.city.omitama.lg.jp/0694/info-0000006466-0.html",
     "license": "小美玉市ウェブサイトに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合小美玉市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、小美玉市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/midori-yosansho-r8/yosansyor8.pdf": {
     "mode": "origin",

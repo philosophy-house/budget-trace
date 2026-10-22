@@ -3,7 +3,7 @@
   "sourceId": "nichinan-yosansho-r4",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-22T14:28:41.654Z",
+  "parsedAt": "2026-10-22T14:42:59.285Z",
   "unit": "thousandYen",
   "fiscalYear": "R4",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 29020000,
   "prevExpenditureTotal": 29020000,
   "prevBasis": "当初",
+  "prevNote": "前年度（令和3年度）の当初予算は肉付け前の骨格予算とみられる（「令和4年度 当初予算案の概要等」は「歳入歳出全般について、肉付後予算と比較して申し上げます。」とし、款別の表も「令和3年度肉付後」29,979,000千円と比較している）。ここでの前年度額は予算書の前年度予算額（令和3年度当初 29,020,000千円）で、肉付け後の額ではない。",
   "facts": [
     {
       "side": "revenue",
