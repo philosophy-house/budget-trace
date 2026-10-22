@@ -3669,6 +3669,19 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `takizawa-yosan-setsumeisho-${fy}`, muniCode: "032166", muniName: "滝沢市", prefName: "岩手県", isPref: false,
     })),
+    // ---- 第88巡（2026-10-22・§13-102） ----
+    // ⚠ 田原は `noDeepLink`（トップページへの指示）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tahara-yosansho-${fy}`, muniCode: "232319", muniName: "田原市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 出水は和泉（izumi）と別団体。R8・R4 骨格 ⇒ R5 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kagoshima-izumi-yosansho-${fy}`, muniCode: "462080", muniName: "出水市", prefName: "鹿児島県", isPref: false,
+    })),
+    // ⚠ 二本松は予算書が R7 から（R6〜R2 は unrecordable.ts）。歳出は `expenditureHeaderExtra` 必須
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `nihonmatsu-yosansho-${fy}`, muniCode: "072109", muniName: "二本松市", prefName: "福島県", isPref: false,
+    })),
     // ---- 第87巡（2026-10-22・§13-100） ----
     // ⚠ 伊賀 R8・R6 は議会修正で原案しか無い（unrecordable.ts）。`noDeepLink`
     ...(["r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

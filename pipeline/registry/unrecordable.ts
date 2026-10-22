@@ -2715,4 +2715,36 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.iga.lg.jp/0000013789.html",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-100",
   },
+  {
+    // 野洲市（252107）R8〜R4。財政課「予算資料」（/material/files/group/5/r8yosansiryou.pdf ほか）の【歳入】比較表 p.6–7・【歳出】目的別比較表 p.10–11（§13-102）。
+    // 歳出は款別（12款・前年度当初つき・R8〜R4 で鎖が全款一致）だが、歳入は「県税交付金等」「その他」にまとめた財源区分（R8・R7 は11区分・R6〜R4 は寄附金も「その他」に入れた10区分）。
+    // ⚠ try-parse は Σ 差0 で通り、validate の語彙ゲートにも当たらない（沖縄県 §11c と同じ静かに通る型）。予算書（事項別明細書）はウェブに無い（偵察）。
+    code: "252107", name: "野洲市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "予算資料の歳出は款別の比較表だが、歳入の比較表は県税交付金等や「その他」にまとめた財源の区分で款別になっていない（年度によって区分の切り方も変わる）。" +
+      "予算書（事項別明細書）はウェブに掲載されていない。",
+    url: "https://www.city.yasu.lg.jp/gyoseijoho/gyozaisei/zaisei-yosan-kessan/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-102",
+  },
+  {
+    // 野洲市（252107）R3・R2。予算資料（R3gaiyou.pdf・yosanshiryo00.pdf）は RICOH MP C6004 のスキャン（pdftotext 43〜49 バイト・フォント0）。歳入は R4 以降と同じ財源区分（偵察が画像で確認）。
+    code: "252107", name: "野洲市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["scanned-image", "format-mismatch"],
+    reason:
+      "予算資料は紙をスキャンした画像で文字の情報が無く、歳入の比較表も令和4年度以降と同じく財源の区分で款別になっていない。",
+    url: "https://www.city.yasu.lg.jp/gyoseijoho/gyozaisei/zaisei-yosan-kessan/yosan/index.html",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-102",
+  },
+  {
+    // 二本松市（072109）R6〜R2。R8・R7 は予算書で収録済み（§13-102）。予算書の掲載は R7 から。R6〜R3 の「予算概要」「重点事業等の概要」は歳入が自主財源・依存財源の区分、
+    // 歳出も小さい款を「その他」に合算。R2 は「重点事項」パンフレットだけ。R6 の当初予算のページの空のリンク（1710253810）は WARP の 2024-04 の捕捉で既に 404（偵察）。
+    code: "072109", name: "二本松市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "ウェブに掲載されている当初予算の資料（予算概要・重点事業等の概要）は、歳入を款ではなく自主財源・依存財源の区分で示し、歳出も一部の款を「その他」にまとめている。" +
+      "予算書は令和7年度からしか掲載されていない。",
+    url: "https://www.city.nihonmatsu.lg.jp/shisei/zaisei/yosan/",
+    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-102",
+  },
 ];
