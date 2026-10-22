@@ -31833,8 +31833,9 @@ export const SOURCES: SourceEntry[] = [
   //   物理 R8・R4 p.4/7・R7・R3・R2 p.5/8（白紙ページで年度ごとにずれる）。合計は借換債を含む額。下の「合計（借換分除く）」行と款の間の `市債（借換分除く）` 行は拾わない。
   // ⚠ 見出しは列見出しの最終行 `（ハ）／（ロ）`＋合計ラベル `合計`（既定の見出しでは throw）。
   // ⚠ R2 は款23 が `自動車取得税交付金(廃款)` のまま出る（Σ は差0＝表示専用の汚れ）⇒ `kanNameSuffixStrip`。
-  // ⚠⚠ R6・R5 はテキスト層が化けていて、復号表に無い字が14字ある（R6 はさらに整数1個の皆増行）⇒ unrecordable（parser-unsupported・#391）。
-  //   14字にはかなの帯に落ちて `isSuspectGarble` を素通りする字があり、静かに壊れうるので巡の中では足さない。
+  // ⚠⚠ R6・R5 はテキスト層が ToUnicode 欠落 ⇒ `decodeGarble`。復号表に無かった14字（列見出しの イ・ロ・ハ・考、借換の行の 借・換・除・く、注記の よ・険・健・。、
+  //   ノンブルの「－」×2）を健全な R7 の同じ位置と1字ずつ突き合わせて足した（#391・§13-101）。R6 の款9 `自動車取得税交付金 1 0.0 － － 皆増 皆増`（整数1個の皆増行）は
+  //   パーサが款番号つきの行でも [x, x] に詰めるようにした。⚠ 注記の「要する」は既存の帯の規則で「せする」に化ける（款名の外・表示されない行なので放置）。
   // 前年度列は当初（R8←R7〜R3←R2 で款単位一致）。骨格予算: **R2**（「令和2年度八幡市当初予算案の概要」p.2「市長選を控えた骨格的予算として…」）⇒ R3 に prevNote・台帳に R2。
   // 議会: R2〜R8 の当初予算は第1回定例会で原案可決（議案・議決結果）。
   // ライセンス: 「著作権・リンク等」（/site_policy/0000000033.html・確認日 2026-10-22）＝`無断` で要許可。
@@ -31844,6 +31845,8 @@ export const SOURCES: SourceEntry[] = [
   ...([
     ["R8", "0000010/10823/R8yosannaiyou.pdf", "0000010823", 4],
     ["R7", "0000010/10176/R7toushoyosanichiranhyou.pdf", "0000010176", 5],
+    ["R6", "0000009/9164/6nendotousyoyosannaiyou.pdf", "0000009164", 4],
+    ["R5", "0000008/8406/5nendotousyoyosannaiyou.pdf", "0000008406", 4],
     ["R4", "0000007/7685/4nendotousyoyosannaiyou.pdf", "0000007685", 4],
     ["R3", "0000006/6940/3nendotoushoyosannaiyou.pdf", "0000006940", 5],
     ["R2", "0000006/6171/2nendotoushoyosannaiyou.pdf", "0000006171", 5],
@@ -31868,6 +31871,7 @@ export const SOURCES: SourceEntry[] = [
       revenueTotalLabel: "合計",
       expenditureTotalLabel: "合計",
       ...(fy === "R2" ? { kanNameSuffixStrip: { revenue: "\\(廃款\\)$" } } : {}),
+      ...(fy === "R6" || fy === "R5" ? { decodeGarble: true } : {}),
       ...(fy === "R3"
         ? {
             prevNote:

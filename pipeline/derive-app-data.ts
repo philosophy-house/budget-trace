@@ -3678,8 +3678,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `tanabe-yosangaiyou-${fy}`, muniCode: "302066", muniName: "田辺市", prefName: "和歌山県", isPref: false,
     })),
-    // ⚠ 八幡は近江八幡（omihachiman）と別団体。R6・R5 は化けで未収録（unrecordable.ts）。R2 骨格 ⇒ R3 に prevNote。`noDeepLink`
-    ...(["r8", "r7", "r4", "r3", "r2"] as const).map((fy) => ({
+    // ⚠ 八幡は近江八幡（omihachiman）と別団体。R6・R5 は decodeGarble（#391）。R2 骨格 ⇒ R3 に prevNote。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yawata-yosannaiyou-${fy}`, muniCode: "262102", muniName: "八幡市", prefName: "京都府", isPref: false,
     })),
     // ⚠ 旭は尾張旭（owariasahi）と別団体。R4 だけ概要（予算書の総括が化ける）。R6・R2 は decodeGarble
