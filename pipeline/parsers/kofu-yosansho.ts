@@ -155,6 +155,7 @@ interface Options {
    * `true` で、**pdftocairo -pdf でそのページを描き直した PDF**（クリップの外の字が落ちる）から pdftotext する。
    * pdftocairo は pdftotext と同じ poppler の道具なので依存は増えない。座標を自前で組み直さない（CropX と同じ方針）。
    * ⚠ **opt-in** — 既定では何もしない。描き直すと字の並びが変わりうるので、**資料ごとに実測して指定する**。
+   * ⚠ **`CropX` との併用は未検証** — `-x/-W` は描き直した PDF の座標に掛かる（MediaBox と CropBox が違う原典ではずれうる）。併用するときは切り出しの結果を目で確かめる。
    */
   visibleTextOnly?: boolean;
   /**

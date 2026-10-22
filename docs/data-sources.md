@@ -16101,9 +16101,9 @@ validate は全28ソースで error 0・warning 0。
 
 ### §13-99 パーサ修正 — 交野 R2・大館 R2・袋井 R4・大和郡山 R7〜R2（#354・#361・#342・#347）（2026-10-22）
 
-`parser-unsupported` で見送っていた4市10年度を、kofu-yosansho に3つ手を入れて収録した（**10ソース**）。
-validate は10ソースとも error 0・warning 0、隣の年度の前年度列と款単位で全一致（交野 R2→R3・大館 R2→R3・袋井 R3→R4→R5・大和郡山 R2→…→R8 の6リンク）。
-款名は10ソースとも全件目視（化け・連結・見出しの混入なし）。
+`parser-unsupported` で見送っていた4市8年度を、kofu-yosansho に3つ手を入れて収録した（**8ソース**）。
+validate は8ソースとも error 0・warning 0、隣の年度の前年度列と款単位で全一致（交野 R2→R3・大館 R2→R3・袋井 R3→R4→R5・大和郡山 R2→…→R8 の6リンク）。
+款名は8ソースとも全件目視（化け・連結・見出しの混入なし）。
 
 | 市 | 追加した年度 | 何が要ったか |
 | --- | --- | --- |
@@ -16144,5 +16144,5 @@ validate は10ソースとも error 0・warning 0、隣の年度の前年度列�
 
 #### 魚拓
 
-10ソースとも**未登録**。この巡の環境から web.archive.org へ接続できなかった（`pipeline:archive` が file・landing とも「socket connection was closed」）。
+8ソースとも**未登録**。この巡の環境から web.archive.org へ接続できなかった（`pipeline:archive` が file・landing とも「socket connection was closed」）。
 大館 R2 は取得元が WARP（館内限定でない公開の写し）なので、Wayback が無くても第2の写しはある。次に archive を回すときに登録する。
