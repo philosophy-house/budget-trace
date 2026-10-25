@@ -1,0 +1,413 @@
+{
+  "docType": "budget-book",
+  "sourceId": "hakodate-yosan-shiryou-h22",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-25T14:56:51.523Z",
+  "unit": "thousandYen",
+  "fiscalYear": "H22",
+  "account": "一般会計",
+  "revenueTotal": 127570000,
+  "expenditureTotal": 127570000,
+  "prevRevenueTotal": 124824000,
+  "prevExpenditureTotal": 124824000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "市税",
+      "amount": 32045000,
+      "prevAmount": 33315000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方譲与税",
+      "amount": 969400,
+      "prevAmount": 989900,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "利子割交付金",
+      "amount": 120000,
+      "prevAmount": 120000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "配当割交付金",
+      "amount": 18000,
+      "prevAmount": 30000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 19000,
+      "prevAmount": 31000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方消費税交付金",
+      "amount": 2923500,
+      "prevAmount": 2992400,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 26000,
+      "prevAmount": 29000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "自動車取得税交付金",
+      "amount": 141500,
+      "prevAmount": 153000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国有提供施設等所在市町村助成交付金",
+      "amount": 15000,
+      "prevAmount": 15000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方特例交付金",
+      "amount": 411029,
+      "prevAmount": 350300,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方交付税",
+      "amount": 33841000,
+      "prevAmount": 32861000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 65300,
+      "prevAmount": 67600,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "分担金・負担金",
+      "amount": 828781,
+      "prevAmount": 831602,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "使用料・手数料",
+      "amount": 3041248,
+      "prevAmount": 3179137,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国庫支出金",
+      "amount": 24267461,
+      "prevAmount": 20240434,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "道支出金",
+      "amount": 5034958,
+      "prevAmount": 4214014,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "財産収入",
+      "amount": 605505,
+      "prevAmount": 534593,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "寄付金",
+      "amount": 166912,
+      "prevAmount": 267653,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰入金",
+      "amount": 1315670,
+      "prevAmount": 1633359,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰越金",
+      "amount": 1,
+      "prevAmount": 1,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "諸収入",
+      "amount": 9152735,
+      "prevAmount": 9068184,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "市債",
+      "amount": 12562000,
+      "prevAmount": 13900823,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "議会費",
+      "amount": 427774,
+      "prevAmount": 450842,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "総務費",
+      "amount": 5135738,
+      "prevAmount": 5186569,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "民生費",
+      "amount": 43841899,
+      "prevAmount": 39201142,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "衛生費",
+      "amount": 7522904,
+      "prevAmount": 7156516,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "労働費",
+      "amount": 678332,
+      "prevAmount": 297271,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "農林水産費",
+      "amount": 959941,
+      "prevAmount": 1154891,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "商工費",
+      "amount": 8926440,
+      "prevAmount": 8692816,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "土木費",
+      "amount": 10275165,
+      "prevAmount": 11022505,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "消防費",
+      "amount": 816835,
+      "prevAmount": 951575,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "教育費",
+      "amount": 7385083,
+      "prevAmount": 7190174,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "公債費",
+      "amount": 14270393,
+      "prevAmount": 15047171,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "諸支出金",
+      "amount": 5096873,
+      "prevAmount": 5170767,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "職員費",
+      "amount": 22132623,
+      "prevAmount": 23201761,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "予備費",
+      "amount": 100000,
+      "prevAmount": 100000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+        "page": 2
+      }
+    }
+  ]
+}

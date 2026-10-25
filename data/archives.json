@@ -8343,6 +8343,329 @@
       "checkedAt": "2026-09-10T02:13:53.373Z"
     },
     {
+      "sourceId": "hakodate-yosan-shiryou-h20",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T15:02:42.976Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h20",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_20ippannkaikei.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025150227/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_20ippannkaikei.pdf",
+      "waybackTimestamp": "20261025150227",
+      "checkedAt": "2026-10-25T15:02:41.021Z",
+      "sha256Match": true,
+      "waybackBytes": 14986,
+      "rawSha256": "16f379af1c72aaaeceba94fdaa782a79ea9a06377afa24943ad6f83ad5c77a2a"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h22",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T15:02:25.908Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h22",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025150216/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf",
+      "waybackTimestamp": "20261025150216",
+      "checkedAt": "2026-10-25T15:02:25.473Z",
+      "sha256Match": true,
+      "waybackBytes": 14235,
+      "rawSha256": "6bcba9e85cf8782e9e714fa95e2793925e5cc9c594b3f0d6a11e7e909f6b5c27"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h23",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T15:02:10.197Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h23",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_23ippannkaikeiyosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025150146/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_23ippannkaikeiyosan.pdf",
+      "waybackTimestamp": "20261025150146",
+      "checkedAt": "2026-10-25T15:02:05.389Z",
+      "sha256Match": true,
+      "waybackBytes": 14052,
+      "rawSha256": "ddc4d729484b31fc44e395287823419895a732bd3d9ae6373d7cd86e1e1cbac2"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h24",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T15:01:43.370Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h24",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_24ippankaikeiyosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025150128/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_24ippankaikeiyosan.pdf",
+      "waybackTimestamp": "20261025150128",
+      "checkedAt": "2026-10-25T15:01:42.927Z",
+      "sha256Match": true,
+      "waybackBytes": 124085,
+      "rawSha256": "95b0a2953a23f462621c9a4eb0e57248327281b7eb46bdd0727f78fc9028302a"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h25",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T15:01:27.341Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h25",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025150104/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+      "waybackTimestamp": "20261025150104",
+      "checkedAt": "2026-10-25T15:01:26.646Z",
+      "sha256Match": true,
+      "waybackBytes": 1336021,
+      "rawSha256": "77a1edebc0f822ec1c32ee3420fdc0accb42f81226bb7258cf426894c5d65822"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h26",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T15:01:03.576Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h26",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H26_yosannsiryo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025150046/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H26_yosannsiryo.pdf",
+      "waybackTimestamp": "20261025150046",
+      "checkedAt": "2026-10-25T15:01:02.971Z",
+      "sha256Match": true,
+      "waybackBytes": 1008777,
+      "rawSha256": "0f22e80439abcc504e4a43c8b090c348dddece0213285e34dca4bcb68ee827c4"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h27",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T15:00:43.862Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h27",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H27yosannshiryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025150022/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H27yosannshiryou.pdf",
+      "waybackTimestamp": "20261025150022",
+      "checkedAt": "2026-10-25T15:00:42.844Z",
+      "sha256Match": true,
+      "waybackBytes": 871367,
+      "rawSha256": "98abdecf6546ecb85e726a46686af28f5d1e4c7910b3c49d23abf270e9aa79fd"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h28",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T15:00:19.200Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h28",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H28_yosannsiryo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025145956/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H28_yosannsiryo.pdf",
+      "waybackTimestamp": "20261025145956",
+      "checkedAt": "2026-10-25T15:00:18.470Z",
+      "sha256Match": true,
+      "waybackBytes": 1132193,
+      "rawSha256": "57c16529fac8165b09c72da9eeec52cda4dcc5e1482edf9a5a87f295bcc1c448"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h29",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T14:59:51.403Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h29",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H29_yosannsiryo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025145929/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H29_yosannsiryo.pdf",
+      "waybackTimestamp": "20261025145929",
+      "checkedAt": "2026-10-25T14:59:50.783Z",
+      "sha256Match": true,
+      "waybackBytes": 1473295,
+      "rawSha256": "3c898fe6cfb7b53291bc0342596335a814517c266adb353a75df43dc8a41bcfd"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h30",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260116033853/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+      "waybackTimestamp": "20260116033853",
+      "checkedAt": "2026-10-25T14:59:21.904Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h30",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H30_yosansiryo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025145902/https://www.city.hakodate.hokkaido.jp/docs/2021111200026/file_contents/2021111200026_hk_docs_2021111200026_files_H30_yosansiryo.pdf",
+      "waybackTimestamp": "20261025145902",
+      "checkedAt": "2026-10-25T14:59:21.372Z",
+      "sha256Match": true,
+      "waybackBytes": 1189199,
+      "rawSha256": "b2ac0a81e970b30882c8f1543643db292422b79bba93c93b08606836b297280d"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h31",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200033/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260412064209/https://www.city.hakodate.hokkaido.jp/docs/2021111200033/",
+      "waybackTimestamp": "20260412064209",
+      "checkedAt": "2026-10-25T14:58:56.609Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-h31",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2021111200033/file_contents/2021111200033_hk_docs_2021111200033_files_H31_yosansiryo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261025145842/https://www.city.hakodate.hokkaido.jp/docs/2021111200033/file_contents/2021111200033_hk_docs_2021111200033_files_H31_yosansiryo.pdf",
+      "waybackTimestamp": "20261025145842",
+      "checkedAt": "2026-10-25T14:58:55.794Z",
+      "sha256Match": true,
+      "waybackBytes": 603840,
+      "rawSha256": "e19665cf7d11949988d96f5544f9bbb3e21e6f2836cef4011dadba3405f37724"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r2",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260613211929/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "waybackTimestamp": "20260613211929",
+      "checkedAt": "2026-10-25T14:58:39.471Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r2",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/2014022600122_hk_docs_2014022600122_files_R2yosanshiryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250717032852/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/2014022600122_hk_docs_2014022600122_files_R2yosanshiryou.pdf",
+      "waybackTimestamp": "20250717032852",
+      "checkedAt": "2026-10-25T14:58:38.994Z",
+      "sha256Match": true,
+      "waybackBytes": 1990075,
+      "rawSha256": "8c3eff0f421c9d72ac35e192badbe1fd2c6fc674654a127a37459deb523e44b4"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r3",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260613211929/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "waybackTimestamp": "20260613211929",
+      "checkedAt": "2026-10-25T14:58:33.571Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r3",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/2014022600122_hk_docs_2014022600122_files_R3_yosansiryo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250717024413/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/2014022600122_hk_docs_2014022600122_files_R3_yosansiryo.pdf",
+      "waybackTimestamp": "20250717024413",
+      "checkedAt": "2026-10-25T14:58:33.100Z",
+      "sha256Match": true,
+      "waybackBytes": 3726643,
+      "rawSha256": "4e1796c10573d9e84ca21fde597a659ebefa798cc28e1546c92a6197b3b1125d"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r4",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260613211929/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "waybackTimestamp": "20260613211929",
+      "checkedAt": "2026-10-25T14:58:25.703Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r4",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/2014022600122_hk_docs_2014022600122_files_R4yosankisyakaikennsiryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250717022245/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/2014022600122_hk_docs_2014022600122_files_R4yosankisyakaikennsiryou.pdf",
+      "waybackTimestamp": "20250717022245",
+      "checkedAt": "2026-10-25T14:58:23.637Z",
+      "sha256Match": true,
+      "waybackBytes": 2448727,
+      "rawSha256": "b7cf9690c762a7f48327cec25bdc711c06694929487cf083e12beb0139b1f098"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r5",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260613211929/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "waybackTimestamp": "20260613211929",
+      "checkedAt": "2026-10-25T14:58:17.611Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r5",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/2014022600122_hk_docs_2014022600122_files_R5_kisyakaikennshiryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250717033807/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/2014022600122_hk_docs_2014022600122_files_R5_kisyakaikennshiryou.pdf",
+      "waybackTimestamp": "20250717033807",
+      "checkedAt": "2026-10-25T14:58:17.176Z",
+      "sha256Match": true,
+      "waybackBytes": 1890212,
+      "rawSha256": "26d972d579260b918f8105f53ceb598b6a35216b19b294ec474f2cd7887ec46e"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r7",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260613211929/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "waybackTimestamp": "20260613211929",
+      "checkedAt": "2026-10-25T14:58:10.363Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r7",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/R7_kisyakaikennshiryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250717034342/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/R7_kisyakaikennshiryou.pdf",
+      "waybackTimestamp": "20250717034342",
+      "checkedAt": "2026-10-25T14:57:54.464Z",
+      "sha256Match": true,
+      "waybackBytes": 2316349,
+      "rawSha256": "0d220e1091a21608b71202437639987a164acc8e98d5bfbb4caf7ef192971bcd"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r8",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20260613211929/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+      "waybackTimestamp": "20260613211929",
+      "checkedAt": "2026-10-25T14:57:50.997Z"
+    },
+    {
+      "sourceId": "hakodate-yosan-shiryou-r8",
+      "url": "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/R8_kisyakaikennshiryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260314131628/https://www.city.hakodate.hokkaido.jp/docs/2014022600122/file_contents/R8_kisyakaikennshiryou.pdf",
+      "waybackTimestamp": "20260314131628",
+      "checkedAt": "2026-10-25T14:57:50.394Z",
+      "sha256Match": true,
+      "waybackBytes": 1625679,
+      "rawSha256": "3d89d6a1c3b193f5c97c0d5ee7bb79efe6b00bc7976e699cce08bbeef3b2882f"
+    },
+    {
       "sourceId": "hakusan-ippan-huhyou-r3",
       "url": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/003/545/3kanbetuyosannhoka.pdf",
       "kind": "file",

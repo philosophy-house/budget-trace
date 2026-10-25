@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 564,
+  "budgetCount": 565,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4054,
-  "fileCount": 5732,
-  "archivedCount": 2965,
+  "sourceCount": 4071,
+  "fileCount": 5749,
+  "archivedCount": 2982,
   "licenseOpen": 135,
-  "licensePermission": 3827,
+  "licensePermission": 3844,
   "licenseUnverified": 92,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -127,6 +127,12 @@ export const ROADMAP_PROGRESS = {
       "code": "372013",
       "years": 18,
       "range": "H21〜R8（18年度）"
+    },
+    {
+      "name": "函館市",
+      "code": "012025",
+      "years": 17,
+      "range": "H20〜R8（17年度）"
     },
     {
       "name": "府中市",

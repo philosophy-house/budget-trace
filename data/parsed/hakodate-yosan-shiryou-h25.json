@@ -1,0 +1,413 @@
+{
+  "docType": "budget-book",
+  "sourceId": "hakodate-yosan-shiryou-h25",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-25T14:56:51.084Z",
+  "unit": "thousandYen",
+  "fiscalYear": "H25",
+  "account": "一般会計",
+  "revenueTotal": 129695000,
+  "expenditureTotal": 129695000,
+  "prevRevenueTotal": 125512000,
+  "prevExpenditureTotal": 125512000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "市税",
+      "amount": 31344000,
+      "prevAmount": 31455000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方譲与税",
+      "amount": 866700,
+      "prevAmount": 817500,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "利子割交付金",
+      "amount": 72000,
+      "prevAmount": 120000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "配当割交付金",
+      "amount": 23000,
+      "prevAmount": 23000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 8000,
+      "prevAmount": 12000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方消費税交付金",
+      "amount": 2819000,
+      "prevAmount": 2809400,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 20000,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "自動車取得税交付金",
+      "amount": 127200,
+      "prevAmount": 123400,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国有提供施設等所在市町村助成交付金",
+      "amount": 5000,
+      "prevAmount": 5676,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方特例交付金",
+      "amount": 105100,
+      "prevAmount": 107000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方交付税",
+      "amount": 35052000,
+      "prevAmount": 35847000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 58300,
+      "prevAmount": 59600,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "分担金・負担金",
+      "amount": 837004,
+      "prevAmount": 849897,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "使用料・手数料",
+      "amount": 3199610,
+      "prevAmount": 3218322,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国庫支出金",
+      "amount": 25412433,
+      "prevAmount": 25182402,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "道支出金",
+      "amount": 5245102,
+      "prevAmount": 4866360,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "財産収入",
+      "amount": 434589,
+      "prevAmount": 519011,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "寄付金",
+      "amount": 252644,
+      "prevAmount": 185461,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰入金",
+      "amount": 1297861,
+      "prevAmount": 2613709,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰越金",
+      "amount": 1,
+      "prevAmount": 1,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "諸収入",
+      "amount": 8183856,
+      "prevAmount": 7673561,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "市債",
+      "amount": 14331600,
+      "prevAmount": 8998700,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 15
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "議会費",
+      "amount": 415831,
+      "prevAmount": 426550,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "総務費",
+      "amount": 8475887,
+      "prevAmount": 5256881,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "民生費",
+      "amount": 48717043,
+      "prevAmount": 46250520,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "衛生費",
+      "amount": 8370519,
+      "prevAmount": 8227165,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "労働費",
+      "amount": 188881,
+      "prevAmount": 252307,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "農林水産費",
+      "amount": 790658,
+      "prevAmount": 706969,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "商工費",
+      "amount": 8125477,
+      "prevAmount": 7853549,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "土木費",
+      "amount": 9336788,
+      "prevAmount": 9536690,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "消防費",
+      "amount": 1105302,
+      "prevAmount": 965513,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "教育費",
+      "amount": 6217473,
+      "prevAmount": 6500296,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "公債費",
+      "amount": 14615772,
+      "prevAmount": 14625361,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "諸支出金",
+      "amount": 5220847,
+      "prevAmount": 4908555,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "職員費",
+      "amount": 18014522,
+      "prevAmount": 19901644,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "予備費",
+      "amount": 100000,
+      "prevAmount": 100000,
+      "locator": {
+        "file": "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf",
+        "page": 16
+      }
+    }
+  ]
+}
