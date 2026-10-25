@@ -153,6 +153,9 @@ const isArchiveUrl = (url: string): boolean => /^https?:\/\/(web\.archive\.org|w
 // ⚠ **`複製・転用` を読点の `複製、転用` にも広げた**（2026-10-07・酒田 §13-55）。原文「…著作権法で認められた場合を除き、複製、転用をすることはできません。」は
 //   多治見の「無断で複製、転用することはできません」と「無断」の有無しか違わない制限的な文言なのに、中黒の語彙に当たらず unverified に落ちていた。
 //   全 registry で区分が動くのは0件（実測・既存で `複製、転用` を含む原文は他の語でもう要許可に落ちている）。
+// ⚠ **`頒布` を `転載|複製|二次利用|引用` の並びに足した**（2026-10-25・函館 #292）。函館の予算ページは表示文が「クリエイティブ・コモンズ 表示 2.1 日本」
+//   なのに、アンカーの href と画像は `by-nd/2.1/jp`、箇条書きに「本ページのデータを改変したもの、本ページのデータを元に作成したものの頒布は禁止します。」があり、
+//   禁止の述語が語彙に当たらず `クリエイティブ・コモンズ` で open に落ちていた（`license-no-grant.ts` は open の原文に使えない）。人の判断は「割れているので要許可」。
 // ⚠ **区分は `sourceLicenseClass(s)` で引く**（2026-10-21・#293）。`registry/license-no-grant.ts`（許諾の条項が無いと
 //   人が判断した原文の台帳）はここでは見ないので、`licenseClassOf(s.license)` を直接呼ぶと台帳が効かない。
 const NO_GRANT = new Set(NO_GRANT_LICENSES.map((l) => l.license));
@@ -181,7 +184,7 @@ const sourceLicenseClass = (s: SourceEntry): "open" | "permission-required" | "u
   }
 }
 const licenseClassOf =(lic: string): "open" | "permission-required" | "unverified" =>
-  /(?:許可|承諾|同意|許諾)を得(?:て|る)[^。]{0,20}必要|要許可|非営利|非商業|無断|複製[・、]転用|転載を禁止|使用を禁止|(?:転載|複製|二次利用|引用)[^。]{0,20}(?:禁じ|禁止)|(?:許可|承諾|同意)(?:・(?:許可|承諾|同意))?(?:なく(?!ても|とも)|を得(?:ず|ない|ないまま))[^。]{0,40}(?:できません|禁じ|禁止|お断り)/.test(lic)
+  /(?:許可|承諾|同意|許諾)を得(?:て|る)[^。]{0,20}必要|要許可|非営利|非商業|無断|複製[・、]転用|転載を禁止|使用を禁止|(?:転載|複製|二次利用|引用|頒布)[^。]{0,20}(?:禁じ|禁止)|(?:許可|承諾|同意)(?:・(?:許可|承諾|同意))?(?:なく(?!ても|とも)|を得(?:ず|ない|ないまま))[^。]{0,40}(?:できません|禁じ|禁止|お断り)/.test(lic)
     ? "permission-required"
   : /政府標準利用規約|公共データ利用規約|クリエイティブ・コモンズ|CC[ -]?BY/i.test(lic) ? "open"
   : "unverified";
@@ -3708,6 +3711,10 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     { srcId: "nichinan-yosan-gaiyou-r6", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
     { srcId: "nichinan-yosansho-r5", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
     { srcId: "nichinan-yosansho-r4", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
+    // ⚠ 函館は要許可（CC 表示の文言と BY-ND の href が割れる・#292）。R6・H21 は unrecordable.ts
+    ...(["r8", "r7", "r5", "r4", "r3", "r2", "h31", "h30", "h29", "h28", "h27", "h26", "h25", "h24", "h23", "h22", "h20"] as const).map((fy) => ({
+      srcId: `hakodate-yosan-shiryou-${fy}`, muniCode: "012025", muniName: "函館市", prefName: "北海道", isPref: false,
+    })),
     // ⚠ 佐渡 R3 は概要（別 srcId）・R2 は unrecordable.ts
     ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
       srcId: `sado-yosansho-${fy}`, muniCode: "152242", muniName: "佐渡市", prefName: "新潟県", isPref: false,

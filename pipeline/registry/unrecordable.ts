@@ -2797,4 +2797,23 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.sado.niigata.jp/life/4/34/161/",
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-105",
   },
+  {
+    // 函館市（012025）R6。「函館市各会計予算（案）資料」の総括表のページ（物理 p.8〜10）は文字がアウトライン化され、テキスト層はページ番号だけ。
+    // Wayback の別の捕捉（20240613）は 1,046,856 バイトで途中切れ（§13-106）。R7 の前年度列（R6 当初 143,270,000）には数字が残る。
+    code: "012025", name: "函館市", dataset: "budget", fiscalYears: ["R6"],
+    categories: ["scanned-image"],
+    reason:
+      "予算資料の総括表のページは文字が図形に変換されていて、文字の情報がページ番号しか無く、款別の金額を読み取れない。",
+    url: "https://www.city.hakodate.hokkaido.jp/docs/2014022600122/",
+    checkedOn: "2026-10-25", ref: "docs/data-sources.md §13-106",
+  },
+  {
+    // 函館市（012025）H21。単独の「一般会計歳入歳出予算内訳」PDF の漢字フォントに ToUnicode が無く、款名がテキスト層に出ない（§13-106）。
+    code: "012025", name: "函館市", dataset: "budget", fiscalYears: ["H21"],
+    categories: ["broken-text-layer"],
+    reason:
+      "予算の内訳の資料は、漢字の文字の対応表が埋め込まれておらず、款の名前を文字として読み取れない。",
+    url: "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
+    checkedOn: "2026-10-25", ref: "docs/data-sources.md §13-106",
+  },
 ];

@@ -2077,6 +2077,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "012025": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度",
+        "reason": "予算資料の総括表のページは文字が図形に変換されていて、文字の情報がページ番号しか無く、款別の金額を読み取れない。",
+        "checkedOn": "2026-10-25"
+      },
+      {
+        "fyLabel": "平成21年度",
+        "reason": "予算の内訳の資料は、漢字の文字の対応表が埋め込まれておらず、款の名前を文字として読み取れない。",
+        "checkedOn": "2026-10-25"
+      }
+    ]
+  },
   "012050": {
     "budget": [
       {

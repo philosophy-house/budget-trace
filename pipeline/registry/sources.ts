@@ -440,6 +440,8 @@ const ASAHI_LICENSE =
   "本サイトに掲載の文章、画像などの著作権は、旭市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。";
 const HANNAN_LICENSE =
   "本サイトに掲載の文章、画像などの著作権は、阪南市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。";
+const HAKODATE_LICENSE =
+  "このページの本文とデータは クリエイティブ・コモンズ 表示 2.1 日本ライセンスの下に提供されています。本ページに掲載しているデータは、自由に利用できます。本ページに掲載しているデータを元に、2次著作物を自由に作成可能です。本ページのデータを再配布する場合は、データの出典（本市等のデータを利用している旨）を表示してください。本ページのデータを改変したもの、本ページのデータを元に作成したものの頒布は禁止します。本ページのデータを元に作成したものに、第三者が著作権等の権利を有しているものがある場合、利用者の責任で当該第三者から利用の承諾を得てください。";
 const SADO_LICENSE =
   "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、佐渡市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することはできません。";
 const ODATE_LICENSE =
@@ -32087,6 +32089,67 @@ export const SOURCES: SourceEntry[] = [
           },
   } satisfies SourceEntry)),
 
+  // 函館市（北海道・中核市・団体コード 012025 ＝ 総務省 R6.json から実引き）。「函館市各会計予算（案）資料」の
+  //   「一般会計歳入歳出予算（案）総括表」（千円・歳入22〜24款・歳出14〜15款）。H24 以前は単独の2ページ PDF「一般会計歳入歳出予算内訳」（p.1 歳入 / p.2 歳出・「函館市」の字が無いが、H25 の前年度列＝H24 の当年度列が全款一致）。
+  // ⚠ 款番号が無い ⇒ `kanNoless`。款名は「上段 / 金額行 / 下段」の3行折返し（株式等譲渡 / 金額 / 所得割交付金）だが既定経路で完全形になる。
+  // ⚠ 合計行の構成比が整数 `100` ⇒ `totalAmountIntIndex:0` / `totalPrevIntIndex:2`（無いと前年度合計を 100 と読む）。
+  // ⚠ 市債の下の `（通常債等）(…)` `（臨時財政対策債）` 等の内訳行 ⇒ `revenueHeaderExtra`（無いと款として湧き歳入 Σ が割れる）。
+  // ⚠ 見出しは R8〜R2 が全角 `（歳入）`、H31 以前が半角 `(歳入)`。
+  // 前年度列: R2・H28・H24・H20 は「6月補正後」（H27・H31 は骨格＝skeleton-budgets.ts）。⚠ H24・H20 の見出しは「…6月補正後」で「予算額」が無く自動判定では当初になる ⇒ 明示。
+  //   それ以外は当初（年度間で款単位全一致を偵察が実測）。
+  // ⚠ R6 は総括表がアウトライン化、H21 は漢字フォントに ToUnicode が無い ⇒ unrecordable.ts。
+  // ⚠⚠ ライセンス（#292・2026-10-25 に人が判断）: 表示文は「クリエイティブ・コモンズ 表示 2.1 日本」だが、アンカーの href と画像は `by-nd/2.1/jp`、
+  //   箇条書きに「…頒布は禁止します。」⇒ 割れているので要許可へ倒す（`licenseClassOf` に `頒布…禁止` を足した）。原文は予算ページ（3つの landing とも同文・確認日 2026-10-25）。
+  //   リンク条項（/docs/2014021000114/）は「トップページ…へのリンクは，原則自由です」「トップページ以外のアドレスは，更新の際に変更される場合があります」で、ディープリンクを断っていない ⇒ `noDeepLink` は立てない。
+  ...([
+    ["R8", "2014022600122", "R8_kisyakaikennshiryou.pdf", 9, 10, "当初"],
+    ["R7", "2014022600122", "R7_kisyakaikennshiryou.pdf", 9, 10, "当初"],
+    ["R5", "2014022600122", "2014022600122_hk_docs_2014022600122_files_R5_kisyakaikennshiryou.pdf", 8, 9, "当初"],
+    ["R4", "2014022600122", "2014022600122_hk_docs_2014022600122_files_R4yosankisyakaikennsiryou.pdf", 10, 11, "当初"],
+    ["R3", "2014022600122", "2014022600122_hk_docs_2014022600122_files_R3_yosansiryo.pdf", 11, 12, "当初"],
+    ["R2", "2014022600122", "2014022600122_hk_docs_2014022600122_files_R2yosanshiryou.pdf", 9, 10, "補正後"],
+    ["H31", "2021111200033", "2021111200033_hk_docs_2021111200033_files_H31_yosansiryo.pdf", 9, 10, "当初"],
+    ["H30", "2021111200026", "2021111200026_hk_docs_2021111200026_files_H30_yosansiryo.pdf", 10, 11, "当初"],
+    ["H29", "2021111200026", "2021111200026_hk_docs_2021111200026_files_H29_yosannsiryo.pdf", 12, 13, "当初"],
+    ["H28", "2021111200026", "2021111200026_hk_docs_2021111200026_files_H28_yosannsiryo.pdf", 12, 13, "補正後"],
+    ["H27", "2021111200026", "2021111200026_hk_docs_2021111200026_files_H27yosannshiryou.pdf", 11, 12, "当初"],
+    ["H26", "2021111200026", "2021111200026_hk_docs_2021111200026_files_H26_yosannsiryo.pdf", 14, 15, "当初"],
+    ["H25", "2021111200026", "2021111200026_hk_docs_2021111200026_files_2013_siryou.pdf", 15, 16, "当初"],
+    ["H24", "2021111200026", "2021111200026_hk_docs_2021111200026_files_24ippankaikeiyosan.pdf", 1, 2, "補正後"],
+    ["H23", "2021111200026", "2021111200026_hk_docs_2021111200026_files_23ippannkaikeiyosan.pdf", 1, 2, "当初"],
+    ["H22", "2021111200026", "2021111200026_hk_docs_2021111200026_files_22ippankaikeiyosan.pdf", 1, 2, "当初"],
+    ["H20", "2021111200026", "2021111200026_hk_docs_2021111200026_files_20ippannkaikei.pdf", 1, 2, "補正後"],
+  ] as const).map(([fy, docId, file, rp, ep, prevBasis]) => {
+    const zen = fy.startsWith("R");
+    return {
+      id: `hakodate-yosan-shiryou-${fy.toLowerCase()}`,
+      // H24 以前は冊子ではなく単独 PDF（landing の掲載名「一般会計歳入歳出予算内訳(平成24年度)」）
+      title: rp === 1
+        ? `${eraYear(fy)}年度 函館市一般会計歳入歳出予算内訳（一般会計歳入歳出予算（案）総括表）`
+        : `${eraYear(fy)}年度 函館市各会計予算（案）資料（一般会計歳入歳出予算（案）総括表）`,
+      publisher: "函館市",
+      url: `https://www.city.hakodate.hokkaido.jp/docs/${docId}/file_contents/${file}`,
+      landingPage: `https://www.city.hakodate.hokkaido.jp/docs/${docId}/`,
+      kind: "pdf" as const,
+      fiscalYear: fy,
+      scope: "函館市（一般会計・団体コード012025）",
+      license: HAKODATE_LICENSE,
+      parser: "kofu-yosansho" as const,
+      parserOptions: {
+        revenuePage: rp,
+        expenditurePage: ep,
+        revenueHeading: zen ? "（歳入）" : "(歳入)",
+        expenditureHeading: zen ? "（歳出）" : "(歳出)",
+        revenueTotalLabel: "合計",
+        expenditureTotalLabel: "合計",
+        kanNoless: true,
+        totalAmountIntIndex: 0,
+        totalPrevIntIndex: 2,
+        revenueHeaderExtra: "^（[^）]+）",
+        ...(prevBasis === "補正後" ? { prevBasis: "補正後" as const } : {}),
+      },
+    } satisfies SourceEntry;
+  }),
   // 佐渡市（新潟県・団体コード 152242 ＝ 総務省 R6.json から実引き）。財政課の一般会計予算書「歳入歳出予算事項別明細書 １ 総括」。千円。歳入23款・歳出14款。
   //   R8〜R4 は物理 p.11（歳入）/p.12（歳出）。財源内訳は p.13 に分かれているので歳出の款1 に列見出しは付かない（`HeaderExtra` 不要）。
   // ⚠ R3 の予算書は歳入の総括 p.7 がアウトライン化（テキスト層なし）⇒ R3 は「当初予算の概要」p.18（歳入）/p.20（目的別歳出）。概要の歳入は「科 目」が款1 に付く（Σ 差0）⇒ `revenueHeaderExtra`。
