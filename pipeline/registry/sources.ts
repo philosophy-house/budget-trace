@@ -32123,7 +32123,10 @@ export const SOURCES: SourceEntry[] = [
     const zen = fy.startsWith("R");
     return {
       id: `hakodate-yosan-shiryou-${fy.toLowerCase()}`,
-      title: `${eraYear(fy)}年度 函館市各会計予算（案）資料（一般会計歳入歳出予算（案）総括表）`,
+      // H24 以前は冊子ではなく単独 PDF（landing の掲載名「一般会計歳入歳出予算内訳(平成24年度)」）
+      title: rp === 1
+        ? `${eraYear(fy)}年度 函館市一般会計歳入歳出予算内訳（一般会計歳入歳出予算（案）総括表）`
+        : `${eraYear(fy)}年度 函館市各会計予算（案）資料（一般会計歳入歳出予算（案）総括表）`,
       publisher: "函館市",
       url: `https://www.city.hakodate.hokkaido.jp/docs/${docId}/file_contents/${file}`,
       landingPage: `https://www.city.hakodate.hokkaido.jp/docs/${docId}/`,
