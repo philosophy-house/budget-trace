@@ -799,6 +799,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "222241": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度",
+        "reason": "予算書は紙をスキャンした画像で文字の情報が無い。予算の概要の款別の表は、2つの款の金額が予算書（補正予算書に載っている補正前の額）と違う。",
+        "checkedOn": "2026-10-26"
+      }
+    ]
+  },
   "232017": {
     "budget": [
       {
@@ -883,6 +892,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和4年度",
         "reason": "予算書は文字の情報が壊れていて、金額の数字も読み取れない。記者発表資料と概要は歳入を款別ではなく7つの区分にまとめた表だけ。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "232289": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "予算の概要も予算書も画像だけで文字の情報が無い。文字の情報がある「わかりやすい予算書」は、前年度を比率でしか載せていない。",
+        "checkedOn": "2026-10-26"
+      },
+      {
+        "fyLabel": "令和2年度",
+        "reason": "歳入の表で、廃止された款と新しく設けられた款に同じ款番号が振られており、今の読み取りの仕組みでは款を区別できない。",
+        "checkedOn": "2026-10-26"
       }
     ]
   },
@@ -1425,6 +1448,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "予算説明資料の款別の表は見開きの組みで、新しくできた款の前年度欄が「-」になっているため、いまの読み取りでは前年度の額を正しく取り出せない。予算書は紙をスキャンした画像で、文字として取り出せない。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "352101": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "予算書のウェブへの掲載は令和7年度からで、それより前の年度の予算の概要は、歳出が性質別の表と、款別の構成比の円グラフだけで、款別の歳出の金額が無い。",
+        "checkedOn": "2026-10-26"
       }
     ]
   },
@@ -2015,6 +2047,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度・令和2年度",
         "reason": "ウェブに掲載されていたのは円グラフと文章の「当初予算のあらまし」だけで、款ごとに前年度と比べた表や予算書は掲載されていない。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "062111": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "予算書のウェブへの掲載は令和4年度からで、それより前の年度の予算の概要は、いくつかの款をまとめた円グラフと文章だけで、款別の金額と前年度の額の表が無い。",
+        "checkedOn": "2026-10-26"
       }
     ]
   },

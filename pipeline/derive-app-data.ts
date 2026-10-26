@@ -3711,6 +3711,42 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     { srcId: "nichinan-yosan-gaiyou-r6", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
     { srcId: "nichinan-yosansho-r5", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
     { srcId: "nichinan-yosansho-r4", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
+    // ---- 第92巡（2026-10-26・§13-107） ----
+    // ⚠ 三次は R6・R5・R3・R2 が歳入見開き。R5・H31 骨格 ⇒ R6・R2 に prevNote（前年度列は骨格の当初）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `miyoshi-hiroshima-yosan-setsumeisho-${fy}`, muniCode: "342092", muniName: "三次市", prefName: "広島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `oamishirasato-yosansho-${fy}`, muniCode: "122394", muniName: "大網白里市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 東根は予算書の掲載が R4 から（R3・R2 は unrecordable.ts）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `higashine-yosansho-${fy}`, muniCode: "062111", muniName: "東根市", prefName: "山形県", isPref: false,
+    })),
+    // ⚠ 山武は R4・R5・R7 の前年度列で歳出の款の額が前年度資料とずれる（総額一致）⇒ prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sammu-yosansho-${fy}`, muniCode: "122378", muniName: "山武市", prefName: "千葉県", isPref: false,
+    })),
+    // ⚠ 光は予算書の掲載が R8・R7 だけ（R6〜R2 は unrecordable.ts）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `hikari-yosansho-${fy}`, muniCode: "352101", muniName: "光市", prefName: "山口県", isPref: false,
+    })),
+    // ⚠ 山鹿は R7・R3 骨格 ⇒ R8・R4 は前年度列が6月補正後。R2 は WARP。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yamaga-yosan-aramashi-${fy}`, muniCode: "432083", muniName: "山鹿市", prefName: "熊本県", isPref: false,
+    })),
+    // ⚠ 菊川 R3 は予算書がスキャン（unrecordable.ts）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `kikugawa-yosansho-${fy}`, muniCode: "222241", muniName: "菊川市", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 能代は R8・R4 骨格 ⇒ R5 に prevNote（前年度列は骨格の当初）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `noshiro-yosan-hensei-gaiyo-${fy}`, muniCode: "052027", muniName: "能代市", prefName: "秋田県", isPref: false,
+    })),
+    // ⚠ 岩倉は R5〜R3 が Wayback。R8（画像）・R2（款番号6の重複）は unrecordable.ts
+    ...(["r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `iwakura-yosangaiyou-${fy}`, muniCode: "232289", muniName: "岩倉市", prefName: "愛知県", isPref: false,
+    })),
     // ⚠ 函館は要許可（CC 表示の文言と BY-ND の href が割れる・#292）。R6・H21 は unrecordable.ts
     ...(["r8", "r7", "r5", "r4", "r3", "r2", "h31", "h30", "h29", "h28", "h27", "h26", "h25", "h24", "h23", "h22", "h20"] as const).map((fy) => ({
       srcId: `hakodate-yosan-shiryou-${fy}`, muniCode: "012025", muniName: "函館市", prefName: "北海道", isPref: false,
