@@ -3,7 +3,7 @@
   "sourceId": "gosen-yosan-sankou-r6",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-26T08:38:32.487Z",
+  "parsedAt": "2026-10-26T09:42:49.083Z",
   "unit": "thousandYen",
   "fiscalYear": "R6",
   "account": "一般会計",
@@ -12,7 +12,6 @@
   "prevRevenueTotal": 23675000,
   "prevExpenditureTotal": 23675000,
   "prevBasis": "当初",
-  "prevNote": "前年度（令和5年度）の額のうち、衛生費（2,808,913千円）と公債費（4,156,539千円）は、ここに載せた令和5年度の当初予算（予算案の参考資料による。衛生費 2,808,750千円・公債費 4,156,702千円）とそれぞれ163千円違います。令和5年度の予算書の額はこの前年度額と同じです。総額は一致しています。",
   "facts": [
     {
       "side": "revenue",

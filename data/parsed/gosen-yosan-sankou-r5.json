@@ -3,7 +3,7 @@
   "sourceId": "gosen-yosan-sankou-r5",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-26T08:38:33.449Z",
+  "parsedAt": "2026-10-26T09:42:48.933Z",
   "unit": "thousandYen",
   "fiscalYear": "R5",
   "account": "一般会計",
@@ -281,7 +281,7 @@
       "side": "expenditure",
       "kanNo": 4,
       "kanName": "衛生費",
-      "amount": 2808750,
+      "amount": 2808913,
       "prevAmount": 2123885,
       "locator": {
         "file": "R5_tousyoyosan_sankoushiryou.pdf",
@@ -358,7 +358,7 @@
       "side": "expenditure",
       "kanNo": 11,
       "kanName": "公債費",
-      "amount": 4156702,
+      "amount": 4156539,
       "prevAmount": 4388016,
       "locator": {
         "file": "R5_tousyoyosan_sankoushiryou.pdf",

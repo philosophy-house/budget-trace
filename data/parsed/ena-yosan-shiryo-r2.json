@@ -3,7 +3,7 @@
   "sourceId": "ena-yosan-shiryo-r2",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-26T08:35:24.125Z",
+  "parsedAt": "2026-10-26T09:43:08.297Z",
   "unit": "thousandYen",
   "fiscalYear": "R2",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 25490000,
   "prevExpenditureTotal": 25490000,
   "prevBasis": "当初",
+  "prevNote": "前年度（令和元年度）の環境性能割交付金の額（63,000千円）は、原典の注記「（令和元年度は自動車取得税交付金との合算額）」のとおり、令和元年度の自動車取得税交付金との合計です。",
   "facts": [
     {
       "side": "revenue",
