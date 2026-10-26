@@ -100,5 +100,7 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "五泉市", license: "Copyright (C) Gosen City , All Rights Reserved." },
   { who: "宮古市", license: "本サイトに掲載している情報は著作権の対象になっております。著作権は原則として宮古市が所有しておりますが、コンテンツ内の文書、画像、イラストなどについて、市以外の第三者が著作権を有する場合もあります。" },
   { who: "高島市", license: "Copyright (c) Takashima city. All Rights Reserved." },
+  { who: "笠岡市", license: "当ホームページに掲載されている情報（文書、写真、イラストなど）は原則として笠岡市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。当ホームページで公開する情報を利用した営利目的の二次使用（情報の再配布、メールマガジンの作成、サイトの構築等）はお断りします。フレームの一部に当ホームページを表示するなど、情報の発信元を誤認させる使用等はお断りします。" },
+  { who: "さぬき市", license: "Copyright (c) 2026 Sanuki city. All Rights Reserved." },
   { who: "山武市", license: "「山武市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として山武市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
 ];
