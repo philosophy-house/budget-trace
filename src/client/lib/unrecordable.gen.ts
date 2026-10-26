@@ -39,6 +39,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "102105": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度",
+        "reason": "予算書は紙をスキャンした画像で、文字の取れる予算内示資料は金額が万円単位のため、今の読み取りの仕組みでは千円単位にそろえられない。",
+        "checkedOn": "2026-10-26"
+      }
+    ]
+  },
   "102113": {
     "budget": [
       {
@@ -203,6 +212,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和4年度",
         "reason": "一般会計予算は議会で修正して可決されたが、掲載されている予算案の概要と予算書は修正前の原案のままで、修正後の額は変わった款だけを並べた別の資料にしか載っていない（財産収入・繰入金の2款）。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "113018": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和4年度・令和3年度",
+        "reason": "一般会計予算書が紙をスキャンした画像で文字が取れず、同じ年度の「当初予算の概況」は文章だけで款別の表が無い。",
+        "checkedOn": "2026-10-26"
       }
     ]
   },
@@ -963,6 +981,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "233021": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度",
+        "reason": "当初予算は議会で修正されて可決されたが、公開されている予算書と予算の概要は修正前の案のままで、款別の議決額の表が無い。",
+        "checkedOn": "2026-10-26"
+      }
+    ]
+  },
   "242012": {
     "budget": [
       {
@@ -1647,6 +1674,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和4年度・令和3年度",
         "reason": "「当初予算の概要」がこの2年度とも全ページ スキャン画像で、1ページに画像が1枚ずつ入っており、文字として取り出せる中身が無い（令和4年度は17ページで17字、令和3年度は15ページで15字。収録時に実測）。文字を読み取る処理もかかっていないため、数値を取り出す手立てがない。同じ年度の別冊「当初予算資料」にも款ごとの表は入っていない。令和8年度と令和5年度は同じ資料で収録済み。",
         "checkedOn": "2026-08-24"
+      }
+    ]
+  },
+  "412082": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度・令和3年度・令和2年度",
+        "reason": "歳入の表で、2行に折り返した款名の組み方が款ごとに違い、今の読み取りの仕組みでは款名と金額を正しく対応させられない。",
+        "checkedOn": "2026-10-26"
       }
     ]
   },

@@ -3786,6 +3786,49 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `nanto-yosan-youryou-${fy}`, muniCode: "162108", muniName: "南砺市", prefName: "富山県", isPref: false,
     })),
+    // ---- 第95巡（2026-10-26・§13-111） ----
+    // ⚠ いなべ R3 は議会修正後の説明資料（予算書は原案）
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `inabe-yosansho-${fy}`, muniCode: "242144", muniName: "いなべ市", prefName: "三重県", isPref: false,
+    })),
+    { srcId: "inabe-yosan-setsumei-r3", muniCode: "242144", muniName: "いなべ市", prefName: "三重県", isPref: false },
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shima-yosansho-ippan-${fy}`, muniCode: "242152", muniName: "志摩市", prefName: "三重県", isPref: false,
+    })),
+    // ⚠ 笠岡は概要説明（予算書は読めない）。R5・R4 は議会修正後。R6・R2 骨格 ⇒ R7・R3 は前年度列が肉付後（prevBasis 補正後）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kasaoka-yosan-gaiyo-${fy}`, muniCode: "332054", muniName: "笠岡市", prefName: "岡山県", isPref: false,
+    })),
+    // ⚠ 東郷町は R4 骨格 ⇒ R5 に prevNote。R7・R6 は前年度列の款の額がずれる（prevNote）。R3 は議会修正の案だけ（unrecordable.ts）。R2 は概要
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `togo-yosansho-${fy}`, muniCode: "233021", muniName: "東郷町", prefName: "愛知県", isPref: false,
+    })),
+    { srcId: "togo-yosan-gaiyou-r2", muniCode: "233021", muniName: "東郷町", prefName: "愛知県", isPref: false },
+    // ⚠ 小城市は R7・R3 骨格 ⇒ R8・R4 に prevNote。R7・R3・R2 はパーサ待ち（歳入の折返しの混在）
+    ...(["r8", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `ogi-yosan-gaiyou-${fy}`, muniCode: "412082", muniName: "小城市", prefName: "佐賀県", isPref: false,
+    })),
+    // ⚠ 富岡市は R6〜R3 が万円単位の資料（パーサ待ち）。R2 は WARP
+    ...(["r8", "r7", "r2"] as const).map((fy) => ({
+      srcId: `tomioka-yosan-naiji-${fy}`, muniCode: "102105", muniName: "富岡市", prefName: "群馬県", isPref: false,
+    })),
+    // ⚠ 赤穂市は R6〜R4 が Wayback・R3・R2 が WARP（発行元から消えている）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ako-ippan-uchiwake-${fy}`, muniCode: "282120", muniName: "赤穂市", prefName: "兵庫県", isPref: false,
+    })),
+    // ⚠ 伊奈町（埼玉）は R6・R4・R3 がスキャン（unrecordable.ts）。R2 は概況
+    ...(["r8", "r7", "r5"] as const).map((fy) => ({
+      srcId: `inamachi-yosansho-${fy}`, muniCode: "113018", muniName: "伊奈町", prefName: "埼玉県", isPref: false,
+    })),
+    { srcId: "inamachi-yosan-gaikyo-r2", muniCode: "113018", muniName: "伊奈町", prefName: "埼玉県", isPref: false },
+    // ⚠ 田川市は R5・H31 骨格 ⇒ R6・R2 に prevNote。R3・R2 は BODIK（CC BY 4.0）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tagawa-yosansho-${fy}`, muniCode: "402061", muniName: "田川市", prefName: "福岡県", isPref: false,
+    })),
+    // ⚠ さぬき市は新ドメイン（city.sanuki.lg.jp）。R2 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sanuki-tousyo-yosan-gaiyou-${fy}`, muniCode: "372064", muniName: "さぬき市", prefName: "香川県", isPref: false,
+    })),
     // ---- 第92巡（2026-10-26・§13-107） ----
     // ⚠ 三次は R6・R5・R3・R2 が歳入見開き。R5・H31 骨格 ⇒ R6・R2 に prevNote（前年度列は骨格の当初）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

@@ -2957,4 +2957,42 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.gosen.lg.jp/organization/4/1/2/3/R5/9458.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
   },
+  {
+    // 東郷町（233021）R3。年度ページ（/3/6060.html）「令和3年3月23日付けで本会議において、一般会計予算案について修正案を添えた修正動議が提出され、同日修正可決されました。」
+    // 予算書（ippan_r3_1.pdf）・当初予算の概要とも修正前の案（13,159,000）のまま。修正案（r3tousyo_syusei.pdf）は繰入金・民生費を減額して 13,149,662。R4 の前年度列は修正後（§13-111）。
+    code: "233021", name: "東郷町", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["format-mismatch"],
+    reason: "当初予算は議会で修正されて可決されたが、公開されている予算書と予算の概要は修正前の案のままで、款別の議決額の表が無い。",
+    url: "https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/6060.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-111",
+  },
+  {
+    // 伊奈町（113018）R6・R4・R3。予算書（R6 ippankaikei.pdf・R4 ippan.pdf・R3 R3ippan.pdf）はテキスト層が全ページ0字（Wayback の写しも同じダイジェスト）。
+    // 同じ年度の「当初予算の概況」は Word（.doc）の文章と主な事業の箇条書きで、款別の前年度比較表が無い（§13-111）。
+    code: "113018", name: "伊奈町", dataset: "budget", fiscalYears: ["R6", "R4", "R3"],
+    categories: ["scanned-image", "format-mismatch"],
+    reason: "一般会計予算書が紙をスキャンした画像で文字が取れず、同じ年度の「当初予算の概況」は文章だけで款別の表が無い。",
+    url: "https://www.town.saitama-ina.lg.jp/category/2-6-2-0-0-0-0-0-0-0.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-111",
+  },
+  {
+    // 小城市（412082）R7・R3・R2。「当初予算資料」p.3 の歳入で、款名の2行折返しが同じ表の中で「上段2行」と「上段・金額行・下段の3行」に混在する。
+    // 既定では Σ が割れ、kanNolessUpperOnly では Σ 差0 のまま `交付金地方消費税` 等に壊れる。raw では R7 が逆順・R3/R2 は順序が崩れて throw。R2 は皆増・皆減の1整数行もある（§13-111）。
+    code: "412082", name: "小城市", dataset: "budget", fiscalYears: ["R7", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "歳入の表で、2行に折り返した款名の組み方が款ごとに違い、今の読み取りの仕組みでは款名と金額を正しく対応させられない。",
+    url: "https://www.city.ogi.lg.jp/main/1187.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-111",
+  },
+  {
+    // 富岡市（102105）R6・R5・R4・R3。予算書はスキャン画像、代わりの「予算内示資料」は万円単位（表の右上に `(万円)`・千円未満を丸めた額）。
+    // kofu-yosansho の unit は thousandYen / millionYen だけで、指定しないと Σ 差0 のまま 1/10 の額が入る。R3 は WARP にだけ残る（§13-111）。
+    code: "102105", name: "富岡市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算書は紙をスキャンした画像で、文字の取れる予算内示資料は金額が万円単位のため、今の読み取りの仕組みでは千円単位にそろえられない。",
+    url: "https://www.city.tomioka.lg.jp/www/genre/1456117988098/index.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-111",
+  },
 ];
