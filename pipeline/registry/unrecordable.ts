@@ -2908,7 +2908,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     // 海南市（302023）R2。予算ページは WARP 2020-09-07 収集の財政ページには無く、2021-06-09 収集で初めて現れる（その時点で令和3年度だけ）（§13-108）。
     code: "302023", name: "海南市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["no-material"],
-    reason: "令和2年度の当初予算の資料は、発行元のウェブサイトに掲載されたことが無い（予算のページは令和3年度から）。",
+    reason: "令和2年度の当初予算の資料は、発行元のサイトにも、国立国会図書館が2020年に収集した写しにも見当たらない（予算のページは令和3年度の分から）。",
     url: "https://www.city.kainan.lg.jp/shiseijoho/gyozaisei/yosan.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
   },
@@ -2919,6 +2919,16 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["no-material"],
     reason: "令和2年度は予算に関する説明書が掲載されておらず、掲載されていた概要などの資料も発行元から消えて、魚拓にも残っていない。",
     url: "https://warp.ndl.go.jp/20200512/20200510084235/https://www.city.tonami.toyama.jp/info/1581991265.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
+  },
+  {
+    // 海南市（302023）R4・R3。「予算の概要（計数資料編）」（/material/files/group/5/r4yosangaiyo_keisu.pdf・r3…）は ToUnicode 欠落で、
+    // `decodeGarble`＋`decodeGarbleBand: 0x3EAC` でも `GARBLE_CHAR_MAP` に無い18字（伸・臨・時・依・存・主・～・・・①〜⑩）で throw する（§13-108・#404）。
+    code: "302023", name: "海南市", dataset: "budget", fiscalYears: ["R4", "R3"],
+    categories: ["parser-unsupported"],
+    reason:
+      "予算の概要は文字の対応表が埋め込まれておらず、今の読み取りの仕組みが対応している文字の範囲では表を復元できない（読み取りの仕組みに文字を足せば読める見込み）。",
+    url: "https://www.city.kainan.lg.jp/shiseijoho/gyozaisei/yosan.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
   },
 ];
