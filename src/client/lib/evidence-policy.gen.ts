@@ -27535,6 +27535,264 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "page"
   },
+  "/sources/ono-hyogo-yosan-setsumei-r8/R8tousyoyosannnogaiyou1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.hyogo.jp/material/files/group/8/R8tousyoyosannnogaiyou1.pdf",
+    "license": "「小野市ホームページ」に掲載されている個々の情報（文章,写真,イラストなど）は,著作権の対象となっています。また、「小野市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ono-hyogo-yosan-setsumei-r7/01_r7tousyoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.hyogo.jp/material/files/group/8/01_r7tousyoyosan.pdf",
+    "license": "「小野市ホームページ」に掲載されている個々の情報（文章,写真,イラストなど）は,著作権の対象となっています。また、「小野市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ono-hyogo-yosan-setsumei-r6/r6tousyoyosansetsumeisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.hyogo.jp/material/files/group/8/r6tousyoyosansetsumeisiryou.pdf",
+    "license": "「小野市ホームページ」に掲載されている個々の情報（文章,写真,イラストなど）は,著作権の対象となっています。また、「小野市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ono-hyogo-yosan-setsumei-r5/tousyoyosannsetumisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.hyogo.jp/material/files/group/8/tousyoyosannsetumisiryou.pdf",
+    "license": "「小野市ホームページ」に掲載されている個々の情報（文章,写真,イラストなど）は,著作権の対象となっています。また、「小野市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ono-hyogo-yosan-setsumei-r4/R4tousyoyosan_siryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.hyogo.jp/material/files/group/8/R4tousyoyosan_siryou.pdf",
+    "license": "「小野市ホームページ」に掲載されている個々の情報（文章,写真,イラストなど）は,著作権の対象となっています。また、「小野市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ono-hyogo-yosan-setsumei-r3/r3shuo-ming-zi-liao.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.hyogo.jp/material/files/group/8/r3shuo-ming-zi-liao.pdf",
+    "license": "「小野市ホームページ」に掲載されている個々の情報（文章,写真,イラストなど）は,著作権の対象となっています。また、「小野市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ono-hyogo-yosan-setsumei-r2/yu-suan-ji-zhe-fa-biao-zi-liao-yi-jue-hou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.hyogo.jp/material/files/group/8/yu-suan-ji-zhe-fa-biao-zi-liao-yi-jue-hou.pdf",
+    "license": "「小野市ホームページ」に掲載されている個々の情報（文章,写真,イラストなど）は,著作権の対象となっています。また、「小野市ホームページ」全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/tokamachi-yosan-setsumei-r8/R8setumeisiryou_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tokamachi.lg.jp/material/files/group/5/R8setumeisiryou_2.pdf",
+    "license": "十日町市公式ホームページに掲載されている個々の情報（文字、イラスト、写真など）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用などをすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tokamachi-yosan-setsumei-r7/R7tokamachishiyosansetsumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tokamachi.lg.jp/material/files/group/5/R7tokamachishiyosansetsumei.pdf",
+    "license": "十日町市公式ホームページに掲載されている個々の情報（文字、イラスト、写真など）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用などをすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tokamachi-yosan-setsumei-r6/R6setumeisiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tokamachi.lg.jp/material/files/group/5/R6setumeisiryou.pdf",
+    "license": "十日町市公式ホームページに掲載されている個々の情報（文字、イラスト、写真など）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用などをすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tokamachi-yosan-setsumei-r5/14setsumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tokamachi.lg.jp/material/files/group/5/14setsumei.pdf",
+    "license": "十日町市公式ホームページに掲載されている個々の情報（文字、イラスト、写真など）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用などをすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tokamachi-yosan-setsumei-r4/R4yosannikansurusetumei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tokamachi.lg.jp/material/files/group/5/R4yosannikansurusetumei.pdf",
+    "license": "十日町市公式ホームページに掲載されている個々の情報（文字、イラスト、写真など）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用などをすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/tokamachi-yosan-setsumei-r3/R3yosansetumeisiryou.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20220707193615id_/https://www.city.tokamachi.lg.jp/material/files/group/5/R3yosansetumeisiryou.pdf",
+    "license": "十日町市公式ホームページに掲載されている個々の情報（文字、イラスト、写真など）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用などをすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nanjo-yosanbunseki-r8/R8tousyoyosanbunseki.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/R8tousyoyosanbunseki.pdf",
+    "license": "「南城市ホームページ」に掲載されている情報（文章、写真、イラスト等）は、著作権の対象となっています。また、「南城市ホームページ」自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
+  "/sources/nanjo-yosanbunseki-r7/r7tousyoyosanbunseki.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/r7tousyoyosanbunseki.pdf",
+    "license": "「南城市ホームページ」に掲載されている情報（文章、写真、イラスト等）は、著作権の対象となっています。また、「南城市ホームページ」自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
+  "/sources/nanjo-yosanbunseki-r6/R6tousyobunseki_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/R6tousyobunseki_2.pdf",
+    "license": "「南城市ホームページ」に掲載されている情報（文章、写真、イラスト等）は、著作権の対象となっています。また、「南城市ホームページ」自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
+  "/sources/nanjo-yosanbunseki-r5/R5tousyobunseki.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/R5tousyobunseki.pdf",
+    "license": "「南城市ホームページ」に掲載されている情報（文章、写真、イラスト等）は、著作権の対象となっています。また、「南城市ホームページ」自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
+  "/sources/nanjo-yosanbunseki-r4/reiwa4nendotousyoyosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/reiwa4nendotousyoyosann.pdf",
+    "license": "「南城市ホームページ」に掲載されている情報（文章、写真、イラスト等）は、著作権の対象となっています。また、「南城市ホームページ」自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
+  "/sources/nanjo-yosanbunseki-r3/reiwa3nendotousyoyosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/reiwa3nendotousyoyosann.pdf",
+    "license": "「南城市ホームページ」に掲載されている情報（文章、写真、イラスト等）は、著作権の対象となっています。また、「南城市ホームページ」自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
+  "/sources/nanao-yosangaiyou-r8/00_r8yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanao.lg.jp/kikakuzaisei/documents/00_r8yosangaiyou.pdf",
+    "license": "七尾市公式サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、七尾市公式サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。本サイトの一部または全部を著作権法の定める範囲を超え、無断で複製、翻訳、翻案、転載、出版、販売、貸与することを禁じます。本サイト内の各文書には、当該文書に適用される個別の著作権表示が付されている場合があります。当該表示にその旨が記載されている場合には、上記の使用、複製権が制限されることがありますのでご注意ください。",
+    "target": "file"
+  },
+  "/sources/nanao-yosangaiyou-r7/r7yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanao.lg.jp/kikakuzaisei/documents/r7yosangaiyou.pdf",
+    "license": "七尾市公式サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、七尾市公式サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。本サイトの一部または全部を著作権法の定める範囲を超え、無断で複製、翻訳、翻案、転載、出版、販売、貸与することを禁じます。本サイト内の各文書には、当該文書に適用される個別の著作権表示が付されている場合があります。当該表示にその旨が記載されている場合には、上記の使用、複製権が制限されることがありますのでご注意ください。",
+    "target": "file"
+  },
+  "/sources/nanao-yosangaiyou-r6/r6toushoyosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanao.lg.jp/kikakuzaisei/documents/r6toushoyosangaiyou.pdf",
+    "license": "七尾市公式サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、七尾市公式サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。本サイトの一部または全部を著作権法の定める範囲を超え、無断で複製、翻訳、翻案、転載、出版、販売、貸与することを禁じます。本サイト内の各文書には、当該文書に適用される個別の著作権表示が付されている場合があります。当該表示にその旨が記載されている場合には、上記の使用、複製権が制限されることがありますのでご注意ください。",
+    "target": "file"
+  },
+  "/sources/nanao-yosangaiyou-r5/r5toushoyosannogaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanao.lg.jp/kikakuzaisei/documents/r5toushoyosannogaiyo.pdf",
+    "license": "七尾市公式サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、七尾市公式サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。本サイトの一部または全部を著作権法の定める範囲を超え、無断で複製、翻訳、翻案、転載、出版、販売、貸与することを禁じます。本サイト内の各文書には、当該文書に適用される個別の著作権表示が付されている場合があります。当該表示にその旨が記載されている場合には、上記の使用、複製権が制限されることがありますのでご注意ください。",
+    "target": "file"
+  },
+  "/sources/nanao-yosangaiyou-r4/tater4toushoyosanogaiyou_s.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanao.lg.jp/kikakuzaisei/documents/tater4toushoyosanogaiyou_s.pdf",
+    "license": "七尾市公式サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、七尾市公式サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。本サイトの一部または全部を著作権法の定める範囲を超え、無断で複製、翻訳、翻案、転載、出版、販売、貸与することを禁じます。本サイト内の各文書には、当該文書に適用される個別の著作権表示が付されている場合があります。当該表示にその旨が記載されている場合には、上記の使用、複製権が制限されることがありますのでご注意ください。",
+    "target": "file"
+  },
+  "/sources/nanao-yosangaiyou-r3/r3yosangaiyou_s.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210511/20210511202327/https://www.city.nanao.lg.jp/kikakuzaisei/documents/r3yosangaiyou_s.pdf",
+    "license": "七尾市公式サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、七尾市公式サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。本サイトの一部または全部を著作権法の定める範囲を超え、無断で複製、翻訳、翻案、転載、出版、販売、貸与することを禁じます。本サイト内の各文書には、当該文書に適用される個別の著作権表示が付されている場合があります。当該表示にその旨が記載されている場合には、上記の使用、複製権が制限されることがありますのでご注意ください。",
+    "target": "file"
+  },
+  "/sources/nanao-yosangaiyou-r2/r2yosan-gaiyo_s.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanao.lg.jp/kikakuzaisei/documents/r2yosan-gaiyo_s.pdf",
+    "license": "七尾市公式サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、七尾市公式サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。本サイトの一部または全部を著作権法の定める範囲を超え、無断で複製、翻訳、翻案、転載、出版、販売、貸与することを禁じます。本サイト内の各文書には、当該文書に適用される個別の著作権表示が付されている場合があります。当該表示にその旨が記載されている場合には、上記の使用、複製権が制限されることがありますのでご注意ください。",
+    "target": "file"
+  },
+  "/sources/hokota-yosansho-r8/1774424979_doc_22_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hokota.lg.jp/page/page007814.html",
+    "license": "鉾田市ホームページに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合鉾田市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、鉾田市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "page"
+  },
+  "/sources/hokota-yosansho-r7/1743411409_doc_22_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hokota.lg.jp/page/page007104.html",
+    "license": "鉾田市ホームページに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合鉾田市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、鉾田市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "page"
+  },
+  "/sources/hokota-yosansho-r6/1711534424_doc_22_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hokota.lg.jp/page/page006404.html",
+    "license": "鉾田市ホームページに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合鉾田市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、鉾田市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "page"
+  },
+  "/sources/hokota-yosansho-r5/1679991889_doc_23_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hokota.lg.jp/page/page005551.html",
+    "license": "鉾田市ホームページに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合鉾田市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、鉾田市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "page"
+  },
+  "/sources/hokota-yosansho-r4/1648607300_doc_22_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hokota.lg.jp/page/page004744.html",
+    "license": "鉾田市ホームページに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合鉾田市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、鉾田市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "page"
+  },
+  "/sources/hokota-yosansho-r3/1617014596_doc_22_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hokota.lg.jp/page/page003872.html",
+    "license": "鉾田市ホームページに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合鉾田市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、鉾田市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "page"
+  },
+  "/sources/hokota-yosansho-r2/1585018800_doc_22_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hokota.lg.jp/page/page002723.html",
+    "license": "鉾田市ホームページに掲載されている文書・写真・イラスト・ソフトウェア等（以下「コンテンツ」）に関する著作権は、特に表示のない場合鉾田市に帰属しており、これらのコンテンツは著作権法および国際条約により保護されております。利用の方は、本掲載内容の全部または一部について、鉾田市の事前の許可なく私的利用および著作権法で認められた利用範囲を超えて使用することはできません。",
+    "target": "page"
+  },
+  "/sources/kainan-yosan-gaiyo-keisu-r8/r8yosangaiyo_keisu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kainan.lg.jp/kakubusho/soumubu/kikakuzaiseika/oshirase/zaisei/yosan/7942.html",
+    "license": "海南市公式ホームページにおいて公開している情報に関する著作権は、一部の画像や外部提供物、オープンデータ等を除き、和歌山県海南市南赤坂11番地、海南市に属しています。いかなる者であっても、海南市ホームページの譲渡、改竄、毀損、滅失および虚偽の情報提供、通信を阻害する行為、海南市インターネットシステム全体に損害または不利益を及ぼす行為を行ってはなりません。海南市ホームページは、海南市についての必要な情報を即座に入手できる環境の整備、および行政サービスの向上を目的としたものです。日本国内、関係各国の法律法令を遵守するとともに、著作権をはじめとする知的所有権の侵害に対して、海南市の持つ知的所有権を確保し、その権利を保護します。",
+    "target": "page"
+  },
+  "/sources/kainan-yosan-gaiyo-keisu-r7/r7yosangaiyo_keisu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kainan.lg.jp/kakubusho/soumubu/kikakuzaiseika/oshirase/zaisei/yosan/7021.html",
+    "license": "海南市公式ホームページにおいて公開している情報に関する著作権は、一部の画像や外部提供物、オープンデータ等を除き、和歌山県海南市南赤坂11番地、海南市に属しています。いかなる者であっても、海南市ホームページの譲渡、改竄、毀損、滅失および虚偽の情報提供、通信を阻害する行為、海南市インターネットシステム全体に損害または不利益を及ぼす行為を行ってはなりません。海南市ホームページは、海南市についての必要な情報を即座に入手できる環境の整備、および行政サービスの向上を目的としたものです。日本国内、関係各国の法律法令を遵守するとともに、著作権をはじめとする知的所有権の侵害に対して、海南市の持つ知的所有権を確保し、その権利を保護します。",
+    "target": "page"
+  },
+  "/sources/kainan-yosan-gaiyo-keisu-r6/r6yosangaiyo_keisu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kainan.lg.jp/kakubusho/soumubu/kikakuzaiseika/oshirase/zaisei/yosan/6110.html",
+    "license": "海南市公式ホームページにおいて公開している情報に関する著作権は、一部の画像や外部提供物、オープンデータ等を除き、和歌山県海南市南赤坂11番地、海南市に属しています。いかなる者であっても、海南市ホームページの譲渡、改竄、毀損、滅失および虚偽の情報提供、通信を阻害する行為、海南市インターネットシステム全体に損害または不利益を及ぼす行為を行ってはなりません。海南市ホームページは、海南市についての必要な情報を即座に入手できる環境の整備、および行政サービスの向上を目的としたものです。日本国内、関係各国の法律法令を遵守するとともに、著作権をはじめとする知的所有権の侵害に対して、海南市の持つ知的所有権を確保し、その権利を保護します。",
+    "target": "page"
+  },
+  "/sources/kainan-yosan-gaiyo-keisu-r5/r5yosangaiyo_keisu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kainan.lg.jp/kakubusho/soumubu/kikakuzaiseika/oshirase/zaisei/yosan/5143.html",
+    "license": "海南市公式ホームページにおいて公開している情報に関する著作権は、一部の画像や外部提供物、オープンデータ等を除き、和歌山県海南市南赤坂11番地、海南市に属しています。いかなる者であっても、海南市ホームページの譲渡、改竄、毀損、滅失および虚偽の情報提供、通信を阻害する行為、海南市インターネットシステム全体に損害または不利益を及ぼす行為を行ってはなりません。海南市ホームページは、海南市についての必要な情報を即座に入手できる環境の整備、および行政サービスの向上を目的としたものです。日本国内、関係各国の法律法令を遵守するとともに、著作権をはじめとする知的所有権の侵害に対して、海南市の持つ知的所有権を確保し、その権利を保護します。",
+    "target": "page"
+  },
+  "/sources/tonami-yosan-setsumeisho-r8/令和8年度当初予算　予算に関する説明書（一般会計）.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tonami.lg.jp/info/86552p/",
+    "license": "市ホームページに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として砺波市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、市ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市の許可なく当サイトに掲載されている文書・写真等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/tonami-yosan-setsumeisho-r7/000_予算に関する説明書★最終2.12_軽量.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tonami.lg.jp/info/77783p/",
+    "license": "市ホームページに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として砺波市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、市ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市の許可なく当サイトに掲載されている文書・写真等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/tonami-yosan-setsumeisho-r6/⑤R6当初予算に関する説明書（圧縮）.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tonami.lg.jp/info/68008p/",
+    "license": "市ホームページに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として砺波市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、市ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市の許可なく当サイトに掲載されている文書・写真等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/tonami-yosan-setsumeisho-r5/☆（印刷原稿）R5予算に関する説明書.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tonami.lg.jp/info/57364p/",
+    "license": "市ホームページに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として砺波市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、市ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市の許可なく当サイトに掲載されている文書・写真等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/tonami-yosan-setsumeisho-r4/⑤R4当初予算案に関する説明書（最終）.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tonami.lg.jp/info/41234p/",
+    "license": "市ホームページに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として砺波市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、市ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市の許可なく当サイトに掲載されている文書・写真等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/tonami-yosan-setsumeisho-r3/doc_5.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210813/20210811042550/https://www.city.tonami.toyama.jp/info/1613957635.html",
+    "license": "市ホームページに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として砺波市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、市ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市の許可なく当サイトに掲載されている文書・写真等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
   "/sources/miyoshi-hiroshima-yosan-setsumeisho-r8/31569.pdf": {
     "mode": "origin",
     "href": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/31569.pdf",

@@ -3711,6 +3711,39 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     { srcId: "nichinan-yosan-gaiyou-r6", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
     { srcId: "nichinan-yosansho-r5", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
     { srcId: "nichinan-yosansho-r4", muniCode: "452041", muniName: "日南市", prefName: "宮崎県", isPref: false },
+    // ---- 第93巡（2026-10-26・§13-108） ----
+    // ⚠ 小野 R2 は歳入の款名が -layout で崩れる ⇒ textSource raw
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ono-hyogo-yosan-setsumei-${fy}`, muniCode: "282189", muniName: "小野市", prefName: "兵庫県", isPref: false,
+    })),
+    // ⚠ 十日町は R7 骨格 ⇒ R8 は前年度列が骨格＋肉付（prevBasis 補正後）。R3 は Wayback。R2 は unrecordable.ts
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `tokamachi-yosan-setsumei-${fy}`, muniCode: "152102", muniName: "十日町市", prefName: "新潟県", isPref: false,
+    })),
+    // ⚠ 南城 R2 は廃止款の行を読めない（unrecordable.ts）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `nanjo-yosanbunseki-${fy}`, muniCode: "472158", muniName: "南城市", prefName: "沖縄県", isPref: false,
+    })),
+    // ⚠ 七尾は R6 骨格（能登半島地震）⇒ R7 に prevNote。R3 は WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nanao-yosangaiyou-${fy}`, muniCode: "172022", muniName: "七尾市", prefName: "石川県", isPref: false,
+    })),
+    // ⚠ 菊池は R7・R3 骨格 ⇒ R8・R4 に prevNote。R3（スキャン）・R2（予算書なし）は unrecordable.ts
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `kikuchi-yosansho-${fy}`, muniCode: "432105", muniName: "菊池市", prefName: "熊本県", isPref: false,
+    })),
+    // ⚠ 鉾田は R6・R5・R3・R2 が decodeGarble。R7 は2回否決の後に可決・R4 は修正可決。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hokota-yosansho-${fy}`, muniCode: "082341", muniName: "鉾田市", prefName: "茨城県", isPref: false,
+    })),
+    // ⚠ 海南は R7 骨格 ⇒ R8 に prevNote。R4・R3 は GARBLE_CHAR_MAP の追加待ち。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `kainan-yosan-gaiyo-keisu-${fy}`, muniCode: "302023", muniName: "海南市", prefName: "和歌山県", isPref: false,
+    })),
+    // ⚠ 砺波 R3 は WARP・R2 は説明書を掲載していない（unrecordable.ts）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `tonami-yosan-setsumeisho-${fy}`, muniCode: "162086", muniName: "砺波市", prefName: "富山県", isPref: false,
+    })),
     // ---- 第92巡（2026-10-26・§13-107） ----
     // ⚠ 三次は R6・R5・R3・R2 が歳入見開き。R5・H31 骨格 ⇒ R6・R2 に prevNote（前年度列は骨格の当初）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

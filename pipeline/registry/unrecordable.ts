@@ -2866,4 +2866,59 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://web.archive.org/web/20210921150404/https://www.city.iwakura.aichi.jp/0000004141.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-107",
   },
+  {
+    // 十日町市（152102）R2。説明資料（Wayback 20220709224717）の歳入款別集計表は廃止款の行が「廃科目 自動車取得税交付金 0 / 48,000 皆減」で、
+    // 行頭の「廃科目」が kofu-yosansho の廃止マーカーの語彙に無い。`detailRowsAfterKan` を付けると捨てられて前年度 Σ が −48,000 割れ、外すと款名が `廃科目自動車取得税交付金` になる（§13-108）。
+    code: "152102", name: "十日町市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "歳入の表で、廃止された款の行に付いている印を今の読み取りの仕組みが知らず、その款を正しく読み取れない。",
+    url: "https://web.archive.org/web/20251008221725/https://www.city.tokamachi.lg.jp/soshiki/somubu/zaiseika/3/gyomu/1582095913815.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
+  },
+  {
+    // 南城市（472158）R2。「予算分析」（/userfiles/files/zaiseika00472/2020tosyo.pdf）p.1 の歳入の末尾に、番号も印も無い廃止款の行
+    // 「自 動 車 取 得 税 交 付 金 依存財源 0 19,192 △ 19,192 △ 100.0」がある。比較の負号が数字から空白で離れていて廃止款の判定に当たらず行ごと落ち、
+    // 歳入の前年度 Σ が −19,192 になる（§13-108）。
+    code: "472158", name: "南城市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "歳入の表で、廃止された款の行に款番号も印も無く、今の読み取りの仕組みではこの行を款として拾えない。",
+    url: "https://www.city.nanjo.okinawa.jp/shisei/zaisei/yosan/",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
+  },
+  {
+    // 菊池市（432105）R3。予算書は現行サイトから消え、WARP（20211207141956・/dl?q=86851_filelib_e931ceea779925988acf1c205cd899a1.pdf・284p）の写しはスキャン画像（フォント0）。
+    code: "432105", name: "菊池市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason: "予算書は紙をスキャンした画像で文字の情報が無い（発行元のサイトからも消えている）。",
+    url: "https://warp.ndl.go.jp/20211209/20211207141956/https://www.city.kikuchi.lg.jp/q/aview/281/25061.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
+  },
+  {
+    // 菊池市（432105）R2。当時の財政一覧（WARP /q/list/281.html の 2020-03〜2021-03）に予算書のページが無く、予算書ページが初めて出るのは R3（2021-03-22）。
+    // 「今年の仕事」R2 は歳入が財源区分別で款別でない（§13-108）。
+    code: "432105", name: "菊池市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "予算書がウェブに掲載されていない。市民向けの予算説明書は歳入を款別でなく財源の区分別にまとめている。",
+    url: "https://www.city.kikuchi.lg.jp/article/list/1271.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
+  },
+  {
+    // 海南市（302023）R2。予算ページは WARP 2020-09-07 収集の財政ページには無く、2021-06-09 収集で初めて現れる（その時点で令和3年度だけ）（§13-108）。
+    code: "302023", name: "海南市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material"],
+    reason: "令和2年度の当初予算の資料は、発行元のウェブサイトに掲載されたことが無い（予算のページは令和3年度から）。",
+    url: "https://www.city.kainan.lg.jp/shiseijoho/gyozaisei/yosan.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
+  },
+  {
+    // 砺波市（162086）R2。年度ページ（WARP 20200510084235 の info/1581991265.html）に予算に関する説明書が無く（①骨子・②概要・③施策別ダイジェスト・④重点施策のみ）、
+    // その4本の PDF も WARP・Wayback に捕捉が無い（§13-108）。
+    code: "162086", name: "砺波市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material"],
+    reason: "令和2年度は予算に関する説明書が掲載されておらず、掲載されていた概要などの資料も発行元から消えて、魚拓にも残っていない。",
+    url: "https://warp.ndl.go.jp/20200512/20200510084235/https://www.city.tonami.toyama.jp/info/1581991265.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
+  },
 ];

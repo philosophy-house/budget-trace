@@ -475,6 +475,14 @@ const MUNI_SLUGS: Record<string, string> = {
   "222241": "kikugawa",
   "052027": "noshiro",
   "232289": "iwakura",
+  "282189": "ono-hyogo", // ⚠ 福井県大野市などと区別
+  "152102": "tokamachi",
+  "472158": "nanjo",
+  "172022": "nanao",
+  "432105": "kikuchi",
+  "082341": "hokota",
+  "302023": "kainan",
+  "162086": "tonami",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",

@@ -590,6 +590,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "152102": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "歳入の表で、廃止された款の行に付いている印を今の読み取りの仕組みが知らず、その款を正しく読み取れない。",
+        "checkedOn": "2026-10-26"
+      }
+    ]
+  },
   "152226": {
     "budget": [
       {
@@ -614,6 +623,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成26年度・平成25年度",
         "reason": "議案概要の「歳入 款別構成」は、款10 地方交付税の金額が原典のテキスト層でセル内2行に分断されており（21 400 ＋ ,400,000）、歳入Σが 21,399,979千円（H25 は 21,649,979千円）不足する。既存の joinWrappedAmounts は末尾がカンマのトークンを前提にしているので効かない。歳出側は健全。H24 以前の議案概要には款別構成の表そのものが無い（H24〜H18 を全部取って実測）。R8〜H27 は同じ資料で収録済み。",
         "checkedOn": "2026-08-23"
+      }
+    ]
+  },
+  "162086": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "令和2年度は予算に関する説明書が掲載されておらず、掲載されていた概要などの資料も発行元から消えて、魚拓にも残っていない。",
+        "checkedOn": "2026-10-26"
       }
     ]
   },
@@ -1334,6 +1352,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "302023": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "令和2年度の当初予算の資料は、発行元のウェブサイトに掲載されたことが無い（予算のページは令和3年度から）。",
+        "checkedOn": "2026-10-26"
+      }
+    ]
+  },
   "302091": {
     "budget": [
       {
@@ -1610,6 +1637,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "432105": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度",
+        "reason": "予算書は紙をスキャンした画像で文字の情報が無い（発行元のサイトからも消えている）。",
+        "checkedOn": "2026-10-26"
+      },
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算書がウェブに掲載されていない。市民向けの予算説明書は歳入を款別でなく財源の区分別にまとめている。",
+        "checkedOn": "2026-10-26"
+      }
+    ]
+  },
   "432156": {
     "budget": [
       {
@@ -1797,6 +1838,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和4年度・令和3年度",
         "reason": "議会で修正して可決された予算で、予算書は原案の数字に取消線を引いて修正後の数字を重ねて印字しており、文字の情報には修正前と修正後の両方の数字が入っているため、修正後の額だけを取り出せない。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "472158": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "歳入の表で、廃止された款の行に款番号も印も無く、今の読み取りの仕組みではこの行を款として拾えない。",
+        "checkedOn": "2026-10-26"
       }
     ]
   },

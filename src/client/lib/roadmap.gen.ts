@@ -13,15 +13,15 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 574,
+  "budgetCount": 582,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4124,
-  "fileCount": 5802,
-  "archivedCount": 3035,
+  "sourceCount": 4172,
+  "fileCount": 5850,
+  "archivedCount": 3083,
   "licenseOpen": 135,
-  "licensePermission": 3897,
-  "licenseUnverified": 92,
+  "licensePermission": 3940,
+  "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
   "kofuBudgetYears": 7,
@@ -939,6 +939,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "鉾田市",
+      "code": "082341",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "小美玉市",
       "code": "082368",
       "years": 7,
@@ -1343,6 +1349,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "射水市",
       "code": "162116",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "七尾市",
+      "code": "172022",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1845,6 +1857,12 @@ export const ROADMAP_PROGRESS = {
       "range": "H28〜R7（7年度）"
     },
     {
+      "name": "小野市",
+      "code": "282189",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "丹波市",
       "code": "282235",
       "years": 7,
@@ -2337,8 +2355,20 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "十日町市",
+      "code": "152102",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "佐渡市",
       "code": "152242",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "砺波市",
+      "code": "162086",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -2559,6 +2589,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "南城市",
+      "code": "472158",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "弘前市",
       "code": "022021",
       "years": 5,
@@ -2751,6 +2787,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "菊池市",
+      "code": "432105",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
       "name": "日南市",
       "code": "452041",
       "years": 5,
@@ -2867,6 +2909,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "橿原市",
       "code": "292052",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
+    },
+    {
+      "name": "海南市",
+      "code": "302023",
       "years": 4,
       "range": "R5〜R8（4年度）"
     },
