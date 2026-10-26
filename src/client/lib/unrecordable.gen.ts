@@ -590,15 +590,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
-  "152102": {
-    "budget": [
-      {
-        "fyLabel": "令和2年度",
-        "reason": "歳入の表で、廃止された款の行に付いている印を今の読み取りの仕組みが知らず、その款を正しく読み取れない。",
-        "checkedOn": "2026-10-26"
-      }
-    ]
-  },
   "152188": {
     "budget": [
       {
@@ -787,15 +778,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和5年度・令和4年度・令和3年度・令和2年度・平成31年度・平成30年度",
         "reason": "予算説明書が R5 はスキャン＋OCR で、-layout は数字の並びが崩れ -raw は1文字ずつ空白区切り（6 7 , 1 3 5 , 9 6 2）になるため金額として読めず、款名にも OCR 誤りがある（利子割交付金 → 利 子 割 父 『 付 金）。R4 以前はテキスト層が無い（CCITT の画像のみ）。年度ページ本文には HTML の款別表があるが金額が「634億3,349万5千円」形式で既存パーサでは読めず、さらに R1 の前年度列は原典自身が「当初＋6月補正」と注記している（H30 が骨格予算）。R8・R7・R6 は健全な版で収録済み。",
         "checkedOn": "2026-08-23"
-      }
-    ]
-  },
-  "212105": {
-    "budget": [
-      {
-        "fyLabel": "令和8年度",
-        "reason": "歳入の表で、ある款の金額（100千円）が行の先頭に来ており、今の読み取りの仕組みがこれを款の番号と取り違えるため、正しく読み取れない。",
-        "checkedOn": "2026-10-26"
       }
     ]
   },
@@ -1403,11 +1385,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "令和2年度の当初予算の資料は、発行元のサイトにも、国立国会図書館が2020年に収集した写しにも見当たらない（予算のページは令和3年度の分から）。",
         "checkedOn": "2026-10-26"
-      },
-      {
-        "fyLabel": "令和4年度・令和3年度",
-        "reason": "予算の概要は文字の対応表が埋め込まれておらず、今の読み取りの仕組みが対応している文字の範囲では表を復元できない（読み取りの仕組みに文字を足せば読める見込み）。",
-        "checkedOn": "2026-10-26"
       }
     ]
   },
@@ -1909,15 +1886,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
-  "472158": {
-    "budget": [
-      {
-        "fyLabel": "令和2年度",
-        "reason": "歳入の表で、廃止された款の行に款番号も印も無く、今の読み取りの仕組みではこの行を款として拾えない。",
-        "checkedOn": "2026-10-26"
-      }
-    ]
-  },
   "082015": {
     "budget": [
       {
@@ -1982,15 +1950,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
-  "082121": {
-    "budget": [
-      {
-        "fyLabel": "令和2年度",
-        "reason": "歳入の表で、廃止された款の行に印が付き本年度の欄が空いており、今の読み取りの仕組みではこの行の金額を正しい列に読み取れない。",
-        "checkedOn": "2026-10-26"
-      }
-    ]
-  },
   "082198": {
     "budget": [
       {
@@ -2038,15 +1997,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度・令和2年度",
         "reason": "予算書は紙をスキャンした画像の PDF。予算資料の款別の比較表は歳入と歳出が1ページに横に並んだ回転したページで、こちらの抽出処理では左右を分けられない。",
         "checkedOn": "2026-10-22"
-      }
-    ]
-  },
-  "032026": {
-    "budget": [
-      {
-        "fyLabel": "令和3年度",
-        "reason": "予算書は文字が図形になっていて読み取れず、予算の資料は文字の対応表が埋め込まれていないため、今の読み取りの仕組みが対応していない文字があって表を復元できない。",
-        "checkedOn": "2026-10-26"
       }
     ]
   },

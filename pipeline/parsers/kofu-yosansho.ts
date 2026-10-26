@@ -464,6 +464,23 @@ interface Options {
    */
   kanNoless?: boolean;
   /**
+   * **原典の表に款番号が1つも無い**（2026-10-26・恵那 R8・#404）。行頭の整数を款番号として読まない（lead を立てない）。
+   * 恵那 R8 は環境性能割交付金の当年度が象徴計上 `100`（千円）で、款名が上下に分かれた「名前欄の空いた金額行」の先頭に来るため、
+   * lead が `100` を款番号と読んで `100 環境性能割交付金 40,700 / −40,600` になり Σ が割れていた（大声で落ちる側）。
+   * ⚠ `kanNoless` とは別にした — `kanNoless` を使う既存の様式（目黒・葛飾・墨田など）には款番号つきの行が混ざり、
+   *   kanNoless で一律に lead を止めると138ソースが「款行が1件も抽出できませんでした」で落ちた（再パースで実測）。
+   * ⚠ `kanNoParenthesized`（括弧付き款番号の様式用）を流用しない。`kanNoless` と組み合わせて使う。
+   */
+  kanNoNumbers?: boolean;
+  /**
+   * **款番号も印も無く、比較の負号が数字から空白で離れて印字される廃止款**の款名（2026-10-26・南城 R2・#404）:
+   *   `自 動 車 取 得 税 交 付 金 依存財源      0    19,192    △ 19,192    △ 100.0`
+   * AMOUNT_RE は空白を挟んだ負号を落とすので「当年度 0・比較 △前年度額」の算術（zeroCurAbolished）に当たらず、行ごと落ちていた
+   * （前年度 Σ −19,192 は warning 止まり）。ここに書いた款名（空白を詰めた前方一致）の行だけ、離れた負号を字面で確かめて廃止款として読む。
+   * ⚠ 一般化しない — 内数の行（`うち臨時財政対策債 0 262,000 △ 262,000`）や性質別の行も同じ字面になり、許すと11ソースで偽の廃止款が湧いた（実測）。
+   */
+  abolishedKanNames?: { revenue?: string[]; expenditure?: string[] };
+  /**
    * **款名の先頭から落とす1文字**（正規表現の文字クラスの中身）。
    * 表の左端に**縦書きの表側ラベル**が置かれ、`-layout` で**款名の頭に1文字だけ紛れ込む**様式のため
    * （岡山: `歳 ゴルフ場利用税交付金` `入 使用料及び手数料` `出 教育費` — 毎年同じ4行で必発）。
@@ -712,8 +729,9 @@ const toHalfDigits = (s: string): string =>
  * ⚠ **`△` は負号にも使われる**が、この正規表現は**行頭かつ款番号が取れなかった行**にしか当たらない
  * （`abolished` の条件が `!lead`）ので、金額の `△ 1,234` を巻き込まない。
  */
+// ⚠ **`廃科目` も足した**（2026-10-26・十日町 R2 `廃科目 自動車取得税交付金 0 0.0 48,000 △ 48,000 皆減`・#404）。`廃款` と同じ語の印。
 const ABOLISHED_MARK_RE =
-  /^\s*(?:廃款|廃止(?=[\s　])|廃(?=[\s　])|[（(]\s*廃\s*[）)]|[△▲〇○×✕✖✗✘☓xX＊*])\s*[.．]?/;
+  /^\s*(?:廃科目|廃款|廃止(?=[\s　])|廃(?=[\s　])|[（(]\s*廃\s*[）)]|[△▲〇○×✕✖✗✘☓xX＊*])\s*[.．]?/;
 
 /**
  * **裸の廃止マーカー**（`廃 自動車取得税交付金`）を **raw の行**で見分けるための正規表現。
@@ -725,6 +743,13 @@ const ABOLISHED_MARK_RE =
  * ⚠ **検出側と掃除側で見ている文字列が違う**のが事故の元（§9c の「掃除側と検出側の間でも揺れる」）。
  */
 const BARE_ABOLISHED_MARK_RE = /^\s*廃(?:止)?[\s　]/;
+
+/**
+ * **語の廃止マーカー**（`廃科目` `廃款` `廃止 `）。`detailRowsAfterKan` の内訳の読み飛ばしを止める印に使う（2026-10-26・十日町 R2・#404）。
+ * 十日町は市債の内訳（`① 公共事業等債`…）の直後に `廃科目 自動車取得税交付金 0 / 48,000 皆減` が来て、内訳として捨てられていた
+ * （前年度 Σ −48,000）。⚠ 記号の印（`△` `○` など）は内訳の行頭にも出うるので入れない — 語の印だけ。
+ */
+const WORD_ABOLISHED_MARK_RE = /^\s*(?:廃科目|廃款|廃止(?=[\s　]))/;
 
 /**
  * **末尾型の廃止マーカー**（`自動車取得税交付金(廃款)   -   110,000   △110,000`・2026-09-09・小山 R2）。
@@ -975,6 +1000,8 @@ function parseKanPage(
     (side === "revenue" ? opts.kanNameContinues?.revenue : opts.kanNameContinues?.expenditure) ?? [],
   );
   const headerRe = extraHeader ? new RegExp(`${KAN_HEADER_RE.source}|${extraHeader}`) : KAN_HEADER_RE;
+  // 負号が離れた廃止款として読む款名（Options.abolishedKanNames 参照）
+  const abolishedNames = (side === "revenue" ? opts.abolishedKanNames?.revenue : opts.abolishedKanNames?.expenditure) ?? [];
   // 廃止款で下段を待つ款名（Options.abolishedAwaitTail 参照）
   const abolishedTails = new Set(
     (side === "revenue" ? opts.abolishedAwaitTail?.revenue : opts.abolishedAwaitTail?.expenditure) ?? [],
@@ -1580,7 +1607,8 @@ function parseKanPage(
     const rawForLead = opts.kanNoCircled
       ? raw.replace(/^(\s*[○◎●]*\s*)([\u2460-\u2473\u3251-\u325f\u32b1-\u32bf])/, (_m, pre: string, c: string) => pre + circledToDigits(c))
       : raw;
-    const lead = rawForLead.match(
+    // **行頭の整数を款番号と読まない**（Options.kanNoNumbers 参照・恵那 R8・#404）
+    const lead = opts.kanNoNumbers ? null : rawForLead.match(
       opts.kanNoParenthesized
         ? /^\s*[○◎●]*\s*[(（]\s*(0?[1-9]\d*)\s*[)）](?![\d,])/ // 括弧付き款番号（Options.kanNoParenthesized 参照・福山）
         : /^\s*[○◎●]*\s*(0?[1-9]\d*)(?![\d,])/,
@@ -1602,7 +1630,7 @@ function parseKanPage(
     if (lead && /^[.．]\d+\s*[%％]/.test(rawForLead.slice(lead[0].length))) continue;
     // 款の内訳の行（Options.detailRowsAfterKan 参照）。款番号のある行が来るまで捨てる
     if (inDetail) {
-      if (!lead) continue;
+      if (!lead && !WORD_ABOLISHED_MARK_RE.test(raw)) continue;
       inDetail = false;
     }
     // **款名末尾の脚注番号 `(※1)` を金額化の前に落とす**（2026-09-10・栃木）。
@@ -1708,7 +1736,12 @@ function parseKanPage(
       (ints.length === 3 || (ints.length === 4 && ints[3] === "0")) &&
       ints[0]!.replace(/[△▲,]/g, "") === "0" &&
       !/^[△▲]/.test(ints[1]!) &&
-      /^[△▲]/.test(ints[2]!) &&
+      // 負号が数字から空白で離れる様式（2026-10-26・南城 R2 `… 0  19,192  △ 19,192  △ 100.0`・#404）では AMOUNT_RE が
+      // 負号を落とすので、字面で「△＋空白＋3番目」を確かめる。⚠ **款名を宣言したときだけ**（Options.abolishedKanNames 参照）—
+      //   一般に許すと `うち臨時財政対策債 0 262,000 △ 262,000` のような内数の行や性質別の行まで廃止款として湧く（11ソースで実測）。
+      (/^[△▲]/.test(ints[2]!) ||
+        (abolishedNames.some((n) => namePart.replace(/[\s　]/g, "").startsWith(n)) &&
+          new RegExp(`[△▲][\\s　]+${ints[2]!.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\d,])`).test(rest))) &&
       ints[2]!.replace(/[△▲,]/g, "") === ints[1]!.replace(/,/g, "") &&
       ints[1]!.replace(/,/g, "") !== "0";
     // **当年度セルが空欄**の同型（2026-09-28・糸島 R8・一関 R2・第49巡）:
@@ -1717,10 +1750,13 @@ function parseKanPage(
     // 条件は上と同じ厳しさ（款名が同じ行・2番目が負号つきで絶対値が1番目と一致・0 でない）。
     const esc = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     // ⚠ 列位置を直接指定する様式（amountIntIndex）には当てない（あちらは推測を通さない設計）。
+    // ⚠ **行頭の廃止マーカーつきでも当てる**（2026-10-26・常陸太田 R2 `×自動車取得税交付金   48,000   △48,000`・#404）。
+    //   以前は `!ABOLISHED_MARK_RE.test(raw)` で除いていたため、印つきの行は abolished 分岐で当年度 48,000・前年度 −48,000 と読まれた。
+    //   ⚠ 誤検出したときの落ち方が変わる: 印つき（`＊うち臨時財政対策債 262,000 △262,000` のような）内数の行に当たると、以前は当年度 Σ が割れて
+    //   error になったが、今は当年度 0・前年度 x と読まれ前年度 Σ だけが割れる（warning 止まり）。既存全ソースに該当行は無い（再パースで実測）。
     const blankCurAbolished =
       amountIntIndex == null &&
       !lead &&
-      !ABOLISHED_MARK_RE.test(raw) &&
       !TAIL_ABOLISHED_MARK_RE.test(raw) &&
       !compact.includes("皆") &&
       hasCJKChars(namePart) &&

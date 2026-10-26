@@ -27613,6 +27613,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "十日町市公式ホームページに掲載されている個々の情報（文字、イラスト、写真など）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用などをすることは法律で禁止されています。",
     "target": "file"
   },
+  "/sources/tokamachi-yosan-setsumei-r2/R2yosansetumeisiryou.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20220709224717id_/https://www.city.tokamachi.lg.jp/material/files/group/5/R2yosansetumeisiryou.pdf",
+    "license": "十日町市公式ホームページに掲載されている個々の情報（文字、イラスト、写真など）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用などをすることは法律で禁止されています。",
+    "target": "file"
+  },
   "/sources/nanjo-yosanbunseki-r8/R8tousyoyosanbunseki.pdf": {
     "mode": "origin",
     "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/R8tousyoyosanbunseki.pdf",
@@ -27646,6 +27652,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/nanjo-yosanbunseki-r3/reiwa3nendotousyoyosann.pdf": {
     "mode": "origin",
     "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/reiwa3nendotousyoyosann.pdf",
+    "license": "「南城市ホームページ」に掲載されている情報（文章、写真、イラスト等）は、著作権の対象となっています。また、「南城市ホームページ」自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
+    "target": "file"
+  },
+  "/sources/nanjo-yosanbunseki-r2/2020tosyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nanjo.okinawa.jp/userfiles/files/zaiseika00472/2020tosyo.pdf",
     "license": "「南城市ホームページ」に掲載されている情報（文章、写真、イラスト等）は、著作権の対象となっています。また、「南城市ホームページ」自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。著作権法上認められた場合を除き、無断で転用・引用することはできません。また、当ページの内容を改変することもできません。",
     "target": "file"
   },
@@ -27754,6 +27766,18 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/kainan-yosan-gaiyo-keisu-r5/r5yosangaiyo_keisu.pdf": {
     "mode": "origin",
     "href": "https://www.city.kainan.lg.jp/kakubusho/soumubu/kikakuzaiseika/oshirase/zaisei/yosan/5143.html",
+    "license": "海南市公式ホームページにおいて公開している情報に関する著作権は、一部の画像や外部提供物、オープンデータ等を除き、和歌山県海南市南赤坂11番地、海南市に属しています。いかなる者であっても、海南市ホームページの譲渡、改竄、毀損、滅失および虚偽の情報提供、通信を阻害する行為、海南市インターネットシステム全体に損害または不利益を及ぼす行為を行ってはなりません。海南市ホームページは、海南市についての必要な情報を即座に入手できる環境の整備、および行政サービスの向上を目的としたものです。日本国内、関係各国の法律法令を遵守するとともに、著作権をはじめとする知的所有権の侵害に対して、海南市の持つ知的所有権を確保し、その権利を保護します。",
+    "target": "page"
+  },
+  "/sources/kainan-yosan-gaiyo-keisu-r4/r4yosangaiyo_keisu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kainan.lg.jp/kakubusho/soumubu/kikakuzaiseika/oshirase/zaisei/yosan/4202.html",
+    "license": "海南市公式ホームページにおいて公開している情報に関する著作権は、一部の画像や外部提供物、オープンデータ等を除き、和歌山県海南市南赤坂11番地、海南市に属しています。いかなる者であっても、海南市ホームページの譲渡、改竄、毀損、滅失および虚偽の情報提供、通信を阻害する行為、海南市インターネットシステム全体に損害または不利益を及ぼす行為を行ってはなりません。海南市ホームページは、海南市についての必要な情報を即座に入手できる環境の整備、および行政サービスの向上を目的としたものです。日本国内、関係各国の法律法令を遵守するとともに、著作権をはじめとする知的所有権の侵害に対して、海南市の持つ知的所有権を確保し、その権利を保護します。",
+    "target": "page"
+  },
+  "/sources/kainan-yosan-gaiyo-keisu-r3/r3yosangaiyo_keisu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kainan.lg.jp/kakubusho/soumubu/kikakuzaiseika/oshirase/zaisei/yosan/r3yosansho.html",
     "license": "海南市公式ホームページにおいて公開している情報に関する著作権は、一部の画像や外部提供物、オープンデータ等を除き、和歌山県海南市南赤坂11番地、海南市に属しています。いかなる者であっても、海南市ホームページの譲渡、改竄、毀損、滅失および虚偽の情報提供、通信を阻害する行為、海南市インターネットシステム全体に損害または不利益を及ぼす行為を行ってはなりません。海南市ホームページは、海南市についての必要な情報を即座に入手できる環境の整備、および行政サービスの向上を目的としたものです。日本国内、関係各国の法律法令を遵守するとともに、著作権をはじめとする知的所有権の侵害に対して、海南市の持つ知的所有権を確保し、その権利を保護します。",
     "target": "page"
   },
@@ -27869,6 +27893,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "mode": "origin",
     "href": "https://www.city.hioki.kagoshima.jp/documents/939/r2-tousyo.pdf",
     "license": "「日置市ホームページ」に掲載されている個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、「日置市ホームページ」全体も編集著作物として著作権の対象となり、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/ena-yosan-shiryo-r8/156_R8-yosanshiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ena.lg.jp/material/files/group/3/156_R8-yosanshiryou.pdf",
+    "license": "当ウェブサイトに掲載されている文書や画像などの各ファイルとその内容に関する諸権利は、原則として恵那市に帰属し、法律等によって保護されています。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、恵那市の許可なく当ウェブサイトに掲載されている文書、画像などを無断使用、複製、転載、販売、改変、印刷配布することを禁止します。",
     "target": "file"
   },
   "/sources/ena-yosan-shiryo-r7/R7yosanshiryou.pdf": {
@@ -28015,6 +28045,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は常陸太田市に帰属します。また、外部委託先等の制作による著作物など、常陸太田市以外に著作者が存在する場合は、著作権は各著作者に帰属することになりますので転載することを禁じます。ただし、私的使用の範囲内において、ダウンロードしたりプリントアウトしたりすることは問題ありません。",
     "target": "file"
   },
+  "/sources/hitachiota-yosansho-r2/1584924014_doc_32_0.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20200404/20200404061851/https://www.city.hitachiota.ibaraki.jp/data/doc/1584924014_doc_32_0.pdf",
+    "license": "本サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は常陸太田市に帰属します。また、外部委託先等の制作による著作物など、常陸太田市以外に著作者が存在する場合は、著作権は各著作者に帰属することになりますので転載することを禁じます。ただし、私的使用の範囲内において、ダウンロードしたりプリントアウトしたりすることは問題ありません。",
+    "target": "file"
+  },
   "/sources/miyako-yosansho-r8/01_ippanR8.pdf": {
     "mode": "origin",
     "href": "https://www.city.miyako.iwate.jp/gyosei/gyoseijoho/gyozaisei/3/5/10746.html",
@@ -28042,6 +28078,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/miyako-yosansho-r2/01_ippan_12874392.pdf": {
     "mode": "origin",
     "href": "https://www.city.miyako.iwate.jp/gyosei/gyoseijoho/gyozaisei/3/5/4615.html",
+    "license": "本サイトに掲載している情報は著作権の対象になっております。著作権は原則として宮古市が所有しておりますが、コンテンツ内の文書、画像、イラストなどについて、市以外の第三者が著作権を有する場合もあります。",
+    "target": "page"
+  },
+  "/sources/miyako-yosan-shiryou-r3/01_toushoyosan_siryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miyako.iwate.jp/gyosei/gyoseijoho/gyozaisei/3/5/4618.html",
     "license": "本サイトに掲載している情報は著作権の対象になっております。著作権は原則として宮古市が所有しておりますが、コンテンツ内の文書、画像、イラストなどについて、市以外の第三者が著作権を有する場合もあります。",
     "target": "page"
   },
