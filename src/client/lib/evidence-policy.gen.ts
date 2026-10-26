@@ -28287,39 +28287,39 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   },
   "/sources/togo-yosansho-r8/01_gian202613.pdf": {
     "mode": "origin",
-    "href": "https://www.town.aichi-togo.lg.jp/material/files/group/6/01_gian202613.pdf",
+    "href": "https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/13390.html",
     "license": "東郷町ホームページに掲載している文章、画像などの著作権は、東郷町に帰属します。また、リンク先の著作権等はそれぞれの管理者の定めるところによります。東郷町ホームページの全部もしくは一部の情報について、「私的使用」や「引用」など著作権法上認められている場合を除き、東郷町の許可なく複製・転用することはできません。東郷町ホームページの内容を引用等したい場合は、企画部情報広報課広報広聴係までお問い合わせください。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/togo-yosansho-r7/07ippannkaikei.pdf": {
     "mode": "origin",
-    "href": "https://www.town.aichi-togo.lg.jp/material/files/group/6/07ippannkaikei.pdf",
+    "href": "https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/12471.html",
     "license": "東郷町ホームページに掲載している文章、画像などの著作権は、東郷町に帰属します。また、リンク先の著作権等はそれぞれの管理者の定めるところによります。東郷町ホームページの全部もしくは一部の情報について、「私的使用」や「引用」など著作権法上認められている場合を除き、東郷町の許可なく複製・転用することはできません。東郷町ホームページの内容を引用等したい場合は、企画部情報広報課広報広聴係までお問い合わせください。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/togo-yosansho-r6/06ippannkaikei-1.pdf": {
     "mode": "origin",
-    "href": "https://www.town.aichi-togo.lg.jp/material/files/group/6/06ippannkaikei-1.pdf",
+    "href": "https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/11690.html",
     "license": "東郷町ホームページに掲載している文章、画像などの著作権は、東郷町に帰属します。また、リンク先の著作権等はそれぞれの管理者の定めるところによります。東郷町ホームページの全部もしくは一部の情報について、「私的使用」や「引用」など著作権法上認められている場合を除き、東郷町の許可なく複製・転用することはできません。東郷町ホームページの内容を引用等したい場合は、企画部情報広報課広報広聴係までお問い合わせください。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/togo-yosansho-r5/R5ippan-3.pdf": {
     "mode": "origin",
-    "href": "https://www.town.aichi-togo.lg.jp/material/files/group/6/R5ippan-3.pdf",
+    "href": "https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/10955.html",
     "license": "東郷町ホームページに掲載している文章、画像などの著作権は、東郷町に帰属します。また、リンク先の著作権等はそれぞれの管理者の定めるところによります。東郷町ホームページの全部もしくは一部の情報について、「私的使用」や「引用」など著作権法上認められている場合を除き、東郷町の許可なく複製・転用することはできません。東郷町ホームページの内容を引用等したい場合は、企画部情報広報課広報広聴係までお問い合わせください。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/togo-yosansho-r4/R4ippan1-5.pdf": {
     "mode": "origin",
-    "href": "https://www.town.aichi-togo.lg.jp/material/files/group/6/R4ippan1-5.pdf",
+    "href": "https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/9633.html",
     "license": "東郷町ホームページに掲載している文章、画像などの著作権は、東郷町に帰属します。また、リンク先の著作権等はそれぞれの管理者の定めるところによります。東郷町ホームページの全部もしくは一部の情報について、「私的使用」や「引用」など著作権法上認められている場合を除き、東郷町の許可なく複製・転用することはできません。東郷町ホームページの内容を引用等したい場合は、企画部情報広報課広報広聴係までお問い合わせください。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/togo-yosan-gaiyou-r2/r2_ippan_gaiyou.pdf": {
     "mode": "origin",
-    "href": "https://www.town.aichi-togo.lg.jp/material/files/group/6/r2_ippan_gaiyou.pdf",
+    "href": "https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/6719.html",
     "license": "東郷町ホームページに掲載している文章、画像などの著作権は、東郷町に帰属します。また、リンク先の著作権等はそれぞれの管理者の定めるところによります。東郷町ホームページの全部もしくは一部の情報について、「私的使用」や「引用」など著作権法上認められている場合を除き、東郷町の許可なく複製・転用することはできません。東郷町ホームページの内容を引用等したい場合は、企画部情報広報課広報広聴係までお問い合わせください。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/ogi-yosan-gaiyou-r8/p1jkmhuc2q1re7psabdr1ich8ra4.pdf": {
     "mode": "origin",
