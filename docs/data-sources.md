@@ -16790,6 +16790,12 @@ validate error 0 / warning 0 で収録。
 - **東郷町 R3**（議会修正の案だけ）・**伊奈町 R6・R4・R3**（予算書がスキャン・概況は .doc の文章）。
 - **小城 R7・R3・R2**（歳入の款名の折返しが「上段2行」と「上段・金額行・下段」に混在。R2 は皆増・皆減の1整数行も）・**富岡 R6〜R3**（予算書はスキャン、内示資料は万円単位。`unit` に万円が無く、指定しないと 1/10 の額が Σ 差0 で通る）＝parser-unsupported。
   - 富岡を直すときの注意（偵察の実測）: 万円の資料は千円未満を丸めているので、R7・R6 と R3・R2 の境目で前年度列と ±数千円ずれる。
+  - 小城の在り処（どれも「令和N年度小城市当初予算資料」物理 p.3・歳入左／歳出右）: R7 年度ページ `https://www.city.ogi.lg.jp/main/46214.html`・PDF `https://www.city.ogi.lg.jp/site_files/file/2025/202503/p1im21pq79482165n1cdv1tsh15nl4.pdf`、
+    R3 `/main/35774.html`・`/site_files/file/2021/202102/p1eu9p76qf19buftd5qmjqqsak4.pdf`、R2 `/main/33100.html`・`/site_files/file/2020/202003/p1e434vndglkq1a731kcacr1b2v4.pdf`。
+    偵察の try-parse 案: `textSource:{revenue:"raw",expenditure:"layout"}`・`revenueCropX:{from:0,to:257}`・`expenditureCropX:{from:297,to:596}`（R8・R6〜R4 と同じ）。R7・R3 は -layout の既定なら歳入が20款で Σ が割れる、raw では R7 が逆順・R3 は順序が崩れて throw。
+  - 富岡の在り処（予算内示資料・歳入 p.3／歳出 p.4・見出し `款名称`／`【目的別】`・表の右上に `(万円)`）: R6 `https://www.city.tomioka.lg.jp/www/contents/1708472473358/files/R6yosannaiji_.pdf`、
+    R5 `…/contents/1676250662529/files/R5yosannaiji.pdf`、R4 `…/contents/1644976679121/files/R4yosannaiji.pdf`（年度ページは各 `…/contents/<番号>/index.html`）、
+    R3 は WARP `https://warp.ndl.go.jp/20230407/20230406181747/https://www.city.tomioka.lg.jp/www/contents/1613553601879/files/R3yosannaiji.pdf`。
 
 #### ライセンス
 
