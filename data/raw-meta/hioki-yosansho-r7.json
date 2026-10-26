@@ -1,0 +1,12 @@
+{
+  "sourceId": "hioki-yosansho-r7",
+  "files": [
+    {
+      "filename": "r7tousyoyosannsyo.pdf",
+      "sha256": "a8e61fdec43f8bdd3763f3c18104aa3fa94a10498887f931281cb6a532bafe7e",
+      "bytes": 1506967,
+      "fetchedAt": "2026-10-26T08:33:42.252Z",
+      "fetchedFrom": "https://www.city.hioki.kagoshima.jp/documents/939/r7tousyoyosannsyo.pdf"
+    }
+  ]
+}

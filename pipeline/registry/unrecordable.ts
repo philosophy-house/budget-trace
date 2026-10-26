@@ -2931,4 +2931,79 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.kainan.lg.jp/shiseijoho/gyozaisei/yosan.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
   },
+  {
+    // 志免町（403431）R2。議員修正案で可決（15,560,000→15,497,591）。予算書の総括（/uploaded/attachment/14476.pdf）は原案の数字に取消線を引いて修正後の数字を加筆した見え消しで、
+    // テキスト層に両方が入る。既存パーサは歳入で Σ が割れ、歳出は原案の額のまま Σ 差0 で通る（§13-109）。
+    code: "403431", name: "志免町", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "議会で修正して可決された予算で、予算書は修正前の数字に取消線を引いて修正後の数字を重ねて印字しており、文字の情報には両方の数字が入っているため、修正後の額だけを取り出せない。",
+    url: "https://www.town.shime.lg.jp/soshiki/2/zyosan2020tousho.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
+  {
+    // 南国市（392049）。財政課の担当ページ・「市政情報：財政」カテゴリに予算書・予算の概要が無く、サイト内検索「予算書」「予算の概要」も0件。
+    // 当初予算として出ているのは広報なんこく5月号の見開き「南国市の予算」（総額・財源別と性質別の円グラフ・重点施策）だけで、款別の表が無い（R8・R7・R6・R5・R3 を確認）。WARP は未確認（§13-109）。
+    code: "392049", name: "南国市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R3"],
+    categories: ["no-material", "format-mismatch"],
+    reason:
+      "款別の当初予算の資料（予算書・予算の概要）が市のウェブサイトに見当たらない。公開されているのは広報の見開き1枚で、総額と、歳入の財源別・歳出の性質別の円グラフだけで、款別の表が無い。",
+    url: "https://www.city.nankoku.lg.jp/dl/dtl.php?k=3&i=306",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
+  {
+    // 恵那市（212105）R8。「令和8年度 恵那市予算資料」（/material/files/group/3/156_R8-yosanshiryou.pdf）p.4 の歳入で、款番号の無い様式なのに、
+    // 環境性能割交付金の当年度の象徴計上 `100`（千円）が名前欄の空いた金額行の先頭に来て款番号と読まれ、Σ が当年度 +40,600・前年度 −81,300 で割れる（§13-109・#404）。
+    code: "212105", name: "恵那市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["parser-unsupported"],
+    reason:
+      "歳入の表で、ある款の金額（100千円）が行の先頭に来ており、今の読み取りの仕組みがこれを款の番号と取り違えるため、正しく読み取れない。",
+    url: "https://www.city.ena.lg.jp/shiseijoho/zaisei/5710.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
+  {
+    // 伊豆の国市（222259）R2。年度ページ（/zaimu/shisei/zaisei/r2yosan.html）は現行 404 で、Wayback（20230328063203 ほか）に残るページに載るのは
+    // 「令和2年度当初予算資料」（2020tousyoyosanngaiyou.pdf・33頁）だけ。全ページが 1bit の画像でテキスト層が無い。予算書は Wayback の CDX にも無い（§13-109）。
+    code: "222259", name: "伊豆の国市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image", "no-material"],
+    reason: "令和2年度の当初予算の資料は紙をスキャンした画像だけで文字の情報が無く、予算書は見当たらない（発行元のページも消えている）。",
+    url: "https://web.archive.org/web/20230328063203/https://www.city.izunokuni.shizuoka.jp/zaimu/shisei/zaisei/r2yosan.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
+  {
+    // 常陸太田市（082121）R2。予算書（WARP 20200404061851・/data/doc/1584924014_doc_32_0.pdf）p.22 の廃止款「×自動車取得税交付金 48,000 △48,000」は当年度欄が空で印つき。
+    // 当年度欄が空の廃止款を救う分岐は印の付いた行を対象外にしているため、当年度 48,000・前年度 −48,000 と読まれ Σ が割れる（§13-109・#404）。
+    code: "082121", name: "常陸太田市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason: "歳入の表で、廃止された款の行に印が付き本年度の欄が空いており、今の読み取りの仕組みではこの行の金額を正しい列に読み取れない。",
+    url: "https://warp.ndl.go.jp/20200404/20200404020304/https://www.city.hitachiota.ibaraki.jp/page/page006015.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
+  {
+    // 宮古市（032026）R3。予算書（/material/files/group/3/01_ippan_13092070.pdf）は本文の文字がアウトライン化されノンブルしか取れない。
+    // 当初予算（案）資料（01_toushoyosan_siryou.pdf）は ToUnicode 欠落で、`GARBLE_CHAR_MAP` に無い字（`ఙ`＝表頭「伸率」の伸）で throw する（§13-109・#404）。
+    code: "032026", name: "宮古市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["broken-text-layer", "parser-unsupported"],
+    reason: "予算書は文字が図形になっていて読み取れず、予算の資料は文字の対応表が埋め込まれていないため、今の読み取りの仕組みが対応していない文字があって表を復元できない。",
+    url: "https://www.city.miyako.iwate.jp/gyosei/gyoseijoho/gyozaisei/3/5/4618.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
+  {
+    // 高島市（252123）R2。年度ページ（/5/2/6/6742.html）の予算概要書（/material/files/group/9/02shiryo1.pdf・Title scan.xdw）はスキャン画像でテキスト層が無い。
+    // 同じページの「当初予算の概要」も画像で、記者提供資料はテキストだが款別の表を含まない（§13-109）。
+    code: "252123", name: "高島市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason: "予算概要書は紙をスキャンした画像で文字の情報が無く、文字の情報がある記者向けの資料には款別の表が無い。",
+    url: "https://www.city.takashima.lg.jp/material/files/group/9/02shiryo1.pdf",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
+  {
+    // 南砺市（162108）R8・R7。「予算の要領の公表」の当初予算書（/material/files/group/7/yosan_R8_tosyo1.pdf・yosan_R7_tosyo1.pdf・DocuWorks）は表全体が図形（ベクタ）で描かれ、
+    // 取り出せる文字は1ページ目の公表文と議決印だけ。同じ年度の「南砺市予算の概要」も全ページ画像。Wayback に捕捉なし・WARP は照会が 500 で未確認（§13-109）。
+    code: "162108", name: "南砺市", dataset: "budget", fiscalYears: ["R8", "R7"],
+    categories: ["broken-text-layer", "scanned-image"],
+    reason: "予算書の表は文字ではなく図形として描かれていて文字の情報が無く、同じ年度の予算の概要も画像だけで、款別の金額を読み取れない。",
+    url: "https://www.city.nanto.toyama.jp/soshiki/zaisei/1/2/1/index.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
 ];

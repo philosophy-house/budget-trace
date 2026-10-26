@@ -1,0 +1,12 @@
+{
+  "sourceId": "hioki-yosansho-r6",
+  "files": [
+    {
+      "filename": "r6tousho.pdf",
+      "sha256": "bffa467939dd9a18601f1dae30202dd6e5b61e318128d4cd4374c4a2e2f83040",
+      "bytes": 1909129,
+      "fetchedAt": "2026-10-26T08:33:42.822Z",
+      "fetchedFrom": "https://www.city.hioki.kagoshima.jp/documents/939/r6tousho.pdf"
+    }
+  ]
+}

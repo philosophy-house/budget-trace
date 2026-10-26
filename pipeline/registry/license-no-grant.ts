@@ -96,5 +96,9 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "石垣市", license: "Copyright (c) 2020 Ishigaki City. All Rights Reserved." },
   { who: "岩倉市", license: "Copyright © Iwakura City All Rights Reserved." },
   { who: "海南市", license: "海南市公式ホームページにおいて公開している情報に関する著作権は、一部の画像や外部提供物、オープンデータ等を除き、和歌山県海南市南赤坂11番地、海南市に属しています。いかなる者であっても、海南市ホームページの譲渡、改竄、毀損、滅失および虚偽の情報提供、通信を阻害する行為、海南市インターネットシステム全体に損害または不利益を及ぼす行為を行ってはなりません。海南市ホームページは、海南市についての必要な情報を即座に入手できる環境の整備、および行政サービスの向上を目的としたものです。日本国内、関係各国の法律法令を遵守するとともに、著作権をはじめとする知的所有権の侵害に対して、海南市の持つ知的所有権を確保し、その権利を保護します。" },
+  { who: "伊豆の国市", license: "Copyright © Izunokuni City. All Rights Reserved." },
+  { who: "五泉市", license: "Copyright (C) Gosen City , All Rights Reserved." },
+  { who: "宮古市", license: "本サイトに掲載している情報は著作権の対象になっております。著作権は原則として宮古市が所有しておりますが、コンテンツ内の文書、画像、イラストなどについて、市以外の第三者が著作権を有する場合もあります。" },
+  { who: "高島市", license: "Copyright (c) Takashima city. All Rights Reserved." },
   { who: "山武市", license: "「山武市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として山武市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
 ];
