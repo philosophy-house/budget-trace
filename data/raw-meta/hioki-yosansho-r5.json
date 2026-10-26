@@ -1,0 +1,12 @@
+{
+  "sourceId": "hioki-yosansho-r5",
+  "files": [
+    {
+      "filename": "r5yosan.pdf",
+      "sha256": "54bbf6b248fa290f66985be9c29160c7c926abe6649baf2fcb14c5122efdc71f",
+      "bytes": 2643339,
+      "fetchedAt": "2026-10-26T08:33:43.541Z",
+      "fetchedFrom": "https://www.city.hioki.kagoshima.jp/documents/939/r5yosan.pdf"
+    }
+  ]
+}

@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 582,
+  "budgetCount": 591,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4172,
-  "fileCount": 5850,
-  "archivedCount": 3083,
+  "sourceCount": 4226,
+  "fileCount": 5904,
+  "archivedCount": 3137,
   "licenseOpen": 135,
-  "licensePermission": 3940,
+  "licensePermission": 3994,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -2151,6 +2151,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "日置市",
+      "code": "462161",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "霧島市",
       "code": "462187",
       "years": 7,
@@ -2193,6 +2199,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "宮古市",
+      "code": "032026",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "花巻市",
       "code": "032051",
       "years": 6,
@@ -2225,6 +2237,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "龍ケ崎市",
       "code": "082082",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "常陸太田市",
+      "code": "082121",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -2361,6 +2379,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "五泉市",
+      "code": "152188",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "佐渡市",
       "code": "152242",
       "years": 6,
@@ -2385,6 +2409,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "恵那市",
+      "code": "212105",
+      "years": 6,
+      "range": "R2〜R7（6年度）"
+    },
+    {
       "name": "瑞穂市",
       "code": "212164",
       "years": 6,
@@ -2395,6 +2425,12 @@ export const ROADMAP_PROGRESS = {
       "code": "222241",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "伊豆の国市",
+      "code": "222259",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "春日井市",
@@ -2431,6 +2467,12 @@ export const ROADMAP_PROGRESS = {
       "code": "252115",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "高島市",
+      "code": "252123",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "福知山市",
@@ -2527,6 +2569,12 @@ export const ROADMAP_PROGRESS = {
       "code": "402184",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "志免町",
+      "code": "403431",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "長崎市",
@@ -2665,6 +2713,12 @@ export const ROADMAP_PROGRESS = {
       "code": "132187",
       "years": 5,
       "range": "R2〜R8（5年度）"
+    },
+    {
+      "name": "南砺市",
+      "code": "162108",
+      "years": 5,
+      "range": "R2〜R6（5年度）"
     },
     {
       "name": "浜松市",

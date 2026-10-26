@@ -1,0 +1,12 @@
+{
+  "sourceId": "hioki-yosansho-r3",
+  "files": [
+    {
+      "filename": "r3tousho.pdf",
+      "sha256": "c7f9c630e635b8ad0e9a5dcc79d46c184c8ca57b212f3335e938c8b17ccf0800",
+      "bytes": 2814184,
+      "fetchedAt": "2026-10-26T08:33:44.883Z",
+      "fetchedFrom": "https://www.city.hioki.kagoshima.jp/documents/939/r3tousho.pdf"
+    }
+  ]
+}

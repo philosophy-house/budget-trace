@@ -1,0 +1,12 @@
+{
+  "sourceId": "hioki-yosansho-r2",
+  "files": [
+    {
+      "filename": "r2-tousyo.pdf",
+      "sha256": "f4d179d35d649f183feed9f37f5e5f7c9d2a9a5036014e80b5e3809a11e1336c",
+      "bytes": 4454615,
+      "fetchedAt": "2026-10-26T08:33:45.739Z",
+      "fetchedFrom": "https://www.city.hioki.kagoshima.jp/documents/939/r2-tousyo.pdf"
+    }
+  ]
+}

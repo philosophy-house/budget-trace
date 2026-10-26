@@ -1,0 +1,12 @@
+{
+  "sourceId": "ena-yosan-shiryo-r2",
+  "files": [
+    {
+      "filename": "siryo.pdf",
+      "sha256": "76d7cac6c6e614ff669e2c58962b9318d9c36fa9ba92337372618d258e2c635f",
+      "bytes": 744626,
+      "fetchedAt": "2026-10-26T08:35:23.968Z",
+      "fetchedFrom": "https://www.city.ena.lg.jp/material/files/group/3/siryo.pdf"
+    }
+  ]
+}

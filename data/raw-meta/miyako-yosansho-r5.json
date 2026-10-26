@@ -1,0 +1,12 @@
+{
+  "sourceId": "miyako-yosansho-r5",
+  "files": [
+    {
+      "filename": "01_ippan.pdf",
+      "sha256": "ac3f3870c162b624aed8f62e2696eb7bb361b27b1805cd1ebcd2c763b6bd70b6",
+      "bytes": 1535532,
+      "fetchedAt": "2026-10-26T08:41:21.821Z",
+      "fetchedFrom": "https://www.city.miyako.iwate.jp/material/files/group/3/01_ippan.pdf"
+    }
+  ]
+}
