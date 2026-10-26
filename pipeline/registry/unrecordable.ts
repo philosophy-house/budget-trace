@@ -2867,27 +2867,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-107",
   },
   {
-    // 十日町市（152102）R2。説明資料（Wayback 20220709224717）の歳入款別集計表は廃止款の行が「廃科目 自動車取得税交付金 0 / 48,000 皆減」で、
-    // 行頭の「廃科目」が kofu-yosansho の廃止マーカーの語彙に無い。`detailRowsAfterKan` を付けると捨てられて前年度 Σ が −48,000 割れ、外すと款名が `廃科目自動車取得税交付金` になる（§13-108）。
-    code: "152102", name: "十日町市", dataset: "budget", fiscalYears: ["R2"],
-    categories: ["parser-unsupported"],
-    reason:
-      "歳入の表で、廃止された款の行に付いている印を今の読み取りの仕組みが知らず、その款を正しく読み取れない。",
-    url: "https://web.archive.org/web/20251008221725/https://www.city.tokamachi.lg.jp/soshiki/somubu/zaiseika/3/gyomu/1582095913815.html",
-    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
-  },
-  {
-    // 南城市（472158）R2。「予算分析」（/userfiles/files/zaiseika00472/2020tosyo.pdf）p.1 の歳入の末尾に、番号も印も無い廃止款の行
-    // 「自 動 車 取 得 税 交 付 金 依存財源 0 19,192 △ 19,192 △ 100.0」がある。比較の負号が数字から空白で離れていて廃止款の判定に当たらず行ごと落ち、
-    // 歳入の前年度 Σ が −19,192 になる（§13-108）。
-    code: "472158", name: "南城市", dataset: "budget", fiscalYears: ["R2"],
-    categories: ["parser-unsupported"],
-    reason:
-      "歳入の表で、廃止された款の行に款番号も印も無く、今の読み取りの仕組みではこの行を款として拾えない。",
-    url: "https://www.city.nanjo.okinawa.jp/shisei/zaisei/yosan/",
-    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
-  },
-  {
     // 菊池市（432105）R3。予算書は現行サイトから消え、WARP（20211207141956・/dl?q=86851_filelib_e931ceea779925988acf1c205cd899a1.pdf・284p）の写しはスキャン画像（フォント0）。
     code: "432105", name: "菊池市", dataset: "budget", fiscalYears: ["R3"],
     categories: ["scanned-image"],
@@ -2922,16 +2901,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
   },
   {
-    // 海南市（302023）R4・R3。「予算の概要（計数資料編）」（/material/files/group/5/r4yosangaiyo_keisu.pdf・r3…）は ToUnicode 欠落で、
-    // `decodeGarble`＋`decodeGarbleBand: 0x3EAC` でも `GARBLE_CHAR_MAP` に無い18字（伸・臨・時・依・存・主・～・・・①〜⑩）で throw する（§13-108・#404）。
-    code: "302023", name: "海南市", dataset: "budget", fiscalYears: ["R4", "R3"],
-    categories: ["parser-unsupported"],
-    reason:
-      "予算の概要は文字の対応表が埋め込まれておらず、今の読み取りの仕組みが対応している文字の範囲では表を復元できない（読み取りの仕組みに文字を足せば読める見込み）。",
-    url: "https://www.city.kainan.lg.jp/shiseijoho/gyozaisei/yosan.html",
-    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-108",
-  },
-  {
     // 志免町（403431）R2。議員修正案で可決（15,560,000→15,497,591）。予算書の総括（/uploaded/attachment/14476.pdf）は原案の数字に取消線を引いて修正後の数字を加筆した見え消しで、
     // テキスト層に両方が入る。既存パーサは歳入で Σ が割れ、歳出は原案の額のまま Σ 差0 で通る（§13-109）。
     code: "403431", name: "志免町", dataset: "budget", fiscalYears: ["R2"],
@@ -2952,40 +2921,12 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
   },
   {
-    // 恵那市（212105）R8。「令和8年度 恵那市予算資料」（/material/files/group/3/156_R8-yosanshiryou.pdf）p.4 の歳入で、款番号の無い様式なのに、
-    // 環境性能割交付金の当年度の象徴計上 `100`（千円）が名前欄の空いた金額行の先頭に来て款番号と読まれ、Σ が当年度 +40,600・前年度 −81,300 で割れる（§13-109・#404）。
-    code: "212105", name: "恵那市", dataset: "budget", fiscalYears: ["R8"],
-    categories: ["parser-unsupported"],
-    reason:
-      "歳入の表で、ある款の金額（100千円）が行の先頭に来ており、今の読み取りの仕組みがこれを款の番号と取り違えるため、正しく読み取れない。",
-    url: "https://www.city.ena.lg.jp/shiseijoho/zaisei/5710.html",
-    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
-  },
-  {
     // 伊豆の国市（222259）R2。年度ページ（/zaimu/shisei/zaisei/r2yosan.html）は現行 404 で、Wayback（20230328063203 ほか）に残るページに載るのは
     // 「令和2年度当初予算資料」（2020tousyoyosanngaiyou.pdf・33頁）だけ。全ページが 1bit の画像でテキスト層が無い。予算書は Wayback の CDX にも無い（§13-109）。
     code: "222259", name: "伊豆の国市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["scanned-image", "no-material"],
     reason: "令和2年度の当初予算の資料は紙をスキャンした画像だけで文字の情報が無く、予算書は見当たらない（発行元のページも消えている）。",
     url: "https://web.archive.org/web/20230328063203/https://www.city.izunokuni.shizuoka.jp/zaimu/shisei/zaisei/r2yosan.html",
-    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
-  },
-  {
-    // 常陸太田市（082121）R2。予算書（WARP 20200404061851・/data/doc/1584924014_doc_32_0.pdf）p.22 の廃止款「×自動車取得税交付金 48,000 △48,000」は当年度欄が空で印つき。
-    // 当年度欄が空の廃止款を救う分岐は印の付いた行を対象外にしているため、当年度 48,000・前年度 −48,000 と読まれ Σ が割れる（§13-109・#404）。
-    code: "082121", name: "常陸太田市", dataset: "budget", fiscalYears: ["R2"],
-    categories: ["parser-unsupported"],
-    reason: "歳入の表で、廃止された款の行に印が付き本年度の欄が空いており、今の読み取りの仕組みではこの行の金額を正しい列に読み取れない。",
-    url: "https://warp.ndl.go.jp/20200404/20200404020304/https://www.city.hitachiota.ibaraki.jp/page/page006015.html",
-    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
-  },
-  {
-    // 宮古市（032026）R3。予算書（/material/files/group/3/01_ippan_13092070.pdf）は本文の文字がアウトライン化されノンブルしか取れない。
-    // 当初予算（案）資料（01_toushoyosan_siryou.pdf）は ToUnicode 欠落で、`GARBLE_CHAR_MAP` に無い字（`ఙ`＝表頭「伸率」の伸）で throw する（§13-109・#404）。
-    code: "032026", name: "宮古市", dataset: "budget", fiscalYears: ["R3"],
-    categories: ["broken-text-layer", "parser-unsupported"],
-    reason: "予算書は文字が図形になっていて読み取れず、予算の資料は文字の対応表が埋め込まれていないため、今の読み取りの仕組みが対応していない文字があって表を復元できない。",
-    url: "https://www.city.miyako.iwate.jp/gyosei/gyoseijoho/gyozaisei/3/5/4618.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
   },
   {

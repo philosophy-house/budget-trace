@@ -16,11 +16,11 @@ export const ROADMAP_PROGRESS = {
   "budgetCount": 591,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4226,
-  "fileCount": 5904,
-  "archivedCount": 3137,
+  "sourceCount": 4233,
+  "fileCount": 5911,
+  "archivedCount": 3144,
   "licenseOpen": 135,
-  "licensePermission": 3994,
+  "licensePermission": 4001,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -807,6 +807,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "宮古市",
+      "code": "032026",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "一関市",
       "code": "032093",
       "years": 7,
@@ -893,6 +899,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "南相馬市",
       "code": "072125",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "常陸太田市",
+      "code": "082121",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1329,6 +1341,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "十日町市",
+      "code": "152102",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "村上市",
       "code": "152129",
       "years": 7,
@@ -1481,6 +1499,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "羽島市",
       "code": "212091",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "恵那市",
+      "code": "212105",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2175,6 +2199,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "南城市",
+      "code": "472158",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "北見市",
       "code": "012084",
       "years": 6,
@@ -2197,12 +2227,6 @@ export const ROADMAP_PROGRESS = {
       "code": "022039",
       "years": 6,
       "range": "R3〜R8（6年度）"
-    },
-    {
-      "name": "宮古市",
-      "code": "032026",
-      "years": 6,
-      "range": "R2〜R8（6年度）"
     },
     {
       "name": "花巻市",
@@ -2237,12 +2261,6 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "龍ケ崎市",
       "code": "082082",
-      "years": 6,
-      "range": "R3〜R8（6年度）"
-    },
-    {
-      "name": "常陸太田市",
-      "code": "082121",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -2373,12 +2391,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
-      "name": "十日町市",
-      "code": "152102",
-      "years": 6,
-      "range": "R3〜R8（6年度）"
-    },
-    {
       "name": "五泉市",
       "code": "152188",
       "years": 6,
@@ -2407,12 +2419,6 @@ export const ROADMAP_PROGRESS = {
       "code": "182079",
       "years": 6,
       "range": "R3〜R8（6年度）"
-    },
-    {
-      "name": "恵那市",
-      "code": "212105",
-      "years": 6,
-      "range": "R2〜R7（6年度）"
     },
     {
       "name": "瑞穂市",
@@ -2521,6 +2527,12 @@ export const ROADMAP_PROGRESS = {
       "code": "292028",
       "years": 6,
       "range": "R2〜R7（6年度）"
+    },
+    {
+      "name": "海南市",
+      "code": "302023",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "玉野市",
@@ -2633,12 +2645,6 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "名護市",
       "code": "472093",
-      "years": 6,
-      "range": "R3〜R8（6年度）"
-    },
-    {
-      "name": "南城市",
-      "code": "472158",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -2963,12 +2969,6 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "橿原市",
       "code": "292052",
-      "years": 4,
-      "range": "R5〜R8（4年度）"
-    },
-    {
-      "name": "海南市",
-      "code": "302023",
       "years": 4,
       "range": "R5〜R8（4年度）"
     },

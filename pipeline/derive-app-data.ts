@@ -3716,12 +3716,12 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `ono-hyogo-yosan-setsumei-${fy}`, muniCode: "282189", muniName: "小野市", prefName: "兵庫県", isPref: false,
     })),
-    // ⚠ 十日町は R7 骨格 ⇒ R8 は前年度列が骨格＋肉付（prevBasis 補正後）。R3 は Wayback。R2 は unrecordable.ts
-    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+    // ⚠ 十日町は R7 骨格 ⇒ R8 は前年度列が骨格＋肉付（prevBasis 補正後）。R3・R2 は Wayback。R2 は廃止款「廃科目」（#404）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `tokamachi-yosan-setsumei-${fy}`, muniCode: "152102", muniName: "十日町市", prefName: "新潟県", isPref: false,
     })),
-    // ⚠ 南城 R2 は廃止款の行を読めない（unrecordable.ts）
-    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+    // ⚠ 南城 R2 は負号の離れた廃止款（abolishedKanNames・#404）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `nanjo-yosanbunseki-${fy}`, muniCode: "472158", muniName: "南城市", prefName: "沖縄県", isPref: false,
     })),
     // ⚠ 七尾は R6 骨格（能登半島地震）⇒ R7 に prevNote。R3 は WARP
@@ -3736,8 +3736,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hokota-yosansho-${fy}`, muniCode: "082341", muniName: "鉾田市", prefName: "茨城県", isPref: false,
     })),
-    // ⚠ 海南は R7 骨格 ⇒ R8 に prevNote。R4・R3 は GARBLE_CHAR_MAP の追加待ち。`noDeepLink`
-    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+    // ⚠ 海南は R7・R3 骨格 ⇒ R8・R4 に prevNote。R4・R3 は decodeGarble（#404）。`noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
       srcId: `kainan-yosan-gaiyo-keisu-${fy}`, muniCode: "302023", muniName: "海南市", prefName: "和歌山県", isPref: false,
     })),
     // ⚠ 砺波 R3 は WARP・R2 は説明書を掲載していない（unrecordable.ts）。`noDeepLink`
@@ -3753,8 +3753,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hioki-yosansho-${fy}`, muniCode: "462161", muniName: "日置市", prefName: "鹿児島県", isPref: false,
     })),
-    // ⚠ 恵那は R8 が象徴計上 100 を款番号と読む（unrecordable.ts・#404）
-    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+    // ⚠ 恵那は款番号なし（kanNoNumbers・R8 の象徴計上 100 を款番号と読ませない・#404）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `ena-yosan-shiryo-${fy}`, muniCode: "212105", muniName: "恵那市", prefName: "岐阜県", isPref: false,
     })),
     // ⚠ 伊豆の国 R3 は議決版（3/30 臨時会の議案第26号）。R2 は画像だけ（unrecordable.ts）
@@ -3768,15 +3768,16 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r6", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `gosen-yosan-sankou-${fy}`, muniCode: "152188", muniName: "五泉市", prefName: "新潟県", isPref: false,
     })),
-    // ⚠ 常陸太田 R3 は WARP。R2 は `×` 印つき廃止款を読めない（unrecordable.ts・#404）
-    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+    // ⚠ 常陸太田 R3・R2 は WARP。R2 は `×` 印つき廃止款で当年度欄が空（#404）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `hitachiota-yosansho-${fy}`, muniCode: "082121", muniName: "常陸太田市", prefName: "茨城県", isPref: false,
     })),
-    // ⚠ 宮古 R6 は案資料（予算書にテキスト層なし）・R3 は化け字（unrecordable.ts・#404）。`noDeepLink`
+    // ⚠ 宮古 R6・R3 は案資料（予算書にテキスト層なし・R3 は化け字で decodeGarble・#404）。`noDeepLink`
     ...(["r8", "r7", "r5", "r4", "r2"] as const).map((fy) => ({
       srcId: `miyako-yosansho-${fy}`, muniCode: "032026", muniName: "宮古市", prefName: "岩手県", isPref: false,
     })),
     { srcId: "miyako-yosan-shiryou-r6", muniCode: "032026", muniName: "宮古市", prefName: "岩手県", isPref: false },
+    { srcId: "miyako-yosan-shiryou-r3", muniCode: "032026", muniName: "宮古市", prefName: "岩手県", isPref: false },
     // ⚠ 高島は R7・R3 骨格 ⇒ R8・R4 は前年度列が肉付け後（prevBasis 補正後）。R3 は当初列を指定。R2 はスキャン（unrecordable.ts）
     ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
       srcId: `takashima-yosan-gaiyousho-${fy}`, muniCode: "252123", muniName: "高島市", prefName: "滋賀県", isPref: false,
