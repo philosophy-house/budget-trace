@@ -2816,4 +2816,54 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.hakodate.hokkaido.jp/docs/2021111200026/",
     checkedOn: "2026-10-25", ref: "docs/data-sources.md §13-106",
   },
+  {
+    // 東根市（062111）R3・R2。予算書のウェブ掲載は R4 から（landing 原文「令和4年度より一般会計及び特別会計予算書を当ページで公開しています。」）。
+    // 概要（R3 は A3 で1ページ・R2 は A4 で2ページ）は市報の見開きで、款をまとめた円グラフと文章だけ（§13-107）。Wayback・WARP は未確認。
+    code: "062111", name: "東根市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "予算書のウェブへの掲載は令和4年度からで、それより前の年度の予算の概要は、いくつかの款をまとめた円グラフと文章だけで、款別の金額と前年度の額の表が無い。",
+    url: "https://www.city.higashine.yamagata.jp/section_list/section004/gyoseishiryo/1395",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-107",
+  },
+  {
+    // 光市（352101）R6〜R2。予算書のウェブ掲載は R8・R7 だけ（現行の年度ページ・WARP 2024-09・Wayback CDX のどれにも R6 以前の予算書は無い）。
+    // 「予算の概要」は款別歳入内訳（前年度つき）はあるが、歳出は性質別だけで、款別歳出は円グラフの構成比（%）しか無い（§13-107）。
+    code: "352101", name: "光市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason:
+      "予算書のウェブへの掲載は令和7年度からで、それより前の年度の予算の概要は、歳出が性質別の表と、款別の構成比の円グラフだけで、款別の歳出の金額が無い。",
+    url: "https://www.city.hikari.lg.jp/soshiki/1/zaisei/shisei/2/3262.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-107",
+  },
+  {
+    // 菊川市（222241）R3。予算書（/zaisei/documents/r3yosansyo.pdf）はスキャン画像でテキスト層なし（Wayback の2捕捉も同じ digest）。
+    // 「予算の概要」の款別は Σ は通るが、使用料・手数料と諸収入が予算書（R3 補正予算書の補正前の額）と 34千円ずつ違う（§13-107）。
+    code: "222241", name: "菊川市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image", "format-mismatch"],
+    reason:
+      "予算書は紙をスキャンした画像で文字の情報が無い。予算の概要の款別の表は、2つの款の金額が予算書（補正予算書に載っている補正前の額）と違う。",
+    url: "https://www.city.kikugawa.shizuoka.jp/zaisei/r3yosanshiryo.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-107",
+  },
+  {
+    // 岩倉市（232289）R8。「当初予算の概要」（R8gaiyou.pdf）も一般会計予算書（R8yosan.pdf）も全ページ画像（pdffonts 0件）。
+    // 「わかりやすい予算書」はテキスト層があるが前年度は比率（%）だけ。Wayback の別の捕捉（20260609）は 5 MiB で途切れている（§13-107）。
+    code: "232289", name: "岩倉市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["scanned-image"],
+    reason:
+      "予算の概要も予算書も画像だけで文字の情報が無い。文字の情報がある「わかりやすい予算書」は、前年度を比率でしか載せていない。",
+    url: "https://www.city.iwakura.aichi.jp/0000007773.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-107",
+  },
+  {
+    // 岩倉市（232289）R2。「当初予算の概要」p.2 の歳入で、皆減の「6 自動車取得税交付金 - 30,700」と皆増の「6 法人事業税交付金 10,000 -」に同じ款番号6が振られている。
+    // validate の款番号重複で error になる。款番号つきの皆減行を廃止款として読む指定は kofu-yosansho に無い（§13-107）。
+    code: "232289", name: "岩倉市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason:
+      "歳入の表で、廃止された款と新しく設けられた款に同じ款番号が振られており、今の読み取りの仕組みでは款を区別できない。",
+    url: "https://web.archive.org/web/20210921150404/https://www.city.iwakura.aichi.jp/0000004141.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-107",
+  },
 ];

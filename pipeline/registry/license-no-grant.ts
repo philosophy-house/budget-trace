@@ -94,4 +94,6 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "北広島市", license: "Copyright © Kitahiroshima City All rights reserved." },
   { who: "関市", license: "関市ホームページの著作権は原則として関市にありますが、一部の写真やイラストなど外部に著作権のある場合があります。" },
   { who: "石垣市", license: "Copyright (c) 2020 Ishigaki City. All Rights Reserved." },
+  { who: "岩倉市", license: "Copyright © Iwakura City All Rights Reserved." },
+  { who: "山武市", license: "「山武市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として山武市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
 ];

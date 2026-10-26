@@ -1,0 +1,402 @@
+{
+  "docType": "budget-book",
+  "sourceId": "yamaga-yosan-aramashi-r7",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-26T00:48:10.646Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R7",
+  "account": "一般会計",
+  "revenueTotal": 31428000,
+  "expenditureTotal": 31428000,
+  "prevRevenueTotal": 33968723,
+  "prevExpenditureTotal": 33968723,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 5022000,
+      "prevAmount": 4890000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 317078,
+      "prevAmount": 322000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 2000,
+      "prevAmount": 1000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 24000,
+      "prevAmount": 6000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 29000,
+      "prevAmount": 23000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 115000,
+      "prevAmount": 85000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 1245000,
+      "prevAmount": 1149000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 19000,
+      "prevAmount": 19000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "環境性能割交付金",
+      "amount": 45000,
+      "prevAmount": 39000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方特例交付金",
+      "amount": 49000,
+      "prevAmount": 230000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方交付税",
+      "amount": 10700000,
+      "prevAmount": 11000000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 3700,
+      "prevAmount": 4000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "分担金及び負担金",
+      "amount": 122160,
+      "prevAmount": 137187,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "使用料及び手数料",
+      "amount": 380094,
+      "prevAmount": 401095,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "国庫支出金",
+      "amount": 4381805,
+      "prevAmount": 3834730,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "県支出金",
+      "amount": 2838196,
+      "prevAmount": 2698972,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "財産収入",
+      "amount": 90101,
+      "prevAmount": 33897,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "寄附金",
+      "amount": 1105788,
+      "prevAmount": 904768,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰入金",
+      "amount": 3385510,
+      "prevAmount": 3290418,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰越金",
+      "amount": 411774,
+      "prevAmount": 531149,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "諸収入",
+      "amount": 434694,
+      "prevAmount": 451507,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "市債",
+      "amount": 707100,
+      "prevAmount": 3917000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 199954,
+      "prevAmount": 201245,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 3363419,
+      "prevAmount": 3151918,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 12184669,
+      "prevAmount": 11773120,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 2708177,
+      "prevAmount": 2381649,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "農林水産業費",
+      "amount": 1834547,
+      "prevAmount": 2371007,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "商工費",
+      "amount": 496726,
+      "prevAmount": 524873,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "土木費",
+      "amount": 1116867,
+      "prevAmount": 1767143,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "消防費",
+      "amount": 1150716,
+      "prevAmount": 1126452,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "教育費",
+      "amount": 2550755,
+      "prevAmount": 3196606,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "災害復旧費",
+      "amount": 130400,
+      "prevAmount": 155300,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "公債費",
+      "amount": 4284764,
+      "prevAmount": 4393080,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "諸支出金",
+      "amount": 1377006,
+      "prevAmount": 2896330,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "予備費",
+      "amount": 30000,
+      "prevAmount": 30000,
+      "locator": {
+        "file": "3_3190_13752_up_olytijhr.pdf",
+        "page": 6
+      }
+    }
+  ]
+}

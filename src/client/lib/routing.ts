@@ -467,6 +467,15 @@ const MUNI_SLUGS: Record<string, string> = {
   "452041": "nichinan", // ⚠ 鳥取県日南町 314013 とは別団体
   "152242": "sado",
   "012025": "hakodate",
+  "122394": "oamishirasato",
+  "062111": "higashine",
+  "122378": "sammu",
+  "352101": "hikari",
+  "432083": "yamaga",
+  "222241": "kikugawa",
+  "052027": "noshiro",
+  "232289": "iwakura",
+  "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",
   "402117": "chikugo",
