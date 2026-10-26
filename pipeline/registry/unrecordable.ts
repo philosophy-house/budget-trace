@@ -3006,4 +3006,14 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.nanto.toyama.jp/soshiki/zaisei/1/2/1/index.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
   },
+  {
+    // 五泉市（152188）R5。予算書（R5 の当初予算書）は歳入の総括にテキスト層が無く、歳出の総括は本年度額がセル内で折り返して読めない。
+    // 「予算案（参考資料）」（/material/files/group/20/R5_tousyoyosan_sankoushiryou.pdf）p.40 の衛生費 2,808,750・公債費 4,156,702 は表の中で整合するが、
+    // R6 の予算書・参考資料の前年度列（2,808,913・4,156,539）と ±163 違う（合計は一致）＝議決された予算と版が違う（§13-109）。
+    code: "152188", name: "五泉市", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason: "予算書の総括の表は文字の情報が欠けたり数字が折り返したりして読み取れず、代わりに使える予算案の参考資料は、翌年度の予算書が示す前年度の額と2つの款で金額が違う。",
+    url: "https://www.city.gosen.lg.jp/organization/4/1/2/3/R5/9458.html",
+    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
+  },
 ];

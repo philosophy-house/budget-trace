@@ -27961,12 +27961,6 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "Copyright (C) Gosen City , All Rights Reserved.",
     "target": "file"
   },
-  "/sources/gosen-yosan-sankou-r5/R5_tousyoyosan_sankoushiryou.pdf": {
-    "mode": "origin",
-    "href": "https://www.city.gosen.lg.jp/material/files/group/20/R5_tousyoyosan_sankoushiryou.pdf",
-    "license": "Copyright (C) Gosen City , All Rights Reserved.",
-    "target": "file"
-  },
   "/sources/gosen-yosan-sankou-r4/R4yosansankou.pdf": {
     "mode": "origin",
     "href": "https://www.city.gosen.lg.jp/material/files/group/20/R4yosansankou.pdf",

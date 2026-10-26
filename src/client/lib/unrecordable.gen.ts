@@ -599,6 +599,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "152188": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度",
+        "reason": "予算書の総括の表は文字の情報が欠けたり数字が折り返したりして読み取れず、代わりに使える予算案の参考資料は、翌年度の予算書が示す前年度の額と2つの款で金額が違う。",
+        "checkedOn": "2026-10-26"
+      }
+    ]
+  },
   "152226": {
     "budget": [
       {

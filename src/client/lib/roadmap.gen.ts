@@ -16,11 +16,11 @@ export const ROADMAP_PROGRESS = {
   "budgetCount": 591,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4227,
-  "fileCount": 5905,
-  "archivedCount": 3138,
+  "sourceCount": 4226,
+  "fileCount": 5904,
+  "archivedCount": 3137,
   "licenseOpen": 135,
-  "licensePermission": 3995,
+  "licensePermission": 3994,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1341,12 +1341,6 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
-      "name": "五泉市",
-      "code": "152188",
-      "years": 7,
-      "range": "R2〜R8（7年度）"
-    },
-    {
       "name": "南魚沼市",
       "code": "152269",
       "years": 7,
@@ -2383,6 +2377,12 @@ export const ROADMAP_PROGRESS = {
       "code": "152102",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "五泉市",
+      "code": "152188",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "佐渡市",

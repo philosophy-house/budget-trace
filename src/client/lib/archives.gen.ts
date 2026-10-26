@@ -801,8 +801,6 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.gosen.lg.jp/organization/4/1/2/3/r2_1/6947.html": "https://web.archive.org/web/20221129084817/https://www.city.gosen.lg.jp/organization/4/1/2/3/r2_1/6947.html",
   "https://www.city.gosen.lg.jp/material/files/group/20/R4yosansankou.pdf": "https://web.archive.org/web/20261026084910/https://www.city.gosen.lg.jp/material/files/group/20/R4yosansankou.pdf",
   "https://www.city.gosen.lg.jp/organization/4/1/2/3/r2_2/8126.html": "https://web.archive.org/web/20240303031249/https://www.city.gosen.lg.jp/organization/4/1/2/3/r2_2/8126.html",
-  "https://www.city.gosen.lg.jp/material/files/group/20/R5_tousyoyosan_sankoushiryou.pdf": "https://web.archive.org/web/20261026084948/https://www.city.gosen.lg.jp/material/files/group/20/R5_tousyoyosan_sankoushiryou.pdf",
-  "https://www.city.gosen.lg.jp/organization/4/1/2/3/R5/9458.html": "https://web.archive.org/web/20261026085007/https://www.city.gosen.lg.jp/organization/4/1/2/3/R5/9458.html",
   "https://www.city.gosen.lg.jp/material/files/group/20/R6_tousyoyosan_sankousiryou.pdf": "https://web.archive.org/web/20261026085054/https://www.city.gosen.lg.jp/material/files/group/20/R6_tousyoyosan_sankousiryou.pdf",
   "https://www.city.gosen.lg.jp/organization/4/1/2/3/R6/10766.html": "https://web.archive.org/web/20251214113531/https://www.city.gosen.lg.jp/organization/4/1/2/3/R6/10766.html",
   "https://www.city.gosen.lg.jp/material/files/group/20/R7tousyoyosannsyo.pdf": "https://web.archive.org/web/20261026094602/https://www.city.gosen.lg.jp/material/files/group/20/R7tousyoyosannsyo.pdf",

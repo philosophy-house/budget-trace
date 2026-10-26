@@ -3761,11 +3761,11 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
       srcId: `izunokuni-yosansho-ippan-${fy}`, muniCode: "222259", muniName: "伊豆の国市", prefName: "静岡県", isPref: false,
     })),
-    // ⚠ 五泉は R8・R7 が予算書、R6〜R2 が予算案の参考資料。R8 骨格（R9 未発行）。R5 の2款は参考資料と予算書で ±163（R6 に prevNote）
+    // ⚠ 五泉は R8・R7 が予算書、R6・R4〜R2 が予算案の参考資料。R8 骨格（R9 未発行）。R5 は参考資料と予算書の版が違う（unrecordable.ts）
     ...(["r8", "r7"] as const).map((fy) => ({
       srcId: `gosen-yosansho-${fy}`, muniCode: "152188", muniName: "五泉市", prefName: "新潟県", isPref: false,
     })),
-    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+    ...(["r6", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `gosen-yosan-sankou-${fy}`, muniCode: "152188", muniName: "五泉市", prefName: "新潟県", isPref: false,
     })),
     // ⚠ 常陸太田 R3 は WARP。R2 は `×` 印つき廃止款を読めない（unrecordable.ts・#404）

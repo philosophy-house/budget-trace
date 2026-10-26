@@ -7818,25 +7818,6 @@
       "checkedAt": "2026-10-26T08:49:30.957Z"
     },
     {
-      "sourceId": "gosen-yosan-sankou-r5",
-      "url": "https://www.city.gosen.lg.jp/material/files/group/20/R5_tousyoyosan_sankoushiryou.pdf",
-      "kind": "file",
-      "waybackUrl": "https://web.archive.org/web/20261026084948/https://www.city.gosen.lg.jp/material/files/group/20/R5_tousyoyosan_sankoushiryou.pdf",
-      "waybackTimestamp": "20261026084948",
-      "checkedAt": "2026-10-26T08:50:04.321Z",
-      "sha256Match": true,
-      "waybackBytes": 1080892,
-      "rawSha256": "acca121cb98c118dcb4ec354ca75a3ce5a9bd10f8fa6e101a1af9e9f38c675ef"
-    },
-    {
-      "sourceId": "gosen-yosan-sankou-r5",
-      "url": "https://www.city.gosen.lg.jp/organization/4/1/2/3/R5/9458.html",
-      "kind": "landing",
-      "waybackUrl": "https://web.archive.org/web/20261026085007/https://www.city.gosen.lg.jp/organization/4/1/2/3/R5/9458.html",
-      "waybackTimestamp": "20261026085007",
-      "checkedAt": "2026-10-26T08:50:37.919Z"
-    },
-    {
       "sourceId": "gosen-yosan-sankou-r6",
       "url": "https://www.city.gosen.lg.jp/material/files/group/20/R6_tousyoyosan_sankousiryou.pdf",
       "kind": "file",
