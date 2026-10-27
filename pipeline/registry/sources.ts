@@ -33480,7 +33480,7 @@ export const SOURCES: SourceEntry[] = [
     ["R5", "314856"],
   ] as const).map(([fy, att]) => ({
     id: `minamiawaji-yosan-gaiyo-${fy.toLowerCase()}`,
-    title: `${eraYear(fy)}年度 南あわじ市一般会計当初予算概要説明書（款別歳入歳出）`,
+    title: `${eraYear(fy)}年度 南あわじ市一般会計当初予算${fy === "R8" ? "（案）" : ""}概要説明書（款別歳入歳出）`,
     publisher: "南あわじ市",
     url: `https://www.city.minamiawaji.hyogo.jp/uploaded/attachment/${att}.pdf`,
     landingPage: `https://www.city.minamiawaji.hyogo.jp/site/sub-site-zaimu/${fy.toLowerCase()}yosan.html`,
@@ -33620,6 +33620,8 @@ export const SOURCES: SourceEntry[] = [
   // ⚠ 見出しだけだと款1 が `一般会計歳入歳出予算事項別明細書総括市税`・`一般財源国県支出金地方債その他議会費` のまま Σ差0 ⇒ HeaderExtra を両側に（偵察が実測）。
   //   原文は全角「１．総括」なので `総括$` と書く（半角の `^1\.総括$` では当たらず `総括市税` が残る）。
   // 前年度列は当初（R8→R2 の6組で35款全一致）。骨格予算: R8・R4（各年度の「予算編成方針について（通知）」）⇒ skeleton-budgets.ts。R5 の前年度列は R4 の骨格の当初額 ⇒ prevNote。
+  //   肉付け後の額は「令和8年度予算編成資料」（secure/11633/R8henseishiryo.pdf）p.5「一般会計 当初予算額の推移」の列「補正後（肉付予算）」R04 30,757,364
+  //   （6月補正後か最終補正後かは原典に書かれていないので、prevNote は原典の列名どおりに書く。2026-10-27 に取得して pdftotext で照合）。
   // ライセンス: 「このサイトの考えかた」（/5517.htm#s06・確認日 2026-10-27）＝`無断で使用・転載することはできません` で要許可。
   //   リンク「原則フリーです。」＋フレーム内表示の禁止だけ ⇒ `noDeepLink` なし。
   ...([
@@ -33649,7 +33651,7 @@ export const SOURCES: SourceEntry[] = [
       revenueHeaderExtra: "^一般会計$|事項別明細書|総括$",
       expenditureHeaderExtra: "一般財源|国県支出金",
       ...(fy === "R5"
-        ? { prevNote: "前年度（令和4年度）の当初予算は、市長の任期末を迎えるため骨格予算として編成されています（「令和4年度予算編成方針について（通知）」）。ここでの前年度額はその当初額（287億9,517万円）で、肉付け後の額（307億5,736万円・「令和8年度予算編成資料」p.5）ではありません。" }
+        ? { prevNote: "前年度（令和4年度）の当初予算は、市長の任期末を迎えるため骨格予算として編成されています（「令和4年度予算編成方針について（通知）」）。ここでの前年度額はその当初額（287億9,517万円）で、肉付け予算を加えた補正後の額（307億5,736万円・「令和8年度予算編成資料」p.5）ではありません。" }
         : {}),
     },
   } satisfies SourceEntry)),
