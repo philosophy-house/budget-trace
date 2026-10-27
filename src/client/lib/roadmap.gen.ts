@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 601,
+  "budgetCount": 611,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4292,
-  "fileCount": 5970,
-  "archivedCount": 3203,
+  "sourceCount": 4352,
+  "fileCount": 6033,
+  "archivedCount": 3263,
   "licenseOpen": 137,
-  "licensePermission": 4058,
+  "licensePermission": 4118,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -771,6 +771,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "登別市",
+      "code": "012301",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "恵庭市",
       "code": "012319",
       "years": 7,
@@ -1011,6 +1017,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "沼田市",
+      "code": "102067",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "館林市",
       "code": "102075",
       "years": 7,
@@ -1115,6 +1127,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "銚子市",
       "code": "122025",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "館山市",
+      "code": "122050",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1563,6 +1581,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "長泉町",
+      "code": "223425",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "名古屋市",
       "code": "231002",
       "years": 7,
@@ -1911,6 +1935,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "南あわじ市",
+      "code": "282243",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "たつの市",
       "code": "282294",
       "years": 7,
@@ -1949,6 +1979,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "紀の川市",
       "code": "302082",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "倉吉市",
+      "code": "312037",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2171,6 +2207,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "宇城市",
       "code": "432130",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "菊陽町",
+      "code": "434043",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2485,6 +2527,12 @@ export const ROADMAP_PROGRESS = {
       "code": "232092",
       "years": 6,
       "range": "R2〜R8（6年度）"
+    },
+    {
+      "name": "弥富市",
+      "code": "232351",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "東郷町",
@@ -3063,6 +3111,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R6〜R8（3年度）"
     },
     {
+      "name": "杉戸町",
+      "code": "114642",
+      "years": 3,
+      "range": "R6〜R8（3年度）"
+    },
+    {
       "name": "座間市",
       "code": "142166",
       "years": 3,
@@ -3155,6 +3209,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "二本松市",
       "code": "072109",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "さくら市",
+      "code": "092142",
       "years": 2,
       "range": "R7〜R8（2年度）"
     },

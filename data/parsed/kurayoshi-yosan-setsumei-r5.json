@@ -1,0 +1,403 @@
+{
+  "docType": "budget-book",
+  "sourceId": "kurayoshi-yosan-setsumei-r5",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-27T11:31:09.753Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R5",
+  "account": "一般会計",
+  "revenueTotal": 31539351,
+  "expenditureTotal": 31539351,
+  "prevRevenueTotal": 28795173,
+  "prevExpenditureTotal": 28795173,
+  "prevBasis": "当初",
+  "prevNote": "前年度（令和4年度）の当初予算は、市長の任期末を迎えるため骨格予算として編成されています（「令和4年度予算編成方針について（通知）」）。ここでの前年度額はその当初額（287億9,517万円）で、肉付け予算を加えた補正後の額（307億5,736万円・「令和8年度予算編成資料」p.5）ではありません。",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 5800134,
+      "prevAmount": 5629817,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 246075,
+      "prevAmount": 247810,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 3094,
+      "prevAmount": 4926,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 24115,
+      "prevAmount": 31814,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 21174,
+      "prevAmount": 30944,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "地方消費税交付金",
+      "amount": 1237427,
+      "prevAmount": 1151305,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "環境性能割交付金",
+      "amount": 17383,
+      "prevAmount": 18538,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "法人事業税交付金",
+      "amount": 100974,
+      "prevAmount": 97318,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 28910,
+      "prevAmount": 33864,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 8130000,
+      "prevAmount": 8230000,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 6000,
+      "prevAmount": 6000,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 120713,
+      "prevAmount": 121478,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 242930,
+      "prevAmount": 254497,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 3973518,
+      "prevAmount": 3705331,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 2678847,
+      "prevAmount": 2462368,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 16642,
+      "prevAmount": 17836,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 515118,
+      "prevAmount": 600018,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 1697399,
+      "prevAmount": 946273,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 150000,
+      "prevAmount": 150000,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 3716058,
+      "prevAmount": 3817563,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 2812840,
+      "prevAmount": 1237473,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 201468,
+      "prevAmount": 210591,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 4238219,
+      "prevAmount": 3733980,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 10479913,
+      "prevAmount": 10088484,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 1509492,
+      "prevAmount": 1428182,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 150010,
+      "prevAmount": 150010,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 1417871,
+      "prevAmount": 1384320,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 4062359,
+      "prevAmount": 3502353,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 2744401,
+      "prevAmount": 2357130,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 1501696,
+      "prevAmount": 827138,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 2301535,
+      "prevAmount": 1949637,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 92000,
+      "prevAmount": 251900,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 2830287,
+      "prevAmount": 2901348,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "諸支出金",
+      "amount": 100,
+      "prevAmount": 100,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 14,
+      "kanName": "予備費",
+      "amount": 10000,
+      "prevAmount": 10000,
+      "locator": {
+        "file": "r5dang-chu-yu-suan-shuo-ming-shu-yi-ban-ver11.pdf",
+        "page": 7
+      }
+    }
+  ]
+}

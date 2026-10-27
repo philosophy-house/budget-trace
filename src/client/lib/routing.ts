@@ -502,6 +502,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "113018": "inamachi",
   "402061": "tagawa",
   "372064": "sanuki",
+  "434043": "kikuyo",
+  "282243": "minamiawaji",
+  "122050": "tateyama-chiba", // 富山県立山町と区別
+  "223425": "nagaizumi",
+  "312037": "kurayoshi",
+  "092142": "sakura-tochigi", // 千葉県佐倉市 sakura と区別
+  "232351": "yatomi",
+  "102067": "numata",
+  "012301": "noboribetsu",
+  "114642": "sugito",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",

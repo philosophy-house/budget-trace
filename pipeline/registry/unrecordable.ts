@@ -2995,4 +2995,32 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.tomioka.lg.jp/www/genre/1456117988098/index.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-111",
   },
+  {
+    // さくら市（092142）R6〜R2。一般会計予算書（R6 660dfd9120e03・R5 641aad364e34d・R4 623981c59b3cd・R3 61bb467517a8e・R2 61bb46440a467.pdf）の総括ページは、
+    // 表は見えるが文字がアウトライン化されていてテキスト層が無い。財政状況の公表に款別表が載るのは令和7年5月公表から（R6〜R2 は文章だけ）（§13-112）。
+    code: "092142", name: "さくら市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason: "予算書の款別の総括表は文字が図形に変換されていて読み取れず、同じ年度の財政状況の公表は文章だけで款別の表が無い。",
+    url: "https://www.city.tochigi-sakura.lg.jp/government/000056/000326/p001679.html",
+    checkedOn: "2026-10-27", ref: "docs/data-sources.md §13-112",
+  },
+  {
+    // 弥富市（232351）R2。「予算概要説明資料」（001/004/074/R2_tousyoyosan_gaiyou.pdf）p.3 の歳入で、寄附金の伸率が「125,013」（％）と桁区切りつきで印字され、
+    // 整数として前年度の列に読まれる（前年度 Σ +125,005）。原典は誤植ではないので amountTypos では直さない。R2 の説明書は年度ページに無い（§13-112）。
+    code: "232351", name: "弥富市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason: "歳入の表で、増減の率が桁区切りのついた大きな数で印字されている行があり、今の読み取りの仕組みでは金額と区別できない。",
+    url: "https://www.city.yatomi.lg.jp/shisei/1000738/1004072/1004074.html",
+    checkedOn: "2026-10-27", ref: "docs/data-sources.md §13-112",
+  },
+  {
+    // 杉戸町（114642）R5〜R2。年度ページは削除済み（/page/5470・5528・5529・5530.html は 404）で、予算書は WARP（20240413 収集・attachment 9583・9570・9555・9540.pdf）にだけある。
+    // テキスト層が ToUnicode 欠落（IPAMincho Identity-H・数字は +0xA6 シフト）で、款名の化けが既存の GARBLE_CHAR_MAP と同じ符号位置で別の字を指す（`๭` が杉戸では「利」・既存マップでは「割」など）。
+    // 共通マップに足すと `割子割交付金` が Σ差0 で通るので、資料ごとのマップが要る（§13-112）。
+    code: "114642", name: "杉戸町", dataset: "budget", fiscalYears: ["R5", "R4", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason: "予算書の文字の情報が独自の符号で記録されていて、今の読み取りの仕組みの変換表では別の字に読み違えてしまう。",
+    url: "https://warp.ndl.go.jp/20240413/20240412215120/https://www.town.sugito.lg.jp/page/5529.html",
+    checkedOn: "2026-10-27", ref: "docs/data-sources.md §13-112",
+  },
 ];

@@ -1,0 +1,19 @@
+{
+  "sourceId": "noboribetsu-kanbetsu-hikaku-r3",
+  "files": [
+    {
+      "filename": "3.pdf",
+      "sha256": "4803fb429e17b6097cd5d0dd60398a5dc4289cf90a79f8970226eb40128f6838",
+      "bytes": 85808,
+      "fetchedAt": "2026-10-27T10:41:55.686Z",
+      "fetchedFrom": "https://www.city.noboribetsu.lg.jp/docs/2021033000056/file_contents/3.pdf"
+    },
+    {
+      "filename": "4.pdf",
+      "sha256": "f8f943aa7beb6df5e7e3081b22d7c017493bdfc88a028dc488512fb20050f806",
+      "bytes": 60452,
+      "fetchedAt": "2026-10-27T10:41:56.006Z",
+      "fetchedFrom": "https://www.city.noboribetsu.lg.jp/docs/2021033000056/file_contents/4.pdf"
+    }
+  ]
+}
