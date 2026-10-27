@@ -1,0 +1,413 @@
+{
+  "docType": "budget-book",
+  "sourceId": "kurayoshi-yosan-setsumei-r2",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-27T10:40:57.978Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R2",
+  "account": "一般会計",
+  "revenueTotal": 27364423,
+  "expenditureTotal": 27364423,
+  "prevRevenueTotal": 27966602,
+  "prevExpenditureTotal": 27966602,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 5586609,
+      "prevAmount": 5695543,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 240129,
+      "prevAmount": 224874,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 5258,
+      "prevAmount": 14316,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 24007,
+      "prevAmount": 24141,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 24043,
+      "prevAmount": 24177,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "地方消費税交付金",
+      "amount": 1143453,
+      "prevAmount": 929061,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "環境性能割交付金",
+      "amount": 22210,
+      "prevAmount": 11417,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "法人事業税交付金",
+      "amount": 51066,
+      "prevAmount": 0,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 27177,
+      "prevAmount": 95790,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 7440000,
+      "prevAmount": 7330000,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 6000,
+      "prevAmount": 6000,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 126573,
+      "prevAmount": 199840,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 270295,
+      "prevAmount": 264000,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 3635550,
+      "prevAmount": 3456856,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 2518105,
+      "prevAmount": 2435518,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 20010,
+      "prevAmount": 18512,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 605219,
+      "prevAmount": 669531,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 1345453,
+      "prevAmount": 1771157,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 150000,
+      "prevAmount": 150000,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 2499162,
+      "prevAmount": 2867356,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 1624104,
+      "prevAmount": 1749853,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "自動車取得税交付金",
+      "amount": 0,
+      "prevAmount": 28660,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 188286,
+      "prevAmount": 188278,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 3348364,
+      "prevAmount": 4323831,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 10012679,
+      "prevAmount": 9762703,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 1324401,
+      "prevAmount": 1241491,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 10,
+      "prevAmount": 10,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 1428495,
+      "prevAmount": 1301331,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 2400712,
+      "prevAmount": 3004191,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 2530939,
+      "prevAmount": 2406266,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 878309,
+      "prevAmount": 890457,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 2153142,
+      "prevAmount": 1863209,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 123000,
+      "prevAmount": 80000,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 2965986,
+      "prevAmount": 2894735,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "諸支出金",
+      "amount": 100,
+      "prevAmount": 100,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 14,
+      "kanName": "予備費",
+      "amount": 10000,
+      "prevAmount": 10000,
+      "locator": {
+        "file": "r2dang-chu-yu-suan-yi-ban-hui-ji-shi-xiang-bie-ming-xi-shu.pdf",
+        "page": 7
+      }
+    }
+  ]
+}

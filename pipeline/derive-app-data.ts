@@ -3829,6 +3829,47 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `sanuki-tousyo-yosan-gaiyou-${fy}`, muniCode: "372064", muniName: "さぬき市", prefName: "香川県", isPref: false,
     })),
+    // ---- 第96巡（2026-10-27・§13-112） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kikuyo-yosansho-${fy}`, muniCode: "434043", muniName: "菊陽町", prefName: "熊本県", isPref: false,
+    })),
+    // ⚠ 南あわじ市は様式が2系統（A: R8・R5、B: R7・R6・R4・R3・R2）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `minamiawaji-yosan-gaiyo-${fy}`, muniCode: "282243", muniName: "南あわじ市", prefName: "兵庫県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tateyama-chiba-yosan-setsumei-${fy}`, muniCode: "122050", muniName: "館山市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nagaizumi-yosan-gaiyou-${fy}`, muniCode: "223425", muniName: "長泉町", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 倉吉市は R8・R4 骨格 ⇒ R5 に prevNote（R9 を足すときにも要る）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kurayoshi-yosan-setsumei-${fy}`, muniCode: "312037", muniName: "倉吉市", prefName: "鳥取県", isPref: false,
+    })),
+    // ⚠ さくら市（栃木）は R8 予算書・R7 財政状況の公表。R6〜R2 はテキスト層なし（unrecordable.ts）
+    { srcId: "sakura-tochigi-yosansho-r8", muniCode: "092142", muniName: "さくら市", prefName: "栃木県", isPref: false },
+    { srcId: "sakura-tochigi-zaisei-kohyo-r7", muniCode: "092142", muniName: "さくら市", prefName: "栃木県", isPref: false },
+    // ⚠ 弥富市は R7 だけ説明書。R2 は伸率の誤読（unrecordable.ts）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `yatomi-yosan-gaiyou-${fy}`, muniCode: "232351", muniName: "弥富市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 沼田市は R7 だけ予算の概要（予算書は化け）
+    ...(["r8", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `numata-yosansho-${fy}`, muniCode: "102067", muniName: "沼田市", prefName: "群馬県", isPref: false,
+    })),
+    { srcId: "numata-yosan-gaiyou-r7", muniCode: "102067", muniName: "沼田市", prefName: "群馬県", isPref: false },
+    // ⚠ 登別市は R8〜R5 予算のポイント・R4〜R2 款別比較表（2ファイル・R2 は WARP）
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `noboribetsu-yosan-point-${fy}`, muniCode: "012301", muniName: "登別市", prefName: "北海道", isPref: false,
+    })),
+    ...(["r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `noboribetsu-kanbetsu-hikaku-${fy}`, muniCode: "012301", muniName: "登別市", prefName: "北海道", isPref: false,
+    })),
+    // ⚠ 杉戸町は R5〜R2 がパーサ待ち（unrecordable.ts）
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `sugito-yosansho-${fy}`, muniCode: "114642", muniName: "杉戸町", prefName: "埼玉県", isPref: false,
+    })),
     // ---- 第92巡（2026-10-26・§13-107） ----
     // ⚠ 三次は R6・R5・R3・R2 が歳入見開き。R5・H31 骨格 ⇒ R6・R2 に prevNote（前年度列は骨格の当初）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
