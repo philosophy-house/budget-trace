@@ -653,6 +653,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "162051": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算の概要が紙をスキャンした画像で、文字の情報が無い。",
+        "checkedOn": "2026-10-28"
+      }
+    ]
+  },
   "162086": {
     "budget": [
       {
@@ -1487,6 +1496,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "332135": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度",
+        "reason": "議会での修正が、元の数字に線を引いて新しい数字を重ねる形で印字されていて、修正後の額を正しく読み取れない。",
+        "checkedOn": "2026-10-28"
+      },
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "款ごとの額と前年度の額を並べた予算の資料がウェブに公開されていなかった。",
+        "checkedOn": "2026-10-28"
+      }
+    ]
+  },
   "341002": {
     "report": [
       {
@@ -1940,6 +1963,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "473243": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款ごとの額と前年度の額を並べた予算の資料がウェブに公開されていない。広報の予算の記事は万円に丸めた額で、前年度の額が無い。",
+        "checkedOn": "2026-10-28"
+      }
+    ]
+  },
   "082015": {
     "budget": [
       {
@@ -2110,6 +2142,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度・令和2年度",
         "reason": "予算に関する説明書のうち、款ごとの前年度比較が載る総括のページが紙をスキャンした画像で、文字として取り出せない（令和3年度は歳入側だけ、令和2年度は本文全体）。予算書・予算資料もほぼ画像で、概要には款別の表が無い。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "042111": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "予算説明書が紙をスキャンした画像で、文字の情報が無い。",
+        "checkedOn": "2026-10-28"
+      },
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "款ごとの額と前年度の額を並べた予算の資料がウェブに公開されていない。",
+        "checkedOn": "2026-10-28"
       }
     ]
   },
@@ -2321,6 +2367,24 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "checkedOn": "2026-09-25"
       }
     ]
+  },
+  "012360": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "公開されている予算の表が款ごとの区分ではなく、職員給与費を別に立てたり複数の款を「その他」にまとめたりした独自の区分で、款ごとの額が分からない。",
+        "checkedOn": "2026-10-28"
+      }
+    ]
+  },
+  "016314": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "公開されている予算の表に前年度の額の列が無い。広報の款別の比較は1万円未満を切り捨てた額で、合計が一致しない。",
+        "checkedOn": "2026-10-28"
+      }
+    ]
   }
 };
 
@@ -2408,6 +2472,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
   "470007": [
     "budget"
   ],
+  "473243": [
+    "budget"
+  ],
   "042161": [
     "budget"
   ],
@@ -2415,6 +2482,12 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "072052": [
+    "budget"
+  ],
+  "012360": [
+    "budget"
+  ],
+  "016314": [
     "budget"
   ]
 };

@@ -512,6 +512,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "102067": "numata",
   "012301": "noboribetsu",
   "114642": "sugito",
+  "072087": "kitakata",
+  "222267": "makinohara",
+  "232211": "shinshiro",
+  "273619": "kumatori",
+  "042111": "iwanuma",
+  "234478": "taketoyo",
+  "322041": "masuda",
+  "332135": "akaiwa",
+  "202118": "nakano-nagano", // 東京都中野区（nakano）と区別
+  "162051": "himi",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",

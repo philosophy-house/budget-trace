@@ -3023,4 +3023,78 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://warp.ndl.go.jp/20240413/20240412215120/https://www.town.sugito.lg.jp/page/5529.html",
     checkedOn: "2026-10-27", ref: "docs/data-sources.md §13-112",
   },
+  {
+    // 北斗市（012360）R8〜R2。年度ページ（/docs/2065.html）に載るのは「各会計予算」（2ページ）と「予算概要」（主な事業の一覧）だけ。
+    // 「各会計予算」p.2 の一般会計の内訳は前年度列（当初）を持つが、歳入は自主財源・依存財源の9区分（その他2行に丸め）、
+    // 歳出は職員給与費を款から抜き出し議会費・労働費・災害復旧費・予備費を「その他(※3)」にまとめた再分類表で款別ではない。
+    // 予算書・説明書は財政ページ・議会だより・広報・Wayback のどこにも無い（§13-113）。
+    code: "012360", name: "北斗市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason: "公開されている予算の表が款ごとの区分ではなく、職員給与費を別に立てたり複数の款を「その他」にまとめたりした独自の区分で、款ごとの額が分からない。",
+    url: "https://www.city.hokuto.hokkaido.jp/docs/2065.html",
+    checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
+  },
+  {
+    // 音更町（016314）R8〜R2。年度ページ（/machi/zaisei_keikaku/zaisei/kako/yosan_gaiyou_R*.html）に載るのは議案（予算本文＋第1表）だけで、
+    // 第1表は款・項・金額の1列（前年度列なし）。事項別明細書・説明書は現行サイトにも Wayback にも無い。
+    // 広報おとふけ4月号の款別比較は万円の切り捨て（原典「合計額は一致しません」）で、骨格の翌年度（R8・R4）は前年度列が政策予算後（§13-113）。
+    code: "016314", name: "音更町", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason: "公開されている予算の表に前年度の額の列が無い。広報の款別の比較は1万円未満を切り捨てた額で、合計が一致しない。",
+    url: "https://www.town.otofuke.hokkaido.jp/machi/zaisei_keikaku/zaisei/kako/",
+    checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
+  },
+  {
+    // 岩沼市（042111）R4。予算説明書（R4ippan.pdf）は WARP（20220406 収集）にだけあり、600dpi の画像（テキスト層はページ番号だけ）。現行は 404・Wayback 0件（§13-113）。
+    code: "042111", name: "岩沼市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["scanned-image"],
+    reason: "予算説明書が紙をスキャンした画像で、文字の情報が無い。",
+    url: "https://warp.ndl.go.jp/20220407/20220406201512/https://www.city.iwanuma.miyagi.jp/shisei/shisaku/zaisei/documents/R4ippan.pdf",
+    checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
+  },
+  {
+    // 岩沼市（042111）R3・R2。年度ページ（WARP 2021-04 版）に載っていたのは広報4月号の予算概要だけで、予算説明書はウェブに出ていない。
+    // 広報は万円丸めのグラフで款別の前年度列が無い（§13-113）。
+    code: "042111", name: "岩沼市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason: "款ごとの額と前年度の額を並べた予算の資料がウェブに公開されていない。",
+    url: "https://www.city.iwanuma.miyagi.jp/shisei/shisaku/zaisei/yosan.html",
+    checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
+  },
+  {
+    // 読谷村（473243）R8〜R2。財政ページ（/gyosei_joho/gyozaisei/zaisei_yosan_kessan/）は財政状況・財務諸表・インボイスだけで、予算書・予算の概要は無い。
+    // Wayback のドメイン全体の CDX（25,014 URL）にも当初予算の議案・予算書は無い（補正予算の議案3本だけ）。WARP は未確認。
+    // 広報よみたん4月号の「当初予算」欄は万円の丸め・款を「その他」にまとめ・前年度列なし（§13-113）。
+    code: "473243", name: "読谷村", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["no-material"],
+    reason: "款ごとの額と前年度の額を並べた予算の資料がウェブに公開されていない。広報の予算の記事は万円に丸めた額で、前年度の額が無い。",
+    url: "https://www.vill.yomitan.okinawa.jp/gyosei_joho/gyozaisei/zaisei_yosan_kessan/index.html",
+    checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
+  },
+  {
+    // 赤磐市（332135）R6。議会で修正可決（民生費 7,071,628→6,984,085・予備費 50,000→137,543・総額 21,812,395 は不変）され、予算書（R6-tousyo-yosansho.pdf p.14）も
+    // 概要（修正後・ToUnicode 化け）も原案の数字に取消線を引いて修正後の数字を重ねた見え消し。パーサは原案の値を拾い Σ 差0 で通る（§13-113）。
+    code: "332135", name: "赤磐市", dataset: "budget", fiscalYears: ["R6"],
+    categories: ["format-mismatch"],
+    reason: "議会での修正が、元の数字に線を引いて新しい数字を重ねる形で印字されていて、修正後の額を正しく読み取れない。",
+    url: "https://www.city.akaiwa.lg.jp/shisei/gyousei/yosan/12008.html",
+    checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
+  },
+  {
+    // 赤磐市（332135）R3・R2。当時のサイト（WARP 2020-06・2021-06）の「行政・財政」に予算のページが無い。広報あかいわ R3年5月号 p.8 は万円の円グラフで前年度比較なし（§13-113）。
+    code: "332135", name: "赤磐市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason: "款ごとの額と前年度の額を並べた予算の資料がウェブに公開されていなかった。",
+    url: "https://www.city.akaiwa.lg.jp/shisei/gyousei/yosan/index.html",
+    checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
+  },
+  {
+    // 氷見市（162051）R2。「令和２年度当初予算（案）の概要」（2020_yosan.pdf）はスキャン画像（フォントなし・Producer「Adobe PSL 1.3e for Canon」）。
+    // R2 の年度ページに予算書は無く、「分かりやすい予算書」は款を「その他」に括った百万円の比較表（§13-113）。
+    code: "162051", name: "氷見市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason: "予算の概要が紙をスキャンした画像で、文字の情報が無い。",
+    url: "https://www.city.himi.toyama.jp/gyosei/soshiki/zaimuka/2_2/6/index.html",
+    checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
+  },
 ];
