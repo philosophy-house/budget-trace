@@ -3870,6 +3870,43 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6"] as const).map((fy) => ({
       srcId: `sugito-yosansho-${fy}`, muniCode: "114642", muniName: "杉戸町", prefName: "埼玉県", isPref: false,
     })),
+    // ---- 第97巡（2026-10-28・§13-113） ----
+    // ⚠ 喜多方市は R8 骨格 ⇒ R9 を足すときに prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kitakata-yosansho-${fy}`, muniCode: "072087", muniName: "喜多方市", prefName: "福島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `makinohara-yosan-sankou-${fy}`, muniCode: "222267", muniName: "牧之原市", prefName: "静岡県", isPref: false,
+    })),
+    // ⚠ 新城市は R6 だけ予算案の概要（予算書の総括にテキスト層なし）
+    ...(["shinshiro-yosansho-r8", "shinshiro-yosansho-r7", "shinshiro-yosan-gaiyou-r6", "shinshiro-yosansho-r5", "shinshiro-yosansho-r4", "shinshiro-yosansho-r3", "shinshiro-yosansho-r2"] as const).map((srcId) => ({
+      srcId, muniCode: "232211", muniName: "新城市", prefName: "愛知県", isPref: false,
+    })),
+    // ⚠ 熊取町は R2・R6 骨格 ⇒ R3・R7 に prevNote。R6 は修正可決後の予算書
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kumatori-yosansho-${fy}`, muniCode: "273619", muniName: "熊取町", prefName: "大阪府", isPref: false,
+    })),
+    // ⚠ 岩沼市は R8〜R5 だけ（R4 はスキャン画像・R3・R2 は資料なし）
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `iwanuma-yosan-setsumeisho-${fy}`, muniCode: "042111", muniName: "岩沼市", prefName: "宮城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `taketoyo-yosantaiko-${fy}`, muniCode: "234478", muniName: "武豊町", prefName: "愛知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `masuda-yosansho-${fy}`, muniCode: "322041", muniName: "益田市", prefName: "島根県", isPref: false,
+    })),
+    // ⚠ 赤磐市は R8・R7・R5・R4（R6 は見え消し・R3・R2 は資料なし）。R7 だけ予算書
+    ...(["akaiwa-yosangaiyou-r8", "akaiwa-yosansho-r7", "akaiwa-yosangaiyou-r5", "akaiwa-yosangaiyou-r4"] as const).map((srcId) => ({
+      srcId, muniCode: "332135", muniName: "赤磐市", prefName: "岡山県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nakanoshi-yosansho-${fy}`, muniCode: "202118", muniName: "中野市", prefName: "長野県", isPref: false,
+    })),
+    // ⚠ 氷見市は R3 骨格 ⇒ R4 に prevNote。R5 だけ予算書（概要の前年度列が誤植）・R2 はスキャン
+    ...(["himi-yosan-gaiyou-r8", "himi-yosan-gaiyou-r7", "himi-yosan-gaiyou-r6", "himi-yosansho-r5", "himi-yosan-gaiyou-r4", "himi-yosan-gaiyou-r3"] as const).map((srcId) => ({
+      srcId, muniCode: "162051", muniName: "氷見市", prefName: "富山県", isPref: false,
+    })),
     // ---- 第92巡（2026-10-26・§13-107） ----
     // ⚠ 三次は R6・R5・R3・R2 が歳入見開き。R5・H31 骨格 ⇒ R6・R2 に prevNote（前年度列は骨格の当初）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -5974,7 +6011,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = ${JSON.stringify(wh
     // warning が増えても実態とズレない）。未知のパターンは null＝原文だけ出す。
     const plainOf = (m: string): string | null => {
       if (m.includes("款の前年度の和")) {
-        return "廃止された税目の行が、款の番号を持たないため前年度の合計に含められていません。表示している前年度の各款の額と、資料に載っている前年度の合計がわずかに合いません（当年度は一致しています）。";
+        // 原因は団体で違う（番号の無い廃止款の行が拾えない／当年度に0になった款の行を資料が省く＝喜多方／
+        // 当年度「-」の款の行をパーサが捨てる＝世田谷 R2）ので、仕組みは言わない（§13-113）。
+        return "前年度にはあって今年度に無くなった款（廃止された税目など）が、前年度の各款の額に含められていません。表示している前年度の各款の額と、資料に載っている前年度の合計がわずかに合いません（当年度は一致しています）。";
       }
       if (m.includes("総コスト")) {
         return "人件費が「職員1人あたり人件費 × 人工」で計算されているため、事業費＋人件費と資料の総コストが1千円ずれています（原典の丸め）。";

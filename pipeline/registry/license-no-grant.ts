@@ -104,5 +104,6 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "さぬき市", license: "Copyright (c) 2026 Sanuki city. All Rights Reserved." },
   { who: "菊陽町", license: "Copyright © 2019 Kikuyo Town All rights reserved" },
   { who: "長泉町", license: "長泉町公式ホームページに掲載しているコンテンツ(テキスト、画像、PDF、その他のデータ)の著作権は長泉町に帰属しますが、一部の画像などの著作権は原著作者が所有しているものもあります。コンテンツの引用や転載を希望する際には、事前に情報戦略室へご相談ください。" },
+  { who: "赤磐市", license: "赤磐市ホームページに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として赤磐市にあります。著作権法にご留意ください。" },
   { who: "山武市", license: "「山武市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として山武市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
 ];
