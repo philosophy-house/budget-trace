@@ -2,8 +2,8 @@
   "docType": "council-composition",
   "sourceId": "ageo-shigikai-r8",
   "parser": "council-transcribed",
-  "parserVersion": "0.8.11",
-  "parsedAt": "2026-10-21T16:18:14.655Z",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:05.310Z",
   "fiscalYear": "R8",
   "body": "上尾市議会",
   "seats": 30,
@@ -94,7 +94,7 @@
       }
     },
     {
-      "name": "無所属（秋山かほる）",
+      "name": "会派に属さない議員（秋山かほる）",
       "seats": 1,
       "isIndependent": true,
       "members": [
@@ -106,7 +106,7 @@
       }
     },
     {
-      "name": "無所属（佐藤恵理子）",
+      "name": "会派に属さない議員（佐藤恵理子）",
       "seats": 1,
       "isIndependent": true,
       "members": [

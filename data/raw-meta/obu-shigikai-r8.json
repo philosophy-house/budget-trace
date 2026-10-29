@@ -1,0 +1,43 @@
+{
+  "sourceId": "obu-shigikai-r8",
+  "files": [
+    {
+      "filename": "obu_kaiha_wb20260311.html",
+      "sha256": "078ef26dc1661bebebaa08c7613e7dd5f38607d4fa8c79e34cdacfe2db3259e6",
+      "bytes": 21833,
+      "fetchedAt": "2026-10-29T01:31:28.941Z",
+      "fetchedFrom": "https://web.archive.org/web/20260311220837id_/https://www.city.obu.aichi.jp/gikai/meibo/1006236.html"
+    },
+    {
+      "filename": "obu_g07_giketsu.html",
+      "sha256": "1c531a1b2e47b76da2a679c7c5a98d87dcf436b3f04035d0aeb8373305413017",
+      "bytes": 24400,
+      "fetchedAt": "2026-10-29T01:31:28.942Z",
+      "fetchedFrom": "https://obu.gijiroku.com/g07_giketsu.asp?kword1=&kaigi=2026%2F02%2F24%2C2026%2F03%2F17%2C238&bunrui=",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "obu_1038051.html",
+      "sha256": "3437c3a757a4baa112b4c21db4ecc128434954b64d367f0ba425800228eca76e",
+      "bytes": 32393,
+      "fetchedAt": "2026-10-29T01:31:28.942Z",
+      "fetchedFrom": "https://www.city.obu.aichi.jp/gikai/honkaigi/1038046/1038051.html"
+    },
+    {
+      "filename": "obu_1006229.html",
+      "sha256": "d0290ae15a84ac837a5695d7232118e773083ed737906f0bf501a6053b9e282d",
+      "bytes": 25616,
+      "fetchedAt": "2026-10-29T01:31:28.942Z",
+      "fetchedFrom": "https://www.city.obu.aichi.jp/gikai/gikai_info/1006229.html"
+    },
+    {
+      "filename": "obu_gicho_1035387.html",
+      "sha256": "b8ae27aaaa02d707ecb4c90f1a15dfd7526cc5cec8c9d5f451382b74b6f6589e",
+      "bytes": 24698,
+      "fetchedAt": "2026-10-29T01:31:28.942Z",
+      "fetchedFrom": "https://www.city.obu.aichi.jp/gikai/gicho/1035387.html"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "sourceId": "nisshin-shigikai-r8",
+  "files": [
+    {
+      "filename": "ns_R8_1teireihyouketutaido.pdf",
+      "sha256": "21a1282507735d47bd558818dd925c3860a3a03fe0122bb386be592f10b4cdcc",
+      "bytes": 116378,
+      "fetchedAt": "2026-10-29T01:31:28.945Z",
+      "fetchedFrom": "https://www.city.nisshin.lg.jp/material/files/group/80/R8_1teireihyouketutaido.pdf"
+    },
+    {
+      "filename": "ns_18228.html",
+      "sha256": "1a658bf61463bf02a7fd01d2935f5abb85d665c99f83b89cf9e19f9e65bca610",
+      "bytes": 50011,
+      "fetchedAt": "2026-10-29T01:31:28.946Z",
+      "fetchedFrom": "https://www.city.nisshin.lg.jp/department/gikai/giji/4/7/gian/18228.html"
+    }
+  ]
+}

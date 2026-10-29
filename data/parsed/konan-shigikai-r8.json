@@ -1,0 +1,113 @@
+{
+  "docType": "council-composition",
+  "sourceId": "konan-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:18.865Z",
+  "fiscalYear": "R8",
+  "body": "江南市議会",
+  "seats": 20,
+  "asOf": "2025-05-27",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "江南新風クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "宮地友治",
+        "稲山明敏",
+        "伊藤吉弘",
+        "尾関昭",
+        "東猴史紘",
+        "藤岡和俊",
+        "牧野行洋"
+      ],
+      "locator": {
+        "file": "konan_1001412_20260216.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "江南政策研究会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "中野裕二",
+        "片山裕之",
+        "長尾光春",
+        "土井紫"
+      ],
+      "locator": {
+        "file": "konan_1001412_20260216.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "野下達哉",
+        "石原資泰",
+        "岡地清仁"
+      ],
+      "locator": {
+        "file": "konan_1001412_20260216.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "江政クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "堀元",
+        "大薮豊数",
+        "須賀博昭"
+      ],
+      "locator": {
+        "file": "konan_1001412_20260216.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党江南市議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "掛布まち子",
+        "三輪陽子"
+      ],
+      "locator": {
+        "file": "konan_1001412_20260216.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無会派（津田貴史）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "津田貴史"
+      ],
+      "locator": {
+        "file": "konan_1001412_20260216.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第34号",
+    "billName": "令和8年度江南市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "原案可決",
+    "locator": {
+      "file": "konan_1019241.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和7年5月27日現在）",
+  "resultTitle": "令和8年3月定例会議決結果"
+}

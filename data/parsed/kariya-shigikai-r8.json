@@ -1,0 +1,174 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kariya-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:17.873Z",
+  "fiscalYear": "R8",
+  "body": "刈谷市議会",
+  "seats": 27,
+  "asOf": "2026-03-23",
+  "factions": [
+    {
+      "name": "自民クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "大山実",
+        "葛原祐季",
+        "近藤澄男",
+        "揚張慎一",
+        "加藤廣行",
+        "外山鉱一",
+        "稲垣雅弘"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "佐々木隆教",
+        "伊藤愛恵",
+        "鈴木定晴",
+        "深谷英貴",
+        "中嶋祥元",
+        "佐原充恭"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "武藤美智代",
+        "谷口睦生",
+        "松永寿"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "清風クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "上田昌哉",
+        "新海真規",
+        "星野雅春"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属議員の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "鈴木絹男",
+        "蜂須賀信明"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山本シモ子"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "にじいろの会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "城内志津"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森島公祐"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本維新の会刈谷市議団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "三田真弥"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "議長（鈴木正人）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "鈴木正人"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "副議長（加藤幹樹）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "加藤幹樹"
+      ],
+      "locator": {
+        "file": "18400405.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案18",
+    "billName": "令和8年度刈谷市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決（反対あり）",
+    "locator": {
+      "file": "1022069.html"
+    }
+  },
+  "rosterTitle": "かりや市議会だより第184号（令和8年5月1日）p.5「３月定例会提出議案の賛否」の会派名及び議員名",
+  "resultTitle": "令和8年3月定例会 議決結果一覧表"
+}

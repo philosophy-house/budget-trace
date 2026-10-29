@@ -35082,5 +35082,209 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://higashiosaka.gijiroku.com/gikai/shikumi.asp",
     "license": "東大阪市ウェブサイトに掲載されているすべてのコンテンツ(文書、画像、イラストなど)の著作権は、東大阪市または原著作者に帰属します。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
     "target": "file"
+  },
+  "/sources/seto-shigikai-r8/seto_R080324_sanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.seto.aichi.jp/docs/2026/02/12/00708042083/files/R080324_sanpi.pdf",
+    "license": "瀬戸市ホームページから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は瀬戸市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。瀬戸市ホームページ上の文書・画像等の無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製・使用・ダウンロードすることができます。瀬戸市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、瀬戸市の許可なく複製・転用することはできません。／「リンク」: 瀬戸市ホームページへのリンクは、原則として自由としています。ただし、予告なくページの削除等されることがありますので、リンクはトップページを貼るようにしてください。各ページに直接リンクを設定する場合は、瀬戸市が提供するページであることを正しく認識できるように設定してください。",
+    "target": "file"
+  },
+  "/sources/seto-shigikai-r8/seto_00708042083.html": {
+    "mode": "origin",
+    "href": "https://www.city.seto.aichi.jp/docs/2026/02/12/00708042083/00708042083.html",
+    "license": "瀬戸市ホームページから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は瀬戸市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。瀬戸市ホームページ上の文書・画像等の無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製・使用・ダウンロードすることができます。瀬戸市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、瀬戸市の許可なく複製・転用することはできません。／「リンク」: 瀬戸市ホームページへのリンクは、原則として自由としています。ただし、予告なくページの削除等されることがありますので、リンクはトップページを貼るようにしてください。各ページに直接リンクを設定する場合は、瀬戸市が提供するページであることを正しく認識できるように設定してください。",
+    "target": "page"
+  },
+  "/sources/seto-shigikai-r8/seto_00038_index.html": {
+    "mode": "origin",
+    "href": "https://www.city.seto.aichi.jp/docs/2016/01/29/00038/index.html",
+    "license": "瀬戸市ホームページから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は瀬戸市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。瀬戸市ホームページ上の文書・画像等の無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製・使用・ダウンロードすることができます。瀬戸市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、瀬戸市の許可なく複製・転用することはできません。／「リンク」: 瀬戸市ホームページへのリンクは、原則として自由としています。ただし、予告なくページの削除等されることがありますので、リンクはトップページを貼るようにしてください。各ページに直接リンクを設定する場合は、瀬戸市が提供するページであることを正しく認識できるように設定してください。",
+    "target": "page"
+  },
+  "/sources/handa-shigikai-r8/handa_1004475_20251210081353.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20251210081353id_/https://www.city.handa.lg.jp/shisei/gikai/1004472/1004475.html",
+    "license": "当サイト上のコンテンツの著作権は原則として半田市が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供しているコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、転載、転用等を行う際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "page"
+  },
+  "/sources/handa-shigikai-r8/handa_r80325giketukekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.handa.lg.jp/_res/projects/default_project/_page_/001/004/481/r80325giketukekka.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として半田市が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供しているコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、転載、転用等を行う際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "file"
+  },
+  "/sources/handa-shigikai-r8/handa_2417.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.handa.lg.jp/_res/projects/default_project/_page_/001/012/233/2417.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として半田市が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供しているコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、転載、転用等を行う際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "file"
+  },
+  "/sources/handa-shigikai-r8/handa_1004473_20260211175616.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260211175616id_/https://www.city.handa.lg.jp/shisei/gikai/1004472/1004473.html",
+    "license": "当サイト上のコンテンツの著作権は原則として半田市が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供しているコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、転載、転用等を行う際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "page"
+  },
+  "/sources/handa-shigikai-r8/handa_1004665.html": {
+    "mode": "origin",
+    "href": "https://www.city.handa.lg.jp/shisei/gikai/1004665.html",
+    "license": "当サイト上のコンテンツの著作権は原則として半田市が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供しているコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、転載、転用等を行う際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "page"
+  },
+  "/sources/kariya-shigikai-r8/18400405.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kariya.lg.jp/_res/projects/default_project/_page_/001/022/289/18400405.pdf",
+    "license": "Copyright © 2021 Kariya City,Aichi,Japan. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/kariya-shigikai-r8/1022069.html": {
+    "mode": "origin",
+    "href": "https://www.city.kariya.lg.jp/shigikai/honkaigi/kaigikekka/1022064/1022069.html",
+    "license": "Copyright © 2021 Kariya City,Aichi,Japan. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/kariya-shigikai-r8/meibo_index.html": {
+    "mode": "origin",
+    "href": "https://www.city.kariya.lg.jp/shigikai/giin/meibo/index.html",
+    "license": "Copyright © 2021 Kariya City,Aichi,Japan. All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/anjo-shigikai-r8/r07kaiha_0512.pdf": {
+    "mode": "origin",
+    "href": "https://anjo-shigikai.jp/representative/pdf/r07kaiha_0512.pdf",
+    "license": "安城市議会ホームページに掲載している文章、画像等の著作権は、安城市議会又は原著作者に帰属します。転載、引用等を希望する場合は、安城市議会事務局へ問い合せてください。",
+    "target": "file"
+  },
+  "/sources/anjo-shigikai-r8/giketsukekkaR803.pdf": {
+    "mode": "origin",
+    "href": "https://anjo-shigikai.jp/know/result/wp-content/uploads/2026/03/giketsukekkaR803.pdf",
+    "license": "安城市議会ホームページに掲載している文章、画像等の著作権は、安城市議会又は原著作者に帰属します。転載、引用等を希望する場合は、安城市議会事務局へ問い合せてください。",
+    "target": "file"
+  },
+  "/sources/anjo-shigikai-r8/nittei.html": {
+    "mode": "origin",
+    "href": "https://anjo-shigikai.jp/know/nittei.html",
+    "license": "安城市議会ホームページに掲載している文章、画像等の著作権は、安城市議会又は原著作者に帰属します。転載、引用等を希望する場合は、安城市議会事務局へ問い合せてください。",
+    "target": "page"
+  },
+  "/sources/anjo-shigikai-r8/gichofuk.html": {
+    "mode": "origin",
+    "href": "https://anjo-shigikai.jp/info/gichofuk.html",
+    "license": "安城市議会ホームページに掲載している文章、画像等の著作権は、安城市議会又は原著作者に帰属します。転載、引用等を希望する場合は、安城市議会事務局へ問い合せてください。",
+    "target": "page"
+  },
+  "/sources/nishio-shigikai-r8/20260323.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nishio.aichi.jp/_res/projects/default_project/_page_/001/004/369/20260323.pdf",
+    "license": "© NISHIO City, All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/nishio-shigikai-r8/dbsr_DocumentID1312.html": {
+    "mode": "origin",
+    "href": "https://www.city.nishio.aichi.dbsr.jp/index.php/5103218?Template=document&VoiceType=all&DocumentID=1312",
+    "license": "© NISHIO City, All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/komaki-shigikai-r8/komaki_080226kaiha.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260516054430id_/https://www.city.komaki.aichi.jp/material/files/group/60/080226kaiha.pdf",
+    "license": "小牧市ホームページに掲載されている文章、写真、イラスト、画像等の著作権は、小牧市または著作権者の方にあります。著作権法上認められた場合を除き、著作権者の許可なく文章、写真、イラスト、画像等の全部または一部を利用することは禁止します。",
+    "target": "file"
+  },
+  "/sources/komaki-shigikai-r8/komaki_27039_20260516.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260516051427id_/https://www.city.komaki.aichi.jp/admin/soshiki/gikai/giji/3/1/27039.html",
+    "license": "小牧市ホームページに掲載されている文章、写真、イラスト、画像等の著作権は、小牧市または著作権者の方にあります。著作権法上認められた場合を除き、著作権者の許可なく文章、写真、イラスト、画像等の全部または一部を利用することは禁止します。",
+    "target": "page"
+  },
+  "/sources/komaki-shigikai-r8/komaki_50784.html": {
+    "mode": "origin",
+    "href": "https://www.city.komaki.aichi.jp/admin/soshiki/gikai/giji/2/3/50784.html",
+    "license": "小牧市ホームページに掲載されている文章、写真、イラスト、画像等の著作権は、小牧市または著作権者の方にあります。著作権法上認められた場合を除き、著作権者の許可なく文章、写真、イラスト、画像等の全部または一部を利用することは禁止します。",
+    "target": "page"
+  },
+  "/sources/inazawa-shigikai-r8/inazawa_210.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.inazawa.aichi.jp/0000005655.html",
+    "license": "稲沢市ホームページに掲載する情報の正確さには万全を期していますが、稲沢市は利用者が稲沢市ホームページの情報を用いて行う一切の行為について責任を負うものではありません。利用者が稲沢市ホームページへアクセスしたために被った損害、損失に対して責任を負うものではありません。稲沢市ホームページは、事前の予告なしに内容やアドレスを変更または削除する場合がありますので、あらかじめご了承ください。",
+    "target": "page"
+  },
+  "/sources/inazawa-shigikai-r8/inazawa_0000005596.html": {
+    "mode": "origin",
+    "href": "https://www.city.inazawa.aichi.jp/0000005655.html",
+    "license": "稲沢市ホームページに掲載する情報の正確さには万全を期していますが、稲沢市は利用者が稲沢市ホームページの情報を用いて行う一切の行為について責任を負うものではありません。利用者が稲沢市ホームページへアクセスしたために被った損害、損失に対して責任を負うものではありません。稲沢市ホームページは、事前の予告なしに内容やアドレスを変更または削除する場合がありますので、あらかじめご了承ください。",
+    "target": "page"
+  },
+  "/sources/inazawa-shigikai-r8/inazawa_0000005599.html": {
+    "mode": "origin",
+    "href": "https://www.city.inazawa.aichi.jp/0000005655.html",
+    "license": "稲沢市ホームページに掲載する情報の正確さには万全を期していますが、稲沢市は利用者が稲沢市ホームページの情報を用いて行う一切の行為について責任を負うものではありません。利用者が稲沢市ホームページへアクセスしたために被った損害、損失に対して責任を負うものではありません。稲沢市ホームページは、事前の予告なしに内容やアドレスを変更または削除する場合がありますので、あらかじめご了承ください。",
+    "target": "page"
+  },
+  "/sources/obu-shigikai-r8/obu_kaiha_wb20260311.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260311220837id_/https://www.city.obu.aichi.jp/gikai/meibo/1006236.html",
+    "license": "大府市公式ウェブサイトに掲載されています情報（文章、写真、イラストなど）の著作権は、原則として大府市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。 大府市公式ウェブサイトの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、大府市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/obu-shigikai-r8/obu_g07_giketsu.html": {
+    "mode": "origin",
+    "href": "https://obu.gijiroku.com/g07_giketsu.asp?kword1=&kaigi=2026%2F02%2F24%2C2026%2F03%2F17%2C238&bunrui=",
+    "license": "大府市公式ウェブサイトに掲載されています情報（文章、写真、イラストなど）の著作権は、原則として大府市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。 大府市公式ウェブサイトの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、大府市の許可なく複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/obu-shigikai-r8/obu_1038051.html": {
+    "mode": "origin",
+    "href": "https://www.city.obu.aichi.jp/gikai/honkaigi/1038046/1038051.html",
+    "license": "大府市公式ウェブサイトに掲載されています情報（文章、写真、イラストなど）の著作権は、原則として大府市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。 大府市公式ウェブサイトの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、大府市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/obu-shigikai-r8/obu_1006229.html": {
+    "mode": "origin",
+    "href": "https://www.city.obu.aichi.jp/gikai/gikai_info/1006229.html",
+    "license": "大府市公式ウェブサイトに掲載されています情報（文章、写真、イラストなど）の著作権は、原則として大府市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。 大府市公式ウェブサイトの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、大府市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/obu-shigikai-r8/obu_gicho_1035387.html": {
+    "mode": "origin",
+    "href": "https://www.city.obu.aichi.jp/gikai/gicho/1035387.html",
+    "license": "大府市公式ウェブサイトに掲載されています情報（文章、写真、イラストなど）の著作権は、原則として大府市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。 大府市公式ウェブサイトの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、大府市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/owariasahi-shigikai-r8/oa_3477_wb20251107.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20251107235755id_/https://www.city.owariasahi.lg.jp/site/gikai/3477.html",
+    "license": "本サイトに掲載されているコンテンツ（テキスト、画像、データ類）は、著作権の対象になっています。また、ホームページ全体が編集著作権の対象となっており、「あさぴーのイラスト」のように特別に使用を許可しているもの以外は、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/owariasahi-shigikai-r8/oa_51537.html": {
+    "mode": "origin",
+    "href": "https://www.city.owariasahi.lg.jp/site/gikai/51537.html",
+    "license": "本サイトに掲載されているコンテンツ（テキスト、画像、データ類）は、著作権の対象になっています。また、ホームページ全体が編集著作権の対象となっており、「あさぴーのイラスト」のように特別に使用を許可しているもの以外は、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/owariasahi-shigikai-r8/oa_40242.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.owariasahi.lg.jp/uploaded/attachment/40242.pdf",
+    "license": "本サイトに掲載されているコンテンツ（テキスト、画像、データ類）は、著作権の対象になっています。また、ホームページ全体が編集著作権の対象となっており、「あさぴーのイラスト」のように特別に使用を許可しているもの以外は、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/owariasahi-shigikai-r8/oa_3494.html": {
+    "mode": "origin",
+    "href": "https://www.city.owariasahi.lg.jp/site/gikai/3494.html",
+    "license": "本サイトに掲載されているコンテンツ（テキスト、画像、データ類）は、著作権の対象になっています。また、ホームページ全体が編集著作権の対象となっており、「あさぴーのイラスト」のように特別に使用を許可しているもの以外は、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nisshin-shigikai-r8/ns_R8_1teireihyouketutaido.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nisshin.lg.jp/material/files/group/80/R8_1teireihyouketutaido.pdf",
+    "license": "日進市公式Webサイトに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として日進市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。日進市公式Webサイトは利用目的を問わず自由に閲覧していただくことが可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、日進市公式Webサイト内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/nisshin-shigikai-r8/ns_18228.html": {
+    "mode": "origin",
+    "href": "https://www.city.nisshin.lg.jp/department/gikai/giji/4/7/gian/18228.html",
+    "license": "日進市公式Webサイトに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として日進市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。日進市公式Webサイトは利用目的を問わず自由に閲覧していただくことが可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、日進市公式Webサイト内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
   }
 };

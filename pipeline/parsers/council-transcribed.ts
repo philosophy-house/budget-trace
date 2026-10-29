@@ -24,7 +24,10 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.11";
+export const PARSER_VERSION = "0.8.12";
+
+/** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
+const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派を構成しない議員"];
 
 const factionSchema = z
   .object({
@@ -68,9 +71,24 @@ const factionSchema = z
      * members の部分集合で、`declared` の数 = members − これ を要求する
      */
     declaredExcludes: z.array(z.string().min(1)).optional(),
+    /**
+     * 無所属の枠に名前の字が入らないときの理由（日進: 表決態度一覧の岩渕議員の列の上の会派欄が空／草加・足立: 表頭の「無所属」が
+     * 複数の列にまたがる結合セルで、1人ずつの枠には字の一部しか入らない）。
+     * 書けるのは independent で、名前が `INDEPENDENT_NAMES` の語のときだけ（実在の会派名を照合なしで書かせない）
+     */
+    nameAbsentReason: z.string().min(20).optional(),
+    /**
+     * nameAbsentReason の枠と同じファイルに、名前を照合している枠が無いときの理由（印西: 無所属の枠だけが別の原典の注記の行）。
+     * 兄弟の枠が無いと、枠の端をずらしたかどうかを位置で確かめられない
+     */
+    noSiblingReason: z.string().min(20).optional(),
   })
   .refine((f) => (f.declared != null) !== (f.noDeclaredCount === true), {
     message: "declared（印字された人数）か noDeclaredCount: true のどちらか一方が要ります",
+  })
+  .refine((f) => f.noSiblingReason == null || f.nameAbsentReason != null, { message: "noSiblingReason は nameAbsentReason の枠にだけ書けます" })
+  .refine((f) => f.nameAbsentReason == null || (f.independent === true && INDEPENDENT_NAMES.includes(f.name)), {
+    message: `nameAbsentReason は independent で、名前が ${INDEPENDENT_NAMES.join("・")} のどれかのときだけ書けます`,
   });
 
 const votesSchema = z.object({
@@ -1290,9 +1308,86 @@ export function parseCouncilTranscribed(
   const seen = new Map<string, string>();
   const factions: CouncilFactionFact[] = opt.factions.map((f, i) => {
     const sections = sectionsOf(i);
-    if (!opt.noFactions && !f.independent) {
+    // 無所属の枠も名前を照合する（0.8.12）。0.8.11 までは independent を飛ばしていて、枠・ページの方式では
+    // 無所属の名前を実在の会派名に書き換えても、会派を independent にして「無会派」と書いても通った（愛知の巡のレビューで実測）
+    // 名前の字が無い枠は、理由に枠の残り（枠の本文から所属議員の氏名を除いた字）を引用させる。引用はパーサが計算し直して
+    // 突き合わせる — 自由記述のままだと、実在の会派の枠を「無会派」と書いて理由を足すだけで通った（2巡目のレビューで実測）。
+    // 残りに他の会派の名前が入っていれば、枠の取り違えなので落とす
+    if (f.nameAbsentReason) {
+      if (!f.box) missing.push(`${f.name}: nameAbsentReason は枠（box）の会派にだけ書けます`);
+      // -layout と -raw の両方の残りを切り詰めずに引用させる（先頭だけ・片方だけだと、枠を賛否の行まで伸ばして
+      // -raw で会派名を記号の後ろへ押し出すと通った＝3巡目のレビュー）
+      const rest = sections.map((s) => f.members.reduce((t, m) => t.split(norm(m)).join(""), s).trim());
+      const part = (r: string) => (r ? `氏名のほか「${r}」だけ` : "氏名だけ");
+      const quote = rest.every((r) => r === rest[0]) ? `枠の本文は${part(rest[0]!)}` : `枠の本文は -layout で${part(rest[0]!)}、-raw で${part(rest[1]!)}`;
+      if (!f.nameAbsentReason.includes(quote)) {
+        missing.push(`${rosterFile.filename}: factions[${i}]「${f.name}」の nameAbsentReason は枠の残りを引用すること（「${quote}」を含める）`);
+      }
+      allNames.forEach((ns, j) => {
+        if (j === i) return;
+        for (const part of ns) if (rest.some((r) => r.includes(part))) missing.push(`${rosterFile.filename}: 会派「${f.name}」の枠に会派名「${part}」が入っています（枠か書き写しの誤り）`);
+      });
+      // 枠の端を会派名の行の内側へずらすと、引用は氏名だけになって会派の取り違えが通る（4巡目のレビュー: 瀬戸・日進・西尾・稲沢で実測）。
+      // 名前を照合している同じファイル・同じページの枠と縦（y・h）か横（x・w）の範囲がそろっていること。そろわなければ、兄弟の枠の端から
+      // この枠までの帯に字が無いこと（会派名がはみ出していないこと）。兄弟はページで絞らない — 表頭が全ページに同じ座標で繰り返す
+      // 賛否表では、枠のページを変えると兄弟が0件になって帯の照合が抜けた（5巡目のレビュー: 西尾・日進）
+      if (f.box) {
+        const [x, y, w, h] = f.box;
+        const sibs = opt.factions
+          .filter((g) => g.box && !g.nameAbsentReason && (g.url ?? null) === (f.url ?? null))
+          .map((g) => ({ b: g.box!, page: g.page ?? 1 }));
+        if (!sibs.length) {
+          if (!f.noSiblingReason) missing.push(`${rosterFile.filename}: 会派「${f.name}」の枠と同じファイルに名前を照合している枠が無い（noSiblingReason が要る）`);
+        } else {
+          const same = sibs.filter((s) => s.page === (f.page ?? 1)).map((s) => s.b);
+          const all = sibs.map((s) => s.b);
+          const yAligned = same.some((b) => b[1] === y && b[3] === h);
+          const xAligned = same.some((b) => b[0] === x && b[2] === w);
+          const pg = String(f.page ?? 1);
+          const crop = (bx: number, by: number, bw: number, bh: number) =>
+            bw <= 0 || bh <= 0 ? "" : norm(pdftotext((f.url ? fileFor(f.url) : rosterFile).path, ["-raw", "-f", pg, "-l", pg, "-x", String(bx), "-y", String(by), "-W", String(bw), "-H", String(bh)])).trim();
+          // 帯から議員の氏名・無所属の呼び名・数字と記号を除いて、字が残れば会派名のはみ出しとみなす
+          const allMembers = opt.factions.flatMap((g) => g.members.map(norm)).sort((p, q) => q.length - p.length);
+          const strip = (t: string) =>
+            [...allMembers, ...INDEPENDENT_NAMES.map(norm).sort((p, q) => q.length - p.length)].reduce((u, n) => u.split(n).join(""), t).replace(/[\d０-９()（）、。,.・\s期人名]/g, "");
+          const bands: string[] = [];
+          if (!yAligned && xAligned) {
+            // 会派ごとの塊が縦に積まれる名簿（安城）: すぐ上の塊の下端からこの枠の上端までの帯（会派名「（N人）」の行）を見る
+            // （x・w がそろうだけだと、上端を下げて会派名を外しても通った＝5巡目のレビュー）
+            // すぐ上の塊は同じ列のどの会派の枠でもよい（無所属の塊が続く安城で、上の無所属の議員の役職の行まで帯に入っていた）
+            const column = opt.factions.filter((g) => g !== f && g.box && (g.url ?? null) === (f.url ?? null) && (g.page ?? 1) === (f.page ?? 1)).map((g) => g.box!);
+            const above = column.filter((b) => b[0] === x && b[2] === w && b[1] + b[3] <= y);
+            const bottom = above.length ? Math.max(...above.map((b) => b[1] + b[3])) : Math.min(...all.map((b) => b[1]));
+            bands.push(crop(x, bottom, w, y - bottom));
+          } else if (!yAligned) {
+            const top = Math.min(...all.map((b) => b[1]));
+            const left = Math.min(...all.map((b) => b[0]));
+            // 兄弟の枠が y をそろえていれば会派が列に並ぶ表（上の帯に会派名）、x をそろえていれば行に並ぶ表（左の帯に会派名）
+            const cols = all.some((b) => all.some((c) => c !== b && c[1] === b[1]));
+            const rows = all.some((b) => all.some((c) => c !== b && c[0] === b[0]));
+            if (cols || !rows) bands.push(crop(x, top, w, y - top));
+            if (rows || !cols) bands.push(crop(left, y, x - left, h));
+          }
+          const left = bands.map(strip).filter(Boolean);
+          if (left.length) missing.push(`${rosterFile.filename}: 会派「${f.name}」の枠は名前を照合している枠と範囲がそろわず、兄弟の枠の端からこの枠までの帯に字がある（「${left.join("」「")}」）`);
+        }
+      }
+    }
+    if (!opt.noFactions && !f.nameAbsentReason) {
       for (const part of allNames[i]!) {
         if (!sections.some((s) => s.includes(part))) missing.push(`${rosterFile.filename}: 会派名「${part}」が${f.box ? "枠" : "本文"}に見つかりません`);
+      }
+      // 枠には他の会派の名前も入らないこと（上の会派の枠を伸ばして下の会派名の行を飲み込み、下の会派を無所属へ取り違えると通った＝6巡目のレビュー）。
+      // 自分の名前に含まれる名前（「無所属」⊂「無所属議員の会」）と、縦書きを1字ずつに割った nameParts（戸田「り」）は数えない
+      if (f.box) {
+        const own = allNames[i]!;
+        allNames.forEach((ns, j) => {
+          if (j === i || opt.factions[j]!.nameAbsentReason) return;
+          for (const part of ns) {
+            if (part.length < 2 || own.some((o) => o.includes(part))) continue;
+            if (sections.some((s) => s.includes(part))) missing.push(`${rosterFile.filename}: 会派「${f.name}」の枠に会派名「${part}」が入っています（枠か書き写しの誤り）`);
+          }
+        });
       }
     }
     for (const m of f.members) {

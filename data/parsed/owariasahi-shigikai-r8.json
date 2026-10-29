@@ -1,0 +1,228 @@
+{
+  "docType": "council-composition",
+  "sourceId": "owariasahi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:19.734Z",
+  "fiscalYear": "R8",
+  "body": "尾張旭市議会",
+  "seats": 20,
+  "asOf": "2025-05-19",
+  "factions": [
+    {
+      "name": "令和あさひ",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "秋田さとし",
+        "さかえ章演",
+        "陣矢幸司",
+        "谷口武司",
+        "日比野和雄",
+        "松原たかし",
+        "安田吉宏",
+        "若杉たかし"
+      ],
+      "locator": {
+        "file": "oa_3477_wb20251107.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "市原誠二",
+        "いとう伸一",
+        "大島もえ",
+        "櫻井直樹",
+        "早川八郎"
+      ],
+      "locator": {
+        "file": "oa_3477_wb20251107.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党尾張旭市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "芦原美佳子",
+        "片渕卓三",
+        "丸山幸子"
+      ],
+      "locator": {
+        "file": "oa_3477_wb20251107.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党尾張旭市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川村つよし",
+        "榊原利宏"
+      ],
+      "locator": {
+        "file": "oa_3477_wb20251107.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "愛知維新の会尾張旭市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "勝股修二",
+        "山下幹雄"
+      ],
+      "locator": {
+        "file": "oa_3477_wb20251107.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第8号議案",
+    "billName": "令和8年度尾張旭市一般会計予算",
+    "sessionLabel": "令和8年第2回（3月）定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "oa_51537.html"
+    }
+  },
+  "rosterTitle": "会派構成名簿（令和7年5月19日現在）",
+  "resultTitle": "提出議案と議決結果（令和8年第2回（3月）定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "尾張旭市議会だより 第251号 p.7「賛否が分かれた議案」",
+    "sourceFile": "oa_40242.pdf",
+    "columns": [
+      {
+        "label": "秋田さとし",
+        "faction": "令和あさひ",
+        "member": "秋田さとし",
+        "stance": "賛成"
+      },
+      {
+        "label": "陣矢幸司",
+        "faction": "令和あさひ",
+        "member": "陣矢幸司",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷口武司",
+        "faction": "令和あさひ",
+        "member": "谷口武司",
+        "stance": "賛成"
+      },
+      {
+        "label": "日比野和雄",
+        "faction": "令和あさひ",
+        "member": "日比野和雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "松原たかし",
+        "faction": "令和あさひ",
+        "member": "松原たかし",
+        "stance": "賛成"
+      },
+      {
+        "label": "安田吉宏",
+        "faction": "令和あさひ",
+        "member": "安田吉宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "若杉たかし",
+        "faction": "令和あさひ",
+        "member": "若杉たかし",
+        "stance": "賛成"
+      },
+      {
+        "label": "市原誠二",
+        "faction": "市民クラブ",
+        "member": "市原誠二",
+        "stance": "賛成"
+      },
+      {
+        "label": "いとう伸一",
+        "faction": "市民クラブ",
+        "member": "いとう伸一",
+        "stance": "賛成"
+      },
+      {
+        "label": "大島もえ",
+        "faction": "市民クラブ",
+        "member": "大島もえ",
+        "stance": "賛成"
+      },
+      {
+        "label": "櫻井直樹",
+        "faction": "市民クラブ",
+        "member": "櫻井直樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "早川八郎",
+        "faction": "市民クラブ",
+        "member": "早川八郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "芦原美佳子",
+        "faction": "公明党尾張旭市議団",
+        "member": "芦原美佳子",
+        "stance": "賛成"
+      },
+      {
+        "label": "片渕卓三",
+        "faction": "公明党尾張旭市議団",
+        "member": "片渕卓三",
+        "stance": "賛成"
+      },
+      {
+        "label": "丸山幸子",
+        "faction": "公明党尾張旭市議団",
+        "member": "丸山幸子",
+        "stance": "賛成"
+      },
+      {
+        "label": "川村つよし",
+        "faction": "日本共産党尾張旭市議団",
+        "member": "川村つよし",
+        "stance": "反対"
+      },
+      {
+        "label": "榊原利宏",
+        "faction": "日本共産党尾張旭市議団",
+        "member": "榊原利宏",
+        "stance": "反対"
+      },
+      {
+        "label": "勝股修二",
+        "faction": "愛知維新の会尾張旭市議団",
+        "member": "勝股修二",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下幹雄",
+        "faction": "愛知維新の会尾張旭市議団",
+        "member": "山下幹雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "さかえ章演",
+        "faction": "令和あさひ",
+        "member": "さかえ章演",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "seto-shigikai-r8",
+  "files": [
+    {
+      "filename": "seto_R080324_sanpi.pdf",
+      "sha256": "77514e361822e17c0bd9bbdeb3730d501a46aa169906959a614e6d09f2f0671b",
+      "bytes": 545975,
+      "fetchedAt": "2026-10-29T01:31:28.922Z",
+      "fetchedFrom": "https://www.city.seto.aichi.jp/docs/2026/02/12/00708042083/files/R080324_sanpi.pdf"
+    },
+    {
+      "filename": "seto_00708042083.html",
+      "sha256": "33be41ede4ea1478661234f7a8ee8ba244e28d9e7fcd4f0464de77f857850d4b",
+      "bytes": 73238,
+      "fetchedAt": "2026-10-29T01:31:28.924Z",
+      "fetchedFrom": "https://www.city.seto.aichi.jp/docs/2026/02/12/00708042083/00708042083.html"
+    },
+    {
+      "filename": "seto_00038_index.html",
+      "sha256": "3bf891ba918e3c9fc79ae5faade1872cb427b17b722c20e86276e23c6a4fa8d4",
+      "bytes": 38086,
+      "fetchedAt": "2026-10-29T01:31:28.925Z",
+      "fetchedFrom": "https://www.city.seto.aichi.jp/docs/2016/01/29/00038/index.html"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "owariasahi-shigikai-r8",
+  "files": [
+    {
+      "filename": "oa_3477_wb20251107.html",
+      "sha256": "fe0e8ff295f17c25008071e227eaca4ad6cf439b16bb3038163eff14edbf4093",
+      "bytes": 35718,
+      "fetchedAt": "2026-10-29T01:31:28.943Z",
+      "fetchedFrom": "https://web.archive.org/web/20251107235755id_/https://www.city.owariasahi.lg.jp/site/gikai/3477.html"
+    },
+    {
+      "filename": "oa_51537.html",
+      "sha256": "035464cbda9449de157a421a9bc24eb0213de784e3dd5031a8bdaa793544eb6e",
+      "bytes": 75113,
+      "fetchedAt": "2026-10-29T01:31:28.943Z",
+      "fetchedFrom": "https://www.city.owariasahi.lg.jp/site/gikai/51537.html"
+    },
+    {
+      "filename": "oa_40242.pdf",
+      "sha256": "ce146944dddff47d89331f4986ea2a76922605685c8239f5d8d55513abb6eee8",
+      "bytes": 634858,
+      "fetchedAt": "2026-10-29T01:31:28.944Z",
+      "fetchedFrom": "https://www.city.owariasahi.lg.jp/uploaded/attachment/40242.pdf"
+    },
+    {
+      "filename": "oa_3494.html",
+      "sha256": "56789c9730ce94a7986b4e1c32ae15fae5d98f72299177c43d96ff166e96d5be",
+      "bytes": 35261,
+      "fetchedAt": "2026-10-29T01:31:28.944Z",
+      "fetchedFrom": "https://www.city.owariasahi.lg.jp/site/gikai/3494.html"
+    }
+  ]
+}

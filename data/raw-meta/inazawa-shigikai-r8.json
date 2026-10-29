@@ -1,0 +1,26 @@
+{
+  "sourceId": "inazawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "inazawa_210.pdf",
+      "sha256": "779c725681e196d42b558cc9143e54dd6a30340401964eb6a549d975123097eb",
+      "bytes": 2100549,
+      "fetchedAt": "2026-10-29T01:31:28.940Z",
+      "fetchedFrom": "https://www.city.inazawa.aichi.jp/cmsfiles/contents/0000005/5655/210.pdf"
+    },
+    {
+      "filename": "inazawa_0000005596.html",
+      "sha256": "c3dc88cef0190403eafbf3d2e66151ed8249d8b4836f8fc985732c5b73d05e86",
+      "bytes": 43393,
+      "fetchedAt": "2026-10-29T01:31:28.941Z",
+      "fetchedFrom": "https://www.city.inazawa.aichi.jp/0000005596.html"
+    },
+    {
+      "filename": "inazawa_0000005599.html",
+      "sha256": "edc768cc5c06d75b111bee9165df315ff331bee2fc5060b7aefc941d5abbd949",
+      "bytes": 35866,
+      "fetchedAt": "2026-10-29T01:31:28.941Z",
+      "fetchedFrom": "https://www.city.inazawa.aichi.jp/0000005599.html"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "docType": "council-composition",
+  "sourceId": "handa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:17.462Z",
+  "fiscalYear": "R8",
+  "body": "半田市議会",
+  "seats": 22,
+  "asOf": "2025-06-24",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "創造みらい半田",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "渡邉昭司",
+        "山本裕介",
+        "芳金秀展",
+        "鈴木英華",
+        "田中嵩久",
+        "澤田勝",
+        "石川英之",
+        "鈴木幸彦",
+        "榊原瑞輝",
+        "竹内功治",
+        "沢田清",
+        "岩田玲子"
+      ],
+      "locator": {
+        "file": "handa_1004475_20251210081353.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山田清一",
+        "坂井美穂",
+        "麻生七海"
+      ],
+      "locator": {
+        "file": "handa_1004475_20251210081353.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "つなぐ未来",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村和也",
+        "小出義一"
+      ],
+      "locator": {
+        "file": "handa_1004475_20251210081353.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "チャレンジはんだ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "伊藤正興",
+        "國弘秀之"
+      ],
+      "locator": {
+        "file": "handa_1004475_20251210081353.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "有留麻由",
+        "新美保博",
+        "加藤美幸"
+      ],
+      "locator": {
+        "file": "handa_1004475_20251210081353.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "１０",
+    "billName": "令和８年度半田市一般会計予算",
+    "sessionLabel": "令和８年第２回半田市議会定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "handa_r80325giketukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "半田市議会会派構成（会派別名簿・更新日 令和7年6月24日）",
+  "resultTitle": "令和８年第２回半田市議会定例会議決結果（3月25日議決分）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "はんだ市議会だより241号 3月定例会審議結果（賛否の分かれた案件等）",
+    "sourceFile": "handa_2417.pdf",
+    "columns": [
+      {
+        "label": "山本裕介",
+        "faction": "創造みらい半田",
+        "member": "山本裕介",
+        "stance": "賛成"
+      },
+      {
+        "label": "芳金秀展",
+        "faction": "創造みらい半田",
+        "member": "芳金秀展",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木英華",
+        "faction": "創造みらい半田",
+        "member": "鈴木英華",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中嵩久",
+        "faction": "創造みらい半田",
+        "member": "田中嵩久",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤田勝",
+        "faction": "創造みらい半田",
+        "member": "澤田勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木幸彦",
+        "faction": "創造みらい半田",
+        "member": "鈴木幸彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "榊原瑞輝",
+        "faction": "創造みらい半田",
+        "member": "榊原瑞輝",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹内功治",
+        "faction": "創造みらい半田",
+        "member": "竹内功治",
+        "stance": "賛成"
+      },
+      {
+        "label": "沢田清",
+        "faction": "創造みらい半田",
+        "member": "沢田清",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩田玲子",
+        "faction": "創造みらい半田",
+        "member": "岩田玲子",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡邉昭司",
+        "faction": "創造みらい半田",
+        "member": "渡邉昭司",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田清一",
+        "faction": "公明党",
+        "member": "山田清一",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂井美穂",
+        "faction": "公明党",
+        "member": "坂井美穂",
+        "stance": "賛成"
+      },
+      {
+        "label": "麻生七海",
+        "faction": "公明党",
+        "member": "麻生七海",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村和也",
+        "faction": "つなぐ未来",
+        "member": "中村和也",
+        "stance": "賛成"
+      },
+      {
+        "label": "小出義一",
+        "faction": "つなぐ未来",
+        "member": "小出義一",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤正興",
+        "faction": "チャレンジはんだ",
+        "member": "伊藤正興",
+        "stance": "賛成"
+      },
+      {
+        "label": "國弘秀之",
+        "faction": "チャレンジはんだ",
+        "member": "國弘秀之",
+        "stance": "賛成"
+      },
+      {
+        "label": "有留麻由",
+        "faction": "無所属",
+        "member": "有留麻由",
+        "stance": "反対"
+      },
+      {
+        "label": "新美保博",
+        "faction": "無所属",
+        "member": "新美保博",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤美幸",
+        "faction": "無所属",
+        "member": "加藤美幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川英之",
+        "faction": "創造みらい半田",
+        "member": "石川英之",
+        "stance": "議長"
+      }
+    ]
+  }
+}

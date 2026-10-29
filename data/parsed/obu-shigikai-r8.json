@@ -1,0 +1,222 @@
+{
+  "docType": "council-composition",
+  "sourceId": "obu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:19.521Z",
+  "fiscalYear": "R8",
+  "body": "大府市議会",
+  "seats": 19,
+  "asOf": "2025-06-12",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "親和クラブ",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "鷹羽琴美",
+        "竹田隆憲",
+        "蟹江陸孝",
+        "時安利栄",
+        "早川高光",
+        "藤本宗久",
+        "酒井真二",
+        "太田和利",
+        "本田雅志",
+        "稲葉裕加里"
+      ],
+      "locator": {
+        "file": "obu_kaiha_wb20260311.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "木下久子",
+        "加茂康治",
+        "小山昌子",
+        "野北孝治"
+      ],
+      "locator": {
+        "file": "obu_kaiha_wb20260311.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "柴﨑智子",
+        "国本礼子"
+      ],
+      "locator": {
+        "file": "obu_kaiha_wb20260311.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宮下真悟",
+        "飯尾祐介"
+      ],
+      "locator": {
+        "file": "obu_kaiha_wb20260311.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "久永和枝"
+      ],
+      "locator": {
+        "file": "obu_kaiha_wb20260311.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第20号",
+    "billName": "令和8年度大府市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決 (賛成多数)",
+    "locator": {
+      "file": "obu_g07_giketsu.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（2025(令和7)年6月12日現在）",
+  "resultTitle": "大府市議会 議案等一覧（令和8年第1回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "2026（令和8）年第1回(3月)定例会 賛否の状況",
+    "sourceFile": "obu_1038051.html",
+    "columns": [
+      {
+        "label": "蟹江陸孝",
+        "faction": "親和クラブ",
+        "member": "蟹江陸孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "本田雅志",
+        "faction": "親和クラブ",
+        "member": "本田雅志",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲葉裕加里",
+        "faction": "親和クラブ",
+        "member": "稲葉裕加里",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹田隆憲",
+        "faction": "親和クラブ",
+        "member": "竹田隆憲",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤本宗久",
+        "faction": "親和クラブ",
+        "member": "藤本宗久",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田和利",
+        "faction": "親和クラブ",
+        "member": "太田和利",
+        "stance": "賛成"
+      },
+      {
+        "label": "時安利栄",
+        "faction": "親和クラブ",
+        "member": "時安利栄",
+        "stance": "賛成"
+      },
+      {
+        "label": "酒井真二",
+        "faction": "親和クラブ",
+        "member": "酒井真二",
+        "stance": "賛成"
+      },
+      {
+        "label": "鷹羽琴美",
+        "faction": "親和クラブ",
+        "member": "鷹羽琴美",
+        "stance": "賛成"
+      },
+      {
+        "label": "小山昌子",
+        "faction": "市民クラブ",
+        "member": "小山昌子",
+        "stance": "賛成"
+      },
+      {
+        "label": "加茂康治",
+        "faction": "市民クラブ",
+        "member": "加茂康治",
+        "stance": "賛成"
+      },
+      {
+        "label": "野北孝治",
+        "faction": "市民クラブ",
+        "member": "野北孝治",
+        "stance": "賛成"
+      },
+      {
+        "label": "木下久子",
+        "faction": "市民クラブ",
+        "member": "木下久子",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴﨑智子",
+        "faction": "公明党",
+        "member": "柴﨑智子",
+        "stance": "賛成"
+      },
+      {
+        "label": "国本礼子",
+        "faction": "公明党",
+        "member": "国本礼子",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮下真悟",
+        "faction": "無所属クラブ",
+        "member": "宮下真悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯尾祐介",
+        "faction": "無所属クラブ",
+        "member": "飯尾祐介",
+        "stance": "賛成"
+      },
+      {
+        "label": "久永和枝",
+        "faction": "日本共産党",
+        "member": "久永和枝",
+        "stance": "反対"
+      },
+      {
+        "label": "早川高光",
+        "faction": "親和クラブ",
+        "member": "早川高光",
+        "stance": "議長"
+      }
+    ]
+  }
+}

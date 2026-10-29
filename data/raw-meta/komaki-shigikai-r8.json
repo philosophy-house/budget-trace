@@ -1,0 +1,26 @@
+{
+  "sourceId": "komaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "komaki_080226kaiha.pdf",
+      "sha256": "57cbc38cb9fc629afb82d7046ff1995a9b129ef1ebc8364d56112439584c96c6",
+      "bytes": 62927,
+      "fetchedAt": "2026-10-29T01:31:28.938Z",
+      "fetchedFrom": "https://web.archive.org/web/20260516054430id_/https://www.city.komaki.aichi.jp/material/files/group/60/080226kaiha.pdf"
+    },
+    {
+      "filename": "komaki_27039_20260516.html",
+      "sha256": "f666ae71e99b9367f77538491ed200911b102f6f3f334b5b7abefc4d4d82f104",
+      "bytes": 42422,
+      "fetchedAt": "2026-10-29T01:31:28.938Z",
+      "fetchedFrom": "https://web.archive.org/web/20260516051427id_/https://www.city.komaki.aichi.jp/admin/soshiki/gikai/giji/3/1/27039.html"
+    },
+    {
+      "filename": "komaki_50784.html",
+      "sha256": "3227b65b7cd90ee74decfc709b41adc31710efd21ec5cf92115135d7f70cf59f",
+      "bytes": 60982,
+      "fetchedAt": "2026-10-29T01:31:28.938Z",
+      "fetchedFrom": "https://www.city.komaki.aichi.jp/admin/soshiki/gikai/giji/2/3/50784.html"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "docType": "council-composition",
+  "sourceId": "komaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:19.067Z",
+  "fiscalYear": "R8",
+  "body": "小牧市議会",
+  "seats": 25,
+  "asOf": "2026-02-26",
+  "factions": [
+    {
+      "name": "牧政会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "阿部哲己",
+        "石田知早人",
+        "河内伸一",
+        "小島倫明",
+        "佐藤悟",
+        "鈴木裕士",
+        "永井孝典",
+        "舟橋秀和",
+        "余語智"
+      ],
+      "locator": {
+        "file": "komaki_080226kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "こまき民主市議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小川真由美",
+        "小沢国大",
+        "諸岡英実",
+        "谷田貝将典"
+      ],
+      "locator": {
+        "file": "komaki_080226kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党小牧市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "猪飼健治",
+        "安江美代子",
+        "山田美代子"
+      ],
+      "locator": {
+        "file": "komaki_080226kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党小牧市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "加藤晶子",
+        "佐藤早苗",
+        "星熊伸作"
+      ],
+      "locator": {
+        "file": "komaki_080226kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "伊藤皇士郎",
+        "大上利幸",
+        "河内光",
+        "木村哲也",
+        "黒木明",
+        "清水隆宏"
+      ],
+      "locator": {
+        "file": "komaki_080226kaiha.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第38号",
+    "billName": "令和8年度小牧市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "可決（出席者賛成多数）",
+    "locator": {
+      "file": "komaki_50784.html"
+    }
+  },
+  "rosterTitle": "会派別議員構成一覧（令和８年２月26日現在）",
+  "resultTitle": "令和8年第1回定例会（3月議会）提出議案（議決結果）"
+}

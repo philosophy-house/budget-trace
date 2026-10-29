@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="../css/document.css" type="text/css" media="all">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/document.js"></script>
+<title>閲覧 | 西尾市議会 会議録の閲覧と検索</title>
+</head>
+<body class="document">
+    <header class="document__command" id="Command">
+        <nav class="document__header">
+            <div class="document__title">西尾市議会 会議録の閲覧と検索</div>
+<ul class="navi">
+    <li class="navi__item">
+        <a class="navi__btn navi__btn--top" href="/index.php/8916063?QueryType=New">検索のやり直し</a>
+    </li>
+    <li class="navi__item">
+        <a class="navi__btn navi__btn--list" href="/index.php/8916063?Template=list">検索結果一覧</a>
+    </li>
+    <li class="navi__item navi__item--help">
+        <a class="navi__btn navi__btn--help" href="/index.php/8916063?Template=help_help-doc-move" target="Help">使い方の説明 <span class="visually-hidden">（新しいウィンドウで開きます）</span></a>
+    </li>
+</ul>
+
+        </nav>
+        <section class="command">
+            <h1 class="command__title">
+                <date class="command__date">2026-03-23</date>：
+                令和８年３月定例会（第７号）  議事日程及び出席者
+            </h1>
+            <section class="command__item">
+                <h2 class="visually-hidden">文書・発言の移動</h2>
+                <dl class="control">
+                    <dt class="control__title" title="文書の切替">文書</dt>
+                    <!--  -->
+                    <dd class="control__layout--prev-doc">
+                        <a
+                            role="button"
+                            class="control__prev"
+                            title="前の文書を表示 [74 / 4886]"
+                            href="/index.php/8916063?Template=document&amp;VoiceType=all&amp;DocumentID=2769"
+                            data-document-move="prev">前へ</a></dd>
+                    <!--  -->
+                    <!--  -->
+                    <dd class="control__layout--next-doc">
+                        <a
+                            role="button"
+                            tabindex="0"
+                            class="control__next"
+                            title="次の文書を表示 [74 / 4886]"
+                            href="/index.php/8916063?Template=document&amp;VoiceType=all&amp;DocumentID=1313"
+                            data-document-move="next">次へ</a></dd>
+                    <!--  -->
+                </dl>
+                <dl class="control">
+                    <dt class="control__title" title="発言の切替">発言</dt>
+                    <dd class="control__layout--prev">
+                        <button class="control__prev" disabled="disabled" data-voice-move="prev" aria-label="前の発言に切り替える">前へ</button>
+                    </dd>
+                    <dd class="control__layout--next">
+                        <button class="control__next" disabled="disabled" data-voice-move="next" aria-label="次の発言に切り替える">次へ</button>
+                    </dd>
+                </dl>
+                <dl class="control">
+                    <dt class="control__title" title="ヒット発言の切替">ヒット発言</dt>
+                    <dd class="control__layout--prev-hit">
+                        <button class="control__prev" disabled="disabled" data-voice-move="prev-hit" aria-label="前のヒット発言に切り替える">前へ</button>
+                    </dd>
+                    <dd class="control__layout--next-hit">
+                        <button class="control__next" disabled="disabled" data-voice-move="next-hit" aria-label="次のヒット発言に切り替える">次へ</button>
+                    </dd>
+                </dl>
+            </section>
+            <section class="function">
+                <h2 class="visually-hidden">別画面表示ツール</h2>
+                <div class="function__tool">
+                    
+                    <dl class="tools">
+                        <dt class="tools__title">ツール</dt>
+                        <dd class="tools__item"><a class="tools__anchor tools__anchor--print" href="/index.php/8916063?Template=document-print-window" data-template="document-print-window">印刷表示<span class="visually-hidden">（新しいウィンドウで開きます）</span></a></dd>
+                        
+                        <dd class="tools__item"><a class="tools__anchor tools__anchor--download" href="/index.php/8916063?Template=download&amp;download=yes" data-template="download" aria-label="本文テキストをダウンロード">ダウンロード</a></dd>
+                        <dd class="tools__item"><button class="tools__button tools__button--break" id="pageBreak" aria-pressed="false">行ズレ修正</button></dd>
+                    </dl>
+                </div>
+            </section>
+            <section class="tab-view">
+                <h2 class="visually-hidden">表示形式切り替え</h2>
+                <fieldset class="tab-view__layout">
+                    <legend class="view-switch__title visually-hidden">発言の単文・選択・全文表示を切り替え</legend>
+                    <input class="visually-hidden" type="radio" name="tabview" id="tab-one" data-voice-type="one" autocomplete="off">
+                    <label class="tab-view__item" for="tab-one">単文表示</label>
+                    <input class="visually-hidden" type="radio" name="tabview" id="tab-sel" data-voice-type="select" autocomplete="off">
+                    <label class="tab-view__item" for="tab-sel">選択表示</label>
+                    <input class="visually-hidden" type="radio" name="tabview" id="tab-all" data-voice-type="all" autocomplete="off">
+                    <label class="tab-view__item" for="tab-all">全文表示</label>
+                </fieldset>
+            </section>
+        </section>
+    </header>
+    <main class="document__voice">
+        <div class="document__speaker" id="Speaker" tabindex="0" aria-label="発言者一覧フレーム">
+            <div class="speaker" id="speaker-top">
+                <section>
+                    <h2 class="visually-hidden">発言者の表示切り替え</h2>
+                    <div class="speaker__header">
+                        <p class="speaker__counter">
+                            全 <span class="speaker__all">1</span> 発言 /
+                            ヒット <span class="speaker__hit">0</span> 発言
+                        </p>
+                    </div>
+                    <fieldset class="document__field speaker__view view-switch" id="voiceFilter">
+                        <legend class="view-switch__title visually-hidden">すべての発言・ヒット発言の表示切り替え</legend>
+                        <!--  -->
+                        <input class="view-switch__input visually-hidden" data-view-switch="all" id="view-all" name="viewgroup" type="radio" disabled="disabled">
+                        <label class="view-switch__item" for="view-all">すべての発言</label>
+                        <input class="view-switch__input visually-hidden" data-view-switch="hit" id="view-hit" name="viewgroup" type="radio" disabled="disabled">
+                        <label class="view-switch__item" for="view-hit">ヒット発言</label>
+                        <!--  -->
+                    </fieldset>
+                    <fieldset class="document__field">
+                        <legend class="view-switch__title visually-hidden">選択表示を実行・チェックの一括変更</legend>
+                        <div class="speaker__select speaker__select--hidden select-control">
+                            <button class="select-control__submit" value="">選択表示</button>
+                        </div>
+                        <div class="speaker__select speaker__select--hidden select-control">
+                            <button class="select-control__select" value="select">すべて選択</button>
+                            <button class="select-control__select" value="unselect">すべて解除</button>
+                        </div>
+                    </fieldset>
+                </section>
+                <section>
+                    <h2 class="visually-hidden">発言者一覧</h2>
+                    <ul class="speaker__list" id="voiceList">
+                        <!--  -->
+                        <li class="speaker__item speaker__item--view " data-voice-no="1">
+                            <input class="voice__input" type="checkbox" name="VoiceID[]" value="178193" id="voice-check-1" disabled="disabled">
+                            <label for="voice-check-1" class="visually-hidden">選択</label>
+                            <button class="speaker__button voice">
+                                <span class="voice__number">1</span>
+                                <span class="voice__separate">:</span>&nbsp;
+                                                                <span class="voice__name ">（発言者名なし）</span>
+                            </button>
+                            
+                        </li>
+                        <!--  -->
+                    </ul>
+                    <div class="speaker__footer">
+                        <a href="#speaker-top" id="go-speaker-top">↑ ページの先頭へ</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="document__page" id="Page" tabindex="0" aria-label="本文フレーム">
+            <div class="page" id="page-top">
+                <section class="page-text ">
+    <h2 class="visually-hidden">本文</h2>
+    <form action="/index.php/8916063" method="post" id="formVoiceSelect" target="_blank">
+        <input type="hidden" name="VoiceType" value="select" id="VoiceType">
+        <input type="hidden" name="Template" value="" id="Template">
+        <input type="hidden" name="Download" value="No" id="Download">
+        <input type="hidden" name="VoiceID[]" value="0">
+        <!--  -->
+        <!--  -->
+        <div class="page-text__header">
+            <h3 class="page-text__name">
+                            </h3>
+            <p class="page-text__hit">
+                <a class="page-text__first-hit"
+                    href="#HitAnchor1"
+                    aria-disabled="true">↓ 最初のヒットへ</a>
+                （全 <em class="page-text__hit-count" id="PageHitCount">0</em> ヒット）
+            </p>
+        </div>
+        <ul class="page-list">
+        <!--  -->
+            <li class="page-text__voice border " data-voice-no="1">
+                <input type="checkbox" class="page-text__checkbox" name="VoiceID[]" value="178193">
+                <p class="page-text__text textwrap">
+                    <span class="page-text__number VoiceAnchor">1</span>
+                    　　　　　　　　　　令和８年　西尾市議会３月定例会会議録（第７号）<br />
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br />
+<br />
+議事日程第７号<br />
+　　令和８年３月23日（月曜日）午前10時　開会<br />
+　　　諸般の報告<br />
+第１　議案第４号　西尾市行政手続条例の一部を改正する条例の制定について<br />
+第２　議案第５号　西尾市附属機関に関する条例の一部を改正する条例の制定について<br />
+第３　議案第６号　西尾市職員の勤務時間、休暇等に関する条例の一部を改正する条例の制定に<br />
+　　　　　　　　　ついて<br />
+第４　議案第７号　西尾市特別職の職員で常勤のものの給与及び旅費に関する条例等の一部を改<br />
+　　　　　　　　　正する条例の制定について<br />
+第５　議案第30号　西尾市消防長及び消防署長の資格を定める条例の一部を改正する条例の制定<br />
+　　　　　　　　　について<br />
+第６　議案第31号　西尾市火災予防条例の一部を改正する条例の制定について<br />
+第７　陳情第２号　故意に入れない限り入らないＳＶ40プロモーター配列がファイザー製新型コ<br />
+　　　　　　　　　ロナワクチンに混入していた事を発表しない日本政府に対し西尾市がやるべ<br />
+　　　　　　　　　き対応<br />
+第８　議案第13号　西尾市障害者扶助料支給条例の一部を改正する条例の制定について<br />
+第９　議案第14号　西尾市老人の家の設置及び管理に関する条例の一部を改正する条例の制定に<br />
+　　　　　　　　　ついて<br />
+第10　議案第15号　西尾市高齢者交流広場の設置及び管理に関する条例の一部を改正する条例の<br />
+　　　　　　　　　制定について<br />
+第11　議案第16号　西尾市幡豆いきいきセンターの設置及び管理に関する条例の一部を改正する<br />
+　　　　　　　　　条例の制定について<br />
+第12　議案第17号　西尾市一色老人福祉センターの設置及び管理に関する条例の一部を改正する<br />
+　　　　　　　　　条例の制定について<br />
+第13　議案第18号　西尾市民げんきプラザの設置及び管理に関する条例の一部を改正する条例の<br />
+　　　　　　　　　制定について<br />
+第14　議案第20号　西尾いきものふれあいの里の設置及び管理に関する条例の一部を改正する条<br />
+　　　　　　　　　例の制定について<br />
+第15　議案第21号　西尾市国民健康保険税条例の一部を改正する条例の制定について<br />
+第16　議案第22号　西尾市介護保険条例の一部を改正する条例の制定について<br />
+第17　議案第３号　西尾市特定乳児等通園支援事業の運営に関する基準を定める条例の制定につ<br />
+　　　　　　　　　いて<br />
+第18　議案第10号　西尾市佐久島海浜広場の設置及び管理に関する条例の一部を改正する条例の<br />
+　　　　　　　　　制定について<br />
+第19　議案第28号　西尾市文化会館の設置及び管理等に関する条例の一部を改正する条例の制定<br />
+　　　　　　　　　について<br />
+第20　議案第29号　西尾市文化交流センターの設置及び管理に関する条例の一部を改正する条例<br />
+　　　　　　　　　の制定について<br />
+第21　議案第11号　西尾市子どものための教育・保育に係る利用者負担額に関する条例の一部を<br />
+　　　　　　　　　改正する条例の制定について<br />
+第22　議案第12号　西尾市子育て・多世代交流プラザの設置及び管理に関する条例の一部を改正<br />
+　　　　　　　　　する条例の制定について<br />
+第23　議案第27号　西尾市渡船事業運航に関する条例の一部を改正する条例の制定について<br />
+第24　議案第33号　辺地総合整備計画の変更について<br />
+第25　議案第８号　西尾勤労会館の設置及び管理に関する条例の一部を改正する条例の制定につ<br />
+　　　　　　　　　いて<br />
+第26　議案第９号　西尾市消費生活センターの組織及び運営等に関する条例の一部を改正する条<br />
+　　　　　　　　　例の制定について<br />
+第27　議案第19号　西尾市斎場の設置及び管理に関する条例の一部を改正する条例の制定につい<br />
+　　　　　　　　　て<br />
+第28　議案第23号　西尾市市営住宅の設置及び管理に関する条例の一部を改正する条例の制定に<br />
+　　　　　　　　　ついて<br />
+第29　議案第24号　西尾市水道事業給水条例の一部を改正する条例の制定について<br />
+第30　議案第25号　西尾市下水道条例の一部を改正する条例の制定について<br />
+第31　議案第26号　西尾市農業集落排水処理施設の管理に関する条例の一部を改正する条例の制<br />
+　　　　　　　　　定について<br />
+第32　議案第32号　市道路線の認定について<br />
+第33　議案第34号　令和７年度西尾市一般会計補正予算（第10号）<br />
+第34　議案第35号　令和７年度西尾市国民健康保険特別会計補正予算（第３号）<br />
+第35　議案第36号　令和７年度西尾市介護保険特別会計補正予算（第４号）<br />
+第36　議案第37号　令和７年度西尾市後期高齢者医療特別会計補正予算（第２号）<br />
+第37　議案第38号　令和７年度西尾市病院事業会計補正予算（第１号）<br />
+第38　議案第39号　令和７年度西尾市水道事業会計補正予算（第１号）<br />
+第39　議案第40号　令和７年度西尾市下水道事業会計補正予算（第１号）<br />
+第40　議案第41号　令和８年度西尾市一般会計予算<br />
+第41　議案第42号　令和８年度西尾市国民健康保険特別会計予算<br />
+第42　議案第43号　令和８年度西尾市介護保険特別会計予算<br />
+第43　議案第44号　令和８年度西尾市後期高齢者医療特別会計予算<br />
+第44　議案第45号　令和８年度西尾市佐久島診療所事業特別会計予算<br />
+第45　議案第46号　令和８年度西尾市病院事業会計予算<br />
+第46　議案第47号　令和８年度西尾市水道事業会計予算<br />
+第47　議案第48号　令和８年度西尾市下水道事業会計予算<br />
+第48　議案第49号　令和８年度西尾市渡船事業会計予算<br />
+第49　委員会提出議案第１号　西尾市議会の議員の議員報酬、費用弁償及び期末手当に関する条例の特例<br />
+　　　　　　　　　　　　　　を定める条例の制定について<br />
+第50　議案第50号　西尾市副市長の選任の同意について（西尾隆治）<br />
+第51　議案第51号　西尾市副市長の選任の同意について（杣谷正樹）<br />
+第52　議案第52号　西尾市特別職の職員で常勤のものの給与及び旅費に関する条例の特例を定め<br />
+　　　　　　　　　る条例の制定について<br />
+第53　議案第53号　西尾市教育長の給与、勤務時間その他の勤務条件に関する条例の特例を定め<br />
+　　　　　　　　　る条例の制定について<br />
+第54　議案第54号　西尾市都市公園条例の一部を改正する条例の制定について<br />
+第55　議案第55号　工事請負契約について<br />
+第56　議案第56号　令和７年度西尾市一般会計補正予算（第11号）<br />
+第57　議案第57号　令和８年度西尾市一般会計補正予算（第１号）<br />
+第58　議案第58号　令和８年度西尾市国民健康保険特別会計補正予算（第１号）<br />
+第59　議案第59号　令和８年度西尾市介護保険特別会計補正予算（第１号）<br />
+　　　　　　　　　　　─────────────────────<br />
+　本日の会議に付した案件<br />
+　　議事日程のとおり<br />
+　　　　　　　　　　　─────────────────────<br />
+出席議員（30名）<br />
+　　　　　　１番　　くろの　拓　海　　　　　　　　　　２番　　山　市　志　保<br />
+　　　　　　３番　　大須賀　竜　也　　　　　　　　　　４番　　藤　田　秀　徳<br />
+　　　　　　５番　　渡　辺　将　司　　　　　　　　　　６番　　細　井　まゆみ<br />
+　　　　　　７番　　神　田たかひろ　　　　　　　　　　８番　　石　川　まゆみ<br />
+　　　　　　９番　　岩　下　一　隆　　　　　　　　　　10番　　山　本　栄　児<br />
+　　　　　　11番　　牧　　　博　之　　　　　　　　　　12番　　杉　浦　こうき<br />
+　　　　　　13番　　牧　　　一　心　　　　　　　　　　14番　　ささき　え　み<br />
+　　　　　　15番　　福　西あきひと　　　　　　　　　　16番　　山　本　道　代<br />
+　　　　　　17番　　小　林　孝　幸　　　　　　　　　　18番　　中　村なおゆき<br />
+　　　　　　19番　　中　根　文　彦　　　　　　　　　　20番　　中　根　志　信<br />
+　　　　　　21番　　藤　井　基　夫　　　　　　　　　　22番　　磯　部　雅　弘<br />
+　　　　　　23番　　青　山　　　繁　　　　　　　　　　24番　　松　崎　隆　治<br />
+　　　　　　25番　　大　塚　久美子　　　　　　　　　　26番　　本　郷　照　代<br />
+　　　　　　27番　　松　井　晋一郎　　　　　　　　　　28番　　前　田　　　修<br />
+　　　　　　29番　　中　村　眞　一　　　　　　　　　　30番　　筒　井　　　登<br />
+　　　　　　　　　　　─────────────────────<br />
+欠席議員<br />
+　　　　　　な　　し<br />
+　　　　　　　　　　　─────────────────────<br />
+説明のため出席した者の職氏名<br />
+　　　　　市長　　　　　　　　　　　中　村　　　健<br />
+　　　　　副市長　　　　　　　　　　近　藤　芳　英<br />
+　　　　　総合政策部長　　　　　　　西　尾　隆　治<br />
+　　　　　総務部長　　　　　　　　　高　須　　　耕<br />
+　　　　　資産経営局長　　　　　　　渡　辺　英　昭<br />
+　　　　　資産経営局次長　　　　　　青　山　英　夫<br />
+　　　　　危機管理局長　　　　　　　本　田　正　浩<br />
+　　　　　健康福祉部長　　　　　　　酒　井　正　樹<br />
+　　　　　健康福祉部次長　　　　　　鈴　木　貴　之<br />
+　　　　　子ども部長　　　　　　　　手　嶋　雅　美<br />
+　　　　　市民部長　　　　　　　　　都　築　克　也<br />
+　　　　　交流共創部長　　　　　　　高　須　清　和<br />
+　　　　　産業部長　　　　　　　　　大　野　修　司<br />
+　　　　　環境部長　　　　　　　　　齋　藤　武　雄<br />
+　　　　　建設部長　　　　　　　　　杉　山　泰　弘<br />
+　　　　　都市整備部長　　　　　　　吉　田　修　二<br />
+　　　　　上下水道部長　　　　　　　黒　柳　慎　一<br />
+　　　　　会計管理者　　　　　　　　細　田　　　誠<br />
+　　　　　市民病院事務部長　　　　　高　山　　　崇<br />
+　　　　　監査委員事務局長　　　　　味　岡　　　淳<br />
+　　　　　教育長　　　　　　　　　　稲　垣　　　寿<br />
+　　　　　教育部長　　　　　　　　　菅　沼　律　哉<br />
+　　　　　教育部次長　　　　　　　　渡　辺　登志雄<br />
+　　　　　消防長　　　　　　　　　　榎　本　壮　一<br />
+　　　　　消防署長　　　　　　　　　神　谷　　　斉<br />
+　　　　　　　　　　　─────────────────────<br />
+事務局出席職員氏名<br />
+　　　　　事務局長　　　　　　　　　石　川　孝　次<br />
+　　　　　議事課長　　　　　　　　　福　田　淳　也<br />
+　　　　　議事課課長補佐　　　　　　守　山　秀　樹<br />
+　　　　　議事課主事　　　　　　　　田　中　晃　希<br />
+　　　　　　　　　　　─────────────────────<br />
+
+                </p>
+
+                <!--  -->
+                
+            </li>
+        <!--  -->
+        </ul>
+        <!--  -->
+        <!--  -->
+        <div class="page-text__alert">
+            <p>発言が指定されていません。</p>
+        </div>
+    </form>
+</section>
+
+                <footer class="page-footer">
+    <div class="page-footer__copyright">西尾市議会</div>
+    <div class="page-footer__top">
+        <a href="#page-top" id="go-page-top">↑ ページの先頭へ</a>
+    </div>
+</footer>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "sourceId": "handa-shigikai-r8",
+  "files": [
+    {
+      "filename": "handa_1004475_20251210081353.html",
+      "sha256": "0b0d495f56a57429a1309c9272f72f61492f3f8bcfd673fbbeec47c900b5ac1b",
+      "bytes": 29346,
+      "fetchedAt": "2026-10-29T01:31:28.926Z",
+      "fetchedFrom": "https://web.archive.org/web/20251210081353id_/https://www.city.handa.lg.jp/shisei/gikai/1004472/1004475.html"
+    },
+    {
+      "filename": "handa_r80325giketukekka.pdf",
+      "sha256": "7421d90ec9ffd49e9a92b573ed7767e6f4d66d051b92e1ced596bfca0fc32020",
+      "bytes": 201505,
+      "fetchedAt": "2026-10-29T01:31:28.927Z",
+      "fetchedFrom": "https://www.city.handa.lg.jp/_res/projects/default_project/_page_/001/004/481/r80325giketukekka.pdf"
+    },
+    {
+      "filename": "handa_2417.pdf",
+      "sha256": "20a16f3a7428d054df4317857fbfd569a19015b7edafcb97bc48e8f9f222682b",
+      "bytes": 299791,
+      "fetchedAt": "2026-10-29T01:31:28.928Z",
+      "fetchedFrom": "https://www.city.handa.lg.jp/_res/projects/default_project/_page_/001/012/233/2417.pdf"
+    },
+    {
+      "filename": "handa_1004473_20260211175616.html",
+      "sha256": "b21624c42deea38c16819a0c9d5ffd6694565fea82a9005c4f861d18833bc074",
+      "bytes": 30114,
+      "fetchedAt": "2026-10-29T01:31:28.928Z",
+      "fetchedFrom": "https://web.archive.org/web/20260211175616id_/https://www.city.handa.lg.jp/shisei/gikai/1004472/1004473.html"
+    },
+    {
+      "filename": "handa_1004665.html",
+      "sha256": "895922a99c8aa437519ab8e60f96a43f774d5af634caa352117efdeca457f4fc",
+      "bytes": 33099,
+      "fetchedAt": "2026-10-29T01:31:28.929Z",
+      "fetchedFrom": "https://www.city.handa.lg.jp/shisei/gikai/1004665.html"
+    }
+  ]
+}
