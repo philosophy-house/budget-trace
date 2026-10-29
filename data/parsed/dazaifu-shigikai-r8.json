@@ -1,0 +1,259 @@
+{
+  "docType": "council-composition",
+  "sourceId": "dazaifu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:27.433Z",
+  "fiscalYear": "R8",
+  "body": "太宰府市議会",
+  "seats": 18,
+  "asOf": "2026-03-23",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "堺剛",
+        "小畠真由美"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "宰光",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "陶山良尚",
+        "原田久美子",
+        "入江寿"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新風",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "門田直樹",
+        "今泉義文"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "次世代の鐘",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "笠利毅",
+        "川口親丸"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "すまいる太宰府",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "原紳次郎",
+        "岡林直人"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "太宰府市民の声",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "長谷川公成",
+        "久和満晴"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ネクスト太宰府",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "馬場礼子",
+        "瀬筒義久"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "未来のまち",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "タコスキッド",
+        "木村彰人"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（神武綾）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "神武綾"
+      ],
+      "locator": {
+        "file": "29153.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案24",
+    "billName": "令和8年度太宰府市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "46679.html"
+    }
+  },
+  "rosterTitle": "だざいふ議会だより187号（令和8年5月号）「３月定例会 賛否の分かれた議案」の表頭（会派名と議員名）",
+  "resultTitle": "令和8年3月定例会議案一覧（議決結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "だざいふ議会だより187号 ３月定例会 賛否の分かれた議案",
+    "sourceFile": "29153.pdf",
+    "columns": [
+      {
+        "label": "堺剛",
+        "faction": "公明党",
+        "member": "堺剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "小畠真由美",
+        "faction": "公明党",
+        "member": "小畠真由美",
+        "stance": "議長"
+      },
+      {
+        "label": "陶山良尚",
+        "faction": "宰光",
+        "member": "陶山良尚",
+        "stance": "賛成"
+      },
+      {
+        "label": "原田久美子",
+        "faction": "宰光",
+        "member": "原田久美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "入江寿",
+        "faction": "宰光",
+        "member": "入江寿",
+        "stance": "賛成"
+      },
+      {
+        "label": "門田直樹",
+        "faction": "新風",
+        "member": "門田直樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "今泉義文",
+        "faction": "新風",
+        "member": "今泉義文",
+        "stance": "賛成"
+      },
+      {
+        "label": "笠利毅",
+        "faction": "次世代の鐘",
+        "member": "笠利毅",
+        "stance": "賛成"
+      },
+      {
+        "label": "川口親丸",
+        "faction": "次世代の鐘",
+        "member": "川口親丸",
+        "stance": "賛成"
+      },
+      {
+        "label": "原紳次郎",
+        "faction": "すまいる太宰府",
+        "member": "原紳次郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡林直人",
+        "faction": "すまいる太宰府",
+        "member": "岡林直人",
+        "stance": "賛成"
+      },
+      {
+        "label": "長谷川公成",
+        "faction": "太宰府市民の声",
+        "member": "長谷川公成",
+        "stance": "賛成"
+      },
+      {
+        "label": "久和満晴",
+        "faction": "太宰府市民の声",
+        "member": "久和満晴",
+        "stance": "賛成"
+      },
+      {
+        "label": "馬場礼子",
+        "faction": "ネクスト太宰府",
+        "member": "馬場礼子",
+        "stance": "賛成"
+      },
+      {
+        "label": "瀬筒義久",
+        "faction": "ネクスト太宰府",
+        "member": "瀬筒義久",
+        "stance": "賛成"
+      },
+      {
+        "label": "タコスキッド",
+        "faction": "未来のまち",
+        "member": "タコスキッド",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村彰人",
+        "faction": "未来のまち",
+        "member": "木村彰人",
+        "stance": "賛成"
+      },
+      {
+        "label": "神武綾",
+        "faction": "無所属（神武綾）",
+        "member": "神武綾",
+        "stance": "反対"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "iizuka-shigikai-r8",
+  "files": [
+    {
+      "filename": "iizuka_15503.pdf",
+      "sha256": "de27609be2e2912df656027d19c74b1bdd54006c408969a2120ac6a6a055f419",
+      "bytes": 2955656,
+      "fetchedAt": "2026-10-29T14:48:48.880Z",
+      "fetchedFrom": "https://www.city.iizuka.lg.jp/uploaded/attachment/15503.pdf"
+    },
+    {
+      "filename": "iizuka_14062.pdf",
+      "sha256": "2cc6fc7bcac135f1575757b80e6fbfbc131d95a5e65534a7915c81c4befee20d",
+      "bytes": 188626,
+      "fetchedAt": "2026-10-29T14:48:48.880Z",
+      "fetchedFrom": "https://www.city.iizuka.lg.jp/uploaded/attachment/14062.pdf"
+    },
+    {
+      "filename": "iizuka_16091.pdf",
+      "sha256": "f8ff84550f50d5ec5fb4f24287130122afaf1f7d8485e6b0e72e9d2dbd601bd5",
+      "bytes": 1049172,
+      "fetchedAt": "2026-10-29T14:48:48.881Z",
+      "fetchedFrom": "https://www.city.iizuka.lg.jp/uploaded/attachment/16091.pdf"
+    }
+  ]
+}

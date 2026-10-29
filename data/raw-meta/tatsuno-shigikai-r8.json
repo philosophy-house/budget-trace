@@ -1,0 +1,46 @@
+{
+  "sourceId": "tatsuno-shigikai-r8",
+  "files": [
+    {
+      "filename": "tatsuno_1612_wb20251110.html",
+      "sha256": "39db286cb5d9620bcfa77136a0db1ef800f7638d58e942f8581fd36b29ca140a",
+      "bytes": 71213,
+      "fetchedAt": "2026-10-29T14:48:48.947Z",
+      "fetchedFrom": "https://web.archive.org/web/20251110112338id_/https://www.city.tatsuno.lg.jp/soshiki/1042/gyomu/1/2/1612.html"
+    },
+    {
+      "filename": "tatsuno_1710.html",
+      "sha256": "461c10735d2dc5bf4bd5304867409834be797b59f246bc4f81aa73cf186200d6",
+      "bytes": 75650,
+      "fetchedAt": "2026-10-29T14:48:48.948Z",
+      "fetchedFrom": "https://www.city.tatsuno.lg.jp/soshiki/1042/gyomu/1/4/1710.html"
+    },
+    {
+      "filename": "tatsuno_9815.html",
+      "sha256": "f9ce70edea67726f01a108a87484d53d963e2d68e3bc3e0f99816e6391a5a8e2",
+      "bytes": 67962,
+      "fetchedAt": "2026-10-29T14:48:48.948Z",
+      "fetchedFrom": "https://www.city.tatsuno.lg.jp/soshiki/1042/gyomu/1/5/3/reiwa8nen/9815.html"
+    },
+    {
+      "filename": "tatsuno_GetText3_R080326A_68.html",
+      "sha256": "e45b4a70379ffee30101e8b8d3d19ca5d0feddc2b3beb5fb806be0845a52ce12",
+      "bytes": 9345,
+      "fetchedAt": "2026-10-29T14:48:48.948Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/tatsuno/cgi-bin3/GetText3.exe?yglcat8qw5b0qo762a/R080326A/68/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "tatsuno_GetText3_R080326A_28159.html",
+      "sha256": "16c48b6e4d3704d115b1cd1d2bb2c421bed043eb1e202710bb8acbeb6f225ed3",
+      "bytes": 642,
+      "fetchedAt": "2026-10-29T14:48:48.949Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/tatsuno/cgi-bin3/GetText3.exe?yglcat8qw5b0qo762a/R080326A/28159/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "sourceId": "fukutsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "2352.html",
+      "sha256": "15a56f0785967dcc8b6870c9778f85ce6d60da64d79ce75b812057c7aa857cfb",
+      "bytes": 29593,
+      "fetchedAt": "2026-10-29T14:48:48.891Z",
+      "fetchedFrom": "https://www.city.fukutsu.lg.jp/gikai/kosei/2352.html"
+    },
+    {
+      "filename": "gikrtukekka0803.pdf",
+      "sha256": "82a2aa1529827ed37a4cf6e98430169050525610fc53f8a973b7672688d166ca",
+      "bytes": 180187,
+      "fetchedAt": "2026-10-29T14:48:48.891Z",
+      "fetchedFrom": "https://www.city.fukutsu.lg.jp/material/files/group/20/gikrtukekka0803.pdf"
+    }
+  ]
+}

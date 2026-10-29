@@ -1,0 +1,110 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ono-hyogo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:30.959Z",
+  "fiscalYear": "R8",
+  "body": "小野市議会",
+  "seats": 16,
+  "asOf": "2025-12-23",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "おの未来図",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "前田昌宏",
+        "掘井ひさ代",
+        "山本麻貴子"
+      ],
+      "locator": {
+        "file": "ono_no220_onoshigikaiA3.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小林千津子",
+        "河島三奈",
+        "前田光教"
+      ],
+      "locator": {
+        "file": "ono_no220_onoshigikaiA3.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "創生おの",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山本悟朗",
+        "平田真実"
+      ],
+      "locator": {
+        "file": "ono_no220_onoshigikaiA3.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川名善三",
+        "村本洋子"
+      ],
+      "locator": {
+        "file": "ono_no220_onoshigikaiA3.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "躍進の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "河島信行",
+        "安達哲郎"
+      ],
+      "locator": {
+        "file": "ono_no220_onoshigikaiA3.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "宮脇健一",
+        "藤原章",
+        "喜始真吾",
+        "髙坂純子"
+      ],
+      "locator": {
+        "file": "ono_no220_onoshigikaiA3.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 ２ 号",
+    "billName": "令和８年度小野市一般会計予算",
+    "sessionLabel": "第４５７回小野市議会定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "ono_457_kaketsu_ichiran.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "小野市議会だより 第220号（令和8年2月1日）12月定例会 賛否が分かれた議案と審議結果",
+  "resultTitle": "第４５７回小野市議会定例会 可決議案一覧表"
+}

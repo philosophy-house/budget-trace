@@ -1,0 +1,53 @@
+{
+  "sourceId": "nogata-shigikai-r8",
+  "files": [
+    {
+      "filename": "nogata_R8.5.1gikai_all.pdf",
+      "sha256": "5c406562bb0f0d83c6954111048a19757e71276bc40846a74f4b387e648743e6",
+      "bytes": 3072069,
+      "fetchedAt": "2026-10-29T14:48:48.876Z",
+      "fetchedFrom": "https://www.city.nogata.fukuoka.jp/library/gikai/R8.5.1gikai_all.pdf"
+    },
+    {
+      "filename": "nogata_sigikai_1252_2729.html",
+      "sha256": "51685bdd686a80dd4ae078bfb6335f336215d2da3aa5cee9d9738e13ae10e9a4",
+      "bytes": 27662,
+      "fetchedAt": "2026-10-29T14:48:48.877Z",
+      "fetchedFrom": "https://www.city.nogata.fukuoka.jp/sigikai/_1252/_2729.html"
+    },
+    {
+      "filename": "nogata_R8.3kekka.pdf",
+      "sha256": "96ed8d72c671c18443fcaa75052704e61f7c89b43513f9c24cfec6c308853507",
+      "bytes": 69346,
+      "fetchedAt": "2026-10-29T14:48:48.877Z",
+      "fetchedFrom": "https://www.city.nogata.fukuoka.jp/library/gikai/R8.3kekka.pdf"
+    },
+    {
+      "filename": "nogata_sigikai_1253_2733.html",
+      "sha256": "6bfc6718b8e01daf1e14141034be534a992fb622bb9a80f866fb6b3f4d05de36",
+      "bytes": 25261,
+      "fetchedAt": "2026-10-29T14:48:48.877Z",
+      "fetchedFrom": "https://www.city.nogata.fukuoka.jp/sigikai/_1253/_2733.html"
+    },
+    {
+      "filename": "nogata_GetText3_R080313A_0.html",
+      "sha256": "7c73e3b58c703f92a69a0e6fcfb8cf511dc7b8936a46524b70f335b83da1aa7f",
+      "bytes": 5977,
+      "fetchedAt": "2026-10-29T14:48:48.878Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/nogata/cgi-bin3/GetText3.exe?9hhrhbu7jj2myabsso/R080313A/0/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "nogata_GetText3_R080313A_29592.html",
+      "sha256": "2c4d8fd00e838c2cd86e6847d2590b3a6ddd776d7272b33cf5c0e646bde02b3d",
+      "bytes": 9621,
+      "fetchedAt": "2026-10-29T14:48:48.878Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/nogata/cgi-bin3/GetText3.exe?9hhrhbu7jj2myabsso/R080313A/29592/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "omuta-shigikai-r8",
+  "files": [
+    {
+      "filename": "omuta_3_3580_127749_up_54lugnhi.pdf",
+      "sha256": "054e7740dcfe1812a65bdc5157c2155dcf42382859a654d14a2e967f37b0986f",
+      "bytes": 116300,
+      "fetchedAt": "2026-10-29T14:48:48.873Z",
+      "fetchedFrom": "https://www.city.omuta.lg.jp/kiji0033580/3_3580_127749_up_54lugnhi.pdf"
+    },
+    {
+      "filename": "omuta_3_3580_127142_up_jttioxij.pdf",
+      "sha256": "89064643f464e454fcb1b067efd2f0d7f499d4740bed325e6217715d7298f2be",
+      "bytes": 101063,
+      "fetchedAt": "2026-10-29T14:48:48.874Z",
+      "fetchedFrom": "https://www.city.omuta.lg.jp/kiji0033580/3_3580_127142_up_jttioxij.pdf"
+    },
+    {
+      "filename": "omuta_kiji0033607_20260305082218.html",
+      "sha256": "ce771c3a7af31edcb9f528c8f81f8a2350690798f722782e7500effeaaa10c94",
+      "bytes": 226853,
+      "fetchedAt": "2026-10-29T14:48:48.874Z",
+      "fetchedFrom": "https://web.archive.org/web/20260305082218id_/https://www.city.omuta.lg.jp/kiji0033607/index.html"
+    }
+  ]
+}

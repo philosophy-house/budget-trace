@@ -1,0 +1,46 @@
+{
+  "sourceId": "tamba-shigikai-r8",
+  "files": [
+    {
+      "filename": "tamba_1572_wb20260309.html",
+      "sha256": "efd752cc0d8717fef7e64c8ed3e3f9f22ec453c2a8d7d6a8b77b06e8b1795257",
+      "bytes": 57743,
+      "fetchedAt": "2026-10-29T14:48:48.946Z",
+      "fetchedFrom": "https://web.archive.org/web/20260309084531id_/https://www.city.tamba.lg.jp/soshiki/gijisomuka/gyomuannai/2/2/1572.html"
+    },
+    {
+      "filename": "tamba_1754.html",
+      "sha256": "abfbac4d6d73f24ee7452e240436417ab40f6db9212a39a6e5beba9c3b509a58",
+      "bytes": 59338,
+      "fetchedAt": "2026-10-29T14:48:48.946Z",
+      "fetchedFrom": "https://www.city.tamba.lg.jp/soshiki/gijisomuka/gyomuannai/2/9/1754.html"
+    },
+    {
+      "filename": "tamba_145shingikekka.pdf",
+      "sha256": "73e5465a8442b3f2d8f262bd828aba6f2248fec3b43e9105fc62cb6938119169",
+      "bytes": 116922,
+      "fetchedAt": "2026-10-29T14:48:48.946Z",
+      "fetchedFrom": "https://www.city.tamba.lg.jp/material/files/group/47/145shingikekka.pdf"
+    },
+    {
+      "filename": "tamba_GetText3_R080327A_0.html",
+      "sha256": "bda579f93d636d3c83fec0d71fc1a8d69297121f67f69226af0d8d9a1cb18895",
+      "bytes": 5896,
+      "fetchedAt": "2026-10-29T14:48:48.947Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/tamba/cgi-bin3/GetText3.exe?aih0oii7mhyw8m7kja/R080327A/0/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "tamba_GetText3_R080327A_20265.html",
+      "sha256": "ebcb3c16c12fc338abcd9d5fd6ba79caa6ffb934e12b97d34898f213e845d47f",
+      "bytes": 788,
+      "fetchedAt": "2026-10-29T14:48:48.947Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/tamba/cgi-bin3/GetText3.exe?aih0oii7mhyw8m7kja/R080327A/20265/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

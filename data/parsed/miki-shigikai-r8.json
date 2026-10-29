@@ -1,0 +1,110 @@
+{
+  "docType": "council-composition",
+  "sourceId": "miki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:30.402Z",
+  "fiscalYear": "R8",
+  "body": "三木市議会",
+  "seats": 16,
+  "asOf": "2025-12-23",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "志誠会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "岸本和也",
+        "大西秀樹",
+        "川端敦子",
+        "堀元子",
+        "戸田昌樹"
+      ],
+      "locator": {
+        "file": "54956.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "公政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "泉雄太",
+        "初田稔",
+        "中尾司郎"
+      ],
+      "locator": {
+        "file": "54956.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "又吉健二",
+        "古田寛明",
+        "西垣弘志"
+      ],
+      "locator": {
+        "file": "54956.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松原久美子",
+        "内藤博史"
+      ],
+      "locator": {
+        "file": "54956.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "板東聖悟",
+        "大眉均"
+      ],
+      "locator": {
+        "file": "54956.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "おぎはら吉江"
+      ],
+      "locator": {
+        "file": "54956.pdf",
+        "page": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第14号議案",
+    "billName": "令和8年度三木市一般会計予算",
+    "sessionLabel": "令和８年３月定例市議会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "可決（賛成多数）",
+    "locator": {
+      "file": "56281.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "みき市議会だより203号（令和8年1月20日発行・令和7年12月定例会）賛否が分かれた案件の会派の表頭",
+  "resultTitle": "令和８年３月定例市議会 議案等の審議結果"
+}

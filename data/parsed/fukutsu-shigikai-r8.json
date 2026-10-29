@@ -1,0 +1,121 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fukutsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:27.599Z",
+  "fiscalYear": "R8",
+  "body": "福津市議会",
+  "seats": 17,
+  "asOf": "2025-02-03",
+  "factions": [
+    {
+      "name": "ミモザの会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "豆田優子",
+        "石田まなみ"
+      ],
+      "locator": {
+        "file": "2352.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村晶代",
+        "井手口忠信"
+      ],
+      "locator": {
+        "file": "2352.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "戸田進一",
+        "岩下豊"
+      ],
+      "locator": {
+        "file": "2352.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "米山信",
+        "尾島武弘",
+        "大山隆之"
+      ],
+      "locator": {
+        "file": "2352.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "福津誠和会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "高山賢二",
+        "秦浩",
+        "倉元敏徳"
+      ],
+      "locator": {
+        "file": "2352.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "みんなの声によるみんなの会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "榎本博",
+        "佐伯美保"
+      ],
+      "locator": {
+        "file": "2352.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "中村恵輔",
+        "山本祐平",
+        "中村清隆"
+      ],
+      "locator": {
+        "file": "2352.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第９号",
+    "billName": "令和8年度福津市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "gikrtukekka0803.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派（会派一覧表（届出順）・更新日 2025年02月03日）",
+  "resultTitle": "議決結果【令和８年３月定例会】"
+}

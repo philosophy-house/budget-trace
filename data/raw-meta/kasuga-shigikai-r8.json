@@ -1,0 +1,40 @@
+{
+  "sourceId": "kasuga-shigikai-r8",
+  "files": [
+    {
+      "filename": "1017108.html",
+      "sha256": "c46124311297bbb637c268ed6764cc1e693cf4f8d1ebe78bac98fcf83dc9c9dd",
+      "bytes": 106615,
+      "fetchedAt": "2026-10-29T14:48:48.885Z",
+      "fetchedFrom": "https://www.city.kasuga.fukuoka.jp/gikai/honkaigi/teireikai/1017108.html"
+    },
+    {
+      "filename": "1003836_20250908083422.html",
+      "sha256": "aa6628192daa71b6a35ec0da42ca1d1138e9da6a23f8fe3b0ced7ccd9f84be10",
+      "bytes": 12584,
+      "fetchedAt": "2026-10-29T14:48:48.885Z",
+      "fetchedFrom": "https://web.archive.org/web/20250908083422id_/https://www.city.kasuga.fukuoka.jp/gikai/giin/1003836.html"
+    },
+    {
+      "filename": "1004081_20260314190946.html",
+      "sha256": "d2b03bc73f4602a40e83f483fea26059cde4c688ce9a320246a0f2446198596a",
+      "bytes": 14456,
+      "fetchedAt": "2026-10-29T14:48:48.885Z",
+      "fetchedFrom": "https://web.archive.org/web/20260314190946id_/https://www.city.kasuga.fukuoka.jp/gikai/giin/1004081.html"
+    },
+    {
+      "filename": "1003844.html",
+      "sha256": "cb101e1d642729ccc1eb647b04898f8509faadc1d1bd4a44e3ddf65b3e72484b",
+      "bytes": 12861,
+      "fetchedAt": "2026-10-29T14:48:48.886Z",
+      "fetchedFrom": "https://www.city.kasuga.fukuoka.jp/gikai/gikai/1003844.html"
+    },
+    {
+      "filename": "1017048.html",
+      "sha256": "84beffebd232962275a8eba4d71e2ec394078ceba9c98f9f36123271d66c47d4",
+      "bytes": 55373,
+      "fetchedAt": "2026-10-29T14:48:48.886Z",
+      "fetchedFrom": "https://www.city.kasuga.fukuoka.jp/gikai/honkaigi/teireikai/1017048.html"
+    }
+  ]
+}

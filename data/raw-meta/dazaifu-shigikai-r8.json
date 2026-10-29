@@ -1,0 +1,40 @@
+{
+  "sourceId": "dazaifu-shigikai-r8",
+  "files": [
+    {
+      "filename": "29153.pdf",
+      "sha256": "91a318113c643d25158b4228f7d9e76b5518a0727147c213999a5fa382956568",
+      "bytes": 464188,
+      "fetchedAt": "2026-10-29T14:48:48.889Z",
+      "fetchedFrom": "https://www.city.dazaifu.lg.jp/uploaded/attachment/29153.pdf"
+    },
+    {
+      "filename": "46679.html",
+      "sha256": "d776a5e8a54b165b7800ce47958d1710664c6db8e4e89c93ea4f5d844e6c55d4",
+      "bytes": 45777,
+      "fetchedAt": "2026-10-29T14:48:48.889Z",
+      "fetchedFrom": "https://www.city.dazaifu.lg.jp/site/gikai/46679.html"
+    },
+    {
+      "filename": "46677.html",
+      "sha256": "8d34af8fca4130853a149eeb557bc790efbd4143fb6ded680f8677845d074eb0",
+      "bytes": 30012,
+      "fetchedAt": "2026-10-29T14:48:48.890Z",
+      "fetchedFrom": "https://www.city.dazaifu.lg.jp/site/gikai/46677.html"
+    },
+    {
+      "filename": "2412.html",
+      "sha256": "05638c1e2fa3f5067f0d19a51029ab6dc7be0e1907405df41c34aa2f9bedc7db",
+      "bytes": 30894,
+      "fetchedAt": "2026-10-29T14:48:48.890Z",
+      "fetchedFrom": "https://www.city.dazaifu.lg.jp/site/gikai/2412.html"
+    },
+    {
+      "filename": "29277.pdf",
+      "sha256": "acb9681bba535a3f21405f46d9a2947d17461401a7661f1065b6be34e8f5829b",
+      "bytes": 84525,
+      "fetchedAt": "2026-10-29T14:48:48.890Z",
+      "fetchedFrom": "https://www.city.dazaifu.lg.jp/uploaded/attachment/29277.pdf"
+    }
+  ]
+}

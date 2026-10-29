@@ -1,0 +1,26 @@
+{
+  "sourceId": "kakogawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "kakogawa_giketukekkaR8_3.pdf",
+      "sha256": "d2da350138918a6504971f07e23aee5cdb8811b2b2c089f0a33ad8b3f922b791",
+      "bytes": 363600,
+      "fetchedAt": "2026-10-29T14:48:48.907Z",
+      "fetchedFrom": "https://www.city.kakogawa.lg.jp/material/files/group/90/giketukekkaR8_3.pdf"
+    },
+    {
+      "filename": "kakogawa_gikaidayori240.pdf",
+      "sha256": "689d7356fa3cdcd9938a0884057daecca4d1b7b4a18921090edb314c16ae4415",
+      "bytes": 4947537,
+      "fetchedAt": "2026-10-29T14:48:48.911Z",
+      "fetchedFrom": "https://www.city.kakogawa.lg.jp/material/files/group/90/gikaidayori240.pdf"
+    },
+    {
+      "filename": "kakogawa_kaihyoukekkasigi.pdf",
+      "sha256": "b90f5ef07556a9e9d3931bf5c60039c47d9d84837070dfe9e48ce8b22cb2f916",
+      "bytes": 32132,
+      "fetchedAt": "2026-10-29T14:48:48.911Z",
+      "fetchedFrom": "https://www.city.kakogawa.lg.jp/material/files/group/102/kaihyoukekkasigi.pdf"
+    }
+  ]
+}

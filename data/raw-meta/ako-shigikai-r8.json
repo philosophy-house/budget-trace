@@ -1,0 +1,40 @@
+{
+  "sourceId": "ako-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_20250619.html",
+      "sha256": "3d434ba5469ecc4ea6adf9f33443bfb9749631a0ff7f1fccc842e4a7b03a180a",
+      "bytes": 21309,
+      "fetchedAt": "2026-10-29T14:48:48.912Z",
+      "fetchedFrom": "https://web.archive.org/web/20250619064730id_/http://www.city.ako.lg.jp/gikai/shigikai/mebo/kaiha.html"
+    },
+    {
+      "filename": "constitution_20250711.html",
+      "sha256": "f5dd3976b9f64a13fa1102ab3a31ace1508f7e0ab8882b2c9d8381743ec2eaef",
+      "bytes": 19863,
+      "fetchedAt": "2026-10-29T14:48:48.912Z",
+      "fetchedFrom": "https://web.archive.org/web/20250711014332id_/http://www.city.ako.lg.jp/gikai/gaiyo/constitution.html"
+    },
+    {
+      "filename": "2026teirei01.html",
+      "sha256": "93cbd421cbc4e1bfcd5cf974818817ce03bf450208163080827dddb1fc0f375b",
+      "bytes": 26941,
+      "fetchedAt": "2026-10-29T14:48:48.913Z",
+      "fetchedFrom": "https://www.city.ako.lg.jp/gikai/gian/2026teirei01.html"
+    },
+    {
+      "filename": "20260511gikaidayori.pdf",
+      "sha256": "affb1f5ac6f479503826b3ab1b90de04db4258511dee4decd8494af8498194ac",
+      "bytes": 2400984,
+      "fetchedAt": "2026-10-29T14:48:48.915Z",
+      "fetchedFrom": "https://www.city.ako.lg.jp/gikai/koho/documents/20260511gikaidayori.pdf"
+    },
+    {
+      "filename": "20260109gikaidayori.pdf",
+      "sha256": "cb12c72f471a82dd65c4ec8bd234d20d8eea4706428cd8295e2aa65f33760479",
+      "bytes": 1986617,
+      "fetchedAt": "2026-10-29T14:48:48.916Z",
+      "fetchedFrom": "https://www.city.ako.lg.jp/gikai/koho/documents/20260109gikaidayori.pdf"
+    }
+  ]
+}

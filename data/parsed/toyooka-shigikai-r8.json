@@ -1,0 +1,255 @@
+{
+  "docType": "council-composition",
+  "sourceId": "toyooka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:28.725Z",
+  "fiscalYear": "R8",
+  "body": "豊岡市議会",
+  "seats": 22,
+  "asOf": "2025-11-14",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "豊義会",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "米田達也",
+        "小森弘詞",
+        "中尾浩二",
+        "青栁順子",
+        "浅田徹",
+        "荒木慎大郎",
+        "岡本昭治",
+        "芹澤正志",
+        "前田敦司",
+        "森垣康平"
+      ],
+      "locator": {
+        "file": "toyooka_kaiha2025.11.14.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "令和とよおかクラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "石田清",
+        "福田嗣久",
+        "西田真",
+        "北原大策",
+        "西垣秀昭"
+      ],
+      "locator": {
+        "file": "toyooka_kaiha2025.11.14.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "とよおか未来創生",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "太田智博",
+        "清水寛",
+        "谷出裕子"
+      ],
+      "locator": {
+        "file": "toyooka_kaiha2025.11.14.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "豊岡市議会公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "竹中理",
+        "辻至誠"
+      ],
+      "locator": {
+        "file": "toyooka_kaiha2025.11.14.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党豊岡市会議員団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "須山泰一"
+      ],
+      "locator": {
+        "file": "toyooka_kaiha2025.11.14.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みどり",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "義本みどり"
+      ],
+      "locator": {
+        "file": "toyooka_kaiha2025.11.14.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第 26 号議案",
+    "billName": "令和８年度豊岡市一般会計予算",
+    "sessionLabel": "令和８年第２回豊岡市議会（定例会）",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "toyooka_kekka2026.03.26.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "豊岡市議会会派結成状況（2025.11.14現在）",
+  "resultTitle": "令和８年第２回豊岡市議会（定例会）結果表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月定例会 意見が分かれた議案の賛否一覧表",
+    "sourceFile": "toyooka_sanpi2026.3.26.pdf",
+    "columns": [
+      {
+        "label": "青栁順子",
+        "faction": "豊義会",
+        "member": "青栁順子",
+        "stance": "賛成"
+      },
+      {
+        "label": "浅田徹",
+        "faction": "豊義会",
+        "member": "浅田徹",
+        "stance": "議長"
+      },
+      {
+        "label": "荒木慎大郎",
+        "faction": "豊義会",
+        "member": "荒木慎大郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡本昭治",
+        "faction": "豊義会",
+        "member": "岡本昭治",
+        "stance": "賛成"
+      },
+      {
+        "label": "小森弘詞",
+        "faction": "豊義会",
+        "member": "小森弘詞",
+        "stance": "賛成"
+      },
+      {
+        "label": "芹澤正志",
+        "faction": "豊義会",
+        "member": "芹澤正志",
+        "stance": "賛成"
+      },
+      {
+        "label": "中尾浩二",
+        "faction": "豊義会",
+        "member": "中尾浩二",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田敦司",
+        "faction": "豊義会",
+        "member": "前田敦司",
+        "stance": "賛成"
+      },
+      {
+        "label": "森垣康平",
+        "faction": "豊義会",
+        "member": "森垣康平",
+        "stance": "賛成"
+      },
+      {
+        "label": "米田達也",
+        "faction": "豊義会",
+        "member": "米田達也",
+        "stance": "賛成"
+      },
+      {
+        "label": "石田清",
+        "faction": "令和とよおかクラブ",
+        "member": "石田清",
+        "stance": "賛成"
+      },
+      {
+        "label": "北原大策",
+        "faction": "令和とよおかクラブ",
+        "member": "北原大策",
+        "stance": "賛成"
+      },
+      {
+        "label": "西垣秀昭",
+        "faction": "令和とよおかクラブ",
+        "member": "西垣秀昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "西田真",
+        "faction": "令和とよおかクラブ",
+        "member": "西田真",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田嗣久",
+        "faction": "令和とよおかクラブ",
+        "member": "福田嗣久",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田智博",
+        "faction": "とよおか未来創生",
+        "member": "太田智博",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水寛",
+        "faction": "とよおか未来創生",
+        "member": "清水寛",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷出裕子",
+        "faction": "とよおか未来創生",
+        "member": "谷出裕子",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹中理",
+        "faction": "豊岡市議会公明党",
+        "member": "竹中理",
+        "stance": "賛成"
+      },
+      {
+        "label": "至誠",
+        "faction": "豊岡市議会公明党",
+        "member": "辻至誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "須山泰一",
+        "faction": "日本共産党豊岡市会議員団",
+        "member": "須山泰一",
+        "stance": "反対"
+      },
+      {
+        "label": "義本みどり",
+        "faction": "みどり",
+        "member": "義本みどり",
+        "stance": "賛成"
+      }
+    ]
+  }
+}
