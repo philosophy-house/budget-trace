@@ -3097,4 +3097,64 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.himi.toyama.jp/gyosei/soshiki/zaimuka/2_2/6/index.html",
     checkedOn: "2026-10-28", ref: "docs/data-sources.md §13-113",
   },
+  {
+    // 幸田町（235016）R4。当初予算書（10860.pdf）・当初予算概要（10861.pdf）ともスキャン画像（フォント0・pdftotext 0文字）。
+    //   Wayback の収録（2025-03-15）も同じ版（§13-114）。
+    code: "235016", name: "幸田町", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["scanned-image"],
+    reason: "予算書と予算の概要が紙をスキャンした画像で、文字の情報が無い。",
+    url: "https://www.town.kota.lg.jp/soshiki/4/1166.html",
+    checkedOn: "2026-10-29", ref: "docs/data-sources.md §13-114",
+  },
+
+  {
+    // 南風原町（473502）R3・R2。一般会計予算書（5642.pdf・5514.pdf）のテキスト層が OCR で、款番号・金額・款名が誤認
+    //   （`フ`＝7、`Ⅱ`＝11、`H` が款11・款14 の番号に、`士木費`、`歳入畳十`）。Σ 差は R3 歳入 -4,154,958 千円・R2 歳出 -3,643,373 千円など（§13-114）。
+    code: "473502", name: "南風原町", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["broken-text-layer"],
+    reason: "予算書の文字の情報が画像からの自動読み取りで、数字や款の名前が読み違えられている。",
+    url: "https://www.town.haebaru.lg.jp/life/5/29/154/",
+    checkedOn: "2026-10-29", ref: "docs/data-sources.md §13-114",
+  },
+
+  {
+    // 島原市（422037）R3・R2。「当初予算概要」p.16・p.18 は R4 以降と同じ款別の表だが、金額が `43億 978万5`（＝4,309,785千円）・
+    //   `236億   200万0` の億・万表記で、既存パーサは読めない（Σ が合わず落ちる）。偵察の換算では Σ 差0（§13-114）。
+    code: "422037", name: "島原市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason: "金額が「43億 978万5」のような億・万の書き方で、いまの読み取り処理が対応していない。",
+    url: "https://www.city.shimabara.lg.jp/page464.html",
+    checkedOn: "2026-10-29", ref: "docs/data-sources.md §13-114",
+  },
+
+  {
+    // 大泉町（105244）R3・R2。ウェブの予算書（20210410_yosansyo.pdf・20200410_yosansyo.pdf）は30ページの抜粋版で、
+    //   会計別の総括表・予算の本文・第1表（款・項の当年度額だけ）しか無い。WARP の 2021年4月時点も同じファイルだけ（§13-114）。
+    code: "105244", name: "大泉町", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["format-mismatch"],
+    reason: "ウェブにある予算書が抜粋版で、款ごとの前年度の額が載っていない。",
+    url: "https://www.town.oizumi.gunma.jp/s039/020/20200729181240.html",
+    checkedOn: "2026-10-29", ref: "docs/data-sources.md §13-114",
+  },
+
+  {
+    // 萩市（352047）R8〜R5。款別＋前年度額の表は予算説明書巻頭の「歳入歳出予算事項別明細書 1．総括」（物理 p.4・p.5）だけだが、
+    //   ファイルが「Microsoft: Print To PDF」で文字がアウトライン化されている（pdffonts 0・pdfimages 0・p.4 は Tj/TJ 0本・曲線 13,266本）。
+    //   予算書・予算説明資料も同じ型。テキスト層のある「当初予算の概要」の表は歳入が約10区分・歳出が性質別で、款別でない（§13-114）。
+    code: "352047", name: "萩市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5"],
+    categories: ["broken-text-layer"],
+    reason: "款ごとの表が載っている予算説明書の文字が図形に変換されていて、文字の情報が無い。",
+    url: "https://www.city.hagi.lg.jp/site/gikai/list179-730.html",
+    checkedOn: "2026-10-29", ref: "docs/data-sources.md §13-114",
+  },
+  {
+    // 萩市（352047）R4〜R2。予算書・予算説明書がウェブに無い（議会サイトの議案掲載は令和4年5月臨時会から）。
+    //   財政課の「当初予算の概要」は款別でない（§13-114）。
+    code: "352047", name: "萩市", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "款ごとの前年度の額が載った資料がウェブに無く、公開されている予算の概要は款ごとの表になっていない。",
+    url: "https://www.city.hagi.lg.jp/soshiki/3/h63852.html",
+    checkedOn: "2026-10-29", ref: "docs/data-sources.md §13-114",
+  },
+
 ];

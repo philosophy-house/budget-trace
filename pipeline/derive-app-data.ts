@@ -3907,6 +3907,48 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["himi-yosan-gaiyou-r8", "himi-yosan-gaiyou-r7", "himi-yosan-gaiyou-r6", "himi-yosansho-r5", "himi-yosan-gaiyou-r4", "himi-yosan-gaiyou-r3"] as const).map((srcId) => ({
       srcId, muniCode: "162051", muniName: "氷見市", prefName: "富山県", isPref: false,
     })),
+    // ---- 第98巡（2026-10-29・§13-114） ----
+    // 幸田町は R4 がスキャン画像
+    ...(["kota-tosho-yosansho-r8", "kota-tosho-yosansho-r7", "kota-tosho-yosansho-r6", "kota-tosho-yosansho-r5", "kota-tosho-yosansho-r3", "kota-tosho-yosansho-r2"] as const).map((srcId) => ({
+      srcId, muniCode: "235016", muniName: "幸田町", prefName: "愛知県", isPref: false,
+    })),
+    // 加西市は R8 だけ議会修正後の額（概要）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kasai-yosan-gaiyou-${fy}`, muniCode: "282201", muniName: "加西市", prefName: "兵庫県", isPref: false,
+    })),
+    // 南風原町は R3・R2 が OCR のテキスト層
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `haebaru-yosansho-${fy}`, muniCode: "473502", muniName: "南風原町", prefName: "沖縄県", isPref: false,
+    })),
+    // 島原市は R3・R2 が億・万表記（パーサ待ち）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `shimabara-tousho-gaiyo-${fy}`, muniCode: "422037", muniName: "島原市", prefName: "長崎県", isPref: false,
+    })),
+    // 下妻市は R8〜R6 が予算書・R5〜R2 が予算概要（予算書の総括に文字が無い）
+    ...(["shimotsuma-yosansho-soukatsu-r8", "shimotsuma-yosansho-soukatsu-r7", "shimotsuma-yosansho-soukatsu-r6",
+      "shimotsuma-yosan-gaiyou-r5", "shimotsuma-yosan-gaiyou-r4", "shimotsuma-yosan-gaiyou-r3", "shimotsuma-yosan-gaiyou-r2"] as const).map((srcId) => ({
+      srcId, muniCode: "082104", muniName: "下妻市", prefName: "茨城県", isPref: false,
+    })),
+    // 小諸市は R2・R6 骨格 ⇒ R3・R7 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `komoro-yosansho-${fy}`, muniCode: "202088", muniName: "小諸市", prefName: "長野県", isPref: false,
+    })),
+    // 小林市は R4・R8 骨格 ⇒ R5 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kobayashi-zaisei-kohyo-${fy}`, muniCode: "452050", muniName: "小林市", prefName: "宮崎県", isPref: false,
+    })),
+    // 大泉町は R3・R2 が抜粋版（前年度列なし）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `oizumi-yosansho-${fy}`, muniCode: "105244", muniName: "大泉町", prefName: "群馬県", isPref: false,
+    })),
+    // 淡路市は R6 以前が Wayback・WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `awaji-yosansho-${fy}`, muniCode: "282260", muniName: "淡路市", prefName: "兵庫県", isPref: false,
+    })),
+    // 真庭市は R3・R7 骨格 ⇒ R4・R8 に prevNote。R5 以前は Wayback・WARP
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `maniwa-yosansho-${fy}`, muniCode: "332143", muniName: "真庭市", prefName: "岡山県", isPref: false,
+    })),
     // ---- 第92巡（2026-10-26・§13-107） ----
     // ⚠ 三次は R6・R5・R3・R2 が歳入見開き。R5・H31 骨格 ⇒ R6・R2 に prevNote（前年度列は骨格の当初）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

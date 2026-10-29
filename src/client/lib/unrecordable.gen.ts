@@ -71,6 +71,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "105244": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "ウェブにある予算書が抜粋版で、款ごとの前年度の額が載っていない。",
+        "checkedOn": "2026-10-29"
+      }
+    ]
+  },
   "112038": {
     "budget": [
       {
@@ -1017,6 +1026,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "235016": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "予算書と予算の概要が紙をスキャンした画像で、文字の情報が無い。",
+        "checkedOn": "2026-10-29"
+      }
+    ]
+  },
   "242012": {
     "budget": [
       {
@@ -1555,6 +1573,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "352047": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度",
+        "reason": "款ごとの表が載っている予算説明書の文字が図形に変換されていて、文字の情報が無い。",
+        "checkedOn": "2026-10-29"
+      },
+      {
+        "fyLabel": "令和4年度・令和3年度・令和2年度",
+        "reason": "款ごとの前年度の額が載った資料がウェブに無く、公開されている予算の概要は款ごとの表になっていない。",
+        "checkedOn": "2026-10-29"
+      }
+    ]
+  },
   "352063": {
     "budget": [
       {
@@ -1747,6 +1779,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成22年度",
         "reason": "この年度だけ「当初予算説明資料」が発行元に掲載されておらず、記者発表資料しかない。その記者発表資料には文字はあるが、款ごとの歳入歳出の表が含まれていない（「市税」「地方交付税」「議会費」「民生費」がいずれも0回。収録時に実測）。前後の年度は同じ資料の系列で収録済み。",
         "checkedOn": "2026-08-24"
+      }
+    ]
+  },
+  "422037": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "金額が「43億 978万5」のような億・万の書き方で、いまの読み取り処理が対応していない。",
+        "checkedOn": "2026-10-29"
       }
     ]
   },
@@ -1969,6 +2010,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
         "reason": "款ごとの額と前年度の額を並べた予算の資料がウェブに公開されていない。広報の予算の記事は万円に丸めた額で、前年度の額が無い。",
         "checkedOn": "2026-10-28"
+      }
+    ]
+  },
+  "473502": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "予算書の文字の情報が画像からの自動読み取りで、数字や款の名前が読み違えられている。",
+        "checkedOn": "2026-10-29"
       }
     ]
   },
@@ -2453,6 +2503,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
   ],
   "341002": [
     "report"
+  ],
+  "352047": [
+    "budget"
   ],
   "372030": [
     "budget"

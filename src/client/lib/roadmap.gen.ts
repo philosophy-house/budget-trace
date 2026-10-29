@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 621,
+  "budgetCount": 631,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4415,
-  "fileCount": 6096,
-  "archivedCount": 3326,
+  "sourceCount": 4478,
+  "fileCount": 6159,
+  "archivedCount": 3389,
   "licenseOpen": 137,
-  "licensePermission": 4181,
+  "licensePermission": 4244,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -915,6 +915,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "下妻市",
+      "code": "082104",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "常陸太田市",
       "code": "082121",
       "years": 7,
@@ -1473,6 +1479,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "小諸市",
+      "code": "202088",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "伊那市",
       "code": "202096",
       "years": 7,
@@ -1965,6 +1977,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "加西市",
+      "code": "282201",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "丹波市",
       "code": "282235",
       "years": 7,
@@ -1973,6 +1991,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "南あわじ市",
       "code": "282243",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "淡路市",
+      "code": "282260",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2057,6 +2081,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "総社市",
       "code": "332089",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "真庭市",
+      "code": "332143",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2273,6 +2303,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "宮崎市",
       "code": "452017",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "小林市",
+      "code": "452050",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2595,6 +2631,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "幸田町",
+      "code": "235016",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "近江八幡市",
       "code": "252042",
       "years": 6,
@@ -2835,6 +2877,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "大泉町",
+      "code": "105244",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
       "name": "所沢市",
       "code": "112089",
       "years": 5,
@@ -2979,6 +3027,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R6（5年度）"
     },
     {
+      "name": "島原市",
+      "code": "422037",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
       "name": "玉名市",
       "code": "432067",
       "years": 5,
@@ -3013,6 +3067,12 @@ export const ROADMAP_PROGRESS = {
       "code": "472140",
       "years": 5,
       "range": "R2〜R8（5年度）"
+    },
+    {
+      "name": "南風原町",
+      "code": "473502",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
     },
     {
       "name": "室蘭市",
