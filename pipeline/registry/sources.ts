@@ -34463,7 +34463,7 @@ export const SOURCES: SourceEntry[] = [
   //   当初予算の概要」の「骨格又は暫定」欄の○が原典）⇒ skeleton-budgets.ts・R3・R7 に prevNote。
   // ライセンス: 「このサイトについて」（/official/shisei_machizukuri/koho_kocho/4018.html・確認日 2026-10-29）＝許諾も禁止も無い ⇒ license-no-grant.ts。
   //   オープンデータ（CC BY 4.0）は人口・避難場所・AED・体育施設の4分類だけ。
-  //   リンク「トップページに限り、リンクフリー…基本的にリンク設定はご遠慮いただいております」⇒ noDeepLink。
+  //   リンク「トップページに限り、リンクフリー」・トップページ以外は「基本的にリンク設定はご遠慮いただいておりますが…事前にご相談ください」（事前相談が条件）⇒ noDeepLink。
   ...([
     ["R8", "17448", "R8ippankaikei", 8],
     ["R7", "16644", "r7yosannsyo", 8],
