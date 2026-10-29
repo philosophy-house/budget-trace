@@ -522,6 +522,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "332135": "akaiwa",
   "202118": "nakano-nagano", // 東京都中野区（nakano）と区別
   "162051": "himi",
+  "235016": "kota",
+  "282201": "kasai",
+  "473502": "haebaru",
+  "422037": "shimabara",
+  "082104": "shimotsuma",
+  "202088": "komoro",
+  "452050": "kobayashi",
+  "105244": "oizumi",
+  "282260": "awaji",
+  "332143": "maniwa",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",
