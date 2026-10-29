@@ -1,0 +1,402 @@
+{
+  "docType": "budget-book",
+  "sourceId": "shimabara-tousho-gaiyo-r8",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-29T01:07:42.549Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R8",
+  "account": "一般会計",
+  "revenueTotal": 27440000,
+  "expenditureTotal": 27440000,
+  "prevRevenueTotal": 27821000,
+  "prevExpenditureTotal": 27821000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 4704488,
+      "prevAmount": 4682029,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 162382,
+      "prevAmount": 169382,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 2000,
+      "prevAmount": 2000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 15000,
+      "prevAmount": 15000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 25000,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 60000,
+      "prevAmount": 60000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 1150000,
+      "prevAmount": 1040000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 8500,
+      "prevAmount": 8500,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 26000,
+      "prevAmount": 10000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 7050000,
+      "prevAmount": 6950000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 3500,
+      "prevAmount": 3500,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 42086,
+      "prevAmount": 51672,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 298176,
+      "prevAmount": 308405,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 5483409,
+      "prevAmount": 5522885,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 2871190,
+      "prevAmount": 2380037,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 61446,
+      "prevAmount": 55439,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 1302506,
+      "prevAmount": 1101507,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 2677671,
+      "prevAmount": 2871771,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 1,
+      "prevAmount": 1,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 307045,
+      "prevAmount": 274872,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 1189600,
+      "prevAmount": 2289000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 217166,
+      "prevAmount": 216030,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 3750647,
+      "prevAmount": 3571288,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 11482804,
+      "prevAmount": 10702274,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 2378515,
+      "prevAmount": 2463478,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 13864,
+      "prevAmount": 13988,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 1355038,
+      "prevAmount": 882400,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 542589,
+      "prevAmount": 780831,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 2165248,
+      "prevAmount": 2705712,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 699040,
+      "prevAmount": 777498,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 2154075,
+      "prevAmount": 3105890,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 28812,
+      "prevAmount": 9,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 2632200,
+      "prevAmount": 2581600,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "諸支出金",
+      "amount": 2,
+      "prevAmount": 2,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 14,
+      "kanName": "予備費",
+      "amount": 20000,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "shimabara_tousho_gaiyo_r8.pdf",
+        "page": 18
+      }
+    }
+  ]
+}

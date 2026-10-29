@@ -1,0 +1,12 @@
+{
+  "sourceId": "komoro-yosansho-r2",
+  "files": [
+    {
+      "filename": "R2yosan.pdf",
+      "sha256": "46a5da515d997d27b2796a1f584fee75d98656dc9dfc402f785951b86aa02bd0",
+      "bytes": 1668471,
+      "fetchedAt": "2026-10-29T01:06:57.031Z",
+      "fetchedFrom": "https://www.city.komoro.lg.jp/material/files/group/4/R2yosan.pdf"
+    }
+  ]
+}
