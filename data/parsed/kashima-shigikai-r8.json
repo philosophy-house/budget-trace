@@ -1,0 +1,241 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kashima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:15.402Z",
+  "fiscalYear": "R8",
+  "body": "鹿嶋市議会",
+  "seats": 20,
+  "asOf": "2025-09-30",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "未来かしま",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "笹沼康弘",
+        "根崎彰",
+        "池田芳範",
+        "小池みよ子",
+        "栗林京子",
+        "内野敬仁",
+        "中薗薫",
+        "樋口龍章"
+      ],
+      "locator": {
+        "file": "3293.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明かしま",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山口哲秀",
+        "横山揚久"
+      ],
+      "locator": {
+        "file": "3293.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "幹会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "菅谷毅",
+        "宇田一男",
+        "舛井明宏"
+      ],
+      "locator": {
+        "file": "3293.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "有志の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "河津亨",
+        "田口茂",
+        "佐藤信成",
+        "斉藤裕樹",
+        "加勢誠"
+      ],
+      "locator": {
+        "file": "3293.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党（立原弘一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "立原弘一"
+      ],
+      "locator": {
+        "file": "3293.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（内田政文）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "内田政文"
+      ],
+      "locator": {
+        "file": "3293.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度鹿嶋市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "65898.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別議員名簿（更新日 2025年9月30日）",
+  "resultTitle": "令和８年第１回定例会議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "鹿嶋市議会だより「とびら」No.124 3月定例会議員賛否一覧表",
+    "sourceFile": "66357.pdf",
+    "columns": [
+      {
+        "label": "栗林京子",
+        "faction": "未来かしま",
+        "member": "栗林京子",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田芳範",
+        "faction": "未来かしま",
+        "member": "池田芳範",
+        "stance": "賛成"
+      },
+      {
+        "label": "根崎彰",
+        "faction": "未来かしま",
+        "member": "根崎彰",
+        "stance": "賛成"
+      },
+      {
+        "label": "小池みよ子",
+        "faction": "未来かしま",
+        "member": "小池みよ子",
+        "stance": "賛成"
+      },
+      {
+        "label": "笹沼康弘",
+        "faction": "未来かしま",
+        "member": "笹沼康弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "内野敬仁",
+        "faction": "未来かしま",
+        "member": "内野敬仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "中薗薫",
+        "faction": "未来かしま",
+        "member": "中薗薫",
+        "stance": "賛成"
+      },
+      {
+        "label": "樋口龍章",
+        "faction": "未来かしま",
+        "member": "樋口龍章",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口哲秀",
+        "faction": "公明かしま",
+        "member": "山口哲秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "横山揚久",
+        "faction": "公明かしま",
+        "member": "横山揚久",
+        "stance": "賛成"
+      },
+      {
+        "label": "立原弘一",
+        "faction": "日本共産党（立原弘一）",
+        "member": "立原弘一",
+        "stance": "反対"
+      },
+      {
+        "label": "菅谷毅",
+        "faction": "幹会",
+        "member": "菅谷毅",
+        "stance": "賛成"
+      },
+      {
+        "label": "宇田一男",
+        "faction": "幹会",
+        "member": "宇田一男",
+        "stance": "賛成"
+      },
+      {
+        "label": "舛井明宏",
+        "faction": "幹会",
+        "member": "舛井明宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "河津亨",
+        "faction": "有志の会",
+        "member": "河津亨",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤信成",
+        "faction": "有志の会",
+        "member": "佐藤信成",
+        "stance": "賛成"
+      },
+      {
+        "label": "斉藤裕樹",
+        "faction": "有志の会",
+        "member": "斉藤裕樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "加勢誠",
+        "faction": "有志の会",
+        "member": "加勢誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "内田政文",
+        "faction": "無所属（内田政文）",
+        "member": "内田政文",
+        "stance": "賛成"
+      },
+      {
+        "label": "田口茂",
+        "faction": "有志の会",
+        "member": "田口茂",
+        "stance": "議長"
+      }
+    ]
+  }
+}

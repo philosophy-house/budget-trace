@@ -1,0 +1,19 @@
+{
+  "sourceId": "ibaraki-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "tayori202604.pdf",
+      "sha256": "efccd759ee3b24c03ed22f50bb3f76462d7c3420f540443ebd086f979955e507",
+      "bytes": 2738773,
+      "fetchedAt": "2026-10-29T12:57:35.950Z",
+      "fetchedFrom": "https://www.pref.ibaraki.jp/gikai/tayori/tayori202604/tayori202604.pdf"
+    },
+    {
+      "filename": "saiketsutaido1.pdf",
+      "sha256": "2e5165cb6ae0eadca1a9e3e7def1c5867917a21569485f3e5db187408992ea04",
+      "bytes": 125277,
+      "fetchedAt": "2026-10-29T12:57:35.952Z",
+      "fetchedFrom": "https://www.pref.ibaraki.jp/gikai/outline/r8/saiketsutaido1.pdf"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ibaraki-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:16.798Z",
+  "fiscalYear": "R8",
+  "body": "茨城県議会",
+  "seats": 62,
+  "asOf": "2026-03-24",
+  "teisu": 62,
+  "factions": [
+    {
+      "name": "いばらき自民党",
+      "seats": 43,
+      "isIndependent": false,
+      "members": [
+        "黒部博英",
+        "髙橋直子",
+        "西野一",
+        "鈴木将",
+        "磯崎達也",
+        "柗田千春",
+        "白田信夫",
+        "舘静馬",
+        "髙橋勝則",
+        "長谷川重幸",
+        "秋元勇人",
+        "瀬谷幸伸",
+        "塚本一也",
+        "森田卓歩",
+        "岩澤信",
+        "豊田茂",
+        "木村喜一",
+        "細谷典幸",
+        "常井洋治",
+        "村田康成",
+        "横田透",
+        "葉梨衛",
+        "半村登",
+        "石井邦一",
+        "飯田智男",
+        "水柿一俊",
+        "飯塚秋男",
+        "川津隆",
+        "下路健次郎",
+        "坂本隆司",
+        "小松﨑敏紀",
+        "海野透",
+        "小川一成",
+        "石塚隼人",
+        "木本信太郎",
+        "田山東湖",
+        "村上典男",
+        "伊沢勝徳",
+        "戸井田和之",
+        "小泉周司",
+        "川口政弥",
+        "金子晃久",
+        "諸橋太一郎"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "村本修司",
+        "八島功男",
+        "高崎進",
+        "山本美和"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "国民民主党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "齋藤英彰",
+        "髙安博明",
+        "二川英俊",
+        "大足光司"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "茨城無所属・政策の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "ヘイズジョン",
+        "中山一生",
+        "玉造順一",
+        "櫻井信幸"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "江尻加那"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "市民ネットワーク",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "うののぶこ"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "長田麻美"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "無所属（秋嘉一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "秋嘉一"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "無所属（金子敏明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "金子敏明"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "無所属（秋山政明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "秋山政明"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "無所属（稲川新二）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "稲川新二"
+      ],
+      "locator": {
+        "file": "tayori202604.pdf",
+        "page": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号議案",
+    "billName": "令和8年度茨城県一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "saiketsutaido1.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "いばらき県議会だより No.235（令和8年4月26日発行）12面「常任委員会の構成」（令和8年3月24日選任・議員ごとに所属会派）",
+  "resultTitle": "議案に対する各会派等の採決態度（令和８年第１回定例会）",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "議案に対する各会派等の採決態度（令和８年第１回定例会・令和８年３月２４日採決）",
+    "sourceFile": "saiketsutaido1.pdf",
+    "columns": [
+      {
+        "label": "いばらき自民党",
+        "faction": "いばらき自民党",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明党",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "国民民主党",
+        "faction": "国民民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "茨城無所属・政策の会",
+        "faction": "茨城無所属・政策の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "日本共産党",
+        "faction": "日本共産党",
+        "stance": "反対"
+      },
+      {
+        "label": "市民",
+        "faction": "市民ネットワーク",
+        "stance": "反対"
+      },
+      {
+        "label": "日本維新の会",
+        "faction": "日本維新の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "秋嘉",
+        "faction": "無所属（秋嘉一）",
+        "member": "秋嘉一",
+        "stance": "賛成"
+      },
+      {
+        "label": "金子敏",
+        "faction": "無所属（金子敏明）",
+        "member": "金子敏明",
+        "stance": "賛成"
+      },
+      {
+        "label": "秋山政",
+        "faction": "無所属（秋山政明）",
+        "member": "秋山政明",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲川新",
+        "faction": "無所属（稲川新二）",
+        "member": "稲川新二",
+        "stance": "賛成"
+      },
+      {
+        "label": "舘静馬",
+        "faction": "いばらき自民党",
+        "member": "舘静馬",
+        "stance": "議長"
+      }
+    ]
+  }
+}

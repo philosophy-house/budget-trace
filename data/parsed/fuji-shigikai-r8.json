@@ -1,0 +1,402 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fuji-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:10.723Z",
+  "fiscalYear": "R8",
+  "body": "富士市議会",
+  "seats": 32,
+  "asOf": "2026-03-25",
+  "teisu": 32,
+  "factions": [
+    {
+      "name": "心政富士",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "下田良秀",
+        "川窪吉男",
+        "佐野智昭",
+        "藤田哲哉",
+        "荻田丈仁",
+        "杉山幸宏"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "凜の会・公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "望月昇",
+        "高橋正典",
+        "井出晴美",
+        "萩野基行"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民主ふじ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "杉山諭",
+        "長谷川祐司",
+        "山下いづみ",
+        "佐藤菊乃"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "真政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "太田康彦",
+        "稲葉寿利",
+        "遠藤盛正",
+        "石川浩司"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "草の根ふじ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "植松光徳",
+        "福永意人",
+        "笠井浩",
+        "小池義治"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "知行合一",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鈴木幸司",
+        "新家大輔",
+        "吉川隆之"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（未来の会）（伊東美加）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "伊東美加"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（日本共産党議員）（笹川朝子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "笹川朝子"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（輝き）（望月徹）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "望月徹"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（未来富士）（小野泰正）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小野泰正"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（かぐや）（関明美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "関明美"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（リスペクトふじ）（小池智明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小池智明"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（共創ふじ）（山岡祐貴）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山岡祐貴"
+      ],
+      "locator": {
+        "file": "r0802sanpi.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第12号",
+    "billName": "令和８年度富士市一般会計予算について",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r0802sanpi.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年２月定例会 議案に対する議員別賛否一覧（3月25日議決）の会派別の列見出し",
+  "resultTitle": "令和８年２月定例会 議案に対する議員別賛否一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年２月定例会 議案に対する議員別賛否一覧",
+    "sourceFile": "r0802sanpi.pdf",
+    "columns": [
+      {
+        "label": "下田良秀",
+        "faction": "心政富士",
+        "member": "下田良秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "川窪吉男",
+        "faction": "心政富士",
+        "member": "川窪吉男",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐野智昭",
+        "faction": "心政富士",
+        "member": "佐野智昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤田哲哉",
+        "faction": "心政富士",
+        "member": "藤田哲哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "荻田丈仁",
+        "faction": "心政富士",
+        "member": "荻田丈仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉山幸宏",
+        "faction": "心政富士",
+        "member": "杉山幸宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "望月昇",
+        "faction": "凜の会・公明党",
+        "member": "望月昇",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋正典",
+        "faction": "凜の会・公明党",
+        "member": "高橋正典",
+        "stance": "賛成"
+      },
+      {
+        "label": "井出晴美",
+        "faction": "凜の会・公明党",
+        "member": "井出晴美",
+        "stance": "賛成"
+      },
+      {
+        "label": "萩野基行",
+        "faction": "凜の会・公明党",
+        "member": "萩野基行",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉山諭",
+        "faction": "民主ふじ",
+        "member": "杉山諭",
+        "stance": "賛成"
+      },
+      {
+        "label": "長谷川祐司",
+        "faction": "民主ふじ",
+        "member": "長谷川祐司",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下いづみ",
+        "faction": "民主ふじ",
+        "member": "山下いづみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤菊乃",
+        "faction": "民主ふじ",
+        "member": "佐藤菊乃",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田康彦",
+        "faction": "真政会",
+        "member": "太田康彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲葉寿利",
+        "faction": "真政会",
+        "member": "稲葉寿利",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤盛正",
+        "faction": "真政会",
+        "member": "遠藤盛正",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川浩司",
+        "faction": "真政会",
+        "member": "石川浩司",
+        "stance": "賛成"
+      },
+      {
+        "label": "植松光徳",
+        "faction": "草の根ふじ",
+        "member": "植松光徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "福永意人",
+        "faction": "草の根ふじ",
+        "member": "福永意人",
+        "stance": "賛成"
+      },
+      {
+        "label": "小池義治",
+        "faction": "草の根ふじ",
+        "member": "小池義治",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木幸司",
+        "faction": "知行合一",
+        "member": "鈴木幸司",
+        "stance": "賛成"
+      },
+      {
+        "label": "新家大輔",
+        "faction": "知行合一",
+        "member": "新家大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉川隆之",
+        "faction": "知行合一",
+        "member": "吉川隆之",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊東美加",
+        "faction": "無会派（未来の会）（伊東美加）",
+        "member": "伊東美加",
+        "stance": "賛成"
+      },
+      {
+        "label": "笹川朝子",
+        "faction": "無会派（日本共産党議員）（笹川朝子）",
+        "member": "笹川朝子",
+        "stance": "反対"
+      },
+      {
+        "label": "望月徹",
+        "faction": "無会派（輝き）（望月徹）",
+        "member": "望月徹",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野泰正",
+        "faction": "無会派（未来富士）（小野泰正）",
+        "member": "小野泰正",
+        "stance": "賛成"
+      },
+      {
+        "label": "関明美",
+        "faction": "無会派（かぐや）（関明美）",
+        "member": "関明美",
+        "stance": "反対"
+      },
+      {
+        "label": "小池智明",
+        "faction": "無会派（リスペクトふじ）（小池智明）",
+        "member": "小池智明",
+        "stance": "賛成"
+      },
+      {
+        "label": "山岡祐貴",
+        "faction": "無会派（共創ふじ）（山岡祐貴）",
+        "member": "山岡祐貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "笠井浩",
+        "faction": "草の根ふじ",
+        "member": "笠井浩",
+        "stance": "議長"
+      }
+    ]
+  }
+}

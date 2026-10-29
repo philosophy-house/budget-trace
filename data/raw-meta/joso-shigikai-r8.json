@@ -1,0 +1,40 @@
+{
+  "sourceId": "joso-shigikai-r8",
+  "files": [
+    {
+      "filename": "1780645292_doc_67_0.pdf",
+      "sha256": "4168118dbd902d63425bf101783ffaf7fbbdfe7cae0fa57fa7e2f3ecd959f85c",
+      "bytes": 2446948,
+      "fetchedAt": "2026-10-29T12:46:45.095Z",
+      "fetchedFrom": "https://www.city.joso.lg.jp/data/doc/1780645292_doc_67_0.pdf"
+    },
+    {
+      "filename": "1774594044_doc_67_0.pdf",
+      "sha256": "eafc708427190be2078d628e644ac11203330c5232b8a5ca90e63a8309cc88c4",
+      "bytes": 218890,
+      "fetchedAt": "2026-10-29T12:46:45.095Z",
+      "fetchedFrom": "https://www.city.joso.lg.jp/data/doc/1774594044_doc_67_0.pdf"
+    },
+    {
+      "filename": "1774245372_doc_67_0.pdf",
+      "sha256": "ab1da5c6b6e8b04423c369a9012d302834f338a3ef510708ec0f08dd6c2c6d89",
+      "bytes": 115023,
+      "fetchedAt": "2026-10-29T12:46:45.095Z",
+      "fetchedFrom": "https://www.city.joso.lg.jp/data/doc/1774245372_doc_67_0.pdf"
+    },
+    {
+      "filename": "1775783417_doc_69_0.pdf",
+      "sha256": "0145099473e37acec23634e59a0d04f1f3ac4e723f9e25317e0288affaddff9c",
+      "bytes": 877082,
+      "fetchedAt": "2026-10-29T12:46:45.097Z",
+      "fetchedFrom": "https://www.city.joso.lg.jp/data/doc/1775783417_doc_69_0.pdf"
+    },
+    {
+      "filename": "intro.html",
+      "sha256": "4a86fd52ee662982e84a36f9fa99a8b471230a034a74143586d0e0277df6eb67",
+      "bytes": 16277,
+      "fetchedAt": "2026-10-29T12:46:45.097Z",
+      "fetchedFrom": "https://www.city.joso.lg.jp/kurashi_gyousei/shisei/gikai/mayor_introduction/intro.html"
+    }
+  ]
+}

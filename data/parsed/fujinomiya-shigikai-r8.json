@@ -1,0 +1,116 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fujinomiya-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:09.409Z",
+  "fiscalYear": "R8",
+  "body": "富士宮市議会",
+  "seats": 22,
+  "asOf": "2025-05-29",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "公明会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "佐野寿夫",
+        "山藤陽子",
+        "齋藤和文"
+      ],
+      "locator": {
+        "file": "kaiha_p003445_20250905.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "明和",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "中野健太郎",
+        "赤池弘源",
+        "辻村岳瑠",
+        "諏訪部孝敏",
+        "佐野和也",
+        "平下尚己",
+        "芦澤秀典"
+      ],
+      "locator": {
+        "file": "kaiha_p003445_20250905.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "至誠",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "村瀬旬",
+        "植松健一",
+        "鈴木弘"
+      ],
+      "locator": {
+        "file": "kaiha_p003445_20250905.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "超党派虹の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "稲葉晃司",
+        "渡辺佳正"
+      ],
+      "locator": {
+        "file": "kaiha_p003445_20250905.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "つなぐ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "小松快造",
+        "岩村恵美",
+        "佐野和彦",
+        "仲亀恭平",
+        "望月芳将",
+        "臼井由紀子"
+      ],
+      "locator": {
+        "file": "kaiha_p003445_20250905.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無会派（近藤千鶴）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "近藤千鶴"
+      ],
+      "locator": {
+        "file": "kaiha_p003445_20250905.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第２２号",
+    "billName": "令和８年度富士宮市一般会計予算",
+    "sessionLabel": "富士宮市令和8年2月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1_1.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派（会派名と所属議員数と所属議員名・更新日 2025年5月29日）",
+  "resultTitle": "富士宮市令和8年2月定例会 議案に対する議員別賛否一覧（議決結果）"
+}

@@ -1,0 +1,235 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fujieda-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:11.421Z",
+  "fiscalYear": "R8",
+  "body": "藤枝市議会",
+  "seats": 21,
+  "asOf": "2025-05-16",
+  "factions": [
+    {
+      "name": "藤新会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "植田裕明",
+        "油井和行",
+        "多田晃",
+        "神戸好伸",
+        "深津寧子",
+        "山川智己",
+        "薮崎正幸",
+        "大石心平"
+      ],
+      "locator": {
+        "file": "R7-5-16kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "藤のまち未来",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "岡村好男",
+        "遠藤久仁雄",
+        "平井登",
+        "増田克彦",
+        "八木勝",
+        "川島美希子",
+        "寺田亜記子"
+      ],
+      "locator": {
+        "file": "R7-5-16kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "石井通春",
+        "さとうまりこ"
+      ],
+      "locator": {
+        "file": "R7-5-16kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大石保幸",
+        "山本信行"
+      ],
+      "locator": {
+        "file": "R7-5-16kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "池田博",
+        "山根一"
+      ],
+      "locator": {
+        "file": "R7-5-16kaiha.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第2号議案",
+    "billName": "令和8年度藤枝市一般会計予算",
+    "sessionLabel": "令和8年2月定例月議会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "25335.html"
+    }
+  },
+  "rosterTitle": "会派構成（令和7年5月16日現在）",
+  "resultTitle": "令和8年2月定例月議会 議案等審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "賛否の分かれた議案（令和8年2月定例月議会）",
+    "sourceFile": "R802giann.pdf",
+    "columns": [
+      {
+        "label": "さとうまりこ",
+        "faction": "日本共産党",
+        "member": "さとうまりこ",
+        "stance": "反対"
+      },
+      {
+        "label": "寺田亜記子",
+        "faction": "藤のまち未来",
+        "member": "寺田亜記子",
+        "stance": "賛成"
+      },
+      {
+        "label": "川島美希子",
+        "faction": "藤のまち未来",
+        "member": "川島美希子",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田博",
+        "faction": "無会派",
+        "member": "池田博",
+        "stance": "賛成"
+      },
+      {
+        "label": "大石心平",
+        "faction": "藤新会",
+        "member": "大石心平",
+        "stance": "賛成"
+      },
+      {
+        "label": "薮崎正幸",
+        "faction": "藤新会",
+        "member": "薮崎正幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "山川智己",
+        "faction": "藤新会",
+        "member": "山川智己",
+        "stance": "賛成"
+      },
+      {
+        "label": "深津寧子",
+        "faction": "藤新会",
+        "member": "深津寧子",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井通春",
+        "faction": "日本共産党",
+        "member": "石井通春",
+        "stance": "反対"
+      },
+      {
+        "label": "増田克彦",
+        "faction": "藤のまち未来",
+        "member": "増田克彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "八木勝",
+        "faction": "藤のまち未来",
+        "member": "八木勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "神戸好伸",
+        "faction": "藤新会",
+        "member": "神戸好伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "多田晃",
+        "faction": "藤新会",
+        "member": "多田晃",
+        "stance": "議長"
+      },
+      {
+        "label": "油井和行",
+        "faction": "藤新会",
+        "member": "油井和行",
+        "stance": "賛成"
+      },
+      {
+        "label": "山根一",
+        "faction": "無会派",
+        "member": "山根一",
+        "stance": "賛成"
+      },
+      {
+        "label": "平井登",
+        "faction": "藤のまち未来",
+        "member": "平井登",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤久仁雄",
+        "faction": "藤のまち未来",
+        "member": "遠藤久仁雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡村好男",
+        "faction": "藤のまち未来",
+        "member": "岡村好男",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本信行",
+        "faction": "公明党",
+        "member": "山本信行",
+        "stance": "賛成"
+      },
+      {
+        "label": "大石保幸",
+        "faction": "公明党",
+        "member": "大石保幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "植田裕明",
+        "faction": "藤新会",
+        "member": "植田裕明",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "docType": "council-composition",
+  "sourceId": "izunokuni-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:12.051Z",
+  "fiscalYear": "R8",
+  "body": "伊豆の国市議会",
+  "seats": 17,
+  "asOf": "2026-03-23",
+  "teisu": 17,
+  "factions": [
+    {
+      "name": "共創の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "蒲原宏幸",
+        "深井利憲",
+        "飯田康"
+      ],
+      "locator": {
+        "file": "p7-9.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "自民伊豆の国",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "天野佐代里",
+        "小澤五月江",
+        "山本昭彦",
+        "長谷川浩",
+        "米山則夫"
+      ],
+      "locator": {
+        "file": "p7-9.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "自由改革クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "森下茂",
+        "鈴木俊治"
+      ],
+      "locator": {
+        "file": "p7-9.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田中正男",
+        "三好陽子"
+      ],
+      "locator": {
+        "file": "p7-9.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "会派に所属していない議員",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "山口貴子",
+        "高橋隆子",
+        "笹原惠子",
+        "柴田三敏",
+        "古屋鋭治"
+      ],
+      "locator": {
+        "file": "p7-9.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第25号",
+    "billName": "令和8年度伊豆の国市一般会計予算",
+    "sessionLabel": "令和8年第1回（3月）定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kekka.html"
+    }
+  },
+  "rosterTitle": "伊豆の国市議会だより No.81 令和７年度政務活動費執行状況（令和７年５月～令和８年３月）",
+  "resultTitle": "議決結果（令和8年第1回（3月）定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "伊豆の国市議会だより No.80 賛成多数で可決された議案の賛否一覧",
+    "sourceFile": "80_p10-12.pdf",
+    "columns": [
+      {
+        "label": "蒲原宏幸",
+        "faction": "共創の会",
+        "member": "蒲原宏幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "深井利憲",
+        "faction": "共創の会",
+        "member": "深井利憲",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯田康",
+        "faction": "共創の会",
+        "member": "飯田康",
+        "stance": "賛成"
+      },
+      {
+        "label": "米山則夫",
+        "faction": "自民伊豆の国",
+        "member": "米山則夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口貴子",
+        "faction": "会派に所属していない議員",
+        "member": "山口貴子",
+        "stance": "反対"
+      },
+      {
+        "label": "長谷川浩",
+        "faction": "自民伊豆の国",
+        "member": "長谷川浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本昭彦",
+        "faction": "自民伊豆の国",
+        "member": "山本昭彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋隆子",
+        "faction": "会派に所属していない議員",
+        "member": "高橋隆子",
+        "stance": "賛成"
+      },
+      {
+        "label": "森下茂",
+        "faction": "自由改革クラブ",
+        "member": "森下茂",
+        "stance": "賛成"
+      },
+      {
+        "label": "笹原惠子",
+        "faction": "会派に所属していない議員",
+        "member": "笹原惠子",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴田三敏",
+        "faction": "会派に所属していない議員",
+        "member": "柴田三敏",
+        "stance": "賛成"
+      },
+      {
+        "label": "天野佐代里",
+        "faction": "自民伊豆の国",
+        "member": "天野佐代里",
+        "stance": "賛成"
+      },
+      {
+        "label": "古屋鋭治",
+        "faction": "会派に所属していない議員",
+        "member": "古屋鋭治",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中正男",
+        "faction": "日本共産党議員団",
+        "member": "田中正男",
+        "stance": "反対"
+      },
+      {
+        "label": "三好陽子",
+        "faction": "日本共産党議員団",
+        "member": "三好陽子",
+        "stance": "反対"
+      },
+      {
+        "label": "小澤五月江",
+        "faction": "自民伊豆の国",
+        "member": "小澤五月江",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木俊治",
+        "faction": "自由改革クラブ",
+        "member": "鈴木俊治",
+        "stance": "議長"
+      }
+    ]
+  }
+}

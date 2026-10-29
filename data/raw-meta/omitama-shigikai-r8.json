@@ -1,0 +1,33 @@
+{
+  "sourceId": "omitama-shigikai-r8",
+  "files": [
+    {
+      "filename": "6a68558993d9e.pdf",
+      "sha256": "487a91f1bfb0534886325c45faf32b07ef9760cf936747de9ae649c05eaada6f",
+      "bytes": 54830,
+      "fetchedAt": "2026-10-29T12:46:45.108Z",
+      "fetchedFrom": "https://gikai.city.omitama.ibaraki.jp/manage/contents/upload/6a68558993d9e.pdf"
+    },
+    {
+      "filename": "6a34ed36490e6.pdf",
+      "sha256": "ccd043e762c20b47e5dd8ebf38d4c85fc72ea6c0e75532e34b57713c74bcfae5",
+      "bytes": 129731,
+      "fetchedAt": "2026-10-29T12:46:45.109Z",
+      "fetchedFrom": "https://gikai.city.omitama.ibaraki.jp/manage/contents/upload/6a34ed36490e6.pdf"
+    },
+    {
+      "filename": "69ead3e575627.pdf",
+      "sha256": "cd0fb0f788c1323cfe8d0f1ce712855f401b50c1130ef87cabca912b17f9ff84",
+      "bytes": 1472176,
+      "fetchedAt": "2026-10-29T12:46:45.110Z",
+      "fetchedFrom": "https://gikai.city.omitama.ibaraki.jp/manage/contents/upload/69ead3e575627.pdf"
+    },
+    {
+      "filename": "r357RG00000646.html",
+      "sha256": "b337780cfcc65f5733a195be4b88305093c5dbcb2e294cafdbbcb3a6fcc4a409",
+      "bytes": 7346,
+      "fetchedAt": "2026-10-29T12:46:45.110Z",
+      "fetchedFrom": "https://www.city.omitama.lg.jp/reiki_int/reiki_honbun/r357RG00000646.html"
+    }
+  ]
+}

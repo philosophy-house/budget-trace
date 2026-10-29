@@ -1,0 +1,36 @@
+{
+  "sourceId": "bando-shigikai-r8",
+  "files": [
+    {
+      "filename": "page005053.html",
+      "sha256": "cdfc73b61fb4ac47206cdca8f95e7fdee631cb5a91d3b3ba4f0ea6c932ce0415",
+      "bytes": 20113,
+      "fetchedAt": "2026-10-29T12:46:45.106Z",
+      "fetchedFrom": "https://web.archive.org/web/20260211174724id_/https://www.city.bando.lg.jp/page/page005053.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "1773733141_doc_34_0.pdf",
+      "sha256": "a49b0aba39682e62ca25c29cf86ad6ef57df5f0c23f8d3d9fb743e2ed93bfdd8",
+      "bytes": 136967,
+      "fetchedAt": "2026-10-29T12:46:45.106Z",
+      "fetchedFrom": "https://www.city.bando.lg.jp/data/doc/1773733141_doc_34_0.pdf"
+    },
+    {
+      "filename": "1779253974_doc_34_0.pdf",
+      "sha256": "98fb18e533876759e1617ce5aa7b1cfbf00480c1e87dd274805aed933d5133be",
+      "bytes": 2640934,
+      "fetchedAt": "2026-10-29T12:46:45.108Z",
+      "fetchedFrom": "https://www.city.bando.lg.jp/data/doc/1779253974_doc_34_0.pdf"
+    },
+    {
+      "filename": "r155RG00000841.html",
+      "sha256": "3ec46d3d667ef9dfdc60cd8708148ef206761213be53cb7df64335924cb016ac",
+      "bytes": 6025,
+      "fetchedAt": "2026-10-29T12:46:45.108Z",
+      "fetchedFrom": "https://www.city.bando.lg.jp/data/reiki/reiki_honbun/r155RG00000841.html"
+    }
+  ]
+}

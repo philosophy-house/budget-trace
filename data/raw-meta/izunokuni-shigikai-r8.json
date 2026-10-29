@@ -1,0 +1,33 @@
+{
+  "sourceId": "izunokuni-shigikai-r8",
+  "files": [
+    {
+      "filename": "p7-9.pdf",
+      "sha256": "98c22f90b0168de19811254f1104a5cf11e39339c9e3870ebec43133e0acc3b7",
+      "bytes": 898618,
+      "fetchedAt": "2026-10-29T12:46:45.092Z",
+      "fetchedFrom": "https://www.city.izunokuni.shizuoka.jp/gikai/shisei/gikai/documents/p7-9.pdf"
+    },
+    {
+      "filename": "80_p10-12.pdf",
+      "sha256": "a94a5d7fdb983c7a90d8adb3f9315e6b105a2170516d22402b505182ecd1b29e",
+      "bytes": 198416,
+      "fetchedAt": "2026-10-29T12:46:45.093Z",
+      "fetchedFrom": "https://www.city.izunokuni.shizuoka.jp/gikai/shisei/gikai/documents/80_p10-12.pdf"
+    },
+    {
+      "filename": "kekka.html",
+      "sha256": "d14343f01a31b8b0c5d5ce99aa3240272332368862e7657eb7cbd183f459f1bf",
+      "bytes": 29902,
+      "fetchedAt": "2026-10-29T12:46:45.093Z",
+      "fetchedFrom": "https://web.archive.org/web/20260518191459id_/https://www.city.izunokuni.shizuoka.jp/gikai/shisei/gikai/kekka.html"
+    },
+    {
+      "filename": "yakuwari.html",
+      "sha256": "3546d24d40c01024328d04e6b17be599beda542aca813a277dd8b2118fc7489b",
+      "bytes": 22828,
+      "fetchedAt": "2026-10-29T12:46:45.093Z",
+      "fetchedFrom": "https://www.city.izunokuni.shizuoka.jp/gikai/shisei/gikai/yakuwari.html"
+    }
+  ]
+}

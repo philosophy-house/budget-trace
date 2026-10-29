@@ -1,0 +1,33 @@
+{
+  "sourceId": "hitachi-shigikai-r8",
+  "files": [
+    {
+      "filename": "20250516_0001.pdf",
+      "sha256": "acceb7c10239077dfc299e635664bde4b06bca2b85b3046ec460a7e4ec77fd17",
+      "bytes": 87996,
+      "fetchedAt": "2026-10-29T12:57:35.952Z",
+      "fetchedFrom": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/003/703/20250516_0001.pdf"
+    },
+    {
+      "filename": "1003699.html",
+      "sha256": "a4a915b360df576a6808a4d066652d3b069af2d8afbef1ec036cc4cd79c26547",
+      "bytes": 22740,
+      "fetchedAt": "2026-10-29T12:57:35.953Z",
+      "fetchedFrom": "https://www.city.hitachi.lg.jp/gikai/shigikai/1003699.html"
+    },
+    {
+      "filename": "1019210.html",
+      "sha256": "4cdb8311206643abd1dff731306d3fc7970ba699081547007894734cf140c086",
+      "bytes": 40465,
+      "fetchedAt": "2026-10-29T12:57:35.953Z",
+      "fetchedFrom": "https://www.city.hitachi.lg.jp/gikai/kaigi_annai/1003722/1018685/1019210.html"
+    },
+    {
+      "filename": "gikaiho_238.pdf",
+      "sha256": "b90a909e43ee455f4c28758c47ae8889e090cd7f3a641a51797be6520882451c",
+      "bytes": 3416237,
+      "fetchedAt": "2026-10-29T12:57:35.955Z",
+      "fetchedFrom": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/019/776/gikaiho_238.pdf"
+    }
+  ]
+}

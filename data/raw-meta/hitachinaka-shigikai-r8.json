@@ -1,0 +1,26 @@
+{
+  "sourceId": "hitachinaka-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_20251009232826.html",
+      "sha256": "b7805bf38ffd2302f60f62c3f99a1a9cf8e4a8b7621541f84d70659389f6ee1c",
+      "bytes": 27547,
+      "fetchedAt": "2026-10-29T12:46:45.099Z",
+      "fetchedFrom": "https://web.archive.org/web/20251009232826id_/https://www.city.hitachinaka.lg.jp/gikai/g_shokai/1001751.html"
+    },
+    {
+      "filename": "1016259.html",
+      "sha256": "dd6dde507cc7c1b2d8db3cf8a22f7a343c7ff76c780c0ae1d5cb5fa1bf597234",
+      "bytes": 85784,
+      "fetchedAt": "2026-10-29T12:46:45.099Z",
+      "fetchedFrom": "https://www.city.hitachinaka.lg.jp/gikai/g_katsudo/1001806/1016234/1016256/1016259.html"
+    },
+    {
+      "filename": "kaiha_20260419081009.html",
+      "sha256": "809690b2b32f09c6ee3cb21939ac688ebea4097f28af612ad298768cc0d7aff7",
+      "bytes": 27823,
+      "fetchedAt": "2026-10-29T12:46:45.099Z",
+      "fetchedFrom": "https://web.archive.org/web/20260419081009id_/https://www.city.hitachinaka.lg.jp/gikai/g_shokai/1001751.html"
+    }
+  ]
+}

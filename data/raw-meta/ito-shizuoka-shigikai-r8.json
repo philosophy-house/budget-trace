@@ -1,0 +1,54 @@
+{
+  "sourceId": "ito-shizuoka-shigikai-r8",
+  "files": [
+    {
+      "filename": "R071031_kaihabetu_meibo1.pdf",
+      "sha256": "a0c560539739beb9d8280e718db8571873823c77f845bd2dbec24c2473b71f0f",
+      "bytes": 75531,
+      "fetchedAt": "2026-10-29T12:46:45.065Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/material/files/group/32/R071031_kaihabetu_meibo1.pdf"
+    },
+    {
+      "filename": "13934.html",
+      "sha256": "fd6376712a7ce84b2e4ad63c583b2c5eed61b438120b92d4aa8dc78207f3733d",
+      "bytes": 63648,
+      "fetchedAt": "2026-10-29T12:46:45.065Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/gikaijimukyoku/shiseijoho/1/13934.html"
+    },
+    {
+      "filename": "565.html",
+      "sha256": "3bfc762b5b17057bca0b588c14129aa73dfa45064ca301401887c7cbf511207d",
+      "bytes": 69967,
+      "fetchedAt": "2026-10-29T12:46:45.065Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/gikaijimukyoku/shiseijoho/1/565.html"
+    },
+    {
+      "filename": "R080324_shingi_kekkahyou2.pdf",
+      "sha256": "a12763d983c7ad9960234a139fa4ec532800c78b3dfebc7e6c548f1a235e7850",
+      "bytes": 314829,
+      "fetchedAt": "2026-10-29T12:46:45.066Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/material/files/group/32/R080324_shingi_kekkahyou2.pdf"
+    },
+    {
+      "filename": "14177.html",
+      "sha256": "367435ee8d070702da7f34d8f91f218a076a7a7221162135ce892b01f721c4a6",
+      "bytes": 65607,
+      "fetchedAt": "2026-10-29T12:46:45.066Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/gikaijimukyoku/shiseijoho/1/2/reiwa7nendo/14177.html"
+    },
+    {
+      "filename": "R0803_yoteihyou.pdf",
+      "sha256": "38437eb2f54c62a27d242ca318510190411ec32f4a40726fb1b60f741d4d20ed",
+      "bytes": 105063,
+      "fetchedAt": "2026-10-29T12:46:45.066Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/material/files/group/32/R0803_yoteihyou.pdf"
+    },
+    {
+      "filename": "gikaidayori209.pdf",
+      "sha256": "ea6414e8516626c2eaf949b06183eb555841b8bb59d7370ff795836b668908a6",
+      "bytes": 8792107,
+      "fetchedAt": "2026-10-29T12:46:45.071Z",
+      "fetchedFrom": "https://www.city.ito.shizuoka.jp/material/files/group/32/gikaidayori209.pdf"
+    }
+  ]
+}

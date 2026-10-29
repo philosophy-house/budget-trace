@@ -1,0 +1,128 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hitachi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:17.799Z",
+  "fiscalYear": "R8",
+  "body": "日立市議会",
+  "seats": 24,
+  "asOf": "2025-05-16",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "日立市政クラブ",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "佐藤三夫",
+        "蛭田三雄",
+        "飛田謙一",
+        "今野幸樹",
+        "藤森結花",
+        "照山晃央",
+        "赤津光司",
+        "岡部真二",
+        "磯野敦"
+      ],
+      "locator": {
+        "file": "20250516_0001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民主クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "白石敦",
+        "吉田修一",
+        "粕谷圭",
+        "助川悟",
+        "豊田茂",
+        "堀江紀和",
+        "高橋央"
+      ],
+      "locator": {
+        "file": "20250516_0001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "添田絹代",
+        "三代勝也",
+        "下山田幹子",
+        "篠田砂江子"
+      ],
+      "locator": {
+        "file": "20250516_0001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（永山堯康）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "永山堯康"
+      ],
+      "locator": {
+        "file": "20250516_0001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（伊藤智毅）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "伊藤智毅"
+      ],
+      "locator": {
+        "file": "20250516_0001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（小林真美子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小林真美子"
+      ],
+      "locator": {
+        "file": "20250516_0001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（石川香）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "石川香"
+      ],
+      "locator": {
+        "file": "20250516_0001.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第3号",
+    "billName": "令和8年度日立市一般会計予算",
+    "sessionLabel": "令和8年第1回（3月）定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1019210.html"
+    }
+  },
+  "rosterTitle": "日立市議会 会派及び所属議員名簿（令和７年５月１６日現在）",
+  "resultTitle": "令和8年第1回（3月）定例会議案議決結果"
+}

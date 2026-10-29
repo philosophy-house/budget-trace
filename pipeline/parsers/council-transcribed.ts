@@ -24,10 +24,13 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.12";
+export const PARSER_VERSION = "0.8.13";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
-const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派を構成しない議員"];
+const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
+/** 2人以上の independent の会派に理由なしで書ける呼び名（INDEPENDENT_NAMES と、原典の語の「諸派」など。「無会派（輝き）」のような括弧書きも） */
+const INDEPENDENT_GROUP_NAMES = [...INDEPENDENT_NAMES, "諸派", "会派所属無し", "会派に属しない議員", "会派に属さない", "会派に所属しない"];
+const isIndependentGroupName = (name: string) => INDEPENDENT_GROUP_NAMES.some((n) => name === n || name.startsWith(`${n}（`) || name.startsWith(`${n}(`));
 
 const factionSchema = z
   .object({
@@ -82,6 +85,16 @@ const factionSchema = z
      * 兄弟の枠が無いと、枠の端をずらしたかどうかを位置で確かめられない
      */
     noSiblingReason: z.string().min(20).optional(),
+    /**
+     * 無所属の呼び名でない名前の会派を、2人以上で independent にする理由（成田: 名簿が「会派」と「会派外」に分かれ、
+     * 日本共産党の2人は「会派外」）。1人の会派（一人会派・川越の日本維新の会など）は要らない（0.8.13）
+     */
+    independentReason: z.string().min(20).optional(),
+  })
+  // 実在の会派に independent を付けると、同じ名前の会派を2つ書く網（0.8.13）を抜けて、無会派の議員を
+  // その会派名で出せた（藤枝の公明党・2人＝静岡・茨城の巡のレビューで実測）。呼び名でない2人以上の会派には理由を求める
+  .refine((f) => !f.independent || f.members.length < 2 || isIndependentGroupName(f.name) || f.independentReason != null, {
+    message: `2人以上の会派を independent にできるのは、名前が無所属の呼び名（${INDEPENDENT_GROUP_NAMES.join("・")}）のときか independentReason を書いたときだけです`,
   })
   .refine((f) => (f.declared != null) !== (f.noDeclaredCount === true), {
     message: "declared（印字された人数）か noDeclaredCount: true のどちらか一方が要ります",
@@ -1305,9 +1318,27 @@ export function parseCouncilTranscribed(
     return out;
   };
 
+  // 同じ名前の会派は、全部が independent のとき（一人会派・無所属を1人ずつ並べる型）だけ書ける（0.8.13）。
+  // 区間方式で無会派を実在の会派名に書き換えると、同じ名前の区間に氏名があるので通った（静岡・茨城の巡で実測）
+  for (const [n, fs] of Map.groupBy(opt.factions, (f) => norm(f.name))) {
+    if (fs.length > 1 && fs.some((f) => !f.independent)) missing.push(`会派「${fs[0]!.name}」が ${fs.length} 回出ます — 同じ名前は independent の会派どうしでだけ書けます（${n}）`);
+  }
   const seen = new Map<string, string>();
   const factions: CouncilFactionFact[] = opt.factions.map((f, i) => {
     const sections = sectionsOf(i);
+    // 略称が「会派：○○」の形（名簿の欄見出しつき）なら、○○は会派名そのもの（0.8.13）。名前だけを名簿の
+    // 別の欄（政党）の語に書き換えても、略称の照合と名前の出現の照合を両方通った（坂東で実測）
+    // 欄見出しつきの略称は「会派：」だけ（「政党：公明党」に替えると見出しの照合を抜けた＝レビューで実測）
+    // 1つでも「会派：」つきの略称があれば全部に求める（見出しを外した「公明党」は、名簿の「政党：公明党」に当たって通った＝2巡目のレビュー）
+    const labelHead = f.label != null ? norm(f.label).match(/^([^：:]{1,8})[：:]/) : null;
+    const headedRoster = opt.factions.some((g) => g.label != null && /^会派[：:]/.test(norm(g.label)));
+    if (headedRoster && f.label != null && !labelHead) {
+      missing.push(`${f.name}: 略称「${f.label}」に「会派：」がありません（同じ名簿のほかの略称は「会派：」つき）`);
+    } else if (labelHead && labelHead[1] !== "会派") {
+      missing.push(`${f.name}: 略称「${f.label}」の欄見出しは「会派：」だけ書けます（「${labelHead[1]}：」は会派の欄ではありません）`);
+    } else if (labelHead && norm(f.label!).slice(labelHead[0].length) !== norm(f.name)) {
+      missing.push(`${f.name}: 略称「${f.label}」は「会派：」の後ろが会派名と一致しません`);
+    }
     // 無所属の枠も名前を照合する（0.8.12）。0.8.11 までは independent を飛ばしていて、枠・ページの方式では
     // 無所属の名前を実在の会派名に書き換えても、会派を independent にして「無会派」と書いても通った（愛知の巡のレビューで実測）
     // 名前の字が無い枠は、理由に枠の残り（枠の本文から所属議員の氏名を除いた字）を引用させる。引用はパーサが計算し直して
@@ -1405,8 +1436,17 @@ export function parseCouncilTranscribed(
             const w = v.text.slice(at + key.length, at + key.length + LW);
             let best: { pos: number; lab: string } | null = null;
             for (const lab of labels) {
-              const pos = w.indexOf(lab);
-              if (pos >= 0 && (best == null || pos < best.pos)) best = { pos, lab };
+              // 原典で直前に「会派」以外の欄見出し（「政党：」）が付いた出現は略称に数えない（0.8.13）。書き写しの略称から
+              // 「会派：」を全部外し、会派名を政党の欄の語にすると通った（坂東・3巡目のレビュー）
+              for (let pos = w.indexOf(lab); pos >= 0; pos = w.indexOf(lab, pos + 1)) {
+                // 直前の欄（「政党:」「会派:」）の中の出現は、欄の頭から始まり、その欄が「会派」のときだけ数える
+                // （「会派:坂東市公明党」の中の「公明党」も数えない）
+                const abs = at + key.length + pos;
+                const field = v.text.slice(Math.max(0, abs - 30), abs).match(/(会派名?|政党|党派|所属)[：:]([^：:]*)$/);
+                if (field && !/^(会派名?|政党|党派|所属)[：:]/.test(lab) && (field[2] !== "" || !field[1].startsWith("会派"))) continue;
+                if (best == null || pos < best.pos) best = { pos, lab };
+                break;
+              }
             }
             if (best?.lab === norm(f.label!)) return true;
           }

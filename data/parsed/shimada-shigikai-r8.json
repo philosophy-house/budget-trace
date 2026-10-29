@@ -1,0 +1,241 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shimada-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:10.341Z",
+  "fiscalYear": "R8",
+  "body": "島田市議会",
+  "seats": 20,
+  "asOf": "2026-03-06",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "清流の風",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "曽根達裕",
+        "石川晋太郎",
+        "井上篤",
+        "瀧好伸",
+        "仲田明",
+        "松本晃",
+        "横山香理"
+      ],
+      "locator": {
+        "file": "20260306kaihakouseihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創造島田",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "内田修",
+        "清水唯史"
+      ],
+      "locator": {
+        "file": "20260306kaihakouseihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党島田市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "四ツ谷恵",
+        "望月史彦"
+      ],
+      "locator": {
+        "file": "20260306kaihakouseihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "輝く島田",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "天野弘",
+        "横田川真人"
+      ],
+      "locator": {
+        "file": "20260306kaihakouseihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党島田市議会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川合利也",
+        "大関衣世"
+      ],
+      "locator": {
+        "file": "20260306kaihakouseihyou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "青山真虎",
+        "岩﨑好美",
+        "大石歩真",
+        "三村隆久",
+        "八木伸雄"
+      ],
+      "locator": {
+        "file": "20260306kaihakouseihyou.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第９号",
+    "billName": "令和８年度島田市一般会計予算",
+    "sessionLabel": "令和８年２月島田市議会定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "202602giketsukekkaichiran.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "島田市議会会派構成表（令和８年３月６日現在）",
+  "resultTitle": "令和８年２月島田市議会定例会提出議案議決結果一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "しまだ議会だより第101号（令和8年2月定例会号）議案に対する賛否一覧",
+    "sourceFile": "101PDF.pdf",
+    "columns": [
+      {
+        "label": "三村隆久",
+        "faction": "会派に属さない議員",
+        "member": "三村隆久",
+        "stance": "賛成"
+      },
+      {
+        "label": "横山香理",
+        "faction": "清流の風",
+        "member": "横山香理",
+        "stance": "賛成"
+      },
+      {
+        "label": "瀧好伸",
+        "faction": "清流の風",
+        "member": "瀧好伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "曽根達裕",
+        "faction": "清流の風",
+        "member": "曽根達裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川晋太郎",
+        "faction": "清流の風",
+        "member": "石川晋太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上篤",
+        "faction": "清流の風",
+        "member": "井上篤",
+        "stance": "賛成"
+      },
+      {
+        "label": "天野弘",
+        "faction": "輝く島田",
+        "member": "天野弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "横田川真人",
+        "faction": "輝く島田",
+        "member": "横田川真人",
+        "stance": "賛成"
+      },
+      {
+        "label": "川合利也",
+        "faction": "公明党島田市議会",
+        "member": "川合利也",
+        "stance": "賛成"
+      },
+      {
+        "label": "大関衣世",
+        "faction": "公明党島田市議会",
+        "member": "大関衣世",
+        "stance": "賛成"
+      },
+      {
+        "label": "四ツ谷恵",
+        "faction": "日本共産党島田市議団",
+        "member": "四ツ谷恵",
+        "stance": "反対"
+      },
+      {
+        "label": "望月史彦",
+        "faction": "日本共産党島田市議団",
+        "member": "望月史彦",
+        "stance": "反対"
+      },
+      {
+        "label": "内田修",
+        "faction": "創造島田",
+        "member": "内田修",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本晃",
+        "faction": "清流の風",
+        "member": "松本晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "仲田明",
+        "faction": "清流の風",
+        "member": "仲田明",
+        "stance": "賛成"
+      },
+      {
+        "label": "大石歩真",
+        "faction": "会派に属さない議員",
+        "member": "大石歩真",
+        "stance": "賛成"
+      },
+      {
+        "label": "青山真虎",
+        "faction": "会派に属さない議員",
+        "member": "青山真虎",
+        "stance": "反対"
+      },
+      {
+        "label": "岩﨑好美",
+        "faction": "会派に属さない議員",
+        "member": "岩﨑好美",
+        "stance": "反対"
+      },
+      {
+        "label": "八木伸雄",
+        "faction": "会派に属さない議員",
+        "member": "八木伸雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水唯史",
+        "faction": "創造島田",
+        "member": "清水唯史",
+        "stance": "議長"
+      }
+    ]
+  }
+}

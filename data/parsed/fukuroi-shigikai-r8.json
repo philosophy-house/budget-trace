@@ -1,0 +1,219 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fukuroi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:11.729Z",
+  "fiscalYear": "R8",
+  "body": "袋井市議会",
+  "seats": 20,
+  "asOf": "2025-05-17",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "共創ふくろい",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "髙木清隆",
+        "山田貴子",
+        "佐野武次",
+        "村井勝彦",
+        "鈴木賢和",
+        "太田裕介",
+        "夏目幸彦",
+        "森岡弘記",
+        "村松孝師"
+      ],
+      "locator": {
+        "file": "kaihakousei.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "緑風会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "大場正昭",
+        "近藤正美",
+        "木下正",
+        "村松和幸",
+        "安間亨",
+        "金子晃久",
+        "鈴木功三",
+        "兼子靖基"
+      ],
+      "locator": {
+        "file": "kaihakousei.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "立石泰広",
+        "八木伸太郎"
+      ],
+      "locator": {
+        "file": "kaihakousei.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（髙橋美博）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "髙橋美博"
+      ],
+      "locator": {
+        "file": "kaihakousei.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第７号",
+    "billName": "令和８年度袋井市一般会計予算",
+    "sessionLabel": "令和８年２月袋井市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "giketsukekka20260324.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "袋井市議会 議員会派構成（定数20人・令和７年５月17日から）",
+  "resultTitle": "令和８年２月袋井市議会定例会 議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年２月袋井市議会定例会 議決結果（議案に対する議員の賛否）",
+    "sourceFile": "giketsukekka20260324.pdf",
+    "columns": [
+      {
+        "label": "村松孝師",
+        "faction": "共創ふくろい",
+        "member": "村松孝師",
+        "stance": "賛成"
+      },
+      {
+        "label": "森岡弘記",
+        "faction": "共創ふくろい",
+        "member": "森岡弘記",
+        "stance": "賛成"
+      },
+      {
+        "label": "夏目幸彦",
+        "faction": "共創ふくろい",
+        "member": "夏目幸彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "兼子靖基",
+        "faction": "緑風会",
+        "member": "兼子靖基",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木功三",
+        "faction": "緑風会",
+        "member": "鈴木功三",
+        "stance": "賛成"
+      },
+      {
+        "label": "金子晃久",
+        "faction": "緑風会",
+        "member": "金子晃久",
+        "stance": "賛成"
+      },
+      {
+        "label": "安間亨",
+        "faction": "緑風会",
+        "member": "安間亨",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田裕介",
+        "faction": "共創ふくろい",
+        "member": "太田裕介",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木賢和",
+        "faction": "共創ふくろい",
+        "member": "鈴木賢和",
+        "stance": "賛成"
+      },
+      {
+        "label": "村井勝彦",
+        "faction": "共創ふくろい",
+        "member": "村井勝彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙木清隆",
+        "faction": "共創ふくろい",
+        "member": "髙木清隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "八木伸太郎",
+        "faction": "市民クラブ",
+        "member": "八木伸太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "立石泰広",
+        "faction": "市民クラブ",
+        "member": "立石泰広",
+        "stance": "賛成"
+      },
+      {
+        "label": "村松和幸",
+        "faction": "緑風会",
+        "member": "村松和幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "木下正",
+        "faction": "緑風会",
+        "member": "木下正",
+        "stance": "賛成"
+      },
+      {
+        "label": "近藤正美",
+        "faction": "緑風会",
+        "member": "近藤正美",
+        "stance": "賛成"
+      },
+      {
+        "label": "大場正昭",
+        "faction": "緑風会",
+        "member": "大場正昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田貴子",
+        "faction": "共創ふくろい",
+        "member": "山田貴子",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋美博",
+        "faction": "無会派（髙橋美博）",
+        "member": "髙橋美博",
+        "stance": "反対"
+      },
+      {
+        "label": "佐野武次",
+        "faction": "共創ふくろい",
+        "member": "佐野武次",
+        "stance": "議長"
+      }
+    ]
+  }
+}
