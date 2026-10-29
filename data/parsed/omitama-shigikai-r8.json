@@ -1,0 +1,125 @@
+{
+  "docType": "council-composition",
+  "sourceId": "omitama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:16.335Z",
+  "fiscalYear": "R8",
+  "body": "小美玉市議会",
+  "seats": 20,
+  "asOf": "2026-03-01",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "真政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "村田春樹",
+        "田村昌男",
+        "市村文男",
+        "大槻良明"
+      ],
+      "locator": {
+        "file": "6a68558993d9e.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創生小美玉",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "長津智之",
+        "荒川一秀",
+        "島田清一郎",
+        "真家功",
+        "鬼田岳哉"
+      ],
+      "locator": {
+        "file": "6a68558993d9e.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "令和会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "香取憲一",
+        "長島幸男",
+        "石井旭",
+        "戸田大我"
+      ],
+      "locator": {
+        "file": "6a68558993d9e.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "同士会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岩本好夫",
+        "谷仲和雄"
+      ],
+      "locator": {
+        "file": "6a68558993d9e.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "福島ヤヨヒ"
+      ],
+      "locator": {
+        "file": "6a68558993d9e.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "小美玉市公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "内田和彦"
+      ],
+      "locator": {
+        "file": "6a68558993d9e.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "鈴木俊一",
+        "山崎晴生",
+        "宮内勇二"
+      ],
+      "locator": {
+        "file": "6a68558993d9e.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "２９号",
+    "billName": "令和８年度小美玉市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "6a34ed36490e6.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "会派名簿（令和8年3月1日現在）",
+  "resultTitle": "令和８年第１回定例会審議結果"
+}

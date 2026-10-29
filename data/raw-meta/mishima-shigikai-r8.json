@@ -1,0 +1,40 @@
+{
+  "sourceId": "mishima-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_4630_20260227.html",
+      "sha256": "e53a1f9d6c10644264d65f860395e5cbe12d45cecffc11222a16c59c29623255",
+      "bytes": 51987,
+      "fetchedAt": "2026-10-29T12:46:45.059Z",
+      "fetchedFrom": "https://web.archive.org/web/20260227082518id_/https://www.city.mishima.shizuoka.jp/site/gikai/4630.html"
+    },
+    {
+      "filename": "4547.html",
+      "sha256": "cd199d922bcb2ce44b65c62b1a17f2b30e0fa57773d0908e11c24df4e975121b",
+      "bytes": 57971,
+      "fetchedAt": "2026-10-29T12:46:45.061Z",
+      "fetchedFrom": "https://www.city.mishima.shizuoka.jp/site/gikai/4547.html"
+    },
+    {
+      "filename": "14555.pdf",
+      "sha256": "8fb03363c5a157f013bce5128f03b906e560fa66570a365f2eb68564d94f4b94",
+      "bytes": 599430,
+      "fetchedAt": "2026-10-29T12:46:45.062Z",
+      "fetchedFrom": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/14555.pdf"
+    },
+    {
+      "filename": "16291.pdf",
+      "sha256": "b3880d6fa3799f612c03e086ff93337d021d2ba55e55a1eac57594f392797467",
+      "bytes": 1083887,
+      "fetchedAt": "2026-10-29T12:46:45.063Z",
+      "fetchedFrom": "https://www.city.mishima.shizuoka.jp/uploaded/attachment/16291.pdf"
+    },
+    {
+      "filename": "28230.html",
+      "sha256": "50dab4262781f0ab1dbd4d6c62f61d611dbb1900ccb60a465b84311419cb0deb",
+      "bytes": 64126,
+      "fetchedAt": "2026-10-29T12:46:45.063Z",
+      "fetchedFrom": "https://www.city.mishima.shizuoka.jp/site/gikai/28230.html"
+    }
+  ]
+}

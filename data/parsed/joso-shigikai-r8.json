@@ -1,0 +1,237 @@
+{
+  "docType": "council-composition",
+  "sourceId": "joso-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:12.789Z",
+  "fiscalYear": "R8",
+  "body": "常総市議会",
+  "seats": 18,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "常総の志",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "中島義昭",
+        "塚本治男",
+        "倉持守",
+        "中村博美",
+        "中村安雄",
+        "坂巻文夫"
+      ],
+      "locator": {
+        "file": "1780645292_doc_67_0.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "令明会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "佐藤剛史",
+        "栁井真吾",
+        "石塚剛",
+        "草間典夫",
+        "吉原晴照"
+      ],
+      "locator": {
+        "file": "1780645292_doc_67_0.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大澤清",
+        "岡野一男"
+      ],
+      "locator": {
+        "file": "1780645292_doc_67_0.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "日本保守党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小林剛"
+      ],
+      "locator": {
+        "file": "1780645292_doc_67_0.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "堀越道男"
+      ],
+      "locator": {
+        "file": "1780645292_doc_67_0.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "入江赳史"
+      ],
+      "locator": {
+        "file": "1780645292_doc_67_0.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "会派所属無し",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "柴典明",
+        "茂田信三"
+      ],
+      "locator": {
+        "file": "1780645292_doc_67_0.pdf",
+        "page": 13
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第108号",
+    "billName": "令和８年度常総市一般会計予算",
+    "sessionLabel": "令和８年３月定例会議",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "1774594044_doc_67_0.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "じょうそう市議会だより「かけはし」254号（令和8年5月28日発行）p.13「令和８年３月定例会議 議員の賛否」の会派別の表頭",
+  "resultTitle": "令和８年３月定例会議 審議案件と結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月定例会議 審議案件と結果（議員ごとの賛否）",
+    "sourceFile": "1774594044_doc_67_0.pdf",
+    "columns": [
+      {
+        "label": "入江赳史",
+        "faction": "立憲民主党",
+        "member": "入江赳史",
+        "stance": "反対"
+      },
+      {
+        "label": "中島義昭",
+        "faction": "常総の志",
+        "member": "中島義昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴典明",
+        "faction": "会派所属無し",
+        "member": "柴典明",
+        "stance": "賛成"
+      },
+      {
+        "label": "塚本治男",
+        "faction": "常総の志",
+        "member": "塚本治男",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤剛史",
+        "faction": "令明会",
+        "member": "佐藤剛史",
+        "stance": "賛成"
+      },
+      {
+        "label": "栁井真吾",
+        "faction": "令明会",
+        "member": "栁井真吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "石塚剛",
+        "faction": "令明会",
+        "member": "石塚剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "草間典夫",
+        "faction": "令明会",
+        "member": "草間典夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉原晴照",
+        "faction": "令明会",
+        "member": "吉原晴照",
+        "stance": "賛成"
+      },
+      {
+        "label": "大澤清",
+        "faction": "無所属の会",
+        "member": "大澤清",
+        "stance": "反対"
+      },
+      {
+        "label": "小林剛",
+        "faction": "日本保守党",
+        "member": "小林剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "倉持守",
+        "faction": "常総の志",
+        "member": "倉持守",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂巻文夫",
+        "faction": "常総の志",
+        "member": "坂巻文夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡野一男",
+        "faction": "無所属の会",
+        "member": "岡野一男",
+        "stance": "反対"
+      },
+      {
+        "label": "茂田信三",
+        "faction": "会派所属無し",
+        "member": "茂田信三",
+        "stance": "反対"
+      },
+      {
+        "label": "中村安雄",
+        "faction": "常総の志",
+        "member": "中村安雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀越道男",
+        "faction": "日本共産党",
+        "member": "堀越道男",
+        "stance": "反対"
+      },
+      {
+        "label": "中村博美",
+        "faction": "常総の志",
+        "member": "中村博美",
+        "stance": "議長"
+      }
+    ]
+  }
+}

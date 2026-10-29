@@ -1,0 +1,248 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kakegawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:11.134Z",
+  "fiscalYear": "R8",
+  "body": "掛川市議会",
+  "seats": 21,
+  "asOf": "2026-03-25",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "創世会",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "藤原正光",
+        "塩﨑克彦",
+        "杉山康弘",
+        "小田つとむ",
+        "山田正彦",
+        "堀内宏樹",
+        "鷲山記世",
+        "安田彰",
+        "石川紀子",
+        "山田浩司",
+        "髙橋篤仁",
+        "松本均"
+      ],
+      "locator": {
+        "file": "sanpi_r0802.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民のこえ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "山下浩章",
+        "藤澤恭子",
+        "窪野愛子",
+        "嶺岡慎悟"
+      ],
+      "locator": {
+        "file": "sanpi_r0802.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "共に創る掛川",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "富田まゆみ",
+        "鈴木久裕"
+      ],
+      "locator": {
+        "file": "sanpi_r0802.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "勝川志保子"
+      ],
+      "locator": {
+        "file": "sanpi_r0802.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みんなの波",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "川上志満"
+      ],
+      "locator": {
+        "file": "sanpi_r0802.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党かけがわ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山本行男"
+      ],
+      "locator": {
+        "file": "sanpi_r0802.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度掛川市一般会計予算について",
+    "sessionLabel": "令和８年第１回（２月）掛川市議会定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "shingikekka_r0802.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和8年2月定例会 賛否の公表（かけがわ市議会だより第99号 p.7）の3月25日の表の表頭",
+  "resultTitle": "令和８年第１回（２月）掛川市議会定例会付議事件及び審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年2月定例会 賛否の公表（3月25日）",
+    "sourceFile": "sanpi_r0802.pdf",
+    "columns": [
+      {
+        "label": "塩﨑克彦",
+        "faction": "創世会",
+        "member": "塩﨑克彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉山康弘",
+        "faction": "創世会",
+        "member": "杉山康弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "小田つとむ",
+        "faction": "創世会",
+        "member": "小田つとむ",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田正彦",
+        "faction": "創世会",
+        "member": "山田正彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀内宏樹",
+        "faction": "創世会",
+        "member": "堀内宏樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "鷲山記世",
+        "faction": "創世会",
+        "member": "鷲山記世",
+        "stance": "賛成"
+      },
+      {
+        "label": "安田彰",
+        "faction": "創世会",
+        "member": "安田彰",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川紀子",
+        "faction": "創世会",
+        "member": "石川紀子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田浩司",
+        "faction": "創世会",
+        "member": "山田浩司",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋篤仁",
+        "faction": "創世会",
+        "member": "髙橋篤仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本均",
+        "faction": "創世会",
+        "member": "松本均",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下浩章",
+        "faction": "市民のこえ",
+        "member": "山下浩章",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤澤恭子",
+        "faction": "市民のこえ",
+        "member": "藤澤恭子",
+        "stance": "賛成"
+      },
+      {
+        "label": "窪野愛子",
+        "faction": "市民のこえ",
+        "member": "窪野愛子",
+        "stance": "賛成"
+      },
+      {
+        "label": "嶺岡慎悟",
+        "faction": "市民のこえ",
+        "member": "嶺岡慎悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "富田まゆみ",
+        "faction": "共に創る掛川",
+        "member": "富田まゆみ",
+        "stance": "反対"
+      },
+      {
+        "label": "鈴木久裕",
+        "faction": "共に創る掛川",
+        "member": "鈴木久裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "勝川志保子",
+        "faction": "日本共産党議員団",
+        "member": "勝川志保子",
+        "stance": "反対"
+      },
+      {
+        "label": "川上志満",
+        "faction": "みんなの波",
+        "member": "川上志満",
+        "stance": "反対"
+      },
+      {
+        "label": "山本行男",
+        "faction": "公明党かけがわ",
+        "member": "山本行男",
+        "stance": "反対"
+      },
+      {
+        "label": "藤原正光",
+        "faction": "創世会",
+        "member": "藤原正光",
+        "stance": "議長"
+      }
+    ]
+  }
+}

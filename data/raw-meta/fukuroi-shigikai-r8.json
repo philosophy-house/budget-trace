@@ -1,0 +1,33 @@
+{
+  "sourceId": "fukuroi-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihakousei.pdf",
+      "sha256": "19fcce6ffda28245b114ff95451a85f7fd1c6c57eeb8dd3f3db26d03ec63bb40",
+      "bytes": 75260,
+      "fetchedAt": "2026-10-29T12:46:45.090Z",
+      "fetchedFrom": "https://www.city.fukuroi.shizuoka.jp/material/files/group/99/kaihakousei.pdf"
+    },
+    {
+      "filename": "giinmeibo.html",
+      "sha256": "fb7f34d341f9fa5cd548e8d28437d476fa2451a894cac682ba8710f99b1fbe6e",
+      "bytes": 48393,
+      "fetchedAt": "2026-10-29T12:46:45.090Z",
+      "fetchedFrom": "https://web.archive.org/web/20260314202117id_/https://www.city.fukuroi.shizuoka.jp/soshiki/35/1/giinmeibo.html"
+    },
+    {
+      "filename": "giketsukekka20260324.pdf",
+      "sha256": "99e6852f6b090012960e100d5d23a5ce17ea57263eb96c59db1bbe6c61ca7d6f",
+      "bytes": 210856,
+      "fetchedAt": "2026-10-29T12:46:45.091Z",
+      "fetchedFrom": "https://www.city.fukuroi.shizuoka.jp/material/files/group/100/giketsukekka20260324.pdf"
+    },
+    {
+      "filename": "gikaikousei080324.pdf",
+      "sha256": "8b2e7b8728130ba9e8b875bc51b7abd984ae61d525e5e8c6a46df85aac02969d",
+      "bytes": 80966,
+      "fetchedAt": "2026-10-29T12:46:45.091Z",
+      "fetchedFrom": "https://www.city.fukuroi.shizuoka.jp/material/files/group/99/gikaikousei080324.pdf"
+    }
+  ]
+}

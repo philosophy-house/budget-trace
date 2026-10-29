@@ -1,0 +1,36 @@
+{
+  "sourceId": "moriya-shigikai-r8",
+  "files": [
+    {
+      "filename": "1005857.html",
+      "sha256": "57983a8061cb6b550d1e094e3d5f1bc4f79e099c07d683b124ad76616c6de2ab",
+      "bytes": 17376,
+      "fetchedAt": "2026-10-29T12:46:45.105Z",
+      "fetchedFrom": "https://www.city.moriya.ibaraki.jp/gikai/shigikai/1005854/1005857.html"
+    },
+    {
+      "filename": "g07_giketsu_134.html",
+      "sha256": "851d53ea6be07a9763a62daf64f132216257dba8abe0fe672570ecca0e35cc3a",
+      "bytes": 35285,
+      "fetchedAt": "2026-10-29T12:46:45.105Z",
+      "fetchedFrom": "https://moriya.gijiroku.com/g07_giketsu.asp?Sflg=2&kword1=&kaigi=2026%2F03%2F02%2C2026%2F03%2F23%2C134&bunrui=",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "Kg126_sanpi_R080323.pdf",
+      "sha256": "0b5dce09494af1c89ea0d3cadab4ee4b31e3358ae4d8888277f2224943ab1745",
+      "bytes": 186265,
+      "fetchedAt": "2026-10-29T12:46:45.105Z",
+      "fetchedFrom": "https://moriya.gijiroku.com/voices/GikaiDoc/attach/Congress/Kg126_sanpi_R080323.pdf"
+    },
+    {
+      "filename": "1005860.html",
+      "sha256": "ec6620ad48a3babe9e6a35c4319ac7c703c739e3e21aeb7cbd613e0a312cf436",
+      "bytes": 20138,
+      "fetchedAt": "2026-10-29T12:46:45.106Z",
+      "fetchedFrom": "https://www.city.moriya.ibaraki.jp/gikai/shigikai/1005858/1005860.html"
+    }
+  ]
+}

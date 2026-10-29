@@ -1,0 +1,264 @@
+{
+  "docType": "council-composition",
+  "sourceId": "mishima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:09.234Z",
+  "fiscalYear": "R8",
+  "body": "三島市議会",
+  "seats": 22,
+  "asOf": "2026-01-01",
+  "factions": [
+    {
+      "name": "新風会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "土屋利絵",
+        "野村諒子",
+        "横山雅人",
+        "永田裕二",
+        "髙田康子"
+      ],
+      "locator": {
+        "file": "kaiha_4630_20260227.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "改革みしま",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "藤江康儀",
+        "古長谷稔",
+        "沈久美",
+        "秋山恭亮"
+      ],
+      "locator": {
+        "file": "kaiha_4630_20260227.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "新未来21",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "川原章寛",
+        "岡田美喜子",
+        "宮下知朗"
+      ],
+      "locator": {
+        "file": "kaiha_4630_20260227.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "村田耕一",
+        "鈴木文子",
+        "堀江和雄"
+      ],
+      "locator": {
+        "file": "kaiha_4630_20260227.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "覚悟の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "弓場重明",
+        "本間雄次郎"
+      ],
+      "locator": {
+        "file": "kaiha_4630_20260227.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "服部正平",
+        "河野月江"
+      ],
+      "locator": {
+        "file": "kaiha_4630_20260227.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "佐野淳祥",
+        "甲斐幸博",
+        "石井真人"
+      ],
+      "locator": {
+        "file": "kaiha_4630_20260227.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第 1 号",
+    "billName": "令和8年度三島市一般会計予算",
+    "sessionLabel": "令和8年（2026年）2月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "28230.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和8年1月1日時点）",
+  "resultTitle": "令和8年（2026年）2月 定例会提出議案",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "みしま市議会だより 令和8年5月1日号 ２月定例会 議決結果（賛否が分かれた議案）",
+    "sourceFile": "14555.pdf",
+    "columns": [
+      {
+        "label": "土屋利絵",
+        "faction": "新風会",
+        "member": "土屋利絵",
+        "stance": "賛成"
+      },
+      {
+        "label": "野村諒子",
+        "faction": "新風会",
+        "member": "野村諒子",
+        "stance": "賛成"
+      },
+      {
+        "label": "横山雅人",
+        "faction": "新風会",
+        "member": "横山雅人",
+        "stance": "賛成"
+      },
+      {
+        "label": "永田裕二",
+        "faction": "新風会",
+        "member": "永田裕二",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙田康子",
+        "faction": "新風会",
+        "member": "髙田康子",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤江康儀",
+        "faction": "改革みしま",
+        "member": "藤江康儀",
+        "stance": "賛成"
+      },
+      {
+        "label": "古長谷稔",
+        "faction": "改革みしま",
+        "member": "古長谷稔",
+        "stance": "賛成"
+      },
+      {
+        "label": "沈久美",
+        "faction": "改革みしま",
+        "member": "沈久美",
+        "stance": "賛成"
+      },
+      {
+        "label": "秋山恭亮",
+        "faction": "改革みしま",
+        "member": "秋山恭亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "川原章寛",
+        "faction": "新未来21",
+        "member": "川原章寛",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田美喜子",
+        "faction": "新未来21",
+        "member": "岡田美喜子",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮下知朗",
+        "faction": "新未来21",
+        "member": "宮下知朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "村田耕一",
+        "faction": "公明",
+        "member": "村田耕一",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木文子",
+        "faction": "公明",
+        "member": "鈴木文子",
+        "stance": "賛成"
+      },
+      {
+        "label": "弓場重明",
+        "faction": "覚悟の会",
+        "member": "弓場重明",
+        "stance": "退席"
+      },
+      {
+        "label": "本間雄次郎",
+        "faction": "覚悟の会",
+        "member": "本間雄次郎",
+        "stance": "反対"
+      },
+      {
+        "label": "服部正平",
+        "faction": "日本共産党議員団",
+        "member": "服部正平",
+        "stance": "反対"
+      },
+      {
+        "label": "河野月江",
+        "faction": "日本共産党議員団",
+        "member": "河野月江",
+        "stance": "反対"
+      },
+      {
+        "label": "佐野淳祥",
+        "faction": "無会派",
+        "member": "佐野淳祥",
+        "stance": "賛成"
+      },
+      {
+        "label": "甲斐幸博",
+        "faction": "無会派",
+        "member": "甲斐幸博",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井真人",
+        "faction": "無会派",
+        "member": "石井真人",
+        "stance": "反対"
+      },
+      {
+        "label": "堀江和雄",
+        "faction": "公明",
+        "member": "堀江和雄",
+        "stance": "議長"
+      }
+    ]
+  }
+}

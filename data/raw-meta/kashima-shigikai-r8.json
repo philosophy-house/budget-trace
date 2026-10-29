@@ -1,0 +1,40 @@
+{
+  "sourceId": "kashima-shigikai-r8",
+  "files": [
+    {
+      "filename": "3293.html",
+      "sha256": "4a797a758d6c24857a990311bf028d879354fdb468991de14c9a515d42be57f5",
+      "bytes": 23413,
+      "fetchedAt": "2026-10-29T12:46:45.099Z",
+      "fetchedFrom": "https://city.kashima.ibaraki.jp/site/19gikai/3293.html"
+    },
+    {
+      "filename": "66357.pdf",
+      "sha256": "04f0b2d33494e220e349ba392d8b30e40e1bfac9296644eb2ba0caaf53a59187",
+      "bytes": 6131031,
+      "fetchedAt": "2026-10-29T12:46:45.103Z",
+      "fetchedFrom": "https://city.kashima.ibaraki.jp/uploaded/attachment/66357.pdf"
+    },
+    {
+      "filename": "65898.pdf",
+      "sha256": "75216cfa4a2ba0fe84e91692328f5e101fe97973988c239134a983ac6fb661d4",
+      "bytes": 207740,
+      "fetchedAt": "2026-10-29T12:46:45.104Z",
+      "fetchedFrom": "https://city.kashima.ibaraki.jp/uploaded/attachment/65898.pdf"
+    },
+    {
+      "filename": "65693.pdf",
+      "sha256": "8ea2e627159c5b1704904fba3578ed16907f013651ff15cc4edcc85928dc8569",
+      "bytes": 52039,
+      "fetchedAt": "2026-10-29T12:46:45.104Z",
+      "fetchedFrom": "https://city.kashima.ibaraki.jp/uploaded/attachment/65693.pdf"
+    },
+    {
+      "filename": "3305.html",
+      "sha256": "6e1060eec38e9ae5b714a83378d6e903bb2d4135346cd2e8f869a7b4f1c91088",
+      "bytes": 22858,
+      "fetchedAt": "2026-10-29T12:46:45.104Z",
+      "fetchedFrom": "https://city.kashima.ibaraki.jp/site/19gikai/3305.html"
+    }
+  ]
+}

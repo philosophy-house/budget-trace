@@ -1,0 +1,114 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ito-shizuoka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:09.770Z",
+  "fiscalYear": "R8",
+  "body": "伊東市議会",
+  "seats": 20,
+  "asOf": "2025-10-31",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "伊東未来",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "河島紀美恵",
+        "大竹圭",
+        "青木敬博",
+        "大川勝弘",
+        "杉本一彦"
+      ],
+      "locator": {
+        "file": "R071031_kaihabetu_meibo1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "正風クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "村上祥平",
+        "鈴木絢子",
+        "佐藤周",
+        "宮﨑雅薫"
+      ],
+      "locator": {
+        "file": "R071031_kaihabetu_meibo1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "長沢正",
+        "竹本力哉",
+        "篠原峰子"
+      ],
+      "locator": {
+        "file": "R071031_kaihabetu_meibo1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政和会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "犬飼このり",
+        "四宮和彦",
+        "浅田良弘"
+      ],
+      "locator": {
+        "file": "R071031_kaihabetu_meibo1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主伊東",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "中島弘道",
+        "虫明弘雄",
+        "井戸清司"
+      ],
+      "locator": {
+        "file": "R071031_kaihabetu_meibo1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に所属していない議員",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "片桐基至",
+        "重岡秀子"
+      ],
+      "locator": {
+        "file": "R071031_kaihabetu_meibo1.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "市議第６４号～市議第７３号",
+    "billName": "令和８年度伊東市一般会計予算、特別会計予算６件、企業会計予算３件",
+    "sessionLabel": "市議会３月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "R080324_shingi_kekkahyou2.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和７年１０月３１日現在）",
+  "resultTitle": "市議会３月定例会で審議する議案等（令和8年3月定例会 審議結果表）"
+}

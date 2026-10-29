@@ -1,0 +1,60 @@
+{
+  "sourceId": "fujieda-shigikai-r8",
+  "files": [
+    {
+      "filename": "R7-5-16kaiha.pdf",
+      "sha256": "831a46ba779f0a4d4e16cfef4b159037d238712199605cacc7fa828d6d54db10",
+      "bytes": 73407,
+      "fetchedAt": "2026-10-29T12:46:45.086Z",
+      "fetchedFrom": "https://web.archive.org/web/20260420073600id_/https://www.city.fujieda.shizuoka.jp/material/files/group/68/R7-5-16kaiha.pdf"
+    },
+    {
+      "filename": "1445917082259.html",
+      "sha256": "77e0e84681917913fa18e7916d62e24c9c6ee5e0b514232a641566fb0f4fe36e",
+      "bytes": 38850,
+      "fetchedAt": "2026-10-29T12:46:45.086Z",
+      "fetchedFrom": "https://web.archive.org/web/20251111044546id_/https://www.city.fujieda.shizuoka.jp/shigikai/G001/1445917082259.html"
+    },
+    {
+      "filename": "R802giann.pdf",
+      "sha256": "eb1f34d430d5e6c90bb75da669ca04a6875680b70b1e66594b4c38b9fabc2cf5",
+      "bytes": 60894,
+      "fetchedAt": "2026-10-29T12:46:45.087Z",
+      "fetchedFrom": "https://www.city.fujieda.shizuoka.jp/material/files/group/68/R802giann.pdf"
+    },
+    {
+      "filename": "25335.html",
+      "sha256": "dc740e692fb5736726faecb5132a80bd9f225516be10c553365a946b822d2ac2",
+      "bytes": 63418,
+      "fetchedAt": "2026-10-29T12:46:45.087Z",
+      "fetchedFrom": "https://www.city.fujieda.shizuoka.jp/shigikai/G002/G012/R7_7/25335.html"
+    },
+    {
+      "filename": "g07_Video_Search_kaigi84.html",
+      "sha256": "0e533ee742fa242d937c9804617caae2f88a5d539ef13d86d7c276dad4e68fd0",
+      "bytes": 28149,
+      "fetchedAt": "2026-10-29T12:46:45.087Z",
+      "fetchedFrom": "http://fujieda.gijiroku.com/g07_Video_Search.asp?kaigi=84&Sflg=1",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "g07_Nittei_Month_202603.html",
+      "sha256": "e3162ca1808a0091e0f793ac73f6a95cbe78ad14840c6a239d9482bf49f6b385",
+      "bytes": 29110,
+      "fetchedAt": "2026-10-29T12:46:45.087Z",
+      "fetchedFrom": "http://fujieda.gijiroku.com/g07_Nittei_Month.asp?ComCls=0&Y1=2026&M1=3",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "gikaigaiyou_2025.pdf",
+      "sha256": "d15950a1c778a9791e3f00492b359e4ffb2428307a016e7f411c66ca4ae9bcbe",
+      "bytes": 1452364,
+      "fetchedAt": "2026-10-29T12:46:45.089Z",
+      "fetchedFrom": "https://www.city.fujieda.shizuoka.jp/material/files/group/68/gikaigaiyou_2025.pdf"
+    }
+  ]
+}

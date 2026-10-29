@@ -1,0 +1,117 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hitachinaka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:13.084Z",
+  "fiscalYear": "R8",
+  "body": "ひたちなか市議会",
+  "seats": 25,
+  "asOf": "2023-11-09",
+  "factions": [
+    {
+      "name": "未来ひたちなか",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "大谷隆",
+        "田中高司",
+        "安次男",
+        "清水健司",
+        "大内健寿",
+        "弓削仁一",
+        "海野富男",
+        "大内聖仁",
+        "打越浩"
+      ],
+      "locator": {
+        "file": "kaiha_20251009232826.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新生ふるさと21",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "清水立雄",
+        "安のり子",
+        "井坂涼子",
+        "萩原健",
+        "鈴木道生",
+        "薄井宏安"
+      ],
+      "locator": {
+        "file": "kaiha_20251009232826.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日新クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "三瓶武",
+        "鎌田政人",
+        "北原祐二"
+      ],
+      "locator": {
+        "file": "kaiha_20251009232826.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "雨澤正",
+        "山田恵子",
+        "加藤恭子"
+      ],
+      "locator": {
+        "file": "kaiha_20251009232826.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "社民・立憲民主",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "井坂章",
+        "鵜澤恵一",
+        "大久保清美"
+      ],
+      "locator": {
+        "file": "kaiha_20251009232826.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "（諸派）日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "宇田貴子"
+      ],
+      "locator": {
+        "file": "kaiha_20251009232826.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和8年度ひたちなか市一般会計予算",
+    "sessionLabel": "令和8年第1回3月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1016259.html"
+    }
+  },
+  "rosterTitle": "会派名簿（更新日 2023年11月9日・議決前の魚拓）",
+  "resultTitle": "議案及び議決結果 令和8年 第1回3月定例会"
+}

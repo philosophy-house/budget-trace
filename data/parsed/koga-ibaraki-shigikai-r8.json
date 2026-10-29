@@ -1,0 +1,118 @@
+{
+  "docType": "council-composition",
+  "sourceId": "koga-ibaraki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:17.958Z",
+  "fiscalYear": "R8",
+  "body": "古河市議会",
+  "seats": 24,
+  "asOf": "2025-06-20",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "政友会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "佐藤泉",
+        "鈴木隆",
+        "赤坂育男"
+      ],
+      "locator": {
+        "file": "878.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "古河市公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "高橋秀彰",
+        "佐藤稔",
+        "つる見久美子",
+        "佐々木英徳"
+      ],
+      "locator": {
+        "file": "878.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市民ベースの会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "増田悟",
+        "落合康之",
+        "阿久津佳子"
+      ],
+      "locator": {
+        "file": "878.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "真政会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "黒川輝男",
+        "園部増治",
+        "青木和夫",
+        "立川徹",
+        "稲葉貴大",
+        "齊藤由美子",
+        "渡邊澄夫"
+      ],
+      "locator": {
+        "file": "878.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "古河清風会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "印出慎也",
+        "小林登美子",
+        "小森谷博之",
+        "鈴木務"
+      ],
+      "locator": {
+        "file": "878.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "関口和男",
+        "古川一美",
+        "秋庭繁"
+      ],
+      "locator": {
+        "file": "878.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和８年度古河市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "dayori88-2.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "古河市議会 会派の構成（令和7年6月20日現在・議決前の魚拓）",
+  "resultTitle": "古河市議会だより第88号（令和8年6月1日発行）2ページ 令和8年第1回定例会議決一覧表"
+}

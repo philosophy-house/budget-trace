@@ -1,0 +1,43 @@
+{
+  "sourceId": "fuji-shigikai-r8",
+  "files": [
+    {
+      "filename": "r0802sanpi.pdf",
+      "sha256": "4eeb996e44355e7074b2daa68fbf0893801acd94cfa6313c464a8c55af7c11f5",
+      "bytes": 99311,
+      "fetchedAt": "2026-10-29T12:46:45.079Z",
+      "fetchedFrom": "https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf"
+    },
+    {
+      "filename": "p007165_20260125.html",
+      "sha256": "b8b76d8949151e88a565a549ccc0bd8092ead8a8ff1dcadc71b90da0ea9ef66c",
+      "bytes": 34726,
+      "fetchedAt": "2026-10-29T12:46:45.080Z",
+      "fetchedFrom": "https://web.archive.org/web/20260125050718id_/https://www.city.fuji.shizuoka.jp/5105000000/p007165.html"
+    },
+    {
+      "filename": "g08_Video_Search_s_kaigi49.html",
+      "sha256": "b0ab0c8c4fc9a5edcfee13f22fde17f8baf2f9c510992b18a8e7c8e2e6823b71",
+      "bytes": 6388,
+      "fetchedAt": "2026-10-29T12:46:45.080Z",
+      "fetchedFrom": "http://fuji.gijiroku.com/g08_Video_Search_s.asp?sflg=2&kaigi=49",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "p007164_20251006.html",
+      "sha256": "46eb51298e4182358d48c4a1a6a6f2f3c962c0a0c7d52a82e3c95212c020c991",
+      "bytes": 33267,
+      "fetchedAt": "2026-10-29T12:46:45.081Z",
+      "fetchedFrom": "https://web.archive.org/web/20251006081720id_/https://www.city.fuji.shizuoka.jp/5105000000/p007164.html"
+    },
+    {
+      "filename": "p007010.html",
+      "sha256": "244940d0c658f9567c8e5d8ba12ec81f1794194b69306a5f2053ab1fae5bc6cf",
+      "bytes": 35344,
+      "fetchedAt": "2026-10-29T12:46:45.081Z",
+      "fetchedFrom": "https://www.city.fuji.shizuoka.jp/5205000000/p007010.html"
+    }
+  ]
+}

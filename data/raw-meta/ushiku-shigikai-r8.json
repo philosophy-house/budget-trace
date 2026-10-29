@@ -1,0 +1,40 @@
+{
+  "sourceId": "ushiku-shigikai-r8",
+  "files": [
+    {
+      "filename": "page007614.html",
+      "sha256": "bef99171c4ae122b48a356e54f6de169421f75dd5cc06c1ffe8a4db5405c0d2a",
+      "bytes": 40179,
+      "fetchedAt": "2026-10-29T12:46:45.097Z",
+      "fetchedFrom": "https://www.city.ushiku.lg.jp/shisei/senkyo-gikai/gikai/giinmeibo/page007614.html"
+    },
+    {
+      "filename": "page014655.html",
+      "sha256": "72857d2d7408dbcf2e4270e8e6ea726de059a8236c14a78386d483819672506a",
+      "bytes": 41562,
+      "fetchedAt": "2026-10-29T12:46:45.098Z",
+      "fetchedFrom": "https://www.city.ushiku.lg.jp/shisei/senkyo-gikai/gikai/gianshinsakekka/page014655.html"
+    },
+    {
+      "filename": "page014656.html",
+      "sha256": "447139dc7e70de87deb77844a3aecd14438c0405f61c4423e12108427bbdafb7",
+      "bytes": 37402,
+      "fetchedAt": "2026-10-29T12:46:45.098Z",
+      "fetchedFrom": "https://www.city.ushiku.lg.jp/shisei/senkyo-gikai/gikai/gianshinsakekka/page014656.html"
+    },
+    {
+      "filename": "page014657.html",
+      "sha256": "36e7817474d65e7c55f0631b0aafa99c188f3523e52a1b4374d4ff5d50dc1384",
+      "bytes": 27693,
+      "fetchedAt": "2026-10-29T12:46:45.098Z",
+      "fetchedFrom": "https://www.city.ushiku.lg.jp/shisei/senkyo-gikai/gikai/gikaichukei/page014657.html"
+    },
+    {
+      "filename": "1756102044_doc_237_0.pdf",
+      "sha256": "67a595b02b6bc0fa0e1ba2411bcf5b3b80b0dfde0a3c8cfd2027c19b846872aa",
+      "bytes": 210225,
+      "fetchedAt": "2026-10-29T12:46:45.098Z",
+      "fetchedFrom": "https://www.city.ushiku.lg.jp/data/doc/1756102044_doc_237_0.pdf"
+    }
+  ]
+}

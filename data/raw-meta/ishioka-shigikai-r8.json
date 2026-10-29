@@ -1,0 +1,46 @@
+{
+  "sourceId": "ishioka-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_meibo.htm",
+      "sha256": "c16c589edab2ce1f90bc59b457d517e625b984f5fd4f3519a8095c1555c587a4",
+      "bytes": 15342,
+      "fetchedAt": "2026-10-29T12:57:35.957Z",
+      "fetchedFrom": "https://web.archive.org/web/20251007145244id_/https://www.ishioka-shigikai.jp/shinshi/giin/kaiha_meibo.htm"
+    },
+    {
+      "filename": "99-hennkou.pdf",
+      "sha256": "b176bcff0ff50dee7f7cc08acf9befe5e3e0f79a20b04f4e5bac1c84d5205f0d",
+      "bytes": 3201065,
+      "fetchedAt": "2026-10-29T12:57:35.959Z",
+      "fetchedFrom": "https://www.ishioka-shigikai.jp/shinshi/kouhou/kouhou_data/dai_99/99-hennkou.pdf"
+    },
+    {
+      "filename": "gian.html",
+      "sha256": "de69e7a89472505f8e1bb77817b9013999ecf9deedf98637bb083e889f08f9b2",
+      "bytes": 56741,
+      "fetchedAt": "2026-10-29T12:57:35.960Z",
+      "fetchedFrom": "https://www.ishioka-shigikai.jp/shinshi/teireikai/r_8/teirei_1/gian.html"
+    },
+    {
+      "filename": "doc-print-window_DocumentID1267.html",
+      "sha256": "653f661d8dfc9cad8e7fc68ac3c0156f2977f5e1411e9780b55ea441bedd5efa",
+      "bytes": 117351,
+      "fetchedAt": "2026-10-29T12:57:35.960Z",
+      "fetchedFrom": "https://www.city.ishioka.ibaraki.dbsr.jp/index.php/?Template=doc-print-window&VoiceType=all&DocumentID=1267",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "doc-print-window_DocumentID1266.html",
+      "sha256": "6bf00c1aad18a6ed03b1a521a07312a41850f2000b203fb0ca604e631cd4247e",
+      "bytes": 7819,
+      "fetchedAt": "2026-10-29T12:57:35.960Z",
+      "fetchedFrom": "https://www.city.ishioka.ibaraki.dbsr.jp/index.php/?Template=doc-print-window&VoiceType=all&DocumentID=1266",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

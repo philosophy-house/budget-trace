@@ -1,0 +1,26 @@
+{
+  "sourceId": "fujinomiya-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_p003445_20250905.html",
+      "sha256": "67fa59f8fc361bdded5ee3b9deb9d8a0cbf04281ed5fc2b50d55d1ef027f01f0",
+      "bytes": 17525,
+      "fetchedAt": "2026-10-29T12:46:45.063Z",
+      "fetchedFrom": "https://web.archive.org/web/20250905195627id_/https://www.city.fujinomiya.lg.jp/4010100000/p003445.html"
+    },
+    {
+      "filename": "p003351.html",
+      "sha256": "fd2dadb2881682e1554a2336068059f0b665fd9982eb62fabf5486082db6c2c3",
+      "bytes": 14231,
+      "fetchedAt": "2026-10-29T12:46:45.064Z",
+      "fetchedFrom": "https://www.city.fujinomiya.lg.jp/4010100000/p003351.html"
+    },
+    {
+      "filename": "1_1.pdf",
+      "sha256": "bda2c7f562affd488ba4959ed485d54f3ff3e02ab574bb391f5a68d186b809c2",
+      "bytes": 302427,
+      "fetchedAt": "2026-10-29T12:46:45.064Z",
+      "fetchedFrom": "https://www.city.fujinomiya.lg.jp/documents/7678/1_1.pdf"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "koga-ibaraki-shigikai-r8",
+  "files": [
+    {
+      "filename": "878.html",
+      "sha256": "65c15ae92cb85d88946e3a09a71b900c0a51296555030326c66589283a57f9cb",
+      "bytes": 40285,
+      "fetchedAt": "2026-10-29T12:57:35.955Z",
+      "fetchedFrom": "https://web.archive.org/web/20251208165344id_/https://www.city.ibaraki-koga.lg.jp/soshiki/shigikaijimukyoku/3/878.html"
+    },
+    {
+      "filename": "10835.html",
+      "sha256": "02034b5eb8825c84fdc19c54260cb042891739dacc2afd8f1c339ffcbcd92d16",
+      "bytes": 46497,
+      "fetchedAt": "2026-10-29T12:57:35.956Z",
+      "fetchedFrom": "https://www.city.ibaraki-koga.lg.jp/soshiki/shigikaijimukyoku/3/10835.html"
+    },
+    {
+      "filename": "dayori88-2.pdf",
+      "sha256": "22c85393f56c06aeeef3e9f0a9ea2762122d1f22041b5188aca8be7610286d8d",
+      "bytes": 340454,
+      "fetchedAt": "2026-10-29T12:57:35.956Z",
+      "fetchedFrom": "https://www.city.ibaraki-koga.lg.jp/material/files/group/67/dayori88-2.pdf"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sourceId": "shimada-shigikai-r8",
+  "files": [
+    {
+      "filename": "20260306kaihakouseihyou.pdf",
+      "sha256": "42a50ab186f43a93c27fdaa246d81ff2ff7e80794140f4cf49dfa604ca076332",
+      "bytes": 121269,
+      "fetchedAt": "2026-10-29T12:46:45.073Z",
+      "fetchedFrom": "https://www.city.shimada.shizuoka.jp/fs/9/6/4/8/3/5/_/20260306kaihakouseihyou.pdf"
+    },
+    {
+      "filename": "kaihameibo_20260411.html",
+      "sha256": "47dcc84b9b48d6aeeccc33e4296e55ac626f975a88587067404593208a03fb5d",
+      "bytes": 37906,
+      "fetchedAt": "2026-10-29T12:46:45.074Z",
+      "fetchedFrom": "https://web.archive.org/web/20260411053145id_/https://www.city.shimada.shizuoka.jp/gyosei-docs/kaihameibo.html"
+    },
+    {
+      "filename": "202602giketsukekkaichiran.pdf",
+      "sha256": "b64fd65d1cbb319ef70d55a992f1cf6a7e588cc5644e6d0f40872818b5dc4682",
+      "bytes": 124951,
+      "fetchedAt": "2026-10-29T12:46:45.074Z",
+      "fetchedFrom": "https://www.city.shimada.shizuoka.jp/fs/9/6/6/6/9/2/_/202602giketsukekkaichiran.pdf"
+    },
+    {
+      "filename": "101PDF.pdf",
+      "sha256": "620c7a31cd95ae13f9deef1a80984bad6acf6688b960bf631bdc7185edb72064",
+      "bytes": 4265991,
+      "fetchedAt": "2026-10-29T12:46:45.077Z",
+      "fetchedFrom": "https://www.city.shimada.shizuoka.jp/fs/9/7/0/9/7/6/_/101PDF.pdf"
+    },
+    {
+      "filename": "shigikainotorisetsu.pdf",
+      "sha256": "a6f3c5b2d02da4f46fd6433cb5b34287e8684af99f14f7dcc1e2cd9fbe4c8128",
+      "bytes": 3566198,
+      "fetchedAt": "2026-10-29T12:46:45.079Z",
+      "fetchedFrom": "https://www.city.shimada.shizuoka.jp/fs/9/2/1/4/2/4/_/shigikainotorisetsu.pdf"
+    }
+  ]
+}

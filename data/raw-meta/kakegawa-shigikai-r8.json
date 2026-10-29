@@ -1,0 +1,26 @@
+{
+  "sourceId": "kakegawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "sanpi_r0802.pdf",
+      "sha256": "e91f975024fa6fb57483d0265027a67c61a1999c3f300e99448675695c1b650b",
+      "bytes": 399397,
+      "fetchedAt": "2026-10-29T12:46:45.082Z",
+      "fetchedFrom": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/5/3/4/5/_/__8_2_________.pdf"
+    },
+    {
+      "filename": "shingikekka_r0802.pdf",
+      "sha256": "ec04f8e87d38899f35727ad8e2b088da6437e8c4fe1afa8c561f6341de98b898",
+      "bytes": 219808,
+      "fetchedAt": "2026-10-29T12:46:45.082Z",
+      "fetchedFrom": "https://www.city.kakegawa.shizuoka.jp/fs/6/3/0/3/7/3/_/__8_2__________.pdf"
+    },
+    {
+      "filename": "H29gikaihoukokukaisiryou.pdf",
+      "sha256": "eee4eca01fa5d492195a83782da187d542791e59b12874ae867e7d0c96e908ec",
+      "bytes": 5916608,
+      "fetchedAt": "2026-10-29T12:46:45.086Z",
+      "fetchedFrom": "https://www.city.kakegawa.shizuoka.jp/fs/9/8/0/6/7/_/H29gikaihoukokukaisiryou.pdf"
+    }
+  ]
+}

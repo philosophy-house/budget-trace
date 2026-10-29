@@ -1,0 +1,251 @@
+{
+  "docType": "council-composition",
+  "sourceId": "moriya-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:15.601Z",
+  "fiscalYear": "R8",
+  "body": "守谷市議会",
+  "seats": 20,
+  "asOf": "2026-03-11",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "菊地詩子",
+        "山本広行"
+      ],
+      "locator": {
+        "file": "1005857.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新清流会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "椎名愛子",
+        "海老原博幸",
+        "青木公達"
+      ],
+      "locator": {
+        "file": "1005857.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "水車",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "実好敏正"
+      ],
+      "locator": {
+        "file": "1005857.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山田美枝子"
+      ],
+      "locator": {
+        "file": "1005857.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "もりや新風会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小菅勝彦",
+        "高梨隆"
+      ],
+      "locator": {
+        "file": "1005857.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "もりや創世会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田中啓一",
+        "渡辺大士",
+        "梅木伸治"
+      ],
+      "locator": {
+        "file": "1005857.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "もりや未来",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "永盛いずみ",
+        "滝川竜雅",
+        "首藤太亮",
+        "堤茂信",
+        "長谷川信市",
+        "寺田文彦",
+        "高梨恭子",
+        "高橋典久"
+      ],
+      "locator": {
+        "file": "1005857.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第28号",
+    "billName": "令和８年度守谷市一般会計予算",
+    "sessionLabel": "令和８年３月定例月議会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "g07_giketsu_134.html"
+    }
+  },
+  "rosterTitle": "会派名簿（更新日 令和8年3月11日）",
+  "resultTitle": "議案等一覧（令和８年３月定例月議会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月定例月議会 議員別賛否一覧表（3月23日分）",
+    "sourceFile": "Kg126_sanpi_R080323.pdf",
+    "columns": [
+      {
+        "label": "菊地詩子",
+        "faction": "公明党",
+        "member": "菊地詩子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本広行",
+        "faction": "公明党",
+        "member": "山本広行",
+        "stance": "賛成"
+      },
+      {
+        "label": "椎名愛子",
+        "faction": "新清流会",
+        "member": "椎名愛子",
+        "stance": "反対"
+      },
+      {
+        "label": "海老原博幸",
+        "faction": "新清流会",
+        "member": "海老原博幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "青木公達",
+        "faction": "新清流会",
+        "member": "青木公達",
+        "stance": "賛成"
+      },
+      {
+        "label": "実好敏正",
+        "faction": "水車",
+        "member": "実好敏正",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田美枝子",
+        "faction": "日本共産党",
+        "member": "山田美枝子",
+        "stance": "反対"
+      },
+      {
+        "label": "小菅勝彦",
+        "faction": "もりや新風会",
+        "member": "小菅勝彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "高梨隆",
+        "faction": "もりや新風会",
+        "member": "高梨隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中啓一",
+        "faction": "もりや創世会",
+        "member": "田中啓一",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺大士",
+        "faction": "もりや創世会",
+        "member": "渡辺大士",
+        "stance": "賛成"
+      },
+      {
+        "label": "梅木伸治",
+        "faction": "もりや創世会",
+        "member": "梅木伸治",
+        "stance": "賛成"
+      },
+      {
+        "label": "永盛いずみ",
+        "faction": "もりや未来",
+        "member": "永盛いずみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "滝川竜雅",
+        "faction": "もりや未来",
+        "member": "滝川竜雅",
+        "stance": "賛成"
+      },
+      {
+        "label": "首藤太亮",
+        "faction": "もりや未来",
+        "member": "首藤太亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "堤茂信",
+        "faction": "もりや未来",
+        "member": "堤茂信",
+        "stance": "賛成"
+      },
+      {
+        "label": "長谷川信市",
+        "faction": "もりや未来",
+        "member": "長谷川信市",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺田文彦",
+        "faction": "もりや未来",
+        "member": "寺田文彦",
+        "stance": "議長"
+      },
+      {
+        "label": "高梨恭子",
+        "faction": "もりや未来",
+        "member": "高梨恭子",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋典久",
+        "faction": "もりや未来",
+        "member": "高橋典久",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

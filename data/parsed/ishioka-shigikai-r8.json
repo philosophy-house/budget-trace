@@ -1,0 +1,258 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ishioka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.13",
+  "parsedAt": "2026-10-29T13:55:21.019Z",
+  "fiscalYear": "R8",
+  "body": "石岡市議会",
+  "seats": 21,
+  "asOf": "2025-06-30",
+  "factions": [
+    {
+      "name": "紫峰会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "岡野孝男",
+        "関口忠男",
+        "村上泰道",
+        "谷田川泰",
+        "中根淳一",
+        "富田雅史",
+        "鈴木将史"
+      ],
+      "locator": {
+        "file": "kaiha_meibo.htm",
+        "row": 1
+      }
+    },
+    {
+      "name": "石翔会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "川井幸一",
+        "櫻井茂",
+        "新田茜"
+      ],
+      "locator": {
+        "file": "kaiha_meibo.htm",
+        "row": 2
+      }
+    },
+    {
+      "name": "知新会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "池田正文",
+        "勝村孝行",
+        "飯村一夫"
+      ],
+      "locator": {
+        "file": "kaiha_meibo.htm",
+        "row": 3
+      }
+    },
+    {
+      "name": "至誠会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山本進",
+        "鈴木行雄",
+        "髙野要"
+      ],
+      "locator": {
+        "file": "kaiha_meibo.htm",
+        "row": 4
+      }
+    },
+    {
+      "name": "自民・公明クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "菱沼和幸",
+        "玉造由美",
+        "岡野孝雄"
+      ],
+      "locator": {
+        "file": "kaiha_meibo.htm",
+        "row": 5
+      }
+    },
+    {
+      "name": "祥雲",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "鈴木康仁"
+      ],
+      "locator": {
+        "file": "kaiha_meibo.htm",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小松豊正"
+      ],
+      "locator": {
+        "file": "kaiha_meibo.htm",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３号",
+    "billName": "令和8年度石岡市一般会計予算",
+    "sessionLabel": "第１回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "99-hennkou.pdf",
+      "page": 10
+    }
+  },
+  "rosterTitle": "石岡市議会 会派の構成（令和７年６月３０日現在・議決前の魚拓）",
+  "resultTitle": "いしおか市議会だより第99号（令和8年6月1日発行）賛否が分かれたもの（賛成多数で可決）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "いしおか市議会だより第99号 議案等の賛否（令和8年第1回定例会）",
+    "sourceFile": "99-hennkou.pdf",
+    "columns": [
+      {
+        "label": "鈴木将史",
+        "faction": "紫峰会",
+        "member": "鈴木将史",
+        "stance": "賛成"
+      },
+      {
+        "label": "富田雅史",
+        "faction": "紫峰会",
+        "member": "富田雅史",
+        "stance": "賛成"
+      },
+      {
+        "label": "中根淳一",
+        "faction": "紫峰会",
+        "member": "中根淳一",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木康仁",
+        "faction": "祥雲",
+        "member": "鈴木康仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯村一夫",
+        "faction": "知新会",
+        "member": "飯村一夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "新田茜",
+        "faction": "石翔会",
+        "member": "新田茜",
+        "stance": "賛成"
+      },
+      {
+        "label": "川井幸一",
+        "faction": "石翔会",
+        "member": "川井幸一",
+        "stance": "賛成"
+      },
+      {
+        "label": "櫻井茂",
+        "faction": "石翔会",
+        "member": "櫻井茂",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡野孝雄",
+        "faction": "自民・公明クラブ",
+        "member": "岡野孝雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "玉造由美",
+        "faction": "自民・公明クラブ",
+        "member": "玉造由美",
+        "stance": "賛成"
+      },
+      {
+        "label": "勝村孝行",
+        "faction": "知新会",
+        "member": "勝村孝行",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷田川泰",
+        "faction": "紫峰会",
+        "member": "谷田川泰",
+        "stance": "賛成"
+      },
+      {
+        "label": "小松豊正",
+        "faction": "日本共産党",
+        "member": "小松豊正",
+        "stance": "反対"
+      },
+      {
+        "label": "山本進",
+        "faction": "至誠会",
+        "member": "山本進",
+        "stance": "賛成"
+      },
+      {
+        "label": "関口忠男",
+        "faction": "紫峰会",
+        "member": "関口忠男",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田正文",
+        "faction": "知新会",
+        "member": "池田正文",
+        "stance": "賛成"
+      },
+      {
+        "label": "菱沼和幸",
+        "faction": "自民・公明クラブ",
+        "member": "菱沼和幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡野孝男",
+        "faction": "紫峰会",
+        "member": "岡野孝男",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙野要",
+        "faction": "至誠会",
+        "member": "髙野要",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木行雄",
+        "faction": "至誠会",
+        "member": "鈴木行雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上泰道",
+        "faction": "紫峰会",
+        "member": "村上泰道",
+        "stance": "議長"
+      }
+    ]
+  }
+}
