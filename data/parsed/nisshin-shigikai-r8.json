@@ -1,0 +1,250 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nisshin-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:20.040Z",
+  "fiscalYear": "R8",
+  "body": "日進市議会",
+  "seats": 20,
+  "asOf": "2026-03-23",
+  "factions": [
+    {
+      "name": "新政ひまわり",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "武田治敏",
+        "大橋ゆうすけ",
+        "大屋よしお",
+        "小出あさこ",
+        "福安淳也",
+        "吉野ゆうと"
+      ],
+      "locator": {
+        "file": "ns_R8_1teireihyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新政クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小野田利信",
+        "加納やすこ",
+        "水野たかはる"
+      ],
+      "locator": {
+        "file": "ns_R8_1teireihyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政策研究グループ「未来ネット」",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "舟橋よしえ",
+        "白井えり子",
+        "山田久美"
+      ],
+      "locator": {
+        "file": "ns_R8_1teireihyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政策研究会「あした」",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "島村きよみ",
+        "田中とおる",
+        "ゆきむらともこ"
+      ],
+      "locator": {
+        "file": "ns_R8_1teireihyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川嶋恵美",
+        "中島まなみ"
+      ],
+      "locator": {
+        "file": "ns_R8_1teireihyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党日進市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "ごとうみき",
+        "坂林たくみ"
+      ],
+      "locator": {
+        "file": "ns_R8_1teireihyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（岩渕晃久）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "岩渕晃久"
+      ],
+      "locator": {
+        "file": "ns_R8_1teireihyouketutaido.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第16号",
+    "billName": "令和8年度日進市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "ns_18228.html"
+    }
+  },
+  "rosterTitle": "議案表決態度一覧（R8第1回定例会）の会派名の表頭",
+  "resultTitle": "令和8年第1回定例会 議案一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議案表決態度一覧（R8第1回定例会）",
+    "sourceFile": "ns_R8_1teireihyouketutaido.pdf",
+    "columns": [
+      {
+        "label": "武田治敏",
+        "faction": "新政ひまわり",
+        "member": "武田治敏",
+        "stance": "賛成"
+      },
+      {
+        "label": "大橋ゆうすけ",
+        "faction": "新政ひまわり",
+        "member": "大橋ゆうすけ",
+        "stance": "賛成"
+      },
+      {
+        "label": "大屋よしお",
+        "faction": "新政ひまわり",
+        "member": "大屋よしお",
+        "stance": "賛成"
+      },
+      {
+        "label": "小出あさこ",
+        "faction": "新政ひまわり",
+        "member": "小出あさこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉野ゆうと",
+        "faction": "新政ひまわり",
+        "member": "吉野ゆうと",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野田利信",
+        "faction": "新政クラブ",
+        "member": "小野田利信",
+        "stance": "賛成"
+      },
+      {
+        "label": "加納やすこ",
+        "faction": "新政クラブ",
+        "member": "加納やすこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "水野たかはる",
+        "faction": "新政クラブ",
+        "member": "水野たかはる",
+        "stance": "賛成"
+      },
+      {
+        "label": "舟橋よしえ",
+        "faction": "政策研究グループ「未来ネット」",
+        "member": "舟橋よしえ",
+        "stance": "反対"
+      },
+      {
+        "label": "白井えり子",
+        "faction": "政策研究グループ「未来ネット」",
+        "member": "白井えり子",
+        "stance": "反対"
+      },
+      {
+        "label": "山田久美",
+        "faction": "政策研究グループ「未来ネット」",
+        "member": "山田久美",
+        "stance": "反対"
+      },
+      {
+        "label": "島村きよみ",
+        "faction": "政策研究会「あした」",
+        "member": "島村きよみ",
+        "stance": "反対"
+      },
+      {
+        "label": "田中とおる",
+        "faction": "政策研究会「あした」",
+        "member": "田中とおる",
+        "stance": "反対"
+      },
+      {
+        "label": "ゆきむらともこ",
+        "faction": "政策研究会「あした」",
+        "member": "ゆきむらともこ",
+        "stance": "反対"
+      },
+      {
+        "label": "川嶋恵美",
+        "faction": "公明党",
+        "member": "川嶋恵美",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島まなみ",
+        "faction": "公明党",
+        "member": "中島まなみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "ごとうみき",
+        "faction": "日本共産党日進市議団",
+        "member": "ごとうみき",
+        "stance": "反対"
+      },
+      {
+        "label": "坂林たくみ",
+        "faction": "日本共産党日進市議団",
+        "member": "坂林たくみ",
+        "stance": "反対"
+      },
+      {
+        "label": "岩渕晃久",
+        "faction": "無会派（岩渕晃久）",
+        "member": "岩渕晃久",
+        "stance": "賛成"
+      },
+      {
+        "label": "福安淳也",
+        "faction": "新政ひまわり",
+        "member": "福安淳也",
+        "stance": "議長"
+      }
+    ]
+  }
+}

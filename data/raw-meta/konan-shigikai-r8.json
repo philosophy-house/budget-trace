@@ -1,0 +1,33 @@
+{
+  "sourceId": "konan-shigikai-r8",
+  "files": [
+    {
+      "filename": "konan_1001412_20260216.html",
+      "sha256": "9f74c103ed75ffe7eb44a192a5ff6c6de6e12968294236f24e4edbb71bc2dab6",
+      "bytes": 17062,
+      "fetchedAt": "2026-10-29T01:31:28.936Z",
+      "fetchedFrom": "https://web.archive.org/web/20260216164521id_/https://www.city.konan.lg.jp/gikai/giin/1001412.html"
+    },
+    {
+      "filename": "konan_1019241.html",
+      "sha256": "dcee25c6f947982ca11e89f6a2f1f93241953307928b6b8abc661990577a20f6",
+      "bytes": 18403,
+      "fetchedAt": "2026-10-29T01:31:28.936Z",
+      "fetchedFrom": "https://www.city.konan.lg.jp/gikai/katsudou/1001135/1019241.html"
+    },
+    {
+      "filename": "konan_8_3sanpi.pdf",
+      "sha256": "e664a8a4950323a6f703175f1ce35d7ca6dceba9c531f2f9a5b290ffbc657f28",
+      "bytes": 402999,
+      "fetchedAt": "2026-10-29T01:31:28.937Z",
+      "fetchedFrom": "https://www.city.konan.lg.jp/_res/projects/default_project/_page_/001/019/241/8_3sanpi.pdf"
+    },
+    {
+      "filename": "konan_1001436.html",
+      "sha256": "ce95089492aeaf29392aca2f9302f21c8abe925efeea97dbee2239f9052d8b56",
+      "bytes": 9999,
+      "fetchedAt": "2026-10-29T01:31:28.937Z",
+      "fetchedFrom": "https://www.city.konan.lg.jp/gikai/shikumi/1001436.html"
+    }
+  ]
+}

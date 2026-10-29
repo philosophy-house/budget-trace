@@ -1,0 +1,26 @@
+{
+  "sourceId": "kariya-shigikai-r8",
+  "files": [
+    {
+      "filename": "18400405.pdf",
+      "sha256": "17d99cd97a5794d4dde08cbed770e43a04c04dc72b62921d55dfd5f71cd51f19",
+      "bytes": 802667,
+      "fetchedAt": "2026-10-29T01:31:28.930Z",
+      "fetchedFrom": "https://www.city.kariya.lg.jp/_res/projects/default_project/_page_/001/022/289/18400405.pdf"
+    },
+    {
+      "filename": "1022069.html",
+      "sha256": "54c3bd5bbab28a4d912c5089034248e380fce9ddba3a3441dc25ab1df1b90187",
+      "bytes": 28890,
+      "fetchedAt": "2026-10-29T01:31:28.931Z",
+      "fetchedFrom": "https://www.city.kariya.lg.jp/shigikai/honkaigi/kaigikekka/1022064/1022069.html"
+    },
+    {
+      "filename": "meibo_index.html",
+      "sha256": "344f56db21faf23059557352ddfeac3580e10a1e8e4393accceee12b453cac62",
+      "bytes": 15875,
+      "fetchedAt": "2026-10-29T01:31:28.931Z",
+      "fetchedFrom": "https://www.city.kariya.lg.jp/shigikai/giin/meibo/index.html"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nishio-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:18.722Z",
+  "fiscalYear": "R8",
+  "body": "西尾市議会",
+  "seats": 30,
+  "asOf": "2026-03-23",
+  "factions": [
+    {
+      "name": "みらい創政会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "松井晋一郎",
+        "本郷照代",
+        "青山繁",
+        "磯部雅弘",
+        "藤井基夫",
+        "中村なおゆき",
+        "山本道代",
+        "藤田秀徳",
+        "大須賀竜也"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新しい風",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "松崎隆治",
+        "中根志信",
+        "中根文彦",
+        "小林孝幸",
+        "福西あきひと",
+        "牧一心",
+        "牧博之",
+        "渡辺将司"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大塚久美子",
+        "山本栄児"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "前田修"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "減税日本",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "くろの拓海"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "れいわ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山市志保"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "立憲民主",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "細井まゆみ"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "神田たかひろ"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（筒井登）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "筒井登"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（中村眞一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中村眞一"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（ささきえみ）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "ささきえみ"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（杉浦こうき）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "杉浦こうき"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（岩下一隆）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "岩下一隆"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（石川まゆみ）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "石川まゆみ"
+      ],
+      "locator": {
+        "file": "20260323.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第４１号",
+    "billName": "令和８年度西尾市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決",
+    "locator": {
+      "file": "20260323.pdf",
+      "page": 4
+    }
+  },
+  "rosterTitle": "議案、請願、陳情等の賛否（令和8年3月定例会）「各議員の表決態度」の会派・議員名",
+  "resultTitle": "議案、請願、陳情等の賛否（令和8年3月定例会）"
+}

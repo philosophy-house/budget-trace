@@ -1,0 +1,308 @@
+{
+  "docType": "council-composition",
+  "sourceId": "anjo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:18.289Z",
+  "fiscalYear": "R8",
+  "body": "安城市議会",
+  "seats": 28,
+  "asOf": "2025-05-12",
+  "teisu": 28,
+  "factions": [
+    {
+      "name": "安城創生会",
+      "seats": 18,
+      "isIndependent": false,
+      "members": [
+        "深津修",
+        "沓名喜代治",
+        "石川いくこ",
+        "大見学",
+        "石川健一",
+        "神谷清隆",
+        "大屋明仁",
+        "松尾学樹",
+        "杉山朗",
+        "鈴木浩",
+        "神谷和明",
+        "松本佳栄",
+        "白谷隆子",
+        "宮﨑千春",
+        "伊藤康伸",
+        "田中直樹",
+        "竹内稜人",
+        "野場華世"
+      ],
+      "locator": {
+        "file": "r07kaiha_0512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党安城市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "法福洋子",
+        "今原康徳",
+        "宗文代"
+      ],
+      "locator": {
+        "file": "r07kaiha_0512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みらいの風",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "横田雅史",
+        "守口晶治",
+        "沓名美由起"
+      ],
+      "locator": {
+        "file": "r07kaiha_0512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新自民の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "白山松美"
+      ],
+      "locator": {
+        "file": "r07kaiha_0512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党安城市議員団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森下祥子"
+      ],
+      "locator": {
+        "file": "r07kaiha_0512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（石川翼）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "石川翼"
+      ],
+      "locator": {
+        "file": "r07kaiha_0512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（すば康貴）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "すば康貴"
+      ],
+      "locator": {
+        "file": "r07kaiha_0512.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第３０号",
+    "billName": "令和８年度安城市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "giketsukekkaR803.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "安城市議会 会派別一覧（令和7年5月12日）",
+  "resultTitle": "令和８年第１回定例会 議案などの審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会 議案などの審議結果",
+    "sourceFile": "giketsukekkaR803.pdf",
+    "columns": [
+      {
+        "label": "野場華世",
+        "faction": "安城創生会",
+        "member": "野場華世",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹内稜人",
+        "faction": "安城創生会",
+        "member": "竹内稜人",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中直樹",
+        "faction": "安城創生会",
+        "member": "田中直樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川健一",
+        "faction": "安城創生会",
+        "member": "石川健一",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤康伸",
+        "faction": "安城創生会",
+        "member": "伊藤康伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "大見学",
+        "faction": "安城創生会",
+        "member": "大見学",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮﨑千春",
+        "faction": "安城創生会",
+        "member": "宮﨑千春",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川いくこ",
+        "faction": "安城創生会",
+        "member": "石川いくこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "神谷和明",
+        "faction": "安城創生会",
+        "member": "神谷和明",
+        "stance": "賛成"
+      },
+      {
+        "label": "白谷隆子",
+        "faction": "安城創生会",
+        "member": "白谷隆子",
+        "stance": "賛成"
+      },
+      {
+        "label": "沓名喜代治",
+        "faction": "安城創生会",
+        "member": "沓名喜代治",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本佳栄",
+        "faction": "安城創生会",
+        "member": "松本佳栄",
+        "stance": "賛成"
+      },
+      {
+        "label": "深津修",
+        "faction": "安城創生会",
+        "member": "深津修",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉山朗",
+        "faction": "安城創生会",
+        "member": "杉山朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "松尾学樹",
+        "faction": "安城創生会",
+        "member": "松尾学樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "大屋明仁",
+        "faction": "安城創生会",
+        "member": "大屋明仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "神谷清隆",
+        "faction": "安城創生会",
+        "member": "神谷清隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "宗文代",
+        "faction": "公明党安城市議団",
+        "member": "宗文代",
+        "stance": "賛成"
+      },
+      {
+        "label": "法福洋子",
+        "faction": "公明党安城市議団",
+        "member": "法福洋子",
+        "stance": "賛成"
+      },
+      {
+        "label": "今原康徳",
+        "faction": "公明党安城市議団",
+        "member": "今原康徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "横田雅史",
+        "faction": "みらいの風",
+        "member": "横田雅史",
+        "stance": "賛成"
+      },
+      {
+        "label": "沓名美由起",
+        "faction": "みらいの風",
+        "member": "沓名美由起",
+        "stance": "賛成"
+      },
+      {
+        "label": "守口晶治",
+        "faction": "みらいの風",
+        "member": "守口晶治",
+        "stance": "賛成"
+      },
+      {
+        "label": "白山松美",
+        "faction": "新自民の会",
+        "member": "白山松美",
+        "stance": "賛成"
+      },
+      {
+        "label": "森下祥子",
+        "faction": "日本共産党安城市議員団",
+        "member": "森下祥子",
+        "stance": "反対"
+      },
+      {
+        "label": "石川翼",
+        "faction": "無会派（石川翼）",
+        "member": "石川翼",
+        "stance": "反対"
+      },
+      {
+        "label": "すば康貴",
+        "faction": "無会派（すば康貴）",
+        "member": "すば康貴",
+        "stance": "反対"
+      },
+      {
+        "label": "鈴木浩",
+        "faction": "安城創生会",
+        "member": "鈴木浩",
+        "stance": "議長"
+      }
+    ]
+  }
+}

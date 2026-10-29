@@ -1,0 +1,116 @@
+{
+  "docType": "council-composition",
+  "sourceId": "inazawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:19.405Z",
+  "fiscalYear": "R8",
+  "body": "稲沢市議会",
+  "seats": 24,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "創生会",
+      "seats": 13,
+      "isIndependent": false,
+      "members": [
+        "大野紀之",
+        "鵜野大助",
+        "土岐優子",
+        "平床健一",
+        "平野賀洋子",
+        "杉山太希",
+        "北村太郎",
+        "黒田哲生",
+        "近藤治夫",
+        "津田敏樹",
+        "服部礼美香",
+        "吉川隆之",
+        "六鹿順二"
+      ],
+      "locator": {
+        "file": "inazawa_210.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "鈴木純子",
+        "岡野次男",
+        "志智央",
+        "木全信明",
+        "星野俊次"
+      ],
+      "locator": {
+        "file": "inazawa_210.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "公明党稲沢市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "日比野貴子",
+        "杤本敏子"
+      ],
+      "locator": {
+        "file": "inazawa_210.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "日本共産党稲沢市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "服部俊夫",
+        "曽我部博隆"
+      ],
+      "locator": {
+        "file": "inazawa_210.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "会派に属さない議員（小柳彩子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小柳彩子"
+      ],
+      "locator": {
+        "file": "inazawa_210.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "会派に属さない議員（平野泰弘）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "平野泰弘"
+      ],
+      "locator": {
+        "file": "inazawa_210.pdf",
+        "page": 15
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第37号",
+    "billName": "令和8年度稲沢市一般会計予算",
+    "sessionLabel": "令和8年第1回稲沢市議会3月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "賛成多数可決",
+    "locator": {
+      "file": "inazawa_0000005596.html"
+    }
+  },
+  "rosterTitle": "稲沢市議会だより No.210（2026年5月号）p.15「賛否が分かれた議案」の表頭（令和８年３月定例会）",
+  "resultTitle": "令和8年第1回稲沢市議会3月定例会議決結果"
+}

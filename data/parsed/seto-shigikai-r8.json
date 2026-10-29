@@ -1,0 +1,304 @@
+{
+  "docType": "council-composition",
+  "sourceId": "seto-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.12",
+  "parsedAt": "2026-10-29T02:47:17.286Z",
+  "fiscalYear": "R8",
+  "body": "瀬戸市議会",
+  "seats": 26,
+  "asOf": "2026-03-24",
+  "teisu": 26,
+  "factions": [
+    {
+      "name": "自民新政クラブ",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "黒柳知世",
+        "颯田季央",
+        "山内精一郎",
+        "朝井賢次",
+        "髙島淳",
+        "西本潤",
+        "小澤勝",
+        "宮薗伸仁",
+        "冨田宗一",
+        "柴田利勝",
+        "三木雪実"
+      ],
+      "locator": {
+        "file": "seto_R080324_sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党瀬戸市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "三宅聡",
+        "池田信子",
+        "長江秀幸"
+      ],
+      "locator": {
+        "file": "seto_R080324_sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党瀬戸市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "原誠",
+        "新井亜由美",
+        "浅井寿美"
+      ],
+      "locator": {
+        "file": "seto_R080324_sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民の声",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "中川昌也",
+        "戸田由久",
+        "臼井淳"
+      ],
+      "locator": {
+        "file": "seto_R080324_sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新風せと 無所属の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "松原大介",
+        "馬嶋みゆき",
+        "長江公夫"
+      ],
+      "locator": {
+        "file": "seto_R080324_sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（石神栄治）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "石神栄治"
+      ],
+      "locator": {
+        "file": "seto_R080324_sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（髙桑茂樹）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "髙桑茂樹"
+      ],
+      "locator": {
+        "file": "seto_R080324_sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（伊藤賢二）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "伊藤賢二"
+      ],
+      "locator": {
+        "file": "seto_R080324_sanpi.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第29号議案",
+    "billName": "令和8年度瀬戸市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "seto_00708042083.html"
+    }
+  },
+  "rosterTitle": "各議員の議案に対する賛否の状況（令和8年3月定例会・3月24日）の会派別の列見出し",
+  "resultTitle": "議案一覧表（令和8年3月定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "各議員の議案に対する賛否の状況（令和8年3月定例会）",
+    "sourceFile": "seto_R080324_sanpi.pdf",
+    "columns": [
+      {
+        "label": "黒柳知世",
+        "faction": "自民新政クラブ",
+        "member": "黒柳知世",
+        "stance": "賛成"
+      },
+      {
+        "label": "颯田季央",
+        "faction": "自民新政クラブ",
+        "member": "颯田季央",
+        "stance": "賛成"
+      },
+      {
+        "label": "山内精一郎",
+        "faction": "自民新政クラブ",
+        "member": "山内精一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "朝井賢次",
+        "faction": "自民新政クラブ",
+        "member": "朝井賢次",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙島淳",
+        "faction": "自民新政クラブ",
+        "member": "髙島淳",
+        "stance": "賛成"
+      },
+      {
+        "label": "西本潤",
+        "faction": "自民新政クラブ",
+        "member": "西本潤",
+        "stance": "賛成"
+      },
+      {
+        "label": "小澤勝",
+        "faction": "自民新政クラブ",
+        "member": "小澤勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮薗伸仁",
+        "faction": "自民新政クラブ",
+        "member": "宮薗伸仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴田利勝",
+        "faction": "自民新政クラブ",
+        "member": "柴田利勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "三木雪実",
+        "faction": "自民新政クラブ",
+        "member": "三木雪実",
+        "stance": "賛成"
+      },
+      {
+        "label": "三宅聡",
+        "faction": "公明党瀬戸市議団",
+        "member": "三宅聡",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田信子",
+        "faction": "公明党瀬戸市議団",
+        "member": "池田信子",
+        "stance": "賛成"
+      },
+      {
+        "label": "長江秀幸",
+        "faction": "公明党瀬戸市議団",
+        "member": "長江秀幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "原誠",
+        "faction": "日本共産党瀬戸市議団",
+        "member": "原誠",
+        "stance": "反対"
+      },
+      {
+        "label": "新井亜由美",
+        "faction": "日本共産党瀬戸市議団",
+        "member": "新井亜由美",
+        "stance": "反対"
+      },
+      {
+        "label": "浅井寿美",
+        "faction": "日本共産党瀬戸市議団",
+        "member": "浅井寿美",
+        "stance": "反対"
+      },
+      {
+        "label": "中川昌也",
+        "faction": "市民の声",
+        "member": "中川昌也",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸田由久",
+        "faction": "市民の声",
+        "member": "戸田由久",
+        "stance": "賛成"
+      },
+      {
+        "label": "臼井淳",
+        "faction": "市民の声",
+        "member": "臼井淳",
+        "stance": "賛成"
+      },
+      {
+        "label": "松原大介",
+        "faction": "新風せと 無所属の会",
+        "member": "松原大介",
+        "stance": "賛成"
+      },
+      {
+        "label": "馬嶋みゆき",
+        "faction": "新風せと 無所属の会",
+        "member": "馬嶋みゆき",
+        "stance": "賛成"
+      },
+      {
+        "label": "長江公夫",
+        "faction": "新風せと 無所属の会",
+        "member": "長江公夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "石神栄治",
+        "faction": "無会派（石神栄治）",
+        "member": "石神栄治",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙桑茂樹",
+        "faction": "無会派（髙桑茂樹）",
+        "member": "髙桑茂樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤賢二",
+        "faction": "無会派（伊藤賢二）",
+        "member": "伊藤賢二",
+        "stance": "賛成"
+      },
+      {
+        "label": "冨田宗一",
+        "faction": "自民新政クラブ",
+        "member": "冨田宗一",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sourceId": "nishio-shigikai-r8",
+  "files": [
+    {
+      "filename": "20260323.pdf",
+      "sha256": "b7b20e47cabb32afc1fc0857bca0ede619d8976e026d9675b805a8a1c5192c2e",
+      "bytes": 366386,
+      "fetchedAt": "2026-10-29T01:31:28.934Z",
+      "fetchedFrom": "https://www.city.nishio.aichi.jp/_res/projects/default_project/_page_/001/004/369/20260323.pdf"
+    },
+    {
+      "filename": "dbsr_DocumentID1312.html",
+      "sha256": "a5ccdce50de34e169a7840119f045eb5280ee71176ec7061d9e58496f0cef538",
+      "bytes": 25378,
+      "fetchedAt": "2026-10-29T01:31:28.935Z",
+      "fetchedFrom": "https://www.city.nishio.aichi.dbsr.jp/index.php/5103218?Template=document&VoiceType=all&DocumentID=1312",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

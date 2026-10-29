@@ -1,0 +1,33 @@
+{
+  "sourceId": "anjo-shigikai-r8",
+  "files": [
+    {
+      "filename": "r07kaiha_0512.pdf",
+      "sha256": "9ebde8932f3468d959256a3a26bc4dec9f22398ebab458e3f2954573159c99cf",
+      "bytes": 83610,
+      "fetchedAt": "2026-10-29T01:31:28.932Z",
+      "fetchedFrom": "https://anjo-shigikai.jp/representative/pdf/r07kaiha_0512.pdf"
+    },
+    {
+      "filename": "giketsukekkaR803.pdf",
+      "sha256": "a9f2548edeae5c2259b0d0d4f4b02489beed0b25083eed471363e6b0969a64df",
+      "bytes": 94899,
+      "fetchedAt": "2026-10-29T01:31:28.933Z",
+      "fetchedFrom": "https://anjo-shigikai.jp/know/result/wp-content/uploads/2026/03/giketsukekkaR803.pdf"
+    },
+    {
+      "filename": "nittei.html",
+      "sha256": "238a239edbe287963c2336d645383925c7c52777db9f7c75085b4bc5d9981cdb",
+      "bytes": 26400,
+      "fetchedAt": "2026-10-29T01:31:28.933Z",
+      "fetchedFrom": "https://anjo-shigikai.jp/know/nittei.html"
+    },
+    {
+      "filename": "gichofuk.html",
+      "sha256": "57b32384a4a02b9509adf191bd9515fbbc8743cd01b848b7fc0634c87be96a1c",
+      "bytes": 15868,
+      "fetchedAt": "2026-10-29T01:31:28.933Z",
+      "fetchedFrom": "https://anjo-shigikai.jp/info/gichofuk.html"
+    }
+  ]
+}
