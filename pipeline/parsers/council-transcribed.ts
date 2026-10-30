@@ -217,11 +217,6 @@ const optionsSchema = z.object({
   teisu: z.number().int().positive().optional(),
   teisuText: z.string().optional(),
   teisuUrl: z.string().url().optional(),
-  /**
-   * 定数が表の列にしか無い原文（富士の任期満了一覧表「公職の種類 任期 定数（人）…市議会議員 4年 32」）で、列の見出し（「定数」「定員」を含む）。
-   * teisuText の数より前の200字以内に出ること（0.8.15。数の直後に「人」「名」も直前に「定数」も無い表の型のため）
-   */
-  teisuHeader: z.string().regex(/定数|定員/).optional(),
   vacancies: z.number().int().nonnegative().optional(),
   /** 欠員の原文が定数と別のページにあるとき（堺: 区別のページ「北区　定員9人（欠員1人）」）。無ければ teisuUrl で探す */
   vacanciesUrl: z.string().url().optional(),
@@ -1618,9 +1613,7 @@ export function parseCouncilTranscribed(
           if (/\d/.test(v.text[at - 1] ?? "") || /\d/.test(v.text[at + m[0].length] ?? "")) continue;
           const pre = v.text.slice(Math.max(0, at - 8), at);
           const lastTeisu = Math.max(pre.lastIndexOf("定数"), pre.lastIndexOf("定員"));
-          const namedTeisu =
-            (lastTeisu >= 0 && !/\d/.test(pre.slice(lastTeisu))) ||
-            (opt.teisuHeader != null && v.text.slice(Math.max(0, at - 200), at).includes(norm(opt.teisuHeader)));
+          const namedTeisu = lastTeisu >= 0 && !/\d/.test(pre.slice(lastTeisu));
           if (!namedTeisu && /(現員|現在数|在籍|出席|欠員)/.test(pre)) continue;
           if (!namedTeisu && !/^[人名席]/.test(v.text.slice(at + m[0].length))) continue;
           return true;
@@ -1766,6 +1759,11 @@ export function parseCouncilTranscribed(
     const headCut = resAnchors.some((a) => {
       for (let i = a.text.indexOf(headN); i >= 0; i = a.text.indexOf(headN, i + 1)) {
         if (/(原案のとおり|修正のとおり|原案どおり|修正どおり|原案|修正)$/.test(a.text.slice(Math.max(0, i - 6), i))) return true;
+        // 語の途中で切った見出し（「正可決確定した議案」「とおり可決した議案」）— 見出しの頭をまたぐ結果語が原典にあれば切り詰め（0.8.15・レビュー3巡目）
+        const lo = Math.max(0, i - 8);
+        for (const m of a.text.slice(lo, i + headN.length).matchAll(/原案のとおり可決|修正のとおり可決|原案どおり可決|修正どおり可決|原案可決|修正可決/g)) {
+          if (lo + m.index! < i && lo + m.index! + m[0].length > i) return true;
+        }
       }
       return false;
     });

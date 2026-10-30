@@ -23697,7 +23697,6 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       "fyLabel": "令和8年度 当初予算",
       "body": "富士市議会",
       "seats": 32,
-      "teisu": 32,
       "asOf": "2026-03-25",
       "asOfLabel": "2026年3月25日",
       "factions": [
