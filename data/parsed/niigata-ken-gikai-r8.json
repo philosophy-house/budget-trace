@@ -1,0 +1,190 @@
+{
+  "docType": "council-composition",
+  "sourceId": "niigata-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:26.346Z",
+  "fiscalYear": "R8",
+  "body": "新潟県議会",
+  "seats": 53,
+  "asOf": "2023-05-10",
+  "teisu": 53,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 32,
+      "isIndependent": false,
+      "members": [
+        "荒木法子",
+        "沢野亮",
+        "深見太朗",
+        "栗原学",
+        "小鍛冶就也",
+        "大矢弘光",
+        "田村要介",
+        "吉田孝志",
+        "森田幸衛",
+        "堀勝重",
+        "飯野晋",
+        "河原井拓也",
+        "小山大志",
+        "中川隆一",
+        "高見美加",
+        "与口善之",
+        "斎京四郎",
+        "中村康司",
+        "松原良道",
+        "笠原義宗",
+        "高橋直揮",
+        "青柳正司",
+        "小島義徳",
+        "皆川雄二",
+        "楡井辰雄",
+        "佐藤純",
+        "岩村良一",
+        "尾身孝昭",
+        "柄沢正三",
+        "小野峯生",
+        "帆苅謙治",
+        "石井修"
+      ],
+      "locator": {
+        "file": "1356810287682.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "未来にいがた",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "諏佐武史",
+        "土田竜吾",
+        "小林誠",
+        "笠原晴彦",
+        "牧田正樹",
+        "樋口秀敏",
+        "小島晋",
+        "上杉知之",
+        "大渕健"
+      ],
+      "locator": {
+        "file": "1356810287682.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "リベラル新潟",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "北啓",
+        "大平一貴",
+        "小泉勝",
+        "杉井旬",
+        "重川隆広",
+        "片野猛"
+      ],
+      "locator": {
+        "file": "1356810287682.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "真政にいがた",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "柴山唯",
+        "八木清美",
+        "渡辺和光"
+      ],
+      "locator": {
+        "file": "1356810287682.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "市村浩二",
+        "安沢峰子"
+      ],
+      "locator": {
+        "file": "1356810287682.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（馬場秀幸）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "馬場秀幸"
+      ],
+      "locator": {
+        "file": "1356810287682.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "1",
+    "billName": "令和8年度新潟県一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "可決",
+    "locator": {
+      "file": "r0802-giannitirann.html"
+    }
+  },
+  "rosterTitle": "議員名簿（更新日 2023年5月10日・定数53人・現員53人）",
+  "resultTitle": "令和8年2月定例会 知事提出議案 議案一覧（審議結果・議決年月日）",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "令和8年2月定例会 知事提出議案 議案一覧（党会派ごとの賛否）",
+    "sourceFile": "r0802-giannitirann.html",
+    "columns": [
+      {
+        "label": "自",
+        "faction": "自由民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "未",
+        "faction": "未来にいがた",
+        "stance": "賛成"
+      },
+      {
+        "label": "リ",
+        "faction": "リベラル新潟",
+        "stance": "賛成"
+      },
+      {
+        "label": "真",
+        "faction": "真政にいがた",
+        "stance": "賛成"
+      },
+      {
+        "label": "公",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "馬",
+        "faction": "無所属（馬場秀幸）",
+        "member": "馬場秀幸",
+        "stance": "反対"
+      },
+      {
+        "label": "青柳正司",
+        "faction": "自由民主党",
+        "member": "青柳正司",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tokamachi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:29.663Z",
+  "fiscalYear": "R8",
+  "body": "十日町市議会",
+  "seats": 19,
+  "asOf": "2025-05-16",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "かがやき",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "富井高志",
+        "山家悠平",
+        "水落静子",
+        "鈴木一郎",
+        "市川直子",
+        "滝沢青葉"
+      ],
+      "locator": {
+        "file": "r70516kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "希望",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "根津年夫",
+        "中林寛暁",
+        "遠田延雄",
+        "大嶋由紀子"
+      ],
+      "locator": {
+        "file": "r70516kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新成会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "星名大輔",
+        "野沢浩平",
+        "福崎哲也",
+        "俵山裕"
+      ],
+      "locator": {
+        "file": "r70516kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党十日町市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "滝沢繁",
+        "富井春美",
+        "樋口富行"
+      ],
+      "locator": {
+        "file": "r70516kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "小林正夫",
+        "村山達也"
+      ],
+      "locator": {
+        "file": "r70516kaihameibo.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "40",
+    "billName": "令和８年度十日町市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gikaidayo90.pdf",
+      "page": 11
+    }
+  },
+  "rosterTitle": "十日町市議会 会派名簿（令和7年5月16日現在）",
+  "resultTitle": "十日町市議会だより No.90（令和8年5月10日発行）3月定例会 議決結果"
+}

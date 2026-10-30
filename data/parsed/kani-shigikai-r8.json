@@ -1,0 +1,276 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kani-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:35.630Z",
+  "fiscalYear": "R8",
+  "body": "可児市議会",
+  "seats": 22,
+  "asOf": "2025-08-07",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "会派きずな",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "澤野伸",
+        "酒向さやか",
+        "川合敏己",
+        "伊藤壽",
+        "板津博之",
+        "髙木将延",
+        "前川一平"
+      ],
+      "locator": {
+        "file": "kaihakousei_R7.8.7_20260202222719.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "可児未来",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "天羽良明",
+        "渡辺仁美",
+        "川上文浩",
+        "田口豊和"
+      ],
+      "locator": {
+        "file": "kaihakousei_R7.8.7_20260202222719.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "亀谷光",
+        "奥村新五",
+        "林則夫"
+      ],
+      "locator": {
+        "file": "kaihakousei_R7.8.7_20260202222719.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党可児市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "伊藤健二",
+        "冨田牧子"
+      ],
+      "locator": {
+        "file": "kaihakousei_R7.8.7_20260202222719.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "可児市議会公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山田喜弘",
+        "野呂和久"
+      ],
+      "locator": {
+        "file": "kaihakousei_R7.8.7_20260202222719.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "白い会派",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松尾和樹",
+        "酒井正司"
+      ],
+      "locator": {
+        "file": "kaihakousei_R7.8.7_20260202222719.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（大平伸二）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大平伸二"
+      ],
+      "locator": {
+        "file": "kaihakousei_R7.8.7_20260202222719.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（田上元一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "田上元一"
+      ],
+      "locator": {
+        "file": "kaihakousei_R7.8.7_20260202222719.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和８年度可児市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決",
+    "locator": {
+      "file": "result-803-2-4-2.html"
+    }
+  },
+  "rosterTitle": "可児市議会 会派構成表（令和７年８月７日現在）",
+  "resultTitle": "議案・議決結果 令和８年第１回定例会",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会 採決結果（全会一致以外の議案の各議員の賛否）",
+    "sourceFile": "result-803-2-4-2.html",
+    "columns": [
+      {
+        "label": "田上元一",
+        "faction": "会派に属さない議員（田上元一）",
+        "member": "田上元一",
+        "stance": "賛成"
+      },
+      {
+        "label": "前川一平",
+        "faction": "会派きずな",
+        "member": "前川一平",
+        "stance": "賛成"
+      },
+      {
+        "label": "酒向さやか",
+        "faction": "会派きずな",
+        "member": "酒向さやか",
+        "stance": "賛成"
+      },
+      {
+        "label": "田口豊和",
+        "faction": "可児未来",
+        "member": "田口豊和",
+        "stance": "賛成"
+      },
+      {
+        "label": "松尾和樹",
+        "faction": "白い会派",
+        "member": "松尾和樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥村新五",
+        "faction": "自由民主クラブ",
+        "member": "奥村新五",
+        "stance": "賛成"
+      },
+      {
+        "label": "大平伸二",
+        "faction": "会派に属さない議員（大平伸二）",
+        "member": "大平伸二",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺仁美",
+        "faction": "可児未来",
+        "member": "渡辺仁美",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙木将延",
+        "faction": "会派きずな",
+        "member": "髙木将延",
+        "stance": "賛成"
+      },
+      {
+        "label": "板津博之",
+        "faction": "会派きずな",
+        "member": "板津博之",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤壽",
+        "faction": "会派きずな",
+        "member": "伊藤壽",
+        "stance": "賛成"
+      },
+      {
+        "label": "天羽良明",
+        "faction": "可児未来",
+        "member": "天羽良明",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤野伸",
+        "faction": "会派きずな",
+        "member": "澤野伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田喜弘",
+        "faction": "可児市議会公明党",
+        "member": "山田喜弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "酒井正司",
+        "faction": "白い会派",
+        "member": "酒井正司",
+        "stance": "賛成"
+      },
+      {
+        "label": "野呂和久",
+        "faction": "可児市議会公明党",
+        "member": "野呂和久",
+        "stance": "賛成"
+      },
+      {
+        "label": "川合敏己",
+        "faction": "会派きずな",
+        "member": "川合敏己",
+        "stance": "賛成"
+      },
+      {
+        "label": "川上文浩",
+        "faction": "可児未来",
+        "member": "川上文浩",
+        "stance": "議長"
+      },
+      {
+        "label": "伊藤健二",
+        "faction": "日本共産党可児市議団",
+        "member": "伊藤健二",
+        "stance": "反対"
+      },
+      {
+        "label": "冨田牧子",
+        "faction": "日本共産党可児市議団",
+        "member": "冨田牧子",
+        "stance": "反対"
+      },
+      {
+        "label": "亀谷光",
+        "faction": "自由民主クラブ",
+        "member": "亀谷光",
+        "stance": "賛成"
+      },
+      {
+        "label": "林則夫",
+        "faction": "自由民主クラブ",
+        "member": "林則夫",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

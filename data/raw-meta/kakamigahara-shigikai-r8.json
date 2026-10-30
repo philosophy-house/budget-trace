@@ -1,0 +1,40 @@
+{
+  "sourceId": "kakamigahara-shigikai-r8",
+  "files": [
+    {
+      "filename": "1005981_20260513072604.html",
+      "sha256": "428a949939673e4013e0c0cba7b952b21795ad0c8bedf1311be304f883459bba",
+      "bytes": 23992,
+      "fetchedAt": "2026-10-30T10:53:50.373Z",
+      "fetchedFrom": "https://web.archive.org/web/20260513072604id_/https://www.city.kakamigahara.lg.jp/shisei/shigikai/1005977/1005981.html"
+    },
+    {
+      "filename": "1026789.html",
+      "sha256": "fc05925c6d0875bc12e2adf977d920ac435ac214f3b9de3763d408c3ae9c0f07",
+      "bytes": 44892,
+      "fetchedAt": "2026-10-30T10:53:50.374Z",
+      "fetchedFrom": "https://www.city.kakamigahara.lg.jp/shisei/shigikai/1005834/1026787/1026789.html"
+    },
+    {
+      "filename": "sanpi080326.pdf",
+      "sha256": "535ebef2652617d0eb99ecc3bec1fd710dd2556a0f7d33f9ec6ee46a07c9d8e3",
+      "bytes": 114415,
+      "fetchedAt": "2026-10-30T10:53:50.375Z",
+      "fetchedFrom": "https://www.city.kakamigahara.lg.jp/_res/projects/default_project/_page_/001/026/789/sanpi080326.pdf"
+    },
+    {
+      "filename": "1005831.html",
+      "sha256": "e81b9fcbb4c1cb8e33d8099aead9c43b5cb0e1ae2271240db41ceb79f462a079",
+      "bytes": 24706,
+      "fetchedAt": "2026-10-30T10:53:50.375Z",
+      "fetchedFrom": "https://www.city.kakamigahara.lg.jp/shisei/shigikai/1005830/1005831.html"
+    },
+    {
+      "filename": "1005978.html",
+      "sha256": "537edfa352bfda689d140d6e8848138c20c54ec7921e7ffb340623ddcd273fe9",
+      "bytes": 24141,
+      "fetchedAt": "2026-10-30T10:53:50.375Z",
+      "fetchedFrom": "https://www.city.kakamigahara.lg.jp/shisei/shigikai/1005977/1005978.html"
+    }
+  ]
+}

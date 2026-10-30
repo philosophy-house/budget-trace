@@ -1,0 +1,40 @@
+{
+  "sourceId": "sado-shigikai-r8",
+  "files": [
+    {
+      "filename": "2732_20260120.html",
+      "sha256": "f108509a8c3c2624dd53e5a7776d56883c89ecca7b0b46b4abaf40a99799c37a",
+      "bytes": 25551,
+      "fetchedAt": "2026-10-30T10:53:50.337Z",
+      "fetchedFrom": "https://web.archive.org/web/20260120092313id_/https://www.city.sado.niigata.jp/site/gikai/2732.html"
+    },
+    {
+      "filename": "2732_20260410.html",
+      "sha256": "7f1fc6641ea2bfb7ab174379a4aafd0838b947ad42ee1b07833b7a5a8fb4a645",
+      "bytes": 25575,
+      "fetchedAt": "2026-10-30T10:53:50.337Z",
+      "fetchedFrom": "https://web.archive.org/web/20260410154340id_/https://www.city.sado.niigata.jp/site/gikai/2732.html"
+    },
+    {
+      "filename": "2701.html",
+      "sha256": "5ebe695fdab4e24173bba012332c068003138ff4055af03cd702dda6e96cc784",
+      "bytes": 29310,
+      "fetchedAt": "2026-10-30T10:53:50.337Z",
+      "fetchedFrom": "https://www.city.sado.niigata.jp/site/gikai/2701.html"
+    },
+    {
+      "filename": "58749.pdf",
+      "sha256": "e7b4cfdcb2b735c94cc5a35d6d2a550b92b86c50955b9fac1a7f5358fdf57d59",
+      "bytes": 219641,
+      "fetchedAt": "2026-10-30T10:53:50.338Z",
+      "fetchedFrom": "https://www.city.sado.niigata.jp/uploaded/attachment/58749.pdf"
+    },
+    {
+      "filename": "59850.pdf",
+      "sha256": "0a96afa963d50a5ddfdde11cfc580a75f6292f6ee5b1808b5245cee2dfb341a5",
+      "bytes": 335274,
+      "fetchedAt": "2026-10-30T10:53:50.338Z",
+      "fetchedFrom": "https://www.city.sado.niigata.jp/uploaded/attachment/59850.pdf"
+    }
+  ]
+}

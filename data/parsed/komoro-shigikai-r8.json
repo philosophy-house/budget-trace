@@ -1,0 +1,112 @@
+{
+  "docType": "council-composition",
+  "sourceId": "komoro-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:32.469Z",
+  "fiscalYear": "R8",
+  "body": "小諸市議会",
+  "seats": 19,
+  "asOf": "2025-02-01",
+  "factions": [
+    {
+      "name": "幸笑みらい",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "中村美奈子",
+        "清水みき枝",
+        "土屋さつき",
+        "小林重太郎",
+        "楚山伸二"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "柏木今朝男",
+        "土屋利江"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "早川聖",
+        "掛川剛"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "南の風",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "清水喜久男",
+        "小林哲子"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市誠会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "小林一彦",
+        "丸山正昭",
+        "竹内健一",
+        "髙橋公",
+        "田中寿光",
+        "青木春美"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "山浦利夫",
+        "田邉久夫"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第3号",
+    "billName": "令和８年度小諸市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "R0808kekka_saisyubi.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派会員名簿【届出順】（令和7年2月1日現在）",
+  "resultTitle": "令和８年３月定例会審議結果（最終日）"
+}

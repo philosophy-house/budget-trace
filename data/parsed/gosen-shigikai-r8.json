@@ -1,0 +1,240 @@
+{
+  "docType": "council-composition",
+  "sourceId": "gosen-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:30.168Z",
+  "fiscalYear": "R8",
+  "body": "五泉市議会",
+  "seats": 20,
+  "asOf": "2025-12-18",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "新しい五泉",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "阿部周夫",
+        "剣持雄吾"
+      ],
+      "locator": {
+        "file": "2888.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "五泉月曜クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "鈴木良民",
+        "白井妙子",
+        "桑原一憲",
+        "山田正良",
+        "佐藤良徳"
+      ],
+      "locator": {
+        "file": "2888.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "政新クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "熊倉政一",
+        "林茂",
+        "深井邦彦",
+        "大橋建太",
+        "鶴巻裕子",
+        "小林泰訓",
+        "魚野洋樹"
+      ],
+      "locator": {
+        "file": "2888.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "清流クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "羽下貢",
+        "長谷川政弘",
+        "阪井明子"
+      ],
+      "locator": {
+        "file": "2888.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "藤の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐藤渉",
+        "佐藤浩"
+      ],
+      "locator": {
+        "file": "2888.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に属さない議員（波塚静亮）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "波塚静亮"
+      ],
+      "locator": {
+        "file": "2888.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第24号",
+    "billName": "令和8年度五泉市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "12682.html"
+    }
+  },
+  "rosterTitle": "会派構成（令和7年12月18日現在）",
+  "resultTitle": "令和8年 第1回定例会 議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第1回定例会 議員別議案賛否一覧表",
+    "sourceFile": "12992.html",
+    "columns": [
+      {
+        "label": "魚野洋樹",
+        "faction": "政新クラブ",
+        "member": "魚野洋樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "阪井明子",
+        "faction": "清流クラブ",
+        "member": "阪井明子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林泰訓",
+        "faction": "政新クラブ",
+        "member": "小林泰訓",
+        "stance": "賛成"
+      },
+      {
+        "label": "鶴巻裕子",
+        "faction": "政新クラブ",
+        "member": "鶴巻裕子",
+        "stance": "賛成"
+      },
+      {
+        "label": "大橋建太",
+        "faction": "政新クラブ",
+        "member": "大橋建太",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤良徳",
+        "faction": "五泉月曜クラブ",
+        "member": "佐藤良徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田正良",
+        "faction": "五泉月曜クラブ",
+        "member": "山田正良",
+        "stance": "賛成"
+      },
+      {
+        "label": "波塚静亮",
+        "faction": "会派に属さない議員（波塚静亮）",
+        "member": "波塚静亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "深井邦彦",
+        "faction": "政新クラブ",
+        "member": "深井邦彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "桑原一憲",
+        "faction": "五泉月曜クラブ",
+        "member": "桑原一憲",
+        "stance": "賛成"
+      },
+      {
+        "label": "白井妙子",
+        "faction": "五泉月曜クラブ",
+        "member": "白井妙子",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤浩",
+        "faction": "藤の会",
+        "member": "佐藤浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "長谷川政弘",
+        "faction": "清流クラブ",
+        "member": "長谷川政弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤渉",
+        "faction": "藤の会",
+        "member": "佐藤渉",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木良民",
+        "faction": "五泉月曜クラブ",
+        "member": "鈴木良民",
+        "stance": "賛成"
+      },
+      {
+        "label": "熊倉政一",
+        "faction": "政新クラブ",
+        "member": "熊倉政一",
+        "stance": "賛成"
+      },
+      {
+        "label": "剣持雄吾",
+        "faction": "新しい五泉",
+        "member": "剣持雄吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "羽下貢",
+        "faction": "清流クラブ",
+        "member": "羽下貢",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部周夫",
+        "faction": "新しい五泉",
+        "member": "阿部周夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "林茂",
+        "faction": "政新クラブ",
+        "member": "林茂",
+        "stance": "議長"
+      }
+    ]
+  }
+}

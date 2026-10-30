@@ -1,0 +1,33 @@
+{
+  "sourceId": "ena-shigikai-r8",
+  "files": [
+    {
+      "filename": "20260324_kekka.pdf",
+      "sha256": "16dedb0625dd9ce0c69a2f147f6a177b603c0d8ef24ef88628d21050241f2b1d",
+      "bytes": 181842,
+      "fetchedAt": "2026-10-30T10:53:50.371Z",
+      "fetchedFrom": "https://www.city.ena.lg.jp/material/files/group/36/20260324_kekka.pdf"
+    },
+    {
+      "filename": "giketsuichiran323.pdf",
+      "sha256": "4b4290a1e7d750d6e8339f695185f3f7757b6b72a2b27ee0450118e2a286b670",
+      "bytes": 89486,
+      "fetchedAt": "2026-10-30T10:53:50.372Z",
+      "fetchedFrom": "https://www.city.ena.lg.jp/material/files/group/36/giketsuichiran323.pdf"
+    },
+    {
+      "filename": "R7meibo.pdf",
+      "sha256": "e6a336770c2d260630b18114bbd7705ac34ced18295fe4fdcd3c72c01ec6bdee",
+      "bytes": 75294,
+      "fetchedAt": "2026-10-30T10:53:50.372Z",
+      "fetchedFrom": "https://www.city.ena.lg.jp/material/files/group/36/R7meibo.pdf"
+    },
+    {
+      "filename": "13353.html",
+      "sha256": "7ea4bac7e6ed743d79ea938f4fd9137914d03c6dec59740c7715be3b700cd3ef",
+      "bytes": 32044,
+      "fetchedAt": "2026-10-30T10:53:50.372Z",
+      "fetchedFrom": "https://www.city.ena.lg.jp/gikai/yokoso/13353.html"
+    }
+  ]
+}

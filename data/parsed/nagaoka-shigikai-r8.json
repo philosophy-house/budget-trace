@@ -1,0 +1,126 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nagaoka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:27.950Z",
+  "fiscalYear": "R8",
+  "body": "長岡市議会",
+  "seats": 33,
+  "asOf": "2026-03-27",
+  "teisu": 34,
+  "factions": [
+    {
+      "name": "市民クラブ",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "田中茂樹",
+        "豊田朗",
+        "多田光輝",
+        "金子陽奈子",
+        "波多恵理",
+        "二ツ家和樹",
+        "加藤尚登",
+        "丸山広司",
+        "松井一男",
+        "丸山勝総",
+        "五井文雄"
+      ],
+      "locator": {
+        "file": "239.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "長岡令和クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "神林克彦",
+        "松野憲一郎",
+        "高橋美里",
+        "笠井綾華",
+        "五十嵐良一",
+        "山田省吾",
+        "関充夫"
+      ],
+      "locator": {
+        "file": "239.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "共産党市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "笠井則雄",
+        "服部耕一",
+        "長坂将志"
+      ],
+      "locator": {
+        "file": "239.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "長岡市公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "池田明弘",
+        "中村耕一",
+        "藤井達徳"
+      ],
+      "locator": {
+        "file": "239.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "市民さわやかクラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "関正史",
+        "酒井正春"
+      ],
+      "locator": {
+        "file": "239.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 7,
+      "isIndependent": true,
+      "members": [
+        "三澤寛人",
+        "衣川広志",
+        "大竹雅春",
+        "桑原望",
+        "水科三郎",
+        "関貴志",
+        "池田和幸"
+      ],
+      "locator": {
+        "file": "239.pdf",
+        "page": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "7",
+    "billName": "令和8年度長岡市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決（全会一致）",
+    "locator": {
+      "file": "r08-03.html"
+    }
+  },
+  "rosterTitle": "長岡市議会だより239号（令和8年4月25日発行）p.6「会派別議員名簿（３月27日現在）」",
+  "resultTitle": "令和8年3月定例会議案議決の内容"
+}

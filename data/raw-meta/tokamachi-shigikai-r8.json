@@ -1,0 +1,33 @@
+{
+  "sourceId": "tokamachi-shigikai-r8",
+  "files": [
+    {
+      "filename": "r70516kaihameibo.pdf",
+      "sha256": "a10225550d60315732ae001abdfdf32c04f39a430b23d2c651deee70e2ab2c9c",
+      "bytes": 98484,
+      "fetchedAt": "2026-10-30T10:53:50.326Z",
+      "fetchedFrom": "https://web.archive.org/web/20260131183334id_/https://www.city.tokamachi.lg.jp/material/files/group/2/r70516kaihameibo.pdf"
+    },
+    {
+      "filename": "2655.html",
+      "sha256": "1ae24854097bc9fd13687b69fdaf43367b99d6f63a08409a9b9832fa7aa68fb7",
+      "bytes": 56502,
+      "fetchedAt": "2026-10-30T10:53:50.326Z",
+      "fetchedFrom": "https://web.archive.org/web/20260113054731id_/https://www.city.tokamachi.lg.jp/shisei_machizukuri/tokamachishigikai/2655.html"
+    },
+    {
+      "filename": "gikaidayo90.pdf",
+      "sha256": "e20f5ae241862b5d1425c27c0aec09078e3ac0fc9063fea1f04b0c44ca325470",
+      "bytes": 2660677,
+      "fetchedAt": "2026-10-30T10:53:50.328Z",
+      "fetchedFrom": "https://www.city.tokamachi.lg.jp/material/files/group/2/gikaidayo90.pdf"
+    },
+    {
+      "filename": "r080401gikaigaiyou.pdf",
+      "sha256": "c01408a3b070e952ebebb8240ebc9e300413d0913e7e9e5ade9fcb3f89ca1ae9",
+      "bytes": 464906,
+      "fetchedAt": "2026-10-30T10:53:50.329Z",
+      "fetchedFrom": "https://www.city.tokamachi.lg.jp/material/files/group/2/r080401gikaigaiyou.pdf"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sourceId": "ogaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "0000061548.html",
+      "sha256": "ff05d56fcf7605bf4a97c4ca542f9e73bfe4d1c07d7e7f8be7eb114fb28e7571",
+      "bytes": 21190,
+      "fetchedAt": "2026-10-30T10:53:50.365Z",
+      "fetchedFrom": "https://web.archive.org/web/20260417064634id_/https://www.city.ogaki.lg.jp/gikai/0000061548.html"
+    },
+    {
+      "filename": "dbsr_Id1290.html",
+      "sha256": "dd2f50c9ba4cfb0f8291db89d50bbea47f94f398e29d9c3774023a39cd2efba6",
+      "bytes": 21807,
+      "fetchedAt": "2026-10-30T10:53:50.365Z",
+      "fetchedFrom": "https://www.city.ogaki.gifu.dbsr.jp/871456?Template=document&Id=1290",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "dbsr_Id1291.html",
+      "sha256": "c067d93531a0b9debadb03b9aee2c2c2b1c9bb2b0182dc3d6fd5b20afeb30bb8",
+      "bytes": 112961,
+      "fetchedAt": "2026-10-30T10:53:50.366Z",
+      "fetchedFrom": "https://www.city.ogaki.gifu.dbsr.jp/871456?Template=document&Id=1291",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

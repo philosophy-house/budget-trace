@@ -1,0 +1,135 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nakatsugawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:34.909Z",
+  "fiscalYear": "R8",
+  "body": "中津川市議会",
+  "seats": 20,
+  "asOf": "2026-03-27",
+  "factions": [
+    {
+      "name": "中津川自民クラブ",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "鷹見憲三",
+        "勝彰",
+        "岡﨑隆彦",
+        "吉村浩平",
+        "吉村俊廣",
+        "島﨑保人",
+        "吉村孝志",
+        "長谷川透",
+        "宮嶋寿明",
+        "林友義"
+      ],
+      "locator": {
+        "file": "gikai_singikekka_R0803.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "市議会公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田口文数",
+        "糸魚川伸一"
+      ],
+      "locator": {
+        "file": "gikai_singikekka_R0803.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "櫛松直子",
+        "松﨑誠"
+      ],
+      "locator": {
+        "file": "gikai_singikekka_R0803.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "木下律子",
+        "田中愛子"
+      ],
+      "locator": {
+        "file": "gikai_singikekka_R0803.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "中津川９の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "鷹見信義"
+      ],
+      "locator": {
+        "file": "gikai_singikekka_R0803.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "地域コネクト",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "牛田敬一"
+      ],
+      "locator": {
+        "file": "gikai_singikekka_R0803.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "市民ネット",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "黒田ところ"
+      ],
+      "locator": {
+        "file": "gikai_singikekka_R0803.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "なかつがわ無派閥の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小池菜摘"
+      ],
+      "locator": {
+        "file": "gikai_singikekka_R0803.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第６号",
+    "billName": "令和８年度中津川市一般会計予算",
+    "sessionLabel": "本会議に提出された事件及び審議結果",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gikai_singikekka_R0803.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "本会議に提出された事件及び審議結果（令和8年3月定例会）p.3「賛否の分かれた議案」の会派・氏名の表頭",
+  "resultTitle": "本会議に提出された事件及び審議結果（令和8年3月定例会）"
+}

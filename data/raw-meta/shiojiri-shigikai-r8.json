@@ -1,0 +1,33 @@
+{
+  "sourceId": "shiojiri-shigikai-r8",
+  "files": [
+    {
+      "filename": "shiojiri_1105_wb20251116.html",
+      "sha256": "297961269fa3e8049756d9ae78dae5e8d90c83711c8a9b9a58f3dbb34ddb2551",
+      "bytes": 29810,
+      "fetchedAt": "2026-10-30T10:53:50.358Z",
+      "fetchedFrom": "https://web.archive.org/web/20251116144900id_/https://www.city.shiojiri.lg.jp/site/gikai/1105.html"
+    },
+    {
+      "filename": "shiojiri_1106.html",
+      "sha256": "48b11938baf02275a86bbf35c2a178b3abbdbdb369ed548406ec8a0eca489f8d",
+      "bytes": 23452,
+      "fetchedAt": "2026-10-30T10:53:50.359Z",
+      "fetchedFrom": "https://www.city.shiojiri.lg.jp/soshiki/47/1106.html"
+    },
+    {
+      "filename": "shiojiri_40685.pdf",
+      "sha256": "7667a073a0c8dd2254bb79fa08a4f9f3e1cac026bfd8e9e589fbdff19cfad8ad",
+      "bytes": 201047,
+      "fetchedAt": "2026-10-30T10:53:50.359Z",
+      "fetchedFrom": "https://www.city.shiojiri.lg.jp/uploaded/attachment/40685.pdf"
+    },
+    {
+      "filename": "shiojiri_1542_wb20260313.html",
+      "sha256": "45ddf84c688ece7cb4f477eeb367e0726fb0951913626b57814b6a0efd62260e",
+      "bytes": 36144,
+      "fetchedAt": "2026-10-30T10:53:50.360Z",
+      "fetchedFrom": "https://web.archive.org/web/20260313102040id_/https://www.city.shiojiri.lg.jp/site/gikai/1542.html"
+    }
+  ]
+}

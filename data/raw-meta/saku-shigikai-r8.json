@@ -1,0 +1,33 @@
+{
+  "sourceId": "saku-shigikai-r8",
+  "files": [
+    {
+      "filename": "saku_kaihabetugiinmeiboR70512.pdf",
+      "sha256": "6cd26b32c94d396bcedfef0b77fa6975ca62d2d16870ffc42ad567e6996c7b99",
+      "bytes": 78909,
+      "fetchedAt": "2026-10-30T10:53:50.361Z",
+      "fetchedFrom": "https://www.city.saku.nagano.jp/shigikai/giinnoshokai/kaihabetumeibo.files/kaihabetugiinmeiboR70512.pdf"
+    },
+    {
+      "filename": "saku_kaihabetumeibo_wb20251116.html",
+      "sha256": "a58f18eae859e43e67bf76fb872833693e3082368ba48dd5df4dc183d5b0833d",
+      "bytes": 47109,
+      "fetchedAt": "2026-10-30T10:53:50.361Z",
+      "fetchedFrom": "https://web.archive.org/web/20251116091258id_/https://www.city.saku.nagano.jp/shigikai/giinnoshokai/kaihabetumeibo.html"
+    },
+    {
+      "filename": "saku_giinnteisuu.html",
+      "sha256": "cebce3bf9c3cf5eeb0c6f8892a256447ebd313b0d1ef22fd798376e4767b57dc",
+      "bytes": 54203,
+      "fetchedAt": "2026-10-30T10:53:50.361Z",
+      "fetchedFrom": "https://www.city.saku.nagano.jp/shigikai/gikaijoho/giinnteisuu.html"
+    },
+    {
+      "filename": "saku_16_sinngikekka.pdf",
+      "sha256": "53d2a8c3e71004a1ec1d614eb796c4b3a84894dfe1ae64548b72b7ded82bcbd9",
+      "bytes": 159688,
+      "fetchedAt": "2026-10-30T10:53:50.362Z",
+      "fetchedFrom": "https://www.city.saku.nagano.jp/shigikai/gikaijoho/gikai_nittei/oshirase/R8T1gikai.files/16_sinngikekka.pdf"
+    }
+  ]
+}

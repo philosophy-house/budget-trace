@@ -1,0 +1,29 @@
+{
+  "sourceId": "nagano-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "naganoken_toha_20260306062819.html",
+      "sha256": "3231f8d0f8b00203e3e67c97f2b264ead73073b7dafce905d752ff6358a8fa90",
+      "bytes": 22511,
+      "fetchedAt": "2026-10-30T10:53:50.344Z",
+      "fetchedFrom": "https://web.archive.org/web/20260306062819id_/https://www.pref.nagano.lg.jp/gikai/gikai/giin/toha.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "naganoken_tijiteisyutugian0802.html",
+      "sha256": "9a252aa61f0dbea8ed941648addd1ebe1988fe65fc1883ee7dffdba5718a45f1",
+      "bytes": 30731,
+      "fetchedAt": "2026-10-30T10:53:50.345Z",
+      "fetchedFrom": "https://www.pref.nagano.lg.jp/gikai/giji/teireikai/houkoku/r0802/tijiteisyutugian0802.html"
+    },
+    {
+      "filename": "naganoken_443-11_9.pdf",
+      "sha256": "9a4add5feb2d2f23b615f458fb00eb6f53f5fd8c8f7f66e829e7779d3c69017c",
+      "bytes": 739670,
+      "fetchedAt": "2026-10-30T10:53:50.346Z",
+      "fetchedFrom": "https://www.pref.nagano.lg.jp/gikai/giji/kaigiroku/documents/443-11_9.pdf"
+    }
+  ]
+}

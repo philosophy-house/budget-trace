@@ -1,0 +1,26 @@
+{
+  "sourceId": "minamiuonuma-shigikai-r8",
+  "files": [
+    {
+      "filename": "3691.html",
+      "sha256": "163fb9af1fa1370c2560d409a901bc494dce099da2f0471f4bc9b47fe1415142",
+      "bytes": 15302,
+      "fetchedAt": "2026-10-30T10:53:50.339Z",
+      "fetchedFrom": "https://www.city.minamiuonuma.niigata.jp/gikai/docs/3691.html"
+    },
+    {
+      "filename": "80222.html",
+      "sha256": "83eabb395605ce80a71ab12375a347fda4458243cafce3fa93741c942dfc3fca",
+      "bytes": 30254,
+      "fetchedAt": "2026-10-30T10:53:50.339Z",
+      "fetchedFrom": "https://www.city.minamiuonuma.niigata.jp/gikai/docs/80222.html"
+    },
+    {
+      "filename": "080501gikaidayoriNo.86.pdf",
+      "sha256": "ee4b78bf27ad7582f9b641d4138255efd774e97a50807cff11ee2e67120680c4",
+      "bytes": 6040983,
+      "fetchedAt": "2026-10-30T10:53:50.343Z",
+      "fetchedFrom": "https://www.city.minamiuonuma.niigata.jp/fs/2/8/9/4/7/2/_/080501%E8%AD%B0%E4%BC%9A%E3%81%A0%E3%82%88%E3%82%8ANo.86.pdf"
+    }
+  ]
+}

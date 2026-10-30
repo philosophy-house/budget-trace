@@ -1,0 +1,134 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shiojiri-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:32.926Z",
+  "fiscalYear": "R8",
+  "body": "塩尻市議会",
+  "seats": 18,
+  "asOf": "2025-05-09",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "政進会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "青柳充茂",
+        "樋口千代子",
+        "石井勉",
+        "小野芳幸",
+        "百瀬友彦"
+      ],
+      "locator": {
+        "file": "shiojiri_1105_wb20251116.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民派連合",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "古畑秀夫",
+        "上條元康",
+        "篠原敏宏"
+      ],
+      "locator": {
+        "file": "shiojiri_1105_wb20251116.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村努",
+        "小松勝子"
+      ],
+      "locator": {
+        "file": "shiojiri_1105_wb20251116.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "牧野直樹",
+        "赤羽誠治"
+      ],
+      "locator": {
+        "file": "shiojiri_1105_wb20251116.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小澤彰一",
+        "小口直実"
+      ],
+      "locator": {
+        "file": "shiojiri_1105_wb20251116.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "清風クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "平間正治",
+        "中野重則"
+      ],
+      "locator": {
+        "file": "shiojiri_1105_wb20251116.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "ひなたの会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山崎油美子"
+      ],
+      "locator": {
+        "file": "shiojiri_1105_wb20251116.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "市政同志会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "青木博文"
+      ],
+      "locator": {
+        "file": "shiojiri_1105_wb20251116.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第26号",
+    "billName": "令和８年度塩尻市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "可決",
+    "locator": {
+      "file": "shiojiri_40685.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派紹介（会派構成（令和7年5月9日現在））",
+  "resultTitle": "令和８年３月定例会に提出された議案及び議決結果"
+}

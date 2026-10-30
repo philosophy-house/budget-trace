@@ -1,0 +1,251 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ina-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:32.755Z",
+  "fiscalYear": "R8",
+  "body": "伊那市議会",
+  "seats": 20,
+  "asOf": "2025-10-01",
+  "factions": [
+    {
+      "name": "平成クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "白鳥敏明",
+        "原一馬",
+        "池上謙",
+        "田畑正敏",
+        "唐木拓"
+      ],
+      "locator": {
+        "file": "kaihakousei_20260208044212.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "みらい伊那",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "宮原英幸",
+        "二瓶裕史",
+        "小池隆",
+        "唐澤千明"
+      ],
+      "locator": {
+        "file": "kaihakousei_20260208044212.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "令和クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小林眞由美",
+        "野口輝雄",
+        "三澤俊明"
+      ],
+      "locator": {
+        "file": "kaihakousei_20260208044212.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "素心クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "伊藤のり子",
+        "髙橋姿",
+        "髙橋明星"
+      ],
+      "locator": {
+        "file": "kaihakousei_20260208044212.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "柳川広美",
+        "飯島光豊"
+      ],
+      "locator": {
+        "file": "kaihakousei_20260208044212.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "湯澤武",
+        "篠塚みどり"
+      ],
+      "locator": {
+        "file": "kaihakousei_20260208044212.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "三石佳代"
+      ],
+      "locator": {
+        "file": "kaihakousei_20260208044212.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "32",
+    "billName": "令和８年度伊那市一般会計予算について",
+    "sessionLabel": "令和８年３月 伊那市議会定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "可決",
+    "locator": {
+      "file": "0803sinngikeika6.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派の構成（更新日 2025年10月1日）",
+  "resultTitle": "令和８年３月 伊那市議会定例会提出案件審議経過",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月伊那市議会定例会提出案件の審議結果と各議員の賛否一覧",
+    "sourceFile": "0803sannpiitirann5.pdf",
+    "columns": [
+      {
+        "label": "池上謙",
+        "faction": "平成クラブ",
+        "member": "池上謙",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤のり子",
+        "faction": "素心クラブ",
+        "member": "伊藤のり子",
+        "stance": "賛成"
+      },
+      {
+        "label": "唐木拓",
+        "faction": "平成クラブ",
+        "member": "唐木拓",
+        "stance": "賛成"
+      },
+      {
+        "label": "小池隆",
+        "faction": "みらい伊那",
+        "member": "小池隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "篠塚みどり",
+        "faction": "公明党",
+        "member": "篠塚みどり",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋姿",
+        "faction": "素心クラブ",
+        "member": "髙橋姿",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋明星",
+        "faction": "素心クラブ",
+        "member": "髙橋明星",
+        "stance": "賛成"
+      },
+      {
+        "label": "三石佳代",
+        "faction": "日本維新の会",
+        "member": "三石佳代",
+        "stance": "賛成"
+      },
+      {
+        "label": "湯澤武",
+        "faction": "公明党",
+        "member": "湯澤武",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林眞由美",
+        "faction": "令和クラブ",
+        "member": "小林眞由美",
+        "stance": "賛成"
+      },
+      {
+        "label": "原一馬",
+        "faction": "平成クラブ",
+        "member": "原一馬",
+        "stance": "賛成"
+      },
+      {
+        "label": "三澤俊明",
+        "faction": "令和クラブ",
+        "member": "三澤俊明",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮原英幸",
+        "faction": "みらい伊那",
+        "member": "宮原英幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "白鳥敏明",
+        "faction": "平成クラブ",
+        "member": "白鳥敏明",
+        "stance": "賛成"
+      },
+      {
+        "label": "二瓶裕史",
+        "faction": "みらい伊那",
+        "member": "二瓶裕史",
+        "stance": "賛成"
+      },
+      {
+        "label": "野口輝雄",
+        "faction": "令和クラブ",
+        "member": "野口輝雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "唐澤千明",
+        "faction": "みらい伊那",
+        "member": "唐澤千明",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯島光豊",
+        "faction": "日本共産党",
+        "member": "飯島光豊",
+        "stance": "賛成"
+      },
+      {
+        "label": "柳川広美",
+        "faction": "日本共産党",
+        "member": "柳川広美",
+        "stance": "賛成"
+      },
+      {
+        "label": "田畑正敏",
+        "faction": "平成クラブ",
+        "member": "田畑正敏",
+        "stance": "議長"
+      }
+    ]
+  }
+}

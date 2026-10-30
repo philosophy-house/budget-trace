@@ -1,0 +1,257 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kakamigahara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T10:55:35.461Z",
+  "fiscalYear": "R8",
+  "body": "各務原市議会",
+  "seats": 24,
+  "asOf": "2026-03-19",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "政和クラブ",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "指宿真弓",
+        "塚原甫",
+        "安村亮",
+        "鈴木豪朗",
+        "川嶋一生",
+        "水野盛俊",
+        "仙石浅善",
+        "瀬川利生",
+        "小島博彦",
+        "井戸田直人"
+      ],
+      "locator": {
+        "file": "1005981_20260513072604.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "颯清会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "池戸一成",
+        "大竹大輔",
+        "岩田紀正"
+      ],
+      "locator": {
+        "file": "1005981_20260513072604.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市議会公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "黒田昌弘",
+        "五十川玲子",
+        "遠藤雄一"
+      ],
+      "locator": {
+        "file": "1005981_20260513072604.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党各務原市議会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "城戸隆志",
+        "波多野優子"
+      ],
+      "locator": {
+        "file": "1005981_20260513072604.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "吉岡健",
+        "水野岳男",
+        "古川明美",
+        "谷川昌義",
+        "小川麻実",
+        "水野浩幸"
+      ],
+      "locator": {
+        "file": "1005981_20260513072604.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第1号",
+    "billName": "令和8年度各務原市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1026789.html"
+    }
+  },
+  "rosterTitle": "会派一覧（会派別所属議員一覧・更新日 令和8年3月19日）",
+  "resultTitle": "提出議案・審議結果（令和8年第1回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "賛否が分かれた議案（令和8年3月定例会・R8.3.26議決分）",
+    "sourceFile": "sanpi080326.pdf",
+    "columns": [
+      {
+        "label": "鈴木豪朗",
+        "faction": "政和クラブ",
+        "member": "鈴木豪朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "安村亮",
+        "faction": "政和クラブ",
+        "member": "安村亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "井戸田直人",
+        "faction": "政和クラブ",
+        "member": "井戸田直人",
+        "stance": "賛成"
+      },
+      {
+        "label": "塚原甫",
+        "faction": "政和クラブ",
+        "member": "塚原甫",
+        "stance": "賛成"
+      },
+      {
+        "label": "小島博彦",
+        "faction": "政和クラブ",
+        "member": "小島博彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "指宿真弓",
+        "faction": "政和クラブ",
+        "member": "指宿真弓",
+        "stance": "賛成"
+      },
+      {
+        "label": "仙石浅善",
+        "faction": "政和クラブ",
+        "member": "仙石浅善",
+        "stance": "賛成"
+      },
+      {
+        "label": "水野盛俊",
+        "faction": "政和クラブ",
+        "member": "水野盛俊",
+        "stance": "賛成"
+      },
+      {
+        "label": "川嶋一生",
+        "faction": "政和クラブ",
+        "member": "川嶋一生",
+        "stance": "賛成"
+      },
+      {
+        "label": "大竹大輔",
+        "faction": "颯清会",
+        "member": "大竹大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩田紀正",
+        "faction": "颯清会",
+        "member": "岩田紀正",
+        "stance": "賛成"
+      },
+      {
+        "label": "池戸一成",
+        "faction": "颯清会",
+        "member": "池戸一成",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤雄一",
+        "faction": "市議会公明党",
+        "member": "遠藤雄一",
+        "stance": "賛成"
+      },
+      {
+        "label": "黒田昌弘",
+        "faction": "市議会公明党",
+        "member": "黒田昌弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "五十川玲子",
+        "faction": "市議会公明党",
+        "member": "五十川玲子",
+        "stance": "賛成"
+      },
+      {
+        "label": "城戸隆志",
+        "faction": "日本共産党各務原市議会議員団",
+        "member": "城戸隆志",
+        "stance": "反対"
+      },
+      {
+        "label": "波多野優子",
+        "faction": "日本共産党各務原市議会議員団",
+        "member": "波多野優子",
+        "stance": "反対"
+      },
+      {
+        "label": "谷川昌義",
+        "faction": "無会派",
+        "member": "谷川昌義",
+        "stance": "賛成"
+      },
+      {
+        "label": "水野浩幸",
+        "faction": "無会派",
+        "member": "水野浩幸",
+        "stance": "反対"
+      },
+      {
+        "label": "吉岡健",
+        "faction": "無会派",
+        "member": "吉岡健",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川麻実",
+        "faction": "無会派",
+        "member": "小川麻実",
+        "stance": "反対"
+      },
+      {
+        "label": "古川明美",
+        "faction": "無会派",
+        "member": "古川明美",
+        "stance": "反対"
+      },
+      {
+        "label": "水野岳男",
+        "faction": "無会派",
+        "member": "水野岳男",
+        "stance": "賛成"
+      },
+      {
+        "label": "瀬川利生",
+        "faction": "政和クラブ",
+        "member": "瀬川利生",
+        "stance": "議長"
+      }
+    ]
+  }
+}

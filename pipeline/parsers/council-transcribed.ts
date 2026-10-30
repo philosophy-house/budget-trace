@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.14";
+export const PARSER_VERSION = "0.8.15";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -1598,6 +1598,10 @@ export function parseCouncilTranscribed(
     if (!opt.teisuText) throw new Error(`${source.id}: teisu には teisuText（原典の表記）が要ります`);
     const tv = opt.teisuUrl ? readDoc(fileFor(opt.teisuUrl)).views : [...roster.views, ...resultViews];
     if (!has(tv, opt.teisuText)) missing.push(`定数の表記「${opt.teisuText}」が原典に見つかりません`);
+    // 定数の数そのものも原文に結び付ける（0.8.15・佐久で実測: 1人を書き落として teisu を 1 減らすと、teisuText が原典にあるだけで通った）
+    if (![...norm(opt.teisuText).matchAll(/\d+/g)].some((m) => Number(m[0]) === opt.teisu)) {
+      missing.push(`teisu ${opt.teisu} が teisuText「${opt.teisuText}」の数字にありません（原典の数を算用数字で含む表記を書く）`);
+    }
     if ((opt.vacancies ?? 0) > 0 && opt.vacanciesTexts?.length) {
       const vv = opt.vacanciesUrl ? readDoc(fileFor(opt.vacanciesUrl)).views : tv;
       let sum = 0;

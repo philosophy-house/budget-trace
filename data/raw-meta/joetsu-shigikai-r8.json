@@ -1,0 +1,26 @@
+{
+  "sourceId": "joetsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "282836.pdf",
+      "sha256": "24dcca3ea4c980944a636fa3781d27301aff0d03e38b6c000956f839f2b1593f",
+      "bytes": 263829,
+      "fetchedAt": "2026-10-30T10:53:50.335Z",
+      "fetchedFrom": "https://www.city.joetsu.niigata.jp/uploaded/attachment/282836.pdf"
+    },
+    {
+      "filename": "280862.pdf",
+      "sha256": "c94be1981689dd284d3af28eb3d89bdbd7cf81f7c49e202b6d3672cb06ca6899",
+      "bytes": 76728,
+      "fetchedAt": "2026-10-30T10:53:50.336Z",
+      "fetchedFrom": "https://www.city.joetsu.niigata.jp/uploaded/attachment/280862.pdf"
+    },
+    {
+      "filename": "teisuu.html",
+      "sha256": "a37e913dc462c1f556b461fe9109188c0a36aaa0f9d0b5ea10e2861dc0a3c8d5",
+      "bytes": 26855,
+      "fetchedAt": "2026-10-30T10:53:50.336Z",
+      "fetchedFrom": "https://www.city.joetsu.niigata.jp/site/gikai/teisuu.html"
+    }
+  ]
+}

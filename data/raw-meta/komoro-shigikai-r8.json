@@ -1,0 +1,40 @@
+{
+  "sourceId": "komoro-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihameibo.pdf",
+      "sha256": "aa5d53697689c333e3762d0c0a5145ce6f37d3e0ef5cdcb435424ce75550edaa",
+      "bytes": 71039,
+      "fetchedAt": "2026-10-30T10:53:50.350Z",
+      "fetchedFrom": "https://www.city.komoro.lg.jp/material/files/group/29/kaihameibo.pdf"
+    },
+    {
+      "filename": "3927.html",
+      "sha256": "ba6ffe81db66d5e0cb2bd5606ffa535f8f2f9625cd3b46fb93e4860a3c7f47ae",
+      "bytes": 39728,
+      "fetchedAt": "2026-10-30T10:53:50.350Z",
+      "fetchedFrom": "https://www.city.komoro.lg.jp/official/shisei_machizukuri/komoroshigikai/giinshokai/3927.html"
+    },
+    {
+      "filename": "R0808kekka_saisyubi.pdf",
+      "sha256": "4bfdb2a14d6ffd10de0b97986edf7059086ff696030c4fa019900528eaafeca1",
+      "bytes": 101242,
+      "fetchedAt": "2026-10-30T10:53:50.351Z",
+      "fetchedFrom": "https://www.city.komoro.lg.jp/material/files/group/29/R0808kekka_saisyubi.pdf"
+    },
+    {
+      "filename": "17284.html",
+      "sha256": "6b9365d36bc1ba8c3991f599bdf223d53c97702fef2c94af76f667eeeb3d48b0",
+      "bytes": 40868,
+      "fetchedAt": "2026-10-30T10:53:50.351Z",
+      "fetchedFrom": "https://www.city.komoro.lg.jp/soshikikarasagasu/gikaijimukyoku/shisei_machizukuri/2/9/shinngikextukaR08/17284.html"
+    },
+    {
+      "filename": "gikaidayori209.pdf",
+      "sha256": "2bb9d3b8248d79e23249752e91084689fe5027ab2cdb64969e45852edffcd228",
+      "bytes": 3845315,
+      "fetchedAt": "2026-10-30T10:53:50.353Z",
+      "fetchedFrom": "https://www.city.komoro.lg.jp/material/files/group/29/gikaidayori209.pdf"
+    }
+  ]
+}
