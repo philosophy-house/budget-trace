@@ -1,0 +1,237 @@
+{
+  "docType": "council-composition",
+  "sourceId": "konan-shiga-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:21.050Z",
+  "fiscalYear": "R8",
+  "body": "湖南市議会",
+  "seats": 18,
+  "asOf": "2025-11-01",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "会派 Kiku",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "永田誠治",
+        "森淳",
+        "松原栄樹",
+        "田中雄二郎"
+      ],
+      "locator": {
+        "file": "4221.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "自由民主党湖南市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小林義典",
+        "上野顕介",
+        "曽我部一帆"
+      ],
+      "locator": {
+        "file": "4221.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市民とつなぐネット",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "坂田政富",
+        "寺元正幸"
+      ],
+      "locator": {
+        "file": "4221.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "湖南市公明党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "細川ゆかり",
+        "副田悦子"
+      ],
+      "locator": {
+        "file": "4221.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "こなんの未来",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "奥村幹郎",
+        "堀田繁樹"
+      ],
+      "locator": {
+        "file": "4221.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "湖南維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "澤田厚",
+        "東良一成"
+      ],
+      "locator": {
+        "file": "4221.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "松井圭子",
+        "藤川みゆき",
+        "東森徹平"
+      ],
+      "locator": {
+        "file": "4221.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第17号",
+    "billName": "令和8年度湖南市一般会計予算",
+    "sessionLabel": "令和8年3月湖南市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "39278.html"
+    }
+  },
+  "rosterTitle": "議員名簿(会派別)（更新日 2025年11月01日）",
+  "resultTitle": "令和8年3月湖南市議会定例会 議決結果(5日目)",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月湖南市議会定例会 提出案件（賛否）",
+    "sourceFile": "sannpinowakaretaannkennitiran20260319.pdf",
+    "columns": [
+      {
+        "label": "永田誠治",
+        "faction": "会派 Kiku",
+        "member": "永田誠治",
+        "stance": "賛成"
+      },
+      {
+        "label": "森淳",
+        "faction": "会派 Kiku",
+        "member": "森淳",
+        "stance": "賛成"
+      },
+      {
+        "label": "松原栄樹",
+        "faction": "会派 Kiku",
+        "member": "松原栄樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中雄二郎",
+        "faction": "会派 Kiku",
+        "member": "田中雄二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林義典",
+        "faction": "自由民主党湖南市議団",
+        "member": "小林義典",
+        "stance": "賛成"
+      },
+      {
+        "label": "上野顕介",
+        "faction": "自由民主党湖南市議団",
+        "member": "上野顕介",
+        "stance": "賛成"
+      },
+      {
+        "label": "曽我部一帆",
+        "faction": "自由民主党湖南市議団",
+        "member": "曽我部一帆",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂田政富",
+        "faction": "市民とつなぐネット",
+        "member": "坂田政富",
+        "stance": "反対"
+      },
+      {
+        "label": "寺元正幸",
+        "faction": "市民とつなぐネット",
+        "member": "寺元正幸",
+        "stance": "反対"
+      },
+      {
+        "label": "副田悦子",
+        "faction": "湖南市公明党議員団",
+        "member": "副田悦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥村幹郎",
+        "faction": "こなんの未来",
+        "member": "奥村幹郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀田繁樹",
+        "faction": "こなんの未来",
+        "member": "堀田繁樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤田厚",
+        "faction": "湖南維新の会",
+        "member": "澤田厚",
+        "stance": "賛成"
+      },
+      {
+        "label": "東良一成",
+        "faction": "湖南維新の会",
+        "member": "東良一成",
+        "stance": "賛成"
+      },
+      {
+        "label": "松井圭子",
+        "faction": "無会派",
+        "member": "松井圭子",
+        "stance": "反対"
+      },
+      {
+        "label": "藤川みゆき",
+        "faction": "無会派",
+        "member": "藤川みゆき",
+        "stance": "賛成"
+      },
+      {
+        "label": "東森徹平",
+        "faction": "無会派",
+        "member": "東森徹平",
+        "stance": "賛成"
+      },
+      {
+        "label": "細川ゆかり",
+        "faction": "湖南市公明党議員団",
+        "member": "細川ゆかり",
+        "stance": "議長"
+      }
+    ]
+  }
+}

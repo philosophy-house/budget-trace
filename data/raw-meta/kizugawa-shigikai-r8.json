@@ -1,0 +1,40 @@
+{
+  "sourceId": "kizugawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihameibo.pdf",
+      "sha256": "470e32a604f41058e9862ad50f9afccaae9fd1fbc91b17bb87cdac814b6656cb",
+      "bytes": 42765,
+      "fetchedAt": "2026-10-30T13:40:58.576Z",
+      "fetchedFrom": "https://web.archive.org/web/20260227213239id_/https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000002/2745/kaihameibo.pdf"
+    },
+    {
+      "filename": "8-1giketukekka.pdf",
+      "sha256": "c5d8a374ddf97cafe684411065e13d05a40d73376137f0784f6dc8df1101401d",
+      "bytes": 154410,
+      "fetchedAt": "2026-10-30T13:40:58.577Z",
+      "fetchedFrom": "https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000003/3026/8-1giketukekka.pdf"
+    },
+    {
+      "filename": "0000002927.html",
+      "sha256": "1962d2166781e6c33d0b260761fe531183004bbc7e5162927b656033f7663239",
+      "bytes": 42879,
+      "fetchedAt": "2026-10-30T13:40:58.577Z",
+      "fetchedFrom": "https://www.city.kizugawa.lg.jp/0000002927.html"
+    },
+    {
+      "filename": "8-1saiketu.pdf",
+      "sha256": "e8894ed99b9b6595b88dd87b5fa94ab9e0180ab99bfb494072157931bbb40f88",
+      "bytes": 96854,
+      "fetchedAt": "2026-10-30T13:40:58.577Z",
+      "fetchedFrom": "https://www.city.kizugawa.lg.jp/cmsfiles/contents/0000003/3026/8-1saiketu.pdf"
+    },
+    {
+      "filename": "0000001677.html",
+      "sha256": "7c1eaea0671d2b7a19b278f42c63802341e835509fa50ace977b0c78c0c1caa8",
+      "bytes": 37435,
+      "fetchedAt": "2026-10-30T13:40:58.577Z",
+      "fetchedFrom": "https://www.city.kizugawa.lg.jp/0000001677.html"
+    }
+  ]
+}

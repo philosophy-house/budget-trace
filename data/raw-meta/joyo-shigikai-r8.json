@@ -1,0 +1,33 @@
+{
+  "sourceId": "joyo-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihamei.htm",
+      "sha256": "18fffb3956d99039c34830155baed6d7d710499cf23a2742b60f48d95b424db0",
+      "bytes": 4739,
+      "fetchedAt": "2026-10-30T13:40:58.561Z",
+      "fetchedFrom": "https://www.city.joyo.kyoto.jp/gikai/giin/kaihamei.htm"
+    },
+    {
+      "filename": "kekkar8t1.pdf",
+      "sha256": "12efed75203724d3d69d5acd9c36f356b70eedd131735cfe88e307276ff308b0",
+      "bytes": 139374,
+      "fetchedAt": "2026-10-30T13:40:58.562Z",
+      "fetchedFrom": "https://www.city.joyo.kyoto.jp/gikai/oshirase/kekkar8t1.pdf"
+    },
+    {
+      "filename": "215_all.pdf",
+      "sha256": "b0ac2770da4618d585478b34b438c44b0e78e2cdc0969693a1c3a025fac59d6f",
+      "bytes": 2104483,
+      "fetchedAt": "2026-10-30T13:40:58.563Z",
+      "fetchedFrom": "https://www.city.joyo.kyoto.jp/gikai/gikaihou/215_all.pdf"
+    },
+    {
+      "filename": "k109RG00000018.html",
+      "sha256": "28bd2825e9754f27600fa9e7dbf06f74ae39880cb9ed9391fa5c1c22db2a6ba2",
+      "bytes": 11672,
+      "fetchedAt": "2026-10-30T13:40:58.563Z",
+      "fetchedFrom": "https://www.city.joyo.kyoto.jp/reiki_int/reiki_honbun/k109RG00000018.html"
+    }
+  ]
+}

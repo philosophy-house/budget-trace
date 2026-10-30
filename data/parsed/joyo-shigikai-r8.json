@@ -1,0 +1,114 @@
+{
+  "docType": "council-composition",
+  "sourceId": "joyo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:23.567Z",
+  "fiscalYear": "R8",
+  "body": "城陽市議会",
+  "seats": 20,
+  "asOf": "2025-10-01",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "自民党議員団",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "池田憲司",
+        "一瀬裕子",
+        "小松原一哉",
+        "田中智之",
+        "谷直樹",
+        "平松亮"
+      ],
+      "locator": {
+        "file": "kaihamei.htm",
+        "row": 1
+      }
+    },
+    {
+      "name": "みらい城陽",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "上原敏",
+        "辻田ひかる",
+        "藤田千佐子",
+        "宮園智子"
+      ],
+      "locator": {
+        "file": "kaihamei.htm",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "語堂辰文",
+        "西良倫",
+        "若山憲子"
+      ],
+      "locator": {
+        "file": "kaihamei.htm",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "乾秀子",
+        "善利誠",
+        "並木英仁"
+      ],
+      "locator": {
+        "file": "kaihamei.htm",
+        "row": 4
+      }
+    },
+    {
+      "name": "侃諤の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "土居一豊",
+        "本城隆志"
+      ],
+      "locator": {
+        "file": "kaihamei.htm",
+        "row": 5
+      }
+    },
+    {
+      "name": "ハーモニー城陽",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "澤田扶美子",
+        "下村牧子"
+      ],
+      "locator": {
+        "file": "kaihamei.htm",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度（2026年度）城陽市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kekkar8t1.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "城陽市議会 会派名簿（令和７年１０月１日現在）",
+  "resultTitle": "令和８年第１回定例会 会議結果"
+}

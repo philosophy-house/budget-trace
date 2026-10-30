@@ -1,0 +1,108 @@
+{
+  "docType": "council-composition",
+  "sourceId": "maizuru-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:23.316Z",
+  "fiscalYear": "R8",
+  "body": "舞鶴市議会",
+  "seats": 25,
+  "asOf": "2024-11-27",
+  "teisu": 25,
+  "factions": [
+    {
+      "name": "自民党鶴政クラブ議員団",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "川口孝文",
+        "上野修身",
+        "尾関善之",
+        "肝付隆治",
+        "谷川眞司",
+        "水嶋一明",
+        "南正弘"
+      ],
+      "locator": {
+        "file": "0000010672.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新政クラブ議員団",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "山本治兵衛",
+        "眞下隆史",
+        "今西克己",
+        "田畑篤子",
+        "野瀬貴則",
+        "眞下弘明"
+      ],
+      "locator": {
+        "file": "0000010672.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "超党・市民ファースト議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "高橋秀策",
+        "仲井玲子",
+        "西村正之",
+        "廣瀬昇",
+        "福本明日香"
+      ],
+      "locator": {
+        "file": "0000010672.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "上羽和幸",
+        "小谷繁雄",
+        "杉島久敏",
+        "松田弘幸"
+      ],
+      "locator": {
+        "file": "0000010672.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小西洋一",
+        "伊田悦子",
+        "小杉悦子"
+      ],
+      "locator": {
+        "file": "0000010672.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第2号議案",
+    "billName": "令和8年度舞鶴市一般会計予算",
+    "sessionLabel": "令和８年舞鶴市議会３月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "可決（賛成多数）",
+    "locator": {
+      "file": "8-3giketukekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派名簿（2024年11月27日・議決前 2026-01-22 の魚拓）",
+  "resultTitle": "令和８年舞鶴市議会３月定例会 議決結果"
+}

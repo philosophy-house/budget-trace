@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.15";
+export const PARSER_VERSION = "0.8.16";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -347,6 +347,8 @@ export function norm(s: string): string {
       .normalize("NFKC")
       // 異体字セレクタ（IVS・SVS）は NFKC で消えない（名古屋「辻󠄀まさお」の U+E0100）
       .replace(/[\u{E0100}-\u{E01EF}︀-️]/gu, "")
+      // ゼロ幅の字（U+200B〜U+200D・U+2060・U+FEFF）は NFKC で消えず、空白の正規表現にも当たらない。舞鶴の議決結果 PDF は全字の間に U+200B が入る（0.8.16）
+      .replace(/[\u200B-\u200D\u2060\uFEFF]/g, "")
       .replace(/[髙﨑𠮷葊濵德栁惠伹]/gu, (c) => VARIANTS[c] ?? c)
       // 丸は「〇」(U+3007) と「○」(U+25CB) が同じ原典の凡例と表で混ざる（松江・盛岡・倉敷）。賛否の記号として寄せる
       .replace(/[\u3007\u25EF]/g, "\u25CB")
@@ -1615,7 +1617,8 @@ export function parseCouncilTranscribed(
           const lastTeisu = Math.max(pre.lastIndexOf("定数"), pre.lastIndexOf("定員"));
           const namedTeisu = lastTeisu >= 0 && !/\d/.test(pre.slice(lastTeisu));
           if (!namedTeisu && /(現員|現在数|在籍|出席|欠員)/.test(pre)) continue;
-          if (!namedTeisu && !/^[人名席]/.test(v.text.slice(at + m[0].length))) continue;
+          // 「人口」「人当たり」は人数の単位ではない（亀岡の議会概要「面積224.80km² 3人口」が正規化で「km23人口」につながった・0.8.16）
+          if (!namedTeisu && !/^[人名席](?!口|当|あたり)/.test(v.text.slice(at + m[0].length))) continue;
           return true;
         }
       }

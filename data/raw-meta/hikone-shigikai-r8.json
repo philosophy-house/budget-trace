@@ -1,0 +1,78 @@
+{
+  "sourceId": "hikone-shigikai-r8",
+  "files": [
+    {
+      "filename": "5786.html",
+      "sha256": "44eb1fa404b960a4822a7c13cafeea54dece8c79ea24011dc946d0ddb817e635",
+      "bytes": 62761,
+      "fetchedAt": "2026-10-30T13:40:58.524Z",
+      "fetchedFrom": "https://web.archive.org/web/20260216031527id_/https://www.city.hikone.lg.jp/shisei/gikai/5/5786.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "30302.html",
+      "sha256": "ee5d38b816b931c1ea9e49d2a29c5b9d87f923f1cad2374f98805022f33219cd",
+      "bytes": 57175,
+      "fetchedAt": "2026-10-30T13:40:58.525Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/kakuka/gikaijimukyoku/11/30302.html"
+    },
+    {
+      "filename": "30307.html",
+      "sha256": "1fd44cde0bc97ab9a0d2287918b339e14723971b0d5258701bf4dda438d91a88",
+      "bytes": 57046,
+      "fetchedAt": "2026-10-30T13:40:58.525Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/kakuka/gikaijimukyoku/11/30307.html"
+    },
+    {
+      "filename": "30259.html",
+      "sha256": "ea06849998da920d269557079a9ec92377d1cb118937c55acb2699a853ca2cc4",
+      "bytes": 57149,
+      "fetchedAt": "2026-10-30T13:40:58.525Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/kakuka/gikaijimukyoku/11/30259.html"
+    },
+    {
+      "filename": "30257.html",
+      "sha256": "eef38becc36daf7c86e5d960228a4618b51fa2a24b513d74e9fc2afe0a3459ca",
+      "bytes": 56457,
+      "fetchedAt": "2026-10-30T13:40:58.525Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/kakuka/gikaijimukyoku/11/30257.html"
+    },
+    {
+      "filename": "30258.html",
+      "sha256": "43ef4086a2de68d34cf0ee399c460e68008bfed5eb6f57b0ac2eac5dc08774df",
+      "bytes": 56666,
+      "fetchedAt": "2026-10-30T13:40:58.525Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/kakuka/gikaijimukyoku/11/30258.html"
+    },
+    {
+      "filename": "30300.html",
+      "sha256": "8a94ef5cf7c317e638354614a6504fab81d30dee512a1c1690d6f7f8dcbe4a31",
+      "bytes": 57486,
+      "fetchedAt": "2026-10-30T13:40:58.526Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/kakuka/gikaijimukyoku/11/30300.html"
+    },
+    {
+      "filename": "5783.html",
+      "sha256": "19febdfa3e182987877bf0574d58eb6de7c75095a39215220fcf2d7fd932854e",
+      "bytes": 88871,
+      "fetchedAt": "2026-10-30T13:40:58.526Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/shisei/gikai/13/5783.html"
+    },
+    {
+      "filename": "R803gijinittei5nitime.pdf",
+      "sha256": "6b0b0b8dc3e7b1b5a420a3ca617d61cc4c4abd3cba10d220783f71b317392990",
+      "bytes": 29817,
+      "fetchedAt": "2026-10-30T13:40:58.526Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/material/files/group/15/R803gijinittei5nitime.pdf"
+    },
+    {
+      "filename": "R8_iinkaigian2.pdf",
+      "sha256": "1f3ab5d4f5a94d240aaa3cc43466530d559af6ebe730ce4ad9f6f12a12fe44a1",
+      "bytes": 25587,
+      "fetchedAt": "2026-10-30T13:40:58.526Z",
+      "fetchedFrom": "https://www.city.hikone.lg.jp/material/files/group/15/R8_iinkaigian2.pdf"
+    }
+  ]
+}

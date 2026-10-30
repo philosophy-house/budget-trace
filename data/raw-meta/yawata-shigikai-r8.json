@@ -1,0 +1,26 @@
+{
+  "sourceId": "yawata-shigikai-r8",
+  "files": [
+    {
+      "filename": "8dai1kaiteireikaigiketukekka20260330.pdf",
+      "sha256": "186fad43379d251b9d0b3d941cfd346b01cfa4e16bde5bab2f54838f18ed1ae6",
+      "bytes": 154329,
+      "fetchedAt": "2026-10-30T13:40:58.564Z",
+      "fetchedFrom": "https://www.city.yawata.kyoto.jp/cmsfiles/contents/0000000/104/8dai1kaiteireikaigiketukekka20260330.pdf"
+    },
+    {
+      "filename": "0000000108.html",
+      "sha256": "8cdeebd452104178c352dfe638957b44103f95179c393b998082400cae73ea7f",
+      "bytes": 34878,
+      "fetchedAt": "2026-10-30T13:40:58.564Z",
+      "fetchedFrom": "https://www.city.yawata.kyoto.jp/0000000108.html"
+    },
+    {
+      "filename": "0000008587.html",
+      "sha256": "9a3aaa5135c2ce7e11b2ada98fbcf67f82bcddc90e32b6d0100e9bdc04e4484e",
+      "bytes": 30137,
+      "fetchedAt": "2026-10-30T13:40:58.564Z",
+      "fetchedFrom": "https://web.archive.org/web/20251106233623id_/https://www.city.yawata.kyoto.jp/0000008587.html"
+    }
+  ]
+}

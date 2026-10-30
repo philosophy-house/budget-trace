@@ -1,0 +1,258 @@
+{
+  "docType": "council-composition",
+  "sourceId": "koka-shiga-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:20.868Z",
+  "fiscalYear": "R8",
+  "body": "甲賀市議会",
+  "seats": 24,
+  "asOf": "2026-03-18",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "凛風会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "古賀友康",
+        "出口雅之",
+        "西田忠",
+        "瀨古幾司",
+        "西村慧",
+        "橋本恒典",
+        "谷永兼二"
+      ],
+      "locator": {
+        "file": "r080318giketsukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "瑞誠の会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "冨増力章",
+        "北田麗子",
+        "中島裕介",
+        "奥村則夫",
+        "小倉剛",
+        "田中喜克",
+        "戎脇浩"
+      ],
+      "locator": {
+        "file": "r080318giketsukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党甲賀市議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "西山実",
+        "岡田重美",
+        "山岡光広"
+      ],
+      "locator": {
+        "file": "r080318giketsukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "木村眞雄",
+        "堀郁子"
+      ],
+      "locator": {
+        "file": "r080318giketsukekka.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "若狹健太",
+        "長源一",
+        "村木慶太郎",
+        "福井進",
+        "糸目仁樹"
+      ],
+      "locator": {
+        "file": "r080318giketsukekka.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 4号",
+    "billName": "令和８年度甲賀市一般会計予算",
+    "sessionLabel": "令和８年第２回甲賀市議会定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r080318giketsukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年第２回甲賀市議会定例会の議決結果（令和８年３月１８日）p.4「賛否が分かれた案件の審議結果について」の表頭",
+  "resultTitle": "令和８年第２回甲賀市議会定例会の議決結果について（令和８年３月１８日）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "賛否が分かれた案件の審議結果について（令和８年３月１８日）",
+    "sourceFile": "r080318giketsukekka.pdf",
+    "columns": [
+      {
+        "label": "古賀友康",
+        "faction": "凛風会",
+        "member": "古賀友康",
+        "stance": "賛成"
+      },
+      {
+        "label": "出口雅之",
+        "faction": "凛風会",
+        "member": "出口雅之",
+        "stance": "賛成"
+      },
+      {
+        "label": "西田忠",
+        "faction": "凛風会",
+        "member": "西田忠",
+        "stance": "賛成"
+      },
+      {
+        "label": "瀨古幾司",
+        "faction": "凛風会",
+        "member": "瀨古幾司",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村慧",
+        "faction": "凛風会",
+        "member": "西村慧",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋本恒典",
+        "faction": "凛風会",
+        "member": "橋本恒典",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷永兼二",
+        "faction": "凛風会",
+        "member": "谷永兼二",
+        "stance": "賛成"
+      },
+      {
+        "label": "冨増力章",
+        "faction": "瑞誠の会",
+        "member": "冨増力章",
+        "stance": "賛成"
+      },
+      {
+        "label": "北田麗子",
+        "faction": "瑞誠の会",
+        "member": "北田麗子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島裕介",
+        "faction": "瑞誠の会",
+        "member": "中島裕介",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥村則夫",
+        "faction": "瑞誠の会",
+        "member": "奥村則夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "小倉剛",
+        "faction": "瑞誠の会",
+        "member": "小倉剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中喜克",
+        "faction": "瑞誠の会",
+        "member": "田中喜克",
+        "stance": "賛成"
+      },
+      {
+        "label": "戎脇浩",
+        "faction": "瑞誠の会",
+        "member": "戎脇浩",
+        "stance": "議長"
+      },
+      {
+        "label": "西山実",
+        "faction": "日本共産党甲賀市議員団",
+        "member": "西山実",
+        "stance": "反対"
+      },
+      {
+        "label": "岡田重美",
+        "faction": "日本共産党甲賀市議員団",
+        "member": "岡田重美",
+        "stance": "反対"
+      },
+      {
+        "label": "山岡光広",
+        "faction": "日本共産党甲賀市議員団",
+        "member": "山岡光広",
+        "stance": "反対"
+      },
+      {
+        "label": "木村眞雄",
+        "faction": "公明党",
+        "member": "木村眞雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀郁子",
+        "faction": "公明党",
+        "member": "堀郁子",
+        "stance": "賛成"
+      },
+      {
+        "label": "若狹健太",
+        "faction": "無会派",
+        "member": "若狹健太",
+        "stance": "賛成"
+      },
+      {
+        "label": "長源一",
+        "faction": "無会派",
+        "member": "長源一",
+        "stance": "賛成"
+      },
+      {
+        "label": "村木慶太郎",
+        "faction": "無会派",
+        "member": "村木慶太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "福井進",
+        "faction": "無会派",
+        "member": "福井進",
+        "stance": "賛成"
+      },
+      {
+        "label": "糸目仁樹",
+        "faction": "無会派",
+        "member": "糸目仁樹",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

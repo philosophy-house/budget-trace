@@ -1,0 +1,125 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kizugawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:25.274Z",
+  "fiscalYear": "R8",
+  "body": "木津川市議会",
+  "seats": 20,
+  "asOf": "2025-05-19",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "新風コスモスの会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "森本隆",
+        "福井平和",
+        "野田えり",
+        "兎本尚之"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民党木津川",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "長岡一夫",
+        "倉克伊",
+        "堤征一郎",
+        "山本和延"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小見山正",
+        "谷川光男",
+        "山﨑光祐"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民フォーラム",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "玉川実二",
+        "山本しのぶ",
+        "谷口英子"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党木津川市議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "西山幸千子",
+        "宮嶋良造"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大角久典",
+        "柴田はすみ"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "草水基成",
+        "高岡伸行"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第13号",
+    "billName": "令和８年度木津川市一般会計予算",
+    "sessionLabel": "令和８年第１回木津川市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "8-1giketukekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "木津川市議会 会派別名簿（令和7年5月19日現在）",
+  "resultTitle": "令和８年第１回木津川市議会定例会 議決結果一覧"
+}

@@ -1,0 +1,19 @@
+{
+  "sourceId": "kusatsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "kusatsu_R8.3.26hyouketsu.pdf",
+      "sha256": "87af90ed9bb1f0ddd026bc5f156050585b80c336d2ba1a3aaee9ae81670cbf2c",
+      "bytes": 264261,
+      "fetchedAt": "2026-10-30T13:40:58.535Z",
+      "fetchedFrom": "https://www.city.kusatsu.shiga.jp/shigikai/hongikai_iinkai/R3gian.files/R8.3.26hyouketsu.pdf"
+    },
+    {
+      "filename": "kusatsu_gityo_fukugityo_20251217.html",
+      "sha256": "4319db45a87e32c9fce69f60d1f43be1cd45328a0b870ab71fc6383f655ab661",
+      "bytes": 19863,
+      "fetchedAt": "2026-10-30T13:40:58.535Z",
+      "fetchedFrom": "https://web.archive.org/web/20251217115719id_/https://www.city.kusatsu.shiga.jp/shigikai/shoukai/gityo_fukugityo.html"
+    }
+  ]
+}

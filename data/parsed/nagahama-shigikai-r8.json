@@ -1,0 +1,239 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nagahama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:17.955Z",
+  "fiscalYear": "R8",
+  "body": "長浜市議会",
+  "seats": 20,
+  "asOf": "2026-03-30",
+  "factions": [
+    {
+      "name": "新しい風",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "押谷正春",
+        "加納義之",
+        "竹本直隆",
+        "田中真浩",
+        "中川勇",
+        "中川リョウ",
+        "矢守昭男"
+      ],
+      "locator": {
+        "file": "sisho.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "恵風会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "伊藤喜久雄",
+        "岩川信子",
+        "大橋延行",
+        "千田貞之",
+        "多賀修平",
+        "藤井登"
+      ],
+      "locator": {
+        "file": "sisho.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鬼頭明男",
+        "髙山亨",
+        "橋本典子"
+      ],
+      "locator": {
+        "file": "sisho.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "つなぐ長浜",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "北川陽大",
+        "村山さおり"
+      ],
+      "locator": {
+        "file": "sisho.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "鋒山紀子"
+      ],
+      "locator": {
+        "file": "sisho.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（杉本英一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "杉本英一"
+      ],
+      "locator": {
+        "file": "sisho.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第4号",
+    "billName": "令和8年度長浜市一般会計予算",
+    "sessionLabel": "令和8年3月定例月議会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "原案可決（多数）",
+    "locator": {
+      "file": "0000016634.html"
+    }
+  },
+  "rosterTitle": "令和８年３月定例月議会議決結果表（議員別賛否一覧）の会派・議員の表頭",
+  "resultTitle": "令和8年3月定例月議会議決結果・賛否一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月定例月議会議決結果表（賛否の分かれた議案等）",
+    "sourceFile": "sisho.pdf",
+    "columns": [
+      {
+        "label": "押谷正春",
+        "faction": "新しい風",
+        "member": "押谷正春",
+        "stance": "賛成"
+      },
+      {
+        "label": "加納義之",
+        "faction": "新しい風",
+        "member": "加納義之",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹本直隆",
+        "faction": "新しい風",
+        "member": "竹本直隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中真浩",
+        "faction": "新しい風",
+        "member": "田中真浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "中川勇",
+        "faction": "新しい風",
+        "member": "中川勇",
+        "stance": "賛成"
+      },
+      {
+        "label": "中川リョウ",
+        "faction": "新しい風",
+        "member": "中川リョウ",
+        "stance": "賛成"
+      },
+      {
+        "label": "矢守昭男",
+        "faction": "新しい風",
+        "member": "矢守昭男",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩川信子",
+        "faction": "恵風会",
+        "member": "岩川信子",
+        "stance": "賛成"
+      },
+      {
+        "label": "大橋延行",
+        "faction": "恵風会",
+        "member": "大橋延行",
+        "stance": "賛成"
+      },
+      {
+        "label": "千田貞之",
+        "faction": "恵風会",
+        "member": "千田貞之",
+        "stance": "賛成"
+      },
+      {
+        "label": "多賀修平",
+        "faction": "恵風会",
+        "member": "多賀修平",
+        "stance": "反対"
+      },
+      {
+        "label": "藤井登",
+        "faction": "恵風会",
+        "member": "藤井登",
+        "stance": "賛成"
+      },
+      {
+        "label": "鬼頭明男",
+        "faction": "日本共産党",
+        "member": "鬼頭明男",
+        "stance": "反対"
+      },
+      {
+        "label": "髙山亨",
+        "faction": "日本共産党",
+        "member": "髙山亨",
+        "stance": "反対"
+      },
+      {
+        "label": "橋本典子",
+        "faction": "日本共産党",
+        "member": "橋本典子",
+        "stance": "反対"
+      },
+      {
+        "label": "北川陽大",
+        "faction": "つなぐ長浜",
+        "member": "北川陽大",
+        "stance": "賛成"
+      },
+      {
+        "label": "村山さおり",
+        "faction": "つなぐ長浜",
+        "member": "村山さおり",
+        "stance": "賛成"
+      },
+      {
+        "label": "鋒山紀子",
+        "faction": "公明党",
+        "member": "鋒山紀子",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉本英一",
+        "faction": "会派に属さない議員（杉本英一）",
+        "member": "杉本英一",
+        "stance": "欠席"
+      },
+      {
+        "label": "伊藤喜久雄",
+        "faction": "恵風会",
+        "member": "伊藤喜久雄",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shiga-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:17.117Z",
+  "fiscalYear": "R8",
+  "body": "滋賀県議会",
+  "seats": 40,
+  "asOf": "2026-03-19",
+  "factions": [
+    {
+      "name": "自由民主党滋賀県議会議員団",
+      "seats": 19,
+      "isIndependent": false,
+      "members": [
+        "谷口典隆",
+        "田中英樹",
+        "谷成隆",
+        "小河文人",
+        "菅沼利紀",
+        "桐田真人",
+        "井狩辰也",
+        "本田秀樹",
+        "柴田清行",
+        "重田剛",
+        "白井幸則",
+        "村上元庸",
+        "桑野仁",
+        "周防清二",
+        "海東英和",
+        "加藤誠一",
+        "目片信悟",
+        "川島隆二",
+        "奥村芳正"
+      ],
+      "locator": {
+        "file": "Kg880_0319sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "チームしが 県議団",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "中川雅史",
+        "野田武宏",
+        "赤井康彦",
+        "佐口佳恵",
+        "小川泰江",
+        "田中松太郎",
+        "冨波義明",
+        "今江政彦",
+        "中沢啓子"
+      ],
+      "locator": {
+        "file": "Kg880_0319sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "さざなみ倶楽部",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "駒井千代",
+        "木沢成人",
+        "清水鉄次"
+      ],
+      "locator": {
+        "file": "Kg880_0319sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "滋賀維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田中誠",
+        "河村浩史",
+        "柴田栄一"
+      ],
+      "locator": {
+        "file": "Kg880_0319sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党滋賀県議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岩崎和也",
+        "清水ひとみ"
+      ],
+      "locator": {
+        "file": "Kg880_0319sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党滋賀県議会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中山和行",
+        "節木三千代"
+      ],
+      "locator": {
+        "file": "Kg880_0319sanpi.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "森重重則",
+        "九里学"
+      ],
+      "locator": {
+        "file": "Kg880_0319sanpi.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第2号",
+    "billName": "令和8年度滋賀県一般会計予算",
+    "sessionLabel": "令和8年2月定例会議",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "g07_giketsu_252.html"
+    }
+  },
+  "rosterTitle": "議案等賛否一覧（３月19日議決分）p.1 の会派名・議員の表頭",
+  "resultTitle": "議案一覧（令和8年2月定例会議）"
+}

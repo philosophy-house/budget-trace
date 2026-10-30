@@ -1,0 +1,33 @@
+{
+  "sourceId": "kuwana-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihameibo.html",
+      "sha256": "41e714a7b3cb633979dc7d338519aadc1caea246fc28f6f224d546e46989c194",
+      "bytes": 12698,
+      "fetchedAt": "2026-10-30T13:40:58.587Z",
+      "fetchedFrom": "https://web.archive.org/web/20260214062622id_/https://www.city.kuwana.lg.jp/gikai/giinjouhou/kaihameibo.html"
+    },
+    {
+      "filename": "05_teisyutugianmokuroku20260220.pdf",
+      "sha256": "eeba153a42cf452288ee517f1ab8af9742de1437452d7dcd401e7c596a71c79c",
+      "bytes": 109674,
+      "fetchedAt": "2026-10-30T13:40:58.588Z",
+      "fetchedFrom": "https://www.city.kuwana.lg.jp/documents/12949/05_teisyutugianmokuroku20260220.pdf"
+    },
+    {
+      "filename": "10_giinbetuhyouketukekka20260319.pdf",
+      "sha256": "06e285d8e0fae9e5e9805a984cf1704c30a08a9b9eca950133dfe890e6bd0379",
+      "bytes": 294825,
+      "fetchedAt": "2026-10-30T13:40:58.588Z",
+      "fetchedFrom": "https://www.city.kuwana.lg.jp/documents/12949/10_giinbetuhyouketukekka20260319.pdf"
+    },
+    {
+      "filename": "11_syusekijyoukyou20260319.pdf",
+      "sha256": "172f3c7796230b3f098ac2473e5e6da0533bb04ad5ff90d17979491660ede8e0",
+      "bytes": 69476,
+      "fetchedAt": "2026-10-30T13:40:58.588Z",
+      "fetchedFrom": "https://www.city.kuwana.lg.jp/documents/12949/11_syusekijyoukyou20260319.pdf"
+    }
+  ]
+}

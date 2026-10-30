@@ -1,0 +1,304 @@
+{
+  "docType": "council-composition",
+  "sourceId": "suzuka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:27.372Z",
+  "fiscalYear": "R8",
+  "body": "鈴鹿市議会",
+  "seats": 26,
+  "asOf": "2026-03-25",
+  "factions": [
+    {
+      "name": "新緑風会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "山中智博",
+        "大杉吉包",
+        "水谷進",
+        "山口善之",
+        "河尻浩一",
+        "加藤公友",
+        "松葉谷光由"
+      ],
+      "locator": {
+        "file": "1016613_giketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党鈴鹿市議団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "森雅之",
+        "野間芳実",
+        "森喜代造",
+        "宮木健",
+        "太田龍三"
+      ],
+      "locator": {
+        "file": "1016613_giketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民の声",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "中西大輔",
+        "市川哲夫",
+        "薮田啓介",
+        "市川昇",
+        "藤井栄治"
+      ],
+      "locator": {
+        "file": "1016613_giketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "藤浪清司",
+        "池上茂樹",
+        "船間涼子"
+      ],
+      "locator": {
+        "file": "1016613_giketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "鈴和",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田中通",
+        "南条雄士"
+      ],
+      "locator": {
+        "file": "1016613_giketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "高橋さつき",
+        "石田秀三"
+      ],
+      "locator": {
+        "file": "1016613_giketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（桐生常朗）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "桐生常朗"
+      ],
+      "locator": {
+        "file": "1016613_giketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（矢田真佐美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "矢田真佐美"
+      ],
+      "locator": {
+        "file": "1016613_giketsu.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３号",
+    "billName": "令和８年度鈴鹿市一般会計予算",
+    "sessionLabel": "令和8年2月定例議会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1016613_giketsu.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和8年2月定例議会 議決一覧表の会派・議員名の表頭",
+  "resultTitle": "令和8年2月定例議会 議決一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年2月定例議会 議決一覧表",
+    "sourceFile": "1016613_giketsu.pdf",
+    "columns": [
+      {
+        "label": "山中智博",
+        "faction": "新緑風会",
+        "member": "山中智博",
+        "stance": "賛成"
+      },
+      {
+        "label": "大杉吉包",
+        "faction": "新緑風会",
+        "member": "大杉吉包",
+        "stance": "賛成"
+      },
+      {
+        "label": "水谷進",
+        "faction": "新緑風会",
+        "member": "水谷進",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口善之",
+        "faction": "新緑風会",
+        "member": "山口善之",
+        "stance": "賛成"
+      },
+      {
+        "label": "河尻浩一",
+        "faction": "新緑風会",
+        "member": "河尻浩一",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤公友",
+        "faction": "新緑風会",
+        "member": "加藤公友",
+        "stance": "賛成"
+      },
+      {
+        "label": "松葉谷光由",
+        "faction": "新緑風会",
+        "member": "松葉谷光由",
+        "stance": "賛成"
+      },
+      {
+        "label": "森雅之",
+        "faction": "自由民主党鈴鹿市議団",
+        "member": "森雅之",
+        "stance": "賛成"
+      },
+      {
+        "label": "森喜代造",
+        "faction": "自由民主党鈴鹿市議団",
+        "member": "森喜代造",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮木健",
+        "faction": "自由民主党鈴鹿市議団",
+        "member": "宮木健",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田龍三",
+        "faction": "自由民主党鈴鹿市議団",
+        "member": "太田龍三",
+        "stance": "賛成"
+      },
+      {
+        "label": "中西大輔",
+        "faction": "市民の声",
+        "member": "中西大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "市川哲夫",
+        "faction": "市民の声",
+        "member": "市川哲夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "薮田啓介",
+        "faction": "市民の声",
+        "member": "薮田啓介",
+        "stance": "賛成"
+      },
+      {
+        "label": "市川昇",
+        "faction": "市民の声",
+        "member": "市川昇",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤井栄治",
+        "faction": "市民の声",
+        "member": "藤井栄治",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤浪清司",
+        "faction": "公明党",
+        "member": "藤浪清司",
+        "stance": "賛成"
+      },
+      {
+        "label": "池上茂樹",
+        "faction": "公明党",
+        "member": "池上茂樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "船間涼子",
+        "faction": "公明党",
+        "member": "船間涼子",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中通",
+        "faction": "鈴和",
+        "member": "田中通",
+        "stance": "賛成"
+      },
+      {
+        "label": "南条雄士",
+        "faction": "鈴和",
+        "member": "南条雄士",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋さつき",
+        "faction": "日本共産党",
+        "member": "高橋さつき",
+        "stance": "反対"
+      },
+      {
+        "label": "石田秀三",
+        "faction": "日本共産党",
+        "member": "石田秀三",
+        "stance": "反対"
+      },
+      {
+        "label": "桐生常朗",
+        "faction": "無所属（桐生常朗）",
+        "member": "桐生常朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "矢田真佐美",
+        "faction": "無所属（矢田真佐美）",
+        "member": "矢田真佐美",
+        "stance": "賛成"
+      },
+      {
+        "label": "野間芳実",
+        "faction": "自由民主党鈴鹿市議団",
+        "member": "野間芳実",
+        "stance": "議長"
+      }
+    ]
+  }
+}

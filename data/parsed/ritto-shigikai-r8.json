@@ -1,0 +1,218 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ritto-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:20.555Z",
+  "fiscalYear": "R8",
+  "body": "栗東市議会",
+  "seats": 17,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "新政会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "上田忠博",
+        "三木敏嗣",
+        "中野光一",
+        "里内英幸",
+        "梶原美保",
+        "西田聡",
+        "寺田靖広",
+        "奥村明"
+      ],
+      "locator": {
+        "file": "ritto_HP218gikaidayori.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "栗東市民ネットワーク",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田村隆光",
+        "上石田昌子",
+        "谷口律香"
+      ],
+      "locator": {
+        "file": "ritto_HP218gikaidayori.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "公明栗東",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川嶋恵",
+        "塩見隆"
+      ],
+      "locator": {
+        "file": "ritto_HP218gikaidayori.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "日本共産党栗東市議団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "青木千尋"
+      ],
+      "locator": {
+        "file": "ritto_HP218gikaidayori.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "究理の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "武村賞",
+        "櫻井浩司"
+      ],
+      "locator": {
+        "file": "ritto_HP218gikaidayori.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "未来創造りっとう",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "島田利恵"
+      ],
+      "locator": {
+        "file": "ritto_HP218gikaidayori.pdf",
+        "page": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "3",
+    "billName": "令和8年度栗東市一般会計予算について",
+    "sessionLabel": "令和8年3月議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案どおり可決",
+    "locator": {
+      "file": "ritto_giketsu_17654.html"
+    }
+  },
+  "rosterTitle": "りっとう議会だより218号 p.5「賛否の公表」の表頭（3月定例会・新政会は令和7年度政務活動費収支報告書の会派所属議員名）",
+  "resultTitle": "令和8年3月議会定例会 議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "りっとう議会だより218号「賛否の公表」",
+    "sourceFile": "ritto_HP218gikaidayori.pdf",
+    "columns": [
+      {
+        "label": "上田忠博",
+        "faction": "新政会",
+        "member": "上田忠博",
+        "stance": "賛成"
+      },
+      {
+        "label": "三木敏嗣",
+        "faction": "新政会",
+        "member": "三木敏嗣",
+        "stance": "賛成"
+      },
+      {
+        "label": "中野光一",
+        "faction": "新政会",
+        "member": "中野光一",
+        "stance": "賛成"
+      },
+      {
+        "label": "梶原美保",
+        "faction": "新政会",
+        "member": "梶原美保",
+        "stance": "賛成"
+      },
+      {
+        "label": "西田聡",
+        "faction": "新政会",
+        "member": "西田聡",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺田靖広",
+        "faction": "新政会",
+        "member": "寺田靖広",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥村明",
+        "faction": "新政会",
+        "member": "奥村明",
+        "stance": "賛成"
+      },
+      {
+        "label": "田村隆光",
+        "faction": "栗東市民ネットワーク",
+        "member": "田村隆光",
+        "stance": "賛成"
+      },
+      {
+        "label": "上石田昌子",
+        "faction": "栗東市民ネットワーク",
+        "member": "上石田昌子",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷口律香",
+        "faction": "栗東市民ネットワーク",
+        "member": "谷口律香",
+        "stance": "賛成"
+      },
+      {
+        "label": "川嶋恵",
+        "faction": "公明栗東",
+        "member": "川嶋恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "塩見隆",
+        "faction": "公明栗東",
+        "member": "塩見隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "青木千尋",
+        "faction": "日本共産党栗東市議団",
+        "member": "青木千尋",
+        "stance": "反対"
+      },
+      {
+        "label": "武村賞",
+        "faction": "究理の会",
+        "member": "武村賞",
+        "stance": "賛成"
+      },
+      {
+        "label": "櫻井浩司",
+        "faction": "究理の会",
+        "member": "櫻井浩司",
+        "stance": "賛成"
+      },
+      {
+        "label": "島田利恵",
+        "faction": "未来創造りっとう",
+        "member": "島田利恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "里内英幸",
+        "faction": "新政会",
+        "member": "里内英幸",
+        "stance": "議長"
+      }
+    ]
+  }
+}

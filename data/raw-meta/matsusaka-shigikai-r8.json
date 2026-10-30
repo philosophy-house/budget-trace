@@ -1,0 +1,33 @@
+{
+  "sourceId": "matsusaka-shigikai-r8",
+  "files": [
+    {
+      "filename": "97428.pdf",
+      "sha256": "aeb4a69082b3fcf554c83aa57e320ede9214d5142dffbb737b6a33f884e0c046",
+      "bytes": 104796,
+      "fetchedAt": "2026-10-30T13:40:58.584Z",
+      "fetchedFrom": "https://web.archive.org/web/20260121091520id_/https://www.city.matsusaka.mie.jp/uploaded/attachment/97428.pdf"
+    },
+    {
+      "filename": "103604.pdf",
+      "sha256": "de87fdd9ab6ccb99938e644324abae54e3a78b76eec382d2ce2620e76b420b58",
+      "bytes": 394550,
+      "fetchedAt": "2026-10-30T13:40:58.584Z",
+      "fetchedFrom": "https://www.city.matsusaka.mie.jp/uploaded/attachment/103604.pdf"
+    },
+    {
+      "filename": "103017.pdf",
+      "sha256": "8ce51be6f87e92629642ff1a3ede25c2475ce115b41a392f774d88a3d4ea09fb",
+      "bytes": 144687,
+      "fetchedAt": "2026-10-30T13:40:58.585Z",
+      "fetchedFrom": "https://www.city.matsusaka.mie.jp/uploaded/attachment/103017.pdf"
+    },
+    {
+      "filename": "98327.pdf",
+      "sha256": "0e72316e4c0921413593c17b2fb3d5d93acb18adb82dbd4f3f0d3874dce09303",
+      "bytes": 2784334,
+      "fetchedAt": "2026-10-30T13:40:58.587Z",
+      "fetchedFrom": "https://www.city.matsusaka.mie.jp/uploaded/attachment/98327.pdf"
+    }
+  ]
+}

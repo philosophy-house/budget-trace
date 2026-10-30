@@ -1,0 +1,248 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yawata-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:23.896Z",
+  "fiscalYear": "R8",
+  "body": "八幡市議会",
+  "seats": 21,
+  "asOf": "2026-03-30",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "共産党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山本邦夫",
+        "巌博",
+        "中村正公",
+        "澤村純子",
+        "中村法子"
+      ],
+      "locator": {
+        "file": "8dai1kaiteireikaigiketukekka20260330.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民共生",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "福田佐世子",
+        "小北幸博",
+        "小川直人",
+        "南本晃",
+        "大野裕美"
+      ],
+      "locator": {
+        "file": "8dai1kaiteireikaigiketukekka20260330.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "鷹野雅生",
+        "山田芳彦",
+        "奥村順一",
+        "横須賀生也"
+      ],
+      "locator": {
+        "file": "8dai1kaiteireikaigiketukekka20260330.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "清水章好",
+        "太田克彦",
+        "田邊晴美"
+      ],
+      "locator": {
+        "file": "8dai1kaiteireikaigiketukekka20260330.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "活力",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "叶善之",
+        "寺田圭佑"
+      ],
+      "locator": {
+        "file": "8dai1kaiteireikaigiketukekka20260330.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "山口克浩",
+        "岡本美徳"
+      ],
+      "locator": {
+        "file": "8dai1kaiteireikaigiketukekka20260330.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度八幡市一般会計予算案",
+    "sessionLabel": "令和８年八幡市議会第１回定例会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "原案可決",
+    "locator": {
+      "file": "8dai1kaiteireikaigiketukekka20260330.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年八幡市議会第１回定例会議案・議決結果一覧表（令和８年３月３０日現在）の会派・議員名の表頭",
+  "resultTitle": "令和８年八幡市議会第１回定例会議案・議決結果一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年八幡市議会第１回定例会議案・議決結果一覧表",
+    "sourceFile": "8dai1kaiteireikaigiketukekka20260330.pdf",
+    "columns": [
+      {
+        "label": "山本邦夫",
+        "faction": "共産党",
+        "member": "山本邦夫",
+        "stance": "反対"
+      },
+      {
+        "label": "巌博",
+        "faction": "共産党",
+        "member": "巌博",
+        "stance": "反対"
+      },
+      {
+        "label": "中村正公",
+        "faction": "共産党",
+        "member": "中村正公",
+        "stance": "反対"
+      },
+      {
+        "label": "澤村純子",
+        "faction": "共産党",
+        "member": "澤村純子",
+        "stance": "反対"
+      },
+      {
+        "label": "中村法子",
+        "faction": "共産党",
+        "member": "中村法子",
+        "stance": "反対"
+      },
+      {
+        "label": "福田佐世子",
+        "faction": "市民共生",
+        "member": "福田佐世子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小北幸博",
+        "faction": "市民共生",
+        "member": "小北幸博",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川直人",
+        "faction": "市民共生",
+        "member": "小川直人",
+        "stance": "賛成"
+      },
+      {
+        "label": "南本晃",
+        "faction": "市民共生",
+        "member": "南本晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "大野裕美",
+        "faction": "市民共生",
+        "member": "大野裕美",
+        "stance": "賛成"
+      },
+      {
+        "label": "鷹野雅生",
+        "faction": "自民党",
+        "member": "鷹野雅生",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田芳彦",
+        "faction": "自民党",
+        "member": "山田芳彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥村順一",
+        "faction": "自民党",
+        "member": "奥村順一",
+        "stance": "賛成"
+      },
+      {
+        "label": "横須賀生也",
+        "faction": "自民党",
+        "member": "横須賀生也",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水章好",
+        "faction": "公明党",
+        "member": "清水章好",
+        "stance": "賛成"
+      },
+      {
+        "label": "田邊晴美",
+        "faction": "公明党",
+        "member": "田邊晴美",
+        "stance": "賛成"
+      },
+      {
+        "label": "叶善之",
+        "faction": "活力",
+        "member": "叶善之",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺田圭佑",
+        "faction": "活力",
+        "member": "寺田圭佑",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口克浩",
+        "faction": "無派",
+        "member": "山口克浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡本美徳",
+        "faction": "無派",
+        "member": "岡本美徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田克彦",
+        "faction": "公明党",
+        "member": "太田克彦",
+        "stance": "議長"
+      }
+    ]
+  }
+}

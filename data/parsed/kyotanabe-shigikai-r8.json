@@ -1,0 +1,135 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kyotanabe-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:24.328Z",
+  "fiscalYear": "R8",
+  "body": "京田辺市議会",
+  "seats": 20,
+  "asOf": "2026-03-27",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "自民一新会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "榎本昂輔",
+        "国重昂平",
+        "久保典彦",
+        "田原延行",
+        "橋本善之"
+      ],
+      "locator": {
+        "file": "193.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "ＮＥＸＴ京田辺",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "片岡勉",
+        "河本隆志",
+        "菊川和滋",
+        "長田和也"
+      ],
+      "locator": {
+        "file": "193.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "有田幸平",
+        "上田毅",
+        "早川由紀夫"
+      ],
+      "locator": {
+        "file": "193.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "日本共産党京田辺市議会議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "青木綱次郎",
+        "岡本亮一",
+        "増富理津子"
+      ],
+      "locator": {
+        "file": "193.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "河田美穂",
+        "向川弘"
+      ],
+      "locator": {
+        "file": "193.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "無会派（次田典子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "次田典子"
+      ],
+      "locator": {
+        "file": "193.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "無会派（南部登志子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "南部登志子"
+      ],
+      "locator": {
+        "file": "193.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "無会派（吉高裕佳子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "吉高裕佳子"
+      ],
+      "locator": {
+        "file": "193.pdf",
+        "page": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第26号",
+    "billName": "令和8年度京田辺市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "可決",
+    "locator": {
+      "file": "0000023411.html"
+    }
+  },
+  "rosterTitle": "京田辺市議会だより 第193号（令和8年5月1日）賛否等の状況（令和8年3月定例会）",
+  "resultTitle": "令和8年3月定例会議案等の審議結果一覧"
+}

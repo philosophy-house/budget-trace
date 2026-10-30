@@ -1,0 +1,117 @@
+{
+  "docType": "council-composition",
+  "sourceId": "matsusaka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:26.746Z",
+  "fiscalYear": "R8",
+  "body": "松阪市議会",
+  "seats": 24,
+  "asOf": "2025-08-12",
+  "factions": [
+    {
+      "name": "至誠会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "沖和哉",
+        "松原里穂",
+        "森遥香",
+        "野呂一平",
+        "深田龍",
+        "濱口高志"
+      ],
+      "locator": {
+        "file": "97428.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政風会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "市野幸男",
+        "松本一孝",
+        "赤塚かおり",
+        "米倉芳周",
+        "山本芳敬"
+      ],
+      "locator": {
+        "file": "97428.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "吉川篤博",
+        "酒井由美",
+        "橘大介",
+        "楠谷さゆり"
+      ],
+      "locator": {
+        "file": "97428.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "久松倫生",
+        "殿村峰代"
+      ],
+      "locator": {
+        "file": "97428.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小野建二",
+        "奥出かよ子"
+      ],
+      "locator": {
+        "file": "97428.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に所属しない議員",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "森本哲生",
+        "小川朋子",
+        "田中正浩",
+        "西口真理",
+        "海住恒幸"
+      ],
+      "locator": {
+        "file": "97428.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和8年度松阪市一般会計予算",
+    "sessionLabel": "令和８年２月第１回松阪市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "103604.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派一覧表（令和７年８月１２日現在）",
+  "resultTitle": "令和8年2月定例会議決結果"
+}

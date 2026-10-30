@@ -1,0 +1,26 @@
+{
+  "sourceId": "maizuru-shigikai-r8",
+  "files": [
+    {
+      "filename": "0000010672.html",
+      "sha256": "2c44baba783b1d8a3a22ca91d9a4581965029fcd5e97dd951370befaab4db617",
+      "bytes": 20338,
+      "fetchedAt": "2026-10-30T13:40:58.557Z",
+      "fetchedFrom": "https://web.archive.org/web/20260122042047id_/https://www.city.maizuru.kyoto.jp/sigikai/0000010672.html"
+    },
+    {
+      "filename": "navi201.pdf",
+      "sha256": "a570da5ce162ea394ddc547b2dcfcca602e67ffc0380535750610f13ae644ecd",
+      "bytes": 4737301,
+      "fetchedAt": "2026-10-30T13:40:58.560Z",
+      "fetchedFrom": "https://www.city.maizuru.kyoto.jp/sigikai/cmsfiles/contents/0000015/15277/navi201.pdf"
+    },
+    {
+      "filename": "8-3giketukekka.pdf",
+      "sha256": "d57cf187c3538778f2340e5928e0536077e84888ca1dbc63e57522e329cc4297",
+      "bytes": 599279,
+      "fetchedAt": "2026-10-30T13:40:58.561Z",
+      "fetchedFrom": "https://www.city.maizuru.kyoto.jp/sigikai/cmsfiles/contents/0000014/14830/8-3giketukekka.pdf"
+    }
+  ]
+}

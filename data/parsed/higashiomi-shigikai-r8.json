@@ -1,0 +1,254 @@
+{
+  "docType": "council-composition",
+  "sourceId": "higashiomi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:21.610Z",
+  "fiscalYear": "R8",
+  "body": "東近江市議会",
+  "seats": 22,
+  "asOf": "2026-03-25",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "東近江市民クラブ",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "奥村忠彦",
+        "澤居寛明",
+        "森鉄兵",
+        "山本直彦",
+        "青山孝司",
+        "鈴木則彦",
+        "西村和恭",
+        "田井中丈三",
+        "西﨑彰",
+        "西澤由男",
+        "市木徹",
+        "大橋保治"
+      ],
+      "locator": {
+        "file": "85-8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "太陽クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "松本喜美",
+        "戸嶋幸司",
+        "安田高玄"
+      ],
+      "locator": {
+        "file": "85-8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山中一志",
+        "田郷正"
+      ],
+      "locator": {
+        "file": "85-8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山下敦司",
+        "吉坂豊"
+      ],
+      "locator": {
+        "file": "85-8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "万葉会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "西川清里",
+        "中村和広"
+      ],
+      "locator": {
+        "file": "85-8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派無（小梶昌已）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小梶昌已"
+      ],
+      "locator": {
+        "file": "85-8.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第6 号",
+    "billName": "令和8年度東近江市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1010879.html"
+    }
+  },
+  "rosterTitle": "東近江市議会だより第85号 裏表紙「令和８年３月定例会 議案の審議結果」の表頭",
+  "resultTitle": "令和8年3月定例会 議案の内容および審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "東近江市議会だより第85号「令和８年３月定例会 議案の審議結果」",
+    "sourceFile": "85-8.pdf",
+    "columns": [
+      {
+        "label": "奥村忠彦",
+        "faction": "東近江市民クラブ",
+        "member": "奥村忠彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤居寛明",
+        "faction": "東近江市民クラブ",
+        "member": "澤居寛明",
+        "stance": "賛成"
+      },
+      {
+        "label": "森鉄兵",
+        "faction": "東近江市民クラブ",
+        "member": "森鉄兵",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本直彦",
+        "faction": "東近江市民クラブ",
+        "member": "山本直彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "青山孝司",
+        "faction": "東近江市民クラブ",
+        "member": "青山孝司",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木則彦",
+        "faction": "東近江市民クラブ",
+        "member": "鈴木則彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "田井中丈三",
+        "faction": "東近江市民クラブ",
+        "member": "田井中丈三",
+        "stance": "賛成"
+      },
+      {
+        "label": "西﨑彰",
+        "faction": "東近江市民クラブ",
+        "member": "西﨑彰",
+        "stance": "賛成"
+      },
+      {
+        "label": "西澤由男",
+        "faction": "東近江市民クラブ",
+        "member": "西澤由男",
+        "stance": "賛成"
+      },
+      {
+        "label": "市木徹",
+        "faction": "東近江市民クラブ",
+        "member": "市木徹",
+        "stance": "賛成"
+      },
+      {
+        "label": "大橋保治",
+        "faction": "東近江市民クラブ",
+        "member": "大橋保治",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本喜美",
+        "faction": "太陽クラブ",
+        "member": "松本喜美",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸嶋幸司",
+        "faction": "太陽クラブ",
+        "member": "戸嶋幸司",
+        "stance": "賛成"
+      },
+      {
+        "label": "安田高玄",
+        "faction": "太陽クラブ",
+        "member": "安田高玄",
+        "stance": "賛成"
+      },
+      {
+        "label": "山中一志",
+        "faction": "日本共産党",
+        "member": "山中一志",
+        "stance": "反対"
+      },
+      {
+        "label": "田郷正",
+        "faction": "日本共産党",
+        "member": "田郷正",
+        "stance": "反対"
+      },
+      {
+        "label": "山下敦司",
+        "faction": "公明党",
+        "member": "山下敦司",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉坂豊",
+        "faction": "公明党",
+        "member": "吉坂豊",
+        "stance": "賛成"
+      },
+      {
+        "label": "西川清里",
+        "faction": "万葉会",
+        "member": "西川清里",
+        "stance": "反対"
+      },
+      {
+        "label": "中村和広",
+        "faction": "万葉会",
+        "member": "中村和広",
+        "stance": "反対"
+      },
+      {
+        "label": "小梶昌已",
+        "faction": "会派無（小梶昌已）",
+        "member": "小梶昌已",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村和恭",
+        "faction": "東近江市民クラブ",
+        "member": "西村和恭",
+        "stance": "議長"
+      }
+    ]
+  }
+}

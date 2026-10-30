@@ -1,0 +1,19 @@
+{
+  "sourceId": "nabari-shigikai-r8",
+  "files": [
+    {
+      "filename": "20220323114803.html",
+      "sha256": "62760ba261385bf9d22cb5547cced6f401a01cd958a37d7046dd81d2a5ebe18a",
+      "bytes": 25936,
+      "fetchedAt": "2026-10-30T13:40:58.590Z",
+      "fetchedFrom": "https://www.city.nabari.lg.jp/s077/150/100/160/888/20220323114803.html"
+    },
+    {
+      "filename": "0331.pdf",
+      "sha256": "8f819fbcddcb4db6386c3976fec0d71f6fd76d48deff0537d00ef8113d210d16",
+      "bytes": 122016,
+      "fetchedAt": "2026-10-30T13:40:58.590Z",
+      "fetchedFrom": "https://www.city.nabari.lg.jp/s077/150/000/055/reiwa7/0331.pdf"
+    }
+  ]
+}

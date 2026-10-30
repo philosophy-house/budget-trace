@@ -1,0 +1,213 @@
+{
+  "docType": "council-composition",
+  "sourceId": "takashima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:21.279Z",
+  "fiscalYear": "R8",
+  "body": "高島市議会",
+  "seats": 16,
+  "asOf": "2026-02-19",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "市民クラブ すばる",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "高木広和",
+        "是永宙",
+        "藤田昭",
+        "井上佳郎",
+        "松木純子",
+        "清水大粋"
+      ],
+      "locator": {
+        "file": "4400.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "誠真会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "廣部真造",
+        "吉里浩恵",
+        "吉見大",
+        "高取誠隆"
+      ],
+      "locator": {
+        "file": "4400.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党高島市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "福井節子",
+        "森脇徹"
+      ],
+      "locator": {
+        "file": "4400.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "真志会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "磯部亜希",
+        "澤本長俊"
+      ],
+      "locator": {
+        "file": "4400.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "高島公明会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "藍原章"
+      ],
+      "locator": {
+        "file": "4400.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（河越安実治）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "河越安実治"
+      ],
+      "locator": {
+        "file": "4400.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第２６号",
+    "billName": "令和８年度高島市一般会計予算案",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r8-3sannpiwakaretaannkenn.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派構成一覧表（更新日 2026年02月19日）",
+  "resultTitle": "令和８年３月定例会 審議結果一覧（賛否が分かれた案件）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月定例会 審議結果一覧（賛否が分かれた案件）",
+    "sourceFile": "r8-3sannpiwakaretaannkenn.pdf",
+    "columns": [
+      {
+        "label": "高木広和",
+        "faction": "市民クラブ すばる",
+        "member": "高木広和",
+        "stance": "賛成"
+      },
+      {
+        "label": "是永宙",
+        "faction": "市民クラブ すばる",
+        "member": "是永宙",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤田昭",
+        "faction": "市民クラブ すばる",
+        "member": "藤田昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上佳郎",
+        "faction": "市民クラブ すばる",
+        "member": "井上佳郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "松木純子",
+        "faction": "市民クラブ すばる",
+        "member": "松木純子",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水大粋",
+        "faction": "市民クラブ すばる",
+        "member": "清水大粋",
+        "stance": "賛成"
+      },
+      {
+        "label": "廣部真造",
+        "faction": "誠真会",
+        "member": "廣部真造",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉里浩恵",
+        "faction": "誠真会",
+        "member": "吉里浩恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉見大",
+        "faction": "誠真会",
+        "member": "吉見大",
+        "stance": "賛成"
+      },
+      {
+        "label": "高取誠隆",
+        "faction": "誠真会",
+        "member": "高取誠隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "福井節子",
+        "faction": "日本共産党高島市議団",
+        "member": "福井節子",
+        "stance": "反対"
+      },
+      {
+        "label": "森脇徹",
+        "faction": "日本共産党高島市議団",
+        "member": "森脇徹",
+        "stance": "反対"
+      },
+      {
+        "label": "磯部亜希",
+        "faction": "真志会",
+        "member": "磯部亜希",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤本長俊",
+        "faction": "真志会",
+        "member": "澤本長俊",
+        "stance": "賛成"
+      },
+      {
+        "label": "藍原章",
+        "faction": "高島公明会",
+        "member": "藍原章",
+        "stance": "賛成"
+      },
+      {
+        "label": "河越安実治",
+        "faction": "無所属（河越安実治）",
+        "member": "河越安実治",
+        "stance": "議長"
+      }
+    ]
+  }
+}

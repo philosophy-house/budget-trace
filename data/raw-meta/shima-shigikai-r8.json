@@ -1,0 +1,33 @@
+{
+  "sourceId": "shima-shigikai-r8",
+  "files": [
+    {
+      "filename": "shima_R7-11-3kaihabetuitiran.pdf",
+      "sha256": "56e1a401c8c2baeb9c1db1380f585eb5d284919a12f03d2bd21625653d1f7c81",
+      "bytes": 105814,
+      "fetchedAt": "2026-10-30T13:40:58.594Z",
+      "fetchedFrom": "https://www.city.shima.mie.jp/material/files/group/67/R7-11-3kaihabetuitiran.pdf"
+    },
+    {
+      "filename": "shima_r8_01_sanpiitiran.pdf",
+      "sha256": "6aee86cb02e17611b205331bfca488e39ed866355ba603a4dd9b7896e952e0f8",
+      "bytes": 165026,
+      "fetchedAt": "2026-10-30T13:40:58.595Z",
+      "fetchedFrom": "https://www.city.shima.mie.jp/material/files/group/67/r8_01_sanpiitiran.pdf"
+    },
+    {
+      "filename": "shima_8659.html",
+      "sha256": "26f612c9730379ab3065791bf28c1b083544ba9dffa4aab032d4b11345c828fa",
+      "bytes": 67323,
+      "fetchedAt": "2026-10-30T13:40:58.595Z",
+      "fetchedFrom": "https://www.city.shima.mie.jp/shimashigikai/teisyutuannkenn_kekka/reiwa8_2/8659.html"
+    },
+    {
+      "filename": "shima_1454325040367.html",
+      "sha256": "17601aff21608973c0955e6befba8186af4e5955befeda02f8b800be2ef8c2a3",
+      "bytes": 53286,
+      "fetchedAt": "2026-10-30T13:40:58.595Z",
+      "fetchedFrom": "https://www.city.shima.mie.jp/shimashigikai/1454325040367.html"
+    }
+  ]
+}

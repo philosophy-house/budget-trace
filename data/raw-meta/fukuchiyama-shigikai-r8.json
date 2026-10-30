@@ -1,0 +1,26 @@
+{
+  "sourceId": "fukuchiyama-shigikai-r8",
+  "files": [
+    {
+      "filename": "13044.html",
+      "sha256": "c8c6a849241e0b8cfb6c5d12e02112a4276f0257018f0ce7b6bf066b56519b6a",
+      "bytes": 30274,
+      "fetchedAt": "2026-10-30T13:40:58.548Z",
+      "fetchedFrom": "https://web.archive.org/web/20260115122239id_/https://www.city.fukuchiyama.lg.jp/site/shigikai/13044.html"
+    },
+    {
+      "filename": "53078.pdf",
+      "sha256": "67670efda74552fb419a12caf9fcb569e7d3f8d58610cb45a9ce21d989ae211d",
+      "bytes": 326269,
+      "fetchedAt": "2026-10-30T13:40:58.548Z",
+      "fetchedFrom": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/53078.pdf"
+    },
+    {
+      "filename": "53069.pdf",
+      "sha256": "b3907749967d22a9dbef71a64d87a0b0c33b42573c961d122de732f62e8d2506",
+      "bytes": 383392,
+      "fetchedAt": "2026-10-30T13:40:58.549Z",
+      "fetchedFrom": "https://www.city.fukuchiyama.lg.jp/uploaded/attachment/53069.pdf"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "sourceId": "mie-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "89264000001.htm",
+      "sha256": "f6ba5285ffca7e174ac42b82ed64c0800548e89d4edf2d58296939881e72a0e2",
+      "bytes": 16971,
+      "fetchedAt": "2026-10-30T13:40:58.578Z",
+      "fetchedFrom": "https://web.archive.org/web/20260210092316id_/https://www.pref.mie.lg.jp/KENGIKAI/89264000001.htm"
+    },
+    {
+      "filename": "08092011306.htm",
+      "sha256": "60fad35645e5c2a8a9783e7a938e4ddeb0e2467b8d0be69d66916a9bbcbf9271",
+      "bytes": 10951,
+      "fetchedAt": "2026-10-30T13:40:58.578Z",
+      "fetchedFrom": "https://web.archive.org/web/20251121074904id_/https://www.pref.mie.lg.jp/KENGIKAI/08092011306.htm",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "08089011294.htm",
+      "sha256": "f7d2e3aa361950f7b40a01bd116726eb2657f24ae1fb294d33593b58a5622761",
+      "bytes": 16878,
+      "fetchedAt": "2026-10-30T13:40:58.578Z",
+      "fetchedFrom": "https://web.archive.org/web/20260120121452id_/https://www.pref.mie.lg.jp/KENGIKAI/08089011294.htm"
+    },
+    {
+      "filename": "001247898.pdf",
+      "sha256": "87fbff44aa5af46eae6cd9abb5e969af155fdf8e876b04773d85e8c82e9aed73",
+      "bytes": 392790,
+      "fetchedAt": "2026-10-30T13:40:58.579Z",
+      "fetchedFrom": "https://www.pref.mie.lg.jp/common/content/001247898.pdf"
+    },
+    {
+      "filename": "0002926470005.htm",
+      "sha256": "86fa2cc689173591de51cad3a7f715e443c16311572519dd3b3ef5941a635ba8",
+      "bytes": 18840,
+      "fetchedAt": "2026-10-30T13:40:58.580Z",
+      "fetchedFrom": "https://www.pref.mie.lg.jp/KENGIKAI/0002926470005.htm"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "ritto-shigikai-r8",
+  "files": [
+    {
+      "filename": "ritto_HP218gikaidayori.pdf",
+      "sha256": "4e8907c0e4028f6faee2b19c1141cd0f2295d5af066edcb3d7c9e4b8fc8a3891",
+      "bytes": 9876623,
+      "fetchedAt": "2026-10-30T13:40:58.541Z",
+      "fetchedFrom": "https://www.city.ritto.lg.jp/material/files/group/59/HP218gikaidayori.pdf"
+    },
+    {
+      "filename": "ritto_r7shinseikai_syushihoukoku.pdf",
+      "sha256": "31181b24a7c59422ea816b0bc1ac01e430449e887f5e12b2d19b0b094945557b",
+      "bytes": 54414,
+      "fetchedAt": "2026-10-30T13:40:58.541Z",
+      "fetchedFrom": "https://www.city.ritto.lg.jp/material/files/group/59/r7shinseikai_syushihoukoku.pdf"
+    },
+    {
+      "filename": "ritto_seimu_18254.html",
+      "sha256": "13cbac8364c52951f7b58350fe12e53bfd65a59e314b600750bf701542a8bcbf",
+      "bytes": 47931,
+      "fetchedAt": "2026-10-30T13:40:58.541Z",
+      "fetchedFrom": "https://www.city.ritto.lg.jp/shigikai/seimukatudouhi/18254.html"
+    },
+    {
+      "filename": "ritto_giketsu_17654.html",
+      "sha256": "e0cced846711f306ebb8255f06f8754023d51387842d286bc09b807d14e92a71",
+      "bytes": 67395,
+      "fetchedAt": "2026-10-30T13:40:58.542Z",
+      "fetchedFrom": "https://www.city.ritto.lg.jp/shigikai/giangiketsu/giketukeka/17654.html"
+    }
+  ]
+}

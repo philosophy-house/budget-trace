@@ -1,0 +1,47 @@
+{
+  "sourceId": "konan-shiga-shigikai-r8",
+  "files": [
+    {
+      "filename": "4221.html",
+      "sha256": "22774363e80cac85c900a92a286a9441595822a4a922f42dc77140c30940b3c4",
+      "bytes": 46491,
+      "fetchedAt": "2026-10-30T13:40:58.543Z",
+      "fetchedFrom": "https://web.archive.org/web/20251212011605id_/https://www.city.shiga-konan.lg.jp/shisei/shigikai/4/4221.html"
+    },
+    {
+      "filename": "4221_20260615.html",
+      "sha256": "9e6c884ec36383136d3266f98a4b5fdbbf3971955cbef29771a2827c6ce09a86",
+      "bytes": 46786,
+      "fetchedAt": "2026-10-30T13:40:58.544Z",
+      "fetchedFrom": "https://web.archive.org/web/20260615022735id_/https://www.city.shiga-konan.lg.jp/shisei/shigikai/4/4221.html"
+    },
+    {
+      "filename": "4225.html",
+      "sha256": "0295e3d687a8a7d8e0141180cbd4f6708bdc4b9620b3c3e0a0ebab1e948163db",
+      "bytes": 48422,
+      "fetchedAt": "2026-10-30T13:40:58.544Z",
+      "fetchedFrom": "https://www.city.shiga-konan.lg.jp/shisei/shigikai/6/4225.html"
+    },
+    {
+      "filename": "39278.html",
+      "sha256": "c0c1d46c18c4d0228a86fccf48c4087d3b9915a178933de2dbd2fa2043dfcf0c",
+      "bytes": 56075,
+      "fetchedAt": "2026-10-30T13:40:58.544Z",
+      "fetchedFrom": "https://www.city.shiga-konan.lg.jp/shisei/shigikai/3/r8teireirinzi_1/3teirei/39278.html"
+    },
+    {
+      "filename": "sannpinowakaretaannkennitiran20260319.pdf",
+      "sha256": "ea4c098bc53f74e9d77984cbb820cff902e672d51f25d9a0bb6b272c15b12266",
+      "bytes": 143327,
+      "fetchedAt": "2026-10-30T13:40:58.544Z",
+      "fetchedFrom": "https://www.city.shiga-konan.lg.jp/material/files/group/33/sannpinowakaretaannkennitiran20260319.pdf"
+    },
+    {
+      "filename": "25680.html",
+      "sha256": "e5922ddbdab8f44492b625d3f4767a56413992b37ef704fbf63484f610744590",
+      "bytes": 46083,
+      "fetchedAt": "2026-10-30T13:40:58.545Z",
+      "fetchedFrom": "https://web.archive.org/web/20260308162349id_/https://www.city.shiga-konan.lg.jp/shisei/shigikai/4/25680.html"
+    }
+  ]
+}

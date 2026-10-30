@@ -1,0 +1,33 @@
+{
+  "sourceId": "suzuka-shigikai-r8",
+  "files": [
+    {
+      "filename": "1016613_giketsu.pdf",
+      "sha256": "c1716641d4b2de2cd5a0fe9df7e76f268a0ed05cbec2a9b499df36ebd563c4c0",
+      "bytes": 442212,
+      "fetchedAt": "2026-10-30T13:40:58.589Z",
+      "fetchedFrom": "https://www.city.suzuka.lg.jp/_res/projects/default_project/_page_/001/016/613/1.pdf"
+    },
+    {
+      "filename": "1007679.html",
+      "sha256": "318a2b4ee7411b02f19ef1f6118f668f060c97ab33cf1433099c377cd2e16466",
+      "bytes": 35516,
+      "fetchedAt": "2026-10-30T13:40:58.589Z",
+      "fetchedFrom": "https://web.archive.org/web/20260212153128id_/https://www.city.suzuka.lg.jp/gikai/1007679.html"
+    },
+    {
+      "filename": "1016613.html",
+      "sha256": "1db0d1869a7d9acdcbc796cbaa10d1ea68a5f7e6854cb8fcca2a90682102b60d",
+      "bytes": 31913,
+      "fetchedAt": "2026-10-30T13:40:58.589Z",
+      "fetchedFrom": "https://www.city.suzuka.lg.jp/gikai/1011649/1016223/1016326/1016613.html"
+    },
+    {
+      "filename": "1017344.html",
+      "sha256": "774aa1106ad3246a572f655ac465cee3fa2caaa811ed5341aba3f358025325c0",
+      "bytes": 31338,
+      "fetchedAt": "2026-10-30T13:40:58.589Z",
+      "fetchedFrom": "https://www.city.suzuka.lg.jp/gikai/1008963/1017344.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "kyotanabe-shigikai-r8",
+  "files": [
+    {
+      "filename": "193.pdf",
+      "sha256": "14afe235858c9e9ac20352ff4d925fb6ed22919c898cb92be4642f3f36c792c5",
+      "bytes": 5907316,
+      "fetchedAt": "2026-10-30T13:40:58.568Z",
+      "fetchedFrom": "https://www.city.kyotanabe.lg.jp/cmsfiles/contents/0000023/23747/193.pdf"
+    },
+    {
+      "filename": "0000023411.html",
+      "sha256": "49e51a5d5dc8db603a597116ab78c5eed51d8c610986a7c3caa3188f660a2e5f",
+      "bytes": 39437,
+      "fetchedAt": "2026-10-30T13:40:58.568Z",
+      "fetchedFrom": "https://www.city.kyotanabe.lg.jp/0000023411.html"
+    },
+    {
+      "filename": "0000000391.html",
+      "sha256": "06fda6d2d3941bbd934d269511b3eb1ce6335a35c4f3819afff8aba456ccab56",
+      "bytes": 28400,
+      "fetchedAt": "2026-10-30T13:40:58.568Z",
+      "fetchedFrom": "https://www.city.kyotanabe.lg.jp/0000000391.html"
+    }
+  ]
+}

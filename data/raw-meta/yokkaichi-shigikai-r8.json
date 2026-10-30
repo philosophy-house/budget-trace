@@ -1,0 +1,26 @@
+{
+  "sourceId": "yokkaichi-shigikai-r8",
+  "files": [
+    {
+      "filename": "1001000002802_index.html",
+      "sha256": "89049c95b2cbfdeff7063cbb3dd5f4951e91a0c7930a42346949b135e6701cbf",
+      "bytes": 24491,
+      "fetchedAt": "2026-10-30T13:40:58.580Z",
+      "fetchedFrom": "https://web.archive.org/web/20251206215222id_/https://www.city.yokkaichi.lg.jp/www/contents/1001000002802/index.html"
+    },
+    {
+      "filename": "1774316366448_index.html",
+      "sha256": "fb9006ef0e9778ab54a676f5517297fee34aaca57cbfe46ba194558ac2f53b64",
+      "bytes": 50518,
+      "fetchedAt": "2026-10-30T13:40:58.580Z",
+      "fetchedFrom": "https://www.city.yokkaichi.lg.jp/www/contents/1774316366448/index.html"
+    },
+    {
+      "filename": "1001000002858_index.html",
+      "sha256": "c4a3fefb1faec51a7703eee892512688f6af4e09a174306c1b92dda0dcb29440",
+      "bytes": 15513,
+      "fetchedAt": "2026-10-30T13:40:58.581Z",
+      "fetchedFrom": "https://www.city.yokkaichi.lg.jp/www/contents/1001000002858/index.html"
+    }
+  ]
+}

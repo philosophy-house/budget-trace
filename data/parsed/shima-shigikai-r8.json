@@ -1,0 +1,234 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:28.832Z",
+  "fiscalYear": "R8",
+  "body": "志摩市議会",
+  "seats": 16,
+  "asOf": "2026-03-25",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "志摩市民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "濱口卓",
+        "松井研二",
+        "濵野由人",
+        "堀江しおん",
+        "濵村昭雄"
+      ],
+      "locator": {
+        "file": "shima_R7-11-3kaihabetuitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由クラブ志摩",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "前田俊基",
+        "山下弘",
+        "井上幹夫"
+      ],
+      "locator": {
+        "file": "shima_R7-11-3kaihabetuitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "志摩ミライエ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山川楠人",
+        "西井秀太"
+      ],
+      "locator": {
+        "file": "shima_R7-11-3kaihabetuitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新風",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小河光昭",
+        "下村卓也"
+      ],
+      "locator": {
+        "file": "shima_R7-11-3kaihabetuitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "桂政会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山本桂史"
+      ],
+      "locator": {
+        "file": "shima_R7-11-3kaihabetuitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "渡辺友里夏"
+      ],
+      "locator": {
+        "file": "shima_R7-11-3kaihabetuitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "志雄会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中野浩一"
+      ],
+      "locator": {
+        "file": "shima_R7-11-3kaihabetuitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森光子"
+      ],
+      "locator": {
+        "file": "shima_R7-11-3kaihabetuitiran.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第9号",
+    "billName": "令和8年度志摩市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "可決",
+    "locator": {
+      "file": "shima_8659.html"
+    }
+  },
+  "rosterTitle": "令和７年度（11月～3月 改選後）政務活動費会派別収支一覧の会派名・人数・所属議員氏名",
+  "resultTitle": "提出案件・結果（令和8年第1回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第1回志摩市議会定例会議員別賛否一覧",
+    "sourceFile": "shima_r8_01_sanpiitiran.pdf",
+    "columns": [
+      {
+        "label": "西井",
+        "faction": "志摩ミライエ",
+        "member": "西井秀太",
+        "stance": "賛成"
+      },
+      {
+        "label": "濵村",
+        "faction": "志摩市民クラブ",
+        "member": "濵村昭雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "中野",
+        "faction": "志雄会",
+        "member": "中野浩一",
+        "stance": "賛成"
+      },
+      {
+        "label": "山川",
+        "faction": "志摩ミライエ",
+        "member": "山川楠人",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀江",
+        "faction": "志摩市民クラブ",
+        "member": "堀江しおん",
+        "stance": "賛成"
+      },
+      {
+        "label": "濵野",
+        "faction": "志摩市民クラブ",
+        "member": "濵野由人",
+        "stance": "賛成"
+      },
+      {
+        "label": "松井",
+        "faction": "志摩市民クラブ",
+        "member": "松井研二",
+        "stance": "賛成"
+      },
+      {
+        "label": "森",
+        "faction": "日本共産党",
+        "member": "森光子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本",
+        "faction": "桂政会",
+        "member": "山本桂史",
+        "stance": "賛成"
+      },
+      {
+        "label": "下村",
+        "faction": "新風",
+        "member": "下村卓也",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上",
+        "faction": "自由クラブ志摩",
+        "member": "井上幹夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田",
+        "faction": "自由クラブ志摩",
+        "member": "前田俊基",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺",
+        "faction": "公明",
+        "member": "渡辺友里夏",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下",
+        "faction": "自由クラブ志摩",
+        "member": "山下弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "小河",
+        "faction": "新風",
+        "member": "小河光昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "濱口卓",
+        "faction": "志摩市民クラブ",
+        "member": "濱口卓",
+        "stance": "議長"
+      }
+    ]
+  }
+}
