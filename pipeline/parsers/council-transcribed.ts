@@ -1639,6 +1639,23 @@ export function parseCouncilTranscribed(
       if (!opt.vacanciesText) throw new Error(`${source.id}: vacancies には vacanciesText（原典の表記）が要ります`);
       const vv = opt.vacanciesUrl ? readDoc(fileFor(opt.vacanciesUrl)).views : tv;
       if (!has(vv, opt.vacanciesText)) missing.push(`欠員の表記「${opt.vacanciesText}」が原典に見つかりません`);
+      // 欠員の数も原典の文脈で読む（0.8.15・レビュー4巡目: 長岡で同じ会議録の「欠席議員(2人)」、三条で「1人当たり」を欠員の原文にして
+      // 1人を書き落とすと、定数 − 欠員 の引き算が合って通った）。数の前後8字に「欠員」があり直前に欠席・出席・当たりが無いか、
+      // 数の直後が「人（名）が辞職・死去・逝去・失職」（神戸「1名辞職されたため」）であること
+      const vacN = norm(opt.vacanciesText);
+      const vacOk = vv.some((v) => {
+        for (let i = v.text.indexOf(vacN); i >= 0; i = v.text.indexOf(vacN, i + 1)) {
+          for (const m of vacN.matchAll(/\d+/g)) {
+            const at = i + m.index!;
+            const pre = v.text.slice(Math.max(0, at - 8), at);
+            const post = v.text.slice(at + m[0].length, at + m[0].length + 8);
+            if (/欠員/.test(pre + post) && !/(欠席|出席|当たり|あたり)/.test(pre)) return true;
+            if (/^[人名]\)?(が)?(辞職|死去|逝去|失職)/.test(post)) return true;
+          }
+        }
+        return false;
+      });
+      if (!vacOk) missing.push(`欠員の表記「${opt.vacanciesText}」の数が欠員の数として読めません（数の前後に「欠員」があるか、直後が「人（名）が辞職・死去」など。欠席・出席・当たりの数は数えない）`);
       const places = opt.vacanciesPlaces ?? [];
       if (places.length && !norm(opt.vacanciesText).includes("それぞれ")) missing.push(`vacanciesPlaces は「それぞれ」を含む原文にだけ使う`);
       for (const pl of places) if (!norm(opt.vacanciesText).includes(norm(pl))) missing.push(`vacanciesText に地名「${pl}」がありません`);

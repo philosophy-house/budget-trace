@@ -23779,13 +23779,13 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "令和８年２月定例会 議案に対する議員別賛否一覧（3月25日議決）の会派別の列見出し",
         "localUrl": "/sources/fuji-shigikai-r8/r0802sanpi.pdf",
         "originUrl": "https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf",
-        "archiveUrl": "https://web.archive.org/web/20261029125248/https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf"
+        "archiveUrl": "https://web.archive.org/web/20261030131801/https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf"
       },
       "result": {
         "title": "令和８年２月定例会 議案に対する議員別賛否一覧",
         "localUrl": "/sources/fuji-shigikai-r8/r0802sanpi.pdf",
         "originUrl": "https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf",
-        "archiveUrl": "https://web.archive.org/web/20261029125248/https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf"
+        "archiveUrl": "https://web.archive.org/web/20261030131801/https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf"
       },
       "minutesUrl": null,
       "newsletterUrl": null,
@@ -24040,7 +24040,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
           "title": "令和８年２月定例会 議案に対する議員別賛否一覧",
           "localUrl": "/sources/fuji-shigikai-r8/r0802sanpi.pdf",
           "originUrl": "https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf",
-          "archiveUrl": "https://web.archive.org/web/20261029125248/https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf"
+          "archiveUrl": "https://web.archive.org/web/20261030131801/https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf"
         }
       }
     }

@@ -6311,9 +6311,17 @@
       "sourceId": "fuji-shigikai-r8",
       "url": "http://fuji.gijiroku.com/g08_Video_Search_s.asp?sflg=2&kaigi=49",
       "kind": "file",
-      "waybackUrl": "https://web.archive.org/web/20261029125305/https://fuji.gijiroku.com/g08_Video_Search_s.asp?sflg=2&kaigi=49",
-      "waybackTimestamp": "20261029125305",
-      "checkedAt": "2026-10-29T12:53:26.132Z"
+      "waybackUrl": "https://web.archive.org/web/20261030131820/https://fuji.gijiroku.com/g08_Video_Search_s.asp?sflg=2&kaigi=49",
+      "waybackTimestamp": "20261030131820",
+      "checkedAt": "2026-10-30T13:18:42.433Z"
+    },
+    {
+      "sourceId": "fuji-shigikai-r8",
+      "url": "https://www.city.fuji.shizuoka.jp/5105000000/p007166.html",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260907015717/https://www.city.fuji.shizuoka.jp/5105000000/p007166.html",
+      "waybackTimestamp": "20260907015717",
+      "checkedAt": "2026-10-30T13:17:59.525Z"
     },
     {
       "sourceId": "fuji-shigikai-r8",
@@ -6321,23 +6329,23 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20261029125355/https://www.city.fuji.shizuoka.jp/5105000000/p007212.html",
       "waybackTimestamp": "20261029125355",
-      "checkedAt": "2026-10-29T12:54:18.113Z"
+      "checkedAt": "2026-10-30T13:19:17.975Z"
     },
     {
       "sourceId": "fuji-shigikai-r8",
       "url": "https://www.city.fuji.shizuoka.jp/5205000000/p007010.html",
       "kind": "file",
-      "waybackUrl": "https://web.archive.org/web/20261029125329/https://www.city.fuji.shizuoka.jp/5205000000/p007010.html",
-      "waybackTimestamp": "20261029125329",
-      "checkedAt": "2026-10-29T12:53:52.214Z"
+      "waybackUrl": "https://web.archive.org/web/20261030131845/https://www.city.fuji.shizuoka.jp/5205000000/p007010.html",
+      "waybackTimestamp": "20261030131845",
+      "checkedAt": "2026-10-30T13:19:15.630Z"
     },
     {
       "sourceId": "fuji-shigikai-r8",
       "url": "https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf",
       "kind": "file",
-      "waybackUrl": "https://web.archive.org/web/20261029125248/https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf",
-      "waybackTimestamp": "20261029125248",
-      "checkedAt": "2026-10-29T12:53:00.425Z"
+      "waybackUrl": "https://web.archive.org/web/20261030131801/https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf",
+      "waybackTimestamp": "20261030131801",
+      "checkedAt": "2026-10-30T13:18:14.750Z"
     },
     {
       "sourceId": "fujieda-shigikai-r8",
