@@ -1,0 +1,36 @@
+{
+  "sourceId": "kagoshima-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "124271_20260428100532-1.pdf",
+      "sha256": "2374eeb2e15292fac7bd4d0d641cb051684a83f6d0550c7d78a0547812713e29",
+      "bytes": 231171,
+      "fetchedAt": "2026-10-30T19:22:16.433Z",
+      "fetchedFrom": "https://www.pref.kagoshima.jp/aa02/gikai/koremade/r0801/documents/124271_20260428100532-1.pdf"
+    },
+    {
+      "filename": "gian.html",
+      "sha256": "e6b483e4633b054b4f19cbcacd61e9156b583b7ad97f39b97dc96e5b11b5e73a",
+      "bytes": 41181,
+      "fetchedAt": "2026-10-30T19:22:16.433Z",
+      "fetchedFrom": "https://www.pref.kagoshima.jp/aa02/gikai/koremade/r0801/gian.html"
+    },
+    {
+      "filename": "128510_20260527140713-1.pdf",
+      "sha256": "1e882126fc3f241b313d9a5e5e157d2a1415d92d2d407ae0f0a419ab4e205ed6",
+      "bytes": 3582343,
+      "fetchedAt": "2026-10-30T19:22:16.435Z",
+      "fetchedFrom": "https://www.pref.kagoshima.jp/ha01/gikai/koho/kouhoushi/documents/128510_20260527140713-1.pdf"
+    },
+    {
+      "filename": "profile_index.html",
+      "sha256": "93df50f59bb9abda8eb6555ac4f13d4ae17fd2f6526c06cd3089a3812f9f0999",
+      "bytes": 21025,
+      "fetchedAt": "2026-10-30T19:22:16.436Z",
+      "fetchedFrom": "https://web.archive.org/web/20260327072619id_/https://www.pref.kagoshima.jp/aa02/gikai/giin/profile/index.html",
+      "transform": [
+        "gunzip"
+      ]
+    }
+  ]
+}

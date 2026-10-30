@@ -1,0 +1,33 @@
+{
+  "sourceId": "hashimoto-shigikai-r8",
+  "files": [
+    {
+      "filename": "hashimoto_kaihameibo_20250325.html",
+      "sha256": "5c1da7663106b7d3bf1d67cd75bdbf3cedb27d9d1ef94c10c8fd4a0a7b24a3c7",
+      "bytes": 40958,
+      "fetchedAt": "2026-10-30T19:22:16.410Z",
+      "fetchedFrom": "https://web.archive.org/web/20250325163313id_/https://www.city.hashimoto.lg.jp/shigikai/member/kaihameibo.html"
+    },
+    {
+      "filename": "hashimoto_gikainosikumi.html",
+      "sha256": "7ef24e01222d8a9b3d5126a7f413daa3eb533fe2cdeaaa392bf0d360512766cd",
+      "bytes": 41414,
+      "fetchedAt": "2026-10-30T19:22:16.410Z",
+      "fetchedFrom": "https://www.city.hashimoto.lg.jp/shigikai/gaiyou/gikainosikumi.html"
+    },
+    {
+      "filename": "hashimoto_R8-3-kaigikekka.pdf",
+      "sha256": "2d509871f5c741a8808f7c0e5e8e6623c1b58d09c7b16e534aeac411829e1649",
+      "bytes": 88265,
+      "fetchedAt": "2026-10-30T19:22:16.410Z",
+      "fetchedFrom": "https://www.city.hashimoto.lg.jp/material/files/group/27/R8-3-kaigikekka.pdf"
+    },
+    {
+      "filename": "hashimoto_21973.html",
+      "sha256": "f77be96d91e97a38628370e82653b16fb6529fef023131400a36ff043da87d65",
+      "bytes": 35876,
+      "fetchedAt": "2026-10-30T19:22:16.410Z",
+      "fetchedFrom": "https://www.city.hashimoto.lg.jp/shigikai/kaigiannai/result/reiwa7_1/21973.html"
+    }
+  ]
+}

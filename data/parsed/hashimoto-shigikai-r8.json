@@ -1,0 +1,112 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hashimoto-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:00.317Z",
+  "fiscalYear": "R8",
+  "body": "橋本市議会",
+  "seats": 18,
+  "asOf": "2023-05-08",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "阪本久代",
+        "高本勝次"
+      ],
+      "locator": {
+        "file": "hashimoto_kaihameibo_20250325.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "第一義",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "岡弘悟",
+        "田中博晃",
+        "堀内和久",
+        "岡本喜好"
+      ],
+      "locator": {
+        "file": "hashimoto_kaihameibo_20250325.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "森下伸吾",
+        "板橋真弓"
+      ],
+      "locator": {
+        "file": "hashimoto_kaihameibo_20250325.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "南出昌彦",
+        "辻本勉",
+        "田中和仁"
+      ],
+      "locator": {
+        "file": "hashimoto_kaihameibo_20250325.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "石橋英和",
+        "中本正人",
+        "土井裕美子",
+        "小林弘",
+        "岡本安弘",
+        "垣内憲一"
+      ],
+      "locator": {
+        "file": "hashimoto_kaihameibo_20250325.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に所属しない議員（梅本知江）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "梅本知江"
+      ],
+      "locator": {
+        "file": "hashimoto_kaihameibo_20250325.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度橋本市一般会計予算について",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-12",
+    "decidedDateLabel": "令和8年3月12日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hashimoto_R8-3-kaigikekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "橋本市議会「会派の構成」（令和５年５月８日現在・更新日 2023年5月10日・議決前 2025-03-25 の魚拓）",
+  "resultTitle": "令和8年3月定例会 会議結果（提出月日・議案番号・件名・委員会付託月日・処理・議決月日・議決の結果）"
+}

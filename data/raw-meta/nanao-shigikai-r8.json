@@ -1,0 +1,33 @@
+{
+  "sourceId": "nanao-shigikai-r8",
+  "files": [
+    {
+      "filename": "mebo.html",
+      "sha256": "436f3dc617c4894f81c6a6d5f6a7ab92522f7e27b7cb3df919604ce8ad714b0c",
+      "bytes": 23989,
+      "fetchedAt": "2026-10-30T19:22:16.399Z",
+      "fetchedFrom": "https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/mebo.html"
+    },
+    {
+      "filename": "gikaidayori_85_part11.pdf",
+      "sha256": "1369a265998b167dd3d9a2f425cdd883b416a15a968a174c0c177f7894de02f0",
+      "bytes": 104571,
+      "fetchedAt": "2026-10-30T19:22:16.400Z",
+      "fetchedFrom": "https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/gikaidayori/r8/documents/gikaidayori_85_part11.pdf"
+    },
+    {
+      "filename": "gikaidayori_85_part2.pdf",
+      "sha256": "060fc91871c69c4568b218c315d2b98e249072c601bbe04e92931d69b7abffe2",
+      "bytes": 446675,
+      "fetchedAt": "2026-10-30T19:22:16.401Z",
+      "fetchedFrom": "https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/gikaidayori/r8/documents/gikaidayori_85_part2.pdf"
+    },
+    {
+      "filename": "r8_3nittei.html",
+      "sha256": "d1787944bdc5e90d75c2055b3f5e3709d9db1b7a1eaf20b95e2358e1edd46f0d",
+      "bytes": 24577,
+      "fetchedAt": "2026-10-30T19:22:16.401Z",
+      "fetchedFrom": "https://web.archive.org/web/20260115105955id_/https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/nitte/r8_3nittei.html"
+    }
+  ]
+}

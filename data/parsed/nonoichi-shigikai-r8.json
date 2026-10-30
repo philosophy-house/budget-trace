@@ -1,0 +1,131 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nonoichi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:36:54.413Z",
+  "fiscalYear": "R8",
+  "body": "野々市市議会",
+  "seats": 15,
+  "asOf": "2026-03-19",
+  "teisu": 15,
+  "factions": [
+    {
+      "name": "野々市フォーラム",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "三納昭博",
+        "田中陽子",
+        "畠中勝己",
+        "小堀孝史",
+        "北村大助",
+        "中村義彦"
+      ],
+      "locator": {
+        "file": "43413.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ののいち市民の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "中村和流",
+        "西村雅博",
+        "梅野智恵子"
+      ],
+      "locator": {
+        "file": "43413.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "岩見博"
+      ],
+      "locator": {
+        "file": "43413.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "令和清栄",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "西本政之"
+      ],
+      "locator": {
+        "file": "43413.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無名",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "朝倉雅三"
+      ],
+      "locator": {
+        "file": "43413.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "木谷直子"
+      ],
+      "locator": {
+        "file": "43413.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "議長（安原透）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "安原透"
+      ],
+      "locator": {
+        "file": "43413.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "副議長（向田誠市）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "向田誠市"
+      ],
+      "locator": {
+        "file": "43413.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第6号",
+    "billName": "令和８年度野々市市一般会計予算について",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "43413.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和8年3月定例会 議決結果一覧（議決時点の所属会派の表頭）",
+  "resultTitle": "令和8年3月定例会 議決結果一覧"
+}

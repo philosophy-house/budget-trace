@@ -1,0 +1,110 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kainan-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:00.118Z",
+  "fiscalYear": "R8",
+  "body": "海南市議会",
+  "seats": 17,
+  "asOf": "2026-01-26",
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中家悦生",
+        "森下貴史"
+      ],
+      "locator": {
+        "file": "kainan_4706_20260209.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "日本共産党海南市議会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岡義明",
+        "溝口恵敬"
+      ],
+      "locator": {
+        "file": "kainan_4706_20260209.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "無所属の会・日本維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "古田充司",
+        "熊野愛子"
+      ],
+      "locator": {
+        "file": "kainan_4706_20260209.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市政クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "栗本量生",
+        "宮本憲治"
+      ],
+      "locator": {
+        "file": "kainan_4706_20260209.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "川崎一樹",
+        "榊原徳昭",
+        "田村秀明",
+        "米原耕司",
+        "池原弘貴",
+        "杉本博美",
+        "橋爪大輔"
+      ],
+      "locator": {
+        "file": "kainan_4706_20260209.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "自由クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川口政夫",
+        "東方貴子"
+      ],
+      "locator": {
+        "file": "kainan_4706_20260209.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第21号",
+    "billName": "令和８年度海南市一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "kainan_kextuka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "海南市議会「議員紹介」の議員一覧表と議員ごとのプロフィールの所属会派（更新日 2026年1月26日・議決前 2026-02-09 の魚拓）",
+  "resultTitle": "令和8年2月定例会議決結果（議案名等・内容・議決結果）"
+}

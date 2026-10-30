@@ -1,0 +1,230 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kinokawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:01.018Z",
+  "fiscalYear": "R8",
+  "body": "紀の川市議会",
+  "seats": 20,
+  "asOf": "2026-03-05",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "わかばクラブ",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "木村芳友",
+        "上岡一夫",
+        "西岡宣博",
+        "上田礼子",
+        "松本敦",
+        "大田裕之",
+        "舩木孝明",
+        "榎本喜之",
+        "杉原勲"
+      ],
+      "locator": {
+        "file": "index.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "清流会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "村垣正造",
+        "上野宗彦",
+        "森田幾久",
+        "堂脇光弘"
+      ],
+      "locator": {
+        "file": "index.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大谷さつき",
+        "高橋千代子",
+        "芝田修"
+      ],
+      "locator": {
+        "file": "index.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村まき",
+        "石井仁"
+      ],
+      "locator": {
+        "file": "index.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "実り会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "おん地ゆう子",
+        "阪中晃"
+      ],
+      "locator": {
+        "file": "index.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３２号",
+    "billName": "令和８年度紀の川市一般会計予算について",
+    "sessionLabel": "令和８年第１回紀の川市議会定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8.3giketu.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "議員紹介（議員名簿、会派の構成）（最終更新日 2026年3月5日）の「会派の構成」紀の川市議会会派構成",
+  "resultTitle": "令和８年第１回紀の川市議会定例会 議決結果一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "紀の川市議会だより No.77（令和8年5月）p.11「議案に対する議員の賛否一覧」",
+    "sourceFile": "kinokawa77.pdf",
+    "columns": [
+      {
+        "label": "上岡一夫",
+        "faction": "わかばクラブ",
+        "member": "上岡一夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "西岡宣博",
+        "faction": "わかばクラブ",
+        "member": "西岡宣博",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋千代子",
+        "faction": "公明党",
+        "member": "高橋千代子",
+        "stance": "賛成"
+      },
+      {
+        "label": "おん地ゆう子",
+        "faction": "実り会",
+        "member": "おん地ゆう子",
+        "stance": "賛成"
+      },
+      {
+        "label": "上田礼子",
+        "faction": "わかばクラブ",
+        "member": "上田礼子",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本敦",
+        "faction": "わかばクラブ",
+        "member": "松本敦",
+        "stance": "賛成"
+      },
+      {
+        "label": "芝田修",
+        "faction": "公明党",
+        "member": "芝田修",
+        "stance": "賛成"
+      },
+      {
+        "label": "大田裕之",
+        "faction": "わかばクラブ",
+        "member": "大田裕之",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村芳友",
+        "faction": "わかばクラブ",
+        "member": "木村芳友",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井仁",
+        "faction": "日本共産党",
+        "member": "石井仁",
+        "stance": "反対"
+      },
+      {
+        "label": "舩木孝明",
+        "faction": "わかばクラブ",
+        "member": "舩木孝明",
+        "stance": "賛成"
+      },
+      {
+        "label": "大谷さつき",
+        "faction": "公明党",
+        "member": "大谷さつき",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村まき",
+        "faction": "日本共産党",
+        "member": "中村まき",
+        "stance": "反対"
+      },
+      {
+        "label": "森田幾久",
+        "faction": "清流会",
+        "member": "森田幾久",
+        "stance": "反対"
+      },
+      {
+        "label": "阪中晃",
+        "faction": "実り会",
+        "member": "阪中晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "榎本喜之",
+        "faction": "わかばクラブ",
+        "member": "榎本喜之",
+        "stance": "賛成"
+      },
+      {
+        "label": "村垣正造",
+        "faction": "清流会",
+        "member": "村垣正造",
+        "stance": "反対"
+      },
+      {
+        "label": "堂脇光弘",
+        "faction": "清流会",
+        "member": "堂脇光弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "上野宗彦",
+        "faction": "清流会",
+        "member": "上野宗彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉原勲",
+        "faction": "わかばクラブ",
+        "member": "杉原勲",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kagoshima-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:04.789Z",
+  "fiscalYear": "R8",
+  "body": "鹿児島県議会",
+  "seats": 50,
+  "asOf": "2026-03-25",
+  "teisu": 51,
+  "factions": [
+    {
+      "name": "自由民主党鹿児島県議会議員団",
+      "seats": 33,
+      "isIndependent": false,
+      "members": [
+        "久井まさたか",
+        "内田一樹",
+        "本田しずか",
+        "元山ひさや",
+        "松山さおり",
+        "角野毅",
+        "岩重あや",
+        "池畑知行",
+        "柴立鉄平",
+        "しらいし誠",
+        "寿はじめ",
+        "田畑浩一郎",
+        "中村素子",
+        "宝来良治",
+        "伊藤浩樹",
+        "西村協",
+        "おさだ康秀",
+        "大久保博文",
+        "瀬戸口三郎",
+        "園田豊",
+        "藤崎剛",
+        "禧久伸一郎",
+        "寺田洋一",
+        "小園しげよし",
+        "永井章義",
+        "吉留厚宏",
+        "鶴薗真佐彦",
+        "鶴田志郎",
+        "外薗勝蔵",
+        "松里保廣",
+        "山田国治",
+        "田之上耕三",
+        "日高滋"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "県民連合",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "宇都恵子",
+        "秋丸健一郎",
+        "湯浅慎太郎",
+        "上山貞茂",
+        "ふくし山ノブスケ",
+        "前野義春",
+        "柳誠子"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党鹿児島県議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "村野俊作",
+        "森昭男",
+        "松田浩孝"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党鹿児島県議団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "たいら行雄"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無所属（いぬぶし浩幸）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "いぬぶし浩幸"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無所属（平原志保）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "平原志保"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無所属（橋口住眞）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "橋口住眞"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無所属（小川みさ子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小川みさ子"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無所属（いわしげ仁子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "いわしげ仁子"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無所属（東清剛）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "東清剛"
+      ],
+      "locator": {
+        "file": "124271_20260428100532-1.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第22号",
+    "billName": "令和8年度鹿児島県一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gian.html"
+    }
+  },
+  "rosterTitle": "議案に対する表決態度（令和８年第１回定例会・令和８年３月25日採決）p.3【会派等所属議員】",
+  "resultTitle": "令和8年第1回定例会議案（議案番号・件名・審議結果・議決年月日の表）"
+}

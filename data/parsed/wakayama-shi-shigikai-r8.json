@@ -1,0 +1,374 @@
+{
+  "docType": "council-composition",
+  "sourceId": "wakayama-shi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:36:54.864Z",
+  "fiscalYear": "R8",
+  "body": "和歌山市議会",
+  "seats": 36,
+  "asOf": "2026-03-13",
+  "factions": [
+    {
+      "name": "創和クラブ",
+      "seats": 13,
+      "isIndependent": false,
+      "members": [
+        "辻本太一",
+        "林元光広",
+        "志賀弘明",
+        "浜田真輔",
+        "山本宏一",
+        "中村元彦",
+        "中谷謙二",
+        "丹羽直子",
+        "芝本和己",
+        "戸田正人",
+        "古川祐典",
+        "北野均",
+        "遠藤富士雄"
+      ],
+      "locator": {
+        "file": "wakayama_R8.2saiketuzyouk.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "堀登美子",
+        "木野十三",
+        "堀良子",
+        "西風章世",
+        "園内浩樹",
+        "薮浩昭",
+        "奥山昭博",
+        "松本哲郎"
+      ],
+      "locator": {
+        "file": "wakayama_R8.2saiketuzyouk.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民主クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山路恭世",
+        "清末博善",
+        "山中敏生",
+        "川端康史",
+        "山本忠相"
+      ],
+      "locator": {
+        "file": "wakayama_R8.2saiketuzyouk.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "和歌山興志クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "赤松良寛",
+        "𠮷本昌純",
+        "尾﨑方哉"
+      ],
+      "locator": {
+        "file": "wakayama_R8.2saiketuzyouk.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "共産党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "坂口多美子",
+        "南畑幸代",
+        "森下佐知子"
+      ],
+      "locator": {
+        "file": "wakayama_R8.2saiketuzyouk.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中庄谷孝次郎",
+        "山野麻衣子"
+      ],
+      "locator": {
+        "file": "wakayama_R8.2saiketuzyouk.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（井上直樹）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "井上直樹"
+      ],
+      "locator": {
+        "file": "wakayama_R8.2saiketuzyouk.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（国民民主クラブ）（永野裕久）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "永野裕久"
+      ],
+      "locator": {
+        "file": "wakayama_R8.2saiketuzyouk.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第31号",
+    "billName": "令和８年度和歌山市一般会計予算",
+    "sessionLabel": "令和８年２月定例市議会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "可決",
+    "locator": {
+      "file": "wakayama_260317.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "令和8年2月議会「議員別採決状況」（２月定例会採決状況）p.1 の表頭（会派名の下に議席番号と縦書きの氏名・議決当日 3月13日）",
+  "resultTitle": "令和８年２月定例市議会 審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年2月議会「議員別採決状況」議３１（令和８年度和歌山市一般会計予算）の行",
+    "sourceFile": "wakayama_R8.2saiketuzyouk.pdf",
+    "columns": [
+      {
+        "label": "辻本太一",
+        "faction": "創和クラブ",
+        "member": "辻本太一",
+        "stance": "賛成"
+      },
+      {
+        "label": "林元光広",
+        "faction": "創和クラブ",
+        "member": "林元光広",
+        "stance": "賛成"
+      },
+      {
+        "label": "志賀弘明",
+        "faction": "創和クラブ",
+        "member": "志賀弘明",
+        "stance": "賛成"
+      },
+      {
+        "label": "浜田真輔",
+        "faction": "創和クラブ",
+        "member": "浜田真輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本宏一",
+        "faction": "創和クラブ",
+        "member": "山本宏一",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村元彦",
+        "faction": "創和クラブ",
+        "member": "中村元彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "中谷謙二",
+        "faction": "創和クラブ",
+        "member": "中谷謙二",
+        "stance": "賛成"
+      },
+      {
+        "label": "丹羽直子",
+        "faction": "創和クラブ",
+        "member": "丹羽直子",
+        "stance": "賛成"
+      },
+      {
+        "label": "芝本和己",
+        "faction": "創和クラブ",
+        "member": "芝本和己",
+        "stance": "議長"
+      },
+      {
+        "label": "戸田正人",
+        "faction": "創和クラブ",
+        "member": "戸田正人",
+        "stance": "賛成"
+      },
+      {
+        "label": "古川祐典",
+        "faction": "創和クラブ",
+        "member": "古川祐典",
+        "stance": "賛成"
+      },
+      {
+        "label": "北野均",
+        "faction": "創和クラブ",
+        "member": "北野均",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤富士雄",
+        "faction": "創和クラブ",
+        "member": "遠藤富士雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀登美子",
+        "faction": "公明党議員団",
+        "member": "堀登美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "木野十三",
+        "faction": "公明党議員団",
+        "member": "木野十三",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀良子",
+        "faction": "公明党議員団",
+        "member": "堀良子",
+        "stance": "賛成"
+      },
+      {
+        "label": "西風章世",
+        "faction": "公明党議員団",
+        "member": "西風章世",
+        "stance": "賛成"
+      },
+      {
+        "label": "園内浩樹",
+        "faction": "公明党議員団",
+        "member": "園内浩樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "薮浩昭",
+        "faction": "公明党議員団",
+        "member": "薮浩昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥山昭博",
+        "faction": "公明党議員団",
+        "member": "奥山昭博",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本哲郎",
+        "faction": "公明党議員団",
+        "member": "松本哲郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "山路恭世",
+        "faction": "民主クラブ",
+        "member": "山路恭世",
+        "stance": "賛成"
+      },
+      {
+        "label": "清末博善",
+        "faction": "民主クラブ",
+        "member": "清末博善",
+        "stance": "賛成"
+      },
+      {
+        "label": "山中敏生",
+        "faction": "民主クラブ",
+        "member": "山中敏生",
+        "stance": "賛成"
+      },
+      {
+        "label": "川端康史",
+        "faction": "民主クラブ",
+        "member": "川端康史",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本忠相",
+        "faction": "民主クラブ",
+        "member": "山本忠相",
+        "stance": "賛成"
+      },
+      {
+        "label": "赤松良寛",
+        "faction": "和歌山興志クラブ",
+        "member": "赤松良寛",
+        "stance": "賛成"
+      },
+      {
+        "label": "𠮷本昌純",
+        "faction": "和歌山興志クラブ",
+        "member": "𠮷本昌純",
+        "stance": "賛成"
+      },
+      {
+        "label": "尾﨑方哉",
+        "faction": "和歌山興志クラブ",
+        "member": "尾﨑方哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂口多美子",
+        "faction": "共産党議員団",
+        "member": "坂口多美子",
+        "stance": "反対"
+      },
+      {
+        "label": "南畑幸代",
+        "faction": "共産党議員団",
+        "member": "南畑幸代",
+        "stance": "反対"
+      },
+      {
+        "label": "森下佐知子",
+        "faction": "共産党議員団",
+        "member": "森下佐知子",
+        "stance": "反対"
+      },
+      {
+        "label": "中庄谷孝次郎",
+        "faction": "日本維新の会",
+        "member": "中庄谷孝次郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "山野麻衣子",
+        "faction": "日本維新の会",
+        "member": "山野麻衣子",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上直樹",
+        "faction": "無所属（井上直樹）",
+        "member": "井上直樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "永野裕久",
+        "faction": "無所属（国民民主クラブ）（永野裕久）",
+        "member": "永野裕久",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

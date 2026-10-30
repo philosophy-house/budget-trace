@@ -1,0 +1,26 @@
+{
+  "sourceId": "nonoichi-shigikai-r8",
+  "files": [
+    {
+      "filename": "43413.pdf",
+      "sha256": "d74650a7b3c3abfe32067cf6368b8206d9b2d72f4996de17f1a15ef1aa091df8",
+      "bytes": 205391,
+      "fetchedAt": "2026-10-30T19:22:16.404Z",
+      "fetchedFrom": "https://www.city.nonoichi.lg.jp/uploaded/attachment/43413.pdf"
+    },
+    {
+      "filename": "1013.html",
+      "sha256": "738089b3577089c2a96eba3cdc94b69b2e4eacee22bb22d851f2bb17fde32308",
+      "bytes": 23752,
+      "fetchedAt": "2026-10-30T19:22:16.404Z",
+      "fetchedFrom": "https://www.city.nonoichi.lg.jp/site/sub-gikai/1013.html"
+    },
+    {
+      "filename": "65875.html",
+      "sha256": "f4ff733408024b6f1861080e4bc18d5e7c058cfdc2ed372dfc6a229d891a8cad",
+      "bytes": 30599,
+      "fetchedAt": "2026-10-30T19:22:16.404Z",
+      "fetchedFrom": "https://www.city.nonoichi.lg.jp/site/sub-gikai/65875.html"
+    }
+  ]
+}

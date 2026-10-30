@@ -1,0 +1,100 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tanabe-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:00.469Z",
+  "fiscalYear": "R8",
+  "body": "田辺市議会",
+  "seats": 18,
+  "asOf": "2026-02-27",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "くまの篤志会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "安達幸治",
+        "谷貞見",
+        "笠松美奈",
+        "高栖浩史",
+        "浅山誠一",
+        "松上京子"
+      ],
+      "locator": {
+        "file": "tanabe_2003.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "紀新会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "尾花功",
+        "安達克典",
+        "山本竜児",
+        "宮井章",
+        "橘智史"
+      ],
+      "locator": {
+        "file": "tanabe_2003.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "加藤喜則",
+        "林謙二",
+        "佐井昭子"
+      ],
+      "locator": {
+        "file": "tanabe_2003.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "清新会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "北田健治",
+        "柳瀬理孝"
+      ],
+      "locator": {
+        "file": "tanabe_2003.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "久保浩二",
+        "前田かよ"
+      ],
+      "locator": {
+        "file": "tanabe_2003.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "1定議案第37号",
+    "billName": "令和8年度田辺市一般会計予算",
+    "sessionLabel": "令和8年第1回（3月）定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "tanabe_6963.html"
+    }
+  },
+  "rosterTitle": "田辺市議会「会派の構成」（更新日 2026年2月27日）",
+  "resultTitle": "議決結果の一覧（令和8年第1回（3月）定例会）"
+}

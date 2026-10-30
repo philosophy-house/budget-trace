@@ -1,0 +1,19 @@
+{
+  "sourceId": "wakayama-shi-shigikai-r8",
+  "files": [
+    {
+      "filename": "wakayama_R8.2saiketuzyouk.pdf",
+      "sha256": "37123a824887ba03596153ad26e08aa1b6d4e0dc1d19e276df5c32337d53ba6b",
+      "bytes": 418294,
+      "fetchedAt": "2026-10-30T19:22:16.405Z",
+      "fetchedFrom": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/601/R8.2saiketuzyouk.pdf"
+    },
+    {
+      "filename": "wakayama_260317.pdf",
+      "sha256": "9afc264395a78867bb8d02729b25116a92c57370230ab5c04d04de17a8218886",
+      "bytes": 186783,
+      "fetchedAt": "2026-10-30T19:22:16.406Z",
+      "fetchedFrom": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/601/260317.pdf"
+    }
+  ]
+}

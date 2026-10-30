@@ -1,0 +1,101 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nanao-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:36:53.757Z",
+  "fiscalYear": "R8",
+  "body": "七尾市議会",
+  "seats": 18,
+  "asOf": "2025-11-07",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "七尾のみらいをつくる会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "丸山英邦",
+        "成田達弘",
+        "山花剛"
+      ],
+      "locator": {
+        "file": "mebo.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "木戸奈諸美",
+        "瀨戸三代",
+        "西川英伸",
+        "山添和良",
+        "佐藤喜典"
+      ],
+      "locator": {
+        "file": "mebo.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "和田内和美",
+        "徳田正則",
+        "永崎陽",
+        "中西庸介"
+      ],
+      "locator": {
+        "file": "mebo.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "灘会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "原田一則",
+        "山崎智之",
+        "杉木勉",
+        "今田勇雄"
+      ],
+      "locator": {
+        "file": "mebo.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "木下美也子",
+        "江曽ゆかり"
+      ],
+      "locator": {
+        "file": "mebo.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第91号",
+    "billName": "令和８年度七尾市一般会計予算",
+    "sessionLabel": "令和７年度第２回定例会３月会議",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "gikaidayori_85_part11.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "七尾市議会 議員名簿（更新日：2025年11月7日）の所属会派欄",
+  "resultTitle": "七尾市議会だより No.85 p.11「採決結果一覧表」（令和７年度第２回定例会３月会議）"
+}

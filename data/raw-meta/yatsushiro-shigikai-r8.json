@@ -1,0 +1,40 @@
+{
+  "sourceId": "yatsushiro-shigikai-r8",
+  "files": [
+    {
+      "filename": "3_27063_up_jjxs7t7b.pdf",
+      "sha256": "394c99ff1eaf3498152beac5e0834c5e079ffdaff278a936ff02a4e4d7258360",
+      "bytes": 97268,
+      "fetchedAt": "2026-10-30T19:22:16.427Z",
+      "fetchedFrom": "https://www.city.yatsushiro.lg.jp/gikai/kiji00327063/3_27063_up_jjxs7t7b.pdf"
+    },
+    {
+      "filename": "kiji00327063.html",
+      "sha256": "61fc1ccac542447d75b840427e5df8708fb36ee884774e18d0bcd334f014e6c0",
+      "bytes": 138300,
+      "fetchedAt": "2026-10-30T19:22:16.427Z",
+      "fetchedFrom": "https://www.city.yatsushiro.lg.jp/gikai/kiji00327063/index.html"
+    },
+    {
+      "filename": "3_25780_up_mbvkabp7.pdf",
+      "sha256": "4b437392ba07dfc27c8f728ed4696c8c2dfce8bffe2d60fcda464f4ab9ddce91",
+      "bytes": 159277,
+      "fetchedAt": "2026-10-30T19:22:16.428Z",
+      "fetchedFrom": "https://www.city.yatsushiro.lg.jp/gikai/kiji00325780/3_25780_up_mbvkabp7.pdf"
+    },
+    {
+      "filename": "kiji00325873.html",
+      "sha256": "0373ee987a8af8aaf8c9333cc9e589dc1db528f88c3f1ff02ff5d3158bd6197f",
+      "bytes": 108864,
+      "fetchedAt": "2026-10-30T19:22:16.428Z",
+      "fetchedFrom": "https://www.city.yatsushiro.lg.jp/gikai/kiji00325873/index.html"
+    },
+    {
+      "filename": "kiji003345.html",
+      "sha256": "e298051f6898d615caa20c0ef69d962e567418a3c7773846b13e4a80bf7acc86",
+      "bytes": 68135,
+      "fetchedAt": "2026-10-30T19:22:16.428Z",
+      "fetchedFrom": "https://www.city.yatsushiro.lg.jp/gikai/kiji003345/index.html"
+    }
+  ]
+}

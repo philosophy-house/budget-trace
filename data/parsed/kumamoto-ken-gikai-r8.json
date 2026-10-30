@@ -1,0 +1,461 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kumamoto-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:01.825Z",
+  "fiscalYear": "R8",
+  "body": "熊本県議会",
+  "seats": 47,
+  "asOf": "2026-03-18",
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 35,
+      "isIndependent": false,
+      "members": [
+        "前川收",
+        "岩下栄一",
+        "藤川隆夫",
+        "松田三郎",
+        "吉永和世",
+        "池田和貴",
+        "溝口幸治",
+        "坂田孝志",
+        "渕上陽一",
+        "山口裕",
+        "内野幸喜",
+        "髙野洋介",
+        "髙木健次",
+        "緒方勇二",
+        "橋口海平",
+        "楠本千秋",
+        "河津修司",
+        "西山宗孝",
+        "岩本浩治",
+        "松村秀逸",
+        "髙島和男",
+        "中村亮彦",
+        "吉田孝平",
+        "竹﨑和虎",
+        "池永幸生",
+        "西村尚武",
+        "城戸淳",
+        "荒川知章",
+        "坂梨剛昭",
+        "前田敬介",
+        "南部隼平",
+        "堤泰之",
+        "斎藤陽子",
+        "立山大二朗",
+        "杉嶌ミカ"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "立憲民主連合",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "西聖一",
+        "岩田智子",
+        "幸村香代子"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "城下広作",
+        "前田憲秀",
+        "本田雄三"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新社会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "岩中伸司"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "髙井千歳"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "維新",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "星野愛斗"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（増永慎一郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "増永慎一郎"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（亀田英雄）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "亀田英雄"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（住永栄一郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "住永栄一郎"
+      ],
+      "locator": {
+        "file": "304871.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第46号",
+    "billName": "令和8年度熊本県一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "257839.html"
+    }
+  },
+  "rosterTitle": "令和８年２月定例会 議案等の採決結果表（3月18日議決分）の表頭の会派と氏名",
+  "resultTitle": "令和8年2月定例会 知事提出議案(後議分)の議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年２月定例会 議案等の採決結果表（3月18日議決分）",
+    "sourceFile": "304871.pdf",
+    "columns": [
+      {
+        "label": "前川收",
+        "faction": "自由民主党",
+        "member": "前川收",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩下栄一",
+        "faction": "自由民主党",
+        "member": "岩下栄一",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤川隆夫",
+        "faction": "自由民主党",
+        "member": "藤川隆夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "松田三郎",
+        "faction": "自由民主党",
+        "member": "松田三郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉永和世",
+        "faction": "自由民主党",
+        "member": "吉永和世",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田和貴",
+        "faction": "自由民主党",
+        "member": "池田和貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "溝口幸治",
+        "faction": "自由民主党",
+        "member": "溝口幸治",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂田孝志",
+        "faction": "自由民主党",
+        "member": "坂田孝志",
+        "stance": "賛成"
+      },
+      {
+        "label": "渕上陽一",
+        "faction": "自由民主党",
+        "member": "渕上陽一",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口裕",
+        "faction": "自由民主党",
+        "member": "山口裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "内野幸喜",
+        "faction": "自由民主党",
+        "member": "内野幸喜",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙野洋介",
+        "faction": "自由民主党",
+        "member": "髙野洋介",
+        "stance": "議長"
+      },
+      {
+        "label": "髙木健次",
+        "faction": "自由民主党",
+        "member": "髙木健次",
+        "stance": "賛成"
+      },
+      {
+        "label": "緒方勇二",
+        "faction": "自由民主党",
+        "member": "緒方勇二",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋口海平",
+        "faction": "自由民主党",
+        "member": "橋口海平",
+        "stance": "賛成"
+      },
+      {
+        "label": "楠本千秋",
+        "faction": "自由民主党",
+        "member": "楠本千秋",
+        "stance": "賛成"
+      },
+      {
+        "label": "河津修司",
+        "faction": "自由民主党",
+        "member": "河津修司",
+        "stance": "賛成"
+      },
+      {
+        "label": "西山宗孝",
+        "faction": "自由民主党",
+        "member": "西山宗孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩本浩治",
+        "faction": "自由民主党",
+        "member": "岩本浩治",
+        "stance": "賛成"
+      },
+      {
+        "label": "松村秀逸",
+        "faction": "自由民主党",
+        "member": "松村秀逸",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙島和男",
+        "faction": "自由民主党",
+        "member": "髙島和男",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村亮彦",
+        "faction": "自由民主党",
+        "member": "中村亮彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田孝平",
+        "faction": "自由民主党",
+        "member": "吉田孝平",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹﨑和虎",
+        "faction": "自由民主党",
+        "member": "竹﨑和虎",
+        "stance": "賛成"
+      },
+      {
+        "label": "池永幸生",
+        "faction": "自由民主党",
+        "member": "池永幸生",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村尚武",
+        "faction": "自由民主党",
+        "member": "西村尚武",
+        "stance": "欠席"
+      },
+      {
+        "label": "城戸淳",
+        "faction": "自由民主党",
+        "member": "城戸淳",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒川知章",
+        "faction": "自由民主党",
+        "member": "荒川知章",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂梨剛昭",
+        "faction": "自由民主党",
+        "member": "坂梨剛昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田敬介",
+        "faction": "自由民主党",
+        "member": "前田敬介",
+        "stance": "賛成"
+      },
+      {
+        "label": "南部隼平",
+        "faction": "自由民主党",
+        "member": "南部隼平",
+        "stance": "賛成"
+      },
+      {
+        "label": "堤泰之",
+        "faction": "自由民主党",
+        "member": "堤泰之",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤陽子",
+        "faction": "自由民主党",
+        "member": "斎藤陽子",
+        "stance": "賛成"
+      },
+      {
+        "label": "立山大二朗",
+        "faction": "自由民主党",
+        "member": "立山大二朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉嶌ミカ",
+        "faction": "自由民主党",
+        "member": "杉嶌ミカ",
+        "stance": "賛成"
+      },
+      {
+        "label": "西聖一",
+        "faction": "立憲民主連合",
+        "member": "西聖一",
+        "stance": "反対"
+      },
+      {
+        "label": "岩田智子",
+        "faction": "立憲民主連合",
+        "member": "岩田智子",
+        "stance": "反対"
+      },
+      {
+        "label": "幸村香代子",
+        "faction": "立憲民主連合",
+        "member": "幸村香代子",
+        "stance": "反対"
+      },
+      {
+        "label": "城下広作",
+        "faction": "公明党",
+        "member": "城下広作",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田憲秀",
+        "faction": "公明党",
+        "member": "前田憲秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "本田雄三",
+        "faction": "公明党",
+        "member": "本田雄三",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩中伸司",
+        "faction": "新社会",
+        "member": "岩中伸司",
+        "stance": "反対"
+      },
+      {
+        "label": "髙井千歳",
+        "faction": "参政",
+        "member": "髙井千歳",
+        "stance": "反対"
+      },
+      {
+        "label": "星野愛斗",
+        "faction": "維新",
+        "member": "星野愛斗",
+        "stance": "賛成"
+      },
+      {
+        "label": "増永慎一郎",
+        "faction": "無所属（増永慎一郎）",
+        "member": "増永慎一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "亀田英雄",
+        "faction": "無所属（亀田英雄）",
+        "member": "亀田英雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "住永栄一郎",
+        "faction": "無所属（住永栄一郎）",
+        "member": "住永栄一郎",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

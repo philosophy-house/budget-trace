@@ -1,0 +1,33 @@
+{
+  "sourceId": "kainan-shigikai-r8",
+  "files": [
+    {
+      "filename": "kainan_4706_20260209.html",
+      "sha256": "6ccef3b7d3134904af0291346b5af14298a37548f26a8c35e4f211863dd1818e",
+      "bytes": 75439,
+      "fetchedAt": "2026-10-30T19:22:16.406Z",
+      "fetchedFrom": "https://web.archive.org/web/20260209234916id_/https://www.city.kainan.lg.jp/kakubusho/gikaijimukyoku/giin/4706.html"
+    },
+    {
+      "filename": "kainan_dayoi85.pdf",
+      "sha256": "84799c2478d93d920dd949502dbd856c95fbe24ec9af88910e8bc933cad9bfa8",
+      "bytes": 3043314,
+      "fetchedAt": "2026-10-30T19:22:16.408Z",
+      "fetchedFrom": "https://www.city.kainan.lg.jp/material/files/group/4/dayoi85.pdf"
+    },
+    {
+      "filename": "kainan_kextuka.pdf",
+      "sha256": "eda8b55c592acb744a9abb69427b92ac2a9674780b1e5e43d6c02e89fb8eccca",
+      "bytes": 145268,
+      "fetchedAt": "2026-10-30T19:22:16.409Z",
+      "fetchedFrom": "https://www.city.kainan.lg.jp/material/files/group/4/kextuka.pdf"
+    },
+    {
+      "filename": "kainan_8hiwari2.pdf",
+      "sha256": "be6d5597ba77419e3c3ac4503354e1725803c777cd7aadaa68e6d378d6a714fa",
+      "bytes": 147560,
+      "fetchedAt": "2026-10-30T19:22:16.409Z",
+      "fetchedFrom": "https://www.city.kainan.lg.jp/material/files/group/4/8hiwari2.pdf"
+    }
+  ]
+}
