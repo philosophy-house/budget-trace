@@ -43964,6 +43964,7 @@ export const SOURCES: SourceEntry[] = [
     },
   },
   {
+    // 定数: 任期満了一覧表の列「定数（人）」の下の 32。数の直後に「人」も直前に「定数」も無い表なので、列の見出しを teisuHeader に書く（0.8.15・レビュー2巡目）
     // 名簿: 議決（3/25）の「令和８年２月定例会 議案に対する議員別賛否一覧」（r0802sanpi.pdf）の表頭（会派名の下に所属議員の縦書きの列）を会派ごとの枠で切った（asOf は議決日・asOfText は表題）。帯の境目は描画で確かめた。無会派の7人は1人ずつ「無会派（未来の会）」などの見出しの列
     // 基準日つきの名簿: 会派の構成のページ（p007165・（令和8年1月6日現在）・住所なし）の議決前の魚拓（2026-01-25）に全32名が出る（confirmUrls）。会派ごとの所属は表頭と一致（目視）。このページは議決後（2026-08-03 の魚拓）も同じ版（更新日 2026年1月15日）。2025-12-21 の市議会議員補欠選挙（欠員2）の後の構成
     // ⚠ 初版は p007165 を区間方式の名簿にしたが、会派ごとの人数の印字が無く、会派を隣の会派へ合流させる書き写しが12通りすべて通ったので、議決当日の表頭の枠に替えた
@@ -43998,6 +43999,7 @@ export const SOURCES: SourceEntry[] = [
       teisu: 32,
       teisuText: "市議会議員 4年 32 令和5年4月23日 令和9年4月30日",
       teisuUrl: "https://www.city.fuji.shizuoka.jp/5205000000/p007010.html",
+      teisuHeader: "定数（人）",
       roster: {"url":"https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf","title":"令和８年２月定例会 議案に対する議員別賛否一覧（3月25日議決）の会派別の列見出し","confirmUrls":["https://web.archive.org/web/20260125050718id_/https://www.city.fuji.shizuoka.jp/5105000000/p007165.html"]},
       factions: [{"name":"心政富士","page":1,"box":[268,60,74,95],"noDeclaredCount":true,"members":["下田良秀","川窪吉男","佐野智昭","藤田哲哉","荻田丈仁","杉山幸宏"]},{"name":"凜の会・公明党","page":1,"box":[342,60,51,95],"noDeclaredCount":true,"members":["望月昇","高橋正典","井出晴美","萩野基行"]},{"name":"民主ふじ","page":1,"box":[393,60,50,95],"noDeclaredCount":true,"members":["杉山諭","長谷川祐司","山下いづみ","佐藤菊乃"]},{"name":"真政会","page":1,"box":[443,60,49,95],"noDeclaredCount":true,"members":["太田康彦","稲葉寿利","遠藤盛正","石川浩司"]},{"name":"草の根ふじ","page":1,"box":[492,60,50,95],"noDeclaredCount":true,"members":["植松光徳","福永意人","笠井浩","小池義治"]},{"name":"知行合一","page":1,"box":[542,60,37,95],"noDeclaredCount":true,"members":["鈴木幸司","新家大輔","吉川隆之"]},{"name":"無会派（未来の会）","independent":true,"page":1,"box":[579,60,13,95],"noDeclaredCount":true,"members":["伊東美加"]},{"name":"無会派（日本共産党議員）","independent":true,"page":1,"box":[592,60,13,95],"noDeclaredCount":true,"members":["笹川朝子"]},{"name":"無会派（輝き）","independent":true,"page":1,"box":[605,60,12,95],"noDeclaredCount":true,"members":["望月徹"]},{"name":"無会派（未来富士）","independent":true,"page":1,"box":[617,60,13,95],"noDeclaredCount":true,"members":["小野泰正"]},{"name":"無会派（かぐや）","independent":true,"page":1,"box":[630,60,13,95],"noDeclaredCount":true,"members":["関明美"]},{"name":"無会派（リスペクトふじ）","independent":true,"page":1,"box":[643,60,12,95],"noDeclaredCount":true,"members":["小池智明"]},{"name":"無会派（共創ふじ）","independent":true,"page":1,"box":[655,60,13,95],"noDeclaredCount":true,"members":["山岡祐貴"]}],
       votes: {"url":"https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf","title":"令和８年２月定例会 議案に対する議員別賛否一覧","basis":"member","legend":{"賛":"賛成","反":"反対"},"legendText":"凡例 ： 賛・・・賛成 反・・・反対","anchor":"令和８年度富士市一般会計予算につい","headerBbox":true,"symbols":"賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛賛反賛賛反賛賛","columns":[{"label":"下田良秀"},{"label":"川窪吉男"},{"label":"佐野智昭"},{"label":"藤田哲哉"},{"label":"荻田丈仁"},{"label":"杉山幸宏"},{"label":"望月昇"},{"label":"高橋正典"},{"label":"井出晴美"},{"label":"萩野基行"},{"label":"杉山諭"},{"label":"長谷川祐司"},{"label":"山下いづみ"},{"label":"佐藤菊乃"},{"label":"太田康彦"},{"label":"稲葉寿利"},{"label":"遠藤盛正"},{"label":"石川浩司"},{"label":"植松光徳"},{"label":"福永意人"},{"label":"小池義治"},{"label":"鈴木幸司"},{"label":"新家大輔"},{"label":"吉川隆之"},{"label":"伊東美加"},{"label":"笹川朝子"},{"label":"望月徹"},{"label":"小野泰正"},{"label":"関明美"},{"label":"小池智明"},{"label":"山岡祐貴"}],"blank":[{"label":"笠井浩","stance":"議長","evidence":"第49代議長 笠井 浩","evidenceUrl":"https://web.archive.org/web/20251006081720id_/https://www.city.fuji.shizuoka.jp/5105000000/p007164.html"}],"tally":{"text":"29 2 0 原案可決","counts":{"賛成":29,"反対":2,"欠席":0}}},
@@ -46266,7 +46268,7 @@ export const SOURCES: SourceEntry[] = [
     // ライセンス: 予算の行（nakatsugawa-yosansho-r8）と同じ NAKATSUGAWA_LICENSE の原文（要許可）。議会の資料も同じ市の公式サイト。予算の行に noDeepLink は無く（リンクは「トップページへのリンクは自由に設定していただけます。」だけ）、議会の行にも付けない
     // raw: PDF 3件とも拡張子どおり（transform なし）
     // 自宅住所: raw に入れる3件に電話・〒は無い（機械的に確認）。議員紹介（3045.html）・議員名簿（20250515_giinmeibo.pdf）は住所・電話・生年つきで使っていない
-    // 会期: 審議結果の PDF には会期名の字が無いので、landingPage の「審議結果及び議員の賛否」（3056.html・2026-10-05 更新）で gikai_singikekka_R0803.pdf へのリンクの文字「令和8年3月定例会」を alsoUrls で照合する（レビュー1巡目: 資料の表題を会期名にしていた）。電話・〒は議会事務局・市役所のものだけ
+    // 会期: 審議結果の PDF には会期名の字が無いので、landingPage の「審議結果及び議員の賛否」（3056.html・2026-10-05 更新）で gikai_singikekka_R0803.pdf へのリンクの文字「令和8年3月定例会」を sessionLabel にする（レビュー1巡目: 資料の表題を会期名にしていた）。⚠ 照合は alsoUrls の本文に字があるかだけで、ページに並ぶ別の会期名でも通る（リンクの href とは結び付けていない）。電話・〒は議会事務局・市役所のものだけ
     id: "nakatsugawa-shigikai-r8",
     title: "令和8年度 中津川市議会の構成（会派別議席数）と当初予算の議決",
     publisher: "中津川市議会",

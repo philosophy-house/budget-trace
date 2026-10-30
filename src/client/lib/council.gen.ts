@@ -19743,7 +19743,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "知事提出議案（令和8年2月定例会）",
         "localUrl": "/sources/nagano-ken-gikai-r8/naganoken_tijiteisyutugian0802.html",
         "originUrl": "https://www.pref.nagano.lg.jp/gikai/giji/teireikai/houkoku/r0802/tijiteisyutugian0802.html",
-        "archiveUrl": "https://web.archive.org/web/20260204163135/https://www.pref.nagano.lg.jp/gikai/giji/teireikai/houkoku/r0802/tijiteisyutugian0802.html"
+        "archiveUrl": "https://web.archive.org/web/20261030122813/https://www.pref.nagano.lg.jp/gikai/giji/teireikai/houkoku/r0802/tijiteisyutugian0802.html"
       },
       "minutesUrl": null,
       "newsletterUrl": null
