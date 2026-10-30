@@ -1,0 +1,253 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sanda-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:31.279Z",
+  "fiscalYear": "R8",
+  "body": "三田市議会",
+  "seats": 22,
+  "asOf": "2025-10-23",
+  "factions": [
+    {
+      "name": "創志会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "幸田安司",
+        "今北義明",
+        "小杉崇浩",
+        "坪之内幸司",
+        "福田秀章",
+        "假屋浩司"
+      ],
+      "locator": {
+        "file": "sanda_4414_20260422013656.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "さんだの未来",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "佐貫尚子",
+        "中田哲",
+        "関口正人",
+        "小山裕久"
+      ],
+      "locator": {
+        "file": "sanda_4414_20260422013656.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市民とともに",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "橋本維文",
+        "大西憲司",
+        "山崎丈",
+        "肥後淳三"
+      ],
+      "locator": {
+        "file": "sanda_4414_20260422013656.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "福田佳則",
+        "村手秀樹",
+        "大西雅子"
+      ],
+      "locator": {
+        "file": "sanda_4414_20260422013656.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党三田市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "長尾明憲",
+        "水元サユミ",
+        "木村雅人"
+      ],
+      "locator": {
+        "file": "sanda_4414_20260422013656.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本維新の会三田",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "福本愛",
+        "長谷川良果"
+      ],
+      "locator": {
+        "file": "sanda_4414_20260422013656.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第7号",
+    "billName": "令和8年度三田市一般会計予算",
+    "sessionLabel": "令和8年3月定例会（第385回）",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決(賛成18人、反対3人)",
+    "locator": {
+      "file": "sanda_34794.html"
+    }
+  },
+  "rosterTitle": "市議会の会派と所属会派別議員名簿（令和7年10月23日現在）",
+  "resultTitle": "令和8年3月定例会(第385回)の審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "三田市議会だより（令和8年6月1日号）4～5ページ 賛否が分かれた議案・請願",
+    "sourceFile": "sanda_R8_6_04-05.pdf",
+    "columns": [
+      {
+        "label": "幸田安司",
+        "faction": "創志会",
+        "member": "幸田安司",
+        "stance": "賛成"
+      },
+      {
+        "label": "今北義明",
+        "faction": "創志会",
+        "member": "今北義明",
+        "stance": "賛成"
+      },
+      {
+        "label": "小杉崇浩",
+        "faction": "創志会",
+        "member": "小杉崇浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "坪之内幸司",
+        "faction": "創志会",
+        "member": "坪之内幸司",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田秀章",
+        "faction": "創志会",
+        "member": "福田秀章",
+        "stance": "賛成"
+      },
+      {
+        "label": "假屋浩司",
+        "faction": "創志会",
+        "member": "假屋浩司",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐貫尚子",
+        "faction": "さんだの未来",
+        "member": "佐貫尚子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中田哲",
+        "faction": "さんだの未来",
+        "member": "中田哲",
+        "stance": "賛成"
+      },
+      {
+        "label": "関口正人",
+        "faction": "さんだの未来",
+        "member": "関口正人",
+        "stance": "賛成"
+      },
+      {
+        "label": "小山裕久",
+        "faction": "さんだの未来",
+        "member": "小山裕久",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋本維文",
+        "faction": "市民とともに",
+        "member": "橋本維文",
+        "stance": "賛成"
+      },
+      {
+        "label": "山崎丈",
+        "faction": "市民とともに",
+        "member": "山崎丈",
+        "stance": "賛成"
+      },
+      {
+        "label": "大西憲司",
+        "faction": "市民とともに",
+        "member": "大西憲司",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田佳則",
+        "faction": "公明党",
+        "member": "福田佳則",
+        "stance": "賛成"
+      },
+      {
+        "label": "村手秀樹",
+        "faction": "公明党",
+        "member": "村手秀樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "大西雅子",
+        "faction": "公明党",
+        "member": "大西雅子",
+        "stance": "賛成"
+      },
+      {
+        "label": "長尾明憲",
+        "faction": "日本共産党三田市議団",
+        "member": "長尾明憲",
+        "stance": "反対"
+      },
+      {
+        "label": "水元サユミ",
+        "faction": "日本共産党三田市議団",
+        "member": "水元サユミ",
+        "stance": "反対"
+      },
+      {
+        "label": "木村雅人",
+        "faction": "日本共産党三田市議団",
+        "member": "木村雅人",
+        "stance": "反対"
+      },
+      {
+        "label": "福本愛",
+        "faction": "日本維新の会三田",
+        "member": "福本愛",
+        "stance": "賛成"
+      },
+      {
+        "label": "長谷川良果",
+        "faction": "日本維新の会三田",
+        "member": "長谷川良果",
+        "stance": "賛成"
+      },
+      {
+        "label": "肥後淳三",
+        "faction": "市民とともに",
+        "member": "肥後淳三",
+        "stance": "議長"
+      }
+    ]
+  }
+}

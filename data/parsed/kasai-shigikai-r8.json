@@ -1,0 +1,97 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kasai-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:31.547Z",
+  "fiscalYear": "R8",
+  "body": "加西市議会",
+  "seats": 15,
+  "asOf": "2025-06-17",
+  "teisu": 15,
+  "factions": [
+    {
+      "name": "清流会・かさいを育む会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "森元清蔵",
+        "森田博美",
+        "佐伯欣子",
+        "下江一将",
+        "橋本真由美"
+      ],
+      "locator": {
+        "file": "kasai_2946_20260417182901.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "改革未来・自民の風・加西市民の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "丸岡弘満",
+        "田井真一",
+        "西脇親",
+        "高橋佐代子",
+        "大前裕也"
+      ],
+      "locator": {
+        "file": "kasai_2946_20260417182901.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "令和新風加西",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "北川克則",
+        "中右憲利",
+        "高見博道"
+      ],
+      "locator": {
+        "file": "kasai_2946_20260417182901.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "土本昌幸"
+      ],
+      "locator": {
+        "file": "kasai_2946_20260417182901.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "加西市民クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "深田照明"
+      ],
+      "locator": {
+        "file": "kasai_2946_20260417182901.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第37号",
+    "billName": "令和8年度加西市一般会計予算について",
+    "sessionLabel": "第317回定例会（令和8年3月議会）",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "修正可決",
+    "locator": {
+      "file": "kasai_58192.html"
+    }
+  },
+  "rosterTitle": "会派構成（令和7年6月17日現在）",
+  "resultTitle": "第317回定例会（令和8年3月議会）【議案・議決結果】"
+}

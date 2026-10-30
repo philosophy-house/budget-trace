@@ -1,0 +1,33 @@
+{
+  "sourceId": "toyooka-shigikai-r8",
+  "files": [
+    {
+      "filename": "toyooka_kaiha2025.11.14.pdf",
+      "sha256": "5ad3563e010e5ae6c3b9255f1c205eb9f0ba624e96818afe39c95b0a0f4ea89a",
+      "bytes": 86721,
+      "fetchedAt": "2026-10-29T14:48:48.905Z",
+      "fetchedFrom": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/005/694/kaiha2025.11.14.pdf"
+    },
+    {
+      "filename": "toyooka_kekka2026.03.26.pdf",
+      "sha256": "88c2c8bf790d4c58804063cbcc41e54e26d07676d7a4ff6616ead643cf712cb2",
+      "bytes": 156000,
+      "fetchedAt": "2026-10-29T14:48:48.906Z",
+      "fetchedFrom": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/037/601/kekka2026.03.26.pdf"
+    },
+    {
+      "filename": "toyooka_sanpi2026.3.26.pdf",
+      "sha256": "b19d91950ebc83959897d597f2d66c1a177288a467086be1a1676ca8c3ecd98f",
+      "bytes": 45112,
+      "fetchedAt": "2026-10-29T14:48:48.906Z",
+      "fetchedFrom": "https://www.city.toyooka.lg.jp/_res/projects/default_project/_page_/001/037/601/sanpi2026.3.26.pdf"
+    },
+    {
+      "filename": "toyooka_1003800.html",
+      "sha256": "7e37c6acb28bf5aef24bc74ffff1fd638caf24685b904090def6ab7004daeb48",
+      "bytes": 26765,
+      "fetchedAt": "2026-10-29T14:48:48.906Z",
+      "fetchedFrom": "https://www.city.toyooka.lg.jp/shigikai/1003800.html"
+    }
+  ]
+}

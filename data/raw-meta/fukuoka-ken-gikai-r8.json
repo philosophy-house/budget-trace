@@ -1,0 +1,33 @@
+{
+  "sourceId": "fukuoka-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "pref_all_20260307063503.html",
+      "sha256": "4c69ceb66fa3db1a84054406ea41e844a4fe717de574b84d98e7f308386b2427",
+      "bytes": 31677,
+      "fetchedAt": "2026-10-29T14:48:48.869Z",
+      "fetchedFrom": "https://web.archive.org/web/20260307063503id_/https://www.gikai.pref.fukuoka.lg.jp/site/giin/all.html"
+    },
+    {
+      "filename": "pref_saiketsu-0802.html",
+      "sha256": "c05c4c99a97f754146c8a054c41fecc1331f040eafe2975a3fbeddcd9131672a",
+      "bytes": 22683,
+      "fetchedAt": "2026-10-29T14:48:48.871Z",
+      "fetchedFrom": "https://www.gikai.pref.fukuoka.lg.jp/site/honkaigi/saiketsu-0802.html"
+    },
+    {
+      "filename": "pref_enkaku.html",
+      "sha256": "5fdda00bae137d4b99dcd779027a5ac866d7305adff8faf88e7c5fb03a40c398",
+      "bytes": 17501,
+      "fetchedAt": "2026-10-29T14:48:48.871Z",
+      "fetchedFrom": "https://www.gikai.pref.fukuoka.lg.jp/site/aramashi/enkaku.html"
+    },
+    {
+      "filename": "pref_all_20260520044257.html",
+      "sha256": "3053f5f798e9a6eefee64639870468f1a2af86b41591038ebaf802bd8242a5bf",
+      "bytes": 31677,
+      "fetchedAt": "2026-10-29T14:48:48.872Z",
+      "fetchedFrom": "https://web.archive.org/web/20260520044257id_/https://www.gikai.pref.fukuoka.lg.jp/site/giin/all.html"
+    }
+  ]
+}

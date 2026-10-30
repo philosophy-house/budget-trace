@@ -1,0 +1,102 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tatsuno-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:31.868Z",
+  "fiscalYear": "R8",
+  "body": "たつの市議会",
+  "seats": 20,
+  "asOf": "2025-05-16",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "志政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "木南裕樹",
+        "柴田将之",
+        "永富靖",
+        "肥塚康子"
+      ],
+      "locator": {
+        "file": "tatsuno_1612_wb20251110.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新生クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "角田勝",
+        "和田美奈",
+        "高岸博之",
+        "山本俊一郎"
+      ],
+      "locator": {
+        "file": "tatsuno_1612_wb20251110.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "船引宗俊",
+        "楠明廣",
+        "堀讓"
+      ],
+      "locator": {
+        "file": "tatsuno_1612_wb20251110.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "たつの公明",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "名村嘉洋",
+        "畑山剛一"
+      ],
+      "locator": {
+        "file": "tatsuno_1612_wb20251110.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "会派に属しない議員",
+      "seats": 7,
+      "isIndependent": true,
+      "members": [
+        "柏原要",
+        "宗實雅典",
+        "赤木和雄",
+        "野本利明",
+        "桑野元澄",
+        "松本良三",
+        "三木浩一"
+      ],
+      "locator": {
+        "file": "tatsuno_1612_wb20251110.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第18号",
+    "billName": "令和8年度たつの市一般会計予算",
+    "sessionLabel": "令和8年第1回たつの市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "tatsuno_9815.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和7年5月16日現在）",
+  "resultTitle": "令和8年第1回定例会議決結果一覧"
+}

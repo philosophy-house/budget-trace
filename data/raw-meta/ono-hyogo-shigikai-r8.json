@@ -1,0 +1,26 @@
+{
+  "sourceId": "ono-hyogo-shigikai-r8",
+  "files": [
+    {
+      "filename": "ono_no220_onoshigikaiA3.pdf",
+      "sha256": "c57d2b027e3d0cfee496d5182753580aa6326e3b17ab148564246a09e6d76057",
+      "bytes": 2857533,
+      "fetchedAt": "2026-10-29T14:48:48.937Z",
+      "fetchedFrom": "https://ono-sigikai.jp/users/editor/File/%E8%AD%B0%E4%BC%9A%E3%81%A0%E3%82%88%E3%82%8A/%E4%BB%A4%E5%92%8C7%E5%B9%B4/no220_onoshigikaiA3.pdf"
+    },
+    {
+      "filename": "ono_457_kaketsu_ichiran.pdf",
+      "sha256": "269116ff6563609e19d99d7d4f2264641ea016fc929e4b22e62eb10fe5d7a95e",
+      "bytes": 74129,
+      "fetchedAt": "2026-10-29T14:48:48.937Z",
+      "fetchedFrom": "https://ono-sigikai.jp/users/editor/File/%E6%9C%AC%E4%BC%9A%E8%AD%B0/%E7%AC%AC457%E5%9B%9E%E5%AE%9A%E4%BE%8B%E4%BC%9A/%E7%AC%AC457%E5%9B%9E%E5%B0%8F%E9%87%8E%E5%B8%82%E8%AD%B0%E4%BC%9A%E5%AE%9A%E4%BE%8B%E4%BC%9A%E5%8F%AF%E6%B1%BA%E8%AD%B0%E6%A1%88%E4%B8%80%E8%A6%A7%EF%BC%88%EF%BC%A8%EF%BC%B0%EF%BC%89.pdf"
+    },
+    {
+      "filename": "ono_v400RG00000017.html",
+      "sha256": "55b8330ae39b282bb2bcbcdb282194a7341332162d22d3184d47b0151d93d168",
+      "bytes": 8151,
+      "fetchedAt": "2026-10-29T14:48:48.938Z",
+      "fetchedFrom": "https://www.city.ono.hyogo.jp/section/~somu/reiki/reiki_honbun/v400RG00000017.html"
+    }
+  ]
+}

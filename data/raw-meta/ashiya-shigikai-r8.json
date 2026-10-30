@@ -1,0 +1,40 @@
+{
+  "sourceId": "ashiya-shigikai-r8",
+  "files": [
+    {
+      "filename": "ashiya_kaihabetugiinkousei_20260422.html",
+      "sha256": "c49d877e9475e914b6af915a739cd240ed27bcdec89e32d62b6d2a632479e0b9",
+      "bytes": 12053,
+      "fetchedAt": "2026-10-29T14:48:48.901Z",
+      "fetchedFrom": "https://web.archive.org/web/20260422075335id_/https://www.city.ashiya.lg.jp/shigi/kaihabetugiinkousei.html"
+    },
+    {
+      "filename": "ashiya_giinbetusinsakekkaitiran20260324.pdf",
+      "sha256": "0f2d71149aa1666aeb044fc675f2d776dae7be97d0306559e4faa61e12f6fbe2",
+      "bytes": 108620,
+      "fetchedAt": "2026-10-29T14:48:48.902Z",
+      "fetchedFrom": "https://www.city.ashiya.lg.jp/shigi/documents/giinbetusinsakekkaitiran20260324.pdf"
+    },
+    {
+      "filename": "ashiya_r8dai2kai2.html",
+      "sha256": "cf83da64a9dc75ea420ea85df2ea43c26f16731cb78322e48421123678df1674",
+      "bytes": 34957,
+      "fetchedAt": "2026-10-29T14:48:48.902Z",
+      "fetchedFrom": "https://www.city.ashiya.lg.jp/housei/gian/r8dai2kai2.html"
+    },
+    {
+      "filename": "ashiya_gikaiyouranr8.pdf",
+      "sha256": "316e0db81dcdadf05e0a13f93191e7e2797541548bff7f1446ee55782268b04d",
+      "bytes": 515014,
+      "fetchedAt": "2026-10-29T14:48:48.903Z",
+      "fetchedFrom": "https://www.city.ashiya.lg.jp/shigi/documents/gikaiyouranr8.pdf"
+    },
+    {
+      "filename": "ashiya_sigikaidayori136gou.pdf",
+      "sha256": "7ba0f50b7e3a845c6ecf63bd44cef34513d835920c76c3a1c0ff243b6e77c530",
+      "bytes": 1954696,
+      "fetchedAt": "2026-10-29T14:48:48.904Z",
+      "fetchedFrom": "https://www.city.ashiya.lg.jp/shigi/documents/sigikaidayori136gou.pdf"
+    }
+  ]
+}

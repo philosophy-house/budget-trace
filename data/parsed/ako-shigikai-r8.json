@@ -1,0 +1,208 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ako-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:29.658Z",
+  "fiscalYear": "R8",
+  "body": "赤穂市議会",
+  "seats": 17,
+  "asOf": "2025-04-22",
+  "teisu": 17,
+  "factions": [
+    {
+      "name": "赤諒会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "土遠孝昌",
+        "中谷行夫",
+        "木下秀臣",
+        "松﨑昭彦",
+        "榊悠太"
+      ],
+      "locator": {
+        "file": "kaiha_20250619.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "千種",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田渕和彦",
+        "井田佐登司",
+        "安田哲"
+      ],
+      "locator": {
+        "file": "kaiha_20250619.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "南條千鶴子",
+        "前川弘文"
+      ],
+      "locator": {
+        "file": "kaiha_20250619.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "新風",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山野崇",
+        "西川浩司"
+      ],
+      "locator": {
+        "file": "kaiha_20250619.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "家入時治",
+        "瓢敏雄",
+        "荒木友貴",
+        "深町直也",
+        "山谷真慶"
+      ],
+      "locator": {
+        "file": "kaiha_20250619.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第15号議案",
+    "billName": "令和8年度赤穂市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "2026teirei01.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（更新日 2025年4月22日）",
+  "resultTitle": "令和8年第1回定例会議案一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "市議会だより第179号（令和8年5月11日発行）２月（第１回）定例会提出議案に対する議員別賛否一覧表",
+    "sourceFile": "20260511gikaidayori.pdf",
+    "columns": [
+      {
+        "label": "榊悠太",
+        "faction": "赤諒会",
+        "member": "榊悠太",
+        "stance": "賛成"
+      },
+      {
+        "label": "木下秀臣",
+        "faction": "赤諒会",
+        "member": "木下秀臣",
+        "stance": "賛成"
+      },
+      {
+        "label": "松﨑昭彦",
+        "faction": "赤諒会",
+        "member": "松﨑昭彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "南條千鶴子",
+        "faction": "公明党",
+        "member": "南條千鶴子",
+        "stance": "賛成"
+      },
+      {
+        "label": "井田佐登司",
+        "faction": "千種",
+        "member": "井田佐登司",
+        "stance": "賛成"
+      },
+      {
+        "label": "安田哲",
+        "faction": "千種",
+        "member": "安田哲",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒木友貴",
+        "faction": "会派に属さない議員",
+        "member": "荒木友貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "深町直也",
+        "faction": "会派に属さない議員",
+        "member": "深町直也",
+        "stance": "反対"
+      },
+      {
+        "label": "山谷真慶",
+        "faction": "会派に属さない議員",
+        "member": "山谷真慶",
+        "stance": "賛成"
+      },
+      {
+        "label": "土遠孝昌",
+        "faction": "赤諒会",
+        "member": "土遠孝昌",
+        "stance": "賛成"
+      },
+      {
+        "label": "中谷行夫",
+        "faction": "赤諒会",
+        "member": "中谷行夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "瓢敏雄",
+        "faction": "会派に属さない議員",
+        "member": "瓢敏雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "前川弘文",
+        "faction": "公明党",
+        "member": "前川弘文",
+        "stance": "賛成"
+      },
+      {
+        "label": "田渕和彦",
+        "faction": "千種",
+        "member": "田渕和彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "家入時治",
+        "faction": "会派に属さない議員",
+        "member": "家入時治",
+        "stance": "賛成"
+      },
+      {
+        "label": "山野崇",
+        "faction": "新風",
+        "member": "山野崇",
+        "stance": "賛成"
+      },
+      {
+        "label": "西川浩司",
+        "faction": "新風",
+        "member": "西川浩司",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "docType": "council-composition",
+  "sourceId": "takarazuka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:29.827Z",
+  "fiscalYear": "R8",
+  "body": "宝塚市議会",
+  "seats": 25,
+  "asOf": "2025-09-08",
+  "factions": [
+    {
+      "name": "日本維新の会宝塚市議団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "村松あんな",
+        "池田光隆",
+        "伊庭聡",
+        "中山ゆうすけ",
+        "森賀宣代"
+      ],
+      "locator": {
+        "file": "1002550_20251201.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "たからづか真政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "桑原健三郎",
+        "浅谷亜紀",
+        "大島千都世",
+        "冨川晃太郎",
+        "持田ちえ"
+      ],
+      "locator": {
+        "file": "1002550_20251201.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "中野正",
+        "坂本篤史",
+        "藤岡和枝",
+        "三宅浩二"
+      ],
+      "locator": {
+        "file": "1002550_20251201.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民ネット宝塚",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "寺本早苗",
+        "北野聡子",
+        "北山照昭"
+      ],
+      "locator": {
+        "file": "1002550_20251201.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "ともに生きる市民の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "梶川みさお",
+        "大島淡紅子",
+        "川口じゅん"
+      ],
+      "locator": {
+        "file": "1002550_20251201.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "結志の会・たからづか改革の道",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "末永やよい",
+        "泉友紀"
+      ],
+      "locator": {
+        "file": "1002550_20251201.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本共産党宝塚市会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田中こう",
+        "みとみ智恵子"
+      ],
+      "locator": {
+        "file": "1002550_20251201.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無所属（おだたか子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "おだたか子"
+      ],
+      "locator": {
+        "file": "1002550_20251201.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第45号",
+    "billName": "令和8年度宝塚市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会（3月）",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "可決（全員一致）",
+    "locator": {
+      "file": "1037641.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（更新日 2025年9月8日）",
+  "resultTitle": "令和8年第1回定例会（3月） 市長提出議案 議案等一覧・審議結果"
+}

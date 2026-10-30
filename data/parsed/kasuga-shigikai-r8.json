@@ -1,0 +1,124 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kasuga-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:26.900Z",
+  "fiscalYear": "R8",
+  "body": "春日市議会",
+  "seats": 20,
+  "asOf": "2026-03-24",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "髙橋裕子",
+        "原克巳",
+        "森山五月",
+        "佐藤誠之"
+      ],
+      "locator": {
+        "file": "1017108.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "創政会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松尾德晴",
+        "米丸貴浩"
+      ],
+      "locator": {
+        "file": "1017108.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "翔春会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "船久保信昭",
+        "迫賢二"
+      ],
+      "locator": {
+        "file": "1017108.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "春令会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "西村澄子",
+        "中原智昭"
+      ],
+      "locator": {
+        "file": "1017108.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "春陽会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岩渕穣",
+        "安部仰"
+      ],
+      "locator": {
+        "file": "1017108.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "明社会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田中隆志",
+        "奈須純子"
+      ],
+      "locator": {
+        "file": "1017108.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に所属しない議員",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "中村孝三",
+        "北田織",
+        "吉居恭子",
+        "内野明浩",
+        "西川文代",
+        "有村博"
+      ],
+      "locator": {
+        "file": "1017108.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第18号議案",
+    "billName": "令和8年度春日市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会（3月）",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1017108.html"
+    }
+  },
+  "rosterTitle": "令和8年第1回定例会（3月）議案・議決結果一覧（議案ごとの会派・議員名・賛否の表）",
+  "resultTitle": "令和8年第1回定例会（3月）議案・議決結果一覧"
+}

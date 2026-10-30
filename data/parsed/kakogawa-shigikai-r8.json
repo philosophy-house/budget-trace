@@ -1,0 +1,125 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kakogawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:29.223Z",
+  "fiscalYear": "R8",
+  "body": "加古川市議会",
+  "seats": 31,
+  "asOf": "2026-03-24",
+  "teisu": 31,
+  "factions": [
+    {
+      "name": "創生加古川",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "岩本泰典",
+        "清水玲子",
+        "山本賢吾",
+        "藤原繁樹",
+        "東田寿啓",
+        "大野恭平",
+        "西村雅文",
+        "松本裕之",
+        "織田正樹",
+        "玉川英樹",
+        "木谷万里",
+        "中村亮太"
+      ],
+      "locator": {
+        "file": "kakogawa_giketukekkaR8_3.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "山﨑兼次",
+        "岡田妙子",
+        "桃井祥子",
+        "白石信一",
+        "小林直樹",
+        "相良大悟"
+      ],
+      "locator": {
+        "file": "kakogawa_giketukekkaR8_3.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "かこがわ市民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "井上恭子",
+        "谷真康",
+        "渡辺征爾",
+        "稲次誠",
+        "山本一郎"
+      ],
+      "locator": {
+        "file": "kakogawa_giketukekkaR8_3.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "加古川維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "橋本南",
+        "落合誠",
+        "中山俊明"
+      ],
+      "locator": {
+        "file": "kakogawa_giketukekkaR8_3.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "かこがわ未来の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "藤原みつえ",
+        "柘植厚人",
+        "森田俊和"
+      ],
+      "locator": {
+        "file": "kakogawa_giketukekkaR8_3.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "立花俊治",
+        "橋本和彦"
+      ],
+      "locator": {
+        "file": "kakogawa_giketukekkaR8_3.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第12号",
+    "billName": "令和８年度加古川市一般会計予算",
+    "sessionLabel": "令和８年第１回市議会（定例会）",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "kakogawa_giketukekkaR8_3.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議決結果及び会派等の賛否一覧（令和８年第１回市議会（定例会））会派略称及び所属議員（令和８年３月24日現在）",
+  "resultTitle": "議決結果及び会派等の賛否一覧（令和８年第１回市議会（定例会））"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "sanda-shigikai-r8",
+  "files": [
+    {
+      "filename": "sanda_4414_20260422013656.html",
+      "sha256": "8166bfabcc98655caa003fb5fc2cb3bcdf82d66fc2533f619fb3fcba1bbbc0c9",
+      "bytes": 45254,
+      "fetchedAt": "2026-10-29T14:48:48.938Z",
+      "fetchedFrom": "https://web.archive.org/web/20260422013656id_/https://www.city.sanda.lg.jp/soshiki/62/gyomu/gikai/about_gikai/giin_shokai/4414.html"
+    },
+    {
+      "filename": "sanda_R8_6_04-05.pdf",
+      "sha256": "4c63f20c8370b94cf17cf2a0422b3d70aba518251cd3b5c465eaa42d3de3ff6b",
+      "bytes": 957634,
+      "fetchedAt": "2026-10-29T14:48:48.940Z",
+      "fetchedFrom": "https://www.city.sanda.lg.jp/material/files/group/63/R8_6_04-05.pdf"
+    },
+    {
+      "filename": "sanda_34794.html",
+      "sha256": "804929c35c1902fda3b4700fa58bbbe6986629355b7577ff2bffe0aeab7b39f2",
+      "bytes": 90656,
+      "fetchedAt": "2026-10-29T14:48:48.940Z",
+      "fetchedFrom": "https://www.city.sanda.lg.jp/soshiki/62/gyomu/gikai/2/shingi_kekka/reiwa8/34794.html"
+    }
+  ]
+}

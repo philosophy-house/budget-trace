@@ -1,0 +1,47 @@
+{
+  "sourceId": "miki-shigikai-r8",
+  "files": [
+    {
+      "filename": "54956.pdf",
+      "sha256": "633d60ef6fcc2d0222f3e2053445fc6b766734b1f2bfeccc447773f81f6093ef",
+      "bytes": 6809851,
+      "fetchedAt": "2026-10-29T14:48:48.927Z",
+      "fetchedFrom": "https://www.city.miki.lg.jp/uploaded/attachment/54956.pdf"
+    },
+    {
+      "filename": "3931_20250321.html",
+      "sha256": "255547fe54f92965ad454bae5cd10354633d4cb1a2f50feb1f651e2d18b6531d",
+      "bytes": 18872,
+      "fetchedAt": "2026-10-29T14:48:48.928Z",
+      "fetchedFrom": "https://web.archive.org/web/20250321163420id_/https://www.city.miki.lg.jp/soshiki/53/3931.html"
+    },
+    {
+      "filename": "57109.pdf",
+      "sha256": "479545ebf5e1a295499d0261be25e15419096aa30952e033188e34254afb5564",
+      "bytes": 55140,
+      "fetchedAt": "2026-10-29T14:48:48.929Z",
+      "fetchedFrom": "https://www.city.miki.lg.jp/uploaded/attachment/57109.pdf"
+    },
+    {
+      "filename": "56281.pdf",
+      "sha256": "083041f9d5379adf543943456d9f22e1c77c94733eb0208db435481e8e33ea97",
+      "bytes": 873578,
+      "fetchedAt": "2026-10-29T14:48:48.930Z",
+      "fetchedFrom": "https://www.city.miki.lg.jp/uploaded/attachment/56281.pdf"
+    },
+    {
+      "filename": "55570.pdf",
+      "sha256": "5c12ed3ce12ab9bd03575944ce120ba894168d99813dfeffc717a13c04c3f791",
+      "bytes": 1264393,
+      "fetchedAt": "2026-10-29T14:48:48.931Z",
+      "fetchedFrom": "https://www.city.miki.lg.jp/uploaded/attachment/55570.pdf"
+    },
+    {
+      "filename": "56240.pdf",
+      "sha256": "6535107ce280c7ddc672b6a21091473401b91ac4c8911a3128c8aa5c1135ed2e",
+      "bytes": 284516,
+      "fetchedAt": "2026-10-29T14:48:48.932Z",
+      "fetchedFrom": "https://www.city.miki.lg.jp/uploaded/attachment/56240.pdf"
+    }
+  ]
+}

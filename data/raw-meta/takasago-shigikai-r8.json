@@ -1,0 +1,56 @@
+{
+  "sourceId": "takasago-shigikai-r8",
+  "files": [
+    {
+      "filename": "2995_20260213.html",
+      "sha256": "d11c38d0adc80df714dd96e21b3a5714fe69614f4fd9e941b33c9a742beed41f",
+      "bytes": 60767,
+      "fetchedAt": "2026-10-29T14:48:48.932Z",
+      "fetchedFrom": "https://web.archive.org/web/20260213102648id_/https://www.city.takasago.lg.jp/soshikikarasagasu/gikaijimukyoku/takasagoshigikai/2995.html"
+    },
+    {
+      "filename": "12717.html",
+      "sha256": "7286cbdee41a019bc8a38631dfc96ae959affb95f666dbd3b4f094751add14d2",
+      "bytes": 58083,
+      "fetchedAt": "2026-10-29T14:48:48.933Z",
+      "fetchedFrom": "https://www.city.takasago.lg.jp/soshikikarasagasu/senkyokanriiinkaijimukyoku/2/1/12717.html"
+    },
+    {
+      "filename": "13902.html",
+      "sha256": "ebe4a158c6d92810c84bca2f38f40a0c67a891573c40b9220b83950e2458635c",
+      "bytes": 162650,
+      "fetchedAt": "2026-10-29T14:48:48.933Z",
+      "fetchedFrom": "https://www.city.takasago.lg.jp/soshikikarasagasu/gikaijimukyoku/takasagoshigikai/2/reiwa8/13902.html"
+    },
+    {
+      "filename": "GetText3_R080326A_174.html",
+      "sha256": "8094fb9fb0d1abbf9ecedf7b1c3188e0708e9fb2cf335cf0cbb0fb62968d04ce",
+      "bytes": 13576,
+      "fetchedAt": "2026-10-29T14:48:48.933Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/takasago/cgi-bin2/GetText3.exe?h52lmgenyzsjmkcxck/R080326A/174/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "GetText3_R080326A_34575.html",
+      "sha256": "0e25c84dafd3070f497f5040e458196ccb26c9dd2a64887453218f1bd30158a6",
+      "bytes": 958,
+      "fetchedAt": "2026-10-29T14:48:48.934Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/takasago/cgi-bin2/GetText3.exe?h52lmgenyzsjmkcxck/R080326A/34575/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "GetText3_R080326A_54815.html",
+      "sha256": "f287a112c20ae9f82090e1004afc98c87edc1b9f8f1ad71c1cbd0fb8bf8148fc",
+      "bytes": 813,
+      "fetchedAt": "2026-10-29T14:48:48.934Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/takasago/cgi-bin2/GetText3.exe?h52lmgenyzsjmkcxck/R080326A/54815/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

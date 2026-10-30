@@ -1,0 +1,40 @@
+{
+  "sourceId": "kasai-shigikai-r8",
+  "files": [
+    {
+      "filename": "kasai_2946_20260417182901.html",
+      "sha256": "b4dc2d0ce478f7f9d9d000c6ef2022cf3cb5f5e29b103b0c6fa28214976a020e",
+      "bytes": 26203,
+      "fetchedAt": "2026-10-29T14:48:48.941Z",
+      "fetchedFrom": "https://web.archive.org/web/20260417182901id_/https://www.city.kasai.hyogo.jp/site/gikai/2946.html"
+    },
+    {
+      "filename": "kasai_58192.html",
+      "sha256": "2f7d79017306173887654bcf0c173591b3e9e04c4315a9f617d95f589eccfd73",
+      "bytes": 54607,
+      "fetchedAt": "2026-10-29T14:48:48.941Z",
+      "fetchedFrom": "https://www.city.kasai.hyogo.jp/site/gikai/58192.html"
+    },
+    {
+      "filename": "kasai_33000.pdf",
+      "sha256": "2f809500d35fa9316ac1e934802c2c866f57a41359c32ef67fcae9243a4e7604",
+      "bytes": 68332,
+      "fetchedAt": "2026-10-29T14:48:48.942Z",
+      "fetchedFrom": "https://www.city.kasai.hyogo.jp/uploaded/attachment/33000.pdf"
+    },
+    {
+      "filename": "kasai_33341.pdf",
+      "sha256": "18d568b79863325ab4633bebf9dc784562017bf5ec32a0556497d356cc670c8b",
+      "bytes": 1142378,
+      "fetchedAt": "2026-10-29T14:48:48.944Z",
+      "fetchedFrom": "https://www.city.kasai.hyogo.jp/uploaded/attachment/33341.pdf"
+    },
+    {
+      "filename": "kasai_2685.html",
+      "sha256": "2824b3876370960b4c6a0f4060b65bf2e9498b8b2e3310814ba4b3fb3e1c2b03",
+      "bytes": 24948,
+      "fetchedAt": "2026-10-29T14:48:48.945Z",
+      "fetchedFrom": "https://www.city.kasai.hyogo.jp/site/gikai/2685.html"
+    }
+  ]
+}

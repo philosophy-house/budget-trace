@@ -1,0 +1,168 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yanagawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:26.752Z",
+  "fiscalYear": "R8",
+  "body": "柳川市議会",
+  "seats": 19,
+  "asOf": "2024-12-10",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "今村智子",
+        "菊次太丸"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党柳川市議団",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "荒巻英樹",
+        "江口義明",
+        "荒木憲",
+        "近藤末治",
+        "浦川和久",
+        "橋本憲之",
+        "田中康徳",
+        "甲木健太郎"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（佐々木創主）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "佐々木創主"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（樽見哲也）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "樽見哲也"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（佐藤勝広）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "佐藤勝広"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（新谷信次郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "新谷信次郎"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（緒方寿光）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "緒方寿光"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（髙田千壽輝）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "髙田千壽輝"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（椛島正吾）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "椛島正吾"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（三小田保弘）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "三小田保弘"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（矢ケ部広巳）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "矢ケ部広巳"
+      ],
+      "locator": {
+        "file": "file20241223135001.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第７号",
+    "billName": "令和８年度柳川市一般会計予算",
+    "sessionLabel": "令和８年第１回柳川市議会定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "file20260318113001.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "柳川市議会 会派名簿（令和４年１１月２２日届出（令和６年１２月１０日変更））",
+  "resultTitle": "令和８年第１回柳川市議会定例会 議決結果"
+}

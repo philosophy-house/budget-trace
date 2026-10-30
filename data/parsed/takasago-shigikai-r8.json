@@ -1,0 +1,134 @@
+{
+  "docType": "council-composition",
+  "sourceId": "takasago-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:30.550Z",
+  "fiscalYear": "R8",
+  "body": "高砂市議会",
+  "seats": 19,
+  "asOf": "2025-12-25",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "新政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "今竹大祐",
+        "入江啓太",
+        "岩見明",
+        "川端宏明",
+        "島津明香",
+        "藤森誠"
+      ],
+      "locator": {
+        "file": "2995_20260213.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "迫川高行",
+        "春増勝利",
+        "森秀樹"
+      ],
+      "locator": {
+        "file": "2995_20260213.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "明風会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "石崎徹",
+        "芝本鎮彰",
+        "鷹尾治久"
+      ],
+      "locator": {
+        "file": "2995_20260213.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "未来ネット",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "北野誠一郎",
+        "鈴木利信"
+      ],
+      "locator": {
+        "file": "2995_20260213.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "民主クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松野優也",
+        "山田光昭"
+      ],
+      "locator": {
+        "file": "2995_20260213.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "横田英樹"
+      ],
+      "locator": {
+        "file": "2995_20260213.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "大西由紀"
+      ],
+      "locator": {
+        "file": "2995_20260213.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "まつかぜ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "坂本まり"
+      ],
+      "locator": {
+        "file": "2995_20260213.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "高予第10号",
+    "billName": "令和8年度高砂市一般会計予算",
+    "sessionLabel": "3月定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "可決",
+    "locator": {
+      "file": "13902.html"
+    }
+  },
+  "rosterTitle": "議会の構成 高砂市議会議員名簿（50音順・更新日 2025年12月25日）",
+  "resultTitle": "高砂市議会だより 第237号 令和8年第1回臨時会3月定例会合併号（テキスト版）"
+}

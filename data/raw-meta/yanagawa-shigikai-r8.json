@@ -1,0 +1,43 @@
+{
+  "sourceId": "yanagawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "file20241223135001.pdf",
+      "sha256": "ac840a16bdcdf9ba4c3f2b497d2d52a24354abfa916327342441a64f50e50225",
+      "bytes": 35952,
+      "fetchedAt": "2026-10-29T14:48:48.882Z",
+      "fetchedFrom": "https://www.city.yanagawa.fukuoka.jp/fs/2/4/1/4/0/_/file20241223135001.pdf"
+    },
+    {
+      "filename": "meibo_20260315112326.html",
+      "sha256": "0e1f043e9a55c424bb1030f79e1311220d69c38d6c22a86c0159bc27015fc116",
+      "bytes": 24342,
+      "fetchedAt": "2026-10-29T14:48:48.883Z",
+      "fetchedFrom": "https://web.archive.org/web/20260315112326id_/https://www.city.yanagawa.fukuoka.jp/shisei/shigikai/meibo/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "file20241025130901.pdf",
+      "sha256": "b244a120cfe439b6126ca64beed52c81e57083c701313b461f0aca6b1b858a69",
+      "bytes": 70540,
+      "fetchedAt": "2026-10-29T14:48:48.883Z",
+      "fetchedFrom": "https://www.city.yanagawa.fukuoka.jp/fs/2/1/7/0/2/_/file20241025130901.pdf"
+    },
+    {
+      "filename": "shigikai_gikaigaiyo_20251011005400.html",
+      "sha256": "41677e1b0d67d772dd0f1141a8f5afdaf7ac841fe3f27f1fe193605b69091214",
+      "bytes": 25740,
+      "fetchedAt": "2026-10-29T14:48:48.884Z",
+      "fetchedFrom": "https://web.archive.org/web/20251011005400id_/https://www.city.yanagawa.fukuoka.jp/shisei/shigikai/shigikai_gikaigaiyo.html"
+    },
+    {
+      "filename": "file20260318113001.pdf",
+      "sha256": "177bf012bca25df9899412991658e15b3b190253cc33fad2c96d73d0bb2bda4c",
+      "bytes": 135665,
+      "fetchedAt": "2026-10-29T14:48:48.884Z",
+      "fetchedFrom": "https://www.city.yanagawa.fukuoka.jp/fs/3/8/5/8/6/_/file20260318113001.pdf"
+    }
+  ]
+}

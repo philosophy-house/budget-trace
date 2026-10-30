@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.13";
+export const PARSER_VERSION = "0.8.14";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -677,6 +677,18 @@ export function nearestBillNo(before: string, billNoN: string): boolean {
     const end = at + billNoN.length;
     if (startsDigit && /\d/.test(before[at - 1] ?? "")) continue;
     if (endsDigit && /\d/.test(before[end] ?? "")) continue;
+    // 原典で番号の直後が「号」なら、書き写しも「号」まで書く（0.8.14）。「議案第９」と号を落とした書き写しが通った
+    // （福津・丹波・尼崎・加古川・小美玉で作業者が実測）。数字だけの番号（調布「25.」）は原典にも号が無い型なので対象外
+    if (endsDigit && !/^\d+$/.test(billNoN) && before[end] === "号") return false;
+    // 番号の語の途中で切った書き写しを通さない（0.8.14・レビュー1〜2巡目で実測）。後ろ: 「第1号」「第1号議」（原典「第1号議案」）、
+    // 前: 「案第12号」（原典「議案第12号」）・「1号議案」（「第1号議案」）・「第10号」（「高予第10号」）
+    if (/[号議]$/.test(billNoN) && /^[議案]/.test(before.slice(end))) return false;
+    // 前は語彙の網（一般則「直前が漢字・かなでない」は正規化で空白が落ちるので既存の88行が落ちた）。⚠ 一覧に無い接頭字の途中切り
+    // （「予第10号」＝原典「高予第10号」）は通る（3巡目のレビュー）
+    const prev = before[at - 1] ?? "";
+    if (/^案/.test(billNoN) && prev === "議") return false;
+    if (/^\d/.test(billNoN) && prev === "第") return false;
+    if (/^第/.test(billNoN) && /[案予議発報請認諮同専]/.test(prev)) return false;
     // 件名に最も近い出現だけを見る（これより前の出現は、後ろに別の数字があるかで既に負けている）
     const tail = before.slice(end);
     if (/\d/.test(tail)) return false;

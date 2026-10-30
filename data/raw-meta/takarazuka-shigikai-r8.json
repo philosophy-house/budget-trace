@@ -1,0 +1,40 @@
+{
+  "sourceId": "takarazuka-shigikai-r8",
+  "files": [
+    {
+      "filename": "1002550_20251201.html",
+      "sha256": "bcdc94b1f23fae2046fb535969329bd589fee90ec3ca26fb298062a693af9b21",
+      "bytes": 31893,
+      "fetchedAt": "2026-10-29T14:48:48.917Z",
+      "fetchedFrom": "https://web.archive.org/web/20251201112808id_/https://www.city.takarazuka.hyogo.jp/1060687/gikai/shokai/1002550.html"
+    },
+    {
+      "filename": "1002550_20260615.html",
+      "sha256": "f60c8237613b1f387c90940a9c8085428530f69989ef2a5b87b45b3ee6058058",
+      "bytes": 33226,
+      "fetchedAt": "2026-10-29T14:48:48.918Z",
+      "fetchedFrom": "https://web.archive.org/web/20260615114343id_/https://www.city.takarazuka.hyogo.jp/1060687/gikai/shokai/1002550.html"
+    },
+    {
+      "filename": "1000841_20251201.html",
+      "sha256": "da19531bf25ada560231ad94a7e35549e5bb3b9bc0f4ed05c6ffd36222eb7405",
+      "bytes": 32259,
+      "fetchedAt": "2026-10-29T14:48:48.918Z",
+      "fetchedFrom": "https://web.archive.org/web/20251201113055id_/https://www.city.takarazuka.hyogo.jp/1060687/gikai/youkoso/1000841.html"
+    },
+    {
+      "filename": "1037641.html",
+      "sha256": "c0dab389d8e2e27e95999791bb114e9fe6e6306d3fc48908709a8a4ea8aaa0ea",
+      "bytes": 43848,
+      "fetchedAt": "2026-10-29T14:48:48.918Z",
+      "fetchedFrom": "https://www.city.takarazuka.hyogo.jp/1060687/gikai/katsudo/1000795/1037640/1037641.html"
+    },
+    {
+      "filename": "202603_1.pdf",
+      "sha256": "5261b5bd9fde340ca28b9a5395b867dbc1f9f2d66f741ae75f7d3870dd569411",
+      "bytes": 115542,
+      "fetchedAt": "2026-10-29T14:48:48.919Z",
+      "fetchedFrom": "https://www.city.takarazuka.hyogo.jp/_res/projects/default_project/_page_/001/037/640/202603_1.pdf"
+    }
+  ]
+}

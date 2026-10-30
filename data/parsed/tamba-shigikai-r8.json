@@ -1,0 +1,112 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tamba-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:31.718Z",
+  "fiscalYear": "R8",
+  "body": "丹波市議会",
+  "seats": 18,
+  "asOf": "2024-12-10",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "西本嘉宏",
+        "細見昭文"
+      ],
+      "locator": {
+        "file": "tamba_1572_wb20260309.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "十倉浩",
+        "須原弥生"
+      ],
+      "locator": {
+        "file": "tamba_1572_wb20260309.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小川庄策",
+        "奥村正行"
+      ],
+      "locator": {
+        "file": "tamba_1572_wb20260309.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "丹・まごころ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "前田安城",
+        "大垣利明",
+        "高橋まみ"
+      ],
+      "locator": {
+        "file": "tamba_1572_wb20260309.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "丹新会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "吉積毅",
+        "足立嘉正",
+        "家田優樹",
+        "大嶋恵子",
+        "酒井浩二",
+        "東坂範雄",
+        "広田まゆみ"
+      ],
+      "locator": {
+        "file": "tamba_1572_wb20260309.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "太田一誠",
+        "谷水雄一"
+      ],
+      "locator": {
+        "file": "tamba_1572_wb20260309.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度丹波市一般会計予算",
+    "sessionLabel": "令和8年第145回丹波市議会定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決",
+    "locator": {
+      "file": "tamba_145shingikekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和6年12月10日現在）",
+  "resultTitle": "令和８年第145回丹波市議会定例会審議結果"
+}

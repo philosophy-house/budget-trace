@@ -1,0 +1,232 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ashiya-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:28.422Z",
+  "fiscalYear": "R8",
+  "body": "芦屋市議会",
+  "seats": 19,
+  "asOf": "2026-01-27",
+  "factions": [
+    {
+      "name": "あしや政風会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "岩岡りょうすけ",
+        "福井利道",
+        "川上あさえ",
+        "原なつ子",
+        "福井美奈子"
+      ],
+      "locator": {
+        "file": "ashiya_kaihabetugiinkousei_20260422.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "西村まさと",
+        "田原俊彦",
+        "帰山和也"
+      ],
+      "locator": {
+        "file": "ashiya_kaihabetugiinkousei_20260422.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "至誠会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "西﨑薫",
+        "中島健一",
+        "寺前尊文"
+      ],
+      "locator": {
+        "file": "ashiya_kaihabetugiinkousei_20260422.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党芦屋市議会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川島あゆみ",
+        "ひろせ久美子"
+      ],
+      "locator": {
+        "file": "ashiya_kaihabetugiinkousei_20260422.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "浅海洋一郎",
+        "橋本隆"
+      ],
+      "locator": {
+        "file": "ashiya_kaihabetugiinkousei_20260422.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "山口みさえ",
+        "中村亮介",
+        "たかおか知子",
+        "大原裕貴"
+      ],
+      "locator": {
+        "file": "ashiya_kaihabetugiinkousei_20260422.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第29号議案",
+    "billName": "令和8年度芦屋市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "ashiya_r8dai2kai2.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和8年1月27日現在）",
+  "resultTitle": "令和8年第1回定例会市長提出議案",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "あしや市議会だより 136号（2026年5月）令和8年第1回定例会 賛否の分かれた議案等",
+    "sourceFile": "ashiya_sigikaidayori136gou.pdf",
+    "columns": [
+      {
+        "label": "岩岡りょうすけ",
+        "faction": "あしや政風会",
+        "member": "岩岡りょうすけ",
+        "stance": "賛成"
+      },
+      {
+        "label": "福井利道",
+        "faction": "あしや政風会",
+        "member": "福井利道",
+        "stance": "賛成"
+      },
+      {
+        "label": "川上あさえ",
+        "faction": "あしや政風会",
+        "member": "川上あさえ",
+        "stance": "賛成"
+      },
+      {
+        "label": "原なつ子",
+        "faction": "あしや政風会",
+        "member": "原なつ子",
+        "stance": "賛成"
+      },
+      {
+        "label": "福井美奈子",
+        "faction": "あしや政風会",
+        "member": "福井美奈子",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村まさと",
+        "faction": "公明党",
+        "member": "西村まさと",
+        "stance": "賛成"
+      },
+      {
+        "label": "田原俊彦",
+        "faction": "公明党",
+        "member": "田原俊彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "帰山和也",
+        "faction": "公明党",
+        "member": "帰山和也",
+        "stance": "賛成"
+      },
+      {
+        "label": "西﨑薫",
+        "faction": "至誠会",
+        "member": "西﨑薫",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島健一",
+        "faction": "至誠会",
+        "member": "中島健一",
+        "stance": "議長"
+      },
+      {
+        "label": "寺前尊文",
+        "faction": "至誠会",
+        "member": "寺前尊文",
+        "stance": "賛成"
+      },
+      {
+        "label": "川島あゆみ",
+        "faction": "日本共産党芦屋市議会議員団",
+        "member": "川島あゆみ",
+        "stance": "反対"
+      },
+      {
+        "label": "ひろせ久美子",
+        "faction": "日本共産党芦屋市議会議員団",
+        "member": "ひろせ久美子",
+        "stance": "反対"
+      },
+      {
+        "label": "浅海洋一郎",
+        "faction": "日本維新の会",
+        "member": "浅海洋一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋本隆",
+        "faction": "日本維新の会",
+        "member": "橋本隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口みさえ",
+        "faction": "会派に属さない議員",
+        "member": "山口みさえ",
+        "stance": "反対"
+      },
+      {
+        "label": "中村亮介",
+        "faction": "会派に属さない議員",
+        "member": "中村亮介",
+        "stance": "賛成"
+      },
+      {
+        "label": "たかおか知子",
+        "faction": "会派に属さない議員",
+        "member": "たかおか知子",
+        "stance": "賛成"
+      },
+      {
+        "label": "大原裕貴",
+        "faction": "会派に属さない議員",
+        "member": "大原裕貴",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

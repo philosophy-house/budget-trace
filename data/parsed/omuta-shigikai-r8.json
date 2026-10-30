@@ -1,0 +1,117 @@
+{
+  "docType": "council-composition",
+  "sourceId": "omuta-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:24.715Z",
+  "fiscalYear": "R8",
+  "body": "大牟田市議会",
+  "seats": 23,
+  "asOf": "2026-03-24",
+  "teisu": 23,
+  "factions": [
+    {
+      "name": "自由民主党市議団",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "江上しほり",
+        "桑原誠",
+        "德永春男",
+        "豊福達也",
+        "中原誠悟",
+        "光田茂",
+        "森遵",
+        "森竜子",
+        "山口雅夫"
+      ],
+      "locator": {
+        "file": "omuta_3_3580_127749_up_54lugnhi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "民主・護憲クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "奥村橋倫",
+        "櫻井ちはる",
+        "松尾哲也",
+        "森田義孝",
+        "船原基近",
+        "古庄和秀"
+      ],
+      "locator": {
+        "file": "omuta_3_3580_127749_up_54lugnhi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "大野哲也",
+        "塩塚敏郎",
+        "平山伸二",
+        "三宅智加子",
+        "山田修司"
+      ],
+      "locator": {
+        "file": "omuta_3_3580_127749_up_54lugnhi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "無所属（北岡あや）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "北岡あや"
+      ],
+      "locator": {
+        "file": "omuta_3_3580_127749_up_54lugnhi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "無所属（崎山恵子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "崎山恵子"
+      ],
+      "locator": {
+        "file": "omuta_3_3580_127749_up_54lugnhi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "無所属（山田貴正）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山田貴正"
+      ],
+      "locator": {
+        "file": "omuta_3_3580_127749_up_54lugnhi.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案 第91号",
+    "billName": "令和８年度大牟田市一般会計予算",
+    "sessionLabel": "令和７年度大牟田市議会 第５回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "omuta_3_3580_127749_up_54lugnhi.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議案等の審議結果一覧（Ｒ８.３.24）の会派名称・所属議員の表と表頭",
+  "resultTitle": "令和７年度大牟田市議会 第５回定例会 議案等の審議結果一覧（Ｒ８.３.24）"
+}

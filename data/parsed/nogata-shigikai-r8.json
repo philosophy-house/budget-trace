@@ -1,0 +1,135 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nogata-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:25.078Z",
+  "fiscalYear": "R8",
+  "body": "直方市議会",
+  "seats": 19,
+  "asOf": "2026-03-13",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宮園祐美子",
+        "紫村博之"
+      ],
+      "locator": {
+        "file": "nogata_R8.5.1gikai_all.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "正誠会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岡松誠二",
+        "篠原正之"
+      ],
+      "locator": {
+        "file": "nogata_R8.5.1gikai_all.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "野下昭宣",
+        "澄田和昭"
+      ],
+      "locator": {
+        "file": "nogata_R8.5.1gikai_all.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "ふたば",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中西省三",
+        "草野知一郎"
+      ],
+      "locator": {
+        "file": "nogata_R8.5.1gikai_all.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "那須和也",
+        "渡辺和幸"
+      ],
+      "locator": {
+        "file": "nogata_R8.5.1gikai_all.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "プラタナス",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "髙宮誠",
+        "村田明子"
+      ],
+      "locator": {
+        "file": "nogata_R8.5.1gikai_all.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "令和会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "矢野富士雄",
+        "松田曻"
+      ],
+      "locator": {
+        "file": "nogata_R8.5.1gikai_all.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "れいめい",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "渡辺幸一",
+        "渡辺克也",
+        "森本裕次",
+        "安永浩之",
+        "田代文也"
+      ],
+      "locator": {
+        "file": "nogata_R8.5.1gikai_all.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 24 号",
+    "billName": "令和８年度直方市一般会計予算",
+    "sessionLabel": "令和８年３月直方市議会定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "nogata_R8.3kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "のおがた議会だより 第281号（令和8年5月1日）p.3「賛否の分かれた議案」の表頭（会派名・議員名）",
+  "resultTitle": "令和８年３月直方市議会定例会付議事件及び審議結果"
+}

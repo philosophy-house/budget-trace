@@ -1,0 +1,348 @@
+{
+  "docType": "council-composition",
+  "sourceId": "iizuka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:26.143Z",
+  "fiscalYear": "R8",
+  "body": "飯塚市議会",
+  "seats": 26,
+  "asOf": "2026-03-23",
+  "factions": [
+    {
+      "name": "飯塚みらい会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小幡俊之",
+        "石川華子",
+        "兼本芳雄"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "いつか会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "秀村長利",
+        "永末雄大",
+        "深町善文",
+        "赤尾嘉則"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "奥山亮一",
+        "光根正宣",
+        "田中裕二"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "而今会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "吉松信之",
+        "城丸秀髙",
+        "土居幸則"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "同志会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鯉川信二",
+        "田中博文",
+        "吉田健一"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "有和会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "金子加代",
+        "江口徹"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "道祖満",
+        "田中武春",
+        "佐藤清和"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "藤間隆太"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無所属（藤堂彰）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "藤堂彰"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "川上直喜"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無所属（瀬戸元）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "瀬戸元"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無所属（坂平末雄）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "坂平末雄"
+      ],
+      "locator": {
+        "file": "iizuka_15503.pdf",
+        "page": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３１号",
+    "billName": "令和８年度 飯塚市一般会計予算",
+    "sessionLabel": "令和８年第２回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "iizuka_14062.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "飯塚市議会だより No.84（令和8年6月1日発行）p.12「議案の議決結果」＜令和８年２月定例会＞「賛否が分かれたもの」の表頭（会派名・議員氏名）",
+  "resultTitle": "令和８年第２回定例会 議案審議結果一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "飯塚市議会だより No.84 p.12「賛否が分かれたもの」（令和８年２月定例会）",
+    "sourceFile": "iizuka_15503.pdf",
+    "columns": [
+      {
+        "label": "小幡俊之",
+        "faction": "飯塚みらい会",
+        "member": "小幡俊之",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川華子",
+        "faction": "飯塚みらい会",
+        "member": "石川華子",
+        "stance": "賛成"
+      },
+      {
+        "label": "兼本芳雄",
+        "faction": "飯塚みらい会",
+        "member": "兼本芳雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "秀村長利",
+        "faction": "いつか会",
+        "member": "秀村長利",
+        "stance": "賛成"
+      },
+      {
+        "label": "永末雄大",
+        "faction": "いつか会",
+        "member": "永末雄大",
+        "stance": "賛成"
+      },
+      {
+        "label": "深町善文",
+        "faction": "いつか会",
+        "member": "深町善文",
+        "stance": "賛成"
+      },
+      {
+        "label": "赤尾嘉則",
+        "faction": "いつか会",
+        "member": "赤尾嘉則",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥山亮一",
+        "faction": "公明党",
+        "member": "奥山亮一",
+        "stance": "賛成"
+      },
+      {
+        "label": "光根正宣",
+        "faction": "公明党",
+        "member": "光根正宣",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中裕二",
+        "faction": "公明党",
+        "member": "田中裕二",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉松信之",
+        "faction": "而今会",
+        "member": "吉松信之",
+        "stance": "賛成"
+      },
+      {
+        "label": "土居幸則",
+        "faction": "而今会",
+        "member": "土居幸則",
+        "stance": "賛成"
+      },
+      {
+        "label": "鯉川信二",
+        "faction": "同志会",
+        "member": "鯉川信二",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中博文",
+        "faction": "同志会",
+        "member": "田中博文",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田健一",
+        "faction": "同志会",
+        "member": "吉田健一",
+        "stance": "賛成"
+      },
+      {
+        "label": "金子加代",
+        "faction": "有和会",
+        "member": "金子加代",
+        "stance": "賛成"
+      },
+      {
+        "label": "江口徹",
+        "faction": "有和会",
+        "member": "江口徹",
+        "stance": "賛成"
+      },
+      {
+        "label": "道祖満",
+        "faction": "立憲民主党",
+        "member": "道祖満",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中武春",
+        "faction": "立憲民主党",
+        "member": "田中武春",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤清和",
+        "faction": "立憲民主党",
+        "member": "佐藤清和",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤間隆太",
+        "faction": "日本維新の会",
+        "member": "藤間隆太",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤堂彰",
+        "faction": "無所属（藤堂彰）",
+        "member": "藤堂彰",
+        "stance": "賛成"
+      },
+      {
+        "label": "川上直喜",
+        "faction": "日本共産党",
+        "member": "川上直喜",
+        "stance": "反対"
+      },
+      {
+        "label": "瀬戸元",
+        "faction": "無所属（瀬戸元）",
+        "member": "瀬戸元",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂平末雄",
+        "faction": "無所属（坂平末雄）",
+        "member": "坂平末雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "城丸秀髙",
+        "faction": "而今会",
+        "member": "城丸秀髙",
+        "stance": "議長"
+      }
+    ]
+  }
+}

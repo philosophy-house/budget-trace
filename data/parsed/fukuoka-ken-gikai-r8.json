@@ -1,0 +1,246 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fukuoka-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.14",
+  "parsedAt": "2026-10-29T15:50:24.336Z",
+  "fiscalYear": "R8",
+  "body": "福岡県議会",
+  "seats": 87,
+  "asOf": "2026-03-06",
+  "teisu": 87,
+  "factions": [
+    {
+      "name": "自民党県議団",
+      "seats": 41,
+      "isIndependent": false,
+      "members": [
+        "秋田章二",
+        "板橋聡",
+        "井上順吾",
+        "井上忠敏",
+        "井上博行",
+        "井上正文",
+        "今林久",
+        "浦伊三夫",
+        "江頭祥一",
+        "永川俊彦",
+        "江口善明",
+        "江藤秀之",
+        "大島道人",
+        "大田満",
+        "加地邦雄",
+        "川端耕一",
+        "桐明和久",
+        "藏内勇夫",
+        "神崎聡",
+        "香原勝司",
+        "小緑貴吏",
+        "佐藤楓",
+        "高橋義彦",
+        "長裕海",
+        "中尾正幸",
+        "中牟田伸二",
+        "野原隆士",
+        "波多江祐介",
+        "花田尚彦",
+        "林泰輔",
+        "原口剣生",
+        "樋口明",
+        "松尾統章",
+        "松本國寛",
+        "宮川宗一郎",
+        "宮原伸一",
+        "横尾政則",
+        "吉田健一朗",
+        "吉田浩一",
+        "笠和彦",
+        "渡辺勝将"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "民主県政県議団",
+      "seats": 20,
+      "isIndependent": false,
+      "members": [
+        "新井富美子",
+        "井上博隆",
+        "岩元一儀",
+        "大田京子",
+        "大橋克己",
+        "嘉村薫",
+        "亀崎大介",
+        "佐々木徹",
+        "田中雅臣",
+        "坪田晋",
+        "豊福るみ子",
+        "中嶋玲子",
+        "原田博史",
+        "原竹岩海",
+        "原中誠志",
+        "室屋美香",
+        "守谷正人",
+        "山本耕一",
+        "吉岡玲子",
+        "渡辺美穂"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "壹岐和郎",
+        "稲又進一",
+        "井上寛",
+        "大塚勝利",
+        "川上多恵",
+        "塩出麻里子",
+        "新開昌彦",
+        "永島弘通",
+        "西尾耕治",
+        "松下正治"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "浦田大治",
+        "大塚絹子",
+        "椛島徳博",
+        "鶴林大我",
+        "中村香月",
+        "堀大助"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "自由と繁栄の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村明彦",
+        "吉松源昭"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "新開崇司",
+        "新開嵩将"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "緑友会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "栗原悠次"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "ふくおか政策の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "後藤香織"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "日本維新の会福岡",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "塩生好紀"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "豊築会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "戸成祥平"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "至誠会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "冨安正直"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 11
+      }
+    },
+    {
+      "name": "桜和会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "福地幸子"
+      ],
+      "locator": {
+        "file": "pref_all_20260307063503.html",
+        "row": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号議案",
+    "billName": "令和8年度福岡県一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案のとおり可決",
+    "locator": {
+      "file": "pref_saiketsu-0802.html"
+    }
+  },
+  "rosterTitle": "全議員一覧（五十音順）（議員の紹介（令和8年3月6日現在））",
+  "resultTitle": "令和8年2月定例会の採決結果"
+}
