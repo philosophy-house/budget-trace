@@ -1,0 +1,40 @@
+{
+  "sourceId": "natori-shigikai-r8",
+  "files": [
+    {
+      "filename": "23171.pdf",
+      "sha256": "e23679f75094aef419e7e02d69ee85f3844e1ccfa405c7bd26267d3fcff9368c",
+      "bytes": 386492,
+      "fetchedAt": "2026-10-30T18:02:09.835Z",
+      "fetchedFrom": "https://www.city.natori.miyagi.jp/uploaded/attachment/23171.pdf"
+    },
+    {
+      "filename": "3555.html",
+      "sha256": "475e543af5af53a89b46f9b63bf83300f5937ed9f04116144325cd347ec2868e",
+      "bytes": 20317,
+      "fetchedAt": "2026-10-30T18:02:09.836Z",
+      "fetchedFrom": "https://www.city.natori.miyagi.jp/page/3555.html"
+    },
+    {
+      "filename": "3601.html",
+      "sha256": "20228d2e8ea5c70a9d77dad5f5d7c936e016638a37a246cfb5a1906322109030",
+      "bytes": 21187,
+      "fetchedAt": "2026-10-30T18:02:09.836Z",
+      "fetchedFrom": "https://www.city.natori.miyagi.jp/site/gikai/3601.html"
+    },
+    {
+      "filename": "23478.pdf",
+      "sha256": "326bc3e38ac3379625b6580ba2cf1ef2fdb4ae7a4ed3b8939bfa39acc5a0ac15",
+      "bytes": 454571,
+      "fetchedAt": "2026-10-30T18:02:09.836Z",
+      "fetchedFrom": "https://www.city.natori.miyagi.jp/uploaded/attachment/23478.pdf"
+    },
+    {
+      "filename": "23064.pdf",
+      "sha256": "43698ada0a62b2df3999f16bd55fb371c5667dfcdee22f6c826cbd073b8e8b68",
+      "bytes": 146374,
+      "fetchedAt": "2026-10-30T18:02:09.837Z",
+      "fetchedFrom": "https://www.city.natori.miyagi.jp/uploaded/attachment/23064.pdf"
+    }
+  ]
+}

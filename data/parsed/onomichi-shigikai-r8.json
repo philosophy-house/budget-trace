@@ -1,0 +1,317 @@
+{
+  "docType": "council-composition",
+  "sourceId": "onomichi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:13.030Z",
+  "fiscalYear": "R8",
+  "body": "尾道市議会",
+  "seats": 28,
+  "asOf": "2025-12-01",
+  "factions": [
+    {
+      "name": "木曜会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "星野光男",
+        "村上隆一",
+        "中西海斗",
+        "高本訓司",
+        "大本和英",
+        "土屋咲子"
+      ],
+      "locator": {
+        "file": "onomichi_kaiha_86609_20260312.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "おのみち会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "巻幡伸一",
+        "新地貴史",
+        "新田賢慈",
+        "宮地寛行",
+        "宇根本茂"
+      ],
+      "locator": {
+        "file": "onomichi_kaiha_86609_20260312.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "潮風おのみち",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "村井温子",
+        "石森啓司",
+        "前田孝人",
+        "冠匡晃"
+      ],
+      "locator": {
+        "file": "onomichi_kaiha_86609_20260312.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民連合",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "檀上政樹",
+        "山根基嗣",
+        "松原正侍",
+        "岡田広美"
+      ],
+      "locator": {
+        "file": "onomichi_kaiha_86609_20260312.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岡村隆",
+        "村上久美",
+        "福原謙二"
+      ],
+      "locator": {
+        "file": "onomichi_kaiha_86609_20260312.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "平成会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "二宮仁",
+        "佐藤志行",
+        "吉和宏"
+      ],
+      "locator": {
+        "file": "onomichi_kaiha_86609_20260312.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岡野長寿",
+        "魚谷悟"
+      ],
+      "locator": {
+        "file": "onomichi_kaiha_86609_20260312.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無所属（藤本友行）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "藤本友行"
+      ],
+      "locator": {
+        "file": "onomichi_kaiha_86609_20260312.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第21号",
+    "billName": "令和8年度尾道市一般会計予算",
+    "sessionLabel": "令和8年第2回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "onomichi_88967.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年12月1日現在・掲載日 2025年12月1日更新）",
+  "resultTitle": "令和8年第2回定例会（議会審議結果一覧）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議案等に対する賛否一覧（令和8年第2回定例会）",
+    "sourceFile": "onomichi_58167.pdf",
+    "columns": [
+      {
+        "label": "松原正侍",
+        "faction": "市民連合",
+        "member": "松原正侍",
+        "stance": "賛成"
+      },
+      {
+        "label": "檀上政樹",
+        "faction": "市民連合",
+        "member": "檀上政樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "土屋咲子",
+        "faction": "木曜会",
+        "member": "土屋咲子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中西海斗",
+        "faction": "木曜会",
+        "member": "中西海斗",
+        "stance": "賛成"
+      },
+      {
+        "label": "冠匡晃",
+        "faction": "潮風おのみち",
+        "member": "冠匡晃",
+        "stance": "反対"
+      },
+      {
+        "label": "村井温子",
+        "faction": "潮風おのみち",
+        "member": "村井温子",
+        "stance": "賛成"
+      },
+      {
+        "label": "魚谷悟",
+        "faction": "日本共産党",
+        "member": "魚谷悟",
+        "stance": "反対"
+      },
+      {
+        "label": "岡野長寿",
+        "faction": "日本共産党",
+        "member": "岡野長寿",
+        "stance": "反対"
+      },
+      {
+        "label": "岡田広美",
+        "faction": "市民連合",
+        "member": "岡田広美",
+        "stance": "賛成"
+      },
+      {
+        "label": "山根基嗣",
+        "faction": "市民連合",
+        "member": "山根基嗣",
+        "stance": "賛成"
+      },
+      {
+        "label": "二宮仁",
+        "faction": "平成会",
+        "member": "二宮仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "大本和英",
+        "faction": "木曜会",
+        "member": "大本和英",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡村隆",
+        "faction": "公明党",
+        "member": "岡村隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上久美",
+        "faction": "公明党",
+        "member": "村上久美",
+        "stance": "賛成"
+      },
+      {
+        "label": "福原謙二",
+        "faction": "公明党",
+        "member": "福原謙二",
+        "stance": "議長"
+      },
+      {
+        "label": "前田孝人",
+        "faction": "潮風おのみち",
+        "member": "前田孝人",
+        "stance": "反対"
+      },
+      {
+        "label": "石森啓司",
+        "faction": "潮風おのみち",
+        "member": "石森啓司",
+        "stance": "賛成"
+      },
+      {
+        "label": "宇根本茂",
+        "faction": "おのみち会",
+        "member": "宇根本茂",
+        "stance": "賛成"
+      },
+      {
+        "label": "新地貴史",
+        "faction": "おのみち会",
+        "member": "新地貴史",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉和宏",
+        "faction": "平成会",
+        "member": "吉和宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤志行",
+        "faction": "平成会",
+        "member": "佐藤志行",
+        "stance": "賛成"
+      },
+      {
+        "label": "星野光男",
+        "faction": "木曜会",
+        "member": "星野光男",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上隆一",
+        "faction": "木曜会",
+        "member": "村上隆一",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮地寛行",
+        "faction": "おのみち会",
+        "member": "宮地寛行",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙本訓司",
+        "faction": "木曜会",
+        "member": "高本訓司",
+        "stance": "賛成"
+      },
+      {
+        "label": "巻幡伸一",
+        "faction": "おのみち会",
+        "member": "巻幡伸一",
+        "stance": "賛成"
+      },
+      {
+        "label": "新田賢慈",
+        "faction": "おのみち会",
+        "member": "新田賢慈",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤本友行",
+        "faction": "無所属（藤本友行）",
+        "member": "藤本友行",
+        "stance": "反対"
+      }
+    ]
+  }
+}

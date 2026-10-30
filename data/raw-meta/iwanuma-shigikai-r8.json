@@ -1,0 +1,26 @@
+{
+  "sourceId": "iwanuma-shigikai-r8",
+  "files": [
+    {
+      "filename": "R8-kekka2.htm",
+      "sha256": "7ecc6eb7b97467d6c4ce750ca8312a16546410f0f015f067ae57d38f2778ca1d",
+      "bytes": 5430,
+      "fetchedAt": "2026-10-30T18:02:09.832Z",
+      "fetchedFrom": "http://www.gikai-iwanuma.jp/gian/R8-kekka2.htm"
+    },
+    {
+      "filename": "R8.htm",
+      "sha256": "7619d034245d22e81d21f08a30c63f727395aad1d48cacb29640b50377edfc69",
+      "bytes": 27003,
+      "fetchedAt": "2026-10-30T18:02:09.832Z",
+      "fetchedFrom": "http://www.gikai-iwanuma.jp/gian/R8.htm"
+    },
+    {
+      "filename": "meibo_kaiha_20260515070509.htm",
+      "sha256": "24d2191a68faafb3d864168da5a900995fa11e4c83971c58c858a04bc0a862cf",
+      "bytes": 6614,
+      "fetchedAt": "2026-10-30T18:02:09.833Z",
+      "fetchedFrom": "https://web.archive.org/web/20260515070509id_/http://www.gikai-iwanuma.jp/meibo/meibo_kaiha.htm"
+    }
+  ]
+}

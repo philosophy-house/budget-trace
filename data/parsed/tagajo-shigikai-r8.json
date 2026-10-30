@@ -1,0 +1,133 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tagajo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:12.199Z",
+  "fiscalYear": "R8",
+  "body": "多賀城市議会",
+  "seats": 18,
+  "asOf": "2025-09-08",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "自由民主党多賀城市議団",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "鈴木新津男",
+        "佐藤雅博",
+        "千葉文昭",
+        "森長一郎",
+        "本間圭",
+        "大場和晃",
+        "大内裕太"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "日本共産党多賀城市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "中田定行",
+        "峪道子",
+        "伊藤真弓"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党多賀城市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "根本朝栄",
+        "阿部正幸",
+        "齋藤裕子"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "新世紀クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "竹谷英昭"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "昌浦泰已"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "多賀城市民の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "板橋惠一"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "多賀城の未来を照らす会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "池田純"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無会派（米澤まき子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "米澤まき子"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第22号",
+    "billName": "令和8年度多賀城市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-06",
+    "decidedDateLabel": "令和8年3月6日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gian.html"
+    }
+  },
+  "rosterTitle": "多賀城市議会 会派別名簿（令和7年9月8日現在・更新日 2025年9月10日）",
+  "resultTitle": "多賀城市議会 議案・意見書案一覧（令和8年第1回定例会）"
+}

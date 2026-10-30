@@ -1,0 +1,40 @@
+{
+  "sourceId": "yamaguchi-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "25264.html",
+      "sha256": "ebb4217316880c17a1cf0080ae89bb57a783a35c6d23e5f2350dfe14ee0fb521",
+      "bytes": 27451,
+      "fetchedAt": "2026-10-30T18:02:09.851Z",
+      "fetchedFrom": "https://web.archive.org/web/20260521012745id_/https://www.pref.yamaguchi.lg.jp/site/gikai/25264.html"
+    },
+    {
+      "filename": "338865.html",
+      "sha256": "dc06aed71147e044433fe080341727fc2c96b78b85e9eca274608782c1106a1f",
+      "bytes": 51741,
+      "fetchedAt": "2026-10-30T18:02:09.852Z",
+      "fetchedFrom": "https://www.pref.yamaguchi.lg.jp/site/gikai/338865.html"
+    },
+    {
+      "filename": "234518.pdf",
+      "sha256": "1ad5afb8af5234c0e387666af4ab84e9419ac132931b2db8730220db42c5370a",
+      "bytes": 149783,
+      "fetchedAt": "2026-10-30T18:02:09.852Z",
+      "fetchedFrom": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/234518.pdf"
+    },
+    {
+      "filename": "25267.html",
+      "sha256": "b1b2b782d206eb1814f9a6983b9b2ccf9a07d20979d3b95d28fc607200997862",
+      "bytes": 144183,
+      "fetchedAt": "2026-10-30T18:02:09.853Z",
+      "fetchedFrom": "https://www.pref.yamaguchi.lg.jp/site/gikai/25267.html"
+    },
+    {
+      "filename": "25268.html",
+      "sha256": "c37f584ccfd08ecea72322065f46d8821ae64434059464a2b5a314ba5ac2d260",
+      "bytes": 25000,
+      "fetchedAt": "2026-10-30T18:02:09.853Z",
+      "fetchedFrom": "https://www.pref.yamaguchi.lg.jp/site/gikai/25268.html"
+    }
+  ]
+}

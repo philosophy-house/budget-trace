@@ -1,0 +1,325 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shunan-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:15.210Z",
+  "fiscalYear": "R8",
+  "body": "周南市議会",
+  "seats": 29,
+  "asOf": "2025-06-24",
+  "factions": [
+    {
+      "name": "志高会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "岩田淳司",
+        "藤井康弘",
+        "古賀洋子",
+        "土屋晴巳",
+        "服部恭弥",
+        "福田健吾",
+        "𠮷安新太"
+      ],
+      "locator": {
+        "file": "shunan_111801.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党周南",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "青木義雄",
+        "友田秀明",
+        "有田力",
+        "小林正樹",
+        "篠田裕二郎",
+        "古谷幸男"
+      ],
+      "locator": {
+        "file": "shunan_111801.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "遠藤伸一",
+        "江崎加代子",
+        "金子優子",
+        "小池一正"
+      ],
+      "locator": {
+        "file": "shunan_111801.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "未来ラボ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "山本真吾",
+        "佐々木照彦",
+        "井本義朗",
+        "貞本昌也"
+      ],
+      "locator": {
+        "file": "shunan_111801.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "輝",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "細田憲司",
+        "河井美和子",
+        "福田文治"
+      ],
+      "locator": {
+        "file": "shunan_111801.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小林雄二",
+        "西尾孝夫"
+      ],
+      "locator": {
+        "file": "shunan_111801.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "藤井直子",
+        "渡辺君枝"
+      ],
+      "locator": {
+        "file": "shunan_111801.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（島津幸男）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "島津幸男"
+      ],
+      "locator": {
+        "file": "shunan_111801.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案　１４",
+    "billName": "令和８年度周南市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "shunan_118661.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "周南市議会 会派別議員名簿（令和７年６月２４日現在）",
+  "resultTitle": "令和８年第１回定例会 議案ごとの議決結果一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "しゅうなん議会だより No.94（令和8年6月1日発行）「賛否が分かれた議案」",
+    "sourceFile": "shunan_120555.pdf",
+    "columns": [
+      {
+        "label": "岩田淳司",
+        "faction": "志高会",
+        "member": "岩田淳司",
+        "stance": "賛成"
+      },
+      {
+        "label": "古賀洋子",
+        "faction": "志高会",
+        "member": "古賀洋子",
+        "stance": "賛成"
+      },
+      {
+        "label": "土屋晴巳",
+        "faction": "志高会",
+        "member": "土屋晴巳",
+        "stance": "賛成"
+      },
+      {
+        "label": "服部恭弥",
+        "faction": "志高会",
+        "member": "服部恭弥",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤井康弘",
+        "faction": "志高会",
+        "member": "藤井康弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉安新太",
+        "faction": "志高会",
+        "member": "𠮷安新太",
+        "stance": "欠席"
+      },
+      {
+        "label": "青木義雄",
+        "faction": "自由民主党周南",
+        "member": "青木義雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "有田力",
+        "faction": "自由民主党周南",
+        "member": "有田力",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林正樹",
+        "faction": "自由民主党周南",
+        "member": "小林正樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "篠田裕二郎",
+        "faction": "自由民主党周南",
+        "member": "篠田裕二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "友田秀明",
+        "faction": "自由民主党周南",
+        "member": "友田秀明",
+        "stance": "賛成"
+      },
+      {
+        "label": "古谷幸男",
+        "faction": "自由民主党周南",
+        "member": "古谷幸男",
+        "stance": "賛成"
+      },
+      {
+        "label": "江崎加代子",
+        "faction": "公明党",
+        "member": "江崎加代子",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤伸一",
+        "faction": "公明党",
+        "member": "遠藤伸一",
+        "stance": "賛成"
+      },
+      {
+        "label": "金子優子",
+        "faction": "公明党",
+        "member": "金子優子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小池一正",
+        "faction": "公明党",
+        "member": "小池一正",
+        "stance": "賛成"
+      },
+      {
+        "label": "井本義朗",
+        "faction": "未来ラボ",
+        "member": "井本義朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木照彦",
+        "faction": "未来ラボ",
+        "member": "佐々木照彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "貞本昌也",
+        "faction": "未来ラボ",
+        "member": "貞本昌也",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本真吾",
+        "faction": "未来ラボ",
+        "member": "山本真吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "河井美和子",
+        "faction": "輝",
+        "member": "河井美和子",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田文治",
+        "faction": "輝",
+        "member": "福田文治",
+        "stance": "賛成"
+      },
+      {
+        "label": "細田憲司",
+        "faction": "輝",
+        "member": "細田憲司",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林雄二",
+        "faction": "市民の会",
+        "member": "小林雄二",
+        "stance": "賛成"
+      },
+      {
+        "label": "西尾孝夫",
+        "faction": "市民の会",
+        "member": "西尾孝夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤井直子",
+        "faction": "日本共産党",
+        "member": "藤井直子",
+        "stance": "反対"
+      },
+      {
+        "label": "渡辺君枝",
+        "faction": "日本共産党",
+        "member": "渡辺君枝",
+        "stance": "反対"
+      },
+      {
+        "label": "島津幸男",
+        "faction": "会派に属さない議員（島津幸男）",
+        "member": "島津幸男",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田健吾",
+        "faction": "志高会",
+        "member": "福田健吾",
+        "stance": "議長"
+      }
+    ]
+  }
+}

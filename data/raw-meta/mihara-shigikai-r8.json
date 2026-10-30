@@ -1,0 +1,40 @@
+{
+  "sourceId": "mihara-shigikai-r8",
+  "files": [
+    {
+      "filename": "mihara_kaiha_20250828.html",
+      "sha256": "b1358b208db6925e8498cd9456d372be1bad61408d3f14ff114d1c1dcf7b1177",
+      "bytes": 25102,
+      "fetchedAt": "2026-10-30T18:02:09.842Z",
+      "fetchedFrom": "https://web.archive.org/web/20250828152518id_/https://www.city.mihara.hiroshima.jp/site/gikai/kaiha.html"
+    },
+    {
+      "filename": "mihara_195649.html",
+      "sha256": "768bd27b50495e6bf7a4155712498494cbe7cbaa69712fe26989844d32b042c8",
+      "bytes": 52786,
+      "fetchedAt": "2026-10-30T18:02:09.843Z",
+      "fetchedFrom": "https://www.city.mihara.hiroshima.jp/site/gikai/195649.html"
+    },
+    {
+      "filename": "mihara_dayori84_p14.pdf",
+      "sha256": "fe6733f221e6eae9d5b86dab66deb16f307981421381fa91c6ace40d858667ca",
+      "bytes": 292793,
+      "fetchedAt": "2026-10-30T18:02:09.843Z",
+      "fetchedFrom": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/163083.pdf"
+    },
+    {
+      "filename": "mihara_162015.pdf",
+      "sha256": "99dd2fca99e69c5afa16798a5cb76801dd6ff590456dc7292e111d444b2fcd66",
+      "bytes": 203750,
+      "fetchedAt": "2026-10-30T18:02:09.844Z",
+      "fetchedFrom": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/162015.pdf"
+    },
+    {
+      "filename": "mihara_dayori85_p12.pdf",
+      "sha256": "5567d6f593ff6e7d058675be5b5bf8726579ee72b81c2a54e3a77d6dcb46c48e",
+      "bytes": 648598,
+      "fetchedAt": "2026-10-30T18:02:09.844Z",
+      "fetchedFrom": "https://www.city.mihara.hiroshima.jp/uploaded/attachment/165204.pdf"
+    }
+  ]
+}

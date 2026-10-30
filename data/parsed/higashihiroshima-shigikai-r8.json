@@ -1,0 +1,324 @@
+{
+  "docType": "council-composition",
+  "sourceId": "higashihiroshima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:13.557Z",
+  "fiscalYear": "R8",
+  "body": "東広島市議会",
+  "seats": 29,
+  "asOf": "2026-01-23",
+  "factions": [
+    {
+      "name": "清新の会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "北林光昭",
+        "上岡裕明",
+        "大下博隆",
+        "田坂武文",
+        "貞岩敬",
+        "重森佳代子",
+        "乗越耕司"
+      ],
+      "locator": {
+        "file": "2450.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "創志会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "玉川雅彦",
+        "上田秀",
+        "向井哲浩",
+        "中曽久勝",
+        "岡田育三",
+        "奥谷求"
+      ],
+      "locator": {
+        "file": "2450.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "石原賢治",
+        "小池恵美子",
+        "落海直哉",
+        "景山浩",
+        "中川修"
+      ],
+      "locator": {
+        "file": "2450.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "坂元百合子",
+        "下向智恵子",
+        "原田栄二"
+      ],
+      "locator": {
+        "file": "2450.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "創生会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岩崎和仁",
+        "片山貴志",
+        "牧尾良二"
+      ],
+      "locator": {
+        "file": "2450.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "真政倶楽部",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宮川誠子",
+        "山田学"
+      ],
+      "locator": {
+        "file": "2450.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "未来の風",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "鈴木英士",
+        "木村輝江"
+      ],
+      "locator": {
+        "file": "2450.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "谷晴美"
+      ],
+      "locator": {
+        "file": "2450.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第85号",
+    "billName": "令和8年度東広島市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "44260.html"
+    }
+  },
+  "rosterTitle": "東広島市議会 会派の構成「会派構成（令和8年1月23日現在）」（議決前 2026-03-16 の魚拓）",
+  "resultTitle": "令和8年第1回定例会 市長提出議案一覧（議決状況）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "市議会だより第211号（令和8年5月1日発行）p.5「表決が分かれた案件の表決結果」",
+    "sourceFile": "gianngaiyou211teireikai.pdf",
+    "columns": [
+      {
+        "label": "上岡裕明",
+        "faction": "清新の会",
+        "member": "上岡裕明",
+        "stance": "賛成"
+      },
+      {
+        "label": "大下博隆",
+        "faction": "清新の会",
+        "member": "大下博隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "田坂武文",
+        "faction": "清新の会",
+        "member": "田坂武文",
+        "stance": "賛成"
+      },
+      {
+        "label": "貞岩敬",
+        "faction": "清新の会",
+        "member": "貞岩敬",
+        "stance": "賛成"
+      },
+      {
+        "label": "北林光昭",
+        "faction": "清新の会",
+        "member": "北林光昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "重森佳代子",
+        "faction": "清新の会",
+        "member": "重森佳代子",
+        "stance": "賛成"
+      },
+      {
+        "label": "乗越耕司",
+        "faction": "清新の会",
+        "member": "乗越耕司",
+        "stance": "賛成"
+      },
+      {
+        "label": "上田秀",
+        "faction": "創志会",
+        "member": "上田秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "向井哲浩",
+        "faction": "創志会",
+        "member": "向井哲浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "中曽久勝",
+        "faction": "創志会",
+        "member": "中曽久勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田育三",
+        "faction": "創志会",
+        "member": "岡田育三",
+        "stance": "賛成"
+      },
+      {
+        "label": "玉川雅彦",
+        "faction": "創志会",
+        "member": "玉川雅彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥谷求",
+        "faction": "創志会",
+        "member": "奥谷求",
+        "stance": "議長"
+      },
+      {
+        "label": "小池恵美子",
+        "faction": "市民クラブ",
+        "member": "小池恵美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "落海直哉",
+        "faction": "市民クラブ",
+        "member": "落海直哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "景山浩",
+        "faction": "市民クラブ",
+        "member": "景山浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "中川修",
+        "faction": "市民クラブ",
+        "member": "中川修",
+        "stance": "賛成"
+      },
+      {
+        "label": "石原賢治",
+        "faction": "市民クラブ",
+        "member": "石原賢治",
+        "stance": "賛成"
+      },
+      {
+        "label": "下向智恵子",
+        "faction": "公明党",
+        "member": "下向智恵子",
+        "stance": "賛成"
+      },
+      {
+        "label": "原田栄二",
+        "faction": "公明党",
+        "member": "原田栄二",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂元百合子",
+        "faction": "公明党",
+        "member": "坂元百合子",
+        "stance": "賛成"
+      },
+      {
+        "label": "片山貴志",
+        "faction": "創生会",
+        "member": "片山貴志",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩崎和仁",
+        "faction": "創生会",
+        "member": "岩崎和仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "牧尾良二",
+        "faction": "創生会",
+        "member": "牧尾良二",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田学",
+        "faction": "真政倶楽部",
+        "member": "山田学",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮川誠子",
+        "faction": "真政倶楽部",
+        "member": "宮川誠子",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村輝江",
+        "faction": "未来の風",
+        "member": "木村輝江",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木英士",
+        "faction": "未来の風",
+        "member": "鈴木英士",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷晴美",
+        "faction": "日本共産党",
+        "member": "谷晴美",
+        "stance": "反対"
+      }
+    ]
+  }
+}

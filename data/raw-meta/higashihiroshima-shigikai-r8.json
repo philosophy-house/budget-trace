@@ -1,0 +1,26 @@
+{
+  "sourceId": "higashihiroshima-shigikai-r8",
+  "files": [
+    {
+      "filename": "2450.html",
+      "sha256": "27515d884983f7a61bcdf768294b6318ff51d97b91520d5123a6101b16b13d0c",
+      "bytes": 45832,
+      "fetchedAt": "2026-10-30T18:02:09.850Z",
+      "fetchedFrom": "https://web.archive.org/web/20260316124426id_/https://www.city.higashihiroshima.lg.jp/shgikai/4/2450.html"
+    },
+    {
+      "filename": "44260.html",
+      "sha256": "fb45bc344f82b4a01578b231e7b567f9b9c4d2190ddce9a34cdd829229191073",
+      "bytes": 129379,
+      "fetchedAt": "2026-10-30T18:02:09.850Z",
+      "fetchedFrom": "https://www.city.higashihiroshima.lg.jp/shgikai/11/1/reiwa08/44260.html"
+    },
+    {
+      "filename": "gianngaiyou211teireikai.pdf",
+      "sha256": "77764c315e774904b3809262ac5233f8d7016120d5ec5e665256297426391afc",
+      "bytes": 545121,
+      "fetchedAt": "2026-10-30T18:02:09.851Z",
+      "fetchedFrom": "https://www.city.higashihiroshima.lg.jp/material/files/group/66/gianngaiyou211teireikai.pdf"
+    }
+  ]
+}

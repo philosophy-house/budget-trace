@@ -1,0 +1,331 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hofu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:14.295Z",
+  "fiscalYear": "R8",
+  "body": "防府市議会",
+  "seats": 25,
+  "asOf": "2025-11-27",
+  "teisu": 25,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "上田和夫",
+        "上野忠彦",
+        "宇多村史朗",
+        "梅本洋平",
+        "河杉憲二",
+        "曽我好則",
+        "田中敏靖",
+        "中谷哲",
+        "藤村こずえ",
+        "安村政治"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "河村孝",
+        "生野美輪",
+        "村木正弘"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "絆",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "三原昭治",
+        "山田耕治"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民の声",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "重田直輝",
+        "和田敏明"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "久保潤爾",
+        "森重豊"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "国民民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "石田卓成"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "田中健次"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "市民と共に",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "宮元照美"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "自由民主党　明政会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "松村学"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "原田典子"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "未来防府",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "藤本真未"
+      ],
+      "locator": {
+        "file": "kaiha.html",
+        "row": 11
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第17号",
+    "billName": "令和８年度防府市一般会計予算",
+    "sessionLabel": "令和８年第１回防府市議会定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "148508.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "防府市議会「会派別の名簿を掲載しています」（令和7年11月27日現在の会派の名称及び構成）",
+  "resultTitle": "令和8年第1回防府市議会定例会 議案一覧（議案番号・件名・提出年月日・上程年月日・議決年月日・てんまつ）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第1回定例会（3月）「議案に対する各議員の意思表示」議案17の行",
+    "sourceFile": "148605.pdf",
+    "columns": [
+      {
+        "label": "上田和夫",
+        "faction": "自由民主党",
+        "member": "上田和夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "上野忠彦",
+        "faction": "自由民主党",
+        "member": "上野忠彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "宇多村史朗",
+        "faction": "自由民主党",
+        "member": "宇多村史朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "梅本洋平",
+        "faction": "自由民主党",
+        "member": "梅本洋平",
+        "stance": "賛成"
+      },
+      {
+        "label": "河杉憲二",
+        "faction": "自由民主党",
+        "member": "河杉憲二",
+        "stance": "賛成"
+      },
+      {
+        "label": "曽我好則",
+        "faction": "自由民主党",
+        "member": "曽我好則",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中敏靖",
+        "faction": "自由民主党",
+        "member": "田中敏靖",
+        "stance": "賛成"
+      },
+      {
+        "label": "中谷哲",
+        "faction": "自由民主党",
+        "member": "中谷哲",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤村こずえ",
+        "faction": "自由民主党",
+        "member": "藤村こずえ",
+        "stance": "賛成"
+      },
+      {
+        "label": "河村孝",
+        "faction": "公明党",
+        "member": "河村孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "生野美輪",
+        "faction": "公明党",
+        "member": "生野美輪",
+        "stance": "賛成"
+      },
+      {
+        "label": "村木正弘",
+        "faction": "公明党",
+        "member": "村木正弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "三原昭治",
+        "faction": "絆",
+        "member": "三原昭治",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田耕治",
+        "faction": "絆",
+        "member": "山田耕治",
+        "stance": "賛成"
+      },
+      {
+        "label": "重田直輝",
+        "faction": "市民の声",
+        "member": "重田直輝",
+        "stance": "賛成"
+      },
+      {
+        "label": "和田敏明",
+        "faction": "市民の声",
+        "member": "和田敏明",
+        "stance": "賛成"
+      },
+      {
+        "label": "久保潤爾",
+        "faction": "無所属の会",
+        "member": "久保潤爾",
+        "stance": "賛成"
+      },
+      {
+        "label": "森重豊",
+        "faction": "無所属の会",
+        "member": "森重豊",
+        "stance": "賛成"
+      },
+      {
+        "label": "石田卓成",
+        "faction": "国民民主党",
+        "member": "石田卓成",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中健次",
+        "faction": "市民クラブ",
+        "member": "田中健次",
+        "stance": "反対"
+      },
+      {
+        "label": "宮元照美",
+        "faction": "市民と共に",
+        "member": "宮元照美",
+        "stance": "賛成"
+      },
+      {
+        "label": "松村学",
+        "faction": "自由民主党　明政会",
+        "member": "松村学",
+        "stance": "賛成"
+      },
+      {
+        "label": "原田典子",
+        "faction": "日本共産党",
+        "member": "原田典子",
+        "stance": "反対"
+      },
+      {
+        "label": "藤本真未",
+        "faction": "未来防府",
+        "member": "藤本真未",
+        "stance": "賛成"
+      },
+      {
+        "label": "安村政治",
+        "faction": "自由民主党",
+        "member": "安村政治",
+        "stance": "議長"
+      }
+    ]
+  }
+}

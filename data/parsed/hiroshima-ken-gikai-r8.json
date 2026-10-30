@@ -1,0 +1,247 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hiroshima-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:12.412Z",
+  "fiscalYear": "R8",
+  "body": "広島県議会",
+  "seats": 63,
+  "asOf": "2026-02-05",
+  "factions": [
+    {
+      "name": "自由民主党広島県議会議員連盟",
+      "seats": 34,
+      "isIndependent": false,
+      "members": [
+        "宇田伸",
+        "中本隆志",
+        "冨永健三",
+        "松岡宏道",
+        "安井裕典",
+        "小林秀矩",
+        "緒方直之",
+        "沖井純",
+        "山下智之",
+        "森川家忠",
+        "下森宏昭",
+        "吉井清介",
+        "窪田泰久",
+        "狭戸尾浩",
+        "宮崎康則",
+        "三好良治",
+        "出原昌直",
+        "畑石顕司",
+        "伊藤英治",
+        "林大蔵",
+        "坪川竜大",
+        "竹原哲",
+        "山木茂",
+        "恵飛須圭二",
+        "玉重輝吉",
+        "灰岡香奈",
+        "本長糧太",
+        "神田隆彦",
+        "山下守",
+        "加納孝彦",
+        "山形しのぶ",
+        "岡野斉也",
+        "八幡原圭",
+        "水口弘士"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "広島県議会民主県政会",
+      "seats": 14,
+      "isIndependent": false,
+      "members": [
+        "犬童英徳",
+        "中原好治",
+        "東保幸",
+        "金口巖",
+        "桑木良典",
+        "福知基弘",
+        "瀧本実",
+        "西本博之",
+        "的場豊",
+        "鷹廣純",
+        "高田稔",
+        "稲葉潔",
+        "柿本忠則",
+        "上野寛治"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党広島県議会議員団",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "栗原俊二",
+        "尾熊良一",
+        "石津正啓",
+        "岡部千鶴",
+        "井上謙一郎",
+        "相澤孝"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "自由民主党広島県議会広志会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "城戸常太",
+        "井原修",
+        "富永やよい"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党広島県議会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "藤井敏子",
+        "河村晃子"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "自由民主党広島県議会議員会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "檜山俊宏"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無所属ひとわ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "蔵本健"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "ひろしま、刷新。",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "村上栄二"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "義友会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "砂原崇弘"
+      ],
+      "locator": {
+        "file": "giin-giin-kai_20260313.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "県第1号議案",
+    "billName": "令和８年度広島県一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "可決",
+    "locator": {
+      "file": "660530.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "広島県議会 会派別議員名簿（令和8年2月5日現在・掲載日 2026年2月10日）の議決前の魚拓（2026-03-13）",
+  "resultTitle": "令和８年２月定例会 議案等審議結果",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "令和８年２月定例会 議案等審議結果（令和８年３月17日採決）",
+    "sourceFile": "660530.pdf",
+    "columns": [
+      {
+        "label": "自民議連",
+        "faction": "自由民主党広島県議会議員連盟",
+        "stance": "賛成"
+      },
+      {
+        "label": "県政会",
+        "faction": "広島県議会民主県政会",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明党",
+        "faction": "公明党広島県議会議員団",
+        "stance": "賛成"
+      },
+      {
+        "label": "広志会",
+        "faction": "自由民主党広島県議会広志会",
+        "stance": "賛成"
+      },
+      {
+        "label": "共産党",
+        "faction": "日本共産党広島県議会議員団",
+        "stance": "反対"
+      },
+      {
+        "label": "自民会",
+        "faction": "自由民主党広島県議会議員会",
+        "stance": "賛成"
+      },
+      {
+        "label": "無所属ひとわ",
+        "faction": "無所属ひとわ",
+        "stance": "賛成"
+      },
+      {
+        "label": "ひろしま",
+        "faction": "ひろしま、刷新。",
+        "stance": "賛成"
+      },
+      {
+        "label": "義友会",
+        "faction": "義友会",
+        "stance": "賛成"
+      },
+      {
+        "label": "中本隆志",
+        "faction": "自由民主党広島県議会議員連盟",
+        "member": "中本隆志",
+        "stance": "議長"
+      }
+    ]
+  }
+}
