@@ -1,0 +1,33 @@
+{
+  "sourceId": "tochigi-shi-shigikai-r8",
+  "files": [
+    {
+      "filename": "7616.html",
+      "sha256": "f4bc4a8012d65e807f7ebc373e76ccf85cd368e45ee0d8d889914734fd571324",
+      "bytes": 29380,
+      "fetchedAt": "2026-10-30T15:49:34.282Z",
+      "fetchedFrom": "https://web.archive.org/web/20260310152655id_/https://www.city.tochigi.lg.jp/site/gikai/7616.html"
+    },
+    {
+      "filename": "68967.pdf",
+      "sha256": "5a2454b3020c9ea1854aff6d0cc1ba4cce01d113140526e613dee8ed2b6e78e6",
+      "bytes": 3498266,
+      "fetchedAt": "2026-10-30T15:49:34.284Z",
+      "fetchedFrom": "https://www.city.tochigi.lg.jp/uploaded/attachment/68967.pdf"
+    },
+    {
+      "filename": "68969.pdf",
+      "sha256": "f2a407475618f1ebedd6438bff8c136a29595d5840fbe6dc3fd1839e8f9bcd55",
+      "bytes": 139289,
+      "fetchedAt": "2026-10-30T15:49:34.284Z",
+      "fetchedFrom": "https://www.city.tochigi.lg.jp/uploaded/attachment/68969.pdf"
+    },
+    {
+      "filename": "84554.html",
+      "sha256": "b10c74e3d7a8904d83aefc207dd3de1c833304cadd09f0c6fc81e6dd0573ea8b",
+      "bytes": 30137,
+      "fetchedAt": "2026-10-30T15:49:34.285Z",
+      "fetchedFrom": "https://www.city.tochigi.lg.jp/site/gikai/84554.html"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "ginowan-shigikai-r8",
+  "files": [
+    {
+      "filename": "ginowan_471sannpiitirann.pdf",
+      "sha256": "dd6632f02bd0d7693c75cfd6a9a6d811fb3c3e867e38df8e729381125332080a",
+      "bytes": 417194,
+      "fetchedAt": "2026-10-30T15:49:34.270Z",
+      "fetchedFrom": "https://www.city.ginowan.lg.jp/material/files/group/61/471sannpiitirann.pdf"
+    },
+    {
+      "filename": "ginowan_giketukekka471.pdf",
+      "sha256": "0a87e3dd0c080e2cfcf2290438c0c32dfb33ebd8644d500e7b74a94a3ea47f24",
+      "bytes": 371638,
+      "fetchedAt": "2026-10-30T15:49:34.271Z",
+      "fetchedFrom": "https://www.city.ginowan.lg.jp/material/files/group/61/giketukekka471.pdf"
+    },
+    {
+      "filename": "ginowan_4808_wb20251207070939.html",
+      "sha256": "436a712a0d743b3f5566ca479fef7ad146a8a5a4c97aa11420505991d70c471f",
+      "bytes": 84383,
+      "fetchedAt": "2026-10-30T15:49:34.271Z",
+      "fetchedFrom": "https://web.archive.org/web/20251207070939id_/https://www.city.ginowan.lg.jp/shisei/gikai/1/4808.html"
+    },
+    {
+      "filename": "ginowan_4805_wb20251207070653.html",
+      "sha256": "c06186799dd7a87bcc42f4dab2e1bcfa6bb24f8fdb074f0d1c458dc4b1869521",
+      "bytes": 53096,
+      "fetchedAt": "2026-10-30T15:49:34.272Z",
+      "fetchedFrom": "https://web.archive.org/web/20251207070653id_/https://www.city.ginowan.lg.jp/shisei/gikai/4/4805.html"
+    }
+  ]
+}

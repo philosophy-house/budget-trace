@@ -1,0 +1,333 @@
+{
+  "docType": "council-composition",
+  "sourceId": "uruma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:26.107Z",
+  "fiscalYear": "R8",
+  "body": "うるま市議会",
+  "seats": 30,
+  "asOf": "2026-03-24",
+  "teisu": 30,
+  "factions": [
+    {
+      "name": "かけはし",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "大城直",
+        "池宮城善伸",
+        "幸喜勇",
+        "玉城政哉",
+        "玉元哉世",
+        "比嘉直人"
+      ],
+      "locator": {
+        "file": "sanpi187saisyuu1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新政クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "平良一雄",
+        "糸数昌宗",
+        "高屋優",
+        "真壁朝弘"
+      ],
+      "locator": {
+        "file": "sanpi187saisyuu1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "希望のいぶき",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "仲程孝",
+        "国吉亮",
+        "又吉法尚",
+        "山城良太"
+      ],
+      "locator": {
+        "file": "sanpi187saisyuu1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "津梁",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "伊波良明",
+        "神田洋一",
+        "國場正剛",
+        "下門勝",
+        "天願こうや",
+        "天願久史"
+      ],
+      "locator": {
+        "file": "sanpi187saisyuu1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "与開之会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "藏根武",
+        "兼本光治",
+        "佐久田悟"
+      ],
+      "locator": {
+        "file": "sanpi187saisyuu1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "うるま市民クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "伊波洋",
+        "伊礼正",
+        "上西真理",
+        "宮城一寿"
+      ],
+      "locator": {
+        "file": "sanpi187saisyuu1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "伊盛サチ子",
+        "金城加奈栄"
+      ],
+      "locator": {
+        "file": "sanpi187saisyuu1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（真栄城隆）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "真栄城隆"
+      ],
+      "locator": {
+        "file": "sanpi187saisyuu1.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第9号",
+    "billName": "令和８年度うるま市一般会計予算",
+    "sessionLabel": "令和８年２月第１８７回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "sanpi187saisyuu1.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議案（全会一致を除く）に対する議員の賛否一覧（令和８年２月第１８７回定例会）の表頭（会派の見出しと議員名）",
+  "resultTitle": "議案（全会一致を除く）に対する議員の賛否一覧（令和８年２月第１８７回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議案（全会一致を除く）に対する議員の賛否一覧（令和８年２月第１８７回定例会）",
+    "sourceFile": "sanpi187saisyuu1.pdf",
+    "columns": [
+      {
+        "label": "大城直",
+        "faction": "かけはし",
+        "member": "大城直",
+        "stance": "賛成"
+      },
+      {
+        "label": "池宮城善伸",
+        "faction": "かけはし",
+        "member": "池宮城善伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "幸喜勇",
+        "faction": "かけはし",
+        "member": "幸喜勇",
+        "stance": "賛成"
+      },
+      {
+        "label": "玉城政哉",
+        "faction": "かけはし",
+        "member": "玉城政哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "玉元哉世",
+        "faction": "かけはし",
+        "member": "玉元哉世",
+        "stance": "賛成"
+      },
+      {
+        "label": "平良一雄",
+        "faction": "新政クラブ",
+        "member": "平良一雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "糸数昌宗",
+        "faction": "新政クラブ",
+        "member": "糸数昌宗",
+        "stance": "賛成"
+      },
+      {
+        "label": "高屋優",
+        "faction": "新政クラブ",
+        "member": "高屋優",
+        "stance": "賛成"
+      },
+      {
+        "label": "真壁朝弘",
+        "faction": "新政クラブ",
+        "member": "真壁朝弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "仲程孝",
+        "faction": "希望のいぶき",
+        "member": "仲程孝",
+        "stance": "反対"
+      },
+      {
+        "label": "国吉亮",
+        "faction": "希望のいぶき",
+        "member": "国吉亮",
+        "stance": "反対"
+      },
+      {
+        "label": "又吉法尚",
+        "faction": "希望のいぶき",
+        "member": "又吉法尚",
+        "stance": "反対"
+      },
+      {
+        "label": "山城良太",
+        "faction": "希望のいぶき",
+        "member": "山城良太",
+        "stance": "反対"
+      },
+      {
+        "label": "伊波良明",
+        "faction": "津梁",
+        "member": "伊波良明",
+        "stance": "賛成"
+      },
+      {
+        "label": "神田洋一",
+        "faction": "津梁",
+        "member": "神田洋一",
+        "stance": "賛成"
+      },
+      {
+        "label": "國場正剛",
+        "faction": "津梁",
+        "member": "國場正剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "下門勝",
+        "faction": "津梁",
+        "member": "下門勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "天願こうや",
+        "faction": "津梁",
+        "member": "天願こうや",
+        "stance": "賛成"
+      },
+      {
+        "label": "天願久史",
+        "faction": "津梁",
+        "member": "天願久史",
+        "stance": "賛成"
+      },
+      {
+        "label": "藏根武",
+        "faction": "与開之会",
+        "member": "藏根武",
+        "stance": "賛成"
+      },
+      {
+        "label": "兼本光治",
+        "faction": "与開之会",
+        "member": "兼本光治",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐久田悟",
+        "faction": "与開之会",
+        "member": "佐久田悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊波洋",
+        "faction": "うるま市民クラブ",
+        "member": "伊波洋",
+        "stance": "反対"
+      },
+      {
+        "label": "伊礼正",
+        "faction": "うるま市民クラブ",
+        "member": "伊礼正",
+        "stance": "反対"
+      },
+      {
+        "label": "上西真理",
+        "faction": "うるま市民クラブ",
+        "member": "上西真理",
+        "stance": "反対"
+      },
+      {
+        "label": "宮城一寿",
+        "faction": "うるま市民クラブ",
+        "member": "宮城一寿",
+        "stance": "反対"
+      },
+      {
+        "label": "伊盛サチ子",
+        "faction": "日本共産党",
+        "member": "伊盛サチ子",
+        "stance": "反対"
+      },
+      {
+        "label": "金城加奈栄",
+        "faction": "日本共産党",
+        "member": "金城加奈栄",
+        "stance": "反対"
+      },
+      {
+        "label": "真栄城隆",
+        "faction": "無所属（真栄城隆）",
+        "member": "真栄城隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "比嘉直人",
+        "faction": "かけはし",
+        "member": "比嘉直人",
+        "stance": "議長"
+      }
+    ]
+  }
+}

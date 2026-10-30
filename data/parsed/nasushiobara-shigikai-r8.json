@@ -1,0 +1,129 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nasushiobara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:29.064Z",
+  "fiscalYear": "R8",
+  "body": "那須塩原市議会",
+  "seats": 24,
+  "asOf": "2026-03-18",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "シン・那須塩原",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "松野真弓",
+        "赤塚茂昭",
+        "小出浩美",
+        "林美幸",
+        "森本彰伸",
+        "齊藤誠之",
+        "相馬剛",
+        "松田寛人",
+        "齋藤寿一"
+      ],
+      "locator": {
+        "file": "gikaidayori119th_HP.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "公明クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "矢島秀浩",
+        "星野健二",
+        "田村正宏",
+        "星宏子"
+      ],
+      "locator": {
+        "file": "gikaidayori119th_HP.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "なすの会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "三本木直人",
+        "佐藤一則",
+        "小島耕一",
+        "金子哲也"
+      ],
+      "locator": {
+        "file": "gikaidayori119th_HP.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "みらい共創",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "室井孝幸",
+        "山形紀弘",
+        "平山武",
+        "中村芳隆"
+      ],
+      "locator": {
+        "file": "gikaidayori119th_HP.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "敬清会（大野恭男）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大野恭男"
+      ],
+      "locator": {
+        "file": "gikaidayori119th_HP.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党（堤正明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "堤正明"
+      ],
+      "locator": {
+        "file": "gikaidayori119th_HP.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "りっけん市民の会（戸張靖久）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "戸張靖久"
+      ],
+      "locator": {
+        "file": "gikaidayori119th_HP.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１９号",
+    "billName": "令和8年度那須塩原市一般会計予算",
+    "sessionLabel": "令和８年３月那須塩原市議会定例会議",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "R803_result.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "那須塩原市議会だより第119号（令和8年5月20日号）p.4「各議員の議案に対する賛否の状況」の表頭（会派構成は令和８年３月定例会議時点）",
+  "resultTitle": "令和８年３月那須塩原市議会定例会議 案件及び結果表"
+}

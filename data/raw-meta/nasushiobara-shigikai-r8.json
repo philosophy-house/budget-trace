@@ -1,0 +1,26 @@
+{
+  "sourceId": "nasushiobara-shigikai-r8",
+  "files": [
+    {
+      "filename": "gikaidayori119th_HP.pdf",
+      "sha256": "7059c4f7c90fb441c416fbe074321e5407520c18698d7406d76af1faf17f5795",
+      "bytes": 4893601,
+      "fetchedAt": "2026-10-30T15:49:34.289Z",
+      "fetchedFrom": "https://www.city.nasushiobara.tochigi.jp/material/files/group/60/gikaidayori119th_HP.pdf"
+    },
+    {
+      "filename": "R803_result.pdf",
+      "sha256": "8dcfb0275bc6db48d8f498280152071c67b3d143c7a6b9ffcdf8a5e0b25d5165",
+      "bytes": 92527,
+      "fetchedAt": "2026-10-30T15:49:34.289Z",
+      "fetchedFrom": "https://www.city.nasushiobara.tochigi.jp/material/files/group/60/R803_result.pdf"
+    },
+    {
+      "filename": "gikaidayori_117.pdf",
+      "sha256": "e340ea270ccb5d1e7c67898b9a7317dcb0a5d20310df085b05fee83d93617434",
+      "bytes": 3145318,
+      "fetchedAt": "2026-10-30T15:49:34.291Z",
+      "fetchedFrom": "https://www.city.nasushiobara.tochigi.jp/material/files/group/60/gikaidayori_117.pdf"
+    }
+  ]
+}

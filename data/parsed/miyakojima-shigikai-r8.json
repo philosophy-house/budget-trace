@@ -1,0 +1,137 @@
+{
+  "docType": "council-composition",
+  "sourceId": "miyakojima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:27.659Z",
+  "fiscalYear": "R8",
+  "body": "宮古島市議会",
+  "seats": 22,
+  "asOf": "2025-12-01",
+  "factions": [
+    {
+      "name": "蒼和会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "池間仁",
+        "平良敏夫",
+        "平良和彦",
+        "豊見山貴仁",
+        "大城仁"
+      ],
+      "locator": {
+        "file": "kaihameibo1201.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "幸政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "下地信広",
+        "狩俣勝紀",
+        "下地信男",
+        "狩俣勝成"
+      ],
+      "locator": {
+        "file": "kaihameibo1201.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "狩俣政作",
+        "富浜靖雄"
+      ],
+      "locator": {
+        "file": "kaihameibo1201.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "地域創生保守会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "粟国恒広",
+        "砂川浩平"
+      ],
+      "locator": {
+        "file": "kaihameibo1201.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "Next みやこ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "仲間誉人",
+        "山下誠",
+        "砂川和也"
+      ],
+      "locator": {
+        "file": "kaihameibo1201.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "宮古創進会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "根間康雄",
+        "前里光健",
+        "平良恵泰"
+      ],
+      "locator": {
+        "file": "kaihameibo1201.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民フォーラムまてぃだ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "國仲昌二",
+        "下地茜"
+      ],
+      "locator": {
+        "file": "kaihameibo1201.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（我如古三雄）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "我如古三雄"
+      ],
+      "locator": {
+        "file": "kaihameibo1201.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第20号",
+    "billName": "令和８年度宮古島市一般会計予算",
+    "sessionLabel": "令和８年第２回宮古島市議会定例会（３月）",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8.3syorikekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "第６期 宮古島市議会議員 会派名簿（令和7年12月1日現在）",
+  "resultTitle": "上程案件処理結果（令和８年第２回宮古島市議会（定例会））"
+}

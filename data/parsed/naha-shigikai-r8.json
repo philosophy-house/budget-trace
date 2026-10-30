@@ -1,0 +1,413 @@
+{
+  "docType": "council-composition",
+  "sourceId": "naha-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:22.555Z",
+  "fiscalYear": "R8",
+  "body": "那覇市議会",
+  "seats": 40,
+  "asOf": "2026-03-17",
+  "teisu": 40,
+  "factions": [
+    {
+      "name": "なは自民・無所属の会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "上原ゆいな",
+        "嘉手川こうた",
+        "下地ななえ",
+        "外間有里",
+        "山川典二",
+        "金城なおこ",
+        "比嘉啓登",
+        "屋良栄作",
+        "粟國彰"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "立津伸城",
+        "上地貴大",
+        "吉里明",
+        "大城わかこ",
+        "野原嘉孝",
+        "幸地わかえ",
+        "金城亮太"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "古堅茂治",
+        "湧川朝渉",
+        "我如古一郎",
+        "前田千尋",
+        "西中間久枝"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "立憲民主・ニライ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "平良昌史",
+        "清水マオ",
+        "山田マドカ",
+        "普久原あさひ",
+        "喜屋武幸容"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "れいわ那覇ぬちぐくる",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大山盛嗣",
+        "村上ゆうじ",
+        "いずみティファニー"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無所属クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宇根良也",
+        "仲田奨司"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "みんなの協働！",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "上里ただし",
+        "上原仙子"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "うない・にぬふぁ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "瀬名波奎",
+        "糸数たかこ"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "奥間綾乃",
+        "和田圭子",
+        "瑞慶覧りか",
+        "前泊美紀",
+        "坂井浩二"
+      ],
+      "locator": {
+        "file": "naha_dayori253.pdf",
+        "page": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第22号",
+    "billName": "令和8年度那覇市一般会計予算",
+    "sessionLabel": "令和8年（2026年）2月　那覇市議会定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決（賛成多数）",
+    "locator": {
+      "file": "naha_1010952.html"
+    }
+  },
+  "rosterTitle": "なは市議会だより第253号（令和8年2月定例会号・令和8年5月発行）p.12「議案等（全会一致を除く）に対する議員の賛否一覧〔令和8年2月定例会〕」の表頭",
+  "resultTitle": "令和8年（2026年）2月 那覇市議会定例会 議案書等（議案番号・事件名・議決年月日・議決結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "なは市議会だより第253号 p.12「議案等（全会一致を除く）に対する議員の賛否一覧〔令和8年2月定例会〕」",
+    "sourceFile": "naha_dayori253.pdf",
+    "columns": [
+      {
+        "label": "上原ゆいな",
+        "faction": "なは自民・無所属の会",
+        "member": "上原ゆいな",
+        "stance": "賛成"
+      },
+      {
+        "label": "嘉手川こうた",
+        "faction": "なは自民・無所属の会",
+        "member": "嘉手川こうた",
+        "stance": "賛成"
+      },
+      {
+        "label": "下地ななえ",
+        "faction": "なは自民・無所属の会",
+        "member": "下地ななえ",
+        "stance": "賛成"
+      },
+      {
+        "label": "外間有里",
+        "faction": "なは自民・無所属の会",
+        "member": "外間有里",
+        "stance": "欠席"
+      },
+      {
+        "label": "山川典二",
+        "faction": "なは自民・無所属の会",
+        "member": "山川典二",
+        "stance": "賛成"
+      },
+      {
+        "label": "金城なおこ",
+        "faction": "なは自民・無所属の会",
+        "member": "金城なおこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "比嘉啓登",
+        "faction": "なは自民・無所属の会",
+        "member": "比嘉啓登",
+        "stance": "賛成"
+      },
+      {
+        "label": "屋良栄作",
+        "faction": "なは自民・無所属の会",
+        "member": "屋良栄作",
+        "stance": "賛成"
+      },
+      {
+        "label": "粟國彰",
+        "faction": "なは自民・無所属の会",
+        "member": "粟國彰",
+        "stance": "賛成"
+      },
+      {
+        "label": "立津伸城",
+        "faction": "公明党",
+        "member": "立津伸城",
+        "stance": "賛成"
+      },
+      {
+        "label": "上地貴大",
+        "faction": "公明党",
+        "member": "上地貴大",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉里明",
+        "faction": "公明党",
+        "member": "吉里明",
+        "stance": "賛成"
+      },
+      {
+        "label": "大城わかこ",
+        "faction": "公明党",
+        "member": "大城わかこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "野原嘉孝",
+        "faction": "公明党",
+        "member": "野原嘉孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "幸地わかえ",
+        "faction": "公明党",
+        "member": "幸地わかえ",
+        "stance": "賛成"
+      },
+      {
+        "label": "金城亮太",
+        "faction": "公明党",
+        "member": "金城亮太",
+        "stance": "賛成"
+      },
+      {
+        "label": "古堅茂治",
+        "faction": "日本共産党",
+        "member": "古堅茂治",
+        "stance": "反対"
+      },
+      {
+        "label": "湧川朝渉",
+        "faction": "日本共産党",
+        "member": "湧川朝渉",
+        "stance": "反対"
+      },
+      {
+        "label": "我如古一郎",
+        "faction": "日本共産党",
+        "member": "我如古一郎",
+        "stance": "反対"
+      },
+      {
+        "label": "前田千尋",
+        "faction": "日本共産党",
+        "member": "前田千尋",
+        "stance": "反対"
+      },
+      {
+        "label": "西中間久枝",
+        "faction": "日本共産党",
+        "member": "西中間久枝",
+        "stance": "反対"
+      },
+      {
+        "label": "平良昌史",
+        "faction": "立憲民主・ニライ",
+        "member": "平良昌史",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水マオ",
+        "faction": "立憲民主・ニライ",
+        "member": "清水マオ",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田マドカ",
+        "faction": "立憲民主・ニライ",
+        "member": "山田マドカ",
+        "stance": "賛成"
+      },
+      {
+        "label": "普久原あさひ",
+        "faction": "立憲民主・ニライ",
+        "member": "普久原あさひ",
+        "stance": "賛成"
+      },
+      {
+        "label": "喜屋武幸容",
+        "faction": "立憲民主・ニライ",
+        "member": "喜屋武幸容",
+        "stance": "賛成"
+      },
+      {
+        "label": "大山盛嗣",
+        "faction": "れいわ那覇ぬちぐくる",
+        "member": "大山盛嗣",
+        "stance": "反対"
+      },
+      {
+        "label": "村上ゆうじ",
+        "faction": "れいわ那覇ぬちぐくる",
+        "member": "村上ゆうじ",
+        "stance": "反対"
+      },
+      {
+        "label": "いずみティファニー",
+        "faction": "れいわ那覇ぬちぐくる",
+        "member": "いずみティファニー",
+        "stance": "反対"
+      },
+      {
+        "label": "宇根良也",
+        "faction": "無所属クラブ",
+        "member": "宇根良也",
+        "stance": "賛成"
+      },
+      {
+        "label": "仲田奨司",
+        "faction": "無所属クラブ",
+        "member": "仲田奨司",
+        "stance": "賛成"
+      },
+      {
+        "label": "上里ただし",
+        "faction": "みんなの協働！",
+        "member": "上里ただし",
+        "stance": "賛成"
+      },
+      {
+        "label": "上原仙子",
+        "faction": "みんなの協働！",
+        "member": "上原仙子",
+        "stance": "賛成"
+      },
+      {
+        "label": "瀬名波奎",
+        "faction": "うない・にぬふぁ",
+        "member": "瀬名波奎",
+        "stance": "賛成"
+      },
+      {
+        "label": "糸数たかこ",
+        "faction": "うない・にぬふぁ",
+        "member": "糸数たかこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥間綾乃",
+        "faction": "無所属",
+        "member": "奥間綾乃",
+        "stance": "賛成"
+      },
+      {
+        "label": "和田圭子",
+        "faction": "無所属",
+        "member": "和田圭子",
+        "stance": "賛成"
+      },
+      {
+        "label": "瑞慶覧りか",
+        "faction": "無所属",
+        "member": "瑞慶覧りか",
+        "stance": "賛成"
+      },
+      {
+        "label": "前泊美紀",
+        "faction": "無所属",
+        "member": "前泊美紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂井浩二",
+        "faction": "無所属",
+        "member": "坂井浩二",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "docType": "council-composition",
+  "sourceId": "gunma-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:31.039Z",
+  "fiscalYear": "R8",
+  "body": "群馬県議会",
+  "seats": 46,
+  "asOf": "2026-03-18",
+  "teisu": 50,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 30,
+      "isIndependent": false,
+      "members": [
+        "久保田順一郎",
+        "星野寛",
+        "狩野浩志",
+        "橋爪洋介",
+        "井田泉",
+        "井下泰伸",
+        "金井康夫",
+        "安孫子哲",
+        "須藤和臣",
+        "伊藤清",
+        "大和勲",
+        "川野辺達也",
+        "松本基志",
+        "斉藤優",
+        "大林裕子",
+        "森昌彦",
+        "入内島道隆",
+        "矢野英司",
+        "高井俊一郎",
+        "亀山貴史",
+        "秋山健太郎",
+        "牛木義",
+        "追川徳信",
+        "須永聡",
+        "鈴木数成",
+        "丹羽あゆみ",
+        "松本隆志",
+        "今井俊哉",
+        "水野喜徳",
+        "中島豪"
+      ],
+      "locator": {
+        "file": "693553.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "つる舞う",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "あべともよ",
+        "金子渡",
+        "井田泰彦",
+        "金沢充隆",
+        "粟野好映"
+      ],
+      "locator": {
+        "file": "693553.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "リベラル群馬",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "後藤克己",
+        "本郷高明",
+        "加賀谷富士子",
+        "鈴木敦子"
+      ],
+      "locator": {
+        "file": "693553.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "水野俊雄",
+        "藥丸潔",
+        "清水大樹"
+      ],
+      "locator": {
+        "file": "693553.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "酒井宏明",
+        "大沢綾子"
+      ],
+      "locator": {
+        "file": "693553.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "群馬維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "宮崎岳志"
+      ],
+      "locator": {
+        "file": "693553.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（相沢崇文）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "相沢崇文"
+      ],
+      "locator": {
+        "file": "693553.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "1",
+    "billName": "令和8年度群馬県一般会計予算",
+    "sessionLabel": "令和８年第１回後期定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "693553.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議決結果（知事提出議案 ３/18議決分）p.1 の党（会）派名・議員名の表頭",
+  "resultTitle": "議決結果（知事提出議案 ３/18議決分）"
+}

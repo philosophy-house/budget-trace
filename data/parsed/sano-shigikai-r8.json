@@ -1,0 +1,291 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sano-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:29.332Z",
+  "fiscalYear": "R8",
+  "body": "佐野市議会",
+  "seats": 24,
+  "asOf": "2025-05-13",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "創政クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "久保貴洋",
+        "澤田裕之",
+        "栗﨑卓二",
+        "茂木明男",
+        "横塚剛",
+        "田邉直美",
+        "堀川悦郎"
+      ],
+      "locator": {
+        "file": "26082.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "政友みらい",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "山菅直己",
+        "慶野常夫",
+        "小倉健一",
+        "大山圭司"
+      ],
+      "locator": {
+        "file": "26082.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党議員会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小森隆一",
+        "菅原達",
+        "谷美枝子"
+      ],
+      "locator": {
+        "file": "26082.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "令和みらい",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "蘒原政夫",
+        "川嶋嘉一",
+        "神宮次秀樹"
+      ],
+      "locator": {
+        "file": "26082.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "鶴見義明",
+        "滝田洋子"
+      ],
+      "locator": {
+        "file": "26082.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "佐野市の明日をつくる会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "長浜成仁",
+        "立川俊一"
+      ],
+      "locator": {
+        "file": "26082.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "未来の佐野を明るくする会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "早川貴光",
+        "猪瀬朱美"
+      ],
+      "locator": {
+        "file": "26082.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "会派に属さない議員（井川克彦）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "井川克彦"
+      ],
+      "locator": {
+        "file": "26082.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第56号",
+    "billName": "令和８年度佐野市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8_1_sanpi_all.pdf",
+      "page": 8
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年5月13日現在・更新日 2025年09月18日）",
+  "resultTitle": "令和8年第1回定例会 議決結果賛否一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第1回定例会 議決結果賛否一覧",
+    "sourceFile": "R8_1_sanpi_all.pdf",
+    "columns": [
+      {
+        "label": "堀川悦郎",
+        "faction": "創政クラブ",
+        "member": "堀川悦郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "田邉直美",
+        "faction": "創政クラブ",
+        "member": "田邉直美",
+        "stance": "賛成"
+      },
+      {
+        "label": "横塚剛",
+        "faction": "創政クラブ",
+        "member": "横塚剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "茂木明男",
+        "faction": "創政クラブ",
+        "member": "茂木明男",
+        "stance": "賛成"
+      },
+      {
+        "label": "立川俊一",
+        "faction": "佐野市の明日をつくる会",
+        "member": "立川俊一",
+        "stance": "賛成"
+      },
+      {
+        "label": "長浜成仁",
+        "faction": "佐野市の明日をつくる会",
+        "member": "長浜成仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷美枝子",
+        "faction": "公明党議員会",
+        "member": "谷美枝子",
+        "stance": "賛成"
+      },
+      {
+        "label": "井川克彦",
+        "faction": "会派に属さない議員（井川克彦）",
+        "member": "井川克彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "栗﨑卓二",
+        "faction": "創政クラブ",
+        "member": "栗﨑卓二",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤田裕之",
+        "faction": "創政クラブ",
+        "member": "澤田裕之",
+        "stance": "賛成"
+      },
+      {
+        "label": "蘒原政夫",
+        "faction": "令和みらい",
+        "member": "蘒原政夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "神宮次秀樹",
+        "faction": "令和みらい",
+        "member": "神宮次秀樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "猪瀬朱美",
+        "faction": "未来の佐野を明るくする会",
+        "member": "猪瀬朱美",
+        "stance": "賛成"
+      },
+      {
+        "label": "早川貴光",
+        "faction": "未来の佐野を明るくする会",
+        "member": "早川貴光",
+        "stance": "賛成"
+      },
+      {
+        "label": "大山圭司",
+        "faction": "政友みらい",
+        "member": "大山圭司",
+        "stance": "賛成"
+      },
+      {
+        "label": "小倉健一",
+        "faction": "政友みらい",
+        "member": "小倉健一",
+        "stance": "賛成"
+      },
+      {
+        "label": "小森隆一",
+        "faction": "公明党議員会",
+        "member": "小森隆一",
+        "stance": "賛成"
+      },
+      {
+        "label": "久保貴洋",
+        "faction": "創政クラブ",
+        "member": "久保貴洋",
+        "stance": "賛成"
+      },
+      {
+        "label": "川嶋嘉一",
+        "faction": "令和みらい",
+        "member": "川嶋嘉一",
+        "stance": "賛成"
+      },
+      {
+        "label": "滝田洋子",
+        "faction": "日本共産党議員団",
+        "member": "滝田洋子",
+        "stance": "反対"
+      },
+      {
+        "label": "鶴見義明",
+        "faction": "日本共産党議員団",
+        "member": "鶴見義明",
+        "stance": "反対"
+      },
+      {
+        "label": "慶野常夫",
+        "faction": "政友みらい",
+        "member": "慶野常夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "山菅直己",
+        "faction": "政友みらい",
+        "member": "山菅直己",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅原達",
+        "faction": "公明党議員会",
+        "member": "菅原達",
+        "stance": "議長"
+      }
+    ]
+  }
+}

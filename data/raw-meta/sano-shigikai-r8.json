@@ -1,0 +1,33 @@
+{
+  "sourceId": "sano-shigikai-r8",
+  "files": [
+    {
+      "filename": "26082.html",
+      "sha256": "c758127cc582752d9b23896ecb24f0b1634d959e4984cdcf9613c6de4064603e",
+      "bytes": 34291,
+      "fetchedAt": "2026-10-30T15:49:34.292Z",
+      "fetchedFrom": "https://www.city.sano.lg.jp/sp/shigikai/3/3/26082.html"
+    },
+    {
+      "filename": "1343.html",
+      "sha256": "823756e70d151406d6b65a78109e59607dc3ee478e503ed41c83fcfcd367cd95",
+      "bytes": 29474,
+      "fetchedAt": "2026-10-30T15:49:34.292Z",
+      "fetchedFrom": "https://www.city.sano.lg.jp/sp/shigikai/6_1/1343.html"
+    },
+    {
+      "filename": "R8_1_sanpi_all.pdf",
+      "sha256": "70d6915644c50d5496e63e29add113271493230ed161be915749176cae8d402d",
+      "bytes": 381737,
+      "fetchedAt": "2026-10-30T15:49:34.292Z",
+      "fetchedFrom": "https://www.city.sano.lg.jp/material/files/group/65/R8_1_sanpi_all.pdf"
+    },
+    {
+      "filename": "27760.html",
+      "sha256": "8a64c87bc35a055ad2c240c03d389b7dca16270fbb4eb33c81c142f62a4687f3",
+      "bytes": 56497,
+      "fetchedAt": "2026-10-30T15:49:34.292Z",
+      "fetchedFrom": "https://www.city.sano.lg.jp/sp/shigikai/9_1/shingi/reiwa06_2/27760.html"
+    }
+  ]
+}

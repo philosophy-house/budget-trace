@@ -1,0 +1,46 @@
+{
+  "sourceId": "nago-shigikai-r8",
+  "files": [
+    {
+      "filename": "20260318kaihameibo.pdf",
+      "sha256": "44b612d6e5b890276d4a44ac24767ca50a1a6b69822804314468c6d49f62eb18",
+      "bytes": 37631,
+      "fetchedAt": "2026-10-30T15:49:34.273Z",
+      "fetchedFrom": "https://www.city.nago.okinawa.jp/soshiki/gikai-nav/2018070300133/file_contents/20260318kaihameibo.pdf"
+    },
+    {
+      "filename": "260525syorikekka222.pdf",
+      "sha256": "0186042c856d5f6336546f71279cafb9b00167137e260e09430258696441cc32",
+      "bytes": 77085,
+      "fetchedAt": "2026-10-30T15:49:34.274Z",
+      "fetchedFrom": "https://www.city.nago.okinawa.jp/soshiki/gikai-nav/2018070300096/file_contents/260525syorikekka222.pdf"
+    },
+    {
+      "filename": "260525sannpi222.pdf",
+      "sha256": "27ba6ed676fbf28b4984b19b21d93d499e7f14b70088db68452dd8ca2df379df",
+      "bytes": 82154,
+      "fetchedAt": "2026-10-30T15:49:34.274Z",
+      "fetchedFrom": "https://www.city.nago.okinawa.jp/soshiki/gikai-nav/2018070300096/file_contents/260525sannpi222.pdf"
+    },
+    {
+      "filename": "nago_2018070300171_20260213.html",
+      "sha256": "76fdb64eeeabc7fe903b76cf745db78af49a55afbbcc7429b4e028c1263f5121",
+      "bytes": 11222,
+      "fetchedAt": "2026-10-30T15:49:34.274Z",
+      "fetchedFrom": "https://web.archive.org/web/20260213184013id_/https://www.city.nago.okinawa.jp/soshiki/gikai-nav/2018070300171/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "nago_2018070300164.html",
+      "sha256": "2cd3476fd731e697332fa65e9e195d6c876326c872ac422d56a77fb12459c1a1",
+      "bytes": 14490,
+      "fetchedAt": "2026-10-30T15:49:34.274Z",
+      "fetchedFrom": "https://www.city.nago.okinawa.jp/soshiki/gikai-nav/2018070300164/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

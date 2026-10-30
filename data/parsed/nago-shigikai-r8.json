@@ -1,0 +1,272 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nago-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:23.675Z",
+  "fiscalYear": "R8",
+  "body": "名護市議会",
+  "seats": 26,
+  "asOf": "2026-03-18",
+  "teisu": 26,
+  "factions": [
+    {
+      "name": "礎之会",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "仲尾ちあき",
+        "長山正邦",
+        "島袋力",
+        "福澤奈美",
+        "嘉陽宗一郎",
+        "比嘉宏正",
+        "古波蔵太",
+        "嘉数剛",
+        "宮城研二",
+        "金城隆",
+        "宮城さゆり",
+        "比嘉拓也"
+      ],
+      "locator": {
+        "file": "20260318kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "にぬふぁぶし名護",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "岸本洋平",
+        "比嘉勝彦",
+        "神山正樹",
+        "平光男"
+      ],
+      "locator": {
+        "file": "20260318kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民ネット",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大城松健",
+        "石嶺康政"
+      ],
+      "locator": {
+        "file": "20260318kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "金城善英",
+        "大城秀樹"
+      ],
+      "locator": {
+        "file": "20260318kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "多嘉山侑三",
+        "吉居俊平",
+        "屋良里穂",
+        "宮里尚",
+        "東恩納琢磨",
+        "大城敬人"
+      ],
+      "locator": {
+        "file": "20260318kaihameibo.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第16号",
+    "billName": "令和８年度名護市一般会計予算",
+    "sessionLabel": "第222回名護市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "260525syorikekka222.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "第15期 名護市議会議員 会派名簿（令和8年3月18日現在）",
+  "resultTitle": "第222回名護市議会定例会議案処理結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "第222回定例会賛否一覧表",
+    "sourceFile": "260525sannpi222.pdf",
+    "columns": [
+      {
+        "label": "嘉陽宗一郎",
+        "faction": "礎之会",
+        "member": "嘉陽宗一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "比嘉宏正",
+        "faction": "礎之会",
+        "member": "比嘉宏正",
+        "stance": "賛成"
+      },
+      {
+        "label": "古波蔵太",
+        "faction": "礎之会",
+        "member": "古波蔵太",
+        "stance": "賛成"
+      },
+      {
+        "label": "福澤奈美",
+        "faction": "礎之会",
+        "member": "福澤奈美",
+        "stance": "賛成"
+      },
+      {
+        "label": "嘉数剛",
+        "faction": "礎之会",
+        "member": "嘉数剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "島袋力",
+        "faction": "礎之会",
+        "member": "島袋力",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮城研二",
+        "faction": "礎之会",
+        "member": "宮城研二",
+        "stance": "賛成"
+      },
+      {
+        "label": "長山正邦",
+        "faction": "礎之会",
+        "member": "長山正邦",
+        "stance": "賛成"
+      },
+      {
+        "label": "仲尾ちあき",
+        "faction": "礎之会",
+        "member": "仲尾ちあき",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮城さゆり",
+        "faction": "礎之会",
+        "member": "宮城さゆり",
+        "stance": "賛成"
+      },
+      {
+        "label": "比嘉拓也",
+        "faction": "礎之会",
+        "member": "比嘉拓也",
+        "stance": "賛成"
+      },
+      {
+        "label": "平光男",
+        "faction": "にぬふぁぶし名護",
+        "member": "平光男",
+        "stance": "賛成"
+      },
+      {
+        "label": "比嘉勝彦",
+        "faction": "にぬふぁぶし名護",
+        "member": "比嘉勝彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "岸本洋平",
+        "faction": "にぬふぁぶし名護",
+        "member": "岸本洋平",
+        "stance": "反対"
+      },
+      {
+        "label": "神山正樹",
+        "faction": "にぬふぁぶし名護",
+        "member": "神山正樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "石嶺康政",
+        "faction": "市民ネット",
+        "member": "石嶺康政",
+        "stance": "反対"
+      },
+      {
+        "label": "大城松健",
+        "faction": "市民ネット",
+        "member": "大城松健",
+        "stance": "反対"
+      },
+      {
+        "label": "金城善英",
+        "faction": "公明",
+        "member": "金城善英",
+        "stance": "賛成"
+      },
+      {
+        "label": "大城秀樹",
+        "faction": "公明",
+        "member": "大城秀樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "多嘉山侑三",
+        "faction": "無会派",
+        "member": "多嘉山侑三",
+        "stance": "反対"
+      },
+      {
+        "label": "吉居俊平",
+        "faction": "無会派",
+        "member": "吉居俊平",
+        "stance": "反対"
+      },
+      {
+        "label": "屋良里穂",
+        "faction": "無会派",
+        "member": "屋良里穂",
+        "stance": "反対"
+      },
+      {
+        "label": "宮里尚",
+        "faction": "無会派",
+        "member": "宮里尚",
+        "stance": "賛成"
+      },
+      {
+        "label": "東恩納琢磨",
+        "faction": "無会派",
+        "member": "東恩納琢磨",
+        "stance": "反対"
+      },
+      {
+        "label": "大城敬人",
+        "faction": "無会派",
+        "member": "大城敬人",
+        "stance": "反対"
+      },
+      {
+        "label": "金城隆",
+        "faction": "礎之会",
+        "member": "金城隆",
+        "stance": "議長"
+      }
+    ]
+  }
+}

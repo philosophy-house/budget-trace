@@ -1,0 +1,104 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nikko-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:30.491Z",
+  "fiscalYear": "R8",
+  "body": "日光市議会",
+  "seats": 22,
+  "asOf": "2025-04-20",
+  "factions": [
+    {
+      "name": "市民フォーラム志向",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "齊藤正三",
+        "斎藤宏明",
+        "村上正明",
+        "高見尚希"
+      ],
+      "locator": {
+        "file": "2112.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "グループ響",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "青田兆史",
+        "大島浩",
+        "川村寿利",
+        "斎藤久幸"
+      ],
+      "locator": {
+        "file": "2112.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "光和",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "斎藤伸幸",
+        "山越梯一",
+        "生井一郎",
+        "川島憲朗",
+        "亀井崇幸",
+        "山越享太郎",
+        "田村耕作",
+        "和田公伸"
+      ],
+      "locator": {
+        "file": "2112.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "荒川礼子",
+        "嶋田正法"
+      ],
+      "locator": {
+        "file": "2112.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "齋藤文明",
+        "筒井巌",
+        "三好國章",
+        "福田悦子"
+      ],
+      "locator": {
+        "file": "2112.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１１号",
+    "billName": "令和８年度（2026年度）日光市一般会計予算について",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "0802giketukekkaichiranhyou.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別議員名簿（届出日 令和7年4月20日まで）",
+  "resultTitle": "令和８年２月定例会 議案等審議結果一覧表"
+}

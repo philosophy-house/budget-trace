@@ -1,0 +1,157 @@
+{
+  "docType": "council-composition",
+  "sourceId": "otagunma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:43:09.392Z",
+  "fiscalYear": "R8",
+  "body": "太田市議会",
+  "seats": 30,
+  "asOf": "2026-03-17",
+  "teisu": 30,
+  "factions": [
+    {
+      "name": "志友会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "青木雅浩",
+        "岩瀬僚",
+        "髙野博善",
+        "松川翼",
+        "八長孝之",
+        "長正祐",
+        "松浦武志",
+        "高木きよし",
+        "大川陽一"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "太田クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "若林卓実",
+        "木村浩明",
+        "渡辺謙一郎",
+        "山田隆史",
+        "町田正行",
+        "白石さと子"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創政クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "川岸靖隆",
+        "高田靖",
+        "矢部伸幸",
+        "久保田俊"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "谷之木勇作",
+        "前田純也",
+        "高橋えみ",
+        "星野一広"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民ファーストの会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山水めぐみ",
+        "神谷大輔",
+        "大川敬道"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "尾内謙一"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "水野正己"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "弦音会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "清水梨花"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "仁藤すぐる"
+      ],
+      "locator": {
+        "file": "38849.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１２号",
+    "billName": "令和８年度太田市一般会計予算について",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "可決（多数）",
+    "locator": {
+      "file": "38849.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和8年3月定例会 賛否の公表 p.1 の会派・会名・議員名の表頭",
+  "resultTitle": "令和8年3月定例会 賛否の公表"
+}

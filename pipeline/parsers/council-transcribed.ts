@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.16";
+export const PARSER_VERSION = "0.8.17";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -1616,7 +1616,8 @@ export function parseCouncilTranscribed(
           const pre = v.text.slice(Math.max(0, at - 8), at);
           const lastTeisu = Math.max(pre.lastIndexOf("定数"), pre.lastIndexOf("定員"));
           const namedTeisu = lastTeisu >= 0 && !/\d/.test(pre.slice(lastTeisu));
-          if (!namedTeisu && /(現員|現在数|在籍|出席|欠員)/.test(pre)) continue;
+          // 「現職」も現員の言い換え（群馬県「現職46人」で teisu を 46・欠員0 にすると定数50・欠員4 の表示が変わった＝レビュー・0.8.17）
+          if (!namedTeisu && /(現員|現職|現在数|在籍|出席|欠員)/.test(pre)) continue;
           // 「人口」「人当たり」は人数の単位ではない（亀岡の議会概要「面積224.80km² 3人口」が正規化で「km23人口」につながった・0.8.16）
           if (!namedTeisu && !/^[人名席](?!口|当|あたり)/.test(v.text.slice(at + m[0].length))) continue;
           return true;
@@ -1625,7 +1626,7 @@ export function parseCouncilTranscribed(
       return false;
     });
     if (!teisuOk) {
-      missing.push(`teisu ${opt.teisu} が teisuText「${opt.teisuText}」の中で定数の数として読めません（原典で数の直後が「人」「名」「席」か直前に「定数」「定員」があり、現員・在籍・出席・欠員の数でないこと）`);
+      missing.push(`teisu ${opt.teisu} が teisuText「${opt.teisuText}」の中で定数の数として読めません（原典で数の直後が「人」「名」「席」か直前に「定数」「定員」があり、現員・現職・在籍・出席・欠員の数でないこと）`);
     }
     if ((opt.vacancies ?? 0) > 0 && opt.vacanciesTexts?.length) {
       const vv = opt.vacanciesUrl ? readDoc(fileFor(opt.vacanciesUrl)).views : tv;

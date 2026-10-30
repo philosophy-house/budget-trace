@@ -1,0 +1,33 @@
+{
+  "sourceId": "tatebayashi-shigikai-r8",
+  "files": [
+    {
+      "filename": "20221006154526.html",
+      "sha256": "d1fc668b22197dd0cfbc84bc38807327201bba7a709ba076af01e249e7bf5583",
+      "bytes": 14735,
+      "fetchedAt": "2026-10-30T15:49:34.309Z",
+      "fetchedFrom": "https://web.archive.org/web/20260311014801id_/https://www.city.tatebayashi.gunma.jp/s076/gikai/020/021/20221006154526.html"
+    },
+    {
+      "filename": "20200102085000.html",
+      "sha256": "66ac648d48e8b844302e42c0a3c99444ec157a96ccc5e2991d8401afe038576a",
+      "bytes": 20171,
+      "fetchedAt": "2026-10-30T15:49:34.310Z",
+      "fetchedFrom": "https://www.city.tatebayashi.gunma.jp/s077/gikai/010/020/20200102085000.html"
+    },
+    {
+      "filename": "kekka_R0801.pdf",
+      "sha256": "c0526e79afd0291fe197e445fe35eef848235254c5cac0c0c41256189d203db4",
+      "bytes": 96554,
+      "fetchedAt": "2026-10-30T15:49:34.310Z",
+      "fetchedFrom": "https://www.city.tatebayashi.gunma.jp/s077/gikai/040/030/010/kekka_R0801.pdf"
+    },
+    {
+      "filename": "sanpi_R081.pdf",
+      "sha256": "97046cbddb545c9f2ea73da4c4ac5675d0081715792a3f4269dff3e1a48a1cb8",
+      "bytes": 152869,
+      "fetchedAt": "2026-10-30T15:49:34.310Z",
+      "fetchedFrom": "https://www.city.tatebayashi.gunma.jp/s077/gikai/040/030/010/sanpi_R081.pdf"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ashikaga-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:28.589Z",
+  "fiscalYear": "R8",
+  "body": "足利市議会",
+  "seats": 24,
+  "asOf": "2025-05-22",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "あしかが自民党議員会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "鬼久保綾子",
+        "中島真弓",
+        "須田瑞穂",
+        "小林貴浩",
+        "横山育男",
+        "渡辺悟"
+      ],
+      "locator": {
+        "file": "000811_index.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "自民プラス",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山本仁美",
+        "鶴貝大祐",
+        "末吉利啓",
+        "栗原収",
+        "荻原久雄"
+      ],
+      "locator": {
+        "file": "000811_index.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党議員会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "石野純子",
+        "糸谷道代",
+        "藤本秀樹"
+      ],
+      "locator": {
+        "file": "000811_index.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "足利志士の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "海老沼利昌",
+        "小沼光代",
+        "黒川貫男"
+      ],
+      "locator": {
+        "file": "000811_index.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "会派を構成しない議員",
+      "seats": 7,
+      "isIndependent": true,
+      "members": [
+        "三田研三",
+        "飯島一弘",
+        "鳥井康子",
+        "加藤正一",
+        "金子裕美",
+        "斎藤昌之",
+        "尾関栄子"
+      ],
+      "locator": {
+        "file": "000811_index.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２７号",
+    "billName": "令和８年度足利市一般会計予算について",
+    "sessionLabel": "令和８年第２回定例会（３月）",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "6a2bc76211095.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年5月22日現在）",
+  "resultTitle": "令和８年第２回定例会（３月）議案等一覧（議決状況・議員賛否一覧）"
+}
