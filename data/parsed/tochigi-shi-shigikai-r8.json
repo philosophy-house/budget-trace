@@ -1,0 +1,308 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tochigi-shi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:28.385Z",
+  "fiscalYear": "R8",
+  "body": "栃木市議会",
+  "seats": 28,
+  "asOf": "2025-07-24",
+  "teisu": 28,
+  "factions": [
+    {
+      "name": "創政会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小太刀孝之",
+        "福田裕司"
+      ],
+      "locator": {
+        "file": "7616.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党議員会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "雨宮茂樹",
+        "古沢ちい子",
+        "小久保かおる"
+      ],
+      "locator": {
+        "file": "7616.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "自民未来",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "小平啓佑",
+        "大浦兼政",
+        "青木一男",
+        "松本喜一",
+        "広瀬義明",
+        "氏家晃",
+        "関口孫一郎"
+      ],
+      "locator": {
+        "file": "7616.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "かがやき",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "浅野貴之",
+        "坂東一敏",
+        "針谷正夫",
+        "中島克訓"
+      ],
+      "locator": {
+        "file": "7616.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "創志会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "針谷育造",
+        "内海まさかず"
+      ],
+      "locator": {
+        "file": "7616.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "真政クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "川田俊介",
+        "市村隆",
+        "森戸雅孝",
+        "福富善明",
+        "大阿久岩人",
+        "小堀良江"
+      ],
+      "locator": {
+        "file": "7616.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "大谷好一",
+        "梅澤米満",
+        "天谷浩明",
+        "白石幹男"
+      ],
+      "locator": {
+        "file": "7616.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第８号",
+    "billName": "令和８年度栃木市一般会計予算",
+    "sessionLabel": "令和８年第２回栃木市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "68969.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派名簿（令和7年7月24日現在）",
+  "resultTitle": "令和８年第２回栃木市議会定例会の会議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "とちぎ市議会だより第69号（令和8年4月24日発行）p.5 議案等の審議結果（各議員の賛否）",
+    "sourceFile": "68967.pdf",
+    "columns": [
+      {
+        "label": "川田俊介",
+        "faction": "真政クラブ",
+        "member": "川田俊介",
+        "stance": "賛成"
+      },
+      {
+        "label": "小太刀孝之",
+        "faction": "創政会",
+        "member": "小太刀孝之",
+        "stance": "賛成"
+      },
+      {
+        "label": "市村隆",
+        "faction": "真政クラブ",
+        "member": "市村隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "雨宮茂樹",
+        "faction": "公明党議員会",
+        "member": "雨宮茂樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "森戸雅孝",
+        "faction": "真政クラブ",
+        "member": "森戸雅孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "浅野貴之",
+        "faction": "かがやき",
+        "member": "浅野貴之",
+        "stance": "賛成"
+      },
+      {
+        "label": "小平啓佑",
+        "faction": "自民未来",
+        "member": "小平啓佑",
+        "stance": "賛成"
+      },
+      {
+        "label": "大浦兼政",
+        "faction": "自民未来",
+        "member": "大浦兼政",
+        "stance": "賛成"
+      },
+      {
+        "label": "針谷育造",
+        "faction": "創志会",
+        "member": "針谷育造",
+        "stance": "反対"
+      },
+      {
+        "label": "古沢ちい子",
+        "faction": "公明党議員会",
+        "member": "古沢ちい子",
+        "stance": "賛成"
+      },
+      {
+        "label": "大谷好一",
+        "faction": "無会派",
+        "member": "大谷好一",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂東一敏",
+        "faction": "かがやき",
+        "member": "坂東一敏",
+        "stance": "賛成"
+      },
+      {
+        "label": "内海まさかず",
+        "faction": "創志会",
+        "member": "内海まさかず",
+        "stance": "反対"
+      },
+      {
+        "label": "小久保かおる",
+        "faction": "公明党議員会",
+        "member": "小久保かおる",
+        "stance": "賛成"
+      },
+      {
+        "label": "青木一男",
+        "faction": "自民未来",
+        "member": "青木一男",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本喜一",
+        "faction": "自民未来",
+        "member": "松本喜一",
+        "stance": "賛成"
+      },
+      {
+        "label": "梅澤米満",
+        "faction": "無会派",
+        "member": "梅澤米満",
+        "stance": "議長"
+      },
+      {
+        "label": "天谷浩明",
+        "faction": "無会派",
+        "member": "天谷浩明",
+        "stance": "賛成"
+      },
+      {
+        "label": "針谷正夫",
+        "faction": "かがやき",
+        "member": "針谷正夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "広瀬義明",
+        "faction": "自民未来",
+        "member": "広瀬義明",
+        "stance": "賛成"
+      },
+      {
+        "label": "氏家晃",
+        "faction": "自民未来",
+        "member": "氏家晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "福富善明",
+        "faction": "真政クラブ",
+        "member": "福富善明",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田裕司",
+        "faction": "創政会",
+        "member": "福田裕司",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島克訓",
+        "faction": "かがやき",
+        "member": "中島克訓",
+        "stance": "賛成"
+      },
+      {
+        "label": "大阿久岩人",
+        "faction": "真政クラブ",
+        "member": "大阿久岩人",
+        "stance": "賛成"
+      },
+      {
+        "label": "小堀良江",
+        "faction": "真政クラブ",
+        "member": "小堀良江",
+        "stance": "賛成"
+      },
+      {
+        "label": "白石幹男",
+        "faction": "無会派",
+        "member": "白石幹男",
+        "stance": "反対"
+      },
+      {
+        "label": "関口孫一郎",
+        "faction": "自民未来",
+        "member": "関口孫一郎",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

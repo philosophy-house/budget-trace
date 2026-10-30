@@ -1,0 +1,43 @@
+{
+  "sourceId": "fujioka-shigikai-r8",
+  "files": [
+    {
+      "filename": "4915_20251014.html",
+      "sha256": "33143f7e1620bc63096aaa9db62f9d31f6374d7a57b660015f9420c7c45906e4",
+      "bytes": 49289,
+      "fetchedAt": "2026-10-30T15:49:34.311Z",
+      "fetchedFrom": "https://web.archive.org/web/20251014015618id_/https://www.city.fujioka.gunma.jp/shiseijoho/shigikai/3/4915.html"
+    },
+    {
+      "filename": "4915_20260416.html",
+      "sha256": "f1093ebacfbe9d8fd511425c13b3e9bac8f6c37e515f106f0f8f0dd20e840464",
+      "bytes": 49305,
+      "fetchedAt": "2026-10-30T15:49:34.311Z",
+      "fetchedFrom": "https://web.archive.org/web/20260416182933id_/https://www.city.fujioka.gunma.jp/shiseijoho/shigikai/3/4915.html"
+    },
+    {
+      "filename": "10394.html",
+      "sha256": "5e09612dcd8db929ac9d07aa7fdb39b8fdcfa1b3179841cb8eb667f94f4e3a14",
+      "bytes": 53591,
+      "fetchedAt": "2026-10-30T15:49:34.311Z",
+      "fetchedFrom": "https://www.city.fujioka.gunma.jp/shiseijoho/shigikai/2/10394.html"
+    },
+    {
+      "filename": "R8_3giketsu.pdf",
+      "sha256": "3a8fe620ba0bde3bb72196ade6db6b77d54dfef585e766edcc2f6cf57cde04cd",
+      "bytes": 115693,
+      "fetchedAt": "2026-10-30T15:49:34.311Z",
+      "fetchedFrom": "https://www.city.fujioka.gunma.jp/material/files/group/37/R8_3giketsu.pdf"
+    },
+    {
+      "filename": "voiweb_R080319_04.html",
+      "sha256": "929e8b6b5d6e4300b57933b5fb68b5496678538ac187bd139c66f6ffec440255",
+      "bytes": 82450,
+      "fetchedAt": "2026-10-30T15:49:34.311Z",
+      "fetchedFrom": "https://fujioka.gijiroku.com/voices/cgi/voiweb.exe?ACT=203&KENSAKU=0&SORT=0&KTYP=0,1,2,3&KGTP=1&FYY=2026&TYY=2026&TITL_SUBT=%97%DF%98a%81@%82W%94N%91%E6%81@%82P%89%F1%92%E8%97%E1%89%EF%81%7C03%8C%8E19%93%FA-04%8D%86&FINO=713&HATSUGENMODE=1&HYOUJIMODE=0&HUID=135615&STYLE=0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

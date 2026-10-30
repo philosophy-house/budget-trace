@@ -1,0 +1,26 @@
+{
+  "sourceId": "kanuma-shigikai-r8",
+  "files": [
+    {
+      "filename": "info-0000000011-0.html",
+      "sha256": "5eaa4e6b6a655008c41b065fb36a345ac79fd8cb05d88881afa9edc8b3930993",
+      "bytes": 97103,
+      "fetchedAt": "2026-10-30T15:49:34.293Z",
+      "fetchedFrom": "https://web.archive.org/web/20260212073309id_/https://www.city.kanuma.tochigi.jp/0321/info-0000000011-0.html"
+    },
+    {
+      "filename": "69b7a60b09c6b.pdf",
+      "sha256": "01cfa017ecd0e4d209f54a79384a7f29e28fe7f0c0eaca6673f4dedb9945ea7e",
+      "bytes": 148749,
+      "fetchedAt": "2026-10-30T15:49:34.293Z",
+      "fetchedFrom": "https://www.city.kanuma.tochigi.jp/manage/contents/upload/69b7a60b09c6b.pdf"
+    },
+    {
+      "filename": "6a0fadcad29e9.pdf",
+      "sha256": "23158473218ba079b0df3df48171761e9c02cde2efbf4d04b40cf0b38d9645bd",
+      "bytes": 2747068,
+      "fetchedAt": "2026-10-30T15:49:34.295Z",
+      "fetchedFrom": "https://www.city.kanuma.tochigi.jp/manage/contents/upload/6a0fadcad29e9.pdf"
+    }
+  ]
+}

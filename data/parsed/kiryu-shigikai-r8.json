@@ -1,0 +1,254 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kiryu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:31.265Z",
+  "fiscalYear": "R8",
+  "body": "桐生市議会",
+  "seats": 19,
+  "asOf": "2026-02-18",
+  "factions": [
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "渡辺恒",
+        "関口直久"
+      ],
+      "locator": {
+        "file": "1003765_20260308110153.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "一心会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小島強",
+        "園田基博",
+        "北川久人",
+        "人見武男"
+      ],
+      "locator": {
+        "file": "1003765_20260308110153.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "そうぞう未来",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "久保田裕一",
+        "近藤芽衣",
+        "辻正男",
+        "岡部純朗"
+      ],
+      "locator": {
+        "file": "1003765_20260308110153.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "政策研究会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "工藤英人",
+        "福島賢一",
+        "佐藤光好"
+      ],
+      "locator": {
+        "file": "1003765_20260308110153.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "丹羽孝志",
+        "山之内肇"
+      ],
+      "locator": {
+        "file": "1003765_20260308110153.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "クラブ21",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "河原井始",
+        "周藤雅彦"
+      ],
+      "locator": {
+        "file": "1003765_20260308110153.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派（飯島英規）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "飯島英規"
+      ],
+      "locator": {
+        "file": "1003765_20260308110153.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無会派（歌代公司）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "歌代公司"
+      ],
+      "locator": {
+        "file": "1003765_20260308110153.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第29号",
+    "billName": "令和8年度桐生市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1026526.html"
+    }
+  },
+  "rosterTitle": "議員名簿（市議会議員名簿 令和8年2月18日現在）",
+  "resultTitle": "令和8年第1回定例会議案請願議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第1回定例会 議案と結果（議員個々の賛否）",
+    "sourceFile": "r8t1giketsukekka1.pdf",
+    "columns": [
+      {
+        "label": "飯島英規",
+        "faction": "無会派（飯島英規）",
+        "member": "飯島英規",
+        "stance": "賛成"
+      },
+      {
+        "label": "歌代公司",
+        "faction": "無会派（歌代公司）",
+        "member": "歌代公司",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺恒",
+        "faction": "日本共産党議員団",
+        "member": "渡辺恒",
+        "stance": "反対"
+      },
+      {
+        "label": "関口直久",
+        "faction": "日本共産党議員団",
+        "member": "関口直久",
+        "stance": "反対"
+      },
+      {
+        "label": "小島強",
+        "faction": "一心会",
+        "member": "小島強",
+        "stance": "賛成"
+      },
+      {
+        "label": "園田基博",
+        "faction": "一心会",
+        "member": "園田基博",
+        "stance": "賛成"
+      },
+      {
+        "label": "北川久人",
+        "faction": "一心会",
+        "member": "北川久人",
+        "stance": "賛成"
+      },
+      {
+        "label": "久保田裕一",
+        "faction": "そうぞう未来",
+        "member": "久保田裕一",
+        "stance": "賛成"
+      },
+      {
+        "label": "近藤芽衣",
+        "faction": "そうぞう未来",
+        "member": "近藤芽衣",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤英人",
+        "faction": "政策研究会",
+        "member": "工藤英人",
+        "stance": "賛成"
+      },
+      {
+        "label": "丹羽孝志",
+        "faction": "公明クラブ",
+        "member": "丹羽孝志",
+        "stance": "賛成"
+      },
+      {
+        "label": "山之内肇",
+        "faction": "公明クラブ",
+        "member": "山之内肇",
+        "stance": "賛成"
+      },
+      {
+        "label": "辻正男",
+        "faction": "そうぞう未来",
+        "member": "辻正男",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡部純朗",
+        "faction": "そうぞう未来",
+        "member": "岡部純朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "福島賢一",
+        "faction": "政策研究会",
+        "member": "福島賢一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤光好",
+        "faction": "政策研究会",
+        "member": "佐藤光好",
+        "stance": "賛成"
+      },
+      {
+        "label": "河原井始",
+        "faction": "クラブ21",
+        "member": "河原井始",
+        "stance": "賛成"
+      },
+      {
+        "label": "周藤雅彦",
+        "faction": "クラブ21",
+        "member": "周藤雅彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "人見武男",
+        "faction": "一心会",
+        "member": "人見武男",
+        "stance": "議長"
+      }
+    ]
+  }
+}

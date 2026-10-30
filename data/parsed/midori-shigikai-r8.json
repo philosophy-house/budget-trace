@@ -1,0 +1,227 @@
+{
+  "docType": "council-composition",
+  "sourceId": "midori-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:32.918Z",
+  "fiscalYear": "R8",
+  "body": "みどり市議会",
+  "seats": 18,
+  "asOf": "2026-03-18",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "広和クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "古田島和茂",
+        "柴﨑訓佳",
+        "須藤日米代",
+        "須永信雄",
+        "深澤輝彦",
+        "中村正義"
+      ],
+      "locator": {
+        "file": "gikaidayori79_6-7.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "椎名祐司",
+        "上岡克己",
+        "阿左美守",
+        "堀内利之",
+        "金子勇人"
+      ],
+      "locator": {
+        "file": "gikaidayori79_6-7.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "新政クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "松井篤",
+        "髙草木弘子",
+        "藤生吉顕",
+        "塩野央弥"
+      ],
+      "locator": {
+        "file": "gikaidayori79_6-7.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "宮﨑武"
+      ],
+      "locator": {
+        "file": "gikaidayori79_6-7.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "日本共産党クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "石原真理子"
+      ],
+      "locator": {
+        "file": "gikaidayori79_6-7.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "無会派（杉山英行）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "杉山英行"
+      ],
+      "locator": {
+        "file": "gikaidayori79_6-7.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３９号",
+    "billName": "令和８年度みどり市一般会計予算について",
+    "sessionLabel": "令和８年みどり市議会第１回定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "0801singikekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "みどり市議会だより第79号（2026年5月1日発行）p.7「賛否が分かれた議案と審議結果」の表頭（会派・議員名）",
+  "resultTitle": "令和８年みどり市議会第１回定例会 議案審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "みどり市議会だより第79号 p.7「賛否が分かれた議案と審議結果」",
+    "sourceFile": "gikaidayori79_6-7.pdf",
+    "columns": [
+      {
+        "label": "古田島和茂",
+        "faction": "広和クラブ",
+        "member": "古田島和茂",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴﨑訓佳",
+        "faction": "広和クラブ",
+        "member": "柴﨑訓佳",
+        "stance": "賛成"
+      },
+      {
+        "label": "須藤日米代",
+        "faction": "広和クラブ",
+        "member": "須藤日米代",
+        "stance": "賛成"
+      },
+      {
+        "label": "須永信雄",
+        "faction": "広和クラブ",
+        "member": "須永信雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "深澤輝彦",
+        "faction": "広和クラブ",
+        "member": "深澤輝彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村正義",
+        "faction": "広和クラブ",
+        "member": "中村正義",
+        "stance": "賛成"
+      },
+      {
+        "label": "椎名祐司",
+        "faction": "市民クラブ",
+        "member": "椎名祐司",
+        "stance": "賛成"
+      },
+      {
+        "label": "上岡克己",
+        "faction": "市民クラブ",
+        "member": "上岡克己",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿左美守",
+        "faction": "市民クラブ",
+        "member": "阿左美守",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀内利之",
+        "faction": "市民クラブ",
+        "member": "堀内利之",
+        "stance": "賛成"
+      },
+      {
+        "label": "金子勇人",
+        "faction": "市民クラブ",
+        "member": "金子勇人",
+        "stance": "賛成"
+      },
+      {
+        "label": "松井篤",
+        "faction": "新政クラブ",
+        "member": "松井篤",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙草木弘子",
+        "faction": "新政クラブ",
+        "member": "髙草木弘子",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤生吉顕",
+        "faction": "新政クラブ",
+        "member": "藤生吉顕",
+        "stance": "賛成"
+      },
+      {
+        "label": "塩野央弥",
+        "faction": "新政クラブ",
+        "member": "塩野央弥",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮﨑武",
+        "faction": "公明クラブ",
+        "member": "宮﨑武",
+        "stance": "賛成"
+      },
+      {
+        "label": "石原真理子",
+        "faction": "日本共産党クラブ",
+        "member": "石原真理子",
+        "stance": "反対"
+      },
+      {
+        "label": "杉山英行",
+        "faction": "無会派（杉山英行）",
+        "member": "杉山英行",
+        "stance": "議長"
+      }
+    ]
+  }
+}

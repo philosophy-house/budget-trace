@@ -1,0 +1,26 @@
+{
+  "sourceId": "kiryu-shigikai-r8",
+  "files": [
+    {
+      "filename": "1003765_20260308110153.html",
+      "sha256": "bfe45b1a04d9c39b07c11d334ab832c19a481309b825fbd2c33493837ae0f9df",
+      "bytes": 57738,
+      "fetchedAt": "2026-10-30T15:49:34.306Z",
+      "fetchedFrom": "https://web.archive.org/web/20260308110153id_/https://www.city.kiryu.lg.jp/shigikai/about/1003765.html"
+    },
+    {
+      "filename": "1026526.html",
+      "sha256": "66934d9812c7674b99603dacc6bab2e7bc05dc332d97fd67f7608d6e42668835",
+      "bytes": 63212,
+      "fetchedAt": "2026-10-30T15:49:34.306Z",
+      "fetchedFrom": "https://www.city.kiryu.lg.jp/shigikai/honkaigi/gian/giketsu/1026524/1026526.html"
+    },
+    {
+      "filename": "r8t1giketsukekka1.pdf",
+      "sha256": "811feeabaa1ade2e77165c0a027f42985217aed1acfdd25d07929ad50f598456",
+      "bytes": 520077,
+      "fetchedAt": "2026-10-30T15:49:34.307Z",
+      "fetchedFrom": "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/026/526/r8t1giketsukekka1.pdf"
+    }
+  ]
+}

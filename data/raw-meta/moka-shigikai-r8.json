@@ -1,0 +1,33 @@
+{
+  "sourceId": "moka-shigikai-r8",
+  "files": [
+    {
+      "filename": "1877.html",
+      "sha256": "fe38358234bf15499acda017c7ae83f757753740f6e47a170ce31c66d84ecb8a",
+      "bytes": 73444,
+      "fetchedAt": "2026-10-30T15:49:34.304Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/kakuka/gizi/gyomu/gikai/7/1877.html"
+    },
+    {
+      "filename": "1013.html",
+      "sha256": "4b35c2c74fa0dd8347f68fec4a5a86f4c3c39bcafab7b1c9eac911ec482e7e36",
+      "bytes": 73263,
+      "fetchedAt": "2026-10-30T15:49:34.304Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/kakuka/gizi/gyomu/gikai/7/1013.html"
+    },
+    {
+      "filename": "R8-2kaigikekka.pdf",
+      "sha256": "9568604ba253f7f832b2e08b3369f78bd44d9480608b61a46a503433aa4c66d3",
+      "bytes": 341678,
+      "fetchedAt": "2026-10-30T15:49:34.305Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/29/R8-2kaigikekka.pdf"
+    },
+    {
+      "filename": "gikaidayori332-4.pdf",
+      "sha256": "822299b7b086e93fe41c21927c6e7941dacdfc7a286a8fe83a90e019346d3941",
+      "bytes": 195968,
+      "fetchedAt": "2026-10-30T15:49:34.305Z",
+      "fetchedFrom": "https://www.city.moka.lg.jp/material/files/group/29/gikaidayori332-4.pdf"
+    }
+  ]
+}

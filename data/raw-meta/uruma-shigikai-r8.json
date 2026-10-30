@@ -1,0 +1,26 @@
+{
+  "sourceId": "uruma-shigikai-r8",
+  "files": [
+    {
+      "filename": "sanpi187saisyuu1.pdf",
+      "sha256": "19b941af84dba12b95a14c478a2ae82c6fab4a59a335fa68feea771b795f0765",
+      "bytes": 153326,
+      "fetchedAt": "2026-10-30T15:49:34.275Z",
+      "fetchedFrom": "https://www.city.uruma.lg.jp/documents/2781/sanpi187saisyuu1.pdf"
+    },
+    {
+      "filename": "kaigirokupdf186187.pdf",
+      "sha256": "436d70c34c6c187daeb171759ad85ff91c9e1eac3587dc2007805a4de875927d",
+      "bytes": 2169885,
+      "fetchedAt": "2026-10-30T15:49:34.276Z",
+      "fetchedFrom": "https://www.city.uruma.lg.jp/documents/2778/kaigirokupdf186187.pdf"
+    },
+    {
+      "filename": "uruma_840.html",
+      "sha256": "9a867ba56768eef99fd706783780ba644b35eeed97d687f8e90a2268a5db2398",
+      "bytes": 22613,
+      "fetchedAt": "2026-10-30T15:49:34.277Z",
+      "fetchedFrom": "https://www.city.uruma.lg.jp/shigikai/840.html"
+    }
+  ]
+}

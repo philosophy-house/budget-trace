@@ -1,0 +1,43 @@
+{
+  "sourceId": "midori-shigikai-r8",
+  "files": [
+    {
+      "filename": "gikaidayori79_6-7.pdf",
+      "sha256": "765e0d496c4b6a39acafeea2c61acbc834186e687dca381105475055bab63d32",
+      "bytes": 455049,
+      "fetchedAt": "2026-10-30T15:49:34.312Z",
+      "fetchedFrom": "https://www.city.midori.gunma.jp/_res/projects/default_project/_page_/001/009/584/gikaidayori79_6-7.pdf"
+    },
+    {
+      "filename": "0801singikekka.pdf",
+      "sha256": "2c16178ee0e11bc45033a718433914db3f93a693ae19f500fdfc14861e0b8d5c",
+      "bytes": 112477,
+      "fetchedAt": "2026-10-30T15:49:34.313Z",
+      "fetchedFrom": "https://www.city.midori.gunma.jp/_res/projects/default_project/_page_/001/009/411/0801singikekka.pdf"
+    },
+    {
+      "filename": "1003280.html",
+      "sha256": "121eae51ee91d62ddde43768525eaa52a1f7a2b185b99d7e2b625030ef7006b6",
+      "bytes": 35050,
+      "fetchedAt": "2026-10-30T15:49:34.313Z",
+      "fetchedFrom": "https://www.city.midori.gunma.jp/shisei/1001670/1003207/1003280.html"
+    },
+    {
+      "filename": "1003281_wb20260207.html",
+      "sha256": "5069a076c50ab8ef82a51588fe0aa9a2934824f58c9f422fac9a61444f1836c7",
+      "bytes": 39336,
+      "fetchedAt": "2026-10-30T15:49:34.313Z",
+      "fetchedFrom": "https://web.archive.org/web/20260207054317id_/https://www.city.midori.gunma.jp/shisei/1001670/1003207/1003281.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "r326RG00001039.html",
+      "sha256": "b6ebc3e0f18411e58e8928eb6be7495e13744c11166b6e284f3cc6018f9e8017",
+      "bytes": 7349,
+      "fetchedAt": "2026-10-30T15:49:34.313Z",
+      "fetchedFrom": "https://www1.g-reiki.net/midori/reiki_honbun/r326RG00001039.html"
+    }
+  ]
+}

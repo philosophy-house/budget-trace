@@ -1,0 +1,22 @@
+{
+  "sourceId": "gunma-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "693553.pdf",
+      "sha256": "878c34a573de73a906b6b0578caf2b7255d6006e2b69fc43c6222ac7c0a086df",
+      "bytes": 103965,
+      "fetchedAt": "2026-10-30T15:49:34.305Z",
+      "fetchedFrom": "https://www.pref.gunma.jp/uploaded/attachment/693553.pdf"
+    },
+    {
+      "filename": "25704_20260224103446.html",
+      "sha256": "9e39295d855f3a8633e6a0cf7b80076ea6d2b4ed43169f9bd452fe7459a999ab",
+      "bytes": 58507,
+      "fetchedAt": "2026-10-30T15:49:34.306Z",
+      "fetchedFrom": "https://web.archive.org/web/20260224103446id_/https://www.pref.gunma.jp/site/gikai/25704.html",
+      "transform": [
+        "gunzip"
+      ]
+    }
+  ]
+}

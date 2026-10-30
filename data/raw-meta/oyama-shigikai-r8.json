@@ -1,0 +1,19 @@
+{
+  "sourceId": "oyama-shigikai-r8",
+  "files": [
+    {
+      "filename": "page002592.html",
+      "sha256": "6b4da920ced8c1ebfb730081ab27b3b6dd083348448ee08a5d2aefec27bbe2ff",
+      "bytes": 13949,
+      "fetchedAt": "2026-10-30T15:49:34.281Z",
+      "fetchedFrom": "https://www.city.oyama.tochigi.jp/gikai/giin/page002592.html"
+    },
+    {
+      "filename": "1773900008_doc_570_0.pdf",
+      "sha256": "3403c20aed67a5c1ac994256fc592b854b8f9ec357f308f5b068c8d5a8fdadea",
+      "bytes": 331497,
+      "fetchedAt": "2026-10-30T15:49:34.282Z",
+      "fetchedFrom": "https://www.city.oyama.tochigi.jp/data/doc/1773900008_doc_570_0.pdf"
+    }
+  ]
+}

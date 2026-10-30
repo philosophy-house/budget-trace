@@ -1,0 +1,164 @@
+{
+  "docType": "council-composition",
+  "sourceId": "oyama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:27.870Z",
+  "fiscalYear": "R8",
+  "body": "小山市議会",
+  "seats": 27,
+  "asOf": "2025-06-30",
+  "factions": [
+    {
+      "name": "自民未来塾",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "高橋栄",
+        "関良平",
+        "福田洋一",
+        "篠崎佳之",
+        "福田幸平",
+        "森田晃吉",
+        "荒井覚",
+        "廣瀬武蔵"
+      ],
+      "locator": {
+        "file": "page002592.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市政会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "植村一",
+        "嶋田積男",
+        "橋本守行",
+        "小林英恵",
+        "渡辺一男",
+        "細野大樹",
+        "島朋幸"
+      ],
+      "locator": {
+        "file": "page002592.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市民派21",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "山野井孝",
+        "直井一博",
+        "石川敦子",
+        "大内晃子"
+      ],
+      "locator": {
+        "file": "page002592.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党議員会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "荒川美代子",
+        "佐藤忠博",
+        "大平拓史"
+      ],
+      "locator": {
+        "file": "page002592.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "おやま創生会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "永田健一朗",
+        "苅部勉"
+      ],
+      "locator": {
+        "file": "page002592.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派結成なし",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "土方美代",
+        "平野正敏",
+        "鶴見貴弘"
+      ],
+      "locator": {
+        "file": "page002592.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和８年度小山市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会（2月）",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1773900008_doc_570_0.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別名簿（更新日 2025年6月30日）",
+  "resultTitle": "令和8年第1回定例会（2月）審議結果",
+  "votes": {
+    "basis": "faction",
+    "unanimousText": "全会一致",
+    "sourceTitle": "令和8年第1回定例会（2月）審議結果（議決結果・賛否一覧表）",
+    "sourceFile": "1773900008_doc_570_0.pdf",
+    "columns": [
+      {
+        "label": "福田幸平",
+        "faction": "自民未来塾",
+        "member": "福田幸平",
+        "stance": "議長"
+      },
+      {
+        "label": "自民未来塾",
+        "faction": "自民未来塾",
+        "stance": "賛成"
+      },
+      {
+        "label": "市政会",
+        "faction": "市政会",
+        "stance": "賛成"
+      },
+      {
+        "label": "市民派21",
+        "faction": "市民派21",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明党議員会",
+        "faction": "公明党議員会",
+        "stance": "賛成"
+      },
+      {
+        "label": "おやま創生会",
+        "faction": "おやま創生会",
+        "stance": "賛成"
+      },
+      {
+        "label": "会派結成なし",
+        "faction": "会派結成なし",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

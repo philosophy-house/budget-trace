@@ -1,0 +1,33 @@
+{
+  "sourceId": "naha-shigikai-r8",
+  "files": [
+    {
+      "filename": "naha_dayori253.pdf",
+      "sha256": "49d355d577ca5aa33af516e9a3e3b58348989b3d45a9febbfe916864fee261b7",
+      "bytes": 3181891,
+      "fetchedAt": "2026-10-30T15:49:34.267Z",
+      "fetchedFrom": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/011/738/dayori253.pdf"
+    },
+    {
+      "filename": "naha_1010952.html",
+      "sha256": "f0ee914cba8dce9a686c8fe8fef781ffa778da7d6e642dedb12f86793d5e05f8",
+      "bytes": 62983,
+      "fetchedAt": "2026-10-30T15:49:34.268Z",
+      "fetchedFrom": "https://www.city.naha.okinawa.jp/sigikai/teireikai/1005547/1010930/1010952.html"
+    },
+    {
+      "filename": "naha_r0802sanpiitiran.pdf",
+      "sha256": "c58b9dc9910d1bd0b8dd9e04f30ed173dca432a3078af9b242977a7d0b09298b",
+      "bytes": 268358,
+      "fetchedAt": "2026-10-30T15:49:34.269Z",
+      "fetchedFrom": "https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/010/952/r0802sanpiitiran.pdf"
+    },
+    {
+      "filename": "naha_1005325_wb20260121210537.html",
+      "sha256": "998d4f40a23d10a9f5bf55f63981e0b5cafdcbd3e669036e60ecbe82aa118ac4",
+      "bytes": 24465,
+      "fetchedAt": "2026-10-30T15:49:34.269Z",
+      "fetchedFrom": "https://web.archive.org/web/20260121210537id_/https://www.city.naha.okinawa.jp/sigikai/giin/1005324/1005325.html"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "otagunma-shigikai-r8",
+  "files": [
+    {
+      "filename": "38849.pdf",
+      "sha256": "b6269ff363d3c93ef9798522431856a7d0ac96c7db097f1771a6acda2aa98464",
+      "bytes": 176044,
+      "fetchedAt": "2026-10-30T15:49:34.308Z",
+      "fetchedFrom": "https://www.city.ota.gunma.jp/uploaded/attachment/38849.pdf"
+    },
+    {
+      "filename": "43278.pdf",
+      "sha256": "33ef2787787fe246104c1c6787a2b7d6e7ad5f105e8a6121aa99aff1ae72e5e2",
+      "bytes": 42742,
+      "fetchedAt": "2026-10-30T15:49:34.308Z",
+      "fetchedFrom": "https://www.city.ota.gunma.jp/uploaded/attachment/43278.pdf"
+    },
+    {
+      "filename": "43695.pdf",
+      "sha256": "f917b01a96334e700c017f4ea9370e001e6a4e8c1ffddc440d7481f44cffef05",
+      "bytes": 581683,
+      "fetchedAt": "2026-10-30T15:49:34.309Z",
+      "fetchedFrom": "https://www.city.ota.gunma.jp/uploaded/attachment/43695.pdf"
+    },
+    {
+      "filename": "38848.pdf",
+      "sha256": "cbf5d8be1a0ee69461ac2378e52a79a31c7f5122cb8b2eec1ebc3f85eee53f47",
+      "bytes": 92189,
+      "fetchedAt": "2026-10-30T17:05:47.464Z",
+      "fetchedFrom": "https://www.city.ota.gunma.jp/uploaded/attachment/38848.pdf"
+    }
+  ]
+}

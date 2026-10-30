@@ -1,0 +1,297 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ginowan-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:22.982Z",
+  "fiscalYear": "R8",
+  "body": "宜野湾市議会",
+  "seats": 25,
+  "asOf": "2026-03-26",
+  "factions": [
+    {
+      "name": "絆輝クラブ",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "棚原明",
+        "松田朝仁",
+        "伊佐文貴",
+        "平安座武志",
+        "濱元朝晴",
+        "石川慶",
+        "宮城克",
+        "知名康司",
+        "呉屋等"
+      ],
+      "locator": {
+        "file": "ginowan_471sannpiitirann.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "政進会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "上地安之",
+        "又吉亮",
+        "山城康弘"
+      ],
+      "locator": {
+        "file": "ginowan_471sannpiitirann.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "下地崇",
+        "伊波一男",
+        "岸本一徳"
+      ],
+      "locator": {
+        "file": "ginowan_471sannpiitirann.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "共生の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "嶺井拓磨",
+        "知念秀明"
+      ],
+      "locator": {
+        "file": "ginowan_471sannpiitirann.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "和みクラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "上里広幸",
+        "伊佐哲雄"
+      ],
+      "locator": {
+        "file": "ginowan_471sannpiitirann.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "結・市民ネットワーク",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宮城政司",
+        "屋良千枝美"
+      ],
+      "locator": {
+        "file": "ginowan_471sannpiitirann.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "じのーんの風立憲・社民",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "座間味万佳",
+        "我如古盛英"
+      ],
+      "locator": {
+        "file": "ginowan_471sannpiitirann.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "マブイ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "プリティ宮城ちえ",
+        "宮城優"
+      ],
+      "locator": {
+        "file": "ginowan_471sannpiitirann.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１０号",
+    "billName": "令和８年度宜野湾市一般会計予算",
+    "sessionLabel": "第 471 回宜野湾市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決（賛成多数）",
+    "locator": {
+      "file": "ginowan_giketukekka471.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "第471回宜野湾市議会定例会（議員の賛否一覧）「議案に対する議員の賛否一覧（令和８年３月定例会）」p.2 の表頭（議決当日 3月26日）",
+  "resultTitle": "第471回宜野湾市議会定例会付議事件一覧及びその結果（議決結果一覧）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "第471回宜野湾市議会定例会（議員の賛否一覧）p.2 議案第１０号の行",
+    "sourceFile": "ginowan_471sannpiitirann.pdf",
+    "columns": [
+      {
+        "label": "棚原明",
+        "faction": "絆輝クラブ",
+        "member": "棚原明",
+        "stance": "賛成"
+      },
+      {
+        "label": "松田朝仁",
+        "faction": "絆輝クラブ",
+        "member": "松田朝仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊佐文貴",
+        "faction": "絆輝クラブ",
+        "member": "伊佐文貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "平安座武志",
+        "faction": "絆輝クラブ",
+        "member": "平安座武志",
+        "stance": "賛成"
+      },
+      {
+        "label": "濱元朝晴",
+        "faction": "絆輝クラブ",
+        "member": "濱元朝晴",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川慶",
+        "faction": "絆輝クラブ",
+        "member": "石川慶",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮城克",
+        "faction": "絆輝クラブ",
+        "member": "宮城克",
+        "stance": "賛成"
+      },
+      {
+        "label": "知名康司",
+        "faction": "絆輝クラブ",
+        "member": "知名康司",
+        "stance": "賛成"
+      },
+      {
+        "label": "上地安之",
+        "faction": "政進会",
+        "member": "上地安之",
+        "stance": "賛成"
+      },
+      {
+        "label": "又吉亮",
+        "faction": "政進会",
+        "member": "又吉亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "山城康弘",
+        "faction": "政進会",
+        "member": "山城康弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "下地崇",
+        "faction": "公明党",
+        "member": "下地崇",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊波一男",
+        "faction": "公明党",
+        "member": "伊波一男",
+        "stance": "賛成"
+      },
+      {
+        "label": "岸本一徳",
+        "faction": "公明党",
+        "member": "岸本一徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "嶺井拓磨",
+        "faction": "共生の会",
+        "member": "嶺井拓磨",
+        "stance": "賛成"
+      },
+      {
+        "label": "知念秀明",
+        "faction": "共生の会",
+        "member": "知念秀明",
+        "stance": "賛成"
+      },
+      {
+        "label": "上里広幸",
+        "faction": "和みクラブ",
+        "member": "上里広幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊佐哲雄",
+        "faction": "和みクラブ",
+        "member": "伊佐哲雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮城政司",
+        "faction": "結・市民ネットワーク",
+        "member": "宮城政司",
+        "stance": "賛成"
+      },
+      {
+        "label": "屋良千枝美",
+        "faction": "結・市民ネットワーク",
+        "member": "屋良千枝美",
+        "stance": "賛成"
+      },
+      {
+        "label": "座間味万佳",
+        "faction": "じのーんの風立憲・社民",
+        "member": "座間味万佳",
+        "stance": "反対"
+      },
+      {
+        "label": "我如古盛英",
+        "faction": "じのーんの風立憲・社民",
+        "member": "我如古盛英",
+        "stance": "反対"
+      },
+      {
+        "label": "プリティ宮城ちえ",
+        "faction": "マブイ",
+        "member": "プリティ宮城ちえ",
+        "stance": "反対"
+      },
+      {
+        "label": "宮城優",
+        "faction": "マブイ",
+        "member": "宮城優",
+        "stance": "反対"
+      },
+      {
+        "label": "呉屋等",
+        "faction": "絆輝クラブ",
+        "member": "呉屋等",
+        "stance": "議長"
+      }
+    ]
+  }
+}

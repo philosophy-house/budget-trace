@@ -1,0 +1,22 @@
+{
+  "sourceId": "isesaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "15062_20250814021357.html",
+      "sha256": "2f26d5b8506624eafc264760dc5bfd201b6d4a1268bbff1eddc6bb7e5ef679e7",
+      "bytes": 43538,
+      "fetchedAt": "2026-10-30T15:49:34.307Z",
+      "fetchedFrom": "https://web.archive.org/web/20250814021357id_/https://www.city.isesaki.lg.jp/gyoseijoho/shigikai/giimmeibo/15062.html"
+    },
+    {
+      "filename": "dbsr_r08-0319_013.html",
+      "sha256": "affe716ddadf26a5b068d22ca90c4fe1e9f75fb35f8c11902d3cb4fc837c3721",
+      "bytes": 326532,
+      "fetchedAt": "2026-10-30T15:49:34.308Z",
+      "fetchedFrom": "https://www.city.isesaki.gunma.dbsr.jp/index.php/100000?QueryType=new&Template=document&VoiceExpand1=r08-0319_013",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

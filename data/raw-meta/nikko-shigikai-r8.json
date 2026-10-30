@@ -1,0 +1,47 @@
+{
+  "sourceId": "nikko-shigikai-r8",
+  "files": [
+    {
+      "filename": "2112.html",
+      "sha256": "60f709c25b6730f120b54ef1bd6b3d70ea6fb3df588f15b7e96ecdd6722b9c03",
+      "bytes": 58731,
+      "fetchedAt": "2026-10-30T15:49:34.295Z",
+      "fetchedFrom": "https://web.archive.org/web/20250702085912id_/https://www.city.nikko.lg.jp/soshiki/11/1044/1/2112.html"
+    },
+    {
+      "filename": "6032.html",
+      "sha256": "8b692139b55b49625a6d563e626b47f2d92732b5db1eb73521bd1b72ca3c5a4a",
+      "bytes": 42983,
+      "fetchedAt": "2026-10-30T15:49:34.296Z",
+      "fetchedFrom": "https://web.archive.org/web/20260414144636id_/https://www.city.nikko.lg.jp/gikai/giimmeibo/6032.html"
+    },
+    {
+      "filename": "0802sanpiichirann.pdf",
+      "sha256": "d6f4c16fef13b7afe0ec8afae3ae0ebb8f2149e656bcc6f148a288c6dd0e3593",
+      "bytes": 29190,
+      "fetchedAt": "2026-10-30T15:49:34.296Z",
+      "fetchedFrom": "https://www.city.nikko.lg.jp/material/files/group/45/0802sanpiichirann.pdf"
+    },
+    {
+      "filename": "0802giketukekkaichiranhyou.pdf",
+      "sha256": "50f4e8def0bfd82ee41e6b1d065becf34ec40314fd3f61e73667fcafccf08872",
+      "bytes": 50583,
+      "fetchedAt": "2026-10-30T15:49:34.296Z",
+      "fetchedFrom": "https://www.city.nikko.lg.jp/material/files/group/45/0802giketukekkaichiranhyou.pdf"
+    },
+    {
+      "filename": "shigikaikouhou82.pdf",
+      "sha256": "a420bc869414833ed15bacd769226150e9ed332dfb85821b717a3c2e570c7051",
+      "bytes": 9524794,
+      "fetchedAt": "2026-10-30T15:49:34.302Z",
+      "fetchedFrom": "https://www.city.nikko.lg.jp/material/files/group/45/shigikaikouhou82.pdf"
+    },
+    {
+      "filename": "R714hakenhoukoku_saitou-nobuyuki.pdf",
+      "sha256": "916c0ae0e6674da250a51411d026380b9adde0c5479641edfa70e325c68bf4c4",
+      "bytes": 54783,
+      "fetchedAt": "2026-10-30T15:49:34.303Z",
+      "fetchedFrom": "https://www.city.nikko.lg.jp/material/files/group/45/R714hakenhoukoku_saitou-nobuyuki.pdf"
+    }
+  ]
+}

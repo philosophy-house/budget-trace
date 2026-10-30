@@ -1,0 +1,26 @@
+{
+  "sourceId": "ashikaga-shigikai-r8",
+  "files": [
+    {
+      "filename": "000811_index.html",
+      "sha256": "58df55f6812d7f6f364ee9fd44928c28f10fcb6ddcd3f97f4be73dc08f230d49",
+      "bytes": 87348,
+      "fetchedAt": "2026-10-30T15:49:34.285Z",
+      "fetchedFrom": "https://web.archive.org/web/20251214232217id_/https://www.city.ashikaga.tochigi.jp/goverment/000078/000433/000811/index.html"
+    },
+    {
+      "filename": "6a2bc76211095.pdf",
+      "sha256": "c71096d8cdf6b6884545b2843fbd11c7024f00396dc4a05eb62f20ed16cdd25c",
+      "bytes": 138079,
+      "fetchedAt": "2026-10-30T15:49:34.285Z",
+      "fetchedFrom": "https://www.city.ashikaga.tochigi.jp/manage/contents/upload/6a2bc76211095.pdf"
+    },
+    {
+      "filename": "000808_index.html",
+      "sha256": "6e5f438e9ebb9827c741d33b3a041a756fcfa12b46e1976383650231373cfc8d",
+      "bytes": 87861,
+      "fetchedAt": "2026-10-30T15:49:34.285Z",
+      "fetchedFrom": "https://www.city.ashikaga.tochigi.jp/goverment/000078/000432/000808/index.html"
+    }
+  ]
+}

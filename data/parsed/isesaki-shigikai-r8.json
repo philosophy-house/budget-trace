@@ -1,0 +1,143 @@
+{
+  "docType": "council-composition",
+  "sourceId": "isesaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:31.422Z",
+  "fiscalYear": "R8",
+  "body": "伊勢崎市議会",
+  "seats": 29,
+  "asOf": "2025-05-19",
+  "factions": [
+    {
+      "name": "伊勢崎クラブ",
+      "seats": 16,
+      "isIndependent": false,
+      "members": [
+        "野田文雄",
+        "鈴木良尚",
+        "吉山勇",
+        "新井智",
+        "馬庭充裕",
+        "新藤靖",
+        "長沼宏泰",
+        "宮田芳典",
+        "山越清彦",
+        "大木光",
+        "藤生浩二",
+        "佐藤智則",
+        "椎名三生",
+        "飯島学",
+        "定方宏允",
+        "柳敦志"
+      ],
+      "locator": {
+        "file": "15062_20250814021357.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "有志会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "田村幸一",
+        "堀地和子",
+        "小暮笑鯉子",
+        "高橋宜隆"
+      ],
+      "locator": {
+        "file": "15062_20250814021357.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "内田彰",
+        "手島良市",
+        "田部井美晴"
+      ],
+      "locator": {
+        "file": "15062_20250814021357.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "北島元雄",
+        "長谷田公子"
+      ],
+      "locator": {
+        "file": "15062_20250814021357.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "会派に所属しない議員（多田稔）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "多田稔"
+      ],
+      "locator": {
+        "file": "15062_20250814021357.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に所属しない議員（栗原真耶）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "栗原真耶"
+      ],
+      "locator": {
+        "file": "15062_20250814021357.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に所属しない議員（高橋利昌）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "高橋利昌"
+      ],
+      "locator": {
+        "file": "15062_20250814021357.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "会派に所属しない議員（江原智淳）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "江原智淳"
+      ],
+      "locator": {
+        "file": "15062_20250814021357.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２０号",
+    "billName": "令和８年度伊勢崎市一般会計予算",
+    "sessionLabel": "令和８年第１回伊勢崎市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "dbsr_r08-0319_013.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年5月19日現在）",
+  "resultTitle": "令和８年第１回伊勢崎市議会定例会会議録 第５号（令和８年３月１９日）"
+}

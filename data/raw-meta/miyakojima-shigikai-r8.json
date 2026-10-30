@@ -1,0 +1,33 @@
+{
+  "sourceId": "miyakojima-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihameibo1201.pdf",
+      "sha256": "3f4ad03cb2b3c9b73c307bdbf10a095d782f4dd995bb6bc0e206edd436299d9c",
+      "bytes": 436095,
+      "fetchedAt": "2026-10-30T15:49:34.277Z",
+      "fetchedFrom": "https://www.city.miyakojima.lg.jp/gyosei/gikai/files/kaihameibo1201.pdf"
+    },
+    {
+      "filename": "R8.3syorikekka.pdf",
+      "sha256": "b780f5f515081f1b3060857a1720b732416f9ad4bff358119efd2ee53fc7e091",
+      "bytes": 80343,
+      "fetchedAt": "2026-10-30T15:49:34.278Z",
+      "fetchedFrom": "https://www.city.miyakojima.lg.jp/gyosei/gikai/files/R8.3syorikekka.pdf"
+    },
+    {
+      "filename": "miyakojima_R8.2.pdf",
+      "sha256": "8472e8c14aaa35d736c86e3afbc5426eba9c06c57642a016751cd7493dfacc5d",
+      "bytes": 2337901,
+      "fetchedAt": "2026-10-30T15:49:34.279Z",
+      "fetchedFrom": "https://www.city.miyakojima.lg.jp/gyosei/gikai/files/R8.2.pdf"
+    },
+    {
+      "filename": "miyakojima_meibo_20260520195339.html",
+      "sha256": "d7a71a32e224330f3579a35799da322301eed3f7e979084d9e93a9ee31fdaf12",
+      "bytes": 15647,
+      "fetchedAt": "2026-10-30T15:49:34.281Z",
+      "fetchedFrom": "https://web.archive.org/web/20260520195339id_/https://www.city.miyakojima.lg.jp/gyosei/gikai/meibo.html"
+    }
+  ]
+}

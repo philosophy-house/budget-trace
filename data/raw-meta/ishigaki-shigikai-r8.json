@@ -1,0 +1,36 @@
+{
+  "sourceId": "ishigaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "ishigaki_441_wb20260124154753.html",
+      "sha256": "2dd7237cc2fb0a593fde17f055ad84b8562c41fbb4c35f1ae0fa6596f33dbde0",
+      "bytes": 49912,
+      "fetchedAt": "2026-10-30T15:49:34.272Z",
+      "fetchedFrom": "https://web.archive.org/web/20260124154753id_/https://www.city.ishigaki.okinawa.jp/soshiki/gikai/giinnmeibo/441.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "ishigaki_R8_dai3_sanseisya.pdf",
+      "sha256": "9ffeddffcc6cfcfa35d58097c5cd0800f7988cbd73f2a9727fdc7d80ba85bdee",
+      "bytes": 145575,
+      "fetchedAt": "2026-10-30T15:49:34.272Z",
+      "fetchedFrom": "https://www.city.ishigaki.okinawa.jp/material/files/group/33/R8_dai3_sanseisya.pdf"
+    },
+    {
+      "filename": "ishigaki_11780.html",
+      "sha256": "7414631cdf529cf44c750b18c5090a81c01cc6b58bad0146333c7f0d93fff4d8",
+      "bytes": 62407,
+      "fetchedAt": "2026-10-30T15:49:34.273Z",
+      "fetchedFrom": "https://www.city.ishigaki.okinawa.jp/soshiki/gikai/teireikairinnjikai/teisyutugianntokekka/reiwa8nen2026nen/11780.html"
+    },
+    {
+      "filename": "ishigaki_461.html",
+      "sha256": "4b3ef2ff030b6fd6d3bea958c3f90350ea6a1cec2fd9754396f9a71d169bf832",
+      "bytes": 46374,
+      "fetchedAt": "2026-10-30T15:49:34.273Z",
+      "fetchedFrom": "https://www.city.ishigaki.okinawa.jp/soshiki/gikai/isigakisigikainituite/461.html"
+    }
+  ]
+}

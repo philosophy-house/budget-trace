@@ -1,0 +1,104 @@
+{
+  "docType": "council-composition",
+  "sourceId": "moka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:30.717Z",
+  "fiscalYear": "R8",
+  "body": "真岡市議会",
+  "seats": 21,
+  "asOf": "2025-05-15",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "もおか令和会",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "中野達生",
+        "添野郁",
+        "市井元",
+        "上原チョー",
+        "麦倉竹明",
+        "服部正一郎",
+        "櫛毛隆行",
+        "鶴見和弘",
+        "大瀧和弘",
+        "久保田武",
+        "渡邉隆",
+        "星野守"
+      ],
+      "locator": {
+        "file": "1877.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "超党派もおか新時代",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "須田正彦",
+        "小川美穂",
+        "春山則子",
+        "七海朱美"
+      ],
+      "locator": {
+        "file": "1877.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "真明会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "日下田喜義",
+        "柳田尚宏",
+        "荒川洋子"
+      ],
+      "locator": {
+        "file": "1877.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "飯塚正"
+      ],
+      "locator": {
+        "file": "1877.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "大隈広郷"
+      ],
+      "locator": {
+        "file": "1877.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３２号",
+    "billName": "令和８年度真岡市一般会計予算",
+    "sessionLabel": "２月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8-2kaigikekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派の構成（更新日 2025年05月15日）",
+  "resultTitle": "令和8年第2回真岡市議会定例会（令和8年2月）会議結果（２月定例会 議案等の審議結果と賛否一覧表）"
+}

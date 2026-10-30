@@ -1,0 +1,181 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ishigaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:23.425Z",
+  "fiscalYear": "R8",
+  "body": "石垣市議会",
+  "seats": 22,
+  "asOf": "2025-08-25",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "公明石垣",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "平良秀之",
+        "石垣達也"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "バガスマ風の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "長浜信夫"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "井上美智子"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "ゆがふ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "花谷史郎",
+        "内原英聡"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "未来",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "箕底用一",
+        "後上里厚司"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "自由民主石垣",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "長山家康",
+        "仲間均",
+        "我喜屋隆次",
+        "東内原とも子",
+        "伊良部和摩",
+        "登野城このみ",
+        "髙良宗矩",
+        "新里裕樹"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "自由民主実現",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "友寄永三"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無会派（大道夏代）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大道夏代"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "無会派（田盛英伸）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "田盛英伸"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "無会派（仲嶺忠師）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "仲嶺忠師"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "無会派（石川勇作）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "石川勇作"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 11
+      }
+    },
+    {
+      "name": "無会派（宮良操）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "宮良操"
+      ],
+      "locator": {
+        "file": "ishigaki_441_wb20260124154753.html",
+        "row": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第13号",
+    "billName": "令和8年度石垣市一般会計予算",
+    "sessionLabel": "令和8年　第3回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "ishigaki_11780.html"
+    }
+  },
+  "rosterTitle": "石垣市議会「会派の構成」会派名簿（令和7年8月25日時点・更新日 2025年08月26日）の魚拓（2026-01-24 捕捉）",
+  "resultTitle": "令和8年　第3回定例会　提出議案とその結果"
+}

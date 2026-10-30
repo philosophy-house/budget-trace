@@ -1,0 +1,149 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kanuma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:29.704Z",
+  "fiscalYear": "R8",
+  "body": "鹿沼市議会",
+  "seats": 23,
+  "asOf": "2025-05-01",
+  "factions": [
+    {
+      "name": "経世会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "舘野裕昭",
+        "橋本勝浩",
+        "大貫桂一",
+        "石川さやか",
+        "小島実"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "親悠会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "横尾武男",
+        "鹿妻武洋",
+        "谷中恵子",
+        "関口正一"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "政新クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大島久幸",
+        "藤田義昭"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "つながるかぬまネットワーク",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "駒場久和",
+        "舩生雅秀"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "自由民主党鹿沼",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "増渕靖弘",
+        "宇賀神敏",
+        "津久井健吉"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "梶原隆",
+        "早川勝弘"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "阿部秀実"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "新風会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "橋本修",
+        "仲田知史",
+        "鈴木毅"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "無会派（佐藤誠）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "佐藤誠"
+      ],
+      "locator": {
+        "file": "info-0000000011-0.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度鹿沼市一般会計予算について",
+    "sessionLabel": "令和８年第１回鹿沼市議会定例会（令和８年３月）",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "69b7a60b09c6b.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派の紹介（令和7年5月1日現在・更新日 令和7年5月22日）",
+  "resultTitle": "令和８年第１回鹿沼市議会定例会（令和８年３月）議案と会議結果"
+}

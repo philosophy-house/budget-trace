@@ -1,0 +1,209 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tatebayashi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T17:08:32.409Z",
+  "fiscalYear": "R8",
+  "body": "館林市議会",
+  "seats": 17,
+  "asOf": "2025-03-17",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "緑水クラブ",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "権田昌弘",
+        "小林但弥",
+        "池森のり子",
+        "岩上博志",
+        "野本泰生",
+        "柴田信",
+        "渋谷理津子",
+        "遠藤重吉",
+        "野村晴三"
+      ],
+      "locator": {
+        "file": "20221006154526.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "平井玲子",
+        "堀口きく枝"
+      ],
+      "locator": {
+        "file": "20221006154526.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党館林市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "篠木正明",
+        "田辺純子"
+      ],
+      "locator": {
+        "file": "20221006154526.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "一心会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川村幸人",
+        "飯島一志"
+      ],
+      "locator": {
+        "file": "20221006154526.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "フォーラム館林",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "斉藤貢一",
+        "岡野陽子"
+      ],
+      "locator": {
+        "file": "20221006154526.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 １６ 号",
+    "billName": "令和８年度館林市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kekka_R0801.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "館林市議会 会派構成（令和7年3月17日現在・顔写真入りの名簿）",
+  "resultTitle": "令和８年第１回定例会 議案等審議結果一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会 議員個人の賛否結果一覧表",
+    "sourceFile": "sanpi_R081.pdf",
+    "columns": [
+      {
+        "label": "小林但弥",
+        "faction": "緑水クラブ",
+        "member": "小林但弥",
+        "stance": "賛成"
+      },
+      {
+        "label": "池森のり子",
+        "faction": "緑水クラブ",
+        "member": "池森のり子",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯島一志",
+        "faction": "一心会",
+        "member": "飯島一志",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡野陽子",
+        "faction": "フォーラム館林",
+        "member": "岡野陽子",
+        "stance": "反対"
+      },
+      {
+        "label": "堀口きく枝",
+        "faction": "公明党",
+        "member": "堀口きく枝",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩上博志",
+        "faction": "緑水クラブ",
+        "member": "岩上博志",
+        "stance": "賛成"
+      },
+      {
+        "label": "野本泰生",
+        "faction": "緑水クラブ",
+        "member": "野本泰生",
+        "stance": "賛成"
+      },
+      {
+        "label": "田辺純子",
+        "faction": "日本共産党館林市議団",
+        "member": "田辺純子",
+        "stance": "反対"
+      },
+      {
+        "label": "柴田信",
+        "faction": "緑水クラブ",
+        "member": "柴田信",
+        "stance": "賛成"
+      },
+      {
+        "label": "平井玲子",
+        "faction": "公明党",
+        "member": "平井玲子",
+        "stance": "賛成"
+      },
+      {
+        "label": "川村幸人",
+        "faction": "一心会",
+        "member": "川村幸人",
+        "stance": "賛成"
+      },
+      {
+        "label": "権田昌弘",
+        "faction": "緑水クラブ",
+        "member": "権田昌弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "斉藤貢一",
+        "faction": "フォーラム館林",
+        "member": "斉藤貢一",
+        "stance": "反対"
+      },
+      {
+        "label": "篠木正明",
+        "faction": "日本共産党館林市議団",
+        "member": "篠木正明",
+        "stance": "反対"
+      },
+      {
+        "label": "遠藤重吉",
+        "faction": "緑水クラブ",
+        "member": "遠藤重吉",
+        "stance": "賛成"
+      },
+      {
+        "label": "野村晴三",
+        "faction": "緑水クラブ",
+        "member": "野村晴三",
+        "stance": "賛成"
+      },
+      {
+        "label": "渋谷理津子",
+        "faction": "緑水クラブ",
+        "member": "渋谷理津子",
+        "stance": "議長"
+      }
+    ]
+  }
+}
