@@ -1,0 +1,33 @@
+{
+  "sourceId": "gosen-shigikai-r8",
+  "files": [
+    {
+      "filename": "2888.html",
+      "sha256": "2ab6186ff5e9bfa5e1d72df3922c0c30ca06ba90ab45d2d254c5d00424a1e5c5",
+      "bytes": 32672,
+      "fetchedAt": "2026-10-30T10:53:50.333Z",
+      "fetchedFrom": "https://www.city.gosen.lg.jp/parliament/2/2888.html"
+    },
+    {
+      "filename": "3499.html",
+      "sha256": "a3f5d5f777fac2744c5b257cfa3dc303a7eddf148313334590170a51ccb63390",
+      "bytes": 30472,
+      "fetchedAt": "2026-10-30T10:53:50.333Z",
+      "fetchedFrom": "https://www.city.gosen.lg.jp/parliament/3499.html"
+    },
+    {
+      "filename": "12992.html",
+      "sha256": "e5249c704b9337a7a39bfb67f93a8921c6738e5be91414dd7431c023c548d0ca",
+      "bytes": 49840,
+      "fetchedAt": "2026-10-30T10:53:50.333Z",
+      "fetchedFrom": "https://www.city.gosen.lg.jp/organization/16/giansanpi/12992.html"
+    },
+    {
+      "filename": "12682.html",
+      "sha256": "bc903fc159ae6ee4a7bca78cfc54c7444ed694c15302402f0f412aa8f7b69756",
+      "bytes": 42699,
+      "fetchedAt": "2026-10-30T10:53:50.334Z",
+      "fetchedFrom": "https://www.city.gosen.lg.jp/organization/16/giketukekka/12682.html"
+    }
+  ]
+}

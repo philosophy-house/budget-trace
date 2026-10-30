@@ -1,0 +1,127 @@
+{
+  "docType": "council-composition",
+  "sourceId": "seki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:57.184Z",
+  "fiscalYear": "R8",
+  "body": "関市議会",
+  "seats": 22,
+  "asOf": "2025-05-07",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "新政クラブ",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "池村真一郎",
+        "村井芙美加",
+        "岩出和也",
+        "北村隆幸",
+        "長瀬敦久",
+        "林裕之",
+        "武藤記子",
+        "長尾一郎",
+        "浅野典之",
+        "渡辺英人",
+        "三輪正善"
+      ],
+      "locator": {
+        "file": "0000001565_20260113.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市議会公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "市川隆也",
+        "足立将裕",
+        "幅永典"
+      ],
+      "locator": {
+        "file": "0000001565_20260113.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党関市議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "猿渡直樹",
+        "小森敬直"
+      ],
+      "locator": {
+        "file": "0000001565_20260113.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "若草クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "土屋雅義",
+        "栗山守"
+      ],
+      "locator": {
+        "file": "0000001565_20260113.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "清流クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田中巧",
+        "安達克也"
+      ],
+      "locator": {
+        "file": "0000001565_20260113.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無会派（石原教雅）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "石原教雅"
+      ],
+      "locator": {
+        "file": "0000001565_20260113.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派（川合治義）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "川合治義"
+      ],
+      "locator": {
+        "file": "0000001565_20260113.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２９号",
+    "billName": "令和８年度関市一般会計予算",
+    "sessionLabel": "令和８年関市議会第１回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "R8_1.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派別名簿（2025年5月7日）",
+  "resultTitle": "令和８年関市議会第１回定例会議決事件等一覧表"
+}

@@ -38,6 +38,13 @@
       "bytes": 35344,
       "fetchedAt": "2026-10-29T12:46:45.081Z",
       "fetchedFrom": "https://www.city.fuji.shizuoka.jp/5205000000/p007010.html"
+    },
+    {
+      "filename": "p007166.html",
+      "sha256": "7fe9655e138d8d042816b63cea110cb162258d9fdc235b249ac1bd4753215124",
+      "bytes": 36642,
+      "fetchedAt": "2026-10-30T13:15:30.758Z",
+      "fetchedFrom": "https://www.city.fuji.shizuoka.jp/5105000000/p007166.html"
     }
   ]
 }

@@ -1,0 +1,148 @@
+{
+  "docType": "council-composition",
+  "sourceId": "joetsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:53.515Z",
+  "fiscalYear": "R8",
+  "body": "上越市議会",
+  "seats": 32,
+  "asOf": "2026-03-24",
+  "teisu": 32,
+  "factions": [
+    {
+      "name": "久比岐野",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "降旗太地",
+        "大島美香",
+        "草間和幸",
+        "安田佳世",
+        "ストラットン恵美子",
+        "橋本洋一",
+        "飯塚義隆",
+        "江口修一"
+      ],
+      "locator": {
+        "file": "282836.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "熊倉隆将",
+        "山本佳洋",
+        "中土井かおる",
+        "高山ゆう子",
+        "小林和孝",
+        "こんどう彰治",
+        "本城文夫"
+      ],
+      "locator": {
+        "file": "282836.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "つなぐ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "平原留美",
+        "滝澤陽一",
+        "関川信之",
+        "宮﨑朋子"
+      ],
+      "locator": {
+        "file": "282836.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みらい",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "牧井邦生",
+        "髙橋浩輔",
+        "櫻庭節子"
+      ],
+      "locator": {
+        "file": "282836.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "平良木哲也",
+        "上野公悦",
+        "橋爪法一"
+      ],
+      "locator": {
+        "file": "282836.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "西沢智子",
+        "山田忠晴"
+      ],
+      "locator": {
+        "file": "282836.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "渡邉希",
+        "伊﨑博幸"
+      ],
+      "locator": {
+        "file": "282836.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "宮川大樹",
+        "滝沢一成",
+        "渡邉隆"
+      ],
+      "locator": {
+        "file": "282836.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第5号",
+    "billName": "令和８年度上越市一般会計予算",
+    "sessionLabel": "令和８年第２回（３月）上越市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "282836.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和8年第2回（3月）定例会 議案等（審議結果）一覧の「各議員の賛否等」の表頭",
+  "resultTitle": "令和8年第2回（3月）上越市議会定例会 議案等（審議結果）一覧"
+}

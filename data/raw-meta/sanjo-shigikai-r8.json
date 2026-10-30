@@ -1,0 +1,33 @@
+{
+  "sourceId": "sanjo-shigikai-r8",
+  "files": [
+    {
+      "filename": "125357.pdf",
+      "sha256": "d2e1bfe4cf687e5e24436d139a97bf966801c316973579921cc4d02151f7a729",
+      "bytes": 11248037,
+      "fetchedAt": "2026-10-30T10:53:50.317Z",
+      "fetchedFrom": "https://www.city.sanjo.niigata.jp/material/files/group/30/125357.pdf"
+    },
+    {
+      "filename": "20027.html",
+      "sha256": "896ca82f153476dcfee8a714a82392857c757029b40e012ac3b71defa2cf4e58",
+      "bytes": 53776,
+      "fetchedAt": "2026-10-30T10:53:50.318Z",
+      "fetchedFrom": "https://www.city.sanjo.niigata.jp/soshiki/gikai_jimukyoku/gikaijimukyoku/giketsukekka/R8/20027.html"
+    },
+    {
+      "filename": "5469.html",
+      "sha256": "1c7060d0f00d07b5d7317181d979c94b7dd814058fe988abf924306c066b7b04",
+      "bytes": 52900,
+      "fetchedAt": "2026-10-30T10:53:50.319Z",
+      "fetchedFrom": "https://www.city.sanjo.niigata.jp/shisei/shigikai/5469.html"
+    },
+    {
+      "filename": "125344.pdf",
+      "sha256": "67c604e6f7b44affc8bf4dccbe3e1968ccd79332e61903c9425fffc04c35cb0d",
+      "bytes": 3411552,
+      "fetchedAt": "2026-10-30T10:53:50.321Z",
+      "fetchedFrom": "https://www.city.sanjo.niigata.jp/material/files/group/30/125344.pdf"
+    }
+  ]
+}

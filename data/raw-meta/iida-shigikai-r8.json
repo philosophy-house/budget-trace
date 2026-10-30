@@ -1,0 +1,36 @@
+{
+  "sourceId": "iida-shigikai-r8",
+  "files": [
+    {
+      "filename": "iida_kaihabetumeibo_20260225034455.html",
+      "sha256": "9fa63738f16e3d419f6230d16694dfebde73caf397c43fd931551d69a8d3600d",
+      "bytes": 27229,
+      "fetchedAt": "2026-10-30T10:53:50.346Z",
+      "fetchedFrom": "https://web.archive.org/web/20260225034455id_/https://www.city.iida.lg.jp/site/assembly/kaihabetumeibo.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "iida_80307.pdf",
+      "sha256": "f48a23bf06a0b9ca2407910019ccf317af730ad9c208451cbbe9d7bf89107ff3",
+      "bytes": 180175,
+      "fetchedAt": "2026-10-30T10:53:50.347Z",
+      "fetchedFrom": "https://www.city.iida.lg.jp/uploaded/attachment/80307.pdf"
+    },
+    {
+      "filename": "iida_teisuu.html",
+      "sha256": "fb945de37c1146ddc8b5b5688f4d37ebe028173553235ef4c0f8f388087a17e7",
+      "bytes": 27534,
+      "fetchedAt": "2026-10-30T10:53:50.347Z",
+      "fetchedFrom": "https://www.city.iida.lg.jp/site/assembly/teisuu.html"
+    },
+    {
+      "filename": "iida_kaihabetumeibo_20260510115908.html",
+      "sha256": "ca1f0024e06ac820cb16c7a0c6f42d5b5797c00eca738773b778d3081f8af15d",
+      "bytes": 27881,
+      "fetchedAt": "2026-10-30T10:53:50.347Z",
+      "fetchedFrom": "https://web.archive.org/web/20260510115908id_/https://www.city.iida.lg.jp/site/assembly/kaihabetumeibo.html"
+    }
+  ]
+}

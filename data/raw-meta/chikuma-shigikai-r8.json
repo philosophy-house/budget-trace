@@ -1,0 +1,33 @@
+{
+  "sourceId": "chikuma-shigikai-r8",
+  "files": [
+    {
+      "filename": "chikuma_R7seimu.pdf",
+      "sha256": "653f07b449ea4af00ff30bcb28613ad5a9735c601895bc0af777f16eecba4222",
+      "bytes": 103488,
+      "fetchedAt": "2026-10-30T10:53:50.362Z",
+      "fetchedFrom": "https://www.city.chikuma.lg.jp/material/files/group/2/R7seimu.pdf"
+    },
+    {
+      "filename": "chikuma_R0803sanpi.pdf",
+      "sha256": "0e3736328b01855a451e82fcf5cdaece1988bb635f5a9d59e4f178339905b91c",
+      "bytes": 93856,
+      "fetchedAt": "2026-10-30T10:53:50.363Z",
+      "fetchedFrom": "https://www.city.chikuma.lg.jp/material/files/group/2/R0803sanpi.pdf"
+    },
+    {
+      "filename": "chikuma_R0803shingikekka.pdf",
+      "sha256": "63fd80561bf3fccb0e09208286b128ac60aa07e302a1284559ed73fbd6d130ef",
+      "bytes": 77860,
+      "fetchedAt": "2026-10-30T10:53:50.363Z",
+      "fetchedFrom": "https://www.city.chikuma.lg.jp/material/files/group/2/R0803shingikekka.pdf"
+    },
+    {
+      "filename": "chikuma_R0803kaikinittei.pdf",
+      "sha256": "5d895f16c083cdd434accc85f53795a2d0c2615ae9be3ba072d31735c252b7b0",
+      "bytes": 72405,
+      "fetchedAt": "2026-10-30T10:53:50.364Z",
+      "fetchedFrom": "https://www.city.chikuma.lg.jp/material/files/group/2/R0803kaikinittei.pdf"
+    }
+  ]
+}

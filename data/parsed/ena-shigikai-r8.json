@@ -1,0 +1,238 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ena-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:58.223Z",
+  "fiscalYear": "R8",
+  "body": "恵那市議会",
+  "seats": 18,
+  "asOf": "2026-03-23",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "新政会",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "後藤康司",
+        "鵜飼伸幸",
+        "千藤安雄",
+        "西尾努",
+        "柘植孝彦",
+        "伊藤勝彦",
+        "服部紀史",
+        "太田敦之",
+        "林貴光",
+        "渡辺武彦",
+        "高橋隼人"
+      ],
+      "locator": {
+        "file": "20260324_kekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "猿渡南江",
+        "平林多津子"
+      ],
+      "locator": {
+        "file": "20260324_kekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "無所属（町野道明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "町野道明"
+      ],
+      "locator": {
+        "file": "20260324_kekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "無所属（佐々木透）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "佐々木透"
+      ],
+      "locator": {
+        "file": "20260324_kekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "無所属（秋山佳寛）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "秋山佳寛"
+      ],
+      "locator": {
+        "file": "20260324_kekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "無所属（千賀丈史）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "千賀丈史"
+      ],
+      "locator": {
+        "file": "20260324_kekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "無所属（各務美穂）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "各務美穂"
+      ],
+      "locator": {
+        "file": "20260324_kekka.pdf",
+        "page": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第３５号",
+    "billName": "令和８年度恵那市一般会計予算",
+    "sessionLabel": "令和 8 年第１回恵那市議会定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決（賛成多数）",
+    "locator": {
+      "file": "giketsuichiran323.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "３月議会 議決結果（採決が分かれたもの）の会派・議員名の表頭",
+  "resultTitle": "令和8年第１回恵那市議会定例会提出議案一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "３月議会 議決結果（採決が分かれたもの）",
+    "sourceFile": "20260324_kekka.pdf",
+    "columns": [
+      {
+        "label": "後藤康司",
+        "faction": "新政会",
+        "member": "後藤康司",
+        "stance": "賛成"
+      },
+      {
+        "label": "鵜飼伸幸",
+        "faction": "新政会",
+        "member": "鵜飼伸幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "千藤安雄",
+        "faction": "新政会",
+        "member": "千藤安雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "西尾努",
+        "faction": "新政会",
+        "member": "西尾努",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤勝彦",
+        "faction": "新政会",
+        "member": "伊藤勝彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "服部紀史",
+        "faction": "新政会",
+        "member": "服部紀史",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田敦之",
+        "faction": "新政会",
+        "member": "太田敦之",
+        "stance": "賛成"
+      },
+      {
+        "label": "林貴光",
+        "faction": "新政会",
+        "member": "林貴光",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺武彦",
+        "faction": "新政会",
+        "member": "渡辺武彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋隼人",
+        "faction": "新政会",
+        "member": "高橋隼人",
+        "stance": "賛成"
+      },
+      {
+        "label": "猿渡南江",
+        "faction": "日本共産党",
+        "member": "猿渡南江",
+        "stance": "反対"
+      },
+      {
+        "label": "平林多津子",
+        "faction": "日本共産党",
+        "member": "平林多津子",
+        "stance": "反対"
+      },
+      {
+        "label": "町野道明",
+        "faction": "無所属（町野道明）",
+        "member": "町野道明",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木透",
+        "faction": "無所属（佐々木透）",
+        "member": "佐々木透",
+        "stance": "賛成"
+      },
+      {
+        "label": "秋山佳寛",
+        "faction": "無所属（秋山佳寛）",
+        "member": "秋山佳寛",
+        "stance": "賛成"
+      },
+      {
+        "label": "千賀丈史",
+        "faction": "無所属（千賀丈史）",
+        "member": "千賀丈史",
+        "stance": "賛成"
+      },
+      {
+        "label": "各務美穂",
+        "faction": "無所属（各務美穂）",
+        "member": "各務美穂",
+        "stance": "賛成"
+      },
+      {
+        "label": "柘植孝彦",
+        "faction": "新政会",
+        "member": "柘植孝彦",
+        "stance": "議長"
+      }
+    ]
+  }
+}

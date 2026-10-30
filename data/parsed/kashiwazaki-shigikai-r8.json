@@ -1,0 +1,276 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kashiwazaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:52.215Z",
+  "fiscalYear": "R8",
+  "body": "柏崎市議会",
+  "seats": 22,
+  "asOf": "2025-05-15",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "柏崎の風",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "上森茜",
+        "三嶋崇史",
+        "春川敏浩",
+        "柄沢均",
+        "阿部基"
+      ],
+      "locator": {
+        "file": "10324.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "柏盛クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "三宮直人",
+        "重野正毅"
+      ],
+      "locator": {
+        "file": "10324.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "社会クラブ・柏崎のみらい連合",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "佐藤正典",
+        "池野里美",
+        "星野幸彦"
+      ],
+      "locator": {
+        "file": "10324.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "真貝維義",
+        "西川弘美"
+      ],
+      "locator": {
+        "file": "10324.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党柏崎市議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "持田繁義",
+        "五位野和夫"
+      ],
+      "locator": {
+        "file": "10324.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "民社友愛",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "相澤宗一",
+        "佐藤和典"
+      ],
+      "locator": {
+        "file": "10324.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "自治研究会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "布施学",
+        "山崎智仁"
+      ],
+      "locator": {
+        "file": "10324.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "明日への希望",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "近藤由香里",
+        "田邉優香",
+        "山本博文",
+        "星野正仁"
+      ],
+      "locator": {
+        "file": "10324.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第27号",
+    "billName": "令和8(2026)年度一般会計予算",
+    "sessionLabel": "令和8(2026)年2月定例会議",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決",
+    "locator": {
+      "file": "48027.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（届け出順・令和7(2025)年5月15日現在）",
+  "resultTitle": "議員の賛否状況（令和8(2026)年）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議員の賛否状況（令和8(2026)年2月定例会議）",
+    "sourceFile": "48027.html",
+    "columns": [
+      {
+        "label": "布施学",
+        "faction": "自治研究会",
+        "member": "布施学",
+        "stance": "賛成"
+      },
+      {
+        "label": "山崎智仁",
+        "faction": "自治研究会",
+        "member": "山崎智仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "星野幸彦",
+        "faction": "社会クラブ・柏崎のみらい連合",
+        "member": "星野幸彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤正典",
+        "faction": "社会クラブ・柏崎のみらい連合",
+        "member": "佐藤正典",
+        "stance": "賛成"
+      },
+      {
+        "label": "池野里美",
+        "faction": "社会クラブ・柏崎のみらい連合",
+        "member": "池野里美",
+        "stance": "賛成"
+      },
+      {
+        "label": "三嶋崇史",
+        "faction": "柏崎の風",
+        "member": "三嶋崇史",
+        "stance": "賛成"
+      },
+      {
+        "label": "近藤由香里",
+        "faction": "明日への希望",
+        "member": "近藤由香里",
+        "stance": "賛成"
+      },
+      {
+        "label": "田邉優香",
+        "faction": "明日への希望",
+        "member": "田邉優香",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本博文",
+        "faction": "明日への希望",
+        "member": "山本博文",
+        "stance": "賛成"
+      },
+      {
+        "label": "西川弘美",
+        "faction": "公明党",
+        "member": "西川弘美",
+        "stance": "賛成"
+      },
+      {
+        "label": "持田繁義",
+        "faction": "日本共産党柏崎市議員団",
+        "member": "持田繁義",
+        "stance": "反対"
+      },
+      {
+        "label": "五位野和夫",
+        "faction": "日本共産党柏崎市議員団",
+        "member": "五位野和夫",
+        "stance": "反対"
+      },
+      {
+        "label": "重野正毅",
+        "faction": "柏盛クラブ",
+        "member": "重野正毅",
+        "stance": "賛成"
+      },
+      {
+        "label": "三宮直人",
+        "faction": "柏盛クラブ",
+        "member": "三宮直人",
+        "stance": "賛成"
+      },
+      {
+        "label": "相澤宗一",
+        "faction": "民社友愛",
+        "member": "相澤宗一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤和典",
+        "faction": "民社友愛",
+        "member": "佐藤和典",
+        "stance": "賛成"
+      },
+      {
+        "label": "柄沢均",
+        "faction": "柏崎の風",
+        "member": "柄沢均",
+        "stance": "賛成"
+      },
+      {
+        "label": "上森茜",
+        "faction": "柏崎の風",
+        "member": "上森茜",
+        "stance": "賛成"
+      },
+      {
+        "label": "春川敏浩",
+        "faction": "柏崎の風",
+        "member": "春川敏浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "星野正仁",
+        "faction": "明日への希望",
+        "member": "星野正仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "真貝維義",
+        "faction": "公明党",
+        "member": "真貝維義",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部基",
+        "faction": "柏崎の風",
+        "member": "阿部基",
+        "stance": "議長"
+      }
+    ]
+  }
+}

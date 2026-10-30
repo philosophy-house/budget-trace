@@ -1,0 +1,33 @@
+{
+  "sourceId": "kashiwazaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "10324.html",
+      "sha256": "7e92ab09c5df9255eb5a4547ec8812fe27b3360befbe6c399d29bebeae1e7a22",
+      "bytes": 54653,
+      "fetchedAt": "2026-10-30T10:53:50.322Z",
+      "fetchedFrom": "https://web.archive.org/web/20250913052618id_/https://www.city.kashiwazaki.lg.jp/shigikai/gikaisyokai/giimmeibo/10324.html"
+    },
+    {
+      "filename": "48027.html",
+      "sha256": "9487b0f6a0dc1646e7abf22f80ad74f748d600011dfc10eadea7928fc306010e",
+      "bytes": 63220,
+      "fetchedAt": "2026-10-30T10:53:50.322Z",
+      "fetchedFrom": "https://www.city.kashiwazaki.lg.jp/shigikai/kaigikekka/gian_shingikekka/2026gian/48027.html"
+    },
+    {
+      "filename": "10321.html",
+      "sha256": "24f354dc0ad156c770ec53c43e0db045d2b7ddba17a71e0aed89bf3be924827c",
+      "bytes": 70676,
+      "fetchedAt": "2026-10-30T10:53:50.323Z",
+      "fetchedFrom": "https://www.city.kashiwazaki.lg.jp/shigikai/gikaisyokai/gikainogaiyo/10321.html"
+    },
+    {
+      "filename": "dayori_204.pdf",
+      "sha256": "d6265d9503f03b86f4bed16b1761aa9435b8f7d7f14764c6b22564c546cf8e28",
+      "bytes": 3363477,
+      "fetchedAt": "2026-10-30T10:53:50.325Z",
+      "fetchedFrom": "https://www.city.kashiwazaki.lg.jp/material/files/group/51/dayori_204.pdf"
+    }
+  ]
+}

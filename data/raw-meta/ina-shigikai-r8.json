@@ -1,0 +1,33 @@
+{
+  "sourceId": "ina-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihakousei_20260208044212.html",
+      "sha256": "ba4da8df70ae7a0f56a4cb2c1ece2a67b52b1b95095a453454205c6865929b52",
+      "bytes": 24339,
+      "fetchedAt": "2026-10-30T10:53:50.354Z",
+      "fetchedFrom": "https://web.archive.org/web/20260208044212id_/https://www.inacity.jp/shigikai/shigikai_shokai/kaihakousei.html"
+    },
+    {
+      "filename": "0803sinngikeika6.pdf",
+      "sha256": "b468c3d54409ad446bb3c29e13ab08f9d72b70784aa15509adf34fc9204a37cd",
+      "bytes": 86619,
+      "fetchedAt": "2026-10-30T10:53:50.355Z",
+      "fetchedFrom": "https://www.inacity.jp/shigikai/nittei_giketsu/terekai/reiwa08/0803teireikai.files/0803sinngikeika6.pdf"
+    },
+    {
+      "filename": "0803sannpiitirann5.pdf",
+      "sha256": "0a613cc621c683769ac5fb990343b6d6f68ffe4cd5275d9d79c83497a9a65787",
+      "bytes": 91542,
+      "fetchedAt": "2026-10-30T10:53:50.355Z",
+      "fetchedFrom": "https://www.inacity.jp/shigikai/nittei_giketsu/terekai/reiwa08/0803teireikai.files/0803sannpiitirann5.pdf"
+    },
+    {
+      "filename": "gikaidayori0705.pdf",
+      "sha256": "a40f57d69349771727d4cc74a311b4bb6e4e2c7dc05d941d724d22a5eaec03ad",
+      "bytes": 1947950,
+      "fetchedAt": "2026-10-30T10:53:50.357Z",
+      "fetchedFrom": "https://www.inacity.jp/shigikai/bocho/gikaidayori/reiwa07/gikaidayori0705.files/gikaidayori0705.pdf"
+    }
+  ]
+}

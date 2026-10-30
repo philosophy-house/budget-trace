@@ -1,0 +1,33 @@
+{
+  "sourceId": "nakatsugawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "gikai_singikekka_R0803.pdf",
+      "sha256": "a3ba13ceaa8953506a34d07fdee805a451f2b04a8e8d25d662355a5cfca43584",
+      "bytes": 571611,
+      "fetchedAt": "2026-10-30T10:53:50.369Z",
+      "fetchedFrom": "https://www.city.nakatsugawa.lg.jp/material/files/group/64/gikai_singikekka_R0803.pdf"
+    },
+    {
+      "filename": "R8gikaigaiyou.pdf",
+      "sha256": "4bfe9147dbfb1f7bea8a71a1dd0fc2d52f2ab3c0c146f6a0ee03fd4913d8284b",
+      "bytes": 1860719,
+      "fetchedAt": "2026-10-30T10:53:50.370Z",
+      "fetchedFrom": "https://www.city.nakatsugawa.lg.jp/material/files/group/64/R8gikaigaiyou.pdf"
+    },
+    {
+      "filename": "20260518gikiyakusyokumeibo.pdf",
+      "sha256": "747e70c3956de3e67751c1cae72a398877da7041ecf97b5d768492e65c364c97",
+      "bytes": 86729,
+      "fetchedAt": "2026-10-30T10:53:50.371Z",
+      "fetchedFrom": "https://www.city.nakatsugawa.lg.jp/material/files/group/64/20260518gikiyakusyokumeibo.pdf"
+    },
+    {
+      "filename": "3056.html",
+      "sha256": "2e84b7e99ec1507e72f40aa7c4bb2d2d99c9fec15d555f01c1a6f6bd7f7fd9a1",
+      "bytes": 58819,
+      "fetchedAt": "2026-10-30T11:52:22.852Z",
+      "fetchedFrom": "https://www.city.nakatsugawa.lg.jp/shisei/citycouncil/3/3056.html"
+    }
+  ]
+}

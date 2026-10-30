@@ -1,0 +1,42 @@
+{
+  "sourceId": "kani-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihakousei_R7.8.7_20260202222719.pdf",
+      "sha256": "12e9738cff11306d2fb316343b8392a45f2085480364e66a2ed5b809e1b339b6",
+      "bytes": 80865,
+      "fetchedAt": "2026-10-30T10:53:50.376Z",
+      "fetchedFrom": "https://web.archive.org/web/20260202222719id_/http://gikai-kani.lg.jp/gikaiwp/wp-content/uploads/2023/07/kaihakousei%EF%BC%88R7.8.7%EF%BD%9E.pdf"
+    },
+    {
+      "filename": "result-803-2-4-2.html",
+      "sha256": "b10c483c9ec9e8cd106ca3a844c467c1b6e19b836236a1eb62c34b32274b1f7e",
+      "bytes": 141308,
+      "fetchedAt": "2026-10-30T10:53:50.376Z",
+      "fetchedFrom": "https://gikai-kani.lg.jp/archives/result/result-803-2-4-2",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "role.html",
+      "sha256": "7e550114e379fd7b1ea7a49bd086c2555ebfd065fa777e9b5cd8c30925acf6de",
+      "bytes": 112706,
+      "fetchedAt": "2026-10-30T10:53:50.377Z",
+      "fetchedFrom": "https://gikai-kani.lg.jp/role",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "top_20260315205229.html",
+      "sha256": "2d17841e8a7e2523933b9749cd7e543d5055d950bfe8fbf8ad8cf8a799ef7d6a",
+      "bytes": 140429,
+      "fetchedAt": "2026-10-30T10:53:50.377Z",
+      "fetchedFrom": "https://web.archive.org/web/20260315205229id_/https://gikai-kani.lg.jp/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

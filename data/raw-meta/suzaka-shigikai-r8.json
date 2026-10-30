@@ -1,0 +1,33 @@
+{
+  "sourceId": "suzaka-shigikai-r8",
+  "files": [
+    {
+      "filename": "suzaka_s-gikai_kaiha_20250218.pdf",
+      "sha256": "a5927dce0d353805b3fc435fe769f8f527e747a7f5fad6e5457f1ea268866ce3",
+      "bytes": 106475,
+      "fetchedAt": "2026-10-30T10:53:50.348Z",
+      "fetchedFrom": "https://www.city.suzaka.nagano.jp/material/files/group/28/s-gikai_kaiha_20250218.pdf"
+    },
+    {
+      "filename": "suzaka_7833.html",
+      "sha256": "963ec9252bae61ce8af851930155d0c9a2eaf0f1124569fa7b955e85ac5b16d5",
+      "bytes": 74143,
+      "fetchedAt": "2026-10-30T10:53:50.348Z",
+      "fetchedFrom": "https://www.city.suzaka.nagano.jp/shigikai/teireikai_rinjikai/11_1/7833.html"
+    },
+    {
+      "filename": "suzaka_R0803_giansannpi1.pdf",
+      "sha256": "c963271f6b072b04058fb39c2d0c4c7b9a3875c058974da1fac521385c1beaf1",
+      "bytes": 201487,
+      "fetchedAt": "2026-10-30T10:53:50.349Z",
+      "fetchedFrom": "https://www.city.suzaka.nagano.jp/material/files/group/28/R0803_giansannpi1.pdf"
+    },
+    {
+      "filename": "suzaka_82.html",
+      "sha256": "14de7f4ffb2227030a2a82acc1af9caae23e33a50e84aa0a285c8175d5ba0279",
+      "bytes": 63087,
+      "fetchedAt": "2026-10-30T10:53:50.349Z",
+      "fetchedFrom": "https://www.city.suzaka.nagano.jp/shigikai/shokai/82.html"
+    }
+  ]
+}

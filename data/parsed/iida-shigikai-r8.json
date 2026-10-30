@@ -1,0 +1,106 @@
+{
+  "docType": "council-composition",
+  "sourceId": "iida-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:54.663Z",
+  "fiscalYear": "R8",
+  "body": "飯田市議会",
+  "seats": 23,
+  "asOf": "2025-10-01",
+  "teisu": 23,
+  "factions": [
+    {
+      "name": "会派きぼう",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "清水勇",
+        "竹村圭史",
+        "福澤克憲",
+        "長谷部春生",
+        "関島百合",
+        "松岡秀治",
+        "片町元彦",
+        "遠山雄",
+        "水月レイ",
+        "大平雲龍"
+      ],
+      "locator": {
+        "file": "iida_kaihabetumeibo_20260225034455.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新政いいだ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "下平恒男",
+        "清水優一郎",
+        "小平彰",
+        "佐々木博子",
+        "岡本恒和",
+        "正木利幸",
+        "森本紘司"
+      ],
+      "locator": {
+        "file": "iida_kaihabetumeibo_20260225034455.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小林真一",
+        "宮脇邦彦",
+        "岡村弘子"
+      ],
+      "locator": {
+        "file": "iida_kaihabetumeibo_20260225034455.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "古川仁",
+        "市瀬芳明"
+      ],
+      "locator": {
+        "file": "iida_kaihabetumeibo_20260225034455.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派議員（野崎直仁）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "野崎直仁"
+      ],
+      "locator": {
+        "file": "iida_kaihabetumeibo_20260225034455.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第52号",
+    "billName": "令和８年度飯田市一般会計予算（案）",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決",
+    "locator": {
+      "file": "iida_80307.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "飯田市議会議員会派別名簿について（令和７年10月１日現在・議決前の魚拓）",
+  "resultTitle": "令和８年第１回定例会付議事件及び議決結果一覧表"
+}

@@ -1,0 +1,149 @@
+{
+  "docType": "council-composition",
+  "sourceId": "gifu-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:56.864Z",
+  "fiscalYear": "R8",
+  "body": "岐阜県議会",
+  "seats": 45,
+  "asOf": "2026-03-10",
+  "factions": [
+    {
+      "name": "県政自民クラブ",
+      "seats": 34,
+      "isIndependent": false,
+      "members": [
+        "伊藤秀光",
+        "今井政嘉",
+        "今井瑠々",
+        "岩井豊太郎",
+        "小川祐輝",
+        "小原尚",
+        "恩田佳幸",
+        "川上哲也",
+        "国枝慎太郎",
+        "黒田芳弘",
+        "佐藤武彦",
+        "高殿尚",
+        "田中勝士",
+        "所竜也",
+        "長屋光征",
+        "布俣正也",
+        "猫田孝",
+        "野島征夫",
+        "長谷川泰幸",
+        "尾藤義昭",
+        "平岩正光",
+        "平野祐也",
+        "広瀬修",
+        "藤本恵司",
+        "牧田秀憲",
+        "松岡正人",
+        "水野正敏",
+        "村下貴夫",
+        "森治久",
+        "森正弘",
+        "森益基",
+        "安井忠",
+        "山内房壽",
+        "和田直也"
+      ],
+      "locator": {
+        "file": "13309.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "県民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "伊藤英生",
+        "伊藤正博",
+        "辻井俊貴",
+        "判治康信",
+        "渡辺嘉山"
+      ],
+      "locator": {
+        "file": "13309.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "岐阜県議会公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "澄川寿之",
+        "水野吉近"
+      ],
+      "locator": {
+        "file": "13309.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中川裕子"
+      ],
+      "locator": {
+        "file": "13309.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属（酒向薫）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "酒向薫"
+      ],
+      "locator": {
+        "file": "13309.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（平野恭子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "平野恭子"
+      ],
+      "locator": {
+        "file": "13309.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無所属（木村千秋）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "木村千秋"
+      ],
+      "locator": {
+        "file": "13309.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第１号",
+    "billName": "令和８年度岐阜県一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "可決",
+    "locator": {
+      "file": "491576.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議員一覧（50音順）（令和8年3月10日現在）",
+  "resultTitle": "令和８年第１回定例会における賛否等状況"
+}

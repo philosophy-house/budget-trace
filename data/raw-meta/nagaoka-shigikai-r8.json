@@ -1,0 +1,36 @@
+{
+  "sourceId": "nagaoka-shigikai-r8",
+  "files": [
+    {
+      "filename": "239.pdf",
+      "sha256": "a2e900bc11ffcfeba494d4dbf1a24839681323a5be15008f92fc35a559deef26",
+      "bytes": 7032553,
+      "fetchedAt": "2026-10-30T10:53:50.309Z",
+      "fetchedFrom": "https://www.city.nagaoka.niigata.jp/shigikai/file/239.pdf"
+    },
+    {
+      "filename": "r08-03.html",
+      "sha256": "8adf02056fcdc3190417047c43fe5730acc80521a6efe574c54ac0e7b25f1758",
+      "bytes": 35706,
+      "fetchedAt": "2026-10-30T10:53:50.309Z",
+      "fetchedFrom": "https://www.city.nagaoka.niigata.jp/shigikai/giketu/r08-03.html"
+    },
+    {
+      "filename": "kaigi-syussekisya.html",
+      "sha256": "df061727c7caa20574bc2eaa756901259c2e7f596fec6a85a465b79f035d7fe5",
+      "bytes": 11202,
+      "fetchedAt": "2026-10-30T10:53:50.310Z",
+      "fetchedFrom": "https://www.city.nagaoka.niigata.jp/shigikai/kaigi-syussekisya.html"
+    },
+    {
+      "filename": "voiweb_ACT203_K_R08032700061.html",
+      "sha256": "fd96e4332b0171f1df7c28685ab510cd2f1742e8817cac7af46c4dba97e7b7d0",
+      "bytes": 71265,
+      "fetchedAt": "2026-10-30T10:53:50.310Z",
+      "fetchedFrom": "https://www09.gijiroku.com/nagaoka/cgi/voiweb.exe?ACT=203&KENSAKU=0&SORT=0&KTYP=0,1,2,3&KGTP=1&FYY=2026&TYY=2026&TITL_SUBT=%97%DF%98a%81@%82W%94N%81@%82R%8C%8E%92%E8%97%E1%89%EF%96%7B%89%EF%8Bc%81%7C03%8C%8E27%93%FA-06%8D%86&FINO=1848&HATSUGENMODE=1&HYOUJIMODE=0&HUID=150365&STYLE=0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

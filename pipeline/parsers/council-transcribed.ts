@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.14";
+export const PARSER_VERSION = "0.8.15";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -1598,6 +1598,32 @@ export function parseCouncilTranscribed(
     if (!opt.teisuText) throw new Error(`${source.id}: teisu には teisuText（原典の表記）が要ります`);
     const tv = opt.teisuUrl ? readDoc(fileFor(opt.teisuUrl)).views : [...roster.views, ...resultViews];
     if (!has(tv, opt.teisuText)) missing.push(`定数の表記「${opt.teisuText}」が原典に見つかりません`);
+    // 定数の数そのものも原文に結び付ける（0.8.15・佐久で実測: 1人を書き落として teisu を 1 減らすと、teisuText が原典にあるだけで通った）。
+    // 数は**原典の中の文脈で**判定する（teisuText の中だけで見ると、teisuText を「２１名」のように切り詰めれば前の語が消える＝レビュー2巡目）:
+    // - 原典で数の直前8字に現員・現在数・在籍・出席・欠員があれば定数に数えない（牛久「現員数は２１名（定数２２名」で teisu を現員の 21 にして
+    //   1人を書き落とすと、欠員 1 との引き算が合って通った＝レビュー1巡目）。ただし直前8字の「定数」と数の間に別の数が無ければ数える
+    //   （十日町の表の見出し「条例定数 現員数 19人 19人」の最初の 19）
+    // - 数の直後が「人」「名」「席」か、直前8字に「定数」「定員」があること（ページ番号・日付の数を teisu にさせない）
+    const teisuN = norm(opt.teisuText);
+    const teisuOk = tv.some((v) => {
+      for (let i = v.text.indexOf(teisuN); i >= 0; i = v.text.indexOf(teisuN, i + 1)) {
+        for (const m of teisuN.matchAll(/\d+/g)) {
+          if (Number(m[0]) !== opt.teisu) continue;
+          const at = i + m.index!;
+          if (/\d/.test(v.text[at - 1] ?? "") || /\d/.test(v.text[at + m[0].length] ?? "")) continue;
+          const pre = v.text.slice(Math.max(0, at - 8), at);
+          const lastTeisu = Math.max(pre.lastIndexOf("定数"), pre.lastIndexOf("定員"));
+          const namedTeisu = lastTeisu >= 0 && !/\d/.test(pre.slice(lastTeisu));
+          if (!namedTeisu && /(現員|現在数|在籍|出席|欠員)/.test(pre)) continue;
+          if (!namedTeisu && !/^[人名席]/.test(v.text.slice(at + m[0].length))) continue;
+          return true;
+        }
+      }
+      return false;
+    });
+    if (!teisuOk) {
+      missing.push(`teisu ${opt.teisu} が teisuText「${opt.teisuText}」の中で定数の数として読めません（原典で数の直後が「人」「名」「席」か直前に「定数」「定員」があり、現員・在籍・出席・欠員の数でないこと）`);
+    }
     if ((opt.vacancies ?? 0) > 0 && opt.vacanciesTexts?.length) {
       const vv = opt.vacanciesUrl ? readDoc(fileFor(opt.vacanciesUrl)).views : tv;
       let sum = 0;
@@ -1613,6 +1639,23 @@ export function parseCouncilTranscribed(
       if (!opt.vacanciesText) throw new Error(`${source.id}: vacancies には vacanciesText（原典の表記）が要ります`);
       const vv = opt.vacanciesUrl ? readDoc(fileFor(opt.vacanciesUrl)).views : tv;
       if (!has(vv, opt.vacanciesText)) missing.push(`欠員の表記「${opt.vacanciesText}」が原典に見つかりません`);
+      // 欠員の数も原典の文脈で読む（0.8.15・レビュー4巡目: 長岡で同じ会議録の「欠席議員(2人)」、三条で「1人当たり」を欠員の原文にして
+      // 1人を書き落とすと、定数 − 欠員 の引き算が合って通った）。数の前後8字に「欠員」があり直前に欠席・出席・当たりが無いか、
+      // 数の直後が「人（名）が辞職・死去・逝去・失職」（神戸「1名辞職されたため」）であること
+      const vacN = norm(opt.vacanciesText);
+      const vacOk = vv.some((v) => {
+        for (let i = v.text.indexOf(vacN); i >= 0; i = v.text.indexOf(vacN, i + 1)) {
+          for (const m of vacN.matchAll(/\d+/g)) {
+            const at = i + m.index!;
+            const pre = v.text.slice(Math.max(0, at - 8), at);
+            const post = v.text.slice(at + m[0].length, at + m[0].length + 8);
+            if (/欠員/.test(pre + post) && !/(欠席|出席|当たり|あたり)/.test(pre)) return true;
+            if (/^[人名]\)?(が)?(辞職|死去|逝去|失職)/.test(post)) return true;
+          }
+        }
+        return false;
+      });
+      if (!vacOk) missing.push(`欠員の表記「${opt.vacanciesText}」の数が欠員の数として読めません（数の前後に「欠員」があるか、直後が「人（名）が辞職・死去」など。欠席・出席・当たりの数は数えない）`);
       const places = opt.vacanciesPlaces ?? [];
       if (places.length && !norm(opt.vacanciesText).includes("それぞれ")) missing.push(`vacanciesPlaces は「それぞれ」を含む原文にだけ使う`);
       for (const pl of places) if (!norm(opt.vacanciesText).includes(norm(pl))) missing.push(`vacanciesText に地名「${pl}」がありません`);
@@ -1719,11 +1762,11 @@ export function parseCouncilTranscribed(
     const headN = norm(r.resultBlock.heading);
     if (!headN.includes(resultN)) missing.push(`結果「${r.result}」が見出し「${r.resultBlock.heading}」の語ではありません`);
     // 見出しに含まれる結果語のうち最長のものと一致すること（「修正可決確定した議案」に「可決」は丸め・明石で実測）
-    const words = [...headN.matchAll(/原案のとおり可決|原案可決|修正可決|可決|否決/g)].map((m) => m[0]);
+    const words = [...headN.matchAll(/原案のとおり可決|修正のとおり可決|原案どおり可決|修正どおり可決|原案可決|修正可決|可決|否決/g)].map((m) => m[0]);
     const longest = words.filter((w) => !words.some((o) => o !== w && o.includes(w)));
     if (longest.length && !longest.includes(resultN)) missing.push(`結果「${r.result}」は見出しの結果語「${longest.join("・")}」を丸めています`);
     // 見出しは「承認・可決・同意」のように複数の語を並べる。予算の議決に当たる語だけを許す
-    if (!/^(原案のとおり可決|原案可決|修正可決|可決|否決)$/.test(resultN)) missing.push(`結果「${r.result}」は予算の議決の語ではありません`);
+    if (!/^(原案のとおり可決|修正のとおり可決|原案どおり可決|修正どおり可決|原案可決|修正可決|可決|否決)$/.test(resultN)) missing.push(`結果「${r.result}」は予算の議決の語ではありません`);
     // ⚠ 見出しと一覧の並び順は抽出モードで変わる（-layout と -raw で見出しが一覧の前にも後にも出る）ので、
     //   「見出しの前に件名がある」では帰属を縛れない（2026-10-01 に実測）。代わりに、件名と同じ本文に見出しがあり、
     //   **件名の直後に結果語が無い**（＝自前の結果を持つ賛否表の行ではない）ことを見る。南アルプスの議案27は
@@ -1732,7 +1775,12 @@ export function parseCouncilTranscribed(
     // 本文で見出しの直前が結果語の接頭辞（原案のとおり・原案・修正）で終わっていたら throw（2巡目のレビュー）
     const headCut = resAnchors.some((a) => {
       for (let i = a.text.indexOf(headN); i >= 0; i = a.text.indexOf(headN, i + 1)) {
-        if (/(原案のとおり|原案|修正)$/.test(a.text.slice(Math.max(0, i - 6), i))) return true;
+        if (/(原案のとおり|修正のとおり|原案どおり|修正どおり|原案|修正)$/.test(a.text.slice(Math.max(0, i - 6), i))) return true;
+        // 語の途中で切った見出し（「正可決確定した議案」「とおり可決した議案」）— 見出しの頭をまたぐ結果語が原典にあれば切り詰め（0.8.15・レビュー3巡目）
+        const lo = Math.max(0, i - 8);
+        for (const m of a.text.slice(lo, i + headN.length).matchAll(/原案のとおり可決|修正のとおり可決|原案どおり可決|修正どおり可決|原案可決|修正可決/g)) {
+          if (lo + m.index! < i && lo + m.index! + m[0].length > i) return true;
+        }
       }
       return false;
     });
@@ -1745,7 +1793,8 @@ export function parseCouncilTranscribed(
     if (!ok) missing.push(`${resultFile.filename}: 件名が見出し「${r.resultBlock.heading}」の一覧に属していません`);
   } else {
     // 結果は原典の語のまま — 窓の中で件名に最も近い結果語が、書き写した語と同じであること
-    const RE = /原案のとおり可決|修正のとおり可決|原案可決|修正可決|可決|否決|承認|同意|認定|採択/g;
+    // 「原案どおり可決」（可児）も原典の語のまま書く（0.8.15・それまでは「可決」に丸めて書くしかなかった）
+    const RE = /原案のとおり可決|修正のとおり可決|原案どおり可決|修正どおり可決|原案可決|修正可決|可決|否決|承認|同意|認定|採択/g;
     const ok = resAnchors.some((a) => {
       if (r.resultSide === "before") {
         const w = a.text.slice(Math.max(0, a.at - BEFORE), a.at);

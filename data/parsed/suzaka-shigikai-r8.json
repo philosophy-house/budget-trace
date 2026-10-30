@@ -1,0 +1,251 @@
+{
+  "docType": "council-composition",
+  "sourceId": "suzaka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:54.964Z",
+  "fiscalYear": "R8",
+  "body": "須坂市議会",
+  "seats": 20,
+  "asOf": "2025-02-18",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "市民共創会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "宮本泰也",
+        "荒井敏",
+        "岩田修二"
+      ],
+      "locator": {
+        "file": "suzaka_s-gikai_kaiha_20250218.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いいよね須坂",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "浅野隆義",
+        "山崎永一",
+        "西脇隆",
+        "野崎天馬",
+        "早川航紀"
+      ],
+      "locator": {
+        "file": "suzaka_s-gikai_kaiha_20250218.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "竹内勉",
+        "久保田克彦"
+      ],
+      "locator": {
+        "file": "suzaka_s-gikai_kaiha_20250218.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "清風会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "荒井一彦",
+        "牧重信",
+        "霜田剛"
+      ],
+      "locator": {
+        "file": "suzaka_s-gikai_kaiha_20250218.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "輝奏会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "中島義浩",
+        "岡田宗之",
+        "水越正和",
+        "酒井和裕",
+        "浅井洋子"
+      ],
+      "locator": {
+        "file": "suzaka_s-gikai_kaiha_20250218.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "シュプリンゲン",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "石合敬"
+      ],
+      "locator": {
+        "file": "suzaka_s-gikai_kaiha_20250218.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "堀内章一"
+      ],
+      "locator": {
+        "file": "suzaka_s-gikai_kaiha_20250218.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第35号",
+    "billName": "2026年度須坂市一般会計予算",
+    "sessionLabel": "令和8年3月須坂市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "suzaka_7833.html"
+    }
+  },
+  "rosterTitle": "須坂市議会会派別名簿（2025.2.18）",
+  "resultTitle": "令和8年3月須坂市議会定例会提出議案・審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月須坂市議会 議案賛否一覧（賛否が分かれた議案のみ掲載しています。）",
+    "sourceFile": "suzaka_R0803_giansannpi1.pdf",
+    "columns": [
+      {
+        "label": "宮本泰也",
+        "faction": "市民共創会",
+        "member": "宮本泰也",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒井敏",
+        "faction": "市民共創会",
+        "member": "荒井敏",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩田修二",
+        "faction": "市民共創会",
+        "member": "岩田修二",
+        "stance": "賛成"
+      },
+      {
+        "label": "浅野隆義",
+        "faction": "いいよね須坂",
+        "member": "浅野隆義",
+        "stance": "賛成"
+      },
+      {
+        "label": "山崎永一",
+        "faction": "いいよね須坂",
+        "member": "山崎永一",
+        "stance": "賛成"
+      },
+      {
+        "label": "西脇隆",
+        "faction": "いいよね須坂",
+        "member": "西脇隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "早川航紀",
+        "faction": "いいよね須坂",
+        "member": "早川航紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "野崎天馬",
+        "faction": "いいよね須坂",
+        "member": "野崎天馬",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹内勉",
+        "faction": "日本共産党",
+        "member": "竹内勉",
+        "stance": "反対"
+      },
+      {
+        "label": "久保田克彦",
+        "faction": "日本共産党",
+        "member": "久保田克彦",
+        "stance": "反対"
+      },
+      {
+        "label": "荒井一彦",
+        "faction": "清風会",
+        "member": "荒井一彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "牧重信",
+        "faction": "清風会",
+        "member": "牧重信",
+        "stance": "賛成"
+      },
+      {
+        "label": "霜田剛",
+        "faction": "清風会",
+        "member": "霜田剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島義浩",
+        "faction": "輝奏会",
+        "member": "中島義浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田宗之",
+        "faction": "輝奏会",
+        "member": "岡田宗之",
+        "stance": "賛成"
+      },
+      {
+        "label": "水越正和",
+        "faction": "輝奏会",
+        "member": "水越正和",
+        "stance": "賛成"
+      },
+      {
+        "label": "酒井和裕",
+        "faction": "輝奏会",
+        "member": "酒井和裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "浅井洋子",
+        "faction": "輝奏会",
+        "member": "浅井洋子",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀内章一",
+        "faction": "公明党",
+        "member": "堀内章一",
+        "stance": "賛成"
+      },
+      {
+        "label": "石合敬",
+        "faction": "シュプリンゲン",
+        "member": "石合敬",
+        "stance": "議長"
+      }
+    ]
+  }
+}

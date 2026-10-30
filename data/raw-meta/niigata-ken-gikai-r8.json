@@ -1,0 +1,26 @@
+{
+  "sourceId": "niigata-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "1356810287682.html",
+      "sha256": "e6d757a6f069a7d8c282be483c3e1a4acc70b2c9cf414ed4af9776a5ec6c1b4f",
+      "bytes": 32088,
+      "fetchedAt": "2026-10-30T10:53:50.301Z",
+      "fetchedFrom": "https://web.archive.org/web/20260216083828id_/https://www.pref.niigata.lg.jp/site/gikai/1356810287682.html"
+    },
+    {
+      "filename": "r0802-giannitirann.html",
+      "sha256": "080cb1ccd3bf38c430ee8ca84259836755f26b57a7711b0eefd0f488385bd137",
+      "bytes": 68889,
+      "fetchedAt": "2026-10-30T10:53:50.303Z",
+      "fetchedFrom": "https://www.pref.niigata.lg.jp/site/gikai/r0802-giannitirann.html"
+    },
+    {
+      "filename": "1356826112196.html",
+      "sha256": "8797ca87ed3d08d3507edb5d87698cb0e98516a2c9f990fe610d1646e45f0283",
+      "bytes": 71837,
+      "fetchedAt": "2026-10-30T10:53:50.304Z",
+      "fetchedFrom": "https://www.pref.niigata.lg.jp/site/gikai/1356826112196.html"
+    }
+  ]
+}

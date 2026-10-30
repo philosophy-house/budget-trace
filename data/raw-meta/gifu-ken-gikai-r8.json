@@ -1,0 +1,19 @@
+{
+  "sourceId": "gifu-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "13309.html",
+      "sha256": "823ef91ebd73c3e5442878f7cbc6ab0feef830abcb14989f98cfde05fb4f5787",
+      "bytes": 34965,
+      "fetchedAt": "2026-10-30T10:53:50.364Z",
+      "fetchedFrom": "https://web.archive.org/web/20260508083544id_/https://www.pref.gifu.lg.jp/site/gikai/13309.html"
+    },
+    {
+      "filename": "491576.pdf",
+      "sha256": "502651df15a17b33c3e788682bcaedb6e138f9973aa5093cd8041ce8ffd5e7b0",
+      "bytes": 108454,
+      "fetchedAt": "2026-10-30T10:53:50.365Z",
+      "fetchedFrom": "https://www.pref.gifu.lg.jp/uploaded/attachment/491576.pdf"
+    }
+  ]
+}

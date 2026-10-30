@@ -1,0 +1,33 @@
+{
+  "sourceId": "murakami-shigikai-r8",
+  "files": [
+    {
+      "filename": "gikai-kaihashokai-5.html",
+      "sha256": "be3d2fd630459b2f9df829ef9057274628c096c9c0c1edfdc89a6f186d986f2a",
+      "bytes": 24728,
+      "fetchedAt": "2026-10-30T10:53:50.329Z",
+      "fetchedFrom": "https://web.archive.org/web/20250823080141id_/https://www.city.murakami.lg.jp/site/shigikai/gikai-kaihashokai-5.html"
+    },
+    {
+      "filename": "gikai-shikumi.html",
+      "sha256": "168984d35550c0086ec1a463dda22037deabd02a7bf674891cac944a58c9944a",
+      "bytes": 34848,
+      "fetchedAt": "2026-10-30T10:53:50.329Z",
+      "fetchedFrom": "https://www.city.murakami.lg.jp/site/shigikai/gikai-shikumi.html"
+    },
+    {
+      "filename": "75104.pdf",
+      "sha256": "df8196139598614b15217fe1125f2836e8aa25c0b77acfa4545083c1beb885a6",
+      "bytes": 178311,
+      "fetchedAt": "2026-10-30T10:53:50.330Z",
+      "fetchedFrom": "https://www.city.murakami.lg.jp/uploaded/attachment/75104.pdf"
+    },
+    {
+      "filename": "75073.pdf",
+      "sha256": "d101be5a91475605c726ec6ed945ca6d0ad0ec4602998b14897f3d59531dcd63",
+      "bytes": 347106,
+      "fetchedAt": "2026-10-30T10:53:50.330Z",
+      "fetchedFrom": "https://www.city.murakami.lg.jp/uploaded/attachment/75073.pdf"
+    }
+  ]
+}

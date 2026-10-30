@@ -1,0 +1,167 @@
+{
+  "docType": "council-composition",
+  "sourceId": "chikuma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:56.585Z",
+  "fiscalYear": "R8",
+  "body": "千曲市議会",
+  "seats": 19,
+  "asOf": "2026-03-16",
+  "factions": [
+    {
+      "name": "一志会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "川嶋敬信",
+        "宮下繁明",
+        "田中秀樹"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由政策研究会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "荻原光太郎",
+        "和田英幸",
+        "聖澤多貴雄",
+        "林慶太郎",
+        "坂口吉一"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新政クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "中村眞一",
+        "北川原晃",
+        "堀内太一"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党（栁澤眞由美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "栁澤眞由美"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党千曲市議団（前田きみ子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "前田きみ子"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党（滝沢清人）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "滝沢清人"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党千曲市議団（中村恒彦）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中村恒彦"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（金井文彦）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "金井文彦"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（大澤洋子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大澤洋子"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（早志圭司）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "早志圭司"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（宇田川弘子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "宇田川弘子"
+      ],
+      "locator": {
+        "file": "chikuma_R7seimu.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第22号",
+    "billName": "令和８年度千曲市一般会計予算の議定について",
+    "sessionLabel": "令和８年第２回（３月）千曲市議会定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "原案可決",
+    "locator": {
+      "file": "chikuma_R0803shingikekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "令和7年度（R7.4～R8.3）政務活動費収支報告書一覧表（会派名・人数・所属議員）",
+  "resultTitle": "令和8年第2回（3月）千曲市議会定例会 議案等審議結果一覧表"
+}

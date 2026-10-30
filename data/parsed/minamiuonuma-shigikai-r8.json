@@ -1,0 +1,242 @@
+{
+  "docType": "council-composition",
+  "sourceId": "minamiuonuma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:54.242Z",
+  "fiscalYear": "R8",
+  "body": "南魚沼市議会",
+  "seats": 22,
+  "asOf": "2025-11-13",
+  "factions": [
+    {
+      "name": "南魚みらいクラブ",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "小澤実",
+        "笠原大輔",
+        "山田勝",
+        "阿部一郎",
+        "目黒哲也",
+        "塩川裕紀",
+        "清塚武敏",
+        "桑原圭美"
+      ],
+      "locator": {
+        "file": "3691.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "梅沢道男",
+        "上村寿美子",
+        "田中せつ子",
+        "今井久美",
+        "寺口友彦"
+      ],
+      "locator": {
+        "file": "3691.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "新生歩む会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "塩谷寿雄",
+        "野口勉悠",
+        "大平剛",
+        "中沢一博",
+        "牧野晶"
+      ],
+      "locator": {
+        "file": "3691.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中沢道夫",
+        "川辺きのい"
+      ],
+      "locator": {
+        "file": "3691.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "つばめの会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "黒岩揺光",
+        "神保貴雄"
+      ],
+      "locator": {
+        "file": "3691.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第7号議案",
+    "billName": "令和8年度南魚沼市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決（賛成多数）",
+    "locator": {
+      "file": "80222.html"
+    }
+  },
+  "rosterTitle": "南魚沼市議会会派別名簿（掲載日 令和7年11月13日）",
+  "resultTitle": "令和8年3月定例会議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "南魚沼市議会だより No.86（2026.5.1）賛否一覧表",
+    "sourceFile": "080501gikaidayoriNo.86.pdf",
+    "columns": [
+      {
+        "label": "笠原大輔",
+        "faction": "南魚みらいクラブ",
+        "member": "笠原大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田勝",
+        "faction": "南魚みらいクラブ",
+        "member": "山田勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部一郎",
+        "faction": "南魚みらいクラブ",
+        "member": "阿部一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "目黒哲也",
+        "faction": "南魚みらいクラブ",
+        "member": "目黒哲也",
+        "stance": "賛成"
+      },
+      {
+        "label": "清塚武敏",
+        "faction": "南魚みらいクラブ",
+        "member": "清塚武敏",
+        "stance": "賛成"
+      },
+      {
+        "label": "桑原圭美",
+        "faction": "南魚みらいクラブ",
+        "member": "桑原圭美",
+        "stance": "賛成"
+      },
+      {
+        "label": "小澤実",
+        "faction": "南魚みらいクラブ",
+        "member": "小澤実",
+        "stance": "賛成"
+      },
+      {
+        "label": "上村寿美子",
+        "faction": "市民クラブ",
+        "member": "上村寿美子",
+        "stance": "反対"
+      },
+      {
+        "label": "梅沢道男",
+        "faction": "市民クラブ",
+        "member": "梅沢道男",
+        "stance": "反対"
+      },
+      {
+        "label": "田中せつ子",
+        "faction": "市民クラブ",
+        "member": "田中せつ子",
+        "stance": "反対"
+      },
+      {
+        "label": "今井久美",
+        "faction": "市民クラブ",
+        "member": "今井久美",
+        "stance": "反対"
+      },
+      {
+        "label": "寺口友彦",
+        "faction": "市民クラブ",
+        "member": "寺口友彦",
+        "stance": "反対"
+      },
+      {
+        "label": "野口勉悠",
+        "faction": "新生歩む会",
+        "member": "野口勉悠",
+        "stance": "賛成"
+      },
+      {
+        "label": "大平剛",
+        "faction": "新生歩む会",
+        "member": "大平剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "塩谷寿雄",
+        "faction": "新生歩む会",
+        "member": "塩谷寿雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "中沢一博",
+        "faction": "新生歩む会",
+        "member": "中沢一博",
+        "stance": "賛成"
+      },
+      {
+        "label": "牧野晶",
+        "faction": "新生歩む会",
+        "member": "牧野晶",
+        "stance": "賛成"
+      },
+      {
+        "label": "川辺きのい",
+        "faction": "日本共産党議員団",
+        "member": "川辺きのい",
+        "stance": "反対"
+      },
+      {
+        "label": "中沢道夫",
+        "faction": "日本共産党議員団",
+        "member": "中沢道夫",
+        "stance": "反対"
+      },
+      {
+        "label": "神保貴雄",
+        "faction": "つばめの会",
+        "member": "神保貴雄",
+        "stance": "反対"
+      },
+      {
+        "label": "黒岩揺光",
+        "faction": "つばめの会",
+        "member": "黒岩揺光",
+        "stance": "反対"
+      },
+      {
+        "label": "塩川裕紀",
+        "faction": "南魚みらいクラブ",
+        "member": "塩川裕紀",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nagano-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:54.497Z",
+  "fiscalYear": "R8",
+  "body": "長野県議会",
+  "seats": 56,
+  "asOf": "2025-04-09",
+  "factions": [
+    {
+      "name": "自由民主党県議団",
+      "seats": 24,
+      "isIndependent": false,
+      "members": [
+        "服部宏昭",
+        "萩原清",
+        "西沢正隆",
+        "宮本衡司",
+        "風間辰一",
+        "佐々木祥二",
+        "小池清",
+        "丸山栄一",
+        "寺沢功希",
+        "大畑俊隆",
+        "山岸喜昭",
+        "宮下克彦",
+        "堀内孝人",
+        "酒井茂",
+        "共田武史",
+        "依田明善",
+        "竹内正美",
+        "丸茂岳人",
+        "大井岳夫",
+        "山田英喜",
+        "向山賢悟",
+        "早川大地",
+        "垣内将邦",
+        "青木崇"
+      ],
+      "locator": {
+        "file": "naganoken_toha_20260306062819.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "改革信州",
+      "seats": 13,
+      "isIndependent": false,
+      "members": [
+        "小林東一郎",
+        "荒井武志",
+        "髙島陽子",
+        "花岡賢一",
+        "埋橋茂人",
+        "続木幹夫",
+        "中川博司",
+        "望月義寿",
+        "佐藤千枝",
+        "丸山寿子",
+        "竹村直子",
+        "小林陽子",
+        "林和明"
+      ],
+      "locator": {
+        "file": "naganoken_toha_20260306062819.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "新政策議員団",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "小山仁志",
+        "小林あや",
+        "百瀬智之",
+        "奥村健仁",
+        "グレート無茶",
+        "小池久長",
+        "清水正康"
+      ],
+      "locator": {
+        "file": "naganoken_toha_20260306062819.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党長野県議団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "清水純子",
+        "川上信彦",
+        "加藤康治",
+        "勝山秀夫",
+        "勝野智行"
+      ],
+      "locator": {
+        "file": "naganoken_toha_20260306062819.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党県議団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "毛利栄子",
+        "和田明子",
+        "山口典久",
+        "両角友成",
+        "藤岡義英"
+      ],
+      "locator": {
+        "file": "naganoken_toha_20260306062819.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "宮澤敏文",
+        "小林君男"
+      ],
+      "locator": {
+        "file": "naganoken_toha_20260306062819.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号",
+    "billName": "令和８年度長野県一般会計予算案",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-12",
+    "decidedDateLabel": "令和8年3月12日",
+    "result": "可決",
+    "locator": {
+      "file": "naganoken_tijiteisyutugian0802.html"
+    }
+  },
+  "rosterTitle": "党派別議員名簿（令和7年4月9日現在・議決前の魚拓）",
+  "resultTitle": "知事提出議案（令和8年2月定例会）"
+}

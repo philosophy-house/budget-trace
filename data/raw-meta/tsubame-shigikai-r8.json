@@ -1,0 +1,26 @@
+{
+  "sourceId": "tsubame-shigikai-r8",
+  "files": [
+    {
+      "filename": "4780.html",
+      "sha256": "30ac16940d859335b1cd699b5ea9a4dea7f602c21658ccb0a55ce8437d12da86",
+      "bytes": 45172,
+      "fetchedAt": "2026-10-30T10:53:50.331Z",
+      "fetchedFrom": "https://web.archive.org/web/20260510085354id_/https://www.city.tsubame.niigata.jp/keikaku/gikai/1/4780.html"
+    },
+    {
+      "filename": "21468.html",
+      "sha256": "53672ea5ea781b354a9a89cd5d68d044ec05a1ae9769dbd4ab9e23f9dff8f91b",
+      "bytes": 68367,
+      "fetchedAt": "2026-10-30T10:53:50.332Z",
+      "fetchedFrom": "https://www.city.tsubame.niigata.jp/soshiki/gikai/1/7/10_5/21468.html"
+    },
+    {
+      "filename": "4454.html",
+      "sha256": "edd93c984c7d1d622792a1221ba62c446e2f1ac1c22f1d3479da0e3d722a33a3",
+      "bytes": 51348,
+      "fetchedAt": "2026-10-30T10:53:50.332Z",
+      "fetchedFrom": "https://www.city.tsubame.niigata.jp/keikaku/gikai/4/4454.html"
+    }
+  ]
+}

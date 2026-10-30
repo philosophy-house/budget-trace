@@ -1,0 +1,148 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sado-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:53.739Z",
+  "fiscalYear": "R8",
+  "body": "佐渡市議会",
+  "seats": 21,
+  "asOf": "2024-04-30",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "政風会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山本卓",
+        "林純一",
+        "川原茂",
+        "坂下善英",
+        "室岡啓史"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新生クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "駒形信雄",
+        "佐藤孝",
+        "広瀬大海",
+        "佐々木ひとみ"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "リベラル佐渡",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "平田和太龍",
+        "村川拓人",
+        "坂下真斗"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中川直美",
+        "栗山嘉男"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "佐渡の声",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中川健二",
+        "山本健二"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山田伸之"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "社会民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "荒井眞理"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "近藤和義",
+        "佐藤定"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "無会派（金田淳一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "金田淳一"
+      ],
+      "locator": {
+        "file": "2732_20260120.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 35 号",
+    "billName": "令和８年度佐渡市一般会計予算について",
+    "sessionLabel": "令和８年第２回（３月）定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "58749.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派別：議員名簿（令和6年4月30日現在）",
+  "resultTitle": "議決結果一覧（令和８年第２回（３月）定例会）"
+}

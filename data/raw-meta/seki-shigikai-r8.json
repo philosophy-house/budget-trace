@@ -1,0 +1,33 @@
+{
+  "sourceId": "seki-shigikai-r8",
+  "files": [
+    {
+      "filename": "0000001565_20260113.html",
+      "sha256": "f74d96025f88670b6777bf542e773991535bd3ee1a3719392f73a0921c949e22",
+      "bytes": 33294,
+      "fetchedAt": "2026-10-30T10:53:50.366Z",
+      "fetchedFrom": "https://web.archive.org/web/20260113003259id_/https://www.city.seki.lg.jp/0000001565.html"
+    },
+    {
+      "filename": "0000001565_20260614.html",
+      "sha256": "31717f3726240a7ec900fdaeac271aa81c72bea4a463a09ad4ed7169685b05b3",
+      "bytes": 33441,
+      "fetchedAt": "2026-10-30T10:53:50.367Z",
+      "fetchedFrom": "https://web.archive.org/web/20260614135536id_/https://www.city.seki.lg.jp/0000001565.html"
+    },
+    {
+      "filename": "0000001422.html",
+      "sha256": "f2fe0c6928d721dfd9029a1c6433bf631606a00e7e63903e95079efd67a80848",
+      "bytes": 34194,
+      "fetchedAt": "2026-10-30T10:53:50.367Z",
+      "fetchedFrom": "https://www.city.seki.lg.jp/0000001422.html"
+    },
+    {
+      "filename": "R8_1.pdf",
+      "sha256": "7eda3da69771b1b1b2fde08e4b5450df5bec12ce0d9d8ebef0deea56b6ff0a20",
+      "bytes": 77865,
+      "fetchedAt": "2026-10-30T10:53:50.368Z",
+      "fetchedFrom": "https://www.city.seki.lg.jp/cmsfiles/contents/0000001/1598/R8_1.pdf"
+    }
+  ]
+}

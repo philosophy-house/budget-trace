@@ -1,0 +1,118 @@
+{
+  "docType": "council-composition",
+  "sourceId": "saku-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:56.155Z",
+  "fiscalYear": "R8",
+  "body": "佐久市議会",
+  "seats": 24,
+  "asOf": "2025-05-12",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "市民とつながる創生会議",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "大塚雄一",
+        "高橋良衛",
+        "加藤夕紀子",
+        "荒井かずとし",
+        "小林英朗",
+        "小林貴幸",
+        "清水秀三郎",
+        "武石昌宏"
+      ],
+      "locator": {
+        "file": "saku_kaihabetugiinmeiboR70512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ＲＥ：Ｄｅｓｉｇｎ佐久",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "鷹野裕司",
+        "四登夏希",
+        "小松みほ",
+        "渡辺一夫",
+        "秋山賢一",
+        "栁澤大治"
+      ],
+      "locator": {
+        "file": "saku_kaihabetugiinmeiboR70512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "さくの風",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "塩川浩志",
+        "高栁博行",
+        "土屋啓子"
+      ],
+      "locator": {
+        "file": "saku_kaihabetugiinmeiboR70512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "内藤祐子",
+        "小林松子",
+        "三石さとし"
+      ],
+      "locator": {
+        "file": "saku_kaihabetugiinmeiboR70512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "渡辺康徳",
+        "小林歳春"
+      ],
+      "locator": {
+        "file": "saku_kaihabetugiinmeiboR70512.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "竹花みゆき",
+        "城田領"
+      ],
+      "locator": {
+        "file": "saku_kaihabetugiinmeiboR70512.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "42",
+    "billName": "令和８年度佐久市一般会計予算について",
+    "sessionLabel": "令和８年佐久市議会第１回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "saku_16_sinngikekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "佐久市議会会派別議員名簿（令和7年5月12日現在）",
+  "resultTitle": "令和８年佐久市議会第１回定例会 審議結果"
+}

@@ -1,0 +1,142 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sanjo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:51.861Z",
+  "fiscalYear": "R8",
+  "body": "三条市議会",
+  "seats": 22,
+  "asOf": "2026-03-24",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "清風会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "西川重則",
+        "山田富義",
+        "岡田竜一",
+        "酒井健",
+        "馬場博文",
+        "白鳥賢",
+        "岡本康佑",
+        "西村邦明",
+        "竹山嘉一"
+      ],
+      "locator": {
+        "file": "125357.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "自由クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "阿部銀次郎",
+        "佐藤和雄",
+        "武石栄二",
+        "森山昭",
+        "野嵜久雄",
+        "藤家貴之",
+        "内山信一"
+      ],
+      "locator": {
+        "file": "125357.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小林誠",
+        "坂井良永",
+        "武藤元美"
+      ],
+      "locator": {
+        "file": "125357.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "燕幸男",
+        "笹川信子"
+      ],
+      "locator": {
+        "file": "125357.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無所属（長橋一弘）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "長橋一弘"
+      ],
+      "locator": {
+        "file": "125357.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第1号",
+    "billName": "令和8年度三条市一般会計予算",
+    "sessionLabel": "令和8年(2026年)第1回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "20027.html"
+    }
+  },
+  "rosterTitle": "さんじょう市議会だより 第60号（令和8年6月1日発行）p.3「会派所属議員」（3月定例会の議案賛否一覧）",
+  "resultTitle": "令和8年(2026年)第1回定例会 市長提出議案の議決結果表",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "さんじょう市議会だより 第60号 3月定例会 議案賛否一覧",
+    "sourceFile": "125357.pdf",
+    "columns": [
+      {
+        "label": "清風会",
+        "faction": "清風会",
+        "stance": "賛成"
+      },
+      {
+        "label": "自由クラブ",
+        "faction": "自由クラブ",
+        "stance": "賛成"
+      },
+      {
+        "label": "日本共産党議員団",
+        "faction": "日本共産党議員団",
+        "stance": "反対"
+      },
+      {
+        "label": "公明党議員団",
+        "faction": "公明党議員団",
+        "stance": "賛成"
+      },
+      {
+        "label": "無所属",
+        "faction": "無所属（長橋一弘）",
+        "stance": "反対"
+      },
+      {
+        "label": "森山昭",
+        "faction": "自由クラブ",
+        "member": "森山昭",
+        "stance": "議長"
+      }
+    ]
+  }
+}

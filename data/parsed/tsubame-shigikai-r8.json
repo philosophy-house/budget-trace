@@ -1,0 +1,113 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tsubame-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.15",
+  "parsedAt": "2026-10-30T13:17:53.035Z",
+  "fiscalYear": "R8",
+  "body": "燕市議会",
+  "seats": 20,
+  "asOf": "2025-10-20",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "近藤隆行",
+        "渡邉雄三"
+      ],
+      "locator": {
+        "file": "4780.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "渡邉広宣",
+        "タナカキン"
+      ],
+      "locator": {
+        "file": "4780.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "土田昇",
+        "長井由喜雄",
+        "宮路敏裕"
+      ],
+      "locator": {
+        "file": "4780.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "創成",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "岡山秀義",
+        "小林由明",
+        "齋藤信行",
+        "大島靖浩",
+        "小林秋光",
+        "高橋妙子",
+        "稲村隆行",
+        "齋藤和也"
+      ],
+      "locator": {
+        "file": "4780.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "新風みらい",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "田澤信行",
+        "中山眞二",
+        "藤井秀人",
+        "田中淑子"
+      ],
+      "locator": {
+        "file": "4780.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（山崎光男）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山崎光男"
+      ],
+      "locator": {
+        "file": "4780.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第3号",
+    "billName": "令和8年度燕市一般会計予算",
+    "sessionLabel": "2026年第1回定例会(3月)",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "21468.html"
+    }
+  },
+  "rosterTitle": "議員名簿（会派別）（2025年10月20日現在）",
+  "resultTitle": "2026年第1回(3月)定例会議案（提出議案と審議結果）"
+}
