@@ -1,0 +1,26 @@
+{
+  "sourceId": "miyagi-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "18meibo-kaiha.html",
+      "sha256": "40302b3b061c9d6474358651191a50764d741d7c0b8298c6528d08dfc8ea3ca4",
+      "bytes": 22634,
+      "fetchedAt": "2026-10-30T18:02:09.825Z",
+      "fetchedFrom": "https://web.archive.org/web/20260216044355id_/https://www.pref.miyagi.jp/site/kengikai/18meibo-kaiha.html"
+    },
+    {
+      "filename": "gian399.html",
+      "sha256": "5ba89f10b93bb5dc6297cba71085f47f2f819971363e1a22d68c9e70d440dd60",
+      "bytes": 52485,
+      "fetchedAt": "2026-10-30T18:02:09.827Z",
+      "fetchedFrom": "https://www.pref.miyagi.jp/site/kengikai/gian399.html"
+    },
+    {
+      "filename": "syuusei_hyouketsu080318.pdf",
+      "sha256": "2a7a9aa3b879e141f5afaa124556fc4f17aed79a69907f76d5cb93458139df5f",
+      "bytes": 826129,
+      "fetchedAt": "2026-10-30T18:02:09.828Z",
+      "fetchedFrom": "https://www.pref.miyagi.jp/documents/63622/syuusei_hyouketsu080318.pdf"
+    }
+  ]
+}

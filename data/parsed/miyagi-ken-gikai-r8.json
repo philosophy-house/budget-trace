@@ -1,0 +1,502 @@
+{
+  "docType": "council-composition",
+  "sourceId": "miyagi-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:10.284Z",
+  "fiscalYear": "R8",
+  "body": "宮城県議会",
+  "seats": 56,
+  "asOf": "2026-02-13",
+  "factions": [
+    {
+      "name": "自由民主党・県民会議",
+      "seats": 31,
+      "isIndependent": false,
+      "members": [
+        "藤倉知格",
+        "中山耕一",
+        "本木忠一",
+        "中島源陽",
+        "佐々木喜藏",
+        "石川光次郎",
+        "菊地恵一",
+        "髙橋伸二",
+        "佐々木幸士",
+        "村上智行",
+        "外崎浩子",
+        "守屋守武",
+        "佐々木賢司",
+        "横山隆光",
+        "遠藤隼人",
+        "高橋啓",
+        "高橋宗也",
+        "村上久仁",
+        "瀨戸健治郎",
+        "八島利美",
+        "伊藤吉浩",
+        "わたなべ拓",
+        "松本由男",
+        "伏谷修一",
+        "村岡たかこ",
+        "杉原崇",
+        "菊地忠久",
+        "熊谷一平",
+        "さとう道昭",
+        "高橋克也",
+        "柚木貴光"
+      ],
+      "locator": {
+        "file": "18meibo-kaiha.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "みやぎ県民の声",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "坂下賢",
+        "佐々木功悦",
+        "佐藤仁一",
+        "枡和也",
+        "三浦ななみ",
+        "小畑仁子",
+        "佐々木奈津江",
+        "荒川洋平",
+        "平岡静香"
+      ],
+      "locator": {
+        "file": "18meibo-kaiha.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党宮城県会議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "三浦一敏",
+        "天下みゆき",
+        "金田もとる",
+        "藤原益栄",
+        "ふなやま由美"
+      ],
+      "locator": {
+        "file": "18meibo-kaiha.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党県議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "伊藤和博",
+        "横山のぼる",
+        "遠藤伸幸",
+        "大池康一"
+      ],
+      "locator": {
+        "file": "18meibo-kaiha.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "立憲・無所属クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "熊谷義彦",
+        "渡辺忠悦",
+        "かっち恵"
+      ],
+      "locator": {
+        "file": "18meibo-kaiha.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "21世紀クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "吉川寛康",
+        "阿部眞喜"
+      ],
+      "locator": {
+        "file": "18meibo-kaiha.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小野寺健",
+        "石森ゆうじ"
+      ],
+      "locator": {
+        "file": "18meibo-kaiha.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "1",
+    "billName": "令和8年度宮城県一般会計予算",
+    "sessionLabel": "第399回県議会（令和8年2月定例会）",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gian399.html"
+    }
+  },
+  "rosterTitle": "宮城県議会 議員名簿（会派別）（掲載日 2026年2月13日・議決前 2026-02-16 の魚拓）",
+  "resultTitle": "提出議案等 第399回県議会（令和8年2月定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "各議員の表決状況（R8.3.18）第399回宮城県議会（令和8年2月定例会）",
+    "sourceFile": "syuusei_hyouketsu080318.pdf",
+    "columns": [
+      {
+        "label": "柚木貴光",
+        "faction": "自由民主党・県民会議",
+        "member": "柚木貴光",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋克也",
+        "faction": "自由民主党・県民会議",
+        "member": "高橋克也",
+        "stance": "賛成"
+      },
+      {
+        "label": "さとう道昭",
+        "faction": "自由民主党・県民会議",
+        "member": "さとう道昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "熊谷一平",
+        "faction": "自由民主党・県民会議",
+        "member": "熊谷一平",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊地忠久",
+        "faction": "自由民主党・県民会議",
+        "member": "菊地忠久",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉原崇",
+        "faction": "自由民主党・県民会議",
+        "member": "杉原崇",
+        "stance": "賛成"
+      },
+      {
+        "label": "村岡たかこ",
+        "faction": "自由民主党・県民会議",
+        "member": "村岡たかこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "伏谷修一",
+        "faction": "自由民主党・県民会議",
+        "member": "伏谷修一",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本由男",
+        "faction": "自由民主党・県民会議",
+        "member": "松本由男",
+        "stance": "賛成"
+      },
+      {
+        "label": "わたなべ拓",
+        "faction": "自由民主党・県民会議",
+        "member": "わたなべ拓",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤吉浩",
+        "faction": "自由民主党・県民会議",
+        "member": "伊藤吉浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "八島利美",
+        "faction": "自由民主党・県民会議",
+        "member": "八島利美",
+        "stance": "賛成"
+      },
+      {
+        "label": "瀨戸健治郎",
+        "faction": "自由民主党・県民会議",
+        "member": "瀨戸健治郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上久仁",
+        "faction": "自由民主党・県民会議",
+        "member": "村上久仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋宗也",
+        "faction": "自由民主党・県民会議",
+        "member": "高橋宗也",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋啓",
+        "faction": "自由民主党・県民会議",
+        "member": "高橋啓",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤隼人",
+        "faction": "自由民主党・県民会議",
+        "member": "遠藤隼人",
+        "stance": "賛成"
+      },
+      {
+        "label": "横山隆光",
+        "faction": "自由民主党・県民会議",
+        "member": "横山隆光",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木賢司",
+        "faction": "自由民主党・県民会議",
+        "member": "佐々木賢司",
+        "stance": "賛成"
+      },
+      {
+        "label": "守屋守武",
+        "faction": "自由民主党・県民会議",
+        "member": "守屋守武",
+        "stance": "賛成"
+      },
+      {
+        "label": "外崎浩子",
+        "faction": "自由民主党・県民会議",
+        "member": "外崎浩子",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上智行",
+        "faction": "自由民主党・県民会議",
+        "member": "村上智行",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木幸士",
+        "faction": "自由民主党・県民会議",
+        "member": "佐々木幸士",
+        "stance": "議長"
+      },
+      {
+        "label": "髙橋伸二",
+        "faction": "自由民主党・県民会議",
+        "member": "髙橋伸二",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊地恵一",
+        "faction": "自由民主党・県民会議",
+        "member": "菊地恵一",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川光次郎",
+        "faction": "自由民主党・県民会議",
+        "member": "石川光次郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木喜藏",
+        "faction": "自由民主党・県民会議",
+        "member": "佐々木喜藏",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島源陽",
+        "faction": "自由民主党・県民会議",
+        "member": "中島源陽",
+        "stance": "賛成"
+      },
+      {
+        "label": "本木忠一",
+        "faction": "自由民主党・県民会議",
+        "member": "本木忠一",
+        "stance": "賛成"
+      },
+      {
+        "label": "中山耕一",
+        "faction": "自由民主党・県民会議",
+        "member": "中山耕一",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤倉知格",
+        "faction": "自由民主党・県民会議",
+        "member": "藤倉知格",
+        "stance": "賛成"
+      },
+      {
+        "label": "平岡静香",
+        "faction": "みやぎ県民の声",
+        "member": "平岡静香",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒川洋平",
+        "faction": "みやぎ県民の声",
+        "member": "荒川洋平",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木奈津江",
+        "faction": "みやぎ県民の声",
+        "member": "佐々木奈津江",
+        "stance": "賛成"
+      },
+      {
+        "label": "小畑仁子",
+        "faction": "みやぎ県民の声",
+        "member": "小畑仁子",
+        "stance": "賛成"
+      },
+      {
+        "label": "三浦ななみ",
+        "faction": "みやぎ県民の声",
+        "member": "三浦ななみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "枡和也",
+        "faction": "みやぎ県民の声",
+        "member": "枡和也",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤仁一",
+        "faction": "みやぎ県民の声",
+        "member": "佐藤仁一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木功悦",
+        "faction": "みやぎ県民の声",
+        "member": "佐々木功悦",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂下賢",
+        "faction": "みやぎ県民の声",
+        "member": "坂下賢",
+        "stance": "賛成"
+      },
+      {
+        "label": "ふなやま由美",
+        "faction": "日本共産党宮城県会議員団",
+        "member": "ふなやま由美",
+        "stance": "反対"
+      },
+      {
+        "label": "藤原益栄",
+        "faction": "日本共産党宮城県会議員団",
+        "member": "藤原益栄",
+        "stance": "反対"
+      },
+      {
+        "label": "金田もとる",
+        "faction": "日本共産党宮城県会議員団",
+        "member": "金田もとる",
+        "stance": "反対"
+      },
+      {
+        "label": "天下みゆき",
+        "faction": "日本共産党宮城県会議員団",
+        "member": "天下みゆき",
+        "stance": "反対"
+      },
+      {
+        "label": "三浦一敏",
+        "faction": "日本共産党宮城県会議員団",
+        "member": "三浦一敏",
+        "stance": "反対"
+      },
+      {
+        "label": "大池康一",
+        "faction": "公明党県議団",
+        "member": "大池康一",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤伸幸",
+        "faction": "公明党県議団",
+        "member": "遠藤伸幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "横山のぼる",
+        "faction": "公明党県議団",
+        "member": "横山のぼる",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤和博",
+        "faction": "公明党県議団",
+        "member": "伊藤和博",
+        "stance": "賛成"
+      },
+      {
+        "label": "かっち恵",
+        "faction": "立憲・無所属クラブ",
+        "member": "かっち恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺忠悦",
+        "faction": "立憲・無所属クラブ",
+        "member": "渡辺忠悦",
+        "stance": "賛成"
+      },
+      {
+        "label": "熊谷義彦",
+        "faction": "立憲・無所属クラブ",
+        "member": "熊谷義彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部眞喜",
+        "faction": "21世紀クラブ",
+        "member": "阿部眞喜",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉川寛康",
+        "faction": "21世紀クラブ",
+        "member": "吉川寛康",
+        "stance": "賛成"
+      },
+      {
+        "label": "石森ゆうじ",
+        "faction": "日本維新の会",
+        "member": "石森ゆうじ",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野寺健",
+        "faction": "日本維新の会",
+        "member": "小野寺健",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sourceId": "hikari-shigikai-r8",
+  "files": [
+    {
+      "filename": "hikari_2025_hikarisigikainogaiyou.pdf",
+      "sha256": "d333b5d43e05941e644cf2c74cf840edd8cf78108a95695fafbe36970a75b813",
+      "bytes": 439066,
+      "fetchedAt": "2026-10-30T18:02:09.858Z",
+      "fetchedFrom": "https://web.archive.org/web/20260413073138id_/https://www.city.hikari.lg.jp/material/files/group/126/2025_hikarisigikainogaiyou.pdf"
+    },
+    {
+      "filename": "hikari_8729_20260307.html",
+      "sha256": "baac228cf1118d2a6f9baf1fe3562654e261970655a77fbcd7b05dd1caf19bbe",
+      "bytes": 105821,
+      "fetchedAt": "2026-10-30T18:02:09.858Z",
+      "fetchedFrom": "https://web.archive.org/web/20260307095057id_/https://www.city.hikari.lg.jp/shisei/shimin/shigikai/8729.html"
+    },
+    {
+      "filename": "hikari_2026hikarisigikaigaiyou.pdf",
+      "sha256": "fc92103e23e37f9f728aaa4fdf7d88f522b97facdf522db569c6013cedaae9d3",
+      "bytes": 458975,
+      "fetchedAt": "2026-10-30T18:02:09.859Z",
+      "fetchedFrom": "https://www.city.hikari.lg.jp/material/files/group/126/2026hikarisigikaigaiyou.pdf"
+    },
+    {
+      "filename": "hikari_R80323giketukekka.pdf",
+      "sha256": "f63f325ce20b9703904b6b65cff8d83069989edf5a3c5bb946d62a9e42937c13",
+      "bytes": 67078,
+      "fetchedAt": "2026-10-30T18:02:09.860Z",
+      "fetchedFrom": "https://www.city.hikari.lg.jp/material/files/group/126/R80323giketukekka.pdf"
+    },
+    {
+      "filename": "hikari_R803gikai_sanpi.pdf",
+      "sha256": "04a43605a191778e521bcdcf5ee44f9871ee0fa5d29e242a9f32e76aad82926b",
+      "bytes": 114149,
+      "fetchedAt": "2026-10-30T18:02:09.861Z",
+      "fetchedFrom": "https://www.city.hikari.lg.jp/material/files/group/126/R803gikai_sanpi.pdf"
+    },
+    {
+      "filename": "hikari_r051RG00000711.html",
+      "sha256": "4d63a2b9f26df92a0e4c9b154b153f7b65087d30c6d69e931f9877e89f8af360",
+      "bytes": 4976,
+      "fetchedAt": "2026-10-30T18:02:09.861Z",
+      "fetchedFrom": "https://www.city.hikari.lg.jp/reiki_int/reiki_honbun/r051RG00000711.html"
+    }
+  ]
+}

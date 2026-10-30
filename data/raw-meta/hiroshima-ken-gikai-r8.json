@@ -1,0 +1,29 @@
+{
+  "sourceId": "hiroshima-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "giin-giin-kai_20260313.html",
+      "sha256": "07d532f76debc4a86da9f4e611f4d061adccdeedb9ead1ab96bcc864bb3217a5",
+      "bytes": 18220,
+      "fetchedAt": "2026-10-30T18:02:09.841Z",
+      "fetchedFrom": "https://web.archive.org/web/20260313014337id_/https://www.pref.hiroshima.lg.jp/site/gikai/giin-giin-kai.html"
+    },
+    {
+      "filename": "660530.pdf",
+      "sha256": "19a40f437614a693cf9c8001518f10300eb278861ddfd021cde61b11a1f25d11",
+      "bytes": 260077,
+      "fetchedAt": "2026-10-30T18:02:09.842Z",
+      "fetchedFrom": "https://www.pref.hiroshima.lg.jp/uploaded/attachment/660530.pdf"
+    },
+    {
+      "filename": "gikai-gikai-gi_20250827.html",
+      "sha256": "58fb1da13314c9d9e456c1a6eb6021671040dd4c0d26da0591ba5bd80a6f6014",
+      "bytes": 17607,
+      "fetchedAt": "2026-10-30T18:02:09.842Z",
+      "fetchedFrom": "https://web.archive.org/web/20250827035043id_/https://www.pref.hiroshima.lg.jp/site/gikai/gikai-gikai-gi.html",
+      "transform": [
+        "gunzip"
+      ]
+    }
+  ]
+}

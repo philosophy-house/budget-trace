@@ -1,0 +1,259 @@
+{
+  "docType": "council-composition",
+  "sourceId": "natori-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:11.895Z",
+  "fiscalYear": "R8",
+  "body": "名取市議会",
+  "seats": 21,
+  "asOf": "2026-02-02",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "公明名取",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "菊地忍",
+        "阿部正義",
+        "菅原和子"
+      ],
+      "locator": {
+        "file": "23171.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "名和会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "吉田良",
+        "板橋美保",
+        "大友康信",
+        "郷内良治"
+      ],
+      "locator": {
+        "file": "23171.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小野寺美穂",
+        "笹森波"
+      ],
+      "locator": {
+        "file": "23171.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "青雲倶楽部",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "山田龍太郎",
+        "佐藤繁樹",
+        "鈴木英信",
+        "寺嶋雅子",
+        "二階堂充",
+        "大泉徳子",
+        "熊谷克彦"
+      ],
+      "locator": {
+        "file": "23171.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "長南良彦",
+        "千葉栄幸",
+        "大久保主計"
+      ],
+      "locator": {
+        "file": "23171.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "名取医療福祉会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "佐藤さやか"
+      ],
+      "locator": {
+        "file": "23171.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "名取維新",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "今野慎介"
+      ],
+      "locator": {
+        "file": "23171.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第5号",
+    "billName": "令和８年度名取市一般会計予算",
+    "sessionLabel": "令和８年 名取市議会第３回定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "可決",
+    "locator": {
+      "file": "23478.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "名取市議会だより臨時号（2026年3月1日発行）p.2「会派の構成」（令和8年2月2日現在（届出順））",
+  "resultTitle": "令和８年 名取市議会第３回定例会 議案の概要と審議結果（各議員の表決態度）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年 名取市議会第３回定例会 議案の概要と審議結果 p.1 議案第5号の行（議員名（議席番号順））",
+    "sourceFile": "23478.pdf",
+    "columns": [
+      {
+        "label": "阿部正義",
+        "faction": "公明名取",
+        "member": "阿部正義",
+        "stance": "賛成"
+      },
+      {
+        "label": "今野慎介",
+        "faction": "名取維新",
+        "member": "今野慎介",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤さやか",
+        "faction": "名取医療福祉会",
+        "member": "佐藤さやか",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤繁樹",
+        "faction": "青雲倶楽部",
+        "member": "佐藤繁樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木英信",
+        "faction": "青雲倶楽部",
+        "member": "鈴木英信",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺嶋雅子",
+        "faction": "青雲倶楽部",
+        "member": "寺嶋雅子",
+        "stance": "賛成"
+      },
+      {
+        "label": "二階堂充",
+        "faction": "青雲倶楽部",
+        "member": "二階堂充",
+        "stance": "賛成"
+      },
+      {
+        "label": "笹森波",
+        "faction": "日本共産党議員団",
+        "member": "笹森波",
+        "stance": "賛成"
+      },
+      {
+        "label": "千葉栄幸",
+        "faction": "市民クラブ",
+        "member": "千葉栄幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "板橋美保",
+        "faction": "名和会",
+        "member": "板橋美保",
+        "stance": "賛成"
+      },
+      {
+        "label": "大泉徳子",
+        "faction": "青雲倶楽部",
+        "member": "大泉徳子",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅原和子",
+        "faction": "公明名取",
+        "member": "菅原和子",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田良",
+        "faction": "名和会",
+        "member": "吉田良",
+        "stance": "賛成"
+      },
+      {
+        "label": "大友康信",
+        "faction": "名和会",
+        "member": "大友康信",
+        "stance": "賛成"
+      },
+      {
+        "label": "長南良彦",
+        "faction": "市民クラブ",
+        "member": "長南良彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊地忍",
+        "faction": "公明名取",
+        "member": "菊地忍",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野寺美穂",
+        "faction": "日本共産党議員団",
+        "member": "小野寺美穂",
+        "stance": "欠席"
+      },
+      {
+        "label": "郷内良治",
+        "faction": "名和会",
+        "member": "郷内良治",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田龍太郎",
+        "faction": "青雲倶楽部",
+        "member": "山田龍太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "熊谷克彦",
+        "faction": "青雲倶楽部",
+        "member": "熊谷克彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "大久保主計",
+        "faction": "市民クラブ",
+        "member": "大久保主計",
+        "stance": "議長"
+      }
+    ]
+  }
+}

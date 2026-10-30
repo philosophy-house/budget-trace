@@ -1,0 +1,33 @@
+{
+  "sourceId": "miyoshi-hiroshima-shigikai-r8",
+  "files": [
+    {
+      "filename": "miyoshi_kaiha_21848_20251023.pdf",
+      "sha256": "bd6647858f6bbbc8b7a803201907d2d2ebbca8665f4a036e8d656082e425ab9a",
+      "bytes": 51960,
+      "fetchedAt": "2026-10-30T18:02:09.847Z",
+      "fetchedFrom": "https://web.archive.org/web/20251023224529id_/https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/21848.pdf"
+    },
+    {
+      "filename": "miyoshi_31705.pdf",
+      "sha256": "1b9d21714143683fde22c6900a28037d28e7668b25ce12c56af78e845b0da21b",
+      "bytes": 846860,
+      "fetchedAt": "2026-10-30T18:02:09.848Z",
+      "fetchedFrom": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/31705.pdf"
+    },
+    {
+      "filename": "miyoshi_3005.html",
+      "sha256": "780191184a7a86c5e68e6a396835679ba514916e05ecab6f007b9457e1e108ee",
+      "bytes": 29272,
+      "fetchedAt": "2026-10-30T18:02:09.849Z",
+      "fetchedFrom": "https://www.city.miyoshi.hiroshima.jp/site/council/3005.html"
+    },
+    {
+      "filename": "miyoshi_33266.pdf",
+      "sha256": "83c6413a6404fedcb61cb91a94552836e6b2cdb3dbf356772597c1be0f445ef0",
+      "bytes": 161482,
+      "fetchedAt": "2026-10-30T18:02:09.849Z",
+      "fetchedFrom": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/33266.pdf"
+    }
+  ]
+}

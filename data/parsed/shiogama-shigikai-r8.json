@@ -1,0 +1,227 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shiogama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:10.879Z",
+  "fiscalYear": "R8",
+  "body": "塩竈市議会",
+  "seats": 18,
+  "asOf": "2026-03-06",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "日本共産党塩釜市議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "伊勢由典",
+        "小髙洋",
+        "辻畑めぐみ",
+        "鈴木悦代"
+      ],
+      "locator": {
+        "file": "28224.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鎌田礼二",
+        "志子田吉晃",
+        "今野恭一"
+      ],
+      "locator": {
+        "file": "28224.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "塩竈維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "桑原成典"
+      ],
+      "locator": {
+        "file": "28224.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "塩釜を元気にする会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "西村勝男",
+        "伊藤博章",
+        "土見大介",
+        "柏惠美子"
+      ],
+      "locator": {
+        "file": "28224.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "浅野敏江",
+        "小野幸男",
+        "菅原善幸"
+      ],
+      "locator": {
+        "file": "28224.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "かいしん",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "志賀勝",
+        "鈴木新一",
+        "佐藤公男"
+      ],
+      "locator": {
+        "file": "28224.pdf",
+        "page": 10
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第18号",
+    "billName": "令和8年度塩竈市一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-06",
+    "decidedDateLabel": "令和8年3月6日",
+    "result": "原案可決",
+    "locator": {
+      "file": "28224.pdf",
+      "page": 10
+    }
+  },
+  "rosterTitle": "塩竈市議会だより第246号（令和8年2月定例会号）p.10「議案等賛否一覧表」の表頭（会派名・議員氏名）",
+  "resultTitle": "塩竈市議会だより第246号（令和8年2月定例会号）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "塩竈市議会だより第246号（令和8年2月定例会号）p.10「議案等賛否一覧表」",
+    "sourceFile": "28224.pdf",
+    "columns": [
+      {
+        "label": "伊勢由典",
+        "faction": "日本共産党塩釜市議団",
+        "member": "伊勢由典",
+        "stance": "反対"
+      },
+      {
+        "label": "小髙洋",
+        "faction": "日本共産党塩釜市議団",
+        "member": "小髙洋",
+        "stance": "反対"
+      },
+      {
+        "label": "辻畑めぐみ",
+        "faction": "日本共産党塩釜市議団",
+        "member": "辻畑めぐみ",
+        "stance": "反対"
+      },
+      {
+        "label": "鈴木悦代",
+        "faction": "日本共産党塩釜市議団",
+        "member": "鈴木悦代",
+        "stance": "反対"
+      },
+      {
+        "label": "鎌田礼二",
+        "faction": "市民クラブ",
+        "member": "鎌田礼二",
+        "stance": "賛成"
+      },
+      {
+        "label": "志子田吉晃",
+        "faction": "市民クラブ",
+        "member": "志子田吉晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "今野恭一",
+        "faction": "市民クラブ",
+        "member": "今野恭一",
+        "stance": "賛成"
+      },
+      {
+        "label": "桑原成典",
+        "faction": "塩竈維新の会",
+        "member": "桑原成典",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村勝男",
+        "faction": "塩釜を元気にする会",
+        "member": "西村勝男",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤博章",
+        "faction": "塩釜を元気にする会",
+        "member": "伊藤博章",
+        "stance": "賛成"
+      },
+      {
+        "label": "土見大介",
+        "faction": "塩釜を元気にする会",
+        "member": "土見大介",
+        "stance": "賛成"
+      },
+      {
+        "label": "柏惠美子",
+        "faction": "塩釜を元気にする会",
+        "member": "柏惠美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野幸男",
+        "faction": "公明党",
+        "member": "小野幸男",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅原善幸",
+        "faction": "公明党",
+        "member": "菅原善幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "志賀勝",
+        "faction": "かいしん",
+        "member": "志賀勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木新一",
+        "faction": "かいしん",
+        "member": "鈴木新一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤公男",
+        "faction": "かいしん",
+        "member": "佐藤公男",
+        "stance": "賛成"
+      },
+      {
+        "label": "浅野敏江",
+        "faction": "公明党",
+        "member": "浅野敏江",
+        "stance": "議長"
+      }
+    ]
+  }
+}

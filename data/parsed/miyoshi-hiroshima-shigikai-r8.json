@@ -1,0 +1,127 @@
+{
+  "docType": "council-composition",
+  "sourceId": "miyoshi-hiroshima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:13.338Z",
+  "fiscalYear": "R8",
+  "body": "三次市議会",
+  "seats": 22,
+  "asOf": "2024-04-18",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "三輝会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "小田伸次",
+        "横光春市",
+        "弓掛元",
+        "藤井憲一郎",
+        "月橋寿文",
+        "國重清隆",
+        "細美克浩"
+      ],
+      "locator": {
+        "file": "miyoshi_kaiha_21848_20251023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "清友会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "宍戸稔",
+        "保実治",
+        "山村惠美子",
+        "重信好範",
+        "山田真一郎"
+      ],
+      "locator": {
+        "file": "miyoshi_kaiha_21848_20251023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "明日への風",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "掛田勝彦",
+        "藤岡一弘",
+        "徳岡真紀",
+        "増田誠宏"
+      ],
+      "locator": {
+        "file": "miyoshi_kaiha_21848_20251023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派未来",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "新田真一",
+        "竹田恵"
+      ],
+      "locator": {
+        "file": "miyoshi_kaiha_21848_20251023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中原秀樹",
+        "片岡宏文"
+      ],
+      "locator": {
+        "file": "miyoshi_kaiha_21848_20251023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "真正会（鈴木深由希）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "鈴木深由希"
+      ],
+      "locator": {
+        "file": "miyoshi_kaiha_21848_20251023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党三次市会議員団（伊藤芳則）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "伊藤芳則"
+      ],
+      "locator": {
+        "file": "miyoshi_kaiha_21848_20251023.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第2号",
+    "billName": "令和８年度三次市一般会計予算（案）",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "原案可決",
+    "locator": {
+      "file": "miyoshi_31705.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "三次市議会会派構成表（令和6年4月18日12：00現在）",
+  "resultTitle": "令和８年３月定例会 議決結果"
+}

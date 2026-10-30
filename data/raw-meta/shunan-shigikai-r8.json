@@ -1,0 +1,47 @@
+{
+  "sourceId": "shunan-shigikai-r8",
+  "files": [
+    {
+      "filename": "shunan_111801.pdf",
+      "sha256": "9169d4f208f53989d86eebf6daed865c70970791caabad272f513c76033d6985",
+      "bytes": 119606,
+      "fetchedAt": "2026-10-30T18:02:09.862Z",
+      "fetchedFrom": "https://web.archive.org/web/20250915055950id_/https://www.city.shunan.lg.jp/uploaded/attachment/111801.pdf"
+    },
+    {
+      "filename": "shunan_116657.pdf",
+      "sha256": "7352a54a05197461601f61cc8f1676a5239909eaeac255e5f9dc8865619b8300",
+      "bytes": 1805622,
+      "fetchedAt": "2026-10-30T18:02:09.863Z",
+      "fetchedFrom": "https://www.city.shunan.lg.jp/uploaded/attachment/116657.pdf"
+    },
+    {
+      "filename": "shunan_120555.pdf",
+      "sha256": "1bb4d65b58cd007e6abacfcf38c99d7e5b459fc9b2aa0b8578544c95238524a6",
+      "bytes": 4193926,
+      "fetchedAt": "2026-10-30T18:02:09.866Z",
+      "fetchedFrom": "https://www.city.shunan.lg.jp/uploaded/attachment/120555.pdf"
+    },
+    {
+      "filename": "shunan_118661.pdf",
+      "sha256": "d2a2e5a84a2b4b904407f315ff8be537fb91de79396b1c06328bcfd9803f27ae",
+      "bytes": 187193,
+      "fetchedAt": "2026-10-30T18:02:09.866Z",
+      "fetchedFrom": "https://www.city.shunan.lg.jp/uploaded/attachment/118661.pdf"
+    },
+    {
+      "filename": "shunan_113046.pdf",
+      "sha256": "df919674d965fbe8c92958fb678d5624919b16d4ee109157d590535e152824b6",
+      "bytes": 1872331,
+      "fetchedAt": "2026-10-30T18:02:09.868Z",
+      "fetchedFrom": "https://www.city.shunan.lg.jp/uploaded/attachment/113046.pdf"
+    },
+    {
+      "filename": "shunan_4717_20250908.html",
+      "sha256": "eed17c8f371ef2680d4b21e2dee6a161eb298a220a5135b1502d8e035fe4d4cb",
+      "bytes": 24350,
+      "fetchedAt": "2026-10-30T18:02:09.868Z",
+      "fetchedFrom": "https://web.archive.org/web/20250908003606id_/https://www.city.shunan.lg.jp/site/gk/4717.html"
+    }
+  ]
+}

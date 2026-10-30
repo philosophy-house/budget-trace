@@ -1,0 +1,33 @@
+{
+  "sourceId": "shiogama-shigikai-r8",
+  "files": [
+    {
+      "filename": "28224.pdf",
+      "sha256": "5e3899ea1d7385082dc9694ff94e60a79120899b56bc1062d24da7f683d815a0",
+      "bytes": 966331,
+      "fetchedAt": "2026-10-30T18:02:09.829Z",
+      "fetchedFrom": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/28224.pdf"
+    },
+    {
+      "filename": "21574.pdf",
+      "sha256": "2353c732771093e89a5988a4d1964f0e10a45a301d3963eab67be4cd5d2b8573",
+      "bytes": 31262,
+      "fetchedAt": "2026-10-30T18:02:09.830Z",
+      "fetchedFrom": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/21574.pdf"
+    },
+    {
+      "filename": "27008.pdf",
+      "sha256": "ac7909f98d0b4e54e06464001b776b745a671238de794b526d3cbfb6f6ed4a03",
+      "bytes": 1308115,
+      "fetchedAt": "2026-10-30T18:02:09.831Z",
+      "fetchedFrom": "https://www.city.shiogama.miyagi.jp/uploaded/attachment/27008.pdf"
+    },
+    {
+      "filename": "2988.html",
+      "sha256": "e22f815c7e432289a15a7c9b93a3c4cc66a468a7dfec1c6a6ba01b71c15523ac",
+      "bytes": 22102,
+      "fetchedAt": "2026-10-30T18:02:09.831Z",
+      "fetchedFrom": "https://www.city.shiogama.miyagi.jp/soshiki/2/2988.html"
+    }
+  ]
+}

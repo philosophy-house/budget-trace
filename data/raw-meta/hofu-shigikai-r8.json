@@ -1,0 +1,47 @@
+{
+  "sourceId": "hofu-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha.html",
+      "sha256": "46a8a6c26ee68824c5f26374fd4726d2bd9d5f2c5b7793821639a7647e4c14f8",
+      "bytes": 28685,
+      "fetchedAt": "2026-10-30T18:02:09.855Z",
+      "fetchedFrom": "https://www.city.hofu.yamaguchi.jp/site/sigikai/kaiha.html"
+    },
+    {
+      "filename": "148508.pdf",
+      "sha256": "a575053a09fd3b8ddc54666e55fc5b35f88a212921c1b334e8d4c4cda403b5be",
+      "bytes": 99629,
+      "fetchedAt": "2026-10-30T18:02:09.856Z",
+      "fetchedFrom": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/148508.pdf"
+    },
+    {
+      "filename": "148427.pdf",
+      "sha256": "711f75c13ef70ce37d9299316abbff7781f2350430916a68f119416a3d533c3b",
+      "bytes": 48607,
+      "fetchedAt": "2026-10-30T18:02:09.856Z",
+      "fetchedFrom": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/148427.pdf"
+    },
+    {
+      "filename": "148605.pdf",
+      "sha256": "35691570f7d377ea67140abe77bc4e695ece8cfaa7a91cb5c274f5f424953011",
+      "bytes": 158955,
+      "fetchedAt": "2026-10-30T18:02:09.856Z",
+      "fetchedFrom": "https://www.city.hofu.yamaguchi.jp/uploaded/attachment/148605.pdf"
+    },
+    {
+      "filename": "aisatu.html",
+      "sha256": "1e41fe6645a2b5990f8a37958c3b0c8d73632ddfde278820d7f13357abb7a9b2",
+      "bytes": 21627,
+      "fetchedAt": "2026-10-30T18:02:09.857Z",
+      "fetchedFrom": "https://www.city.hofu.yamaguchi.jp/site/sigikai/aisatu.html"
+    },
+    {
+      "filename": "gaiyou.html",
+      "sha256": "a6805905a860eb6d62a81c79cf4ac560437cbfcfe031e59f7ed2e18a342b2bed",
+      "bytes": 32106,
+      "fetchedAt": "2026-10-30T18:02:09.857Z",
+      "fetchedFrom": "https://www.city.hofu.yamaguchi.jp/site/sigikai/gaiyou.html"
+    }
+  ]
+}

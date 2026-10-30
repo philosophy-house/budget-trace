@@ -1,0 +1,43 @@
+{
+  "sourceId": "shimonoseki-shigikai-r8",
+  "files": [
+    {
+      "filename": "95666.pdf",
+      "sha256": "d0d375c7947be42a35c3e743e3cac79c1035b4afbf57515e508201cf1fde9b2f",
+      "bytes": 132030,
+      "fetchedAt": "2026-10-30T18:02:09.854Z",
+      "fetchedFrom": "https://www.city.shimonoseki.lg.jp/uploaded/attachment/95666.pdf"
+    },
+    {
+      "filename": "95664.pdf",
+      "sha256": "e294522ef4886198569ff20685d1e18af8c36827731c44934e7e2ec880bb56c9",
+      "bytes": 161745,
+      "fetchedAt": "2026-10-30T18:02:09.854Z",
+      "fetchedFrom": "https://www.city.shimonoseki.lg.jp/uploaded/attachment/95664.pdf"
+    },
+    {
+      "filename": "626.html",
+      "sha256": "10487a6d55b4489e9e9989034c6cc329eb82594f6b66224aebb84b7b7d10593b",
+      "bytes": 12454,
+      "fetchedAt": "2026-10-30T18:02:09.854Z",
+      "fetchedFrom": "https://shimonoseki.media-streaming.jp/recording/meeting/list/626",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "3023.html",
+      "sha256": "8799aa602626ab63d3083cefc4b09eb2e5f14a33839e1903159723193f205940",
+      "bytes": 41858,
+      "fetchedAt": "2026-10-30T18:02:09.855Z",
+      "fetchedFrom": "https://www.city.shimonoseki.lg.jp/site/gikai/3023.html"
+    },
+    {
+      "filename": "97576.pdf",
+      "sha256": "982e96ea0d956df4ba1c9b5cdad4415041a92ca5c91b780747f5d4d1dab35473",
+      "bytes": 47266,
+      "fetchedAt": "2026-10-30T18:02:09.855Z",
+      "fetchedFrom": "https://www.city.shimonoseki.lg.jp/uploaded/attachment/97576.pdf"
+    }
+  ]
+}

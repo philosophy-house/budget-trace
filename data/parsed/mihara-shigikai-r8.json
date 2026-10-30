@@ -1,0 +1,267 @@
+{
+  "docType": "council-composition",
+  "sourceId": "mihara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:12.678Z",
+  "fiscalYear": "R8",
+  "body": "三原市議会",
+  "seats": 24,
+  "asOf": "2025-06-25",
+  "factions": [
+    {
+      "name": "新風",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田中裕規",
+        "角広寛",
+        "政平智春"
+      ],
+      "locator": {
+        "file": "mihara_kaiha_20250828.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "三原市議会公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "萩由美子",
+        "生駒玲子",
+        "高原伸一"
+      ],
+      "locator": {
+        "file": "mihara_kaiha_20250828.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "創志会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "陶範昭",
+        "伊藤勝也",
+        "岡富雄",
+        "杉谷辰次",
+        "村上真以"
+      ],
+      "locator": {
+        "file": "mihara_kaiha_20250828.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "創生みはら",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "分野達見",
+        "岡田直己",
+        "中重伸夫"
+      ],
+      "locator": {
+        "file": "mihara_kaiha_20250828.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "みらい",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "住田誠",
+        "石井克昭",
+        "岡本純祥",
+        "小林香代",
+        "正田洋一",
+        "中迫勇三",
+        "松野諭",
+        "宮垣秀正"
+      ],
+      "locator": {
+        "file": "mihara_kaiha_20250828.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に所属していない議員",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "高木武子",
+        "寺田元子"
+      ],
+      "locator": {
+        "file": "mihara_kaiha_20250828.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第1号",
+    "billName": "令和８年度三原市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "mihara_195649.html"
+    }
+  },
+  "rosterTitle": "会派の構成（届出順：令和7年6月25日現在）",
+  "resultTitle": "議決結果（令和８年第１回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "みはら市議会だより VOL.84（令和8年5月）p.14「令和８年第１回定例会 賛否結果一覧」",
+    "sourceFile": "mihara_dayori84_p14.pdf",
+    "columns": [
+      {
+        "label": "生駒玲子",
+        "faction": "三原市議会公明党",
+        "member": "生駒玲子",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井克昭",
+        "faction": "みらい",
+        "member": "石井克昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "松野諭",
+        "faction": "みらい",
+        "member": "松野諭",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林香代",
+        "faction": "みらい",
+        "member": "小林香代",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上真以",
+        "faction": "創志会",
+        "member": "村上真以",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田直己",
+        "faction": "創生みはら",
+        "member": "岡田直己",
+        "stance": "賛成"
+      },
+      {
+        "label": "角広寛",
+        "faction": "新風",
+        "member": "角広寛",
+        "stance": "反対"
+      },
+      {
+        "label": "中迫勇三",
+        "faction": "みらい",
+        "member": "中迫勇三",
+        "stance": "賛成"
+      },
+      {
+        "label": "住田誠",
+        "faction": "みらい",
+        "member": "住田誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中裕規",
+        "faction": "新風",
+        "member": "田中裕規",
+        "stance": "反対"
+      },
+      {
+        "label": "高原伸一",
+        "faction": "三原市議会公明党",
+        "member": "高原伸一",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉谷辰次",
+        "faction": "創志会",
+        "member": "杉谷辰次",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮垣秀正",
+        "faction": "みらい",
+        "member": "宮垣秀正",
+        "stance": "賛成"
+      },
+      {
+        "label": "正田洋一",
+        "faction": "みらい",
+        "member": "正田洋一",
+        "stance": "議長"
+      },
+      {
+        "label": "萩由美子",
+        "faction": "三原市議会公明党",
+        "member": "萩由美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡富雄",
+        "faction": "創志会",
+        "member": "岡富雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤勝也",
+        "faction": "創志会",
+        "member": "伊藤勝也",
+        "stance": "賛成"
+      },
+      {
+        "label": "政平智春",
+        "faction": "新風",
+        "member": "政平智春",
+        "stance": "反対"
+      },
+      {
+        "label": "高木武子",
+        "faction": "会派に所属していない議員",
+        "member": "高木武子",
+        "stance": "反対"
+      },
+      {
+        "label": "陶範昭",
+        "faction": "創志会",
+        "member": "陶範昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "中重伸夫",
+        "faction": "創生みはら",
+        "member": "中重伸夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡本純祥",
+        "faction": "みらい",
+        "member": "岡本純祥",
+        "stance": "賛成"
+      },
+      {
+        "label": "分野達見",
+        "faction": "創生みはら",
+        "member": "分野達見",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺田元子",
+        "faction": "会派に所属していない議員",
+        "member": "寺田元子",
+        "stance": "反対"
+      }
+    ]
+  }
+}

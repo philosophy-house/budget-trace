@@ -1,0 +1,33 @@
+{
+  "sourceId": "tagajo-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha.html",
+      "sha256": "a0d9699f89f6b2d3273b9100a7d43d67c30e9b73fd792173793e5f4a53f832f6",
+      "bytes": 19012,
+      "fetchedAt": "2026-10-30T18:02:09.837Z",
+      "fetchedFrom": "https://www.city.tagajo.miyagi.jp/gikai/shise/shigikai/shokai/kaiha.html"
+    },
+    {
+      "filename": "gian.html",
+      "sha256": "ee53cc594a2f3844f93d72b2096ab2ff527c73fea9a541f4c7870b15483e599d",
+      "bytes": 401765,
+      "fetchedAt": "2026-10-30T18:02:09.838Z",
+      "fetchedFrom": "https://www.city.tagajo.miyagi.jp/gikai/shise/shigikai/terekai/gian.html"
+    },
+    {
+      "filename": "chishiki.html",
+      "sha256": "8e2bc518292571dbbcd884972fb6fd1a8b591d4711e025fe0ac563d0ef2bcbb5",
+      "bytes": 24117,
+      "fetchedAt": "2026-10-30T18:02:09.838Z",
+      "fetchedFrom": "https://www.city.tagajo.miyagi.jp/gikai/shise/shigikai/shikumi/chishiki.html"
+    },
+    {
+      "filename": "dayori135.pdf",
+      "sha256": "0a97af94d26dde83b056cb11ce7938198cbe2697a88eca4203d8b2fcce60ba8b",
+      "bytes": 3143070,
+      "fetchedAt": "2026-10-30T18:02:09.841Z",
+      "fetchedFrom": "https://www.city.tagajo.miyagi.jp/gikai/shise/shigikai/shikumi/documents/dayori135.pdf"
+    }
+  ]
+}

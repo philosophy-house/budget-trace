@@ -1,0 +1,26 @@
+{
+  "sourceId": "kurihara-shigikai-r8",
+  "files": [
+    {
+      "filename": "309.html",
+      "sha256": "b49a8aad691672f0924d0295610904266bc9f9a04784c75b778ad5a0bb729c76",
+      "bytes": 17650,
+      "fetchedAt": "2026-10-30T18:02:09.833Z",
+      "fetchedFrom": "https://www.kuriharacity.jp/w032/010/010/050/020/309.html"
+    },
+    {
+      "filename": "R7ichiran.pdf",
+      "sha256": "93850bfbce6d59a6e1808d6da2ce94bf20d70d37dfc94ca0809121ea2715dabb",
+      "bytes": 44086,
+      "fetchedAt": "2026-10-30T18:02:09.834Z",
+      "fetchedFrom": "https://www.kuriharacity.jp/w032/010/010/100/001/2025/R7ichiran.pdf"
+    },
+    {
+      "filename": "PAGE000000000000013964.html",
+      "sha256": "7eafc31ab83f5b9e93dc045e02ec3c6b6a5faf9e12085065b765be195a1311d1",
+      "bytes": 40031,
+      "fetchedAt": "2026-10-30T18:02:09.834Z",
+      "fetchedFrom": "https://www.kuriharacity.jp/w032/010/010/020/008/002/PAGE000000000000013964.html"
+    }
+  ]
+}

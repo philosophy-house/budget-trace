@@ -1,0 +1,260 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hikari-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:14.604Z",
+  "fiscalYear": "R8",
+  "body": "光市議会",
+  "seats": 18,
+  "asOf": "2025-05-07",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "こう志会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "清水祐希",
+        "中村譲",
+        "中本和行",
+        "新見浩明",
+        "西村慎太郎",
+        "林節子",
+        "萬谷竹彦"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "いぶき",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大田敏司",
+        "河村龍男"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "ビーチ会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "井垣伸子",
+        "藤川みゆき"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "共創",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田中陽三",
+        "仲山哲男"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "会派から離脱（小林隆司）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小林隆司"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "会派から離脱（森戸芳史）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "森戸芳史"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "会派に属さない議員（田邉学）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "田邉学"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "会派に属さない議員（仲小路悦男）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "仲小路悦男"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "会派に属さない議員（早稲田真弓）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "早稲田真弓"
+      ],
+      "locator": {
+        "file": "hikari_2025_hikarisigikainogaiyou.pdf",
+        "page": 10
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度光市一般会計予算",
+    "sessionLabel": "令和８年第１回光市議会定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hikari_R80323giketukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和７年 光市議会の概要 p.10「議員名簿（五十音順）」の会派欄",
+  "resultTitle": "令和８年第１回光市議会定例会 議決結果（令和8年3月23日）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回光市議会定例会各議案賛否状況",
+    "sourceFile": "hikari_R803gikai_sanpi.pdf",
+    "columns": [
+      {
+        "label": "井垣伸子",
+        "faction": "ビーチ会",
+        "member": "井垣伸子",
+        "stance": "賛成"
+      },
+      {
+        "label": "大田敏司",
+        "faction": "いぶき",
+        "member": "大田敏司",
+        "stance": "賛成"
+      },
+      {
+        "label": "河村龍男",
+        "faction": "いぶき",
+        "member": "河村龍男",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林隆司",
+        "faction": "会派から離脱（小林隆司）",
+        "member": "小林隆司",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水祐希",
+        "faction": "こう志会",
+        "member": "清水祐希",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中陽三",
+        "faction": "共創",
+        "member": "田中陽三",
+        "stance": "賛成"
+      },
+      {
+        "label": "田邉学",
+        "faction": "会派に属さない議員（田邉学）",
+        "member": "田邉学",
+        "stance": "反対"
+      },
+      {
+        "label": "仲小路悦男",
+        "faction": "会派に属さない議員（仲小路悦男）",
+        "member": "仲小路悦男",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村譲",
+        "faction": "こう志会",
+        "member": "中村譲",
+        "stance": "賛成"
+      },
+      {
+        "label": "中本和行",
+        "faction": "こう志会",
+        "member": "中本和行",
+        "stance": "賛成"
+      },
+      {
+        "label": "仲山哲男",
+        "faction": "共創",
+        "member": "仲山哲男",
+        "stance": "賛成"
+      },
+      {
+        "label": "新見浩明",
+        "faction": "こう志会",
+        "member": "新見浩明",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村慎太郎",
+        "faction": "こう志会",
+        "member": "西村慎太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "林節子",
+        "faction": "こう志会",
+        "member": "林節子",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤川みゆき",
+        "faction": "ビーチ会",
+        "member": "藤川みゆき",
+        "stance": "賛成"
+      },
+      {
+        "label": "萬谷竹彦",
+        "faction": "こう志会",
+        "member": "萬谷竹彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "早稲田真弓",
+        "faction": "会派に属さない議員（早稲田真弓）",
+        "member": "早稲田真弓",
+        "stance": "賛成"
+      },
+      {
+        "label": "森戸芳史",
+        "faction": "会派から離脱（森戸芳史）",
+        "member": "森戸芳史",
+        "stance": "議長"
+      }
+    ]
+  }
+}

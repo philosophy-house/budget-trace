@@ -1,0 +1,279 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yamaguchi-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:13.729Z",
+  "fiscalYear": "R8",
+  "body": "山口県議会",
+  "seats": 47,
+  "asOf": "2026-03-10",
+  "teisu": 47,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 27,
+      "isIndependent": false,
+      "members": [
+        "守田宗治",
+        "塩満久雄",
+        "友田有",
+        "髙瀬利也",
+        "林直人",
+        "西本健治郎",
+        "二木健治",
+        "高井智子",
+        "吉田充宏",
+        "藤生宰",
+        "岡生子",
+        "笹村直也",
+        "島田教明",
+        "牛見航",
+        "森繁哲也",
+        "槙本利光",
+        "山手康弘",
+        "畑原勇太",
+        "磯部登志恵",
+        "河野亨",
+        "笠本俊也",
+        "中本喜弘",
+        "友広巌",
+        "坂本心次",
+        "江本郁夫",
+        "柳居俊学",
+        "国本卓也"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "石丸典子",
+        "前東直樹",
+        "猶野克",
+        "曽田聡",
+        "上岡康彦"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "やまぐち県政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小田村克彦",
+        "酒本哲也",
+        "氏原秀城",
+        "大内一也"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "木佐木大助",
+        "藤本一規",
+        "河合喜代"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "自由民主党新生会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "橋本尚理"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "社民党・市民連合",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中嶋光雄"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "新政クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "合志栄一"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "草の根",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "井原寿加子"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "県民の誇りを育む会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "松浦多紋"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "すずらんの会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "福田吏江子"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "未来創政の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "平岡望"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 11
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山縣孝司"
+      ],
+      "locator": {
+        "file": "25264.html",
+        "row": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 1号",
+    "billName": "令和8年度山口県一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "338865.html"
+    }
+  },
+  "rosterTitle": "山口県議会 会派別名簿「令和8年3月10日現在」（議決後 2026-05-21 の魚拓・更新日 2026年3月10日）",
+  "resultTitle": "令和8年3月定例会 議案審議結果表",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "議案に対する各会派の賛否の状況（令和８年３月定例会）",
+    "sourceFile": "234518.pdf",
+    "columns": [
+      {
+        "label": "自由民主党",
+        "faction": "自由民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明党",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "やまぐち県政会",
+        "faction": "やまぐち県政会",
+        "stance": "賛成"
+      },
+      {
+        "label": "日本共産党",
+        "faction": "日本共産党",
+        "stance": "反対"
+      },
+      {
+        "label": "自由民主党新生会",
+        "faction": "自由民主党新生会",
+        "stance": "賛成"
+      },
+      {
+        "label": "社民党・市民連合",
+        "faction": "社民党・市民連合",
+        "stance": "反対"
+      },
+      {
+        "label": "新政クラブ",
+        "faction": "新政クラブ",
+        "stance": "賛成"
+      },
+      {
+        "label": "草の根",
+        "faction": "草の根",
+        "stance": "賛成"
+      },
+      {
+        "label": "県民の誇りを育む会",
+        "faction": "県民の誇りを育む会",
+        "stance": "賛成"
+      },
+      {
+        "label": "すずらんの会",
+        "faction": "すずらんの会",
+        "stance": "賛成"
+      },
+      {
+        "label": "未来創政の会",
+        "faction": "未来創政の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "無所属の会",
+        "faction": "無所属の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "柳居俊学",
+        "faction": "自由民主党",
+        "member": "柳居俊学",
+        "stance": "議長"
+      }
+    ]
+  }
+}

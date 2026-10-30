@@ -1,0 +1,331 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shimonoseki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:14.092Z",
+  "fiscalYear": "R8",
+  "body": "下関市議会",
+  "seats": 33,
+  "asOf": "2026-03-26",
+  "factions": [
+    {
+      "name": "みらい下関",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "林真一郎",
+        "木本暢一",
+        "戸澤昭夫",
+        "田中義一",
+        "香川昌則",
+        "安岡克昌",
+        "板谷正",
+        "東城しのぶ",
+        "村中良多",
+        "林昂史",
+        "山野陽生"
+      ],
+      "locator": {
+        "file": "95666.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創世下関",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "関谷博",
+        "林透",
+        "江村卓三",
+        "星出恒夫",
+        "井川典子",
+        "吉村武志",
+        "阪本祐季"
+      ],
+      "locator": {
+        "file": "95666.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党市議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "恵良健一郎",
+        "坂本晴美",
+        "河野淳一",
+        "秋月美佐子"
+      ],
+      "locator": {
+        "file": "95666.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民連合",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山下隆夫",
+        "濵岡歳生",
+        "秋山賢治"
+      ],
+      "locator": {
+        "file": "95666.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党下関市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "桧垣徳雄",
+        "片山房一"
+      ],
+      "locator": {
+        "file": "95666.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "桂誠",
+        "本池涼子",
+        "下村秀樹",
+        "竹村克司",
+        "宮野直樹",
+        "早川幸汰"
+      ],
+      "locator": {
+        "file": "95666.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第16号",
+    "billName": "令和８年度下関市一般会計予算",
+    "sessionLabel": "令和８年第１回下関市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "可決",
+    "locator": {
+      "file": "95664.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年第１回定例会「議案等の賛否一覧」p.1 の表頭（会派名の結合セルの下に議員の縦書きの氏名・議決当日 3月26日の電子採決の集計）",
+  "resultTitle": "議案（令和8年第1回定例会）議決結果（議案番号・件名・上程年月日・議決年月日・議決結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会「議案等の賛否一覧」議案第１６号の行",
+    "sourceFile": "95666.pdf",
+    "columns": [
+      {
+        "label": "林真一郎",
+        "faction": "みらい下関",
+        "member": "林真一郎",
+        "stance": "議長"
+      },
+      {
+        "label": "木本暢一",
+        "faction": "みらい下関",
+        "member": "木本暢一",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸澤昭夫",
+        "faction": "みらい下関",
+        "member": "戸澤昭夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中義一",
+        "faction": "みらい下関",
+        "member": "田中義一",
+        "stance": "賛成"
+      },
+      {
+        "label": "香川昌則",
+        "faction": "みらい下関",
+        "member": "香川昌則",
+        "stance": "賛成"
+      },
+      {
+        "label": "安岡克昌",
+        "faction": "みらい下関",
+        "member": "安岡克昌",
+        "stance": "賛成"
+      },
+      {
+        "label": "板谷正",
+        "faction": "みらい下関",
+        "member": "板谷正",
+        "stance": "賛成"
+      },
+      {
+        "label": "東城しのぶ",
+        "faction": "みらい下関",
+        "member": "東城しのぶ",
+        "stance": "賛成"
+      },
+      {
+        "label": "村中良多",
+        "faction": "みらい下関",
+        "member": "村中良多",
+        "stance": "賛成"
+      },
+      {
+        "label": "林昂史",
+        "faction": "みらい下関",
+        "member": "林昂史",
+        "stance": "賛成"
+      },
+      {
+        "label": "山野陽生",
+        "faction": "みらい下関",
+        "member": "山野陽生",
+        "stance": "賛成"
+      },
+      {
+        "label": "関谷博",
+        "faction": "創世下関",
+        "member": "関谷博",
+        "stance": "賛成"
+      },
+      {
+        "label": "林透",
+        "faction": "創世下関",
+        "member": "林透",
+        "stance": "賛成"
+      },
+      {
+        "label": "江村卓三",
+        "faction": "創世下関",
+        "member": "江村卓三",
+        "stance": "賛成"
+      },
+      {
+        "label": "星出恒夫",
+        "faction": "創世下関",
+        "member": "星出恒夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "井川典子",
+        "faction": "創世下関",
+        "member": "井川典子",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉村武志",
+        "faction": "創世下関",
+        "member": "吉村武志",
+        "stance": "賛成"
+      },
+      {
+        "label": "阪本祐季",
+        "faction": "創世下関",
+        "member": "阪本祐季",
+        "stance": "賛成"
+      },
+      {
+        "label": "恵良健一郎",
+        "faction": "公明党市議団",
+        "member": "恵良健一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂本晴美",
+        "faction": "公明党市議団",
+        "member": "坂本晴美",
+        "stance": "賛成"
+      },
+      {
+        "label": "河野淳一",
+        "faction": "公明党市議団",
+        "member": "河野淳一",
+        "stance": "賛成"
+      },
+      {
+        "label": "秋月美佐子",
+        "faction": "公明党市議団",
+        "member": "秋月美佐子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下隆夫",
+        "faction": "市民連合",
+        "member": "山下隆夫",
+        "stance": "反対"
+      },
+      {
+        "label": "濵岡歳生",
+        "faction": "市民連合",
+        "member": "濵岡歳生",
+        "stance": "反対"
+      },
+      {
+        "label": "秋山賢治",
+        "faction": "市民連合",
+        "member": "秋山賢治",
+        "stance": "賛成"
+      },
+      {
+        "label": "桧垣徳雄",
+        "faction": "日本共産党下関市議団",
+        "member": "桧垣徳雄",
+        "stance": "反対"
+      },
+      {
+        "label": "片山房一",
+        "faction": "日本共産党下関市議団",
+        "member": "片山房一",
+        "stance": "反対"
+      },
+      {
+        "label": "桂誠",
+        "faction": "無所属",
+        "member": "桂誠",
+        "stance": "反対"
+      },
+      {
+        "label": "本池涼子",
+        "faction": "無所属",
+        "member": "本池涼子",
+        "stance": "反対"
+      },
+      {
+        "label": "下村秀樹",
+        "faction": "無所属",
+        "member": "下村秀樹",
+        "stance": "反対"
+      },
+      {
+        "label": "竹村克司",
+        "faction": "無所属",
+        "member": "竹村克司",
+        "stance": "反対"
+      },
+      {
+        "label": "宮野直樹",
+        "faction": "無所属",
+        "member": "宮野直樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "早川幸汰",
+        "faction": "無所属",
+        "member": "早川幸汰",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

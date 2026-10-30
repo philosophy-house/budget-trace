@@ -1,0 +1,74 @@
+{
+  "docType": "council-composition",
+  "sourceId": "iwanuma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.17",
+  "parsedAt": "2026-10-30T18:02:11.027Z",
+  "fiscalYear": "R8",
+  "body": "岩沼市議会",
+  "seats": 15,
+  "asOf": "2026-03-10",
+  "factions": [
+    {
+      "name": "岩沼政策フォーラム",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "髙橋光孝",
+        "大村晃一",
+        "岡田みつえ",
+        "櫻井隆",
+        "佐藤一郎",
+        "佐藤剛太",
+        "沼田健一",
+        "酒井信幸"
+      ],
+      "locator": {
+        "file": "R8-kekka2.htm",
+        "row": 1
+      }
+    },
+    {
+      "name": "維新・市民ファースト",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大友健",
+        "西塚秀市"
+      ],
+      "locator": {
+        "file": "R8-kekka2.htm",
+        "row": 2
+      }
+    },
+    {
+      "name": "会派に所属しない議員",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "飯塚悦男",
+        "植田美枝子",
+        "高梨明美",
+        "布田恵美",
+        "渡辺ふさ子"
+      ],
+      "locator": {
+        "file": "R8-kekka2.htm",
+        "row": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第28号",
+    "billName": "令和8年度岩沼市一般会計予算について",
+    "sessionLabel": "令和8年第2回(2月)定例会",
+    "decidedDate": "2026-03-10",
+    "decidedDateLabel": "令和8年3月10日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8.htm"
+    }
+  },
+  "rosterTitle": "令和8年第2回定例会 審議した議案と表決結果（起立採決の議員別表決・「会派等」の欄。議案第36号は議決当日 3月10日）",
+  "resultTitle": "審議した議案と表決結果 令和8年（令和8年第2回(2月)定例会の議案番号・件名・提出月日・議決月日・審議結果）"
+}

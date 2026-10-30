@@ -1,0 +1,26 @@
+{
+  "sourceId": "onomichi-shigikai-r8",
+  "files": [
+    {
+      "filename": "onomichi_kaiha_86609_20260312.html",
+      "sha256": "80017071a276da1aaefbc21cefcaacf98805e07c032e68a976af2f76cebad466",
+      "bytes": 22859,
+      "fetchedAt": "2026-10-30T18:02:09.845Z",
+      "fetchedFrom": "https://web.archive.org/web/20260312101620id_/https://www.city.onomichi.hiroshima.jp/site/gikai/86609.html"
+    },
+    {
+      "filename": "onomichi_88967.html",
+      "sha256": "5c0a490262b4a89a05ac2cd09348b502e89e203a3efd79abde6d43c6c1f02cd0",
+      "bytes": 40563,
+      "fetchedAt": "2026-10-30T18:02:09.846Z",
+      "fetchedFrom": "https://www.city.onomichi.hiroshima.jp/site/gikai/88967.html"
+    },
+    {
+      "filename": "onomichi_58167.pdf",
+      "sha256": "48dc1e62763be247e993ee668c0eada99ad8c0b644de47f532b7b2dbf3242cc4",
+      "bytes": 407796,
+      "fetchedAt": "2026-10-30T18:02:09.847Z",
+      "fetchedFrom": "https://www.city.onomichi.hiroshima.jp/uploaded/attachment/58167.pdf"
+    }
+  ]
+}
