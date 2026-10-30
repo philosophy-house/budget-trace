@@ -43982,12 +43982,12 @@ export const SOURCES: SourceEntry[] = [
     publisher: "富士市議会",
     url: null,
     urls: [
-      "https://www.city.fuji.shizuoka.jp/5105000000/p007166.html",
       "https://www.city.fuji.shizuoka.jp/documents/7045/r0802sanpi.pdf",
       "https://web.archive.org/web/20260125050718id_/https://www.city.fuji.shizuoka.jp/5105000000/p007165.html",
       "http://fuji.gijiroku.com/g08_Video_Search_s.asp?sflg=2&kaigi=49",
       "https://web.archive.org/web/20251006081720id_/https://www.city.fuji.shizuoka.jp/5105000000/p007164.html",
       "https://www.city.fuji.shizuoka.jp/5205000000/p007010.html",
+      "https://www.city.fuji.shizuoka.jp/5105000000/p007166.html",
     ],
     landingPage: "https://www.city.fuji.shizuoka.jp/5105000000/p007212.html",
     kind: "page",
