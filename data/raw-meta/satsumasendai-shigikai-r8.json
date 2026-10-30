@@ -1,0 +1,33 @@
+{
+  "sourceId": "satsumasendai-shigikai-r8",
+  "files": [
+    {
+      "filename": "7330.html",
+      "sha256": "993d83b5035de6d23741ac1911e1083147c385e72ec48e50a688e4d7dea5d1d0",
+      "bytes": 30240,
+      "fetchedAt": "2026-10-30T19:22:16.436Z",
+      "fetchedFrom": "https://www.city.satsumasendai.lg.jp/shigikai/1/2/7330.html"
+    },
+    {
+      "filename": "7333.html",
+      "sha256": "0eb20f993c46924c8fada768c9a0e2888550909af29e62be217006256409ece3",
+      "bytes": 36954,
+      "fetchedAt": "2026-10-30T19:22:16.436Z",
+      "fetchedFrom": "https://www.city.satsumasendai.lg.jp/shigikai/1/7333.html"
+    },
+    {
+      "filename": "R8-2kaigikekka.pdf",
+      "sha256": "122e10c26dfbfb16e2047cae57a5a83987c914cd6d2451da9acc4159a9be0cc4",
+      "bytes": 211446,
+      "fetchedAt": "2026-10-30T19:22:16.436Z",
+      "fetchedFrom": "https://www.city.satsumasendai.lg.jp/material/files/group/55/R8-2kaigikekka.pdf"
+    },
+    {
+      "filename": "18813.html",
+      "sha256": "c40fe173d69140bd24cf99c6ec000f158ca2d6fdf87d424b55bf69fa3aadfb47",
+      "bytes": 27679,
+      "fetchedAt": "2026-10-30T19:22:16.437Z",
+      "fetchedFrom": "https://www.city.satsumasendai.lg.jp/shigikai/2/4/18813.html"
+    }
+  ]
+}

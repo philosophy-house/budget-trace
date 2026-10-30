@@ -1,0 +1,26 @@
+{
+  "sourceId": "kumamoto-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "304871.pdf",
+      "sha256": "94fe0a962f274d7072fa5171cd159958e095b46892ff2964374878ba52db22ca",
+      "bytes": 234231,
+      "fetchedAt": "2026-10-30T19:22:16.426Z",
+      "fetchedFrom": "https://www.pref.kumamoto.jp/uploaded/attachment/304871.pdf"
+    },
+    {
+      "filename": "51859.html",
+      "sha256": "257ff40e341d4d3c713f70eaa033bc8b50ae1deed48cd669aa136261f977b2af",
+      "bytes": 41802,
+      "fetchedAt": "2026-10-30T19:22:16.426Z",
+      "fetchedFrom": "https://web.archive.org/web/20260208144800id_/https://www.pref.kumamoto.jp/site/gikai/51859.html"
+    },
+    {
+      "filename": "257839.html",
+      "sha256": "d809be8a1d5c63cf8e72c22cb7231adff5c0fbd45fb371be861452dae5a59dd1",
+      "bytes": 73918,
+      "fetchedAt": "2026-10-30T19:22:16.427Z",
+      "fetchedFrom": "https://www.pref.kumamoto.jp/site/gikai/257839.html"
+    }
+  ]
+}

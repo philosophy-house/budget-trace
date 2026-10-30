@@ -1,0 +1,26 @@
+{
+  "sourceId": "iwade-shigikai-r8",
+  "files": [
+    {
+      "filename": "9456.pdf",
+      "sha256": "21bc2c52eb01105d88e8298b481229a481fc8f2ae965932732afb5bbe4b4e448",
+      "bytes": 183898,
+      "fetchedAt": "2026-10-30T19:22:16.425Z",
+      "fetchedFrom": "https://www.city.iwade.lg.jp/uploaded/attachment/9456.pdf"
+    },
+    {
+      "filename": "9118.pdf",
+      "sha256": "2c051fa03ae01067644bd329d742ad48cba2b463cdf7d886b33a53ff9fcf94b7",
+      "bytes": 194786,
+      "fetchedAt": "2026-10-30T19:22:16.425Z",
+      "fetchedFrom": "https://www.city.iwade.lg.jp/uploaded/attachment/9118.pdf"
+    },
+    {
+      "filename": "1070.html",
+      "sha256": "1f32f8b5ef535e1c9c55fcaea5f8d97a68f4544179aba45b9a79b7d4a6a8b897",
+      "bytes": 27534,
+      "fetchedAt": "2026-10-30T19:22:16.426Z",
+      "fetchedFrom": "https://www.city.iwade.lg.jp/site/gikai/1070.html"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "docType": "council-composition",
+  "sourceId": "iwade-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:01.353Z",
+  "fiscalYear": "R8",
+  "body": "岩出市議会",
+  "seats": 13,
+  "asOf": "2026-03-17",
+  "factions": [
+    {
+      "name": "公明党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "玉田隆紀",
+        "大上正春",
+        "田畑正昭"
+      ],
+      "locator": {
+        "file": "9456.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創生岩出",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "福山晴美",
+        "西野峻也",
+        "井神慶久"
+      ],
+      "locator": {
+        "file": "9456.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "郁青青クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "三栖慎太郎",
+        "尾和正之",
+        "牛田佑佳"
+      ],
+      "locator": {
+        "file": "9456.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ネット岩出",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田中宏幸",
+        "福岡進二",
+        "杉本直哉"
+      ],
+      "locator": {
+        "file": "9456.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（市來利恵）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "市來利恵"
+      ],
+      "locator": {
+        "file": "9456.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第17号",
+    "billName": "令和８年度岩出市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "9118.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和8年第１回定例会議決結果（議員ごとの賛否の表頭の会派と氏名）",
+  "resultTitle": "令和８年第１回定例会 会議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第１回定例会議決結果（議員ごとの賛否）",
+    "sourceFile": "9456.pdf",
+    "columns": [
+      {
+        "label": "大上正春",
+        "faction": "公明党議員団",
+        "member": "大上正春",
+        "stance": "賛成"
+      },
+      {
+        "label": "田畑正昭",
+        "faction": "公明党議員団",
+        "member": "田畑正昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "福山晴美",
+        "faction": "創生岩出",
+        "member": "福山晴美",
+        "stance": "欠席"
+      },
+      {
+        "label": "西野峻也",
+        "faction": "創生岩出",
+        "member": "西野峻也",
+        "stance": "賛成"
+      },
+      {
+        "label": "井神慶久",
+        "faction": "創生岩出",
+        "member": "井神慶久",
+        "stance": "賛成"
+      },
+      {
+        "label": "三栖慎太郎",
+        "faction": "郁青青クラブ",
+        "member": "三栖慎太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "尾和正之",
+        "faction": "郁青青クラブ",
+        "member": "尾和正之",
+        "stance": "賛成"
+      },
+      {
+        "label": "牛田佑佳",
+        "faction": "郁青青クラブ",
+        "member": "牛田佑佳",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中宏幸",
+        "faction": "ネット岩出",
+        "member": "田中宏幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "福岡進二",
+        "faction": "ネット岩出",
+        "member": "福岡進二",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉本直哉",
+        "faction": "ネット岩出",
+        "member": "杉本直哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "市來利恵",
+        "faction": "会派に属さない議員（市來利恵）",
+        "member": "市來利恵",
+        "stance": "反対"
+      },
+      {
+        "label": "玉田隆紀",
+        "faction": "公明党議員団",
+        "member": "玉田隆紀",
+        "stance": "議長"
+      }
+    ]
+  }
+}

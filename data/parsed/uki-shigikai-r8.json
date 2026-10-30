@@ -1,0 +1,240 @@
+{
+  "docType": "council-composition",
+  "sourceId": "uki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:03.255Z",
+  "fiscalYear": "R8",
+  "body": "宇城市議会",
+  "seats": 20,
+  "asOf": "2025-04-02",
+  "factions": [
+    {
+      "name": "新志会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "林田和",
+        "津志田幸紀",
+        "田中美君",
+        "嘉古田茂己",
+        "豊田紀代美",
+        "石川洋一"
+      ],
+      "locator": {
+        "file": "uki_meibo_2401041_20260216.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "彩里",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "坂元大介",
+        "山森悦嗣",
+        "三角隆史",
+        "坂下勳",
+        "高橋佳大",
+        "園田幸雄"
+      ],
+      "locator": {
+        "file": "uki_meibo_2401041_20260216.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "暁",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "四海公貴",
+        "河野真理",
+        "吉良邦夫",
+        "永木誠",
+        "大村悟"
+      ],
+      "locator": {
+        "file": "uki_meibo_2401041_20260216.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "宇城市民の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中山弘幸"
+      ],
+      "locator": {
+        "file": "uki_meibo_2401041_20260216.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "河野正明"
+      ],
+      "locator": {
+        "file": "uki_meibo_2401041_20260216.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "蒼生",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "原田祐作"
+      ],
+      "locator": {
+        "file": "uki_meibo_2401041_20260216.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２２号",
+    "billName": "令和８年度宇城市一般会計予算",
+    "sessionLabel": "令和８年第１回宇城市議会定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案のとおり可決",
+    "locator": {
+      "file": "uki_kaigiroku_r8_1.pdf",
+      "page": 6
+    }
+  },
+  "rosterTitle": "宇城市議会議員名簿（議席・氏名・会派・常任委員会の表。2025年04月02日更新の版の議決前の魚拓 2026-02-16）",
+  "resultTitle": "令和８年第１回宇城市議会定例会 会議録（第７号・令和８年３月１３日）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "宇城市議会だより85号（2026年5月）「審議した議案等とその結果」",
+    "sourceFile": "uki_gikaidayori85.pdf",
+    "columns": [
+      {
+        "label": "林田和",
+        "faction": "新志会",
+        "member": "林田和",
+        "stance": "賛成"
+      },
+      {
+        "label": "津志田幸紀",
+        "faction": "新志会",
+        "member": "津志田幸紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂元大介",
+        "faction": "彩里",
+        "member": "坂元大介",
+        "stance": "賛成"
+      },
+      {
+        "label": "四海公貴",
+        "faction": "暁",
+        "member": "四海公貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "河野真理",
+        "faction": "暁",
+        "member": "河野真理",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉良邦夫",
+        "faction": "暁",
+        "member": "吉良邦夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中美君",
+        "faction": "新志会",
+        "member": "田中美君",
+        "stance": "賛成"
+      },
+      {
+        "label": "嘉古田茂己",
+        "faction": "新志会",
+        "member": "嘉古田茂己",
+        "stance": "賛成"
+      },
+      {
+        "label": "原田祐作",
+        "faction": "蒼生",
+        "member": "原田祐作",
+        "stance": "賛成"
+      },
+      {
+        "label": "永木誠",
+        "faction": "暁",
+        "member": "永木誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "山森悦嗣",
+        "faction": "彩里",
+        "member": "山森悦嗣",
+        "stance": "賛成"
+      },
+      {
+        "label": "三角隆史",
+        "faction": "彩里",
+        "member": "三角隆史",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂下勳",
+        "faction": "彩里",
+        "member": "坂下勳",
+        "stance": "賛成"
+      },
+      {
+        "label": "大村悟",
+        "faction": "暁",
+        "member": "大村悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋佳大",
+        "faction": "彩里",
+        "member": "高橋佳大",
+        "stance": "賛成"
+      },
+      {
+        "label": "園田幸雄",
+        "faction": "彩里",
+        "member": "園田幸雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "河野正明",
+        "faction": "公明党",
+        "member": "河野正明",
+        "stance": "賛成"
+      },
+      {
+        "label": "中山弘幸",
+        "faction": "宇城市民の会",
+        "member": "中山弘幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川洋一",
+        "faction": "新志会",
+        "member": "石川洋一",
+        "stance": "賛成"
+      },
+      {
+        "label": "豊田紀代美",
+        "faction": "新志会",
+        "member": "豊田紀代美",
+        "stance": "議長"
+      }
+    ]
+  }
+}

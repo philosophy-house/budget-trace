@@ -1,0 +1,33 @@
+{
+  "sourceId": "komatsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "3060.html",
+      "sha256": "6021b912f2ab1b26928dc8c192d961d7c1e3f3ca4708986420715646e4d33678",
+      "bytes": 31569,
+      "fetchedAt": "2026-10-30T19:22:16.395Z",
+      "fetchedFrom": "https://web.archive.org/web/20251206125348id_/https://www.city.komatsu.lg.jp/citycouncil/sub/2/3060.html"
+    },
+    {
+      "filename": "2603giketukeka.pdf",
+      "sha256": "0066b5f2a52d326a8fad271b778c51dd74ad46e25c912c69af999496f2d29446",
+      "bytes": 311212,
+      "fetchedAt": "2026-10-30T19:22:16.397Z",
+      "fetchedFrom": "https://www.city.komatsu.lg.jp/material/files/group/46/2603giketukeka.pdf"
+    },
+    {
+      "filename": "221-6.pdf",
+      "sha256": "98097206677bbdfcd72f85567cde3e29fecd888f2a48bc1c2877bf64bc5f177a",
+      "bytes": 1965144,
+      "fetchedAt": "2026-10-30T19:22:16.398Z",
+      "fetchedFrom": "https://www.city.komatsu.lg.jp/material/files/group/46/221-6.pdf"
+    },
+    {
+      "filename": "2603nitei.pdf",
+      "sha256": "5b083a54d4a12c576ece36835ae10db0a8e62ba46e36b3a96272481a199f222c",
+      "bytes": 83328,
+      "fetchedAt": "2026-10-30T19:22:16.399Z",
+      "fetchedFrom": "https://www.city.komatsu.lg.jp/material/files/group/46/2603nitei.pdf"
+    }
+  ]
+}

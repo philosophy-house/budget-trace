@@ -1,0 +1,45 @@
+{
+  "sourceId": "uki-shigikai-r8",
+  "files": [
+    {
+      "filename": "uki_meibo_2401041_20260216.html",
+      "sha256": "a5c55c1bcae9071ffa5d99a9354c4989b095c8b928ed2cdee38248d50f194b1e",
+      "bytes": 40312,
+      "fetchedAt": "2026-10-30T19:22:16.429Z",
+      "fetchedFrom": "https://web.archive.org/web/20260216013943id_/https://www.city.uki.kumamoto.jp/toppage/shigikai/meibo/2401041",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "uki_kaigiroku_r8_1.pdf",
+      "sha256": "e4e2242e83d20c1296afbf377cd786f9d945df8bc96782b35ae5d3a3bc374224",
+      "bytes": 1145767,
+      "fetchedAt": "2026-10-30T19:22:16.431Z",
+      "fetchedFrom": "https://www.city.uki.kumamoto.jp/resource.php?e=c598814a81c28ad4a64f563ad524a317cc6c73064f663946dcea63cebcd7f6e0aeef0a3d4d509b7ee75deedfd271eacc",
+      "transform": [
+        "ext:.pdf"
+      ]
+    },
+    {
+      "filename": "uki_gikaidayori85.pdf",
+      "sha256": "a6cad744dd436911fd6bff5bd18c8e97f7d4829b753d42d9c78e419bfac2133c",
+      "bytes": 2315512,
+      "fetchedAt": "2026-10-30T19:22:16.432Z",
+      "fetchedFrom": "https://www.city.uki.kumamoto.jp/resource.php?e=d0b5e936f468a198e23ee8cbc52e4e1c16304aa2c05877439188ac3fec161dedf1bcb0e59af89cea77f5699ca1540f0d",
+      "transform": [
+        "ext:.pdf"
+      ]
+    },
+    {
+      "filename": "uki_seimukatsudohi_r7.pdf",
+      "sha256": "688ea63cccc3c949b0efc5627cc07658ee932eef0bb2daf5e2e7af160b55b954",
+      "bytes": 86073,
+      "fetchedAt": "2026-10-30T19:22:16.432Z",
+      "fetchedFrom": "https://www.city.uki.kumamoto.jp/resource.php?e=c4eb17e383c7a9983d71b5aa4d3591f1dd60960e703ffb9dcc7148bc6c735bce6dd1f1567f3a4edf54945e3756c3cfbe",
+      "transform": [
+        "ext:.pdf"
+      ]
+    }
+  ]
+}

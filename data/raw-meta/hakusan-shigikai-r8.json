@@ -1,0 +1,40 @@
+{
+  "sourceId": "hakusan-shigikai-r8",
+  "files": [
+    {
+      "filename": "1004238.html",
+      "sha256": "c83b8cce4849588cfcadc6e6944e59148a457d3462bdfd1e1c6dafa9378d03ce",
+      "bytes": 17474,
+      "fetchedAt": "2026-10-30T19:22:16.401Z",
+      "fetchedFrom": "https://web.archive.org/web/20250909230349id_/https://www.city.hakusan.lg.jp/shigikai/gaiyou/1004238.html"
+    },
+    {
+      "filename": "0802giketuitiran.pdf",
+      "sha256": "d207a95993cb5e253f00a8c365b0bc03ea464a19bd261a77fc8fc9711738f42c",
+      "bytes": 135048,
+      "fetchedAt": "2026-10-30T19:22:16.402Z",
+      "fetchedFrom": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/018/082/0802giketuitiran.pdf"
+    },
+    {
+      "filename": "0802kaigikekka.pdf",
+      "sha256": "4cb5f5f53172abf6a916e19ba5672c9a345568a132b344088ea0b79fb35645b1",
+      "bytes": 125510,
+      "fetchedAt": "2026-10-30T19:22:16.402Z",
+      "fetchedFrom": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/018/082/0802kaigikekka.pdf"
+    },
+    {
+      "filename": "teisujorei.pdf",
+      "sha256": "27ea346c364338a86ec001a053fdba0ae7228d53f4de8b2e98f4372834128a52",
+      "bytes": 59400,
+      "fetchedAt": "2026-10-30T19:22:16.403Z",
+      "fetchedFrom": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/004/247/teisujorei.pdf"
+    },
+    {
+      "filename": "3gatukaigikekka.pdf",
+      "sha256": "58826dc25093f7e7cb7d45a48b63495d9f7f20993e4d05eacba8d38be7781bc3",
+      "bytes": 249500,
+      "fetchedAt": "2026-10-30T19:22:16.403Z",
+      "fetchedFrom": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/015/770/3gatukaigikekka.pdf"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "tanabe-shigikai-r8",
+  "files": [
+    {
+      "filename": "tanabe_2003.html",
+      "sha256": "4cc20d8e72e2a386c3afbc6da3a8c5135b2c355b338668dc4e14acd46d076c03",
+      "bytes": 62181,
+      "fetchedAt": "2026-10-30T19:22:16.411Z",
+      "fetchedFrom": "https://www.city.tanabe.lg.jp/soshiki/gikai/shokai/2003.html"
+    },
+    {
+      "filename": "tanabe_2156.html",
+      "sha256": "d3de25435d7e48a014122d7a96272311d274af5623f555f2b88089176ce0d3a8",
+      "bytes": 62682,
+      "fetchedAt": "2026-10-30T19:22:16.411Z",
+      "fetchedFrom": "https://www.city.tanabe.lg.jp/soshiki/gikai/gaiyo/2156.html"
+    },
+    {
+      "filename": "tanabe_6963.html",
+      "sha256": "42f5a8f393efe6fa6e2dc682b4b8bbaf8efa83a0c7ab5c3fbf7dac31fbdba17f",
+      "bytes": 86400,
+      "fetchedAt": "2026-10-30T19:22:16.411Z",
+      "fetchedFrom": "https://www.city.tanabe.lg.jp/soshiki/gikai/giketsukekka/giketukekka/2_1/6963.html"
+    }
+  ]
+}

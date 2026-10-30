@@ -1,0 +1,166 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yatsushiro-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:02.177Z",
+  "fiscalYear": "R8",
+  "body": "八代市議会",
+  "seats": 28,
+  "asOf": "2025-09-09",
+  "teisu": 28,
+  "factions": [
+    {
+      "name": "改革市民の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "大倉裕一",
+        "蓑田由貴",
+        "野﨑伸也",
+        "谷口徹",
+        "西村英昭"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新自由連合",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "田方芳信",
+        "深田浩介",
+        "木村博幸",
+        "髙山正夫"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "有志の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山本敬晃",
+        "たーみー",
+        "小川貴史"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党 礎",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "村川清則",
+        "友枝和也",
+        "金子昌平"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党 和",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "北園武広",
+        "永江恵子",
+        "橋本幸一"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党 絆",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "成松由紀夫",
+        "橋本貴喜",
+        "谷川登"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "未来創生やつしろ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山本幸廣",
+        "中山諭扶哉",
+        "堀口晃"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "橋本隆一",
+        "西和明"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "れいわ新選組",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "水田千春"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "橋本徳一郎"
+      ],
+      "locator": {
+        "file": "3_27063_up_jjxs7t7b.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 7 号",
+    "billName": "令和８年度八代市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "3_25780_up_mbvkabp7.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "第６期 八代市議会 会派届一覧（令和７年９月９日現在・令和7年度下期 R7.10.1〜R8.3.31 の政務活動費の会派届）",
+  "resultTitle": "令和８年３月定例会 採決結果一覧"
+}

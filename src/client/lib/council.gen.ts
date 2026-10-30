@@ -19871,6 +19871,532 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       }
     }
   ],
+  "172022": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "七尾市議会",
+      "seats": 18,
+      "teisu": 18,
+      "asOf": "2025-11-07",
+      "asOfLabel": "2025年11月7日",
+      "factions": [
+        {
+          "name": "市民クラブ",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "新政会",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "灘会",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "七尾のみらいをつくる会",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "無会派",
+          "seats": 2,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "第91号",
+        "billName": "令和８年度七尾市一般会計予算",
+        "sessionLabel": "令和７年度第２回定例会３月会議",
+        "decidedDate": "2026-03-19",
+        "decidedDateLabel": "令和8年3月19日",
+        "result": "可決"
+      },
+      "sourceTitle": "令和8年度 七尾市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "七尾市議会 議員名簿（更新日：2025年11月7日）の所属会派欄",
+        "localUrl": "/sources/nanao-shigikai-r8/mebo.html",
+        "originUrl": "https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/mebo.html",
+        "archiveUrl": "https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/mebo.html"
+      },
+      "result": {
+        "title": "七尾市議会だより No.85 p.11「採決結果一覧表」（令和７年度第２回定例会３月会議）",
+        "localUrl": "/sources/nanao-shigikai-r8/gikaidayori_85_part11.pdf",
+        "originUrl": "https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/gikaidayori/r8/documents/gikaidayori_85_part11.pdf",
+        "archiveUrl": "https://web.archive.org/web/20260424101924/https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/gikaidayori/r8/documents/gikaidayori_85_part11.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "172031": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "小松市議会",
+      "seats": 21,
+      "asOf": "2025-11-25",
+      "asOfLabel": "2025年11月25日",
+      "factions": [
+        {
+          "name": "会派自民",
+          "seats": 8,
+          "isIndependent": false
+        },
+        {
+          "name": "小松志士の会",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "自民党こまつ",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "無会派",
+          "seats": 6,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "第２号",
+        "billName": "令和８年度小松市一般会計予算",
+        "sessionLabel": "3月定例会",
+        "decidedDate": "2026-03-24",
+        "decidedDateLabel": "令和8年3月24日",
+        "result": "可決"
+      },
+      "sourceTitle": "令和8年度 小松市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "小松市議会 会派名簿（更新日：2025年11月25日）",
+        "localUrl": "/sources/komatsu-shigikai-r8/3060.html",
+        "originUrl": "https://web.archive.org/web/20251206125348id_/https://www.city.komatsu.lg.jp/citycouncil/sub/2/3060.html",
+        "archiveUrl": "https://web.archive.org/web/20251206125348id_/https://www.city.komatsu.lg.jp/citycouncil/sub/2/3060.html"
+      },
+      "result": {
+        "title": "小松市議会だより 221号（令和8年5月1日号）p.22「3月定例会の議決結果」",
+        "localUrl": "/sources/komatsu-shigikai-r8/221-6.pdf",
+        "originUrl": "https://www.city.komatsu.lg.jp/material/files/group/46/221-6.pdf",
+        "archiveUrl": "https://www.city.komatsu.lg.jp/material/files/group/46/221-6.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null,
+      "votes": {
+        "basis": "member",
+        "stances": [
+          "賛成",
+          "反対",
+          "議長"
+        ],
+        "tally": {
+          "賛成": 19,
+          "反対": 1,
+          "議長": 1
+        },
+        "byFaction": [
+          {
+            "faction": "会派自民",
+            "counts": {
+              "賛成": 8
+            },
+            "members": [
+              {
+                "name": "表靖二",
+                "stance": "賛成"
+              },
+              {
+                "name": "高野哲郎",
+                "stance": "賛成"
+              },
+              {
+                "name": "吉本慎太郎",
+                "stance": "賛成"
+              },
+              {
+                "name": "梅田利和",
+                "stance": "賛成"
+              },
+              {
+                "name": "新田寛之",
+                "stance": "賛成"
+              },
+              {
+                "name": "東浩一",
+                "stance": "賛成"
+              },
+              {
+                "name": "村中洋",
+                "stance": "賛成"
+              },
+              {
+                "name": "吉柴文悟",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "小松志士の会",
+            "counts": {
+              "賛成": 4
+            },
+            "members": [
+              {
+                "name": "宮西健吉",
+                "stance": "賛成"
+              },
+              {
+                "name": "中西肇",
+                "stance": "賛成"
+              },
+              {
+                "name": "浜口淳也",
+                "stance": "賛成"
+              },
+              {
+                "name": "木村賢治",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "自民党こまつ",
+            "counts": {
+              "賛成": 3
+            },
+            "members": [
+              {
+                "name": "川崎順次",
+                "stance": "賛成"
+              },
+              {
+                "name": "吉村範明",
+                "stance": "賛成"
+              },
+              {
+                "name": "深田博智",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "無会派",
+            "counts": {
+              "反対": 1,
+              "賛成": 4,
+              "議長": 1
+            },
+            "members": [
+              {
+                "name": "橋本米子",
+                "stance": "反対"
+              },
+              {
+                "name": "片山瞬次郎",
+                "stance": "賛成"
+              },
+              {
+                "name": "木下裕介",
+                "stance": "賛成"
+              },
+              {
+                "name": "斎藤和美",
+                "stance": "賛成"
+              },
+              {
+                "name": "岡山晃宏",
+                "stance": "賛成"
+              },
+              {
+                "name": "南藤陽一",
+                "stance": "議長"
+              }
+            ]
+          }
+        ],
+        "source": {
+          "title": "令和8年3月定例会 議決結果（賛否が分かれた議案）",
+          "localUrl": "/sources/komatsu-shigikai-r8/2603giketukeka.pdf",
+          "originUrl": "https://www.city.komatsu.lg.jp/material/files/group/46/2603giketukeka.pdf",
+          "archiveUrl": "https://web.archive.org/web/20261008180446/https://www.city.komatsu.lg.jp/material/files/group/46/2603giketukeka.pdf"
+        }
+      }
+    }
+  ],
+  "172103": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "白山市議会",
+      "seats": 21,
+      "teisu": 21,
+      "asOf": "2025-05-07",
+      "asOfLabel": "2025年5月7日",
+      "factions": [
+        {
+          "name": "一創会",
+          "seats": 8,
+          "isIndependent": false
+        },
+        {
+          "name": "白政会",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "会派立志",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属",
+          "seats": 6,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第2号",
+        "billName": "令和８年度白山市一般会計予算",
+        "sessionLabel": "令和８年市議会２月会議",
+        "decidedDate": "2026-03-19",
+        "decidedDateLabel": "令和8年3月19日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 白山市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "白山市議会 会派別名簿（令和7年5月7日現在・議決前 2025-09-09 の魚拓）",
+        "localUrl": "/sources/hakusan-shigikai-r8/1004238.html",
+        "originUrl": "https://web.archive.org/web/20250909230349id_/https://www.city.hakusan.lg.jp/shigikai/gaiyou/1004238.html",
+        "archiveUrl": "https://web.archive.org/web/20250909230349id_/https://www.city.hakusan.lg.jp/shigikai/gaiyou/1004238.html"
+      },
+      "result": {
+        "title": "令和８年市議会２月会議 議決一覧",
+        "localUrl": "/sources/hakusan-shigikai-r8/0802giketuitiran.pdf",
+        "originUrl": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/018/082/0802giketuitiran.pdf",
+        "archiveUrl": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/018/082/0802giketuitiran.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null,
+      "votes": {
+        "basis": "member",
+        "stances": [
+          "賛成",
+          "反対",
+          "議長"
+        ],
+        "tally": {
+          "賛成": 19,
+          "議長": 1,
+          "反対": 1
+        },
+        "byFaction": [
+          {
+            "faction": "一創会",
+            "counts": {
+              "賛成": 7,
+              "議長": 1
+            },
+            "members": [
+              {
+                "name": "有川康二郎",
+                "stance": "賛成"
+              },
+              {
+                "name": "横山由裕",
+                "stance": "賛成"
+              },
+              {
+                "name": "山本佳裕",
+                "stance": "賛成"
+              },
+              {
+                "name": "池元勝",
+                "stance": "賛成"
+              },
+              {
+                "name": "吉本史宏",
+                "stance": "賛成"
+              },
+              {
+                "name": "石地宜一",
+                "stance": "賛成"
+              },
+              {
+                "name": "藤田政樹",
+                "stance": "賛成"
+              },
+              {
+                "name": "中野進",
+                "stance": "議長"
+              }
+            ]
+          },
+          {
+            "faction": "会派立志",
+            "counts": {
+              "賛成": 3
+            },
+            "members": [
+              {
+                "name": "木谷和栄",
+                "stance": "賛成"
+              },
+              {
+                "name": "北嶋章光",
+                "stance": "賛成"
+              },
+              {
+                "name": "寺越和洋",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "白政会",
+            "counts": {
+              "賛成": 4
+            },
+            "members": [
+              {
+                "name": "撫子正",
+                "stance": "賛成"
+              },
+              {
+                "name": "上田良治",
+                "stance": "賛成"
+              },
+              {
+                "name": "大屋潤一",
+                "stance": "賛成"
+              },
+              {
+                "name": "澤田昌幸",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "無所属",
+            "counts": {
+              "賛成": 5,
+              "反対": 1
+            },
+            "members": [
+              {
+                "name": "米山立子",
+                "stance": "賛成"
+              },
+              {
+                "name": "平野辰子",
+                "stance": "反対"
+              },
+              {
+                "name": "谷健一",
+                "stance": "賛成"
+              },
+              {
+                "name": "原卓二",
+                "stance": "賛成"
+              },
+              {
+                "name": "田代敬子",
+                "stance": "賛成"
+              },
+              {
+                "name": "山口俊哉",
+                "stance": "賛成"
+              }
+            ]
+          }
+        ],
+        "source": {
+          "title": "令和８年市議会２月会議 議決一覧 p.3「賛否が分かれた議案」",
+          "localUrl": "/sources/hakusan-shigikai-r8/0802giketuitiran.pdf",
+          "originUrl": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/018/082/0802giketuitiran.pdf",
+          "archiveUrl": "https://www.city.hakusan.lg.jp/_res/projects/default_project/_page_/001/018/082/0802giketuitiran.pdf"
+        }
+      }
+    }
+  ],
+  "172120": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "野々市市議会",
+      "seats": 15,
+      "teisu": 15,
+      "asOf": "2026-03-19",
+      "asOfLabel": "2026年3月19日",
+      "factions": [
+        {
+          "name": "野々市フォーラム",
+          "seats": 6,
+          "isIndependent": false
+        },
+        {
+          "name": "ののいち市民の会",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "令和清栄",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "無名",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "公明",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "議長（安原透）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "副議長（向田誠市）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第6号",
+        "billName": "令和８年度野々市市一般会計予算について",
+        "sessionLabel": "令和8年3月定例会",
+        "decidedDate": "2026-03-19",
+        "decidedDateLabel": "令和8年3月19日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 野々市市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "令和8年3月定例会 議決結果一覧（議決時点の所属会派の表頭）",
+        "localUrl": "/sources/nonoichi-shigikai-r8/43413.pdf",
+        "originUrl": "https://www.city.nonoichi.lg.jp/uploaded/attachment/43413.pdf",
+        "archiveUrl": "https://www.city.nonoichi.lg.jp/uploaded/attachment/43413.pdf"
+      },
+      "result": {
+        "title": "令和8年3月定例会 議決結果一覧",
+        "localUrl": "/sources/nonoichi-shigikai-r8/43413.pdf",
+        "originUrl": "https://www.city.nonoichi.lg.jp/uploaded/attachment/43413.pdf",
+        "archiveUrl": "https://www.city.nonoichi.lg.jp/uploaded/attachment/43413.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
   "182010": [
     {
       "fy": "R8",
@@ -38973,6 +39499,884 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       ]
     }
   ],
+  "302015": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "和歌山市議会",
+      "seats": 36,
+      "asOf": "2026-03-13",
+      "asOfLabel": "2026年3月13日",
+      "factions": [
+        {
+          "name": "創和クラブ",
+          "seats": 13,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党議員団",
+          "seats": 8,
+          "isIndependent": false
+        },
+        {
+          "name": "民主クラブ",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "和歌山興志クラブ",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "共産党議員団",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "日本維新の会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属（井上直樹）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無所属（国民民主クラブ）（永野裕久）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第31号",
+        "billName": "令和８年度和歌山市一般会計予算",
+        "sessionLabel": "令和８年２月定例市議会",
+        "decidedDate": "2026-03-13",
+        "decidedDateLabel": "令和8年3月13日",
+        "result": "可決"
+      },
+      "sourceTitle": "和歌山市議会 会派構成（令和８年２月定例市議会・令和8年度一般会計予算の議決時）",
+      "roster": {
+        "title": "令和8年2月議会「議員別採決状況」（２月定例会採決状況）p.1 の表頭（会派名の下に議席番号と縦書きの氏名・議決当日 3月13日）",
+        "localUrl": "/sources/wakayama-shi-shigikai-r8/wakayama_R8.2saiketuzyouk.pdf",
+        "originUrl": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/601/R8.2saiketuzyouk.pdf",
+        "archiveUrl": "https://web.archive.org/web/20260314223404/https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/601/R8.2saiketuzyouk.pdf"
+      },
+      "result": {
+        "title": "令和８年２月定例市議会 審議結果",
+        "localUrl": "/sources/wakayama-shi-shigikai-r8/wakayama_260317.pdf",
+        "originUrl": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/601/260317.pdf",
+        "archiveUrl": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/601/260317.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null,
+      "votes": {
+        "basis": "member",
+        "stances": [
+          "賛成",
+          "反対",
+          "議長"
+        ],
+        "tally": {
+          "賛成": 32,
+          "議長": 1,
+          "反対": 3
+        },
+        "byFaction": [
+          {
+            "faction": "創和クラブ",
+            "counts": {
+              "賛成": 12,
+              "議長": 1
+            },
+            "members": [
+              {
+                "name": "辻本太一",
+                "stance": "賛成"
+              },
+              {
+                "name": "林元光広",
+                "stance": "賛成"
+              },
+              {
+                "name": "志賀弘明",
+                "stance": "賛成"
+              },
+              {
+                "name": "浜田真輔",
+                "stance": "賛成"
+              },
+              {
+                "name": "山本宏一",
+                "stance": "賛成"
+              },
+              {
+                "name": "中村元彦",
+                "stance": "賛成"
+              },
+              {
+                "name": "中谷謙二",
+                "stance": "賛成"
+              },
+              {
+                "name": "丹羽直子",
+                "stance": "賛成"
+              },
+              {
+                "name": "芝本和己",
+                "stance": "議長"
+              },
+              {
+                "name": "戸田正人",
+                "stance": "賛成"
+              },
+              {
+                "name": "古川祐典",
+                "stance": "賛成"
+              },
+              {
+                "name": "北野均",
+                "stance": "賛成"
+              },
+              {
+                "name": "遠藤富士雄",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "公明党議員団",
+            "counts": {
+              "賛成": 8
+            },
+            "members": [
+              {
+                "name": "堀登美子",
+                "stance": "賛成"
+              },
+              {
+                "name": "木野十三",
+                "stance": "賛成"
+              },
+              {
+                "name": "堀良子",
+                "stance": "賛成"
+              },
+              {
+                "name": "西風章世",
+                "stance": "賛成"
+              },
+              {
+                "name": "園内浩樹",
+                "stance": "賛成"
+              },
+              {
+                "name": "薮浩昭",
+                "stance": "賛成"
+              },
+              {
+                "name": "奥山昭博",
+                "stance": "賛成"
+              },
+              {
+                "name": "松本哲郎",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "民主クラブ",
+            "counts": {
+              "賛成": 5
+            },
+            "members": [
+              {
+                "name": "山路恭世",
+                "stance": "賛成"
+              },
+              {
+                "name": "清末博善",
+                "stance": "賛成"
+              },
+              {
+                "name": "山中敏生",
+                "stance": "賛成"
+              },
+              {
+                "name": "川端康史",
+                "stance": "賛成"
+              },
+              {
+                "name": "山本忠相",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "和歌山興志クラブ",
+            "counts": {
+              "賛成": 3
+            },
+            "members": [
+              {
+                "name": "赤松良寛",
+                "stance": "賛成"
+              },
+              {
+                "name": "𠮷本昌純",
+                "stance": "賛成"
+              },
+              {
+                "name": "尾﨑方哉",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "共産党議員団",
+            "counts": {
+              "反対": 3
+            },
+            "members": [
+              {
+                "name": "坂口多美子",
+                "stance": "反対"
+              },
+              {
+                "name": "南畑幸代",
+                "stance": "反対"
+              },
+              {
+                "name": "森下佐知子",
+                "stance": "反対"
+              }
+            ]
+          },
+          {
+            "faction": "日本維新の会",
+            "counts": {
+              "賛成": 2
+            },
+            "members": [
+              {
+                "name": "中庄谷孝次郎",
+                "stance": "賛成"
+              },
+              {
+                "name": "山野麻衣子",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "無所属（井上直樹）",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "井上直樹",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "無所属（国民民主クラブ）（永野裕久）",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "永野裕久",
+                "stance": "賛成"
+              }
+            ]
+          }
+        ],
+        "source": {
+          "title": "令和8年2月議会「議員別採決状況」議３１（令和８年度和歌山市一般会計予算）の行",
+          "localUrl": "/sources/wakayama-shi-shigikai-r8/wakayama_R8.2saiketuzyouk.pdf",
+          "originUrl": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/601/R8.2saiketuzyouk.pdf",
+          "archiveUrl": "https://web.archive.org/web/20260314223404/https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/066/601/R8.2saiketuzyouk.pdf"
+        }
+      }
+    }
+  ],
+  "302023": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "海南市議会",
+      "seats": 17,
+      "asOf": "2026-01-26",
+      "asOfLabel": "2026年1月26日",
+      "factions": [
+        {
+          "name": "市民クラブ",
+          "seats": 7,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党海南市議会議員団",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属の会・日本維新の会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "市政クラブ",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "自由クラブ",
+          "seats": 2,
+          "isIndependent": false
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第21号",
+        "billName": "令和８年度海南市一般会計予算",
+        "sessionLabel": "令和8年2月定例会",
+        "decidedDate": "2026-03-18",
+        "decidedDateLabel": "令和8年3月18日",
+        "result": "可決"
+      },
+      "sourceTitle": "海南市議会 会派構成（令和8年2月定例会・令和8年度一般会計予算の議決時）",
+      "roster": {
+        "title": "海南市議会「議員紹介」の議員一覧表と議員ごとのプロフィールの所属会派（更新日 2026年1月26日・議決前 2026-02-09 の魚拓）",
+        "localUrl": "/sources/kainan-shigikai-r8/kainan_4706_20260209.html",
+        "originUrl": "https://web.archive.org/web/20260209234916id_/https://www.city.kainan.lg.jp/kakubusho/gikaijimukyoku/giin/4706.html",
+        "archiveUrl": "https://web.archive.org/web/20260209234916id_/https://www.city.kainan.lg.jp/kakubusho/gikaijimukyoku/giin/4706.html"
+      },
+      "result": {
+        "title": "令和8年2月定例会議決結果（議案名等・内容・議決結果）",
+        "localUrl": "/sources/kainan-shigikai-r8/kainan_kextuka.pdf",
+        "originUrl": "https://www.city.kainan.lg.jp/material/files/group/4/kextuka.pdf",
+        "archiveUrl": "https://www.city.kainan.lg.jp/material/files/group/4/kextuka.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "302031": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "橋本市議会",
+      "seats": 18,
+      "teisu": 18,
+      "asOf": "2023-05-08",
+      "asOfLabel": "2023年5月8日",
+      "factions": [
+        {
+          "name": "新政会",
+          "seats": 6,
+          "isIndependent": false
+        },
+        {
+          "name": "第一義",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "市民クラブ",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党議員団",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党議員団",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "会派に所属しない議員（梅本知江）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第１号",
+        "billName": "令和８年度橋本市一般会計予算について",
+        "sessionLabel": "令和8年3月定例会",
+        "decidedDate": "2026-03-12",
+        "decidedDateLabel": "令和8年3月12日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "橋本市議会 会派構成（令和8年3月定例会・令和8年度一般会計予算の議決時）",
+      "roster": {
+        "title": "橋本市議会「会派の構成」（令和５年５月８日現在・更新日 2023年5月10日・議決前 2025-03-25 の魚拓）",
+        "localUrl": "/sources/hashimoto-shigikai-r8/hashimoto_kaihameibo_20250325.html",
+        "originUrl": "https://web.archive.org/web/20250325163313id_/https://www.city.hashimoto.lg.jp/shigikai/member/kaihameibo.html",
+        "archiveUrl": "https://web.archive.org/web/20250325163313id_/https://www.city.hashimoto.lg.jp/shigikai/member/kaihameibo.html"
+      },
+      "result": {
+        "title": "令和8年3月定例会 会議結果（提出月日・議案番号・件名・委員会付託月日・処理・議決月日・議決の結果）",
+        "localUrl": "/sources/hashimoto-shigikai-r8/hashimoto_R8-3-kaigikekka.pdf",
+        "originUrl": "https://www.city.hashimoto.lg.jp/material/files/group/27/R8-3-kaigikekka.pdf",
+        "archiveUrl": "https://www.city.hashimoto.lg.jp/material/files/group/27/R8-3-kaigikekka.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "302066": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "田辺市議会",
+      "seats": 18,
+      "teisu": 18,
+      "asOf": "2026-02-27",
+      "asOfLabel": "2026年2月27日",
+      "factions": [
+        {
+          "name": "くまの篤志会",
+          "seats": 6,
+          "isIndependent": false
+        },
+        {
+          "name": "紀新会",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "清新会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党",
+          "seats": 2,
+          "isIndependent": false
+        }
+      ],
+      "resolution": {
+        "billNo": "1定議案第37号",
+        "billName": "令和8年度田辺市一般会計予算",
+        "sessionLabel": "令和8年第1回（3月）定例会",
+        "decidedDate": "2026-03-24",
+        "decidedDateLabel": "令和8年3月24日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "田辺市議会 会派構成（令和8年第1回（3月）定例会・令和8年度一般会計予算の議決時）",
+      "roster": {
+        "title": "田辺市議会「会派の構成」（更新日 2026年2月27日）",
+        "localUrl": "/sources/tanabe-shigikai-r8/tanabe_2003.html",
+        "originUrl": "https://www.city.tanabe.lg.jp/soshiki/gikai/shokai/2003.html",
+        "archiveUrl": "https://web.archive.org/web/20260901034807/https://www.city.tanabe.lg.jp/soshiki/gikai/shokai/2003.html"
+      },
+      "result": {
+        "title": "議決結果の一覧（令和8年第1回（3月）定例会）",
+        "localUrl": "/sources/tanabe-shigikai-r8/tanabe_6963.html",
+        "originUrl": "https://www.city.tanabe.lg.jp/soshiki/gikai/giketsukekka/giketukekka/2_1/6963.html",
+        "archiveUrl": "https://www.city.tanabe.lg.jp/soshiki/gikai/giketsukekka/giketukekka/2_1/6963.html"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "302082": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "紀の川市議会",
+      "seats": 20,
+      "teisu": 20,
+      "asOf": "2026-03-05",
+      "asOfLabel": "2026年3月5日",
+      "factions": [
+        {
+          "name": "わかばクラブ",
+          "seats": 9,
+          "isIndependent": false
+        },
+        {
+          "name": "清流会",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "実り会",
+          "seats": 2,
+          "isIndependent": false
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第３２号",
+        "billName": "令和８年度紀の川市一般会計予算について",
+        "sessionLabel": "令和８年第１回紀の川市議会定例会",
+        "decidedDate": "2026-03-27",
+        "decidedDateLabel": "令和8年3月27日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 紀の川市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "議員紹介（議員名簿、会派の構成）（最終更新日 2026年3月5日）の「会派の構成」紀の川市議会会派構成",
+        "localUrl": "/sources/kinokawa-shigikai-r8/index.html",
+        "originUrl": "https://web.archive.org/web/20260508143526id_/http://www.city.kinokawa.lg.jp/001/01/index.html",
+        "archiveUrl": "https://web.archive.org/web/20260508143526id_/http://www.city.kinokawa.lg.jp/001/01/index.html"
+      },
+      "result": {
+        "title": "令和８年第１回紀の川市議会定例会 議決結果一覧表",
+        "localUrl": "/sources/kinokawa-shigikai-r8/R8.3giketu.pdf",
+        "originUrl": "https://www.city.kinokawa.lg.jp/001/files/R8.3giketu.pdf",
+        "archiveUrl": "https://web.archive.org/web/20260513094600/http://www.city.kinokawa.lg.jp/001/files/R8.3giketu.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null,
+      "votes": {
+        "basis": "member",
+        "stances": [
+          "賛成",
+          "反対",
+          "議長"
+        ],
+        "tally": {
+          "賛成": 15,
+          "議長": 1,
+          "反対": 4
+        },
+        "byFaction": [
+          {
+            "faction": "わかばクラブ",
+            "counts": {
+              "賛成": 8,
+              "議長": 1
+            },
+            "members": [
+              {
+                "name": "上岡一夫",
+                "stance": "賛成"
+              },
+              {
+                "name": "西岡宣博",
+                "stance": "賛成"
+              },
+              {
+                "name": "上田礼子",
+                "stance": "賛成"
+              },
+              {
+                "name": "松本敦",
+                "stance": "賛成"
+              },
+              {
+                "name": "大田裕之",
+                "stance": "賛成"
+              },
+              {
+                "name": "木村芳友",
+                "stance": "賛成"
+              },
+              {
+                "name": "舩木孝明",
+                "stance": "賛成"
+              },
+              {
+                "name": "榎本喜之",
+                "stance": "賛成"
+              },
+              {
+                "name": "杉原勲",
+                "stance": "議長"
+              }
+            ]
+          },
+          {
+            "faction": "清流会",
+            "counts": {
+              "反対": 2,
+              "賛成": 2
+            },
+            "members": [
+              {
+                "name": "森田幾久",
+                "stance": "反対"
+              },
+              {
+                "name": "村垣正造",
+                "stance": "反対"
+              },
+              {
+                "name": "堂脇光弘",
+                "stance": "賛成"
+              },
+              {
+                "name": "上野宗彦",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "公明党",
+            "counts": {
+              "賛成": 3
+            },
+            "members": [
+              {
+                "name": "高橋千代子",
+                "stance": "賛成"
+              },
+              {
+                "name": "芝田修",
+                "stance": "賛成"
+              },
+              {
+                "name": "大谷さつき",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "日本共産党",
+            "counts": {
+              "反対": 2
+            },
+            "members": [
+              {
+                "name": "石井仁",
+                "stance": "反対"
+              },
+              {
+                "name": "中村まき",
+                "stance": "反対"
+              }
+            ]
+          },
+          {
+            "faction": "実り会",
+            "counts": {
+              "賛成": 2
+            },
+            "members": [
+              {
+                "name": "おん地ゆう子",
+                "stance": "賛成"
+              },
+              {
+                "name": "阪中晃",
+                "stance": "賛成"
+              }
+            ]
+          }
+        ],
+        "source": {
+          "title": "紀の川市議会だより No.77（令和8年5月）p.11「議案に対する議員の賛否一覧」",
+          "localUrl": "/sources/kinokawa-shigikai-r8/kinokawa77.pdf",
+          "originUrl": "https://www.city.kinokawa.lg.jp/001/02/files/kinokawa77.pdf",
+          "archiveUrl": "https://web.archive.org/web/20260501190949/https://www.city.kinokawa.lg.jp/001/02/files/kinokawa77.pdf"
+        }
+      }
+    }
+  ],
+  "302091": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "岩出市議会",
+      "seats": 13,
+      "asOf": "2026-03-17",
+      "asOfLabel": "2026年3月17日",
+      "factions": [
+        {
+          "name": "公明党議員団",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "創生岩出",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "郁青青クラブ",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "ネット岩出",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "会派に属さない議員（市來利恵）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第17号",
+        "billName": "令和８年度岩出市一般会計予算",
+        "sessionLabel": "令和８年第１回定例会",
+        "decidedDate": "2026-03-17",
+        "decidedDateLabel": "令和8年3月17日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 岩出市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "令和8年第１回定例会議決結果（議員ごとの賛否の表頭の会派と氏名）",
+        "localUrl": "/sources/iwade-shigikai-r8/9456.pdf",
+        "originUrl": "https://www.city.iwade.lg.jp/uploaded/attachment/9456.pdf",
+        "archiveUrl": "https://www.city.iwade.lg.jp/uploaded/attachment/9456.pdf"
+      },
+      "result": {
+        "title": "令和８年第１回定例会 会議結果",
+        "localUrl": "/sources/iwade-shigikai-r8/9118.pdf",
+        "originUrl": "https://www.city.iwade.lg.jp/uploaded/attachment/9118.pdf",
+        "archiveUrl": "https://web.archive.org/web/20260407201641/https://www.city.iwade.lg.jp/uploaded/attachment/9118.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null,
+      "votes": {
+        "basis": "member",
+        "stances": [
+          "賛成",
+          "反対",
+          "欠席",
+          "議長"
+        ],
+        "tally": {
+          "賛成": 10,
+          "議長": 1,
+          "欠席": 1,
+          "反対": 1
+        },
+        "byFaction": [
+          {
+            "faction": "公明党議員団",
+            "counts": {
+              "賛成": 2,
+              "議長": 1
+            },
+            "members": [
+              {
+                "name": "大上正春",
+                "stance": "賛成"
+              },
+              {
+                "name": "田畑正昭",
+                "stance": "賛成"
+              },
+              {
+                "name": "玉田隆紀",
+                "stance": "議長"
+              }
+            ]
+          },
+          {
+            "faction": "創生岩出",
+            "counts": {
+              "欠席": 1,
+              "賛成": 2
+            },
+            "members": [
+              {
+                "name": "福山晴美",
+                "stance": "欠席"
+              },
+              {
+                "name": "西野峻也",
+                "stance": "賛成"
+              },
+              {
+                "name": "井神慶久",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "郁青青クラブ",
+            "counts": {
+              "賛成": 3
+            },
+            "members": [
+              {
+                "name": "三栖慎太郎",
+                "stance": "賛成"
+              },
+              {
+                "name": "尾和正之",
+                "stance": "賛成"
+              },
+              {
+                "name": "牛田佑佳",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "ネット岩出",
+            "counts": {
+              "賛成": 3
+            },
+            "members": [
+              {
+                "name": "田中宏幸",
+                "stance": "賛成"
+              },
+              {
+                "name": "福岡進二",
+                "stance": "賛成"
+              },
+              {
+                "name": "杉本直哉",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "会派に属さない議員（市來利恵）",
+            "counts": {
+              "反対": 1
+            },
+            "members": [
+              {
+                "name": "市來利恵",
+                "stance": "反対"
+              }
+            ]
+          }
+        ],
+        "source": {
+          "title": "令和8年第１回定例会議決結果（議員ごとの賛否）",
+          "localUrl": "/sources/iwade-shigikai-r8/9456.pdf",
+          "originUrl": "https://www.city.iwade.lg.jp/uploaded/attachment/9456.pdf",
+          "archiveUrl": "https://www.city.iwade.lg.jp/uploaded/attachment/9456.pdf"
+        }
+      }
+    }
+  ],
   "322016": [
     {
       "fy": "R8",
@@ -44334,6 +45738,371 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       "newsletterUrl": null
     }
   ],
+  "430005": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "熊本県議会",
+      "seats": 47,
+      "asOf": "2026-03-18",
+      "asOfLabel": "2026年3月18日",
+      "factions": [
+        {
+          "name": "自由民主党",
+          "seats": 35,
+          "isIndependent": false
+        },
+        {
+          "name": "立憲民主連合",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "新社会",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "参政",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "維新",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属（増永慎一郎）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無所属（亀田英雄）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無所属（住永栄一郎）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "第46号",
+        "billName": "令和8年度熊本県一般会計予算",
+        "sessionLabel": "令和8年2月定例会",
+        "decidedDate": "2026-03-18",
+        "decidedDateLabel": "令和8年3月18日",
+        "result": "可決"
+      },
+      "sourceTitle": "令和8年度 熊本県議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "令和８年２月定例会 議案等の採決結果表（3月18日議決分）の表頭の会派と氏名",
+        "localUrl": "/sources/kumamoto-ken-gikai-r8/304871.pdf",
+        "originUrl": "https://www.pref.kumamoto.jp/uploaded/attachment/304871.pdf",
+        "archiveUrl": "https://web.archive.org/web/20260714195037/https://www.pref.kumamoto.jp/uploaded/attachment/304871.pdf"
+      },
+      "result": {
+        "title": "令和8年2月定例会 知事提出議案(後議分)の議決結果",
+        "localUrl": "/sources/kumamoto-ken-gikai-r8/257839.html",
+        "originUrl": "https://www.pref.kumamoto.jp/site/gikai/257839.html",
+        "archiveUrl": "https://web.archive.org/web/20260613144856/https://www.pref.kumamoto.jp/site/gikai/257839.html"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null,
+      "votes": {
+        "basis": "member",
+        "stances": [
+          "賛成",
+          "反対",
+          "欠席",
+          "議長"
+        ],
+        "tally": {
+          "賛成": 40,
+          "議長": 1,
+          "欠席": 1,
+          "反対": 5
+        },
+        "byFaction": [
+          {
+            "faction": "自由民主党",
+            "counts": {
+              "賛成": 33,
+              "議長": 1,
+              "欠席": 1
+            },
+            "members": [
+              {
+                "name": "前川收",
+                "stance": "賛成"
+              },
+              {
+                "name": "岩下栄一",
+                "stance": "賛成"
+              },
+              {
+                "name": "藤川隆夫",
+                "stance": "賛成"
+              },
+              {
+                "name": "松田三郎",
+                "stance": "賛成"
+              },
+              {
+                "name": "吉永和世",
+                "stance": "賛成"
+              },
+              {
+                "name": "池田和貴",
+                "stance": "賛成"
+              },
+              {
+                "name": "溝口幸治",
+                "stance": "賛成"
+              },
+              {
+                "name": "坂田孝志",
+                "stance": "賛成"
+              },
+              {
+                "name": "渕上陽一",
+                "stance": "賛成"
+              },
+              {
+                "name": "山口裕",
+                "stance": "賛成"
+              },
+              {
+                "name": "内野幸喜",
+                "stance": "賛成"
+              },
+              {
+                "name": "髙野洋介",
+                "stance": "議長"
+              },
+              {
+                "name": "髙木健次",
+                "stance": "賛成"
+              },
+              {
+                "name": "緒方勇二",
+                "stance": "賛成"
+              },
+              {
+                "name": "橋口海平",
+                "stance": "賛成"
+              },
+              {
+                "name": "楠本千秋",
+                "stance": "賛成"
+              },
+              {
+                "name": "河津修司",
+                "stance": "賛成"
+              },
+              {
+                "name": "西山宗孝",
+                "stance": "賛成"
+              },
+              {
+                "name": "岩本浩治",
+                "stance": "賛成"
+              },
+              {
+                "name": "松村秀逸",
+                "stance": "賛成"
+              },
+              {
+                "name": "髙島和男",
+                "stance": "賛成"
+              },
+              {
+                "name": "中村亮彦",
+                "stance": "賛成"
+              },
+              {
+                "name": "吉田孝平",
+                "stance": "賛成"
+              },
+              {
+                "name": "竹﨑和虎",
+                "stance": "賛成"
+              },
+              {
+                "name": "池永幸生",
+                "stance": "賛成"
+              },
+              {
+                "name": "西村尚武",
+                "stance": "欠席"
+              },
+              {
+                "name": "城戸淳",
+                "stance": "賛成"
+              },
+              {
+                "name": "荒川知章",
+                "stance": "賛成"
+              },
+              {
+                "name": "坂梨剛昭",
+                "stance": "賛成"
+              },
+              {
+                "name": "前田敬介",
+                "stance": "賛成"
+              },
+              {
+                "name": "南部隼平",
+                "stance": "賛成"
+              },
+              {
+                "name": "堤泰之",
+                "stance": "賛成"
+              },
+              {
+                "name": "斎藤陽子",
+                "stance": "賛成"
+              },
+              {
+                "name": "立山大二朗",
+                "stance": "賛成"
+              },
+              {
+                "name": "杉嶌ミカ",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "立憲民主連合",
+            "counts": {
+              "反対": 3
+            },
+            "members": [
+              {
+                "name": "西聖一",
+                "stance": "反対"
+              },
+              {
+                "name": "岩田智子",
+                "stance": "反対"
+              },
+              {
+                "name": "幸村香代子",
+                "stance": "反対"
+              }
+            ]
+          },
+          {
+            "faction": "公明党",
+            "counts": {
+              "賛成": 3
+            },
+            "members": [
+              {
+                "name": "城下広作",
+                "stance": "賛成"
+              },
+              {
+                "name": "前田憲秀",
+                "stance": "賛成"
+              },
+              {
+                "name": "本田雄三",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "新社会",
+            "counts": {
+              "反対": 1
+            },
+            "members": [
+              {
+                "name": "岩中伸司",
+                "stance": "反対"
+              }
+            ]
+          },
+          {
+            "faction": "参政",
+            "counts": {
+              "反対": 1
+            },
+            "members": [
+              {
+                "name": "髙井千歳",
+                "stance": "反対"
+              }
+            ]
+          },
+          {
+            "faction": "維新",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "星野愛斗",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "無所属（増永慎一郎）",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "増永慎一郎",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "無所属（亀田英雄）",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "亀田英雄",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "無所属（住永栄一郎）",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "住永栄一郎",
+                "stance": "賛成"
+              }
+            ]
+          }
+        ],
+        "source": {
+          "title": "令和８年２月定例会 議案等の採決結果表（3月18日議決分）",
+          "localUrl": "/sources/kumamoto-ken-gikai-r8/304871.pdf",
+          "originUrl": "https://www.pref.kumamoto.jp/uploaded/attachment/304871.pdf",
+          "archiveUrl": "https://web.archive.org/web/20260714195037/https://www.pref.kumamoto.jp/uploaded/attachment/304871.pdf"
+        }
+      }
+    }
+  ],
   "431001": [
     {
       "fy": "R8",
@@ -44722,6 +46491,305 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       }
     }
   ],
+  "432024": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "八代市議会",
+      "seats": 28,
+      "teisu": 28,
+      "asOf": "2025-09-09",
+      "asOfLabel": "2025年9月9日",
+      "factions": [
+        {
+          "name": "改革市民の会",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "新自由連合",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "有志の会",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "自由民主党 礎",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "自由民主党 和",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "自由民主党 絆",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "未来創生やつしろ",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "れいわ新選組",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党",
+          "seats": 1,
+          "isIndependent": false
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第 7 号",
+        "billName": "令和８年度八代市一般会計予算",
+        "sessionLabel": "令和８年３月定例会",
+        "decidedDate": "2026-03-23",
+        "decidedDateLabel": "令和8年3月23日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 八代市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "第６期 八代市議会 会派届一覧（令和７年９月９日現在・令和7年度下期 R7.10.1〜R8.3.31 の政務活動費の会派届）",
+        "localUrl": "/sources/yatsushiro-shigikai-r8/3_27063_up_jjxs7t7b.pdf",
+        "originUrl": "https://www.city.yatsushiro.lg.jp/gikai/kiji00327063/3_27063_up_jjxs7t7b.pdf",
+        "archiveUrl": "https://www.city.yatsushiro.lg.jp/gikai/kiji00327063/3_27063_up_jjxs7t7b.pdf"
+      },
+      "result": {
+        "title": "令和８年３月定例会 採決結果一覧",
+        "localUrl": "/sources/yatsushiro-shigikai-r8/3_25780_up_mbvkabp7.pdf",
+        "originUrl": "https://www.city.yatsushiro.lg.jp/gikai/kiji00325780/3_25780_up_mbvkabp7.pdf",
+        "archiveUrl": "https://www.city.yatsushiro.lg.jp/gikai/kiji00325780/3_25780_up_mbvkabp7.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "432130": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "宇城市議会",
+      "seats": 20,
+      "asOf": "2025-04-02",
+      "asOfLabel": "2025年4月2日",
+      "factions": [
+        {
+          "name": "新志会",
+          "seats": 6,
+          "isIndependent": false
+        },
+        {
+          "name": "彩里",
+          "seats": 6,
+          "isIndependent": false
+        },
+        {
+          "name": "暁",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "宇城市民の会",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "蒼生",
+          "seats": 1,
+          "isIndependent": false
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第２２号",
+        "billName": "令和８年度宇城市一般会計予算",
+        "sessionLabel": "令和８年第１回宇城市議会定例会",
+        "decidedDate": "2026-03-13",
+        "decidedDateLabel": "令和8年3月13日",
+        "result": "原案のとおり可決"
+      },
+      "sourceTitle": "令和8年度 宇城市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "宇城市議会議員名簿（議席・氏名・会派・常任委員会の表。2025年04月02日更新の版の議決前の魚拓 2026-02-16）",
+        "localUrl": "/sources/uki-shigikai-r8/uki_meibo_2401041_20260216.html",
+        "originUrl": "https://web.archive.org/web/20260216013943id_/https://www.city.uki.kumamoto.jp/toppage/shigikai/meibo/2401041",
+        "archiveUrl": "https://web.archive.org/web/20260216013943id_/https://www.city.uki.kumamoto.jp/toppage/shigikai/meibo/2401041"
+      },
+      "result": {
+        "title": "令和８年第１回宇城市議会定例会 会議録（第７号・令和８年３月１３日）",
+        "localUrl": "/sources/uki-shigikai-r8/uki_kaigiroku_r8_1.pdf",
+        "originUrl": "https://www.city.uki.kumamoto.jp/resource.php?e=c598814a81c28ad4a64f563ad524a317cc6c73064f663946dcea63cebcd7f6e0aeef0a3d4d509b7ee75deedfd271eacc",
+        "archiveUrl": "https://www.city.uki.kumamoto.jp/resource.php?e=c598814a81c28ad4a64f563ad524a317cc6c73064f663946dcea63cebcd7f6e0aeef0a3d4d509b7ee75deedfd271eacc"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null,
+      "votes": {
+        "basis": "member",
+        "stances": [
+          "賛成",
+          "議長"
+        ],
+        "tally": {
+          "賛成": 19,
+          "議長": 1
+        },
+        "byFaction": [
+          {
+            "faction": "新志会",
+            "counts": {
+              "賛成": 5,
+              "議長": 1
+            },
+            "members": [
+              {
+                "name": "林田和",
+                "stance": "賛成"
+              },
+              {
+                "name": "津志田幸紀",
+                "stance": "賛成"
+              },
+              {
+                "name": "田中美君",
+                "stance": "賛成"
+              },
+              {
+                "name": "嘉古田茂己",
+                "stance": "賛成"
+              },
+              {
+                "name": "石川洋一",
+                "stance": "賛成"
+              },
+              {
+                "name": "豊田紀代美",
+                "stance": "議長"
+              }
+            ]
+          },
+          {
+            "faction": "彩里",
+            "counts": {
+              "賛成": 6
+            },
+            "members": [
+              {
+                "name": "坂元大介",
+                "stance": "賛成"
+              },
+              {
+                "name": "山森悦嗣",
+                "stance": "賛成"
+              },
+              {
+                "name": "三角隆史",
+                "stance": "賛成"
+              },
+              {
+                "name": "坂下勳",
+                "stance": "賛成"
+              },
+              {
+                "name": "高橋佳大",
+                "stance": "賛成"
+              },
+              {
+                "name": "園田幸雄",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "暁",
+            "counts": {
+              "賛成": 5
+            },
+            "members": [
+              {
+                "name": "四海公貴",
+                "stance": "賛成"
+              },
+              {
+                "name": "河野真理",
+                "stance": "賛成"
+              },
+              {
+                "name": "吉良邦夫",
+                "stance": "賛成"
+              },
+              {
+                "name": "永木誠",
+                "stance": "賛成"
+              },
+              {
+                "name": "大村悟",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "宇城市民の会",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "中山弘幸",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "公明党",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "河野正明",
+                "stance": "賛成"
+              }
+            ]
+          },
+          {
+            "faction": "蒼生",
+            "counts": {
+              "賛成": 1
+            },
+            "members": [
+              {
+                "name": "原田祐作",
+                "stance": "賛成"
+              }
+            ]
+          }
+        ],
+        "source": {
+          "title": "宇城市議会だより85号（2026年5月）「審議した議案等とその結果」",
+          "localUrl": "/sources/uki-shigikai-r8/uki_gikaidayori85.pdf",
+          "originUrl": "https://www.city.uki.kumamoto.jp/resource.php?e=d0b5e936f468a198e23ee8cbc52e4e1c16304aa2c05877439188ac3fec161dedf1bcb0e59af89cea77f5699ca1540f0d",
+          "archiveUrl": "https://www.city.uki.kumamoto.jp/resource.php?e=d0b5e936f468a198e23ee8cbc52e4e1c16304aa2c05877439188ac3fec161dedf1bcb0e59af89cea77f5699ca1540f0d"
+        }
+      }
+    }
+  ],
   "442011": [
     {
       "fy": "R8",
@@ -44792,6 +46860,268 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "localUrl": "/sources/oita-shigikai-r8/giketukekka.pdf",
         "originUrl": "https://www.city.oita.oita.jp/o186/shigikai/kaiginokekka/documents/giketukekka.pdf",
         "archiveUrl": "https://web.archive.org/web/20261001191445/https://www.city.oita.oita.jp/o186/shigikai/kaiginokekka/documents/giketukekka.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "460001": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "鹿児島県議会",
+      "seats": 50,
+      "teisu": 51,
+      "asOf": "2026-03-25",
+      "asOfLabel": "2026年3月25日",
+      "factions": [
+        {
+          "name": "自由民主党鹿児島県議会議員団",
+          "seats": 33,
+          "isIndependent": false
+        },
+        {
+          "name": "県民連合",
+          "seats": 7,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党鹿児島県議団",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党鹿児島県議団",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属（いぬぶし浩幸）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無所属（平原志保）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無所属（橋口住眞）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無所属（小川みさ子）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無所属（いわしげ仁子）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無所属（東清剛）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第22号",
+        "billName": "令和8年度鹿児島県一般会計予算",
+        "sessionLabel": "令和8年第1回定例会",
+        "decidedDate": "2026-03-25",
+        "decidedDateLabel": "令和8年3月25日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 鹿児島県議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "議案に対する表決態度（令和８年第１回定例会・令和８年３月25日採決）p.3【会派等所属議員】",
+        "localUrl": "/sources/kagoshima-ken-gikai-r8/124271_20260428100532-1.pdf",
+        "originUrl": "https://www.pref.kagoshima.jp/aa02/gikai/koremade/r0801/documents/124271_20260428100532-1.pdf",
+        "archiveUrl": "https://www.pref.kagoshima.jp/aa02/gikai/koremade/r0801/documents/124271_20260428100532-1.pdf"
+      },
+      "result": {
+        "title": "令和8年第1回定例会議案（議案番号・件名・審議結果・議決年月日の表）",
+        "localUrl": "/sources/kagoshima-ken-gikai-r8/gian.html",
+        "originUrl": "https://www.pref.kagoshima.jp/aa02/gikai/koremade/r0801/gian.html",
+        "archiveUrl": "https://www.pref.kagoshima.jp/aa02/gikai/koremade/r0801/gian.html"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "462152": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "薩摩川内市議会",
+      "seats": 25,
+      "asOf": "2025-07-04",
+      "asOfLabel": "2025年7月4日",
+      "factions": [
+        {
+          "name": "創造薩摩川内",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "新創会",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "希綱会",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "創志会",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "むつみ会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "新風会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "会派に属さない議員",
+          "seats": 2,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第５８号",
+        "billName": "令和８年度薩摩川内市一般会計予算",
+        "sessionLabel": "令和8年第2回（3月）定例会",
+        "decidedDate": "2026-03-23",
+        "decidedDateLabel": "令和8年3月23日",
+        "result": "原案可決(賛成多数)"
+      },
+      "sourceTitle": "令和8年度 薩摩川内市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "薩摩川内市議会「会派の構成」（令和7年7月4日現在・更新日 2025年07月28日）",
+        "localUrl": "/sources/satsumasendai-shigikai-r8/7330.html",
+        "originUrl": "https://www.city.satsumasendai.lg.jp/shigikai/1/2/7330.html",
+        "archiveUrl": "https://www.city.satsumasendai.lg.jp/shigikai/1/2/7330.html"
+      },
+      "result": {
+        "title": "令和8年第2回（3月）定例会議決結果",
+        "localUrl": "/sources/satsumasendai-shigikai-r8/R8-2kaigikekka.pdf",
+        "originUrl": "https://www.city.satsumasendai.lg.jp/material/files/group/55/R8-2kaigikekka.pdf",
+        "archiveUrl": "https://www.city.satsumasendai.lg.jp/material/files/group/55/R8-2kaigikekka.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "462187": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "霧島市議会",
+      "seats": 26,
+      "teisu": 26,
+      "asOf": "2026-03-26",
+      "asOfLabel": "2026年3月26日",
+      "factions": [
+        {
+          "name": "きりしま会",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "霧島市政クラブ",
+          "seats": 4,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党霧島市議団",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "いっしん会",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党霧島市議団",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "きりしま政経研究会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "無会派（德田修和）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無会派（植山太介）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無会派（渡邉圭章）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無会派（塩月大志郎）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無会派（田中紗弥佳）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無会派（町田和己）",
+          "seats": 1,
+          "isIndependent": true
+        },
+        {
+          "name": "無会派（稲留誠也）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "第31号",
+        "billName": "令和8年度霧島市一般会計予算について",
+        "sessionLabel": "令和8年第1回定例会（3月）",
+        "decidedDate": "2026-03-26",
+        "decidedDateLabel": "令和8年3月26日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 霧島市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "霧島市議会「令和7年度 政務活動費執行状況（令和7年12月～令和8年3月）」の会派名・所属議員の欄",
+        "localUrl": "/sources/kirishima-shigikai-r8/r7shikyuujyoukyou2.pdf",
+        "originUrl": "https://www.city-kirishima.jp/gikai/shise/shigikai/semu/documents/r7shikyuujyoukyou2.pdf",
+        "archiveUrl": "https://www.city-kirishima.jp/gikai/shise/shigikai/semu/documents/r7shikyuujyoukyou2.pdf"
+      },
+      "result": {
+        "title": "霧島市議会 審議結果「令和8年第1回定例会（3月）」議案一覧（3月26日議決分）",
+        "localUrl": "/sources/kirishima-shigikai-r8/r08-01.html",
+        "originUrl": "https://www.city-kirishima.jp/hisyokouhou/shise/shigikai/honkaigi/shingikekka/r08/r08-01.html",
+        "archiveUrl": "https://www.city-kirishima.jp/hisyokouhou/shise/shigikai/honkaigi/shingikekka/r08/r08-01.html"
       },
       "minutesUrl": null,
       "newsletterUrl": null

@@ -1,0 +1,225 @@
+{
+  "docType": "council-composition",
+  "sourceId": "komatsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:36:53.549Z",
+  "fiscalYear": "R8",
+  "body": "小松市議会",
+  "seats": 21,
+  "asOf": "2025-11-25",
+  "factions": [
+    {
+      "name": "会派自民",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "表靖二",
+        "高野哲郎",
+        "吉本慎太郎",
+        "梅田利和",
+        "新田寛之",
+        "東浩一",
+        "村中洋",
+        "吉柴文悟"
+      ],
+      "locator": {
+        "file": "3060.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "小松志士の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "宮西健吉",
+        "中西肇",
+        "浜口淳也",
+        "木村賢治"
+      ],
+      "locator": {
+        "file": "3060.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "自民党こまつ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "川崎順次",
+        "吉村範明",
+        "深田博智"
+      ],
+      "locator": {
+        "file": "3060.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "南藤陽一",
+        "岡山晃宏",
+        "斎藤和美",
+        "片山瞬次郎",
+        "橋本米子",
+        "木下裕介"
+      ],
+      "locator": {
+        "file": "3060.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第２号",
+    "billName": "令和８年度小松市一般会計予算",
+    "sessionLabel": "3月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "221-6.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "小松市議会 会派名簿（更新日：2025年11月25日）",
+  "resultTitle": "小松市議会だより 221号（令和8年5月1日号）p.22「3月定例会の議決結果」",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月定例会 議決結果（賛否が分かれた議案）",
+    "sourceFile": "2603giketukeka.pdf",
+    "columns": [
+      {
+        "label": "表靖二",
+        "faction": "会派自民",
+        "member": "表靖二",
+        "stance": "賛成"
+      },
+      {
+        "label": "高野哲郎",
+        "faction": "会派自民",
+        "member": "高野哲郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉本慎太郎",
+        "faction": "会派自民",
+        "member": "吉本慎太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "梅田利和",
+        "faction": "会派自民",
+        "member": "梅田利和",
+        "stance": "賛成"
+      },
+      {
+        "label": "新田寛之",
+        "faction": "会派自民",
+        "member": "新田寛之",
+        "stance": "賛成"
+      },
+      {
+        "label": "東浩一",
+        "faction": "会派自民",
+        "member": "東浩一",
+        "stance": "賛成"
+      },
+      {
+        "label": "村中洋",
+        "faction": "会派自民",
+        "member": "村中洋",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉柴文悟",
+        "faction": "会派自民",
+        "member": "吉柴文悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮西健吉",
+        "faction": "小松志士の会",
+        "member": "宮西健吉",
+        "stance": "賛成"
+      },
+      {
+        "label": "中西肇",
+        "faction": "小松志士の会",
+        "member": "中西肇",
+        "stance": "賛成"
+      },
+      {
+        "label": "口淳也",
+        "faction": "小松志士の会",
+        "member": "浜口淳也",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村賢治",
+        "faction": "小松志士の会",
+        "member": "木村賢治",
+        "stance": "賛成"
+      },
+      {
+        "label": "川崎順次",
+        "faction": "自民党こまつ",
+        "member": "川崎順次",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉村範明",
+        "faction": "自民党こまつ",
+        "member": "吉村範明",
+        "stance": "賛成"
+      },
+      {
+        "label": "深田博智",
+        "faction": "自民党こまつ",
+        "member": "深田博智",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋本米子",
+        "faction": "無会派",
+        "member": "橋本米子",
+        "stance": "反対"
+      },
+      {
+        "label": "片山瞬次郎",
+        "faction": "無会派",
+        "member": "片山瞬次郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "木下裕介",
+        "faction": "無会派",
+        "member": "木下裕介",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤和美",
+        "faction": "無会派",
+        "member": "斎藤和美",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡山晃宏",
+        "faction": "無会派",
+        "member": "岡山晃宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "南藤陽一",
+        "faction": "無会派",
+        "member": "南藤陽一",
+        "stance": "議長"
+      }
+    ]
+  }
+}

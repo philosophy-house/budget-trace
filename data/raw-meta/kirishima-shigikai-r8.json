@@ -1,0 +1,47 @@
+{
+  "sourceId": "kirishima-shigikai-r8",
+  "files": [
+    {
+      "filename": "r7shikyuujyoukyou2.pdf",
+      "sha256": "a9c09bbffc3b09e0475e82893eb9efa2b972139df5d16bca4a7b350dd4c3dc6e",
+      "bytes": 105817,
+      "fetchedAt": "2026-10-30T19:22:16.437Z",
+      "fetchedFrom": "https://www.city-kirishima.jp/gikai/shise/shigikai/semu/documents/r7shikyuujyoukyou2.pdf"
+    },
+    {
+      "filename": "kaiha2.html",
+      "sha256": "989f0dbef1cb61e109f2bed78e5fa662f2d0037bde4b830a07f7329e2470bd04",
+      "bytes": 21461,
+      "fetchedAt": "2026-10-30T19:22:16.437Z",
+      "fetchedFrom": "https://web.archive.org/web/20260514140214id_/https://www.city-kirishima.jp/gikai/shise/shigikai/mebo/kaiha2.html"
+    },
+    {
+      "filename": "gikai.html",
+      "sha256": "cab1d48953c63b799460f4b7ef99c8f36fd20ffe01b2133b4d5d739af84bc1d1",
+      "bytes": 26157,
+      "fetchedAt": "2026-10-30T19:22:16.437Z",
+      "fetchedFrom": "https://www.city-kirishima.jp/gikai/shise/shigikai/shikumi/gikai.html"
+    },
+    {
+      "filename": "r08-01.html",
+      "sha256": "3aa88a24270461372001ca5763067654e4bd388178f9f22f9d98743a46af6a0f",
+      "bytes": 33248,
+      "fetchedAt": "2026-10-30T19:22:16.438Z",
+      "fetchedFrom": "https://www.city-kirishima.jp/hisyokouhou/shise/shigikai/honkaigi/shingikekka/r08/r08-01.html"
+    },
+    {
+      "filename": "r08-01hyoketutaido.pdf",
+      "sha256": "fc4ab4e71ef56aaf24ac4c61d4f3caf460f150ef5a163f0c84bbd491d3f70b71",
+      "bytes": 214996,
+      "fetchedAt": "2026-10-30T19:22:16.438Z",
+      "fetchedFrom": "https://www.city-kirishima.jp/hisyokouhou/shise/shigikai/honkaigi/shingikekka/r08/documents/r08-01hyoketutaido.pdf"
+    },
+    {
+      "filename": "ichiran.html",
+      "sha256": "60e41560704e08c419fff6797ea2b26a142b42de2344d4a7f90ec738b6ea618f",
+      "bytes": 22442,
+      "fetchedAt": "2026-10-30T19:22:16.438Z",
+      "fetchedFrom": "https://www.city-kirishima.jp/gikai/shise/shigikai/gicho/rekidai/ichiran.html"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hakusan-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:36:54.089Z",
+  "fiscalYear": "R8",
+  "body": "白山市議会",
+  "seats": 21,
+  "asOf": "2025-05-07",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "一創会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "藤田政樹",
+        "有川康二郎",
+        "横山由裕",
+        "山本佳裕",
+        "池元勝",
+        "中野進",
+        "吉本史宏",
+        "石地宜一"
+      ],
+      "locator": {
+        "file": "1004238.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "会派立志",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "寺越和洋",
+        "木谷和栄",
+        "北嶋章光"
+      ],
+      "locator": {
+        "file": "1004238.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "白政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "大屋潤一",
+        "撫子正",
+        "上田良治",
+        "澤田昌幸"
+      ],
+      "locator": {
+        "file": "1004238.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "米山立子",
+        "平野辰子",
+        "谷健一",
+        "原卓二",
+        "田代敬子",
+        "山口俊哉"
+      ],
+      "locator": {
+        "file": "1004238.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第2号",
+    "billName": "令和８年度白山市一般会計予算",
+    "sessionLabel": "令和８年市議会２月会議",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "0802giketuitiran.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "白山市議会 会派別名簿（令和7年5月7日現在・議決前 2025-09-09 の魚拓）",
+  "resultTitle": "令和８年市議会２月会議 議決一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年市議会２月会議 議決一覧 p.3「賛否が分かれた議案」",
+    "sourceFile": "0802giketuitiran.pdf",
+    "columns": [
+      {
+        "label": "米山立子",
+        "faction": "無所属",
+        "member": "米山立子",
+        "stance": "賛成"
+      },
+      {
+        "label": "有川康二郎",
+        "faction": "一創会",
+        "member": "有川康二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "撫子正",
+        "faction": "白政会",
+        "member": "撫子正",
+        "stance": "賛成"
+      },
+      {
+        "label": "横山由裕",
+        "faction": "一創会",
+        "member": "横山由裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "平野辰子",
+        "faction": "無所属",
+        "member": "平野辰子",
+        "stance": "反対"
+      },
+      {
+        "label": "山本佳裕",
+        "faction": "一創会",
+        "member": "山本佳裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "上田良治",
+        "faction": "白政会",
+        "member": "上田良治",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷健一",
+        "faction": "無所属",
+        "member": "谷健一",
+        "stance": "賛成"
+      },
+      {
+        "label": "原卓二",
+        "faction": "無所属",
+        "member": "原卓二",
+        "stance": "賛成"
+      },
+      {
+        "label": "木谷和栄",
+        "faction": "会派立志",
+        "member": "木谷和栄",
+        "stance": "賛成"
+      },
+      {
+        "label": "池元勝",
+        "faction": "一創会",
+        "member": "池元勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "大屋潤一",
+        "faction": "白政会",
+        "member": "大屋潤一",
+        "stance": "賛成"
+      },
+      {
+        "label": "田代敬子",
+        "faction": "無所属",
+        "member": "田代敬子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口俊哉",
+        "faction": "無所属",
+        "member": "山口俊哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉本史宏",
+        "faction": "一創会",
+        "member": "吉本史宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤田昌幸",
+        "faction": "白政会",
+        "member": "澤田昌幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "石地宜一",
+        "faction": "一創会",
+        "member": "石地宜一",
+        "stance": "賛成"
+      },
+      {
+        "label": "北嶋章光",
+        "faction": "会派立志",
+        "member": "北嶋章光",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺越和洋",
+        "faction": "会派立志",
+        "member": "寺越和洋",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤田政樹",
+        "faction": "一創会",
+        "member": "藤田政樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "中野進",
+        "faction": "一創会",
+        "member": "中野進",
+        "stance": "議長"
+      }
+    ]
+  }
+}

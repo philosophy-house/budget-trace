@@ -1,0 +1,40 @@
+{
+  "sourceId": "kinokawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "index.html",
+      "sha256": "776b3c09e747486dffb73cb1ac4c65d16fda6a4b39d955acdae9c621a048daf2",
+      "bytes": 23172,
+      "fetchedAt": "2026-10-30T19:22:16.412Z",
+      "fetchedFrom": "https://web.archive.org/web/20260508143526id_/http://www.city.kinokawa.lg.jp/001/01/index.html"
+    },
+    {
+      "filename": "R7.12.11kaihakousei.pdf",
+      "sha256": "7951c1354c4a91c51c627f188a9c223a86673ebd39132bfa9e1a1b68836f8646",
+      "bytes": 30069,
+      "fetchedAt": "2026-10-30T19:22:16.412Z",
+      "fetchedFrom": "https://www.city.kinokawa.lg.jp/001/01/files/R7.12.11kaihakousei.pdf"
+    },
+    {
+      "filename": "gikaishikumi.html",
+      "sha256": "c38f8ce612fa23d5710b44685ba144196b9fd1f289ffecfe0d0b0e261cb93a92",
+      "bytes": 22129,
+      "fetchedAt": "2026-10-30T19:22:16.412Z",
+      "fetchedFrom": "https://www.city.kinokawa.lg.jp/001/gikaishikumi.html"
+    },
+    {
+      "filename": "R8.3giketu.pdf",
+      "sha256": "a0fbb3f3f9b21847897d1e4651c3a4ca6a635254ac4eb49857a2eedda5e150ab",
+      "bytes": 108122,
+      "fetchedAt": "2026-10-30T19:22:16.413Z",
+      "fetchedFrom": "https://www.city.kinokawa.lg.jp/001/files/R8.3giketu.pdf"
+    },
+    {
+      "filename": "kinokawa77.pdf",
+      "sha256": "37eb339352e1925468210fcd7ddf424296e95d24c3160ad3322a3ab82a147814",
+      "bytes": 19301051,
+      "fetchedAt": "2026-10-30T19:22:16.423Z",
+      "fetchedFrom": "https://www.city.kinokawa.lg.jp/001/02/files/kinokawa77.pdf"
+    }
+  ]
+}

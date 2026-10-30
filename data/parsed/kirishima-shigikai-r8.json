@@ -1,0 +1,196 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kirishima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.18",
+  "parsedAt": "2026-10-30T20:37:05.405Z",
+  "fiscalYear": "R8",
+  "body": "霧島市議会",
+  "seats": 26,
+  "asOf": "2026-03-26",
+  "teisu": 26,
+  "factions": [
+    {
+      "name": "日本共産党霧島市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宮内博",
+        "渡邊理慧"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党霧島市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鈴木てるみ",
+        "立和田広司",
+        "久保史睦"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "霧島市政クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "木野田誠",
+        "川窪幸治",
+        "藤田直仁",
+        "大坪元気"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "きりしま会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "竹下智行",
+        "野村和人",
+        "仮屋国治",
+        "前島広紀",
+        "松下太葵"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いっしん会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山口仁美",
+        "塩井川公子",
+        "今村純子"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "きりしま政経研究会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "久木田大和",
+        "香山二郎"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（德田修和）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "德田修和"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（植山太介）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "植山太介"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（渡邉圭章）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "渡邉圭章"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（塩月大志郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "塩月大志郎"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（田中紗弥佳）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "田中紗弥佳"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（町田和己）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "町田和己"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（稲留誠也）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "稲留誠也"
+      ],
+      "locator": {
+        "file": "r7shikyuujyoukyou2.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第31号",
+    "billName": "令和8年度霧島市一般会計予算について",
+    "sessionLabel": "令和8年第1回定例会（3月）",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r08-01.html"
+    }
+  },
+  "rosterTitle": "霧島市議会「令和7年度 政務活動費執行状況（令和7年12月～令和8年3月）」の会派名・所属議員の欄",
+  "resultTitle": "霧島市議会 審議結果「令和8年第1回定例会（3月）」議案一覧（3月26日議決分）"
+}

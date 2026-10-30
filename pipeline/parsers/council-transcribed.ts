@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.17";
+export const PARSER_VERSION = "0.8.18";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -340,7 +340,8 @@ export type CouncilTranscribedOptions = z.infer<typeof optionsSchema>;
  * 突き合わせ用の正規化。空白を全部落とし NFKC をかけ、PDF の抽出で揺れる異体字を寄せる。
  * ⚠ **書き写す側も同じ関数を通す**ので、ここで寄せた字は registry でどちらで書いてもよい。
  */
-const VARIANTS: Record<string, string> = { 髙: "高", 﨑: "崎", 𠮷: "吉", 葊: "廣", 濵: "濱", 德: "徳", 栁: "柳", 惠: "恵", 伹: "但" };
+// ⻆（U+2EC6・CJK 部首補助）は NFKC で「角」に寄らない（鹿児島県議会だより第83号の「⻆野毅」・0.8.18）
+const VARIANTS: Record<string, string> = { 髙: "高", 﨑: "崎", 𠮷: "吉", 葊: "廣", 濵: "濱", 德: "徳", 栁: "柳", 惠: "恵", 伹: "但", "⻆": "角" };
 export function norm(s: string): string {
   return (
     s
@@ -349,7 +350,7 @@ export function norm(s: string): string {
       .replace(/[\u{E0100}-\u{E01EF}︀-️]/gu, "")
       // ゼロ幅の字（U+200B〜U+200D・U+2060・U+FEFF）は NFKC で消えず、空白の正規表現にも当たらない。舞鶴の議決結果 PDF は全字の間に U+200B が入る（0.8.16）
       .replace(/[\u200B-\u200D\u2060\uFEFF]/g, "")
-      .replace(/[髙﨑𠮷葊濵德栁惠伹]/gu, (c) => VARIANTS[c] ?? c)
+      .replace(/[髙﨑𠮷葊濵德栁惠伹⻆]/gu, (c) => VARIANTS[c] ?? c)
       // 丸は「〇」(U+3007) と「○」(U+25CB) が同じ原典の凡例と表で混ざる（松江・盛岡・倉敷）。賛否の記号として寄せる
       .replace(/[\u3007\u25EF]/g, "\u25CB")
       // 「◯」(U+25EF・大和の凡例) も同じ丸。ダッシュ類（―‐−—–－・NFKC 後の -）も凡例と表で字が違う（伊勢原: 凡例「－」・表「―」）ので
@@ -623,7 +624,9 @@ function absenceEvidenceOk(evidence: string, label: string, stance: string): boo
  */
 function isAmendTail(headN: string, after: string): boolean {
   if (/修正|に対する/.test(headN)) return false;
-  return /^.{0,6}(に対する|の修正|修正案|修正動議|附帯決議)/.test(after);
+  // 「…一般会計予算の組み替えを求める動議」（田辺・和歌山市）も修正の行（0.8.18・作業者が実測: 件名の行として拾われ、結果を「否決」と書いても通った）
+  // 「」等の編成替えを求める動議」（神戸・件名の後ろ7字）のように前置きが長い型があるので、「を求める動議」は数字以外10字まで許す（レビュー2巡目）
+  return /^.{0,6}(に対する|の修正|修正案|修正動議|附帯決議|の組み?[替換]え?|の編成替え?)/.test(after) || /^[^\d]{0,10}を求める動議/.test(after);
 }
 /** t の i から len 字の出現が、数字の途中で切れていないか（「市56」を「市567」に・「1予算」を「31予算」に当てない） */
 function digitEdgeOk(t: string, i: number, len: number): boolean {
@@ -649,14 +652,14 @@ function kanjiNum(k: string): number {
 const fiscalYears = (s: string) =>
   [...s.matchAll(/(\d+|[元一二三四五六七八九十]+)年度/g)].map((m) => String(/\d/.test(m[1]!) ? Number(m[1]) : kanjiNum(m[1]!)));
 /** 当初の一般会計予算の行でないことを示す語。anchor の出現の前後（行の頭から記号まで）にあれば、その出現は読まない */
-const NOT_BUDGET_ROW = /補正|修正|に対する|に関する|特別会計|事業会計|専決|附帯決議|付帯決議/;
+const NOT_BUDGET_ROW = /補正|修正|に対する|に関する|特別会計|事業会計|専決|附帯決議|付帯決議|組み?[替換]|編成替|動議/;
 /**
  * 語が当初の一般会計予算を名指すか（0.8.8）。「一般会計予算」か、「当初予算」と「一般会計」の両方（西東京の表「令和8年度｜当初予算｜一般会計」）を含み、
  * 補正・特別会計・修正の語を含まず、令和の年度を書くなら件名の年度と合うこと
  */
 function namesBudget(sN: string, billNameN: string): boolean {
   if (!(sN.includes("一般会計予算") || (sN.includes("当初予算") && sN.includes("一般会計")))) return false;
-  if (/補正|特別会計|事業会計|修正|に対する/.test(sN)) return false;
+  if (/補正|特別会計|事業会計|修正|に対する|組み?[替換]|編成替|動議/.test(sN)) return false;
   const ys = fiscalYears(sN);
   const by = fiscalYears(billNameN);
   return ys.every((y) => by.includes(y));
@@ -742,7 +745,8 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
   // 修正案の行の記号が予算の賛否として通った（朝霞・レビュー3巡目）
   // 「附帯決議」は語として入れない — 名古屋の anchor「（2）附帯決議を付して修正可決」は予算の行の結果の語そのもの（予算への附帯決議の
   // 別の行は「…に対する附帯決議」なので「に対する」で落ちる）
-  if ((vo as { part?: string }).part == null && /修正案|修正動議|に対する/.test(norm(vo.anchor))) {
+  // 「組替え（組み替え）を求める動議」も同じ（和歌山市で anchor を動議の語まで伸ばすと動議の行の記号が通った＝0.8.18・レビュー）
+  if ((vo as { part?: string }).part == null && /修正案|修正動議|に対する|組み?[替換]|編成替|動議/.test(norm(vo.anchor))) {
     missing.push(`賛否の anchor「${vo.anchor}」に修正案・附帯決議の語があります（当初予算の行の語にする。修正可決は votesParts で書く）`);
   }
   const has = (views: { text: string }[], needle: string) => views.some((v) => v.text.includes(norm(needle)));
@@ -1585,7 +1589,7 @@ export function parseCouncilTranscribed(
   const r = opt.resolution;
   // 画面は「その予算を議決した議会」として出すので、当初の一般会計予算の議決に限る（別の議案の正しい事実を拒む）
   // 「…一般会計予算に対する修正案」も一般会計予算の字を含むので拒む（件名を修正案に書き換えて否決の議決が通った＝レビュー2巡目）
-  if (!norm(r.billName).includes("一般会計予算") || /補正|修正案|修正動議|に対する|附帯決議/.test(norm(r.billName))) {
+  if (!norm(r.billName).includes("一般会計予算") || /補正|修正案|修正動議|に対する|附帯決議|組み?[替換]|編成替|動議/.test(norm(r.billName))) {
     missing.push(`件名「${r.billName}」は当初の一般会計予算ではありません`);
   }
   const resultFile = fileFor(r.url);
