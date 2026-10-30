@@ -36847,6 +36847,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "中津川市公式ホームページ（https://www.city.nakatsugawa.lg.jp）に掲載されているコンテンツ（文章、画像、その他の掲載している電子情報すべて）に関する諸権利は、原則として中津川市に帰属し、法律等によって保護されています。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、中津川市の許可なく当ホームページのコンテンツを無断使用、複製、転載、販売、改変、印刷配布することを禁止します。",
     "target": "file"
   },
+  "/sources/nakatsugawa-shigikai-r8/3056.html": {
+    "mode": "origin",
+    "href": "https://www.city.nakatsugawa.lg.jp/shisei/citycouncil/3/3056.html",
+    "license": "中津川市公式ホームページ（https://www.city.nakatsugawa.lg.jp）に掲載されているコンテンツ（文章、画像、その他の掲載している電子情報すべて）に関する諸権利は、原則として中津川市に帰属し、法律等によって保護されています。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、中津川市の許可なく当ホームページのコンテンツを無断使用、複製、転載、販売、改変、印刷配布することを禁止します。",
+    "target": "page"
+  },
   "/sources/ena-shigikai-r8/20260324_kekka.pdf": {
     "mode": "origin",
     "href": "https://www.city.ena.lg.jp/material/files/group/36/20260324_kekka.pdf",
@@ -36902,27 +36908,27 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "target": "page"
   },
   "/sources/kani-shigikai-r8/kaihakousei_R7.8.7_20260202222719.pdf": {
-    "mode": "archive",
-    "href": "https://web.archive.org/web/20260202222719id_/http://gikai-kani.lg.jp/gikaiwp/wp-content/uploads/2023/07/kaihakousei%EF%BC%88R7.8.7%EF%BD%9E.pdf",
+    "mode": "origin",
+    "href": "https://gikai-kani.lg.jp/",
     "license": "当サイトに掲載されている文字、画像、ファイルなど、個々の情報に関する著作権は、当市に帰属します。「私的利用」または「引用」など、著作権法上認められている場合を除き、無断で転載、複製、改変などをすることは禁じられています。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/kani-shigikai-r8/result-803-2-4-2.html": {
     "mode": "origin",
-    "href": "https://gikai-kani.lg.jp/archives/result/result-803-2-4-2",
+    "href": "https://gikai-kani.lg.jp/",
     "license": "当サイトに掲載されている文字、画像、ファイルなど、個々の情報に関する著作権は、当市に帰属します。「私的利用」または「引用」など、著作権法上認められている場合を除き、無断で転載、複製、改変などをすることは禁じられています。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/kani-shigikai-r8/role.html": {
     "mode": "origin",
-    "href": "https://gikai-kani.lg.jp/role",
+    "href": "https://gikai-kani.lg.jp/",
     "license": "当サイトに掲載されている文字、画像、ファイルなど、個々の情報に関する著作権は、当市に帰属します。「私的利用」または「引用」など、著作権法上認められている場合を除き、無断で転載、複製、改変などをすることは禁じられています。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/kani-shigikai-r8/top_20260315205229.html": {
-    "mode": "archive",
-    "href": "https://web.archive.org/web/20260315205229id_/https://gikai-kani.lg.jp/",
+    "mode": "origin",
+    "href": "https://gikai-kani.lg.jp/",
     "license": "当サイトに掲載されている文字、画像、ファイルなど、個々の情報に関する著作権は、当市に帰属します。「私的利用」または「引用」など、著作権法上認められている場合を除き、無断で転載、複製、改変などをすることは禁じられています。",
-    "target": "file"
+    "target": "page"
   }
 };

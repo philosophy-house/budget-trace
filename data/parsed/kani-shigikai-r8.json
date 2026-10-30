@@ -3,7 +3,7 @@
   "sourceId": "kani-shigikai-r8",
   "parser": "council-transcribed",
   "parserVersion": "0.8.15",
-  "parsedAt": "2026-10-30T10:55:35.630Z",
+  "parsedAt": "2026-10-30T12:09:04.642Z",
   "fiscalYear": "R8",
   "body": "可児市議会",
   "seats": 22,
@@ -127,7 +127,7 @@
     "sessionLabel": "令和８年第１回定例会",
     "decidedDate": "2026-03-23",
     "decidedDateLabel": "令和8年3月23日",
-    "result": "可決",
+    "result": "原案どおり可決",
     "locator": {
       "file": "result-803-2-4-2.html"
     }

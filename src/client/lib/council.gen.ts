@@ -18033,13 +18033,13 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "会派構成（令和7年12月18日現在）",
         "localUrl": "/sources/gosen-shigikai-r8/2888.html",
         "originUrl": "https://www.city.gosen.lg.jp/parliament/2/2888.html",
-        "archiveUrl": "https://web.archive.org/web/20220218063000/https://www.city.gosen.lg.jp/parliament/2/2888.html"
+        "archiveUrl": "https://web.archive.org/web/20261030115421/https://www.city.gosen.lg.jp/parliament/2/2888.html"
       },
       "result": {
         "title": "令和8年 第1回定例会 議決結果",
         "localUrl": "/sources/gosen-shigikai-r8/12682.html",
         "originUrl": "https://www.city.gosen.lg.jp/organization/16/giketukekka/12682.html",
-        "archiveUrl": "https://web.archive.org/web/20260305181901/https://www.city.gosen.lg.jp/organization/16/giketukekka/12682.html"
+        "archiveUrl": "https://web.archive.org/web/20261030115745/https://www.city.gosen.lg.jp/organization/16/giketukekka/12682.html"
       },
       "minutesUrl": null,
       "newsletterUrl": null,
@@ -21903,7 +21903,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       "resolution": {
         "billNo": "議第６号",
         "billName": "令和８年度中津川市一般会計予算",
-        "sessionLabel": "本会議に提出された事件及び審議結果",
+        "sessionLabel": "令和8年3月定例会",
         "decidedDate": "2026-03-27",
         "decidedDateLabel": "令和8年3月27日",
         "result": "原案可決"
@@ -22423,7 +22423,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "sessionLabel": "令和８年第１回定例会",
         "decidedDate": "2026-03-23",
         "decidedDateLabel": "令和8年3月23日",
-        "result": "可決"
+        "result": "原案どおり可決"
       },
       "sourceTitle": "令和8年度 可児市議会の構成（会派別議席数）と当初予算の議決",
       "roster": {

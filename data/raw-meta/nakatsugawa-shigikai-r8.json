@@ -21,6 +21,13 @@
       "bytes": 86729,
       "fetchedAt": "2026-10-30T10:53:50.371Z",
       "fetchedFrom": "https://www.city.nakatsugawa.lg.jp/material/files/group/64/20260518gikiyakusyokumeibo.pdf"
+    },
+    {
+      "filename": "3056.html",
+      "sha256": "2e84b7e99ec1507e72f40aa7c4bb2d2d99c9fec15d555f01c1a6f6bd7f7fd9a1",
+      "bytes": 58819,
+      "fetchedAt": "2026-10-30T11:52:22.852Z",
+      "fetchedFrom": "https://www.city.nakatsugawa.lg.jp/shisei/citycouncil/3/3056.html"
     }
   ]
 }

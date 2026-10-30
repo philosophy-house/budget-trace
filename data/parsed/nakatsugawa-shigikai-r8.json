@@ -3,7 +3,7 @@
   "sourceId": "nakatsugawa-shigikai-r8",
   "parser": "council-transcribed",
   "parserVersion": "0.8.15",
-  "parsedAt": "2026-10-30T10:55:34.909Z",
+  "parsedAt": "2026-10-30T12:09:03.923Z",
   "fiscalYear": "R8",
   "body": "中津川市議会",
   "seats": 20,
@@ -121,7 +121,7 @@
   "resolution": {
     "billNo": "議第６号",
     "billName": "令和８年度中津川市一般会計予算",
-    "sessionLabel": "本会議に提出された事件及び審議結果",
+    "sessionLabel": "令和8年3月定例会",
     "decidedDate": "2026-03-27",
     "decidedDateLabel": "令和8年3月27日",
     "result": "原案可決",
