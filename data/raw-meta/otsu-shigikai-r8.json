@@ -1,0 +1,26 @@
+{
+  "sourceId": "otsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "2026032518.pdf",
+      "sha256": "fce29893751b66caa48059c45b9560173086be6f70be821f6dfa06e2571e7be6",
+      "bytes": 223449,
+      "fetchedAt": "2026-10-30T13:40:58.523Z",
+      "fetchedFrom": "https://www.city.otsu.lg.jp/material/files/group/129/2026032518.pdf"
+    },
+    {
+      "filename": "68518.html",
+      "sha256": "f946e456f857a0709406ee94ebdd95f67d7c006670c11340b2f0676a09239f0d",
+      "bytes": 105508,
+      "fetchedAt": "2026-10-30T13:40:58.524Z",
+      "fetchedFrom": "https://www.city.otsu.lg.jp/gikai/nittei/68518.html"
+    },
+    {
+      "filename": "1390344319511.html",
+      "sha256": "584d91e0eb9fb49309c745384e9439acea3cadedf7d58bdaaf20b190a2a47482",
+      "bytes": 48211,
+      "fetchedAt": "2026-10-30T13:40:58.524Z",
+      "fetchedFrom": "https://www.city.otsu.lg.jp/gikai/gikai/1390344319511.html"
+    }
+  ]
+}

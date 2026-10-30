@@ -1,0 +1,33 @@
+{
+  "sourceId": "kameoka-shigikai-r8",
+  "files": [
+    {
+      "filename": "45537.pdf",
+      "sha256": "43ce930f4d782a26a3ba31719d058cc24eb2204c41328277ecd863ee526ef9f1",
+      "bytes": 4184185,
+      "fetchedAt": "2026-10-30T13:40:58.552Z",
+      "fetchedFrom": "https://www.city.kameoka.kyoto.jp/uploaded/attachment/45537.pdf"
+    },
+    {
+      "filename": "46343.pdf",
+      "sha256": "fe52290e282dd46f01dc82a1c0913c7ba411ea906e1c953a9e8a424c80036fde",
+      "bytes": 4667308,
+      "fetchedAt": "2026-10-30T13:40:58.555Z",
+      "fetchedFrom": "https://www.city.kameoka.kyoto.jp/uploaded/attachment/46343.pdf"
+    },
+    {
+      "filename": "48326.pdf",
+      "sha256": "6d5b12741781434579988edcc386a11790e77277889db028da112b8b18b17112",
+      "bytes": 2163429,
+      "fetchedAt": "2026-10-30T13:40:58.557Z",
+      "fetchedFrom": "https://www.city.kameoka.kyoto.jp/uploaded/attachment/48326.pdf"
+    },
+    {
+      "filename": "85731.html",
+      "sha256": "d32fcc6c3f5fa17a0068b20814cf47072194ab2d47fbf2d837f10a3798db5218",
+      "bytes": 65197,
+      "fetchedAt": "2026-10-30T13:40:58.557Z",
+      "fetchedFrom": "https://www.city.kameoka.kyoto.jp/site/gikai/85731.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "inabe-shigikai-r8",
+  "files": [
+    {
+      "filename": "inabe_kaihar7-12-1.pdf",
+      "sha256": "4e3b3ba43a054f756a4dfde46d109bd582bc9898fc31afc4ace6d7168c8ca6de",
+      "bytes": 350686,
+      "fetchedAt": "2026-10-30T13:40:58.592Z",
+      "fetchedFrom": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/013/014/kaihar7-12-1.pdf"
+    },
+    {
+      "filename": "inabe_gianr8-3-25.pdf",
+      "sha256": "81a667b873c76bf00941c514f1e15bbb0a9c7f60782eb29ef8ccee6484c62811",
+      "bytes": 431973,
+      "fetchedAt": "2026-10-30T13:40:58.593Z",
+      "fetchedFrom": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/009/608/gianr8-3-25.pdf"
+    },
+    {
+      "filename": "inabe_gikai-gaiyo_20251201.pdf",
+      "sha256": "160f2660aed62c7460c86a6bc3617053a849ae480c1554a47d6cb68ea14cac3a",
+      "bytes": 1988691,
+      "fetchedAt": "2026-10-30T13:40:58.594Z",
+      "fetchedFrom": "https://www.city.inabe.mie.jp/_res/projects/default_project/_page_/001/012/517/gikai-gaiyo_20251201.pdf"
+    }
+  ]
+}

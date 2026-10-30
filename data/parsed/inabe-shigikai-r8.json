@@ -1,0 +1,238 @@
+{
+  "docType": "council-composition",
+  "sourceId": "inabe-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:28.509Z",
+  "fiscalYear": "R8",
+  "body": "いなべ市議会",
+  "seats": 18,
+  "asOf": "2025-12-01",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "チーム共創いなべ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "長﨑十九八",
+        "奥岡敦史",
+        "近藤厚旨",
+        "伊藤一成",
+        "小林雅史"
+      ],
+      "locator": {
+        "file": "inabe_kaihar7-12-1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新政・絆",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小川幹則",
+        "西井真理子",
+        "渡辺一弘"
+      ],
+      "locator": {
+        "file": "inabe_kaihar7-12-1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創風会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "清水隆弘",
+        "伊藤智子",
+        "小川英俊"
+      ],
+      "locator": {
+        "file": "inabe_kaihar7-12-1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新風いなべ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "片山秀樹",
+        "出口日佐男",
+        "伊藤三保"
+      ],
+      "locator": {
+        "file": "inabe_kaihar7-12-1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いなべ未来",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "位田まさ子",
+        "岡英昭"
+      ],
+      "locator": {
+        "file": "inabe_kaihar7-12-1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（岡恒和）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "岡恒和"
+      ],
+      "locator": {
+        "file": "inabe_kaihar7-12-1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（黒瀬信明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "黒瀬信明"
+      ],
+      "locator": {
+        "file": "inabe_kaihar7-12-1.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 26 号",
+    "billName": "令和８年度いなべ市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "可決（賛成多数）",
+    "locator": {
+      "file": "inabe_gianr8-3-25.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "いなべ市議会 会派別名簿（令和７年12月１日現在）",
+  "resultTitle": "令和８年第１回定例会 議案一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会 議案一覧表（議員ごとの賛否）",
+    "sourceFile": "inabe_gianr8-3-25.pdf",
+    "columns": [
+      {
+        "label": "長﨑十九八",
+        "faction": "チーム共創いなべ",
+        "member": "長﨑十九八",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥岡敦史",
+        "faction": "チーム共創いなべ",
+        "member": "奥岡敦史",
+        "stance": "賛成"
+      },
+      {
+        "label": "近藤厚旨",
+        "faction": "チーム共創いなべ",
+        "member": "近藤厚旨",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤一成",
+        "faction": "チーム共創いなべ",
+        "member": "伊藤一成",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林雅史",
+        "faction": "チーム共創いなべ",
+        "member": "小林雅史",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川幹則",
+        "faction": "新政・絆",
+        "member": "小川幹則",
+        "stance": "賛成"
+      },
+      {
+        "label": "西井真理子",
+        "faction": "新政・絆",
+        "member": "西井真理子",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水隆弘",
+        "faction": "創風会",
+        "member": "清水隆弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤智子",
+        "faction": "創風会",
+        "member": "伊藤智子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川英俊",
+        "faction": "創風会",
+        "member": "小川英俊",
+        "stance": "賛成"
+      },
+      {
+        "label": "片山秀樹",
+        "faction": "新風いなべ",
+        "member": "片山秀樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "出口日佐男",
+        "faction": "新風いなべ",
+        "member": "出口日佐男",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤三保",
+        "faction": "新風いなべ",
+        "member": "伊藤三保",
+        "stance": "賛成"
+      },
+      {
+        "label": "位田まさ子",
+        "faction": "いなべ未来",
+        "member": "位田まさ子",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡英昭",
+        "faction": "いなべ未来",
+        "member": "岡英昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡恒和",
+        "faction": "無会派（岡恒和）",
+        "member": "岡恒和",
+        "stance": "反対"
+      },
+      {
+        "label": "黒瀬信明",
+        "faction": "無会派（黒瀬信明）",
+        "member": "黒瀬信明",
+        "stance": "反対"
+      },
+      {
+        "label": "渡辺一弘",
+        "faction": "新政・絆",
+        "member": "渡辺一弘",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "sourceId": "higashiomi-shigikai-r8",
+  "files": [
+    {
+      "filename": "85-8.pdf",
+      "sha256": "66599fd0b1767bd20474684b74815ce9b20c85eca27043499e3dbe9410551a78",
+      "bytes": 509641,
+      "fetchedAt": "2026-10-30T13:40:58.547Z",
+      "fetchedFrom": "https://www.city.higashiomi.shiga.jp/_res/projects/default_project/_page_/001/011/394/85-8.pdf"
+    },
+    {
+      "filename": "1005528.html",
+      "sha256": "9c8a5a9e231c9f73490b811ca61d367e03b9c69625debebc363e6ae12e9880ac",
+      "bytes": 34713,
+      "fetchedAt": "2026-10-30T13:40:58.547Z",
+      "fetchedFrom": "https://www.city.higashiomi.shiga.jp/shiseijouhou/shigikai/1005527/1005528.html"
+    },
+    {
+      "filename": "1010879.html",
+      "sha256": "a253f3afbd7caa505196ff9e022c16d2ab2c8e83b7c8fbeb77ef962323412952",
+      "bytes": 49077,
+      "fetchedAt": "2026-10-30T13:40:58.547Z",
+      "fetchedFrom": "https://www.city.higashiomi.shiga.jp/shiseijouhou/shigikai/1005708/1010879.html"
+    },
+    {
+      "filename": "1010824.html",
+      "sha256": "c9b04bd50e6ab535b23d6fffb5e9e92c1d5ec2255fa2af3e8f1f1069bd305b22",
+      "bytes": 40556,
+      "fetchedAt": "2026-10-30T13:40:58.547Z",
+      "fetchedFrom": "https://www.city.higashiomi.shiga.jp/shiseijouhou/shigikai/1005556/1005557/1010824.html"
+    },
+    {
+      "filename": "1005526.html",
+      "sha256": "34dd5fad240d90fe90c72b37fd8e9cf048af3d546ea2589a50560fc654342779",
+      "bytes": 40187,
+      "fetchedAt": "2026-10-30T13:40:58.547Z",
+      "fetchedFrom": "https://www.city.higashiomi.shiga.jp/shiseijouhou/shigikai/1005524/1005526.html"
+    }
+  ]
+}

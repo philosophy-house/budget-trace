@@ -1,0 +1,116 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kuwana-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:27.006Z",
+  "fiscalYear": "R8",
+  "body": "桑名市議会",
+  "seats": 23,
+  "asOf": "2025-12-03",
+  "factions": [
+    {
+      "name": "結",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "成田久美子",
+        "渡辺仁美",
+        "服部喜幸",
+        "太田国男",
+        "冨田薫"
+      ],
+      "locator": {
+        "file": "kaihameibo.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "未来",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "水谷憲治",
+        "藤本直子",
+        "伊藤知美",
+        "近藤浩"
+      ],
+      "locator": {
+        "file": "kaihameibo.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "フォーラム新桑名",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "松田正美",
+        "伊藤真人",
+        "愛敬重之"
+      ],
+      "locator": {
+        "file": "kaihameibo.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "絆",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "太田誠",
+        "南澤幸美",
+        "倉田明子"
+      ],
+      "locator": {
+        "file": "kaihameibo.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党桑名市議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "畑紀子",
+        "森英一"
+      ],
+      "locator": {
+        "file": "kaihameibo.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "近藤奈歩",
+        "永野元康",
+        "多屋真美",
+        "飯田尚人",
+        "伊藤惠一",
+        "伊藤研司"
+      ],
+      "locator": {
+        "file": "kaihameibo.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度桑名市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "05_teisyutugianmokuroku20260220.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派名簿（令和7年12月3日現在）",
+  "resultTitle": "市議会定例会提出議案目録（令和8年2月20日提出）"
+}

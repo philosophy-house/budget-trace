@@ -1,0 +1,262 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kyotango-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:24.973Z",
+  "fiscalYear": "R8",
+  "body": "京丹後市議会",
+  "seats": 20,
+  "asOf": "2026-03-27",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "政渓会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "谷津伸幸",
+        "池田惠一",
+        "小牧裕幸",
+        "櫻井祐策",
+        "野木教貴",
+        "東田真希",
+        "吉岡正一",
+        "和田晋"
+      ],
+      "locator": {
+        "file": "r805_gikaidayori.pdf",
+        "page": 16
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "田中邦生",
+        "橋本まり子",
+        "平林智江美",
+        "源進一"
+      ],
+      "locator": {
+        "file": "r805_gikaidayori.pdf",
+        "page": 16
+      }
+    },
+    {
+      "name": "翔和会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "多賀野一彦",
+        "山本佑太",
+        "由利彰基"
+      ],
+      "locator": {
+        "file": "r805_gikaidayori.pdf",
+        "page": 16
+      }
+    },
+    {
+      "name": "無会派（佐久間仁美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "佐久間仁美"
+      ],
+      "locator": {
+        "file": "r805_gikaidayori.pdf",
+        "page": 16
+      }
+    },
+    {
+      "name": "無会派（永井友昭）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "永井友昭"
+      ],
+      "locator": {
+        "file": "r805_gikaidayori.pdf",
+        "page": 16
+      }
+    },
+    {
+      "name": "無会派（鳴海公軌）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "鳴海公軌"
+      ],
+      "locator": {
+        "file": "r805_gikaidayori.pdf",
+        "page": 16
+      }
+    },
+    {
+      "name": "無会派（松本聖司）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "松本聖司"
+      ],
+      "locator": {
+        "file": "r805_gikaidayori.pdf",
+        "page": 16
+      }
+    },
+    {
+      "name": "無会派（中野勝友）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中野勝友"
+      ],
+      "locator": {
+        "file": "r805_gikaidayori.pdf",
+        "page": 16
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第３６号",
+    "billName": "令和８年度京丹後市一般会計予算",
+    "sessionLabel": "令和８年第２回京丹後市議会３月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "可決",
+    "locator": {
+      "file": "GetHTML_R080225FUGI.html"
+    }
+  },
+  "rosterTitle": "京丹後市議会だより No.88（2026年5月）一般質問・賛否一覧（3月定例会）",
+  "resultTitle": "令和８年第２回京丹後市議会３月定例会付議事件一覧（会議録検索システム）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "京丹後市議会だより No.88 賛否一覧（3月定例会）",
+    "sourceFile": "r805_gikaidayori.pdf",
+    "columns": [
+      {
+        "label": "谷津伸幸",
+        "faction": "政渓会",
+        "member": "谷津伸幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田惠一",
+        "faction": "政渓会",
+        "member": "池田惠一",
+        "stance": "欠席"
+      },
+      {
+        "label": "小牧裕幸",
+        "faction": "政渓会",
+        "member": "小牧裕幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "櫻井祐策",
+        "faction": "政渓会",
+        "member": "櫻井祐策",
+        "stance": "賛成"
+      },
+      {
+        "label": "野木教貴",
+        "faction": "政渓会",
+        "member": "野木教貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "東田真希",
+        "faction": "政渓会",
+        "member": "東田真希",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉岡正一",
+        "faction": "政渓会",
+        "member": "吉岡正一",
+        "stance": "賛成"
+      },
+      {
+        "label": "和田晋",
+        "faction": "政渓会",
+        "member": "和田晋",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中邦生",
+        "faction": "日本共産党",
+        "member": "田中邦生",
+        "stance": "反対"
+      },
+      {
+        "label": "橋本まり子",
+        "faction": "日本共産党",
+        "member": "橋本まり子",
+        "stance": "反対"
+      },
+      {
+        "label": "平林智江美",
+        "faction": "日本共産党",
+        "member": "平林智江美",
+        "stance": "反対"
+      },
+      {
+        "label": "源進一",
+        "faction": "日本共産党",
+        "member": "源進一",
+        "stance": "反対"
+      },
+      {
+        "label": "多賀野一彦",
+        "faction": "翔和会",
+        "member": "多賀野一彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本佑太",
+        "faction": "翔和会",
+        "member": "山本佑太",
+        "stance": "賛成"
+      },
+      {
+        "label": "由利彰基",
+        "faction": "翔和会",
+        "member": "由利彰基",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐久間仁美",
+        "faction": "無会派（佐久間仁美）",
+        "member": "佐久間仁美",
+        "stance": "賛成"
+      },
+      {
+        "label": "永井友昭",
+        "faction": "無会派（永井友昭）",
+        "member": "永井友昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "鳴海公軌",
+        "faction": "無会派（鳴海公軌）",
+        "member": "鳴海公軌",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本聖司",
+        "faction": "無会派（松本聖司）",
+        "member": "松本聖司",
+        "stance": "賛成"
+      },
+      {
+        "label": "中野勝友",
+        "faction": "無会派（中野勝友）",
+        "member": "中野勝友",
+        "stance": "議長"
+      }
+    ]
+  }
+}

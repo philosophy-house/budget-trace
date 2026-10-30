@@ -1,0 +1,210 @@
+{
+  "docType": "council-composition",
+  "sourceId": "moriyama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:19.628Z",
+  "fiscalYear": "R8",
+  "body": "守山市議会",
+  "seats": 19,
+  "asOf": "2025-11-29",
+  "factions": [
+    {
+      "name": "守政会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "新野富美夫",
+        "筈井昌彦",
+        "森貴尉",
+        "西村弘樹",
+        "松永恵美子",
+        "髙田正司",
+        "渡邉邦男",
+        "田中尚仁"
+      ],
+      "locator": {
+        "file": "moriyama_kaiha_1008786_20260208.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小牧一美",
+        "藤原浩美",
+        "川本佳子"
+      ],
+      "locator": {
+        "file": "moriyama_kaiha_1008786_20260208.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "ネットワーク未来",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "福井寿美子",
+        "桝本花菜恵"
+      ],
+      "locator": {
+        "file": "moriyama_kaiha_1008786_20260208.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属議員",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "田中均",
+        "北野裕也",
+        "藤木猛",
+        "川本航平",
+        "上田佐和",
+        "二上勝友"
+      ],
+      "locator": {
+        "file": "moriyama_kaiha_1008786_20260208.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第2号",
+    "billName": "令和8年度守山市一般会計予算",
+    "sessionLabel": "令和8年守山市議会3月定例月会議",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "moriyama_giketsu_1014467.html"
+    }
+  },
+  "rosterTitle": "議員名簿-会派別名簿（更新日 令和7年11月29日）",
+  "resultTitle": "令和8年守山市議会3月定例月会議の議決結果（審議結果一覧）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年守山市議会3月定例月会議の議決結果（賛否が分かれた議案）",
+    "sourceFile": "moriyama_giketsu_1014467.html",
+    "columns": [
+      {
+        "label": "新野富美夫",
+        "faction": "守政会",
+        "member": "新野富美夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "筈井昌彦",
+        "faction": "守政会",
+        "member": "筈井昌彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "森貴尉",
+        "faction": "守政会",
+        "member": "森貴尉",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村弘樹",
+        "faction": "守政会",
+        "member": "西村弘樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "松永恵美子",
+        "faction": "守政会",
+        "member": "松永恵美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙田正司",
+        "faction": "守政会",
+        "member": "髙田正司",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡邉邦男",
+        "faction": "守政会",
+        "member": "渡邉邦男",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中尚仁",
+        "faction": "守政会",
+        "member": "田中尚仁",
+        "stance": "議長"
+      },
+      {
+        "label": "小牧一美",
+        "faction": "日本共産党議員団",
+        "member": "小牧一美",
+        "stance": "反対"
+      },
+      {
+        "label": "藤原浩美",
+        "faction": "日本共産党議員団",
+        "member": "藤原浩美",
+        "stance": "反対"
+      },
+      {
+        "label": "川本佳子",
+        "faction": "日本共産党議員団",
+        "member": "川本佳子",
+        "stance": "反対"
+      },
+      {
+        "label": "福井寿美子",
+        "faction": "ネットワーク未来",
+        "member": "福井寿美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "桝本花菜恵",
+        "faction": "ネットワーク未来",
+        "member": "桝本花菜恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中均",
+        "faction": "無所属議員",
+        "member": "田中均",
+        "stance": "賛成"
+      },
+      {
+        "label": "北野裕也",
+        "faction": "無所属議員",
+        "member": "北野裕也",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤木猛",
+        "faction": "無所属議員",
+        "member": "藤木猛",
+        "stance": "賛成"
+      },
+      {
+        "label": "川本航平",
+        "faction": "無所属議員",
+        "member": "川本航平",
+        "stance": "賛成"
+      },
+      {
+        "label": "上田佐和",
+        "faction": "無所属議員",
+        "member": "上田佐和",
+        "stance": "賛成"
+      },
+      {
+        "label": "二上勝友",
+        "faction": "無所属議員",
+        "member": "二上勝友",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

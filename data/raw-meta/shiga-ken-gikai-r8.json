@@ -1,0 +1,29 @@
+{
+  "sourceId": "shiga-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "Kg880_0319sanpi.pdf",
+      "sha256": "41ef298858c827df73f76533f5b7d5b9c5a9a10b6cebeda1ed950ef2293d3c89",
+      "bytes": 191171,
+      "fetchedAt": "2026-10-30T13:40:58.522Z",
+      "fetchedFrom": "https://www.shigaken-gikai.jp/voices/GikaiDoc/attach/Congress/Kg880_0319sanpi.pdf"
+    },
+    {
+      "filename": "Kg875_R080319shukketsu.pdf",
+      "sha256": "b181e2417b3918bdbb5a57381683dd709fa8d32a3e8be0db57d221da509a8335",
+      "bytes": 111159,
+      "fetchedAt": "2026-10-30T13:40:58.523Z",
+      "fetchedFrom": "https://www.shigaken-gikai.jp/voices/GikaiDoc/attach/Congress/Kg875_R080319shukketsu.pdf"
+    },
+    {
+      "filename": "g07_giketsu_252.html",
+      "sha256": "5f232af30095b9fb879dca6e70fa4072e36701f8d16c62ab27b9d8012a9966f1",
+      "bytes": 61789,
+      "fetchedAt": "2026-10-30T13:40:58.523Z",
+      "fetchedFrom": "https://www.shigaken-gikai.jp/g07_giketsu.asp?KWORD1=&EXP=AND&KWORD2=&BUNRUI=&KAIGI=2026/02/16,2026/03/19,252&NENFROM=&NENTO=&KEKKA=&SMODE=2&KENSU=100&Sflg=2",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

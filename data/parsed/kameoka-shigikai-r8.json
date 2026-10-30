@@ -1,0 +1,117 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kameoka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:22.614Z",
+  "fiscalYear": "R8",
+  "body": "亀岡市議会",
+  "seats": 24,
+  "asOf": "2026-03-16",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "新清流会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "福井英昭",
+        "小林仁",
+        "大石慶明",
+        "法貴隆司",
+        "小川克己",
+        "西口純生",
+        "菱田光紀"
+      ],
+      "locator": {
+        "file": "45537.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "経政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "齊藤一義",
+        "大塚建彦",
+        "浅田晴彦",
+        "平本英久"
+      ],
+      "locator": {
+        "file": "45537.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "躍動～輪の風～",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "松山雅行",
+        "竹内博士",
+        "梅本靖博",
+        "土岐新"
+      ],
+      "locator": {
+        "file": "45537.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "北星志士の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "木村勲",
+        "原野実生子",
+        "山木裕也"
+      ],
+      "locator": {
+        "file": "45537.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "共産党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "三上泉",
+        "大西陽春",
+        "片山輝夫"
+      ],
+      "locator": {
+        "file": "45537.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山本由美子",
+        "林徹司",
+        "冨谷加都子"
+      ],
+      "locator": {
+        "file": "45537.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "1",
+    "billName": "令和8年度亀岡市一般会計予算",
+    "sessionLabel": "令和7年亀岡市議会定例会令和8年3月議会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "可決",
+    "locator": {
+      "file": "85731.html"
+    }
+  },
+  "rosterTitle": "かめおか市議会だより 臨時号（令和8年2月特別議会号・令和8年3月16日発行）「会派の構成」",
+  "resultTitle": "令和7年亀岡市議会定例会令和8年3月議会会議結果"
+}

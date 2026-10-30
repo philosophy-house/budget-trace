@@ -1,0 +1,138 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yokkaichi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:25.729Z",
+  "fiscalYear": "R8",
+  "body": "四日市市議会",
+  "seats": 34,
+  "asOf": "2025-05-16",
+  "teisu": 34,
+  "factions": [
+    {
+      "name": "政友クラブ",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "川村幸康",
+        "笹岡秀太郎",
+        "伊藤嗣也",
+        "荻須智之",
+        "上麻理",
+        "笹井絹予",
+        "日置記平",
+        "森康哲",
+        "森川慎"
+      ],
+      "locator": {
+        "file": "1001000002802_index.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新風創志会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "谷口周司",
+        "平野貴之",
+        "石川善己",
+        "辻裕登",
+        "早川新平",
+        "諸岡覚",
+        "山田知美"
+      ],
+      "locator": {
+        "file": "1001000002802_index.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "フューチャー四日市",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "樋口龍馬",
+        "後藤純子",
+        "伊世利子",
+        "小田あけみ",
+        "加納康樹",
+        "竹野兼主",
+        "村山繁生"
+      ],
+      "locator": {
+        "file": "1001000002802_index.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "中川雅晶",
+        "山口智也",
+        "荒木美幸",
+        "樋口博己",
+        "森智子"
+      ],
+      "locator": {
+        "file": "1001000002802_index.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民目線の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小林博次",
+        "水谷一未",
+        "田中徹"
+      ],
+      "locator": {
+        "file": "1001000002802_index.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "太田紀子",
+        "村上暁"
+      ],
+      "locator": {
+        "file": "1001000002802_index.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "団体を結成していない議員（今村厚美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "今村厚美"
+      ],
+      "locator": {
+        "file": "1001000002802_index.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第98号",
+    "billName": "令和８年度四日市市一般会計予算",
+    "sessionLabel": "令和８年02月定例月議会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1774316366448_index.html"
+    }
+  },
+  "rosterTitle": "会派一覧名簿（令和7年5月16日）",
+  "resultTitle": "令和８年02月定例月議会 議決事件一覧"
+}

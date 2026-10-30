@@ -1,0 +1,218 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kameyama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:28.089Z",
+  "fiscalYear": "R8",
+  "body": "亀山市議会",
+  "seats": 17,
+  "asOf": "2025-11-17",
+  "factions": [
+    {
+      "name": "結",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "草川卓也",
+        "古田𠮷昭",
+        "森英之",
+        "鈴木達夫"
+      ],
+      "locator": {
+        "file": "kameyama_kaiha-list.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新和会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "櫻木善仁",
+        "深水隆司"
+      ],
+      "locator": {
+        "file": "kameyama_kaiha-list.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "勇政",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "今岡翔平",
+        "伊藤彦太郎",
+        "櫻井清蔵"
+      ],
+      "locator": {
+        "file": "kameyama_kaiha-list.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "福沢美由紀",
+        "服部孝規"
+      ],
+      "locator": {
+        "file": "kameyama_kaiha-list.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "新秀隆",
+        "森美和子"
+      ],
+      "locator": {
+        "file": "kameyama_kaiha-list.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "中島雅代",
+        "髙島真",
+        "豊田恵理",
+        "岡本公秀"
+      ],
+      "locator": {
+        "file": "kameyama_kaiha-list.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第24号",
+    "billName": "令和８年度亀山市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kameyama_giketsu_2026021700123.html"
+    }
+  },
+  "rosterTitle": "亀山市議会 会派名簿（更新日 2025年11月17日）",
+  "resultTitle": "令和8年3月定例会 議案と議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月定例会 議員別表決結果一覧表",
+    "sourceFile": "kameyama_R0803hyouketu.pdf",
+    "columns": [
+      {
+        "label": "古田𠮷昭",
+        "faction": "結",
+        "member": "古田𠮷昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "櫻木善仁",
+        "faction": "新和会",
+        "member": "櫻木善仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "深水隆司",
+        "faction": "新和会",
+        "member": "深水隆司",
+        "stance": "賛成"
+      },
+      {
+        "label": "草川卓也",
+        "faction": "結",
+        "member": "草川卓也",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島雅代",
+        "faction": "会派に属さない議員",
+        "member": "中島雅代",
+        "stance": "賛成"
+      },
+      {
+        "label": "森英之",
+        "faction": "結",
+        "member": "森英之",
+        "stance": "賛成"
+      },
+      {
+        "label": "今岡翔平",
+        "faction": "勇政",
+        "member": "今岡翔平",
+        "stance": "反対"
+      },
+      {
+        "label": "髙島真",
+        "faction": "会派に属さない議員",
+        "member": "髙島真",
+        "stance": "賛成"
+      },
+      {
+        "label": "新秀隆",
+        "faction": "公明党",
+        "member": "新秀隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "豊田恵理",
+        "faction": "会派に属さない議員",
+        "member": "豊田恵理",
+        "stance": "賛成"
+      },
+      {
+        "label": "福沢美由紀",
+        "faction": "日本共産党",
+        "member": "福沢美由紀",
+        "stance": "反対"
+      },
+      {
+        "label": "森美和子",
+        "faction": "公明党",
+        "member": "森美和子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木達夫",
+        "faction": "結",
+        "member": "鈴木達夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤彦太郎",
+        "faction": "勇政",
+        "member": "伊藤彦太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "服部孝規",
+        "faction": "日本共産党",
+        "member": "服部孝規",
+        "stance": "反対"
+      },
+      {
+        "label": "櫻井清蔵",
+        "faction": "勇政",
+        "member": "櫻井清蔵",
+        "stance": "反対"
+      },
+      {
+        "label": "岡本公秀",
+        "faction": "会派に属さない議員",
+        "member": "岡本公秀",
+        "stance": "議長"
+      }
+    ]
+  }
+}

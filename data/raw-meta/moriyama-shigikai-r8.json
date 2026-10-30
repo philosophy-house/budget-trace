@@ -1,0 +1,26 @@
+{
+  "sourceId": "moriyama-shigikai-r8",
+  "files": [
+    {
+      "filename": "moriyama_kaiha_1008786_20260208.html",
+      "sha256": "8dab196a01f0cd1adec49b9eb5ffb0c5df6bc2cb30c936a8989e7ee61bd3c922",
+      "bytes": 24992,
+      "fetchedAt": "2026-10-30T13:40:58.535Z",
+      "fetchedFrom": "https://web.archive.org/web/20260208222647id_/https://www.city.moriyama.lg.jp/shiseijouhou/shigikai/1003135/1003168/1008786.html"
+    },
+    {
+      "filename": "moriyama_giketsu_1014467.html",
+      "sha256": "8b14f3fdfe64d63a49910634a498238116cce9709df56581319ca3d7fed2c6e5",
+      "bytes": 40047,
+      "fetchedAt": "2026-10-30T13:40:58.536Z",
+      "fetchedFrom": "https://www.city.moriyama.lg.jp/shiseijouhou/shigikai/1005795/1005800/1003170/1014186/1014467.html"
+    },
+    {
+      "filename": "moriyama_rokuga_1014788.html",
+      "sha256": "41ec885d06287fe4c6a6b72d8944d8806ed6db3a38a3f9220133fd44bc005581",
+      "bytes": 43288,
+      "fetchedAt": "2026-10-30T13:40:58.536Z",
+      "fetchedFrom": "https://www.city.moriyama.lg.jp/shiseijouhou/shigikai/1005795/1003139/1003312/1014324/1014788.html"
+    }
+  ]
+}

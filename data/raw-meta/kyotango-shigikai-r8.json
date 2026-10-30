@@ -1,0 +1,29 @@
+{
+  "sourceId": "kyotango-shigikai-r8",
+  "files": [
+    {
+      "filename": "r805_gikaidayori.pdf",
+      "sha256": "7da132fb9d08082a56fc5f2ca768d0223b921313cbea80eb278c55ea74a82f36",
+      "bytes": 12936303,
+      "fetchedAt": "2026-10-30T13:40:58.576Z",
+      "fetchedFrom": "https://www.city.kyotango.lg.jp/material/files/group/2/r805_gikaidayori.pdf"
+    },
+    {
+      "filename": "GetHTML_R080225FUGI.html",
+      "sha256": "c119287a9efd6b3908c744c035ca7d9ed13dcc78288f1a97fd28bc7965539085",
+      "bytes": 27161,
+      "fetchedAt": "2026-10-30T13:40:58.576Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/kyotango/cgi-bin3/GetHTML.exe?ysisue73kia86gkghx/R080225FUGI.html/0/10/1/0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "2514.html",
+      "sha256": "d1b07099f7a6b91569bf0ddb6be791287475a6523d7e9dd39cc9674257db5e87",
+      "bytes": 40146,
+      "fetchedAt": "2026-10-30T13:40:58.576Z",
+      "fetchedFrom": "https://web.archive.org/web/20251206183017id_/https://www.city.kyotango.lg.jp/shigikai/about/2514.html"
+    }
+  ]
+}

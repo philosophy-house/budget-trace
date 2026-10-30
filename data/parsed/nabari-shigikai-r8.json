@@ -1,0 +1,121 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nabari-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:27.580Z",
+  "fiscalYear": "R8",
+  "body": "名張市議会",
+  "seats": 17,
+  "asOf": "2026-03-19",
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "細矢一宏",
+        "阪本忠幸",
+        "富田真由美",
+        "吉住美智子"
+      ],
+      "locator": {
+        "file": "20220323114803.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "清風クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "常俊朋子",
+        "小林勝",
+        "坂本直司",
+        "福田博行"
+      ],
+      "locator": {
+        "file": "20220323114803.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "喜働",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "川合滋",
+        "足立淑絵",
+        "幸松孝太郎"
+      ],
+      "locator": {
+        "file": "20220323114803.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "自由クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "柏元三",
+        "木平秀喜",
+        "山下登"
+      ],
+      "locator": {
+        "file": "20220323114803.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派（三原淳子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "三原淳子"
+      ],
+      "locator": {
+        "file": "20220323114803.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無会派（藤川美広）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "藤川美広"
+      ],
+      "locator": {
+        "file": "20220323114803.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派（永岡禎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "永岡禎"
+      ],
+      "locator": {
+        "file": "20220323114803.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "71",
+    "billName": "令和８年度名張市一般会計予算",
+    "sessionLabel": "令和８年３月定例議会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "0331.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和7年度 会派視察・研修報告書の会派ごとの見出し（所属議員）",
+  "resultTitle": "令和8年3月定例議会 会議結果"
+}

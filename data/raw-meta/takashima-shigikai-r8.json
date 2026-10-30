@@ -1,0 +1,33 @@
+{
+  "sourceId": "takashima-shigikai-r8",
+  "files": [
+    {
+      "filename": "4400.html",
+      "sha256": "fa3d21a695dee5f0fa5a924dedd205b3d612207771857fdd334107b48268c7a4",
+      "bytes": 60941,
+      "fetchedAt": "2026-10-30T13:40:58.545Z",
+      "fetchedFrom": "https://www.city.takashima.lg.jp/gyoseijoho/webshigikai/3/4400.html"
+    },
+    {
+      "filename": "4373.html",
+      "sha256": "b300bda06b565e23ed83bea28cfe0c3f31cc3526d3d767949f1142e6e06758ea",
+      "bytes": 61748,
+      "fetchedAt": "2026-10-30T13:40:58.545Z",
+      "fetchedFrom": "https://www.city.takashima.lg.jp/gyoseijoho/webshigikai/2/4373.html"
+    },
+    {
+      "filename": "r8-3sannpiwakaretaannkenn.pdf",
+      "sha256": "a6854cad9f28f5262420e97ce2916b7e877c1c2e262d68fb1f74d5414371121e",
+      "bytes": 125262,
+      "fetchedAt": "2026-10-30T13:40:58.545Z",
+      "fetchedFrom": "https://www.city.takashima.lg.jp/material/files/group/116/r8-3sannpiwakaretaannkenn.pdf"
+    },
+    {
+      "filename": "20260325-4.pdf",
+      "sha256": "285f1958e4ff793ee0d8776016f23b9f81ec42640788cc57691cd0da9eaab1a7",
+      "bytes": 208071,
+      "fetchedAt": "2026-10-30T13:40:58.546Z",
+      "fetchedFrom": "https://www.city.takashima.lg.jp/material/files/group/11/20260325-4.pdf"
+    }
+  ]
+}

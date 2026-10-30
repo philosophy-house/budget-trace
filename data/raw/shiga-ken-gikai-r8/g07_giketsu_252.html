@@ -1,0 +1,933 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<script src="js/gtag.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>議案一覧｜滋賀県議会</title>
+
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="author" content="滋賀県" />
+<meta name="description" content="滋賀県議会の議会の紹介と会議録検索システムを提供しています。" />
+<meta name="keywords" content="滋賀県,滋賀県議会,県議会,議員,選挙,しが,シガ,shiga,SHIGA" />
+<meta property="og:type" content="article">
+<meta property="og:description" content="滋賀県議会の議会の紹介と会議録検索システムを提供しています。" />
+<meta property="og:url" content="https://www.shigaken-gikai.jp/g07_giketsu.asp?KWORD1=&amp;EXP=AND&amp;KWORD2=&amp;BUNRUI=&amp;KAIGI=2026/02/16,2026/03/19,252&amp;NENFROM=&amp;NENTO=&amp;KEKKA=&amp;SMODE=2&amp;KENSU=100&amp;Sflg=2" />
+<meta property="og:image" content="https://www.shigaken-gikai.jp/image/apple-touch-icon-precomposed.png" />
+<meta property="og:site_name" content="滋賀県議会の議会の紹介と会議録検索システムを提供しています。" />
+<meta property="og:locale" content="ja_JP" />
+<link rel="apple-touch-icon-precomposed" href="image/apple-touch-icon-precomposed.png" />
+<link rel="shortcut icon" href="image/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="image/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/cngcolor.js" type="text/javascript"></script>
+<script src="js/init.js" type="text/javascript"></script>
+<script src="js/fm_util.js" type="text/javascript"></script>
+
+<meta property="og:title" content="議案一覧｜滋賀県議会" />
+<link rel="stylesheet" type="text/css" href="css/import.css" media="all" />
+<!--2021/08/01 update-->
+</head>
+
+<body>
+<noscript><div class="notice">当サイトではJavaScriptを使用しています。<br />検索機能を利用するためには、JavaScriptをonにしてください。</div></noscript>
+<span class="skip"><a href="#pagetop">本文へ移動</a></span>
+  <div id="base">
+    <!-- start AreaHeader -->
+    <div id="AreaHeader">
+
+<div id="accmenu">
+<ul id="textsize">
+<li><a href="javascript:void(0);" onclick="fsChange('s'); return false;">文字縮小</a></li>
+<li><a href="javascript:void(0);" onclick="fsChange('d'); return false;">標準</a></li>
+<li><a href="javascript:void(0);" onclick="fsChange('l'); return false;">文字拡大</a></li></ul>
+<ul class="bgcolor">
+<li id="bg1">白</li>
+<li id="bg2">青</li>
+<li id="bg3">黄</li>
+<li id="bg4">黒</li>
+</ul>
+</div>
+
+      <div id="header_logo"><a href="index.asp"><img src="image/header_logo.gif" style="width:500px; height:70px;" alt="滋賀県議会公式サイト" /></a>
+        <div id="gnavi">
+<script async src="https://cse.google.com/cse.js?cx=016202920665926113866:bgyj5hsoqae"></script>
+<div class="gcse-searchbox-only"></div>
+        </div>
+      </div>
+    </div>
+    <!-- end AreaHeader -->
+<a name="pagetop"></a>
+
+<div id="tpath"><p>現在位置 ：<a href="index.asp">トップページ</a> &#8250; 議案一覧</p></div>
+    <!-- start AreaContentsBase -->
+    <div id="AreaContentsBase">
+      <!-- start AreaContentsBodyTop -->
+      <div id="AreaContentsBodyTop">
+        <!-- start AreaGikaidoc -->
+        <div id="AreaGikaidoc">
+<h1>議案一覧</h1>
+
+<form method="get" action="g07_giketsu.asp" name="form1" id="form1" target="_top">
+
+<dl class="srchtag">
+
+	<dt>内容検索</dt>
+	<dd><label for="kword1">検索語1</label>：<input type="text" name="kword1" id="kword1" value="" size="20" maxlength="30" class="i_key_t" /> 
+
+	<label for="exp"><abbr title="検索条件の指定">　</abbr></label>
+	<select name="exp" id="exp" class="i_key_s">
+		<option value="AND" selected='selected'>AND</option>
+		<option value="OR">OR</option>
+	</select><br />
+	<label for="kword2">検索語2</label>：<input type="text" name="kword2" id="kword2" value="" size="20" maxlength="30" class="i_key_t" /></dd>
+
+	<dt><label for="kaigi">会議名の指定</label></dt>
+	<dd><select name="kaigi" id="kaigi" class="i_key_s">
+		<option value="">　</option>
+<option value="2026/09/17,2026/10/15,257">令和8年　9月定例会議</option><option value="2026/07/22,2026/08/10,256">令和8年　7月定例会議</option><option value="2026/06/30,2026/06/30,258">令和8年　6月臨時会議</option><option value="2026/04/28,2026/04/28,255">令和8年　4月招集会議</option><option value="2026/02/16,2026/03/19,252">令和8年　2月定例会議</option><option value="2026/01/26,2026/01/26,254">令和8年　1月臨時会議</option><option value="2025/11/27,2025/12/19,250">令和7年　11月定例会議</option><option value="2025/09/05,2025/10/17,249">令和7年　9月定例会議</option><option value="2025/06/12,2025/07/02,248">令和7年　6月定例会議</option><option value="2025/04/25,2025/04/25,247">令和7年　4月招集会議</option><option value="2025/02/14,2025/03/19,243">令和7年　2月定例会議</option><option value="2024/11/28,2024/12/20,242">令和6年　11月定例会議</option><option value="2024/09/18,2024/10/11,241">令和6年　9月定例会議</option><option value="2024/06/20,2024/07/12,240">令和6年　6月定例会議</option><option value="2024/04/26,2024/04/26,239">令和6年　4月招集会議</option><option value="2024/02/14,2024/03/19,237">令和6年2月定例会議</option><option value="2023/11/29,2023/12/21,234">令和5年11月定例会議</option><option value="2023/09/20,2023/10/13,233">令和5年　9月定例会議</option><option value="2023/06/22,2023/07/14,232">令和5年　6月定例会議</option><option value="2023/05/09,2023/05/09,231">令和5年　5月招集会議</option><option value="2023/02/14,2023/03/15,228">令和5年　2月定例会議</option><option value="2022/11/29,2022/12/21,226">令和4年　11月定例会議</option><option value="2022/09/20,2022/10/14,223">令和4年　9月定例会議</option><option value="2022/07/21,2022/08/12,222">令和4年　7月定例会議</option><option value="2022/05/27,2022/05/27,225">令和4年　5月臨時会議</option><option value="2022/04/26,2022/04/26,221">令和4年　4月招集会議</option><option value="2022/02/14,2022/03/18,219">令和4年　2月定例会議</option><option value="2021/11/29,2021/12/21,215">令和３年　11月定例会議</option><option value="2021/09/14,2021/10/08,214">令和３年　９月定例会議</option><option value="2021/08/25,2021/08/25,217">令和3年　8月臨時会議（8月25日）</option><option value="2021/08/06,2021/08/06,216">令和3年　8月臨時会議（8月6日）</option><option value="2021/06/24,2021/07/16,213">令和３年　６月定例会議</option><option value="2021/04/27,2021/04/27,212">令和３年　４月招集会議</option><option value="2021/02/15,2021/03/19,210">令和３年　２月定例会議</option><option value="2020/11/27,2020/12/21,208">令和２年　１１月定例会議</option><option value="2020/09/15,2020/10/09,207">令和２年　９月定例会議</option><option value="2020/06/24,2020/07/16,206">令和２年　６月定例会議</option><option value="2020/05/22,2020/05/22,205">令和２年　５月臨時会議</option><option value="2020/04/28,2020/04/28,204">令和２年　４月招集会議</option><option value="2020/02/17,2020/03/23,202">令和２年　２月定例会議</option><option value="2019/11/28,2019/12/20,200">令和元年　１１月定例会議</option><option value="2019/09/18,2019/10/11,199">令和元年　９月定例会議</option><option value="2019/06/12,2019/07/02,198">令和元年　6月定例会議</option><option value="2019/05/10,2019/05/10,197">令和元年　５月招集会議</option><option value="2019/02/15,2019/03/15,195">平成３１年　２月定例会議</option><option value="2018/11/29,2018/12/21,193">平成３０年　１１月定例会議</option><option value="2018/09/18,2018/10/12,192">平成30年　9月定例会議</option><option value="2018/07/20,2018/08/09,191">平成３０年　７月定例会議</option><option value="2018/04/25,2018/04/25,190">平成３０年　４月招集会議</option><option value="2018/02/15,2018/03/22,188">平成３０年　２月定例会議</option><option value="2017/11/29,2017/12/21,185">平成29年　11月定例会議</option><option value="2017/09/20,2017/10/06,184">平成29年　9月定例会議</option><option value="2017/06/20,2017/07/12,183">平成２９年　６月定例会議</option><option value="2017/04/26,2017/04/26,182">平成２９年　４月招集会議</option><option value="2017/02/16,2017/03/21,180">平成２９年　２月定例会議</option><option value="2016/11/29,2016/12/21,179">平成２８年　１１月定例会議</option><option value="2016/09/16,2016/10/13,177">平成２８年　９月定例会議</option><option value="2016/06/01,2016/06/22,176">平成２８年　６月定例会議</option><option value="2016/04/26,2016/04/26,175">平成２８年　４月招集会議</option><option value="2016/02/17,2016/03/18,173">平成２８年　２月定例会議</option><option value="2015/11/27,2015/12/21,172">平成２７年　１１月定例会議</option><option value="2015/09/15,2015/10/13,170">平成２７年　９月定例会議</option><option value="2015/06/24,2015/07/16,169">平成２７年　６月定例会議 </option><option value="2015/05/12,2015/05/12,168">平成２７年　５月招集会議 </option><option value="2015/02/17,2015/03/16,166">平成２７年　２月定例会議</option><option value="2014/11/27,2014/12/24,165">平成２６年　１１月定例会議</option><option value="2014/09/17,2014/10/10,163">平成２６年　９月定例会議</option><option value="2014/07/25,2014/08/12,162">平成２６年　７月定例会議</option><option value="2014/06/02,2014/06/04,160">平成２６年　６月臨時会議</option><option value="2014/04/25,2014/04/25,159">平成２６年　４月招集会議</option><option value="2014/02/18,2014/03/24,157">平成２６年　２月定例会</option><option value="2013/11/28,2013/12/20,156">平成２５年　１１月定例会</option><option value="2013/09/18,2013/10/11,154">平成２５年　９月定例会</option><option value="2013/06/06,2013/06/28,153">平成２５年　６月定例会</option><option value="2013/04/24,2013/04/24,152">平成２５年　４月臨時会</option><option value="2013/02/14,2013/03/22,150">平成２５年　２月定例会</option><option value="2012/11/29,2012/12/26,148">平成２４年　１１月定例会</option><option value="2012/09/19,2012/10/12,147">平成２４年　９月定例会</option><option value="2012/06/19,2012/07/11,146">平成２４年　６月定例会</option><option value="2012/04/24,2012/04/24,145">平成２４年　４月臨時会</option><option value="2012/03/29,2012/03/29,144">平成２４年　３月臨時会</option><option value="2012/02/16,2012/03/23,142">平成２４年　２月定例会</option><option value="2011/11/29,2011/12/21,140">平成２３年　１１月定例会</option><option value="2011/09/15,2011/10/12,139">平成２３年　９月定例会</option><option value="2011/06/24,2011/07/19,138">平成２３年　６月定例会</option><option value="2011/05/10,2011/05/12,137">平成２３年　５月臨時会</option><option value="2011/02/15,2011/03/14,122">平成２３年　２月定例会</option><option value="2010/11/30,2010/12/22,121">平成２２年１１月定例会</option><option value="2010/09/16,2010/10/13,120">平成２２年　９月定例会</option><option value="2010/06/01,2010/06/21,119">平成２２年　６月定例会</option><option value="2010/04/26,2010/04/27,123">平成２２年　４月臨時会</option><option value="2010/02/16,2010/03/24,118">平成２２年　２月定例会</option><option value="2009/11/27,2009/12/18,117">平成２１年１１月定例会</option><option value="2009/09/15,2009/10/09,116">平成２１年　９月定例会</option><option value="2009/06/24,2009/07/16,115">平成２１年　６月定例会</option><option value="2009/05/28,2009/05/29,114">平成２１年　５月臨時会</option><option value="2009/04/27,2009/04/27,113">平成２１年　４月臨時会</option><option value="2009/02/19,2009/03/25,112">平成２１年　２月定例会</option><option value="2009/01/09,2009/01/16,111">平成２１年　１月臨時会</option><option value="2008/11/28,2008/12/22,110">平成２０年１１月定例会</option><option value="2008/09/16,2008/10/10,109">平成２０年　９月定例会</option><option value="2008/09/01,2008/09/04,108">平成２０年　９月臨時会</option><option value="2008/06/24,2008/07/16,107">平成20年　6月定例会</option><option value="2008/04/25,2008/04/26,106">平成２０年　４月臨時会</option><option value="2008/02/19,2008/03/24,105">平成２０年　２月定例会</option><option value="2007/12/03,2007/12/21,104">平成１９年１２月定例会</option><option value="2007/11/19,2007/11/20,103">平成１９年１１月臨時会</option><option value="2007/09/18,2007/10/12,102">平成１９年　９月定例会</option><option value="2007/06/04,2007/06/22,101">平成１９年　６月定例会</option><option value="2007/05/11,2007/05/12,100">平成１９年　５月臨時会</option><option value="2007/02/15,2007/03/13,99">平成１９年　２月定例会</option><option value="2006/12/01,2006/12/21,98">平成１８年１２月定例会</option><option value="2006/09/22,2006/10/13,97">平成１８年　９月定例会</option><option value="2006/07/26,2006/08/11,96">平成１８年　７月定例会</option><option value="2006/04/26,2006/04/26,95">平成１８年　４月臨時会</option><option value="2006/02/20,2006/03/23,94">平成１８年　２月定例会</option><option value="2006/01/31,2006/02/01,93">平成１８年　１月臨時会</option><option value="2005/12/01,2005/12/21,92">平成１７年１２月定例会</option><option value="2005/09/22,2005/10/14,91">平成１７年　９月定例会</option><option value="2005/07/22,2005/07/27,90">平成１７年　７月臨時会</option><option value="2005/06/20,2005/07/08,89">平成１７年　６月定例会</option><option value="2005/04/28,2005/04/28,88">平成１７年　４月臨時会</option><option value="2005/02/22,2005/03/24,87">平成１７年　２月定例会</option><option value="2004/12/01,2004/12/21,86">平成１６年１２月定例会</option><option value="2004/09/27,2004/10/18,85">平成１６年　９月定例会</option><option value="2004/07/13,2004/08/03,84">平成１６年　７月定例会</option><option value="2004/04/30,2004/04/30,83">平成１６年　４月臨時会</option><option value="2004/02/23,2004/03/24,82">平成１６年　２月定例会</option><option value="2003/11/28,2003/12/18,81">平成１５年１１月定例会</option><option value="2003/09/19,2003/10/10,80">平成１５年　９月定例会</option><option value="2003/06/30,2003/07/18,79">平成１５年　６月定例会</option><option value="2003/05/13,2003/05/13,78">平成１５年　５月臨時会</option><option value="2003/02/18,2003/03/13,77">平成１５年　２月定例会</option><option value="2002/12/02,2002/12/20,76">平成１４年１２月定例会</option><option value="2002/09/25,2002/10/16,75">平成１４年　９月定例会</option><option value="2002/07/12,2002/07/31,74">平成１４年　７月定例会</option><option value="2002/05/02,2002/05/03,73">平成１４年　５月臨時会</option><option value="2002/02/19,2002/03/22,72">平成１４年　２月定例会</option><option value="2001/12/03,2001/12/20,71">平成１３年１２月定例会</option><option value="2001/09/18,2001/10/05,70">平成１３年　９月定例会</option><option value="2001/06/12,2001/06/28,69">平成１３年　６月定例会</option><option value="2001/05/02,2001/05/02,68">平成１３年　５月臨時会</option><option value="2001/02/20,2001/03/22,67">平成１３年　２月定例会</option><option value="2000/12/01,2000/12/19,66">平成１２年１２月定例会</option><option value="2000/09/19,2000/10/04,65">平成１２年　９月定例会</option><option value="2000/06/27,2000/07/13,64">平成１２年　６月定例会</option><option value="2000/02/18,2000/03/22,63">平成１２年　２月定例会</option><option value="1999/12/01,1999/12/17,62">平成１１年１２月定例会</option><option value="1999/09/20,1999/10/07,61">平成１１年　９月定例会</option><option value="1999/06/22,1999/07/08,60">平成１１年　６月定例会</option><option value="1999/05/13,1999/05/14,59">平成１１年　５月臨時会</option><option value="1999/02/17,1999/03/12,58">平成１１年　２月定例会</option><option value="1998/11/24,1998/12/18,57">平成１０年１１月定例会</option><option value="1998/09/21,1998/10/08,56">平成１０年　９月定例会</option><option value="1998/07/30,1998/07/30,55">平成１０年　７月臨時会</option><option value="1998/06/05,1998/06/16,54">平成１０年　６月定例会</option>
+	</select></dd>
+
+	<dt><label for="bunrui">議案種別</label></dt>
+	<dd><select name="bunrui" id="bunrui" class="i_key_s">
+		<option value="">　</option>
+<option value="1">議員提出議案</option><option value="2">知事提出議案</option><option value="3">意見書</option><option value="4">決議</option><option value="5">報告</option><option value="6">再議</option><option value="7">知事提出議案</option>
+	</select></dd>
+
+	<dt>議決日</dt>
+	<dd><select name="nenfrom" id="nenfrom" class="i_key_s">
+		<option value="">　</option>
+<option value='2026/01/01'>令和8年</option><option value='2025/01/01'>令和7年</option><option value='2024/01/01'>令和6年</option><option value='2023/01/01'>令和5年</option><option value='2022/01/01'>令和4年</option><option value='2021/01/01'>令和3年</option><option value='2020/01/01'>令和2年</option><option value='2019/01/01'>平成31年・令和元年</option><option value='2018/01/01'>平成30年</option><option value='2017/01/01'>平成29年</option><option value='2016/01/01'>平成28年</option><option value='2015/01/01'>平成27年</option><option value='2014/01/01'>平成26年</option><option value='2013/01/01'>平成25年</option><option value='2012/01/01'>平成24年</option><option value='2011/01/01'>平成23年</option><option value='2010/01/01'>平成22年</option><option value='2009/01/01'>平成21年</option><option value='2008/01/01'>平成20年</option><option value='2007/01/01'>平成19年</option><option value='2006/01/01'>平成18年</option><option value='2005/01/01'>平成17年</option><option value='2004/01/01'>平成16年</option><option value='2003/01/01'>平成15年</option><option value='2002/01/01'>平成14年</option><option value='2001/01/01'>平成13年</option><option value='2000/01/01'>平成12年</option><option value='1999/01/01'>平成11年</option><option value='1998/01/01'>平成10年</option>
+	</select><label for="nenfrom"><abbr title="議決年での絞り込みの開始年">年</abbr></label>～
+	<select name="nento" id="nento" class="i_key_s">
+		<option value="">　</option>
+<option value='2026/12/31'>令和8年</option><option value='2025/12/31'>令和7年</option><option value='2024/12/31'>令和6年</option><option value='2023/12/31'>令和5年</option><option value='2022/12/31'>令和4年</option><option value='2021/12/31'>令和3年</option><option value='2020/12/31'>令和2年</option><option value='2019/12/31'>平成31年・令和元年</option><option value='2018/12/31'>平成30年</option><option value='2017/12/31'>平成29年</option><option value='2016/12/31'>平成28年</option><option value='2015/12/31'>平成27年</option><option value='2014/12/31'>平成26年</option><option value='2013/12/31'>平成25年</option><option value='2012/12/31'>平成24年</option><option value='2011/12/31'>平成23年</option><option value='2010/12/31'>平成22年</option><option value='2009/12/31'>平成21年</option><option value='2008/12/31'>平成20年</option><option value='2007/12/31'>平成19年</option><option value='2006/12/31'>平成18年</option><option value='2005/12/31'>平成17年</option><option value='2004/12/31'>平成16年</option><option value='2003/12/31'>平成15年</option><option value='2002/12/31'>平成14年</option><option value='2001/12/31'>平成13年</option><option value='2000/12/31'>平成12年</option><option value='1999/12/31'>平成11年</option><option value='1998/12/31'>平成10年</option>
+	</select><label for="nento"><abbr title="議決年での絞り込みの終了年">年</abbr></label></dd>
+
+	<dt><label for="kekka">議決結果</label></dt>
+	<dd><select name="kekka" id="kekka" class="i_key_s">
+		<option value="">　</option>
+<option value="可決">可決</option><option value="否決">否決</option><option value="修正可決">修正可決</option><option value="可決(一部修正)">可決(一部修正)</option><option value="継続審議">継続審議</option><option value="承認">承認</option><option value="審議未了">審議未了</option><option value="同意">同意</option><option value="認定">認定</option><option value="不同意">不同意</option><option value="撤回">撤回</option><option value="廃案">廃案</option><option value="知事の裁決案は適当と認める">知事の裁決案は適当と認める</option><option value="知事の決定案は適当と認める">知事の決定案は適当と認める</option><option value="継続審査">継続審査</option>
+	</select></dd>
+
+
+	<dt><label for="kensu">表示件数</label></dt>
+	<dd><select name="kensu" id="kensu" class="i_key_s">
+		<option value="20">20件</option>
+		<option value="50">50件</option>
+		<option value="100" selected='selected'>100件</option>
+	</select></dd>
+</dl>
+	<input type="submit" value="検索" class="button button-blue" />
+	<input type="button" value="リセット" class="button button-silver" onClick="location.href='g07_giketsu.asp?Sflg=2'" />
+	<input type="hidden" name="Sflg" id="Sflg" value="2" />
+	<input type="hidden" name="smode" id="smode_2" value="2" />
+
+</form>
+<div class='pagenation'><span class='current'>1</span>登録件数 81 件&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<table>
+<thead><tr>
+
+	<th scope="col">議案番号</th>
+
+	<th scope="col">区分</th>
+
+	<th scope="col">議案名</th>
+
+	<th scope="col">本会議議決結果</th>
+
+</tr></thead><tbody>
+
+<tr><td colspan="4" class="kaigi_midashi">　令和8年　2月定例会議<span style="float: right;font-size: 85%;"><img src="image/sankaku_blue.gif" alt="" /><a href="voices/g07_Congress.asp?Y1=2026">提案説明・賛否の状況等</a></span></td></tr>
+<tr>
+<td class="tnowrap" style='width:10%;'>会第1号</td>
+
+<td class="tnowrap" style='width:10%;'>議員提出議案</td>
+
+<td style='width:60%;'>滋賀県企業立地および先端技術研究開発の促進等による成長産業振興条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6841_kai_1.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 210KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>会第2号</td>
+
+<td class="tnowrap" style='width:10%;'>議員提出議案</td>
+
+<td style='width:60%;'>滋賀県議会委員会条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6842_kai_2.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 41KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第2号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県一般会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6766_g2.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 14,998KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第3号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県市町振興資金貸付事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6767_g3.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 129KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第4号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県母子父子寡婦福祉資金貸付事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6768_g4.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 152KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第5号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県中小企業支援資金貸付事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6769_g5.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 155KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第6号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県林業・木材産業改善資金貸付事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6770_g6.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 167KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第7号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県沿岸漁業改善資金貸付事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6771_g7.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 154KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第8号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県公債管理特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6772_g8.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 243KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第9号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県国民健康保険事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6773_g9.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 189KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第10号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県産業用地開発事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6774_g10.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 325KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第11号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県土地取得事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6775_g11.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 231KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第12号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県用品調達事業特別会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6776_g12.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 130KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第13号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県モーターボート競走事業会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6777_g13.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 522KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第14号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県琵琶湖流域下水道事業会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6778_g14.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 1,580KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第15号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県病院事業会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6779_g15.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 854KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第16号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県工業用水道事業会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6780_g16.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 637KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第17号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和8年度滋賀県水道用水供給事業会計予算<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6782_g17.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 1,002KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第18号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県部等設置条例等の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6783_g18.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 620KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第19号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県附属機関設置条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6784_g19.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 502KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第20号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県職員定数条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6785_g20.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 179KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第21号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県知事の権限に属する事務の処理の特例に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6786_g21.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 109KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第22号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県職員の勤務時間、休日および休暇に関する条例等の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6787_g22.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 2,355KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第23号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県職員等の給与等に関する条例等の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6788_g23.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 2,158KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第24号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県公告式条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6789_g24.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 391KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第25号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県国民スポーツ大会・全国障害者スポーツ大会運営等基金条例の一部を改正する条例案<br />
+<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6790_g25.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 148KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第26号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県後期高齢者医療財政安定化基金条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6791_g26.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 87KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第27号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県税条例に掲げる寄附金を受け入れる特定非営利活動法人を指定する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6792_g27.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 162KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第28号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>琵琶湖森林づくり県民税条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6793_g28.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 98KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第29号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県使用料および手数料条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6794_g29.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 276KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第30号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県行政財産使用料条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6795_g30.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 91KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第31号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県行政手続条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6796_g31.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 371KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第32号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県公益認定等委員会条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6797_g32.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 117KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第33号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県立長寿社会福祉センターの設置および管理に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6798_g33.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 139KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第34号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県障害者介護給付費等不服審査会設置条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6799_g34.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 92KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第35号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県国民健康保険保険給付費等交付金および国民健康保険事業費納付金に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6800_g35.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 323KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第36号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県食品衛生基準条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6801_g36.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 473KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第37号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県道路占用料徴収条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6802_g37.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 1,080KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第38号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県環境影響評価条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6803_g38.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 224KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第39号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県公営企業の設置等に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6804_g39.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 162KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第40号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県病院事業の設置等に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6805_g40.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 261KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第41号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県モーターボート競走事業の設置等に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6806_g41.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 175KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第42号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県市町立学校の県費負担教職員の定数に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6807_g42.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 153KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第43号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県学校職員の特殊勤務手当に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6808_g43.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 91KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第44号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県立体育館の設置および管理に関する条例および滋賀県立スポーツ会館の設置および管理に関する条例を廃止する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6809_g44.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 132KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第45号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県地方警察職員の定員に関する条例の一部を改正する条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6810_g45.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 122KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第46号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>契約の変更につき議決を求めることについて（滋賀県立琵琶湖文化館整備事業）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6811_g46.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 119KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第47号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>契約の変更につき議決を求めることについて（神郷彦根線補助道路整備工事）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6812_g47.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 137KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第48号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>契約の変更につき議決を求めることについて（杉本余呉線補助道路整備工事）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6813_g48.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 144KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第49号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県母子および父子ならびに寡婦福祉資金貸付金に係る償還金および違約金の請求訴訟の提起につき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6818_g49.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 65KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第50号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>国の行う土地改良事業に要する経費について関係市町が負担すべき金額を定めることにつき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6814_g50.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 160KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第51号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>琵琶湖流域下水道湖南中部処理区の管理に要する経費について関係市町が負担すべき金額を定めることにつき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6815_g51.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 197KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第52号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>公立大学法人滋賀県立大学定款の変更につき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6816_g52.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 736KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第53号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>包括外部監査契約の締結につき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6819_g53.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 48KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第54号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県農業・水産業基本計画の策定につき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6817_g54.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 615KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第55号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県一般会計補正予算（第9号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6820_gi_55.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 7,134KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第56号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県市町振興資金貸付事業特別会計補正予算（第1号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6821_gi_56.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 182KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第57号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県母子父子寡婦福祉資金貸付事業特別会計補正予算（第2号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6822_gi_57.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 339KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第58号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県中小企業支援資金貸付事業特別会計補正予算（第1号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6823_gi_58.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 218KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第59号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県林業・木材産業改善資金貸付事業特別会計補正予算（第1号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6824_gi_59.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 210KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第60号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県沿岸漁業改善資金貸付事業特別会計補正予算（第1号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6825_gi_60.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 205KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第61号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県公債管理特別会計補正予算（第1号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6826_gi_61.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 175KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第62号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県国民健康保険事業特別会計補正予算（第2号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6827_gi_62.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 268KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第63号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県産業用地開発事業特別会計補正予算（第1号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6828_gi_63.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 246KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第64号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県土地取得事業特別会計補正予算（第1号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6829_gi_64.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 218KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第65号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県用品調達事業特別会計補正予算（第2号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6830_gi_65.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 183KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第66号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県収入証紙特別会計補正予算（第1号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6831_gi_66.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 175KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第67号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県モーターボート競走事業会計補正予算（第3号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6832_gi_67.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 269KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第68号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県琵琶湖流域下水道事業会計補正予算（第5号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6833_gi_68.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 427KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第69号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県病院事業会計補正予算（第4号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6834_gi_69.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 533KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第70号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県工業用水道事業会計補正予算（第3号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6835_gi_70.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 321KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第71号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県水道用水供給事業会計補正予算（第3号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6836_gi_71.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 378KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第72号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県高等学校等教育改革促進基金条例案<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6837_gi_72.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 250KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第73号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>県の行う建設事業に要する経費について関係市町が負担すべき金額を定めることにつき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6838_gi_73.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 568KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第74号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>県の行う土地改良事業に要する経費について関係市町が負担すべき金額を定めることにつき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6839_gi_74.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 518KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第75号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>県の行う土地改良事業に要する経費について関係市町が負担すべき金額を定めることにつき議決を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6840_gi_75.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 362KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第76号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>令和7年度滋賀県一般会計補正予算（第10号）<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6843_gi_76.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 1,275KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第77号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>契約の変更につき議決を求めることについて（滋賀県東北部工業技術センター整備事業）<br />
+<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6844_gi_77 .pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 160KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>可決</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第78号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県教育委員会委員の任命につき同意を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6845_gi_78.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 46KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>同意</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第79号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県人事委員会委員の選任につき同意を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6846_gi_79.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 44KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>同意</td>
+</tr><tr>
+<td class="tnowrap" style='width:10%;'>議第80号</td>
+
+<td class="tnowrap" style='width:10%;'>知事提出議案</td>
+
+<td style='width:60%;'>滋賀県収用委員会予備委員の任命につき同意を求めることについて<br /><div class='fourdown'><a href='/voices/GikaiDoc/attach/Gk/Gk6847_gi_80.pdf'><img src='image/icon_pdf.gif' alt='' class='iconimg' />本文の表示  (PDF 45KB)</a></div></td>
+
+<td class="tnowrap" style='width:20%;'>同意</td>
+</tr>
+</tbody></table>
+<div class='pagenation'><span class='current'>1</span>登録件数 81 件&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div class="backpage"><img src="image/arrow_up.gif" alt="" /><a href="#AreaHeader">ページの先頭へ戻る</a>　<img src="image/arrow_top.gif" alt="" /><a href="javascript:history.back();">前の画面に戻る</a></div>
+        </div>
+        <!-- end AreaGikaidoc -->
+      </div>
+      <!-- end AreaContentsBodyTop -->
+      <!-- start AreaContainer -->
+      <div id="AreaContainer">
+
+        <!-- start semenu -->
+        <div id="semenu">
+
+<ul>
+	<li><a href="index_s.asp">スマートフォンサイト</a></li>
+</ul>
+
+<div class="s_categories">
+<h2>議員の情報</h2>
+<ul>
+	<li><a href="gichoidx.asp">議長・副議長</a></li>
+	<li><a href="g07_giinlistP.asp">議員名簿</a></li>
+	<li><a href="giin_senkyoku.asp">県議会議員の選挙区</a></li>
+	<li><a href="g07_Committee.asp">委員会構成と議会役員等</a></li>
+</ul></div>
+
+<div class="s_categories">
+<h2>県議会の情報</h2>
+<ul>
+	<li><a href="g07_Oshirase.asp">県議会からのお知らせ</a></li>
+	<li><a href="g07_Nittei_Month.asp">議会の予定</a></li>
+	<li><a href="guide1.asp">県議会について</a></li>
+	<li><a href="kaikakuidx.asp">議会改革</a></li>
+	<li><a href="g07_shiryo8.asp">政務活動費</a></li>
+	<li><a href="publiccomment.asp">意見募集</a></li>
+	<li><a href="wakamono.asp">若者の議会への興味関心を深めるための取組</a></li>
+</ul></div>
+
+<div class="s_categories">
+<h2>各種手続き・ご案内</h2>
+<ul>
+	<li><a href="seiganchinjo.asp">請願・陳情の提出について</a></li>
+	<li><a href="bocho.asp">傍聴のご案内</a></li>
+	<li><a href="etsuran.asp">会議録(刊行物)について</a></li>
+	<li><a href="guide3.asp">議長賞・後援名義の申請</a></li>
+</ul></div>
+
+<div class="s_categories">
+<h2>本会議・委員会</h2>
+<ul>
+	<li><a href="voices/g07_Congress.asp">本会議の開催状況</a></li>
+	<li><a href="g07_Nittei_Search.asp">本会議の開催予定</a></li>
+	<li><a href="g07_Nittei_Com.asp">委員会の活動状況</a></li>
+	<li><a href="g07_Nittei_Month.asp?ComCls=1">委員会の活動予定</a></li>
+</ul></div>
+
+<div class="s_categories">
+<h2>議案・請願等</h2>
+<ul>
+	<li><a href="g07_Shitsumon.asp">質疑・質問要旨一覧</a></li>
+	<li><a href="g07_giketsu.asp">議案一覧</a></li>
+	<li><a href="g07_Iken.asp">意見書・決議一覧</a></li>
+	<li><a href="g07_Seigan.asp">請願一覧</a></li>
+</ul></div>
+
+<div class="s_categories">
+<h2>議会映像</h2>
+<ul>
+	<li><a href="g07_broadcasting.asp">議会映像の配信</a></li>
+	<li><a href="g07_Video_Search.asp">議場録画映像検索</a></li>
+</ul></div>
+
+<div class="s_categories">
+<h2>会議録</h2>
+<ul>
+	<li><a href="voices/g08v_viewh.asp">本会議録の閲覧</a></li>
+	<li><a href="voices/g08v_views.asp">委員会要録の閲覧</a></li>
+	<li><a href="voices/g07v_search.asp">会議録の検索</a></li>
+</ul></div>
+
+<div class="s_categories">
+<h2>議会広報</h2>
+<ul>
+	<li><a href="kohokatsudo.asp">広報活動について</a></li>
+	<li><a href="g07_Koho.asp">議会だより</a></li>
+	<li><a href="g07_shiryo2.asp">テレビ広報映像</a></li>
+	<li><a href="gikai_twitter.asp">X(旧ツイッター)</a></li>
+</ul></div>
+
+<div class="s_categories">
+<h2>その他</h2>
+<ul>
+	<li><a href="guide2.asp">各種計画</a></li>
+	<li><a href="sitelink.asp">リンク集</a></li>
+	<li><a href="shisatsu.asp">行政調査について</a></li>
+	<li><a href="kojinjohohogo.asp">個人情報保護</a></li>
+</ul></div>
+
+        </div>
+        <!-- end semenu -->
+      </div>
+      <!-- end AreaContainer -->
+
+    </div>
+    <!-- end AreaContentsBase -->
+
+    <!-- start AreaFooter -->
+    <div id="AreaFooter">
+      <!-- start AreaFooterBase2 -->
+      <div id="AreaFooterBase2">
+        <!-- start policy -->
+        <div id="policy"><a href="reference.asp">お問い合わせ</a> ｜ サイトポリシー( <a href="privacy.asp">個人情報の取り扱い</a> ｜ <a href="copyright.asp">著作権・リンク等</a>） ｜ <a href="sitemap.asp">サイトマップ</a></div>
+        <!-- end policy -->
+        <!-- start copyright -->
+        <div id="copyright">
+            <strong>問い合わせ先：</strong>滋賀県議会事務局<br />
+           　　　住所：〒520-8577  大津市京町四丁目1-1　<a href="access.asp">県議会へのアクセス</a><br />
+           　　　ファクシミリ：<strong>077-528-4940</strong>　Eメール：<a href="mailto:&#103;&#105;&#107;&#97;&#105;&#64;&#112;&#114;&#101;&#102;&#46;&#115;&#104;&#105;&#103;&#97;&#46;&#108;&#103;&#46;&#106;&#112;">&#103;&#105;&#107;&#97;&#105;&#64;&#112;&#114;&#101;&#102;&#46;&#115;&#104;&#105;&#103;&#97;&#46;&#108;&#103;&#46;&#106;&#112;</a><br />
+           　　　電話番号：総務課　<strong>077-528-4081</strong>　議事課　<strong>077-528-4091</strong>　政策調査課　<strong>077-528-4094</strong>
+        </div>
+        <!-- end copyright -->
+        <div class="footer_btn"><a href="http://www.pref.shiga.lg.jp/">滋賀県庁</a></div>
+        <div class="footer_btn"><a href="http://www.kouiki-kansai.jp/koikirengo/gikai/index.html">関西広域連合議会</a></div>
+      </div>
+      <!-- end AreaFooterBase2 -->
+      <!-- start address -->
+      <address>
+      Copyright &copy; Shiga Prefecture. All rights reserved.
+      </address>
+      <!-- end address -->
+    </div>
+    <!-- end AreaFooter -->
+
+  </div>
+  <!-- end base -->
+</body>
+</html>

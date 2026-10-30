@@ -1,0 +1,36 @@
+{
+  "sourceId": "kameyama-shigikai-r8",
+  "files": [
+    {
+      "filename": "kameyama_kaiha-list.html",
+      "sha256": "d4edf7d26efafdc30860f7d2eab0a5bfe52b937b26c4cfcd779976e09584f759",
+      "bytes": 15989,
+      "fetchedAt": "2026-10-30T13:40:58.590Z",
+      "fetchedFrom": "https://www.city.kameyama.mie.jp/gikai/giin/2014122800866/kaiha-list.html"
+    },
+    {
+      "filename": "kameyama_kaihameibo071114.pdf",
+      "sha256": "81d685f4dcff4fac32ac30c6cc1058931b6336b8abec53128c5575cae482e8ba",
+      "bytes": 102285,
+      "fetchedAt": "2026-10-30T13:40:58.591Z",
+      "fetchedFrom": "https://www.city.kameyama.mie.jp/gikai/giin/2014122800866/file_contents/kaihameibo071114.pdf"
+    },
+    {
+      "filename": "kameyama_R0803hyouketu.pdf",
+      "sha256": "5dcf7e4629d211a994291c45baf08fea1d26e1f69f391265783143bae0087c4a",
+      "bytes": 229789,
+      "fetchedAt": "2026-10-30T13:40:58.591Z",
+      "fetchedFrom": "https://www.city.kameyama.mie.jp/_files/00213493/R0803hyouketu.pdf"
+    },
+    {
+      "filename": "kameyama_giketsu_2026021700123.html",
+      "sha256": "36b7b53689293629458554f6a12ed19f30ff161f1733b4adccc44ffb1e02a921",
+      "bytes": 32064,
+      "fetchedAt": "2026-10-30T13:40:58.591Z",
+      "fetchedFrom": "https://www.city.kameyama.mie.jp/gikai/katsudo/2026021700123/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

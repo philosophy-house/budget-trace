@@ -1,0 +1,19 @@
+{
+  "sourceId": "nagahama-shigikai-r8",
+  "files": [
+    {
+      "filename": "sisho.pdf",
+      "sha256": "2a80f851764e9e805d05354501739d221742609db4d97d9c719a3a7b57a7421a",
+      "bytes": 72052,
+      "fetchedAt": "2026-10-30T13:40:58.527Z",
+      "fetchedFrom": "https://www.city.nagahama.lg.jp/cmsfiles/contents/0000016/16634/sisho.pdf"
+    },
+    {
+      "filename": "0000016634.html",
+      "sha256": "a0f874d963dac60d95ff9e1f4f0482210efb9330192246e110cb4c9e1d836124",
+      "bytes": 36927,
+      "fetchedAt": "2026-10-30T13:40:58.527Z",
+      "fetchedFrom": "https://www.city.nagahama.lg.jp/0000016634.html"
+    }
+  ]
+}

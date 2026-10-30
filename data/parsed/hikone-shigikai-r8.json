@@ -1,0 +1,117 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hikone-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:17.673Z",
+  "fiscalYear": "R8",
+  "body": "彦根市議会",
+  "seats": 24,
+  "asOf": "2025-05-21",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "親政クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "小川隆史",
+        "和田一繁",
+        "馬場和子",
+        "長崎任男",
+        "森野克彦",
+        "林利幸"
+      ],
+      "locator": {
+        "file": "5786.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "野村博雄",
+        "安澤勝",
+        "奥野嘉己",
+        "伊藤容子",
+        "黒澤茂樹",
+        "疋田菜穂子"
+      ],
+      "locator": {
+        "file": "5786.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "夢みらい",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小川吉則",
+        "戸崎克司",
+        "矢吹安子",
+        "森田充"
+      ],
+      "locator": {
+        "file": "5786.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "創風会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "北川元気",
+        "堀口達也",
+        "八橋龍二",
+        "辻真理子"
+      ],
+      "locator": {
+        "file": "5786.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党彦根市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中野正剛",
+        "上杉正敏"
+      ],
+      "locator": {
+        "file": "5786.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党彦根市会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "角井英明",
+        "中川睦子"
+      ],
+      "locator": {
+        "file": "5786.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第4号",
+    "billName": "令和8年度(2026年度)彦根市一般会計予算",
+    "sessionLabel": "令和8年(2026年)3月定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "可決",
+    "locator": {
+      "file": "5783.html"
+    }
+  },
+  "rosterTitle": "議会のあらまし「会派の構成一覧」（令和7年5月21日現在）と【令和7年度】会派ごとの政務活動費収支報告の所属議員",
+  "resultTitle": "議案一覧・議決結果（令和8年3月定例会）"
+}

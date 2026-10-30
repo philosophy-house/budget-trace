@@ -1,0 +1,272 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fukuchiyama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:21.839Z",
+  "fiscalYear": "R8",
+  "body": "福知山市議会",
+  "seats": 23,
+  "asOf": "2024-11-20",
+  "factions": [
+    {
+      "name": "福知山市議会公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大谷洋介",
+        "足立伸一",
+        "吉見茂久"
+      ],
+      "locator": {
+        "file": "13044.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "日本共産党福知山市会議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "吉見純男",
+        "中村初代",
+        "梶原秀明"
+      ],
+      "locator": {
+        "file": "13044.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "蒼士会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "髙橋正樹",
+        "野田晋介",
+        "藤本喜章",
+        "森下賢司"
+      ],
+      "locator": {
+        "file": "13044.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属・維新議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "塩見聡",
+        "岩﨑崇央"
+      ],
+      "locator": {
+        "file": "13044.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "田渕裕二",
+        "中嶋守",
+        "小松遼太",
+        "岡野天明",
+        "片山正紀",
+        "井上雄一"
+      ],
+      "locator": {
+        "file": "13044.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "対話の時代",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "イシワタマリ",
+        "田中法男"
+      ],
+      "locator": {
+        "file": "13044.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "地域政党「ふくちやま」",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "荒川浩司",
+        "小原彰紀",
+        "水谷タツヤ"
+      ],
+      "locator": {
+        "file": "13044.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "９３",
+    "billName": "令和８年度福知山市一般会計予算",
+    "sessionLabel": "令和８年第１回（３月）福知山市議会定例会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "可決(賛成多数)",
+    "locator": {
+      "file": "53069.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派及び所属議員（更新日 2024年11月20日・議決前 2026-01-15 の魚拓）",
+  "resultTitle": "令和８年第１回（３月）福知山市議会定例会 議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月定例会議決結果について（賛否一覧・令和8年3月30日現在）",
+    "sourceFile": "53078.pdf",
+    "columns": [
+      {
+        "label": "大谷洋介",
+        "faction": "福知山市議会公明党",
+        "member": "大谷洋介",
+        "stance": "賛成"
+      },
+      {
+        "label": "足立伸一",
+        "faction": "福知山市議会公明党",
+        "member": "足立伸一",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉見純男",
+        "faction": "日本共産党福知山市会議員団",
+        "member": "吉見純男",
+        "stance": "反対"
+      },
+      {
+        "label": "中村初代",
+        "faction": "日本共産党福知山市会議員団",
+        "member": "中村初代",
+        "stance": "反対"
+      },
+      {
+        "label": "梶原秀明",
+        "faction": "日本共産党福知山市会議員団",
+        "member": "梶原秀明",
+        "stance": "反対"
+      },
+      {
+        "label": "髙橋正樹",
+        "faction": "蒼士会",
+        "member": "髙橋正樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "野田晋介",
+        "faction": "蒼士会",
+        "member": "野田晋介",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤本喜章",
+        "faction": "蒼士会",
+        "member": "藤本喜章",
+        "stance": "賛成"
+      },
+      {
+        "label": "森下賢司",
+        "faction": "蒼士会",
+        "member": "森下賢司",
+        "stance": "賛成"
+      },
+      {
+        "label": "塩見聡",
+        "faction": "無所属・維新議員団",
+        "member": "塩見聡",
+        "stance": "反対"
+      },
+      {
+        "label": "岩﨑崇央",
+        "faction": "無所属・維新議員団",
+        "member": "岩﨑崇央",
+        "stance": "反対"
+      },
+      {
+        "label": "田渕裕二",
+        "faction": "新政会",
+        "member": "田渕裕二",
+        "stance": "賛成"
+      },
+      {
+        "label": "中嶋守",
+        "faction": "新政会",
+        "member": "中嶋守",
+        "stance": "賛成"
+      },
+      {
+        "label": "小松遼太",
+        "faction": "新政会",
+        "member": "小松遼太",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡野天明",
+        "faction": "新政会",
+        "member": "岡野天明",
+        "stance": "賛成"
+      },
+      {
+        "label": "片山正紀",
+        "faction": "新政会",
+        "member": "片山正紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上雄一",
+        "faction": "新政会",
+        "member": "井上雄一",
+        "stance": "賛成"
+      },
+      {
+        "label": "イシワタマリ",
+        "faction": "対話の時代",
+        "member": "イシワタマリ",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中法男",
+        "faction": "対話の時代",
+        "member": "田中法男",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒川浩司",
+        "faction": "地域政党「ふくちやま」",
+        "member": "荒川浩司",
+        "stance": "反対"
+      },
+      {
+        "label": "小原彰紀",
+        "faction": "地域政党「ふくちやま」",
+        "member": "小原彰紀",
+        "stance": "反対"
+      },
+      {
+        "label": "水谷タツヤ",
+        "faction": "地域政党「ふくちやま」",
+        "member": "水谷タツヤ",
+        "stance": "反対"
+      },
+      {
+        "label": "吉見茂久",
+        "faction": "福知山市議会公明党",
+        "member": "吉見茂久",
+        "stance": "議長"
+      }
+    ]
+  }
+}

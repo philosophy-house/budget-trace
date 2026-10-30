@@ -1,0 +1,312 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ise-shi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:26.092Z",
+  "fiscalYear": "R8",
+  "body": "伊勢市議会",
+  "seats": 24,
+  "asOf": "2025-12-05",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "未来創成",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "大西要一",
+        "池田覚",
+        "谷口久美",
+        "中村栄治",
+        "山木英樹",
+        "杉村剛",
+        "北村勝"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "勢風会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "𠮷岡勝裕",
+        "上村和生",
+        "宮﨑誠",
+        "宮本晃",
+        "久保真"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "ネクスト",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岡田善行",
+        "小阪史章",
+        "中村功"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "辻孝記",
+        "吉井詩子"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "政友会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "品川幸久",
+        "宿典泰"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "市民の声",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "大野寛文"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "みらいをつくる会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森下知世"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "神谷明子"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "楠木宏彦"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "未来伊勢研究会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "青沼陽一郎"
+      ],
+      "locator": {
+        "file": "1005266.html",
+        "row": 10
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第3号",
+    "billName": "令和8年度伊勢市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1019925.html"
+    }
+  },
+  "rosterTitle": "伊勢市議会会派名簿（令和7年12月5日現在）",
+  "resultTitle": "令和8年 議決結果一覧表（令和8年3月定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "賛否一覧表（令和8年3月定例会・令和8年2月臨時会）「賛否の分かれた案件」",
+    "sourceFile": "r0803sanpi.pdf",
+    "columns": [
+      {
+        "label": "大野寛文",
+        "faction": "市民の声",
+        "member": "大野寛文",
+        "stance": "賛成"
+      },
+      {
+        "label": "小阪史章",
+        "faction": "ネクスト",
+        "member": "小阪史章",
+        "stance": "賛成"
+      },
+      {
+        "label": "神谷明子",
+        "faction": "参政党",
+        "member": "神谷明子",
+        "stance": "反対"
+      },
+      {
+        "label": "森下知世",
+        "faction": "みらいをつくる会",
+        "member": "森下知世",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村栄治",
+        "faction": "未来創成",
+        "member": "中村栄治",
+        "stance": "賛成"
+      },
+      {
+        "label": "山木英樹",
+        "faction": "未来創成",
+        "member": "山木英樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "青沼陽一郎",
+        "faction": "未来伊勢研究会",
+        "member": "青沼陽一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉村剛",
+        "faction": "未来創成",
+        "member": "杉村剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮本晃",
+        "faction": "勢風会",
+        "member": "宮本晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷口久美",
+        "faction": "未来創成",
+        "member": "谷口久美",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田覚",
+        "faction": "未来創成",
+        "member": "池田覚",
+        "stance": "賛成"
+      },
+      {
+        "label": "大西要一",
+        "faction": "未来創成",
+        "member": "大西要一",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮﨑誠",
+        "faction": "勢風会",
+        "member": "宮﨑誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "久保真",
+        "faction": "勢風会",
+        "member": "久保真",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村功",
+        "faction": "ネクスト",
+        "member": "中村功",
+        "stance": "賛成"
+      },
+      {
+        "label": "上村和生",
+        "faction": "勢風会",
+        "member": "上村和生",
+        "stance": "賛成"
+      },
+      {
+        "label": "楠木宏彦",
+        "faction": "日本共産党",
+        "member": "楠木宏彦",
+        "stance": "反対"
+      },
+      {
+        "label": "吉井詩子",
+        "faction": "公明党",
+        "member": "吉井詩子",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田善行",
+        "faction": "ネクスト",
+        "member": "岡田善行",
+        "stance": "賛成"
+      },
+      {
+        "label": "辻孝記",
+        "faction": "公明党",
+        "member": "辻孝記",
+        "stance": "賛成"
+      },
+      {
+        "label": "𠮷岡勝裕",
+        "faction": "勢風会",
+        "member": "𠮷岡勝裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "品川幸久",
+        "faction": "政友会",
+        "member": "品川幸久",
+        "stance": "賛成"
+      },
+      {
+        "label": "宿典泰",
+        "faction": "政友会",
+        "member": "宿典泰",
+        "stance": "賛成"
+      },
+      {
+        "label": "北村勝",
+        "faction": "未来創成",
+        "member": "北村勝",
+        "stance": "議長"
+      }
+    ]
+  }
+}

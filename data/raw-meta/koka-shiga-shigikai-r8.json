@@ -1,0 +1,26 @@
+{
+  "sourceId": "koka-shiga-shigikai-r8",
+  "files": [
+    {
+      "filename": "r080318giketsukekka.pdf",
+      "sha256": "64ecde21f4e50a94d6c2d5f4dbbfb58910a9e3430a762b90835d853e22c36de9",
+      "bytes": 271954,
+      "fetchedAt": "2026-10-30T13:40:58.542Z",
+      "fetchedFrom": "https://www.city.koka.lg.jp/secure/42909/r080318giketsukekka.pdf"
+    },
+    {
+      "filename": "seimukatsudouhilist2026.pdf",
+      "sha256": "84d9c1ee3b1623be0249efab78f8760255f0b1c008f3d299936dcab7591f6467",
+      "bytes": 71509,
+      "fetchedAt": "2026-10-30T13:40:58.543Z",
+      "fetchedFrom": "https://www.city.koka.lg.jp/secure/11728/seimukatsudouhilist2026.pdf"
+    },
+    {
+      "filename": "1108.htm",
+      "sha256": "e04e9e526b475f9749c872e81d359045b0e88a022957e7f70747874a0df3dbea",
+      "bytes": 70225,
+      "fetchedAt": "2026-10-30T13:40:58.543Z",
+      "fetchedFrom": "https://web.archive.org/web/20260218181129id_/https://www.city.koka.lg.jp/1108.htm"
+    }
+  ]
+}

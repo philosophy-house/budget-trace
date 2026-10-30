@@ -1,0 +1,197 @@
+{
+  "docType": "council-composition",
+  "sourceId": "otsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:17.490Z",
+  "fiscalYear": "R8",
+  "body": "大津市議会",
+  "seats": 38,
+  "asOf": "2026-03-25",
+  "teisu": 38,
+  "factions": [
+    {
+      "name": "新和会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "幸光正嗣",
+        "八田憲児",
+        "笠谷洋佑",
+        "田中康博",
+        "井元潔",
+        "桒野靖七",
+        "細川俊行",
+        "細川力男"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "湖誠会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "竹内照夫",
+        "川口正徳",
+        "葉月陽",
+        "草野聖地",
+        "竹内基二",
+        "寺田英幸",
+        "福永英晶"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民ネット２１",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "草川肇",
+        "田中知久",
+        "嘉田修平",
+        "奥村功",
+        "日隈慈",
+        "船本力"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "大津市議会公明党議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "佐藤弘",
+        "浜奥修利",
+        "改田勝彦",
+        "中田一子",
+        "森脇謙一"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党大津市会議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "杉浦智子",
+        "林まり",
+        "柏木敬友子",
+        "小島義雄"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "大津維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "寺谷吉寛",
+        "原田優太"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "協生会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "出町明美"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "清正会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "谷祐治"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "地域政党 滋賀・大津党の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森川えりな"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "平和と市民自治",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中川哲也"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "立志会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "青山三四郎"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "廉正会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "伴孝昭"
+      ],
+      "locator": {
+        "file": "2026032518.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第3号",
+    "billName": "令和8年度大津市一般会計予算",
+    "sessionLabel": "2月通常会議",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "可決（多数）",
+    "locator": {
+      "file": "68518.html"
+    }
+  },
+  "rosterTitle": "賛否の公表（2月通常会議・3月25日採決分）の会派名・議員名の表頭",
+  "resultTitle": "議案の一覧・結果（令和7年度）2月通常会議"
+}

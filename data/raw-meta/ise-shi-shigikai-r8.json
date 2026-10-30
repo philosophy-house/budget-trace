@@ -1,0 +1,40 @@
+{
+  "sourceId": "ise-shi-shigikai-r8",
+  "files": [
+    {
+      "filename": "1005266.html",
+      "sha256": "f5fb43c3323c60e85a6a9d02e63df048ddf9ee5f12aafa8cc835f72c974a6c78",
+      "bytes": 41473,
+      "fetchedAt": "2026-10-30T13:40:58.582Z",
+      "fetchedFrom": "https://web.archive.org/web/20260306055743id_/https://www.city.ise.mie.jp/gikai/giin/1005266.html"
+    },
+    {
+      "filename": "r7.12-3-syuushiichirannhyou.pdf",
+      "sha256": "2202f338122aa91f5000f63e6c76c1b91675b553bc94ac5d1ae2c3921add49f3",
+      "bytes": 53214,
+      "fetchedAt": "2026-10-30T13:40:58.583Z",
+      "fetchedFrom": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/005/342/r7.12-3-syuushiichirannhyou.pdf"
+    },
+    {
+      "filename": "1005267.html",
+      "sha256": "ef28038c35259b4c31fbc98e5a0edefe5ff1528463aaf3bfc843f556b12adf3c",
+      "bytes": 47334,
+      "fetchedAt": "2026-10-30T13:40:58.583Z",
+      "fetchedFrom": "https://www.city.ise.mie.jp/gikai/giin/1005267.html"
+    },
+    {
+      "filename": "1019925.html",
+      "sha256": "a1ded2f02f1a181b05b364e5ca2ce303ef5d451ace7a269aa07798e65202f84e",
+      "bytes": 79967,
+      "fetchedAt": "2026-10-30T13:40:58.583Z",
+      "fetchedFrom": "https://www.city.ise.mie.jp/gikai/kaigi/giketsu/1019925.html"
+    },
+    {
+      "filename": "r0803sanpi.pdf",
+      "sha256": "881f25cdbb754e913eb7a52192ebf482a0f62d15f0542a415d365f02a57492b9",
+      "bytes": 83360,
+      "fetchedAt": "2026-10-30T13:40:58.583Z",
+      "fetchedFrom": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/005/329/r0803sanpi.pdf"
+    }
+  ]
+}

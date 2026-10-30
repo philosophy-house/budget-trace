@@ -1,0 +1,279 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kusatsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.16",
+  "parsedAt": "2026-10-30T15:25:19.479Z",
+  "fiscalYear": "R8",
+  "body": "草津市議会",
+  "seats": 24,
+  "asOf": "2026-03-26",
+  "factions": [
+    {
+      "name": "輝勢会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "井上薫",
+        "小野元嗣",
+        "中嶋昭雄",
+        "中島美徳",
+        "服部利比郎",
+        "福田茂雄",
+        "山元宏和",
+        "横江政則"
+      ],
+      "locator": {
+        "file": "kusatsu_R8.3.26hyouketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "草政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "遠藤覚",
+        "瀬川裕海",
+        "田中香治",
+        "西田剛"
+      ],
+      "locator": {
+        "file": "kusatsu_R8.3.26hyouketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みらいと維新の風",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "田中詩織",
+        "野村友子",
+        "藤本晶",
+        "八木良人"
+      ],
+      "locator": {
+        "file": "kusatsu_R8.3.26hyouketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民派クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "杉江昇",
+        "先成俊士",
+        "土肥浩資"
+      ],
+      "locator": {
+        "file": "kusatsu_R8.3.26hyouketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "西垣和美",
+        "西村隆行"
+      ],
+      "locator": {
+        "file": "kusatsu_R8.3.26hyouketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党草津市会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "西川仁",
+        "藤井三恵子"
+      ],
+      "locator": {
+        "file": "kusatsu_R8.3.26hyouketsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "シン・プロジェクトK",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "伊吹達郎"
+      ],
+      "locator": {
+        "file": "kusatsu_R8.3.26hyouketsu.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第3号",
+    "billName": "令和８年度草津市一般会計予算",
+    "sessionLabel": "令和８年２月草津市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kusatsu_R8.3.26hyouketsu.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年２月草津市議会定例会 議員別表決結果一覧表（議決当日・表頭の会派と所属議員）",
+  "resultTitle": "令和８年２月草津市議会定例会 議員別表決結果一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年２月草津市議会定例会 議員別表決結果一覧表",
+    "sourceFile": "kusatsu_R8.3.26hyouketsu.pdf",
+    "columns": [
+      {
+        "label": "井上薫",
+        "faction": "輝勢会",
+        "member": "井上薫",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野元嗣",
+        "faction": "輝勢会",
+        "member": "小野元嗣",
+        "stance": "賛成"
+      },
+      {
+        "label": "中嶋昭雄",
+        "faction": "輝勢会",
+        "member": "中嶋昭雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島美徳",
+        "faction": "輝勢会",
+        "member": "中島美徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "服部利比郎",
+        "faction": "輝勢会",
+        "member": "服部利比郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田茂雄",
+        "faction": "輝勢会",
+        "member": "福田茂雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "山元宏和",
+        "faction": "輝勢会",
+        "member": "山元宏和",
+        "stance": "賛成"
+      },
+      {
+        "label": "横江政則",
+        "faction": "輝勢会",
+        "member": "横江政則",
+        "stance": "賛成"
+      },
+      {
+        "label": "瀬川裕海",
+        "faction": "草政会",
+        "member": "瀬川裕海",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中香治",
+        "faction": "草政会",
+        "member": "田中香治",
+        "stance": "賛成"
+      },
+      {
+        "label": "西田剛",
+        "faction": "草政会",
+        "member": "西田剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中詩織",
+        "faction": "みらいと維新の風",
+        "member": "田中詩織",
+        "stance": "賛成"
+      },
+      {
+        "label": "野村友子",
+        "faction": "みらいと維新の風",
+        "member": "野村友子",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤本晶",
+        "faction": "みらいと維新の風",
+        "member": "藤本晶",
+        "stance": "賛成"
+      },
+      {
+        "label": "八木良人",
+        "faction": "みらいと維新の風",
+        "member": "八木良人",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉江昇",
+        "faction": "市民派クラブ",
+        "member": "杉江昇",
+        "stance": "賛成"
+      },
+      {
+        "label": "先成俊士",
+        "faction": "市民派クラブ",
+        "member": "先成俊士",
+        "stance": "賛成"
+      },
+      {
+        "label": "土肥浩資",
+        "faction": "市民派クラブ",
+        "member": "土肥浩資",
+        "stance": "賛成"
+      },
+      {
+        "label": "西垣和美",
+        "faction": "公明党",
+        "member": "西垣和美",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村隆行",
+        "faction": "公明党",
+        "member": "西村隆行",
+        "stance": "賛成"
+      },
+      {
+        "label": "西川仁",
+        "faction": "日本共産党草津市会議員団",
+        "member": "西川仁",
+        "stance": "賛成でない"
+      },
+      {
+        "label": "藤井三恵子",
+        "faction": "日本共産党草津市会議員団",
+        "member": "藤井三恵子",
+        "stance": "賛成でない"
+      },
+      {
+        "label": "伊吹達郎",
+        "faction": "シン・プロジェクトK",
+        "member": "伊吹達郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤覚",
+        "faction": "草政会",
+        "member": "遠藤覚",
+        "stance": "議長"
+      }
+    ]
+  }
+}
