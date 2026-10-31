@@ -380,5 +380,4 @@ export const SKELETON_BUDGETS: SkeletonBudget[] = [
   { code: "282219", name: "丹波篠山市", fy: "R5", evidence: "「令和５年度 当初予算の概要」（R5yosanngaiyou.pdf）表紙「骨格予算」・p.3「令和５年度の一般会計は骨格予算とし予算規模は、230億3,900万円」（2026-10-31 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-116" },
   { code: "282219", name: "丹波篠山市", fy: "H31", evidence: "「平成３１年度 当初予算の概要」（tousyoyosangaiyo31.pdf）p.3「２月の市長選挙のため義務的な経費や継続事業を中心とした骨格予算となっています」（2026-10-31 に発行元から取得して pdftotext で照合）。議会で修正可決（議決一覧 119giketuitirann.pdf）。丹波篠山市の H31 は未収録", ref: "docs/data-sources.md §13-116" },
   { code: "282219", name: "丹波篠山市", fy: "H27", evidence: "予算の概要の一覧（/gyoseijoho/shiseinonei/finance/6972.html）のリンク名「2015（平成27）年度＜骨格予算＞」（2026-10-31 に発行元から取得して照合）。丹波篠山市の H27 は未収録", ref: "docs/data-sources.md §13-116" },
-
 ];

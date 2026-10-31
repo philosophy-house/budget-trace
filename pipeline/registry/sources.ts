@@ -34897,8 +34897,9 @@ export const SOURCES: SourceEntry[] = [
   //   廃止款: R4 歳入「△ 自動車取得税交付金 0 / 1」。
   // 前年度列は当初（R8〜R3 の5区間で款単位一致）。予算書・概要・内示資料に「骨格」「肉付」0件。
   // ライセンス: 「ホームページから発信する情報の著作権」（/homepege/tyosakuken.html・確認日 2026-10-31。R3 掲載時点の Wayback 2022-03 も同文）
-  //   ＝`複製・転用・転載を禁じます` で要許可。リンク（オープンデータのページ）「当サイトはリンクフリーですが、リンクは基本的にトップページに…
-  //   お願いいたします」＝自由と明言したうえでの依頼（福山型）⇒ `noDeepLink` なし。
+  //   ＝`複製・転用・転載を禁じます` で要許可。リンク（オープンデータのページ・主語は「当サイト」）「当サイトはリンクフリーですが、リンクは基本的に
+  //   トップページに…お願いいたします」＝筑西「リンクフリーですが、原則としてトップページ…にリンクを貼っていただくようにお願いします」とほぼ同文
+  //   ⇒ 筑西に揃えて `noDeepLink`（由利本荘の「原則として自由です。ただし、基本的にトップページ…」は立てていない＝先例が割れるので制限の強い方へ）。
   ...([
     ["R8", "https://www.city.sagae.yamagata.jp/shisei/zaisei/R8yosanangaiyou.files/R8tousyoyosansyo.pdf", "https://www.city.sagae.yamagata.jp/shisei/zaisei/R8yosanangaiyou.html", 12],
     ["R7", "https://www.city.sagae.yamagata.jp/shisei/zaisei/R7yosanangaiyou.files/R7tousyoyosansyo.pdf", "https://www.city.sagae.yamagata.jp/shisei/zaisei/R7yosanangaiyou.html", 13],
@@ -34917,6 +34918,7 @@ export const SOURCES: SourceEntry[] = [
     fiscalYear: fy,
     scope: "寒河江市（一般会計・団体コード062065）",
     license: SAGAE_LICENSE,
+    noDeepLink: true,
     parser: "kofu-yosansho" as const,
     parserOptions: {
       revenuePage: rp, expenditurePage: rp + 1,

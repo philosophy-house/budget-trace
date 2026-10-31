@@ -3,7 +3,7 @@
   "sourceId": "yuzawa-yosansho-r4",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-31T08:09:37.408Z",
+  "parsedAt": "2026-10-31T09:28:07.911Z",
   "unit": "thousandYen",
   "fiscalYear": "R4",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 27294705,
   "prevExpenditureTotal": 27294705,
   "prevBasis": "当初",
-  "prevNote": "@@YUZAWA_R4@@",
+  "prevNote": "前年度（令和3年度）の当初予算は骨格予算です（「令和３年度当初予算編成方針」に「令和３年４月に市長選挙が予定されていることから、…市政運営のベースとなる事務事業を対象とした骨格予算による編成とします。」とあります）。ここでの前年度額はその骨格予算の当初額（272億9,470万5千円）で、その後の補正予算で肉付けした後の額ではありません。",
   "facts": [
     {
       "side": "revenue",

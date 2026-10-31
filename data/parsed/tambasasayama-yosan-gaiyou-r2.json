@@ -3,7 +3,7 @@
   "sourceId": "tambasasayama-yosan-gaiyou-r2",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-31T08:09:49.463Z",
+  "parsedAt": "2026-10-31T09:28:08.902Z",
   "unit": "thousandYen",
   "fiscalYear": "R2",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 23267967,
   "prevExpenditureTotal": 23267967,
   "prevBasis": "当初",
-  "prevNote": "@@TBS_R2@@",
+  "prevNote": "前年度（平成31年度）の当初予算は骨格予算で（「平成３１年度 当初予算の概要」p.3 に「２月の市長選挙のため義務的な経費や継続事業を中心とした骨格予算となっています」とあります）、さらに市議会で修正のうえ可決されています（議決一覧「議案第１ 平成３１年度篠山市一般会計予算」の審議結果は「修正可決」・31.3.27）。ここでの前年度額は修正後の骨格予算の当初額（232億6,796万7千円）で、提案時の額（232億7,300万円）とも、その後の補正予算で肉付けした後の額とも違います。",
   "facts": [
     {
       "side": "revenue",

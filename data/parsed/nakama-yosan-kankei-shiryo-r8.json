@@ -3,7 +3,7 @@
   "sourceId": "nakama-yosan-kankei-shiryo-r8",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-31T08:09:40.815Z",
+  "parsedAt": "2026-10-31T09:28:08.103Z",
   "unit": "thousandYen",
   "fiscalYear": "R8",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 19045160,
   "prevExpenditureTotal": 19045160,
   "prevBasis": "当初",
-  "prevNote": "@@NAKAMA_R8@@",
+  "prevNote": "前年度（令和7年度）の当初予算は骨格予算です（「令和７年度中間市当初予算関係資料」p.1 に「中間市の令和７年度当初予算は、令和７年６月に市長選挙が予定されておりますので、政策性の高い事業につきまして、市長選挙後の新体制のもとで編成を行うことを基本とした「骨格予算」としております。」とあります）。ここでの前年度額はその骨格予算の当初額（190億4,516万円）で、選挙後の補正予算で肉付けした後の額ではありません。",
   "facts": [
     {
       "side": "revenue",

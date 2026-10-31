@@ -3,7 +3,7 @@
   "sourceId": "tambasasayama-yosan-gaiyou-r5",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-31T08:09:48.759Z",
+  "parsedAt": "2026-10-31T09:28:08.708Z",
   "unit": "thousandYen",
   "fiscalYear": "R5",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 22732591,
   "prevExpenditureTotal": 22732591,
   "prevBasis": "当初",
-  "prevNote": "@@TBS_R5@@",
+  "prevNote": "前年度（令和4年度）の一般会計予算は、市議会で修正のうえ可決されています（議決一覧「議案第18号 令和４年度丹波篠山市一般会計予算」の審議結果は「修正可決」・R4.3.24）。ここでの前年度額は修正後の額（227億3,259万1千円）で、「令和４年度 当初予算の概要」に載る提案時の額（227億4,000万円）より、歳入の繰入金と歳出の農林水産業費がそれぞれ740万9千円少なくなっています。",
   "facts": [
     {
       "side": "revenue",

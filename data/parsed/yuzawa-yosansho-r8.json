@@ -3,7 +3,7 @@
   "sourceId": "yuzawa-yosansho-r8",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-31T08:09:36.150Z",
+  "parsedAt": "2026-10-31T09:28:07.713Z",
   "unit": "thousandYen",
   "fiscalYear": "R8",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 30551000,
   "prevExpenditureTotal": 30551000,
   "prevBasis": "当初",
-  "prevNote": "@@YUZAWA_R8@@",
+  "prevNote": "前年度（令和7年度）の当初予算は骨格予算です（「令和８年度当初予算案 概要」p.7 の「一般会計当初予算の推移」に「※R3、R7は市長選挙に伴う骨格予算」とあります）。ここでの前年度額はその骨格予算の当初額（305億5,100万円）で、その後の補正予算で肉付けした後の額ではありません。",
   "facts": [
     {
       "side": "revenue",

@@ -29883,39 +29883,39 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   },
   "/sources/sagae-yosansho-r8/R8tousyoyosansyo.pdf": {
     "mode": "origin",
-    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/R8yosanangaiyou.files/R8tousyoyosansyo.pdf",
+    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/R8yosanangaiyou.html",
     "license": "寒河江市公式ホームページに掲載している情報（テキスト、画像、PDF、音声その他のデータ等）は著作権の対象となっており、特に記載のあるものを除き、原則として寒河江市に帰属します。なお、一部の画像等の著作権は、原著作者が所有しているものがあります。これらの情報について、著作権法で認められた場合を除き、複製・転用・転載を禁じます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/sagae-yosansho-r7/R7tousyoyosansyo.pdf": {
     "mode": "origin",
-    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/R7yosanangaiyou.files/R7tousyoyosansyo.pdf",
+    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/R7yosanangaiyou.html",
     "license": "寒河江市公式ホームページに掲載している情報（テキスト、画像、PDF、音声その他のデータ等）は著作権の対象となっており、特に記載のあるものを除き、原則として寒河江市に帰属します。なお、一部の画像等の著作権は、原著作者が所有しているものがあります。これらの情報について、著作権法で認められた場合を除き、複製・転用・転載を禁じます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/sagae-yosansho-r6/R6tousyoyosansyo.pdf": {
     "mode": "origin",
-    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/R6yosanangaiyou.files/R6tousyoyosansyo.pdf",
+    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/R6yosanangaiyou.html",
     "license": "寒河江市公式ホームページに掲載している情報（テキスト、画像、PDF、音声その他のデータ等）は著作権の対象となっており、特に記載のあるものを除き、原則として寒河江市に帰属します。なお、一部の画像等の著作権は、原著作者が所有しているものがあります。これらの情報について、著作権法で認められた場合を除き、複製・転用・転載を禁じます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/sagae-yosansho-r5/r5tousyoyosansyo.pdf": {
     "mode": "origin",
-    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/R5tousyoyosangaiyou.files/r5tousyoyosansyo.pdf",
+    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/R5tousyoyosangaiyou.html",
     "license": "寒河江市公式ホームページに掲載している情報（テキスト、画像、PDF、音声その他のデータ等）は著作権の対象となっており、特に記載のあるものを除き、原則として寒河江市に帰属します。なお、一部の画像等の著作権は、原著作者が所有しているものがあります。これらの情報について、著作権法で認められた場合を除き、複製・転用・転載を禁じます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/sagae-yosansho-r4/r4tousyoyosansyo.pdf": {
     "mode": "origin",
-    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/r4tousyoyosanngaiyou.files/r4tousyoyosansyo.pdf",
+    "href": "https://www.city.sagae.yamagata.jp/shisei/zaisei/r4tousyoyosanngaiyou.html",
     "license": "寒河江市公式ホームページに掲載している情報（テキスト、画像、PDF、音声その他のデータ等）は著作権の対象となっており、特に記載のあるものを除き、原則として寒河江市に帰属します。なお、一部の画像等の著作権は、原著作者が所有しているものがあります。これらの情報について、著作権法で認められた場合を除き、複製・転用・転載を禁じます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/sagae-yosansho-r3/R3yosan.pdf": {
     "mode": "archive",
-    "href": "https://web.archive.org/web/20220308005738id_/https://www.city.sagae.yamagata.jp/shisei/zaisei/R3tousyoyosan.files/R3yosan.pdf",
+    "href": "https://web.archive.org/web/20220308005549/https://www.city.sagae.yamagata.jp/shisei/zaisei/R3tousyoyosan.html",
     "license": "寒河江市公式ホームページに掲載している情報（テキスト、画像、PDF、音声その他のデータ等）は著作権の対象となっており、特に記載のあるものを除き、原則として寒河江市に帰属します。なお、一部の画像等の著作権は、原著作者が所有しているものがあります。これらの情報について、著作権法で認められた場合を除き、複製・転用・転載を禁じます。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/tambasasayama-yosan-gaiyou-r8/yosannnogaiyouR8.pdf": {
     "mode": "origin",
