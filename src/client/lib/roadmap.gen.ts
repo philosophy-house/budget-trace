@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 651,
+  "budgetCount": 660,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4830,
-  "fileCount": 7170,
-  "archivedCount": 3730,
+  "sourceCount": 4882,
+  "fileCount": 7225,
+  "archivedCount": 3763,
   "licenseOpen": 143,
-  "licensePermission": 4589,
+  "licensePermission": 4641,
   "licenseUnverified": 98,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -849,6 +849,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "東松島市",
+      "code": "042145",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "能代市",
       "code": "052027",
       "years": 7,
@@ -965,6 +971,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "守谷市",
       "code": "082244",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "常陸大宮市",
+      "code": "082252",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1409,6 +1421,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "十日町市",
       "code": "152102",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "見附市",
+      "code": "152111",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2009,6 +2027,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "赤穂市",
       "code": "282120",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "西脇市",
+      "code": "282138",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2631,6 +2655,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "糸魚川市",
+      "code": "152161",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "五泉市",
       "code": "152188",
       "years": 6,
@@ -2639,6 +2669,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "佐渡市",
       "code": "152242",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "魚津市",
+      "code": "162043",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -2973,6 +3009,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "東海村",
+      "code": "083411",
+      "years": 5,
+      "range": "R3〜R8（5年度）"
+    },
+    {
       "name": "大泉町",
       "code": "105244",
       "years": 5,
@@ -3103,6 +3145,12 @@ export const ROADMAP_PROGRESS = {
       "code": "282286",
       "years": 5,
       "range": "R4〜R8（5年度）"
+    },
+    {
+      "name": "葛城市",
+      "code": "292117",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
     },
     {
       "name": "倉敷市",
@@ -3451,6 +3499,12 @@ export const ROADMAP_PROGRESS = {
       "code": "092142",
       "years": 2,
       "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "壬生町",
+      "code": "093611",
+      "years": 2,
+      "range": "R3〜R4（2年度）"
     },
     {
       "name": "みどり市",

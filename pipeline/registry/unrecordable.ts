@@ -3246,4 +3246,71 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-116",
   },
 
+  {
+    // 郡上市（212199）R8〜R2。「当初予算の概要」（/admin/detail/6893.html）は広報郡上の予算特集の転載で、款別は当年度の万円の円グラフだけ・
+    //   前年度額は会計別だけ（R7・R4 はテキスト層なし・R5・R3 は ToUnicode 欠落）。予算書（事項別明細書）は現行サイト・議案ページ・Wayback の
+    //   admin/docs の CDX のどれにも無い。「財政事情に関する公表」12月版は款別の当初予算額（千円）があるが前年度列が無く、
+    //   2年分を突き合わせる新しいパーサが要る（補正額の列を前年度と誤読して Σ が通る危険あり・§13-117）。
+    code: "212199", name: "郡上市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "予算書がウェブに無く、公開されている当初予算の概要は款別が円グラフ（万円）だけで、前年度との比較が款ごとに無い。",
+    url: "https://www.city.gujo.gifu.jp/admin/detail/6893.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
+  },
+  {
+    // 葛城市（292117）R5・R4。R8〜R6・R3・R2 は収録済み（§13-117）。年度ページ（8001.html・6925.html）に「一般会計当初予算については原案を修正する議案が
+    //   議会で提出され、本会議審議の結果、原案が修正可決されました。」。概要と分冊の款別は修正前の案（R5 17,655,000・R4 16,484,000）で、修正後の款別は
+    //   翌年度の前年度列にしか無い（R5 17,409,141・R4 16,483,820）。修正案 PDF は複合機のスキャン。R4 は概要の p.3〜10 も文字が図形化（0字）。
+    code: "292117", name: "葛城市", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計当初予算は議会で修正して可決された。公開されている予算案の概要は修正前の案のままで、修正後の款別の額は翌年度の資料の前年度の列にしか無い。",
+    url: "https://www.city.katsuragi.nara.jp/shisei/zaisei_gyoseikaikaku/2/2/index.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
+  },
+  {
+    // 糸魚川市（152161）R5。R8〜R6・R4〜R2 は収録済み（§13-117）。「予算に関する説明書」（8077.pdf）p.2 の歳出総括の本年度列が字詰めで重なり、
+    //   -layout で桁が3行に割れる（raw・visibleTextOnly でも取れない）。R4〜R2 で使った「当初予算参考資料」の歳出款別予算は、R5 だけ複合機のスキャン（76頁すべてテキスト0）。
+    code: "152161", name: "糸魚川市", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["parser-unsupported", "scanned-image"],
+    reason: "予算に関する説明書の歳出の款別の表は、数字の文字が重なって配置されていて正しく取り出せず、代わりに使える予算参考資料はスキャン画像で文字の情報が無い。",
+    url: "https://www.city.itoigawa.lg.jp/page/2623.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
+  },
+  {
+    // 東海村（083411）R4・R2。R8〜R5・R3 は収録済み（§13-117）。R4 の予算書（group/2/ippankaikei.pdf）は CID TrueType で ToUnicode が無く、
+    //   数字は既存の復号で読めるが歳出の款名の字形（約35字）と「Ⅰ」が復号表に無い（decodeGarble で throw）。
+    //   R2 の予算書（r2_ippan.pdf）は複合機（bizhub C458）のスキャン画像。予算概要の款項別表（p.9–10）は款と項のコード行が交互に並ぶ様式で、既存パーサでは Σ が割れる。
+    code: "083411", name: "東海村", dataset: "budget", fiscalYears: ["R4", "R2"],
+    categories: ["broken-text-layer", "scanned-image", "parser-unsupported"],
+    reason: "R4 は予算書の文字が正しく文字として埋め込まれておらず款名を取り出せない。R2 は予算書がスキャン画像で、予算の概要の款別の表は款と項が交互に並ぶ様式で読み取りに対応していない。",
+    url: "https://www.vill.tokai.ibaraki.jp/soshikikarasagasu/soumubu/zaiseikeiei/1/3/3/index.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
+  },
+  {
+    // 壬生町（093611）R8。R4・R3 は収録済み（§13-117）。予算書（/docs/2026031300016/file_contents/R8tousyo.pdf）の総括表（p.16〜19）と第1表（p.8〜12）が
+    //   文字の図形化でテキスト層なし（pdffonts は非埋め込みの MSMincho だけ・pdfimages 0）。事項別明細の款の行には文字があるが款名が欄の幅で切れる。
+    code: "093611", name: "壬生町", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer"],
+    reason: "款ごとの表が載っている予算書のページで、文字が図形として描かれていて文字の情報が無い。",
+    url: "https://www.town.mibu.tochigi.jp/docs/2026031300016/",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
+  },
+  {
+    // 壬生町（093611）R7・R6・R5。予算書の総括（p.16〜18）は MS-Mincho-90ms-RKSJ-H が Identity-H で ToUnicode 無し。数字は既存の規則で戻るが、
+    //   款名の化け方が共通の復号表と衝突し（୚ が分。復号表では 与）、かなや「・」に化ける字もある ⇒ decodeGarble で throw（§13-117）。
+    code: "093611", name: "壬生町", dataset: "budget", fiscalYears: ["R7", "R6", "R5"],
+    categories: ["broken-text-layer", "parser-unsupported"],
+    reason: "予算書の文字が正しく文字として埋め込まれておらず、款名を正しく取り出せない。",
+    url: "https://www.town.mibu.tochigi.jp/category/bunya/gyoseimachizukuri/zaisei/",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
+  },
+  {
+    // 壬生町（093611）R2。予算・財政状況の一覧にも Wayback の旧カテゴリ（2019-08・2021-09）にも R2 の予算書が無い（2021-09 時点は「予算書（R3）」と H17〜H31 の「予算報告」だけ）。
+    code: "093611", name: "壬生町", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material"],
+    reason: "当初予算書がウェブに掲載されていない。",
+    url: "https://www.town.mibu.tochigi.jp/category/bunya/gyoseimachizukuri/zaisei/",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
+  },
 ];

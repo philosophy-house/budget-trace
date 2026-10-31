@@ -635,6 +635,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "152161": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度",
+        "reason": "予算に関する説明書の歳出の款別の表は、数字の文字が重なって配置されていて正しく取り出せず、代わりに使える予算参考資料はスキャン画像で文字の情報が無い。",
+        "checkedOn": "2026-10-31"
+      }
+    ]
+  },
   "152188": {
     "budget": [
       {
@@ -850,6 +859,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和5年度",
         "reason": "この年度の予算概要は骨格予算の簡略版で、款ごとの額と前年度の額を並べた表が載っていない。予算書はウェブに掲載されていない。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "212199": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "予算書がウェブに無く、公開されている当初予算の概要は款別が円グラフ（万円）だけで、前年度との比較が款ごとに無い。",
+        "checkedOn": "2026-10-31"
       }
     ]
   },
@@ -1470,6 +1488,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和8年度",
         "reason": "予算に関する説明書の総括のページの文字が別の字に化けていて、款の名前の化け方がこちらの復号の対応表に無い（本物のひらがなに化けている字もある）。金額の数字は読めるが、款の名前を確かめずに収録はしない。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "292117": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度・令和4年度",
+        "reason": "一般会計当初予算は議会で修正して可決された。公開されている予算案の概要は修正前の案のままで、修正後の款別の額は翌年度の資料の前年度の列にしか無い。",
+        "checkedOn": "2026-10-31"
       }
     ]
   },
@@ -2204,6 +2231,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "083411": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度・令和2年度",
+        "reason": "R4 は予算書の文字が正しく文字として埋め込まれておらず款名を取り出せない。R2 は予算書がスキャン画像で、予算の概要の款別の表は款と項が交互に並ぶ様式で読み取りに対応していない。",
+        "checkedOn": "2026-10-31"
+      }
+    ]
+  },
   "032051": {
     "budget": [
       {
@@ -2390,6 +2426,25 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "093611": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "款ごとの表が載っている予算書のページで、文字が図形として描かれていて文字の情報が無い。",
+        "checkedOn": "2026-10-31"
+      },
+      {
+        "fyLabel": "令和7年度・令和6年度・令和5年度",
+        "reason": "予算書の文字が正しく文字として埋め込まれておらず、款名を正しく取り出せない。",
+        "checkedOn": "2026-10-31"
+      },
+      {
+        "fyLabel": "令和2年度",
+        "reason": "当初予算書がウェブに掲載されていない。",
+        "checkedOn": "2026-10-31"
+      }
+    ]
+  },
   "072044": {
     "budget": [
       {
@@ -2555,6 +2610,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "212113": [
+    "budget"
+  ],
+  "212199": [
     "budget"
   ],
   "252107": [

@@ -1,0 +1,19 @@
+{
+  "sourceId": "itoigawa-yosansho-r3",
+  "files": [
+    {
+      "filename": "8112.pdf",
+      "sha256": "ea8ce847ef5e515c74c942b28e86187412938beace245c052a56c7d152247148",
+      "bytes": 1362565,
+      "fetchedAt": "2026-10-31T10:14:20.076Z",
+      "fetchedFrom": "https://www.city.itoigawa.lg.jp/uploaded/attachment/8112.pdf"
+    },
+    {
+      "filename": "8125.pdf",
+      "sha256": "8452d0a51153379701dacbdaf4d181719f66911cc47aa1eab9f6c4f4755345d2",
+      "bytes": 2483202,
+      "fetchedAt": "2026-10-31T10:14:20.575Z",
+      "fetchedFrom": "https://www.city.itoigawa.lg.jp/uploaded/attachment/8125.pdf"
+    }
+  ]
+}

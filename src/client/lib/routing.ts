@@ -552,6 +552,15 @@ const MUNI_SLUGS: Record<string, string> = {
   "282219": "tambasasayama",
   "382078": "ozu",
   "402150": "nakama",
+  "282138": "nishiwaki",
+  "042145": "higashimatsushima",
+  "152111": "mitsuke",
+  "292117": "katsuragi", // ⚠ 和歌山県かつらぎ町 303411 とは別団体（かつらぎ町は未収録）
+  "082252": "hitachiomiya",
+  "152161": "itoigawa",
+  "083411": "tokaimura", // ⚠ 愛知県東海市 232220 が "tokai"
+  "162043": "uozu",
+  "093611": "mibu",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",
