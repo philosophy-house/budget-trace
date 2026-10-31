@@ -50,6 +50,8 @@ bun run pipeline:fixture                        # e2e 検証用フィクスチ�
 bun run pipeline:derive                         # normalized → アプリ用生成モジュール（*.gen.ts）＋ public/ の静的 JSON
 bun run pipeline:archive [sourceId] [--force] [--wait]  # Wayback Machine へ登録（魚拓台帳 data/archives.json）。ワークツリーごとにロック
 bun run pipeline:archive --wait-only            # このワークツリーの archive が終わるまで待つ（pgrep で待たない）
+bun run pipeline:archive --check-auth           # archive.org のキー（本体の .env の IA_S3_ACCESS_KEY / IA_S3_SECRET_KEY）が通るか。捕捉の枠は使わない
+bun run pipeline:archive [id] --submit-only     # 認証つき SPN2 に登録要求だけ投げる（結果は --resolve-only か次の実行で確かめる）
 bun run pipeline:archive-attempts [--since YYYY-MM-DD]  # SPN の試行の結末を日・時間ごとに集計（全ワークツリー共通の記録）
 bun run pipeline:inflight [語...]               # 別セッションの仕掛かり（PR・ブランチ・他ワークツリー）と照合。当たれば exit 1
 ```

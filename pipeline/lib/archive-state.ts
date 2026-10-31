@@ -22,6 +22,7 @@ import {
   existsSync,
   mkdirSync,
   readFileSync,
+  renameSync,
   rmSync,
   statSync,
   writeFileSync,
@@ -189,6 +190,77 @@ export async function waitForSpnSlot(intervalMs: number): Promise<void> {
   }
   const wait = slot - Date.now();
   if (wait > 0) await sleep(wait);
+}
+
+// ---- 認証つき SPN2 のキー -------------------------------------------------------
+
+/**
+ * archive.org の S3 形式のキー（`IA_S3_ACCESS_KEY` / `IA_S3_SECRET_KEY`）。無ければ null（匿名の SPN で動く）。
+ * bun はカレントの `.env` を読むので、まず環境変数を見る。ワークツリーには `.env` が無いことが多いので、
+ * 次に**本体のチェックアウトの `.env`**（git の共通ディレクトリの親）を読む。
+ * ⚠ **値はどこにも出さない**（ログ・試行の記録・例外のメッセージのどれにも）。
+ */
+export function loadIaKeys(): { access: string; secret: string } | null {
+  const fromEnv = (env: Record<string, string | undefined>) =>
+    env.IA_S3_ACCESS_KEY && env.IA_S3_SECRET_KEY ? { access: env.IA_S3_ACCESS_KEY, secret: env.IA_S3_SECRET_KEY } : null;
+  const direct = fromEnv(process.env);
+  if (direct) return direct;
+  let mainEnv: string;
+  try {
+    const common = execFileSync("git", ["rev-parse", "--path-format=absolute", "--git-common-dir"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+    mainEnv = join(common, "..", ".env");
+  } catch {
+    return null;
+  }
+  if (!existsSync(mainEnv)) return null;
+  const parsed: Record<string, string> = {};
+  for (const line of readFileSync(mainEnv, "utf8").split("\n")) {
+    const m = line.match(/^\s*(?:export\s+)?([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*?)\s*$/);
+    if (m) parsed[m[1]!] = m[2]!.replace(/^(['"])(.*)\1$/, "$2");
+  }
+  return fromEnv(parsed);
+}
+
+// ---- SPN2 のジョブの控え（ワークツリーごと） -------------------------------------
+
+/**
+ * 認証つき SPN2 は登録要求に `job_id` を返す。**要求と結果の確認を分ける**ため、受け付けられたジョブを
+ * ここに控え、同じ実行の後半か次の実行でまとめて確かめる（docs/proposals/wayback-bottleneck.md の第2段）。
+ * 台帳と同じくワークツリーの持ち物（結果を書くのはこのワークツリーの台帳）なので `data/` に置く（追跡しない）。
+ */
+export const ARCHIVE_JOBS_PATH = join(DATA_DIR, ".archive-jobs.json");
+
+export type QueuedJob = {
+  sourceId: string;
+  url: string;
+  kind: "file" | "landing";
+  jobId: string;
+  /** 要求した時刻（ISO 8601） */
+  requestedAt: string;
+  /** SPN2 が成功を返した捕捉の時刻（Wayback の14桁）。CDX に載るのを待っている間だけ入る */
+  capturedTs?: string;
+};
+
+export function readJobs(): QueuedJob[] {
+  if (!existsSync(ARCHIVE_JOBS_PATH)) return [];
+  try {
+    return JSON.parse(readFileSync(ARCHIVE_JOBS_PATH, "utf8")) as QueuedJob[];
+  } catch {
+    return [];
+  }
+}
+
+export function writeJobs(jobs: QueuedJob[]): void {
+  if (jobs.length === 0) {
+    rmSync(ARCHIVE_JOBS_PATH, { force: true });
+    return;
+  }
+  const tmp = `${ARCHIVE_JOBS_PATH}.${process.pid}.tmp`;
+  writeFileSync(tmp, JSON.stringify(jobs, null, 2) + "\n");
+  renameSync(tmp, ARCHIVE_JOBS_PATH);
 }
 
 // ---- 試行の記録（リポジトリ共通・JSONL） --------------------------------------
