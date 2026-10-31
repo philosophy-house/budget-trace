@@ -53631,6 +53631,8 @@ export const SOURCES: SourceEntry[] = [
     // raw: 4件とも発行元から取得（HTML は <!DOCTYPE・PDF は %PDF・拡張子どおり・gzip なし）
     // 自宅住所: raw の電話・〒は議会事務局・村役場のものだけ（機械的に確認）。HTML の非表示のコメントはテンプレートの区切りだけ。議決結果の陳情の行に陳情者の氏名は無い
     // 改ざんテスト（作業者）: 会派間の1人移動（5通り）・1人の書き落とし（定数を一緒に変える・memberMarker を外す型を含む）・会派の合流（3通り。合流先の枠を相手の列まで広げる2か所の作為も factionMarker で ✗）・議案番号（第１９号・第１７号・号を落とした「議案第１８」）・結果の丸め（「可決」）と差し替え・議決日（3/2・3/25）・件名の差し替え・会派名に隣の欄の語（枠の後ろの氏名「公明党植木伸寿」「光風会村上志保」・「会派代表者」・「議員名」）・注釈の語への書き換え・光風会を independent に・会派に属さないを「無所属」に・定数17・asOfText（6月議会）・議決後の asOf・会期名はすべて ✗。⚠ 通るもの: 会派名の後ろに枠の最初の氏名を足す（「新政とうかい飛田静幸」「公明党岡崎悟」「光風会恵利いつ」。-raw で見出しの直後に最初の列の氏名が続く＝§6-22 の型）と、-layout で見出しの行に並ぶ氏名を足す（「新政とうかい笹嶋士郎」）、枠の境目を1列ずらして端の1人を隣の会派へ移す（3か所の作為）、合流＋枠を広げる＋factionMarker の削除（3か所）、asOfText を表の前文の別の文にする、会派に属さないを1人ずつ2つに分ける、会派名の前方の切り詰め・independent の付け外し・asOf だけの書き換え（パーサ一般）
+    // レビュー1巡目で足した通り方（パーサ一般）: 議決日の年だけの書き換え（照合は月日だけ）・会派名の後方の切り詰めと頭の欠け（「公明」「風会」）・会期名の切り詰め・teisuText を「18人」まで縮める・新政とうかいの枠を外して名簿の区間だけにする（asOfText は枠の会派のどれか1つの url に当たれば足りる）
+    // 画面: 見出しの基準日は議決日だが、構成の出典チップは名簿（2024-09-30 の版）を開く（derive は枠の url をチップに出さない）。名簿の題に議決時点の照合元を書き添えた
     id: "tokaimura-songikai-r8",
     title: "令和8年度 東海村議会の構成（会派別議席数）と当初予算の議決",
     publisher: "東海村議会",
@@ -53645,7 +53647,7 @@ export const SOURCES: SourceEntry[] = [
     kind: "page",
     fiscalYear: "R8",
     scope: "東海村議会（定数18・団体コード083411）",
-    license: "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    license: TOKAIMURA_LICENSE,
     parser: "council-transcribed",
     parserOptions: {
       body: "東海村議会",
@@ -53656,7 +53658,7 @@ export const SOURCES: SourceEntry[] = [
       teisuUrl: "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/sikumi/1890.html",
       memberMarker: "\\((?:無|公|共|国民)\\)(?!無所属|公明党\\(|日本共産党|国民民主党)",
       factionMarker: "★(?!印)|会派に属さない",
-      roster: {"url":"https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html","title":"会派（会派一覧・更新日 2024年09月30日）","confirmUrls":["https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf"]},
+      roster: {"url":"https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html","title":"会派一覧（更新日 2024年09月30日。議決時点の所属は議会だより第64号の3月議会の各議員の賛否の表頭で照合）","confirmUrls":["https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf"]},
       factions: [{"name":"新政とうかい","noDeclaredCount":true,"members":["飛田静幸","大内則夫","越智辰哉","河野健一","吉田充宏","寺門定範","笹嶋士郎","三上修","松江秀明","川崎克彦","川﨑裕弥","宮本翔太"],"url":"https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf","asOfText":"令和８年第１回定例会（３月議会）","page":1,"box":[150,120,238,60]},{"name":"公明党","noDeclaredCount":true,"members":["岡崎悟","植木伸寿"],"url":"https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf","asOfText":"令和８年第１回定例会（３月議会）","page":1,"box":[388,120,38,60]},{"name":"光風会","noDeclaredCount":true,"members":["恵利いつ","村上志保"],"url":"https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf","asOfText":"令和８年第１回定例会（３月議会）","page":1,"box":[426,120,38,60]},{"name":"会派に属さない","independent":true,"noDeclaredCount":true,"members":["大名美惠子","阿部功志"]}],
       resolution: {"url":"https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf","title":"令和８年第１回東海村議会定例会 村長提出議案等議決結果","billNo":"議案第１８号","billName":"令和８年度東海村一般会計予算","sessionLabel":"令和８年第１回東海村議会定例会","decidedDate":"2026-03-26","result":"原案可決"},
     },

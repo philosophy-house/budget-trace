@@ -65471,7 +65471,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       },
       "sourceTitle": "令和8年度 東海村議会の構成（会派別議席数）と当初予算の議決",
       "roster": {
-        "title": "会派（会派一覧・更新日 2024年09月30日）",
+        "title": "会派一覧（更新日 2024年09月30日。議決時点の所属は議会だより第64号の3月議会の各議員の賛否の表頭で照合）",
         "localUrl": "/sources/tokaimura-songikai-r8/tokaimura_1846.html",
         "originUrl": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html",
         "archiveUrl": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html"
