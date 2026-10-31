@@ -3,7 +3,7 @@
   "sourceId": "tokaimura-songikai-r8",
   "parser": "council-transcribed",
   "parserVersion": "0.8.22",
-  "parsedAt": "2026-10-31T18:09:21.961Z",
+  "parsedAt": "2026-10-31T18:26:08.532Z",
   "fiscalYear": "R8",
   "body": "東海村議会",
   "seats": 18,
@@ -85,6 +85,6 @@
       "page": 2
     }
   },
-  "rosterTitle": "会派一覧（更新日 2024年09月30日。議決時点の所属は議会だより第64号の3月議会の各議員の賛否の表頭で照合）",
+  "rosterTitle": "会派一覧（更新日 2024年09月30日。議決時点の所属は議会だより第64号（2026年4月）の「各議員の賛否」の表で確認）",
   "resultTitle": "令和８年第１回東海村議会定例会 村長提出議案等議決結果"
 }
