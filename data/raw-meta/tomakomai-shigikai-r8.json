@@ -1,0 +1,26 @@
+{
+  "sourceId": "tomakomai-shigikai-r8",
+  "files": [
+    {
+      "filename": "tomakomai_houkoku_17-18.pdf",
+      "sha256": "3279ec59b65adff2f32556e437415c7bb798092b8c10bc18c510ef0b52219cfc",
+      "bytes": 1137019,
+      "fetchedAt": "2026-10-31T17:35:00.064Z",
+      "fetchedFrom": "https://www.city.tomakomai.hokkaido.jp/files/00052800/00052841/20260402154816.pdf"
+    },
+    {
+      "filename": "tomakomai_gikainittei_20260316.html",
+      "sha256": "2e95368cb9c6e878821ff015da5985274a02424f28a05b188d56f89312601b5c",
+      "bytes": 27361,
+      "fetchedAt": "2026-10-31T17:35:00.064Z",
+      "fetchedFrom": "https://web.archive.org/web/20260316172841id_/https://www.city.tomakomai.hokkaido.jp/gikai/katsudo/gikainittei.html"
+    },
+    {
+      "filename": "tomakomai_kaihabetumeibo.html",
+      "sha256": "0a81152d9c35cadb0672b13e97cd7d8dc4a10743edd1c7ec2006460f00e7c95a",
+      "bytes": 21406,
+      "fetchedAt": "2026-10-31T17:35:00.064Z",
+      "fetchedFrom": "https://www.city.tomakomai.hokkaido.jp/gikai/shokai/kaihabetumeibo.html"
+    }
+  ]
+}

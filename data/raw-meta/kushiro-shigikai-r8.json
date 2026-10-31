@@ -1,0 +1,26 @@
+{
+  "sourceId": "kushiro-shigikai-r8",
+  "files": [
+    {
+      "filename": "1002834_20260218.html",
+      "sha256": "ff82f1e5abb500bec8540ed3e12bce907c8b830850007570843985e1ff7c18c8",
+      "bytes": 17508,
+      "fetchedAt": "2026-10-31T17:35:00.068Z",
+      "fetchedFrom": "https://web.archive.org/web/20260218032841id_/https://www.city.kushiro.lg.jp/shigikai/shigikaikara/1002834.html"
+    },
+    {
+      "filename": "giketsukekka_r8_2t.pdf",
+      "sha256": "1beb2be21e5a3847f836c67ebff81c875384c85e5c611381c29de726100ab357",
+      "bytes": 679576,
+      "fetchedAt": "2026-10-31T17:35:00.069Z",
+      "fetchedFrom": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/002/853/giketsukekka_r8_2t.pdf"
+    },
+    {
+      "filename": "1002832.html",
+      "sha256": "386016e77d0330f822255d8da6fc88e96fe65eb39a08d8535c6531db3f768f8f",
+      "bytes": 20615,
+      "fetchedAt": "2026-10-31T17:35:00.069Z",
+      "fetchedFrom": "https://www.city.kushiro.lg.jp/shigikai/shigikaikara/1002832.html"
+    }
+  ]
+}

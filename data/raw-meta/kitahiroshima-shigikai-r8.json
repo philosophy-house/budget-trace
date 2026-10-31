@@ -1,0 +1,33 @@
+{
+  "sourceId": "kitahiroshima-shigikai-r8",
+  "files": [
+    {
+      "filename": "20250513125340.pdf",
+      "sha256": "197e47002946b2401cd1e6ed74491394cb1763bc57e5a3ef8185eff1d8f6c65c",
+      "bytes": 95274,
+      "fetchedAt": "2026-10-31T17:39:56.578Z",
+      "fetchedFrom": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00120900/00120986/20250513125340.pdf"
+    },
+    {
+      "filename": "00120986_20251108094856.html",
+      "sha256": "058230c684d715ac780d3dddfc5eab339c2e02f05134eb2e9695e85fd35a1928",
+      "bytes": 22932,
+      "fetchedAt": "2026-10-31T17:39:56.578Z",
+      "fetchedFrom": "https://web.archive.org/web/20251108094856id_/https://www.city.kitahiroshima.hokkaido.jp/hotnews/detail/00120986.html"
+    },
+    {
+      "filename": "giketukekka.pdf",
+      "sha256": "6cc3fa64e2561b26c028cc07d0fc58182ec630718c8c43a3c85aa6cd7c5f7206",
+      "bytes": 143979,
+      "fetchedAt": "2026-10-31T17:39:56.578Z",
+      "fetchedFrom": "https://www.city.kitahiroshima.hokkaido.jp/hotnews/files/00158800/00158891/giketukekka.pdf"
+    },
+    {
+      "filename": "f000RG00000022.html",
+      "sha256": "74252e8b91f811c2ca892c1c5c4c70756b1db67932d3ab7cc2b668ac84d9c3a1",
+      "bytes": 10270,
+      "fetchedAt": "2026-10-31T17:39:56.578Z",
+      "fetchedFrom": "https://www1.g-reiki.net/kitahiroshima/reiki_honbun/f000RG00000022.html"
+    }
+  ]
+}
