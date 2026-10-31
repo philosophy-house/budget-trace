@@ -584,6 +584,7 @@ const KASUMIGAURA_LICENSE =
   "本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行なうなどといった行為は違法となりますのでご遠慮ください。";
 const SUMOTO_LICENSE =
   "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。";
+const KOMONO_OLD_SITE_LICENSE = "Copyright © Komono Town. All Rights Reserved.";
 const KOMONO_LICENSE =
   "当サイトのコンテンツは、下記「本規約の適用除外」に該当するものを除き、デジタル庁の「公共データ利用規約（第1.0版）」に従って、複製、公衆送信、翻訳・変形等の翻案など、どなたでも自由に利用できます。商用利用も可能です。";
 const HAKODATE_LICENSE =
@@ -34704,12 +34705,13 @@ export const SOURCES: SourceEntry[] = [
   // ⚠ R5 は発行元から消えて Wayback のみ（旧 CMS の /www/contents/1679966373508/simple/r5ippan0gou.pdf）。
   //   R4・R3・R2 の予算書は複合機のスキャン画像（フォント0）⇒ unrecordable.ts。
   // 前年度列は当初（R5→R8 の3区間で款単位全一致）。骨格の記載なし（予算書4冊で「骨格」「肉付」0件・三重県「市町別普通会計当初予算規模の状況」
-  //   R3・R5・R6 で菰野町に骨格の注記なし）。R1 は県の表で骨格だが、R2 はスキャンで収録しないので影響しない。
+  //   R3・R5・R6 で菰野町に骨格の注記なし）。R1 は県の表で骨格（skeleton-budgets.ts）だが、R2 はスキャンで収録しない。
   // ライセンス: サイトポリシー「ウェブサイト利用規約」（/soshiki/1/5504.html・確認日 2026-10-31）。サイト全体のコンテンツに
   //   公共データ利用規約（第1.0版）を適用・CC BY 4.0 互換 ⇒ open。適用範囲は「当サイトで公開している情報」で、別のオープンデータ
   //   ライブラリ利用規約（/soshiki/1/2118.html・掲載データに限る）ではない。
-  //   ⚠ R5（旧サイト・Wayback のみ）は旧サイトの著作権の条項を確認できなかった（Wayback の旧トップ 2023-12 のリンクに見当たらない）。
-  //   真庭の旧年度（WARP・Wayback）と同じく現行のサイトポリシーを当てる。
+  //   ⚠ R5（旧サイト・Wayback のみ）は現行サイトに無いので「当サイトで公開している情報」に当たらない。旧サイトの著作権の条項は
+  //   見つからず（Wayback の旧トップ 2023-12-21 のリンクに無い）、旧トップのフッターは「Copyright © Komono Town. All Rights Reserved.」だけ
+  //   ⇒ R5 だけ旧サイトのフッターを原文にして license-no-grant.ts で要許可へ倒す（現行規約は open なので、真庭と違って当てると開く側へ倒れる）。
   //   リンク「原則として自由です。事前の連絡は不要」＋「トップページ…を推奨します」⇒ `noDeepLink` なし。
   ...([
     ["R8", "https://www2.town.komono.mie.jp/uploaded/attachment/6268.pdf", "https://www2.town.komono.mie.jp/soshiki/3/9318.html", 12],
@@ -34719,14 +34721,16 @@ export const SOURCES: SourceEntry[] = [
       "https://web.archive.org/web/20250805144335/https://www2.town.komono.mie.jp/www/contents/1679966373508/index.html", 12],
   ] as const).map(([fy, url, landingPage, rp]) => ({
     id: `komono-yosansho-${fy.toLowerCase()}`,
-    title: `${eraYear(fy)}年度 菰野町一般会計予算書（歳入歳出予算事項別明細書 総括）`,
+    title: fy === "R6"
+      ? "令和6年度 予算書（一般会計・特別会計）菰野町（歳入歳出予算事項別明細書 総括）"
+      : `${eraYear(fy)}年度 菰野町一般会計予算書（歳入歳出予算事項別明細書 総括）`,
     publisher: "菰野町",
     url,
     landingPage,
     kind: "pdf" as const,
     fiscalYear: fy,
     scope: "菰野町（一般会計・団体コード243418）",
-    license: KOMONO_LICENSE,
+    license: fy === "R5" ? KOMONO_OLD_SITE_LICENSE : KOMONO_LICENSE,
     parser: "kofu-yosansho" as const,
     parserOptions: {
       revenuePages: { from: rp, to: rp + 1 }, expenditurePage: rp + 2,
@@ -34807,7 +34811,7 @@ export const SOURCES: SourceEntry[] = [
     ["R2", "kiji0038487", "3_8487_35615_up_ZEKDH7LT.pdf", 429, 445],
   ] as const).map(([fy, kiji, file, revTo, expTo]) => ({
     id: `minamishimabara-tousho-gaiyo-${fy.toLowerCase()}`,
-    title: `${eraYear(fy)}年度 南島原市当初予算の概要（一般会計 歳入内訳・歳出目的別内訳）`,
+    title: `${eraYear(fy)}年度 南島原市当初予算${fy === "R4" || fy === "R2" ? "（案）" : ""}の概要（一般会計 歳入内訳・歳出目的別内訳）`,
     publisher: "南島原市",
     url: `https://www.city.minamishimabara.lg.jp/${kiji}/${file}`,
     landingPage: `https://www.city.minamishimabara.lg.jp/${kiji}/index.html`,
@@ -34948,7 +34952,7 @@ export const SOURCES: SourceEntry[] = [
   // ⚠ HeaderExtra を外すと Σ 差0 のまま款1 が `歳入歳出予算事項別明細書市税`・`一般財源国県支出金地方債その他議会費`。
   // 前年度列は当初（R2→R8 で款単位一致）。⚠ ただし R4 の前年度列だけ、歳出の総務費・衛生費・土木費の3款が R3 の当年度列と食い違う
   //   （総務費 1,963,356／2,018,326・衛生費 1,836,627／1,836,421・土木費 1,577,709／1,522,945。差は打ち消し合い、合計 19,360,000 と歳入は一致）。
-  //   予算書に「組替」の説明は無い（原典どおりに載せる）。骨格の記載なし（予算書7冊で「骨格」0件）。
+  //   予算書に「組替」の説明は無い ⇒ 原典どおりに載せ、苫小牧 H26・川西 R7 と同じく事実だけの prevNote を R4 に置く。骨格の記載なし（予算書7冊で「骨格」0件）。
   // ライセンス: プライバシーポリシーの「著作権について」（/page/page000006.html・確認日 2026-10-31）＝`無断で…転載…複製…ご遠慮ください` で要許可。
   //   オープンデータ（CC）の「行財政」9件に予算書なし。リンク「原則としてトップページ（https://www.city.kasumigaura.lg.jp/）をリンク先とし」
   //   （下妻と同型）⇒ `noDeepLink`。
@@ -34976,6 +34980,9 @@ export const SOURCES: SourceEntry[] = [
       revenuePages: { from: p, to: p + 1 }, expenditurePage: p + 2,
       revenueHeading: "総括", expenditureHeading: "歳出",
       revenueHeaderExtra: "歳入歳出予算事項別明細書|総括", expenditureHeaderExtra: "一般財源|国県支出金",
+      ...(fy === "R4"
+        ? { prevNote: "前年度（令和3年度）の歳出の額は、令和3年度予算書の当年度列と総務費・衛生費・土木費の3款で一致しない（総務費 1,963,356千円・衛生費 1,836,627千円・土木費 1,577,709千円に対し、令和3年度予算書では 2,018,326千円・1,836,421千円・1,522,945千円。総額 19,360,000千円と歳入22款は一致）。原典に注記は無く、理由は不明。" }
+        : {}),
     },
   } satisfies SourceEntry)),
   // 三浦市（神奈川県・団体コード 142107 ＝ 総務省 R6.json から実引き）。財政課の年度ページの「一般会計予算款別性質別対前年度比較」。千円。

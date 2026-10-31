@@ -3,7 +3,7 @@
   "sourceId": "kasumigaura-yosansho-r4",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-10-31T03:09:42.039Z",
+  "parsedAt": "2026-10-31T04:05:13.168Z",
   "unit": "thousandYen",
   "fiscalYear": "R4",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 19360000,
   "prevExpenditureTotal": 19360000,
   "prevBasis": "当初",
+  "prevNote": "前年度（令和3年度）の歳出の額は、令和3年度予算書の当年度列と総務費・衛生費・土木費の3款で一致しない（総務費 1,963,356千円・衛生費 1,836,627千円・土木費 1,577,709千円に対し、令和3年度予算書では 2,018,326千円・1,836,421千円・1,522,945千円。総額 19,360,000千円と歳入22款は一致）。原典に注記は無く、理由は不明。",
   "facts": [
     {
       "side": "revenue",

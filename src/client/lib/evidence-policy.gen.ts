@@ -29677,6 +29677,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
     "target": "file"
   },
+  "/sources/komono-yosansho-r5/r5ippan0gou.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20250909094441id_/https://www2.town.komono.mie.jp/www/contents/1679966373508/simple/r5ippan0gou.pdf",
+    "license": "Copyright © Komono Town. All Rights Reserved.",
+    "target": "file"
+  },
   "/sources/futtsu-yosansho-r8/R8tousyo_ippan.pdf": {
     "mode": "origin",
     "href": "https://www.city.futtsu.lg.jp/cmsfiles/contents/0000000/178/R8tousyo_ippan.pdf",
