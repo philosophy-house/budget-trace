@@ -1,0 +1,90 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kudamatsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:47:00.403Z",
+  "fiscalYear": "R8",
+  "body": "下松市議会",
+  "seats": 19,
+  "asOf": "2024-08-16",
+  "factions": [
+    {
+      "name": "新生クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "松尾一生",
+        "磯部孝義",
+        "永田憲男",
+        "中谷司朗",
+        "中村隆征",
+        "三浦徹也",
+        "森良介"
+      ],
+      "locator": {
+        "file": "kudamatsu_kaiha_warp20260305.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "政友・鐵の会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "浅本輝明",
+        "金藤哲夫",
+        "近藤康夫",
+        "藤井洋",
+        "守田文美",
+        "山根栄子"
+      ],
+      "locator": {
+        "file": "kudamatsu_kaiha_warp20260305.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "柳瀬秀明",
+        "堀本浩司"
+      ],
+      "locator": {
+        "file": "kudamatsu_kaiha_warp20260305.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属（会派に属さない議員）",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "木原愛子",
+        "斉藤マリ子",
+        "田上茂好",
+        "村田丈生"
+      ],
+      "locator": {
+        "file": "kudamatsu_kaiha_warp20260305.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１５号",
+    "billName": "令和８年度下松市一般会計予算",
+    "sessionLabel": "令和８年第２回下松市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kudamatsu_r8-kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派構成一覧（更新日：2024年8月16日・国立国会図書館 WARP 2026-03-05 収集）",
+  "resultTitle": "令和８年第２回下松市議会定例会 結果"
+}

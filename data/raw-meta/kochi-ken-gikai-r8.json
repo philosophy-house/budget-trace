@@ -1,0 +1,22 @@
+{
+  "sourceId": "kochi-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "kochi-ken_0802.pdf",
+      "sha256": "6b24d18a8d78d776a1f49859b8f812d4fd7eb0206a2a1e600bc9cf7d9e943acc",
+      "bytes": 305424,
+      "fetchedAt": "2026-10-31T17:46:52.053Z",
+      "fetchedFrom": "https://gikai.pref.kochi.lg.jp/_files/00150866/0802.pdf"
+    },
+    {
+      "filename": "kochi-ken_categories_20260517.html",
+      "sha256": "84b020d4bc09fe8ba3690a6ad3a50b6ffe741bdb7674b7c503bb1b557e96b8fa",
+      "bytes": 25411,
+      "fetchedAt": "2026-10-31T17:46:52.055Z",
+      "fetchedFrom": "https://web.archive.org/web/20260517060615id_/https://gikai.pref.kochi.lg.jp/member/categories/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "docType": "council-composition",
+  "sourceId": "chitose-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:03.395Z",
+  "fiscalYear": "R8",
+  "body": "千歳市議会",
+  "seats": 23,
+  "asOf": "2025-11-10",
+  "factions": [
+    {
+      "name": "無所属（松倉美加）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "松倉美加"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "無所属（仲山正人）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "仲山正人"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "自民の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "古川昌俊",
+        "佐々木雅宏"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "自民党議員会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "山口康弘",
+        "大山益巳",
+        "岩満順郎",
+        "渡部謙太郎",
+        "北原偉男",
+        "山崎昌則"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "ちとせ未来クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐々木昭",
+        "小川陽平"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "吉谷徹"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "宮原伸哉",
+        "今野正恵",
+        "平川美由紀"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "今井ひろみ"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "梅尾要一",
+        "落野章一",
+        "北山敬太",
+        "相沢晶子"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    },
+    {
+      "name": "無所属クラブ（維新・市民）",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "丸岡伸幸",
+        "坂野智"
+      ],
+      "locator": {
+        "file": "chitose_dayori_210.pdf",
+        "page": 13
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第８号",
+    "billName": "令和８年度千歳市一般会計予算について",
+    "sessionLabel": "第１回千歳市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "chitose_R8-1_giketu.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "ちとせ市議会だより No.210（令和8年2月1日発行）p.13「会派構成」",
+  "resultTitle": "第１回千歳市議会定例会付議事件及び結果表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年定例会・臨時会議案にかかる賛否結果（第１回定例会）",
+    "sourceFile": "chitose_R8_sannpi.pdf",
+    "columns": [
+      {
+        "label": "松倉美加",
+        "faction": "無所属（松倉美加）",
+        "member": "松倉美加",
+        "stance": "議長"
+      },
+      {
+        "label": "今井ひろみ",
+        "faction": "参政党",
+        "member": "今井ひろみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川陽平",
+        "faction": "ちとせ未来クラブ",
+        "member": "小川陽平",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木昭",
+        "faction": "ちとせ未来クラブ",
+        "member": "佐々木昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "相沢晶子",
+        "faction": "無所属",
+        "member": "相沢晶子",
+        "stance": "賛成"
+      },
+      {
+        "label": "北山敬太",
+        "faction": "無所属",
+        "member": "北山敬太",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉谷徹",
+        "faction": "日本共産党",
+        "member": "吉谷徹",
+        "stance": "反対"
+      },
+      {
+        "label": "渡部謙太郎",
+        "faction": "自民党議員会",
+        "member": "渡部謙太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "北原偉男",
+        "faction": "自民党議員会",
+        "member": "北原偉男",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩満順郎",
+        "faction": "自民党議員会",
+        "member": "岩満順郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "大山益巳",
+        "faction": "自民党議員会",
+        "member": "大山益巳",
+        "stance": "賛成"
+      },
+      {
+        "label": "今野正恵",
+        "faction": "公明党議員団",
+        "member": "今野正恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "平川美由紀",
+        "faction": "公明党議員団",
+        "member": "平川美由紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮原伸哉",
+        "faction": "公明党議員団",
+        "member": "宮原伸哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "仲山正人",
+        "faction": "無所属（仲山正人）",
+        "member": "仲山正人",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口康弘",
+        "faction": "自民党議員会",
+        "member": "山口康弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "山崎昌則",
+        "faction": "自民党議員会",
+        "member": "山崎昌則",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木雅宏",
+        "faction": "自民の会",
+        "member": "佐々木雅宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "古川昌俊",
+        "faction": "自民の会",
+        "member": "古川昌俊",
+        "stance": "賛成"
+      },
+      {
+        "label": "落野章一",
+        "faction": "無所属",
+        "member": "落野章一",
+        "stance": "賛成"
+      },
+      {
+        "label": "丸岡伸幸",
+        "faction": "無所属クラブ（維新・市民）",
+        "member": "丸岡伸幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂野智",
+        "faction": "無所属クラブ（維新・市民）",
+        "member": "坂野智",
+        "stance": "賛成"
+      },
+      {
+        "label": "梅尾要一",
+        "faction": "無所属",
+        "member": "梅尾要一",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

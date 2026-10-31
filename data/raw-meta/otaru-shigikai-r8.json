@@ -1,0 +1,30 @@
+{
+  "sourceId": "otaru-shigikai-r8",
+  "files": [
+    {
+      "filename": "otaru_kaiha_20260308.html",
+      "sha256": "aa386b6767c2cd27a83467f9a5a55ac25ea04ffbf9dbc586126f23f7c2c00dfa",
+      "bytes": 18393,
+      "fetchedAt": "2026-10-31T17:35:00.055Z",
+      "fetchedFrom": "https://web.archive.org/web/20260308132419id_/https://www.city.otaru.lg.jp/docs/2020113000689/",
+      "transform": [
+        "gunzip",
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "otaru_tayori_104.pdf",
+      "sha256": "a45884e24a109860b317029b1034fb9bf44b7d2eead1b5b7508e74c7ec55c7c8",
+      "bytes": 4163388,
+      "fetchedAt": "2026-10-31T17:35:00.058Z",
+      "fetchedFrom": "https://www.city.otaru.lg.jp/docs/2020120100273/file_contents/tayori_104.pdf"
+    },
+    {
+      "filename": "otaru_honkaigiroku_R08-01.pdf",
+      "sha256": "e854db79b73e74ad143d143b6cb9e1e450a9b2b39f4f04de237aefc2aac0d8db",
+      "bytes": 6465238,
+      "fetchedAt": "2026-10-31T17:35:00.062Z",
+      "fetchedFrom": "https://www.city.otaru.lg.jp/docs/2020113000634/file_contents/R08-01.pdf"
+    }
+  ]
+}

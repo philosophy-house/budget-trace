@@ -1,0 +1,33 @@
+{
+  "sourceId": "sagae-shigikai-r8",
+  "files": [
+    {
+      "filename": "r7shushihoukokuichiran.pdf",
+      "sha256": "bd4fdfe5f9069620eaf8161a7fb4dea950c3ff90e470af7820c63d580bba3a79",
+      "bytes": 93624,
+      "fetchedAt": "2026-10-31T17:35:00.074Z",
+      "fetchedFrom": "https://www.city.sagae.yamagata.jp/shigikai/katsudouhi/r7seimukatudohi.files/r7shushihoukokuichiran.pdf"
+    },
+    {
+      "filename": "sigikaidayori169.pdf",
+      "sha256": "1eebb376fe97fc23723cb8cfa917816540728453234cc3265434725ef20483c6",
+      "bytes": 3773517,
+      "fetchedAt": "2026-10-31T17:35:00.077Z",
+      "fetchedFrom": "https://www.city.sagae.yamagata.jp/shigikai/gikaikohou/shigikaidayori/shigikaidayori2026.files/sigikaidayori169.pdf"
+    },
+    {
+      "filename": "r8-honkaigi-0319.pdf",
+      "sha256": "c382e69b0f2143163afd0a314946d75ce44451948ba1a367d0eae958c979499a",
+      "bytes": 618294,
+      "fetchedAt": "2026-10-31T17:35:00.078Z",
+      "fetchedFrom": "https://www.city.sagae.yamagata.jp/shigikai/gijiroku/gijiroku2026/r8-kaigiroku-03.files/r8-honkaigi-0319.pdf"
+    },
+    {
+      "filename": "gikainokousei.html",
+      "sha256": "e6d2821e2d343402620c7527de028122d985d33594dfa21ff81140e78ed7923c",
+      "bytes": 32518,
+      "fetchedAt": "2026-10-31T17:35:00.078Z",
+      "fetchedFrom": "https://www.city.sagae.yamagata.jp/shigikai/shigikainituite/shigikaishikumi/gikainokousei.html"
+    }
+  ]
+}

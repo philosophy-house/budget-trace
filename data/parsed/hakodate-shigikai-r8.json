@@ -1,0 +1,110 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hakodate-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:00.588Z",
+  "fiscalYear": "R8",
+  "body": "函館市議会",
+  "seats": 27,
+  "asOf": "2025-05-19",
+  "teisu": 27,
+  "factions": [
+    {
+      "name": "新市政クラブ",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "工藤恵美",
+        "出村ゆかり",
+        "中山治",
+        "吉田崇仁",
+        "浜野幸子",
+        "金澤浩幸",
+        "山口勝彦",
+        "佐藤留義",
+        "芝井穣"
+      ],
+      "locator": {
+        "file": "hakodate_kaiha_20250911.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "民主・市民ネット",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "斉藤佐知子",
+        "板倉一幸",
+        "見付宗弥",
+        "野沢友志",
+        "福島恭二",
+        "道畑克雄",
+        "島昌之",
+        "髙橋千晶"
+      ],
+      "locator": {
+        "file": "hakodate_kaiha_20250911.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "松宮健治",
+        "小林芳幸",
+        "茂木修",
+        "池亀睦子"
+      ],
+      "locator": {
+        "file": "hakodate_kaiha_20250911.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "紺谷克孝",
+        "市戸ゆたか",
+        "富山悦子"
+      ],
+      "locator": {
+        "file": "hakodate_kaiha_20250911.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "工藤篤",
+        "荒木明美",
+        "川﨑啓太"
+      ],
+      "locator": {
+        "file": "hakodate_kaiha_20250911.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８（２０２６）年度函館市一般会計予算",
+    "sessionLabel": "令和８年第１回市議会定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hakodate_kaigikekka_r8-1t.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "函館市議会議員名簿（会派別）（令和7年（2025年）5月19日現在・議決前 2025-09-11 の魚拓）",
+  "resultTitle": "令和８年第１回市議会定例会会議結果"
+}

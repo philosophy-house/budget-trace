@@ -1,0 +1,29 @@
+{
+  "sourceId": "eniwa-shigikai-r8",
+  "files": [
+    {
+      "filename": "2_R80501gikaiho_giketu.pdf",
+      "sha256": "88fac2bcca43ab0d1cb4b57a05e4fde6aefa2a30da4e91c997a6e7dad4bf65b7",
+      "bytes": 785304,
+      "fetchedAt": "2026-10-31T17:39:56.577Z",
+      "fetchedFrom": "https://www.city.eniwa.hokkaido.jp/material/files/group/54/2_R80501gikaiho_giketu.pdf"
+    },
+    {
+      "filename": "r8-1tei-giketukekkahyou.pdf",
+      "sha256": "adb5fc229ae15a3439d2311f7e21b82138534b4434c1593cf6ad59b7a9547bcb",
+      "bytes": 83774,
+      "fetchedAt": "2026-10-31T17:39:56.577Z",
+      "fetchedFrom": "https://www.city.eniwa.hokkaido.jp/material/files/group/54/r8-1tei-giketukekkahyou.pdf"
+    },
+    {
+      "filename": "12045_20260214050544.html",
+      "sha256": "c4ff0cfc423f99ed4d4bcb33fb7c67b3c7f8af973b84e6231436b5027530e228",
+      "bytes": 50951,
+      "fetchedAt": "2026-10-31T17:39:56.577Z",
+      "fetchedFrom": "https://web.archive.org/web/20260214050544id_/https://www.city.eniwa.hokkaido.jp/kurashi/shiseijoho/shigikai/giinnsyoukai/kaihameibo/12045.html",
+      "transform": [
+        "gunzip"
+      ]
+    }
+  ]
+}

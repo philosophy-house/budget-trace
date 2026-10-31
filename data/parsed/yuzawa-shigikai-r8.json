@@ -1,0 +1,90 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yuzawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:05.389Z",
+  "fiscalYear": "R8",
+  "body": "湯沢市議会",
+  "seats": 18,
+  "asOf": "2026-03-19",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "湯新会・公明",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "佐藤勝",
+        "高橋大輔",
+        "高橋肇",
+        "加藤昭嗣",
+        "兼子正寛",
+        "渡部正明",
+        "柏原久寿"
+      ],
+      "locator": {
+        "file": "35953.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "紫翠会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "高橋達",
+        "佐藤広美",
+        "佐藤愛子",
+        "小松雅",
+        "藤田健志",
+        "大山豪"
+      ],
+      "locator": {
+        "file": "35953.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政和会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "寺田純二",
+        "石川隆一",
+        "高橋克己"
+      ],
+      "locator": {
+        "file": "35953.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "会田一男",
+        "宮原晃"
+      ],
+      "locator": {
+        "file": "35953.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第30号",
+    "billName": "令和８年度湯沢市一般会計予算",
+    "sessionLabel": "令和８年 第１回定例会（３月）",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "37453.pdf",
+      "page": 7
+    }
+  },
+  "rosterTitle": "ゆざわ市議会だより №85（令和8年5月1日）【19】「賛否一覧表」の表頭（会派名・議席番号・議員名）（令和８年第１回定例会）",
+  "resultTitle": "令和８年 議決結果（令和８年 第１回定例会（３月） 議案議決結果）"
+}

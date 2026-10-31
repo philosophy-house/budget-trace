@@ -1,0 +1,269 @@
+{
+  "docType": "council-composition",
+  "sourceId": "miyako-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:03.885Z",
+  "fiscalYear": "R8",
+  "body": "宮古市議会",
+  "seats": 21,
+  "asOf": "2026-01-23",
+  "factions": [
+    {
+      "name": "無所属クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松本尚美",
+        "長門孝則"
+      ],
+      "locator": {
+        "file": "kaihameibo_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "宮古創生会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "工藤小百合",
+        "鳥居晋"
+      ],
+      "locator": {
+        "file": "kaihameibo_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "立憲・市民クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "竹花邦彦"
+      ],
+      "locator": {
+        "file": "kaihameibo_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小島直也"
+      ],
+      "locator": {
+        "file": "kaihameibo_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田中尚",
+        "落合久三"
+      ],
+      "locator": {
+        "file": "kaihameibo_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みやこ未来推進クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "白石雅一",
+        "畠山智章",
+        "水木高志"
+      ],
+      "locator": {
+        "file": "kaihameibo_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みやこ未来創造クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "西村昭二",
+        "山崎高広",
+        "佐藤和美",
+        "中嶋勝司",
+        "伊藤清",
+        "髙橋秀正",
+        "橋本久夫"
+      ],
+      "locator": {
+        "file": "kaihameibo_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "宮古新生会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "木村誠",
+        "古舘博",
+        "今村正"
+      ],
+      "locator": {
+        "file": "kaihameibo_warp20260406.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度宮古市一般会計予算",
+    "sessionLabel": "令和８年３月定例会議",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "R08_03_sanpi.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "宮古市議会会派名簿（令和8年1月23日現在・国立国会図書館 WARP 2026-04-06 収集）",
+  "resultTitle": "令和8年3定例会議結果【賛否一覧】",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3定例会議結果【賛否一覧】",
+    "sourceFile": "R08_03_sanpi.pdf",
+    "columns": [
+      {
+        "label": "畠山智章",
+        "faction": "みやこ未来推進クラブ",
+        "member": "畠山智章",
+        "stance": "賛成"
+      },
+      {
+        "label": "水木高志",
+        "faction": "みやこ未来推進クラブ",
+        "member": "水木高志",
+        "stance": "賛成"
+      },
+      {
+        "label": "山崎高広",
+        "faction": "みやこ未来創造クラブ",
+        "member": "山崎高広",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤和美",
+        "faction": "みやこ未来創造クラブ",
+        "member": "佐藤和美",
+        "stance": "賛成"
+      },
+      {
+        "label": "古舘博",
+        "faction": "宮古新生会",
+        "member": "古舘博",
+        "stance": "賛成"
+      },
+      {
+        "label": "中嶋勝司",
+        "faction": "みやこ未来創造クラブ",
+        "member": "中嶋勝司",
+        "stance": "賛成"
+      },
+      {
+        "label": "今村正",
+        "faction": "宮古新生会",
+        "member": "今村正",
+        "stance": "賛成"
+      },
+      {
+        "label": "白石雅一",
+        "faction": "みやこ未来推進クラブ",
+        "member": "白石雅一",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村誠",
+        "faction": "宮古新生会",
+        "member": "木村誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "西村昭二",
+        "faction": "みやこ未来創造クラブ",
+        "member": "西村昭二",
+        "stance": "賛成"
+      },
+      {
+        "label": "小島直也",
+        "faction": "公明党",
+        "member": "小島直也",
+        "stance": "賛成"
+      },
+      {
+        "label": "鳥居晋",
+        "faction": "宮古創生会",
+        "member": "鳥居晋",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤清",
+        "faction": "みやこ未来創造クラブ",
+        "member": "伊藤清",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋秀正",
+        "faction": "みやこ未来創造クラブ",
+        "member": "髙橋秀正",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤小百合",
+        "faction": "宮古創生会",
+        "member": "工藤小百合",
+        "stance": "賛成"
+      },
+      {
+        "label": "長門孝則",
+        "faction": "無所属クラブ",
+        "member": "長門孝則",
+        "stance": "賛成"
+      },
+      {
+        "label": "落合久三",
+        "faction": "日本共産党",
+        "member": "落合久三",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本尚美",
+        "faction": "無所属クラブ",
+        "member": "松本尚美",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中尚",
+        "faction": "日本共産党",
+        "member": "田中尚",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹花邦彦",
+        "faction": "立憲・市民クラブ",
+        "member": "竹花邦彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋本久夫",
+        "faction": "みやこ未来創造クラブ",
+        "member": "橋本久夫",
+        "stance": "議長"
+      }
+    ]
+  }
+}

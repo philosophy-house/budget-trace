@@ -1,0 +1,131 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tomakomai-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:02.509Z",
+  "fiscalYear": "R8",
+  "body": "苫小牧市議会",
+  "seats": 27,
+  "asOf": "2026-03-10",
+  "factions": [
+    {
+      "name": "新緑",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "山谷芳則",
+        "喜多新二",
+        "山田隆子",
+        "竹田秀泰",
+        "嶋中康晴",
+        "志方光徳"
+      ],
+      "locator": {
+        "file": "tomakomai_houkoku_17-18.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "大西厚子",
+        "藤田広美",
+        "大野正和",
+        "池田謙次",
+        "神山哲太郎"
+      ],
+      "locator": {
+        "file": "tomakomai_houkoku_17-18.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "民主クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "佐々木修司",
+        "岩田薫",
+        "小山征三",
+        "橋本智子",
+        "松尾省勝"
+      ],
+      "locator": {
+        "file": "tomakomai_houkoku_17-18.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "改革フォーラム",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "首藤孝治",
+        "牧田俊之",
+        "越川慶一",
+        "松井雅宏"
+      ],
+      "locator": {
+        "file": "tomakomai_houkoku_17-18.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党市議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小野寺幸恵",
+        "原啓司",
+        "冨岡隆",
+        "森本健太"
+      ],
+      "locator": {
+        "file": "tomakomai_houkoku_17-18.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "会派市民",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "桜井忠",
+        "谷川芳一"
+      ],
+      "locator": {
+        "file": "tomakomai_houkoku_17-18.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "無所属（触沢高秀）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "触沢高秀"
+      ],
+      "locator": {
+        "file": "tomakomai_houkoku_17-18.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第9号",
+    "billName": "令和８年度苫小牧市一般会計予算について",
+    "sessionLabel": "第18回定例会",
+    "decidedDate": "2026-03-10",
+    "decidedDateLabel": "令和8年3月10日",
+    "result": "原案可決",
+    "locator": {
+      "file": "tomakomai_houkoku_17-18.pdf",
+      "page": 4
+    }
+  },
+  "rosterTitle": "苫小牧市議会報告 第17回臨時会～第18回定例会 p.4「賛否の分かれた案件」の各会派所属議員",
+  "resultTitle": "苫小牧市議会報告 第17回臨時会～第18回定例会"
+}

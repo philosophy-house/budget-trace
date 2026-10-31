@@ -1,0 +1,116 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hamada-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:47:00.265Z",
+  "fiscalYear": "R8",
+  "body": "浜田市議会",
+  "seats": 22,
+  "asOf": "2026-02-24",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "浜風の郷",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "西田一平",
+        "今田実延",
+        "岡山令子",
+        "花田香",
+        "村木勝也",
+        "沖田真治",
+        "足立豪",
+        "笹田卓"
+      ],
+      "locator": {
+        "file": "hamada_kaihabetumeibo_r080224.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創政クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "大谷学",
+        "川上幾雄",
+        "串﨑利行",
+        "岡本正友",
+        "澁谷幹雄",
+        "西田清久",
+        "川神裕司"
+      ],
+      "locator": {
+        "file": "hamada_kaihabetumeibo_r080224.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "戸津川美二",
+        "小川稔宏",
+        "芦谷英夫"
+      ],
+      "locator": {
+        "file": "hamada_kaihabetumeibo_r080224.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "柳楽真智子",
+        "佐々木豊治"
+      ],
+      "locator": {
+        "file": "hamada_kaihabetumeibo_r080224.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "遠藤祐之"
+      ],
+      "locator": {
+        "file": "hamada_kaihabetumeibo_r080224.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "操り人形三浦を助け会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森谷公昭"
+      ],
+      "locator": {
+        "file": "hamada_kaihabetumeibo_r080224.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第23号",
+    "billName": "令和8年度浜田市一般会計予算",
+    "sessionLabel": "令和8年3月浜田市議会定例会議",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hamada_R0803_giketukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "浜田市議会 議員名簿（会派別）（令和8年2月24日・国立国会図書館 WARP 2026-03-04 収集）",
+  "resultTitle": "令和8年3月浜田市議会定例会議議決結果等一覧"
+}

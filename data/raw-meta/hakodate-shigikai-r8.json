@@ -1,0 +1,32 @@
+{
+  "sourceId": "hakodate-shigikai-r8",
+  "files": [
+    {
+      "filename": "hakodate_kaiha_20250911.html",
+      "sha256": "d262e4060973bd4f623686be89eeecc03153b4b9e65d1bfab1be73d6fe172a83",
+      "bytes": 244893,
+      "fetchedAt": "2026-10-31T17:35:00.054Z",
+      "fetchedFrom": "https://web.archive.org/web/20250911173157id_/https://www.city.hakodate.hokkaido.jp/docs/2014011400429/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "hakodate_shikumi.html",
+      "sha256": "ae246d9aa841f2cfbd681d38554b7a6a5f1cda702fa8a3be92587b4bbaa57d1f",
+      "bytes": 249801,
+      "fetchedAt": "2026-10-31T17:35:00.054Z",
+      "fetchedFrom": "https://www.city.hakodate.hokkaido.jp/docs/2014010800404/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "hakodate_kaigikekka_r8-1t.pdf",
+      "sha256": "d38c5cdd39e8a201836444449df52ab2b4c332a4ebcceaa795816aecd0edc3f0",
+      "bytes": 193299,
+      "fetchedAt": "2026-10-31T17:35:00.055Z",
+      "fetchedFrom": "https://www.city.hakodate.hokkaido.jp/docs/2026032500118/file_contents/file_2026325322112_1.pdf"
+    }
+  ]
+}

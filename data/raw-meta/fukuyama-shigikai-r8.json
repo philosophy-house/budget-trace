@@ -1,0 +1,36 @@
+{
+  "sourceId": "fukuyama-shigikai-r8",
+  "files": [
+    {
+      "filename": "fukuyama_kaihameibo_warp20260304.html",
+      "sha256": "8423a145398991abe740b0eade3795a9fc53e898500068e9d935b102b0b6a863",
+      "bytes": 30023,
+      "fetchedAt": "2026-10-31T17:46:52.064Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260306/20260304012646id_/https://www.city.fukuyama.hiroshima.jp/soshiki/gikai/kaihameibo.html"
+    },
+    {
+      "filename": "fukuyama_333483.pdf",
+      "sha256": "a8665d8976eb3bfa5b179fd00d10e07f028cdc61217c9e567936e4bbf0a81055",
+      "bytes": 157039,
+      "fetchedAt": "2026-10-31T17:46:52.064Z",
+      "fetchedFrom": "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/333483.pdf"
+    },
+    {
+      "filename": "fukuyama_jfit_day337.html",
+      "sha256": "ce183ff5777b9c27c0c13fd0ce46ac6f5386527479128e13a4e73d5f0b28d1ac",
+      "bytes": 8433,
+      "fetchedAt": "2026-10-31T17:46:52.064Z",
+      "fetchedFrom": "https://fukuyama-city.stream.jfit.co.jp/?tpl=gikai_result&gikai_day_id=337&category_id=8&inquiry_id=969",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "fukuyama_243414.html",
+      "sha256": "cd39ba72bc3fd4d12fcbebd80f8ebcfe5362067d816dc9a5c6bd925cc5a79eac",
+      "bytes": 26911,
+      "fetchedAt": "2026-10-31T17:46:52.065Z",
+      "fetchedFrom": "https://www.city.fukuyama.hiroshima.jp/soshiki/gikai/243414.html"
+    }
+  ]
+}

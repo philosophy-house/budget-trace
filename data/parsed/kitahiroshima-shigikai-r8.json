@@ -1,0 +1,160 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kitahiroshima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:57.474Z",
+  "fiscalYear": "R8",
+  "body": "北広島市議会",
+  "seats": 22,
+  "asOf": "2025-05-14",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "自由クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "中川昌憲",
+        "川崎彰治",
+        "青木崇",
+        "阿部勝義",
+        "児玉正輝",
+        "松本亜美里"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山本博己",
+        "永井桃",
+        "人見哲哉"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "藤田豊",
+        "大迫彰",
+        "小玉淳子"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "きたひろ五和会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "滝久美子",
+        "桜井芳信"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民ネットワーク北海道",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "鶴谷聡美",
+        "佐々木百合香"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民主市民連合",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐藤敏男",
+        "小田島雅博"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（野村幸宏）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "野村幸宏"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（稲田保子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "稲田保子"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（島崎圭介）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "島崎圭介"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（坂本覚）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "坂本覚"
+      ],
+      "locator": {
+        "file": "20250513125340.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第25号",
+    "billName": "令和8年度北広島市一般会計予算",
+    "sessionLabel": "令和8年第1回 北広島市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "giketukekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "北広島市議会 会派構成（令和７年５月１４日現在）",
+  "resultTitle": "令和8年第1回定例会議決結果"
+}

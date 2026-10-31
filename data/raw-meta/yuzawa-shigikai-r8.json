@@ -1,0 +1,26 @@
+{
+  "sourceId": "yuzawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "35953.pdf",
+      "sha256": "c06e007f58c509dc7f6358b35f5eaa5b89b787a09eb4cf838fa8fed62c8b1cdd",
+      "bytes": 313154,
+      "fetchedAt": "2026-10-31T17:35:00.078Z",
+      "fetchedFrom": "https://www.city-yuzawa.jp/uploaded/attachment/35953.pdf"
+    },
+    {
+      "filename": "37453.pdf",
+      "sha256": "0dfe2457b771d5381622d2fb6116b20c22a3c175f94261dad3b767ac7ac447e8",
+      "bytes": 695739,
+      "fetchedAt": "2026-10-31T17:35:00.079Z",
+      "fetchedFrom": "https://www.city-yuzawa.jp/uploaded/attachment/37453.pdf"
+    },
+    {
+      "filename": "579.html",
+      "sha256": "41b5e8aaf603b99d27bddafac9a76bc987df3d471cda9cb9f0d9324efad3f988",
+      "bytes": 67434,
+      "fetchedAt": "2026-10-31T17:35:00.079Z",
+      "fetchedFrom": "https://www.city-yuzawa.jp/site/gikai/579.html"
+    }
+  ]
+}
