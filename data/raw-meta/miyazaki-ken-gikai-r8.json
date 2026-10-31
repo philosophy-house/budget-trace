@@ -1,0 +1,19 @@
+{
+  "sourceId": "miyazaki-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "miyazaki-ken_107577_20260323113927-1.pdf",
+      "sha256": "3319f7f3da19287313b41ee0892fd30d8cbc57e028d22bc7f584c6cbec80a940",
+      "bytes": 111767,
+      "fetchedAt": "2026-10-31T08:34:30.608Z",
+      "fetchedFrom": "https://www.pref.miyazaki.lg.jp/documents/107577/107577_20260323113927-1.pdf"
+    },
+    {
+      "filename": "miyazaki-ken_82306_20260603093320-1.pdf",
+      "sha256": "937e5031599c325d61d97e4cedd1c9cc8f4526894e5f5389d2cbf724da1c8d32",
+      "bytes": 724744,
+      "fetchedAt": "2026-10-31T08:34:30.609Z",
+      "fetchedFrom": "https://www.pref.miyazaki.lg.jp/documents/82306/82306_20260603093320-1.pdf"
+    }
+  ]
+}

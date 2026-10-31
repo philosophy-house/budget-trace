@@ -1,0 +1,22 @@
+{
+  "sourceId": "akita-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "akita-ken_giin_20260217052011.html",
+      "sha256": "4ca7a1ac5c0ab4c6bddc8f7a792dd0c2ac909655d1e8bb315e1328a6f8b55d2a",
+      "bytes": 40801,
+      "fetchedAt": "2026-10-31T08:34:30.621Z",
+      "fetchedFrom": "https://web.archive.org/web/20260217052011id_/https://pref.akita.gsl-service.net/doc/2018042300017/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "akita-ken_080319.pdf",
+      "sha256": "4b3967101500335361e5f0b8e19739dfdf89072f8bab511317b65ddacaf33beb",
+      "bytes": 610797,
+      "fetchedAt": "2026-10-31T08:34:30.622Z",
+      "fetchedFrom": "https://pref.akita.gsl-service.net/doc/2026021300064/file_contents/080319.pdf"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "uwajima-shigikai-r8",
+  "files": [
+    {
+      "filename": "gikai08_20251204.html",
+      "sha256": "a82cc1f280455b424657a8f65163ccdb7a1281a73074d0aa120f56d5040e238e",
+      "bytes": 51576,
+      "fetchedAt": "2026-10-31T08:34:30.578Z",
+      "fetchedFrom": "https://web.archive.org/web/20251204201952id_/https://www.city.uwajima.ehime.jp/site/shigikai/gikai08.html"
+    },
+    {
+      "filename": "68314.pdf",
+      "sha256": "ef051026ff1d974b11f477641abd7723541f35b3cb05c08bcaafa392356ef741",
+      "bytes": 2366511,
+      "fetchedAt": "2026-10-31T08:34:30.580Z",
+      "fetchedFrom": "https://www.city.uwajima.ehime.jp/uploaded/attachment/68314.pdf"
+    },
+    {
+      "filename": "gikai105.html",
+      "sha256": "e971e4aa236f4a9316ea196636737eee56bf79a6024e70db4848a7acc5adaaac",
+      "bytes": 67613,
+      "fetchedAt": "2026-10-31T08:34:30.580Z",
+      "fetchedFrom": "https://www.city.uwajima.ehime.jp/event/shigikai/gikai105.html"
+    },
+    {
+      "filename": "64063.pdf",
+      "sha256": "e33d0bbbe5ac0a996004cb7dc5f3740523ecc3ef1df31b96f40ddcd4f7ff42e0",
+      "bytes": 292900,
+      "fetchedAt": "2026-10-31T08:34:30.581Z",
+      "fetchedFrom": "https://www.city.uwajima.ehime.jp/uploaded/attachment/64063.pdf"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kobayashi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:37.025Z",
+  "fiscalYear": "R8",
+  "body": "小林市議会",
+  "seats": 19,
+  "asOf": "2023-12-26",
+  "factions": [
+    {
+      "name": "立新会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "貴嶋憲太郎",
+        "押領司剛",
+        "有木将吾",
+        "松嶺勇一",
+        "小川真",
+        "堀研二郎"
+      ],
+      "locator": {
+        "file": "kobayashi_2772_20250430.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "創生こばやし",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "原勝信",
+        "永野雅己",
+        "吉藤洋子",
+        "舞田重治",
+        "金松勲"
+      ],
+      "locator": {
+        "file": "kobayashi_2772_20250430.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大迫みどり",
+        "橋本律子"
+      ],
+      "locator": {
+        "file": "kobayashi_2772_20250430.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "北霧島政新会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "高野良文",
+        "野田利典"
+      ],
+      "locator": {
+        "file": "kobayashi_2772_20250430.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "新生会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "能勢誠",
+        "前田隆博"
+      ],
+      "locator": {
+        "file": "kobayashi_2772_20250430.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "竹内龍一郎"
+      ],
+      "locator": {
+        "file": "kobayashi_2772_20250430.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "鎌田豊数"
+      ],
+      "locator": {
+        "file": "kobayashi_2772_20250430.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案 10",
+    "billName": "一般会計予算",
+    "sessionLabel": "令和 8 年第 3 回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kobayashi_R0803hyouketukekkaitiran.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派構成（更新日：2023年12月26日）",
+  "resultTitle": "令和8年第3回定例会 表決結果一覧（令和8年2月25日～3月24日）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第3回定例会 表決結果一覧「◆表決の分かれた議案◆」",
+    "sourceFile": "kobayashi_R0803hyouketukekkaitiran.pdf",
+    "columns": [
+      {
+        "label": "堀研二郎",
+        "faction": "立新会",
+        "member": "堀研二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川真",
+        "faction": "立新会",
+        "member": "小川真",
+        "stance": "賛成"
+      },
+      {
+        "label": "能勢誠",
+        "faction": "新生会",
+        "member": "能勢誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "野田利典",
+        "faction": "北霧島政新会",
+        "member": "野田利典",
+        "stance": "賛成"
+      },
+      {
+        "label": "松嶺勇一",
+        "faction": "立新会",
+        "member": "松嶺勇一",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋本律子",
+        "faction": "日本共産党",
+        "member": "橋本律子",
+        "stance": "反対"
+      },
+      {
+        "label": "永野雅己",
+        "faction": "創生こばやし",
+        "member": "永野雅己",
+        "stance": "賛成"
+      },
+      {
+        "label": "金松勲",
+        "faction": "創生こばやし",
+        "member": "金松勲",
+        "stance": "賛成"
+      },
+      {
+        "label": "有木将吾",
+        "faction": "立新会",
+        "member": "有木将吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "押領司剛",
+        "faction": "立新会",
+        "member": "押領司剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田隆博",
+        "faction": "新生会",
+        "member": "前田隆博",
+        "stance": "賛成"
+      },
+      {
+        "label": "貴嶋憲太郎",
+        "faction": "立新会",
+        "member": "貴嶋憲太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹内龍一郎",
+        "faction": "立憲民主党",
+        "member": "竹内龍一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "舞田重治",
+        "faction": "創生こばやし",
+        "member": "舞田重治",
+        "stance": "議長"
+      },
+      {
+        "label": "吉藤洋子",
+        "faction": "創生こばやし",
+        "member": "吉藤洋子",
+        "stance": "賛成"
+      },
+      {
+        "label": "原勝信",
+        "faction": "創生こばやし",
+        "member": "原勝信",
+        "stance": "賛成"
+      },
+      {
+        "label": "鎌田豊数",
+        "faction": "公明党",
+        "member": "鎌田豊数",
+        "stance": "賛成"
+      },
+      {
+        "label": "大迫みどり",
+        "faction": "日本共産党",
+        "member": "大迫みどり",
+        "stance": "反対"
+      },
+      {
+        "label": "髙野良文",
+        "faction": "北霧島政新会",
+        "member": "高野良文",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

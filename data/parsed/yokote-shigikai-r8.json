@@ -1,0 +1,265 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yokote-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:38.322Z",
+  "fiscalYear": "R8",
+  "body": "横手市議会",
+  "seats": 22,
+  "asOf": "2025-11-04",
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "土田百合子",
+        "井上忠征"
+      ],
+      "locator": {
+        "file": "yokote_kaiha_20260120190021.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "菅原惠悦",
+        "石岡恵美子",
+        "江上善一",
+        "大日向香輝",
+        "菅原正志"
+      ],
+      "locator": {
+        "file": "yokote_kaiha_20260120190021.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "さきがけ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "寿松木孝",
+        "青山豊",
+        "石川拓也",
+        "佐藤誠洋",
+        "築山智"
+      ],
+      "locator": {
+        "file": "yokote_kaiha_20260120190021.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "立身万千子"
+      ],
+      "locator": {
+        "file": "yokote_kaiha_20260120190021.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "小野正伸",
+        "加藤司",
+        "加藤雄太",
+        "柴田忍",
+        "土谷久男"
+      ],
+      "locator": {
+        "file": "yokote_kaiha_20260120190021.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "創成の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "加藤勝義",
+        "本間利博",
+        "宮川拓也"
+      ],
+      "locator": {
+        "file": "yokote_kaiha_20260120190021.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "青風会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "髙橋聖悟"
+      ],
+      "locator": {
+        "file": "yokote_kaiha_20260120190021.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第４４号",
+    "billName": "令和８年度横手市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "原案可決",
+    "locator": {
+      "file": "yokote_0803sannpi.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年11月4日現在）",
+  "resultTitle": "賛否一覧表（令和８年３月定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "賛否一覧表（令和８年３月定例会）",
+    "sourceFile": "yokote_0803sannpi.pdf",
+    "columns": [
+      {
+        "label": "土田百合子",
+        "faction": "公明党",
+        "member": "土田百合子",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上忠征",
+        "faction": "公明党",
+        "member": "井上忠征",
+        "stance": "賛成"
+      },
+      {
+        "label": "立身万千子",
+        "faction": "日本共産党",
+        "member": "立身万千子",
+        "stance": "反対"
+      },
+      {
+        "label": "加藤勝義",
+        "faction": "創成の会",
+        "member": "加藤勝義",
+        "stance": "賛成"
+      },
+      {
+        "label": "本間利博",
+        "faction": "創成の会",
+        "member": "本間利博",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮川拓也",
+        "faction": "創成の会",
+        "member": "宮川拓也",
+        "stance": "賛成"
+      },
+      {
+        "label": "石岡恵美子",
+        "faction": "市民の会",
+        "member": "石岡恵美子",
+        "stance": "反対"
+      },
+      {
+        "label": "江上善一",
+        "faction": "市民の会",
+        "member": "江上善一",
+        "stance": "賛成"
+      },
+      {
+        "label": "大日向香輝",
+        "faction": "市民の会",
+        "member": "大日向香輝",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅原惠悦",
+        "faction": "市民の会",
+        "member": "菅原惠悦",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤司",
+        "faction": "新政会",
+        "member": "加藤司",
+        "stance": "賛成"
+      },
+      {
+        "label": "土谷久男",
+        "faction": "新政会",
+        "member": "土谷久男",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野正伸",
+        "faction": "新政会",
+        "member": "小野正伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤雄太",
+        "faction": "新政会",
+        "member": "加藤雄太",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴田忍",
+        "faction": "新政会",
+        "member": "柴田忍",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋聖悟",
+        "faction": "青風会",
+        "member": "髙橋聖悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤誠洋",
+        "faction": "さきがけ",
+        "member": "佐藤誠洋",
+        "stance": "反対"
+      },
+      {
+        "label": "築山智",
+        "faction": "さきがけ",
+        "member": "築山智",
+        "stance": "賛成"
+      },
+      {
+        "label": "青山豊",
+        "faction": "さきがけ",
+        "member": "青山豊",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川拓也",
+        "faction": "さきがけ",
+        "member": "石川拓也",
+        "stance": "賛成"
+      },
+      {
+        "label": "寿松木孝",
+        "faction": "さきがけ",
+        "member": "寿松木孝",
+        "stance": "反対"
+      },
+      {
+        "label": "菅原正志",
+        "faction": "市民の会",
+        "member": "菅原正志",
+        "stance": "議長"
+      }
+    ]
+  }
+}

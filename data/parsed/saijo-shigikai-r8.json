@@ -1,0 +1,275 @@
+{
+  "docType": "council-composition",
+  "sourceId": "saijo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:33.489Z",
+  "fiscalYear": "R8",
+  "body": "西条市議会",
+  "seats": 28,
+  "asOf": "2025-04-04",
+  "teisu": 28,
+  "factions": [
+    {
+      "name": "西条自民クラブ",
+      "seats": 16,
+      "isIndependent": false,
+      "members": [
+        "一色輝雄",
+        "佐々木充",
+        "柳原政彦",
+        "伊藤良二",
+        "森川亜紀",
+        "三好和彦",
+        "髙橋保",
+        "藤井武彦",
+        "川又由美恵",
+        "井上浩二",
+        "佐伯利彦",
+        "西坂壽",
+        "行元博",
+        "越智俊幸",
+        "武田功",
+        "伊藤孝司"
+      ],
+      "locator": {
+        "file": "kaiha_20251114.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "夢みらいクラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "真鍋顕伸",
+        "日野克則",
+        "三浦颯",
+        "高木新治"
+      ],
+      "locator": {
+        "file": "kaiha_20251114.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党西条市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "城戸力",
+        "髙橋淑子"
+      ],
+      "locator": {
+        "file": "kaiha_20251114.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "会派に所属していない議員",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "渡部勤文",
+        "玉置公正",
+        "八木邦靖",
+        "黒川理惠子",
+        "越智由美子",
+        "髙橋章哲"
+      ],
+      "locator": {
+        "file": "kaiha_20251114.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第9号",
+    "billName": "令和8年度西条市一般会計予算について",
+    "sessionLabel": "令和８年西条市議会第３回３月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "83750.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派構成（更新日 2025年4月4日・議決前の魚拓）",
+  "resultTitle": "議案等件名及び議決状況（一覧表）令和８年西条市議会第３回３月定例会",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年西条市議会第３回３月定例会 議員別議案等賛否一覧表",
+    "sourceFile": "83751.pdf",
+    "columns": [
+      {
+        "label": "三浦颯",
+        "faction": "夢みらいクラブ",
+        "member": "三浦颯",
+        "stance": "賛成"
+      },
+      {
+        "label": "高木新治",
+        "faction": "夢みらいクラブ",
+        "member": "高木新治",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡部勤文",
+        "faction": "会派に所属していない議員",
+        "member": "渡部勤文",
+        "stance": "賛成"
+      },
+      {
+        "label": "玉置公正",
+        "faction": "会派に所属していない議員",
+        "member": "玉置公正",
+        "stance": "賛成"
+      },
+      {
+        "label": "八木邦靖",
+        "faction": "会派に所属していない議員",
+        "member": "八木邦靖",
+        "stance": "賛成"
+      },
+      {
+        "label": "黒川理惠子",
+        "faction": "会派に所属していない議員",
+        "member": "黒川理惠子",
+        "stance": "賛成"
+      },
+      {
+        "label": "柳原政彦",
+        "faction": "西条自民クラブ",
+        "member": "柳原政彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤良二",
+        "faction": "西条自民クラブ",
+        "member": "伊藤良二",
+        "stance": "賛成"
+      },
+      {
+        "label": "日野克則",
+        "faction": "夢みらいクラブ",
+        "member": "日野克則",
+        "stance": "賛成"
+      },
+      {
+        "label": "越智由美子",
+        "faction": "会派に所属していない議員",
+        "member": "越智由美子",
+        "stance": "反対"
+      },
+      {
+        "label": "髙橋淑子",
+        "faction": "公明党西条市議団",
+        "member": "髙橋淑子",
+        "stance": "賛成"
+      },
+      {
+        "label": "森川亜紀",
+        "faction": "西条自民クラブ",
+        "member": "森川亜紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木充",
+        "faction": "西条自民クラブ",
+        "member": "佐々木充",
+        "stance": "賛成"
+      },
+      {
+        "label": "三好和彦",
+        "faction": "西条自民クラブ",
+        "member": "三好和彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋保",
+        "faction": "西条自民クラブ",
+        "member": "髙橋保",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤井武彦",
+        "faction": "西条自民クラブ",
+        "member": "藤井武彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "川又由美恵",
+        "faction": "西条自民クラブ",
+        "member": "川又由美恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上浩二",
+        "faction": "西条自民クラブ",
+        "member": "井上浩二",
+        "stance": "賛成"
+      },
+      {
+        "label": "真鍋顕伸",
+        "faction": "夢みらいクラブ",
+        "member": "真鍋顕伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋章哲",
+        "faction": "会派に所属していない議員",
+        "member": "髙橋章哲",
+        "stance": "賛成"
+      },
+      {
+        "label": "城戸力",
+        "faction": "公明党西条市議団",
+        "member": "城戸力",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐伯利彦",
+        "faction": "西条自民クラブ",
+        "member": "佐伯利彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "西坂壽",
+        "faction": "西条自民クラブ",
+        "member": "西坂壽",
+        "stance": "賛成"
+      },
+      {
+        "label": "行元博",
+        "faction": "西条自民クラブ",
+        "member": "行元博",
+        "stance": "賛成"
+      },
+      {
+        "label": "越智俊幸",
+        "faction": "西条自民クラブ",
+        "member": "越智俊幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "武田功",
+        "faction": "西条自民クラブ",
+        "member": "武田功",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤孝司",
+        "faction": "西条自民クラブ",
+        "member": "伊藤孝司",
+        "stance": "賛成"
+      },
+      {
+        "label": "一色輝雄",
+        "faction": "西条自民クラブ",
+        "member": "一色輝雄",
+        "stance": "議長"
+      }
+    ]
+  }
+}

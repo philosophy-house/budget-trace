@@ -1,0 +1,139 @@
+{
+  "docType": "council-composition",
+  "sourceId": "miyazaki-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:35.748Z",
+  "fiscalYear": "R8",
+  "body": "宮崎県議会",
+  "seats": 35,
+  "asOf": "2026-03-19",
+  "factions": [
+    {
+      "name": "宮崎県議会自由民主党",
+      "seats": 24,
+      "isIndependent": false,
+      "members": [
+        "荒神稔",
+        "内田理佐",
+        "川添博",
+        "河野通博",
+        "黒岩保雄",
+        "齋藤了介",
+        "坂口博美",
+        "佐藤雅洋",
+        "下沖篤史",
+        "中野一則",
+        "野﨑幸士",
+        "濵砂守",
+        "日高博之",
+        "日髙陽一",
+        "福田新一",
+        "二見康之",
+        "本田利弘",
+        "安田厚生",
+        "山内いっとく",
+        "山口俊樹",
+        "山下寿",
+        "山下博三",
+        "渡辺正剛",
+        "外山衛"
+      ],
+      "locator": {
+        "file": "miyazaki-ken_107577_20260323113927-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党宮崎県議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "今村光雄",
+        "工藤隆久",
+        "坂本康郎",
+        "重松幸次郎"
+      ],
+      "locator": {
+        "file": "miyazaki-ken_107577_20260323113927-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "県民連合立憲",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岩切達哉",
+        "永山敏郎",
+        "松本哲也"
+      ],
+      "locator": {
+        "file": "miyazaki-ken_107577_20260323113927-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党宮崎県議会議員団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "前屋敷恵美"
+      ],
+      "locator": {
+        "file": "miyazaki-ken_107577_20260323113927-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無所属の会 チームひむか",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "図師博規"
+      ],
+      "locator": {
+        "file": "miyazaki-ken_107577_20260323113927-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "未来への風",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "脇谷のりこ"
+      ],
+      "locator": {
+        "file": "miyazaki-ken_107577_20260323113927-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "自民党同志会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "井本英雄"
+      ],
+      "locator": {
+        "file": "miyazaki-ken_107577_20260323113927-1.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度宮崎県一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "miyazaki-ken_107577_20260323113927-1.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年２月定例会 議案・請願の賛否一覧表 p.3（会派所属議員）",
+  "resultTitle": "令和８年２月定例会 議案・請願の賛否一覧表（各会派の議案・請願への賛否）"
+}

@@ -1,0 +1,43 @@
+{
+  "sourceId": "nichinan-shigikai-r8",
+  "files": [
+    {
+      "filename": "nichinan_kaiha-meibo-r7-4-22-2.pdf",
+      "sha256": "13a73b4cc5c7df21c909c279ff2f0bcf9e8377474b40b976c5c59717924c30e6",
+      "bytes": 196695,
+      "fetchedAt": "2026-10-31T08:34:30.613Z",
+      "fetchedFrom": "https://www.city.nichinan.lg.jp/material/files/group/131/kaiha-meibo-r7-4-22-2.pdf"
+    },
+    {
+      "filename": "nichinan_2901_20251123.html",
+      "sha256": "776a23568feb16317d0da6594983a34ce3590856601ef69acd4723caf79e8523",
+      "bytes": 67277,
+      "fetchedAt": "2026-10-31T08:34:30.614Z",
+      "fetchedFrom": "https://web.archive.org/web/20251123174706id_/https://www.city.nichinan.lg.jp/gyoseijoho/nichinanshigikai/3/2901.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "nichinan_2904.html",
+      "sha256": "9d6ba3e8768e1d554ac293e3a82399f2abd5aaabf7fcd8bbcf4cbdbe88f23984",
+      "bytes": 66794,
+      "fetchedAt": "2026-10-31T08:34:30.614Z",
+      "fetchedFrom": "https://www.city.nichinan.lg.jp/gyoseijoho/nichinanshigikai/4/2904.html"
+    },
+    {
+      "filename": "nichinan_gikaidayori_69.pdf",
+      "sha256": "20c983e5a048aee35dd2605f21dcebd562b94e42b500f0c2f662cf2c5cafd8cb",
+      "bytes": 2261918,
+      "fetchedAt": "2026-10-31T08:34:30.616Z",
+      "fetchedFrom": "https://www.city.nichinan.lg.jp/material/files/group/131/gikaidayori_69.pdf"
+    },
+    {
+      "filename": "nichinan_R8-2_giketsu-kekka.pdf",
+      "sha256": "692909053ef2a718ebd17ac4918ed42406cb284419acbda5533cce938a6a24dd",
+      "bytes": 98766,
+      "fetchedAt": "2026-10-31T08:34:30.617Z",
+      "fetchedFrom": "https://www.city.nichinan.lg.jp/material/files/group/131/R8-2_giketsu-kekka.pdf"
+    }
+  ]
+}

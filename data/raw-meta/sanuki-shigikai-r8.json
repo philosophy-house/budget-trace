@@ -1,0 +1,33 @@
+{
+  "sourceId": "sanuki-shigikai-r8",
+  "files": [
+    {
+      "filename": "sanuki_3791.html",
+      "sha256": "e9ac30f66c1cc8e1e6f15416775a4f8b16fa71f8f47360ca8c388cac00f23d1c",
+      "bytes": 68032,
+      "fetchedAt": "2026-10-31T08:34:30.573Z",
+      "fetchedFrom": "https://web.archive.org/web/20260416132907id_/https://www.city.sanuki.lg.jp/shisei/gikai/giin/3791.html"
+    },
+    {
+      "filename": "sanuki_R8-1_teireikai_kekka.pdf",
+      "sha256": "c2b5131637488770069f10f9c38614b28354ed37c02a75894107d67675f518ae",
+      "bytes": 52186,
+      "fetchedAt": "2026-10-31T08:34:30.573Z",
+      "fetchedFrom": "https://www.city.sanuki.lg.jp/material/files/group/3/R8-1_teireikai_kekka.pdf"
+    },
+    {
+      "filename": "sanuki_R8-1_teirei_sanpi.pdf",
+      "sha256": "d47b546bcc780b579fe4a88a99553f64e241da04758f7786afde0d0e8782d45c",
+      "bytes": 67235,
+      "fetchedAt": "2026-10-31T08:34:30.574Z",
+      "fetchedFrom": "https://www.city.sanuki.lg.jp/material/files/group/3/R8-1_teirei_sanpi.pdf"
+    },
+    {
+      "filename": "sanuki_3792.html",
+      "sha256": "2683bac7be1d45e83aa4dc3c1e0823f683379860a86991ef8bacbc7c25fc9260",
+      "bytes": 62077,
+      "fetchedAt": "2026-10-31T08:34:30.574Z",
+      "fetchedFrom": "https://www.city.sanuki.lg.jp/shisei/gikai/giin/3792.html"
+    }
+  ]
+}

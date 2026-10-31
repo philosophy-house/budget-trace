@@ -1,0 +1,219 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sanuki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:31.671Z",
+  "fiscalYear": "R8",
+  "body": "さぬき市議会",
+  "seats": 20,
+  "asOf": "2023-06-20",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "同志会",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "松原壯典",
+        "八木弘",
+        "髙嶋正朋",
+        "松岡裕明",
+        "多田泰宏",
+        "真部茂",
+        "中澤誠",
+        "森田浩之",
+        "谷木伸行",
+        "赤澤礼士",
+        "野﨑博史"
+      ],
+      "locator": {
+        "file": "sanuki_3791.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "国民民主党と有志の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "中川睦彦",
+        "濱岡洋貴",
+        "細川裕生"
+      ],
+      "locator": {
+        "file": "sanuki_3791.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党議員会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "江村信介",
+        "鏡原光代"
+      ],
+      "locator": {
+        "file": "sanuki_3791.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "間嶋三郎",
+        "中村聖二",
+        "多田雄平",
+        "朝田雪香"
+      ],
+      "locator": {
+        "file": "sanuki_3791.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３号",
+    "billName": "令和８年度さぬき市一般会計予算について",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "sanuki_R8-1_teireikai_kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "委員会名簿・会派名簿（会派名簿 令和5年6月20日現在）",
+  "resultTitle": "審議結果一覧表（令和８年第１回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年さぬき市議会第1回定例会（2/26～3/26） 議員の議案に対する賛否表",
+    "sourceFile": "sanuki_R8-1_teirei_sanpi.pdf",
+    "columns": [
+      {
+        "label": "濱岡洋貴",
+        "faction": "国民民主党と有志の会",
+        "member": "濱岡洋貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "細川裕生",
+        "faction": "国民民主党と有志の会",
+        "member": "細川裕生",
+        "stance": "賛成"
+      },
+      {
+        "label": "野﨑博史",
+        "faction": "同志会",
+        "member": "野﨑博史",
+        "stance": "賛成"
+      },
+      {
+        "label": "赤澤礼士",
+        "faction": "同志会",
+        "member": "赤澤礼士",
+        "stance": "賛成"
+      },
+      {
+        "label": "朝田雪香",
+        "faction": "無所属",
+        "member": "朝田雪香",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷木伸行",
+        "faction": "同志会",
+        "member": "谷木伸行",
+        "stance": "賛成"
+      },
+      {
+        "label": "中川睦彦",
+        "faction": "国民民主党と有志の会",
+        "member": "中川睦彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "森田浩之",
+        "faction": "同志会",
+        "member": "森田浩之",
+        "stance": "賛成"
+      },
+      {
+        "label": "松岡裕明",
+        "faction": "同志会",
+        "member": "松岡裕明",
+        "stance": "賛成"
+      },
+      {
+        "label": "中澤誠",
+        "faction": "同志会",
+        "member": "中澤誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "鏡原光代",
+        "faction": "公明党議員会",
+        "member": "鏡原光代",
+        "stance": "賛成"
+      },
+      {
+        "label": "多田雄平",
+        "faction": "無所属",
+        "member": "多田雄平",
+        "stance": "賛成"
+      },
+      {
+        "label": "真部茂",
+        "faction": "同志会",
+        "member": "真部茂",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村聖二",
+        "faction": "無所属",
+        "member": "中村聖二",
+        "stance": "賛成"
+      },
+      {
+        "label": "江村信介",
+        "faction": "公明党議員会",
+        "member": "江村信介",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙嶋正朋",
+        "faction": "同志会",
+        "member": "髙嶋正朋",
+        "stance": "議長"
+      },
+      {
+        "label": "松原壯典",
+        "faction": "同志会",
+        "member": "松原壯典",
+        "stance": "賛成"
+      },
+      {
+        "label": "多田泰宏",
+        "faction": "同志会",
+        "member": "多田泰宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "八木弘",
+        "faction": "同志会",
+        "member": "八木弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "間嶋三郎",
+        "faction": "無所属",
+        "member": "間嶋三郎",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

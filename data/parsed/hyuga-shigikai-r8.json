@@ -1,0 +1,113 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hyuga-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:37.187Z",
+  "fiscalYear": "R8",
+  "body": "日向市議会",
+  "seats": 20,
+  "asOf": "2025-06-06",
+  "factions": [
+    {
+      "name": "市政会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "黒木英和",
+        "日髙和広",
+        "畝原幸裕",
+        "成合進也",
+        "小林隆洋",
+        "壱岐紘明",
+        "帆足武男"
+      ],
+      "locator": {
+        "file": "hyuga_02meibo-kaiha_20250825.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "明正会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "黒木正",
+        "髙橋由美",
+        "黒木克彦",
+        "友石司",
+        "近藤勝久"
+      ],
+      "locator": {
+        "file": "hyuga_02meibo-kaiha_20250825.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "結いの会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "柏田公和",
+        "黒木高広",
+        "松葉進一"
+      ],
+      "locator": {
+        "file": "hyuga_02meibo-kaiha_20250825.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民連合",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "三輪邦彦",
+        "黒木雅由"
+      ],
+      "locator": {
+        "file": "hyuga_02meibo-kaiha_20250825.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "三樹喜久代",
+        "黒木健二"
+      ],
+      "locator": {
+        "file": "hyuga_02meibo-kaiha_20250825.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に属さない者（河野ひとみ）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "河野ひとみ"
+      ],
+      "locator": {
+        "file": "hyuga_02meibo-kaiha_20250825.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 31 号",
+    "billName": "令和８年度日向市一般会計予算",
+    "sessionLabel": "令和 8 年第 1 回日向市議会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決（全員一致）",
+    "locator": {
+      "file": "hyuga_r0803t-3.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "議員名簿 会派別名簿（令和7年6月6日現在）",
+  "resultTitle": "令和8年第1回日向市議会議決状況（3月23日採決分）"
+}

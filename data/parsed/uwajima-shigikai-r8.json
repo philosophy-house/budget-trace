@@ -1,0 +1,103 @@
+{
+  "docType": "council-composition",
+  "sourceId": "uwajima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:33.263Z",
+  "fiscalYear": "R8",
+  "body": "宇和島市議会",
+  "seats": 20,
+  "asOf": "2025-09-11",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "みずほ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "清家康生",
+        "佐々木宣夫",
+        "中平政志",
+        "三曳重郎",
+        "福本義和",
+        "泉雄二"
+      ],
+      "locator": {
+        "file": "gikai08_20251204.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "ゆうほ会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "石﨑大樹",
+        "細川晋介",
+        "田中秀忠",
+        "椙山三也",
+        "兵頭司博"
+      ],
+      "locator": {
+        "file": "gikai08_20251204.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "我妻正三",
+        "宮崎理恵",
+        "畠山博文"
+      ],
+      "locator": {
+        "file": "gikai08_20251204.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "自由民主党 創政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "浅田美幸",
+        "山瀬忠弘",
+        "赤松孝寛"
+      ],
+      "locator": {
+        "file": "gikai08_20251204.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "明石真太郎",
+        "槇野洋子",
+        "山本定彦"
+      ],
+      "locator": {
+        "file": "gikai08_20251204.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第32号",
+    "billName": "令和８年度宇和島市一般会計予算",
+    "sessionLabel": "令和８年３月第105回宇和島市議会定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "68314.pdf",
+      "page": 4
+    }
+  },
+  "rosterTitle": "市議会議員/所属会派別（更新日 2025年9月11日・議決前の魚拓）",
+  "resultTitle": "うわじま市議会だより 第83号 定例会議決結果一覧表（令和８年３月第105回宇和島市議会定例会）"
+}

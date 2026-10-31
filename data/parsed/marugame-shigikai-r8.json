@@ -1,0 +1,129 @@
+{
+  "docType": "council-composition",
+  "sourceId": "marugame-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:31.399Z",
+  "fiscalYear": "R8",
+  "body": "丸亀市議会",
+  "seats": 24,
+  "asOf": "2026-03-25",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "志政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "東由美",
+        "大前誠治",
+        "香川勝",
+        "谷本和也",
+        "廣田勝也",
+        "横田隼人"
+      ],
+      "locator": {
+        "file": "26552.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "大西浩",
+        "小野祐美子",
+        "加藤正員",
+        "角野仁美",
+        "渡邉一馬",
+        "大岡弘美",
+        "守家英明"
+      ],
+      "locator": {
+        "file": "26552.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "亀城会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "竹田英司",
+        "多田光廣",
+        "真鍋順穗",
+        "水本徹雄"
+      ],
+      "locator": {
+        "file": "26552.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "国民民主丸亀",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大倉流星",
+        "神田泰孝",
+        "原田友里江"
+      ],
+      "locator": {
+        "file": "26552.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "蒲生裕久",
+        "福部正人"
+      ],
+      "locator": {
+        "file": "26552.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "会派無所属（岡田剛）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "岡田剛"
+      ],
+      "locator": {
+        "file": "26552.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "会派無所属（中谷真裕美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中谷真裕美"
+      ],
+      "locator": {
+        "file": "26552.pdf",
+        "page": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第23号",
+    "billName": "令和8年度丸亀市一般会計予算",
+    "sessionLabel": "令和8年第2回丸亀市議会3月定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "26049.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "丸亀市議会だより第110号（2026年5月1日発行）p.9「令和８年３月定例会 賛否が分かれた議案等の審議結果」の議員名（（ ）内は所属会派）",
+  "resultTitle": "令和8年第2回丸亀市議会3月定例会 提出議案等（審議結果）"
+}

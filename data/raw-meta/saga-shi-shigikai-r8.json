@@ -1,0 +1,46 @@
+{
+  "sourceId": "saga-shi-shigikai-r8",
+  "files": [
+    {
+      "filename": "KhB725_03.pdf",
+      "sha256": "924108e0315f407b86a8c6c92f73a3817ec989695089c8e4078b9e0aa1dd416b",
+      "bytes": 833462,
+      "fetchedAt": "2026-10-31T08:34:30.598Z",
+      "fetchedFrom": "https://sagashi-gikai.gijiroku.com/voices/GikaiDoc/attach/koho/KhB725_03.pdf"
+    },
+    {
+      "filename": "g07_Kaiha.html",
+      "sha256": "c24688cd9a786636cbbddaf0e9bd6eeebee4bebaaf1d082c67796aaeae63b693",
+      "bytes": 11173,
+      "fetchedAt": "2026-10-31T08:34:30.598Z",
+      "fetchedFrom": "https://sagashi-gikai.gijiroku.com/g07_Kaiha.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "g07_giketsu_R0802.html",
+      "sha256": "942b0dd3be00fea1e6dfc92d6483edceba66ac489f11c7a0def219f949eb33ce",
+      "bytes": 25554,
+      "fetchedAt": "2026-10-31T08:34:30.599Z",
+      "fetchedFrom": "https://sagashi-gikai.gijiroku.com/g07_giketsu.asp?Sflg=1&kaigi=2026/01/26,2026/01/26,106&kensu=100",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "gikai_aramashi_r08.pdf",
+      "sha256": "de040c481cf37c8c0f1487c6bea1e9a90211c546f7ee9e75024e87a54f7d9ba9",
+      "bytes": 2152726,
+      "fetchedAt": "2026-10-31T08:34:30.600Z",
+      "fetchedFrom": "https://sagashi-gikai.gijiroku.com/pdf/gikai_aramashi_r08.pdf"
+    },
+    {
+      "filename": "KhB713_00230.pdf",
+      "sha256": "518a3670627196167669cdd5b7ab25d32e51d657945990fa79947746d041fe29",
+      "bytes": 921610,
+      "fetchedAt": "2026-10-31T08:34:30.601Z",
+      "fetchedFrom": "https://sagashi-gikai.gijiroku.com/voices/GikaiDoc/attach/koho/KhB713_00230.pdf"
+    }
+  ]
+}

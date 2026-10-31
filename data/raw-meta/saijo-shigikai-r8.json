@@ -1,0 +1,33 @@
+{
+  "sourceId": "saijo-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_20251114.html",
+      "sha256": "68942a937cacce8b19449d399f4ac83a34cbc4fd917ee566a868b63d7b0f5712",
+      "bytes": 35505,
+      "fetchedAt": "2026-10-31T08:34:30.582Z",
+      "fetchedFrom": "https://web.archive.org/web/20251114180639id_/https://www.city.saijo.ehime.jp/site/gikai/kaiha.html"
+    },
+    {
+      "filename": "83750.pdf",
+      "sha256": "868280542000cde5959a2916859cc420b492511f39dc217e3216bb70ebcbd46e",
+      "bytes": 164162,
+      "fetchedAt": "2026-10-31T08:34:30.582Z",
+      "fetchedFrom": "https://www.city.saijo.ehime.jp/uploaded/attachment/83750.pdf"
+    },
+    {
+      "filename": "83751.pdf",
+      "sha256": "11dcc884c20492487feb475239bc1f1b6ee242c840d8fad850d415df62800a93",
+      "bytes": 130478,
+      "fetchedAt": "2026-10-31T08:34:30.583Z",
+      "fetchedFrom": "https://www.city.saijo.ehime.jp/uploaded/attachment/83751.pdf"
+    },
+    {
+      "filename": "giinnteisuu.html",
+      "sha256": "cf29bdf59f32584e4e60d7db61b8dd02745d65a268f8745c94731ab3a4434bd3",
+      "bytes": 31876,
+      "fetchedAt": "2026-10-31T08:34:30.583Z",
+      "fetchedFrom": "https://www.city.saijo.ehime.jp/site/gikai/giinnteisuu.html"
+    }
+  ]
+}
