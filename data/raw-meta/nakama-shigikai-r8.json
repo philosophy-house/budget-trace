@@ -1,0 +1,36 @@
+{
+  "sourceId": "nakama-shigikai-r8",
+  "files": [
+    {
+      "filename": "1387.html",
+      "sha256": "9e56e7b8207c6528180064b02c8cde0246978534acc1c660669811e353c4fcf9",
+      "bytes": 27691,
+      "fetchedAt": "2026-10-31T17:27:58.263Z",
+      "fetchedFrom": "https://web.archive.org/web/20260227001002id_/https://www.city.nakama.lg.jp/site/gikai/1387.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "18373.html",
+      "sha256": "38654077f7f818f175b59d89796c4d14b845490c4ee9232dd9f3763b7839b5f1",
+      "bytes": 35529,
+      "fetchedAt": "2026-10-31T17:27:58.263Z",
+      "fetchedFrom": "https://www.city.nakama.lg.jp/soshiki/33/18373.html"
+    },
+    {
+      "filename": "6223.pdf",
+      "sha256": "16fe45aa7181a5e1846f031e73c6656bb42465aaf7fb368b608431663f92787c",
+      "bytes": 26508,
+      "fetchedAt": "2026-10-31T17:27:58.263Z",
+      "fetchedFrom": "https://www.city.nakama.lg.jp/uploaded/attachment/6223.pdf"
+    },
+    {
+      "filename": "13403.pdf",
+      "sha256": "366612a24f14475e7561fd646c72d8a1d38df7c185af09f228b025410a673cc9",
+      "bytes": 6058056,
+      "fetchedAt": "2026-10-31T17:27:58.267Z",
+      "fetchedFrom": "https://www.city.nakama.lg.jp/uploaded/attachment/13403.pdf"
+    }
+  ]
+}

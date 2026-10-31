@@ -1,0 +1,142 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nakama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:27:58.562Z",
+  "fiscalYear": "R8",
+  "body": "中間市議会",
+  "seats": 16,
+  "asOf": "2025-07-18",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "阿部伊知雄",
+        "掛田るみ子",
+        "原口佳三"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "明政クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "堀田克也",
+        "植本種實"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "創希改",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "下川俊秀",
+        "大村秀三"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "中間クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田口善大",
+        "小林信一"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "勝友会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "迫田隆太",
+        "中野勝寛"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "新風クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "柴田広辞",
+        "大和永治"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "田口澄雄"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "清和会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森上晋平"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "おれんじの会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "原舞"
+      ],
+      "locator": {
+        "file": "1387.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第19号議案",
+    "billName": "令和8年度中間市一般会計予算",
+    "sessionLabel": "令和8年第2回（3月）定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "18373.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（更新日：2025年7月18日更新・議決前の魚拓 2026-02-27）",
+  "resultTitle": "令和8年第2回（3月）定例会議会議案・議決結果"
+}

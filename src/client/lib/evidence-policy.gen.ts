@@ -41370,5 +41370,29 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www.city.kurayoshi.lg.jp/secure/3971/02_R07%E6%9C%AC%E4%BD%93%EF%BC%88%E5%AE%8C%E6%88%90%E7%89%88%EF%BC%89.pdf",
     "license": "このサイトに掲載されている文字、画像、動画、図表等の著作権は、特に明示がない限り倉吉市に帰属します。また、一部の画像などは原著作者が著作権を所有したり、本市が使用する場合に限り認められたものがあります。よって、　　本サイトの内容を無断で使用・転載することはできません。本サイトの引用、転載等を希望される場合は、 倉吉市総務部企画課 までご連絡ください。",
     "target": "file"
+  },
+  "/sources/nakama-shigikai-r8/1387.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260227001002id_/https://www.city.nakama.lg.jp/site/gikai/1387.html",
+    "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nakama-shigikai-r8/18373.html": {
+    "mode": "origin",
+    "href": "https://www.city.nakama.lg.jp/soshiki/33/18373.html",
+    "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nakama-shigikai-r8/6223.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nakama.lg.jp/uploaded/attachment/6223.pdf",
+    "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/nakama-shigikai-r8/13403.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nakama.lg.jp/uploaded/attachment/13403.pdf",
+    "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
   }
 };

@@ -53618,6 +53618,51 @@ export const SOURCES: SourceEntry[] = [
       resolution: {"url":"https://www.city.kurayoshi.lg.jp/secure/4230/R080317%E3%80%91%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%EF%BC%88%E8%AD%B0%E5%93%A1%E5%88%A5%EF%BC%89.pdf","title":"議案等の議決結果等（令和8年3月 第2回定例会）","billNo":"議案 第 13号","billName":"令和８年度倉吉市一般会計予算","sessionLabel":"令和8年3月 第2回定例会","decidedDate":"2026-03-17","result":"原案可決"},
     },
   },
+  // ---- 議会の構成 — 九州・沖縄の残りへ（`council-transcribed`・docs/data-sources.md §6-26）----
+  {
+    // 名簿: 市議会の「会派別名簿」（site/gikai/1387.html・住所なし）の議決前の魚拓 20260227001002（「更新日：2025年7月18日更新」・9会派16人）。「○月○日現在」の印字は無く、asOf は更新日（福津・習志野と同じ型）。会派名は h2、各会派の区間に氏名（写真の alt「R7阿部伊知雄」なども本文に出る）
+    // 現行の 1387.html は議決後の「更新日：2026年8月28日更新」版で、清和会が無くなり森上晋平・迫田隆太がおれんじの会へ、勝友会は中野勝寛の1人になっている。議決（3/25）の時点は議決前の版の構成とみた【推定】— 裏付けは raw の外の目視: 議員名簿（議席順 1170.html・住所の町名つき＝raw に入れない）の議決後の魚拓 20260513012044 が「更新日：2025年11月19日更新」の版で、会派の欄が議決前の会派別名簿と全員一致（迫田＝勝友会（代表）・森上＝清和会）。議会だより第199号（2026-08-10・6月定例会）の一般質問も「森上晋平議員 清和会」
+    // 議決前後の CDX: 1387.html の捕捉は 20250518・20250831・20251012・20260124・20260227 だけで、20260227 より後・2026-08-28 の更新より前の捕捉は無い。議決当日の資料に会派の印字は無い
+    // 議決: 令和8年第2回（3月）定例会議会議案・議決結果（soshiki/33/18373.html・「更新日：2026年3月25日更新」）の表の行「第19号議案｜令和8年度中間市一般会計予算 （PDFファイル：8.05MB）｜令和8年3月25日｜原案可決」（table: row）
+    // 定数: 中間市議会の議員の定数を定める条例（6223.pdf）「第91条第１項の規定により16人とする。」。現員16・欠員0。議会全体の2つ目の網は memberMarker — 市議会だより第198号（2026-05-10・13403.pdf）p.3「賛否が分かれた議案」の第19号議案の行の記号（○15・欠1・×1・議長の「ー」1＝16）を数える
+    // 会派の網は factionMarker — 名簿では会派ごとに写真が横に並び、写真の alt が「R7阿部伊知雄」の形で本文に出る（勝友会の2枚目・中野勝寛の写真だけ alt が「会派」）。会派の先頭の写真の「R7」（直前2〜6字の中に別の写真の「R7」が無いもの）を数える＝9。会派ごとの人数の印字が無い名簿で、会派の合流（会派名を1つ消し、その議員を隣の会派へ）を落とすための網
+    // 賛否は入れない: 第198号 p.3 の表は議員ごとに読めるが（目視では ○13・×1 田口澄雄・欠1 森上晋平・議長 中野勝寛「ー」。凡例「「〇」は賛成、「×」は反対、「欠」は欠席です。」と「※中野議員は議長のため採決には加わりません。」）、列見出しが縦書きの姓だけで、原舞議員の列だけ「原」1字が2行目に組まれる。1字の見出しは -layout の同じ1行に全列が並ぶことを求められ（倉敷の網）、1行目に「原」が無いので照合できない（パーサ待ち）
+    // ライセンス: 予算の行（nakama-yosan-kankei-shiryo-*）と同じ「リンク・著作権・免責事項」（/site/userguide/3355.html）の原文（議会の資料も同じ市の公式サイト）。リンクは依頼形で、予算の行と同じく noDeepLink は立てない
+    // raw: 魚拓の 1387.html は gzip の本文を展開して登録（transform: gunzip）。ほかは拡張子どおり
+    // 自宅住所: raw に入れる4件の電話・〒は議会事務局・市役所のもの（機械的に確認）。議員名簿（1170.html）と中間市議会の概要（14351.pdf・議員の読みと年齢別の集計・議決後の会派）は使っていない。18373.html に人権擁護委員候補者の氏名（住所なし）が1人ある（二本松・三豊の前例どおり残す）
+    // ⚠ 照合の残った弱さ（改ざんテストで実測）: 会派名の前方の切り詰め（「おれんじ」「新風」「日本共産」）と切れ端（「公明党代」）・1人会派への independent の付け外し・asOf だけの書き換えが通る（パーサ一般）。合流は factionMarker を外すか正規表現を一緒に書き換える2か所の作為で通る。名簿の写真の alt の誤字（「R7大村修三」「R7腹口原口」）が区間の本文に出るので、alt の字の氏名（大村修三）を書いても通る（正しい字は本文の「大村　秀三」「原口　佳三」）。memberMarker は第20号議案など同じ表の別の行に向けても数（16）が同じなので通る
+    id: "nakama-shigikai-r8",
+    title: "令和8年度 中間市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "中間市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260227001002id_/https://www.city.nakama.lg.jp/site/gikai/1387.html",
+      "https://www.city.nakama.lg.jp/soshiki/33/18373.html",
+      "https://www.city.nakama.lg.jp/uploaded/attachment/6223.pdf",
+      "https://www.city.nakama.lg.jp/uploaded/attachment/13403.pdf",
+    ],
+    landingPage: "https://www.city.nakama.lg.jp/soshiki/33/18373.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "中間市議会（定数16・団体コード402150）",
+    license: "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "中間市議会",
+      asOf: "2025-07-18",
+      asOfText: "更新日：2025年7月18日更新",
+      teisu: 16,
+      teisuText: "第91条第１項の規定により16人とする。",
+      teisuUrl: "https://www.city.nakama.lg.jp/uploaded/attachment/6223.pdf",
+      vacancies: 0,
+      memberMarker: "(?<=令和8年度中間市一般会計予算[○欠×]*)[○欠×ー]",
+      memberMarkerUrl: "https://www.city.nakama.lg.jp/uploaded/attachment/13403.pdf",
+      factionMarker: "(?<!R7[^R]{2,6})R7",
+      roster: {"url":"https://web.archive.org/web/20260227001002id_/https://www.city.nakama.lg.jp/site/gikai/1387.html","title":"会派別名簿（更新日：2025年7月18日更新・議決前の魚拓 2026-02-27）"},
+      factions: [{"name":"公明党","members":["阿部伊知雄","掛田るみ子","原口佳三"],"noDeclaredCount":true},{"name":"明政クラブ","members":["堀田克也","植本種實"],"noDeclaredCount":true},{"name":"創希改","members":["下川俊秀","大村秀三"],"noDeclaredCount":true},{"name":"中間クラブ","members":["田口善大","小林信一"],"noDeclaredCount":true},{"name":"勝友会","members":["迫田隆太","中野勝寛"],"noDeclaredCount":true},{"name":"新風クラブ","members":["柴田広辞","大和永治"],"noDeclaredCount":true},{"name":"日本共産党","members":["田口澄雄"],"noDeclaredCount":true},{"name":"清和会","members":["森上晋平"],"noDeclaredCount":true},{"name":"おれんじの会","members":["原舞"],"noDeclaredCount":true}],
+      resolution: {"url":"https://www.city.nakama.lg.jp/soshiki/33/18373.html","title":"令和8年第2回（3月）定例会議会議案・議決結果","table":"row","billNo":"第19号議案","billName":"令和8年度中間市一般会計予算","sessionLabel":"令和8年第2回（3月）定例会","decidedDate":"2026-03-25","result":"原案可決"},
+    },
+  },
 ];
 
 // 起動時にレジストリ自体を検証する（不正エントリの混入防止）
