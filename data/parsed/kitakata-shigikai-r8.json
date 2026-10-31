@@ -1,0 +1,298 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kitakata-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:15:26.699Z",
+  "fiscalYear": "R8",
+  "body": "喜多方市議会",
+  "seats": 22,
+  "asOf": "2026-01-28",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "市民の声",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "遠藤吉正",
+        "齋藤勘一郎",
+        "渡部忠寛",
+        "坂内まゆみ"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新良致会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小島雄一",
+        "伊藤弘明",
+        "佐藤忠孝"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "高和会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐原正秀",
+        "後藤誠司"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "喜豊",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "十二村秀孝",
+        "山口文章",
+        "上野利一郎"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小林時夫",
+        "菊地とも子"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党喜多方市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "矢吹哲哉",
+        "田中修身"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "至誠会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "渡部勇一",
+        "五十嵐吉也"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "社民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "齋藤仁一",
+        "高畑孝一"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "和同の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山口和男"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "実直の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "鈴木守"
+      ],
+      "locator": {
+        "file": "1724_20260413.html",
+        "row": 10
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第7号",
+    "billName": "令和８年度喜多方市一般会計予算",
+    "sessionLabel": "令和8年第3回（3月）定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "61058.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（令和8年1月28日現在・議決後 2026-04-13 の魚拓＝現行と同じ版）",
+  "resultTitle": "令和8年第3回（3月）定例会結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第３回（３月）喜多方市議会定例会で提案された議案等の審議結果",
+    "sourceFile": "54754.pdf",
+    "columns": [
+      {
+        "label": "鈴木守",
+        "faction": "実直の会",
+        "member": "鈴木守",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡部忠寛",
+        "faction": "市民の声",
+        "member": "渡部忠寛",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中修身",
+        "faction": "日本共産党喜多方市議団",
+        "member": "田中修身",
+        "stance": "反対"
+      },
+      {
+        "label": "坂内まゆみ",
+        "faction": "市民の声",
+        "member": "坂内まゆみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "高畑孝一",
+        "faction": "社民クラブ",
+        "member": "高畑孝一",
+        "stance": "反対"
+      },
+      {
+        "label": "山口文章",
+        "faction": "喜豊",
+        "member": "山口文章",
+        "stance": "賛成"
+      },
+      {
+        "label": "十二村秀孝",
+        "faction": "喜豊",
+        "member": "十二村秀孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤吉正",
+        "faction": "市民の声",
+        "member": "遠藤吉正",
+        "stance": "賛成"
+      },
+      {
+        "label": "上野利一郎",
+        "faction": "喜豊",
+        "member": "上野利一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "小島雄一",
+        "faction": "新良致会",
+        "member": "小島雄一",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊地とも子",
+        "faction": "公明会",
+        "member": "菊地とも子",
+        "stance": "賛成"
+      },
+      {
+        "label": "矢吹哲哉",
+        "faction": "日本共産党喜多方市議団",
+        "member": "矢吹哲哉",
+        "stance": "反対"
+      },
+      {
+        "label": "小林時夫",
+        "faction": "公明会",
+        "member": "小林時夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "後藤誠司",
+        "faction": "高和会",
+        "member": "後藤誠司",
+        "stance": "賛成"
+      },
+      {
+        "label": "五十嵐吉也",
+        "faction": "至誠会",
+        "member": "五十嵐吉也",
+        "stance": "賛成"
+      },
+      {
+        "label": "齋藤勘一郎",
+        "faction": "市民の声",
+        "member": "齋藤勘一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤忠孝",
+        "faction": "新良致会",
+        "member": "佐藤忠孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡部勇一",
+        "faction": "至誠会",
+        "member": "渡部勇一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐原正秀",
+        "faction": "高和会",
+        "member": "佐原正秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "齋藤仁一",
+        "faction": "社民クラブ",
+        "member": "齋藤仁一",
+        "stance": "反対"
+      },
+      {
+        "label": "山口和男",
+        "faction": "和同の会",
+        "member": "山口和男",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤弘明",
+        "faction": "新良致会",
+        "member": "伊藤弘明",
+        "stance": "議長"
+      }
+    ]
+  }
+}

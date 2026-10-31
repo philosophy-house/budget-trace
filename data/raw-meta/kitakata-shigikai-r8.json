@@ -1,0 +1,33 @@
+{
+  "sourceId": "kitakata-shigikai-r8",
+  "files": [
+    {
+      "filename": "1724_20260413.html",
+      "sha256": "0e14bdaf8095886ee913df8f13444ac307dca81eb8bfa352c8c28a2a9216b503",
+      "bytes": 34586,
+      "fetchedAt": "2026-10-31T03:15:25.980Z",
+      "fetchedFrom": "https://web.archive.org/web/20260413181222id_/http://www.city.kitakata.fukushima.jp/site/gikai/1724.html"
+    },
+    {
+      "filename": "61058.html",
+      "sha256": "45040d8e7837d84184262097341339af21c15d785b7e3894700d16d6d1d77648",
+      "bytes": 48451,
+      "fetchedAt": "2026-10-31T03:15:25.980Z",
+      "fetchedFrom": "https://www.city.kitakata.fukushima.jp/site/gikai/61058.html"
+    },
+    {
+      "filename": "54754.pdf",
+      "sha256": "a9c5fc515d764c558c9d8935a36a7405ed10c62da03eaa3c3c18c595cfb18117",
+      "bytes": 174687,
+      "fetchedAt": "2026-10-31T03:15:25.980Z",
+      "fetchedFrom": "https://www.city.kitakata.fukushima.jp/uploaded/attachment/54754.pdf"
+    },
+    {
+      "filename": "17733.html",
+      "sha256": "e92868c8f464c8127102ade346eb26787408c4cf2b76ec6df74826a29eb327a4",
+      "bytes": 35849,
+      "fetchedAt": "2026-10-31T03:15:25.981Z",
+      "fetchedFrom": "https://www.city.kitakata.fukushima.jp/site/gikai/17733.html"
+    }
+  ]
+}

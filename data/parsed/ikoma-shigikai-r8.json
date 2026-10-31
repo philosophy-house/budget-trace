@@ -1,0 +1,193 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ikoma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:16.476Z",
+  "fiscalYear": "R8",
+  "body": "生駒市議会",
+  "seats": 22,
+  "asOf": "2026-03-24",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "浜田佳資",
+        "竹内ひろみ"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "生駒市議会公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "惠比須幹夫",
+        "成田智樹",
+        "山下一哉"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "芦谷真治",
+        "辰巳綾子"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "絆",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "白本和久",
+        "吉村善明",
+        "片山誠也",
+        "改正大祐",
+        "森雄亮",
+        "橋本宏淳"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "いこま未来の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "福中眞美"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派（伊木まり子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "伊木まり子"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派（塩見牧子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "塩見牧子"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派（神山さとし）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "神山さとし"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派（加藤裕美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "加藤裕美"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派（中嶋宏明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中嶋宏明"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派（中尾節子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中尾節子"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派（梶井憲子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "梶井憲子"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無会派（髙杉千代子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "髙杉千代子"
+      ],
+      "locator": {
+        "file": "r08_06.pdf",
+        "page": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 5 号",
+    "billName": "令和８年度生駒市一般会計予算",
+    "sessionLabel": "令和８年生駒市議会第３回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r08_03_002.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "いこま市議会のうごき 令和8年6月号 p.12「令和８年１月・２月臨時会、３月定例会の議決結果」の表頭",
+  "resultTitle": "令和８年生駒市議会第３回定例会議決結果"
+}

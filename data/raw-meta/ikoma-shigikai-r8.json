@@ -1,0 +1,26 @@
+{
+  "sourceId": "ikoma-shigikai-r8",
+  "files": [
+    {
+      "filename": "r08_06.pdf",
+      "sha256": "8ce647ae7102d84815c7eef80a201757b6a3167e63092a1c6d3e412fb7bc871d",
+      "bytes": 3127211,
+      "fetchedAt": "2026-10-31T03:14:30.456Z",
+      "fetchedFrom": "https://www.city.ikoma.lg.jp/gikai/cmsfiles/contents/0000039/39888/r08_06.pdf"
+    },
+    {
+      "filename": "r08_03_002.pdf",
+      "sha256": "19faa264d346784f727aa565e7a24aaafbbd7762d182dba53113f270812bd6d6",
+      "bytes": 43116,
+      "fetchedAt": "2026-10-31T03:14:30.457Z",
+      "fetchedFrom": "https://www.city.ikoma.lg.jp/gikai/cmsfiles/contents/0000009/9469/r08_03_002.pdf"
+    },
+    {
+      "filename": "0000009310.html",
+      "sha256": "cd7210c602823a1c4d62fabbc25f8c721df0134eca95d397cc15502366edbed9",
+      "bytes": 19829,
+      "fetchedAt": "2026-10-31T03:14:30.457Z",
+      "fetchedFrom": "https://www.city.ikoma.lg.jp/gikai/0000009310.html"
+    }
+  ]
+}

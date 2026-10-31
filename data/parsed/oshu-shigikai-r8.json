@@ -1,0 +1,131 @@
+{
+  "docType": "council-composition",
+  "sourceId": "oshu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:15:12.158Z",
+  "fiscalYear": "R8",
+  "body": "奥州市議会",
+  "seats": 28,
+  "asOf": "2025-03-18",
+  "factions": [
+    {
+      "name": "奥和会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "藤田慶則",
+        "中西秀俊",
+        "小野寺満",
+        "高橋浩",
+        "千葉和彦",
+        "東隆司",
+        "門脇芳裕",
+        "高橋善行"
+      ],
+      "locator": {
+        "file": "1272_20260316.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "奥州みらい",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "及川佐",
+        "千葉康弘",
+        "廣野富男",
+        "佐々木友美子",
+        "菅野至",
+        "小野寺重"
+      ],
+      "locator": {
+        "file": "1272_20260316.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "今野裕文",
+        "菅原明",
+        "千葉敦",
+        "瀬川貞清",
+        "佐藤美雪"
+      ],
+      "locator": {
+        "file": "1272_20260316.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "新奥会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小野優",
+        "高橋晋",
+        "及川春樹"
+      ],
+      "locator": {
+        "file": "1272_20260316.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "阿部加代子",
+        "飯坂一也"
+      ],
+      "locator": {
+        "file": "1272_20260316.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "奥州ノート",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宍戸直美",
+        "佐藤正典"
+      ],
+      "locator": {
+        "file": "1272_20260316.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "菅原由和",
+        "加藤清"
+      ],
+      "locator": {
+        "file": "1272_20260316.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第24号",
+    "billName": "令和8年度奥州市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-02-04",
+    "decidedDateLabel": "令和8年2月4日",
+    "result": "原案可決",
+    "locator": {
+      "file": "17454.html"
+    }
+  },
+  "rosterTitle": "議員名簿 - 会派別一覧（令和7年3月18日現在）",
+  "resultTitle": "令和8年第1回定例会 会議結果"
+}

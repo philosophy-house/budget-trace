@@ -1,0 +1,282 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kitakami-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:14.642Z",
+  "fiscalYear": "R8",
+  "body": "北上市議会",
+  "seats": 26,
+  "asOf": "2026-03-17",
+  "teisu": 26,
+  "factions": [
+    {
+      "name": "北上まほろばクラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "千田優子",
+        "白鳥顕志",
+        "八重樫民德",
+        "佐々木護",
+        "平野明紀",
+        "三宅靖",
+        "梅木忍"
+      ],
+      "locator": {
+        "file": "kitakami_gikaidayori141gou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "新清会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "齊藤金浩",
+        "居駒勉",
+        "藤田民生",
+        "藤原常雄",
+        "高橋晃大",
+        "佐藤惠子"
+      ],
+      "locator": {
+        "file": "kitakami_gikaidayori141gou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "北新ネット",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "藤原慶",
+        "小田島德幸",
+        "阿部眞希男"
+      ],
+      "locator": {
+        "file": "kitakami_gikaidayori141gou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "北政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "原利光",
+        "太田洋市",
+        "高橋孝二"
+      ],
+      "locator": {
+        "file": "kitakami_gikaidayori141gou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "日本共産党北上市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田島清美",
+        "髙橋久美子",
+        "安德壽美子"
+      ],
+      "locator": {
+        "file": "kitakami_gikaidayori141gou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "熊谷浩紀",
+        "小原享子",
+        "星敦子",
+        "菊池勝"
+      ],
+      "locator": {
+        "file": "kitakami_gikaidayori141gou.pdf",
+        "page": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第105号",
+    "billName": "令和8年度北上市一般会計予算",
+    "sessionLabel": "第310回2月通常会議",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kitakami_29272.html"
+    }
+  },
+  "rosterTitle": "きたかみ市議会だより第141号 p.5「賛否が分かれた案件 第310回２月通常会議」の表頭",
+  "resultTitle": "第310回2月通常会議（令和8年2月）議案及び議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "きたかみ市議会だより第141号 p.5「賛否が分かれた案件」（第310回２月通常会議）",
+    "sourceFile": "kitakami_gikaidayori141gou.pdf",
+    "columns": [
+      {
+        "label": "千田優子",
+        "faction": "北上まほろばクラブ",
+        "member": "千田優子",
+        "stance": "反対"
+      },
+      {
+        "label": "白鳥顕志",
+        "faction": "北上まほろばクラブ",
+        "member": "白鳥顕志",
+        "stance": "賛成"
+      },
+      {
+        "label": "八重樫民德",
+        "faction": "北上まほろばクラブ",
+        "member": "八重樫民德",
+        "stance": "反対"
+      },
+      {
+        "label": "佐々木護",
+        "faction": "北上まほろばクラブ",
+        "member": "佐々木護",
+        "stance": "賛成"
+      },
+      {
+        "label": "平野明紀",
+        "faction": "北上まほろばクラブ",
+        "member": "平野明紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "三宅靖",
+        "faction": "北上まほろばクラブ",
+        "member": "三宅靖",
+        "stance": "反対"
+      },
+      {
+        "label": "梅木忍",
+        "faction": "北上まほろばクラブ",
+        "member": "梅木忍",
+        "stance": "賛成"
+      },
+      {
+        "label": "齊藤金浩",
+        "faction": "新清会",
+        "member": "齊藤金浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "居駒勉",
+        "faction": "新清会",
+        "member": "居駒勉",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤田民生",
+        "faction": "新清会",
+        "member": "藤田民生",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤原常雄",
+        "faction": "新清会",
+        "member": "藤原常雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋晃大",
+        "faction": "新清会",
+        "member": "高橋晃大",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤惠子",
+        "faction": "新清会",
+        "member": "佐藤惠子",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤原慶",
+        "faction": "北新ネット",
+        "member": "藤原慶",
+        "stance": "賛成"
+      },
+      {
+        "label": "小田島德幸",
+        "faction": "北新ネット",
+        "member": "小田島德幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部眞希男",
+        "faction": "北新ネット",
+        "member": "阿部眞希男",
+        "stance": "賛成"
+      },
+      {
+        "label": "原利光",
+        "faction": "北政会",
+        "member": "原利光",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田洋市",
+        "faction": "北政会",
+        "member": "太田洋市",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋孝二",
+        "faction": "北政会",
+        "member": "高橋孝二",
+        "stance": "賛成"
+      },
+      {
+        "label": "田島清美",
+        "faction": "日本共産党北上市議団",
+        "member": "田島清美",
+        "stance": "反対"
+      },
+      {
+        "label": "髙橋久美子",
+        "faction": "日本共産党北上市議団",
+        "member": "髙橋久美子",
+        "stance": "反対"
+      },
+      {
+        "label": "安德壽美子",
+        "faction": "日本共産党北上市議団",
+        "member": "安德壽美子",
+        "stance": "反対"
+      },
+      {
+        "label": "熊谷浩紀",
+        "faction": "無会派",
+        "member": "熊谷浩紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "小原享子",
+        "faction": "無会派",
+        "member": "小原享子",
+        "stance": "賛成"
+      },
+      {
+        "label": "星敦子",
+        "faction": "無会派",
+        "member": "星敦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊池勝",
+        "faction": "無会派",
+        "member": "菊池勝",
+        "stance": "議長"
+      }
+    ]
+  }
+}

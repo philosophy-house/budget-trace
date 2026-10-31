@@ -1,0 +1,33 @@
+{
+  "sourceId": "tenri-shigikai-r8",
+  "files": [
+    {
+      "filename": "1522129896831.html",
+      "sha256": "e5843957d0ddf1e19043bcd3f08a2e68a262bc0220c561aed9ef385401337813",
+      "bytes": 41471,
+      "fetchedAt": "2026-10-31T03:14:30.434Z",
+      "fetchedFrom": "https://web.archive.org/web/20260123210949id_/https://www.city.tenri.nara.jp/kakuka/gikaijimukyoku/shigikai/1522129896831.html"
+    },
+    {
+      "filename": "15484.html",
+      "sha256": "85699e3ab8bf448341ec567c0fb11ad8704db80a963364548796218690ae227d",
+      "bytes": 53154,
+      "fetchedAt": "2026-10-31T03:14:30.434Z",
+      "fetchedFrom": "https://www.city.tenri.nara.jp/kakuka/gikaijimukyoku/shigikai/archives/singikekka_ichiran/reiwa8/15484.html"
+    },
+    {
+      "filename": "1393317496267.html",
+      "sha256": "42eba2ebf679189f2a111b2b3d9290285f4ed16e690cc86d0a80f48f9606cf73",
+      "bytes": 39442,
+      "fetchedAt": "2026-10-31T03:14:30.434Z",
+      "fetchedFrom": "https://www.city.tenri.nara.jp/kakuka/gikaijimukyoku/shigikai/guide/1393317496267.html"
+    },
+    {
+      "filename": "gikaidayori116.pdf",
+      "sha256": "244595a33534068e1e94d1a271e53a760e5416d2322e0eb5540a94176190bee6",
+      "bytes": 9633217,
+      "fetchedAt": "2026-10-31T03:14:30.441Z",
+      "fetchedFrom": "https://www.city.tenri.nara.jp/material/files/group/43/gikaidayori116.pdf"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "docType": "council-composition",
+  "sourceId": "iwate-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:15:11.982Z",
+  "fiscalYear": "R8",
+  "body": "岩手県議会",
+  "seats": 45,
+  "asOf": "2026-03-23",
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 17,
+      "isIndependent": false,
+      "members": [
+        "菅原亮太",
+        "村上秀紀",
+        "松本雄士",
+        "鈴木あきこ",
+        "はぎの幸弘",
+        "高橋こうすけ",
+        "高橋穏至",
+        "佐々木宣和",
+        "臼澤勉",
+        "福井せいじ",
+        "川村伸浩",
+        "佐々木朋和",
+        "神﨑浩之",
+        "城内愛彦",
+        "佐々木茂光",
+        "岩崎友一",
+        "千葉伝"
+      ],
+      "locator": {
+        "file": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "希望いわて",
+      "seats": 14,
+      "isIndependent": false,
+      "members": [
+        "畠山茂",
+        "大久保隆規",
+        "千葉秀幸",
+        "上原康樹",
+        "菅野ひろのり",
+        "柳村一",
+        "佐藤ケイ子",
+        "岩渕誠",
+        "名須川晋",
+        "軽石義則",
+        "小西和子",
+        "髙橋はじめ",
+        "関根敏伸",
+        "佐々木順一"
+      ],
+      "locator": {
+        "file": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いわて県民クラブ・無所属の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "村上貢一",
+        "工藤剛",
+        "ハクセル美穂子",
+        "佐々木努",
+        "飯澤匡"
+      ],
+      "locator": {
+        "file": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いわて新政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "田中辰也",
+        "千葉盛",
+        "吉田敬子",
+        "髙橋但馬",
+        "工藤大輔"
+      ],
+      "locator": {
+        "file": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "高田一郎",
+        "斉藤信"
+      ],
+      "locator": {
+        "file": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "社民党（木村幸弘）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "木村幸弘"
+      ],
+      "locator": {
+        "file": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党（小林正信）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小林正信"
+      ],
+      "locator": {
+        "file": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度岩手県一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年２月定例会 議決結果（議員別の賛否の状況）の表頭の会派と氏名",
+  "resultTitle": "令和８年２月定例会 議決結果（議員別の賛否の状況）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年２月定例会 議決結果（議員別の賛否の状況）",
+    "sourceFile": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+    "columns": [
+      {
+        "label": "菅原亮太",
+        "faction": "自由民主党",
+        "member": "菅原亮太",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上秀紀",
+        "faction": "自由民主党",
+        "member": "村上秀紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本雄士",
+        "faction": "自由民主党",
+        "member": "松本雄士",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木あきこ",
+        "faction": "自由民主党",
+        "member": "鈴木あきこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "はぎの幸弘",
+        "faction": "自由民主党",
+        "member": "はぎの幸弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋こうすけ",
+        "faction": "自由民主党",
+        "member": "高橋こうすけ",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋穏至",
+        "faction": "自由民主党",
+        "member": "高橋穏至",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木宣和",
+        "faction": "自由民主党",
+        "member": "佐々木宣和",
+        "stance": "賛成"
+      },
+      {
+        "label": "臼澤勉",
+        "faction": "自由民主党",
+        "member": "臼澤勉",
+        "stance": "賛成"
+      },
+      {
+        "label": "福井せいじ",
+        "faction": "自由民主党",
+        "member": "福井せいじ",
+        "stance": "賛成"
+      },
+      {
+        "label": "川村伸浩",
+        "faction": "自由民主党",
+        "member": "川村伸浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木朋和",
+        "faction": "自由民主党",
+        "member": "佐々木朋和",
+        "stance": "賛成"
+      },
+      {
+        "label": "神﨑浩之",
+        "faction": "自由民主党",
+        "member": "神﨑浩之",
+        "stance": "賛成"
+      },
+      {
+        "label": "城内愛彦",
+        "faction": "自由民主党",
+        "member": "城内愛彦",
+        "stance": "議長"
+      },
+      {
+        "label": "佐々木茂光",
+        "faction": "自由民主党",
+        "member": "佐々木茂光",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩崎友一",
+        "faction": "自由民主党",
+        "member": "岩崎友一",
+        "stance": "賛成"
+      },
+      {
+        "label": "千葉伝",
+        "faction": "自由民主党",
+        "member": "千葉伝",
+        "stance": "賛成"
+      },
+      {
+        "label": "畠山茂",
+        "faction": "希望いわて",
+        "member": "畠山茂",
+        "stance": "賛成"
+      },
+      {
+        "label": "大久保隆規",
+        "faction": "希望いわて",
+        "member": "大久保隆規",
+        "stance": "欠席"
+      },
+      {
+        "label": "千葉秀幸",
+        "faction": "希望いわて",
+        "member": "千葉秀幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "上原康樹",
+        "faction": "希望いわて",
+        "member": "上原康樹",
+        "stance": "欠席"
+      },
+      {
+        "label": "菅野ひろのり",
+        "faction": "希望いわて",
+        "member": "菅野ひろのり",
+        "stance": "賛成"
+      },
+      {
+        "label": "柳村一",
+        "faction": "希望いわて",
+        "member": "柳村一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤ケイ子",
+        "faction": "希望いわて",
+        "member": "佐藤ケイ子",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩渕誠",
+        "faction": "希望いわて",
+        "member": "岩渕誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "名須川晋",
+        "faction": "希望いわて",
+        "member": "名須川晋",
+        "stance": "賛成"
+      },
+      {
+        "label": "軽石義則",
+        "faction": "希望いわて",
+        "member": "軽石義則",
+        "stance": "賛成"
+      },
+      {
+        "label": "小西和子",
+        "faction": "希望いわて",
+        "member": "小西和子",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋はじめ",
+        "faction": "希望いわて",
+        "member": "髙橋はじめ",
+        "stance": "賛成"
+      },
+      {
+        "label": "関根敏伸",
+        "faction": "希望いわて",
+        "member": "関根敏伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木順一",
+        "faction": "希望いわて",
+        "member": "佐々木順一",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上貢一",
+        "faction": "いわて県民クラブ・無所属の会",
+        "member": "村上貢一",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤剛",
+        "faction": "いわて県民クラブ・無所属の会",
+        "member": "工藤剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "ハクセル美穂子",
+        "faction": "いわて県民クラブ・無所属の会",
+        "member": "ハクセル美穂子",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木努",
+        "faction": "いわて県民クラブ・無所属の会",
+        "member": "佐々木努",
+        "stance": "賛成"
+      },
+      {
+        "label": "飯澤匡",
+        "faction": "いわて県民クラブ・無所属の会",
+        "member": "飯澤匡",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中辰也",
+        "faction": "いわて新政会",
+        "member": "田中辰也",
+        "stance": "賛成"
+      },
+      {
+        "label": "千葉盛",
+        "faction": "いわて新政会",
+        "member": "千葉盛",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田敬子",
+        "faction": "いわて新政会",
+        "member": "吉田敬子",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋但馬",
+        "faction": "いわて新政会",
+        "member": "髙橋但馬",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤大輔",
+        "faction": "いわて新政会",
+        "member": "工藤大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "高田一郎",
+        "faction": "日本共産党",
+        "member": "高田一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "斉藤信",
+        "faction": "日本共産党",
+        "member": "斉藤信",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村幸弘",
+        "faction": "社民党（木村幸弘）",
+        "member": "木村幸弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林正信",
+        "faction": "公明党（小林正信）",
+        "member": "小林正信",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

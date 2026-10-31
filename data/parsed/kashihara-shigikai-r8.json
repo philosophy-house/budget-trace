@@ -1,0 +1,433 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kashihara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:15.893Z",
+  "fiscalYear": "R8",
+  "body": "橿原市議会",
+  "seats": 23,
+  "asOf": "2026-02-25",
+  "teisu": 23,
+  "factions": [
+    {
+      "name": "自由民主党・橿原",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "神田眞美",
+        "細川佳秀"
+      ],
+      "locator": {
+        "file": "kaihameibo20260225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党 藤原",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "谷井宰",
+        "井ノ上剛"
+      ],
+      "locator": {
+        "file": "kaihameibo20260225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "好きやねん橿原・日本維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "橋口和徳",
+        "吉田かずき",
+        "森本えみ"
+      ],
+      "locator": {
+        "file": "kaihameibo20260225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "一心",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "今井りか",
+        "大保由香子"
+      ],
+      "locator": {
+        "file": "kaihameibo20260225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "竹森衛",
+        "西川正克"
+      ],
+      "locator": {
+        "file": "kaihameibo20260225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "橿原市政研究会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "石井ひとあき",
+        "井上まさき",
+        "杉井ゆうすけ"
+      ],
+      "locator": {
+        "file": "kaihameibo20260225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "西岡次郎",
+        "坂本正樹",
+        "森前美和",
+        "芳村ひろみ"
+      ],
+      "locator": {
+        "file": "kaihameibo20260225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いずれの会派にも所属しない議員",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "奥田寛",
+        "矢追もと",
+        "佐藤太郎",
+        "うすい卓也",
+        "上田くによし"
+      ],
+      "locator": {
+        "file": "kaihameibo20260225.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第24号",
+    "billName": "令和８年度橿原市一般会計予算について",
+    "sessionLabel": "令和８年3月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "修正可決",
+    "locator": {
+      "file": "teireikaikekka202603-2.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派名簿（令和８年２月２５日現在）",
+  "resultTitle": "令和8年3月定例会議決結果一覧",
+  "votesParts": [
+    {
+      "basis": "member",
+      "sourceTitle": "かしはら市議会のいま第237号 p.3「賛否の分かれた議案」",
+      "sourceFile": "sigikainoima237.pdf",
+      "columns": [
+        {
+          "label": "神田眞美",
+          "faction": "自由民主党・橿原",
+          "member": "神田眞美",
+          "stance": "賛成"
+        },
+        {
+          "label": "細川佳秀",
+          "faction": "自由民主党・橿原",
+          "member": "細川佳秀",
+          "stance": "賛成"
+        },
+        {
+          "label": "谷井宰",
+          "faction": "自由民主党 藤原",
+          "member": "谷井宰",
+          "stance": "賛成"
+        },
+        {
+          "label": "井ノ上剛",
+          "faction": "自由民主党 藤原",
+          "member": "井ノ上剛",
+          "stance": "賛成"
+        },
+        {
+          "label": "橋口和徳",
+          "faction": "好きやねん橿原・日本維新の会",
+          "member": "橋口和徳",
+          "stance": "賛成"
+        },
+        {
+          "label": "吉田かずき",
+          "faction": "好きやねん橿原・日本維新の会",
+          "member": "吉田かずき",
+          "stance": "賛成"
+        },
+        {
+          "label": "森本えみ",
+          "faction": "好きやねん橿原・日本維新の会",
+          "member": "森本えみ",
+          "stance": "賛成"
+        },
+        {
+          "label": "今井りか",
+          "faction": "一心",
+          "member": "今井りか",
+          "stance": "賛成"
+        },
+        {
+          "label": "大保由香子",
+          "faction": "一心",
+          "member": "大保由香子",
+          "stance": "賛成"
+        },
+        {
+          "label": "竹森衛",
+          "faction": "日本共産党",
+          "member": "竹森衛",
+          "stance": "反対"
+        },
+        {
+          "label": "西川正克",
+          "faction": "日本共産党",
+          "member": "西川正克",
+          "stance": "反対"
+        },
+        {
+          "label": "石井ひとあき",
+          "faction": "橿原市政研究会",
+          "member": "石井ひとあき",
+          "stance": "賛成"
+        },
+        {
+          "label": "井上まさき",
+          "faction": "橿原市政研究会",
+          "member": "井上まさき",
+          "stance": "賛成"
+        },
+        {
+          "label": "杉井ゆうすけ",
+          "faction": "橿原市政研究会",
+          "member": "杉井ゆうすけ",
+          "stance": "賛成"
+        },
+        {
+          "label": "西岡次郎",
+          "faction": "公明党",
+          "member": "西岡次郎",
+          "stance": "賛成"
+        },
+        {
+          "label": "坂本正樹",
+          "faction": "公明党",
+          "member": "坂本正樹",
+          "stance": "賛成"
+        },
+        {
+          "label": "森前美和",
+          "faction": "公明党",
+          "member": "森前美和",
+          "stance": "賛成"
+        },
+        {
+          "label": "芳村ひろみ",
+          "faction": "公明党",
+          "member": "芳村ひろみ",
+          "stance": "賛成"
+        },
+        {
+          "label": "奥田寛",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "奥田寛",
+          "stance": "反対"
+        },
+        {
+          "label": "矢追もと",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "矢追もと",
+          "stance": "賛成"
+        },
+        {
+          "label": "佐藤太郎",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "佐藤太郎",
+          "stance": "賛成"
+        },
+        {
+          "label": "上田くによし",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "上田くによし",
+          "stance": "賛成"
+        },
+        {
+          "label": "うすい卓也",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "うすい卓也",
+          "stance": "議長"
+        }
+      ],
+      "part": "修正案"
+    },
+    {
+      "basis": "member",
+      "sourceTitle": "かしはら市議会のいま第237号 p.3「賛否の分かれた議案」",
+      "sourceFile": "sigikainoima237.pdf",
+      "columns": [
+        {
+          "label": "神田眞美",
+          "faction": "自由民主党・橿原",
+          "member": "神田眞美",
+          "stance": "賛成"
+        },
+        {
+          "label": "細川佳秀",
+          "faction": "自由民主党・橿原",
+          "member": "細川佳秀",
+          "stance": "賛成"
+        },
+        {
+          "label": "谷井宰",
+          "faction": "自由民主党 藤原",
+          "member": "谷井宰",
+          "stance": "賛成"
+        },
+        {
+          "label": "井ノ上剛",
+          "faction": "自由民主党 藤原",
+          "member": "井ノ上剛",
+          "stance": "賛成"
+        },
+        {
+          "label": "橋口和徳",
+          "faction": "好きやねん橿原・日本維新の会",
+          "member": "橋口和徳",
+          "stance": "賛成"
+        },
+        {
+          "label": "吉田かずき",
+          "faction": "好きやねん橿原・日本維新の会",
+          "member": "吉田かずき",
+          "stance": "賛成"
+        },
+        {
+          "label": "森本えみ",
+          "faction": "好きやねん橿原・日本維新の会",
+          "member": "森本えみ",
+          "stance": "賛成"
+        },
+        {
+          "label": "今井りか",
+          "faction": "一心",
+          "member": "今井りか",
+          "stance": "賛成"
+        },
+        {
+          "label": "大保由香子",
+          "faction": "一心",
+          "member": "大保由香子",
+          "stance": "賛成"
+        },
+        {
+          "label": "竹森衛",
+          "faction": "日本共産党",
+          "member": "竹森衛",
+          "stance": "反対"
+        },
+        {
+          "label": "西川正克",
+          "faction": "日本共産党",
+          "member": "西川正克",
+          "stance": "反対"
+        },
+        {
+          "label": "石井ひとあき",
+          "faction": "橿原市政研究会",
+          "member": "石井ひとあき",
+          "stance": "賛成"
+        },
+        {
+          "label": "井上まさき",
+          "faction": "橿原市政研究会",
+          "member": "井上まさき",
+          "stance": "賛成"
+        },
+        {
+          "label": "杉井ゆうすけ",
+          "faction": "橿原市政研究会",
+          "member": "杉井ゆうすけ",
+          "stance": "賛成"
+        },
+        {
+          "label": "西岡次郎",
+          "faction": "公明党",
+          "member": "西岡次郎",
+          "stance": "賛成"
+        },
+        {
+          "label": "坂本正樹",
+          "faction": "公明党",
+          "member": "坂本正樹",
+          "stance": "賛成"
+        },
+        {
+          "label": "森前美和",
+          "faction": "公明党",
+          "member": "森前美和",
+          "stance": "賛成"
+        },
+        {
+          "label": "芳村ひろみ",
+          "faction": "公明党",
+          "member": "芳村ひろみ",
+          "stance": "賛成"
+        },
+        {
+          "label": "奥田寛",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "奥田寛",
+          "stance": "賛成"
+        },
+        {
+          "label": "矢追もと",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "矢追もと",
+          "stance": "賛成"
+        },
+        {
+          "label": "佐藤太郎",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "佐藤太郎",
+          "stance": "賛成"
+        },
+        {
+          "label": "上田くによし",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "上田くによし",
+          "stance": "賛成"
+        },
+        {
+          "label": "うすい卓也",
+          "faction": "いずれの会派にも所属しない議員",
+          "member": "うすい卓也",
+          "stance": "議長"
+        }
+      ],
+      "part": "修正部分を除く原案"
+    }
+  ]
+}

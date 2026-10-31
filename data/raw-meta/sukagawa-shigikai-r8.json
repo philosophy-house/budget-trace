@@ -1,0 +1,32 @@
+{
+  "sourceId": "sukagawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "sukagawa_KhB70_gikaidayori96.pdf",
+      "sha256": "f5f7b09f2f81904367e08b2d06ca7d0e8ece4e176342f5fae0db546a457c743c",
+      "bytes": 3111690,
+      "fetchedAt": "2026-10-31T03:14:30.417Z",
+      "fetchedFrom": "http://gikai.city.sukagawa.fukushima.jp/voices/GikaiDoc/attach/koho/KhB70_gikaidayori96.pdf"
+    },
+    {
+      "filename": "sukagawa_g07_giketsu_135.html",
+      "sha256": "829d2b6a5953376f40b41ce01dd17ab9ddc0246941909cf87fc25d810f23782c",
+      "bytes": 40480,
+      "fetchedAt": "2026-10-31T03:14:30.417Z",
+      "fetchedFrom": "http://gikai.city.sukagawa.fukushima.jp/g07_giketsu.asp?kword1=&kaigi=2026%2F02%2F18%2C2026%2F03%2F16%2C135&bunrui=",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "sukagawa_guide1_6.html",
+      "sha256": "da94dad5617942ddedf0c5ba457b64abeca6ee6cf779838fe342d0b415c5fb1e",
+      "bytes": 10027,
+      "fetchedAt": "2026-10-31T03:14:30.418Z",
+      "fetchedFrom": "http://gikai.city.sukagawa.fukushima.jp/guide1_6.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

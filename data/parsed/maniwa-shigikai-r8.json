@@ -1,0 +1,182 @@
+{
+  "docType": "council-composition",
+  "sourceId": "maniwa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:17.040Z",
+  "fiscalYear": "R8",
+  "body": "真庭市議会",
+  "seats": 22,
+  "asOf": "2025-04-24",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "真和会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "柴田正志",
+        "妹島弘和",
+        "谷本彰良",
+        "長尾修"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "緑真会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "伊藤義則",
+        "西田文子",
+        "苦田智子",
+        "森脇正和"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "翠山会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "奥侑樹",
+        "田島吉章",
+        "吉原啓介"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党真庭市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小椋一郎",
+        "妹尾智之"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "森真会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小田康文",
+        "葉廣峰久"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "明日の真庭を考える会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "緒形尚"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "共生",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "村上善彦"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "クリスタルの会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "加藤大悟"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "思誠",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "庄司史郎"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "伊賀基之"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "拓",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "福島一則"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 11
+      }
+    },
+    {
+      "name": "みらい",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "黒川愛"
+      ],
+      "locator": {
+        "file": "maniwa_42547_20250424.html",
+        "row": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 23 号",
+    "billName": "令和８年度(２０２６年度)真庭市一般会計予算について",
+    "sessionLabel": "令和８年３月第２回真庭市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "maniwa_38826.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "真庭市議会「会派について（令和7年4月24日現在）」",
+  "resultTitle": "令和８年３月第２回真庭市議会定例会 議決結果一覧"
+}

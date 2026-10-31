@@ -1,0 +1,137 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fukushima-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:15:26.176Z",
+  "fiscalYear": "R8",
+  "body": "福島県議会",
+  "seats": 55,
+  "asOf": "2026-01-23",
+  "factions": [
+    {
+      "name": "自由民主党福島県議会議員会",
+      "seats": 28,
+      "isIndependent": false,
+      "members": [
+        "石井信夫",
+        "金澤拓哉",
+        "木村謙一郎",
+        "誉田憲孝",
+        "江花圭司",
+        "佐々木恵寿",
+        "佐藤郁雄",
+        "佐藤徹哉",
+        "鈴木優樹",
+        "水野透",
+        "山内長",
+        "山口信雄",
+        "渡辺康平",
+        "渡邊哲也",
+        "佐々木彰",
+        "佐藤義憲",
+        "高宮光敏",
+        "佐藤雅裕",
+        "鈴木智",
+        "先崎温容",
+        "矢吹貢一",
+        "山田平四郎",
+        "佐藤政隆",
+        "長尾トモ子",
+        "満山喜一",
+        "渡辺義信",
+        "太田光秋",
+        "佐藤憲保"
+      ],
+      "locator": {
+        "file": "meibo-kaiha201712_20260211.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "福島県議会県民連合議員会",
+      "seats": 17,
+      "isIndependent": false,
+      "members": [
+        "猪俣明伸",
+        "半沢雄助",
+        "安田成一",
+        "山田真太郎",
+        "吉田誠",
+        "渡部英明",
+        "荒秀一",
+        "大場秀樹",
+        "三瓶正栄",
+        "橋本徹",
+        "三村博隆",
+        "佐久間俊男",
+        "髙野光二",
+        "古市三久",
+        "宮下雅志",
+        "亀岡義尚",
+        "瓜生信一郎"
+      ],
+      "locator": {
+        "file": "meibo-kaiha201712_20260211.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党福島県議会議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "大橋沙織",
+        "宮本しづえ",
+        "宮川えみ子",
+        "神山悦子"
+      ],
+      "locator": {
+        "file": "meibo-kaiha201712_20260211.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党福島県議会議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "真山祐一",
+        "伊藤達也",
+        "安部泰男",
+        "今井久敏"
+      ],
+      "locator": {
+        "file": "meibo-kaiha201712_20260211.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本維新・無所属の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "鳥居作弥",
+        "水野さちこ"
+      ],
+      "locator": {
+        "file": "meibo-kaiha201712_20260211.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 １号",
+    "billName": "令和８年度福島県一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "735757.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "福島県議会議員 会派別・期別一覧（令和8年1月23日現在・議決前の魚拓）",
+  "resultTitle": "議決件数一覧（令和８年２月定例会）"
+}

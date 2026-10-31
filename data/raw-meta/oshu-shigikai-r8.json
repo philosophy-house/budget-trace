@@ -1,0 +1,19 @@
+{
+  "sourceId": "oshu-shigikai-r8",
+  "files": [
+    {
+      "filename": "1272_20260316.html",
+      "sha256": "71e0c2bc6851224b8b3c07f94d7c36661066861b545776f4862b29af2f0a6482",
+      "bytes": 55655,
+      "fetchedAt": "2026-10-31T03:15:10.910Z",
+      "fetchedFrom": "https://web.archive.org/web/20260316083153id_/https://www.city.oshu.iwate.jp/gikai/meibo/1272.html"
+    },
+    {
+      "filename": "17454.html",
+      "sha256": "0caacabefe697534168313c86396406cf56b5e9b3fb63111c7c32dac7370987a",
+      "bytes": 79815,
+      "fetchedAt": "2026-10-31T03:15:10.910Z",
+      "fetchedFrom": "https://www.city.oshu.iwate.jp/gikai/teireikai_rinjikai/18_3/r05teirei1/17454.html"
+    }
+  ]
+}

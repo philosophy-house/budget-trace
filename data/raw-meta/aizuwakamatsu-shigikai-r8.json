@@ -1,0 +1,36 @@
+{
+  "sourceId": "aizuwakamatsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "785.pdf",
+      "sha256": "69349e8dd9437c2b4159b43693ad9285612ba9346a25044947b15bbc900e41d6",
+      "bytes": 90583,
+      "fetchedAt": "2026-10-31T03:15:25.978Z",
+      "fetchedFrom": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2023080400025/file_contents/785.pdf"
+    },
+    {
+      "filename": "R802_giketsu.pdf",
+      "sha256": "ab3c553e9b75dfdbb447a1f44ab787cd6bb968a55c59439b55cab821210195f6",
+      "bytes": 289464,
+      "fetchedAt": "2026-10-31T03:15:25.978Z",
+      "fetchedFrom": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2015020300014/file_contents/R802.pdf"
+    },
+    {
+      "filename": "2026040900016.html",
+      "sha256": "bd38103b2bae0161e8b07e53ab7f780937fbe31b80d2683bc9414e48bc00b5c9",
+      "bytes": 16039,
+      "fetchedAt": "2026-10-31T03:15:25.979Z",
+      "fetchedFrom": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2026040900016/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "R802_nittei.pdf",
+      "sha256": "7528cc3a9732bed9f60f671a72d4ef1ae44adc35f18f2bd8f2babf5a93f51bcd",
+      "bytes": 81433,
+      "fetchedAt": "2026-10-31T03:15:25.979Z",
+      "fetchedFrom": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2026040900016/file_contents/R802.pdf"
+    }
+  ]
+}

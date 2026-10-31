@@ -1,0 +1,42 @@
+{
+  "sourceId": "ichinoseki-shigikai-r8",
+  "files": [
+    {
+      "filename": "contents-4189.html",
+      "sha256": "b6756774998a8a0f91c01ad7d48700653734b7c396ee476d988a88355aab4c03",
+      "bytes": 495581,
+      "fetchedAt": "2026-10-31T03:15:10.911Z",
+      "fetchedFrom": "https://www.city.ichinoseki.iwate.jp/archive/contents-4189",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "R8.2_審議結果について(123通).pdf",
+      "sha256": "5ac17cbe29b77044c91495ea1637f3230d6de456b09c2d0e3b4eb5163cd01db0",
+      "bytes": 69862,
+      "fetchedAt": "2026-10-31T03:15:10.911Z",
+      "fetchedFrom": "https://www.city.ichinoseki.iwate.jp/uploads/public/archive_0000001071_00/R8.2_%E5%AF%A9%E8%AD%B0%E7%B5%90%E6%9E%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6(123%E9%80%9A).pdf"
+    },
+    {
+      "filename": "contents-6034.html",
+      "sha256": "1813b9e63240f7d28e8796168eee9ed671326404139a0c7b53bed970c46852d9",
+      "bytes": 536475,
+      "fetchedAt": "2026-10-31T03:15:10.912Z",
+      "fetchedFrom": "https://www.city.ichinoseki.iwate.jp/archive/contents-6034",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "contents-187902.html",
+      "sha256": "6fbc63cb9deb00aa24ab192c7c0c0ce2fce344078455ae5555bc392c367d722f",
+      "bytes": 495486,
+      "fetchedAt": "2026-10-31T03:15:10.913Z",
+      "fetchedFrom": "https://www.city.ichinoseki.iwate.jp/archive/contents-187902",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

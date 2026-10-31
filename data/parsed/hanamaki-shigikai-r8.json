@@ -1,0 +1,117 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hanamaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:14.230Z",
+  "fiscalYear": "R8",
+  "body": "花巻市議会",
+  "seats": 24,
+  "asOf": "2025-12-09",
+  "factions": [
+    {
+      "name": "明和会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "佐藤峰樹",
+        "盛岡耕市",
+        "及川恒雄",
+        "伊藤忠宏",
+        "藤根清",
+        "小原保信",
+        "横田忍"
+      ],
+      "locator": {
+        "file": "hanamaki_1004010_20260516205803.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "はなまき市民クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "佐藤現",
+        "羽山るみ子",
+        "内舘桂",
+        "本舘憲一"
+      ],
+      "locator": {
+        "file": "hanamaki_1004010_20260516205803.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "緑の風",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "伊藤盛幸",
+        "似内一弘",
+        "鹿討康弘",
+        "小森田郁也"
+      ],
+      "locator": {
+        "file": "hanamaki_1004010_20260516205803.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "社民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "若柳良明",
+        "照井省三",
+        "阿部一男"
+      ],
+      "locator": {
+        "file": "hanamaki_1004010_20260516205803.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党花巻市議会議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "照井明子",
+        "櫻井肇",
+        "久保田彰孝"
+      ],
+      "locator": {
+        "file": "hanamaki_1004010_20260516205803.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派を構成していない議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "佐々木精市",
+        "菅原ゆかり",
+        "藤原伸"
+      ],
+      "locator": {
+        "file": "hanamaki_1004010_20260516205803.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案２３",
+    "billName": "令和８年度花巻市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hanamaki_202603kekka_1.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "議員名簿(会派別)（更新日 令和7年12月9日）",
+  "resultTitle": "令和８年第１回定例会結果（議決結果一覧表）"
+}

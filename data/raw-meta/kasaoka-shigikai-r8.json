@@ -1,0 +1,26 @@
+{
+  "sourceId": "kasaoka-shigikai-r8",
+  "files": [
+    {
+      "filename": "kas_3667_20260510030356.html",
+      "sha256": "433c1d1c5c4b7fc9db2c92099aa756b51eed0cbbf4e1efce6bcabaa2796ffe70",
+      "bytes": 22445,
+      "fetchedAt": "2026-10-31T03:14:30.460Z",
+      "fetchedFrom": "https://web.archive.org/web/20260510030356id_/https://www.city.kasaoka.okayama.jp/soshiki/48/3667.html"
+    },
+    {
+      "filename": "kas_57040.pdf",
+      "sha256": "425f0f8451d49c5062efbcbcec33f35250c4127bcc1ca0c9a6397f7cf174c855",
+      "bytes": 81277,
+      "fetchedAt": "2026-10-31T03:14:30.460Z",
+      "fetchedFrom": "https://www.city.kasaoka.okayama.jp/uploaded/attachment/57040.pdf"
+    },
+    {
+      "filename": "kas_3243.html",
+      "sha256": "77928c4cfcc000fc0c43af4811b457632d1b8dcccd05f6ba6e546029150c202a",
+      "bytes": 27041,
+      "fetchedAt": "2026-10-31T03:14:30.461Z",
+      "fetchedFrom": "https://www.city.kasaoka.okayama.jp/soshiki/48/3243.html"
+    }
+  ]
+}

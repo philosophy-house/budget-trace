@@ -1,0 +1,40 @@
+{
+  "sourceId": "nara-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "52790.html",
+      "sha256": "4e37ae080e8898bf49d5d0b6c5f5d21cd8bb1ff0b60d52e612abcdc3cfafbd53",
+      "bytes": 22387,
+      "fetchedAt": "2026-10-31T03:14:30.431Z",
+      "fetchedFrom": "https://web.archive.org/web/20260316145817id_/https://www.pref.nara.lg.jp/n161/52790.html"
+    },
+    {
+      "filename": "20260217_kaiha.pdf",
+      "sha256": "6be66a77b7135c5d3a30327c8df7b42acd83f487084713f25f650209af1a1a2d",
+      "bytes": 65882,
+      "fetchedAt": "2026-10-31T03:14:30.431Z",
+      "fetchedFrom": "https://www.pref.nara.lg.jp/documents/13293/20260217_kaiha.pdf"
+    },
+    {
+      "filename": "r080325_giketukekka.pdf",
+      "sha256": "1c88e2d65a141cdf97d27c14ccbcfa84621abe3a4d5fd976b25734b1d06b1f1f",
+      "bytes": 140641,
+      "fetchedAt": "2026-10-31T03:14:30.432Z",
+      "fetchedFrom": "https://www.pref.nara.lg.jp/documents/21459/r080325_giketukekka.pdf"
+    },
+    {
+      "filename": "20260325_giinbetsu_hyoketsu.pdf",
+      "sha256": "40dae50afbbde3c3bb1276743bc3dc18a52374e5e097f27088e1dd3d9a18f050",
+      "bytes": 572301,
+      "fetchedAt": "2026-10-31T03:14:30.433Z",
+      "fetchedFrom": "https://www.pref.nara.lg.jp/documents/21459/20260325_giinbetsu_hyoketsu.pdf"
+    },
+    {
+      "filename": "r0802_schedule.pdf",
+      "sha256": "5a4af1f604b38b8f90cba32f3c49bd1cd8c852ed70e1b13b87aeff40a2c3dbba",
+      "bytes": 45932,
+      "fetchedAt": "2026-10-31T03:14:30.433Z",
+      "fetchedFrom": "https://www.pref.nara.lg.jp/documents/21459/r0802_schedule.pdf"
+    }
+  ]
+}
