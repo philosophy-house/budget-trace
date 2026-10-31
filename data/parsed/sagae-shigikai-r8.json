@@ -1,0 +1,132 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sagae-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:05.076Z",
+  "fiscalYear": "R8",
+  "body": "寒河江市議会",
+  "seats": 16,
+  "asOf": "2026-03-19",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "壮風会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "安孫子義徳",
+        "後藤健一郎",
+        "荒木春吉",
+        "児玉崇",
+        "佐藤政人"
+      ],
+      "locator": {
+        "file": "r7shushihoukokuichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "寒政クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "佐藤耕治",
+        "阿部清",
+        "伊藤正彦",
+        "野口康一郎"
+      ],
+      "locator": {
+        "file": "r7shushihoukokuichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "総政会（柏倉信一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "柏倉信一"
+      ],
+      "locator": {
+        "file": "r7shushihoukokuichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明クラブ（古沢清志）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "古沢清志"
+      ],
+      "locator": {
+        "file": "r7shushihoukokuichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党寒河江市議団（太田陽子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "太田陽子"
+      ],
+      "locator": {
+        "file": "r7shushihoukokuichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "木喬会（月光裕晶）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "月光裕晶"
+      ],
+      "locator": {
+        "file": "r7shushihoukokuichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "さわやかクラブ（太田芳彦）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "太田芳彦"
+      ],
+      "locator": {
+        "file": "r7shushihoukokuichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "国民・立憲民主クラブ",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "沖津一博",
+        "渡邉賢一"
+      ],
+      "locator": {
+        "file": "r7shushihoukokuichiran.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第10号",
+    "billName": "令和８年度寒河江市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決（全会一致）",
+    "locator": {
+      "file": "sigikaidayori169.pdf",
+      "page": 7
+    }
+  },
+  "rosterTitle": "令和７年度 寒河江市議会政務活動費収支報告（年度末において収支報告をする会派）（会派名及び交付対象期間・所属議員氏名）",
+  "resultTitle": "さがえ市議会だより №169（令和8年5月15日）p.7「提出議案等と採決結果」（令和８年３月定例会）"
+}
