@@ -3949,6 +3949,41 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `maniwa-yosansho-${fy}`, muniCode: "332143", muniName: "真庭市", prefName: "岡山県", isPref: false,
     })),
+    // ---- 第99巡（2026-10-31・§13-115） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `futtsu-yosansho-${fy}`, muniCode: "122262", muniName: "富津市", prefName: "千葉県", isPref: false,
+    })),
+    // 雲仙市は R7〜R2 がスキャン画像
+    { srcId: "unzen-tousho-shiryo-r8", muniCode: "422134", muniName: "雲仙市", prefName: "長崎県", isPref: false },
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `miura-ippan-kanbetsu-hikaku-${fy}`, muniCode: "142107", muniName: "三浦市", prefName: "神奈川県", isPref: false,
+    })),
+    // 南足柄市は R2 が概要（款を「その他」に束ねる）しか無い
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `minamiashigara-yosansho-${fy}`, muniCode: "142174", muniName: "南足柄市", prefName: "神奈川県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `minamishimabara-tousho-gaiyo-${fy}`, muniCode: "422142", muniName: "南島原市", prefName: "長崎県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kitaibaraki-yosansho-${fy}`, muniCode: "082155", muniName: "北茨城市", prefName: "茨城県", isPref: false,
+    })),
+    // 奄美市は R5 がベクタ描画・R2 は予算書なし
+    ...(["r8", "r7", "r6", "r4", "r3"] as const).map((fy) => ({
+      srcId: `amami-yosansho-${fy}`, muniCode: "462225", muniName: "奄美市", prefName: "鹿児島県", isPref: false,
+    })),
+    // かすみがうら市は `noDeepLink`
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kasumigaura-yosansho-${fy}`, muniCode: "082309", muniName: "かすみがうら市", prefName: "茨城県", isPref: false,
+    })),
+    // 洲本市は R5 の前年度列が肉付け後
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sumoto-yosan-gaiyo-${fy}`, muniCode: "282057", muniName: "洲本市", prefName: "兵庫県", isPref: false,
+    })),
+    // 菰野町は R4〜R2 がスキャン画像
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `komono-yosansho-${fy}`, muniCode: "243418", muniName: "菰野町", prefName: "三重県", isPref: false,
+    })),
     // ---- 第92巡（2026-10-26・§13-107） ----
     // ⚠ 三次は R6・R5・R3・R2 が歳入見開き。R5・H31 骨格 ⇒ R6・R2 に prevNote（前年度列は骨格の当初）
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({

@@ -3157,4 +3157,54 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-29", ref: "docs/data-sources.md §13-114",
   },
 
+
+  {
+    // 雲仙市（422134）R7〜R2。「当初予算（案）資料」が複合機（Canon iR-ADV）のスキャン画像で、テキスト層は R6 の表紙・目次（p.1・約580字）のほかは0字。
+    //   予算説明書「知っておきたい雲仙市のしごと」は円グラフと万円単位の説明で款別の全件と前年度列が無い（§13-115）。
+    code: "422134", name: "雲仙市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason: "款ごとの表が載っている当初予算の資料がスキャン画像で、文字の情報が無い。",
+    url: "https://www.city.unzen.nagasaki.jp/list00324.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-115",
+  },
+
+  {
+    // 南足柄市（142174）R2。年度ページ（p05581）に「当初予算の概要」しか無く、予算書が載っていない（Wayback の年度ページ最古 2022-07 も同じ）。
+    //   概要の款別表は小さい款を「その他」に束ねていて、款ごとの額が揃わない（§13-115）。
+    code: "142174", name: "南足柄市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "予算書がウェブに無く、公開されている予算の概要は一部の款を「その他」にまとめている。",
+    url: "https://www.city.minamiashigara.kanagawa.jp/machi/zaisei/yosan/p05581.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-115",
+  },
+
+  {
+    // 奄美市（462225）R5。一般会計当初予算書（r5tousyoippankaikei.pdf）の総括（p.14-15）と第1表（p.6-10）がフォントも画像も無い
+    //   ベクタ描画（pdffonts 0・pdfimages 0・抽出1文字）。p.18 以降の事項別明細には文字がある。Wayback に別版なし（§13-115）。
+    code: "462225", name: "奄美市", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["broken-text-layer"],
+    reason: "款ごとの表が載っている予算書のページで、文字が図形として描かれていて文字の情報が無い。",
+    url: "https://www.city.amami.lg.jp/zaisei/shise/zaise/documents/tousyoyosanstumeisiryou.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-115",
+  },
+  {
+    // 奄美市（462225）R2。年度の掲載は「当初予算説明資料」だけで予算書が無い（Wayback の 2020-05・2021-01 のページも同じ）。
+    //   説明資料の歳出は性質別だけで目的別の款が無い（§13-115）。
+    code: "462225", name: "奄美市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "予算書がウェブに無く、公開されている予算説明資料の歳出は性質別で、款ごとの表になっていない。",
+    url: "https://www.city.amami.lg.jp/zaisei/shise/zaise/documents/tousyoyosanstumeisiryou.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-115",
+  },
+
+  {
+    // 菰野町（243418）R4・R3・R2。予算書（旧 CMS の r4ippan0gou.pdf・R3_komonocho_ippan.pdf・R2_komonocho_ippan.pdf。いずれも Wayback のみ）が
+    //   複合機（DocuCentre-V）のスキャン画像でフォント0（§13-115）。
+    code: "243418", name: "菰野町", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason: "款ごとの表が載っている予算書がスキャン画像で、文字の情報が無い。",
+    url: "https://web.archive.org/web/20220705132318/http://www2.town.komono.mie.jp/www/contents/1647929767418/simple/r4ippan0gou.pdf",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-115",
+  },
+
 ];

@@ -603,6 +603,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "142174": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算書がウェブに無く、公開されている予算の概要は一部の款を「その他」にまとめている。",
+        "checkedOn": "2026-10-31"
+      }
+    ]
+  },
   "142182": {
     "budget": [
       {
@@ -1087,6 +1096,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和8年度",
         "reason": "一般会計当初予算は議会で修正されて可決されたが、掲載されている予算書・予算概要書は修正前の原案のもので、教育費・繰入金と合計が議決された額と合わない。修正後の総括は修正案の資料に修正前の数字と並べて載っているだけで、そのままでは款別の金額を読み取れない。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "243418": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度・令和3年度・令和2年度",
+        "reason": "款ごとの表が載っている予算書がスキャン画像で、文字の情報が無い。",
+        "checkedOn": "2026-10-31"
       }
     ]
   },
@@ -1791,6 +1809,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "422134": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款ごとの表が載っている当初予算の資料がスキャン画像で、文字の情報が無い。",
+        "checkedOn": "2026-10-31"
+      }
+    ]
+  },
   "432067": {
     "budget": [
       {
@@ -1919,6 +1946,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "歳入の表の最後にある廃止された款（自動車取得税交付金）の行が、款番号の欄に 0 を置き、目印も「皆減」の語も持たない。こちらの抽出はこの書き方に対応しておらず、その行だけが落ちて前年度の歳入の合計が合わなくなる。",
         "checkedOn": "2026-09-25"
+      }
+    ]
+  },
+  "462225": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度",
+        "reason": "款ごとの表が載っている予算書のページで、文字が図形として描かれていて文字の情報が無い。",
+        "checkedOn": "2026-10-31"
+      },
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算書がウェブに無く、公開されている予算説明資料の歳出は性質別で、款ごとの表になっていない。",
+        "checkedOn": "2026-10-31"
       }
     ]
   },

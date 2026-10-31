@@ -13,14 +13,14 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 631,
+  "budgetCount": 641,
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4638,
-  "fileCount": 6793,
-  "archivedCount": 3547,
-  "licenseOpen": 138,
-  "licensePermission": 4402,
+  "sourceCount": 4696,
+  "fileCount": 6854,
+  "archivedCount": 3605,
+  "licenseOpen": 141,
+  "licensePermission": 4457,
   "licenseUnverified": 98,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -927,6 +927,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "北茨城市",
+      "code": "082155",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "笠間市",
       "code": "082163",
       "years": 7,
@@ -965,6 +971,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "坂東市",
       "code": "082287",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "かすみがうら市",
+      "code": "082309",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1185,6 +1197,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "富津市",
+      "code": "122262",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "四街道市",
       "code": "122289",
       "years": 7,
@@ -1337,6 +1355,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "逗子市",
       "code": "142085",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "三浦市",
+      "code": "142107",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1941,6 +1965,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "洲本市",
+      "code": "282057",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "豊岡市",
       "code": "282090",
       "years": 7,
@@ -2271,6 +2301,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "南島原市",
+      "code": "422142",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "山鹿市",
       "code": "432083",
       "years": 7,
@@ -2533,6 +2569,12 @@ export const ROADMAP_PROGRESS = {
       "code": "142034",
       "years": 6,
       "range": "R2〜R7（6年度）"
+    },
+    {
+      "name": "南足柄市",
+      "code": "142174",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
     },
     {
       "name": "寒川町",
@@ -3051,6 +3093,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "奄美市",
+      "code": "462225",
+      "years": 5,
+      "range": "R3〜R8（5年度）"
+    },
+    {
       "name": "姶良市",
       "code": "462250",
       "years": 5,
@@ -3175,6 +3223,12 @@ export const ROADMAP_PROGRESS = {
       "code": "232271",
       "years": 4,
       "range": "R2〜R8（4年度）"
+    },
+    {
+      "name": "菰野町",
+      "code": "243418",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
     },
     {
       "name": "橿原市",

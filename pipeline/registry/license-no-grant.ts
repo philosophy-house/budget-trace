@@ -110,4 +110,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "下妻市", license: "© Shimotsuma City（下妻市公式ホームページ フッター）。著作権・利用条件に関する規約のページは市サイトに存在しない（「このサイトについて」配下の4ページに著作権・転載・複製の語が無い。2026-10-29 確認）。" },
   { who: "小諸市", license: "当サイトに掲載された一切の情報は著作権の対象となっております。" },
   { who: "山武市", license: "「山武市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として山武市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
+  { who: "菰野町（旧サイト）", license: "Copyright © Komono Town. All Rights Reserved." },
 ];
