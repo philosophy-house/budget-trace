@@ -1,0 +1,149 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tosu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:35.330Z",
+  "fiscalYear": "R8",
+  "body": "鳥栖市議会",
+  "seats": 22,
+  "asOf": "2025-12-01",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "自民クラブ",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "中川原豊志",
+        "古賀克則",
+        "下田辰也",
+        "上村典子",
+        "松隈清之",
+        "山下繭美",
+        "緒方俊之",
+        "古賀秀樹"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "新風クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "藤田昌隆",
+        "伊藤克也",
+        "和田晴美",
+        "西依義規"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "飛松妙子",
+        "池田利幸"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "彩りの会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "牧瀬昭子",
+        "永江ゆき"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "鳥栖市民ねっと",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村直人",
+        "野下泰弘"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党議員団（成冨牧男）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "成冨牧男"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "架け橋の会（田村弘子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "田村弘子"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "参政党（重松忠）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "重松忠"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "飛鳥会（中山龍一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中山龍一"
+      ],
+      "locator": {
+        "file": "1383_20260218.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "乙10",
+    "billName": "令和８年度鳥栖市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-11",
+    "decidedDateLabel": "令和8年3月11日",
+    "result": "原案可決（賛成多数）",
+    "locator": {
+      "file": "38674.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "鳥栖市議会 会派名簿（更新日 2025年12月1日）",
+  "resultTitle": "令和8年3月定例会 議決結果（提出議案）"
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "yokote-shigikai-r8",
+  "files": [
+    {
+      "filename": "yokote_kaiha_20260120190021.html",
+      "sha256": "fecb3154d8683b5c6828299af2a4c01d7063d04bfc3e1724f2c9dd581627bf66",
+      "bytes": 29279,
+      "fetchedAt": "2026-10-31T08:34:30.626Z",
+      "fetchedFrom": "https://web.archive.org/web/20260120190021id_/https://www.city.yokote.lg.jp/shigikai/1001547/1004060.html"
+    },
+    {
+      "filename": "yokote_0803sannpi.pdf",
+      "sha256": "11bbda4ad6be3f764caf23216e70beff5db86d7a3f3464c07639c81ce6f849c3",
+      "bytes": 128024,
+      "fetchedAt": "2026-10-31T08:34:30.626Z",
+      "fetchedFrom": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/013/010/0803sannpi.pdf"
+    },
+    {
+      "filename": "yokote_0803sanpikai.pdf",
+      "sha256": "74f4cba4137b63a5bd9ce78b35bbb2e6724fa967be356a4e74893a7d9358b895",
+      "bytes": 182326,
+      "fetchedAt": "2026-10-31T08:34:30.627Z",
+      "fetchedFrom": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/013/010/0803sanpikai.pdf"
+    },
+    {
+      "filename": "yokote_0803nitteikakutei.pdf",
+      "sha256": "e916c822a738595aa62f660df3fa1a40b9f8b84d906e3c9990d23504f46123e2",
+      "bytes": 78789,
+      "fetchedAt": "2026-10-31T08:34:30.627Z",
+      "fetchedFrom": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/013/010/0803nitteikakutei.pdf"
+    }
+  ]
+}

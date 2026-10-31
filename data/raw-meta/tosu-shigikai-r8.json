@@ -1,0 +1,33 @@
+{
+  "sourceId": "tosu-shigikai-r8",
+  "files": [
+    {
+      "filename": "1383_20260218.html",
+      "sha256": "1a41222cab9e1a03f2d010ddbb3c7ba975c38985de310ed7eb429765c61b54ba",
+      "bytes": 33765,
+      "fetchedAt": "2026-10-31T08:34:30.605Z",
+      "fetchedFrom": "https://web.archive.org/web/20260218233726id_/https://www.city.tosu.lg.jp/site/assembly/1383.html"
+    },
+    {
+      "filename": "38674.pdf",
+      "sha256": "7244c19e6f0de8b6e1e98d6b88475aa8a6c53c3eba71025934a19a2973c8b0bb",
+      "bytes": 111787,
+      "fetchedAt": "2026-10-31T08:34:30.605Z",
+      "fetchedFrom": "https://www.city.tosu.lg.jp/uploaded/attachment/38674.pdf"
+    },
+    {
+      "filename": "38192.pdf",
+      "sha256": "8c15e5d6755934a971e7941af478df6792e4e5bd5bb314177b83fd5c9844b705",
+      "bytes": 82278,
+      "fetchedAt": "2026-10-31T08:34:30.606Z",
+      "fetchedFrom": "https://www.city.tosu.lg.jp/uploaded/attachment/38192.pdf"
+    },
+    {
+      "filename": "1623.html",
+      "sha256": "2fcdffbf152913d720f2ec9c42d9fe397905f1b994b0ee146405416b20cac776",
+      "bytes": 30445,
+      "fetchedAt": "2026-10-31T08:34:30.607Z",
+      "fetchedFrom": "https://www.city.tosu.lg.jp/site/assembly/1623.html"
+    }
+  ]
+}

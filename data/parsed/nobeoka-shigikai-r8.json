@@ -1,0 +1,130 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nobeoka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:36.275Z",
+  "fiscalYear": "R8",
+  "body": "延岡市議会",
+  "seats": 26,
+  "asOf": "2025-10-04",
+  "factions": [
+    {
+      "name": "自民党きずなの会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "稲田雅之",
+        "猪之鼻哲",
+        "小野挙",
+        "甲斐忠篤",
+        "梶本英一",
+        "北林幹雄",
+        "柴浩信",
+        "中島誠治",
+        "松田満男"
+      ],
+      "locator": {
+        "file": "nobeoka_1455_20251217.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "無所属市民の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "上杉泰洋",
+        "甲斐正幸",
+        "河野治満",
+        "峯田克明",
+        "吉田茂仁"
+      ],
+      "locator": {
+        "file": "nobeoka_1455_20251217.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "友愛クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "甲斐行雄",
+        "小御門綾",
+        "早瀬賢一",
+        "前田遼"
+      ],
+      "locator": {
+        "file": "nobeoka_1455_20251217.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小野正二",
+        "比江島久美子",
+        "山本珠美"
+      ],
+      "locator": {
+        "file": "nobeoka_1455_20251217.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "立憲民主党市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "長友幸子",
+        "宮田博徳"
+      ],
+      "locator": {
+        "file": "nobeoka_1455_20251217.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に属さない議員(日本共産党)（平田信広）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "平田信広"
+      ],
+      "locator": {
+        "file": "nobeoka_1455_20251217.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に属さない議員（無所属）",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "後藤司光",
+        "中城あかね"
+      ],
+      "locator": {
+        "file": "nobeoka_1455_20251217.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 129 号",
+    "billName": "令和８年度延岡市一般会計予算",
+    "sessionLabel": "第 24 回延岡市議会（定例会）",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "nobeoka_26395.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議員名簿（50音順）（令和7年10月4日現在）",
+  "resultTitle": "第24回延岡市議会（定例会）での議案審議等結果（令和８年３月19日現在）"
+}

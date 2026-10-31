@@ -1,0 +1,622 @@
+﻿
+<!DOCTYPE html>
+<html lang="ja">
+<head id="ctl00_Head1"><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="format-detection" content="telephone=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>
+	議員一覧 / 佐賀県議会TOP / 佐賀県
+</title>
+<script type="text/javascript">
+<!--
+    function enterCancel(event)
+    {
+        if (event.keyCode == 13)
+        {
+            var elem;
+            if(event.srcElement)
+            {
+                elem = event.srcElement;
+            }
+            else
+            {
+                elem = event.target;
+            }
+            if(elem.type!='submit' && elem.type!='textarea' && elem.tagName!='A' && elem.tagName!='a' && elem.tagName!='area' && elem.tagName!='AREA') /* 2011/04/04 a tag OK */
+            {
+                var useMapFlg = false;
+                if (elem.tagName == "img" || elem.tagName == "IMG") {
+                    if (elem.useMap) {
+                        useMapFlg = true;
+                    }
+                }
+                if (!useMapFlg) {
+                    if (event.preventDefault) {
+                        event.preventDefault();
+                    }
+                    else {
+                        event.returnValue = false;
+                    }
+                }
+            }           
+        }
+    }
+    
+    /* Same Func is available in AjaxCalForIE6*/
+    function ajaxCalOnClientShown(){
+        /*IE6 does not have "maxHeight"*/
+        if (typeof document.documentElement.style.maxHeight == "undefined") {
+            try{
+                $$("select").each(function(_itm){
+                    _itm.style.visibility="hidden";
+                });
+            }catch(err){
+            }
+        }
+    }    
+    /* Same Func is available in AjaxCalForIE6*/
+    function ajaxCalOnClientHidden(){
+        /*IE6 does not have "maxHeight"*/
+        if (typeof document.documentElement.style.maxHeight == "undefined") {
+            try{
+                $$("select").each(function(_itm){
+                    _itm.style.visibility="visible";
+                });
+            }catch(err){
+            }
+        }
+    }
+    
+    function clickButton(id, event){
+        if (event.keyCode == 13)
+        {
+            document.getElementById(id).click();
+
+            if (event.preventDefault) 
+            {
+                event.preventDefault();
+            } 
+            else 
+            {
+                event.returnValue = false;
+            }
+        }
+    }
+    
+    function checkValue(obj) {
+        var keyword = document.getElementById(obj).value;
+        keyword = keyword.replace(/^[\s　]+|[\s　]$/g, "");
+        if (keyword.length == 0) {
+            alert('検索キーワードを入力してください。');
+            return false;
+        }
+
+        searchResult(keyword);
+        return false;
+    }
+//-->
+</script>
+<link href="../../dynamic/gikai/common/css/default.css" rel="stylesheet" type="text/css" /><link href="../../dynamic/gikai/common/css/stylesheet.css" id="css_stylesheet" rel="stylesheet" type="text/css" media="print, screen and (min-width: 481px)" /><link href="../../dynamic/gikai/common/css/stylesheetforsp.css" id="css_stylesheet_sp" rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" /><link href="../../dynamic/gikai/common/css/migration.css" id="css_Migration" rel="stylesheet" type="text/css" /><link href="../../dynamic/gikai/hpkiji/designcss/design01.css" rel="stylesheet" type="text/css" /><link href="../../dynamic/gikai/common/css/fontsizen.css" id="css_fontsize" rel="stylesheet" type="text/css" media="print, screen and (min-width: 481px)" /><link href="../../dynamic/gikai/common/css/fontsizen.css" id="css_fontsize_sp" rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" /><link href="../../dynamic/gikai/common/css/uiw_gikai.css" id="css_color" rel="stylesheet" type="text/css" media="print, screen and (min-width: 481px)" /><link href="../../dynamic/gikai/common/css/uiw_gikai.css" id="css_color_sp" rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" /><link id="ctl00_minicalendar_css" href="../../dynamic/gikai/common/css/minicalendar.css" rel="stylesheet" type="text/css" /><link href="../../dynamic/gikai/favicon.ico" rel="icon" type="image/vnd.microsoft.icon" /><link href="../../dynamic/gikai/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /><script id="ctl00_jquery_min_js" type="text/javascript" src="../../dynamic/gikai/common/js/jquery.min.js"></script><script type="text/javascript" src="../../dynamic/gikai/common/js/js.cookie.js"></script><script type="text/javascript" src="../../dynamic/gikai/common/js/setcookie.js"></script>
+<!--[if lt IE 9]>
+<link href="../../dynamic/gikai/common/css/stylesheet.css" rel="stylesheet" type="text/css" /><link href="../../dynamic/gikai/common/css/fontsizen.css" id="css_fontsize_ie8" rel="stylesheet" type="text/css" /><link href="../../dynamic/gikai/common/css/uiw_gikai.css" id="css_color_ie8" rel="stylesheet" type="text/css" /><link href="../../dynamic/gikai/common/css/html5_block.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="../../dynamic/gikai/common/js/html5shiv-printshiv.js"></script>
+<![endif]-->
+<link href="../../dynamic/gikai/common/css/gikai_body.css" rel="stylesheet" type="text/css" /><script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TV22SFD');
+</script>
+<meta property="og:type" content="article" /><meta id="ctl00_MetaOGPTitle" property="og:title" content="議員一覧" /><meta property="og:image" content="http://www.pref.saga.lg.jp/dynamic/gikai/common/images/ogp/og_image.gif" /><meta property="og:url" content="https://www.pref.saga.lg.jp/gikai/kiji00366725/index.html" /><meta property="og:description" content="議員一覧 / 佐賀県議会TOP / 佐賀県" /><meta property="og:site_name" content="佐賀県" /><meta property="og:locality" content="Saga-Ken" /><meta property="og:region" content="Saga" /><meta property="og:country-name" content="Japan" /><meta name="keywords" content="議員一覧" /></head>
+<body class="haikei_15">
+<noscript><iframe title="gtm_if" src="https://www.googletagmanager.com/ns.html?id=GTM-TV22SFD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<form name="aspnetForm" method="post" action="./detail.aspx?c_id=3&amp;id=66725" id="aspnetForm" enctype="multipart/form-data" tabindex="1" onkeydown="enterCancel(event||window.event);">
+<div>
+
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5DD862A" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAASpasLrpjAjKHnloIE+Qyddg56KqOytoLCl6LRjcZaJZo5RwWZR47SYA5rPyWsjTz0GkCA5m0ohfOUU+WiJl+cMlrh54ZBB+OoIxbHoaqyxIGnfrEc=" />
+</div>
+
+
+
+
+
+
+<div id="headerAreaDef_15">
+    <input type="submit" name="ctl00$Dmy" value="" onclick="return false;" id="ctl00_Dmy" style="height:0px;width:0px;position:absolute;top:-100px;" />
+    <div class="Navigation"><ul><li><a href="#GlobalNavigationBlock" tabindex="1">ヘッダーをスキップ</a></li><li><a href="#mainBlock" tabindex="1">本文へジャンプ</a></li></ul></div>
+    <span id="top"></span>
+    <!-- gikai rect start --><map id="header_img" name="header_img"><area shape="rect" alt="佐賀県 佐賀県議会TOP総合トップへ" coords="1,1,216,79" href="../default.html"  tabindex="1" /></map><!-- gikai rect end --><div id="header_15"><!-- gikai header start --><img id="imgHeader" usemap="#header_img" src="../common/upload/common/15_4_header_4lyt0sbu.gif" alt="佐賀県　佐賀県議会" style="border-width:0px;" /><img id="imgHeaderSP" usemap="#header_img" src="../common/upload/common/15_4_headersp_q1rvzn0g.png" alt="佐賀県　佐賀県議会（スマホ版）" style="height:60px;width:320px;border-width:0px;" /><!-- gikai header end -->
+    <div id="mainHeaderTop">
+        <!-- gikai foreign language menu start -->
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(function () {
+        // メニュー用
+        jQuery('.select-box01 #normal a').focus(function () {
+            jQuery(this).siblings('.sub-menu').addClass('focused');
+        }).blur(function () {
+            jQuery(this).siblings('.sub-menu').removeClass('focused');
+        });
+
+        // サブメニュー用
+        jQuery('.sub-menu a').focus(function () {
+            jQuery(this).parents('.sub-menu').addClass('focused');
+        }).blur(function () {
+            jQuery(this).parents('.sub-menu').removeClass('focused');
+        });
+    });
+</script>
+
+<!-- 翻訳メニュー -->
+<div class="select-box01" tabIndex="-1">
+    <ul id="normal" class="dropmenu" tabIndex="-1">
+        <li><a lang="en" href="#" class="topmenu" tabindex="1">Foreign Language</a>
+            <ul class="sub-menu">
+                <li><a translate="no" lang="en" href="https://www.pref.saga.lg.jp.e.zg.hp.transer.com/gikai/kiji00366725/index.html" target="_blank" class="topsub" tabindex="1">English&nbsp;<img src="../../dynamic/gikai/common/images/newwin.gif" alt="Open in a new window" title=""></a></li>
+                <li><a translate="no" lang="zh-cmn-Hans" href="https://www.pref.saga.lg.jp.c.zg.hp.transer.com/gikai/kiji00366725/index.html" target="_blank" tabindex="1">中文(简化字)&nbsp;<img src="../../dynamic/gikai/common/images/newwin.gif" alt="在新视窗中开启" title=""></a></li>
+                <li><a translate="no" lang="zh-cmn-Hant" href="https://www.pref.saga.lg.jp.t.zg.hp.transer.com/gikai/kiji00366725/index.html" target="_blank" tabindex="1">中文(繁體字)&nbsp;<img src="../../dynamic/gikai/common/images/newwin.gif" alt="在新視窗中開啟" title=""></a></li>
+                <li><a translate="no" lang="ko" href="https://www.pref.saga.lg.jp.k.zg.hp.transer.com/gikai/kiji00366725/index.html" target="_blank" tabindex="1">한국어&nbsp;<img src="../../dynamic/gikai/common/images/newwin.gif" alt="다른 창으로 엽니 다" title=""></a></li>
+                <li><a translate="no" lang="ja" href="index.html" class="cl-norewrite" tabindex="1">日本語</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!-- gikai foreign language menu end --><!-- gikai header menu start -->
+        <div id="bousaiTop" class="headMenuTtl"><a href="../../bousai/default.html" tabindex="1">防災</a></div>
+        <div id="kyuuTop" class="headMenuTtl"><a href="https://www.qq.pref.saga.jp/" target="_blank" tabindex="1">救急<img src="../../dynamic/gikai/common/images/top1/new_win.gif" alt="別ウインドウで開きます" title=""></a></div>
+        <div id="headerMenuR">
+            <div id="homeLink">
+                <a href="../../default.html" tabindex="1">佐賀県TOPへ戻る</a>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl id="changeHaikei">
+		    <dt><span>背景色</span></dt>
+		    <dd><a href="javascript:void(0)" data-select="B" onclick="changeSiteIro('B')" tabindex="1"><img src="../../dynamic/gikai/common/images/top1/udbtn_blue.gif" alt="青" title="" /></a></dd>
+            <dd><a href="javascript:void(0)" data-select="K" onclick="changeSiteIro('K')" tabindex="1"><img src="../../dynamic/gikai/common/images/top1/udbtn_black.gif" alt="黒" title="" /></a></dd>
+            <dd><a href="javascript:void(0)" data-select="W" onclick="changeSiteIro('W')" tabindex="1"><img src="../../dynamic/gikai/common/images/top1/udbtn_white.gif" alt="白" title="" /></a></dd>
+	    </dl>
+	    <dl id="mainFontSizeSel">
+		    <dt><span>文字サイズ</span></dt>
+		    <dd><a href="javascript:void(0)" data-select="拡大" onclick="change_size('fontSizeB')" tabindex="1"><img src="../../dynamic/gikai/common/images/top1/white-mozi-l.gif" alt="拡大" title="" /></a></dd>
+            <dd><a href="javascript:void(0)" data-select="標準" onclick="change_size('fontSizeN')" tabindex="1"><img src="../../dynamic/gikai/common/images/top1/white-mozi-m.gif" alt="標準" title="" /></a></dd>
+	    </dl>
+        
+            <div id="mainSearch">
+                <input name="ctl00$TxtSearch" type="text" id="ctl00_TxtSearch" tabindex="1" class="searchBox" title="サイト内検索　検索する語句を入力してください。" onkeydown="clickButton(&#39;ctl00_BtnSearch&#39;, event||window.event);" placeholder="サイト内検索" /><input type="image" name="ctl00$BtnSearch" id="ctl00_BtnSearch" tabindex="1" class="btnSearch" src="../../dynamic/gikai/common/images/btn_search.png" alt="検索" onclick="return checkValue(&#39;ctl00_TxtSearch&#39;);" style="border-width:0px;" />
+                <div class="clear"></div>
+                
+            </div>
+        
+        <div class="clear"></div>
+        <!-- gikai header menu end -->
+    </div>
+    </div>
+    <div class="clear"></div>
+    
+
+    <!-- グローバルナビゲーション -->
+    
+    <div id="GlobalNavigationBlock" tabindex="1"></div>
+    <div class="Navigation"><ul><li><a href="#mainBlock" tabindex="1">グローバルナビゲーションをスキップ</a></li></ul></div>
+    <!-- gikai global navigation start --><!-- gikai global navigation end --><div id="ctl00_globalNavigationData"></div>
+</div>
+
+<div id="pankuzu_15"><div id="pankuzuArea" data-categoryid="3" data-kijiid="66725" data-subid="20" data-topid="15" data-preview="OFF"></div></div>
+
+<div id="container_15">
+
+<!-- メインアンカー -->
+<div id="mainBlock"></div>
+
+
+
+
+
+
+
+<span id="maincont"></span>
+<div id="cont_body">
+
+    <div class="preview_label"></div>
+    
+<script type="text/javascript" language="javascript">
+<!--
+window.onload = function(){
+
+    
+    
+    
+
+}
+
+function DanrakuKirikae(dspNo, allCnt){
+    if(allCnt>0)
+    {
+        for(var i=1; i <= allCnt; ++i)
+        {
+            if(dspNo == i)
+            {
+                 document.getElementById("danraku" + i).style.display = "block";
+                 document.getElementById("dMenu" + i).className = "selected";
+            }
+            else
+            {
+                 document.getElementById("danraku" + i).style.display = "none";
+                 document.getElementById("dMenu" + i).className = "";
+            }
+       
+        }
+    }
+}
+//-->
+</script>
+
+<div style="margin:0px auto;"></div>
+
+
+
+<article>
+    <div id="mainShosai">
+        
+        
+        
+
+        
+        <div class="BottomArea">
+
+            <table class="containerWidth">
+		        <tr>
+		            <td style="text-align:left;">
+		                <h1 class="title">議員一覧</h1>
+                        
+                        <div id="snsButtonArea"></div>
+                        <div class="kijiSubInfo">
+                                
+                            <div class="updDate">最終更新日：<time datetime="2025-04-01T17:00:00+09:00"  pubdate="pubdate" >2025年4月1日</time></div>
+                            
+                            <div id="kijiKengenArea"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+		                		            
+		                
+    		        
+		                <div class="danraku" id="danraku1" style="display:block;"><div style="text-align:center;"><div style="clear: both;text-align:left;">&nbsp;</div><h3 class="title" style="text-align:left;"><strong>（任期）令和5年4月30日～令和9年4月29日　　（　）は所属会派名　　期数は当選回数　　　令和7年4月1日現在</strong></h3></div><div style="clear: both;text-align:center;">&nbsp;</div><h2 class="title" style="text-align:left;">佐賀市　定数11人</h2><div style="clear: both;"><table class="__wys_table" style="width: 96%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280907_up_m6js0i6b.png" alt="留守茂幸議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280908_up_okvpz1ph.png" alt="武藤明美議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280906_up_i2y4jthr.png" alt="木原奉文議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280909_up_55tosonz.png" alt="徳光清孝議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280910_up_qkd3qi3h.png" alt="藤崎輝樹議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280911_up_y1s4q8i8.png" alt="江口善紀議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;">るす しげゆき</p><p style="text-align: center;"><big>留守 茂幸<br></big>(自由民主党)<br> (9期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;">&nbsp;むとう あけみ</p><p style=" text-align: center;"><big>武藤 明美<br></big>(日本共産党)<br>(8期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">きはら ほうぶん</p><p style=" text-align: center;"><big>木原 奉文<br></big>(自由民主党)<br></p><p style="text-align:center;">(8期)&nbsp;&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">とくみつ きよたか</p><p style=" text-align: center;"><big>徳光 清孝<br></big>(県民ネットワーク)<br>(5期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">ふじさき てるき</p><p style=" text-align: center;"><big>藤崎 輝樹<br></big>(県民ネットワーク)<br>(5期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">えぐち よしのり</p><p style=" text-align: center;"><big>江口 善紀<br></big>(県民ネットワーク)<br>(4期)&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;</p><table class="__wys_table" style="width: 80%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;">&nbsp;<img src="3_66725_280913_up_55wkgsaw.png" alt="古賀陽三議員" title=""></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;">&nbsp;<img src="3_66725_280912_up_bcpyo025.png" alt="中本正一議員" title="">&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;">&nbsp;<img src="3_66725_280914_up_m6i3vebr.png" alt="西久保弘克議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;">&nbsp;<img src="3_66725_280918_up_m2oo1iq6.png" alt="一ノ瀬裕子議員" title="">&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280919_up_jd04o03d.png" alt="青木一功議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">こが ようぞう</p><p style=" text-align: center;"><big>古賀 陽三<br></big>(自由民主党)<br>(4期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">なかもと しょういち</p><p style=" text-align: center;"><big>中本 正一<br></big>(公明党)<br>(3期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">にしくぼ ひろかつ</p><p style=" text-align: center;"><big>西久保 弘克<br></big>(自由民主党)<br>(3期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">いちのせ ゆうこ</p><p style=" text-align: center;"><big>一ノ瀬 裕子<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(2期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">あおき かずのり</p><p style=" text-align: center;"><big>青木 一功<br></big>(自由民主党)<br>(2期)&nbsp;</p></td></tr></tbody></table><div style="clear: both;">&nbsp;</div><div style="clear: both;"><h2 class="title">唐津市・玄海町　定数6人</h2><div style="clear: both;"><table class="__wys_table" style="width: 96%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280920_up_8n1yejxi.png" alt="大場芳博議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280922_up_xmr5q5bq.png" alt="木村雄一議員" title=""><br></p></td><td style="text-align: center; padding: 3px; vertical-align: middle;"><img src="3_66725_280928_up_q1xzd8qn.png" alt="冨田幸樹議員" title=""><br></td><td style="text-align: center; padding: 3px; vertical-align: middle;"><img src="3_66725_280929_up_b6wuyy0r.png" alt="田中秀和議員" title=""><br></td><td style="text-align: center; padding: 3px; vertical-align: middle;">&nbsp;<img src="3_66725_280930_up_hv4q5kwg.png" alt="桃崎祐介議員" title="">&nbsp;</td><td style="text-align: center; padding: 3px; vertical-align: middle;"><img src="3_66725_280969_up_rbjdiaqn.png" alt="酒井幸盛議員" title=""><br></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">おおば よしひろ</p><p style=" text-align: center;"><big>大場 芳博<br></big>(自由民主党)<br>(5期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">きむら ゆういち</p><p style=" text-align: center;"><big>木村 雄一<br></big>(公明党)<br>(3期)&nbsp;</p><big><big><big></big></big></big><p style=" text-align: center;"><big><big><big></big></big></big></p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">とみた こうき</p><p style=" text-align: center;"><big>冨田 幸樹<br></big>(自由民主党)<br>(2期)&nbsp;</p><big><big><big></big></big></big><p style=" text-align: center;"><big><big><big></big></big></big></p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">たなか ひでかず</p><p style=" text-align: center;"><big>田中 秀和<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(2期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">ももざき ゆうすけ</p><p style=" text-align: center;"><big>桃崎 祐介<br></big>(自由民主党)<br>(2期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">さかい ゆきもり</p><p style=" text-align: center;"><big>酒井 幸盛<br></big>(県民ネットワーク)<br>(1期)&nbsp;</p></td></tr></tbody></table></div><div style="clear: both;">&nbsp;</div><h2 class="title">鳥栖市　定数3人</h2><div style="clear: both;"><table class="__wys_table" style="width: 48%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="text-align: center; padding: 3px; vertical-align: middle;"><img src="3_66725_280931_up_oivtlzbb.png" alt="指山清範議員" title=""><br></td><td style="text-align: center; padding: 3px; vertical-align: middle;">&nbsp;<img src="3_66725_280942_up_s0ace7td.png" alt="中村圭一議員" title=""><br></td><td style="text-align: center; padding: 3px; vertical-align: middle;">&nbsp;<img src="3_66725_280943_up_yh16qxgl.png" alt="下田寛議員" title=""><br></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">さしやま きよのり</p><p style=" text-align: center;"><big>指山 清範<br></big>(自由民主党)<br>(5期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;">&nbsp;なかむら けいいち</p><p style=" text-align: center;"><big>中村 圭一<br></big>(自由民主党)<br>(2期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><div style="text-align: center;">&nbsp; しもだ ひろし</div><p style=" text-align: center;"><big>下田 寛<br></big>(県民ネットワーク)<br>(2期)&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;&nbsp;</p><h2 class="title">多久市　定数1人&nbsp;&nbsp;</h2></div><div style="clear: both;"><div style="clear: both;"><div style="clear: both;"><div style="clear: both;"><table class="__wys_table" style="width: 16%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280946_up_0ciqk4p8.png" alt="野田勝人議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">のだ まさと</p><p style=" text-align: center;"><big>野田 勝人<br></big>(県民ネットワーク)<br>(3期)&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;</p><h2 class="title">伊万里市　定数2人</h2><div style="clear: both;"><br><table class="__wys_table"><tbody><tr><td style=" vertical-align: middle;"><p style=" text-align: center;"><img src="3_66725_280947_up_80h0cc61.png" alt="岡口重文議員" title=""><br></p></td><td style=" vertical-align: middle;"><p style=" text-align: center;"><img src="3_66725_280948_up_7ytq6y4a.png" alt="弘川貴紀議員" title=""><br></p></td></tr><tr><td style=" vertical-align: middle;"><p style=" text-align: center;">おかぐち しげふみ</p><p style=" text-align: center;"><big>岡口 重文<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(5期)&nbsp;</p><p></p></td><td style=" vertical-align: middle;"><p style=" text-align: center;">ひろかわ たかのり</p><p style=" text-align: center;"><big>弘川 貴紀<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(2期)&nbsp;</p></td></tr></tbody></table><br></div><h2 class="title">武雄市　定数2人</h2><div style="clear: both;"><table class="__wys_table" style="width: 32%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280970_up_zp84idl6.png" alt="猪村利恵子議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280949_up_ra28ryue.png" alt="石丸太郎議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">いむら りえこ</p><p style=" text-align: center;"><big>猪村 利恵子<br></big>(自由民主党)<br>(1期)&nbsp;</p><p></p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">いしまる たろう</p><p style=" text-align: center;"><big>石丸 太郎<br></big>(自由民主党)<br>(1期)&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;</p><h2 class="title">鹿島市・太良町　定数2人</h2><div style="clear: both;"><table class="__wys_table" style="width: 32%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280950_up_nqkp68z2.png" alt="土井敏行議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280951_up_hjnrisbz.png" alt="坂口祐樹議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">どい としゆき</p><p style=" text-align: center;"><big>土井 敏行<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(6期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">さかぐち ゆうき</p><p style=" text-align: center;"><big>坂口 祐樹<br></big>(自由民主党)<br>(5期)&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;</p><h2 class="title">小城市　定数2人</h2><div style="clear: both;"><table class="__wys_table" style="width: 32%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_322577_up_6jz7sqgj.jpg" alt="藤木卓一郎議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;">&nbsp;<img src="3_66725_280953_up_3nwxxi7d.png" alt="池田正恭議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">ふじき たくいちろう</p><p style=" text-align: center;"><big>藤木 卓一郎<br></big>(自由民主党)<br>(7期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">いけだ まさやす</p><p style=" text-align: center;"><big>池田 正恭<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(3期)&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;</p><h2 class="title">嬉野市　定数1人</h2><div style="clear: both;"><table class="__wys_table" style="width: 16%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280954_up_6ygezq2a.png" alt="石井秀夫議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">いしい ひでお</p><p style=" text-align: center;"><big>石井 秀夫<br></big>(自由民主党)<br>(8期)&nbsp;</p></td></tr></tbody></table></div><div style="clear: both;">&nbsp;</div><h2 class="title">神埼市・吉野ヶ里町　定数2人</h2><div style="clear: both;"><table class="__wys_table" style="width: 32%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280955_up_uehredin.png" alt="八谷克幸議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280956_up_28kmihdb.png" alt="古川裕紀議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">はちや かつゆき</p><p style=" text-align: center;"><big>八谷 克幸<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(4期)&nbsp;</p><big></big><p style=" text-align: center;"><big></big></p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">ふるかわ ひろのり</p><p style=" text-align: center;"><big>古川 裕紀<br></big>(自由民主党)<br>(2期)&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;</p><h2 class="title">三養基郡　定数2人</h2><div style="clear: both;"><table class="__wys_table" style="width: 32%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280958_up_gbpxtwps.png" alt="宮原真一議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280959_up_3udh75gv.png" alt="古賀和浩議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">みやはら しんいち</p><p style=" text-align: center;"><big>宮原 真一<br></big>(自由民主党)<br>(5期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">こが かずひろ</p><p style=" text-align: center;"><big>古賀 和浩<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style="text-align:center;">(2期)&nbsp;&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;&nbsp;</p><h2 class="title">西松浦郡　定数1人</h2><div style="clear: both;"><table class="__wys_table" style="width: 16%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280960_up_n4os5j86.png" alt="原田寿雄議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">はらだ ひさお</p><p style=" text-align: center;"><big>原田 寿雄<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(5期)&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;</p><h2 class="title">杵島郡　定数2人</h2><div style="clear: both;"><div style="clear: both;"><table class="__wys_table" style="width: 32%; border-collapse: collapse;"><caption class="border0"><p>&nbsp;</p></caption><tbody><tr><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280962_up_aasr8ix2.png" alt="石倉秀郷議員" title=""><br></p></td><td style="padding: 3px; vertical-align: middle;"><p style="text-align:center;"><img src="3_66725_280963_up_li4dnul8.png" alt="定松一生議員" title=""><br></p></td></tr><tr><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">いしくら ひでさと</p><p style=" text-align: center;"><big>石倉 秀郷<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style=" text-align: center;">(6期)&nbsp;</p></td><td style="padding: 3px; vertical-align: middle;"><p style=" text-align: center;">さだまつ かずお</p><p style=" text-align: center;"><big>定松 一生<br></big>(自由民主党</p><p style=" text-align: center;">ネクストさが)</p><p style="text-align:center;">(4期)&nbsp;&nbsp;</p></td></tr></tbody></table></div><p>&nbsp;</p></div></div></div></div><div class="clear"></div></div>
+		            </td>
+	            </tr>
+            </table>      
+            
+        </div>
+        <div class="clear"></div>
+    </div>
+</article>
+
+
+
+<div id="weblioLinkJsArea"></div>
+
+
+<div id="toiawaseInfo">
+
+    <div class="toiText"><strong>このページに関する<br />お問い合わせは</strong></div>
+    <div class="toiKugiri"></div>
+    <div class="toiData"></div>
+</div>
+
+
+<div style="text-align:right;font-size:0.7em;margin-top:10px;">
+    （ID:66725）
+</div>
+
+
+
+<div id="footerSoegakiArea"></div>
+
+
+<div id="shosaiBanArea" data-topid="15" data-dspshosai="1" data-preview="OFF"></div>
+
+
+<div id="recommendArea"></div>
+
+
+<div id="browsingHistoryArea"></div>
+
+<div id="accessCountHpKiji"
+    data-categoryid="3"
+    data-kijiid="66725"
+    data-subid="20"
+    data-topid="15"
+    data-preview="OFF"></div>
+
+<script type="text/javascript" language="javascript">
+    jQuery(function () {
+        jQuery.ajax({
+            type: 'POST',
+            cache: false,
+            url: '//www.pref.saga.lg.jp/dynamic/gikai/hpkiji/saverecommend.ashx',
+            data: {
+                "id": 66725,
+                "preview": "OFF"
+            }
+        }).done(function (response) {
+        }).fail(function (response) {
+        });
+    });
+</script>
+
+<script type="text/javascript" src="../../dynamic/gikai/common/js/browsinghistory.js"></script>
+<script type="text/javascript" src="../../dynamic/gikai/common/js/setcontents.js"></script>
+<script type="text/javascript" src="../../dynamic/gikai/common/js/layoutadjustment.js"></script>
+<script type="text/javascript" language="javascript">
+    jQuery(function () {
+        var set = new setContents();
+        set.rootUrl = "https://www.pref.saga.lg.jp/dynamic/gikai/";
+
+        
+        var bannerPrm = {
+            "top_id": jQuery("#shosaiBanArea").attr("data-topid"),
+            "dspShosaiFlg": jQuery("#shosaiBanArea").attr("data-dspshosai"),
+            "preview": jQuery("#shosaiBanArea").attr("data-preview")
+        }
+        set.banner("#shosaiBanArea", bannerPrm);
+
+        
+        var footerSoegakiPrm = {
+            "newWinOpnFlg": "False",
+            "pdfSetsumeiFlg": "ON",
+            "pdfDownloadFlg": "ON"
+        }
+        set.footerSoegaki("#footerSoegakiArea", footerSoegakiPrm);
+
+        
+        jQuery(".toiData").each(function () {
+
+            var toiawasePrm = {
+                "mdl": "85",
+                "c_id": "3",
+                "id": "66725",
+                "sub_id": "20",
+                "top_id": "15",
+                "preview": "OFF"
+            }
+
+            set.toiawase(this, toiawasePrm);
+        });
+
+        
+        var kijiKengenPrm = {
+            "mdl": "85",
+            "grp_id": "1146",
+            "ka_no_disp": "0",
+            "top_id": "15",
+            "preview": "OFF"
+        }
+        set.kijiKengen("#kijiKengenArea", kijiKengenPrm);
+
+        
+        var snsButtonPrm = {
+            "c_id": "3",
+            "id": "66725",
+            "sub_id": "20",
+            "ttl": "",
+            "top_id": "15",
+            "preview": "OFF"
+        }
+        set.snsButton("#snsButtonArea", snsButtonPrm);
+
+        
+        var weblioLinkJsPrm = {
+            "c_id": "3"
+        }
+        set.weblioLinkJs("#weblioLinkJsArea", weblioLinkJsPrm);
+
+        
+        var recommendPrm = {
+            "c_id": "3",
+            "id": "66725",
+            "top_id": "15",
+            "preview": "OFF"
+        }
+        set.recommend("#recommendArea", recommendPrm);
+
+        
+        var pankuzuParam = {
+            "c_id": jQuery("#pankuzuArea").attr("data-categoryid"),
+            "id": jQuery("#pankuzuArea").attr("data-kijiid"),
+            "sub_id": jQuery("#pankuzuArea").attr("data-subid"),
+            "top_id": jQuery("#pankuzuArea").attr("data-topid"),
+            "preview": jQuery("#pankuzuArea").attr("data-preview")
+        }
+        set.pankuzu("#pankuzuArea", "#footerPankuzuArea", pankuzuParam);
+
+        var accessCountPrm = {
+            "c_id": jQuery("#accessCountHpKiji").attr("data-categoryid"),
+            "id": jQuery("#accessCountHpKiji").attr("data-kijiid"),
+            "sub_id": jQuery("#accessCountHpKiji").attr("data-subid"),
+            "top_id": jQuery("#accessCountHpKiji").attr("data-topid"),
+            "preview": jQuery("#accessCountHpKiji").attr("data-preview")
+        }
+        set.accessCountHpKiji(accessCountPrm);
+    });
+
+    
+    jQuery(function(){
+        var fn_bh = new setBrowsingHistory();
+        fn_bh.rootUrl = "https://www.pref.saga.lg.jp/dynamic/gikai/";
+        fn_bh.page_type = "detail";
+        fn_bh.top_id = "15";
+        fn_bh.kiji_id = "66725";
+        fn_bh.preview_type = "OFF";
+        fn_bh.loadBrowsingHistory();
+    });
+</script>
+
+    
+
+
+    
+
+ </div>
+ 
+ 
+
+
+
+
+
+
+
+<div class="indent"></div>
+<div id="pagetop">
+    <a href="#top">ページの先頭へ</a></div>
+
+
+<div id="footerbtnBR" style="display:none;">
+    <img id="ctl00_ImgSpacer2" alt="" src="../../dynamic/gikai/common/images/spacer.gif" style="height:25px;border-width:0px;" />
+    
+</div>
+
+</div>
+
+<div id="footerPankuzu_15">
+    <div id="footerPankuzuArea"></div>
+</div>
+
+
+<span id="ctl00_LblCopyrights"></span>
+
+
+<!--[if lt IE 9]>
+<link href="../../dynamic/gikai/common/css/footer/gikai.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="../../dynamic/gikai/common/css/footer/gikai.css" rel="stylesheet" type="text/css" media="print, screen and (min-width: 481px)" /><link href="../../dynamic/gikai/common/css/footer/gikaiforsp.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" /><div id="footerArea">
+	<!-- gikai site info start -->
+<!-- 問合せ先 -->
+<div id="siteinfo">
+    <div id="toiawase">
+        
+                佐賀県議会事務局&nbsp;&nbsp;
+                〒840-8570&nbsp;
+                佐賀市城内1丁目1-45&nbsp;&nbsp;<br />
+                (総務課)TEL：0952-25-7215&nbsp;&nbsp;(議事課)TEL：0952-25-7216&nbsp;&nbsp;(政務調査課)TEL：0952-25-7306&nbsp;&nbsp;メール(共通)：gikai@pref.saga.lg.jp
+            
+    </div>    
+</div>
+<!-- copyright -->
+<div id="cp">
+    <p>
+        <span lang="en">Copyright© 2016 Saga Prefecture.All Rights Reserved.</span>
+        <img src="../../dynamic/gikai/common/images/gikai/logo_footer.png" alt="佐賀県" title="" lang="ja">
+    </p>
+</div>
+<!-- gikai site info end -->
+</div><div id="footerAreaSP">
+	<!-- gikai site info sp start -->
+<!-- 問合せ先 -->
+<div id="siteinfoSP">
+    <dl>
+        
+                <dt>
+                    <p>佐賀県議会事務局</p>
+                    <div class="clear"></div>
+                </dt>
+                <dd>
+                    佐賀市城内1丁目1-45<br />
+                    (総務課)TEL：<a href="tel:0952257215">0952-25-7215</a><br />
+                    (議事課)TEL：<a href="tel:0952257216">0952-25-7216</a><br />(政務調査課)TEL：<a href="tel:0952257306">0952-25-7306</a><br />メール(共通)：gikai@pref.saga.lg.jp
+                </dd>
+            
+    </dl>
+    <div class="clear"></div>
+</div>
+
+
+<div id="footerBtnSP">
+    
+    <!-- 行政トップページヘ -->
+    <div id="MainTop">
+        <a href="../../default.html" target="_blank">行政トップページヘ<br />（別ウインドウで開きます）</a>
+    </div>
+</div>
+  
+<!-- copyright -->
+<div id="cpSP" lang="en">
+    Copyright© 2016 Saga Prefecture.All Rights Reserved.
+</div>
+<!-- gikai site info sp end -->
+</div>
+
+<input type="hidden" name="fontResize" id="fontResize" value="" />
+
+</form>
+<noscript>本サイトは一部のページ・機能にJavascriptを使用しております。</noscript>
+
+<script type="text/javascript" src="../../dynamic/gikai/common/js/ajaxcalforie6.js"></script>
+<!-- google analytics start -->
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6X8CLXQLYW"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-6X8CLXQLYW');  gtag('config', 'UA-79911862-1');</script>
+<!-- google analytics end -->
+
+
+    <script type="text/javascript" language="javascript">
+        jQuery.noConflict();
+
+        function searchResult(keyword) {
+            jQuery.ajax({
+                type: 'POST',
+                cache: false,
+                url: '//www.pref.saga.lg.jp/dynamic/gikai/common/handler/registersearchkeyword.ashx',
+                data: {
+                    "c_id": "2",
+                    "q": keyword,
+                    "nowurl": location.href
+                }
+            }).done(function (response) {
+                eval(response);
+            });
+        }
+
+        var pankuzu_flg = false;
+        function pankuzu_openclose(kbn) {
+            if (!pankuzu_flg) {
+                jQuery("#pankuzu-more, #footerPankuzu-more").hide();
+                jQuery("#pankuzu-close, #footerPankuzu-close").show();
+                jQuery(".pankuzu-toggle").show();
+                pankuzu_flg = true;
+            }
+            else {
+                jQuery("#pankuzu-more, #footerPankuzu-more").show();
+                jQuery("#pankuzu-close, #footerPankuzu-close").hide();
+                jQuery(".pankuzu-toggle").hide();
+                pankuzu_flg = false;
+            }
+        }
+    </script>
+    
+    <script type="text/javascript" language="javascript">
+        jQuery(function () {
+            var fn = new setCookie();
+            fn.rootUrl = "https://www.pref.saga.lg.jp/dynamic/gikai/";
+            fn.topFlg = "True";
+            fn.topCategoryRootFolder = "gikai";
+            fn.fontSizeCookieName = "FONT_SIZE";
+            fn.colorCookieName = "COLOR";
+            fn.fontSizeIconArr = setFontSizeIconArr();
+            fn.loadFontSize();
+            fn.loadColor();
+        });
+
+        function setFontSizeIconArr() {
+            var fontSizeIconArr = {
+                "標準": { size: "fontSizeN", on: "https://www.pref.saga.lg.jp/dynamic/gikai/common/images/top1/black-mozi-m.gif", off: "https://www.pref.saga.lg.jp/dynamic/gikai/common/images/top1/white-mozi-m.gif" },
+                "拡大": { size: "fontSizeB", on: "https://www.pref.saga.lg.jp/dynamic/gikai/common/images/top1/black-mozi-l.gif", off: "https://www.pref.saga.lg.jp/dynamic/gikai/common/images/top1/white-mozi-l.gif" },
+            };
+
+            return fontSizeIconArr;
+        }
+    </script>
+    
+</body>
+</html>

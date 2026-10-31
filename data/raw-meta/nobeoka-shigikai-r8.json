@@ -1,0 +1,26 @@
+{
+  "sourceId": "nobeoka-shigikai-r8",
+  "files": [
+    {
+      "filename": "nobeoka_1455_20251217.html",
+      "sha256": "9ab094f6306671dc90eb8b76deae85ef5d9cf1628b091fc52542dde361b6e302",
+      "bytes": 35016,
+      "fetchedAt": "2026-10-31T08:34:30.611Z",
+      "fetchedFrom": "https://web.archive.org/web/20251217031201id_/https://www.city.nobeoka.miyazaki.jp/site/gikai/1455.html"
+    },
+    {
+      "filename": "nobeoka_1455_20260410.html",
+      "sha256": "0a826cfa3661b712472e707ce5096be59cf77186e1753f111be85eff776a1be1",
+      "bytes": 35040,
+      "fetchedAt": "2026-10-31T08:34:30.612Z",
+      "fetchedFrom": "https://web.archive.org/web/20260410194413id_/https://www.city.nobeoka.miyazaki.jp/site/gikai/1455.html"
+    },
+    {
+      "filename": "nobeoka_26395.pdf",
+      "sha256": "a3ae499b8f43764efedd75d2c89292ae74dbb7ff4e398ee1882d9608a0734431",
+      "bytes": 159299,
+      "fetchedAt": "2026-10-31T08:34:30.612Z",
+      "fetchedFrom": "https://www.city.nobeoka.miyazaki.jp/uploaded/attachment/26395.pdf"
+    }
+  ]
+}

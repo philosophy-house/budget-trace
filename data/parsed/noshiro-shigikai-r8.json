@@ -1,0 +1,114 @@
+{
+  "docType": "council-composition",
+  "sourceId": "noshiro-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:37.740Z",
+  "fiscalYear": "R8",
+  "body": "能代市議会",
+  "seats": 20,
+  "asOf": "2024-06-10",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "希望",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "安井和則",
+        "武田正廣",
+        "安岡明雄",
+        "菅原隆文",
+        "大髙翔",
+        "今野孝嶺",
+        "鍋谷暁"
+      ],
+      "locator": {
+        "file": "noshiro_1389_20251010222629.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "青松・公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "落合範良",
+        "渡辺優子",
+        "渡邊正人",
+        "阿部誠"
+      ],
+      "locator": {
+        "file": "noshiro_1389_20251010222629.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市民ネットワーク（市民の声、大河の会、能代民政会）",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "藤田克美",
+        "畠貞一郎",
+        "小野立"
+      ],
+      "locator": {
+        "file": "noshiro_1389_20251010222629.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "平政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "後藤健",
+        "針金勝彦",
+        "藤田拓翔"
+      ],
+      "locator": {
+        "file": "noshiro_1389_20251010222629.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "菊地時子",
+        "相場未来子"
+      ],
+      "locator": {
+        "file": "noshiro_1389_20251010222629.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "シリウス",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "安井英章"
+      ],
+      "locator": {
+        "file": "noshiro_1389_20251010222629.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "29",
+    "billName": "令和８年度能代市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "可決",
+    "locator": {
+      "file": "noshiro_dayori80_05.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別名簿（令和６年６月１０日現在）",
+  "resultTitle": "のしろ市議会だより第80号 p.5「３月定例会審議結果一覧」"
+}

@@ -1,0 +1,125 @@
+{
+  "docType": "council-composition",
+  "sourceId": "mitoyo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:31.821Z",
+  "fiscalYear": "R8",
+  "body": "三豊市議会",
+  "seats": 20,
+  "asOf": "2026-02-12",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "七宝の風",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "城中利文",
+        "市川洋介",
+        "瀧本哲史",
+        "眞鍋範子",
+        "石井勢三",
+        "田中達也",
+        "香川貴志"
+      ],
+      "locator": {
+        "file": "mitoyo_7274.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "清風会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "詫間政司",
+        "高木修",
+        "浜口恭行"
+      ],
+      "locator": {
+        "file": "mitoyo_7274.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "三豊新政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "丸戸研二",
+        "大平国明",
+        "篠原一馬"
+      ],
+      "locator": {
+        "file": "mitoyo_7274.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "込山文𠮷",
+        "水本真奈美"
+      ],
+      "locator": {
+        "file": "mitoyo_7274.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "国民民主みとよ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "近藤武",
+        "井出喜久美"
+      ],
+      "locator": {
+        "file": "mitoyo_7274.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "立憲（CDP）",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "伊藤幸洋",
+        "青井和樹"
+      ],
+      "locator": {
+        "file": "mitoyo_7274.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無所属（湯口新）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "湯口新"
+      ],
+      "locator": {
+        "file": "mitoyo_7274.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第17号",
+    "billName": "令和８年度三豊市一般会計予算",
+    "sessionLabel": "令和８年第１回三豊市議会定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決",
+    "locator": {
+      "file": "mitoyo_81giankekkahp.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "三豊市議会議員 会派別名簿（令和8年2月12日現在）",
+  "resultTitle": "令和８年第１回三豊市議会定例会 議決結果"
+}

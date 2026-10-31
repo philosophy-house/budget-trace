@@ -1,0 +1,40 @@
+{
+  "sourceId": "yurihonjo-shigikai-r8",
+  "files": [
+    {
+      "filename": "yurihonjo_1002488_20260209233217.html",
+      "sha256": "7267a7c8dac105a7c431d5930da4d3a41eea268770f5bce976c1919a8c935a63",
+      "bytes": 26772,
+      "fetchedAt": "2026-10-31T08:34:30.624Z",
+      "fetchedFrom": "https://web.archive.org/web/20260209233217id_/https://www.city.yurihonjo.lg.jp/1001571/1001641/1002488.html"
+    },
+    {
+      "filename": "yurihonjo_1002489.html",
+      "sha256": "94bce19585c09bbf555ea782af63a68554aed8e85d8e1405c076ebacee255031",
+      "bytes": 31938,
+      "fetchedAt": "2026-10-31T08:34:30.624Z",
+      "fetchedFrom": "https://www.city.yurihonjo.lg.jp/1001571/1001641/1002489.html"
+    },
+    {
+      "filename": "yurihonjo_1001762.html",
+      "sha256": "bb4f5a7fcd4f12028213440feae0816afc3e5370087bc68e0b8ad8e18529acce",
+      "bytes": 24542,
+      "fetchedAt": "2026-10-31T08:34:30.625Z",
+      "fetchedFrom": "https://www.city.yurihonjo.lg.jp/1001571/1001641/1001762/index.html"
+    },
+    {
+      "filename": "yurihonjo_1012928_004.pdf",
+      "sha256": "bd23f6ce0934031e90e8f9399470d5240300af400e916df716742c1533fc6ccd",
+      "bytes": 98409,
+      "fetchedAt": "2026-10-31T08:34:30.625Z",
+      "fetchedFrom": "https://www.city.yurihonjo.lg.jp/_res/projects/default_project/_page_/001/012/928/1012928_004.pdf"
+    },
+    {
+      "filename": "yurihonjo_1012928.html",
+      "sha256": "f12ef01600f0158d72e910c95baef09d3228af2eee2f6f82e97913f3316c525d",
+      "bytes": 26326,
+      "fetchedAt": "2026-10-31T08:34:30.625Z",
+      "fetchedFrom": "https://www.city.yurihonjo.lg.jp/1001571/1001644/1012928.html"
+    }
+  ]
+}

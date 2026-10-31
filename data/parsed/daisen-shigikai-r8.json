@@ -1,0 +1,140 @@
+{
+  "docType": "council-composition",
+  "sourceId": "daisen-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:38.764Z",
+  "fiscalYear": "R8",
+  "body": "大仙市議会",
+  "seats": 24,
+  "asOf": "2025-10-23",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "だいせんの会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "髙橋徳久",
+        "佐藤芳雄",
+        "高橋敏英",
+        "高橋智也",
+        "古谷武美",
+        "橋村誠",
+        "石塚柏"
+      ],
+      "locator": {
+        "file": "daisen_kaiha_r071023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "たすきの会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "山谷喜元",
+        "橋本琢史",
+        "門脇智宏",
+        "後藤健",
+        "青柳友哉",
+        "佐藤隆康"
+      ],
+      "locator": {
+        "file": "daisen_kaiha_r071023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小笠原昌作"
+      ],
+      "locator": {
+        "file": "daisen_kaiha_r071023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "けやきの会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "佐藤育男",
+        "大山利吉",
+        "安達成年",
+        "佐藤芳則",
+        "本間輝男"
+      ],
+      "locator": {
+        "file": "daisen_kaiha_r071023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "秩父博樹",
+        "挽野利恵"
+      ],
+      "locator": {
+        "file": "daisen_kaiha_r071023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "佐藤文子"
+      ],
+      "locator": {
+        "file": "daisen_kaiha_r071023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "菊地伸"
+      ],
+      "locator": {
+        "file": "daisen_kaiha_r071023.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小須田逸子"
+      ],
+      "locator": {
+        "file": "daisen_kaiha_r071023.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第35号",
+    "billName": "令和８年度大仙市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "daisen_giketsu_r08.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "大仙市議会会派別名簿（令和７年１０月２３日現在）",
+  "resultTitle": "Ｒ８議決結果一覧（議案）"
+}

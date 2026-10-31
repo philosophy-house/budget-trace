@@ -1,0 +1,33 @@
+{
+  "sourceId": "marugame-shigikai-r8",
+  "files": [
+    {
+      "filename": "26552.pdf",
+      "sha256": "0d5a2f9221fe19201c4dee4735bb50590e6c0f957f0f55013e6588bd6593118f",
+      "bytes": 10564692,
+      "fetchedAt": "2026-10-31T08:34:30.569Z",
+      "fetchedFrom": "https://www.city.marugame.lg.jp/uploaded/attachment/26552.pdf"
+    },
+    {
+      "filename": "26049.pdf",
+      "sha256": "abbcce4d4f7beef84e0de55e856caf09693744e8d281a5e20116c66d5cb4c5fc",
+      "bytes": 141045,
+      "fetchedAt": "2026-10-31T08:34:30.571Z",
+      "fetchedFrom": "https://www.city.marugame.lg.jp/uploaded/attachment/26049.pdf"
+    },
+    {
+      "filename": "1333.html",
+      "sha256": "feb5574b740544bf986c87bd8b418d23d93bd101347c570deb153e7599621fd9",
+      "bytes": 51472,
+      "fetchedAt": "2026-10-31T08:34:30.572Z",
+      "fetchedFrom": "https://www.city.marugame.lg.jp/site/gikai/1333.html"
+    },
+    {
+      "filename": "26529.pdf",
+      "sha256": "9bff90eee50741d95c94f16f184943f8a07a94e1b9b0b05707d962370a3f19f3",
+      "bytes": 52597,
+      "fetchedAt": "2026-10-31T08:34:30.572Z",
+      "fetchedFrom": "https://www.city.marugame.lg.jp/uploaded/attachment/26529.pdf"
+    }
+  ]
+}

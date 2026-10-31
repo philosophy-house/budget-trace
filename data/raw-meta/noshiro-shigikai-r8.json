@@ -1,0 +1,42 @@
+{
+  "sourceId": "noshiro-shigikai-r8",
+  "files": [
+    {
+      "filename": "noshiro_1389_20251010222629.html",
+      "sha256": "57b65cdc45558b2274df0699748983e8e8456e2ba74614aa2729eb3fb19848f8",
+      "bytes": 26780,
+      "fetchedAt": "2026-10-31T08:34:30.622Z",
+      "fetchedFrom": "https://web.archive.org/web/20251010222629id_/https://www.city.noshiro.lg.jp/city/gikai/meibo/1389",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "noshiro_1601_20260208052444.html",
+      "sha256": "54e9bdf97653e5805d62767c16e14d78bbcc74f8e2e9d9c18b0d481bb5982b73",
+      "bytes": 27957,
+      "fetchedAt": "2026-10-31T08:34:30.622Z",
+      "fetchedFrom": "https://web.archive.org/web/20260208052444id_/https://www.city.noshiro.lg.jp/city/gikai/about/1601",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "noshiro_26680.html",
+      "sha256": "ee72d01360503a1505d50a1411262b7f39d638d0dac84cb4a74de900719b056a",
+      "bytes": 57760,
+      "fetchedAt": "2026-10-31T08:34:30.623Z",
+      "fetchedFrom": "https://www.city.noshiro.lg.jp/city/gikai/kaigi/back/r07/26680",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "noshiro_dayori80_05.pdf",
+      "sha256": "a55fd2967afd4eede3b888abddbe87cf0cc65e5bd1653656a261a57d347fa7ac",
+      "bytes": 558502,
+      "fetchedAt": "2026-10-31T08:34:30.624Z",
+      "fetchedFrom": "https://www.city.noshiro.lg.jp/up/files/www/city/gikai/dayori/R08/R0804/05.pdf"
+    }
+  ]
+}

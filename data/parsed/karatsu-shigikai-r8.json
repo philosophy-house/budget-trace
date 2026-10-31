@@ -1,0 +1,143 @@
+{
+  "docType": "council-composition",
+  "sourceId": "karatsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:35.130Z",
+  "fiscalYear": "R8",
+  "body": "唐津市議会",
+  "seats": 28,
+  "asOf": "2025-02-17",
+  "teisu": 28,
+  "factions": [
+    {
+      "name": "新生会",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "伊藤泰彦",
+        "楢崎三千夫",
+        "江里孝男",
+        "吉村慎一郎",
+        "山下壽次",
+        "岡部高広",
+        "古賀博文",
+        "大河内正弘",
+        "高倉寛和",
+        "野田宗作"
+      ],
+      "locator": {
+        "file": "4064.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "志政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "古藤宏治",
+        "大西康之",
+        "久保美樹",
+        "宮原辰海",
+        "中山亘"
+      ],
+      "locator": {
+        "file": "4064.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "新風唐津",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "青木茂",
+        "松本増浩",
+        "古田リバー",
+        "甲斐田晴子",
+        "井手清和"
+      ],
+      "locator": {
+        "file": "4064.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "宮本悦子",
+        "水竹道夫",
+        "筒井紀充"
+      ],
+      "locator": {
+        "file": "4064.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "唐誠会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "片峰和也",
+        "山浦学"
+      ],
+      "locator": {
+        "file": "4064.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "市民リベラル",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "伊藤一之"
+      ],
+      "locator": {
+        "file": "4064.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "黒木初"
+      ],
+      "locator": {
+        "file": "4064.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "唐津市民党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "田中路子"
+      ],
+      "locator": {
+        "file": "4064.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第3号",
+    "billName": "令和8年度唐津市一般会計予算",
+    "sessionLabel": "令和8年第2回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "44880.html"
+    }
+  },
+  "rosterTitle": "唐津市議会 会派（更新日 2025年2月17日）",
+  "resultTitle": "議決結果（令和8年第2回定例会）"
+}

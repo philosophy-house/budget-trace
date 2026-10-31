@@ -1,0 +1,26 @@
+{
+  "sourceId": "karatsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "4064.html",
+      "sha256": "717c2f3dcbd51c925390a03c166b0b27df67dffa8af412ec393a669468bd2682",
+      "bytes": 31680,
+      "fetchedAt": "2026-10-31T08:34:30.602Z",
+      "fetchedFrom": "https://www.city.karatsu.lg.jp/site/shigikai/4064.html"
+    },
+    {
+      "filename": "44880.html",
+      "sha256": "036efbed3d45fab18ca39084d4b005f0466209cafb083a43c10b17b2506569b7",
+      "bytes": 78450,
+      "fetchedAt": "2026-10-31T08:34:30.602Z",
+      "fetchedFrom": "https://www.city.karatsu.lg.jp/site/shigikai/44880.html"
+    },
+    {
+      "filename": "16325.pdf",
+      "sha256": "b3818632ca2a4cae5f4a5ffbcc7c52fac1c89004b4774c0f41cfcd8d730bd4de",
+      "bytes": 2302632,
+      "fetchedAt": "2026-10-31T08:34:30.604Z",
+      "fetchedFrom": "https://www.city.karatsu.lg.jp/uploaded/attachment/16325.pdf"
+    }
+  ]
+}

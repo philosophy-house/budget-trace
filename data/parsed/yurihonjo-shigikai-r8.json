@@ -1,0 +1,115 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yurihonjo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:37.922Z",
+  "fiscalYear": "R8",
+  "body": "由利本荘市議会",
+  "seats": 22,
+  "asOf": "2026-01-01",
+  "factions": [
+    {
+      "name": "高志会",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "高橋信雄",
+        "伊藤順男",
+        "堀井新太郎",
+        "小田彩",
+        "佐藤義之",
+        "甫仮貴子",
+        "長沼久利",
+        "佐藤健司",
+        "大友ます子",
+        "佐々木司"
+      ],
+      "locator": {
+        "file": "yurihonjo_1002488_20260209233217.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "明日をひらく",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "正木修一",
+        "泉谷赳馬",
+        "新宅慈",
+        "渡部聖一",
+        "小松浩一"
+      ],
+      "locator": {
+        "file": "yurihonjo_1002488_20260209233217.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岡見善人",
+        "粟野希穂"
+      ],
+      "locator": {
+        "file": "yurihonjo_1002488_20260209233217.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民の窓口",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大友孝徳",
+        "松本学"
+      ],
+      "locator": {
+        "file": "yurihonjo_1002488_20260209233217.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "佐藤正人"
+      ],
+      "locator": {
+        "file": "yurihonjo_1002488_20260209233217.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "橋島達也",
+        "小川光弘"
+      ],
+      "locator": {
+        "file": "yurihonjo_1002488_20260209233217.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案 64",
+    "billName": "令和８年度由利本荘市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会（３月）",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "yurihonjo_1012928_004.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "会派別名簿（令和8年1月1日現在）",
+  "resultTitle": "議決一覧（令和８年第１回定例会（３月）・令和８年３月１８日）"
+}
