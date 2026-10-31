@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.20";
+export const PARSER_VERSION = "0.8.21";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -345,6 +345,10 @@ export type CouncilTranscribedOptions = z.infer<typeof optionsSchema>;
 // ⻆（U+2EC6・CJK 部首補助）は NFKC で「角」に寄らない（鹿児島県議会だより第83号の「⻆野毅」・0.8.18）
 const VARIANTS: Record<string, string> = { 髙: "高", 﨑: "崎", 𠮷: "吉", 葊: "廣", 濵: "濱", 德: "徳", 栁: "柳", 惠: "恵", 伹: "但", "⻆": "角" };
 export function norm(s: string): string {
+  return normKeepSpace(s).replace(/ /g, "");
+}
+/** norm と同じ正規化で、空白だけを1つの半角空白に詰めて残す（凡例の記号の前後を原典の区切りつきで読むため・0.8.21） */
+export function normKeepSpace(s: string): string {
   return (
     s
       .normalize("NFKC")
@@ -358,7 +362,7 @@ export function norm(s: string): string {
       // 「◯」(U+25EF・大和の凡例) も同じ丸。ダッシュ類（―‐−—–－・NFKC 後の -）も凡例と表で字が違う（伊勢原: 凡例「－」・表「―」）ので
       // 1つの字に寄せる（長音「ー」は寄せない＝氏名・会派名に出る）
       .replace(/[\u2015\u2010\u2212\u2014\u2013\uFF0D-]/g, "\u2015")
-      .replace(/[\s　]+/g, "")
+      .replace(/[\s　]+/g, " ")
   );
 }
 
@@ -456,18 +460,19 @@ function bboxHeaderError(path: string, anchorN: string, keys: string[], sym: str
  * 原典の読み。`views` は抽出モードごと×ページごとの正規化済み本文（区間・近接の判定はモードをまたがない）。
  * PDF は -layout と -raw の両方（組版でどちらかが崩れるため）、HTML は1つ。
  */
-export function readDoc(f: { path: string; filename: string }): { views: { page: number; text: string }[]; pages: number } {
+export function readDoc(f: { path: string; filename: string }): { views: { page: number; text: string; spaced?: string }[]; pages: number } {
   if (isPdf(f)) {
-    const views: { page: number; text: string }[] = [];
+    const views: { page: number; text: string; spaced?: string }[] = [];
     let pages = 0;
     for (const mode of ["-layout", "-raw"]) {
       const ps = pdftotext(f.path, [mode]).split("\f");
       pages = Math.max(pages, ps.length);
-      ps.forEach((p, i) => views.push({ page: i + 1, text: norm(p) }));
+      ps.forEach((p, i) => views.push({ page: i + 1, text: norm(p), spaced: normKeepSpace(p) }));
     }
     return { views, pages };
   }
-  return { views: [{ page: 1, text: norm(htmlText(readHtml(f.path))) }], pages: 1 };
+  const h = htmlText(readHtml(f.path));
+  return { views: [{ page: 1, text: norm(h), spaced: normKeepSpace(h) }], pages: 1 };
 }
 
 /** HTML を読む。魚拓（id_）は gzip の本文をそのまま返すことがある（広島・横浜で実測）ので展開する */
@@ -563,8 +568,8 @@ const STANCE_WORDS: Record<string, string[]> = {
  * 凡例の照合用の正規化: 記号を含まない括弧の中の補足（「欠席（退席）」「賛成【可決・…】」）を落とし、字形の違う記号
  * （✕×・―－-）をそろえる。凡例全体を包む括弧（倉敷「（○：賛成、×：反対…）」）は記号を含むので残す
  */
-function legendNorm(t: string, keys: string[]): string {
-  let x = norm(t).replace(/[「」『』"]/g, "").replace(/[✕✖╳]/g, "×").replace(/[―‐−—–-]/g, "－");
+function legendNorm(t: string, keys: string[], keepSpace = false): string {
+  let x = (keepSpace ? normKeepSpace(t) : norm(t)).replace(/[「」『』"]/g, "").replace(/[✕✖╳]/g, "×").replace(/[―‐−—–-]/g, "－");
   const kn = keys.map((k) => norm(k).replace(/[✕✖╳]/g, "×").replace(/[―‐−—–-]/g, "－"));
   for (let prev = ""; prev !== x; ) {
     prev = x;
@@ -572,29 +577,82 @@ function legendNorm(t: string, keys: string[]): string {
   }
   return x.replace(/[\u0001\u0002]/g, "");
 }
+/** 凡例の原文 legendText の、原典の中での出現。pre・post は原典の前後の字（normKeepSpace 済み＝空白を1つ残す） */
+type LegendCtx = { pre: string; mid: string; post: string; lt: string };
 /**
  * 凡例の原文の中で、記号 k が意味 v を指すか。記号の直後が「：＝…・は→」なら後ろの語（10字以内の最初の意味の語）、
  * 直前が「＝は」なら前の語（「者」を飛ばして10字以内の最後の意味の語）、どちらでもなければ近い方の語（12字以内）を読む。
- * 原文に k が何度出ても、1か所でも v を指せばよい
+ * 原文に k が何度出ても、1か所でも v を指せばよい。
+ *
+ * 0.8.21: 記号として読むのは legendText の中の出現だけだが、**記号の後ろと、区切りに続く前の語は原典の中の実際の字で読む**。
+ * legendText の検査は原典の部分文字列であることだけなので、切れ端は自由に選べる。切れ目で語が終わるとみなすと、記号の直後や
+ * 意味の語の途中で切った切れ端（中津「棄権－、欠」＝原典は「…棄権－、欠席は欠で…」・亀山「賛は賛成反」＝原典は「賛は賛成 反は反対」・
+ * 大分県「不在、「議」：議」）を足すだけで、記号が前の項の意味を指し、書き換えが通った（レビュー1〜3巡目。亀山は反対4人が賛成になった）。
+ * 原典は空白を1つ残して読む — 空白を詰めると、凡例の末尾の記号の直後に表の字が続く（赤穂「…欠席：欠 議案…」）。
+ * 近い方の語の前の側だけは legendText の中で読む（原典の前の項の語「○印は賛成 ×印は反対」の「賛成」を×に結び付けない＝伊豆の国）
  */
-function legendPairOk(texts: string[], k: string, v: string, keys: string[]): boolean {
+function legendPairOk(texts: LegendCtx[], k: string, v: string, keys: string[]): boolean {
   const own = STANCE_WORDS[v] ?? [v];
   const all = Object.values(STANCE_WORDS).flat().sort((a, b) => b.length - a.length);
   const kn = legendNorm(k, []);
   const firstIn = (str: string) => all.map((w) => ({ w, d: str.indexOf(w) })).filter((x) => x.d >= 0).sort((a, b) => a.d - b.d || b.w.length - a.w.length)[0];
   const lastIn = (str: string) => all.map((w) => ({ w, d: str.lastIndexOf(w) >= 0 ? str.length - (str.lastIndexOf(w) + w.length) : -1 })).filter((x) => x.d >= 0).sort((a, b) => a.d - b.d || b.w.length - a.w.length)[0];
-  for (const t of texts.map((x) => legendNorm(x, keys))) {
-    for (let i = t.indexOf(kn); i >= 0; i = t.indexOf(kn, i + 1)) {
+  // 漢字の記号（「欠」「議」）は、凡例の別の語の頭（「欠席」「議場」）の出現を記号として読まない（中津「欠：棄権」・大分県「議：不参加」＝0.8.21・
+  // 長崎〜大分の巡の作業者が実測）。記号が続けて2度出る「議 議長」（三鷹）は前の方を記号として読む
+  const hanKey = /^\p{Script=Han}+$/u.test(kn);
+  const allKeys = keys.map((x) => legendNorm(x, [])).filter((x) => x.length > 0);
+  // 語と記号の間に、項の区切り（、。）と記号だけ、または別の記号（同じ記号の別の出現を含む）を挟む語は、前（後）の項の意味なので読まない。
+  // 文の凡例（「議長は採決に加わらないため、「採決に加わらず」」旭川・「※戎脇浩議員は、議長のため…」甲賀）は間に字を挟むので読む。
+  // 漢字の記号が語の一部（「議場」の「議」）として出るのは記号に数えない
+  const keyIn = (between: string) =>
+    allKeys.some((o) => {
+      for (let j = between.indexOf(o); j >= 0; j = between.indexOf(o, j + 1)) {
+        if (!(/^\p{Script=Han}+$/u.test(o) && /^\p{Script=Han}/u.test(between.slice(j + o.length)))) return true;
+      }
+      return false;
+    });
+  const crosses = (between: string) => (/[、，,。]/.test(between) && !/[\p{L}\p{N}]/u.test(between.replace(/[、，,。 ]/g, ""))) || keyIn(between);
+  const SEP = "[:：;；＝=…・.は→⇒]";
+  for (const c of texts) {
+    // 1字ずつ空白で区切られた原典（縦書きのセルの「議 長 の た め 採 決 に…」栃木市）では空白に区切りの意味が無いので詰めて読む
+    const chars = c.mid.replace(/ /g, "").length;
+    const keep = !(chars >= 4 && (c.mid.match(/ /g) ?? []).length >= (chars - 1) * 0.8);
+    // 正規化は前後をつないだ文字列に1回だけ掛けてから切り分ける（別々に掛けると、括弧「【×】」が mid の末尾「【×」と post の頭「】」に
+    // 割れて外れず、post の頭の「】」で記号の後ろの区切りが読めなかった＝瀬戸・レビュー5巡目）
+    const [P = "", M = "", S = ""] = legendNorm(`${c.pre}\uE000${c.mid}\uE001${c.post}`, keys, keep).split(/[\uE000\uE001]/);
+    const t = P + M + S;
+    for (let i = t.indexOf(kn, P.length); i >= 0 && i + kn.length <= P.length + M.length; i = t.indexOf(kn, i + 1)) {
       const after = t.slice(i + kn.length);
       const before = t.slice(0, i);
-      const fwd = /^[:：＝=…・.は→⇒]+/.exec(after);
+      if (hanKey && /^\p{Script=Han}/u.test(after) && !after.startsWith(kn)) {
+        // 例外は議長の注記だけ: 栃木市は議長の列のセルが「議長のため採決に加わらない」で、記号はその頭の「議」。意味の語の頭なら
+        // 何でも読むと「欠：欠席」が、原文で欠が退席の記号でも「欠席」の語さえあれば通った（レビュー1巡目）
+        if (v === "議長" && /^議長(のため|は)?(採決|表決|裁決|議決)に加わら/.test(t.slice(i).replace(/ /g, ""))) return true;
+        continue;
+      }
+      const fwd = new RegExp(`^ ?${SEP}+ ?`).exec(after);
       let word: string | undefined;
-      if (fwd) word = firstIn(after.slice(fwd[0].length, fwd[0].length + 10))?.w;
-      // 語が先に来る書き方（「賛成＝○」「賛成者は○」「賛成・・・○」新宿）は前の語
-      else if (/[＝=は・….:：]$/.test(before)) word = lastIn(before.replace(/[＝=は・….:：]+$/, "").replace(/者$/, "").slice(-10))?.w;
-      else {
-        const f = firstIn(after.slice(0, 12));
-        const b = lastIn(before.slice(-12));
+      if (fwd) {
+        const w = firstIn(after.slice(fwd[0].length, fwd[0].length + 10));
+        if (w && !crosses(after.slice(fwd[0].length, fwd[0].length + w.d))) word = w.w;
+      }
+      // 語が先に来る書き方（「賛成＝○」「賛成者は○」「賛成・・・○」新宿）は前の語。前に語が無ければ（原典の「凡例:」の直後の
+      // 「「○」賛成」＝奈良県）近い方の語を読む
+      let tried = false;
+      if (!fwd && new RegExp(`${SEP} ?$`).test(before)) {
+        const head = before.replace(new RegExp(`(${SEP}| )+$`), "").replace(/者$/, "").slice(-10);
+        const w = lastIn(head);
+        if (w) {
+          tried = true;
+          if (!crosses(head.slice(head.length - w.d))) word = w.w;
+        }
+      }
+      if (!fwd && !tried) {
+        const beforeMid = M.slice(0, i - P.length);
+        let f: { w: string; d: number } | undefined = firstIn(after.slice(0, 12));
+        let b: { w: string; d: number } | undefined = lastIn(beforeMid.slice(-12));
+        if (f && crosses(after.slice(0, f.d))) f = undefined;
+        if (b && crosses(beforeMid.slice(beforeMid.length - b.d))) b = undefined;
         word = !f ? b?.w : !b ? f.w : f.d <= b.d ? f.w : b.w;
       }
       if (word && own.includes(word)) return true;
@@ -738,6 +796,8 @@ export interface VotesCtx {
   missing: string[];
   /** 議決の件名と議案番号（照合済みのもの）。単一の採決の anchor をこれに結び付ける（0.8.8） */
   bill: { billNo: string; billName: string };
+  /** 議決の結果の語（「原案可決」など）。可決の採決で賛成が過半であることの検査に使う（0.8.21） */
+  result?: string;
 }
 /** 1回の採決の賛否を原典と突き合わせる（votes・votesParts の各要素・kofu-gikai で共通） */
 export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
@@ -899,10 +959,33 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
     if (!has(vdoc.views, lt)) missing.push(`${vf.filename}: 凡例の原文「${lt}」が見つかりません`);
   }
   // 記号と意味の組が凡例の原文と合うこと（0.8.0）。原文が原典にあるだけでは、legend の「○＝反対・×＝賛成」の入れ替えが通った
+  // legendText の原典の中での出現ごとに、前後の原典の字（空白を1つ残したもの）を添える（0.8.21・legendPairOk）
+  const legendCtxs: LegendCtx[] = [];
+  for (const lt of vo.legendText == null ? [] : [vo.legendText].flat()) {
+    const ln = norm(lt);
+    for (const view of vdoc.views) {
+      const sp = view.spaced;
+      if (sp == null || ln.length === 0) continue;
+      const at: number[] = []; // 空白を詰めた字の位置 → sp の位置
+      for (let j = 0; j < sp.length; j++) if (sp[j] !== " ") at.push(j);
+      const compact = at.map((j) => sp[j]).join("");
+      for (let p = compact.indexOf(ln); p >= 0; p = compact.indexOf(ln, p + 1)) {
+        const s0 = at[p]!;
+        const s1 = at[p + ln.length - 1]! + 1;
+        legendCtxs.push({ pre: sp.slice(Math.max(0, s0 - 16), s0), mid: sp.slice(s0, s1), post: sp.slice(s1, s1 + 16), lt });
+      }
+    }
+  }
   if (vo.legendText != null) {
     for (const [k, v] of Object.entries(vo.legend)) {
       if (norm(k).includes(v)) continue; // 記号そのものが意味の語（「賛成」の列に「賛成」）
-      if (!legendPairOk([vo.legendText].flat(), k, v, Object.keys(vo.legend)))
+      // 記号とその意味の語を同じ legendText の要素に含めること（記号1字の legendText で原典の中の任意の位置を選べた＝長浜「欠」→「欠：賛成」・レビュー4巡目）
+      // 読むのは、記号とその意味の語を両方含む legendText の要素だけ（記号1字の要素「欠」を足すと原典の中の任意の位置を選べ、
+      // 表の記号の行の「欠 多数 賛成」で「欠：賛成」が通った＝長浜・印西・0.8.21 のレビュー4巡目）
+      const keysAll = Object.keys(vo.legend);
+      const kN = legendNorm(k, keysAll);
+      const withBoth = (lt: string) => { const ltN = legendNorm(lt, keysAll); return ltN.includes(kN) && (STANCE_WORDS[v] ?? [v]).some((w) => ltN.includes(w)); };
+      if (!legendPairOk(legendCtxs.filter((c) => withBoth(c.lt)), k, v, keysAll))
         missing.push(`凡例「${k}：${v}」が凡例の原文（legendText）で確かめられません（記号の指す語が「${v}」でない）`);
     }
   }
@@ -944,6 +1027,8 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
     if (!ucols.some((c) => c.stance === "議長") && !vo.noChairReason) missing.push(`全会一致の行でも議長は blank で外す（無理なら noChairReason）`);
     for (const f of factions) ucols.push({ label: f.name, faction: f.name, stance: "賛成" });
     // 原典の印字は「全会一致」だけで、賛成の数は議席から出した数。画面でそれと分かるよう原文を持たせる
+    const uchairs = ucols.filter((c) => c.stance === "議長").length;
+    if (uchairs > 1) missing.push(`議長の列が ${uchairs} つあります（1回の採決で議長は1人）`);
     return { basis: "faction", sourceTitle: vo.title, sourceFile: vf.filename, columns: ucols, unanimousText: vo.unanimousText };
   }
   if (!vo.symbols) throw new Error(`${sourceId}: votes には symbols（または unanimousText）が要ります`);
@@ -1235,6 +1320,10 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
     const seen = new Set(memberCols);
     const lacking = [...memberFaction.keys()].filter((m) => !seen.has(m));
     if (lacking.length) missing.push(`賛否の列に名簿の議員がいません: ${lacking.slice(0, 5).join("・")}`);
+    // 議員ごとの表でも議長の列を求める（凡例の切れ端で議長を「不参加」「欠席」に書き換えても通った＝山梨県・熊本県・佐倉・0.8.21 のレビュー4巡目）
+    if (!cols.some((c) => c.stance === "議長") && !vo.noChairReason) {
+      missing.push(`議員ごとの表に議長の列がありません — 議長の記号・blank で示すか、無い理由を noChairReason に`);
+    }
   } else {
     const covered = new Set(cols.map((c) => c.faction));
     const lacking = factions.filter((f) => !covered.has(f.name)).map((f) => f.name);
@@ -1252,6 +1341,12 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
   }
   const countOf = (c: VoteCol) =>
     c.member ? 1 : (factions.find((f) => f.name === c.faction)?.seats ?? 0) - cols.filter((o) => o.faction === c.faction && o.member).length;
+  // 可決の採決では賛成が反対（と賛成でない）より多いこと（凡例の切れ端で賛成37を反対37にしても「可決」のまま通った＝江東・0.8.21 のレビュー4巡目）。
+  // 修正可決の採決ごと（votesParts）は部分ごとに可否が違うので見ない
+  if ((vo as { part?: string }).part == null && ctx.result && /可決/.test(norm(ctx.result)) && !/否決/.test(norm(ctx.result))) {
+    const sum = (st: string) => cols.filter((c) => c.stance === st).reduce((a, c) => a + countOf(c), 0);
+    if (sum("賛成") <= sum("反対") + sum("賛成でない")) missing.push(`結果は「${ctx.result}」なのに、記号から数えた賛成 ${sum("賛成")} が反対 ${sum("反対") + sum("賛成でない")} を上回りません`);
+  }
   if (vo.tally) {
     if (!has(vdoc.views, vo.tally.text)) missing.push(`${vf.filename}: 賛否の数の原文「${vo.tally.text}」が見つかりません`);
     // counts の数は原文の印字に出ること（原文だけ別の行の「16：5」に替えても counts 17・4 のまま通った＝喜多方の改ざんテスト・0.8.19）。
@@ -1265,6 +1360,9 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
       if (got !== n) missing.push(`賛否の数: ${st} は記号から ${got}、原典の印字は ${n}`);
     }
   }
+  // 議長の列は1つまで（凡例の書き換えで欠席の議員を「議長」にしても通り、議長が2人になった＝山梨県・0.8.21 のレビュー2巡目）
+  const chairs = cols.filter((c) => c.stance === "議長").length;
+  if (chairs > 1) missing.push(`議長の列が ${chairs} つあります（1回の採決で議長は1人）`);
   return { basis: vo.basis, sourceTitle: vo.title, sourceFile: vf.filename, columns: cols };
 }
 
@@ -1895,7 +1993,7 @@ export function parseCouncilTranscribed(
   let votesOut: VotesOut | undefined;
   let partsOut: (VotesOut & { part: string })[] | undefined;
   if (opt.votes && opt.votesParts) throw new Error(`${source.id}: votes と votesParts は同時に使わない`);
-  const vctx: VotesCtx = { sourceId: source.id, factionsOpt: opt.factions, factions, rosterViews: roster.views, fileFor, missing, bill: { billNo: r.billNo, billName: r.billName } };
+  const vctx: VotesCtx = { sourceId: source.id, factionsOpt: opt.factions, factions, rosterViews: roster.views, fileFor, missing, bill: { billNo: r.billNo, billName: r.billName }, result: r.result };
   if (opt.votes) votesOut = verifyVotes(vctx, opt.votes);
   if (opt.votesParts) {
     partsOut = opt.votesParts.map((vp) => {
