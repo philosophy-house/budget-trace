@@ -578,7 +578,7 @@ function legendNorm(t: string, keys: string[], keepSpace = false): string {
   return x.replace(/[\u0001\u0002]/g, "");
 }
 /** 凡例の原文 legendText の、原典の中での出現。pre・post は原典の前後の字（normKeepSpace 済み＝空白を1つ残す） */
-type LegendCtx = { pre: string; mid: string; post: string };
+type LegendCtx = { pre: string; mid: string; post: string; lt: string };
 /**
  * 凡例の原文の中で、記号 k が意味 v を指すか。記号の直後が「：＝…・は→」なら後ろの語（10字以内の最初の意味の語）、
  * 直前が「＝は」なら前の語（「者」を飛ばして10字以内の最後の意味の語）、どちらでもなければ近い方の語（12字以内）を読む。
@@ -795,6 +795,8 @@ export interface VotesCtx {
   missing: string[];
   /** 議決の件名と議案番号（照合済みのもの）。単一の採決の anchor をこれに結び付ける（0.8.8） */
   bill: { billNo: string; billName: string };
+  /** 議決の結果の語（「原案可決」など）。可決の採決で賛成が過半であることの検査に使う（0.8.21） */
+  result?: string;
 }
 /** 1回の採決の賛否を原典と突き合わせる（votes・votesParts の各要素・kofu-gikai で共通） */
 export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
@@ -969,14 +971,20 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
       for (let p = compact.indexOf(ln); p >= 0; p = compact.indexOf(ln, p + 1)) {
         const s0 = at[p]!;
         const s1 = at[p + ln.length - 1]! + 1;
-        legendCtxs.push({ pre: sp.slice(Math.max(0, s0 - 16), s0), mid: sp.slice(s0, s1), post: sp.slice(s1, s1 + 16) });
+        legendCtxs.push({ pre: sp.slice(Math.max(0, s0 - 16), s0), mid: sp.slice(s0, s1), post: sp.slice(s1, s1 + 16), lt });
       }
     }
   }
   if (vo.legendText != null) {
     for (const [k, v] of Object.entries(vo.legend)) {
       if (norm(k).includes(v)) continue; // 記号そのものが意味の語（「賛成」の列に「賛成」）
-      if (!legendPairOk(legendCtxs, k, v, Object.keys(vo.legend)))
+      // 記号とその意味の語を同じ legendText の要素に含めること（記号1字の legendText で原典の中の任意の位置を選べた＝長浜「欠」→「欠：賛成」・レビュー4巡目）
+      // 読むのは、記号とその意味の語を両方含む legendText の要素だけ（記号1字の要素「欠」を足すと原典の中の任意の位置を選べ、
+      // 表の記号の行の「欠 多数 賛成」で「欠：賛成」が通った＝長浜・印西・0.8.21 のレビュー4巡目）
+      const keysAll = Object.keys(vo.legend);
+      const kN = legendNorm(k, keysAll);
+      const withBoth = (lt: string) => { const ltN = legendNorm(lt, keysAll); return ltN.includes(kN) && (STANCE_WORDS[v] ?? [v]).some((w) => ltN.includes(w)); };
+      if (!legendPairOk(legendCtxs.filter((c) => withBoth(c.lt)), k, v, keysAll))
         missing.push(`凡例「${k}：${v}」が凡例の原文（legendText）で確かめられません（記号の指す語が「${v}」でない）`);
     }
   }
@@ -1311,6 +1319,10 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
     const seen = new Set(memberCols);
     const lacking = [...memberFaction.keys()].filter((m) => !seen.has(m));
     if (lacking.length) missing.push(`賛否の列に名簿の議員がいません: ${lacking.slice(0, 5).join("・")}`);
+    // 議員ごとの表でも議長の列を求める（凡例の切れ端で議長を「不参加」「欠席」に書き換えても通った＝山梨県・熊本県・佐倉・0.8.21 のレビュー4巡目）
+    if (!cols.some((c) => c.stance === "議長") && !vo.noChairReason) {
+      missing.push(`議員ごとの表に議長の列がありません — 議長の記号・blank で示すか、無い理由を noChairReason に`);
+    }
   } else {
     const covered = new Set(cols.map((c) => c.faction));
     const lacking = factions.filter((f) => !covered.has(f.name)).map((f) => f.name);
@@ -1328,6 +1340,12 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
   }
   const countOf = (c: VoteCol) =>
     c.member ? 1 : (factions.find((f) => f.name === c.faction)?.seats ?? 0) - cols.filter((o) => o.faction === c.faction && o.member).length;
+  // 可決の採決では賛成が反対（と賛成でない）より多いこと（凡例の切れ端で賛成37を反対37にしても「可決」のまま通った＝江東・0.8.21 のレビュー4巡目）。
+  // 修正可決の採決ごと（votesParts）は部分ごとに可否が違うので見ない
+  if ((vo as { part?: string }).part == null && ctx.result && /可決/.test(norm(ctx.result)) && !/否決/.test(norm(ctx.result))) {
+    const sum = (st: string) => cols.filter((c) => c.stance === st).reduce((a, c) => a + countOf(c), 0);
+    if (sum("賛成") <= sum("反対") + sum("賛成でない")) missing.push(`結果は「${ctx.result}」なのに、記号から数えた賛成 ${sum("賛成")} が反対 ${sum("反対") + sum("賛成でない")} を上回りません`);
+  }
   if (vo.tally) {
     if (!has(vdoc.views, vo.tally.text)) missing.push(`${vf.filename}: 賛否の数の原文「${vo.tally.text}」が見つかりません`);
     // counts の数は原文の印字に出ること（原文だけ別の行の「16：5」に替えても counts 17・4 のまま通った＝喜多方の改ざんテスト・0.8.19）。
@@ -1974,7 +1992,7 @@ export function parseCouncilTranscribed(
   let votesOut: VotesOut | undefined;
   let partsOut: (VotesOut & { part: string })[] | undefined;
   if (opt.votes && opt.votesParts) throw new Error(`${source.id}: votes と votesParts は同時に使わない`);
-  const vctx: VotesCtx = { sourceId: source.id, factionsOpt: opt.factions, factions, rosterViews: roster.views, fileFor, missing, bill: { billNo: r.billNo, billName: r.billName } };
+  const vctx: VotesCtx = { sourceId: source.id, factionsOpt: opt.factions, factions, rosterViews: roster.views, fileFor, missing, bill: { billNo: r.billNo, billName: r.billName }, result: r.result };
   if (opt.votes) votesOut = verifyVotes(vctx, opt.votes);
   if (opt.votesParts) {
     partsOut = opt.votesParts.map((vp) => {
