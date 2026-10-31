@@ -29635,6 +29635,348 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "「真庭市ホームページ」に掲載されている個々の情報（文章、写真、イラスト、画像、プログラムなどをいいます。ただし、著作権法に規定された「権利の目的とならない著作物」を除きます。）は、著作権の対象であり、法律によって保護されています。また、「真庭市ホームページ」の全体についても編集著作物として著作権の対象となっており、ともに著作権法により保護されます。真庭市ホームページの内容の全部又は一部については、私的使用又は引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことが出来ます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。真庭市ホームページの内容の全部又は一部について、真庭市に無断で改変を行うことはできません。",
     "target": "file"
   },
+  "/sources/sumoto-yosan-gaiyo-r8/20310.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sumoto.lg.jp/uploaded/attachment/20310.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/sumoto-yosan-gaiyo-r7/17161.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sumoto.lg.jp/uploaded/attachment/17161.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/sumoto-yosan-gaiyo-r6/14755.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sumoto.lg.jp/uploaded/attachment/14755.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/sumoto-yosan-gaiyo-r5/12877.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sumoto.lg.jp/uploaded/attachment/12877.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/sumoto-yosan-gaiyo-r4/10633.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sumoto.lg.jp/uploaded/attachment/10633.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/sumoto-yosan-gaiyo-r3/8263.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sumoto.lg.jp/uploaded/attachment/8263.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/sumoto-yosan-gaiyo-r2/4926.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20240119102059id_/https://www.city.sumoto.lg.jp/uploaded/attachment/4926.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、洲本市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/futtsu-yosansho-r8/R8tousyo_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.futtsu.lg.jp/cmsfiles/contents/0000000/178/R8tousyo_ippan.pdf",
+    "license": "このホームページ上の各ファイル（テキスト・画像・PDF・その他のデータ）及びその内容に関する諸権利は、原則として富津市に帰属します。なお、一部のファイルの著作権は、原著作者が所有しています。このホームページ上の文書・画像などの無断での使用・転載・二次利用を禁止します。使用などを希望する方は、秘書広報課（電話0439-80-1225）までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/futtsu-yosansho-r7/R7tousyo_ippann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.futtsu.lg.jp/cmsfiles/contents/0000000/178/R7tousyo_ippann.pdf",
+    "license": "このホームページ上の各ファイル（テキスト・画像・PDF・その他のデータ）及びその内容に関する諸権利は、原則として富津市に帰属します。なお、一部のファイルの著作権は、原著作者が所有しています。このホームページ上の文書・画像などの無断での使用・転載・二次利用を禁止します。使用などを希望する方は、秘書広報課（電話0439-80-1225）までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/futtsu-yosansho-r6/R6tousyo_ippann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.futtsu.lg.jp/cmsfiles/contents/0000000/178/R6tousyo_ippann.pdf",
+    "license": "このホームページ上の各ファイル（テキスト・画像・PDF・その他のデータ）及びその内容に関する諸権利は、原則として富津市に帰属します。なお、一部のファイルの著作権は、原著作者が所有しています。このホームページ上の文書・画像などの無断での使用・転載・二次利用を禁止します。使用などを希望する方は、秘書広報課（電話0439-80-1225）までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/futtsu-yosansho-r5/R5tousyo_ippann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.futtsu.lg.jp/cmsfiles/contents/0000000/178/R5tousyo_ippann.pdf",
+    "license": "このホームページ上の各ファイル（テキスト・画像・PDF・その他のデータ）及びその内容に関する諸権利は、原則として富津市に帰属します。なお、一部のファイルの著作権は、原著作者が所有しています。このホームページ上の文書・画像などの無断での使用・転載・二次利用を禁止します。使用などを希望する方は、秘書広報課（電話0439-80-1225）までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/futtsu-yosansho-r4/R4tousyo_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.futtsu.lg.jp/cmsfiles/contents/0000000/178/R4tousyo_ippan.pdf",
+    "license": "このホームページ上の各ファイル（テキスト・画像・PDF・その他のデータ）及びその内容に関する諸権利は、原則として富津市に帰属します。なお、一部のファイルの著作権は、原著作者が所有しています。このホームページ上の文書・画像などの無断での使用・転載・二次利用を禁止します。使用などを希望する方は、秘書広報課（電話0439-80-1225）までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/futtsu-yosansho-r3/R3tousyo_ippan1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.futtsu.lg.jp/cmsfiles/contents/0000000/178/R3tousyo_ippan1.pdf",
+    "license": "このホームページ上の各ファイル（テキスト・画像・PDF・その他のデータ）及びその内容に関する諸権利は、原則として富津市に帰属します。なお、一部のファイルの著作権は、原著作者が所有しています。このホームページ上の文書・画像などの無断での使用・転載・二次利用を禁止します。使用などを希望する方は、秘書広報課（電話0439-80-1225）までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/futtsu-yosansho-r2/R2tousyo_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.futtsu.lg.jp/cmsfiles/contents/0000000/178/R2tousyo_ippan.pdf",
+    "license": "このホームページ上の各ファイル（テキスト・画像・PDF・その他のデータ）及びその内容に関する諸権利は、原則として富津市に帰属します。なお、一部のファイルの著作権は、原著作者が所有しています。このホームページ上の文書・画像などの無断での使用・転載・二次利用を禁止します。使用などを希望する方は、秘書広報課（電話0439-80-1225）までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/unzen-tousho-shiryo-r8/3_8163_20004_up_s3kub863.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.unzen.nagasaki.jp/kiji0038163/3_8163_20004_up_s3kub863.pdf",
+    "license": "本ホームページの文書・画像等を無断で使用・転載することを禁止します。",
+    "target": "file"
+  },
+  "/sources/minamishimabara-tousho-gaiyo-r8/3_12460_80131_up_8h6wvc1s.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamishimabara.lg.jp/kiji00312460/3_12460_80131_up_8h6wvc1s.pdf",
+    "license": "「南島原市ホームページ」に掲載されているテキスト、画像、PDF、音声そのほかのデータに関する著作権は、南島原市に帰属します。また、一部の写真、イラスト画像などの著作権は原著作者が所有しております。本サイト上の文書・画像などを無断で複製・転用することはできません。個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/minamishimabara-tousho-gaiyo-r7/3_11812_74185_up_cskbrdjl.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamishimabara.lg.jp/kiji00311812/3_11812_74185_up_cskbrdjl.pdf",
+    "license": "「南島原市ホームページ」に掲載されているテキスト、画像、PDF、音声そのほかのデータに関する著作権は、南島原市に帰属します。また、一部の写真、イラスト画像などの著作権は原著作者が所有しております。本サイト上の文書・画像などを無断で複製・転用することはできません。個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/minamishimabara-tousho-gaiyo-r6/3_11334_65410_up_g6owhws4.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamishimabara.lg.jp/kiji00311334/3_11334_65410_up_g6owhws4.pdf",
+    "license": "「南島原市ホームページ」に掲載されているテキスト、画像、PDF、音声そのほかのデータに関する著作権は、南島原市に帰属します。また、一部の写真、イラスト画像などの著作権は原著作者が所有しております。本サイト上の文書・画像などを無断で複製・転用することはできません。個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/minamishimabara-tousho-gaiyo-r5/3_10788_58578_up_0nw4876e.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamishimabara.lg.jp/kiji00310788/3_10788_58578_up_0nw4876e.pdf",
+    "license": "「南島原市ホームページ」に掲載されているテキスト、画像、PDF、音声そのほかのデータに関する著作権は、南島原市に帰属します。また、一部の写真、イラスト画像などの著作権は原著作者が所有しております。本サイト上の文書・画像などを無断で複製・転用することはできません。個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/minamishimabara-tousho-gaiyo-r4/3_9943_50030_up_GGTSENQ0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamishimabara.lg.jp/kiji0039943/3_9943_50030_up_GGTSENQ0.pdf",
+    "license": "「南島原市ホームページ」に掲載されているテキスト、画像、PDF、音声そのほかのデータに関する著作権は、南島原市に帰属します。また、一部の写真、イラスト画像などの著作権は原著作者が所有しております。本サイト上の文書・画像などを無断で複製・転用することはできません。個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/minamishimabara-tousho-gaiyo-r3/3_9087_41346_up_JQZUQI00.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamishimabara.lg.jp/kiji0039087/3_9087_41346_up_JQZUQI00.pdf",
+    "license": "「南島原市ホームページ」に掲載されているテキスト、画像、PDF、音声そのほかのデータに関する著作権は、南島原市に帰属します。また、一部の写真、イラスト画像などの著作権は原著作者が所有しております。本サイト上の文書・画像などを無断で複製・転用することはできません。個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/minamishimabara-tousho-gaiyo-r2/3_8487_35615_up_ZEKDH7LT.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamishimabara.lg.jp/kiji0038487/3_8487_35615_up_ZEKDH7LT.pdf",
+    "license": "「南島原市ホームページ」に掲載されているテキスト、画像、PDF、音声そのほかのデータに関する著作権は、南島原市に帰属します。また、一部の写真、イラスト画像などの著作権は原著作者が所有しております。本サイト上の文書・画像などを無断で複製・転用することはできません。個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "file"
+  },
+  "/sources/amami-yosansho-r8/r8ippannkaikeitousyoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amami.lg.jp/zaisei/shise/zaise/documents/documents/r8ippannkaikeitousyoyosan.pdf",
+    "license": "奄美市ホームページ（以下、「当サイト」といいます。）において提供している情報（文書や画像等の各ファイル及びその内容）の著作権は、原則として奄美市に帰属します。また、当サイト上で提供している情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/amami-yosansho-r7/r7ippannkaikeitousyoyosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amami.lg.jp/zaisei/shise/zaise/documents/documents/r7ippannkaikeitousyoyosann.pdf",
+    "license": "奄美市ホームページ（以下、「当サイト」といいます。）において提供している情報（文書や画像等の各ファイル及びその内容）の著作権は、原則として奄美市に帰属します。また、当サイト上で提供している情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/amami-yosansho-r6/r6yosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amami.lg.jp/zaisei/shise/zaise/documents/documents/r6yosannsyo.pdf",
+    "license": "奄美市ホームページ（以下、「当サイト」といいます。）において提供している情報（文書や画像等の各ファイル及びその内容）の著作権は、原則として奄美市に帰属します。また、当サイト上で提供している情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/amami-yosansho-r4/r4ippannkaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amami.lg.jp/zaisei/shise/zaise/documents/documents/r4ippannkaikei.pdf",
+    "license": "奄美市ホームページ（以下、「当サイト」といいます。）において提供している情報（文書や画像等の各ファイル及びその内容）の著作権は、原則として奄美市に帰属します。また、当サイト上で提供している情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/amami-yosansho-r3/r3ippankaikei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.amami.lg.jp/zaisei/shise/zaise/documents/documents/r3ippankaikei.pdf",
+    "license": "奄美市ホームページ（以下、「当サイト」といいます。）において提供している情報（文書や画像等の各ファイル及びその内容）の著作権は、原則として奄美市に帰属します。また、当サイト上で提供している情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/minamiashigara-yosansho-r8/1-20260330114550.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/205427/1-20260330114550.pdf",
+    "license": "当ウェブサイトに掲載されている文字、写真、イラストやデザインといった情報の著作権は、南足柄市または原権利者に帰属します。私的使用または引用等著作権法上認められている行為を除き、無断で転載等を行うことはできません。また、当ウェブサイトの内容の全部又は一部について、無断で改変することはできません。",
+    "target": "file"
+  },
+  "/sources/minamiashigara-yosansho-r6/1-20240326100841.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/174433/1-20240326100841.pdf",
+    "license": "当ウェブサイトに掲載されている文字、写真、イラストやデザインといった情報の著作権は、南足柄市または原権利者に帰属します。私的使用または引用等著作権法上認められている行為を除き、無断で転載等を行うことはできません。また、当ウェブサイトの内容の全部又は一部について、無断で改変することはできません。",
+    "target": "file"
+  },
+  "/sources/minamiashigara-yosansho-r5/1-20230324100838.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/158167/1-20230324100838.pdf",
+    "license": "当ウェブサイトに掲載されている文字、写真、イラストやデザインといった情報の著作権は、南足柄市または原権利者に帰属します。私的使用または引用等著作権法上認められている行為を除き、無断で転載等を行うことはできません。また、当ウェブサイトの内容の全部又は一部について、無断で改変することはできません。",
+    "target": "file"
+  },
+  "/sources/minamiashigara-yosansho-r4/1-20220404150348.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/142614/1-20220404150348.pdf",
+    "license": "当ウェブサイトに掲載されている文字、写真、イラストやデザインといった情報の著作権は、南足柄市または原権利者に帰属します。私的使用または引用等著作権法上認められている行為を除き、無断で転載等を行うことはできません。また、当ウェブサイトの内容の全部又は一部について、無断で改変することはできません。",
+    "target": "file"
+  },
+  "/sources/minamiashigara-yosansho-r7/1-20250327105734.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/190276/1-20250327105734.pdf",
+    "license": "当ウェブサイトに掲載されている文字、写真、イラストやデザインといった情報の著作権は、南足柄市または原権利者に帰属します。私的使用または引用等著作権法上認められている行為を除き、無断で転載等を行うことはできません。また、当ウェブサイトの内容の全部又は一部について、無断で改変することはできません。",
+    "target": "file"
+  },
+  "/sources/minamiashigara-yosansho-r3/1-20210316101106.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/120985/1-20210316101106.pdf",
+    "license": "当ウェブサイトに掲載されている文字、写真、イラストやデザインといった情報の著作権は、南足柄市または原権利者に帰属します。私的使用または引用等著作権法上認められている行為を除き、無断で転載等を行うことはできません。また、当ウェブサイトの内容の全部又は一部について、無断で改変することはできません。",
+    "target": "file"
+  },
+  "/sources/kitaibaraki-yosansho-r8/R8.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitaibaraki.lg.jp/docs/2015021200191/file_contents/R8.pdf",
+    "license": "北茨城市ホームページに掲載されている文章、画像等の著作権は、北茨城市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。",
+    "target": "file"
+  },
+  "/sources/kitaibaraki-yosansho-r7/R7.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitaibaraki.lg.jp/docs/2015021200191/file_contents/R7.pdf",
+    "license": "北茨城市ホームページに掲載されている文章、画像等の著作権は、北茨城市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。",
+    "target": "file"
+  },
+  "/sources/kitaibaraki-yosansho-r6/R6.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitaibaraki.lg.jp/docs/2015021200191/file_contents/R6.pdf",
+    "license": "北茨城市ホームページに掲載されている文章、画像等の著作権は、北茨城市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。",
+    "target": "file"
+  },
+  "/sources/kitaibaraki-yosansho-r5/R5yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitaibaraki.lg.jp/docs/2015021200191/file_contents/R5yosan.pdf",
+    "license": "北茨城市ホームページに掲載されている文章、画像等の著作権は、北茨城市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。",
+    "target": "file"
+  },
+  "/sources/kitaibaraki-yosansho-r4/R4yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitaibaraki.lg.jp/docs/2015021200191/file_contents/R4yosan.pdf",
+    "license": "北茨城市ホームページに掲載されている文章、画像等の著作権は、北茨城市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。",
+    "target": "file"
+  },
+  "/sources/kitaibaraki-yosansho-r3/R3yosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitaibaraki.lg.jp/docs/2015021200191/file_contents/R3yosannsyo.pdf",
+    "license": "北茨城市ホームページに掲載されている文章、画像等の著作権は、北茨城市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。",
+    "target": "file"
+  },
+  "/sources/kitaibaraki-yosansho-r2/R2yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitaibaraki.lg.jp/docs/2015021200191/file_contents/R2yosan.pdf",
+    "license": "北茨城市ホームページに掲載されている文章、画像等の著作権は、北茨城市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転用・引用することはできません。",
+    "target": "file"
+  },
+  "/sources/kasumigaura-yosansho-r8/1774236512_doc_11_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasumigaura.lg.jp/page/page001573.html",
+    "license": "本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行なうなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasumigaura-yosansho-r7/1742364240_doc_11_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasumigaura.lg.jp/page/page001573.html",
+    "license": "本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行なうなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasumigaura-yosansho-r6/1710984019_doc_11_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasumigaura.lg.jp/page/page001573.html",
+    "license": "本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行なうなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasumigaura-yosansho-r5/1679903494_doc_71_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasumigaura.lg.jp/page/page001573.html",
+    "license": "本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行なうなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasumigaura-yosansho-r4/1648079643_doc_10_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasumigaura.lg.jp/page/page001573.html",
+    "license": "本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行なうなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasumigaura-yosansho-r3/1616633640_doc_10_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasumigaura.lg.jp/page/page001573.html",
+    "license": "本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行なうなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/kasumigaura-yosansho-r2/1584922332_doc_10_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kasumigaura.lg.jp/page/page001573.html",
+    "license": "本サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、本サイトのコンテンツをダウンロードしたりプリントアウトすることは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行なうなどといった行為は違法となりますのでご遠慮ください。",
+    "target": "page"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r8/r8_ippanhikaku0324.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/r8_ippanhikaku0324.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r7/r7_ippanhikaku0324.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/r7_ippanhikaku0324.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r6/R06zennnenndohikaku.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/R06zennnenndohikaku.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r5/R5zennendohikaku.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/R5zennendohikaku.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r4/r4_sainyuu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/r4_sainyuu.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r4/r4_saisyutu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/r4_saisyutu.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r3/r3_sainyuu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/r3_sainyuu.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r3/r3_saisyutu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/r3_saisyutu.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r2/r2sainyuu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/r2sainyuu.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/miura-ippan-kanbetsu-hikaku-r2/r2saisyutu-2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.miura.kanagawa.jp/material/files/group/6/r2saisyutu-2.pdf",
+    "license": "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
   "/sources/miyoshi-hiroshima-yosan-setsumeisho-r8/31569.pdf": {
     "mode": "origin",
     "href": "https://www.city.miyoshi.hiroshima.jp/uploaded/attachment/31569.pdf",

@@ -1,0 +1,12 @@
+{
+  "sourceId": "kitaibaraki-yosansho-r2",
+  "files": [
+    {
+      "filename": "R2yosan.pdf",
+      "sha256": "63b8af2e4c01381828ff78cae3980d1f7769630f6f4807fcb5aaade5b28c4b54",
+      "bytes": 7740623,
+      "fetchedAt": "2026-10-31T03:08:50.390Z",
+      "fetchedFrom": "https://www.city.kitaibaraki.lg.jp/docs/2015021200191/file_contents/R2yosan.pdf"
+    }
+  ]
+}

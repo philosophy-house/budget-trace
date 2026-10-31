@@ -1,0 +1,380 @@
+{
+  "docType": "budget-book",
+  "sourceId": "miura-ippan-kanbetsu-hikaku-r6",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-31T03:09:35.756Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R6",
+  "account": "一般会計",
+  "revenueTotal": 21763677,
+  "expenditureTotal": 21763677,
+  "prevRevenueTotal": 18221487,
+  "prevExpenditureTotal": 18221487,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 5337853,
+      "prevAmount": 5401539,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 120748,
+      "prevAmount": 116730,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 2200,
+      "prevAmount": 2400,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 41000,
+      "prevAmount": 47000,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 45000,
+      "prevAmount": 30500,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 87800,
+      "prevAmount": 40000,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 971000,
+      "prevAmount": 1050000,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 28500,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 169018,
+      "prevAmount": 19924,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 5127209,
+      "prevAmount": 5089345,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 6000,
+      "prevAmount": 6000,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 14212,
+      "prevAmount": 13677,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 172650,
+      "prevAmount": 154614,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 3290633,
+      "prevAmount": 2542827,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 1094317,
+      "prevAmount": 1125643,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 29568,
+      "prevAmount": 32334,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 1010050,
+      "prevAmount": 1225051,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 1111673,
+      "prevAmount": 491191,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 100000,
+      "prevAmount": 10000,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 207800,
+      "prevAmount": 195079,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 2796446,
+      "prevAmount": 607633,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 184181,
+      "prevAmount": 177471,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 5869127,
+      "prevAmount": 3169172,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 6704072,
+      "prevAmount": 6507743,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 2344422,
+      "prevAmount": 2282420,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "農林水産業費",
+      "amount": 421722,
+      "prevAmount": 356608,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "商工費",
+      "amount": 240886,
+      "prevAmount": 231633,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "土木費",
+      "amount": 2424344,
+      "prevAmount": 1741087,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "消防費",
+      "amount": 837503,
+      "prevAmount": 941189,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "教育費",
+      "amount": 904080,
+      "prevAmount": 904659,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "災害復旧費",
+      "amount": 7,
+      "prevAmount": 8,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "公債費",
+      "amount": 1783333,
+      "prevAmount": 1859497,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "予備費",
+      "amount": 50000,
+      "prevAmount": 50000,
+      "locator": {
+        "file": "R06zennnenndohikaku.pdf",
+        "page": 2
+      }
+    }
+  ]
+}

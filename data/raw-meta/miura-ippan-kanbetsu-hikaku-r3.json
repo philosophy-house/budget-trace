@@ -1,0 +1,19 @@
+{
+  "sourceId": "miura-ippan-kanbetsu-hikaku-r3",
+  "files": [
+    {
+      "filename": "r3_sainyuu.pdf",
+      "sha256": "4990c94b9d4f4c8e3f0a185ae26d1eb981e207e5237141a1495a3eb09e2aadc5",
+      "bytes": 109542,
+      "fetchedAt": "2026-10-31T03:08:32.296Z",
+      "fetchedFrom": "https://www.city.miura.kanagawa.jp/material/files/group/6/r3_sainyuu.pdf"
+    },
+    {
+      "filename": "r3_saisyutu.pdf",
+      "sha256": "ea3b64d063cd08d976434cc175c3ac2cbe80321b07c3b87985bd8e2eb6b13d9c",
+      "bytes": 104668,
+      "fetchedAt": "2026-10-31T03:08:32.654Z",
+      "fetchedFrom": "https://www.city.miura.kanagawa.jp/material/files/group/6/r3_saisyutu.pdf"
+    }
+  ]
+}
