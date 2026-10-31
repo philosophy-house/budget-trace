@@ -1,0 +1,40 @@
+{
+  "sourceId": "miyako-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihameibo_warp20260406.pdf",
+      "sha256": "d7ccc3922d8b652131443aa53f3701ee0e146b38cbf5fef4735b4fb17f37038e",
+      "bytes": 169565,
+      "fetchedAt": "2026-10-31T17:35:00.070Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260415/20260406063031id_/https://www.city.miyako.iwate.jp/material/files/group/35/kaihameibo.pdf"
+    },
+    {
+      "filename": "2170_warp20260406.html",
+      "sha256": "7fca987fd4f0e096eea783e1761ddf0bd6f3c16453a4310968dcea5bc0725752",
+      "bytes": 53912,
+      "fetchedAt": "2026-10-31T17:35:00.070Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260415/20260406063031id_/https://www.city.miyako.iwate.jp/gyosei/soshiki/gikai/1/3/2170.html"
+    },
+    {
+      "filename": "R08_03_sanpi.pdf",
+      "sha256": "533012700b92556e7b5cdca9e7b5f303afcbcc10d1849c6a00a363ccc8acc29c",
+      "bytes": 326787,
+      "fetchedAt": "2026-10-31T17:35:00.071Z",
+      "fetchedFrom": "https://www.city.miyako.iwate.jp/material/files/group/35/R08_03_sanpi.pdf"
+    },
+    {
+      "filename": "10837.html",
+      "sha256": "cc30c9207ff0dcaf746cbd42a6a4fe82f595de2864bec5e22180bea3f46f658d",
+      "bytes": 55171,
+      "fetchedAt": "2026-10-31T17:35:00.071Z",
+      "fetchedFrom": "https://www.city.miyako.iwate.jp/gyosei/soshiki/gikai/1/2/3/R8giketsu/10837.html"
+    },
+    {
+      "filename": "R8_3_kaiginittei_4.pdf",
+      "sha256": "8aba3a695e1181f099c0f1ab4c2565a5909d45edece5efc47f8bf6cbded46363",
+      "bytes": 1733537,
+      "fetchedAt": "2026-10-31T17:35:00.072Z",
+      "fetchedFrom": "https://www.city.miyako.iwate.jp/material/files/group/35/R8_3_kaiginittei_4.pdf"
+    }
+  ]
+}

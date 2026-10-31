@@ -1,0 +1,40 @@
+{
+  "sourceId": "ishinomaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "ishinomaki_kaiha_warp20260108.html",
+      "sha256": "8968b72848cf91fe40937948e810b50db81469c36c2a01713628ec3d032393d3",
+      "bytes": 11645,
+      "fetchedAt": "2026-10-31T17:35:00.073Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260109/20260108104409id_/https://www.city.ishinomaki.lg.jp/cont/30101000/0014/0200/0400/20220510140317.html"
+    },
+    {
+      "filename": "ishinomaki_kaiha_warp20260406.html",
+      "sha256": "8968b72848cf91fe40937948e810b50db81469c36c2a01713628ec3d032393d3",
+      "bytes": 11645,
+      "fetchedAt": "2026-10-31T17:35:00.073Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260416/20260406113034id_/https://www.city.ishinomaki.lg.jp/cont/30101000/0014/0200/0400/20220510140317.html"
+    },
+    {
+      "filename": "ishinomaki_20260323104836.html",
+      "sha256": "8f7cafe00517a14cddcf9c551d37415057a432247d26484bcff1851156300224",
+      "bytes": 18294,
+      "fetchedAt": "2026-10-31T17:35:00.073Z",
+      "fetchedFrom": "https://www.city.ishinomaki.lg.jp/cont/30101000/0000/reiwa8/teirei1/20260323104836.html"
+    },
+    {
+      "filename": "ishinomaki_20260205094515.html",
+      "sha256": "ef947c967e51f2e9c3032ad3081595059feaa1102e18d5a72d702d4608ee0492",
+      "bytes": 13303,
+      "fetchedAt": "2026-10-31T17:35:00.073Z",
+      "fetchedFrom": "https://www.city.ishinomaki.lg.jp/cont/30101000/0000/reiwa8/teirei1/20260205094515.html"
+    },
+    {
+      "filename": "ishinomaki_4080.html",
+      "sha256": "b56a5d327f3e4a14c5d6dd96c50cea7952ac3e7e7809a2868966bf571af07294",
+      "bytes": 14558,
+      "fetchedAt": "2026-10-31T17:35:00.073Z",
+      "fetchedFrom": "https://www.city.ishinomaki.lg.jp/cont/30101000/0013/4080.html"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "docType": "council-composition",
+  "sourceId": "otaru-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:02.151Z",
+  "fiscalYear": "R8",
+  "body": "小樽市議会",
+  "seats": 23,
+  "asOf": "2024-12-03",
+  "factions": [
+    {
+      "name": "自由民主党小樽市議会議員会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "中村吉宏",
+        "中鉢淳二",
+        "鈴木喜明",
+        "松岩一輝",
+        "佐藤奈緒美"
+      ],
+      "locator": {
+        "file": "otaru_kaiha_20260308.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党小樽市議会議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "秋元智憲",
+        "横尾英司",
+        "橋本布美絵",
+        "白川貴城",
+        "新井田邦宏"
+      ],
+      "locator": {
+        "file": "otaru_kaiha_20260308.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "みらい小樽市議会議員会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "前田清貴",
+        "中村岩雄",
+        "小池二郎",
+        "白濱聡",
+        "平戸理史"
+      ],
+      "locator": {
+        "file": "otaru_kaiha_20260308.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党小樽市議会議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小貫元",
+        "酒井隆裕",
+        "高野さくら",
+        "松井真美子"
+      ],
+      "locator": {
+        "file": "otaru_kaiha_20260308.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "立憲・市民連合小樽市議会議員会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "面野大輔",
+        "髙橋龍",
+        "佐々木秩",
+        "下兼薫"
+      ],
+      "locator": {
+        "file": "otaru_kaiha_20260308.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "otaru_tayori_104.pdf",
+      "page": 7
+    }
+  },
+  "rosterTitle": "小樽市議会会派別名簿（令和６年12月３日現在・議決前 2026-03-08 の魚拓）",
+  "resultTitle": "おたる市議会だより 第104号（令和８年５月１日発行）p.12「第１回定例会に提出された議案等の議決結果について」"
+}

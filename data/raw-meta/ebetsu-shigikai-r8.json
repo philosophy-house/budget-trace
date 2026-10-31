@@ -1,0 +1,50 @@
+{
+  "sourceId": "ebetsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "8025_20260123072452.html",
+      "sha256": "540f2da4f2cc7dfcecd83a9bb4ab7c91f14dbc9b54532ea92e1088b3aec21cdd",
+      "bytes": 20592,
+      "fetchedAt": "2026-10-31T17:39:56.574Z",
+      "fetchedFrom": "https://web.archive.org/web/20260123072452id_/https://www.city.ebetsu.hokkaido.jp/site/gikai/8025.html"
+    },
+    {
+      "filename": "81735.pdf",
+      "sha256": "ca83e84b9f3c9492da3a37225fdfd15111a4187440e2f73eab2643fceccfd28b",
+      "bytes": 83397,
+      "fetchedAt": "2026-10-31T17:39:56.574Z",
+      "fetchedFrom": "https://www.city.ebetsu.hokkaido.jp/uploaded/attachment/81735.pdf"
+    },
+    {
+      "filename": "9057_20260319041733.html",
+      "sha256": "b27fef7748f6b4a78d7e473f5f038a94c7faf394d615363b524b4b3c61843947",
+      "bytes": 24146,
+      "fetchedAt": "2026-10-31T17:39:56.575Z",
+      "fetchedFrom": "https://web.archive.org/web/20260319041733id_/https://www.city.ebetsu.hokkaido.jp/site/gikai/9057.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "80696.pdf",
+      "sha256": "ebc1490f36b0640b4e6b24fe30fdb6d40613ff3ef5cf146c86a0e96a986eff7e",
+      "bytes": 94402,
+      "fetchedAt": "2026-10-31T17:39:56.575Z",
+      "fetchedFrom": "https://www.city.ebetsu.hokkaido.jp/uploaded/attachment/80696.pdf"
+    },
+    {
+      "filename": "442_20260219063106.html",
+      "sha256": "11886196d3782dd18558bd9e46deb22343ec8dde5feeb6dfd9c7172f37568360",
+      "bytes": 18399,
+      "fetchedAt": "2026-10-31T17:39:56.575Z",
+      "fetchedFrom": "https://web.archive.org/web/20260219063106id_/https://www.city.ebetsu.hokkaido.jp/site/gikai/442.html"
+    },
+    {
+      "filename": "2001_20251216160111.html",
+      "sha256": "4593e9b26154718624befaa26b1ff9538f347aa003dc5627ae8bf91d4df71d8b",
+      "bytes": 16661,
+      "fetchedAt": "2026-10-31T17:39:56.575Z",
+      "fetchedFrom": "https://web.archive.org/web/20251216160111id_/https://www.city.ebetsu.hokkaido.jp/site/gikai/2001.html"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "docType": "council-composition",
+  "sourceId": "osaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:04.206Z",
+  "fiscalYear": "R8",
+  "body": "大崎市議会",
+  "seats": 28,
+  "asOf": "2025-12-11",
+  "teisu": 28,
+  "factions": [
+    {
+      "name": "新生会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "木村和彦",
+        "法華栄喜",
+        "小嶋匡晴",
+        "小玉仁志",
+        "後藤錦信",
+        "只野直悦"
+      ],
+      "locator": {
+        "file": "osaki_21369_warp20260109.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "創新会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "佐藤仁一郎",
+        "伊勢健一",
+        "佐藤弘樹",
+        "早坂憂",
+        "石田政博"
+      ],
+      "locator": {
+        "file": "osaki_21369_warp20260109.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党大崎市議会議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小沢和悦",
+        "木内知子",
+        "鎌内つぎ子",
+        "遊佐辰雄"
+      ],
+      "locator": {
+        "file": "osaki_21369_warp20260109.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "改新クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "八木吉夫",
+        "佐藤講英",
+        "中鉢和三郎",
+        "氏家善男"
+      ],
+      "locator": {
+        "file": "osaki_21369_warp20260109.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "大志会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "相澤久義",
+        "富田文志",
+        "関武徳",
+        "佐藤勝"
+      ],
+      "locator": {
+        "file": "osaki_21369_warp20260109.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "NEXT",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "加川康子",
+        "鹿野良太",
+        "藤本勘寿"
+      ],
+      "locator": {
+        "file": "osaki_21369_warp20260109.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "横山悦子",
+        "山田匡身"
+      ],
+      "locator": {
+        "file": "osaki_21369_warp20260109.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第3号",
+    "billName": "令和8年度大崎市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-02-26",
+    "decidedDateLabel": "令和8年2月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "osaki_21924.html"
+    }
+  },
+  "rosterTitle": "市議会について「会派」（更新日 2025年12月11日）の国立国会図書館 WARP の捕捉（2026-01-09・議決前）",
+  "resultTitle": "令和8年第1回定例会提出議案（議決結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年議案と審議結果/議案賛否一覧（第1回定例会 議案第3号の議案賛否詳細）",
+    "sourceFile": "osaki_21922.html",
+    "columns": [
+      {
+        "label": "藤本勘寿",
+        "faction": "NEXT",
+        "member": "藤本勘寿",
+        "stance": "賛成"
+      },
+      {
+        "label": "小嶋匡晴",
+        "faction": "新生会",
+        "member": "小嶋匡晴",
+        "stance": "賛成"
+      },
+      {
+        "label": "小玉仁志",
+        "faction": "新生会",
+        "member": "小玉仁志",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田匡身",
+        "faction": "公明党",
+        "member": "山田匡身",
+        "stance": "賛成"
+      },
+      {
+        "label": "加川康子",
+        "faction": "NEXT",
+        "member": "加川康子",
+        "stance": "賛成"
+      },
+      {
+        "label": "法華栄喜",
+        "faction": "新生会",
+        "member": "法華栄喜",
+        "stance": "賛成"
+      },
+      {
+        "label": "石田政博",
+        "faction": "創新会",
+        "member": "石田政博",
+        "stance": "賛成"
+      },
+      {
+        "label": "早坂憂",
+        "faction": "創新会",
+        "member": "早坂憂",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊勢健一",
+        "faction": "創新会",
+        "member": "伊勢健一",
+        "stance": "賛成"
+      },
+      {
+        "label": "鹿野良太",
+        "faction": "NEXT",
+        "member": "鹿野良太",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤仁一郎",
+        "faction": "創新会",
+        "member": "佐藤仁一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "八木吉夫",
+        "faction": "改新クラブ",
+        "member": "八木吉夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤講英",
+        "faction": "改新クラブ",
+        "member": "佐藤講英",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤弘樹",
+        "faction": "創新会",
+        "member": "佐藤弘樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "中鉢和三郎",
+        "faction": "改新クラブ",
+        "member": "中鉢和三郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "相澤久義",
+        "faction": "大志会",
+        "member": "相澤久義",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村和彦",
+        "faction": "新生会",
+        "member": "木村和彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "横山悦子",
+        "faction": "公明党",
+        "member": "横山悦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "関武徳",
+        "faction": "大志会",
+        "member": "関武徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "遊佐辰雄",
+        "faction": "日本共産党大崎市議会議員団",
+        "member": "遊佐辰雄",
+        "stance": "反対"
+      },
+      {
+        "label": "只野直悦",
+        "faction": "新生会",
+        "member": "只野直悦",
+        "stance": "賛成"
+      },
+      {
+        "label": "富田文志",
+        "faction": "大志会",
+        "member": "富田文志",
+        "stance": "賛成"
+      },
+      {
+        "label": "氏家善男",
+        "faction": "改新クラブ",
+        "member": "氏家善男",
+        "stance": "賛成"
+      },
+      {
+        "label": "木内知子",
+        "faction": "日本共産党大崎市議会議員団",
+        "member": "木内知子",
+        "stance": "反対"
+      },
+      {
+        "label": "小沢和悦",
+        "faction": "日本共産党大崎市議会議員団",
+        "member": "小沢和悦",
+        "stance": "反対"
+      },
+      {
+        "label": "佐藤勝",
+        "faction": "大志会",
+        "member": "佐藤勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "鎌内つぎ子",
+        "faction": "日本共産党大崎市議会議員団",
+        "member": "鎌内つぎ子",
+        "stance": "反対"
+      },
+      {
+        "label": "後藤錦信",
+        "faction": "新生会",
+        "member": "後藤錦信",
+        "stance": "議長"
+      }
+    ]
+  }
+}

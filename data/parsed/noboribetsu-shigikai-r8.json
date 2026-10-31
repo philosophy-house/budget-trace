@@ -1,0 +1,100 @@
+{
+  "docType": "council-composition",
+  "sourceId": "noboribetsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:02.742Z",
+  "fiscalYear": "R8",
+  "body": "登別市議会",
+  "seats": 18,
+  "asOf": "2025-06-08",
+  "factions": [
+    {
+      "name": "市民・前進",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "天神林美彦",
+        "戸井肇",
+        "成田昭浩",
+        "工藤倶二雄",
+        "千田文孝",
+        "井野正臣",
+        "伊藤健太"
+      ],
+      "locator": {
+        "file": "noboribetsu_kaiha_20251005.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市政クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "杉尾直樹",
+        "若木康夫",
+        "辻弘之",
+        "宮武祥子",
+        "岩田恵"
+      ],
+      "locator": {
+        "file": "noboribetsu_kaiha_20251005.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小栗義朗",
+        "今野幹大",
+        "村井寿行"
+      ],
+      "locator": {
+        "file": "noboribetsu_kaiha_20251005.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐々木久美子",
+        "金澤則男"
+      ],
+      "locator": {
+        "file": "noboribetsu_kaiha_20251005.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属・無会派（足立知也）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "足立知也"
+      ],
+      "locator": {
+        "file": "noboribetsu_kaiha_20251005.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１０号",
+    "billName": "令和８年度登別市一般会計予算について",
+    "sessionLabel": "令和８年第１回 登別市議会定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "可決（附帯決議付）",
+    "locator": {
+      "file": "noboribetsu_R8-1_giketsu.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別所属議員一覧（令和７年６月８日現在）",
+  "resultTitle": "令和８年第１回 登別市議会定例会 議決結果及び議案等の賛否状況"
+}

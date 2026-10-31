@@ -1,0 +1,104 @@
+{
+  "docType": "council-composition",
+  "sourceId": "eniwa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:57.134Z",
+  "fiscalYear": "R8",
+  "body": "恵庭市議会",
+  "seats": 21,
+  "asOf": "2026-03-24",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "自由民主党議員団 翡翠会",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "川原光男",
+        "三上まどか",
+        "矢野浩章",
+        "吉永孝之",
+        "早坂政芳",
+        "石井美季",
+        "宮利徳",
+        "前田孝雄",
+        "市川愼二",
+        "小橋薫",
+        "長谷文子",
+        "川股洋一"
+      ],
+      "locator": {
+        "file": "2_R80501gikaiho_giketu.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "松島緑",
+        "生本富士代",
+        "野沢宏紀"
+      ],
+      "locator": {
+        "file": "2_R80501gikaiho_giketu.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "市民と歩む会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "柏野大介",
+        "新岡知恵"
+      ],
+      "locator": {
+        "file": "2_R80501gikaiho_giketu.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "民主・春風の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "武藤光一",
+        "澁谷敏明"
+      ],
+      "locator": {
+        "file": "2_R80501gikaiho_giketu.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "諸派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "小林卓矢",
+        "太田実保"
+      ],
+      "locator": {
+        "file": "2_R80501gikaiho_giketu.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１５号",
+    "billName": "令和８年度恵庭市一般会計予算",
+    "sessionLabel": "令和８年恵庭市議会第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r8-1tei-giketukekkahyou.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "恵庭市議会だより No.134 請願・陳情・議案等審議結果の表頭（第1回定例会の議決時）",
+  "resultTitle": "令和８年 恵庭市議会第１回定例会議決結果表"
+}

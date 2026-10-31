@@ -1,0 +1,26 @@
+{
+  "sourceId": "chitose-shigikai-r8",
+  "files": [
+    {
+      "filename": "chitose_dayori_210.pdf",
+      "sha256": "55c6dcdc4ea40fd96463f89b3d6370cbde3805e6fb94e818f540bccbee0b19ff",
+      "bytes": 2091666,
+      "fetchedAt": "2026-10-31T17:35:00.067Z",
+      "fetchedFrom": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/004/224/210.pdf"
+    },
+    {
+      "filename": "chitose_R8-1_giketu.pdf",
+      "sha256": "2f9ea038ba2a98e4aa1f9d6114dc2e4fd19fbb0a97eddc8b190a6e5643b895b7",
+      "bytes": 68765,
+      "fetchedAt": "2026-10-31T17:35:00.067Z",
+      "fetchedFrom": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/006/625/giketu.pdf"
+    },
+    {
+      "filename": "chitose_R8_sannpi.pdf",
+      "sha256": "7b92d6d8995a9f950f31793573e0393256d2ced946c2289e48bd9bc29f321449",
+      "bytes": 778855,
+      "fetchedAt": "2026-10-31T17:35:00.068Z",
+      "fetchedFrom": "https://www.city.chitose.lg.jp/_res/projects/default_project/_page_/001/003/479/sannpi2.pdf"
+    }
+  ]
+}
