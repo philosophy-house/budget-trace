@@ -65429,5 +65429,61 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         }
       }
     }
+  ],
+  "083411": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "東海村議会",
+      "seats": 18,
+      "teisu": 18,
+      "asOf": "2026-03-26",
+      "asOfLabel": "2026年3月26日",
+      "factions": [
+        {
+          "name": "新政とうかい",
+          "seats": 12,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "光風会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "会派に属さない",
+          "seats": 2,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第１８号",
+        "billName": "令和８年度東海村一般会計予算",
+        "sessionLabel": "令和８年第１回東海村議会定例会",
+        "decidedDate": "2026-03-26",
+        "decidedDateLabel": "令和8年3月26日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 東海村議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "会派（会派一覧・更新日 2024年09月30日）",
+        "localUrl": "/sources/tokaimura-songikai-r8/tokaimura_1846.html",
+        "originUrl": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html",
+        "archiveUrl": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html"
+      },
+      "result": {
+        "title": "令和８年第１回東海村議会定例会 村長提出議案等議決結果",
+        "localUrl": "/sources/tokaimura-songikai-r8/tokaimura_R80326giketu2.pdf",
+        "originUrl": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf",
+        "archiveUrl": "https://web.archive.org/web/20261031172550/https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
   ]
 };

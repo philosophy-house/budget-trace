@@ -41370,5 +41370,29 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www.city.kurayoshi.lg.jp/secure/3971/02_R07%E6%9C%AC%E4%BD%93%EF%BC%88%E5%AE%8C%E6%88%90%E7%89%88%EF%BC%89.pdf",
     "license": "このサイトに掲載されている文字、画像、動画、図表等の著作権は、特に明示がない限り倉吉市に帰属します。また、一部の画像などは原著作者が著作権を所有したり、本市が使用する場合に限り認められたものがあります。よって、　　本サイトの内容を無断で使用・転載することはできません。本サイトの引用、転載等を希望される場合は、 倉吉市総務部企画課 までご連絡ください。",
     "target": "file"
+  },
+  "/sources/tokaimura-songikai-r8/tokaimura_1846.html": {
+    "mode": "origin",
+    "href": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html",
+    "license": "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    "target": "page"
+  },
+  "/sources/tokaimura-songikai-r8/tokaimura_R80326giketu2.pdf": {
+    "mode": "origin",
+    "href": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf",
+    "license": "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    "target": "file"
+  },
+  "/sources/tokaimura-songikai-r8/tokaimura_64P3.pdf": {
+    "mode": "origin",
+    "href": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf",
+    "license": "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    "target": "file"
+  },
+  "/sources/tokaimura-songikai-r8/tokaimura_1890.html": {
+    "mode": "origin",
+    "href": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/sikumi/1890.html",
+    "license": "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    "target": "page"
   }
 };

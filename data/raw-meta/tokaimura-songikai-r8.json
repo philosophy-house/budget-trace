@@ -1,0 +1,33 @@
+{
+  "sourceId": "tokaimura-songikai-r8",
+  "files": [
+    {
+      "filename": "tokaimura_1846.html",
+      "sha256": "65961423af6cf2cbb65698ce6173c1c101db74ca23feed03c455e0b990a8d535",
+      "bytes": 37964,
+      "fetchedAt": "2026-10-31T17:25:22.335Z",
+      "fetchedFrom": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html"
+    },
+    {
+      "filename": "tokaimura_R80326giketu2.pdf",
+      "sha256": "00ac26faf200b258a6e6704f99696258f3e5013ecb1993239c64b1b29b44ffd9",
+      "bytes": 69614,
+      "fetchedAt": "2026-10-31T17:25:22.337Z",
+      "fetchedFrom": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf"
+    },
+    {
+      "filename": "tokaimura_64P3.pdf",
+      "sha256": "38c4f43d5c50c504011331a2ae34469441139e394cd8f63cf3af7d5ca11d756a",
+      "bytes": 350827,
+      "fetchedAt": "2026-10-31T17:25:22.338Z",
+      "fetchedFrom": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf"
+    },
+    {
+      "filename": "tokaimura_1890.html",
+      "sha256": "1cefe831d23800745baf8d68c4c9dad8723e3b3da77f26280f4a62302fc13ffc",
+      "bytes": 38040,
+      "fetchedAt": "2026-10-31T17:25:22.338Z",
+      "fetchedFrom": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/sikumi/1890.html"
+    }
+  ]
+}

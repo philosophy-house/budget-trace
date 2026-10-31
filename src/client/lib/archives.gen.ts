@@ -6841,6 +6841,8 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.town.aichi-togo.lg.jp/material/files/group/6/07ippannkaikei.pdf": "https://web.archive.org/web/20261026141442/https://www.town.aichi-togo.lg.jp/material/files/group/6/07ippannkaikei.pdf",
   "https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/13390.html": "https://web.archive.org/web/20261026141611/https://www.town.aichi-togo.lg.jp/gyoseijoho/gyozaisei/zaisei_yosan_kessan/3/13390.html",
   "https://www.town.aichi-togo.lg.jp/material/files/group/6/01_gian202613.pdf": "https://web.archive.org/web/20261026141552/https://www.town.aichi-togo.lg.jp/material/files/group/6/01_gian202613.pdf",
+  "https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf": "https://web.archive.org/web/20261031172600/https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf",
+  "https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf": "https://web.archive.org/web/20261031172550/https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf",
   "https://www.vill.tokai.ibaraki.jp/material/files/group/2/R3ippankaikei.pdf": "https://web.archive.org/web/20260712112528/https://www.vill.tokai.ibaraki.jp/material/files/group/2/R3ippankaikei.pdf",
   "https://www.vill.tokai.ibaraki.jp/soshikikarasagasu/soumubu/zaiseikeiei/1/3/3/5641.html": "https://web.archive.org/web/20260315051216/https://www.vill.tokai.ibaraki.jp/soshikikarasagasu/soumubu/zaiseikeiei/1/3/3/5641.html",
   "https://www.vill.tokai.ibaraki.jp/material/files/group/37/R5ippankaikei.pdf": "https://web.archive.org/web/20260712123029/https://www.vill.tokai.ibaraki.jp/material/files/group/37/R5ippankaikei.pdf",
