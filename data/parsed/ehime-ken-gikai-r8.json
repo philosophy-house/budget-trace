@@ -1,0 +1,476 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ehime-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:32.541Z",
+  "fiscalYear": "R8",
+  "body": "愛媛県議会",
+  "seats": 46,
+  "asOf": "2025-07-15",
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 30,
+      "isIndependent": false,
+      "members": [
+        "明比昭治",
+        "石川剛",
+        "大石豪",
+        "大西誠",
+        "大政博文",
+        "岡田志朗",
+        "岡田教人",
+        "小畠源",
+        "戒能潤之介",
+        "川本健太",
+        "鈴木俊広",
+        "田井野駿",
+        "高橋英行",
+        "高山康人",
+        "中田晃太郎",
+        "中畑保一",
+        "永易英寿",
+        "西田洋一",
+        "西原進平",
+        "新田泰史",
+        "福羅浩一",
+        "帽子大輔",
+        "松尾和久",
+        "松下行吉",
+        "三宅浩正",
+        "村上信太郎",
+        "毛利修三",
+        "山崎洋靖",
+        "山本太一",
+        "渡部浩"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "愛媛維新の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "越智忍",
+        "神野恭多",
+        "塩出崇",
+        "兵頭竜"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "木村誉",
+        "笹岡博之",
+        "乗松幸子"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "リベラル愛媛",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "菅森実",
+        "檜垣良太"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "田中克彦"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "ネットワーク市民の窓",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "武井多佳子"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "国民民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "加藤瑞穂"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無所属（菊池伸英）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "菊池伸英"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "無所属（西岡新）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "西岡新"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "無所属（中野泰誠）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中野泰誠"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "無所属（井川剛）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "井川剛"
+      ],
+      "locator": {
+        "file": "ehime_12721.html",
+        "row": 11
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "定1",
+    "billName": "令和8年度愛媛県一般会計予算",
+    "sessionLabel": "第395回（令和8年2月）定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "ehime_135186.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和7年7月15日現在）",
+  "resultTitle": "提出議案【知事提出の部】（第395回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年２月定例会付議事件名及び議決結果一覧表（議員別賛否の状況）",
+    "sourceFile": "ehime_174305.pdf",
+    "columns": [
+      {
+        "label": "中畑保一",
+        "faction": "自由民主党",
+        "member": "中畑保一",
+        "stance": "賛成"
+      },
+      {
+        "label": "西原進平",
+        "faction": "自由民主党",
+        "member": "西原進平",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田志朗",
+        "faction": "自由民主党",
+        "member": "岡田志朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "明比昭治",
+        "faction": "自由民主党",
+        "member": "明比昭治",
+        "stance": "賛成"
+      },
+      {
+        "label": "戒能潤之介",
+        "faction": "自由民主党",
+        "member": "戒能潤之介",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡部浩",
+        "faction": "自由民主党",
+        "member": "渡部浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "毛利修三",
+        "faction": "自由民主党",
+        "member": "毛利修三",
+        "stance": "賛成"
+      },
+      {
+        "label": "高山康人",
+        "faction": "自由民主党",
+        "member": "高山康人",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木俊広",
+        "faction": "自由民主党",
+        "member": "鈴木俊広",
+        "stance": "賛成"
+      },
+      {
+        "label": "西田洋一",
+        "faction": "自由民主党",
+        "member": "西田洋一",
+        "stance": "賛成"
+      },
+      {
+        "label": "三宅浩正",
+        "faction": "自由民主党",
+        "member": "三宅浩正",
+        "stance": "賛成"
+      },
+      {
+        "label": "福羅浩一",
+        "faction": "自由民主党",
+        "member": "福羅浩一",
+        "stance": "議長"
+      },
+      {
+        "label": "松尾和久",
+        "faction": "自由民主党",
+        "member": "松尾和久",
+        "stance": "賛成"
+      },
+      {
+        "label": "大西誠",
+        "faction": "自由民主党",
+        "member": "大西誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "松下行吉",
+        "faction": "自由民主党",
+        "member": "松下行吉",
+        "stance": "賛成"
+      },
+      {
+        "label": "大石豪",
+        "faction": "自由民主党",
+        "member": "大石豪",
+        "stance": "賛成"
+      },
+      {
+        "label": "帽子大輔",
+        "faction": "自由民主党",
+        "member": "帽子大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "川本健太",
+        "faction": "自由民主党",
+        "member": "川本健太",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋英行",
+        "faction": "自由民主党",
+        "member": "高橋英行",
+        "stance": "賛成"
+      },
+      {
+        "label": "新田泰史",
+        "faction": "自由民主党",
+        "member": "新田泰史",
+        "stance": "賛成"
+      },
+      {
+        "label": "山崎洋靖",
+        "faction": "自由民主党",
+        "member": "山崎洋靖",
+        "stance": "賛成"
+      },
+      {
+        "label": "中田晃太郎",
+        "faction": "自由民主党",
+        "member": "中田晃太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "大政博文",
+        "faction": "自由民主党",
+        "member": "大政博文",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川剛",
+        "faction": "自由民主党",
+        "member": "石川剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "永易英寿",
+        "faction": "自由民主党",
+        "member": "永易英寿",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本太一",
+        "faction": "自由民主党",
+        "member": "山本太一",
+        "stance": "賛成"
+      },
+      {
+        "label": "小畠源",
+        "faction": "自由民主党",
+        "member": "小畠源",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田教人",
+        "faction": "自由民主党",
+        "member": "岡田教人",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上信太郎",
+        "faction": "自由民主党",
+        "member": "村上信太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "田井野駿",
+        "faction": "自由民主党",
+        "member": "田井野駿",
+        "stance": "賛成"
+      },
+      {
+        "label": "越智忍",
+        "faction": "愛媛維新の会",
+        "member": "越智忍",
+        "stance": "賛成"
+      },
+      {
+        "label": "兵頭竜",
+        "faction": "愛媛維新の会",
+        "member": "兵頭竜",
+        "stance": "賛成"
+      },
+      {
+        "label": "塩出崇",
+        "faction": "愛媛維新の会",
+        "member": "塩出崇",
+        "stance": "賛成"
+      },
+      {
+        "label": "神野恭多",
+        "faction": "愛媛維新の会",
+        "member": "神野恭多",
+        "stance": "賛成"
+      },
+      {
+        "label": "笹岡博之",
+        "faction": "公明党",
+        "member": "笹岡博之",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村誉",
+        "faction": "公明党",
+        "member": "木村誉",
+        "stance": "賛成"
+      },
+      {
+        "label": "乗松幸子",
+        "faction": "公明党",
+        "member": "乗松幸子",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅森実",
+        "faction": "リベラル愛媛",
+        "member": "菅森実",
+        "stance": "賛成"
+      },
+      {
+        "label": "檜垣良太",
+        "faction": "リベラル愛媛",
+        "member": "檜垣良太",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中克彦",
+        "faction": "日本共産党",
+        "member": "田中克彦",
+        "stance": "反対"
+      },
+      {
+        "label": "武井多佳子",
+        "faction": "ネットワーク市民の窓",
+        "member": "武井多佳子",
+        "stance": "反対"
+      },
+      {
+        "label": "加藤瑞穂",
+        "faction": "国民民主党",
+        "member": "加藤瑞穂",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊池伸英",
+        "faction": "無所属（菊池伸英）",
+        "member": "菊池伸英",
+        "stance": "賛成"
+      },
+      {
+        "label": "西岡新",
+        "faction": "無所属（西岡新）",
+        "member": "西岡新",
+        "stance": "賛成"
+      },
+      {
+        "label": "中野泰誠",
+        "faction": "無所属（中野泰誠）",
+        "member": "中野泰誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "井川剛",
+        "faction": "無所属（井川剛）",
+        "member": "井川剛",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

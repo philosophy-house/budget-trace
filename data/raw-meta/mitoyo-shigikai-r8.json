@@ -1,0 +1,26 @@
+{
+  "sourceId": "mitoyo-shigikai-r8",
+  "files": [
+    {
+      "filename": "mitoyo_7274.html",
+      "sha256": "2a6a2397776550a3ee6996e45e4ac844ee5f1b86b4decbd677b1bb421ef0d4e3",
+      "bytes": 44515,
+      "fetchedAt": "2026-10-31T08:34:30.575Z",
+      "fetchedFrom": "https://www.city.mitoyo.lg.jp/gikai/meibo/7274.html"
+    },
+    {
+      "filename": "mitoyo_81giankekkahp.pdf",
+      "sha256": "f19146efdd977006d054f37de43e55183faae65c266841fbbcfaa4e49c2dfe1d",
+      "bytes": 126335,
+      "fetchedAt": "2026-10-31T08:34:30.575Z",
+      "fetchedFrom": "https://www.city.mitoyo.lg.jp/material/files/group/3/81giankekkahp.pdf"
+    },
+    {
+      "filename": "mitoyo_7033.html",
+      "sha256": "5c6ffdb883679eeaf87c6b3abd98865bd1e2a48d9a69ac015698c280f00cf698",
+      "bytes": 38405,
+      "fetchedAt": "2026-10-31T08:34:30.575Z",
+      "fetchedFrom": "https://www.city.mitoyo.lg.jp/gikai/gikai/7033.html"
+    }
+  ]
+}

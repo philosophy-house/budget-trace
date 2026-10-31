@@ -1423,6 +1423,24 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "282219": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "一般会計予算は議会で修正して可決された。公開されている当初予算の概要は修正前の提案時の額（227億4,000万円）のままで、修正後の款別の額は翌年度の資料の前年度の列にしか無い。",
+        "checkedOn": "2026-10-31"
+      }
+    ]
+  },
+  "282286": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "款ごとの表で、一部の款名の文字が文字の情報として埋め込まれておらず、正しく取り出せない。",
+        "checkedOn": "2026-10-31"
+      }
+    ]
+  },
   "292028": {
     "budget": [
       {
@@ -1720,6 +1738,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和4年度・令和3年度・令和2年度",
         "reason": "一般会計予算書と記者会見説明資料が、どちらも紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "402150": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "款ごとの表が載っている当初予算関係資料がスキャン画像で、文字の情報が無い。",
+        "checkedOn": "2026-10-31"
       }
     ]
   },
@@ -2310,6 +2337,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "一般会計予算書がウェブに掲載されていない。款別の前年度比較が載っている「当初予算資料」の表は3年度分を並べた表で、新しく設けられた款や廃止された款の古い年度の欄が空欄のため列が詰まり、既存パーサが前年度の列を取り違える。",
         "checkedOn": "2026-10-07"
+      }
+    ]
+  },
+  "062065": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算書がウェブに無く、公開されている内示資料の款別の表は、款名の続きが項の行と同じ行に並んでいて、款名を正しく取り出せない。",
+        "checkedOn": "2026-10-31"
       }
     ]
   },

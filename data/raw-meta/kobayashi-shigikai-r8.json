@@ -1,0 +1,26 @@
+{
+  "sourceId": "kobayashi-shigikai-r8",
+  "files": [
+    {
+      "filename": "kobayashi_2772_20250430.html",
+      "sha256": "131406c6eafcbffe7132458ed27ff46ffa9923c7493d20f8715c0f17ed6628c4",
+      "bytes": 92719,
+      "fetchedAt": "2026-10-31T08:34:30.617Z",
+      "fetchedFrom": "https://web.archive.org/web/20250430202822id_/https://www.city.kobayashi.lg.jp/gyoseijoho/gikai/giinshokai/2772.html"
+    },
+    {
+      "filename": "kobayashi_R0803hyouketukekkaitiran.pdf",
+      "sha256": "5dd87f4d1cd5d8eae6f94de8436446c9fb7852e6b057e3729a0c8b80b157bb9f",
+      "bytes": 997926,
+      "fetchedAt": "2026-10-31T08:34:30.619Z",
+      "fetchedFrom": "https://www.city.kobayashi.lg.jp/material/files/group/2/R0803hyouketukekkaitiran.pdf"
+    },
+    {
+      "filename": "kobayashi_10896.html",
+      "sha256": "85e5d0e923b33d72f4053b3ab457863e5a9a8f383c8a3a35b286ee2914c91750",
+      "bytes": 97849,
+      "fetchedAt": "2026-10-31T08:34:30.619Z",
+      "fetchedFrom": "https://www.city.kobayashi.lg.jp/soshikikarasagasu/gikaijimukyoku/gikai/3/reiwa8nenn/10896.html"
+    }
+  ]
+}

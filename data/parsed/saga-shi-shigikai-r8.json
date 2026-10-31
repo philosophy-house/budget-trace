@@ -1,0 +1,162 @@
+{
+  "docType": "council-composition",
+  "sourceId": "saga-shi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:34.939Z",
+  "fiscalYear": "R8",
+  "body": "佐賀市議会",
+  "seats": 36,
+  "asOf": "2026-03-24",
+  "teisu": 36,
+  "factions": [
+    {
+      "name": "自民さが",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "川副龍之介",
+        "宮﨑健",
+        "西岡義広",
+        "江頭弘美",
+        "千綿正明",
+        "松永幹哉",
+        "江原新子",
+        "川﨑健二",
+        "稲葉嵩広",
+        "中尾和幸"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民市政会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "山口弘展",
+        "諸冨八千代",
+        "黒田利人",
+        "重田音彦",
+        "永渕史孝",
+        "藤井英貴",
+        "岡山香織",
+        "山崎純",
+        "山田宏一郎"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ネットワーク佐賀",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山田誠一郎",
+        "藤田佳典",
+        "德永文子",
+        "草場健次",
+        "江口由里子"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "村岡卓",
+        "中島妙子",
+        "野中宣明",
+        "吉川正剛"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民清流",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "平原嘉德",
+        "重松徹",
+        "西岡真一",
+        "御厨洋行"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民共同（山下明子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山下明子"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党（山本愛）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山本愛"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "STEP-UP FOR SAGA（南里朱美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "南里朱美"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政党（山下勝也）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山下勝也"
+      ],
+      "locator": {
+        "file": "KhB725_03.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号議案",
+    "billName": "令和８年度佐賀市一般会計予算",
+    "sessionLabel": "令和８年 ２月 定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "g07_giketsu_R0802.html"
+    }
+  },
+  "rosterTitle": "さが市議会だより第94号（令和8年2月定例会）p.6「賛否が分かれた議案等の採決結果」の表頭の会派と氏名",
+  "resultTitle": "会議結果一覧（令和８年 ２月 定例会）"
+}
