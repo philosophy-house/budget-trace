@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.21";
+export const PARSER_VERSION = "0.8.22";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -613,6 +613,16 @@ function legendPairOk(texts: LegendCtx[], k: string, v: string, keys: string[]):
     });
   const crosses = (between: string) => (/[、，,。]/.test(between) && !/[\p{L}\p{N}]/u.test(between.replace(/[、，,。 ]/g, ""))) || keyIn(between);
   const SEP = "[:：;；＝=…・.は→⇒]";
+  const negated = (follow: string) => /^ ?(なし|無し|なく|無く|ゼロ)/.test(follow);
+  // str[at] がこの凡例の1字の記号か（飾りの「◆」＝藤枝「◆賛否の分かれた議案◆ ○賛成」や区切りの「/」は数えない。
+  // 漢字の記号は語の一部＝「議案」の「議」を除く）
+  const singleKeys = allKeys.filter((x) => [...x].length === 1);
+  const isMark = (str: string, at: number) => {
+    const ch = str[at]!;
+    if (!singleKeys.includes(ch)) return false;
+    if (!/\p{Script=Han}/u.test(ch)) return true;
+    return !/\p{Script=Han}/u.test(str[at - 1] ?? "") && !/\p{Script=Han}/u.test(str[at + 1] ?? "");
+  };
   for (const c of texts) {
     // 1字ずつ空白で区切られた原典（縦書きのセルの「議 長 の た め 採 決 に…」栃木市）では空白に区切りの意味が無いので詰めて読む
     const chars = c.mid.replace(/ /g, "").length;
@@ -630,7 +640,16 @@ function legendPairOk(texts: LegendCtx[], k: string, v: string, keys: string[]):
         if (v === "議長" && /^議長(のため|は)?(採決|表決|裁決|議決)に加わら/.test(t.slice(i).replace(/ /g, ""))) return true;
         continue;
       }
-      const fwd = new RegExp(`^ ?${SEP}+ ?`).exec(after);
+      // 記号の並び（表の行）の中の出現は、凡例の項ではない（0.8.22）。空白を飛ばした隣の字が別の記号なら、その出現は表の行の
+      // 一部で、近い方の語として行の後ろの結果欄（静岡市「× 賛成多数」・北杜「× ※全員賛成で」）や見出しの前の項の語
+      // （中野区「○:賛成 × ○ ○」）を読むと、凡例の書き換えで反対を賛成として表示できた（#430 のレビュー5巡目・12件）。
+      // 並びの中の出現は、記号の直後・直前に区切り（：＝は）を置いた読み方だけを、並びと反対の側で認める
+      // （凡例の末尾の記号の直後に表の行が続く原典＝赤穂「欠席：欠 ○ ○」は前の側の「：」で読む）
+      const leftAt = before.replace(/ +$/, "").length - 1;
+      const rightAt = after.length - after.replace(/^ +/, "").length;
+      const leftRun = leftAt >= 0 && isMark(before, leftAt);
+      const rightRun = rightAt < after.length && isMark(after, rightAt);
+      const fwd = rightRun ? null : new RegExp(`^ ?${SEP}+ ?`).exec(after);
       let word: string | undefined;
       if (fwd) {
         const w = firstIn(after.slice(fwd[0].length, fwd[0].length + 10));
@@ -639,7 +658,7 @@ function legendPairOk(texts: LegendCtx[], k: string, v: string, keys: string[]):
       // 語が先に来る書き方（「賛成＝○」「賛成者は○」「賛成・・・○」新宿）は前の語。前に語が無ければ（原典の「凡例:」の直後の
       // 「「○」賛成」＝奈良県）近い方の語を読む
       let tried = false;
-      if (!fwd && new RegExp(`${SEP} ?$`).test(before)) {
+      if (!fwd && !leftRun && new RegExp(`${SEP} ?$`).test(before)) {
         const head = before.replace(new RegExp(`(${SEP}| )+$`), "").replace(/者$/, "").slice(-10);
         const w = lastIn(head);
         if (w) {
@@ -647,13 +666,17 @@ function legendPairOk(texts: LegendCtx[], k: string, v: string, keys: string[]):
           if (!crosses(head.slice(head.length - w.d))) word = w.w;
         }
       }
-      if (!fwd && !tried) {
+      if (!fwd && !tried && !leftRun && !rightRun) {
         const beforeMid = M.slice(0, i - P.length);
         let f: { w: string; d: number } | undefined = firstIn(after.slice(0, 12));
         let b: { w: string; d: number } | undefined = lastIn(beforeMid.slice(-12));
         if (f && crosses(after.slice(0, f.d))) f = undefined;
         if (b && crosses(beforeMid.slice(beforeMid.length - b.d))) b = undefined;
-        word = !f ? b?.w : !b ? f.w : f.d <= b.d ? f.w : b.w;
+        const pick = !f ? b : !b ? f : f.d <= b.d ? f : b;
+        // 「なし」「無し」で打ち消した語（議決結果の「賛成19票、反対なし 欠…」＝名取）は記号の意味ではない（0.8.22）。
+        // 選んだ語が打ち消されていたら、この出現は読まない（もう片側の語へ落とすと「反対 欠 賛成なし」で「欠：反対」が開く＝レビュー）
+        const follow = pick === f ? after.slice(f!.d + f!.w.length) : pick ? beforeMid.slice(beforeMid.length - pick.d) : "";
+        word = pick && !negated(follow) ? pick.w : undefined;
       }
       if (word && own.includes(word)) return true;
     }
