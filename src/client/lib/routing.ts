@@ -542,6 +542,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "082309": "kasumigaura",
   "282057": "sumoto",
   "243418": "komono",
+  "052078": "yuzawa", // ⚠ 新潟県湯沢町 154610 とは別団体（湯沢町は未収録）
+  "423076": "nagayo",
+  "062065": "sagae",
+  "282286": "kato",
+  "144011": "aikawa",
+  "152234": "agano",
+  "162078": "kurobe",
+  "282219": "tambasasayama",
+  "382078": "ozu",
+  "402150": "nakama",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",

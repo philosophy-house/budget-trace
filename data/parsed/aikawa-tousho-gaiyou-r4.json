@@ -1,0 +1,402 @@
+{
+  "docType": "budget-book",
+  "sourceId": "aikawa-tousho-gaiyou-r4",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-10-31T08:09:51.128Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R4",
+  "account": "一般会計",
+  "revenueTotal": 13472000,
+  "expenditureTotal": 13472000,
+  "prevRevenueTotal": 13155000,
+  "prevExpenditureTotal": 13155000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "町税",
+      "amount": 7402183,
+      "prevAmount": 7235631,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 122500,
+      "prevAmount": 112000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 2500,
+      "prevAmount": 2500,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 27000,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 22000,
+      "prevAmount": 16000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 111000,
+      "prevAmount": 91000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 971000,
+      "prevAmount": 977000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 41000,
+      "prevAmount": 39000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "環境性能割交付金",
+      "amount": 24000,
+      "prevAmount": 24000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方特例交付金",
+      "amount": 38000,
+      "prevAmount": 46000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方交付税",
+      "amount": 260010,
+      "prevAmount": 30010,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 6000,
+      "prevAmount": 5500,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "分担金及び負担金",
+      "amount": 26230,
+      "prevAmount": 28181,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "使用料及び手数料",
+      "amount": 298469,
+      "prevAmount": 291757,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "国庫支出金",
+      "amount": 1677632,
+      "prevAmount": 1695566,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "県支出金",
+      "amount": 1027421,
+      "prevAmount": 1017137,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "財産収入",
+      "amount": 553,
+      "prevAmount": 547,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "寄附金",
+      "amount": 25804,
+      "prevAmount": 17175,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰入金",
+      "amount": 172505,
+      "prevAmount": 201060,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰越金",
+      "amount": 250000,
+      "prevAmount": 250000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "諸収入",
+      "amount": 409093,
+      "prevAmount": 477036,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "町債",
+      "amount": 557100,
+      "prevAmount": 572900,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 3
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 173271,
+      "prevAmount": 173328,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 1456795,
+      "prevAmount": 1393030,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 5204964,
+      "prevAmount": 5168107,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 1580596,
+      "prevAmount": 1613383,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "農林水産業費",
+      "amount": 241198,
+      "prevAmount": 194383,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "商工費",
+      "amount": 443519,
+      "prevAmount": 319587,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "土木費",
+      "amount": 1361166,
+      "prevAmount": 1341150,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "消防費",
+      "amount": 768224,
+      "prevAmount": 666987,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "教育費",
+      "amount": 1416427,
+      "prevAmount": 1385755,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "災害復旧費",
+      "amount": 1081,
+      "prevAmount": 2498,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "公債費",
+      "amount": 757759,
+      "prevAmount": 736792,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "諸支出金",
+      "amount": 7000,
+      "prevAmount": 100000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "予備費",
+      "amount": 60000,
+      "prevAmount": 60000,
+      "locator": {
+        "file": "R4tousyokisyahappyou.pdf",
+        "page": 5
+      }
+    }
+  ]
+}
