@@ -1,0 +1,244 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sanyoonoda-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:46:59.880Z",
+  "fiscalYear": "R8",
+  "body": "山陽小野田市議会",
+  "seats": 22,
+  "asOf": "2025-10-27",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "創政会",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "宮本政志",
+        "奥良秀",
+        "伊場勇",
+        "恒松恵子",
+        "藤岡修美",
+        "中岡英二",
+        "福田勝政",
+        "穐本真一",
+        "脇本直美",
+        "大井淳一朗",
+        "中村博行",
+        "髙松秀樹"
+      ],
+      "locator": {
+        "file": "sanyoonoda_kaihabetumeibo_wb20260202.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "羅針盤",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "白井健一郎",
+        "濱本健吾",
+        "武野裕司"
+      ],
+      "locator": {
+        "file": "sanyoonoda_kaihabetumeibo_wb20260202.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中島好人",
+        "山田伸幸"
+      ],
+      "locator": {
+        "file": "sanyoonoda_kaihabetumeibo_wb20260202.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民ネット",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "前田浩司",
+        "大年恒夫",
+        "北永千賀",
+        "矢田松夫"
+      ],
+      "locator": {
+        "file": "sanyoonoda_kaihabetumeibo_wb20260202.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "会派に属していない議員（藤谷圭子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "藤谷圭子"
+      ],
+      "locator": {
+        "file": "sanyoonoda_kaihabetumeibo_wb20260202.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１５号",
+    "billName": "令和８年度山陽小野田市一般会計予算について",
+    "sessionLabel": "令和8年第1回（3月）定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "sanyoonoda_74508.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年10月27日現在）— Wayback Machine の 2026-02-02 の捕捉",
+  "resultTitle": "令和8年第1回（3月）定例会 議案の審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第1回（3月）定例会 議案の審議結果 議案第１５号の行（議員ごと）",
+    "sourceFile": "sanyoonoda_74508.pdf",
+    "columns": [
+      {
+        "label": "穐本真一",
+        "faction": "創政会",
+        "member": "穐本真一",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊場勇",
+        "faction": "創政会",
+        "member": "伊場勇",
+        "stance": "賛成"
+      },
+      {
+        "label": "大井淳一朗",
+        "faction": "創政会",
+        "member": "大井淳一朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "大年恒夫",
+        "faction": "市民ネット",
+        "member": "大年恒夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥良秀",
+        "faction": "創政会",
+        "member": "奥良秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "北永千賀",
+        "faction": "市民ネット",
+        "member": "北永千賀",
+        "stance": "賛成"
+      },
+      {
+        "label": "白井健一郎",
+        "faction": "羅針盤",
+        "member": "白井健一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "武野裕司",
+        "faction": "羅針盤",
+        "member": "武野裕司",
+        "stance": "賛成"
+      },
+      {
+        "label": "恒松恵子",
+        "faction": "創政会",
+        "member": "恒松恵子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中岡英二",
+        "faction": "創政会",
+        "member": "中岡英二",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島好人",
+        "faction": "日本共産党",
+        "member": "中島好人",
+        "stance": "反対"
+      },
+      {
+        "label": "中村博行",
+        "faction": "創政会",
+        "member": "中村博行",
+        "stance": "賛成"
+      },
+      {
+        "label": "濱本健吾",
+        "faction": "羅針盤",
+        "member": "濱本健吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田勝政",
+        "faction": "創政会",
+        "member": "福田勝政",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤岡修美",
+        "faction": "創政会",
+        "member": "藤岡修美",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤谷圭子",
+        "faction": "会派に属していない議員（藤谷圭子）",
+        "member": "藤谷圭子",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田浩司",
+        "faction": "市民ネット",
+        "member": "前田浩司",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮本政志",
+        "faction": "創政会",
+        "member": "宮本政志",
+        "stance": "賛成"
+      },
+      {
+        "label": "矢田松夫",
+        "faction": "市民ネット",
+        "member": "矢田松夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田伸幸",
+        "faction": "日本共産党",
+        "member": "山田伸幸",
+        "stance": "反対"
+      },
+      {
+        "label": "脇本直美",
+        "faction": "創政会",
+        "member": "脇本直美",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙松秀樹",
+        "faction": "創政会",
+        "member": "髙松秀樹",
+        "stance": "議長"
+      }
+    ]
+  }
+}
