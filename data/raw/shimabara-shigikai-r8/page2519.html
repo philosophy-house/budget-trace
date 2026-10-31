@@ -1,0 +1,487 @@
+﻿
+<!DOCTYPE html>
+<html lang="ja">
+<head id="ctl00_Head1"><meta charset="UTF-8" /><meta name="format-detection" content="telephone=no" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>
+	常任委員会名簿 / 島原市議会TOP / 島原市
+</title><script type='text/javascript'>var glapiky='AIzaSyCsH4LvGj6rtrToETDZ5Kd20gQie64lA_A';</script>
+<script type="text/javascript" language="JavaScript">
+<!--
+    function enterCancel(event)
+    {
+        if (event.keyCode == 13)
+        {
+            var elem;
+            if(event.srcElement)
+            {
+                elem = event.srcElement;
+            }
+            else
+            {
+                elem = event.target;
+            }
+            if(elem.type!='submit' && elem.type!='textarea' && elem.tagName!='A' && elem.tagName!='a') /* 2011/04/04 a tag OK */
+            {
+                if (event.preventDefault) 
+                {
+                    event.preventDefault();
+                } 
+                else 
+                {
+                    event.returnValue = false;
+                }
+            }
+        }
+    }
+    function change_size(size) {
+        var theForm = document.forms[0];
+        theForm.fontSize.value = size;
+        theForm.submit();
+    }
+    
+    /* Same Func is available in AjaxCalForIE6*/
+    function ajaxCalOnClientShown(){
+        /*IE6 does not have "maxHeight"*/
+        if (typeof document.documentElement.style.maxHeight == "undefined") {
+            try{
+                $$("select").each(function(_itm){
+                    _itm.style.visibility="hidden";
+                });
+            }catch(err){
+            }
+        }
+    }    
+    /* Same Func is available in AjaxCalForIE6*/
+    function ajaxCalOnClientHidden(){
+        /*IE6 does not have "maxHeight"*/
+        if (typeof document.documentElement.style.maxHeight == "undefined") {
+            try{
+                $$("select").each(function(_itm){
+                    _itm.style.visibility="visible";
+                });
+            }catch(err){
+            }
+        }
+    }
+    
+    var pankuzu_flg = false;
+    function pankuzu_openclose(pankuzu_cnt)
+    {
+        var pankuzu_close = document.getElementById("pankuzu-close");
+        var pankuzu_more = document.getElementById("openclose_msg");
+        if(!pankuzu_flg)
+        {
+            pankuzu_close.style.display="block";
+            pankuzu_more.innerHTML = "閉じる";
+            pankuzu_flg = true;       
+        }
+        else
+        {
+            pankuzu_close.style.display="none";
+            pankuzu_more.innerHTML = "もっと見る（全"+pankuzu_cnt+"件）";
+            pankuzu_flg = false;
+        }
+    }
+    function footerPankuzu_openclose(pankuzu_cnt)
+    {
+        var pankuzu_close = document.getElementById("footerPankuzu-close");
+        var pankuzu_more = document.getElementById("footerOpenclose_msg");
+        if(!pankuzu_flg)
+        {
+            pankuzu_close.style.display="block";
+            pankuzu_more.innerHTML = "閉じる";
+            pankuzu_flg = true;       
+        }
+        else
+        {
+            pankuzu_close.style.display="none";
+            pankuzu_more.innerHTML = "もっと見る（全"+pankuzu_cnt+"件）";
+            pankuzu_flg = false;
+        }
+    }
+    
+    function clickButton(id, event){
+        if (event.keyCode == 13)
+        {
+            document.getElementById(id).click();
+
+            if (event.preventDefault) 
+            {
+                event.preventDefault();
+            } 
+            else 
+            {
+                event.returnValue = false;
+            }
+        }
+    }
+    
+    function checkValue(obj){
+        var keyword = document.getElementById(obj).value;
+        keyword = keyword.replace(/^[\s　]+|[\s　]$/g, "");
+        if (keyword.length==0){
+            alert('検索キーワードを入力してください。');
+            return false;
+        }
+    }
+//-->
+</script>
+<link href="https://www.city.shimabara.lg.jp/gikai/common/css/Default.css" rel="stylesheet" type="text/css" /><link href="https://www.city.shimabara.lg.jp/gikai/common/css/stylesheet.css" rel="stylesheet" type="text/css" /><link href="https://www.city.shimabara.lg.jp/gikai/hpkiji/designcss/design01.css" rel="stylesheet" type="text/css" /><link href="https://www.city.shimabara.lg.jp/gikai/common/css/fontSizeN.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="https://www.city.shimabara.lg.jp/gikai/common/css/uiW_gikai.css" /><link href="https://www.city.shimabara.lg.jp/gikai/favicon.ico" rel="icon" type="image/vnd.microsoft.icon" /><link href="https://www.city.shimabara.lg.jp/gikai/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /><link href="https://www.city.shimabara.lg.jp/gikai/common/css/gikai_body.css" rel="stylesheet" type="text/css" /><script id="ctl00_jquery_min_js" type="text/javascript" src="https://www.city.shimabara.lg.jp/gikai/common/js/jquery.min.js"></script><meta property="og:type" content="article" /><meta id="ctl00_MetaOGPTitle" property="og:title" content="常任委員会名簿" /><meta property="og:image" content="https://www.city.shimabara.lg.jp/gikai/common/images/ogp/og_image_02.gif" /><meta property="og:url" content="https://www.city.shimabara.lg.jp/hpkiji/pub/detail.aspx?c_id=3&amp;id=2519" /><meta property="og:description" content="常任委員会名簿 / 島原市議会TOP / 島原市" /><meta property="og:site_name" content="島原市" /><meta property="og:locality" content="Shimabara-shi" /><meta property="og:region" content="Nagasaki" /><meta property="og:country-name" content="Japan" /><meta name="keywords" content="常任委員会名簿" /></head>
+<body class="haikei_12">
+<form name="aspnetForm" method="post" action="/page2519.html" id="aspnetForm" enctype="multipart/form-data" onkeydown="enterCancel(event||window.event);">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWBmYPZBYCAgUPFgIeBFRleHQFXjxzY3JpcHQgdHlwZT0ndGV4dC9qYXZhc2NyaXB0Jz52YXIgZ2xhcGlreT0nQUl6YVN5Q3NINEx2R2o2cnRyVG9FVERaNUtkMjBnUWllNjRsQV9BJzs8L3NjcmlwdD5kAgEPFgQeBmFjdGlvbgUOL3BhZ2UyNTE5Lmh0bWweCW9ua2V5ZG93bgUhZW50ZXJDYW5jZWwoZXZlbnR8fHdpbmRvdy5ldmVudCk7FhhmDxYCHwBlZAIBDxYCHwBlZAIDD2QWHAICDxYCHwAFpwI8bWFwIGlkPSJoZWFkZXJfaW1nIiBuYW1lPSJoZWFkZXJfaW1nIj48YXJlYSBzaGFwZT0icmVjdCIgYWx0PSLls7bljp/luILorbDkvJoiIGNvb3Jkcz0iMTQ4LDAsMzAwLDU1IiBocmVmPSJodHRwczovL3d3dy5jaXR5LnNoaW1hYmFyYS5sZy5qcC9naWthaS9kZWZhdWx0LmFzcHgiIC8+PGFyZWEgc2hhcGU9InJlY3QiIGFsdD0i5bO25Y6f5biCIiBjb29yZHM9IjAsMCwxNDcsNTUiIGhyZWY9Imh0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2RlZmF1bHQuYXNweCIgdGFyZ2V0PSJfYmxhbmsiIC8+PC9tYXA+ZAIDDxYCHwAFFDxkaXYgaWQ9ImhlYWRlcl8xMiI+ZAIFDw8WBB4ISW1hZ2VVcmwFa2h0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2dpa2FpL2NvbW1vbi9VcGxvYWRGaWxlT3V0cHV0LmFzaHg/Y19pZD0xMiZzZXRfcGljPTEmdXBkZmxfdG9waGQ9MSZnemtibj0wHg1BbHRlcm5hdGVUZXh0BQnluILorbDkvJpkZAIGDxYCHgdWaXNpYmxlZxYEZg8PZBYGHwIFNGNsaWNrQnV0dG9uKCdjdGwwMF9CdG5TZWFyY2gnLCBldmVudHx8d2luZG93LmV2ZW50KTseBXRpdGxlBUXjgrXjgqTjg4jlhoXmpJzntKLjgIDmpJzntKLjgZnjgovoqp7lj6XjgpLlhaXlipvjgZfjgabjgY/jgaDjgZXjgYTjgIIeC3BsYWNlaG9sZGVyBRLjgrXjgqTjg4jlhoXmpJzntKJkAgEPDxYEHwMFQ2h0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2dpa2FpL2NvbW1vbi9pbWFnZXMvYnRuX3NlYXJjaC5wbmcfBAUG5qSc57SiFgIeB29uY2xpY2sFJXJldHVybiBjaGVja1ZhbHVlKCdjdGwwMF9UeHRTZWFyY2gnKTtkAgcPFgIfAAUGPC9kaXY+ZAIJDw8WAh8FaGRkAgoPDxYCHwVoZGQCDA8WAh8AZWQCDg8WAh8ABRU8ZGl2IGlkPSJwYW5rdXp1XzEyIj5kAg8PFgIfAGVkAhAPFgIfAGVkAhEPFgIfAGVkAhIPFgIfAAWTDDxkaXYgY2xhc3M9InBhbmt1enUtaW5uZXJfMTIiIHN0eWxlPSJwYWRkaW5nLWJvdHRvbTowcHgiPjxhIGhyZWY9Imh0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2dpa2FpLyIgY2xhc3M9J3NpemVBJyA+5bO25Y6f5biC6K2w5LyaVE9QPC9hPiZuYnNwOyZuYnNwO++8niZuYnNwOyZuYnNwOzxhIGhyZWY9Imh0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2dpa2FpL2hwa2lqaS9wdWIvRGVmYXVsdC5hc3B4P2NfaWQ9MyZhbXA7Y2xhc3Nfc2V0X2lkPTYiIGNsYXNzPSdzaXplQScgPuWztuWOn+W4guitsOS8mjwvYT4mbmJzcDsmbmJzcDvvvJ4mbmJzcDsmbmJzcDs8YSBocmVmPSJodHRwczovL3d3dy5jaXR5LnNoaW1hYmFyYS5sZy5qcC9naWthaS9ocGtpamkvcHViL0xpc3QuYXNweD9jX2lkPTMmYW1wO2NsYXNzX3NldF9pZD02JmFtcDtjbGFzc19pZD00MTYiIGNsYXNzPSdzaXplQScgPuW4guitsOS8muWQjeewvyA8L2E+Jm5ic3A7Jm5ic3A777yeJm5ic3A7Jm5ic3A7PGEgaHJlZj0iaHR0cHM6Ly93d3cuY2l0eS5zaGltYWJhcmEubGcuanAvZ2lrYWkvaHBraWppL3B1Yi9MaXN0LmFzcHg/Y19pZD0zJmFtcDtjbGFzc19zZXRfaWQ9NiZhbXA7Y2xhc3NfaWQ9NDIwIiBjbGFzcz0nc2l6ZUEnID7luLjku7vlp5Tlk6HkvJo8L2E+Jm5ic3A7Jm5ic3A777yeJm5ic3A7Jm5ic3A75bi45Lu75aeU5ZOh5Lya5ZCN57C/PC9kaXY+PGRpdiBpZD0icGFua3V6dS1jbG9zZSI+PGRpdiBjbGFzcz0icGFua3V6dS1pbm5lcl8xMiI+PGEgaHJlZj0iaHR0cHM6Ly93d3cuY2l0eS5zaGltYWJhcmEubGcuanAvZ2lrYWkvIiBjbGFzcz0nc2l6ZUEnID7ls7bljp/luILorbDkvJpUT1A8L2E+Jm5ic3A7Jm5ic3A777yeJm5ic3A7Jm5ic3A7PGEgaHJlZj0iaHR0cHM6Ly93d3cuY2l0eS5zaGltYWJhcmEubGcuanAvZ2lrYWkvaHBraWppL3B1Yi9EZWZhdWx0LmFzcHg/Y19pZD0zJmFtcDtjbGFzc19zZXRfaWQ9MiIgY2xhc3M9J3NpemVBJyA+57WE57mU44GL44KJ5o6i44GZPC9hPiZuYnNwOyZuYnNwO++8niZuYnNwOyZuYnNwOzxhIGhyZWY9Imh0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2dpa2FpL2hwa2lqaS9wdWIvTGlzdC5hc3B4P2NfaWQ9MyZhbXA7Y2xhc3Nfc2V0X2lkPTImYW1wO2NsYXNzX2lkPTkyIiBjbGFzcz0nc2l6ZUEnID7orbDkvJrkuovli5nlsYA8L2E+Jm5ic3A7Jm5ic3A777yeJm5ic3A7Jm5ic3A7PGEgaHJlZj0iaHR0cHM6Ly93d3cuY2l0eS5zaGltYWJhcmEubGcuanAvZ2lrYWkvaHBraWppL3B1Yi9MaXN0LmFzcHg/Y19pZD0zJmFtcDtjbGFzc19zZXRfaWQ9MiZhbXA7Y2xhc3NfaWQ9OTMiIGNsYXNzPSdzaXplQScgPue3j+WLmeiqv+afu+ePrTwvYT4mbmJzcDsmbmJzcDvvvJ4mbmJzcDsmbmJzcDvluLjku7vlp5Tlk6HkvJrlkI3nsL88L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJwYW5rdXp1LW1vcmUiPjxhIGhyZWY9ImphdmFzY3JpcHQ6cGFua3V6dV9vcGVuY2xvc2UoMikiPjxzcGFuIGlkPSJvcGVuY2xvc2VfbXNnIj7jgoLjgaPjgajopovjgovvvIjlhagy5Lu277yJPC9zcGFuPjwvYT48L2Rpdj5kAhMPFgIfAAUGPC9kaXY+ZAIEDxYCHwAFFzxkaXYgaWQ9ImNvbnRhaW5lcl8xMiI+ZAIHDxYCHwAFITxkaXYgY2xhc3M9InByZXZpZXdfbGFiZWwiPjwvZGl2PmQCCA9kFgJmD2QWDGYPFgIfBWhkAgEPFgIfAGVkAgIPZBYCAgEPZBYMZg8WAh8FaBYCAgEPFgIfAGVkAgIPFgIfAAUV5bi45Lu75aeU5ZOh5Lya5ZCN57C/ZAIDD2QWAmYPZBYCAgEPZBYCAgEPFgIfAAXVCDx1bCBjbGFzcz0ic25zYnV0dG9uIj48bGkgaWQ9InNuc2J1dHRvbl9mYWNlYm9vayI+PGlmcmFtZSBzcmM9Ii8vd3d3LmZhY2Vib29rLmNvbS9wbHVnaW5zL2xpa2UucGhwP2hyZWY9aHR0cHMlM2ElMmYlMmZ3d3cuY2l0eS5zaGltYWJhcmEubGcuanAlMmZnaWthaSUyZnBhZ2UyNTE5Lmh0bWwmYW1wO3NlbmQ9RkFMU0UmYW1wO2xheW91dD1idXR0b25fY291bnQmYW1wO3dpZHRoPTExNSZhbXA7c2hvd19mYWNlcz1UUlVFJmFtcDtmb250JmFtcDtjb2xvcnNjaGVtZT1saWdodCZhbXA7YWN0aW9uPWxpa2UmYW1wO2hlaWdodD0yMSIgc2Nyb2xsaW5nPSJubyIgZnJhbWVib3JkZXI9IjAiIHN0eWxlPSJib3JkZXI6bm9uZTsgb3ZlcmZsb3c6aGlkZGVuOyB3aWR0aDoxMTVweDsgaGVpZ2h0OjIxcHg7IiB0aXRsZT0iRmFjZWJvb2sg44GE44GE44Gt77yBIiBhbGxvd1RyYW5zcGFyZW5jeT0idHJ1ZSI+PC9pZnJhbWU+PC9saT48bGkgaWQ9InNuc2J1dHRvbl90d2l0dGVyIj48YSBocmVmPSJodHRwOi8vdHdpdHRlci5jb20vc2hhcmUiIGNsYXNzPSJ0d2l0dGVyLXNoYXJlLWJ1dHRvbiIgZGF0YS11cmw9Imh0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2dpa2FpL3BhZ2UyNTE5Lmh0bWwiIGRhdGEtY291bnR1cmw9Imh0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2dpa2FpL3BhZ2UyNTE5Lmh0bWwiIGRhdGEtdGV4dD0iIiBkYXRhLXZpYT0ic2htYnJwcm1hc3RlciIgZGF0YS1jb3VudD0iaG9yaXpvbnRhbCIgZGF0YS1sYW5nPSJqYSIgZGF0YS1oYXNodGFncz0ibmFnYXNha2ksc2hpbWFiYXJhIj5Ud2VldDwvYT48c2NyaXB0PiFmdW5jdGlvbihkLHMsaWQpe3ZhciBqcyxmanM9ZC5nZXRFbGVtZW50c0J5VGFnTmFtZShzKVswXTtpZighZC5nZXRFbGVtZW50QnlJZChpZCkpe2pzPWQuY3JlYXRlRWxlbWVudChzKTtqcy5pZD1pZDtqcy5zcmM9Ii8vcGxhdGZvcm0udHdpdHRlci5jb20vd2lkZ2V0cy5qcyI7Y2hhcnNldD0iVVRGLTgiO2Zqcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShqcyxmanMpO319KGRvY3VtZW50LCJzY3JpcHQiLCJ0d2l0dGVyLXdqcyIpOzwvc2NyaXB0PjwvbGk+PC91bD48ZGl2IGNsYXNzPSJjbGVhciI+PC9kaXY+ZAIEDxYCHwAFIuacgOe1guabtOaWsOaXpe+8mjIwMjXlubQ25pyIMjPml6VkAgUPZBYCZg9kFgICAQ9kFgICAQ8WAh8ABdsDPGRpdiBjbGFzcz0ia2VuZ2VuX3RhbnRva2EiPjxzcGFuIGNsYXNzPSJ0YW50b2thIj7orbDkvJrkuovli5nlsYDjgIDnt4/li5noqr/mn7vnj608L3NwYW4+Jm5ic3A7PHNwYW4gY2xhc3M9InRlbCI+VEVM77yaMDk1Ny02My0xMTExKOWGhee3mjI5MSwyOTMpPC9zcGFuPiZuYnNwOzxzcGFuIGNsYXNzPSJmYXgiPkZBWO+8mjA5NTctNjQtNjU4ODwvc3Bhbj4mbmJzcDs8c3BhbiBjbGFzcz0ibWFpbCI+PGltZyBzcmM9Imh0dHBzOi8vd3d3LmNpdHkuc2hpbWFiYXJhLmxnLmpwL2dpa2FpL2NvbW1vbi9pbWFnZXMvaWNvbl9tYWlsLmdpZiIgYWx0PSLjg6Hjg7zjg6siIHRpdGxlPSLjg6Hjg7zjg6siIGFsaWduPSJhYnNtaWRkbGUiIC8+77yaPGEgaHJlZj0ibWFpbHRvOmdpa2FpQGNpdHkuc2hpbWFiYXJhLmxnLmpwIj5naWthaUBjaXR5LnNoaW1hYmFyYS5sZy5qcDwvYT48L3NwYW4+PGRpdiBjbGFzcz0iY2xlYXIiPjwvZGl2PjwvZGl2PmQCCA8WAh8ABacUPGRpdiBjbGFzcz0iZGFucmFrdSIgaWQ9ImRhbnJha3UxIiBzdHlsZT0iZGlzcGxheTpibG9jazsiPjxkaXY+57eP5YuZ5aeU5ZOh5Lya77yI5a6a5pWwN+S6uu+8iTwvZGl2PjxkaXY+PGRpdj48ZGl2PjxkaXY+PHRhYmxlIGNsYXNzPSJfX3d5c190YWJsZSIgc3R5bGU9IndpZHRoOiA1OCU7Ij4NCiA8dGJvZHk+PHRyPg0KICA8dGQgY29sc3Bhbj0iMiIgc3R5bGU9IiB3aWR0aDogNzIlOyI+44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA44CA5aeU44CA5ZOh44CA5ZCNPC90ZD4NCiAgPHRkIHN0eWxlPSJ3aWR0aDogMjglOyI+44CA44CA44CA44CA5Lya44CA5rS+PC90ZD48L3RyPg0KIDx0cj4NCiAgPHRkPuWnlOWToemVtzwvdGQ+DQogIDx0ZD7msLjnlLDjgIDlhYnoh6PjgIDjgIDjgIA8L3RkPg0KICA8dGQ+5paw6aKo5LyaPC90ZD48L3RyPg0KIDx0cj4NCiAgPHRkPuWJr+WnlOWToemVtzwvdGQ+DQogIDx0ZD7ljJfmtabjgIDlrojph5E8L3RkPg0KICA8dGQ+5a6f6Le144Kv44Op44OWPC90ZD48L3RyPg0KIDx0cj4NCiAgPHRkIHJvd3NwYW49IjUiPuWnlOWToTwvdGQ+DQogIDx0ZD7mnb7lnYLjgIDmmIzmh4k8L3RkPg0KICA8dGQ+44Kr44Op44OV44OrPC90ZD48L3RyPg0KIDx0cj4NCiAgPHRkPuael+eUsOOAgOWLiTwvdGQ+DQogIDx0ZD7lurbmsJHjga7kvJo8L3RkPjwvdHI+DQogPHRyPg0KICA8dGQ+5qWg44CA5pmL5YW4PC90ZD48dGQ+6ZW35rWc5LyaPC90ZD48L3RyPg0KIDx0cj4NCiAgPHRkPuiNiemHjuOAgOWLnee+qTwvdGQ+DQogIDx0ZD7luILmsJHlubPlkozjga7kvJo8L3RkPjwvdHI+DQogPHRyPg0KICA8dGQ+5pys5aSa44CA56eA5qi5PC90ZD4NCiAgPHRkPuW5s+aIkOS8mjwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+PC9kaXY+PHA+Jm5ic3A7PC9wPjwvZGl2PjxwPiZuYnNwOzwvcD48cD7nlKPmpa3lu7roqK3lp5Tlk6HkvJrvvIjlrprmlbA25Lq677yJPC9wPjwvZGl2PjxkaXY+PGRpdj48dGFibGUgY2xhc3M9Il9fd3lzX3RhYmxlIiBzdHlsZT0id2lkdGg6IDU4JTsiPg0KIDx0Ym9keT48dHI+DQogIDx0ZCBjb2xzcGFuPSIyIiBzdHlsZT0iIHdpZHRoOiA3MiU7Ij7jgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDlp5TjgIDlk6HjgIDlkI08L3RkPg0KICA8dGQgc3R5bGU9IndpZHRoOiAyOCU7Ij7jgIDjgIDjgIDjgIDkvJrjgIDmtL48L3RkPjwvdHI+DQogPHRyPg0KICA8dGQ+5aeU5ZOh6ZW3PC90ZD4NCiAgPHRkPummrOa4oeOAgOWFieaYpTwvdGQ+DQogIDx0ZD7lrp/ot7Xjgq/jg6njg5Y8L3RkPjwvdHI+DQogPHRyPg0KICA8dGQ+5Ymv5aeU5ZOh6ZW3PC90ZD4NCiAgPHRkPummrOWgtOOAgOWLnemDjjwvdGQ+DQogIDx0ZD7lubPmiJDkvJo8L3RkPjwvdHI+DQogPHRyPg0KICA8dGQgcm93c3Bhbj0iNCI+5aeU5ZOhPC90ZD4NCiAgPHRkPuacrOeUsOOAgOOBv+OBiOOAgOOAgOOAgDwvdGQ+DQogIDx0ZD7jgqvjg6njg5Xjg6s8L3RkPjwvdHI+DQogPHRyPg0KICA8dGQ+5pys5aSa44CA5p2+5byYPC90ZD4NCiAgPHRkPuW6tuawkeOBruS8mjwvdGQ+PC90cj4NCiA8dHI+DQogIDx0ZD7mnb7kupXjgIDmibblhaw8L3RkPg0KICA8dGQ+5bO25Y6f5paw5pmC5LujPC90ZD48L3RyPg0KIDx0cj4NCiAgPHRkPuacrOeUsOOAgOmghuS5nzwvdGQ+DQogIDx0ZD7mlrDpoqjkvJo8L3RkPjwvdHI+PC90Ym9keT48L3RhYmxlPjwvZGl2PjxwPiZuYnNwOzwvcD48L2Rpdj48cD4mbmJzcDs8L3A+PGRpdj48L2Rpdj48ZGl2PuaVmeiCsuWOmueUn+WnlOWToeS8mu+8iOWumuaVsDbkurrvvIk8L2Rpdj48L2Rpdj48ZGl2PjxkaXY+PGRpdj48dGFibGUgY2xhc3M9Il9fd3lzX3RhYmxlIiBzdHlsZT0id2lkdGg6IDU4JTsiPg0KIDx0Ym9keT48dHI+DQogIDx0ZCBjb2xzcGFuPSIyIiBzdHlsZT0iIHdpZHRoOiA3MiU7Ij7jgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDjgIDlp5TjgIDlk6HjgIDlkI08L3RkPg0KICA8dGQgc3R5bGU9IndpZHRoOiAyOCU7Ij7jgIDjgIDjgIDjgIDkvJrjgIDmtL48L3RkPjwvdHI+DQogPHRyPg0KICA8dGQ+5aeU5ZOh6ZW3PC90ZD4NCiAgPHRkPua/se+okeOAgOa4heW/l+OAgOOAgOOAgDwvdGQ+DQogIDx0ZD7lubPmiJDkvJo8L3RkPjwvdHI+DQogPHRyPg0KICA8dGQ+5Ymv5aeU5ZOh6ZW3PC90ZD4NCiAgPHRkPuadvu+okeOAgOW6g+WkpzwvdGQ+DQogIDx0ZD7lhazmmI7lhZo8L3RkPjwvdHI+DQogPHRyPg0KICA8dGQgcm93c3Bhbj0iNCI+5aeU5ZOhPC90ZD4NCiAgPHRkPuajruWckuOAgOa1qeWkqumDjuOAgDwvdGQ+DQogIDx0ZD7lrp/ot7Xjgq/jg6njg5Y8L3RkPjwvdHI+DQogPHRyPg0KICA8dGQ+5LiK55Sw44CA576p5a6aPC90ZD4NCiAgPHRkPuaWsOmiqOS8mjwvdGQ+PC90cj4NCiA8dHI+DQogIDx0ZD7kuIDlgInjgIDmvoTlrZA8L3RkPg0KICA8dGQ+5pel5pys5YWx55Sj5YWaPC90ZD48L3RyPg0KIDx0cj4NCiAgPHRkPueoruadkeOAgOe5geW+tzwvdGQ+DQogIDx0ZD7lurbmsJHjga7kvJo8L3RkPjwvdHI+PC90Ym9keT48L3RhYmxlPjwvZGl2PjxwPiZuYnNwOzwvcD48L2Rpdj48cD4mbmJzcDs8L3A+PC9kaXY+PGRpdiBjbGFzcz0iY2xlYXIiPjwvZGl2PjwvZGl2PmQCBQ9k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bnRlbnRzJGN0bDAwJERzcFNuc0J1dHRvbiRNVmlldw8PZAIBZAUjY3RsMDAkV2VibGlvQ3Jhd2xlckVuZCRNVlNlY3Rpb25FbmQPD2RmZAUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFD2N0bDAwJEJ0blNlYXJjaAUWY3RsMDAkY3RsMTEkTXZUYWJDb2xvcg8PZGZkBS5jdGwwMCRNYWluQ29udGVudHMkY3RsMDAkV2VibGlvTGlua0pzJE1WTGlua0pzDw9kZmQFLGN0bDAwJE1haW5Db250ZW50cyRjdGwwMCREc3BLaWppS2VuZ2VuJE1WaWV3Dw9kAgFkBSdjdGwwMCRNYWluQ29udGVudHMkY3RsMDAkTXVsdGlWaWV3RE1lbnUPD2RmZAUXY3RsMDAkY3RsMTEkTXZIZWFkZXJUYWIPD2RmZAUTY3RsMDAkTVZDbGFzc01lbnVTUA8PZGZkBRhjdGwwMCRjdGwxMSRBbGxNdWx0aVZpZXcPD2QCAWQFKGN0bDAwJE1haW5Db250ZW50cyRjdGwwMCRNdWx0aVZpZXdTaG9zYWkPD2QCAWQFJmN0bDAwJE1haW5Db250ZW50cyRjdGwwMCRNdWx0aVZpZXdNYWlsDw9kZmQFEWN0bDAwJE1WQ2xhc3NNZW51Dw9kZmQFE2N0bDAwJE11bHRpVmlld0ZvbnQPD2RmZAUqY3RsMDAkTWFpbkNvbnRlbnRzJGN0bDAwJE11bHRpVmlld1RvcERNZW51Dw9kZmRypYZOLr8MBy5HmU2ycF6VOoWvBw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="EB911A90" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAARbKDk/B1eLIgryFgdPTXnjg56KqOytoLCl6LRjcZaJZo5RwWZR47SYA5rPyWsjTz0GkCA5m0ohfOUU+WiJl+cMt5P4B1lfSgKmuhsQSs+SHKmKUxI=" />
+
+
+
+
+
+
+<div id="headerAreaDef_12">
+<input type="submit" name="ctl00$Dmy" value="" onclick="return false;" id="ctl00_Dmy" style="position:absolute;top:-100px;" />
+<span id="top"></span>
+<map id="header_img" name="header_img"><area shape="rect" alt="島原市議会" coords="148,0,300,55" href="https://www.city.shimabara.lg.jp/gikai/default.aspx" /><area shape="rect" alt="島原市" coords="0,0,147,55" href="https://www.city.shimabara.lg.jp/default.aspx" target="_blank" /></map><div id="header_12"><img id="ctl00_ImgHeader" usemap="#header_img" src="https://www.city.shimabara.lg.jp/gikai/common/UploadFileOutput.ashx?c_id=12&amp;set_pic=1&amp;updfl_tophd=1&amp;gzkbn=0" alt="市議会" border="0" />
+<div id="mainHeaderTop">
+    <div id="Navigation"><ul><li><a href="#maincont">本文へジャンプ</a></li></ul></div>
+    <div id="mainSearch">
+        
+        <div id="serchArea"><img src="https://www.city.shimabara.lg.jp/gikai/common/images/ttl_kensaku.gif" alt="サイト内検索" title="サイト内検索" /></div>
+            <input name="ctl00$TxtSearch" type="text" id="ctl00_TxtSearch" class="searchBox" onkeydown="clickButton(&#39;ctl00_BtnSearch&#39;, event||window.event);" title="サイト内検索　検索する語句を入力してください。" placeholder="サイト内検索" /><input type="image" name="ctl00$BtnSearch" id="ctl00_BtnSearch" class="btnSearch" src="https://www.city.shimabara.lg.jp/gikai/common/images/btn_search.png" alt="検索" onclick="return checkValue(&#39;ctl00_TxtSearch&#39;);" border="0" />
+            <div class="clear"></div>
+        
+    </div>
+    <div id="homeLink">
+        <a href="https://www.city.shimabara.lg.jp/Default.aspx" target="_blank">島原市トップページへ</a>
+    </div>
+    <div class="clear"></div>
+</div>
+</div>
+
+<!--//文字サイズ切替え -->
+
+
+<!-- グローバルナビゲーション -->
+
+
+<!-- グローバルナビゲーション(スマホ用) -->
+
+
+</div>
+
+<div id="pankuzu_12"><div class="pankuzu-inner_12" style="padding-bottom:0px"><a href="https://www.city.shimabara.lg.jp/gikai/" class='sizeA' >島原市議会TOP</a>&nbsp;&nbsp;＞&nbsp;&nbsp;<a href="https://www.city.shimabara.lg.jp/gikai/hpkiji/pub/Default.aspx?c_id=3&amp;class_set_id=6" class='sizeA' >島原市議会</a>&nbsp;&nbsp;＞&nbsp;&nbsp;<a href="https://www.city.shimabara.lg.jp/gikai/hpkiji/pub/List.aspx?c_id=3&amp;class_set_id=6&amp;class_id=416" class='sizeA' >市議会名簿 </a>&nbsp;&nbsp;＞&nbsp;&nbsp;<a href="https://www.city.shimabara.lg.jp/gikai/hpkiji/pub/List.aspx?c_id=3&amp;class_set_id=6&amp;class_id=420" class='sizeA' >常任委員会</a>&nbsp;&nbsp;＞&nbsp;&nbsp;常任委員会名簿</div><div id="pankuzu-close"><div class="pankuzu-inner_12"><a href="https://www.city.shimabara.lg.jp/gikai/" class='sizeA' >島原市議会TOP</a>&nbsp;&nbsp;＞&nbsp;&nbsp;<a href="https://www.city.shimabara.lg.jp/gikai/hpkiji/pub/Default.aspx?c_id=3&amp;class_set_id=2" class='sizeA' >組織から探す</a>&nbsp;&nbsp;＞&nbsp;&nbsp;<a href="https://www.city.shimabara.lg.jp/gikai/hpkiji/pub/List.aspx?c_id=3&amp;class_set_id=2&amp;class_id=92" class='sizeA' >議会事務局</a>&nbsp;&nbsp;＞&nbsp;&nbsp;<a href="https://www.city.shimabara.lg.jp/gikai/hpkiji/pub/List.aspx?c_id=3&amp;class_set_id=2&amp;class_id=93" class='sizeA' >総務調査班</a>&nbsp;&nbsp;＞&nbsp;&nbsp;常任委員会名簿</div></div><div class="pankuzu-more"><a href="javascript:pankuzu_openclose(2)"><span id="openclose_msg">もっと見る（全2件）</span></a></div></div>
+
+<div id="container_12">
+
+
+
+
+
+
+
+<span id="maincont"></span>
+<div id="cont_body">
+
+    <div class="preview_label"></div>
+    
+<script type="text/javascript" language="javascript">
+<!--
+window.onload = function(){
+
+    
+    
+    
+
+}
+
+function DanrakuKirikae(dspNo, allCnt){
+    if(allCnt>0)
+    {
+        for(var i=1; i <= allCnt; ++i)
+        {
+            if(dspNo == i)
+            {
+                 document.getElementById("danraku" + i).style.display = "block";
+                 document.getElementById("dMenu" + i).className = "selected";
+            }
+            else
+            {
+                 document.getElementById("danraku" + i).style.display = "none";
+                 document.getElementById("dMenu" + i).className = "";
+            }
+       
+        }
+    }
+}
+-->
+</script>
+
+<div style="margin:0px auto;"></div>
+
+
+
+<article>
+    <div id="mainShosai">
+        
+        
+        
+
+        
+        <div class="BottomArea">
+
+            <table class="containerWidth">
+		        <tr>
+		            <td style="text-align:left;">
+		                <h1 class="title">常任委員会名簿</h1>
+                        
+<ul class="snsbutton"><li id="snsbutton_facebook"><iframe src="//www.facebook.com/plugins/like.php?href=https%3a%2f%2fwww.city.shimabara.lg.jp%2fgikai%2fpage2519.html&amp;send=FALSE&amp;layout=button_count&amp;width=115&amp;show_faces=TRUE&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:115px; height:21px;" title="Facebook いいね！" allowTransparency="true"></iframe></li><li id="snsbutton_twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://www.city.shimabara.lg.jp/gikai/page2519.html" data-counturl="https://www.city.shimabara.lg.jp/gikai/page2519.html" data-text="" data-via="shmbrprmaster" data-count="horizontal" data-lang="ja" data-hashtags="nagasaki,shimabara">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";charset="UTF-8";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li></ul><div class="clear"></div>
+
+                        <div class="kijiSubInfo">
+                                
+                            <time datetime="2025-06-23T11:59:11+09:00"  pubdate="pubdate" >
+                                <div class="updDate">最終更新日：2025年6月23日</div>
+                            </time>
+                            
+<div class="kengen_tantoka"><span class="tantoka">議会事務局　総務調査班</span>&nbsp;<span class="tel">TEL：0957-63-1111(内線291,293)</span>&nbsp;<span class="fax">FAX：0957-64-6588</span>&nbsp;<span class="mail"><img src="https://www.city.shimabara.lg.jp/gikai/common/images/icon_mail.gif" alt="メール" title="メール" align="absmiddle" />：<a href="mailto:gikai@city.shimabara.lg.jp">gikai@city.shimabara.lg.jp</a></span><div class="clear"></div></div>
+
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+		                		            
+		                
+    		        
+		                <div class="danraku" id="danraku1" style="display:block;"><div>総務委員会（定数7人）</div><div><div><div><div><table class="__wys_table" style="width: 58%;">
+ <tbody><tr>
+  <td colspan="2" style=" width: 72%;">　　　　　　　　　　　　委　員　名</td>
+  <td style="width: 28%;">　　　　会　派</td></tr>
+ <tr>
+  <td>委員長</td>
+  <td>永田　光臣　　　</td>
+  <td>新風会</td></tr>
+ <tr>
+  <td>副委員長</td>
+  <td>北浦　守金</td>
+  <td>実践クラブ</td></tr>
+ <tr>
+  <td rowspan="5">委員</td>
+  <td>松坂　昌應</td>
+  <td>カラフル</td></tr>
+ <tr>
+  <td>林田　勉</td>
+  <td>庶民の会</td></tr>
+ <tr>
+  <td>楠　晋典</td><td>長浜会</td></tr>
+ <tr>
+  <td>草野　勝義</td>
+  <td>市民平和の会</td></tr>
+ <tr>
+  <td>本多　秀樹</td>
+  <td>平成会</td></tr></tbody></table></div><p>&nbsp;</p></div><p>&nbsp;</p><p>産業建設委員会（定数6人）</p></div><div><div><table class="__wys_table" style="width: 58%;">
+ <tbody><tr>
+  <td colspan="2" style=" width: 72%;">　　　　　　　　　　　　委　員　名</td>
+  <td style="width: 28%;">　　　　会　派</td></tr>
+ <tr>
+  <td>委員長</td>
+  <td>馬渡　光春</td>
+  <td>実践クラブ</td></tr>
+ <tr>
+  <td>副委員長</td>
+  <td>馬場　勝郎</td>
+  <td>平成会</td></tr>
+ <tr>
+  <td rowspan="4">委員</td>
+  <td>本田　みえ　　　</td>
+  <td>カラフル</td></tr>
+ <tr>
+  <td>本多　松弘</td>
+  <td>庶民の会</td></tr>
+ <tr>
+  <td>松井　扶公</td>
+  <td>島原新時代</td></tr>
+ <tr>
+  <td>本田　順也</td>
+  <td>新風会</td></tr></tbody></table></div><p>&nbsp;</p></div><p>&nbsp;</p><div></div><div>教育厚生委員会（定数6人）</div></div><div><div><div><table class="__wys_table" style="width: 58%;">
+ <tbody><tr>
+  <td colspan="2" style=" width: 72%;">　　　　　　　　　　　　委　員　名</td>
+  <td style="width: 28%;">　　　　会　派</td></tr>
+ <tr>
+  <td>委員長</td>
+  <td>濱﨑　清志　　　</td>
+  <td>平成会</td></tr>
+ <tr>
+  <td>副委員長</td>
+  <td>松﨑　広大</td>
+  <td>公明党</td></tr>
+ <tr>
+  <td rowspan="4">委員</td>
+  <td>森園　浩太郎　</td>
+  <td>実践クラブ</td></tr>
+ <tr>
+  <td>上田　義定</td>
+  <td>新風会</td></tr>
+ <tr>
+  <td>一倉　澄子</td>
+  <td>日本共産党</td></tr>
+ <tr>
+  <td>種村　繁德</td>
+  <td>庶民の会</td></tr></tbody></table></div><p>&nbsp;</p></div><p>&nbsp;</p></div><div class="clear"></div></div>
+		            </td>
+	            </tr>
+            </table>      
+            
+        </div>
+        <div class="clear"></div>
+    </div>
+</article>
+
+
+
+
+<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function($){
+	$(document).ready(function(){
+        dspBan();
+    });
+    function dspBan(){
+         $('#banArea').css("display", "none");
+        
+        var prm = '?top_id=12'
+                + '&class_id='
+                + '&dspClassFlg='
+                + '&dspShosaiFlg=1'
+                + '&preview=OFF';
+                            
+        $.ajax({
+            type: 'GET',
+            cache : false,
+            url: 'https://www.city.shimabara.lg.jp/gikai/common/GetBanIchiran.ashx'+prm
+        }).done(function(data){
+            if(data != null && data.length > 0){
+                $('#banItem').append(data);
+                $('#banItem').append("<div class='clear'></div>");
+                $('#banArea').css("display", "");
+            }
+        }).fail(function(data){
+        });
+    }
+});
+</script>
+
+
+    <div id="banArea">
+        <div class="linkInfo">
+            <p>関連バナー</p>            
+        </div>
+        <div id="banItem"></div>
+        <div id="adinfoLink">
+            <a href="https://www.city.shimabara.lg.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=1272">広告についてのお問い合わせ</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+
+
+
+
+
+    <div id="toiawaseInfo">
+        <div class="toiText">このページに関する<br />お問い合わせは</div>
+        <div class="toiKugiri"></div>
+        <div class="toiData">
+		    議会事務局　総務調査班<br />
+            
+            
+		    電話：0957-63-1111(内線291,293)<br />
+		    ファックス：0957-64-6588<br />
+		    
+		    <img src="https://www.city.shimabara.lg.jp/gikai/common/images/icon_mail.gif" alt="メール" title="メール" align="absmiddle" />&nbsp;<a href="mailto:gikai@city.shimabara.lg.jp">gikai@city.shimabara.lg.jp</a>　<br />
+		    
+		    
+		</div>
+	</div>
+
+
+
+<div style="text-align:right;color:#999;font-size:0.7em;margin-top:10px;">
+    （ID:2519）
+</div>
+
+
+<div class="footerSoegaki">
+	
+	<!-- PDFリーダーの説明 -->
+			<div class="pdfReaderDownload"><a href="http://get.adobe.com/jp/reader/" target="_adobe"><img border="0"src="https://www.city.shimabara.lg.jp/gikai/common/images/get_adobe_reader.gif" alt="アドビリーダーダウンロードボタン" title="アドビリーダーダウンロードボタン" align="absmiddle" /></a><br/>新しいウィンドウで表示</div>
+			<div class="pdfReaderSetsumei">※資料としてPDFファイルが添付されている場合は、Adobe Acrobat(R)が必要です。<br />PDF書類をご覧になる場合は、Adobe Readerが必要です。正しく表示されない場合、最新バージョンをご利用ください。<br /></div>
+			<div class="clear"></div>
+    
+</div>
+
+
+    
+
+
+    
+
+ </div>
+ 
+ 
+
+
+
+
+
+
+
+<div class="indent"></div>
+<div id="pagetop">
+    <a href="#top">ページの先頭へ</a></div>
+
+<div id="footerbtn" style="display:none;">
+    <img id="ctl00_ImgSpacer2" src="https://www.city.shimabara.lg.jp/gikai/common/images/spacer.gif" alt=" " height="25" border="0" />
+    
+</div>
+
+</div>
+
+
+    
+
+
+
+<span id="ctl00_LblCopyrights"></span>
+
+<link rel="stylesheet" type="text/css" href="https://www.city.shimabara.lg.jp/gikai/common/css/footer/gikai.css" />
+
+<!-- 問合せ先 -->
+<div id="siteinfo">
+    <div style="width:1000px;margin:0px auto 4px auto;">
+        <div id="toiawase">
+            
+                    〒855-8555&nbsp;
+                    長崎県島原市上の町537番地&nbsp;&nbsp;
+                    TEL:0957-63-1111&nbsp;&nbsp;
+                    FAX:0957-64-5525&nbsp;&nbsp;
+                    
+                
+            <br />
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>    
+</div>
+<!-- copyright -->
+<div id="cp" lang="en">
+    Copyrights(C) 2015 Shimabara City Allrights reserved. 
+</div>
+
+<input type="hidden" name="fontSize" value="" />
+
+</form>
+<noscript>本サイトは一部のページ・機能にJavascriptを使用しております。</noscript>
+
+<script type="text/javascript" src="/common/js/ajaxCalForIE6.js"></script>
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-J6XR7S7CQR"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-J6XR7S7CQR');  gtag('config', 'UA-70145430-1');  gtag('config', 'UA-37866695-25');</script>
+
+</body>
+</html>

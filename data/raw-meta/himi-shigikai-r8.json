@@ -1,0 +1,29 @@
+{
+  "sourceId": "himi-shigikai-r8",
+  "files": [
+    {
+      "filename": "2236_20260223.html",
+      "sha256": "5c9a04effdfa7ecdd763853395ea329340416d5bada3d954edd67217e15e8148",
+      "bytes": 42829,
+      "fetchedAt": "2026-10-31T09:38:51.645Z",
+      "fetchedFrom": "https://web.archive.org/web/20260223111848id_/https://www.city.himi.toyama.jp/gyosei/shisei/shigikai/2236.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "202603giketukekka.pdf",
+      "sha256": "01ea8d94a888316c499c2daffd3fd2268cb6d11bc4e95f5d7293c5ba4d5cf4c4",
+      "bytes": 213589,
+      "fetchedAt": "2026-10-31T09:38:51.645Z",
+      "fetchedFrom": "https://www.city.himi.toyama.jp/material/files/group/36/202603giketukekka.pdf"
+    },
+    {
+      "filename": "2025shushijokyo.pdf",
+      "sha256": "c04b83f10f52c73736d97b208d3cec58d5c045e70735de6495051b34563ce743",
+      "bytes": 63267,
+      "fetchedAt": "2026-10-31T09:38:51.646Z",
+      "fetchedFrom": "https://www.city.himi.toyama.jp/material/files/group/36/2025shushijokyo.pdf"
+    }
+  ]
+}

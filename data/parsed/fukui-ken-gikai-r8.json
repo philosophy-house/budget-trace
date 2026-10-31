@@ -1,0 +1,172 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fukui-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:38:59.985Z",
+  "fiscalYear": "R8",
+  "body": "福井県議会",
+  "seats": 36,
+  "asOf": "2026-02-20",
+  "factions": [
+    {
+      "name": "自民党福井県議会",
+      "seats": 25,
+      "isIndependent": false,
+      "members": [
+        "大森哲男",
+        "兼井大",
+        "小堀友廣",
+        "酒井秀和",
+        "笹原修之",
+        "清水智信",
+        "田中宏典",
+        "田中三津彦",
+        "田村康夫",
+        "時田和一良",
+        "中西昭雄",
+        "西本正俊",
+        "畑孝幸",
+        "福野大輔",
+        "松崎雄城",
+        "松田泰典",
+        "南川直人",
+        "宮本俊",
+        "森嘉治",
+        "山浦光一郎",
+        "山岸猛夫",
+        "大和久米登",
+        "山本建",
+        "力野豊",
+        "渡辺竜彦"
+      ],
+      "locator": {
+        "file": "ichiran_20260313.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "民主・みらい",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "北川博規",
+        "野田哲生",
+        "三田村輝士",
+        "渡辺大輔"
+      ],
+      "locator": {
+        "file": "ichiran_20260313.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "ふくいの党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "堀居哲郎",
+        "三宅わたる",
+        "山岸みつる"
+      ],
+      "locator": {
+        "file": "ichiran_20260313.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "越前若狭の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村綾菜",
+        "細川かをり"
+      ],
+      "locator": {
+        "file": "ichiran_20260313.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "西本恵一"
+      ],
+      "locator": {
+        "file": "ichiran_20260313.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（後藤正邦）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "後藤正邦"
+      ],
+      "locator": {
+        "file": "ichiran_20260313.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第１号議案",
+    "billName": "令和８年度福井県一般会計予算",
+    "sessionLabel": "第４４１回（令和８年２月）定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "202602_shingikekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議員一覧（50音順）（最終更新日 2026年2月20日・議決前 2026-03-13 の魚拓）",
+  "resultTitle": "第４４１回（令和８年２月）定例会における議案等に対する各会派の賛否の状況",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "第４４１回（令和８年２月）定例会における議案等に対する各会派の賛否の状況",
+    "sourceFile": "202602_shingikekka.pdf",
+    "columns": [
+      {
+        "label": "自",
+        "faction": "自民党福井県議会",
+        "stance": "賛成"
+      },
+      {
+        "label": "民",
+        "faction": "民主・みらい",
+        "stance": "賛成"
+      },
+      {
+        "label": "ふ",
+        "faction": "ふくいの党",
+        "stance": "賛成"
+      },
+      {
+        "label": "越",
+        "faction": "越前若狭の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "公",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "無",
+        "faction": "無所属（後藤正邦）",
+        "stance": "賛成"
+      },
+      {
+        "label": "小堀友廣",
+        "faction": "自民党福井県議会",
+        "member": "小堀友廣",
+        "stance": "議長"
+      }
+    ]
+  }
+}

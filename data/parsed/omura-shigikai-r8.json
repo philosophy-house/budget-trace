@@ -1,0 +1,287 @@
+{
+  "docType": "council-composition",
+  "sourceId": "omura-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:40:18.546Z",
+  "fiscalYear": "R8",
+  "body": "大村市議会",
+  "seats": 25,
+  "asOf": "2026-02-09",
+  "teisu": 25,
+  "factions": [
+    {
+      "name": "進風おおむら",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "久保和幸",
+        "高濵広司",
+        "堀内学",
+        "中崎秀紀",
+        "村崎浩史",
+        "城幸太郎"
+      ],
+      "locator": {
+        "file": "kaihabetsumeibo.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "みらいの風",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "南波伸孝",
+        "光山千絵",
+        "晦日房和",
+        "松尾祥秀",
+        "村上秀明"
+      ],
+      "locator": {
+        "file": "kaihabetsumeibo.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "おおむら次世代",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "髙見龍也",
+        "中村仁飛",
+        "古閑森秀幸",
+        "山口弘宣",
+        "朝長英美"
+      ],
+      "locator": {
+        "file": "kaihabetsumeibo.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "誠和会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "入江詩子",
+        "小林史政",
+        "里脇清隆",
+        "田中秀和"
+      ],
+      "locator": {
+        "file": "kaihabetsumeibo.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "知音会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "水上享",
+        "永尾髙宣"
+      ],
+      "locator": {
+        "file": "kaihabetsumeibo.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "竹森学",
+        "田中博文"
+      ],
+      "locator": {
+        "file": "kaihabetsumeibo.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派（永山真美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "永山真美"
+      ],
+      "locator": {
+        "file": "kaihabetsumeibo.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第３１号議案",
+    "billName": "令和８年度大村市一般会計予算",
+    "sessionLabel": "令和８年第２回大村市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kaigikekka0803.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派別名簿（更新日 2026年2月9日）",
+  "resultTitle": "令和８年第２回大村市議会定例会上程案件及び処理結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年３月定例会 賛否の状況",
+    "sourceFile": "sannpi08-03-2.pdf",
+    "columns": [
+      {
+        "label": "久保和幸",
+        "faction": "進風おおむら",
+        "member": "久保和幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "高濵広司",
+        "faction": "進風おおむら",
+        "member": "高濵広司",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀内学",
+        "faction": "進風おおむら",
+        "member": "堀内学",
+        "stance": "賛成"
+      },
+      {
+        "label": "中崎秀紀",
+        "faction": "進風おおむら",
+        "member": "中崎秀紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "村崎浩史",
+        "faction": "進風おおむら",
+        "member": "村崎浩史",
+        "stance": "賛成"
+      },
+      {
+        "label": "城幸太郎",
+        "faction": "進風おおむら",
+        "member": "城幸太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "南波伸孝",
+        "faction": "みらいの風",
+        "member": "南波伸孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "光山千絵",
+        "faction": "みらいの風",
+        "member": "光山千絵",
+        "stance": "賛成"
+      },
+      {
+        "label": "晦日房和",
+        "faction": "みらいの風",
+        "member": "晦日房和",
+        "stance": "賛成"
+      },
+      {
+        "label": "松尾祥秀",
+        "faction": "みらいの風",
+        "member": "松尾祥秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上秀明",
+        "faction": "みらいの風",
+        "member": "村上秀明",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙見龍也",
+        "faction": "おおむら次世代",
+        "member": "髙見龍也",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村仁飛",
+        "faction": "おおむら次世代",
+        "member": "中村仁飛",
+        "stance": "賛成"
+      },
+      {
+        "label": "古閑森秀幸",
+        "faction": "おおむら次世代",
+        "member": "古閑森秀幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口弘宣",
+        "faction": "おおむら次世代",
+        "member": "山口弘宣",
+        "stance": "賛成"
+      },
+      {
+        "label": "朝長英美",
+        "faction": "おおむら次世代",
+        "member": "朝長英美",
+        "stance": "賛成"
+      },
+      {
+        "label": "入江詩子",
+        "faction": "誠和会",
+        "member": "入江詩子",
+        "stance": "賛成"
+      },
+      {
+        "label": "里脇清隆",
+        "faction": "誠和会",
+        "member": "里脇清隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中秀和",
+        "faction": "誠和会",
+        "member": "田中秀和",
+        "stance": "賛成"
+      },
+      {
+        "label": "水上享",
+        "faction": "知音会",
+        "member": "水上享",
+        "stance": "賛成"
+      },
+      {
+        "label": "永尾髙宣",
+        "faction": "知音会",
+        "member": "永尾髙宣",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹森学",
+        "faction": "公明党",
+        "member": "竹森学",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中博文",
+        "faction": "公明党",
+        "member": "田中博文",
+        "stance": "賛成"
+      },
+      {
+        "label": "永山真美",
+        "faction": "無会派（永山真美）",
+        "member": "永山真美",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林史政",
+        "faction": "誠和会",
+        "member": "小林史政",
+        "stance": "議長"
+      }
+    ]
+  }
+}

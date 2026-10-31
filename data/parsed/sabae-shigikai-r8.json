@@ -1,0 +1,166 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sabae-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:39:00.561Z",
+  "fiscalYear": "R8",
+  "body": "鯖江市議会",
+  "seats": 19,
+  "asOf": "2026-02-20",
+  "factions": [
+    {
+      "name": "さばえ結の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "三村尚司",
+        "福原敏弘",
+        "堀川秀樹",
+        "江端一高",
+        "玉邑哲雄"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民創世会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "石川修",
+        "空美英",
+        "木村愛子"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "新清風会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "林下豊彦",
+        "佐々木一弥"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "加藤優",
+        "遠藤隆"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "帰山明朗"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "清鯖会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "大門嘉和"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "ふくいの党・鯖江",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "酒井友季子"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "市政新風会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "東井忠義"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "SABA LABO",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "西野有香"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "青の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "土田光"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "創造",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "田中良幸"
+      ],
+      "locator": {
+        "file": "kaiha-kosei_20260306.html",
+        "row": 11
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第3号",
+    "billName": "令和8年度鯖江市一般会計予算",
+    "sessionLabel": "第４５５回鯖江市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "Gikai455.html"
+    }
+  },
+  "rosterTitle": "会派構成（令和8年2月20日現在・議決前の魚拓）",
+  "resultTitle": "第455回 令和8年3月定例会（議案と議決結果）"
+}

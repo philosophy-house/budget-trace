@@ -1,0 +1,272 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nakatsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:39:01.931Z",
+  "fiscalYear": "R8",
+  "body": "中津市議会",
+  "seats": 23,
+  "asOf": "2026-03-18",
+  "factions": [
+    {
+      "name": "清流会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "木ノ下素信",
+        "藤野英司",
+        "相良卓紀",
+        "中西伸之",
+        "本田哲也",
+        "三重野玉江",
+        "大内直樹"
+      ],
+      "locator": {
+        "file": "R803_giketsu.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "前進",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "古江信一",
+        "角祥臣",
+        "恒賀愼太郎",
+        "奥村一義",
+        "林秀明",
+        "渕野真己"
+      ],
+      "locator": {
+        "file": "R803_giketsu.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "荒木ひろ子",
+        "川内八千代",
+        "三上英範"
+      ],
+      "locator": {
+        "file": "R803_giketsu.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "市民の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "千木良孝之",
+        "大塚正俊",
+        "木佐貫佳子"
+      ],
+      "locator": {
+        "file": "R803_giketsu.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松葉民雄",
+        "小住利子"
+      ],
+      "locator": {
+        "file": "R803_giketsu.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "豊の風",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山影智一"
+      ],
+      "locator": {
+        "file": "R803_giketsu.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "再生",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "相良亜寿香"
+      ],
+      "locator": {
+        "file": "R803_giketsu.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第１０号",
+    "billName": "令和８年度中津市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R803_giketsu.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年第１回定例会提出案件 議決結果表 p.4「賛否の分かれた議案」の表頭（会派名・議員名）",
+  "resultTitle": "令和８年第１回定例会提出案件 議決結果表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会提出案件 議決結果表 p.4「賛否の分かれた議案」",
+    "sourceFile": "R803_giketsu.pdf",
+    "columns": [
+      {
+        "label": "木ノ下素信",
+        "faction": "清流会",
+        "member": "木ノ下素信",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤野英司",
+        "faction": "清流会",
+        "member": "藤野英司",
+        "stance": "欠席"
+      },
+      {
+        "label": "相良卓紀",
+        "faction": "清流会",
+        "member": "相良卓紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "中西伸之",
+        "faction": "清流会",
+        "member": "中西伸之",
+        "stance": "賛成"
+      },
+      {
+        "label": "本田哲也",
+        "faction": "清流会",
+        "member": "本田哲也",
+        "stance": "賛成"
+      },
+      {
+        "label": "三重野玉江",
+        "faction": "清流会",
+        "member": "三重野玉江",
+        "stance": "賛成"
+      },
+      {
+        "label": "大内直樹",
+        "faction": "清流会",
+        "member": "大内直樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "古江信一",
+        "faction": "前進",
+        "member": "古江信一",
+        "stance": "賛成"
+      },
+      {
+        "label": "角祥臣",
+        "faction": "前進",
+        "member": "角祥臣",
+        "stance": "賛成"
+      },
+      {
+        "label": "恒賀愼太郎",
+        "faction": "前進",
+        "member": "恒賀愼太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥村一義",
+        "faction": "前進",
+        "member": "奥村一義",
+        "stance": "賛成"
+      },
+      {
+        "label": "渕野真己",
+        "faction": "前進",
+        "member": "渕野真己",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒木ひろ子",
+        "faction": "日本共産党",
+        "member": "荒木ひろ子",
+        "stance": "反対"
+      },
+      {
+        "label": "川内八千代",
+        "faction": "日本共産党",
+        "member": "川内八千代",
+        "stance": "反対"
+      },
+      {
+        "label": "三上英範",
+        "faction": "日本共産党",
+        "member": "三上英範",
+        "stance": "反対"
+      },
+      {
+        "label": "千木良孝之",
+        "faction": "市民の会",
+        "member": "千木良孝之",
+        "stance": "賛成"
+      },
+      {
+        "label": "大塚正俊",
+        "faction": "市民の会",
+        "member": "大塚正俊",
+        "stance": "賛成"
+      },
+      {
+        "label": "木佐貫佳子",
+        "faction": "市民の会",
+        "member": "木佐貫佳子",
+        "stance": "賛成"
+      },
+      {
+        "label": "松葉民雄",
+        "faction": "公明党",
+        "member": "松葉民雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "小住利子",
+        "faction": "公明党",
+        "member": "小住利子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山影智一",
+        "faction": "豊の風",
+        "member": "山影智一",
+        "stance": "賛成"
+      },
+      {
+        "label": "相良亜寿香",
+        "faction": "再生",
+        "member": "相良亜寿香",
+        "stance": "賛成"
+      },
+      {
+        "label": "林秀明",
+        "faction": "前進",
+        "member": "林秀明",
+        "stance": "議長"
+      }
+    ]
+  }
+}

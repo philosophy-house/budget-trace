@@ -1,0 +1,32 @@
+{
+  "sourceId": "nakatsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "R803_giketsu.pdf",
+      "sha256": "da9b406dea2a0d3007dcef07a33916441d6043092dbad2d70897e5bae7eeeed7",
+      "bytes": 314161,
+      "fetchedAt": "2026-10-31T09:38:51.655Z",
+      "fetchedFrom": "https://www.city-nakatsu.jp/gikai/2014121900031/file_contents/R803_giketsu.pdf"
+    },
+    {
+      "filename": "2026042300043.html",
+      "sha256": "926208c0b92b03cd03d2fd202a415a5eacac399fe73d7d5fe0cecdd72f6f0886",
+      "bytes": 24892,
+      "fetchedAt": "2026-10-31T09:38:51.656Z",
+      "fetchedFrom": "https://www.city-nakatsu.jp/gikai/2026042300043/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "2026032300053.html",
+      "sha256": "a9a93ae64e1b9351cc07cb4e70cfeee4fc90f767634d4247f691157e76e56cf5",
+      "bytes": 23344,
+      "fetchedAt": "2026-10-31T09:38:51.656Z",
+      "fetchedFrom": "https://www.city-nakatsu.jp/gikai/2026032300053/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

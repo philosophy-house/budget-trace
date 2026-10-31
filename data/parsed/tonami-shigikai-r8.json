@@ -1,0 +1,169 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tonami-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T10:07:47.375Z",
+  "fiscalYear": "R8",
+  "body": "砺波市議会",
+  "seats": 16,
+  "asOf": "2025-05-15",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "自由民主党砺波市議会議員会",
+      "seats": 13,
+      "isIndependent": false,
+      "members": [
+        "米山勝規",
+        "嶋田充",
+        "原野誠",
+        "仁木良市",
+        "原田定範",
+        "境佐余子",
+        "林教子",
+        "向井幹雄",
+        "小西十四一",
+        "山本篤史",
+        "川辺一彦",
+        "島崎清孝",
+        "今藤久之"
+      ],
+      "locator": {
+        "file": "17259p.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "無会派議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "有若隆",
+        "神島利明",
+        "境欣吾"
+      ],
+      "locator": {
+        "file": "17259p.html",
+        "row": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和８年度砺波市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "原案可決",
+    "locator": {
+      "file": "sanpi_R8.3-2.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "砺波市議会 会派別一覧（更新日時 2025年05月15日）",
+  "resultTitle": "砺波市議会 議案等の審議結果（議員賛否一覧）令和８年３月定例会",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "砺波市議会 議案等の審議結果（議員賛否一覧）令和８年３月定例会",
+    "sourceFile": "sanpi_R8.3-2.pdf",
+    "columns": [
+      {
+        "label": "米山勝規",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "米山勝規",
+        "stance": "賛成"
+      },
+      {
+        "label": "嶋田充",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "嶋田充",
+        "stance": "賛成"
+      },
+      {
+        "label": "原野誠",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "原野誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "仁木良市",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "仁木良市",
+        "stance": "賛成"
+      },
+      {
+        "label": "原田定範",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "原田定範",
+        "stance": "賛成"
+      },
+      {
+        "label": "境佐余子",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "境佐余子",
+        "stance": "賛成"
+      },
+      {
+        "label": "林教子",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "林教子",
+        "stance": "賛成"
+      },
+      {
+        "label": "向井幹雄",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "向井幹雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "神島利明",
+        "faction": "無会派議員",
+        "member": "神島利明",
+        "stance": "賛成"
+      },
+      {
+        "label": "小西十四一",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "小西十四一",
+        "stance": "賛成"
+      },
+      {
+        "label": "境欣吾",
+        "faction": "無会派議員",
+        "member": "境欣吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本篤史",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "山本篤史",
+        "stance": "賛成"
+      },
+      {
+        "label": "有若隆",
+        "faction": "無会派議員",
+        "member": "有若隆",
+        "stance": "議長"
+      },
+      {
+        "label": "川辺一彦",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "川辺一彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "島崎清孝",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "島崎清孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "今藤久之",
+        "faction": "自由民主党砺波市議会議員会",
+        "member": "今藤久之",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

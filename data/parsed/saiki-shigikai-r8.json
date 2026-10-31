@@ -1,0 +1,149 @@
+{
+  "docType": "council-composition",
+  "sourceId": "saiki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:39:02.374Z",
+  "fiscalYear": "R8",
+  "body": "佐伯市議会",
+  "seats": 22,
+  "asOf": "2025-05-09",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "一志会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "梶川善寛",
+        "大﨑栄治",
+        "塩月将登",
+        "染矢和陽",
+        "河野和史",
+        "廣津留龍二",
+        "河原勝也"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "佐伯を元気にする会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "西條隆洋",
+        "三浦渉",
+        "井上清三",
+        "本田房代"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "さいき会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "冨松万平",
+        "大野達也",
+        "池澤益彦"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "彗星会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "本杉貴志",
+        "吉良栄三"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "後藤勇人",
+        "𦚰坂豊"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（佐藤元）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "佐藤元"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（髙司政文）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "髙司政文"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（塩月健治）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "塩月健治"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（森川寿子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "森川寿子"
+      ],
+      "locator": {
+        "file": "3_3183_up_x0mmlqta.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第 ２ 号",
+    "billName": "令和８年度佐伯市一般会計予算",
+    "sessionLabel": "令和８年第２回佐伯市議会定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "3_3871_up_v8n01r6b.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "佐伯市議会会派別名簿（令和7年5月9日現在）",
+  "resultTitle": "令和８年第２回佐伯市議会定例会議案結果"
+}
