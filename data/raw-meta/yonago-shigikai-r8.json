@@ -1,0 +1,26 @@
+{
+  "sourceId": "yonago-shigikai-r8",
+  "files": [
+    {
+      "filename": "gikaidayori0807.pdf",
+      "sha256": "16ad1d75297cc0d6bf6f34072fde2834f4613a6fb5a2cd22aab75c6ea25c06d5",
+      "bytes": 3766346,
+      "fetchedAt": "2026-10-31T09:33:08.859Z",
+      "fetchedFrom": "https://www.city.yonago.lg.jp/secure/62741/gikaidayori0807.pdf"
+    },
+    {
+      "filename": "giketsu8.03.pdf",
+      "sha256": "4f2ba2a11a5369806e048488d5e70f1099ccbde9df4c60a81ba56d8b04c7b44f",
+      "bytes": 83765,
+      "fetchedAt": "2026-10-31T09:33:08.860Z",
+      "fetchedFrom": "https://www.city.yonago.lg.jp/secure/16192/giketsu8.03.pdf"
+    },
+    {
+      "filename": "2913.htm",
+      "sha256": "ddffc72f9535bc156a6694828498654a2a63a84ef4f9fe116d7c35f1c46e9b5e",
+      "bytes": 29952,
+      "fetchedAt": "2026-10-31T09:33:08.861Z",
+      "fetchedFrom": "https://www.city.yonago.lg.jp/2913.htm"
+    }
+  ]
+}

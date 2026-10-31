@@ -40434,5 +40434,299 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www.city.daisen.lg.jp/archive/contents-11105",
     "license": "©2024 DAISEN City",
     "target": "file"
+  },
+  "/sources/aomori-ken-gikai-r8/aomori-ken_kaiha_20260308.html": {
+    "mode": "origin",
+    "href": "https://www.pref.aomori.lg.jp/soshiki/gikai/home.html",
+    "license": "青森県庁ホームページ(https://www.pref.aomori.lg.jp/)に掲載されている文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「青森県庁ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、青森県または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/aomori-ken-gikai-r8/aomori-ken_325teirei_sanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.aomori.lg.jp/soshiki/gikai/home.html",
+    "license": "青森県庁ホームページ(https://www.pref.aomori.lg.jp/)に掲載されている文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「青森県庁ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、青森県または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/mutsu-shigikai-r8/mutsu_kaiha-iinkai_20251215.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20251215051926id_/https://www.city.mutsu.lg.jp/gikai/giin/kaiha-iinkai.html",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "page"
+  },
+  "/sources/mutsu-shigikai-r8/mutsu_267_sanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mutsu.lg.jp/gikai/kiroku/files/267_sanpi.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
+  "/sources/mutsu-shigikai-r8/mutsu_267-honkaigi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.mutsu.lg.jp/gikai/kiroku/files/267-honkaigi.pdf",
+    "license": "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    "target": "file"
+  },
+  "/sources/goshogawara-shigikai-r8/goshogawara_kaihameibo_20251212.html": {
+    "mode": "origin",
+    "href": "https://www.city.goshogawara.lg.jp/gikai/koremadenohonnkaigikaisaijoukyou.html",
+    "license": "五所川原市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として五所川原市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/goshogawara-shigikai-r8/goshogawara_0802kekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.goshogawara.lg.jp/gikai/koremadenohonnkaigikaisaijoukyou.html",
+    "license": "五所川原市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として五所川原市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/goshogawara-shigikai-r8/goshogawara_R7seimu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.goshogawara.lg.jp/gikai/koremadenohonnkaigikaisaijoukyou.html",
+    "license": "五所川原市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として五所川原市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/towada-shigikai-r8/towada_kaiha_2023-0112-1707-176.html": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gikai/giinichiran/2023-0112-1707-176.html",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/towada-shigikai-r8/towada_86_p02.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/86_p02.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-shigikai-r8/towada_R08-1_kaiki.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gikai/teireikai/files/R08-1_kaiki.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-shigikai-r8/towada_r8-1giansanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gikai/teireikai/files/r8-1giansanpi.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/towada-shigikai-r8/towada_83_p10.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/83_p10.pdf",
+    "license": "Copyright © TOWADA CITY All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/sakata-shigikai-r8/sakata_kaiha_20260315.html": {
+    "mode": "origin",
+    "href": "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/giketsu-kekka.html",
+    "license": "酒田市ホームページに掲載されている個々の情報（文書、写真、イラスト等）に関する諸権利は、著作権法によって保護されています。これらの情報について、著作権法で認められた場合を除き、複製、転用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/sakata-shigikai-r8/sakata_R08-03.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/giketsu-kekka.html",
+    "license": "酒田市ホームページに掲載されている個々の情報（文書、写真、イラスト等）に関する諸権利は、著作権法によって保護されています。これらの情報について、著作権法で認められた場合を除き、複製、転用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/sakata-shigikai-r8/sakata_shigikai.html": {
+    "mode": "origin",
+    "href": "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/giketsu-kekka.html",
+    "license": "酒田市ホームページに掲載されている個々の情報（文書、写真、イラスト等）に関する諸権利は、著作権法によって保護されています。これらの情報について、著作権法で認められた場合を除き、複製、転用をすることはできません。",
+    "target": "page"
+  },
+  "/sources/tendo-shigikai-r8/tendo_kaiha_kousei_20250713.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20250713204106id_/https://www.city.tendo.yamagata.jp/congress/kousei/kaiha_kousei.html",
+    "license": "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    "target": "page"
+  },
+  "/sources/tendo-shigikai-r8/tendo_kaigiyotei_kaigikekka_07.html": {
+    "mode": "origin",
+    "href": "https://www.city.tendo.yamagata.jp/congress/kaigiyotei/kaigiyotei_kaigikekka_07.html",
+    "license": "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    "target": "page"
+  },
+  "/sources/tendo-shigikai-r8/tendo_shigikai_ni_tsuite.html": {
+    "mode": "origin",
+    "href": "https://www.city.tendo.yamagata.jp/congress/gikainitsuite/shigikai_ni_tsuite.html",
+    "license": "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    "target": "page"
+  },
+  "/sources/tendo-shigikai-r8/tendo_r7seimukatudouhisyuseigo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tendo.yamagata.jp/congress/katsudou/r7seimukatudouhisyuseigo.pdf",
+    "license": "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    "target": "file"
+  },
+  "/sources/yonezawa-shigikai-r8/yonezawa_8595_20251112.html": {
+    "mode": "origin",
+    "href": "https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonezawa-shigikai-r8/yonezawa_2603sanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonezawa-shigikai-r8/yonezawa_dayori_186.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonezawa-shigikai-r8/yonezawa_444.html": {
+    "mode": "origin",
+    "href": "https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html",
+    "license": "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/shimane-ken-gikai-r8/r070609_kaihabetumeibo.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.shimane.lg.jp/gikai/gaido/meibo/index.data/r070609_kaihabetumeibo.pdf",
+    "license": "「島根県ホームページ」に掲載されている文章や写真、イラスト、画像などの著作権は、「島根県」又は「コンテンツ提供者」にあります。「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ホームページに記載されている所属へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/shimane-ken-gikai-r8/R7_shiori.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.shimane.lg.jp/gikai/gaido/shiori.data/R7_shiori.pdf",
+    "license": "「島根県ホームページ」に掲載されている文章や写真、イラスト、画像などの著作権は、「島根県」又は「コンテンツ提供者」にあります。「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ホームページに記載されている所属へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/shimane-ken-gikai-r8/r0802_giketu_kekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giketu_kekka.pdf",
+    "license": "「島根県ホームページ」に掲載されている文章や写真、イラスト、画像などの著作権は、「島根県」又は「コンテンツ提供者」にあります。「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ホームページに記載されている所属へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/shimane-ken-gikai-r8/r0802_giinbetu_kekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giinbetu_kekka.pdf",
+    "license": "「島根県ホームページ」に掲載されている文章や写真、イラスト、画像などの著作権は、「島根県」又は「コンテンツ提供者」にあります。「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ホームページに記載されている所属へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/shimane-ken-gikai-r8/wb20260226193500_meibo.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260226193500id_/https://www.pref.shimane.lg.jp/gikai/gaido/meibo/",
+    "license": "「島根県ホームページ」に掲載されている文章や写真、イラスト、画像などの著作権は、「島根県」又は「コンテンツ提供者」にあります。「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ホームページに記載されている所属へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/shimane-ken-gikai-r8/wb20260421073043_aisatu.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260421073043id_/https://www1.pref.shimane.lg.jp/gikai/gityou/aisatu.html",
+    "license": "「島根県ホームページ」に掲載されている文章や写真、イラスト、画像などの著作権は、「島根県」又は「コンテンツ提供者」にあります。「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ホームページに記載されている所属へお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/izumo-shigikai-r8/wb20260219032924_izumo_roster.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260219032924id_/https://gikai.izumo-city.jp/roster",
+    "license": "出雲市ホームページに掲載されている文章、写真、イラスト、画像等の著作権は、出雲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/izumo-shigikai-r8/R7-5_saiketugaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://gikai.izumo-city.jp/wp/wp-content/uploads/2026/03/R7-5_saiketugaiyou.pdf",
+    "license": "出雲市ホームページに掲載されている文章、写真、イラスト、画像等の著作権は、出雲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/izumo-shigikai-r8/R7-5_giinnbetusaiketu.pdf": {
+    "mode": "origin",
+    "href": "https://gikai.izumo-city.jp/wp/wp-content/uploads/2026/03/R7-5_giinnbetusaiketu.pdf",
+    "license": "出雲市ホームページに掲載されている文章、写真、イラスト、画像等の著作権は、出雲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/izumo-shigikai-r8/izumo_greeting-2.html": {
+    "mode": "origin",
+    "href": "https://gikai.izumo-city.jp/greeting-2",
+    "license": "出雲市ホームページに掲載されている文章、写真、イラスト、画像等の著作権は、出雲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各課等へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/tokushima-ken-gikai-r8/1042426.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/",
+    "license": "徳島県ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、徳島県の許可なく複製・転用・販売することはできません。ただし、当県サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/tokushima-ken-gikai-r8/1042115.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/",
+    "license": "徳島県ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、徳島県の許可なく複製・転用・販売することはできません。ただし、当県サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/tokushima-ken-gikai-r8/7310454.html": {
+    "mode": "origin",
+    "href": "https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/",
+    "license": "徳島県ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、徳島県の許可なく複製・転用・販売することはできません。ただし、当県サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/tokushima-ken-gikai-r8/kaihabetu_20260217.html": {
+    "mode": "origin",
+    "href": "https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/",
+    "license": "徳島県ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、徳島県の許可なく複製・転用・販売することはできません。ただし、当県サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/tokushima-ken-gikai-r8/senkyoku.html": {
+    "mode": "origin",
+    "href": "https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/",
+    "license": "徳島県ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、徳島県の許可なく複製・転用・販売することはできません。ただし、当県サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/naruto-shigikai-r8/kouseihyou071225.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.naruto.lg.jp/gikai/docs/2026010600250/",
+    "license": "鳴門市公式ウェブサイトで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、鳴門市の許可なく複製・転用・販売することはできません。ただし、当市サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/naruto-shigikai-r8/r8-1tei.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.naruto.lg.jp/gikai/docs/2026010600250/",
+    "license": "鳴門市公式ウェブサイトで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、鳴門市の許可なく複製・転用・販売することはできません。ただし、当市サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/tottori-ken-gikai-r8/dayori056_all.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.tottori.lg.jp/gikai/",
+    "license": "とりネットに掲載されている個々の情報（文章，写真，イラストなど）は，著作権の対象となっています。とりネット全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。 「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。利用許諾については該当するウェブページを所管する担当課へお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/tottori-ken-gikai-r8/R8.2giketsukekka0325.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.tottori.lg.jp/gikai/",
+    "license": "とりネットに掲載されている個々の情報（文章，写真，イラストなど）は，著作権の対象となっています。とりネット全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。 「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。利用許諾については該当するウェブページを所管する担当課へお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/tottori-ken-gikai-r8/75929.htm": {
+    "mode": "origin",
+    "href": "https://www.pref.tottori.lg.jp/gikai/",
+    "license": "とりネットに掲載されている個々の情報（文章，写真，イラストなど）は，著作権の対象となっています。とりネット全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。 「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。利用許諾については該当するウェブページを所管する担当課へお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/yonago-shigikai-r8/gikaidayori0807.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yonago.lg.jp/secure/62741/gikaidayori0807.pdf",
+    "license": "このサイトに掲載されている文書・画像などの各ファイル、およびその内容に関する諸権利は、原則として米子市に帰属します。これらの文書などについての使用をご希望の場合は、秘書広報課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/yonago-shigikai-r8/giketsu8.03.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yonago.lg.jp/secure/16192/giketsu8.03.pdf",
+    "license": "このサイトに掲載されている文書・画像などの各ファイル、およびその内容に関する諸権利は、原則として米子市に帰属します。これらの文書などについての使用をご希望の場合は、秘書広報課までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/yonago-shigikai-r8/2913.htm": {
+    "mode": "origin",
+    "href": "https://www.city.yonago.lg.jp/2913.htm",
+    "license": "このサイトに掲載されている文書・画像などの各ファイル、およびその内容に関する諸権利は、原則として米子市に帰属します。これらの文書などについての使用をご希望の場合は、秘書広報課までご連絡ください。",
+    "target": "page"
+  },
+  "/sources/kurayoshi-shigikai-r8/R080317_giketsukekka_giinbetsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kurayoshi.lg.jp/secure/4230/R080317%E3%80%91%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%EF%BC%88%E8%AD%B0%E5%93%A1%E5%88%A5%EF%BC%89.pdf",
+    "license": "このサイトに掲載されている文字、画像、動画、図表等の著作権は、特に明示がない限り倉吉市に帰属します。また、一部の画像などは原著作者が著作権を所有したり、本市が使用する場合に限り認められたものがあります。よって、　　本サイトの内容を無断で使用・転載することはできません。本サイトの引用、転載等を希望される場合は、 倉吉市総務部企画課 までご連絡ください。",
+    "target": "file"
+  },
+  "/sources/kurayoshi-shigikai-r8/02_R07_honntai.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kurayoshi.lg.jp/secure/3971/02_R07%E6%9C%AC%E4%BD%93%EF%BC%88%E5%AE%8C%E6%88%90%E7%89%88%EF%BC%89.pdf",
+    "license": "このサイトに掲載されている文字、画像、動画、図表等の著作権は、特に明示がない限り倉吉市に帰属します。また、一部の画像などは原著作者が著作権を所有したり、本市が使用する場合に限り認められたものがあります。よって、　　本サイトの内容を無断で使用・転載することはできません。本サイトの引用、転載等を希望される場合は、 倉吉市総務部企画課 までご連絡ください。",
+    "target": "file"
   }
 };

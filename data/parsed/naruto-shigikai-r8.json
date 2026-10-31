@@ -1,0 +1,124 @@
+{
+  "docType": "council-composition",
+  "sourceId": "naruto-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:39.928Z",
+  "fiscalYear": "R8",
+  "body": "鳴門市議会",
+  "seats": 20,
+  "asOf": "2025-12-25",
+  "factions": [
+    {
+      "name": "なると未来",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "山根巌",
+        "梶達矢",
+        "納田盛資",
+        "八木知子",
+        "黒島宏美",
+        "高麗裕之"
+      ],
+      "locator": {
+        "file": "kouseihyou071225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新・令和なると",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "森江大蔵",
+        "八木亨",
+        "宅川靖次"
+      ],
+      "locator": {
+        "file": "kouseihyou071225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創心（そうしん）クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岡香名芽",
+        "秋岡大喜",
+        "長濱賢一"
+      ],
+      "locator": {
+        "file": "kouseihyou071225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "潮（うずしお）",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "東正昇",
+        "藤田茂男"
+      ],
+      "locator": {
+        "file": "kouseihyou071225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "前田ナツ子",
+        "山下敬子"
+      ],
+      "locator": {
+        "file": "kouseihyou071225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "鳴光会（めいこうかい）",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "潮崎憲司",
+        "三津良裕"
+      ],
+      "locator": {
+        "file": "kouseihyou071225.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "上田公司",
+        "笠原将吾"
+      ],
+      "locator": {
+        "file": "kouseihyou071225.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 ４ 号",
+    "billName": "令和８年度鳴門市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r8-1tei.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "委員会等構成表・会派構成表（令和7年12月25日現在）",
+  "resultTitle": "令和８年第１回定例会 議決結果"
+}

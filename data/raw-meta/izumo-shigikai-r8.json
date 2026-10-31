@@ -1,0 +1,39 @@
+{
+  "sourceId": "izumo-shigikai-r8",
+  "files": [
+    {
+      "filename": "wb20260219032924_izumo_roster.html",
+      "sha256": "a879963c493ec105cc7ab0a17d762dcbf44a49e6a7ffd168ab5152982b1a7eb8",
+      "bytes": 55231,
+      "fetchedAt": "2026-10-31T09:33:08.845Z",
+      "fetchedFrom": "https://web.archive.org/web/20260219032924id_/https://gikai.izumo-city.jp/roster",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "R7-5_saiketugaiyou.pdf",
+      "sha256": "5b63e8b74bd0eb685dbfb79612ad2758f7683753d782715d991af3cf640d8c37",
+      "bytes": 195887,
+      "fetchedAt": "2026-10-31T09:33:08.846Z",
+      "fetchedFrom": "https://gikai.izumo-city.jp/wp/wp-content/uploads/2026/03/R7-5_saiketugaiyou.pdf"
+    },
+    {
+      "filename": "R7-5_giinnbetusaiketu.pdf",
+      "sha256": "e03fe5bdf433388cbcfa72866475a0e0b7a23d7d7e5a32998ad1d15aa53cc4e7",
+      "bytes": 235797,
+      "fetchedAt": "2026-10-31T09:33:08.846Z",
+      "fetchedFrom": "https://gikai.izumo-city.jp/wp/wp-content/uploads/2026/03/R7-5_giinnbetusaiketu.pdf"
+    },
+    {
+      "filename": "izumo_greeting-2.html",
+      "sha256": "4413a14a0de21e1d150ee5c324b2380dc7455032f0a81a920504dc05d319ffe7",
+      "bytes": 49878,
+      "fetchedAt": "2026-10-31T09:33:08.846Z",
+      "fetchedFrom": "https://gikai.izumo-city.jp/greeting-2",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "tottori-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "dayori056_all.pdf",
+      "sha256": "b98bfe1c3ca7fa71446a1a292cd280112d9ffa25ffa18f4c65a827e7804841fe",
+      "bytes": 2218719,
+      "fetchedAt": "2026-10-31T09:33:08.853Z",
+      "fetchedFrom": "https://www.pref.tottori.lg.jp/secure/1427282/dayori056_all.pdf"
+    },
+    {
+      "filename": "R8.2giketsukekka0325.pdf",
+      "sha256": "ea97b5123824aa09c523faea37a46419b2f1481977a06e3051928d1c6c6f6f76",
+      "bytes": 771255,
+      "fetchedAt": "2026-10-31T09:33:08.855Z",
+      "fetchedFrom": "https://www.pref.tottori.lg.jp/secure/1412311/R8.2giketsukekka0325.pdf"
+    },
+    {
+      "filename": "75929.htm",
+      "sha256": "118cb92ba9c9555353de6ffab866384406667205eb2434af592eb44a4a9cd757",
+      "bytes": 41336,
+      "fetchedAt": "2026-10-31T09:33:08.855Z",
+      "fetchedFrom": "https://www.pref.tottori.lg.jp/75929.htm"
+    }
+  ]
+}

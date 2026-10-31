@@ -1,0 +1,187 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kurayoshi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:42.372Z",
+  "fiscalYear": "R8",
+  "body": "倉吉市議会",
+  "seats": 17,
+  "asOf": "2026-03-17",
+  "teisu": 17,
+  "factions": [
+    {
+      "name": "やらいや",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "朝日等治",
+        "大津昌克",
+        "田村閑美",
+        "福井典子",
+        "福田淳",
+        "福谷直美",
+        "増田孝二"
+      ],
+      "locator": {
+        "file": "R080317_giketsukekka_giinbetsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "竺原晶子",
+        "福井康夫",
+        "鳥羽昌明",
+        "萬場恵理",
+        "米田勝彦"
+      ],
+      "locator": {
+        "file": "R080317_giketsukekka_giinbetsu.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "そうせい会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山根健資",
+        "髙橋義博",
+        "中山晶雄",
+        "藤井陽介",
+        "山下達也"
+      ],
+      "locator": {
+        "file": "R080317_giketsukekka_giinbetsu.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案 第 13号",
+    "billName": "令和８年度倉吉市一般会計予算",
+    "sessionLabel": "令和8年3月 第2回定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R080317_giketsukekka_giinbetsu.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議案等の議決結果等（令和8年3月 第2回定例会）（議員別）の表頭",
+  "resultTitle": "議案等の議決結果等（令和8年3月 第2回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議案等の議決結果等（令和8年3月 第2回定例会）（議員別）",
+    "sourceFile": "R080317_giketsukekka_giinbetsu.pdf",
+    "columns": [
+      {
+        "label": "朝日等治",
+        "faction": "やらいや",
+        "member": "朝日等治",
+        "stance": "賛成"
+      },
+      {
+        "label": "大津昌克",
+        "faction": "やらいや",
+        "member": "大津昌克",
+        "stance": "賛成"
+      },
+      {
+        "label": "田村閑美",
+        "faction": "やらいや",
+        "member": "田村閑美",
+        "stance": "賛成"
+      },
+      {
+        "label": "福井典子",
+        "faction": "やらいや",
+        "member": "福井典子",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田淳",
+        "faction": "やらいや",
+        "member": "福田淳",
+        "stance": "賛成"
+      },
+      {
+        "label": "福谷直美",
+        "faction": "やらいや",
+        "member": "福谷直美",
+        "stance": "議長"
+      },
+      {
+        "label": "増田孝二",
+        "faction": "やらいや",
+        "member": "増田孝二",
+        "stance": "賛成"
+      },
+      {
+        "label": "竺原晶子",
+        "faction": "新政会",
+        "member": "竺原晶子",
+        "stance": "賛成"
+      },
+      {
+        "label": "福井康夫",
+        "faction": "新政会",
+        "member": "福井康夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "鳥羽昌明",
+        "faction": "新政会",
+        "member": "鳥羽昌明",
+        "stance": "賛成"
+      },
+      {
+        "label": "萬場恵理",
+        "faction": "新政会",
+        "member": "萬場恵理",
+        "stance": "賛成"
+      },
+      {
+        "label": "米田勝彦",
+        "faction": "新政会",
+        "member": "米田勝彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "山根健資",
+        "faction": "そうせい会",
+        "member": "山根健資",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋義博",
+        "faction": "そうせい会",
+        "member": "髙橋義博",
+        "stance": "賛成"
+      },
+      {
+        "label": "中山晶雄",
+        "faction": "そうせい会",
+        "member": "中山晶雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤井陽介",
+        "faction": "そうせい会",
+        "member": "藤井陽介",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下達也",
+        "faction": "そうせい会",
+        "member": "山下達也",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

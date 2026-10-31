@@ -1,0 +1,254 @@
+{
+  "docType": "council-composition",
+  "sourceId": "mutsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:35.859Z",
+  "fiscalYear": "R8",
+  "body": "むつ市議会",
+  "seats": 22,
+  "asOf": "2025-10-03",
+  "factions": [
+    {
+      "name": "市誠クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "佐賀英生",
+        "野中貴健",
+        "佐藤広政"
+      ],
+      "locator": {
+        "file": "mutsu_kaiha-iinkai_20251215.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明・自由",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "住吉年広",
+        "櫻田秀夫",
+        "白井二郎"
+      ],
+      "locator": {
+        "file": "mutsu_kaiha-iinkai_20251215.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "自民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "中村正志",
+        "佐々木肇",
+        "浅利竹二郎",
+        "井田茂樹",
+        "冨岡幸夫"
+      ],
+      "locator": {
+        "file": "mutsu_kaiha-iinkai_20251215.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "陸奥未来",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "佐々木隆徳",
+        "岡崎健吾",
+        "村中浩明",
+        "富岡直哉"
+      ],
+      "locator": {
+        "file": "mutsu_kaiha-iinkai_20251215.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "むつの風",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "杉浦弘樹",
+        "東健而",
+        "大瀧次男",
+        "濵田栄子"
+      ],
+      "locator": {
+        "file": "mutsu_kaiha-iinkai_20251215.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に属しない議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "高橋征志",
+        "佐藤武",
+        "工藤祥子"
+      ],
+      "locator": {
+        "file": "mutsu_kaiha-iinkai_20251215.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第25号",
+    "billName": "令和８年度むつ市一般会計予算",
+    "sessionLabel": "第２６７回定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "mutsu_267_sanpi.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "会派別・委員会別一覧（令和７年10月３日現在・議決前の魚拓）",
+  "resultTitle": "第２６７回定例会 議案に対する賛否一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "第２６７回定例会 議案に対する賛否一覧",
+    "sourceFile": "mutsu_267_sanpi.pdf",
+    "columns": [
+      {
+        "label": "佐賀英生",
+        "faction": "市誠クラブ",
+        "member": "佐賀英生",
+        "stance": "賛成"
+      },
+      {
+        "label": "野中貴健",
+        "faction": "市誠クラブ",
+        "member": "野中貴健",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤広政",
+        "faction": "市誠クラブ",
+        "member": "佐藤広政",
+        "stance": "賛成"
+      },
+      {
+        "label": "住吉年広",
+        "faction": "公明・自由",
+        "member": "住吉年広",
+        "stance": "賛成"
+      },
+      {
+        "label": "櫻田秀夫",
+        "faction": "公明・自由",
+        "member": "櫻田秀夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "白井二郎",
+        "faction": "公明・自由",
+        "member": "白井二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木肇",
+        "faction": "自民クラブ",
+        "member": "佐々木肇",
+        "stance": "賛成"
+      },
+      {
+        "label": "浅利竹二郎",
+        "faction": "自民クラブ",
+        "member": "浅利竹二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村正志",
+        "faction": "自民クラブ",
+        "member": "中村正志",
+        "stance": "賛成"
+      },
+      {
+        "label": "井田茂樹",
+        "faction": "自民クラブ",
+        "member": "井田茂樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木隆徳",
+        "faction": "陸奥未来",
+        "member": "佐々木隆徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡崎健吾",
+        "faction": "陸奥未来",
+        "member": "岡崎健吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "村中浩明",
+        "faction": "陸奥未来",
+        "member": "村中浩明",
+        "stance": "賛成"
+      },
+      {
+        "label": "富岡直哉",
+        "faction": "陸奥未来",
+        "member": "富岡直哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "東健而",
+        "faction": "むつの風",
+        "member": "東健而",
+        "stance": "賛成"
+      },
+      {
+        "label": "大瀧次男",
+        "faction": "むつの風",
+        "member": "大瀧次男",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉浦弘樹",
+        "faction": "むつの風",
+        "member": "杉浦弘樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "濵田栄子",
+        "faction": "むつの風",
+        "member": "濵田栄子",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋征志",
+        "faction": "会派に属しない議員",
+        "member": "高橋征志",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤武",
+        "faction": "会派に属しない議員",
+        "member": "佐藤武",
+        "stance": "反対"
+      },
+      {
+        "label": "工藤祥子",
+        "faction": "会派に属しない議員",
+        "member": "工藤祥子",
+        "stance": "反対"
+      },
+      {
+        "label": "冨岡幸夫",
+        "faction": "自民クラブ",
+        "member": "冨岡幸夫",
+        "stance": "議長"
+      }
+    ]
+  }
+}

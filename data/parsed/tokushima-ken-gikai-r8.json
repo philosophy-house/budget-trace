@@ -1,0 +1,173 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tokushima-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:39.529Z",
+  "fiscalYear": "R8",
+  "body": "徳島県議会",
+  "seats": 36,
+  "asOf": "2026-03-11",
+  "factions": [
+    {
+      "name": "徳島県議会自由民主党",
+      "seats": 17,
+      "isIndependent": false,
+      "members": [
+        "嘉見博之",
+        "岡本富治",
+        "重清佳之",
+        "眞貝浩司",
+        "山西国朗",
+        "原徹臣",
+        "福山博史",
+        "須見一仁",
+        "岡田理絵",
+        "井村保裕",
+        "沢本勝彦",
+        "川真田琢巳",
+        "大塚明廣",
+        "木下賢功",
+        "古野司",
+        "平山尚道",
+        "元木章生"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新しい県政を創る会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "仁木啓人",
+        "東条恭子",
+        "長池文武",
+        "庄野昌彦",
+        "竹内義了"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党県民会議",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "井川龍二",
+        "立川了大",
+        "井下泰憲",
+        "寺井正邇"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "グローカルplus",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "浪越憲一",
+        "近藤諭",
+        "岸本淳志"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "真政会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岡佑樹",
+        "坂口誠治"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党徳島県議団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "梶原一哉"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "達田良子"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "護民官",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "扶川敦"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "元気とくしま",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "岡田晋"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "曽根大志"
+      ],
+      "locator": {
+        "file": "1042426.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度徳島県一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-11",
+    "decidedDateLabel": "令和8年3月11日",
+    "result": "可決",
+    "locator": {
+      "file": "1042426.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議案審査結果（令和８年３月１１日）の表頭（会派名と議員名）",
+  "resultTitle": "令和8年2月定例会 各議員の表決態度（3月11日採決）「議案審査結果（令和８年３月１１日）」"
+}

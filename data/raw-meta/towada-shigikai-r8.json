@@ -1,0 +1,40 @@
+{
+  "sourceId": "towada-shigikai-r8",
+  "files": [
+    {
+      "filename": "towada_kaiha_2023-0112-1707-176.html",
+      "sha256": "39bc2f8161f89e727892d671292a287c13f619a2c6547a825761acd80890ff04",
+      "bytes": 13804,
+      "fetchedAt": "2026-10-31T09:33:08.822Z",
+      "fetchedFrom": "https://www.city.towada.lg.jp/shisei/gikai/giinichiran/2023-0112-1707-176.html"
+    },
+    {
+      "filename": "towada_86_p02.pdf",
+      "sha256": "2d4bbba452085bb181eb17612b1cbba0db45c5c2d8bffe1077ee4c16dd8bffd3",
+      "bytes": 1016497,
+      "fetchedAt": "2026-10-31T09:33:08.823Z",
+      "fetchedFrom": "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/86_p02.pdf"
+    },
+    {
+      "filename": "towada_R08-1_kaiki.pdf",
+      "sha256": "f3ae1fc429429d9c64b19ed1d45b3643d32afd829215463bc6fb3b6580125526",
+      "bytes": 39715,
+      "fetchedAt": "2026-10-31T09:33:08.823Z",
+      "fetchedFrom": "https://www.city.towada.lg.jp/shisei/gikai/teireikai/files/R08-1_kaiki.pdf"
+    },
+    {
+      "filename": "towada_r8-1giansanpi.pdf",
+      "sha256": "c8add68efc960c2bd8077c2352692c6f9d67ca2482b0731d455e50e6809937d4",
+      "bytes": 114917,
+      "fetchedAt": "2026-10-31T09:33:08.824Z",
+      "fetchedFrom": "https://www.city.towada.lg.jp/shisei/gikai/teireikai/files/r8-1giansanpi.pdf"
+    },
+    {
+      "filename": "towada_83_p10.pdf",
+      "sha256": "fae97c2729c988e48a6643f67e21dfaa50ec766a9fa91808a91f9b684cad3242",
+      "bytes": 837355,
+      "fetchedAt": "2026-10-31T09:33:08.825Z",
+      "fetchedFrom": "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/83_p10.pdf"
+    }
+  ]
+}

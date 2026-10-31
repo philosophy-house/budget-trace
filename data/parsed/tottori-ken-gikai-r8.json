@@ -1,0 +1,107 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tottori-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:41.023Z",
+  "fiscalYear": "R8",
+  "body": "鳥取県議会",
+  "seats": 35,
+  "asOf": "2026-03-25",
+  "teisu": 35,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 19,
+      "isIndependent": false,
+      "members": [
+        "浜崎晋一",
+        "斉木正一",
+        "野坂道明",
+        "内田博長",
+        "川部洋",
+        "広谷直樹",
+        "中島規夫",
+        "安田由毅",
+        "語堂正範",
+        "東田義博",
+        "浜田一哉",
+        "福田俊史",
+        "入江誠",
+        "河上定弘",
+        "鳥羽喜一",
+        "森由美子",
+        "山本暁子",
+        "島谷龍司",
+        "鹿島功"
+      ],
+      "locator": {
+        "file": "dayori056_all.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "民主とっとり",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "村上泰二朗",
+        "坂野経三郎",
+        "浜田妙子",
+        "尾崎薫",
+        "興治英夫",
+        "伊藤保"
+      ],
+      "locator": {
+        "file": "dayori056_all.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "前田伸一",
+        "前原茂",
+        "銀杏泰利"
+      ],
+      "locator": {
+        "file": "dayori056_all.pdf",
+        "page": 10
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 7,
+      "isIndependent": true,
+      "members": [
+        "玉木裕一",
+        "前住孝行",
+        "西村弥子",
+        "山川智帆",
+        "松田正",
+        "福浜隆宏",
+        "市谷知子"
+      ],
+      "locator": {
+        "file": "dayori056_all.pdf",
+        "page": 10
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第１号",
+    "billName": "令和８年度鳥取県一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "可決",
+    "locator": {
+      "file": "R8.2giketsukekka0325.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "とっとり県議会だより No.056（令和８年２月定例会号）p.10〜11「令和８年２月定例会付議案等議決結果」の表頭",
+  "resultTitle": "令和8年2月定例会 議決結果（令和8年3月25日議決分）"
+}

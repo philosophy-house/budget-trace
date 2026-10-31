@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>会派名簿 - 五所川原市</title>
+<link rel="stylesheet" type="text/css" href="/gikai/css/public.css">
+<link media="screen and (max-width:480px)" href="/gikai/css/sp.css" type="text/css" rel="stylesheet">
+<link media="screen and (min-width:481px)" href="/gikai/css/pc.css" type="text/css" rel="stylesheet">
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/smartphone.js"></script>
+<!-- 文字サイズ変更 -->
+<script type="text/javascript">
+//文字サイズ変更
+$(document).ready(function(){
+	font_size_init();
+});
+/* ------ 共通------ */
+var uniq_name = "fcmn_";	//クッキー名称の冠[変更可]
+var keepdays = 0;			//クッキーの保存期間[変更可]
+
+/* ------ フォントサイズ変更------ */
+var step = 10;			//このパーセント刻みで文字の大小を変えます[変更可]
+var defSize = 100;		//初期値（パーセント）[変更可]
+var cookie_fs = uniq_name + "fontsize";
+
+/*------------------------------------------------------------------------------*/
+var crtSize = defSize;
+
+function font_size_init(){
+	//フォント設定が残っていたら反映する
+	var tmp_fs= $.cookie(cookie_fs);
+	if (tmp_fs) {
+		crtSize = parseInt(tmp_fs);
+		fsChange(crtSize);
+	}
+
+}
+
+
+function setCookie(key, value){
+	$.cookie(key, value, {expires:365, path:'/'});
+}
+
+function deleteCookie(key){
+	$.cookie(key, "", {expires: -1, path:'/'});
+}
+
+function fsChange(arg){
+	//未対応ブラウザ対応
+	if(!document.body){
+		s_message("n_use");
+	}else{
+		//現在のフォントサイズ値を変更
+		if(arg == "d"){
+			crtSize = defSize;
+			deleteCookie(cookie_fs);
+		}
+		else if(arg == "s"){
+			if (parseInt(crtSize) > parseInt(step) ){
+				crtSize -= parseInt(step);
+				setCookie(cookie_fs, crtSize);
+			}
+		}
+		else if(arg == "l"){
+			crtSize += parseInt(step);
+			setCookie(cookie_fs, crtSize);
+		}
+		//フォントサイズを変更
+		$('#main,#footer').css('fontSize', crtSize + "%");
+	}
+}
+
+function bgChange(node_id,url_id){
+	var target = document.getElementById(node_id);
+	//未対応ブラウザ対応
+	if(!target || !target.cloneNode){
+		s_message("n_use");
+	}else{
+		target.href = eval(url_id);			//DBPSでは相対パスでURLを設定するので、毎回パスを受け取りなおします
+		setCookie(cookie_bgurl, url_id);
+		setCookie(cookie_bgid, node_id);
+	}
+}
+
+function s_message(arg){
+	if(arg == "n_use"){
+		alert("お使いのブラウザではこの機能を使用できません");
+	}
+}
+</script>
+
+<!-- アイコン付与 -->
+<script type="text/javascript">
+<!--
+
+$(document).ready(function(){
+		
+	// news icon
+	function addClass($a, _class){
+		var $tr = $a.parent().parent();
+		var $td = $($tr.children()[0]);
+		var $span = $td.find('span');
+		$span.addClass(_class);
+	}
+	var newsArr = $('#news').find('a');
+	$.each(newsArr, function(i, row){
+		var $row = $(row);
+		
+		if($row.attr('href').indexOf("kurashi/") >= 0){
+			addClass($row, 'icon-kurashi');
+		}else if($row.attr('href').indexOf("kankou/") >= 0){
+			addClass($row, 'icon-kankou');
+		}else if($row.attr('href').indexOf("kurashi/") >= 0){
+			addClass($row, 'icon-kurashi');
+		}else if($row.attr('href').indexOf("kyouiku/") >= 0){
+			addClass($row, 'icon-kyouiku');
+		}else if($row.attr('href').indexOf("kenkou/") >= 0){
+			addClass($row, 'icon-kenkou');
+		}else if($row.attr('href').indexOf("shigoto/") >= 0){
+			addClass($row, 'icon-shigoto');
+		}else if($row.attr('href').indexOf("jouhou/") >= 0){
+			addClass($row, 'icon-jouhou');
+		}else{
+			// etc
+			addClass($row, 'icon-sonota');
+		}
+	});
+});
+
+//-->
+</script>
+
+<!-- 背景色切り替え -->
+<script src="/js/styleswitch.js"></script>
+<link rel="stylesheet" type="text/css" href="/gikai/css/white.css" title="white" />
+<link rel="alternate stylesheet" type="text/css" href="/gikai/css/blue.css" title="blue" />
+<link rel="alternate stylesheet" type="text/css" href="/gikai/css/black.css" title="black" />
+
+<!-- 一瞬ウィンク -->
+<script type="text/javascript">
+$(function(){
+	$(".wink img, .user a").mouseover(function(){
+        $(this).css({
+            opacity: "0.6",
+            filter: "alpha(opacity=200)"
+        });
+		$(this).fadeTo("slow", 1.0);
+	});
+});
+</script>
+
+<!-- スクロールページトップ -->
+<script type="text/javascript">
+$(function() {
+	var showFlag = false;
+	var topBtn = $('#page-top');	
+	topBtn.css('bottom', '-100px');
+	var showFlag = false;
+	//スクロールが500に達したらボタン表示
+	$(window).scroll(function () {
+      if ($(this).scrollTop() > 500) {
+			if (showFlag == false) {
+				showFlag = true;
+				topBtn.stop().animate({'bottom' : '80px'}, 600); 
+			}
+		} else {
+			if (showFlag) {
+				showFlag = false;
+				topBtn.stop().animate({'bottom' : '-100px'}, 600); 
+			}
+		}
+	});
+	//スクロールしてトップ
+    topBtn.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+    });
+});
+</script>
+
+<!-- スクロールページバック -->
+<script type="text/javascript">
+$(function() {
+	var showFlag = false;
+	var topBtn = $('#page-back');	
+	topBtn.css('bottom', '-100px');
+	var showFlag = false;
+	//スクロールが500に達したらボタン表示
+	$(window).scroll(function () {
+      if ($(this).scrollTop() > 500) {
+			if (showFlag == false) {
+				showFlag = true;
+				topBtn.stop().animate({'bottom' : '80px'}, 600); 
+			}
+		} else {
+			if (showFlag) {
+				showFlag = false;
+				topBtn.stop().animate({'bottom' : '-100px'}, 600); 
+			}
+		}
+	});
+});
+</script>
+<!--[if lt IE 9]>
+<script src="/js/css3-mediaqueries.js"></script>
+<link rel="stylesheet" type="text/css" href="/shobo/css/pc.css">
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/css/ie8.css">
+<![endif]-->
+
+<!-- Googleアナリティクス -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38831328-2', 'auto');
+  ga('send', 'pageview');
+
+</script></head>
+
+<body>
+<!--ヘッダー-->
+<div id="headerwrap">
+  <div id="header">
+    <div class="logo"><a href="/gikai/"><img src="/gikai/contents_image/logo.png" width="299" height="100" alt=""/></a></div>
+    <div class="user">
+      <ul class="pc">
+        <li>文字</li>
+        <li class="button font_m"><a class="fontsize" href="javascript:void();" onclick="fsChange('d'); return false;">標準</a></li>
+        <li class="button font_l"><a class="fontsize" href="javascript:void();" onclick="fsChange('l'); return false;">大</a></li>
+        <li>背景</li>
+        <li class="button blue"><a href="?style=blue" rel="blue" class="styleswitch" title="青">A</a></li>
+        <li class="button black"><a href="?style=black" rel="black" class="styleswitch" title="黒">A</a></li>
+        <li class="button white"><a href="?style=white" rel="white" class="styleswitch" title="白">A</a></li>
+      </ul>
+      <div style="clear:both;"></div>
+      <div class="search"> 
+        <!-- Google検索　画像ボタンVer -->
+        <FORM method="GET" action="//www.google.co.jp/search">
+          <INPUT type="text" class="search_text" name="q" maxlength=255 value="" placeholder="サイト内検索">
+          <input type="image" class="search_button" src="contents_image/search_button.png" width="30" height="30" alt="Search" title="検索" align="top" value=""/>
+          <INPUT type="hidden" name="hl" value="ja">
+          <INPUT type="hidden" name="as_sitesearch" value="www.city.goshogawara.lg.jp">
+          <INPUT type="hidden" name="ie" value="UTF-8">
+          <INPUT type="hidden" name="oe" value="UTF-8">
+        </FORM>
+        <!-- Google検索 --> 
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
+</div><!--ヘッダーここまで--> 
+<!--メイン-->
+<div id="main"> 
+  <!--記事-->
+  <div id="contentswrap">
+    <h1>会派名簿</h1>
+    <div id="contents">
+                  <p style="margin-left: 400px">令和7年12月5日現在</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 570px">
+	<tbody>
+		<tr>
+			<td style="text-align: center">会派名</td>
+			<td style="text-align: center">人数</td>
+			<td style="text-align: center">役職</td>
+			<td style="text-align: center">氏名</td>
+		</tr>
+		<tr>
+			<td rowspan="9" style="text-align: center;">市民の声を聴く孝志会</td>
+			<td rowspan="9" style="text-align: center">9名</td>
+			<td style="text-align: center">会　長</td>
+			<td style="text-align: center">桑田　哲明</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">副会長</td>
+			<td style="text-align: center">山田　善治</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">幹事長</td>
+			<td style="text-align: center">山口　孝夫</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">会　計</td>
+			<td style="text-align: center">秋田　幸保</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">伊藤　永慈</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">木村　&nbsp; &nbsp;博</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">黒沼　&nbsp; &nbsp;剛</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">
+			<p>藤森　真悦</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">藤田　成保</td>
+		</tr>
+		<tr>
+			<td rowspan="5" style="text-align: center">自民公明クラブ</td>
+			<td rowspan="5" style="text-align: center">5名</td>
+			<td style="text-align: center">会　長</td>
+			<td style="text-align: center">木村　慶憲</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">幹事長</td>
+			<td style="text-align: center">平山　秀直</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">会　計</td>
+			<td style="text-align: center">伊藤　雅輝</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">外崎　英継</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">高橋　美奈</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="3" style="text-align: center">三和会<br>
+			（みつわかい）</td>
+			<td colspan="1" rowspan="3" style="text-align: center">３名</td>
+			<td style="text-align: center">会　長</td>
+			<td style="text-align: center">成田　和美</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">幹事長</td>
+			<td style="text-align: center">松本　和春</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">会　計</td>
+			<td style="text-align: center">和田　祐治</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">無所属</td>
+			<td style="text-align: center">1名</td>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">木村　清一</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">無所属</td>
+			<td style="text-align: center">1名</td>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">金谷　　勝</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">日本共産党</td>
+			<td style="text-align: center">1名</td>
+			<td style="text-align: center">&nbsp;</td>
+			<td style="text-align: center">花田　勝暁</td>
+		</tr>
+	</tbody>
+</table>
+            <div class="shomei">
+<h4>問い合わせ先</h4>
+<p>担当　議会事務局議会総務係</p>
+<p>電話　0173-35-2111</p>
+<p>内線2820</p>
+<p>内線2821</p>
+<p>内線2822</p>
+<p>ファクス　0173-35-2113</p>
+<p class="mail_button"><a href="https://www.city.goshogawara.lg.jp/toiawase/index.html?group=議会事務局議会総務係">メールでのお問い合わせ</a></p>
+</div>    </div>
+  </div>
+  <!--記事ここまで--> 
+  <!--メニュー-->
+  <div id="menu">
+    <div id="menutitle">五所川原市議会</div>
+    <ul>
+	<li><a href="index.html">市議会トップページ</a></li>
+	<li><a href="1-1honnkaigikaisaijoukyou.html">定例会・臨時会</a></li>
+	<li><a href="2-1meibogisekibanngoujunn.html">議員名簿</a></li>
+	<li><a href="seiganntinnjou.html">請願・陳情</a></li>
+	<li><a href="boutyou.html">傍聴について</a></li>
+	<li><a href="3-1gityoukousaihi.html">議長交際費</a></li>
+	<li><a href="katudouhi.html">政務活動費</a></li>
+	<li><a href="giinukeoi.html">議員の請負状況の公表</a></li>
+	<li><a href="gikaidayori.html">議会だより</a></li>
+	<li><a href="7-1kaigiroku.html">会議録閲覧</a></li>
+	<li><a href="https://goshogawara-city.stream.jfit.co.jp/" target="_blank">議会インターネット中継</a></li>
+	<li><a href="6-1ukeirejoukyou.html">行政視察受入</a></li>
+	<li><a href="giinseikyo.html">議員逝去のお知らせ</a></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a href="http://www.city.goshogawara.lg.jp/"><img alt="五所川原市ホームページへのリンク" height="47" src="images/logo.png" width="175"></a></p>
+  </div>  <!--メニューここまで--> 
+</div>
+<!--メインここまで--> 
+<!--フッター-->
+<div id="footer">Copyright(c) 五所川原市議会 All Rights Reserved</div>
+<p id="page-top"><a href="#"><img src="contents_image/icon_top.png" width="70" height="70" alt="ページの先頭へ"/></a></p>
+<p id="page-back"><a href="/gikai/"><img src="contents_image/icon_home.png" width="70" height="70" alt="ホームへ戻る"/></a></p><!--フッターここまで-->
+</body>
+</html>

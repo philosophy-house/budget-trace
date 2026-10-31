@@ -1,0 +1,50 @@
+{
+  "sourceId": "tokushima-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "1042426.pdf",
+      "sha256": "08b9a9d21c7e1ae3117c46ea98d8eabf497587b27c48810a9e0fcec45c0ca5bc",
+      "bytes": 710119,
+      "fetchedAt": "2026-10-31T09:33:08.848Z",
+      "fetchedFrom": "https://www.pref.tokushima.lg.jp/file/attachment/1042426.pdf"
+    },
+    {
+      "filename": "1042115.pdf",
+      "sha256": "1a268cbed1d22b744f8a4bac3bc42c7662fdabe197bfb68509b10ea7d8ae0fea",
+      "bytes": 119150,
+      "fetchedAt": "2026-10-31T09:33:08.849Z",
+      "fetchedFrom": "https://www.pref.tokushima.lg.jp/file/attachment/1042115.pdf"
+    },
+    {
+      "filename": "7310454.html",
+      "sha256": "af384c3955ac2ff7896818c00792fed7c84a08253c1801e4e0be63dee5d1b924",
+      "bytes": 42158,
+      "fetchedAt": "2026-10-31T09:33:08.849Z",
+      "fetchedFrom": "https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "kaihabetu_20260217.html",
+      "sha256": "1588338bf8da343e3127e34e93e483cc80638fb2adea6e8ce7efe2e8852ff995",
+      "bytes": 50037,
+      "fetchedAt": "2026-10-31T09:33:08.849Z",
+      "fetchedFrom": "https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/",
+      "transform": [
+        "gunzip",
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "senkyoku.html",
+      "sha256": "66817465a58d8fb469f11dccf625bed0bfb30a95346ce494a6490efdd80ace2e",
+      "bytes": 58264,
+      "fetchedAt": "2026-10-31T09:33:08.850Z",
+      "fetchedFrom": "https://www.pref.tokushima.lg.jp/gikai/giin/senkyoku/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

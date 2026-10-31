@@ -1,0 +1,113 @@
+{
+  "docType": "council-composition",
+  "sourceId": "goshogawara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:58:53.173Z",
+  "fiscalYear": "R8",
+  "body": "五所川原市議会",
+  "seats": 20,
+  "asOf": "2025-12-05",
+  "factions": [
+    {
+      "name": "市民の声を聴く孝志会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "桑田哲明",
+        "山田善治",
+        "山口孝夫",
+        "秋田幸保",
+        "伊藤永慈",
+        "木村博",
+        "黒沼剛",
+        "藤森真悦",
+        "藤田成保"
+      ],
+      "locator": {
+        "file": "goshogawara_kaihameibo_20251212.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "自民公明クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "木村慶憲",
+        "平山秀直",
+        "伊藤雅輝",
+        "外崎英継",
+        "高橋美奈"
+      ],
+      "locator": {
+        "file": "goshogawara_kaihameibo_20251212.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "三和会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "成田和美",
+        "松本和春",
+        "和田祐治"
+      ],
+      "locator": {
+        "file": "goshogawara_kaihameibo_20251212.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属（木村清一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "木村清一"
+      ],
+      "locator": {
+        "file": "goshogawara_kaihameibo_20251212.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属（金谷勝）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "金谷勝"
+      ],
+      "locator": {
+        "file": "goshogawara_kaihameibo_20251212.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "花田勝暁"
+      ],
+      "locator": {
+        "file": "goshogawara_kaihameibo_20251212.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第17号",
+    "billName": "令和８年度五所川原市一般会計予算",
+    "sessionLabel": "令和８年 五所川原市議会 第２回 定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "goshogawara_0802kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派名簿（令和7年12月5日現在）",
+  "resultTitle": "令和８年 五所川原市議会 第２回 定例会 議決結果表"
+}
