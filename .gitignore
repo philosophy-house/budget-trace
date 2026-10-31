@@ -19,5 +19,7 @@ npm-debug.log*
 
 # pipeline:archive の実行中ロックと、git の外で動くときの状態（pipeline/lib/archive-state.ts）
 /data/.archive.lock
+/data/.archive-jobs.json
+/data/.archive-jobs.json.*.tmp
 /data/.archive-state/
 /data/archives.json.*.tmp
