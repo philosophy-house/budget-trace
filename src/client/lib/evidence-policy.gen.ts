@@ -41676,5 +41676,227 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www1.g-reiki.net/kitahiroshima/reiki_honbun/f000RG00000022.html",
     "license": "Copyright © Kitahiroshima City All rights reserved.",
     "target": "page"
+  },
+  "/sources/tokaimura-songikai-r8/tokaimura_1846.html": {
+    "mode": "origin",
+    "href": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html",
+    "license": "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    "target": "page"
+  },
+  "/sources/tokaimura-songikai-r8/tokaimura_R80326giketu2.pdf": {
+    "mode": "origin",
+    "href": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf",
+    "license": "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    "target": "file"
+  },
+  "/sources/tokaimura-songikai-r8/tokaimura_64P3.pdf": {
+    "mode": "origin",
+    "href": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf",
+    "license": "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    "target": "file"
+  },
+  "/sources/tokaimura-songikai-r8/tokaimura_1890.html": {
+    "mode": "origin",
+    "href": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/sikumi/1890.html",
+    "license": "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。",
+    "target": "page"
+  },
+  "/sources/kochi-ken-gikai-r8/kochi-ken_0802.pdf": {
+    "mode": "origin",
+    "href": "https://gikai.pref.kochi.lg.jp/",
+    "license": "高知県ホームページに掲載されている個々の情報（文字、写真、イラスト等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められた場合を除き、高知県の許可なく複製、転用等をすることは法律で禁止されています。／高知県議会ホームページ（gikai.pref.kochi.lg.jp）のフッター: 掲載の記事・写真・映像等の無断転載を禁じます。Copyright © 2013 Kochi Prefectural Assembly",
+    "target": "page"
+  },
+  "/sources/kochi-ken-gikai-r8/kochi-ken_categories_20260517.html": {
+    "mode": "origin",
+    "href": "https://gikai.pref.kochi.lg.jp/",
+    "license": "高知県ホームページに掲載されている個々の情報（文字、写真、イラスト等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められた場合を除き、高知県の許可なく複製、転用等をすることは法律で禁止されています。／高知県議会ホームページ（gikai.pref.kochi.lg.jp）のフッター: 掲載の記事・写真・映像等の無断転載を禁じます。Copyright © 2013 Kochi Prefectural Assembly",
+    "target": "page"
+  },
+  "/sources/kochi-shi-shigikai-r8/kochi-kaiha-meibo-r080217-warp.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260306/20260304020600/https://www.city.kochi.kochi.jp/uploaded/life/249642_1035262_misc.pdf",
+    "license": "高知市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/kochi-shi-shigikai-r8/kochi-512-giketsu-sanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kochi.kochi.jp/uploaded/life/258505_1108665_misc.pdf",
+    "license": "高知市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/kochi-shi-shigikai-r8/kochi-teirei512.html": {
+    "mode": "origin",
+    "href": "https://www.city.kochi.kochi.jp/soshiki/97/teirei512.html",
+    "license": "高知市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "page"
+  },
+  "/sources/kochi-shi-shigikai-r8/kochi-yosan08-wb20260326.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260326161205id_/https://www.city.kochi.kochi.jp/soshiki/3/yosan08.html",
+    "license": "高知市公式ホームページに掲載されている個々の情報（文字、イラスト、写真等）に関する諸権利は、著作権の対象であり、法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製、転用等をすることは法律で禁止されています。",
+    "target": "page"
+  },
+  "/sources/kure-shigikai-r8/kure_kaihameibo_warp20260304.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260305/20260304014634id_/https://www.city.kure.lg.jp/site/gikai/kaihameibo.html",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/kure-shigikai-r8/kure_gian-shingikekka-0803.html": {
+    "mode": "origin",
+    "href": "https://www.city.kure.lg.jp/site/gikai/gian-oyobi-shingikekka-0803.html",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/kure-shigikai-r8/kure_vod_R080324.html": {
+    "mode": "origin",
+    "href": "https://www.kensakusystem.jp/kure-vod/cgi-bin4/GetHTML.exe?oq14zhb47bbo2qosz2/R080324_00TEIREI.html/0/10/1/0/0",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kure-shigikai-r8/kure_r8-teirei0803-hiwari.html": {
+    "mode": "origin",
+    "href": "https://www.city.kure.lg.jp/site/gikai/r8-teirei0803-hiwari.html",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/kure-shigikai-r8/kure_109543.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kure.lg.jp/uploaded/attachment/109543.pdf",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/kure-shigikai-r8/kure_sigikaikousei.html": {
+    "mode": "origin",
+    "href": "https://www.city.kure.lg.jp/site/gikai/sigikaikousei.html",
+    "license": "本サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また本サイト全体も編集著作物として著作権の対象となっており「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/sanyoonoda-shigikai-r8/sanyoonoda_kaihabetumeibo_wb20260202.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260202125154id_/https://www.city.sanyo-onoda.lg.jp/soshiki/64/kaihabetumeibo.html",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "page"
+  },
+  "/sources/sanyoonoda-shigikai-r8/sanyoonoda_74508.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74508.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-shigikai-r8/sanyoonoda_siryou202603.html": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/site/sigikai/siryou202603.html",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "page"
+  },
+  "/sources/sanyoonoda-shigikai-r8/sanyoonoda_74399.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74399.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-shigikai-r8/sanyoonoda_74462.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74462.pdf",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "file"
+  },
+  "/sources/sanyoonoda-shigikai-r8/sanyoonoda_sikumi_wb20260314.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260314163216id_/https://www.city.sanyo-onoda.lg.jp/site/sigikai/sikumi.html",
+    "license": "本ホームページに掲載されている各ファイル及びその内容に関する諸権利は、原則として山陽小野田市に帰属します。私的利用の範囲や、引用など著作権法上認められる場合を除き、当ホームページ上の情報を、許可なく使用・複製・転載・販売・改変・印刷配布する行為等は禁止します。",
+    "target": "page"
+  },
+  "/sources/fukuyama-shigikai-r8/fukuyama_kaihameibo_warp20260304.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260306/20260304012646id_/https://www.city.fukuyama.hiroshima.jp/soshiki/gikai/kaihameibo.html",
+    "license": "福山市ホームページに掲載されている情報は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/fukuyama-shigikai-r8/fukuyama_333483.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/333483.pdf",
+    "license": "福山市ホームページに掲載されている情報は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/fukuyama-shigikai-r8/fukuyama_jfit_day337.html": {
+    "mode": "origin",
+    "href": "https://fukuyama-city.stream.jfit.co.jp/?tpl=gikai_result&gikai_day_id=337&category_id=8&inquiry_id=969",
+    "license": "福山市ホームページに掲載されている情報は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/fukuyama-shigikai-r8/fukuyama_243414.html": {
+    "mode": "origin",
+    "href": "https://www.city.fukuyama.hiroshima.jp/soshiki/gikai/243414.html",
+    "license": "福山市ホームページに掲載されている情報は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/hamada-shigikai-r8/hamada_kaihabetumeibo_r080224.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260305/20260304160510id_/https://www.city.hamada.shimane.jp/www/gikai/contents/1071000000011/simple/kaihabetumeibo.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/hamada-shigikai-r8/hamada_kaiha_index_warp20260304.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260305/20260304174851id_/https://www.city.hamada.shimane.jp/www/gikai/contents/1071000000011/index.html",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/hamada-shigikai-r8/hamada_teisu.html": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/gikai/contents/1071000000012/index.html",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/hamada-shigikai-r8/hamada_R0803_giketukekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamada.shimane.jp/www/gikai/contents/1773129575571/simple/R0803_giketukekka.pdf",
+    "license": "本Webサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された、情報提供元となる課へ事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/kudamatsu-shigikai-r8/kudamatsu_kaiha_warp20260305.html": {
+    "mode": "origin",
+    "href": "https://www.city.kudamatsu.lg.jp/gikai/gikai/giann/giann.html",
+    "license": "Copyright (C) Kudamatsu City All rights reserved.",
+    "target": "page"
+  },
+  "/sources/kudamatsu-shigikai-r8/kudamatsu_r8-kekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kudamatsu.lg.jp/gikai/gikai/giann/giann.html",
+    "license": "Copyright (C) Kudamatsu City All rights reserved.",
+    "target": "page"
+  },
+  "/sources/kagawa-ken-gikai-r8/kagawa_r6_kobetsu.html": {
+    "mode": "origin",
+    "href": "https://www.pref.kagawa.lg.jp/gikai/jyoho/r6_kobetsu.html",
+    "license": "当サイトに掲載されている個々の情報（文章・写真・イラストなど）は、著作権の対象となっています。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。当サイトの内容の全部または一部については、私的使用または引用など著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことができます。ただし「無断転載を禁じます」などの注記があるものについては、それに従ってください。当サイトの内容の全部または一部について、無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/kagawa-ken-gikai-r8/kagawa_4_3_wb20260307.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260307001459id_/https://www.pref.kagawa.lg.jp/gikai/meibo/4_3.html",
+    "license": "当サイトに掲載されている個々の情報（文章・写真・イラストなど）は、著作権の対象となっています。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。当サイトの内容の全部または一部については、私的使用または引用など著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことができます。ただし「無断転載を禁じます」などの注記があるものについては、それに従ってください。当サイトの内容の全部または一部について、無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/kagawa-ken-gikai-r8/kagawa_4_1.html": {
+    "mode": "origin",
+    "href": "https://www.pref.kagawa.lg.jp/gikai/meibo/4_1.html",
+    "license": "当サイトに掲載されている個々の情報（文章・写真・イラストなど）は、著作権の対象となっています。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。当サイトの内容の全部または一部については、私的使用または引用など著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことができます。ただし「無断転載を禁じます」などの注記があるものについては、それに従ってください。当サイトの内容の全部または一部について、無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/kagawa-ken-gikai-r8/kagawa_0802_t01.html": {
+    "mode": "origin",
+    "href": "https://www.pref.kagawa.lg.jp/gikai/jyoho/giketsu/0802_t01.html",
+    "license": "当サイトに掲載されている個々の情報（文章・写真・イラストなど）は、著作権の対象となっています。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。当サイトの内容の全部または一部については、私的使用または引用など著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことができます。ただし「無断転載を禁じます」などの注記があるものについては、それに従ってください。当サイトの内容の全部または一部について、無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/kagawa-ken-gikai-r8/kagawa_kaigiroku_r0804rinji.html": {
+    "mode": "origin",
+    "href": "https://www.pref.kagawa.dbsr.jp/index.php/?Template=document&Id=1839",
+    "license": "当サイトに掲載されている個々の情報（文章・写真・イラストなど）は、著作権の対象となっています。また、当サイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。当サイトの内容の全部または一部については、私的使用または引用など著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことができます。ただし「無断転載を禁じます」などの注記があるものについては、それに従ってください。当サイトの内容の全部または一部について、無断で改変を行うことはできません。",
+    "target": "file"
   }
 };

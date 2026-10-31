@@ -1,0 +1,19 @@
+{
+  "sourceId": "kudamatsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "kudamatsu_kaiha_warp20260305.html",
+      "sha256": "2580315b47bdac5616442ba966729bdda16b5f3824ac6146a96682722fa376f9",
+      "bytes": 13492,
+      "fetchedAt": "2026-10-31T17:46:52.067Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260305/20260305020642id_/https://www.city.kudamatsu.lg.jp/gikai/gikai/gikainokousei/kaiha.html"
+    },
+    {
+      "filename": "kudamatsu_r8-kekka.pdf",
+      "sha256": "4e66d232021f03fdebc800e073854b5eaf1bcd235877b1a49585b612028f9c6b",
+      "bytes": 120227,
+      "fetchedAt": "2026-10-31T17:46:52.067Z",
+      "fetchedFrom": "https://www.city.kudamatsu.lg.jp/gikai/gikai/giann/documents/r8-kekka.pdf"
+    }
+  ]
+}
