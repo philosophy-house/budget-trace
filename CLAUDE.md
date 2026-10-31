@@ -48,7 +48,9 @@ bun run pipeline:validate <sourceId>            # 整合チェック（検証ゲ
 bun run pipeline:normalize <sourceId> [--force] # parsed → normalized（比較可能化）
 bun run pipeline:fixture                        # e2e 検証用フィクスチャ生成
 bun run pipeline:derive                         # normalized → アプリ用生成モジュール（*.gen.ts）＋ public/ の静的 JSON
-bun run pipeline:archive [sourceId] [--force]   # Wayback Machine へ登録（魚拓台帳 data/archives.json）
+bun run pipeline:archive [sourceId] [--force] [--wait]  # Wayback Machine へ登録（魚拓台帳 data/archives.json）。ワークツリーごとにロック
+bun run pipeline:archive --wait-only            # このワークツリーの archive が終わるまで待つ（pgrep で待たない）
+bun run pipeline:archive-attempts [--since YYYY-MM-DD]  # SPN の試行の結末を日・時間ごとに集計（全ワークツリー共通の記録）
 bun run pipeline:inflight [語...]               # 別セッションの仕掛かり（PR・ブランチ・他ワークツリー）と照合。当たれば exit 1
 ```
 
