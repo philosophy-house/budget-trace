@@ -1,0 +1,219 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kadoma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:43.628Z",
+  "fiscalYear": "R8",
+  "body": "門真市議会",
+  "seats": 20,
+  "asOf": "2025-05-14",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "岡本宗城",
+        "寺西敬子",
+        "坂本大次郎",
+        "池田美佐子",
+        "松本京子",
+        "後藤太平",
+        "内海武寿"
+      ],
+      "locator": {
+        "file": "kadoma_gikaikako.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "大倉基文",
+        "片平恭子",
+        "坂本拓哉",
+        "吉水志晴",
+        "滝井稔元",
+        "五味聖二",
+        "今田哲哉"
+      ],
+      "locator": {
+        "file": "kadoma_gikaikako.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "真政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "深井弘晃",
+        "大西康弘",
+        "池田治子",
+        "森博孝"
+      ],
+      "locator": {
+        "file": "kadoma_gikaikako.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "福田英彦",
+        "豊北裕子"
+      ],
+      "locator": {
+        "file": "kadoma_gikaikako.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第23号",
+    "billName": "令和８年度門真市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決",
+    "locator": {
+      "file": "kadoma_qwwwwe.pdf",
+      "page": 8
+    }
+  },
+  "rosterTitle": "過去の議会構成 p.1「会派別議員名簿（令和７年５月14日現在）」",
+  "resultTitle": "門真市議会だより No.235（令和8年5月1日号）p.8「第１回定例会で審議した案件と議決結果」",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "門真市議会だより No.235（令和8年5月1日号）p.8「第１回定例会で審議した案件と議決結果」",
+    "sourceFile": "kadoma_qwwwwe.pdf",
+    "columns": [
+      {
+        "label": "寺西敬子",
+        "faction": "公明党",
+        "member": "寺西敬子",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂本大次郎",
+        "faction": "公明党",
+        "member": "坂本大次郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田美佐子",
+        "faction": "公明党",
+        "member": "池田美佐子",
+        "stance": "賛成"
+      },
+      {
+        "label": "後藤太平",
+        "faction": "公明党",
+        "member": "後藤太平",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡本宗城",
+        "faction": "公明党",
+        "member": "岡本宗城",
+        "stance": "賛成"
+      },
+      {
+        "label": "内海武寿",
+        "faction": "公明党",
+        "member": "内海武寿",
+        "stance": "賛成"
+      },
+      {
+        "label": "片平恭子",
+        "faction": "大阪維新の会",
+        "member": "片平恭子",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂本拓哉",
+        "faction": "大阪維新の会",
+        "member": "坂本拓哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉水志晴",
+        "faction": "大阪維新の会",
+        "member": "吉水志晴",
+        "stance": "賛成"
+      },
+      {
+        "label": "滝井稔元",
+        "faction": "大阪維新の会",
+        "member": "滝井稔元",
+        "stance": "賛成"
+      },
+      {
+        "label": "大倉基文",
+        "faction": "大阪維新の会",
+        "member": "大倉基文",
+        "stance": "賛成"
+      },
+      {
+        "label": "五味聖二",
+        "faction": "大阪維新の会",
+        "member": "五味聖二",
+        "stance": "賛成"
+      },
+      {
+        "label": "今田哲哉",
+        "faction": "大阪維新の会",
+        "member": "今田哲哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "深井弘晃",
+        "faction": "真政会",
+        "member": "深井弘晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "大西康弘",
+        "faction": "真政会",
+        "member": "大西康弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田治子",
+        "faction": "真政会",
+        "member": "池田治子",
+        "stance": "賛成"
+      },
+      {
+        "label": "森博孝",
+        "faction": "真政会",
+        "member": "森博孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "豊北裕子",
+        "faction": "日本共産党",
+        "member": "豊北裕子",
+        "stance": "反対"
+      },
+      {
+        "label": "福田英彦",
+        "faction": "日本共産党",
+        "member": "福田英彦",
+        "stance": "反対"
+      },
+      {
+        "label": "松本京子",
+        "faction": "公明党",
+        "member": "松本京子",
+        "stance": "議長"
+      }
+    ]
+  }
+}

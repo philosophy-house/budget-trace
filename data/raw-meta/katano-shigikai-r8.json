@@ -1,0 +1,29 @@
+{
+  "sourceId": "katano-shigikai-r8",
+  "files": [
+    {
+      "filename": "R8-5-1.pdf",
+      "sha256": "40475c087f81bf0205e1a4238c8295e528e92b82668f988d38403dae8551e144",
+      "bytes": 2658594,
+      "fetchedAt": "2026-10-31T17:39:39.212Z",
+      "fetchedFrom": "https://katano.gsl-service.net/doc/2017042800077/file_contents/R8-5-1.pdf"
+    },
+    {
+      "filename": "R08-1kai.pdf",
+      "sha256": "d749ae37b8c27f9ab2bf764a6f39a2e2dca63c0c52346a308afcf95c7c5238f5",
+      "bytes": 115770,
+      "fetchedAt": "2026-10-31T17:39:39.213Z",
+      "fetchedFrom": "https://katano.gsl-service.net/doc/2017071800055/file_contents/R08-1kai.pdf"
+    },
+    {
+      "filename": "kids_2017061500187.html",
+      "sha256": "f66b6b850394f99fcd9331b3ce30f229e295ee61a067420f61f2953635318c56",
+      "bytes": 16630,
+      "fetchedAt": "2026-10-31T17:39:39.213Z",
+      "fetchedFrom": "https://katano.gsl-service.net/kids/2017061500187/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sourceId": "izumi-shigikai-r8",
+  "files": [
+    {
+      "filename": "071003kaihameibo.pdf",
+      "sha256": "2a054129e6a870d499eb5c4d53435ef44ac658b00489da91e0c3a307bc41a57e",
+      "bytes": 25172,
+      "fetchedAt": "2026-10-31T17:39:39.192Z",
+      "fetchedFrom": "https://www.gijiroku.jp/izumi/src/pdf/meibo/071003kaihameibo.pdf"
+    },
+    {
+      "filename": "R8.1giketsu.pdf",
+      "sha256": "e7a52ebf6dd2bba1cec988c707f367c6b90a1b649d993f9b3472a646482f6e42",
+      "bytes": 108686,
+      "fetchedAt": "2026-10-31T17:39:39.192Z",
+      "fetchedFrom": "https://www.gijiroku.jp/izumi/src/pdf/result/R8.1giketsu.pdf"
+    },
+    {
+      "filename": "R8.1sanpi.pdf",
+      "sha256": "dd973dcbc4bf07c96f9cf167197296a9d6bc2d21d5b1337a604b65344cac07bf",
+      "bytes": 46349,
+      "fetchedAt": "2026-10-31T17:39:39.192Z",
+      "fetchedFrom": "https://www.gijiroku.jp/izumi/src/pdf/result/R8.1sanpi.pdf"
+    },
+    {
+      "filename": "071003yakuinnmeibo.pdf",
+      "sha256": "1ca4bfbc66156ad0fc34e1a8db542949c8fa9b1157ab220928497edb4a72cbb9",
+      "bytes": 36018,
+      "fetchedAt": "2026-10-31T17:39:39.193Z",
+      "fetchedFrom": "https://www.gijiroku.jp/izumi/src/pdf/meibo/071003yakuinnmeibo.pdf"
+    },
+    {
+      "filename": "about.html",
+      "sha256": "9c62cdd20031221bd1c1700dd02d16ea591981c25c3767f4b60c266e76dd48a3",
+      "bytes": 34670,
+      "fetchedAt": "2026-10-31T17:39:39.193Z",
+      "fetchedFrom": "https://www.gijiroku.jp/izumi/main/about.html"
+    }
+  ]
+}

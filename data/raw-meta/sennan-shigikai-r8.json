@@ -1,0 +1,46 @@
+{
+  "sourceId": "sennan-shigikai-r8",
+  "files": [
+    {
+      "filename": "sennan_R71125kaiha.gidanitiran.pdf",
+      "sha256": "d6aa2ecae9f55975abcfcf5223e9f18f474e9664b26318386b9949a2bbd655ce",
+      "bytes": 78566,
+      "fetchedAt": "2026-10-31T17:39:39.204Z",
+      "fetchedFrom": "https://gikai.city.sennan.osaka.jp/wp-content/uploads/R71125kaiha.gidanitiran.pdf"
+    },
+    {
+      "filename": "sennan_30064_20260313055304.html",
+      "sha256": "f577fba11563725e4a65078a36891bb0700852f3ba0f4a28551620a514a24ad7",
+      "bytes": 42754,
+      "fetchedAt": "2026-10-31T17:39:39.204Z",
+      "fetchedFrom": "https://web.archive.org/web/20260313055304id_/https://gikai.city.sennan.osaka.jp/30064",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "sennan_260326kaigikekka_correctver_web.pdf",
+      "sha256": "c3fcd6db4c22895204aacc758b4615886f35b16351e9bb8a3b03e06f5d3ff97d",
+      "bytes": 187566,
+      "fetchedAt": "2026-10-31T17:39:39.205Z",
+      "fetchedFrom": "https://gikai.city.sennan.osaka.jp/wp-content/uploads/260326kaigikekka_correctver_web.pdf"
+    },
+    {
+      "filename": "sennan_iinkai260309.pdf",
+      "sha256": "ef69fa632bccb27ee632e7703ca2255a957db12ee1539b19a7a39602f3b97b74",
+      "bytes": 80751,
+      "fetchedAt": "2026-10-31T17:39:39.205Z",
+      "fetchedFrom": "https://gikai.city.sennan.osaka.jp/wp-content/uploads/iinkai260309.pdf"
+    },
+    {
+      "filename": "sennan_29980.html",
+      "sha256": "16f8a87ae88b0b2bf15053264b2dfa637ed3922b039bed05cbefa2fdf08057dc",
+      "bytes": 41171,
+      "fetchedAt": "2026-10-31T17:39:39.205Z",
+      "fetchedFrom": "https://gikai.city.sennan.osaka.jp/29980",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

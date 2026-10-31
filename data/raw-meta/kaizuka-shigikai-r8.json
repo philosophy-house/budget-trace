@@ -1,0 +1,19 @@
+{
+  "sourceId": "kaizuka-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+      "sha256": "c6904f398507f00f488d33668e4384ef452611608eac7c7d4445a607d640b338",
+      "bytes": 36496,
+      "fetchedAt": "2026-10-31T17:39:39.197Z",
+      "fetchedFrom": "https://web.archive.org/web/20260217134441id_/https://www.city.kaizuka.lg.jp/kakuka/gikaijimu/gikai/menu/shigikai/giinsyoukai/kaihabetumeibo_r080119.html"
+    },
+    {
+      "filename": "kaizuka_0326-giketukekka.pdf",
+      "sha256": "37fb02f21ee86a0935421803d0d1f34990adec180c5efdc70a3c6a9c200d9e87",
+      "bytes": 149094,
+      "fetchedAt": "2026-10-31T17:39:39.197Z",
+      "fetchedFrom": "https://www.city.kaizuka.lg.jp/material/files/group/33/0326-giketukekka.pdf"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sennan-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:41.932Z",
+  "fiscalYear": "R8",
+  "body": "泉南市議会",
+  "seats": 15,
+  "asOf": "2025-11-25",
+  "teisu": 15,
+  "factions": [
+    {
+      "name": "大阪維新の会泉南市議団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "石橋正敏",
+        "古谷公俊",
+        "谷藤麻由奈",
+        "井上実",
+        "竹田祐平"
+      ],
+      "locator": {
+        "file": "sennan_R71125kaiha.gidanitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "竹田光良",
+        "中田佳子",
+        "工藤智恵子"
+      ],
+      "locator": {
+        "file": "sennan_R71125kaiha.gidanitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "堀口和弘",
+        "添田詩織",
+        "田畑仁"
+      ],
+      "locator": {
+        "file": "sennan_R71125kaiha.gidanitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大森和夫",
+        "楠成明"
+      ],
+      "locator": {
+        "file": "sennan_R71125kaiha.gidanitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "せんなん創政会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "河部優"
+      ],
+      "locator": {
+        "file": "sennan_R71125kaiha.gidanitiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（松本直也）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "松本直也"
+      ],
+      "locator": {
+        "file": "sennan_R71125kaiha.gidanitiran.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 16 号",
+    "billName": "令和８年度大阪府泉南市一般会計予算",
+    "sessionLabel": "令和８年３月第１回泉南市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "sennan_260326kaigikekka_correctver_web.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "泉南市議会会派・議員団一覧表（令和7年11月25日現在）",
+  "resultTitle": "令和８年３月第１回泉南市議会定例会会議事件一覧表"
+}

@@ -1,0 +1,130 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kaizuka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:40.769Z",
+  "fiscalYear": "R8",
+  "body": "貝塚市議会",
+  "seats": 15,
+  "asOf": "2026-01-19",
+  "factions": [
+    {
+      "name": "議長（阪口芳弘）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "阪口芳弘"
+      ],
+      "locator": {
+        "file": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "副議長（田畑庄司）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "田畑庄司"
+      ],
+      "locator": {
+        "file": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "自由市民",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "食野雅由"
+      ],
+      "locator": {
+        "file": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "谷口美保子",
+        "堺谷裕",
+        "前園隆博"
+      ],
+      "locator": {
+        "file": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "長谷川博文",
+        "八野裕嗣",
+        "蓮池陽佑",
+        "中西真知子"
+      ],
+      "locator": {
+        "file": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "市民ネット貝塚",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "川岸貞利",
+        "阪口勇"
+      ],
+      "locator": {
+        "file": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "新政クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "南野敬介"
+      ],
+      "locator": {
+        "file": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "小谷真章",
+        "樽谷庄道"
+      ],
+      "locator": {
+        "file": "kaizuka_kaihabetumeibo_r080119_20260217134441.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "14",
+    "billName": "令和8年度貝塚市一般会計予算の件",
+    "sessionLabel": "令和8年第１回定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kaizuka_0326-giketukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "貝塚市議会 会派別名簿（令和8年1月19日現在・議決前の魚拓 2026-02-17）",
+  "resultTitle": "令和8年第１回定例会本会議処理一覧（会期 2/24-3/26）"
+}

@@ -1,0 +1,39 @@
+{
+  "sourceId": "izumiotsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_2019042400042.html",
+      "sha256": "0bb736930200b080a50b35843a5c5bbe69a726d7fcb8b91a14440eb36122ba86",
+      "bytes": 12789,
+      "fetchedAt": "2026-10-31T17:39:39.188Z",
+      "fetchedFrom": "https://izumiotsu.gsl-service.net/doc/2019042400042/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "08-1sanpi.pdf",
+      "sha256": "75595e4706ec8298993d729858b217abac8ea2821474ce0916c55ac58f187d1c",
+      "bytes": 257991,
+      "fetchedAt": "2026-10-31T17:39:39.190Z",
+      "fetchedFrom": "https://izumiotsu.gsl-service.net/doc/2015072200225/file_contents/08-1sanpi.pdf"
+    },
+    {
+      "filename": "kousei_2015072100075.html",
+      "sha256": "06ac65c4cedf717f342910b84f96a66de0e853aa61fde66f8c4a43693d6d242d",
+      "bytes": 12735,
+      "fetchedAt": "2026-10-31T17:39:39.190Z",
+      "fetchedFrom": "https://izumiotsu.gsl-service.net/doc/2015072100075/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "R805.pdf",
+      "sha256": "29fa6792918d1c01cb7c1864a2c2ec120aba7db7b9b35f77f1171e4507c89d4a",
+      "bytes": 2586485,
+      "fetchedAt": "2026-10-31T17:39:39.191Z",
+      "fetchedFrom": "https://izumiotsu.gsl-service.net/doc/2023072800017/file_contents/R805.pdf"
+    }
+  ]
+}

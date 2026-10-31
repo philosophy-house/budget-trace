@@ -1,0 +1,216 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tambasasayama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:45.250Z",
+  "fiscalYear": "R8",
+  "body": "丹波篠山市議会",
+  "seats": 18,
+  "asOf": "2024-05-01",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "青藍会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "小畠政行",
+        "荒木礼子",
+        "稲山悟",
+        "大内正博",
+        "原田豊彦",
+        "本多紀元"
+      ],
+      "locator": {
+        "file": "tanbasasayamasigikaikaihameibo6-5-1_20241213115738.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "隅田雅春",
+        "岡圭子"
+      ],
+      "locator": {
+        "file": "tanbasasayamasigikaikaihameibo6-5-1_20241213115738.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本維新の会 丹波篠山",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "金崎美和",
+        "降矢杏奈"
+      ],
+      "locator": {
+        "file": "tanbasasayamasigikaikaihameibo6-5-1_20241213115738.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "福祉と教育",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "向井千尋",
+        "桐村裕一"
+      ],
+      "locator": {
+        "file": "tanbasasayamasigikaikaihameibo6-5-1_20241213115738.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派無所属議員",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "野々村康",
+        "堀毛宏章",
+        "渡辺拓道",
+        "安井博幸",
+        "前田えり子",
+        "上田英樹"
+      ],
+      "locator": {
+        "file": "tanbasasayamasigikaikaihameibo6-5-1_20241213115738.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３６号",
+    "billName": "令和８年度丹波篠山市一般会計予算",
+    "sessionLabel": "第126回丹波篠山市議会弥生会議（令和8年2月・3月）",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "126-r8-3giketuitiran.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派名簿（令和6年5月1日現在）",
+  "resultTitle": "第126回弥生会議 議決一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "丹波篠山市議会だより第118号（2026年4月21日）賛否の分かれた議案の公開",
+    "sourceFile": "tanbasasayamashigikaidayoridai118gou.pdf",
+    "columns": [
+      {
+        "label": "金崎美和",
+        "faction": "日本維新の会 丹波篠山",
+        "member": "金崎美和",
+        "stance": "賛成"
+      },
+      {
+        "label": "原田豊彦",
+        "faction": "青藍会",
+        "member": "原田豊彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "本多紀元",
+        "faction": "青藍会",
+        "member": "本多紀元",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀毛宏章",
+        "faction": "会派無所属議員",
+        "member": "堀毛宏章",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡圭子",
+        "faction": "公明党",
+        "member": "岡圭子",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒木礼子",
+        "faction": "青藍会",
+        "member": "荒木礼子",
+        "stance": "賛成"
+      },
+      {
+        "label": "桐村裕一",
+        "faction": "福祉と教育",
+        "member": "桐村裕一",
+        "stance": "賛成"
+      },
+      {
+        "label": "小畠政行",
+        "faction": "青藍会",
+        "member": "小畠政行",
+        "stance": "賛成"
+      },
+      {
+        "label": "隅田雅春",
+        "faction": "公明党",
+        "member": "隅田雅春",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田えり子",
+        "faction": "会派無所属議員",
+        "member": "前田えり子",
+        "stance": "反対"
+      },
+      {
+        "label": "渡辺拓道",
+        "faction": "会派無所属議員",
+        "member": "渡辺拓道",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲山悟",
+        "faction": "青藍会",
+        "member": "稲山悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "降矢杏奈",
+        "faction": "日本維新の会 丹波篠山",
+        "member": "降矢杏奈",
+        "stance": "賛成"
+      },
+      {
+        "label": "野々村康",
+        "faction": "会派無所属議員",
+        "member": "野々村康",
+        "stance": "賛成"
+      },
+      {
+        "label": "安井博幸",
+        "faction": "会派無所属議員",
+        "member": "安井博幸",
+        "stance": "反対"
+      },
+      {
+        "label": "大内正博",
+        "faction": "青藍会",
+        "member": "大内正博",
+        "stance": "賛成"
+      },
+      {
+        "label": "向井千尋",
+        "faction": "福祉と教育",
+        "member": "向井千尋",
+        "stance": "賛成"
+      },
+      {
+        "label": "上田英樹",
+        "faction": "会派無所属議員",
+        "member": "上田英樹",
+        "stance": "議長"
+      }
+    ]
+  }
+}

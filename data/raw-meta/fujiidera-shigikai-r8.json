@@ -1,0 +1,40 @@
+{
+  "sourceId": "fujiidera-shigikai-r8",
+  "files": [
+    {
+      "filename": "ginbetu_giketukka_0324.pdf",
+      "sha256": "7963f8b2d6103d52ca90591ba1891d7e8add3ca764decae115ddecadbe4cf5a5",
+      "bytes": 164538,
+      "fetchedAt": "2026-10-31T17:39:39.206Z",
+      "fetchedFrom": "https://www.city.fujiidera.lg.jp/material/files/group/10/ginbetu_giketukka_0324.pdf"
+    },
+    {
+      "filename": "20726.html",
+      "sha256": "31e93711e55f720a54d6e232551d90c3723f54e3b63f69db7c1a12f943e71e73",
+      "bytes": 50685,
+      "fetchedAt": "2026-10-31T17:39:39.206Z",
+      "fetchedFrom": "https://www.city.fujiidera.lg.jp/soshiki/gikaijimu/shigikai/teireikaitogiketu/20726.html"
+    },
+    {
+      "filename": "H412901010016_j.html",
+      "sha256": "117ceffe9cd6ba73e408500cbb63ac1ece59a5042901746d201414caa83252b2",
+      "bytes": 13226,
+      "fetchedAt": "2026-10-31T17:39:39.207Z",
+      "fetchedFrom": "https://en3-jg.d1-law.com/fujiidera/d1w_reiki/H412901010016/H412901010016_j.html"
+    },
+    {
+      "filename": "r7_dai2kaiteireikai_gikaidayori_8gatugou.pdf",
+      "sha256": "792756e4beab4d09e57577353c91f8d6c58565976d71a3c41abb5d3cb1090e19",
+      "bytes": 1621606,
+      "fetchedAt": "2026-10-31T17:39:39.208Z",
+      "fetchedFrom": "https://www.city.fujiidera.lg.jp/material/files/group/10/r7_dai2kaiteireikai_gikaidayori_8gatugou.pdf"
+    },
+    {
+      "filename": "1386986132824.html",
+      "sha256": "d4e0e6623a12a7f208b55bcdebb2a54d81ff4c9aa601051d4ed9fde1347ae244",
+      "bytes": 37295,
+      "fetchedAt": "2026-10-31T17:39:39.208Z",
+      "fetchedFrom": "https://www.city.fujiidera.lg.jp/soshiki/gikaijimu/shigikai/1386986132824.html"
+    }
+  ]
+}

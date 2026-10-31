@@ -1,0 +1,98 @@
+{
+  "docType": "council-composition",
+  "sourceId": "takaishi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:40.623Z",
+  "fiscalYear": "R8",
+  "body": "高石市議会",
+  "seats": 15,
+  "asOf": "2026-01-01",
+  "teisu": 15,
+  "factions": [
+    {
+      "name": "市民の声",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山敷恵",
+        "木戸晃"
+      ],
+      "locator": {
+        "file": "229.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "共誠会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松田亜季",
+        "明石宏隆"
+      ],
+      "locator": {
+        "file": "229.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "加藤滋明",
+        "寺島誠",
+        "森博英",
+        "奥田悦雄"
+      ],
+      "locator": {
+        "file": "229.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "阪口茂",
+        "吉田佳代子",
+        "久保田和典"
+      ],
+      "locator": {
+        "file": "229.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "大阪維新・無所属の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "印丸裕久",
+        "二瓶貴博",
+        "松本善弘",
+        "永山誠"
+      ],
+      "locator": {
+        "file": "229.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第16号",
+    "billName": "令和８年度高石市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-09",
+    "decidedDateLabel": "令和8年3月9日",
+    "result": "可決(賛成多数)",
+    "locator": {
+      "file": "231.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "たかいし議会だより 第229号（新年号・令和8年1月1日発行）議員紹介（議席番号・氏名・所属会派）",
+  "resultTitle": "たかいし議会だより 第231号（令和8年5月1日発行）令和８年第１回定例会 議決結果一覧表"
+}
