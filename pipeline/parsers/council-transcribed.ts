@@ -617,9 +617,10 @@ function legendPairOk(texts: LegendCtx[], k: string, v: string, keys: string[]):
     // 1字ずつ空白で区切られた原典（縦書きのセルの「議 長 の た め 採 決 に…」栃木市）では空白に区切りの意味が無いので詰めて読む
     const chars = c.mid.replace(/ /g, "").length;
     const keep = !(chars >= 4 && (c.mid.match(/ /g) ?? []).length >= (chars - 1) * 0.8);
-    const P = legendNorm(c.pre, keys, keep);
-    const M = legendNorm(c.mid, keys, keep);
-    const t = P + M + legendNorm(c.post, keys, keep);
+    // 正規化は前後をつないだ文字列に1回だけ掛けてから切り分ける（別々に掛けると、括弧「【×】」が mid の末尾「【×」と post の頭「】」に
+    // 割れて外れず、post の頭の「】」で記号の後ろの区切りが読めなかった＝瀬戸・レビュー5巡目）
+    const [P = "", M = "", S = ""] = legendNorm(`${c.pre}\uE000${c.mid}\uE001${c.post}`, keys, keep).split(/[\uE000\uE001]/);
+    const t = P + M + S;
     for (let i = t.indexOf(kn, P.length); i >= 0 && i + kn.length <= P.length + M.length; i = t.indexOf(kn, i + 1)) {
       const after = t.slice(i + kn.length);
       const before = t.slice(0, i);
