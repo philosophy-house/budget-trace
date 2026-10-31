@@ -1,0 +1,47 @@
+{
+  "sourceId": "omura-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihabetsumeibo.html",
+      "sha256": "33b6ac080950389f198ba4ebf6305e6025384cef73b73961397f4eb7ff9c2fb5",
+      "bytes": 19260,
+      "fetchedAt": "2026-10-31T09:40:16.527Z",
+      "fetchedFrom": "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/gin/mebo/r050502-/kaihabetsumeibo.html"
+    },
+    {
+      "filename": "kaigikekka0803.pdf",
+      "sha256": "02c235c3262e2375c27ae618570924faa0ea5b130a016cc02a20aea3a7870bf9",
+      "bytes": 93593,
+      "fetchedAt": "2026-10-31T09:40:16.527Z",
+      "fetchedFrom": "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/kaigikekka0803.pdf"
+    },
+    {
+      "filename": "08-03.html",
+      "sha256": "96c2713c22667f74990619eff32b54e77d099df974ccb5865154a746e784daec",
+      "bytes": 25933,
+      "fetchedAt": "2026-10-31T09:40:16.527Z",
+      "fetchedFrom": "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/08-03.html"
+    },
+    {
+      "filename": "sannpi08-03-2.pdf",
+      "sha256": "7f40a82e8e3026d7ed42bc20b86d00a27070e00d961a11f308cc46eb46b23da4",
+      "bytes": 160344,
+      "fetchedAt": "2026-10-31T09:40:16.527Z",
+      "fetchedFrom": "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf"
+    },
+    {
+      "filename": "sigikaitoha.html",
+      "sha256": "f17b9ca5da38af7606ba14056a32da6337360872ac8bfbdabc5229ee60609387",
+      "bytes": 13353,
+      "fetchedAt": "2026-10-31T09:40:16.528Z",
+      "fetchedFrom": "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shikumi/shigikai/sigikaitoha.html"
+    },
+    {
+      "filename": "seifukugichou.html",
+      "sha256": "7f5648f2195c6a9bb33ddab5fda983fa56be074f7756612c728adf7e9fa94626",
+      "bytes": 13518,
+      "fetchedAt": "2026-10-31T09:40:16.528Z",
+      "fetchedFrom": "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/gin/r050515seifukugichou/seifukugichou.html"
+    }
+  ]
+}

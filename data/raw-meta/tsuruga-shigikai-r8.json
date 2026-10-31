@@ -1,0 +1,33 @@
+{
+  "sourceId": "tsuruga-shigikai-r8",
+  "files": [
+    {
+      "filename": "9176.pdf",
+      "sha256": "69819a8eb14565ea1e122748d702df923c55ef8bd5fa1f5b44a12d66b3fe77c6",
+      "bytes": 76084,
+      "fetchedAt": "2026-10-31T09:38:51.649Z",
+      "fetchedFrom": "https://www.city.tsuruga.lg.jp/uploaded/attachment/9176.pdf"
+    },
+    {
+      "filename": "11128.pdf",
+      "sha256": "3bc0895f18ddee68e2f08e3f24a782c5aaf4b9d8b13c81895472188fc80ea992",
+      "bytes": 100703,
+      "fetchedAt": "2026-10-31T09:38:51.649Z",
+      "fetchedFrom": "https://www.city.tsuruga.lg.jp/uploaded/attachment/11128.pdf"
+    },
+    {
+      "filename": "10787.pdf",
+      "sha256": "69accf6b4a392ba24999e0701b4a73b560e502cfddf1ddc6aeded0aa5ad369e5",
+      "bytes": 108083,
+      "fetchedAt": "2026-10-31T09:38:51.650Z",
+      "fetchedFrom": "https://www.city.tsuruga.lg.jp/uploaded/attachment/10787.pdf"
+    },
+    {
+      "filename": "15906.html",
+      "sha256": "e79d328574b3457ab5fd88eaa646fba679177314c47101415ed6c4e2f1559f71",
+      "bytes": 51584,
+      "fetchedAt": "2026-10-31T09:38:51.650Z",
+      "fetchedFrom": "https://www.city.tsuruga.lg.jp/site/gikai/15906.html"
+    }
+  ]
+}

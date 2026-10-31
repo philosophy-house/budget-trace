@@ -1,0 +1,42 @@
+{
+  "sourceId": "tonami-shigikai-r8",
+  "files": [
+    {
+      "filename": "17259p.html",
+      "sha256": "61b3ff87647a6d71db6bc9a8de9bd4b8f50967e7e4d3b40eb13131c207a6b115",
+      "bytes": 47829,
+      "fetchedAt": "2026-10-31T09:38:51.646Z",
+      "fetchedFrom": "https://www.city.tonami.lg.jp/parliament/17259p/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "sanpi_R8.3-2.pdf",
+      "sha256": "3104f771254ced219179db1e6eb305011bf0bf53d2237361ebc2319305ba63a5",
+      "bytes": 188471,
+      "fetchedAt": "2026-10-31T09:38:51.647Z",
+      "fetchedFrom": "https://www.city.tonami.lg.jp/wp-content/uploads/%E8%B3%9B%E5%90%A6%E5%85%AC%E9%96%8BR8.3-2.pdf"
+    },
+    {
+      "filename": "kaigiroku_8096.html",
+      "sha256": "325cb5cd0c2ace7cfadfca2b302d43e6dc818d10a6d33a2ba0e5c7c171467905",
+      "bytes": 31687,
+      "fetchedAt": "2026-10-31T09:38:51.647Z",
+      "fetchedFrom": "https://info.city.tonami.lg.jp/8096/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "17260p.html",
+      "sha256": "02b2cc62caf5ee6be61148d0455239cbc8832caa358204f5f6334a4bbfda7dd5",
+      "bytes": 55267,
+      "fetchedAt": "2026-10-31T09:38:51.647Z",
+      "fetchedFrom": "https://www.city.tonami.lg.jp/parliament/17260p/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

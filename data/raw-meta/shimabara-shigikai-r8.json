@@ -1,0 +1,29 @@
+{
+  "sourceId": "shimabara-shigikai-r8",
+  "files": [
+    {
+      "filename": "page2519.html",
+      "sha256": "fa36b6adbe5958d1a12d05e7d9fe668f7ea02ba970abf9064d6a28b58a311a80",
+      "bytes": 33556,
+      "fetchedAt": "2026-10-31T09:40:16.525Z",
+      "fetchedFrom": "https://web.archive.org/web/20260219040018id_/https://www.city.shimabara.lg.jp/gikai/page2519.html"
+    },
+    {
+      "filename": "kaigikekka_r0803.pdf",
+      "sha256": "f08f424832afbc60d6d50a081f1decb2d9f44020a55a351c0b94453114e0a4c6",
+      "bytes": 108075,
+      "fetchedAt": "2026-10-31T09:40:16.525Z",
+      "fetchedFrom": "https://www.city.shimabara.lg.jp/common/UploadFileOutput.ashx?c_id=3&id=20878&sub_id=2&flid=75425",
+      "transform": [
+        "ext:.pdf"
+      ]
+    },
+    {
+      "filename": "page2515.html",
+      "sha256": "f15f34879f911f70398ead3f5aab96f4745f7c3c960ac96da16f27bc56a7dce5",
+      "bytes": 31405,
+      "fetchedAt": "2026-10-31T09:40:16.525Z",
+      "fetchedFrom": "https://www.city.shimabara.lg.jp/gikai/page2515.html"
+    }
+  ]
+}

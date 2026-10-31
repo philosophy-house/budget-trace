@@ -1,0 +1,433 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nagasaki-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:40:17.340Z",
+  "fiscalYear": "R8",
+  "body": "長崎県議会",
+  "seats": 46,
+  "asOf": "2026-02-12",
+  "teisu": 46,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 30,
+      "isIndependent": false,
+      "members": [
+        "田中愛国",
+        "小林克敏",
+        "中山功",
+        "溝口芙美雄",
+        "徳永達也",
+        "外間雅広",
+        "前田哲也",
+        "中島浩介",
+        "ごうまなみ",
+        "松本洋介",
+        "山本由夫",
+        "宅島寿一",
+        "近藤智昭",
+        "大場博文",
+        "中村一三",
+        "石本政弘",
+        "山下博史",
+        "千住良治",
+        "坂口慎一",
+        "清川久義",
+        "鵜瀬和博",
+        "初手安幸",
+        "山村健志",
+        "中村俊介",
+        "大久保堅太",
+        "冨岡孝介",
+        "畑島晃貴",
+        "虎島泰洋",
+        "田川正毅",
+        "永安健次"
+      ],
+      "locator": {
+        "file": "2020.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "改革２１",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "山田朋子",
+        "山口初實",
+        "坂本浩",
+        "堤典子",
+        "饗庭敦子",
+        "中村泰輔",
+        "赤木幸仁",
+        "まきやま大和",
+        "白川鮎美"
+      ],
+      "locator": {
+        "file": "2020.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "川崎祥司",
+        "宮本法広",
+        "本多泰邦"
+      ],
+      "locator": {
+        "file": "2020.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "堀江ひとみ"
+      ],
+      "locator": {
+        "file": "2020.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "もったいないよ長崎",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "大倉聡"
+      ],
+      "locator": {
+        "file": "2020.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "まっすぐ長崎",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "湊亮太"
+      ],
+      "locator": {
+        "file": "2020.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "もっと身近な県政の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "下条博文"
+      ],
+      "locator": {
+        "file": "2020.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号",
+    "billName": "令和8年度長崎県一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gian.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和8年2月12日現在）",
+  "resultTitle": "令和８年３月定例会 議案及び採決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "本会議における議員の賛否の状況（令和８年３月定例会）",
+    "sourceFile": "sanpi_honkaigi.pdf",
+    "columns": [
+      {
+        "label": "田中愛国",
+        "faction": "自由民主党",
+        "member": "田中愛国",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林克敏",
+        "faction": "自由民主党",
+        "member": "小林克敏",
+        "stance": "賛成"
+      },
+      {
+        "label": "中山功",
+        "faction": "自由民主党",
+        "member": "中山功",
+        "stance": "賛成"
+      },
+      {
+        "label": "溝口芙美雄",
+        "faction": "自由民主党",
+        "member": "溝口芙美雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "徳永達也",
+        "faction": "自由民主党",
+        "member": "徳永達也",
+        "stance": "賛成"
+      },
+      {
+        "label": "外間雅広",
+        "faction": "自由民主党",
+        "member": "外間雅広",
+        "stance": "議長"
+      },
+      {
+        "label": "前田哲也",
+        "faction": "自由民主党",
+        "member": "前田哲也",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島浩介",
+        "faction": "自由民主党",
+        "member": "中島浩介",
+        "stance": "賛成"
+      },
+      {
+        "label": "ごうまなみ",
+        "faction": "自由民主党",
+        "member": "ごうまなみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本洋介",
+        "faction": "自由民主党",
+        "member": "松本洋介",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本由夫",
+        "faction": "自由民主党",
+        "member": "山本由夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "宅島寿一",
+        "faction": "自由民主党",
+        "member": "宅島寿一",
+        "stance": "賛成"
+      },
+      {
+        "label": "近藤智昭",
+        "faction": "自由民主党",
+        "member": "近藤智昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "大場博文",
+        "faction": "自由民主党",
+        "member": "大場博文",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村一三",
+        "faction": "自由民主党",
+        "member": "中村一三",
+        "stance": "賛成"
+      },
+      {
+        "label": "石本政弘",
+        "faction": "自由民主党",
+        "member": "石本政弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下博史",
+        "faction": "自由民主党",
+        "member": "山下博史",
+        "stance": "賛成"
+      },
+      {
+        "label": "千住良治",
+        "faction": "自由民主党",
+        "member": "千住良治",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂口慎一",
+        "faction": "自由民主党",
+        "member": "坂口慎一",
+        "stance": "賛成"
+      },
+      {
+        "label": "清川久義",
+        "faction": "自由民主党",
+        "member": "清川久義",
+        "stance": "賛成"
+      },
+      {
+        "label": "鵜瀬和博",
+        "faction": "自由民主党",
+        "member": "鵜瀬和博",
+        "stance": "賛成"
+      },
+      {
+        "label": "初手安幸",
+        "faction": "自由民主党",
+        "member": "初手安幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "山村健志",
+        "faction": "自由民主党",
+        "member": "山村健志",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村俊介",
+        "faction": "自由民主党",
+        "member": "中村俊介",
+        "stance": "賛成"
+      },
+      {
+        "label": "大久保堅太",
+        "faction": "自由民主党",
+        "member": "大久保堅太",
+        "stance": "賛成"
+      },
+      {
+        "label": "冨岡孝介",
+        "faction": "自由民主党",
+        "member": "冨岡孝介",
+        "stance": "賛成"
+      },
+      {
+        "label": "畑島晃貴",
+        "faction": "自由民主党",
+        "member": "畑島晃貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "虎島泰洋",
+        "faction": "自由民主党",
+        "member": "虎島泰洋",
+        "stance": "賛成"
+      },
+      {
+        "label": "田川正毅",
+        "faction": "自由民主党",
+        "member": "田川正毅",
+        "stance": "賛成"
+      },
+      {
+        "label": "永安健次",
+        "faction": "自由民主党",
+        "member": "永安健次",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田朋子",
+        "faction": "改革２１",
+        "member": "山田朋子",
+        "stance": "欠席"
+      },
+      {
+        "label": "山口初實",
+        "faction": "改革２１",
+        "member": "山口初實",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂本浩",
+        "faction": "改革２１",
+        "member": "坂本浩",
+        "stance": "反対"
+      },
+      {
+        "label": "堤典子",
+        "faction": "改革２１",
+        "member": "堤典子",
+        "stance": "反対"
+      },
+      {
+        "label": "饗庭敦子",
+        "faction": "改革２１",
+        "member": "饗庭敦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村泰輔",
+        "faction": "改革２１",
+        "member": "中村泰輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "赤木幸仁",
+        "faction": "改革２１",
+        "member": "赤木幸仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "まきやま大和",
+        "faction": "改革２１",
+        "member": "まきやま大和",
+        "stance": "反対"
+      },
+      {
+        "label": "白川鮎美",
+        "faction": "改革２１",
+        "member": "白川鮎美",
+        "stance": "賛成"
+      },
+      {
+        "label": "川崎祥司",
+        "faction": "公明党",
+        "member": "川崎祥司",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮本法広",
+        "faction": "公明党",
+        "member": "宮本法広",
+        "stance": "賛成"
+      },
+      {
+        "label": "本多泰邦",
+        "faction": "公明党",
+        "member": "本多泰邦",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀江ひとみ",
+        "faction": "日本共産党",
+        "member": "堀江ひとみ",
+        "stance": "反対"
+      },
+      {
+        "label": "大倉聡",
+        "faction": "もったいないよ長崎",
+        "member": "大倉聡",
+        "stance": "賛成"
+      },
+      {
+        "label": "湊亮太",
+        "faction": "まっすぐ長崎",
+        "member": "湊亮太",
+        "stance": "賛成"
+      },
+      {
+        "label": "下条博文",
+        "faction": "もっと身近な県政の会",
+        "member": "下条博文",
+        "stance": "欠席"
+      }
+    ]
+  }
+}

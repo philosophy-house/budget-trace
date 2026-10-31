@@ -1,0 +1,331 @@
+{
+  "docType": "council-composition",
+  "sourceId": "beppu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:39:01.567Z",
+  "fiscalYear": "R8",
+  "body": "別府市議会",
+  "seats": 25,
+  "asOf": "2026-02-02",
+  "teisu": 25,
+  "factions": [
+    {
+      "name": "自民新政会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "谷口和美",
+        "日名子敦子",
+        "阿部真一",
+        "安部一郎",
+        "小野正明",
+        "吉冨英三郎",
+        "松川章三",
+        "松川峰生",
+        "山本一成"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "重松康宏",
+        "小野佳子",
+        "穴井宏二",
+        "市原隆生"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "三重忠昭",
+        "森山義治",
+        "加藤信康"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創世会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "黒木愛一郎",
+        "野口哲男"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "弱い立場の人に政治の光を",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "泉武弘"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新たな別府を創る会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森大輔"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "美馬恭子"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ビーワンべっぷ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森裕二"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創る未来の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中村悟"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "石田強"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "有志の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "塩手悠太"
+      ],
+      "locator": {
+        "file": "kaihameibo.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第7号",
+    "billName": "令和８年度別府市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "可決（多数）",
+    "locator": {
+      "file": "sanpi01.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "別府市議会 会派名簿（令和８年２月２日 現在）",
+  "resultTitle": "令和８年 第１回 定例会 議決結果賛否一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年 第１回 定例会 議決結果賛否一覧表",
+    "sourceFile": "sanpi01.pdf",
+    "columns": [
+      {
+        "label": "山本一成",
+        "faction": "自民新政会",
+        "member": "山本一成",
+        "stance": "賛成"
+      },
+      {
+        "label": "松川峰生",
+        "faction": "自民新政会",
+        "member": "松川峰生",
+        "stance": "賛成"
+      },
+      {
+        "label": "松川章三",
+        "faction": "自民新政会",
+        "member": "松川章三",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉冨英三郎",
+        "faction": "自民新政会",
+        "member": "吉冨英三郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "安部一郎",
+        "faction": "自民新政会",
+        "member": "安部一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部真一",
+        "faction": "自民新政会",
+        "member": "阿部真一",
+        "stance": "賛成"
+      },
+      {
+        "label": "日名子敦子",
+        "faction": "自民新政会",
+        "member": "日名子敦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷口和美",
+        "faction": "自民新政会",
+        "member": "谷口和美",
+        "stance": "賛成"
+      },
+      {
+        "label": "市原隆生",
+        "faction": "公明党",
+        "member": "市原隆生",
+        "stance": "賛成"
+      },
+      {
+        "label": "穴井宏二",
+        "faction": "公明党",
+        "member": "穴井宏二",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野佳子",
+        "faction": "公明党",
+        "member": "小野佳子",
+        "stance": "賛成"
+      },
+      {
+        "label": "重松康宏",
+        "faction": "公明党",
+        "member": "重松康宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤信康",
+        "faction": "市民クラブ",
+        "member": "加藤信康",
+        "stance": "賛成"
+      },
+      {
+        "label": "森山義治",
+        "faction": "市民クラブ",
+        "member": "森山義治",
+        "stance": "賛成"
+      },
+      {
+        "label": "三重忠昭",
+        "faction": "市民クラブ",
+        "member": "三重忠昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "野口哲男",
+        "faction": "創世会",
+        "member": "野口哲男",
+        "stance": "賛成"
+      },
+      {
+        "label": "黒木愛一郎",
+        "faction": "創世会",
+        "member": "黒木愛一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "泉武弘",
+        "faction": "弱い立場の人に政治の光を",
+        "member": "泉武弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "森大輔",
+        "faction": "新たな別府を創る会",
+        "member": "森大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "美馬恭子",
+        "faction": "日本共産党",
+        "member": "美馬恭子",
+        "stance": "反対"
+      },
+      {
+        "label": "森裕二",
+        "faction": "ビーワンべっぷ",
+        "member": "森裕二",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村悟",
+        "faction": "創る未来の会",
+        "member": "中村悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "石田強",
+        "faction": "日本維新の会",
+        "member": "石田強",
+        "stance": "賛成"
+      },
+      {
+        "label": "塩手悠太",
+        "faction": "有志の会",
+        "member": "塩手悠太",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野正明",
+        "faction": "自民新政会",
+        "member": "小野正明",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "nagasaki-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "2020.html",
+      "sha256": "1e2bd7ec16670772a7c3d136ec710a10ed879ce8d9e141961cd28a172e604bb7",
+      "bytes": 16087,
+      "fetchedAt": "2026-10-31T09:40:16.523Z",
+      "fetchedFrom": "https://www.pref.nagasaki.jp/gikai/2020.html"
+    },
+    {
+      "filename": "gian.html",
+      "sha256": "20ceddb7e2b3a09cbfa69d84e4279f6563e3eec1cb06df9e90f141cafc438e58",
+      "bytes": 30643,
+      "fetchedAt": "2026-10-31T09:40:16.523Z",
+      "fetchedFrom": "https://www.pref.nagasaki.jp/gikai/0803teirei/gian.html"
+    },
+    {
+      "filename": "sanpi_honkaigi.pdf",
+      "sha256": "3b1cb2e69ed6e3c70b5c85889e0b9d7ca4906fc8a9cf8652ea842c5df45a66cc",
+      "bytes": 290273,
+      "fetchedAt": "2026-10-31T09:40:16.524Z",
+      "fetchedFrom": "https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf"
+    },
+    {
+      "filename": "4030.html",
+      "sha256": "7f0c1f17f76b9e0b37bc6c14302af99b379ab2b998196ad1ebbbedf219a7707a",
+      "bytes": 7828,
+      "fetchedAt": "2026-10-31T09:40:16.524Z",
+      "fetchedFrom": "https://www.pref.nagasaki.jp/gikai/4030.html"
+    }
+  ]
+}

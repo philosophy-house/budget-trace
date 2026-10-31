@@ -1,0 +1,19 @@
+{
+  "sourceId": "fukui-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "ichiran_20260313.html",
+      "sha256": "0f8cc908f4ce753af5dcede9c214cc253eb9aef69c4e61ffd6b5b9d6cb26d2ca",
+      "bytes": 40584,
+      "fetchedAt": "2026-10-31T09:38:51.648Z",
+      "fetchedFrom": "https://web.archive.org/web/20260313211617id_/https://www.pref.fukui.lg.jp/doc/gikai-soumu/giinshokai/ichiran.html"
+    },
+    {
+      "filename": "202602_shingikekka.pdf",
+      "sha256": "75c18dc4a0644f7a71ec1c90aad0fbd7d5f1496ed34fcb40cff606d627cbe8d0",
+      "bytes": 596936,
+      "fetchedAt": "2026-10-31T09:38:51.648Z",
+      "fetchedFrom": "https://www.pref.fukui.lg.jp/doc/gikai-giji/giankekka/2025sinngikekka_d/fil/202602_shingikekka.pdf"
+    }
+  ]
+}

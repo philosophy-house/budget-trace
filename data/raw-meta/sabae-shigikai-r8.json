@@ -1,0 +1,26 @@
+{
+  "sourceId": "sabae-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha-kosei_20260306.html",
+      "sha256": "fbc457e9a9422daf38012fba56300c2e9157a55e36c468ff9c36a4cc02f73fa5",
+      "bytes": 25718,
+      "fetchedAt": "2026-10-31T09:38:51.651Z",
+      "fetchedFrom": "https://web.archive.org/web/20260306105312id_/https://www.city.sabae.fukui.jp/about_city/shigikai/giinmeibo/kaiha-kosei.html"
+    },
+    {
+      "filename": "Gikai455.html",
+      "sha256": "9cbb9c58cba8b6c136f6ab7d0817ab65f11a69e39d130b6c03edc5b6c7de688a",
+      "bytes": 46153,
+      "fetchedAt": "2026-10-31T09:38:51.651Z",
+      "fetchedFrom": "https://www.city.sabae.fukui.jp/about_city/shigikai/gikainonittei/Gikai455.html"
+    },
+    {
+      "filename": "455gizinittei-4.pdf",
+      "sha256": "6a75b67d80ec982aa323981c28c98b1b9cc5dc42252bb37d0ac037befab8e48b",
+      "bytes": 87508,
+      "fetchedAt": "2026-10-31T09:38:51.652Z",
+      "fetchedFrom": "https://www.city.sabae.fukui.jp/about_city/shigikai/gikainonittei/Gikai455.files/455gizinittei-4.pdf"
+    }
+  ]
+}
