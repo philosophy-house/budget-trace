@@ -125,6 +125,8 @@ bun run pipeline:archive <sourceId>
 「✗ 未確認」には理由が付く。`SPN が3回続けて失敗` と出て残りが「省略」になったら、SPN が落ちている。
 戻ったかを台帳の捕捉日か `bun run pipeline:archive-attempts` で確かめてから流し直す。
 `3回続けて未確認` と出た URL は、発行元がクローラを弾いている疑いがある（UA を3通り当てる）。
+本体の `.env` に archive.org のキーがあれば認証つき SPN2 で要求する。最後に「結果待ちのジョブ N 件」と出ても台帳は壊れていない
+（derive・コミットしてよい。残りは次の実行の最初か `--resolve-only` で拾う）。
 
 ③自サーバー配信（`public/sources/`）は `pipeline/sync-public-sources.ts` が dev/build 前段で
 自動。**新しい形式を足したらドロワーの表示手段**（PDF=PdfViewer / HTML=HtmlViewer /

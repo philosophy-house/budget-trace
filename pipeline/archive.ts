@@ -26,6 +26,14 @@
 //   全件「未確認」にしない）。CDX が続けて引けなければ実行ごと止める
 // - **試行の結末を型つきで記録**（git の共通ディレクトリの archive-attempts.jsonl）。
 //   集計は `bun run pipeline:archive-attempts`
+//
+// 認証つき SPN2（2026-10-31・同じ提案の第2段）:
+// - archive.org の S3 形式のキー（`IA_S3_ACCESS_KEY` / `IA_S3_SECRET_KEY`。本体のチェックアウトの `.env`）が
+//   あれば、`POST /save` に `Authorization: LOW <access>:<secret>` で要求する。無ければ従来どおり匿名の GET
+// - **要求と結果の確認を分ける**: 受け付けられた `job_id` を `data/.archive-jobs.json` に控えて次の URL へ進み、
+//   要求を出し切ってから `/save/status` にまとめて問い合わせる。成功したら CDX に載るのを待って照合し、台帳に書く。
+//   待ちきれなかったジョブは控えに残り、次の実行の最初に確かめる（`--submit-only` は要求だけで終える）
+// - 状態の照会は約1時間で消える（公開文書）ので、古いジョブは CDX で「要求より後の捕捉」を探して決める
 import { existsSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
@@ -34,21 +42,36 @@ import { DATA_DIR, readJson, readRawMeta } from "./lib/store";
 import { MIB, VERIFIABLE_RE, classifyVerify } from "./lib/wayback";
 import {
   acquireArchiveLock,
+  loadIaKeys,
   readAttempts,
+  readJobs,
   recordAttempt,
   waitForArchiveLock,
   waitForSpnSlot,
+  writeJobs,
   type AttemptOutcome,
+  type QueuedJob,
 } from "./lib/archive-state";
 import { archivesLedgerSchema, type ArchiveEntry } from "./types";
 
 const ARCHIVES_PATH = join(DATA_DIR, "archives.json");
 const UA = "budget-trace archive step (github.com/philosophy-house/budget-trace)";
+// 認証つき SPN2 のヘッダ。⚠ キーの値はログにも記録にも出さない
+const IA_KEYS = loadIaKeys();
+const AUTH = IA_KEYS ? `LOW ${IA_KEYS.access}:${IA_KEYS.secret}` : null;
 /**
  * SPN への要求の間隔（**全ワークツリーで共有**）。6秒では 429 が出た（§9b・2026-08-12）。
- * 公開文書の匿名の上限は毎分3件なので、それより少し空ける。`ARCHIVE_SPN_INTERVAL_MS` で上書きできる。
+ * 公開文書の上限は匿名が毎分3件・認証つきが毎分7件なので、それより少し空ける（実効値は未確認）。
+ * `ARCHIVE_SPN_INTERVAL_MS` で上書きできる。
  */
-const SPN_INTERVAL_MS = Number(process.env.ARCHIVE_SPN_INTERVAL_MS ?? 30_000);
+const SPN_INTERVAL_MS = Number(process.env.ARCHIVE_SPN_INTERVAL_MS ?? (AUTH ? 10_000 : 30_000));
+// ジョブの結果の確かめ方。要求を出し切った後、全部が決まるか待ち時間が尽きるまで問い合わせる
+const RESOLVE_WAIT_MS = Number(process.env.ARCHIVE_RESOLVE_WAIT_MS ?? 15 * 60_000);
+const RESOLVE_POLL_MS = 20_000;
+// SPN2 の状態の照会が消えるまで（公開文書で約1時間）。これより古いジョブは CDX で決める
+const STATUS_TTL_MS = 50 * 60_000;
+// これより古いのに捕捉が見つからないジョブは諦めて控えから外す（次の実行で要求し直す）
+const JOB_GIVE_UP_MS = 24 * 3600_000;
 const POLL_TRIES = 10;
 const POLL_INTERVAL_MS = 6_000;
 // タイムアウト。以前は無く、1件が1時間を超えて固まった（第21巡・2026-09-02）。
@@ -312,15 +335,109 @@ function verifyNote(v: VerifyResult): string | null {
 }
 
 type SaveResult =
-  | { outcome: "accepted"; http: number }
-  | { outcome: "spn-down" | "rate-limited" | "rejected"; http?: number; detail: string };
+  /** `jobId` は認証つき SPN2 のときだけ（匿名の GET は job を返さないので、従来どおり CDX を待つ） */
+  | { outcome: "accepted"; http: number; jobId?: string }
+  /** `fatal` は認証の失敗など、続けても無駄なもの（その場で SPN をやめる） */
+  | { outcome: "spn-down" | "rate-limited" | "rejected"; http?: number; detail: string; fatal?: boolean };
 
 /**
- * Save Page Now に登録を要求する（結果はポーリングで確認）。
+ * Save Page Now に登録を要求する（結果はジョブの照会か CDX で確認）。
  * **断られた理由を潰さない**（2026-10-31）— 以前は boolean で、520（SPN 全体の停止）も 429（回数の上限）も
  * 403（拒否）も同じ「未確認」になっていた。間隔は全ワークツリーで共有する（waitForSpnSlot）。
  */
-async function requestSave(url: string): Promise<SaveResult> {
+const requestSave = (url: string): Promise<SaveResult> => (AUTH ? requestSaveAuth(url, AUTH) : requestSaveAnonymous(url));
+
+/**
+ * SPN2 の `status_ext` を結末の型に寄せる。**SPN 側の不調**（spn-down）・**枠の上限**（rate-limited）・
+ * **同時実行の上限**（wait＝空くのを待って出し直す）を分け、残りは**その URL か発行元の問題**（rejected）。
+ * 一覧は公開文書「Save Page Now 2 Public API Docs」のエラーコード（2026-10-31 に参照）。
+ */
+function classifyStatusExt(ext: string | undefined): "spn-down" | "rate-limited" | "rejected" | "wait" {
+  if (ext === "error:user-session-limit") return "wait";
+  if (ext === "error:celery" || ext === "error:no-browsers-available" || ext === "error:capture-location-error")
+    return "spn-down";
+  if (ext?.startsWith("error:max-daily-bandwidth") || ext === "error:too-many-requests") return "rate-limited";
+  return "rejected";
+}
+
+/** 同時に動かせるセッションが空くまで待つ（`error:user-session-limit` のとき）。最大5分 */
+async function waitForUserSession(auth: string): Promise<void> {
+  const until = Date.now() + 5 * 60_000;
+  while (Date.now() < until) {
+    try {
+      const res = await fetch(`https://web.archive.org/save/status/user?_t=${Date.now()}`, {
+        headers: { "User-Agent": UA, Accept: "application/json", Authorization: auth },
+        signal: AbortSignal.timeout(15_000),
+      });
+      const j = (await res.json()) as { available?: number };
+      if ((j.available ?? 0) > 0) return;
+    } catch {
+      /* 照会できなければ間を置いて出し直すだけ */
+    }
+    await sleep(15_000);
+  }
+}
+
+/**
+ * 認証つき SPN2（`POST /save`）。受け付けられると `{ url, job_id }` が返る。捕捉の完了は待たない
+ * （結果は resolveJobs がまとめて確かめる）。⚠ `auth` の値は例外のメッセージにも出さない。
+ */
+async function requestSaveAuth(url: string, auth: string): Promise<SaveResult> {
+  let last: SaveResult = { outcome: "rate-limited", detail: "" };
+  for (let attempt = 0; attempt <= BACKOFF_MS.length; attempt++) {
+    if (attempt > 0) {
+      console.log(`  … ${last.outcome === "rate-limited" ? "429" : "同時実行の上限"}。${BACKOFF_MS[attempt - 1]! / 1000}秒待って再要求`);
+      await sleep(BACKOFF_MS[attempt - 1]!);
+    }
+    await waitForSpnSlot(SPN_INTERVAL_MS);
+    let res: Response;
+    try {
+      res = await fetch("https://web.archive.org/save", {
+        method: "POST",
+        headers: {
+          "User-Agent": UA,
+          Accept: "application/json",
+          Authorization: auth,
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams({ url }).toString(),
+        signal: AbortSignal.timeout(SAVE_TIMEOUT_MS),
+      });
+    } catch (e) {
+      return { outcome: "spn-down", detail: `接続できない・タイムアウト（${e instanceof Error ? e.message : String(e)}）` };
+    }
+    const text = await readHead(res, 64 * 1024);
+    let j: { job_id?: string; status?: string; status_ext?: string; message?: string } = {};
+    try {
+      j = JSON.parse(text);
+    } catch {
+      /* JSON でない応答（5xx の HTML など） */
+    }
+    if (res.status === 401 || res.status === 403) {
+      return { outcome: "rejected", http: res.status, detail: `認証に失敗（HTTP ${res.status}）。.env のキーを確かめる`, fatal: true };
+    }
+    if (res.ok && j.job_id) return { outcome: "accepted", http: res.status, jobId: j.job_id };
+    if (res.status === 429) {
+      last = { outcome: "rate-limited", http: 429, detail: "429（回数の上限）" };
+      continue;
+    }
+    if (res.status >= 500 && !j.status_ext) {
+      return { outcome: "spn-down", http: res.status, detail: `HTTP ${res.status}${/Job failed/i.test(text) ? "・本文「Job failed」" : ""}` };
+    }
+    const why = `${j.status_ext ?? `HTTP ${res.status}`}${j.message ? `（${j.message.slice(0, 160)}）` : ""}`;
+    const type = classifyStatusExt(j.status_ext);
+    if (type === "wait") {
+      last = { outcome: "rate-limited", http: res.status, detail: why };
+      await waitForUserSession(auth);
+      continue;
+    }
+    return { outcome: type, http: res.status, detail: why };
+  }
+  return { ...last, detail: `${last.detail}が待ち直しても続いた（${BACKOFF_MS.length + 1}回）` };
+}
+
+/** 匿名の GET `/save/<url>`（キーが無いとき）。結果はこの後 CDX を待って確かめる */
+async function requestSaveAnonymous(url: string): Promise<SaveResult> {
   let last: SaveResult = { outcome: "rate-limited", detail: "" };
   for (let attempt = 0; attempt <= BACKOFF_MS.length; attempt++) {
     if (attempt > 0) {
@@ -423,6 +540,25 @@ if (cliArgs.includes("--wait-only")) {
   process.exit(0);
 }
 
+// キーが読めて通るかだけを確かめる（捕捉の枠は使わない。⚠ キーの値は出さない）
+if (cliArgs.includes("--check-auth")) {
+  if (!AUTH) {
+    console.log("キーが見つからない（IA_S3_ACCESS_KEY / IA_S3_SECRET_KEY。環境変数か本体のチェックアウトの .env）。匿名の SPN で動く");
+    process.exit(1);
+  }
+  const res = await fetch(`https://web.archive.org/save/status/user?_t=${Date.now()}`, {
+    headers: { "User-Agent": UA, Accept: "application/json", Authorization: AUTH },
+    signal: AbortSignal.timeout(30_000),
+  }).catch((e: unknown) => e as Error);
+  if (res instanceof Error) {
+    console.log(`照会できない（${res.message}）`);
+    process.exit(1);
+  }
+  const body = (await res.text()).slice(0, 300);
+  console.log(`キーあり（access ${IA_KEYS!.access.length}文字）。/save/status/user: HTTP ${res.status} ${body}`);
+  process.exit(res.ok && /"available"/.test(body) ? 0 : 1);
+}
+
 const targets = SOURCES.filter((s) => !s.fixture && (!arg || s.id === arg));
 if (targets.length === 0) {
   console.error(`ソースが見つかりません: ${arg}`);
@@ -490,7 +626,202 @@ const versionFloor = (sourceId: string, url: string): string | null => {
   return at ? toWaybackTs(at) : null;
 };
 
-outer: for (const source of targets) {
+/**
+ * 捕捉を照合する。同じスナップショットを照合済みなら台帳の記録を再利用する（再ダウンロードしない）。
+ * ただし **不一致でバイト数が無いエントリは再照合する** — 診断（打ち切り／不完全／別版）が
+ * バイト数に依存するため。一致しているエントリはバイト数が無くても再利用でよい
+ * （一致の報告に要らない）。ここを分けないと、waybackBytes を足した初回の全実行で
+ * **数百件の PDF を Wayback から再ダウンロード**することになる。
+ */
+async function verifyFor(
+  prior: ArchiveEntry | undefined,
+  sourceId: string,
+  url: string,
+  kind: "file" | "landing",
+  timestamp: string,
+  waybackUrl: string,
+): Promise<VerifyResult> {
+  if (kind !== "file") return { status: "skipped" };
+  const cacheable =
+    prior?.waybackUrl === waybackUrl &&
+    prior.sha256Match !== undefined &&
+    (prior.sha256Match === true || prior.waybackBytes !== undefined);
+  if (prior && cacheable) {
+    const cachedKind = prior.sha256Match
+      ? ("match" as const)
+      : prior.waybackTruncated
+        ? ("truncated" as const)
+        : prior.waybackPartial
+          ? ("partial" as const)
+          : ("other" as const);
+    return {
+      status: "verified",
+      match: prior.sha256Match!,
+      bytes: prior.waybackBytes,
+      rawBytes: rawBytesOf(sourceId, url),
+      kind: cachedKind,
+    };
+  }
+  return await verifySnapshot(sourceId, url, timestamp);
+}
+
+/**
+ * 台帳へ書く判定。**「対象外（フィールド無し）」「照合できなかった（sha256Verified: false）」
+ * 「照合した（sha256Match）」の3状態を潰さない**のがこの関数の仕事。
+ */
+const verdictOf = (v: VerifyResult, rawSha: string | undefined) =>
+  v.status === "skipped"
+    ? {}
+    : v.status === "failed"
+      ? // 理由も台帳に残す（#137）— 理由なしの false は「発行元が差し替えた」と
+        // 誤診される（実際に一度誤診しかけた）。一時的な転送切れと構造的な問題を
+        // 台帳だけで区別できるようにする。
+        { sha256Verified: false, sha256FailReason: v.reason }
+      : {
+          sha256Match: v.match,
+          ...(v.bytes !== undefined ? { waybackBytes: v.bytes } : {}),
+          ...(v.kind === "truncated" ? { waybackTruncated: true } : {}),
+          ...(v.kind === "partial" ? { waybackPartial: true } : {}),
+          // 照合が走ったら「そのときの raw」も錨として残す（types.ts の rawSha256 参照）
+          ...(rawSha !== undefined ? { rawSha256: rawSha } : {}),
+        };
+
+/** SPN で取れた新しい捕捉を照合して台帳に書く（匿名の待ちと、ジョブの確認の両方から呼ぶ） */
+async function recordSaved(sourceId: string, url: string, kind: "file" | "landing", snap: Snapshot): Promise<void> {
+  const prior = ledger.find((x) => x.sourceId === sourceId && x.url === url);
+  const rawSha = kind === "file" ? rawFileOf(sourceId, url)?.sha256 : undefined;
+  const match = await verifyFor(prior, sourceId, url, kind, snap.timestamp, snap.waybackUrl);
+  upsert({
+    sourceId, url, kind,
+    waybackUrl: snap.waybackUrl, waybackTimestamp: snap.timestamp,
+    checkedAt: new Date().toISOString(),
+    ...verdictOf(match, rawSha),
+  });
+  console.log(`✓ 登録完了 ${sourceId} ${kind}: ${snap.waybackUrl}`);
+  // 登録直後の不一致は SPN 反映待ちで古い版を拾っただけのこともあるので、その線を添える
+  const note = verifyNote(match);
+  if (note) console.log(`  ${note}`);
+  if (match.status === "verified" && !match.match && match.kind !== "truncated") {
+    console.log(`  （登録直後なので SPN 反映待ちで古い版を拾った可能性もある。時間を置いて再実行）`);
+  }
+}
+
+// ---- 認証つき SPN2 のジョブ（要求と結果の確認を分ける） ------------------------
+// 控え（data/.archive-jobs.json）はこのワークツリーの持ち物。前の実行の残りもここで確かめる
+let jobs: QueuedJob[] = readJobs();
+let submitted = 0;
+const ageMs = (j: QueuedJob) => Date.now() - Date.parse(j.requestedAt);
+const logJob = (j: QueuedJob, outcome: AttemptOutcome, extra: { http?: number; detail?: string } = {}) => {
+  outcomes.set(outcome, (outcomes.get(outcome) ?? 0) + 1);
+  recordAttempt({ sourceId: j.sourceId, url: j.url, kind: j.kind, outcome, ms: ageMs(j), ...extra });
+};
+const dropJob = (j: QueuedJob) => {
+  jobs = jobs.filter((x) => x !== j);
+  writeJobs(jobs);
+};
+
+type JobStatus = { job_id?: string; status?: string; status_ext?: string; message?: string; timestamp?: string; original_url?: string };
+/**
+ * 照会が消えた（ジョブ自体が見つからない）か。⚠ `error:not-found` は**発行元のページが 404** の意味で、
+ * ジョブが消えたのではない（取り違えると、404 の URL を CDX で24時間待ち続ける）。`status_ext` の無い
+ * エラーで、文面がジョブの不在を言うときだけ消えたとみなす。
+ */
+const jobExpired = (st: JobStatus) => !st.status_ext && /job/i.test(st.message ?? "") && /not.?found|expired/i.test(st.message ?? "");
+
+/** SPN2 の状態をまとめて照会する（`POST /save/status` に `job_ids`）。返らなかったジョブは結果に入らない */
+async function fetchJobStatuses(ids: string[], auth: string): Promise<Map<string, JobStatus>> {
+  const out = new Map<string, JobStatus>();
+  for (let i = 0; i < ids.length; i += 50) {
+    const chunk = ids.slice(i, i + 50);
+    try {
+      const res = await fetch("https://web.archive.org/save/status", {
+        method: "POST",
+        headers: {
+          "User-Agent": UA,
+          Accept: "application/json",
+          Authorization: auth,
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams({ job_ids: chunk.join(",") }).toString(),
+        signal: AbortSignal.timeout(CDX_TIMEOUT_MS),
+      });
+      const j = (await res.json()) as JobStatus | JobStatus[];
+      for (const st of Array.isArray(j) ? j : [j]) if (st?.job_id) out.set(st.job_id, st);
+    } catch {
+      // まとめての照会が通らないときは、次の回で取り直す（個々のジョブは CDX でも決まる）
+    }
+  }
+  return out;
+}
+
+/**
+ * 控えのジョブを確かめる。成功したら**CDX に載るのを待ってから**照合して台帳に書く
+ * （SPN2 の成功の直後は replay がまだ返らないことがあり、照合すると「取得が 404」で失敗を記録してしまう）。
+ * 状態の照会が消えた古いジョブは、CDX で「要求より後（1時間の幅）の捕捉」を探す。
+ * `deadline` まで、全部が決まるか待ち時間が尽きるまで繰り返す（今すぐなら1回だけ）。
+ */
+async function resolveJobs(deadline: number): Promise<void> {
+  for (let round = 0; jobs.length > 0; round++) {
+    if (round > 0) {
+      if (Date.now() >= deadline) break;
+      await sleep(Math.min(RESOLVE_POLL_MS, Math.max(0, deadline - Date.now())));
+    }
+    const ask = jobs.filter((j) => !j.capturedTs && ageMs(j) < STATUS_TTL_MS).map((j) => j.jobId);
+    const statuses = AUTH && ask.length ? await fetchJobStatuses(ask, AUTH) : new Map<string, JobStatus>();
+    for (const j of [...jobs]) {
+      if (!j.capturedTs) {
+        const st = statuses.get(j.jobId);
+        if (st?.status === "success" && st.timestamp) {
+          j.capturedTs = st.timestamp;
+        } else if (st?.status === "error" && !jobExpired(st)) {
+          const type = classifyStatusExt(st.status_ext);
+          const detail = `${st.status_ext ?? "error"}${st.message ? `（${st.message.slice(0, 160)}）` : ""}`;
+          const outcome: AttemptOutcome = type === "wait" ? "rate-limited" : type;
+          console.log(`✗ 未確認 ${j.sourceId} ${j.kind}: SPN2 のジョブが失敗 ${detail}（次回実行で再要求）`);
+          logJob(j, outcome, { detail });
+          if (outcome === "rejected") unconfirmed.push({ sourceId: j.sourceId, url: j.url });
+          failed++;
+          dropJob(j);
+          continue;
+        } else if (st && st.status !== "error") {
+          continue; // pending — まだ捕捉中
+        }
+      }
+      // ここに来るのは「成功して捕捉の時刻が分かった」か「照会が消えた・返らなかった」ジョブ。CDX で決める
+      let snaps: Snapshot[];
+      try {
+        snaps = await snapshots200(j.url, false);
+      } catch {
+        continue; // CDX が引けない回は飛ばす
+      }
+      const floor = toWaybackTs(new Date(Date.parse(j.requestedAt) - 3600_000).toISOString());
+      const hit = j.capturedTs
+        ? snaps.find((s) => s.timestamp === j.capturedTs)
+        : snaps.filter((s) => s.timestamp >= floor).at(-1); // 要求より後のうち、いちばん古いもの
+      if (hit) {
+        await recordSaved(j.sourceId, j.url, j.kind, hit);
+        logJob(j, "saved", { detail: `job ${j.jobId}` });
+        saved++;
+        dropJob(j);
+      } else if (ageMs(j) > JOB_GIVE_UP_MS) {
+        console.log(`✗ 未確認 ${j.sourceId} ${j.kind}: ジョブから ${Math.round(ageMs(j) / 3600_000)} 時間たっても捕捉が CDX に無い（控えから外す）`);
+        logJob(j, "pending", { detail: `job ${j.jobId} を諦めた` });
+        unconfirmed.push({ sourceId: j.sourceId, url: j.url });
+        failed++;
+        dropJob(j);
+      }
+    }
+    writeJobs(jobs);
+  }
+}
+
+// 前の実行の残りを先に1回だけ確かめる（決まったものは、下のループで「登録済み」として扱える）
+if (jobs.length) {
+  console.log(`… 前の実行の SPN2 のジョブ ${jobs.length} 件を確かめる`);
+  await resolveJobs(Date.now());
+}
+const resolveOnly = cliArgs.includes("--resolve-only");
+outer: for (const source of resolveOnly ? [] : targets) {
   const urls: { url: string; kind: "file" | "landing" }[] = [
     ...(source.urls ?? (source.url ? [source.url] : [])).map((u) => ({ url: u, kind: "file" as const })),
     ...(source.landingPage ? [{ url: source.landingPage, kind: "landing" as const }] : []),
@@ -506,53 +837,9 @@ outer: for (const source of targets) {
     try {
     // 同じスナップショットを検証済みなら再ダウンロードしない
     const prior = ledger.find((x) => x.sourceId === source.id && x.url === url);
-    const verify = async (timestamp: string, waybackUrl: string): Promise<VerifyResult> => {
-      if (kind !== "file") return { status: "skipped" };
-      // 同じスナップショットを照合済みなら台帳の記録を再利用する（再ダウンロードしない）。
-      // ただし **不一致でバイト数が無いエントリは再照合する** — 診断（打ち切り／不完全／別版）が
-      // バイト数に依存するため。一致しているエントリはバイト数が無くても再利用でよい
-      // （一致の報告に要らない）。ここを分けないと、waybackBytes を足した初回の全実行で
-      // **数百件の PDF を Wayback から再ダウンロード**することになる。
-      const cacheable =
-        prior?.waybackUrl === waybackUrl &&
-        prior.sha256Match !== undefined &&
-        (prior.sha256Match === true || prior.waybackBytes !== undefined);
-      if (prior && cacheable) {
-        const cachedKind = prior.sha256Match
-          ? ("match" as const)
-          : prior.waybackTruncated
-            ? ("truncated" as const)
-            : prior.waybackPartial
-              ? ("partial" as const)
-              : ("other" as const);
-        return {
-          status: "verified",
-          match: prior.sha256Match!,
-          bytes: prior.waybackBytes,
-          rawBytes: rawBytesOf(source.id, url),
-          kind: cachedKind,
-        };
-      }
-      return await verifySnapshot(source.id, url, timestamp);
-    };
-    // 台帳へ書く判定。**「対象外（フィールド無し）」「照合できなかった（sha256Verified: false）」
-    // 「照合した（sha256Match）」の3状態を潰さない**のがこの関数の仕事。
-    const verdict = (v: VerifyResult) =>
-      v.status === "skipped"
-        ? {}
-        : v.status === "failed"
-          ? // 理由も台帳に残す（#137）— 理由なしの false は「発行元が差し替えた」と
-            // 誤診される（実際に一度誤診しかけた）。一時的な転送切れと構造的な問題を
-            // 台帳だけで区別できるようにする。
-            { sha256Verified: false, sha256FailReason: v.reason }
-          : {
-              sha256Match: v.match,
-              ...(v.bytes !== undefined ? { waybackBytes: v.bytes } : {}),
-              ...(v.kind === "truncated" ? { waybackTruncated: true } : {}),
-              ...(v.kind === "partial" ? { waybackPartial: true } : {}),
-              // 照合が走ったら「そのときの raw」も錨として残す（types.ts の rawSha256 参照）
-              ...(rawSha !== undefined ? { rawSha256: rawSha } : {}),
-            };
+    const verify = (timestamp: string, waybackUrl: string) =>
+      verifyFor(prior, source.id, url, kind, timestamp, waybackUrl);
+    const verdict = (v: VerifyResult) => verdictOf(v, rawSha);
 
     const rawSha = kind === "file" ? rawFileOf(source.id, url)?.sha256 : undefined;
     // HTML は照合しない（verifySnapshot の判定と同じ）。捕捉の日付で版を寄せる
@@ -637,6 +924,10 @@ outer: for (const source of targets) {
       already++;
       continue;
     }
+    if (jobs.some((j) => j.url === url)) {
+      console.log(`… 受付済み ${source.id} ${kind}（SPN2 のジョブの結果待ち）`);
+      continue;
+    }
     if (spnStopped) {
       console.log(`- 省略 ${source.id} ${kind}（この実行では SPN をやめた）`);
       log("skipped", { detail: spnStopped });
@@ -653,13 +944,14 @@ outer: for (const source of targets) {
       console.log(`✗ 未確認 ${source.id} ${kind}: ${save.detail}（次回実行で再試行）`);
       log(save.outcome, { http: save.http, detail: save.detail });
       failed++;
-      if (save.outcome === "rejected") {
+      if (save.outcome === "rejected" && !save.fatal) {
         unconfirmed.push({ sourceId: source.id, url });
         continue;
       }
-      // SPN 全体が落ちている型（520・接続できない・429 が続く）。続いたら、この実行では要求をやめる
-      if (++spnFailStreak >= SPN_STOP_AFTER) {
-        spnStopped = `${SPN_STOP_AFTER}回続けて失敗（最後: ${save.detail}）`;
+      // SPN 全体が落ちている型（520・接続できない・429 が続く）。続いたら、この実行では要求をやめる。
+      // 認証の失敗（fatal）は1回でやめる
+      if (save.fatal || ++spnFailStreak >= SPN_STOP_AFTER) {
+        spnStopped = save.fatal ? save.detail : `${SPN_STOP_AFTER}回続けて失敗（最後: ${save.detail}）`;
         console.log(`\n⚠⚠ SPN が${spnStopped}。この実行では残りの URL に要求しない（CDX の既存の捕捉の照合は続ける）`);
         console.log(`  /save/status/system: ${await spnSystemStatus()}`);
         console.log(`  切り分けは handoff §4 の4本（save / availability / cdx / replay）。戻ったかは台帳の捕捉日で確かめる\n`);
@@ -667,6 +959,14 @@ outer: for (const source of targets) {
       continue;
     }
     spnFailStreak = 0;
+    if (save.jobId) {
+      // 認証つき SPN2: 受け付けを控えて次へ進む（結果は要求を出し切ってから resolveJobs で確かめる）
+      jobs.push({ sourceId: source.id, url, kind, jobId: save.jobId, requestedAt: new Date().toISOString() });
+      writeJobs(jobs);
+      console.log(`  受付（job ${save.jobId}）`);
+      submitted++;
+      continue;
+    }
     let snap: Snapshot | null = null;
     for (let t = 0; !snap && t <= POLL_TRIES; t++) {
       await sleep(POLL_INTERVAL_MS);
@@ -677,20 +977,7 @@ outer: for (const source of targets) {
       }
     }
     if (snap) {
-      const match = await verify(snap.timestamp, snap.waybackUrl);
-      upsert({
-        sourceId: source.id, url, kind,
-        waybackUrl: snap.waybackUrl, waybackTimestamp: snap.timestamp,
-        checkedAt: new Date().toISOString(),
-        ...verdict(match),
-      });
-      console.log(`✓ 登録完了 ${source.id} ${kind}: ${snap.waybackUrl}`);
-      // 登録直後の不一致は SPN 反映待ちで古い版を拾っただけのこともあるので、その線を添える
-      const note = verifyNote(match);
-      if (note) console.log(`  ${note}`);
-      if (match.status === "verified" && !match.match && match.kind !== "truncated") {
-        console.log(`  （登録直後なので SPN 反映待ちで古い版を拾った可能性もある。時間を置いて再実行）`);
-      }
+      await recordSaved(source.id, url, kind, snap);
       log("saved", { http: save.http });
       saved++;
     } else {
@@ -724,6 +1011,12 @@ outer: for (const source of targets) {
   }
 }
 
+// 要求を出し切ったら、ジョブの結果をまとめて確かめる（`--submit-only` は要求だけで終える）
+if (jobs.length && !cliArgs.includes("--submit-only")) {
+  console.log(`\n… SPN2 のジョブ ${jobs.length} 件の結果を待つ（最長 ${Math.round(RESOLVE_WAIT_MS / 60_000)} 分）`);
+  await resolveJobs(Date.now() + RESOLVE_WAIT_MS);
+}
+
 // 最後の一括保存も併合で行う（上の upsert と同じ理由 — 丸ごと上書きすると並行実行で相手を消す）
 const final = loadLedger();
 for (const local of ledger) {
@@ -738,6 +1031,9 @@ console.log(
 );
 const breakdown = [...outcomes].map(([k, v]) => `${k} ${v}`).join("・");
 if (breakdown) console.log(`  結末の内訳: ${breakdown}（記録: bun run pipeline:archive-attempts）`);
+if (AUTH) console.log(`  認証つき SPN2: 受付 ${submitted} 件`);
+if (jobs.length)
+  console.log(`  結果待ちのジョブ ${jobs.length} 件（data/.archive-jobs.json）。次の実行の最初に確かめる（--resolve-only でも）`);
 if (spnStopped) console.log(`⚠ SPN をやめた: ${spnStopped}。省略した ${skipped} 件は、SPN が戻ってから流し直す`);
 if (cdxStopped) console.log(`⚠ CDX が止まったので途中で終えた: ${cdxStopped}`);
 if (staleHtml) console.log(`⚠ 使った版より古い捕捉のままの HTML: ${staleHtml} 件（取り直すなら対象を指定して --force）`);
