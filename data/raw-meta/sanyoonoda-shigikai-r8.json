@@ -1,0 +1,47 @@
+{
+  "sourceId": "sanyoonoda-shigikai-r8",
+  "files": [
+    {
+      "filename": "sanyoonoda_kaihabetumeibo_wb20260202.html",
+      "sha256": "8e55a79762d75cfec4ab44c63053417d4b1af13b5fb631bf713c1a8aee6509d1",
+      "bytes": 33160,
+      "fetchedAt": "2026-10-31T17:46:52.061Z",
+      "fetchedFrom": "https://web.archive.org/web/20260202125154id_/https://www.city.sanyo-onoda.lg.jp/soshiki/64/kaihabetumeibo.html"
+    },
+    {
+      "filename": "sanyoonoda_74508.pdf",
+      "sha256": "cf7693185f716c38afa5730da3313505dc9dedb9e2930b3c419514b05919db0d",
+      "bytes": 231898,
+      "fetchedAt": "2026-10-31T17:46:52.061Z",
+      "fetchedFrom": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74508.pdf"
+    },
+    {
+      "filename": "sanyoonoda_siryou202603.html",
+      "sha256": "0970fa839d657501040a09196e813bd14330488c089d47176708cc3bb6e4cbc0",
+      "bytes": 53222,
+      "fetchedAt": "2026-10-31T17:46:52.061Z",
+      "fetchedFrom": "https://www.city.sanyo-onoda.lg.jp/site/sigikai/siryou202603.html"
+    },
+    {
+      "filename": "sanyoonoda_74399.pdf",
+      "sha256": "c17d78a7c50bddb3be24c05a610b5f800f3851433d4ecd6f38d629adeff790aa",
+      "bytes": 133293,
+      "fetchedAt": "2026-10-31T17:46:52.062Z",
+      "fetchedFrom": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74399.pdf"
+    },
+    {
+      "filename": "sanyoonoda_74462.pdf",
+      "sha256": "0914edf654354ac0fe8e67bb1380d52f7447f8ca70bbdd39716b6602b5465551",
+      "bytes": 739935,
+      "fetchedAt": "2026-10-31T17:46:52.063Z",
+      "fetchedFrom": "https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74462.pdf"
+    },
+    {
+      "filename": "sanyoonoda_sikumi_wb20260314.html",
+      "sha256": "f68ac3b49c3c56ccacc7b083dceaf011a162f32d735c99e565876c8843d9f8db",
+      "bytes": 37597,
+      "fetchedAt": "2026-10-31T17:46:52.063Z",
+      "fetchedFrom": "https://web.archive.org/web/20260314163216id_/https://www.city.sanyo-onoda.lg.jp/site/sigikai/sikumi.html"
+    }
+  ]
+}

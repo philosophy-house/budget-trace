@@ -1,0 +1,124 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kochi-shi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:46:59.455Z",
+  "fiscalYear": "R8",
+  "body": "高知市議会",
+  "seats": 32,
+  "asOf": "2026-02-17",
+  "factions": [
+    {
+      "name": "自由民主党・無所属の会",
+      "seats": 13,
+      "isIndependent": false,
+      "members": [
+        "竹村邦夫",
+        "藤川裕介",
+        "上田亜矢子",
+        "和田勝美",
+        "大田芳男",
+        "横山公大",
+        "平田文彦",
+        "髙橋裕忠",
+        "清水おさむ",
+        "吉永哲也",
+        "氏原嗣志",
+        "戸田二郎",
+        "甲木良作"
+      ],
+      "locator": {
+        "file": "kochi-kaiha-meibo-r080217-warp.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "岡﨑豊",
+        "楠目慎一郎",
+        "木村亘",
+        "長尾和明",
+        "神岡俊輔",
+        "岡﨑邦子"
+      ],
+      "locator": {
+        "file": "kochi-kaiha-meibo-r080217-warp.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "高知市議会公明党",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "山根堂宏",
+        "猪野恵",
+        "髙木妙",
+        "大久保尊司",
+        "伊藤弘幸",
+        "西村昭夫"
+      ],
+      "locator": {
+        "file": "kochi-kaiha-meibo-r080217-warp.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党高知市議団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "浜口佳寿子",
+        "下本文雄",
+        "岡田はるか",
+        "宮本直樹",
+        "藤木真由美"
+      ],
+      "locator": {
+        "file": "kochi-kaiha-meibo-r080217-warp.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "さきがけ高知",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "伴武澄"
+      ],
+      "locator": {
+        "file": "kochi-kaiha-meibo-r080217-warp.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政党高知市議団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "野村栄一"
+      ],
+      "locator": {
+        "file": "kochi-kaiha-meibo-r080217-warp.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "市第4号",
+    "billName": "令和8年度高知市一般会計予算",
+    "sessionLabel": "第512回市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kochi-teirei512.html"
+    }
+  },
+  "rosterTitle": "高知市議会 会派別名簿（令和８年２月17日現在）（国立国会図書館 WARP 2026-03-04 収集・発行元は 404）",
+  "resultTitle": "第512回市議会定例会 議案審議結果（市長提出議案の表）"
+}

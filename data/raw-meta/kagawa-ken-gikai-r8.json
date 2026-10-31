@@ -1,0 +1,43 @@
+{
+  "sourceId": "kagawa-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "kagawa_r6_kobetsu.html",
+      "sha256": "7f87668cfe1f7cfddbac9dad82b9d793df06b1035ea01d6d7685456d55986129",
+      "bytes": 20269,
+      "fetchedAt": "2026-10-31T17:46:52.067Z",
+      "fetchedFrom": "https://www.pref.kagawa.lg.jp/gikai/jyoho/r6_kobetsu.html"
+    },
+    {
+      "filename": "kagawa_4_3_wb20260307.html",
+      "sha256": "a7f1545b5eec53c03d9f0888ec3d3ab38714a8fe448e2a049c0a88ba1bc973eb",
+      "bytes": 14845,
+      "fetchedAt": "2026-10-31T17:46:52.068Z",
+      "fetchedFrom": "https://web.archive.org/web/20260307001459id_/https://www.pref.kagawa.lg.jp/gikai/meibo/4_3.html"
+    },
+    {
+      "filename": "kagawa_4_1.html",
+      "sha256": "fe9a7a52bc7276778ada395511f3d5633e9570cea1bffa932f596823d5cb7bcf",
+      "bytes": 15259,
+      "fetchedAt": "2026-10-31T17:46:52.068Z",
+      "fetchedFrom": "https://www.pref.kagawa.lg.jp/gikai/meibo/4_1.html"
+    },
+    {
+      "filename": "kagawa_0802_t01.html",
+      "sha256": "6ab411e363131f40608e0bc83b1c9255aa025395ebf42c4d4e61264bcb1e1983",
+      "bytes": 45724,
+      "fetchedAt": "2026-10-31T17:46:52.068Z",
+      "fetchedFrom": "https://www.pref.kagawa.lg.jp/gikai/jyoho/giketsu/0802_t01.html"
+    },
+    {
+      "filename": "kagawa_kaigiroku_r0804rinji.html",
+      "sha256": "20b3b4536965dbe7b13a397b8cad188045df18ea471ddf56973323ba9ce1f641",
+      "bytes": 270828,
+      "fetchedAt": "2026-10-31T17:46:52.068Z",
+      "fetchedFrom": "https://www.pref.kagawa.dbsr.jp/index.php/?Template=document&Id=1839",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

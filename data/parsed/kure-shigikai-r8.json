@@ -1,0 +1,147 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kure-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:46:59.615Z",
+  "fiscalYear": "R8",
+  "body": "呉市議会",
+  "seats": 32,
+  "asOf": "2025-11-14",
+  "teisu": 32,
+  "factions": [
+    {
+      "name": "誠志会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "橋口晶",
+        "福永高美",
+        "定森健次朗",
+        "坂井誠臣",
+        "岡崎源太朗",
+        "横地祐子",
+        "藤本哲智",
+        "中田光政",
+        "小田晃士朗"
+      ],
+      "locator": {
+        "file": "kure_kaihameibo_warp20260304.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "同志会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "林田浩秋",
+        "梶山政孝",
+        "渡辺一照",
+        "田中みわ子",
+        "河原初海",
+        "佐伯航一郎",
+        "片岡慶行"
+      ],
+      "locator": {
+        "file": "kure_kaihameibo_warp20260304.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "創友会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "北川一清",
+        "岩原昇",
+        "井手畑隆政",
+        "沖田範彦"
+      ],
+      "locator": {
+        "file": "kure_kaihameibo_warp20260304.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党呉市議会議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "檜垣美良",
+        "亀井聡美",
+        "上村臣男",
+        "阪井昌行"
+      ],
+      "locator": {
+        "file": "kure_kaihameibo_warp20260304.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民フォーラム",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山本良二",
+        "光宗等",
+        "中原明夫"
+      ],
+      "locator": {
+        "file": "kure_kaihameibo_warp20260304.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党呉市議会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "奥田和夫",
+        "久保東"
+      ],
+      "locator": {
+        "file": "kure_kaihameibo_warp20260304.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "新しい風",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "院去裕",
+        "大畠和浩"
+      ],
+      "locator": {
+        "file": "kure_kaihameibo_warp20260304.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "社民党呉市議団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山上文恵"
+      ],
+      "locator": {
+        "file": "kure_kaihameibo_warp20260304.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第１号",
+    "billName": "令和８年度呉市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "kure_gian-shingikekka-0803.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（掲載日：2025年11月14日更新）— 国立国会図書館 WARP の 2026-03-04 の収集",
+  "resultTitle": "令和8年3月定例会議案及び審議結果"
+}

@@ -1,0 +1,36 @@
+{
+  "sourceId": "hamada-shigikai-r8",
+  "files": [
+    {
+      "filename": "hamada_kaihabetumeibo_r080224.pdf",
+      "sha256": "4a2d4329f6864624228fb767259f3eb9aca7eba6b46a4e87af11351fad0b2841",
+      "bytes": 169112,
+      "fetchedAt": "2026-10-31T17:46:52.065Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260305/20260304160510id_/https://www.city.hamada.shimane.jp/www/gikai/contents/1071000000011/simple/kaihabetumeibo.pdf"
+    },
+    {
+      "filename": "hamada_kaiha_index_warp20260304.html",
+      "sha256": "b78e48f36adcb4f483a99b4cd6fdbb40ef3958978ab077398143595c1df7f768",
+      "bytes": 12176,
+      "fetchedAt": "2026-10-31T17:46:52.066Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260305/20260304174851id_/https://www.city.hamada.shimane.jp/www/gikai/contents/1071000000011/index.html",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "hamada_teisu.html",
+      "sha256": "87544eca3b6205b1cb08c7fe574d0aeb9f20f51bc33768d8b48768de1f556124",
+      "bytes": 12610,
+      "fetchedAt": "2026-10-31T17:46:52.066Z",
+      "fetchedFrom": "https://www.city.hamada.shimane.jp/www/gikai/contents/1071000000012/index.html"
+    },
+    {
+      "filename": "hamada_R0803_giketukekka.pdf",
+      "sha256": "73ba0991b5fb06498a1fc6859b611eb7dccdcd09008dedf2968a10db96725f43",
+      "bytes": 222353,
+      "fetchedAt": "2026-10-31T17:46:52.066Z",
+      "fetchedFrom": "https://www.city.hamada.shimane.jp/www/gikai/contents/1773129575571/simple/R0803_giketukekka.pdf"
+    }
+  ]
+}

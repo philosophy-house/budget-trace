@@ -1,0 +1,132 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fukuyama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:47:00.025Z",
+  "fiscalYear": "R8",
+  "body": "福山市議会",
+  "seats": 38,
+  "asOf": "2025-05-13",
+  "teisu": 38,
+  "factions": [
+    {
+      "name": "水曜会",
+      "seats": 13,
+      "isIndependent": false,
+      "members": [
+        "千葉真一",
+        "橘高行格",
+        "加藤陽一郎",
+        "平川富章",
+        "木村素子",
+        "喜田紘平",
+        "石口智志",
+        "連石武則",
+        "大田祐介",
+        "今岡芳徳",
+        "早川佳行",
+        "小林茂裕",
+        "小川眞和"
+      ],
+      "locator": {
+        "file": "fukuyama_kaihameibo_warp20260304.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "誠友会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "貝原大和",
+        "大村展正",
+        "田口裕司",
+        "小畠崇弘",
+        "能宗正洋",
+        "岡崎正淳",
+        "稲葉誠一郎"
+      ],
+      "locator": {
+        "file": "fukuyama_kaihameibo_warp20260304.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "佐久間裕徳",
+        "野村志津江",
+        "皿谷久美子",
+        "小林聡勇",
+        "宮本宏樹",
+        "奥陽治",
+        "生田政代"
+      ],
+      "locator": {
+        "file": "fukuyama_kaihameibo_warp20260304.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民連合",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山田由美",
+        "清水寛敏",
+        "阿部直文",
+        "小山友康",
+        "池上文夫"
+      ],
+      "locator": {
+        "file": "fukuyama_kaihameibo_warp20260304.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "新政クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "浜本将矢",
+        "宮地毅",
+        "八杉光乗"
+      ],
+      "locator": {
+        "file": "fukuyama_kaihameibo_warp20260304.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "塩沢光江",
+        "三好剛史",
+        "石岡久彌"
+      ],
+      "locator": {
+        "file": "fukuyama_kaihameibo_warp20260304.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第2号",
+    "billName": "令和８年度一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "fukuyama_333483.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "議会内会派名簿（２０２５年（令和７年）５月１３日現在）— 国立国会図書館 WARP の 2026-03-04 の収集（会派名は見出しの画像の alt）",
+  "resultTitle": "令和８年３月定例会 議案の審議結果一覧"
+}
