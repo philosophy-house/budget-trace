@@ -31,7 +31,8 @@ function sh(cmd: string, args: string[], cwd?: string): string {
 function addedEntries(diff: string): string[] {
   const out: string[] = [];
   for (const line of diff.split("\n")) {
-    const m = line.match(/^\+\s+(id|title):\s*"([^"]+)"/);
+    // 年度をまとめた行は id がテンプレート（`kurobe-yosan-gaiyou-${fy.toLowerCase()}`）
+    const m = line.match(/^\+\s+(id|title):\s*["`]([^"`]+)["`]/);
     if (m) out.push(`${m[1]}: ${m[2]}`);
   }
   return out;
@@ -42,6 +43,8 @@ const items: Item[] = [];
 
 sh("git", ["fetch", "origin", "--prune", "-q"]);
 const self = resolve(sh("git", ["rev-parse", "--show-toplevel"]).trim());
+// 自分のブランチの PR・ブランチは照合しない（宣言した draft PR に自分で当たる）
+const selfBranch = sh("git", ["rev-parse", "--abbrev-ref", "HEAD"]).trim();
 
 // 1. open の PR
 type Pr = { number: number; title: string; headRefName: string; isDraft: boolean; state: string };
@@ -50,6 +53,7 @@ const closedHeads = new Set(prsAll.filter((p) => p.state !== "OPEN").map((p) => 
 const openHeads = new Set<string>();
 for (const p of prsAll.filter((p) => p.state === "OPEN")) {
   openHeads.add(p.headRefName);
+  if (p.headRefName === selfBranch) continue;
   const ref = `origin/${p.headRefName}`;
   items.push({
     kind: p.isDraft ? "PR（draft）" : "PR",
@@ -65,7 +69,7 @@ for (const line of sh("git", ["for-each-ref", "refs/remotes/origin", "--format=%
   const [ts, ref, subject] = line.split("\t");
   if (!ref || ref === "origin/main" || ref === "origin" || Number(ts) < since) continue;
   const head = ref.replace(/^origin\//, "");
-  if (openHeads.has(head) || closedHeads.has(head)) continue;
+  if (head === selfBranch || openHeads.has(head) || closedHeads.has(head)) continue;
   if (sh("git", ["rev-list", "-1", `origin/main..${ref}`]).trim() === "") continue;
   items.push({
     kind: "ブランチ（PR なし）",
@@ -109,12 +113,15 @@ for (const it of items) {
     const shown = it.files.slice(0, 8);
     console.log(`    （registry の追加なし）変更: ${shown.join(", ")}${it.files.length > shown.length ? ` …ほか ${it.files.length - shown.length} 件` : ""}`);
   }
-  const hay = [it.label, ...it.entries, ...it.files].join("\n");
-  for (const t of terms) if (hay.includes(t)) hits.push(`「${t}」 ← ${it.kind}: ${it.label}`);
+  // 部分一致なので「saga」が「sagae」（寒河江）にも当たる。当たった行を出して、人が見分けられるようにする
+  for (const t of terms) {
+    const lines = [it.label, ...it.entries, ...it.files].filter((l) => l.includes(t));
+    if (lines.length > 0) hits.push(`「${t}」 ← ${it.kind}: ${it.label}\n      当たった行: ${lines.slice(0, 3).join(" ／ ")}${lines.length > 3 ? ` …ほか ${lines.length - 3} 行` : ""}`);
+  }
 }
 if (terms.length > 0) {
   if (hits.length > 0) {
-    console.log("\n⚠ 別の仕事と重なっています。着手しないか、相手と分担を決めてから進めること:");
+    console.log("\n⚠ 別の仕事と重なっています（部分一致なので、当たった行を見て別の団体への誤爆でないかを確かめる）。重なっていれば着手しないか、相手と分担を決めてから進めること:");
     for (const h of hits) console.log(`  ${h}`);
     process.exit(1);
   }

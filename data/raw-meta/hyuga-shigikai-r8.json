@@ -1,0 +1,29 @@
+{
+  "sourceId": "hyuga-shigikai-r8",
+  "files": [
+    {
+      "filename": "hyuga_02meibo-kaiha_20250825.html",
+      "sha256": "794d7115eb49010c46eef35acc309455fcf3aa765e487e0adcf0f780662e478c",
+      "bytes": 5407,
+      "fetchedAt": "2026-10-31T08:34:30.619Z",
+      "fetchedFrom": "https://web.archive.org/web/20250825225856id_/https://www.hyugacity.jp/shigikai/02meibo-kaiha.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "hyuga_02meibo-kaiha_20260521.html",
+      "sha256": "c3f6c76649a8a353f1a53aa933cb0bda3d8a864f674a23757f3b558f8c0fa271",
+      "bytes": 5410,
+      "fetchedAt": "2026-10-31T08:34:30.620Z",
+      "fetchedFrom": "https://web.archive.org/web/20260521171605id_/https://www.hyugacity.jp/shigikai/02meibo-kaiha.html"
+    },
+    {
+      "filename": "hyuga_r0803t-3.pdf",
+      "sha256": "7132162e97e015cb46ea6cf68358e72a0e8bfff960bf4c86bc6e65a0fc0020aa",
+      "bytes": 108969,
+      "fetchedAt": "2026-10-31T08:34:30.620Z",
+      "fetchedFrom": "https://web.archive.org/web/20260519163622id_/https://www.hyugacity.jp/shigikai/giketsu/r0803t-3.pdf"
+    }
+  ]
+}

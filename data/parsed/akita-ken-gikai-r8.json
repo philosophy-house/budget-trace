@@ -1,0 +1,399 @@
+{
+  "docType": "council-composition",
+  "sourceId": "akita-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:37.523Z",
+  "fiscalYear": "R8",
+  "body": "秋田県議会",
+  "seats": 41,
+  "asOf": "2025-05-14",
+  "teisu": 41,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 27,
+      "isIndependent": false,
+      "members": [
+        "鈴木洋一",
+        "鶴田有司",
+        "川口一",
+        "柴田正敏",
+        "加藤鉱一",
+        "工藤嘉範",
+        "原幸子",
+        "竹下博英",
+        "北林丈正",
+        "髙橋武浩",
+        "今川雄策",
+        "佐藤信喜",
+        "杉本俊比古",
+        "佐々木雄太",
+        "鈴木真実",
+        "小野一彦",
+        "小山緑郎",
+        "児玉政明",
+        "住谷達",
+        "宇佐見康人",
+        "島田薫",
+        "瓜生望",
+        "髙橋豪",
+        "小棚木政之",
+        "武内伸文",
+        "高橋健",
+        "川邉隼之介"
+      ],
+      "locator": {
+        "file": "akita-ken_giin_20260217052011.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "みらい",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "三浦英一",
+        "渡部英治",
+        "三浦茂人",
+        "佐藤正一郎",
+        "山形健二"
+      ],
+      "locator": {
+        "file": "akita-ken_giin_20260217052011.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "石田寛",
+        "小原正晃",
+        "薄井司",
+        "櫻田憂子",
+        "福田博之"
+      ],
+      "locator": {
+        "file": "akita-ken_giin_20260217052011.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "社会民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "加藤麻里"
+      ],
+      "locator": {
+        "file": "akita-ken_giin_20260217052011.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "加賀屋千鶴子"
+      ],
+      "locator": {
+        "file": "akita-ken_giin_20260217052011.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "松田豊臣"
+      ],
+      "locator": {
+        "file": "akita-ken_giin_20260217052011.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "きらり",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "佐藤光子"
+      ],
+      "locator": {
+        "file": "akita-ken_giin_20260217052011.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 45 号",
+    "billName": "令和８年度秋田県一般会計予算",
+    "sessionLabel": "令和８年第１回定例会（２月議会）",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "akita-ken_080319.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議員紹介（会派別一覧・公開日 2025年5月14日）",
+  "resultTitle": "各議員の表決状況（令和８年第１回定例会（２月議会）・令和８年３月１９日議決）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "各議員の表決状況（令和８年第１回定例会（２月議会）・令和８年３月１９日議決）",
+    "sourceFile": "akita-ken_080319.pdf",
+    "columns": [
+      {
+        "label": "鈴木洋一",
+        "faction": "自由民主党",
+        "member": "鈴木洋一",
+        "stance": "賛成"
+      },
+      {
+        "label": "鶴田有司",
+        "faction": "自由民主党",
+        "member": "鶴田有司",
+        "stance": "賛成"
+      },
+      {
+        "label": "川口一",
+        "faction": "自由民主党",
+        "member": "川口一",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴田正敏",
+        "faction": "自由民主党",
+        "member": "柴田正敏",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤鉱一",
+        "faction": "自由民主党",
+        "member": "加藤鉱一",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤嘉範",
+        "faction": "自由民主党",
+        "member": "工藤嘉範",
+        "stance": "議長"
+      },
+      {
+        "label": "原幸子",
+        "faction": "自由民主党",
+        "member": "原幸子",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹下博英",
+        "faction": "自由民主党",
+        "member": "竹下博英",
+        "stance": "賛成"
+      },
+      {
+        "label": "北林丈正",
+        "faction": "自由民主党",
+        "member": "北林丈正",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋武浩",
+        "faction": "自由民主党",
+        "member": "髙橋武浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "今川雄策",
+        "faction": "自由民主党",
+        "member": "今川雄策",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤信喜",
+        "faction": "自由民主党",
+        "member": "佐藤信喜",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉本俊比古",
+        "faction": "自由民主党",
+        "member": "杉本俊比古",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木雄太",
+        "faction": "自由民主党",
+        "member": "佐々木雄太",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木真実",
+        "faction": "自由民主党",
+        "member": "鈴木真実",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野一彦",
+        "faction": "自由民主党",
+        "member": "小野一彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "小山緑郎",
+        "faction": "自由民主党",
+        "member": "小山緑郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "児玉政明",
+        "faction": "自由民主党",
+        "member": "児玉政明",
+        "stance": "賛成"
+      },
+      {
+        "label": "住谷達",
+        "faction": "自由民主党",
+        "member": "住谷達",
+        "stance": "賛成"
+      },
+      {
+        "label": "宇佐見康人",
+        "faction": "自由民主党",
+        "member": "宇佐見康人",
+        "stance": "賛成"
+      },
+      {
+        "label": "島田薫",
+        "faction": "自由民主党",
+        "member": "島田薫",
+        "stance": "賛成"
+      },
+      {
+        "label": "瓜生望",
+        "faction": "自由民主党",
+        "member": "瓜生望",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋豪",
+        "faction": "自由民主党",
+        "member": "髙橋豪",
+        "stance": "賛成"
+      },
+      {
+        "label": "小棚木政之",
+        "faction": "自由民主党",
+        "member": "小棚木政之",
+        "stance": "賛成"
+      },
+      {
+        "label": "武内伸文",
+        "faction": "自由民主党",
+        "member": "武内伸文",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋健",
+        "faction": "自由民主党",
+        "member": "高橋健",
+        "stance": "賛成"
+      },
+      {
+        "label": "川邉隼之介",
+        "faction": "自由民主党",
+        "member": "川邉隼之介",
+        "stance": "賛成"
+      },
+      {
+        "label": "三浦英一",
+        "faction": "みらい",
+        "member": "三浦英一",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡部英治",
+        "faction": "みらい",
+        "member": "渡部英治",
+        "stance": "賛成"
+      },
+      {
+        "label": "三浦茂人",
+        "faction": "みらい",
+        "member": "三浦茂人",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤正一郎",
+        "faction": "みらい",
+        "member": "佐藤正一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "山形健二",
+        "faction": "みらい",
+        "member": "山形健二",
+        "stance": "賛成"
+      },
+      {
+        "label": "石田寛",
+        "faction": "立憲民主党",
+        "member": "石田寛",
+        "stance": "賛成"
+      },
+      {
+        "label": "小原正晃",
+        "faction": "立憲民主党",
+        "member": "小原正晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "薄井司",
+        "faction": "立憲民主党",
+        "member": "薄井司",
+        "stance": "賛成"
+      },
+      {
+        "label": "櫻田憂子",
+        "faction": "立憲民主党",
+        "member": "櫻田憂子",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田博之",
+        "faction": "立憲民主党",
+        "member": "福田博之",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤麻里",
+        "faction": "社会民主党",
+        "member": "加藤麻里",
+        "stance": "賛成"
+      },
+      {
+        "label": "加賀屋千鶴子",
+        "faction": "日本共産党",
+        "member": "加賀屋千鶴子",
+        "stance": "反対"
+      },
+      {
+        "label": "松田豊臣",
+        "faction": "公明党",
+        "member": "松田豊臣",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤光子",
+        "faction": "きらり",
+        "member": "佐藤光子",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "saga-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "giin-ichiran_20250707.html",
+      "sha256": "9dbfc053d10ba9e07725c8324710373b34751568f6cd26aab0863631af0e9140",
+      "bytes": 45971,
+      "fetchedAt": "2026-10-31T08:34:30.594Z",
+      "fetchedFrom": "https://web.archive.org/web/20250707064621id_/https://www.pref.saga.lg.jp/gikai/kiji00366725/index.html"
+    },
+    {
+      "filename": "kiji003117512.html",
+      "sha256": "83df1546dcd45b8719857707633891ddf96e8bac20c5974661ddf6a5323a5e7f",
+      "bytes": 62059,
+      "fetchedAt": "2026-10-31T08:34:30.594Z",
+      "fetchedFrom": "https://www.pref.saga.lg.jp/gikai/kiji003117512/index.html"
+    },
+    {
+      "filename": "3_117512_384646_up_w21vhyt5.pdf",
+      "sha256": "6e9c4360f27a29bb466d6306293d94fc7dddd38a74c465aafd0636f9f5df0fb3",
+      "bytes": 297755,
+      "fetchedAt": "2026-10-31T08:34:30.596Z",
+      "fetchedFrom": "https://www.pref.saga.lg.jp/gikai/kiji003117512/3_117512_384646_up_w21vhyt5.pdf"
+    }
+  ]
+}

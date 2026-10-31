@@ -1,0 +1,36 @@
+{
+  "sourceId": "daisen-shigikai-r8",
+  "files": [
+    {
+      "filename": "daisen_kaiha_r071023.pdf",
+      "sha256": "fbfee169613cc48d0920526bb3743b8ee623ef2109c1fa856344e16153e6a513",
+      "bytes": 58692,
+      "fetchedAt": "2026-10-31T08:34:30.627Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000319_01/%E4%BC%9A%E6%B4%BE%E5%88%A5%E5%90%8D%E7%B0%BF.pdf"
+    },
+    {
+      "filename": "daisen_giketsu_r08.pdf",
+      "sha256": "6103935b0690b3c3c9853a9d69ac4bde4d8ae6e8a21dbfcbc13d8866240a3983",
+      "bytes": 305024,
+      "fetchedAt": "2026-10-31T08:34:30.629Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000301_01/%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%E4%B8%80%E8%A6%A7%EF%BC%88R08%EF%BC%89.pdf"
+    },
+    {
+      "filename": "daisen_sanpi_r08.pdf",
+      "sha256": "726ee533c826514b7cb45aef21af5147d83b571c514042d73c4a3d35d5fb0854",
+      "bytes": 186253,
+      "fetchedAt": "2026-10-31T08:34:30.629Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000301_01/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4_%E8%AD%B0%E6%A1%88%E3%81%AE%E8%B3%9B%E5%90%A6%E4%B8%80%E8%A6%A7.pdf"
+    },
+    {
+      "filename": "daisen_contents-11105.html",
+      "sha256": "0e6b01de897813db94e4500b76808eac11d9994ce293dc29cf79dacb0102f011",
+      "bytes": 144536,
+      "fetchedAt": "2026-10-31T08:34:30.629Z",
+      "fetchedFrom": "https://www.city.daisen.lg.jp/archive/contents-11105",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

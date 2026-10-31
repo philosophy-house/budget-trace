@@ -1,0 +1,245 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nichinan-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:33:36.796Z",
+  "fiscalYear": "R8",
+  "body": "日南市議会",
+  "seats": 19,
+  "asOf": "2025-04-22",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "自民党令和の会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "富土洋一",
+        "小玉弘明",
+        "平剛典",
+        "中尾貞美",
+        "濱中武紀",
+        "北川浩一郎",
+        "杉尾麻起子",
+        "影山逸郎"
+      ],
+      "locator": {
+        "file": "nichinan_kaiha-meibo-r7-4-22-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党日南市議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "鈴村かずえ",
+        "安竹博",
+        "山田一",
+        "谷口慎二"
+      ],
+      "locator": {
+        "file": "nichinan_kaiha-meibo-r7-4-22-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "立憲民主の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "北山みゆき",
+        "川口和也"
+      ],
+      "locator": {
+        "file": "nichinan_kaiha-meibo-r7-4-22-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党日南市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "前田幸雄",
+        "黒部俊泰"
+      ],
+      "locator": {
+        "file": "nichinan_kaiha-meibo-r7-4-22-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（坂元啓一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "坂元啓一"
+      ],
+      "locator": {
+        "file": "nichinan_kaiha-meibo-r7-4-22-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（柿原聡子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "柿原聡子"
+      ],
+      "locator": {
+        "file": "nichinan_kaiha-meibo-r7-4-22-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（井福秀子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "井福秀子"
+      ],
+      "locator": {
+        "file": "nichinan_kaiha-meibo-r7-4-22-2.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案 18",
+    "billName": "令和８年度日南市一般会計予算",
+    "sessionLabel": "令和８年第２回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "nichinan_R8-2_giketsu-kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "日南市議会 会派名簿（R7.4.22 現在）",
+  "resultTitle": "令和８年第２回定例会 議決結果（R8.3.24）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "にちなん議会だより第69号 p.17「採決結果一覧」（令和８年第２回定例会）",
+    "sourceFile": "nichinan_gikaidayori_69.pdf",
+    "columns": [
+      {
+        "label": "北山みゆき",
+        "faction": "立憲民主の会",
+        "member": "北山みゆき",
+        "stance": "賛成"
+      },
+      {
+        "label": "影山逸郎",
+        "faction": "自民党令和の会",
+        "member": "影山逸郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "平剛典",
+        "faction": "自民党令和の会",
+        "member": "平剛典",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴村かずえ",
+        "faction": "自由民主党日南市議団",
+        "member": "鈴村かずえ",
+        "stance": "賛成"
+      },
+      {
+        "label": "柿原聡子",
+        "faction": "無会派（柿原聡子）",
+        "member": "柿原聡子",
+        "stance": "反対"
+      },
+      {
+        "label": "富土洋一",
+        "faction": "自民党令和の会",
+        "member": "富土洋一",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉尾麻起子",
+        "faction": "自民党令和の会",
+        "member": "杉尾麻起子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小玉弘明",
+        "faction": "自民党令和の会",
+        "member": "小玉弘明",
+        "stance": "賛成"
+      },
+      {
+        "label": "北川浩一郎",
+        "faction": "自民党令和の会",
+        "member": "北川浩一郎",
+        "stance": "議長"
+      },
+      {
+        "label": "谷口慎二",
+        "faction": "自由民主党日南市議団",
+        "member": "谷口慎二",
+        "stance": "賛成"
+      },
+      {
+        "label": "黒部俊泰",
+        "faction": "公明党日南市議団",
+        "member": "黒部俊泰",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田一",
+        "faction": "自由民主党日南市議団",
+        "member": "山田一",
+        "stance": "賛成"
+      },
+      {
+        "label": "川口和也",
+        "faction": "立憲民主の会",
+        "member": "川口和也",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田幸雄",
+        "faction": "公明党日南市議団",
+        "member": "前田幸雄",
+        "stance": "欠席"
+      },
+      {
+        "label": "濱中武紀",
+        "faction": "自民党令和の会",
+        "member": "濱中武紀",
+        "stance": "退席"
+      },
+      {
+        "label": "坂元啓一",
+        "faction": "無会派（坂元啓一）",
+        "member": "坂元啓一",
+        "stance": "賛成"
+      },
+      {
+        "label": "安竹博",
+        "faction": "自由民主党日南市議団",
+        "member": "安竹博",
+        "stance": "賛成"
+      },
+      {
+        "label": "中尾貞美",
+        "faction": "自民党令和の会",
+        "member": "中尾貞美",
+        "stance": "反対"
+      },
+      {
+        "label": "井福秀子",
+        "faction": "無会派（井福秀子）",
+        "member": "井福秀子",
+        "stance": "反対"
+      }
+    ]
+  }
+}

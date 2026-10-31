@@ -1,0 +1,33 @@
+{
+  "sourceId": "shikokuchuo-shigikai-r8",
+  "files": [
+    {
+      "filename": "2716_20260213.html",
+      "sha256": "2ac582d49f3515d7c8de5f8410b99b18936603646980dbb52d2a196f62670b92",
+      "bytes": 30734,
+      "fetchedAt": "2026-10-31T08:34:30.583Z",
+      "fetchedFrom": "https://web.archive.org/web/20260213165249id_/https://www.city.shikokuchuo.ehime.jp/site/gikai/2716.html"
+    },
+    {
+      "filename": "32449.pdf",
+      "sha256": "257427ecf705087abb0be019ff8fe8c03bef9078a8838dedaed343d6f9fe8a6c",
+      "bytes": 14015734,
+      "fetchedAt": "2026-10-31T08:34:30.592Z",
+      "fetchedFrom": "https://www.city.shikokuchuo.ehime.jp/uploaded/attachment/32449.pdf"
+    },
+    {
+      "filename": "49754_20260314.html",
+      "sha256": "d08da348ee30823435b15e2a1575232c813428b8722686f6e17a72ba7d940fb4",
+      "bytes": 30911,
+      "fetchedAt": "2026-10-31T08:34:30.593Z",
+      "fetchedFrom": "https://web.archive.org/web/20260314224055id_/https://www.city.shikokuchuo.ehime.jp/site/gikai/49754.html"
+    },
+    {
+      "filename": "2814.html",
+      "sha256": "6f2822fe7888d02a2933ae7fcc7cec5d0dcd2877c0e5f0e9aa76278554219094",
+      "bytes": 28853,
+      "fetchedAt": "2026-10-31T08:34:30.593Z",
+      "fetchedFrom": "https://www.city.shikokuchuo.ehime.jp/site/gikai/2814.html"
+    }
+  ]
+}

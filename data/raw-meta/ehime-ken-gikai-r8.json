@@ -1,0 +1,33 @@
+{
+  "sourceId": "ehime-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "ehime_12721.html",
+      "sha256": "d5d1849563be01982b5febe59b04995f4febe4ed48e31560decce1adec263d83",
+      "bytes": 22538,
+      "fetchedAt": "2026-10-31T08:34:30.576Z",
+      "fetchedFrom": "https://web.archive.org/web/20260317150134id_/https://www.pref.ehime.jp/site/gikai/12721.html"
+    },
+    {
+      "filename": "ehime_135186.html",
+      "sha256": "b4a43e027b1e323de473b9d7dbad179e53d48a517e41c9ea4b35f4e05f85193d",
+      "bytes": 47660,
+      "fetchedAt": "2026-10-31T08:34:30.576Z",
+      "fetchedFrom": "https://www.pref.ehime.jp/site/gikai/135186.html"
+    },
+    {
+      "filename": "ehime_174305.pdf",
+      "sha256": "1fd523a42c0a56565cac8ca877204bd09d4d0560f1bba083c36b974bc1db7d9d",
+      "bytes": 521066,
+      "fetchedAt": "2026-10-31T08:34:30.577Z",
+      "fetchedFrom": "https://www.pref.ehime.jp/uploaded/attachment/174305.pdf"
+    },
+    {
+      "filename": "ehime_12716.html",
+      "sha256": "2e1c307e533a4dc1559637d24dae1c4075e36508a0b5fd20293b5996389deccf",
+      "bytes": 32164,
+      "fetchedAt": "2026-10-31T08:34:30.577Z",
+      "fetchedFrom": "https://web.archive.org/web/20260316060908id_/https://www.pref.ehime.jp/site/gikai/12716.html"
+    }
+  ]
+}

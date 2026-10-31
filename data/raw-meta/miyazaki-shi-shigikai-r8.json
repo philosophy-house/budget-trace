@@ -1,0 +1,33 @@
+{
+  "sourceId": "miyazaki-shi-shigikai-r8",
+  "files": [
+    {
+      "filename": "miyazaki-shi_wb20260126161334_kaiha_R8.1.26.pdf",
+      "sha256": "568d510a0c29503b68c0518dccb579af14e709be003e9cd4a651fd3aca24c872",
+      "bytes": 53390,
+      "fetchedAt": "2026-10-31T08:34:30.610Z",
+      "fetchedFrom": "https://web.archive.org/web/20260126161334id_/https://www.city.miyazaki.miyazaki.jp/fs/8/7/0/8/3/5/_/______R8.1.26___.pdf"
+    },
+    {
+      "filename": "miyazaki-shi_wb20260207014225_300459.html",
+      "sha256": "fbb3d1cea93f43b144755837446eaccbc393c5f21798254331ada2e23ad09522",
+      "bytes": 19248,
+      "fetchedAt": "2026-10-31T08:34:30.610Z",
+      "fetchedFrom": "https://web.archive.org/web/20260207014225id_/https://www.city.miyazaki.miyazaki.jp/parliament/list/300459.html"
+    },
+    {
+      "filename": "miyazaki-shi_wb20260309150057_300461.html",
+      "sha256": "4b628e364c928b3e5006c728e78734de609d24c5bbebc2aef09a2735cc40084c",
+      "bytes": 20114,
+      "fetchedAt": "2026-10-31T08:34:30.610Z",
+      "fetchedFrom": "https://web.archive.org/web/20260309150057id_/https://www.city.miyazaki.miyazaki.jp/parliament/list/300461.html"
+    },
+    {
+      "filename": "miyazaki-shi_408938.html",
+      "sha256": "86431c3612e9fb71657c29ca1689b96c81ea28cd2b8bc8442a26b0499ee1c451",
+      "bytes": 39015,
+      "fetchedAt": "2026-10-31T08:34:30.611Z",
+      "fetchedFrom": "https://www.city.miyazaki.miyazaki.jp/parliament/result/408938.html"
+    }
+  ]
+}
