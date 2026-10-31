@@ -587,26 +587,37 @@ function legendPairOk(texts: string[], k: string, v: string, keys: string[]): bo
   // 全体の1本で書いたとき、記号の意味を同じ文の別の語に書き換えても通った（中津「欠：棄権」・大分県「議：不参加」＝0.8.21・
   // 長崎〜大分の巡の作業者が実測）
   const hanKey = /^\p{Script=Han}+$/u.test(kn);
+  const otherKeys = keys.map((x) => legendNorm(x, [])).filter((x) => x !== kn && x.length > 0);
   for (const t of texts.map((x) => legendNorm(x, keys))) {
     for (let i = t.indexOf(kn); i >= 0; i = t.indexOf(kn, i + 1)) {
       // 見るのは直後の字だけ（norm が空白を詰めるので、直前は前の項の語「反対欠：欠席」とつながる）。記号が続けて2度出る
       // 「議 議長」（三鷹）は前の方を記号として読む
       const next = t.slice(i + kn.length);
-      // 記号がその意味の語そのものの頭なら読む（栃木市は議長の列のセルが「議長のため採決に加わらない」で、記号は頭の「議」）
       if (hanKey && /^\p{Script=Han}/u.test(next) && !next.startsWith(kn)) {
-        if (own.some((w) => t.startsWith(w, i))) return true;
+        // 例外は議長の注記だけ: 栃木市は議長の列のセルが「議長のため採決に加わらない」で、記号はその頭の「議」。意味の語の頭なら
+        // 何でも読むと「欠：欠席」が、原文で欠が退席の記号でも「欠席」の語さえあれば通った（レビュー1巡目）
+        if (v === "議長" && /^議長(のため|は)?(採決|表決|裁決|議決)に加わら/.test(t.slice(i))) return true;
         continue;
       }
       const after = t.slice(i + kn.length);
       const before = t.slice(0, i);
-      const fwd = /^[:：＝=…・.は→⇒]+/.exec(after);
+      const fwd = /^[:：;；＝=…・.は→⇒]+/.exec(after);
       let word: string | undefined;
       if (fwd) word = firstIn(after.slice(fwd[0].length, fwd[0].length + 10))?.w;
       // 語が先に来る書き方（「賛成＝○」「賛成者は○」「賛成・・・○」新宿）は前の語
-      else if (/[＝=は・….:：]$/.test(before)) word = lastIn(before.replace(/[＝=は・….:：]+$/, "").replace(/者$/, "").slice(-10))?.w;
+      else if (/[＝=は・….:：;；]$/.test(before)) word = lastIn(before.replace(/[＝=は・….:：;；]+$/, "").replace(/者$/, "").slice(-10))?.w;
       else {
-        const f = firstIn(after.slice(0, 12));
-        const b = lastIn(before.slice(-12));
+        // 近い方の語は、記号との間に項の区切り（、。；）や別の記号を挟まないものだけ。挟んだ語は前（後）の項の意味で、
+        // 記号の直後で切った原典の切れ端（「棄権－、欠」＝原典は「…棄権－、欠席は欠で…」、「議場に不在、「議」」「「○」：賛成、「×」」）を
+        // legendText に足すと、記号が前の項の意味を指すことになり、書き換えが通った（0.8.21 のレビュー1巡目）
+        // 文の凡例（「議長は採決に加わらないため、「採決に加わらず」」旭川・「戎脇浩議員は、議長のため…」甲賀）は語と記号の間に「、」を
+        // 挟むが字もある。落とすのは間が記号と区切りだけの形（前の項の語が「棄権－、」「不在、」のまま記号に隣り合う形）
+        const crosses = (between: string) =>
+          (/[、，,。]/.test(between) && !/[\p{L}\p{N}]/u.test(between.replace(/[、，,。]/g, ""))) || otherKeys.some((o) => between.includes(o));
+        let f: { w: string; d: number } | undefined = firstIn(after.slice(0, 12));
+        let b: { w: string; d: number } | undefined = lastIn(before.slice(-12));
+        if (f && crosses(after.slice(0, f.d))) f = undefined;
+        if (b && crosses(before.slice(before.length - b.d))) b = undefined;
         word = !f ? b?.w : !b ? f.w : f.d <= b.d ? f.w : b.w;
       }
       if (word && own.includes(word)) return true;
