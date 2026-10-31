@@ -49,6 +49,7 @@ bun run pipeline:normalize <sourceId> [--force] # parsed → normalized（比較
 bun run pipeline:fixture                        # e2e 検証用フィクスチャ生成
 bun run pipeline:derive                         # normalized → アプリ用生成モジュール（*.gen.ts）＋ public/ の静的 JSON
 bun run pipeline:archive [sourceId] [--force]   # Wayback Machine へ登録（魚拓台帳 data/archives.json）
+bun run pipeline:inflight [語...]               # 別セッションの仕掛かり（PR・ブランチ・他ワークツリー）と照合。当たれば exit 1
 ```
 
 - テストランナーは未導入。サーバー層を導入するときに Vitest + Testcontainers を [docs/architecture.md](docs/architecture.md) の方針で入れる。
@@ -122,6 +123,7 @@ bun run pipeline:archive [sourceId] [--force]   # Wayback Machine へ登録（�
 - **発見** — `source-scout` サブエージェント（`.claude/agents/source-scout.md`）。「○○市の款別＋前年当初比較 PDF はどこか」を調べ、直リンク・物理ページ・見出し語・ライセンス原文・`parserOptions` の見込みまで報告する。**registry・data は書き換えない**。複数自治体は1体ずつ**並列**で起動する。
 - **収録** — `/ingest-source` スキル（`.claude/skills/ingest-source/SKILL.md`）。registry 登録 → fetch → parse → validate → archive → derive → アプリ配線（`BUDGET_SOURCES`・`MUNI_SLUGS`）→ レビュー → docs 追記を通す。
 - **レビュー** — `ingest-reviewer` サブエージェント（`.claude/agents/ingest-reviewer.md`）。収録 PR の前に、検証ゲートが守らない領域（款名の全件目視・表示専用項目・団体コード同一性・ライセンス振替・画面目視）を検査して所見を報告する。**ファイルは書き換えない**。**frontmatter でモデルを Opus（Opus 5.5）に固定してある**ので、収録をより軽いモデルのセッションで進めても、レビューだけは常に Opus 5.5 が担う（2026-10-22 に Fable 5 固定から変更）。
+- **別セッションと同じ仕事をしない** — 並列セッションで回しているので、**どの仕事も着手する前に `bun run pipeline:inflight <県名・団体名・スラグ…>` で照合し**（open/draft PR・PR の無いブランチ・他のワークツリーのコミット前の変更まで見る。当たれば exit 1）、**着手したらすぐ対象をタイトルに書いた draft PR で宣言する**（偵察だけの段階でも）。手順は [loop.md](loop.md) §1.5（2026-10-31）。
 - **自律運転** — [loop.md](loop.md)。`/loop loop.md に従って次の1巡を進める` で、上の3つを**1巡＝1 PR**の単位で人が居ない間に回すときの手順書（仕事の選び方・マージ条件・止まる条件）。**知識は持たせない**（正は docs）— 順番・境界・止まり方だけを書く。
 
 # アーキテクチャ規約

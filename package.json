@@ -18,7 +18,8 @@
     "pipeline:normalize": "bun pipeline/normalize.ts",
     "pipeline:fixture": "bun pipeline/dev/make-fixture.ts",
     "pipeline:derive": "bun pipeline/derive-app-data.ts",
-    "pipeline:archive": "bun pipeline/archive.ts"
+    "pipeline:archive": "bun pipeline/archive.ts",
+    "pipeline:inflight": "bun pipeline/inflight.ts"
   },
   "dependencies": {
     "next": "^16.2.12",
