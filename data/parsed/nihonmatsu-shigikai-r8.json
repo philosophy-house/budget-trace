@@ -1,0 +1,254 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nihonmatsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:15:26.931Z",
+  "fiscalYear": "R8",
+  "body": "二本松市議会",
+  "seats": 22,
+  "asOf": "2025-12-01",
+  "factions": [
+    {
+      "name": "真誠会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "佐藤有",
+        "堀籠新一",
+        "佐久間好夫",
+        "高宮正彦",
+        "坂本和広",
+        "鈴木雅之"
+      ],
+      "locator": {
+        "file": "1833_20260512.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "みらいの風",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "鈴木一弘",
+        "佐藤源市",
+        "斎藤徹",
+        "武藤清志",
+        "佐藤運喜"
+      ],
+      "locator": {
+        "file": "1833_20260512.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党二本松市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "斎藤広二",
+        "菅野明",
+        "平敏子"
+      ],
+      "locator": {
+        "file": "1833_20260512.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "熊田義春",
+        "安齋政保",
+        "小野利美"
+      ],
+      "locator": {
+        "file": "1833_20260512.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "令和創生の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "本多俊昭",
+        "小林均"
+      ],
+      "locator": {
+        "file": "1833_20260512.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に属さない議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "本多勝実",
+        "加藤建也",
+        "三木剛"
+      ],
+      "locator": {
+        "file": "1833_20260512.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第21号",
+    "billName": "令和８年度二本松市一般会計予算",
+    "sessionLabel": "令和８年第２回（３月）定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1774498707.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "二本松市議会議員名簿（会派別）（ページの日付 2025年12月1日・2026-05-12 の魚拓）",
+  "resultTitle": "令和８年第２回（３月）定例会採決結果一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第２回（３月）定例会採決結果一覧（全会一致以外の案件）",
+    "sourceFile": "1774498707.pdf",
+    "columns": [
+      {
+        "label": "佐藤有",
+        "faction": "真誠会",
+        "member": "佐藤有",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀籠新一",
+        "faction": "真誠会",
+        "member": "堀籠新一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐久間好夫",
+        "faction": "真誠会",
+        "member": "佐久間好夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "高宮正彦",
+        "faction": "真誠会",
+        "member": "高宮正彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂本和広",
+        "faction": "真誠会",
+        "member": "坂本和広",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木雅之",
+        "faction": "真誠会",
+        "member": "鈴木雅之",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木一弘",
+        "faction": "みらいの風",
+        "member": "鈴木一弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤源市",
+        "faction": "みらいの風",
+        "member": "佐藤源市",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤徹",
+        "faction": "みらいの風",
+        "member": "斎藤徹",
+        "stance": "賛成"
+      },
+      {
+        "label": "武藤清志",
+        "faction": "みらいの風",
+        "member": "武藤清志",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤運喜",
+        "faction": "みらいの風",
+        "member": "佐藤運喜",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤広二",
+        "faction": "日本共産党二本松市議団",
+        "member": "斎藤広二",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅野明",
+        "faction": "日本共産党二本松市議団",
+        "member": "菅野明",
+        "stance": "賛成"
+      },
+      {
+        "label": "平敏子",
+        "faction": "日本共産党二本松市議団",
+        "member": "平敏子",
+        "stance": "賛成"
+      },
+      {
+        "label": "熊田義春",
+        "faction": "市政会",
+        "member": "熊田義春",
+        "stance": "欠席"
+      },
+      {
+        "label": "安齋政保",
+        "faction": "市政会",
+        "member": "安齋政保",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野利美",
+        "faction": "市政会",
+        "member": "小野利美",
+        "stance": "賛成"
+      },
+      {
+        "label": "本多俊昭",
+        "faction": "令和創生の会",
+        "member": "本多俊昭",
+        "stance": "反対"
+      },
+      {
+        "label": "小林均",
+        "faction": "令和創生の会",
+        "member": "小林均",
+        "stance": "反対"
+      },
+      {
+        "label": "加藤建也",
+        "faction": "会派に属さない議員",
+        "member": "加藤建也",
+        "stance": "賛成"
+      },
+      {
+        "label": "三木剛",
+        "faction": "会派に属さない議員",
+        "member": "三木剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "本多勝実",
+        "faction": "会派に属さない議員",
+        "member": "本多勝実",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "fukushima-date-shigikai-r8",
+  "files": [
+    {
+      "filename": "date_72375_20251022.html",
+      "sha256": "b28d1a9c1d62d4057d3930b65f49af085b7a073291935eeed16663afaafcc5f7",
+      "bytes": 34623,
+      "fetchedAt": "2026-10-31T03:14:30.418Z",
+      "fetchedFrom": "https://web.archive.org/web/20251022214724id_/https://www.city.fukushima-date.lg.jp/site/gikai/72375.html"
+    },
+    {
+      "filename": "date_74700.pdf",
+      "sha256": "ed56e26e99704d445a46327323653e6c1b0613c3c45e3794ee670278ec9f4a86",
+      "bytes": 420137,
+      "fetchedAt": "2026-10-31T03:14:30.419Z",
+      "fetchedFrom": "https://www.city.fukushima-date.lg.jp/uploaded/attachment/74700.pdf"
+    },
+    {
+      "filename": "date_84583.html",
+      "sha256": "94b267d1afbd869200f3377c1f298e1e7075d84618081387a9ffb3cde04871b0",
+      "bytes": 52687,
+      "fetchedAt": "2026-10-31T03:14:30.419Z",
+      "fetchedFrom": "https://www.city.fukushima-date.lg.jp/site/gikai/84583.html"
+    }
+  ]
+}

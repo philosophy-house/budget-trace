@@ -1,0 +1,147 @@
+{
+  "docType": "council-composition",
+  "sourceId": "minamisoma-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:13.117Z",
+  "fiscalYear": "R8",
+  "body": "南相馬市議会",
+  "seats": 21,
+  "asOf": "2026-01-16",
+  "factions": [
+    {
+      "name": "尚友会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "田中一正",
+        "太田淳一",
+        "平田武",
+        "細田廣",
+        "今村裕",
+        "山田雅彦",
+        "大岩常男"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "改革クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "渡部一夫",
+        "小川尚一",
+        "竹野光雄",
+        "鈴木貞正",
+        "田中京子"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "志政会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岡﨑義典",
+        "鈴木昌一"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "誠心会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "菊地洋一",
+        "中川庄一"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派（大場裕朗）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大場裕朗"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無会派（表信司）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "表信司"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派（郡俊彦）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "郡俊彦"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無会派（公明党南相馬市議団）（志賀稔宗）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "志賀稔宗"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "無会派（渡部寬一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "渡部寬一"
+      ],
+      "locator": {
+        "file": "minamisoma_971_20260307.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "20",
+    "billName": "令和８年度南相馬市一般会計予算について",
+    "sessionLabel": "令和8年第1回（3月）定例会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "原案可決",
+    "locator": {
+      "file": "minamisoma_kextuka_march_r1.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派構成（更新日 2026年01月16日・議決前の魚拓）",
+  "resultTitle": "令和８年３月４日招集 第１回定例会 議案等処理結果一覧表"
+}

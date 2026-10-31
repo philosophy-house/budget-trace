@@ -1,0 +1,50 @@
+{
+  "sourceId": "kashihara-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihameibo20260225.pdf",
+      "sha256": "935f53254c7818437a06fa3459c07a0de34534a0d0a61a25a34f8464ef580cfc",
+      "bytes": 90611,
+      "fetchedAt": "2026-10-31T03:14:30.443Z",
+      "fetchedFrom": "https://www.city.kashihara.nara.jp/material/files/group/5/kaihameibo20260225.pdf"
+    },
+    {
+      "filename": "10340.html",
+      "sha256": "2b761d39415647c4676be7862d88c568bc54fef22221064f97809a65445089e7",
+      "bytes": 75756,
+      "fetchedAt": "2026-10-31T03:14:30.443Z",
+      "fetchedFrom": "https://www.city.kashihara.nara.jp/shiseijoho/gikai/2/10340.html"
+    },
+    {
+      "filename": "teireikaikekka202603-2.pdf",
+      "sha256": "4c8813e5b478bffabbd1a820d3edd507edef0c76ffc33a2a21fbaa20bb55dee2",
+      "bytes": 221734,
+      "fetchedAt": "2026-10-31T03:14:30.444Z",
+      "fetchedFrom": "https://www.city.kashihara.nara.jp/material/files/group/5/teireikaikekka202603-2.pdf"
+    },
+    {
+      "filename": "mokuji_2026-r08-03t-mok.html",
+      "sha256": "0b35da1862485c8de7cf7e02519a0658ca57ff08a4517188e6c2fd38fc0ec3e2",
+      "bytes": 35155,
+      "fetchedAt": "2026-10-31T03:14:30.444Z",
+      "fetchedFrom": "https://www.city.kashihara.nara.dbsr.jp/index.php/?Template=mokuji_2026-r08-03t-mok",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "sigikainoima237.pdf",
+      "sha256": "6e1e3efba4597aa89cbb033ef29fc1407fbe944633e6d69149c99575046b11fe",
+      "bytes": 7641061,
+      "fetchedAt": "2026-10-31T03:14:30.450Z",
+      "fetchedFrom": "https://www.city.kashihara.nara.jp/material/files/group/5/sigikainoima237.pdf"
+    },
+    {
+      "filename": "10250.html",
+      "sha256": "9b35aefb1f60873421bb55daabe748e177263a493506fdef6f8827948a6e81d9",
+      "bytes": 80883,
+      "fetchedAt": "2026-10-31T03:14:30.452Z",
+      "fetchedFrom": "https://www.city.kashihara.nara.jp/shiseijoho/gikai/1/10250.html"
+    }
+  ]
+}

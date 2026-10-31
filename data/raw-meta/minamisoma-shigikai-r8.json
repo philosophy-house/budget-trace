@@ -1,0 +1,33 @@
+{
+  "sourceId": "minamisoma-shigikai-r8",
+  "files": [
+    {
+      "filename": "minamisoma_971_20260307.html",
+      "sha256": "c57f15722bc7f2de4b6c183fedb686243105a84955cd65a37200f13c699ec4d0",
+      "bytes": 85976,
+      "fetchedAt": "2026-10-31T03:14:30.412Z",
+      "fetchedFrom": "https://web.archive.org/web/20260307114818id_/https://www.city.minamisoma.lg.jp/portal/sections/70/7010/70101/971.html"
+    },
+    {
+      "filename": "minamisoma_30016.html",
+      "sha256": "f9a5691fb52555a6d31e61e52d6e90d202138502eaddaaf54f5b6c043ad1c6a8",
+      "bytes": 79201,
+      "fetchedAt": "2026-10-31T03:14:30.413Z",
+      "fetchedFrom": "https://www.city.minamisoma.lg.jp/portal/admin/shigikai/30016.html"
+    },
+    {
+      "filename": "minamisoma_kextuka_march_r1.pdf",
+      "sha256": "df4bdb288620b75f0843d466159812051311ae3c257f83b07bd121f86fe21226",
+      "bytes": 197476,
+      "fetchedAt": "2026-10-31T03:14:30.414Z",
+      "fetchedFrom": "https://www.city.minamisoma.lg.jp/material/files/group/45/kextuka_march_r1.pdf"
+    },
+    {
+      "filename": "minamisoma_30370.html",
+      "sha256": "64f57208fa164b89effc0784f6e79c5cd31105416e696db2f38ee1ffc8ff8db9",
+      "bytes": 80674,
+      "fetchedAt": "2026-10-31T03:14:30.414Z",
+      "fetchedFrom": "https://www.city.minamisoma.lg.jp/portal/admin/shigikai/1/r8_1/30370.html"
+    }
+  ]
+}

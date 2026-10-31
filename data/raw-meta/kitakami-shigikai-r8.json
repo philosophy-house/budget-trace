@@ -1,0 +1,33 @@
+{
+  "sourceId": "kitakami-shigikai-r8",
+  "files": [
+    {
+      "filename": "kitakami_gikaidayori141gou.pdf",
+      "sha256": "865f90940e13c5fb0a8e832fc6ad239f097ab76caa4328eea3153028ce5a1eab",
+      "bytes": 7010333,
+      "fetchedAt": "2026-10-31T03:14:30.425Z",
+      "fetchedFrom": "https://www.city.kitakami.iwate.jp/material/files/group/29/gikaidayori141gou.pdf"
+    },
+    {
+      "filename": "kitakami_29272.html",
+      "sha256": "4d907542cfaccf60592e9040a583913787c9deaff014a10115083c4a1f460b53",
+      "bytes": 76409,
+      "fetchedAt": "2026-10-31T03:14:30.427Z",
+      "fetchedFrom": "https://www.city.kitakami.iwate.jp/life/kitakamishigikai/gikainittei_shingikekka/gianoyobishingikekka/29272.html"
+    },
+    {
+      "filename": "kitakami_9266.html",
+      "sha256": "ea0498ccf053300540ddf93bdcd68e2d567a923cfe01d1d07a26d3cf57e5ca88",
+      "bytes": 48511,
+      "fetchedAt": "2026-10-31T03:14:30.428Z",
+      "fetchedFrom": "https://www.city.kitakami.iwate.jp/life/kitakamishigikai/gikainoaramashi/gikainosikumi/9266.html"
+    },
+    {
+      "filename": "kitakami_16726.html",
+      "sha256": "810465fbd6ea4618cfeb512a1778b8e24d7d52b24364a98b91ce631b106e7b6d",
+      "bytes": 53391,
+      "fetchedAt": "2026-10-31T03:14:30.429Z",
+      "fetchedFrom": "https://www.city.kitakami.iwate.jp/life/kitakamishigikai/giinnoshokai/16726.html"
+    }
+  ]
+}

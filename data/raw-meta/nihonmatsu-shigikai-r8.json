@@ -1,0 +1,26 @@
+{
+  "sourceId": "nihonmatsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "1833_20260512.html",
+      "sha256": "a200d722fcfdbcd9333345ee98e2ccc63b7b74a640f20030868ebfb495ae59b0",
+      "bytes": 11292,
+      "fetchedAt": "2026-10-31T03:15:25.981Z",
+      "fetchedFrom": "https://web.archive.org/web/20260512213035id_/https://www.city.nihonmatsu.lg.jp/gikai/meibo/kaiha_meibo/page001833.html"
+    },
+    {
+      "filename": "1774498707.pdf",
+      "sha256": "0f8e9501eed14a80a1831b36e8e055ba4aa22a22a349cae7e6785ec29bae2f53",
+      "bytes": 195468,
+      "fetchedAt": "2026-10-31T03:15:25.982Z",
+      "fetchedFrom": "https://www.city.nihonmatsu.lg.jp/data/doc/1774498707_doc_75_0.pdf"
+    },
+    {
+      "filename": "13706_20260228.html",
+      "sha256": "e152133baa54e35e92c11d3525f018d8640194f94ef4f6070f1016bc0f833905",
+      "bytes": 43747,
+      "fetchedAt": "2026-10-31T03:15:25.982Z",
+      "fetchedFrom": "https://web.archive.org/web/20260228103003id_/https://www.city.nihonmatsu.lg.jp/gikai/kaigi_niitei/r8/page013706.html"
+    }
+  ]
+}

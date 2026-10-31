@@ -1,0 +1,33 @@
+{
+  "sourceId": "maniwa-shigikai-r8",
+  "files": [
+    {
+      "filename": "maniwa_42547_20250424.html",
+      "sha256": "bb6167b268a1007228540cd641aeddb69b7da2a0db8ad8ac185a8ae8cbf8b173",
+      "bytes": 24715,
+      "fetchedAt": "2026-10-31T03:14:30.461Z",
+      "fetchedFrom": "https://web.archive.org/web/20250424151743id_/https://www.city.maniwa.lg.jp/site/shigikai/42547.html"
+    },
+    {
+      "filename": "maniwa_20441.html",
+      "sha256": "5750fe8dd79bb2de522d3b55b63fb4fbffd992c180d99152a8fdcfff3c65ca1b",
+      "bytes": 25768,
+      "fetchedAt": "2026-10-31T03:14:30.461Z",
+      "fetchedFrom": "https://www.city.maniwa.lg.jp/site/shigikai/20441.html"
+    },
+    {
+      "filename": "maniwa_38826.pdf",
+      "sha256": "698ae00033b1a8911b97081f4f307a309c913303662cb32d4e4cfa0766b835d0",
+      "bytes": 141217,
+      "fetchedAt": "2026-10-31T03:14:30.462Z",
+      "fetchedFrom": "https://www.city.maniwa.lg.jp/uploaded/attachment/38826.pdf"
+    },
+    {
+      "filename": "maniwa_38827.pdf",
+      "sha256": "143c91e5397d293fefc115d3a11c15379806ca2402bc6b25340260b9a43142de",
+      "bytes": 56598,
+      "fetchedAt": "2026-10-31T03:14:30.462Z",
+      "fetchedFrom": "https://www.city.maniwa.lg.jp/uploaded/attachment/38827.pdf"
+    }
+  ]
+}

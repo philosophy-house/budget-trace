@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.18";
+export const PARSER_VERSION = "0.8.19";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -1252,6 +1252,12 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
     c.member ? 1 : (factions.find((f) => f.name === c.faction)?.seats ?? 0) - cols.filter((o) => o.faction === c.faction && o.member).length;
   if (vo.tally) {
     if (!has(vdoc.views, vo.tally.text)) missing.push(`${vf.filename}: 賛否の数の原文「${vo.tally.text}」が見つかりません`);
+    // counts の数は原文の印字に出ること（原文だけ別の行の「16：5」に替えても counts 17・4 のまま通った＝喜多方の改ざんテスト・0.8.19）。
+    // 原文は「3534313」のように数が詰まって組まれることがある（山梨・越谷・那覇）ので、部分の一致で見る
+    const tallyN = norm(vo.tally.text);
+    for (const [st, n] of Object.entries(vo.tally.counts)) {
+      if (!tallyN.includes(String(n))) missing.push(`賛否の数: ${st} ${n} が原文「${vo.tally.text}」に出ません`);
+    }
     for (const [st, n] of Object.entries(vo.tally.counts)) {
       const got = cols.filter((c) => c.stance === st).reduce((a, c) => a + countOf(c), 0);
       if (got !== n) missing.push(`賛否の数: ${st} は記号から ${got}、原典の印字は ${n}`);
@@ -1340,6 +1346,34 @@ export function parseCouncilTranscribed(
   // 区間方式で無会派を実在の会派名に書き換えると、同じ名前の区間に氏名があるので通った（静岡・茨城の巡で実測）
   for (const [n, fs] of Map.groupBy(opt.factions, (f) => norm(f.name))) {
     if (fs.length > 1 && fs.some((f) => !f.independent)) missing.push(`会派「${fs[0]!.name}」が ${fs.length} 回出ます — 同じ名前は independent の会派どうしでだけ書けます（${n}）`);
+  }
+  // 会派名の後ろに名簿の続きの字（人数・役職）を足した名前は、名前の出現の照合を通る（0.8.19）。
+  // 「清風会10」「真和会4人」「市民の声会長」が ✓ になった（福島・岩手・奈良・岡山の巡のレビューで実測）。
+  // 末尾の数は会派名に実在する（「市民21」「無所属クラブ1」）ので、数が議席と同じときだけ落とす。氏名を足す型
+  // （「讃志会大山盛久」）は札幌「坂元倫孝・荒井勇雄」のような実在の会派名と見分けられないので塞いでいない
+  // 2巡目のレビューで、括弧に入れた続き（「日本維新・無所属の会（2名）」「いぶき藤井義明(代表)」）・役職の語のあとに氏名
+  // （「新良致会会長小島雄一」）・欄見出しの語（「尚友会人数」「春の風設置年月日」）も通ったので、末尾の括弧を外した残りにも
+  // 同じ規則を当て、役職・欄見出しの語は途中にあっても落とす（実在の2411会派名に当たらないことを確かめた。「無所属議員」の
+  // 「所属議員」は除く）。括弧の読み（「奥和会（おうわかい）」）は実在の「響(ひびき)」「無会派(かぐや)」と見分けられないので塞いでいない
+  for (const f of opt.factions) {
+    const n = norm(f.name);
+    const paren = n.match(/[（(]([^）)]*)[）)]$/);
+    const core = paren ? n.slice(0, paren.index) : n;
+    if (/(会長|代表|団長|幹事長|人数|設置年月日|会派名|構成議員|(?<!無)所属議員)/.test(n)) {
+      missing.push(`会派「${f.name}」の名前に役職・欄見出しの語があります — 名簿の会派名の後ろの字まで書いていませんか`);
+    }
+    for (const part of paren ? [n, core, paren[1]!] : [n]) {
+      const tail = part.match(/(\d+)[人名]?$/);
+      if (tail && !f.independent && (Number(tail[1]) === f.members.length || /[人名]$/.test(part))) {
+        missing.push(`会派「${f.name}」の名前が人数（${f.members.length}）で終わります — 名簿の会派名の後ろの字まで書いていませんか`);
+        break;
+      }
+    }
+    // 閉じていない括弧（「いぶき藤井義明(代」）は名簿の続きを途中で切った形（3巡目のレビュー）
+    if ((n.match(/[（(]/g) ?? []).length !== (n.match(/[）)]/g) ?? []).length) missing.push(`会派「${f.name}」の名前の括弧が対になっていません`);
+    if (f.declared && norm(f.declared) !== n && n.includes(norm(f.declared))) {
+      missing.push(`会派「${f.name}」の名前が人数の原文「${f.declared}」を含みます`);
+    }
   }
   const seen = new Map<string, string>();
   const factions: CouncilFactionFact[] = opt.factions.map((f, i) => {

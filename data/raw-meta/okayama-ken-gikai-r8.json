@@ -1,0 +1,33 @@
+{
+  "sourceId": "okayama-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "okken_03-02_20260211151126.html",
+      "sha256": "d20bc695b199641ec00c7367d80ab1a4884923c29fa67f2450313b1ccb8ddcb0",
+      "bytes": 34105,
+      "fetchedAt": "2026-10-31T03:14:30.458Z",
+      "fetchedFrom": "https://web.archive.org/web/20260211151126id_/https://www.pref.okayama.jp/site/gikai/03-02.html"
+    },
+    {
+      "filename": "okken_03-03_20260216034059.html",
+      "sha256": "4f0226063b46c82bbef30d4678b399f0fb4df754d8594af807bc3ff4334527e5",
+      "bytes": 30210,
+      "fetchedAt": "2026-10-31T03:14:30.459Z",
+      "fetchedFrom": "https://web.archive.org/web/20260216034059id_/https://www.pref.okayama.jp/site/gikai/03-03.html"
+    },
+    {
+      "filename": "okken_408751.pdf",
+      "sha256": "495bae1027e66eb34164eead6137795a59ae2eb91340f8d284e27ea29c98f780",
+      "bytes": 198502,
+      "fetchedAt": "2026-10-31T03:14:30.459Z",
+      "fetchedFrom": "https://www.pref.okayama.jp/uploaded/attachment/408751.pdf"
+    },
+    {
+      "filename": "okken_983444.html",
+      "sha256": "ae07f865524b2afb0ee559635b09ccf56649b0e17357c9de61d989107b3c25dc",
+      "bytes": 28307,
+      "fetchedAt": "2026-10-31T03:14:30.459Z",
+      "fetchedFrom": "https://www.pref.okayama.jp/page/983444.html"
+    }
+  ]
+}

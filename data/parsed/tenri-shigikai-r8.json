@@ -1,0 +1,76 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tenri-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:15.209Z",
+  "fiscalYear": "R8",
+  "body": "天理市議会",
+  "seats": 16,
+  "asOf": "2024-09-24",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "清風会",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "鈴木洋",
+        "鳥山淳一",
+        "東田匡弘",
+        "榎堀秀樹",
+        "大橋基之",
+        "西崎圭介",
+        "内田智之",
+        "石津雅恵",
+        "井上伸吾",
+        "市本貴志"
+      ],
+      "locator": {
+        "file": "1522129896831.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "令和の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山田哲生",
+        "藤本さゆり",
+        "今西康世"
+      ],
+      "locator": {
+        "file": "1522129896831.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "寺井正則",
+        "神田和彦",
+        "村木敬"
+      ],
+      "locator": {
+        "file": "1522129896831.html",
+        "row": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第4号",
+    "billName": "令和8年度天理市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "15484.html"
+    }
+  },
+  "rosterTitle": "天理市議会 会派別名簿（令和6年9月24日現在）",
+  "resultTitle": "天理市議会 議決結果一覧 令和8年第1回定例会"
+}

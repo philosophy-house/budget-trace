@@ -1,0 +1,26 @@
+{
+  "sourceId": "hanamaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "hanamaki_1004010_20260516205803.html",
+      "sha256": "0b5a1153b616e1bbc6b750b8740e106ca65d1aeac10f8b0d27f5822aff1abc63",
+      "bytes": 33097,
+      "fetchedAt": "2026-10-31T03:14:30.420Z",
+      "fetchedFrom": "https://web.archive.org/web/20260516205803id_/https://www.city.hanamaki.iwate.jp/shigikai/1004008/1004010.html"
+    },
+    {
+      "filename": "hanamaki_202603kekka_1.pdf",
+      "sha256": "a59bd7c289db968c991994db072634c9fc4b7119ea6f564b1ed595d98272435d",
+      "bytes": 76804,
+      "fetchedAt": "2026-10-31T03:14:30.421Z",
+      "fetchedFrom": "https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/024/856/202603kekka_1.pdf"
+    },
+    {
+      "filename": "hanamaki_202603sanpi_1.pdf",
+      "sha256": "bf58bc8a6d0e13826c9408edcbb2267218d05b4ca844bff6db68fcacb86819ec",
+      "bytes": 51569,
+      "fetchedAt": "2026-10-31T03:14:30.421Z",
+      "fetchedFrom": "https://www.city.hanamaki.iwate.jp/_res/projects/default_project/_page_/001/024/856/202603sanpi_1.pdf"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sukagawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:13.711Z",
+  "fiscalYear": "R8",
+  "body": "須賀川市議会",
+  "seats": 24,
+  "asOf": "2026-03-16",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "志政会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "深谷勝仁",
+        "松川勇治",
+        "関根篤志",
+        "古川達也",
+        "熊谷勝幸",
+        "小野裕史",
+        "大柿貞夫",
+        "佐藤暸二",
+        "五十嵐伸"
+      ],
+      "locator": {
+        "file": "sukagawa_KhB70_gikaidayori96.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "柏村修吾",
+        "鈴木洋二",
+        "石堂正章",
+        "鈴木正勝",
+        "市村喜雄"
+      ],
+      "locator": {
+        "file": "sukagawa_KhB70_gikaidayori96.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "須賀川未来会議",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "深谷政憲",
+        "溝井光夫",
+        "大河内和彦"
+      ],
+      "locator": {
+        "file": "sukagawa_KhB70_gikaidayori96.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "政悠会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "斉藤秀幸",
+        "浜尾一美",
+        "本田勝善"
+      ],
+      "locator": {
+        "file": "sukagawa_KhB70_gikaidayori96.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "日本共産党須賀川市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "堂脇明奈",
+        "横田洋子"
+      ],
+      "locator": {
+        "file": "sukagawa_KhB70_gikaidayori96.pdf",
+        "page": 7
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "安藤正博",
+        "大内康司"
+      ],
+      "locator": {
+        "file": "sukagawa_KhB70_gikaidayori96.pdf",
+        "page": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第49号",
+    "billName": "令和８年度須賀川市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "原案可決",
+    "locator": {
+      "file": "sukagawa_g07_giketsu_135.html"
+    }
+  },
+  "rosterTitle": "須賀川市議会だより No.96 p.7 各議員の賛否一覧（3月定例会）の表頭",
+  "resultTitle": "議案等一覧（令和８年３月定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "須賀川市議会だより No.96 p.7 各議員の賛否一覧",
+    "sourceFile": "sukagawa_KhB70_gikaidayori96.pdf",
+    "columns": [
+      {
+        "label": "深谷勝仁",
+        "faction": "志政会",
+        "member": "深谷勝仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "松川勇治",
+        "faction": "志政会",
+        "member": "松川勇治",
+        "stance": "賛成"
+      },
+      {
+        "label": "関根篤志",
+        "faction": "志政会",
+        "member": "関根篤志",
+        "stance": "賛成"
+      },
+      {
+        "label": "古川達也",
+        "faction": "志政会",
+        "member": "古川達也",
+        "stance": "賛成"
+      },
+      {
+        "label": "熊谷勝幸",
+        "faction": "志政会",
+        "member": "熊谷勝幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野裕史",
+        "faction": "志政会",
+        "member": "小野裕史",
+        "stance": "賛成"
+      },
+      {
+        "label": "大柿貞夫",
+        "faction": "志政会",
+        "member": "大柿貞夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "五十嵐伸",
+        "faction": "志政会",
+        "member": "五十嵐伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "柏村修吾",
+        "faction": "新政会",
+        "member": "柏村修吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木洋二",
+        "faction": "新政会",
+        "member": "鈴木洋二",
+        "stance": "賛成"
+      },
+      {
+        "label": "石堂正章",
+        "faction": "新政会",
+        "member": "石堂正章",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木正勝",
+        "faction": "新政会",
+        "member": "鈴木正勝",
+        "stance": "賛成"
+      },
+      {
+        "label": "市村喜雄",
+        "faction": "新政会",
+        "member": "市村喜雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "深谷政憲",
+        "faction": "須賀川未来会議",
+        "member": "深谷政憲",
+        "stance": "賛成"
+      },
+      {
+        "label": "溝井光夫",
+        "faction": "須賀川未来会議",
+        "member": "溝井光夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "大河内和彦",
+        "faction": "須賀川未来会議",
+        "member": "大河内和彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "斉藤秀幸",
+        "faction": "政悠会",
+        "member": "斉藤秀幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "浜尾一美",
+        "faction": "政悠会",
+        "member": "浜尾一美",
+        "stance": "賛成"
+      },
+      {
+        "label": "本田勝善",
+        "faction": "政悠会",
+        "member": "本田勝善",
+        "stance": "賛成"
+      },
+      {
+        "label": "堂脇明奈",
+        "faction": "日本共産党須賀川市議団",
+        "member": "堂脇明奈",
+        "stance": "反対"
+      },
+      {
+        "label": "横田洋子",
+        "faction": "日本共産党須賀川市議団",
+        "member": "横田洋子",
+        "stance": "反対"
+      },
+      {
+        "label": "安藤正博",
+        "faction": "無会派",
+        "member": "安藤正博",
+        "stance": "賛成"
+      },
+      {
+        "label": "大内康司",
+        "faction": "無会派",
+        "member": "大内康司",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤暸二",
+        "faction": "志政会",
+        "member": "佐藤暸二",
+        "stance": "議長"
+      }
+    ]
+  }
+}

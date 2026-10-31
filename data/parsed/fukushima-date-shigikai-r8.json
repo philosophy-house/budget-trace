@@ -1,0 +1,250 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fukushima-date-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:14.032Z",
+  "fiscalYear": "R8",
+  "body": "伊達市議会",
+  "seats": 20,
+  "asOf": "2025-10-01",
+  "factions": [
+    {
+      "name": "日本共産党伊達市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐藤清壽",
+        "近藤眞一"
+      ],
+      "locator": {
+        "file": "date_72375_20251022.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "フォーラム伊達・公明",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "池田英世",
+        "大條一郎",
+        "小嶋寛己"
+      ],
+      "locator": {
+        "file": "date_72375_20251022.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "春の風",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "佐藤実",
+        "中村正明",
+        "島明美",
+        "河野裕之"
+      ],
+      "locator": {
+        "file": "date_72375_20251022.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "伊達市民クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小野誠滋",
+        "菊地邦夫",
+        "大槻孝徳",
+        "柳田武志"
+      ],
+      "locator": {
+        "file": "date_72375_20251022.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "創志会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "安藤喜昭",
+        "佐藤栄治"
+      ],
+      "locator": {
+        "file": "date_72375_20251022.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "未来政策研究会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "半澤隆",
+        "佐藤眞也",
+        "大竹重範"
+      ],
+      "locator": {
+        "file": "date_72375_20251022.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "渡邊尚人",
+        "菅野喜明"
+      ],
+      "locator": {
+        "file": "date_72375_20251022.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第29号",
+    "billName": "令和8年度伊達市一般会計予算",
+    "sessionLabel": "令和8年伊達市議会定例会第2回定例会議",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "date_84583.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（更新日 2025年10月1日・議決前の魚拓）",
+  "resultTitle": "令和8年伊達市議会定例会第2回定例会議提出議案の審議結果について",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "市長提出議案の議決結果（議員賛否一覧表）（令和8年伊達市議会定例会第2回定例会議）",
+    "sourceFile": "date_74700.pdf",
+    "columns": [
+      {
+        "label": "近藤眞一",
+        "faction": "日本共産党伊達市議団",
+        "member": "近藤眞一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤清壽",
+        "faction": "日本共産党伊達市議団",
+        "member": "佐藤清壽",
+        "stance": "欠席"
+      },
+      {
+        "label": "小嶋寛己",
+        "faction": "フォーラム伊達・公明",
+        "member": "小嶋寛己",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田英世",
+        "faction": "フォーラム伊達・公明",
+        "member": "池田英世",
+        "stance": "賛成"
+      },
+      {
+        "label": "大條一郎",
+        "faction": "フォーラム伊達・公明",
+        "member": "大條一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "河野裕之",
+        "faction": "春の風",
+        "member": "河野裕之",
+        "stance": "賛成"
+      },
+      {
+        "label": "島明美",
+        "faction": "春の風",
+        "member": "島明美",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村正明",
+        "faction": "春の風",
+        "member": "中村正明",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤実",
+        "faction": "春の風",
+        "member": "佐藤実",
+        "stance": "賛成"
+      },
+      {
+        "label": "栁田武志",
+        "faction": "伊達市民クラブ",
+        "member": "柳田武志",
+        "stance": "賛成"
+      },
+      {
+        "label": "大槻孝德",
+        "faction": "伊達市民クラブ",
+        "member": "大槻孝徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊地邦夫",
+        "faction": "伊達市民クラブ",
+        "member": "菊地邦夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野誠滋",
+        "faction": "伊達市民クラブ",
+        "member": "小野誠滋",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤栄治",
+        "faction": "創志会",
+        "member": "佐藤栄治",
+        "stance": "欠席"
+      },
+      {
+        "label": "安藤喜昭",
+        "faction": "創志会",
+        "member": "安藤喜昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "大竹重範",
+        "faction": "未来政策研究会",
+        "member": "大竹重範",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤眞也",
+        "faction": "未来政策研究会",
+        "member": "佐藤眞也",
+        "stance": "賛成"
+      },
+      {
+        "label": "半澤隆",
+        "faction": "未来政策研究会",
+        "member": "半澤隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡邊尚人",
+        "faction": "無会派",
+        "member": "渡邊尚人",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅野喜明",
+        "faction": "無会派",
+        "member": "菅野喜明",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "docType": "council-composition",
+  "sourceId": "okayama-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:16.659Z",
+  "fiscalYear": "R8",
+  "body": "岡山県議会",
+  "seats": 54,
+  "asOf": "2025-05-15",
+  "teisu": 55,
+  "factions": [
+    {
+      "name": "自由民主党岡山県議団",
+      "seats": 33,
+      "isIndependent": false,
+      "members": [
+        "千田博通",
+        "小田春人",
+        "小野泰弘",
+        "内山登",
+        "渡辺英気",
+        "小田圭一",
+        "蓮岡靖之",
+        "神宝謙一",
+        "遠藤康洋",
+        "加藤浩久",
+        "小倉弘行",
+        "久徳大輔",
+        "太田正孝",
+        "江本公一",
+        "中塚周一",
+        "小林義明",
+        "上田勝義",
+        "市村仁",
+        "木口京子",
+        "山本雅彦",
+        "福島恭子",
+        "渡辺知典",
+        "河野慶治",
+        "小倉博",
+        "乙倉賢一",
+        "大橋和明",
+        "清水薫",
+        "福田司",
+        "本山紘司",
+        "松島幸一",
+        "正木美恵",
+        "坂本亮平",
+        "天野英雄"
+      ],
+      "locator": {
+        "file": "okken_03-02_20260211151126.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "民主・県民クラブ",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "高原俊彦",
+        "柳田哲",
+        "中川雅子",
+        "髙橋徹",
+        "大塚愛",
+        "鳥井良輔",
+        "秋山正浩",
+        "渡邉直子",
+        "小原なおみ",
+        "鈴木一史"
+      ],
+      "locator": {
+        "file": "okken_03-02_20260211151126.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党岡山県議団",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "増川英一",
+        "笹井茂智",
+        "荒島俊造",
+        "吉田徹",
+        "井出妙子",
+        "角屋忍"
+      ],
+      "locator": {
+        "file": "okken_03-02_20260211151126.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党岡山県議会議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "森脇久紀",
+        "氏平三穂子",
+        "須増伸子"
+      ],
+      "locator": {
+        "file": "okken_03-02_20260211151126.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属（蜂谷弘美）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "蜂谷弘美"
+      ],
+      "locator": {
+        "file": "okken_03-02_20260211151126.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（佐古一太）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "佐古一太"
+      ],
+      "locator": {
+        "file": "okken_03-02_20260211151126.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第1号",
+    "billName": "令和８年度岡山県一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "okken_408751.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "期別名簿（掲載日 2025年5月15日更新）",
+  "resultTitle": "令和８年２月定例会の提出議案（議決結果）"
+}

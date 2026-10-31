@@ -1,0 +1,39 @@
+{
+  "sourceId": "iwate-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "Kg152_R8.2teirei_giinbetusanpi_ver2.pdf",
+      "sha256": "1db953b4ce96ad0b85ebcf9c65c1c2be29ff0bbdc1790487f4803e24e3236ef4",
+      "bytes": 2991876,
+      "fetchedAt": "2026-10-31T03:15:10.908Z",
+      "fetchedFrom": "https://iwatekengikai.gijiroku.com/voices/GikaiDoc/attach/Congress/Kg152_R8.2teirei_giinbetusanpi_ver2.pdf"
+    },
+    {
+      "filename": "g07_Kaiha_20260202.html",
+      "sha256": "d3dcb558258032f335fbaa70460866536796e378e48da9d606aed23ab36dfab1",
+      "bytes": 17107,
+      "fetchedAt": "2026-10-31T03:15:10.909Z",
+      "fetchedFrom": "https://web.archive.org/web/20260202161204id_/https://iwatekengikai.gijiroku.com/g07_Kaiha.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "1035800_20250822.html",
+      "sha256": "2fb29a554fdb02c25f576460d1d1b5436963741bd8ebcbbed0f3fe769ff9c8ee",
+      "bytes": 18414,
+      "fetchedAt": "2026-10-31T03:15:10.909Z",
+      "fetchedFrom": "https://web.archive.org/web/20250822110957id_/https://www.pref.iwate.jp/gikai/gaiyou/1035800.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "1035800.html",
+      "sha256": "b520fff9ad73bc8b3617c118348035ecc19621c9e9172e4c1348387011b71ee4",
+      "bytes": 18238,
+      "fetchedAt": "2026-10-31T03:15:10.909Z",
+      "fetchedFrom": "https://www.pref.iwate.jp/gikai/gaiyou/1035800.html"
+    }
+  ]
+}

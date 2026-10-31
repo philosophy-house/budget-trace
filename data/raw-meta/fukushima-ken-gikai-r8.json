@@ -1,0 +1,19 @@
+{
+  "sourceId": "fukushima-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "meibo-kaiha201712_20260211.html",
+      "sha256": "a7ed8e7e4ddd6cd94ebdc03673efa36774ff284303ce5ea68b7782aee977cbad",
+      "bytes": 22506,
+      "fetchedAt": "2026-10-31T03:15:25.975Z",
+      "fetchedFrom": "https://web.archive.org/web/20260211202758id_/http://www.pref.fukushima.lg.jp/site/gikai/meibo-kaiha201712.html"
+    },
+    {
+      "filename": "735757.pdf",
+      "sha256": "bc8400ffccd9f1b2ac9d0cb18f547c59d37ac0a1cf31f370d8d59fc9d0ae1b82",
+      "bytes": 816370,
+      "fetchedAt": "2026-10-31T03:15:25.977Z",
+      "fetchedFrom": "https://www.pref.fukushima.lg.jp/uploaded/attachment/735757.pdf"
+    }
+  ]
+}

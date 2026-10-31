@@ -1,0 +1,402 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nara-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.19",
+  "parsedAt": "2026-10-31T03:17:14.969Z",
+  "fiscalYear": "R8",
+  "body": "奈良県議会",
+  "seats": 40,
+  "asOf": "2026-02-17",
+  "factions": [
+    {
+      "name": "自由民主党・無所属の会",
+      "seats": 15,
+      "isIndependent": false,
+      "members": [
+        "米田忠則",
+        "西川均",
+        "若林かずみ",
+        "粒谷友示",
+        "池田慎久",
+        "金山成樹",
+        "荻田義雄",
+        "川口延良",
+        "芦高清友",
+        "中野雅史",
+        "疋田進一",
+        "川口信",
+        "井岡正徳",
+        "小村尚己",
+        "永田恒"
+      ],
+      "locator": {
+        "file": "52790.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "松尾勇臣",
+        "福西広理",
+        "星川大地",
+        "佐藤光紀",
+        "関本真樹",
+        "中川崇",
+        "松木秀一郎",
+        "小林誠",
+        "清田典章",
+        "工藤将之",
+        "山田洋平"
+      ],
+      "locator": {
+        "file": "52790.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "自由民主党",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "田中惟允",
+        "伊藤將也",
+        "岩田国夫",
+        "斎藤有紀",
+        "山本進章",
+        "乾浩之",
+        "浦西敦史"
+      ],
+      "locator": {
+        "file": "52790.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大国正博",
+        "亀甲義明",
+        "藤田幸代"
+      ],
+      "locator": {
+        "file": "52790.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属（山村幸穂）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山村幸穂"
+      ],
+      "locator": {
+        "file": "52790.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（森山賀文）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "森山賀文"
+      ],
+      "locator": {
+        "file": "52790.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無所属（藤野良次）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "藤野良次"
+      ],
+      "locator": {
+        "file": "52790.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無所属（阪口保）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "阪口保"
+      ],
+      "locator": {
+        "file": "52790.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第 1 号",
+    "billName": "令和８年度奈良県一般会計予算",
+    "sessionLabel": "令和８年２月（第３６６回）定例奈良県議会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r080325_giketukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議員名簿（会派別）（令和8年2月17日時点）",
+  "resultTitle": "提出議案と議決結果一覧表（令和8年2月定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議員別の議案等に対する表決結果（令和8年2月定例会 3月25日議決分）",
+    "sourceFile": "20260325_giinbetsu_hyoketsu.pdf",
+    "columns": [
+      {
+        "label": "永田恒",
+        "faction": "自由民主党・無所属の会",
+        "member": "永田恒",
+        "stance": "賛成"
+      },
+      {
+        "label": "川口信",
+        "faction": "自由民主党・無所属の会",
+        "member": "川口信",
+        "stance": "賛成"
+      },
+      {
+        "label": "芦高清友",
+        "faction": "自由民主党・無所属の会",
+        "member": "芦高清友",
+        "stance": "賛成"
+      },
+      {
+        "label": "金山成樹",
+        "faction": "自由民主党・無所属の会",
+        "member": "金山成樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "疋田進一",
+        "faction": "自由民主党・無所属の会",
+        "member": "疋田進一",
+        "stance": "賛成"
+      },
+      {
+        "label": "若林かずみ",
+        "faction": "自由民主党・無所属の会",
+        "member": "若林かずみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "小村尚己",
+        "faction": "自由民主党・無所属の会",
+        "member": "小村尚己",
+        "stance": "賛成"
+      },
+      {
+        "label": "川口延良",
+        "faction": "自由民主党・無所属の会",
+        "member": "川口延良",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田慎久",
+        "faction": "自由民主党・無所属の会",
+        "member": "池田慎久",
+        "stance": "賛成"
+      },
+      {
+        "label": "西川",
+        "faction": "自由民主党・無所属の会",
+        "member": "西川均",
+        "stance": "賛成"
+      },
+      {
+        "label": "米田忠則",
+        "faction": "自由民主党・無所属の会",
+        "member": "米田忠則",
+        "stance": "賛成"
+      },
+      {
+        "label": "粒谷友示",
+        "faction": "自由民主党・無所属の会",
+        "member": "粒谷友示",
+        "stance": "賛成"
+      },
+      {
+        "label": "荻田義雄",
+        "faction": "自由民主党・無所属の会",
+        "member": "荻田義雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "中野雅史",
+        "faction": "自由民主党・無所属の会",
+        "member": "中野雅史",
+        "stance": "賛成"
+      },
+      {
+        "label": "井岡正徳",
+        "faction": "自由民主党・無所属の会",
+        "member": "井岡正徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "星川大地",
+        "faction": "日本維新の会",
+        "member": "星川大地",
+        "stance": "賛成"
+      },
+      {
+        "label": "松木秀一郎",
+        "faction": "日本維新の会",
+        "member": "松木秀一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田洋平",
+        "faction": "日本維新の会",
+        "member": "山田洋平",
+        "stance": "賛成"
+      },
+      {
+        "label": "清田典章",
+        "faction": "日本維新の会",
+        "member": "清田典章",
+        "stance": "賛成"
+      },
+      {
+        "label": "関本真樹",
+        "faction": "日本維新の会",
+        "member": "関本真樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "福西広理",
+        "faction": "日本維新の会",
+        "member": "福西広理",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤将之",
+        "faction": "日本維新の会",
+        "member": "工藤将之",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林誠",
+        "faction": "日本維新の会",
+        "member": "小林誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤光紀",
+        "faction": "日本維新の会",
+        "member": "佐藤光紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "中川崇",
+        "faction": "日本維新の会",
+        "member": "中川崇",
+        "stance": "賛成"
+      },
+      {
+        "label": "松尾勇臣",
+        "faction": "日本維新の会",
+        "member": "松尾勇臣",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤有紀",
+        "faction": "自由民主党",
+        "member": "斎藤有紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤將也",
+        "faction": "自由民主党",
+        "member": "伊藤將也",
+        "stance": "賛成"
+      },
+      {
+        "label": "浦西敦史",
+        "faction": "自由民主党",
+        "member": "浦西敦史",
+        "stance": "賛成"
+      },
+      {
+        "label": "乾浩之",
+        "faction": "自由民主党",
+        "member": "乾浩之",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中惟允",
+        "faction": "自由民主党",
+        "member": "田中惟允",
+        "stance": "議長"
+      },
+      {
+        "label": "岩田国夫",
+        "faction": "自由民主党",
+        "member": "岩田国夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本進章",
+        "faction": "自由民主党",
+        "member": "山本進章",
+        "stance": "欠席"
+      },
+      {
+        "label": "藤田幸代",
+        "faction": "公明党",
+        "member": "藤田幸代",
+        "stance": "賛成"
+      },
+      {
+        "label": "亀甲義明",
+        "faction": "公明党",
+        "member": "亀甲義明",
+        "stance": "賛成"
+      },
+      {
+        "label": "大国正博",
+        "faction": "公明党",
+        "member": "大国正博",
+        "stance": "賛成"
+      },
+      {
+        "label": "山村幸穂",
+        "faction": "無所属（山村幸穂）",
+        "member": "山村幸穂",
+        "stance": "反対"
+      },
+      {
+        "label": "森山賀文",
+        "faction": "無所属（森山賀文）",
+        "member": "森山賀文",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤野良次",
+        "faction": "無所属（藤野良次）",
+        "member": "藤野良次",
+        "stance": "賛成"
+      },
+      {
+        "label": "阪口保",
+        "faction": "無所属（阪口保）",
+        "member": "阪口保",
+        "stance": "欠席"
+      }
+    ]
+  }
+}
