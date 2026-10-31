@@ -587,7 +587,7 @@ function legendPairOk(texts: string[], k: string, v: string, keys: string[]): bo
   // 全体の1本で書いたとき、記号の意味を同じ文の別の語に書き換えても通った（中津「欠：棄権」・大分県「議：不参加」＝0.8.21・
   // 長崎〜大分の巡の作業者が実測）
   const hanKey = /^\p{Script=Han}+$/u.test(kn);
-  const otherKeys = keys.map((x) => legendNorm(x, [])).filter((x) => x !== kn && x.length > 0);
+  const allKeys = keys.map((x) => legendNorm(x, [])).filter((x) => x.length > 0);
   for (const t of texts.map((x) => legendNorm(x, keys))) {
     for (let i = t.indexOf(kn); i >= 0; i = t.indexOf(kn, i + 1)) {
       // 見るのは直後の字だけ（norm が空白を詰めるので、直前は前の項の語「反対欠：欠席」とつながる）。記号が続けて2度出る
@@ -601,19 +601,31 @@ function legendPairOk(texts: string[], k: string, v: string, keys: string[]): bo
       }
       const after = t.slice(i + kn.length);
       const before = t.slice(0, i);
+      // 語と記号の間に、項の区切り（、。）と記号だけ、または記号（同じ記号の別の出現を含む）を挟む語は、前（後）の項の意味なので読まない。
+      // 原典の切れ端は自由に選べるので、記号の直後や意味の語の途中で切った切れ端（「棄権－、欠」「不在、「議」：議」）を legendText に
+      // 足すと、記号が前の項の意味を指すことになり、書き換えが通った（0.8.21 のレビュー1・2巡目）。文の凡例（「議長は採決に加わらないため、
+      // 「採決に加わらず」」旭川・「※戎脇浩議員は、議長のため…」甲賀）は間に「、」と字を挟むので読む
+      // 漢字の記号が語の一部（「議場」の「議」）として出るのは記号ではない
+      const keyIn = (between: string) =>
+        allKeys.some((o) => {
+          for (let j = between.indexOf(o); j >= 0; j = between.indexOf(o, j + 1)) {
+            if (!(/^\p{Script=Han}+$/u.test(o) && /^\p{Script=Han}/u.test(between.slice(j + o.length)))) return true;
+          }
+          return false;
+        });
+      const crosses = (between: string) => (/[、，,。]/.test(between) && !/[\p{L}\p{N}]/u.test(between.replace(/[、，,。]/g, ""))) || keyIn(between);
       const fwd = /^[:：;；＝=…・.は→⇒]+/.exec(after);
       let word: string | undefined;
-      if (fwd) word = firstIn(after.slice(fwd[0].length, fwd[0].length + 10))?.w;
+      if (fwd) {
+        const w = firstIn(after.slice(fwd[0].length, fwd[0].length + 10));
+        if (w && !crosses(after.slice(fwd[0].length, fwd[0].length + w.d))) word = w.w;
+      }
       // 語が先に来る書き方（「賛成＝○」「賛成者は○」「賛成・・・○」新宿）は前の語
-      else if (/[＝=は・….:：;；]$/.test(before)) word = lastIn(before.replace(/[＝=は・….:：;；]+$/, "").replace(/者$/, "").slice(-10))?.w;
-      else {
-        // 近い方の語は、記号との間に項の区切り（、。；）や別の記号を挟まないものだけ。挟んだ語は前（後）の項の意味で、
-        // 記号の直後で切った原典の切れ端（「棄権－、欠」＝原典は「…棄権－、欠席は欠で…」、「議場に不在、「議」」「「○」：賛成、「×」」）を
-        // legendText に足すと、記号が前の項の意味を指すことになり、書き換えが通った（0.8.21 のレビュー1巡目）
-        // 文の凡例（「議長は採決に加わらないため、「採決に加わらず」」旭川・「戎脇浩議員は、議長のため…」甲賀）は語と記号の間に「、」を
-        // 挟むが字もある。落とすのは間が記号と区切りだけの形（前の項の語が「棄権－、」「不在、」のまま記号に隣り合う形）
-        const crosses = (between: string) =>
-          (/[、，,。]/.test(between) && !/[\p{L}\p{N}]/u.test(between.replace(/[、，,。]/g, ""))) || otherKeys.some((o) => between.includes(o));
+      else if (/[＝=は・….:：;；]$/.test(before)) {
+        const head = before.replace(/[＝=は・….:：;；]+$/, "").replace(/者$/, "").slice(-10);
+        const w = lastIn(head);
+        if (w && !crosses(head.slice(head.length - w.d))) word = w.w;
+      } else {
         let f: { w: string; d: number } | undefined = firstIn(after.slice(0, 12));
         let b: { w: string; d: number } | undefined = lastIn(before.slice(-12));
         if (f && crosses(after.slice(0, f.d))) f = undefined;
@@ -1288,6 +1300,9 @@ export function verifyVotes(ctx: VotesCtx, vo: VotesInput): VotesOut {
       if (got !== n) missing.push(`賛否の数: ${st} は記号から ${got}、原典の印字は ${n}`);
     }
   }
+  // 議長の列は1つまで（凡例の書き換えで欠席の議員を「議長」にしても通り、議長が2人になった＝山梨県・0.8.21 のレビュー2巡目）
+  const chairs = cols.filter((c) => c.stance === "議長").length;
+  if (chairs > 1) missing.push(`議長の列が ${chairs} つあります（1回の採決で議長は1人）`);
   return { basis: vo.basis, sourceTitle: vo.title, sourceFile: vf.filename, columns: cols };
 }
 
