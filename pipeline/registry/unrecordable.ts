@@ -3207,4 +3207,43 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-115",
   },
 
+  {
+    // 中間市（402150）R2。「令和２年度中間市当初予算関係資料」（6340.pdf）が複合機のスキャン画像（pdffonts 0）。年度ページに予算書は無い（§13-116）。
+    code: "402150", name: "中間市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason: "款ごとの表が載っている当初予算関係資料がスキャン画像で、文字の情報が無い。",
+    url: "https://www.city.nakama.lg.jp/soshiki/5/4284.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-116",
+  },
+  {
+    // 寒河江市（062065）R2。年度ページ（R2yosann.html・Wayback 2021-01）に予算書が無く、概要と内示資料の2本だけ。
+    //   内示資料（R2yosannaiji.pdf）の歳入は款名の折返しの下段が項の行に同居し、款名4件が Σ差0 のまま壊れる（CropX で切れない配置・§13-116）。
+    code: "062065", name: "寒河江市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material", "parser-unsupported"],
+    reason: "予算書がウェブに無く、公開されている内示資料の款別の表は、款名の続きが項の行と同じ行に並んでいて、款名を正しく取り出せない。",
+    url: "https://web.archive.org/web/20210128023017/https://www.city.sagae.yamagata.jp/shisei/zaisei/R2yosann.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-116",
+  },
+  {
+    // 丹波篠山市（282219）R4。R8〜R5・R3・R2 は収録済み（§13-116）。議決一覧（122-3giketuitirann.pdf）で「議案第18号 令和４年度丹波篠山市一般会計予算」は
+    //   「修正可決」（R4.3.24）。発行元の「当初予算の概要」（R4honpen.pdf）は提案時の額（22,740,000）で、修正後（22,732,591＝R5 の前年度列）と
+    //   繰入金・農林水産業費が各 7,409 千円違う。予算書は掲載なし。
+    code: "282219", name: "丹波篠山市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計予算は議会で修正して可決された。公開されている当初予算の概要は修正前の提案時の額（227億4,000万円）のままで、修正後の款別の額は翌年度の資料の前年度の列にしか無い。",
+    url: "https://www.city.tambasasayama.lg.jp/gyoseijoho/shiseinonei/finance/6972.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-116",
+  },
+  {
+    // 加東市（282286）R3・R2。R8〜R4 は収録済み（§13-116）。「予算の概要」の予算比較表で、R3（R3yosan.pdf p.24）は歳出の款3 民生費の
+    //   款番号と款名がテキスト層に無い（ToUnicode の無いフォント・Σ が割れて落ちる）。R2（R2yosan.pdf p.21）は歳入の款名3件で字が抜ける
+    //   （「場利用税交付金」「分担金及負担金」「使用料及手数料」・Σ差0 のまま通る）。議会版の概要も同じ。予算書は R5 以前は掲載なし。
+    code: "282286", name: "加東市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["broken-text-layer"],
+    reason: "款ごとの表で、一部の款名の文字が文字の情報として埋め込まれておらず、正しく取り出せない。",
+    url: "https://www.city.kato.lg.jp/kakukanogoannai/soumuzaiseibu/soumuzaiseika/zaiseikakari/yosann/index.html",
+    checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-116",
+  },
+
 ];

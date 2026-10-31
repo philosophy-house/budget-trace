@@ -3949,6 +3949,45 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `maniwa-yosansho-${fy}`, muniCode: "332143", muniName: "真庭市", prefName: "岡山県", isPref: false,
     })),
+    // ---- 第100巡（2026-10-31・§13-116） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yuzawa-yosansho-${fy}`, muniCode: "052078", muniName: "湯沢市", prefName: "秋田県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nagayo-yosansho-${fy}`, muniCode: "423076", muniName: "長与町", prefName: "長崎県", isPref: false,
+    })),
+    // 寒河江市の R2 は予算書がウェブに無い
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `sagae-yosansho-${fy}`, muniCode: "062065", muniName: "寒河江市", prefName: "山形県", isPref: false,
+    })),
+    // 加東市の R3・R2 は款名がテキスト層で壊れる
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `kato-yosan-gaiyo-${fy}`, muniCode: "282286", muniName: "加東市", prefName: "兵庫県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `aikawa-tousho-gaiyou-${fy}`, muniCode: "144011", muniName: "愛川町", prefName: "神奈川県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `agano-yosansho-${fy}`, muniCode: "152234", muniName: "阿賀野市", prefName: "新潟県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kurobe-yosan-gaiyou-${fy}`, muniCode: "162078", muniName: "黒部市", prefName: "富山県", isPref: false,
+    })),
+    // 丹波篠山市の R4 は議会修正後の款別が無い
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tambasasayama-yosan-gaiyou-${fy}`, muniCode: "282219", muniName: "丹波篠山市", prefName: "兵庫県", isPref: false,
+    })),
+    // 大洲市は R8〜R5 が予算書、R4〜R2 が「おおずしのよさん」
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `ozu-yosansho-${fy}`, muniCode: "382078", muniName: "大洲市", prefName: "愛媛県", isPref: false,
+    })),
+    ...(["r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ozu-oozushinoyosan-${fy}`, muniCode: "382078", muniName: "大洲市", prefName: "愛媛県", isPref: false,
+    })),
+    // 中間市の R2 はスキャン画像
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `nakama-yosan-kankei-shiryo-${fy}`, muniCode: "402150", muniName: "中間市", prefName: "福岡県", isPref: false,
+    })),
     // ---- 第99巡（2026-10-31・§13-115） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `futtsu-yosansho-${fy}`, muniCode: "122262", muniName: "富津市", prefName: "千葉県", isPref: false,
