@@ -3949,6 +3949,39 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `maniwa-yosansho-${fy}`, muniCode: "332143", muniName: "真庭市", prefName: "岡山県", isPref: false,
     })),
+    // ---- 第101巡（2026-10-31・§13-117） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nishiwaki-yosan-gaiyo-${fy}`, muniCode: "282138", muniName: "西脇市", prefName: "兵庫県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `higashimatsushima-yosansho-${fy}`, muniCode: "042145", muniName: "東松島市", prefName: "宮城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `mitsuke-yosan-gaiyo-${fy}`, muniCode: "152111", muniName: "見附市", prefName: "新潟県", isPref: false,
+    })),
+    // 葛城市の R5・R4 は議会修正後の款別が無い
+    ...(["r8", "r7", "r6", "r3", "r2"] as const).map((fy) => ({
+      srcId: `katsuragi-yosan-gaiyou-${fy}`, muniCode: "292117", muniName: "葛城市", prefName: "奈良県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hitachiomiya-yosansho-${fy}`, muniCode: "082252", muniName: "常陸大宮市", prefName: "茨城県", isPref: false,
+    })),
+    // 糸魚川市の R5 は説明書の歳出が読めず参考資料もスキャン
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `itoigawa-yosansho-${fy}`, muniCode: "152161", muniName: "糸魚川市", prefName: "新潟県", isPref: false,
+    })),
+    // 東海村の R4 は化け字・R2 はスキャン
+    ...(["r8", "r7", "r6", "r5", "r3"] as const).map((fy) => ({
+      srcId: `tokaimura-yosansho-${fy}`, muniCode: "083411", muniName: "東海村", prefName: "茨城県", isPref: false,
+    })),
+    // 魚津市の R2 は前年度列の基準が特定できず保留
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `uozu-yosansho-${fy}`, muniCode: "162043", muniName: "魚津市", prefName: "富山県", isPref: false,
+    })),
+    // 壬生町の R8 は図形化・R7〜R5 は化け字・R2 は予算書なし
+    ...(["r4", "r3"] as const).map((fy) => ({
+      srcId: `mibu-yosansho-${fy}`, muniCode: "093611", muniName: "壬生町", prefName: "栃木県", isPref: false,
+    })),
     // ---- 第100巡（2026-10-31・§13-116） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yuzawa-yosansho-${fy}`, muniCode: "052078", muniName: "湯沢市", prefName: "秋田県", isPref: false,

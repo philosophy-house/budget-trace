@@ -1,0 +1,19 @@
+{
+  "sourceId": "itoigawa-yosansho-r2",
+  "files": [
+    {
+      "filename": "0201budgetary_explanations.pdf",
+      "sha256": "12a5944b9c5198c7df0a736e12778c28f01fd0a2a7940e7ba179a1432c177d09",
+      "bytes": 1360971,
+      "fetchedAt": "2026-10-31T10:14:21.397Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20200529/20200529174237/https://www.city.itoigawa.lg.jp/secure/23738/0201budgetary_explanations.pdf"
+    },
+    {
+      "filename": "02budget_reference_materials.pdf",
+      "sha256": "564a6cceae332b85086e0f50b68b2cc64c0574257b8a012a0848c83d427d403b",
+      "bytes": 4928701,
+      "fetchedAt": "2026-10-31T10:14:22.127Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20200529/20200529174305/https://www.city.itoigawa.lg.jp/secure/23738/02budget_reference_materials.pdf"
+    }
+  ]
+}
