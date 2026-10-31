@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.20";
+export const PARSER_VERSION = "0.8.21";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -583,8 +583,20 @@ function legendPairOk(texts: string[], k: string, v: string, keys: string[]): bo
   const kn = legendNorm(k, []);
   const firstIn = (str: string) => all.map((w) => ({ w, d: str.indexOf(w) })).filter((x) => x.d >= 0).sort((a, b) => a.d - b.d || b.w.length - a.w.length)[0];
   const lastIn = (str: string) => all.map((w) => ({ w, d: str.lastIndexOf(w) >= 0 ? str.length - (str.lastIndexOf(w) + w.length) : -1 })).filter((x) => x.d >= 0).sort((a, b) => a.d - b.d || b.w.length - a.w.length)[0];
+  // 漢字の記号（「欠」「議」）は、凡例の別の語の頭（「欠席」「議場」「議長」）の出現を記号として読まない。読むと、凡例を原文
+  // 全体の1本で書いたとき、記号の意味を同じ文の別の語に書き換えても通った（中津「欠：棄権」・大分県「議：不参加」＝0.8.21・
+  // 長崎〜大分の巡の作業者が実測）
+  const hanKey = /^\p{Script=Han}+$/u.test(kn);
   for (const t of texts.map((x) => legendNorm(x, keys))) {
     for (let i = t.indexOf(kn); i >= 0; i = t.indexOf(kn, i + 1)) {
+      // 見るのは直後の字だけ（norm が空白を詰めるので、直前は前の項の語「反対欠：欠席」とつながる）。記号が続けて2度出る
+      // 「議 議長」（三鷹）は前の方を記号として読む
+      const next = t.slice(i + kn.length);
+      // 記号がその意味の語そのものの頭なら読む（栃木市は議長の列のセルが「議長のため採決に加わらない」で、記号は頭の「議」）
+      if (hanKey && /^\p{Script=Han}/u.test(next) && !next.startsWith(kn)) {
+        if (own.some((w) => t.startsWith(w, i))) return true;
+        continue;
+      }
       const after = t.slice(i + kn.length);
       const before = t.slice(0, i);
       const fwd = /^[:：＝=…・.は→⇒]+/.exec(after);
