@@ -25,8 +25,13 @@ import { NO_GRANT_LICENSES } from "./registry/license-no-grant";
 import { ROADMAP } from "./registry/roadmap";
 import { UNRECORDABLE, UNRECORDABLE_CATEGORIES } from "./registry/unrecordable";
 import { SKELETON_BUDGETS, type SkeletonBudget } from "./registry/skeleton-budgets";
+import { assertNoArchiveRunning } from "./lib/archive-state";
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+
+// ⚠ **魚拓の登録中は導出しない**（台帳を読むより前に）。途中の台帳が coverage に焼かれ、
+// 手元は通るのに CI だけ落ちる（2026-08-23 に踏んだ・メモリ no-derive-during-archive）。
+assertNoArchiveRunning("pipeline:derive");
 
 const SOURCE_ID = "soumu-shichoson-kessan-r6";
 const SELF_CODE = "192015"; // 甲府市

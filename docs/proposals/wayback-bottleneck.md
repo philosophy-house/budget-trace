@@ -1,7 +1,7 @@
 # 提案: 魚拓（Wayback）の登録がボトルネックになっている件
 
 - 作成: 2026-10-31（測定は同日 18:07 JST まで。base は main の `f1efb90a`）
-- 状態: **提案のみ**。実装はしていない。ユーザーが案を選んでから、別の作業として実装する
+- 状態: **第1段（§5）を 2026-10-31 に実装した**（同じ PR・作法は handoff §4「`pipeline:archive` の実行の作法」）。第2段・第3段は §6 の判断待ち
 - 対象: `pipeline/archive.ts`・`data/archives.json`・収録の巡の手順（loop.md・`/ingest-source`）
 
 ## 1. 結論
