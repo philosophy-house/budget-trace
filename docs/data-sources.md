@@ -1816,7 +1816,7 @@ budget 階層で議会の構成が未収録だった茨城17団体・栃木5団�
   会派に属さない2人を表頭の枠で照合する形（roster を 64P3.pdf にする形）は、nameAbsentReason を書ける名前に「会派に属さない」が無く、パーサの語彙の追加が要る
 - sha256 の照合は掛かっていない（kind が page。§6-12 の #412）
 
-**魚拓**: 4 URL のうち議決結果（`R80326giketu2.pdf`）と議会だより第64号（`64P3.pdf`）は認証つき SPN2 で登録できた。名簿（`giin/1846.html`）は1回目の要求が HTTP 500、landing の要求が 401（直後の `--check-auth` は 200＝キーは正しい）で落ち、2回目は名簿と定数のページ（`sikumi/1890.html`）とも受付後15分で結果が返らなかった（`data/.archive-jobs.json` に控え。`--resolve-only` で拾う）。
+**魚拓**: 4 URL のうち議決結果（`R80326giketu2.pdf`）と議会だより第64号（`64P3.pdf`）は認証つき SPN2 で登録できた。名簿（`giin/1846.html`）は1回目の要求が HTTP 500、landing の要求が 401（直後の `--check-auth` は 200＝キーは正しい）で落ち、その後は名簿と定数のページ（`sikumi/1890.html`）とも、ジョブは捕捉の時刻（`20261031174213`・`20261031172613`）を返したが、3回の実行（計約45分）で CDX に載らず、その時刻の再生も前の捕捉（20260419・20260209）へ転送された。**2件は未確認のまま持ち越した**（控えは `data/.archive-jobs.json`。次の `pipeline:archive tokaimura-songikai-r8` か `--resolve-only` で拾い、取れたら derive し直す）。
 
 ### 7. 甲府市 事務事業評価 詳細票（事業報告・成果）（kofu-jigyou-houkoku-r6/r7）
 
