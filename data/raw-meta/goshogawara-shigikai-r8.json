@@ -1,0 +1,26 @@
+{
+  "sourceId": "goshogawara-shigikai-r8",
+  "files": [
+    {
+      "filename": "goshogawara_kaihameibo_20251212.html",
+      "sha256": "d8f6103e6d430a0c343474d6e29304fb028d21938e7a4b42b8db3c0e08df3da4",
+      "bytes": 13992,
+      "fetchedAt": "2026-10-31T09:33:08.815Z",
+      "fetchedFrom": "https://web.archive.org/web/20251212055847id_/https://www.city.goshogawara.lg.jp/gikai/kaihameibo.html"
+    },
+    {
+      "filename": "goshogawara_0802kekka.pdf",
+      "sha256": "afb46014a8ebf2e5154c6e5962ca6350edad27b8431707ebf87530a90059ab63",
+      "bytes": 76863,
+      "fetchedAt": "2026-10-31T09:33:08.816Z",
+      "fetchedFrom": "https://www.city.goshogawara.lg.jp/gikai/files/0802kekka.pdf"
+    },
+    {
+      "filename": "goshogawara_R7seimu.pdf",
+      "sha256": "1f0b1ff470b4502dd247dde63c2d4b83381b75086f0497cdcfa6cf4981993dad",
+      "bytes": 48040,
+      "fetchedAt": "2026-10-31T09:33:08.821Z",
+      "fetchedFrom": "https://www.city.goshogawara.lg.jp/gikai/files/R7seimu.pdf"
+    }
+  ]
+}

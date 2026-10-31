@@ -1,0 +1,19 @@
+{
+  "sourceId": "aomori-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "aomori-ken_kaiha_20260308.html",
+      "sha256": "c8f20952ea4d856eb24c7955f3166a4e8a47ff157d7d09465aad025068ca9abf",
+      "bytes": 13556,
+      "fetchedAt": "2026-10-31T09:33:08.810Z",
+      "fetchedFrom": "https://web.archive.org/web/20260308062014id_/https://www.pref.aomori.lg.jp/soshiki/gikai/giin-kaiha.html"
+    },
+    {
+      "filename": "aomori-ken_325teirei_sanpi.pdf",
+      "sha256": "dd558651b646ea959e78a7d91ba9b4f302c5aefd78b9ff500c2899212b43ed3e",
+      "bytes": 255566,
+      "fetchedAt": "2026-10-31T09:33:08.812Z",
+      "fetchedFrom": "https://www.pref.aomori.lg.jp/soshiki/gikai/files/325teirei_sanpi.pdf"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "docType": "council-composition",
+  "sourceId": "towada-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:36.536Z",
+  "fiscalYear": "R8",
+  "body": "十和田市議会",
+  "seats": 20,
+  "asOf": "2025-05-26",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "自民公明クラブ",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "江渡信貴",
+        "斉藤重美",
+        "中嶋秀一",
+        "石橋義雄",
+        "小川洋平",
+        "氣田量子",
+        "中尾利香",
+        "山端美樹子"
+      ],
+      "locator": {
+        "file": "towada_kaiha_2023-0112-1707-176.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "黎明親和会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "堰野端展雄",
+        "山端博",
+        "笹渕峰尚",
+        "小山田剛士"
+      ],
+      "locator": {
+        "file": "towada_kaiha_2023-0112-1707-176.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "柊の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "工藤正廣",
+        "戸来伝",
+        "山田洋子",
+        "竹島直樹"
+      ],
+      "locator": {
+        "file": "towada_kaiha_2023-0112-1707-176.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "立憲農民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "久慈年和",
+        "今泉信明",
+        "太田正幸"
+      ],
+      "locator": {
+        "file": "towada_kaiha_2023-0112-1707-176.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小笠原良子"
+      ],
+      "locator": {
+        "file": "towada_kaiha_2023-0112-1707-176.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第13号",
+    "billName": "令和８年度十和田市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "可決",
+    "locator": {
+      "file": "towada_86_p02.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派一覧表（令和７年（2025年）５月26日現在）",
+  "resultTitle": "十和田市議会だより第86号 p.2「議案審議の状況」（令和８年第１回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "十和田市議会だより第86号 p.2「賛否が分かれた議案の審議結果」（令和８年第１回定例会）",
+    "sourceFile": "towada_86_p02.pdf",
+    "columns": [
+      {
+        "label": "山端美樹子",
+        "faction": "自民公明クラブ",
+        "member": "山端美樹子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小山田剛士",
+        "faction": "黎明親和会",
+        "member": "小山田剛士",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田正幸",
+        "faction": "立憲農民クラブ",
+        "member": "太田正幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹島直樹",
+        "faction": "柊の会",
+        "member": "竹島直樹",
+        "stance": "反対"
+      },
+      {
+        "label": "笹渕峰尚",
+        "faction": "黎明親和会",
+        "member": "笹渕峰尚",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田洋子",
+        "faction": "柊の会",
+        "member": "山田洋子",
+        "stance": "反対"
+      },
+      {
+        "label": "今泉信明",
+        "faction": "立憲農民クラブ",
+        "member": "今泉信明",
+        "stance": "賛成"
+      },
+      {
+        "label": "中嶋秀一",
+        "faction": "自民公明クラブ",
+        "member": "中嶋秀一",
+        "stance": "賛成"
+      },
+      {
+        "label": "中尾利香",
+        "faction": "自民公明クラブ",
+        "member": "中尾利香",
+        "stance": "欠席"
+      },
+      {
+        "label": "小笠原良子",
+        "faction": "日本共産党",
+        "member": "小笠原良子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山端博",
+        "faction": "黎明親和会",
+        "member": "山端博",
+        "stance": "賛成"
+      },
+      {
+        "label": "氣田量子",
+        "faction": "自民公明クラブ",
+        "member": "氣田量子",
+        "stance": "賛成"
+      },
+      {
+        "label": "斉藤重美",
+        "faction": "自民公明クラブ",
+        "member": "斉藤重美",
+        "stance": "賛成"
+      },
+      {
+        "label": "久慈年和",
+        "faction": "立憲農民クラブ",
+        "member": "久慈年和",
+        "stance": "賛成"
+      },
+      {
+        "label": "江渡信貴",
+        "faction": "自民公明クラブ",
+        "member": "江渡信貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "堰野端展雄",
+        "faction": "黎明親和会",
+        "member": "堰野端展雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤正廣",
+        "faction": "柊の会",
+        "member": "工藤正廣",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川洋平",
+        "faction": "自民公明クラブ",
+        "member": "小川洋平",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸来伝",
+        "faction": "柊の会",
+        "member": "戸来伝",
+        "stance": "反対"
+      },
+      {
+        "label": "石橋義雄",
+        "faction": "自民公明クラブ",
+        "member": "石橋義雄",
+        "stance": "議長"
+      }
+    ]
+  }
+}

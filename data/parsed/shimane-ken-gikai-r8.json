@@ -1,0 +1,345 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shimane-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:38.583Z",
+  "fiscalYear": "R8",
+  "body": "島根県議会",
+  "seats": 35,
+  "asOf": "2025-06-09",
+  "factions": [
+    {
+      "name": "自由民主党島根県議会議員連盟",
+      "seats": 15,
+      "isIndependent": false,
+      "members": [
+        "五百川純寿",
+        "中村芳信",
+        "田中明美",
+        "久城恵治",
+        "坪内涼二",
+        "福井竜夫",
+        "吉田雅紀",
+        "高橋雅彦",
+        "生越俊一",
+        "山根成二",
+        "池田一",
+        "中島謙二",
+        "園山繁",
+        "大屋俊弘",
+        "絲原德康"
+      ],
+      "locator": {
+        "file": "r070609_kaihabetumeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党ネクスト島根",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "嘉本祐一",
+        "内藤芳秀",
+        "多々納剛人",
+        "野津直嗣",
+        "原拓也",
+        "河内大輔",
+        "森山裕介",
+        "中村絢",
+        "岡本淳",
+        "福田正明"
+      ],
+      "locator": {
+        "file": "r070609_kaihabetumeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民主県民クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "須山隆",
+        "白石恵子",
+        "岩田浩岳",
+        "岸道三",
+        "角智子"
+      ],
+      "locator": {
+        "file": "r070609_kaihabetumeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党島根県議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "吉野和彦",
+        "岡崎綾子"
+      ],
+      "locator": {
+        "file": "r070609_kaihabetumeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党島根県議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "尾村利成",
+        "大国陽介"
+      ],
+      "locator": {
+        "file": "r070609_kaihabetumeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属しない議員（成相安信）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "成相安信"
+      ],
+      "locator": {
+        "file": "r070609_kaihabetumeibo.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第 3 号 議案",
+    "billName": "令和８年度島根県一般会計予算",
+    "sessionLabel": "第４９８回島根県議会（令和８年２月定例会）",
+    "decidedDate": "2026-03-12",
+    "decidedDateLabel": "令和8年3月12日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r0802_giketu_kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和７年６月９日）",
+  "resultTitle": "第４９８回島根県議会（令和８年２月定例会）議案一覧表（議決結果一覧）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "第４９８回島根県議会（令和８年２月定例会）採決結果（議員別採決結果一覧）",
+    "sourceFile": "r0802_giinbetu_kekka.pdf",
+    "columns": [
+      {
+        "label": "中村絢",
+        "faction": "自由民主党ネクスト島根",
+        "member": "中村絢",
+        "stance": "賛成"
+      },
+      {
+        "label": "森山裕介",
+        "faction": "自由民主党ネクスト島根",
+        "member": "森山裕介",
+        "stance": "賛成"
+      },
+      {
+        "label": "河内大輔",
+        "faction": "自由民主党ネクスト島根",
+        "member": "河内大輔",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡崎綾子",
+        "faction": "公明党島根県議団",
+        "member": "岡崎綾子",
+        "stance": "賛成"
+      },
+      {
+        "label": "野津直嗣",
+        "faction": "自由民主党ネクスト島根",
+        "member": "野津直嗣",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡本淳",
+        "faction": "自由民主党ネクスト島根",
+        "member": "岡本淳",
+        "stance": "賛成"
+      },
+      {
+        "label": "岸道三",
+        "faction": "民主県民クラブ",
+        "member": "岸道三",
+        "stance": "賛成"
+      },
+      {
+        "label": "久城恵治",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "久城恵治",
+        "stance": "賛成"
+      },
+      {
+        "label": "坪内涼二",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "坪内涼二",
+        "stance": "賛成"
+      },
+      {
+        "label": "原拓也",
+        "faction": "自由民主党ネクスト島根",
+        "member": "原拓也",
+        "stance": "賛成"
+      },
+      {
+        "label": "福井竜夫",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "福井竜夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "多々納剛人",
+        "faction": "自由民主党ネクスト島根",
+        "member": "多々納剛人",
+        "stance": "賛成"
+      },
+      {
+        "label": "内藤芳秀",
+        "faction": "自由民主党ネクスト島根",
+        "member": "内藤芳秀",
+        "stance": "賛成"
+      },
+      {
+        "label": "大国陽介",
+        "faction": "日本共産党島根県議団",
+        "member": "大国陽介",
+        "stance": "反対"
+      },
+      {
+        "label": "田中明美",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "田中明美",
+        "stance": "賛成"
+      },
+      {
+        "label": "嘉本祐一",
+        "faction": "自由民主党ネクスト島根",
+        "member": "嘉本祐一",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉野和彦",
+        "faction": "公明党島根県議団",
+        "member": "吉野和彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田雅紀",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "吉田雅紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋雅彦",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "高橋雅彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩田浩岳",
+        "faction": "民主県民クラブ",
+        "member": "岩田浩岳",
+        "stance": "賛成"
+      },
+      {
+        "label": "生越俊一",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "生越俊一",
+        "stance": "賛成"
+      },
+      {
+        "label": "山根成二",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "山根成二",
+        "stance": "賛成"
+      },
+      {
+        "label": "須山隆",
+        "faction": "民主県民クラブ",
+        "member": "須山隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島謙二",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "中島謙二",
+        "stance": "賛成"
+      },
+      {
+        "label": "角智子",
+        "faction": "民主県民クラブ",
+        "member": "角智子",
+        "stance": "賛成"
+      },
+      {
+        "label": "白石恵子",
+        "faction": "民主県民クラブ",
+        "member": "白石恵子",
+        "stance": "賛成"
+      },
+      {
+        "label": "尾村利成",
+        "faction": "日本共産党島根県議団",
+        "member": "尾村利成",
+        "stance": "反対"
+      },
+      {
+        "label": "園山繁",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "園山繁",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村芳信",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "中村芳信",
+        "stance": "賛成"
+      },
+      {
+        "label": "大屋俊弘",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "大屋俊弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "絲原德康",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "絲原德康",
+        "stance": "賛成"
+      },
+      {
+        "label": "五百川純寿",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "五百川純寿",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田正明",
+        "faction": "自由民主党ネクスト島根",
+        "member": "福田正明",
+        "stance": "欠席"
+      },
+      {
+        "label": "成相安信",
+        "faction": "会派に属しない議員（成相安信）",
+        "member": "成相安信",
+        "stance": "反対"
+      },
+      {
+        "label": "池田一",
+        "faction": "自由民主党島根県議会議員連盟",
+        "member": "池田一",
+        "stance": "議長"
+      }
+    ]
+  }
+}

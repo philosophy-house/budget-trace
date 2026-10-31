@@ -1,0 +1,19 @@
+{
+  "sourceId": "kurayoshi-shigikai-r8",
+  "files": [
+    {
+      "filename": "R080317_giketsukekka_giinbetsu.pdf",
+      "sha256": "fa189506b48798fd4f9604c4896262ecafdf98b980c68162ffa943b5a60404b2",
+      "bytes": 87961,
+      "fetchedAt": "2026-10-31T09:33:08.862Z",
+      "fetchedFrom": "https://www.city.kurayoshi.lg.jp/secure/4230/R080317%E3%80%91%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%EF%BC%88%E8%AD%B0%E5%93%A1%E5%88%A5%EF%BC%89.pdf"
+    },
+    {
+      "filename": "02_R07_honntai.pdf",
+      "sha256": "3f329615d2d5057d6e93ea6546d43789f2c545dfde1a637aaaec56c7a422d0c9",
+      "bytes": 1193451,
+      "fetchedAt": "2026-10-31T09:33:08.864Z",
+      "fetchedFrom": "https://www.city.kurayoshi.lg.jp/secure/3971/02_R07%E6%9C%AC%E4%BD%93%EF%BC%88%E5%AE%8C%E6%88%90%E7%89%88%EF%BC%89.pdf"
+    }
+  ]
+}

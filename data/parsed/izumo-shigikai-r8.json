@@ -1,0 +1,333 @@
+{
+  "docType": "council-composition",
+  "sourceId": "izumo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:38.897Z",
+  "fiscalYear": "R8",
+  "body": "出雲市議会",
+  "seats": 30,
+  "asOf": "2025-04-17",
+  "teisu": 30,
+  "factions": [
+    {
+      "name": "真誠クラブ",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "吉岡拓也",
+        "成相寛之",
+        "川上雅文",
+        "福田実",
+        "今岡真治",
+        "児玉俊雄",
+        "寺本淳一",
+        "伊藤繁満",
+        "板垣成二",
+        "萬代輝正"
+      ],
+      "locator": {
+        "file": "wb20260219032924_izumo_roster.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "平成クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "大村朋寛",
+        "糸賀太郎",
+        "今岡久人",
+        "大場利信",
+        "保科孝充",
+        "宮本享",
+        "長廻利行"
+      ],
+      "locator": {
+        "file": "wb20260219032924_izumo_roster.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "政雲クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "坂本祐麻",
+        "三加茂圭祐",
+        "鐘推義憲",
+        "湯淺啓史"
+      ],
+      "locator": {
+        "file": "wb20260219032924_izumo_roster.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "樋野千晴",
+        "石橋広信",
+        "錦織稔"
+      ],
+      "locator": {
+        "file": "wb20260219032924_izumo_roster.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "三島好弘",
+        "大谷良治"
+      ],
+      "locator": {
+        "file": "wb20260219032924_izumo_roster.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "𠮷井安見",
+        "後藤由美"
+      ],
+      "locator": {
+        "file": "wb20260219032924_izumo_roster.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に属さない（長島和孝）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "長島和孝"
+      ],
+      "locator": {
+        "file": "wb20260219032924_izumo_roster.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "会派に属さない（板倉一郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "板倉一郎"
+      ],
+      "locator": {
+        "file": "wb20260219032924_izumo_roster.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第１０９号",
+    "billName": "令和８年度（2026）出雲市一般会計予算",
+    "sessionLabel": "令和７年度（2025）第５回出雲市議会（定例会）",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R7-5_saiketugaiyou.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議員紹介 議員名簿（会派欄つき・2026年2月19日の魚拓）",
+  "resultTitle": "令和７年度（2025）第５回出雲市議会（定例会） 採決結果概要",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和７年度（2025）第５回出雲市議会（定例会） 議員別採決結果",
+    "sourceFile": "R7-5_giinnbetusaiketu.pdf",
+    "columns": [
+      {
+        "label": "大村朋寛",
+        "faction": "平成クラブ",
+        "member": "大村朋寛",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂本祐麻",
+        "faction": "政雲クラブ",
+        "member": "坂本祐麻",
+        "stance": "賛成"
+      },
+      {
+        "label": "糸賀太郎",
+        "faction": "平成クラブ",
+        "member": "糸賀太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "三加茂圭祐",
+        "faction": "政雲クラブ",
+        "member": "三加茂圭祐",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉岡拓也",
+        "faction": "真誠クラブ",
+        "member": "吉岡拓也",
+        "stance": "賛成"
+      },
+      {
+        "label": "成相寛之",
+        "faction": "真誠クラブ",
+        "member": "成相寛之",
+        "stance": "賛成"
+      },
+      {
+        "label": "樋野千晴",
+        "faction": "公明党",
+        "member": "樋野千晴",
+        "stance": "賛成"
+      },
+      {
+        "label": "長島和孝",
+        "faction": "会派に属さない（長島和孝）",
+        "member": "長島和孝",
+        "stance": "反対"
+      },
+      {
+        "label": "三島好弘",
+        "faction": "市民クラブ",
+        "member": "三島好弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "川上雅文",
+        "faction": "真誠クラブ",
+        "member": "川上雅文",
+        "stance": "賛成"
+      },
+      {
+        "label": "井安見",
+        "faction": "日本共産党",
+        "member": "𠮷井安見",
+        "stance": "反対"
+      },
+      {
+        "label": "福田実",
+        "faction": "真誠クラブ",
+        "member": "福田実",
+        "stance": "賛成"
+      },
+      {
+        "label": "石橋広信",
+        "faction": "公明党",
+        "member": "石橋広信",
+        "stance": "賛成"
+      },
+      {
+        "label": "鐘推義憲",
+        "faction": "政雲クラブ",
+        "member": "鐘推義憲",
+        "stance": "賛成"
+      },
+      {
+        "label": "今岡久人",
+        "faction": "平成クラブ",
+        "member": "今岡久人",
+        "stance": "賛成"
+      },
+      {
+        "label": "今岡真治",
+        "faction": "真誠クラブ",
+        "member": "今岡真治",
+        "stance": "賛成"
+      },
+      {
+        "label": "後藤由美",
+        "faction": "日本共産党",
+        "member": "後藤由美",
+        "stance": "反対"
+      },
+      {
+        "label": "児玉俊雄",
+        "faction": "真誠クラブ",
+        "member": "児玉俊雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "錦織稔",
+        "faction": "公明党",
+        "member": "錦織稔",
+        "stance": "賛成"
+      },
+      {
+        "label": "大谷良治",
+        "faction": "市民クラブ",
+        "member": "大谷良治",
+        "stance": "賛成"
+      },
+      {
+        "label": "湯淺啓史",
+        "faction": "政雲クラブ",
+        "member": "湯淺啓史",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺本淳一",
+        "faction": "真誠クラブ",
+        "member": "寺本淳一",
+        "stance": "賛成"
+      },
+      {
+        "label": "大場利信",
+        "faction": "平成クラブ",
+        "member": "大場利信",
+        "stance": "賛成"
+      },
+      {
+        "label": "保科孝充",
+        "faction": "平成クラブ",
+        "member": "保科孝充",
+        "stance": "賛成"
+      },
+      {
+        "label": "板垣成二",
+        "faction": "真誠クラブ",
+        "member": "板垣成二",
+        "stance": "賛成"
+      },
+      {
+        "label": "萬代輝正",
+        "faction": "真誠クラブ",
+        "member": "萬代輝正",
+        "stance": "賛成"
+      },
+      {
+        "label": "板倉一郎",
+        "faction": "会派に属さない（板倉一郎）",
+        "member": "板倉一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮本享",
+        "faction": "平成クラブ",
+        "member": "宮本享",
+        "stance": "賛成"
+      },
+      {
+        "label": "長廻利行",
+        "faction": "平成クラブ",
+        "member": "長廻利行",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤繁満",
+        "faction": "真誠クラブ",
+        "member": "伊藤繁満",
+        "stance": "議長"
+      }
+    ]
+  }
+}

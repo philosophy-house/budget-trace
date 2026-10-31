@@ -1,0 +1,33 @@
+{
+  "sourceId": "tendo-shigikai-r8",
+  "files": [
+    {
+      "filename": "tendo_kaiha_kousei_20250713.html",
+      "sha256": "20f824a72713108d28f6fd22ecca5f6f05224ee4eef27e794086422b7a49823a",
+      "bytes": 25826,
+      "fetchedAt": "2026-10-31T09:33:08.828Z",
+      "fetchedFrom": "https://web.archive.org/web/20250713204106id_/https://www.city.tendo.yamagata.jp/congress/kousei/kaiha_kousei.html"
+    },
+    {
+      "filename": "tendo_kaigiyotei_kaigikekka_07.html",
+      "sha256": "af8185074e49bebd815b10ab8bd76f944565eedd1ad37e1ffbba17ecf3034f28",
+      "bytes": 65747,
+      "fetchedAt": "2026-10-31T09:33:08.829Z",
+      "fetchedFrom": "https://www.city.tendo.yamagata.jp/congress/kaigiyotei/kaigiyotei_kaigikekka_07.html"
+    },
+    {
+      "filename": "tendo_shigikai_ni_tsuite.html",
+      "sha256": "c2eeb3695bebf0e154cb8b98df881c9719f4240d65b2b944ee19cf472080407a",
+      "bytes": 27046,
+      "fetchedAt": "2026-10-31T09:33:08.829Z",
+      "fetchedFrom": "https://www.city.tendo.yamagata.jp/congress/gikainitsuite/shigikai_ni_tsuite.html"
+    },
+    {
+      "filename": "tendo_r7seimukatudouhisyuseigo.pdf",
+      "sha256": "946bec501caa8c3ac4458c1d46d79ca45528144c16965e59f885f8f82d6faa54",
+      "bytes": 640088,
+      "fetchedAt": "2026-10-31T09:33:08.830Z",
+      "fetchedFrom": "https://www.city.tendo.yamagata.jp/congress/katsudou/r7seimukatudouhisyuseigo.pdf"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sakata-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:36.746Z",
+  "fiscalYear": "R8",
+  "body": "酒田市議会",
+  "seats": 25,
+  "asOf": "2025-11-13",
+  "teisu": 25,
+  "factions": [
+    {
+      "name": "新和会",
+      "seats": 13,
+      "isIndependent": false,
+      "members": [
+        "佐藤伸二",
+        "高橋千代夫",
+        "佐藤猛",
+        "進藤晃",
+        "市村浩一",
+        "齋藤直",
+        "松本国博",
+        "佐藤喜紀",
+        "安藤浩夫",
+        "伊藤欣哉",
+        "遠田敏子",
+        "守屋紀彦",
+        "杉山道弘"
+      ],
+      "locator": {
+        "file": "sakata_kaiha_20260315.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "志友会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "後藤仁",
+        "田中廣",
+        "冨樫覚",
+        "後藤啓",
+        "池田博夫",
+        "田中斉"
+      ],
+      "locator": {
+        "file": "sakata_kaiha_20260315.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市政研究会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "佐藤弘",
+        "佐藤千佳夫",
+        "ガンバリーニ杏子"
+      ],
+      "locator": {
+        "file": "sakata_kaiha_20260315.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "大壁洋平",
+        "市原栄子",
+        "武田恵子"
+      ],
+      "locator": {
+        "file": "sakata_kaiha_20260315.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第１７号",
+    "billName": "令和８年度酒田市一般会計予算",
+    "sessionLabel": "令和８年定例会 第４回３月定例議会",
+    "decidedDate": "2026-03-12",
+    "decidedDateLabel": "令和8年3月12日",
+    "result": "可決",
+    "locator": {
+      "file": "sakata_R08-03.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議員紹介（会派別）（更新日：2025年11月13日）",
+  "resultTitle": "令和８年定例会 第４回３月定例議会 議決結果一覧表"
+}
