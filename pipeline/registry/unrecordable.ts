@@ -3159,7 +3159,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
 
 
   {
-    // 雲仙市（422134）R7〜R2。「当初予算（案）資料」が複合機（Canon iR-ADV）のスキャン画像で、テキスト層は表紙の数十字だけ。
+    // 雲仙市（422134）R7〜R2。「当初予算（案）資料」が複合機（Canon iR-ADV）のスキャン画像で、テキスト層は R6 の表紙・目次（p.1・約580字）のほかは0字。
     //   予算説明書「知っておきたい雲仙市のしごと」は円グラフと万円単位の説明で款別の全件と前年度列が無い（§13-115）。
     code: "422134", name: "雲仙市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3", "R2"],
     categories: ["scanned-image"],
@@ -3203,7 +3203,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     code: "243418", name: "菰野町", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
     categories: ["scanned-image"],
     reason: "款ごとの表が載っている予算書がスキャン画像で、文字の情報が無い。",
-    url: "https://www2.town.komono.mie.jp/life/6/24/97/",
+    url: "https://web.archive.org/web/20220705132318/http://www2.town.komono.mie.jp/www/contents/1647929767418/simple/r4ippan0gou.pdf",
     checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-115",
   },
 
