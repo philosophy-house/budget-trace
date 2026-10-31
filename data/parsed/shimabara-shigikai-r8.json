@@ -1,0 +1,157 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shimabara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:40:17.527Z",
+  "fiscalYear": "R8",
+  "body": "島原市議会",
+  "seats": 19,
+  "asOf": "2025-06-23",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "実践クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "北浦守金",
+        "馬渡光春",
+        "森園浩太郎"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "カラフル",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松坂昌應",
+        "本田みえ"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "庶民の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "林田勉",
+        "本多松弘",
+        "種村繁德"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "長浜会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "楠晋典"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民平和の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "草野勝義"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "平成会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "本多秀樹",
+        "馬場勝郎",
+        "濱﨑清志"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "新風会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "永田光臣",
+        "本田順也",
+        "上田義定"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "島原新時代",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "松井扶公"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "松﨑広大"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "一倉澄子"
+      ],
+      "locator": {
+        "file": "page2519.html",
+        "row": 10
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第19号議案",
+    "billName": "令和８年度島原市一般会計予算",
+    "sessionLabel": "令和８年３月島原市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kaigikekka_r0803.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "常任委員会名簿（最終更新日 2025年6月23日）",
+  "resultTitle": "令和８年３月島原市議会定例会 会議結果"
+}

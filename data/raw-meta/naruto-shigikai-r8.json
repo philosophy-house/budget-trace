@@ -1,0 +1,19 @@
+{
+  "sourceId": "naruto-shigikai-r8",
+  "files": [
+    {
+      "filename": "kouseihyou071225.pdf",
+      "sha256": "c92b319819b547c1796a63b2c758c835852b6b0f0d7826ed99ea2b6ac085eac9",
+      "bytes": 122685,
+      "fetchedAt": "2026-10-31T09:33:08.850Z",
+      "fetchedFrom": "https://web.archive.org/web/20260316095011id_/https://www.city.naruto.lg.jp/gikai/docs/2026010600250/file_contents/2026010600250__files_00650335_kouseihyou071225.pdf"
+    },
+    {
+      "filename": "r8-1tei.pdf",
+      "sha256": "22633ff1400a50a3cd53e3a43d9a616434cb1dd35f781080e4ad6d25d4787db8",
+      "bytes": 148857,
+      "fetchedAt": "2026-10-31T09:33:08.851Z",
+      "fetchedFrom": "https://www.city.naruto.lg.jp/gikai/docs/2025122500120/file_contents/r8-1tei.pdf"
+    }
+  ]
+}

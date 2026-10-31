@@ -1,0 +1,26 @@
+{
+  "sourceId": "mutsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "mutsu_kaiha-iinkai_20251215.html",
+      "sha256": "c962920957a95a2d2a496364dba03c0e30e2533ed6e37add99d16df9175983d0",
+      "bytes": 19576,
+      "fetchedAt": "2026-10-31T09:33:08.813Z",
+      "fetchedFrom": "https://web.archive.org/web/20251215051926id_/https://www.city.mutsu.lg.jp/gikai/giin/kaiha-iinkai.html"
+    },
+    {
+      "filename": "mutsu_267_sanpi.pdf",
+      "sha256": "b0b6f3f628c16c0437c1a9e8fe25c8e342f3132292ea840830e6b0d6e93f741f",
+      "bytes": 250522,
+      "fetchedAt": "2026-10-31T09:33:08.814Z",
+      "fetchedFrom": "https://www.city.mutsu.lg.jp/gikai/kiroku/files/267_sanpi.pdf"
+    },
+    {
+      "filename": "mutsu_267-honkaigi.pdf",
+      "sha256": "0dd109e00c8cb1e5cb53ec66b1a7766b4dd5b6e65af58d013eb267e5622eafd1",
+      "bytes": 66614,
+      "fetchedAt": "2026-10-31T09:33:08.814Z",
+      "fetchedFrom": "https://www.city.mutsu.lg.jp/gikai/kiroku/files/267-honkaigi.pdf"
+    }
+  ]
+}

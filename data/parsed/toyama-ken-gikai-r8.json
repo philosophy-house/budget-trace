@@ -1,0 +1,112 @@
+{
+  "docType": "council-composition",
+  "sourceId": "toyama-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:38:58.954Z",
+  "fiscalYear": "R8",
+  "body": "富山県議会",
+  "seats": 40,
+  "asOf": "2025-06-10",
+  "teisu": 40,
+  "factions": [
+    {
+      "name": "自由民主党富山県議会議員会",
+      "seats": 35,
+      "isIndependent": false,
+      "members": [
+        "横田誠二",
+        "尾山謙二郎",
+        "光澤智樹",
+        "大井陽司",
+        "嶋川武秀",
+        "寺口智之",
+        "鍋嶋慎一郎",
+        "瀧田孝吉",
+        "立村好司",
+        "谷村一成",
+        "澤﨑豊",
+        "庄司昌弘",
+        "大門良輔",
+        "瀬川侑希",
+        "安達孝彦",
+        "針山健史",
+        "藤井大輔",
+        "種部恭子",
+        "八嶋浩久",
+        "川上浩",
+        "亀山彰",
+        "川島国",
+        "山崎宗良",
+        "井上学",
+        "永森直人",
+        "奥野詠子",
+        "瘧師富士夫",
+        "筱岡貞郎",
+        "武田慎一",
+        "山本徹",
+        "宮本光明",
+        "五十嵐務",
+        "中川忠昭",
+        "鹿熊正一",
+        "米原蕃"
+      ],
+      "locator": {
+        "file": "kaiha_20260310000249.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "富山県議会立憲民主党議員会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岡﨑信也",
+        "井加田まり",
+        "菅沢裕明"
+      ],
+      "locator": {
+        "file": "kaiha_20260310000249.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党富山県議員会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "火爪弘子"
+      ],
+      "locator": {
+        "file": "kaiha_20260310000249.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党富山県議員会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "佐藤則寿"
+      ],
+      "locator": {
+        "file": "kaiha_20260310000249.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度富山県一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "giketsukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別議員名簿（更新日：2025年6月10日・2026-03-10 の魚拓）",
+  "resultTitle": "令和8年2月定例会 議案議決結果（予算、条例 等）"
+}

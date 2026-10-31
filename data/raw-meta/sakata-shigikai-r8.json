@@ -1,0 +1,26 @@
+{
+  "sourceId": "sakata-shigikai-r8",
+  "files": [
+    {
+      "filename": "sakata_kaiha_20260315.html",
+      "sha256": "a9091fa78ab4fdf3a0bab535387da874e0b8e4c1a2daa92dcc4489e24b2765fe",
+      "bytes": 19298,
+      "fetchedAt": "2026-10-31T09:33:08.826Z",
+      "fetchedFrom": "https://web.archive.org/web/20260315024908id_/https://www.city.sakata.lg.jp/shisei/shigikai/giin/kaiha.html"
+    },
+    {
+      "filename": "sakata_R08-03.pdf",
+      "sha256": "bb4fcb0ba3da05e6c3b58412d60ee231a232ad75d30289c3a1279c45b3cdd06f",
+      "bytes": 127549,
+      "fetchedAt": "2026-10-31T09:33:08.827Z",
+      "fetchedFrom": "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/giketsu-kekka.files/R08-03.pdf"
+    },
+    {
+      "filename": "sakata_shigikai.html",
+      "sha256": "4107b7f8a4e135a10482481327ccf6e6ee4971a657dfc26c3c1804f530ee2e76",
+      "bytes": 22519,
+      "fetchedAt": "2026-10-31T09:33:08.827Z",
+      "fetchedFrom": "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/shigikai.html"
+    }
+  ]
+}

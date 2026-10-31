@@ -1,0 +1,92 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tendo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:37.077Z",
+  "fiscalYear": "R8",
+  "body": "天童市議会",
+  "seats": 21,
+  "asOf": "2025-04-01",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "清新会",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "水戸保",
+        "鈴木照一",
+        "水戸芳美",
+        "武田正二",
+        "佐藤俊弥",
+        "古澤義弘",
+        "佐藤孝一",
+        "滝口茂之",
+        "駒延法子",
+        "新関知己"
+      ],
+      "locator": {
+        "file": "tendo_kaiha_kousei_20250713.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "てんどう創生の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "遠藤喜昭",
+        "三宅和広",
+        "林正人",
+        "半田大介",
+        "斉藤美千代"
+      ],
+      "locator": {
+        "file": "tendo_kaiha_kousei_20250713.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "清風",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "村山俊雄",
+        "横山愛"
+      ],
+      "locator": {
+        "file": "tendo_kaiha_kousei_20250713.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "遠藤敬知",
+        "伊藤和子",
+        "狩野佳和",
+        "野口さつき"
+      ],
+      "locator": {
+        "file": "tendo_kaiha_kousei_20250713.html",
+        "row": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第72号",
+    "billName": "令和８年度天童市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "tendo_kaigiyotei_kaigikekka_07.html"
+    }
+  },
+  "rosterTitle": "天童市議会会派構成名簿（令和7年4月1日現在）",
+  "resultTitle": "会議結果（令和8年3月定例会の会議結果）"
+}

@@ -1,0 +1,168 @@
+{
+  "docType": "council-composition",
+  "sourceId": "himi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:38:59.263Z",
+  "fiscalYear": "R8",
+  "body": "氷見市議会",
+  "seats": 16,
+  "asOf": "2025-12-16",
+  "factions": [
+    {
+      "name": "自民同志会",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "福嶋正浩",
+        "北宣市",
+        "屋敷夕貴",
+        "稲積佐門",
+        "越田喜一郎",
+        "萬谷大作",
+        "竹岸秀晃",
+        "松原博之",
+        "上坊寺勇人",
+        "積良岳",
+        "萩山峰人",
+        "嶋田茂"
+      ],
+      "locator": {
+        "file": "2236_20260223.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "荻野清隆",
+        "穴倉陽子",
+        "正保哲也",
+        "澤田勇"
+      ],
+      "locator": {
+        "file": "2236_20260223.html",
+        "row": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度氷見市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "202603giketukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "議会の構成について 議員名簿一覧（議席番号順・2025年12月16日現在・議決前の魚拓）",
+  "resultTitle": "議決結果一覧表（令和８年３月定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議決結果一覧表（令和８年３月定例会） 議員別賛否一覧",
+    "sourceFile": "202603giketukekka.pdf",
+    "columns": [
+      {
+        "label": "福嶋正浩",
+        "faction": "自民同志会",
+        "member": "福嶋正浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "北宣市",
+        "faction": "自民同志会",
+        "member": "北宣市",
+        "stance": "賛成"
+      },
+      {
+        "label": "屋敷夕貴",
+        "faction": "自民同志会",
+        "member": "屋敷夕貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲積佐門",
+        "faction": "自民同志会",
+        "member": "稲積佐門",
+        "stance": "賛成"
+      },
+      {
+        "label": "越田喜一郎",
+        "faction": "自民同志会",
+        "member": "越田喜一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "萬谷大作",
+        "faction": "自民同志会",
+        "member": "萬谷大作",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹岸秀晃",
+        "faction": "自民同志会",
+        "member": "竹岸秀晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "松原博之",
+        "faction": "自民同志会",
+        "member": "松原博之",
+        "stance": "賛成"
+      },
+      {
+        "label": "上坊寺勇人",
+        "faction": "自民同志会",
+        "member": "上坊寺勇人",
+        "stance": "賛成"
+      },
+      {
+        "label": "積良岳",
+        "faction": "自民同志会",
+        "member": "積良岳",
+        "stance": "賛成"
+      },
+      {
+        "label": "萩山峰人",
+        "faction": "自民同志会",
+        "member": "萩山峰人",
+        "stance": "賛成"
+      },
+      {
+        "label": "嶋田茂",
+        "faction": "自民同志会",
+        "member": "嶋田茂",
+        "stance": "賛成"
+      },
+      {
+        "label": "荻野清隆",
+        "faction": "無会派",
+        "member": "荻野清隆",
+        "stance": "反対"
+      },
+      {
+        "label": "穴倉陽子",
+        "faction": "無会派",
+        "member": "穴倉陽子",
+        "stance": "反対"
+      },
+      {
+        "label": "澤田勇",
+        "faction": "無会派",
+        "member": "澤田勇",
+        "stance": "反対"
+      },
+      {
+        "label": "正保哲也",
+        "faction": "無会派",
+        "member": "正保哲也",
+        "stance": "議長"
+      }
+    ]
+  }
+}

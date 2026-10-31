@@ -1,0 +1,33 @@
+{
+  "sourceId": "beppu-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihameibo.pdf",
+      "sha256": "74d5d2320816fc72a98a9f2a48f8c034b8345e441711bedaaa536f8caa3e6664",
+      "bytes": 249494,
+      "fetchedAt": "2026-10-31T09:38:51.654Z",
+      "fetchedFrom": "https://www.city.beppu.oita.jp/gikai/03meibo/pdf/kaihameibo.pdf"
+    },
+    {
+      "filename": "sanpi01.pdf",
+      "sha256": "859379b597a9201c43727ded4863f54ffda4d01d4ef099ed41aea86deb378de6",
+      "bytes": 396098,
+      "fetchedAt": "2026-10-31T09:38:51.654Z",
+      "fetchedFrom": "https://www.city.beppu.oita.jp/gikai/06kekka/01regular/pdf/r08/sanpi01.pdf"
+    },
+    {
+      "filename": "04sikumi_index.html",
+      "sha256": "67205b70800846eb79221f84198d57692f708ce53eafa94a581bf4ceb2690fc1",
+      "bytes": 8314,
+      "fetchedAt": "2026-10-31T09:38:51.654Z",
+      "fetchedFrom": "https://www.city.beppu.oita.jp/gikai/04sikumi/index.html"
+    },
+    {
+      "filename": "rekidai.html",
+      "sha256": "bc10907e98189aa100b09d34dfae41069d62140168c81f7c0bb805f8e61fb2e2",
+      "bytes": 24627,
+      "fetchedAt": "2026-10-31T09:38:51.655Z",
+      "fetchedFrom": "https://www.city.beppu.oita.jp/gikai/02chairman/rekidai.html"
+    }
+  ]
+}

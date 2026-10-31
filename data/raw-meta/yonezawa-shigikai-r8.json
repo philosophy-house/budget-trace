@@ -1,0 +1,33 @@
+{
+  "sourceId": "yonezawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "yonezawa_8595_20251112.html",
+      "sha256": "db9729b2d77e8052a498ec368ad74343d1b55fcf6655a0db07d2ae56dd96adca",
+      "bytes": 47905,
+      "fetchedAt": "2026-10-31T09:33:08.833Z",
+      "fetchedFrom": "https://web.archive.org/web/20251112223134id_/https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html"
+    },
+    {
+      "filename": "yonezawa_2603sanpi.pdf",
+      "sha256": "ac41f2d53e2d1021e0638ed50af409f785de596ce8f542a6c396f263ee2c170b",
+      "bytes": 92166,
+      "fetchedAt": "2026-10-31T09:33:08.834Z",
+      "fetchedFrom": "https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf"
+    },
+    {
+      "filename": "yonezawa_dayori_186.pdf",
+      "sha256": "fbadc7a339ec02b412bb96fa8e110fd39ed19cc6875558ab13e33e6e9056acd2",
+      "bytes": 4859153,
+      "fetchedAt": "2026-10-31T09:33:08.837Z",
+      "fetchedFrom": "https://www.city.yonezawa.yamagata.jp/material/files/group/38/dayori_186.pdf"
+    },
+    {
+      "filename": "yonezawa_444.html",
+      "sha256": "5fe6bf15c13579651c8294d0670a9605660e78fa46e4766fff786b70c334580d",
+      "bytes": 47302,
+      "fetchedAt": "2026-10-31T09:33:08.838Z",
+      "fetchedFrom": "https://www.city.yonezawa.yamagata.jp/soshiki/12/1037/6/2/444.html"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "sourceId": "toyama-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_20260310000249.html",
+      "sha256": "319096298b335914f2555326386f2dd81288fe8a02d5bcb2bb363e1fb6faecd6",
+      "bytes": 21146,
+      "fetchedAt": "2026-10-31T09:38:51.643Z",
+      "fetchedFrom": "https://web.archive.org/web/20260310000249id_/https://www.pref.toyama.jp/0100/gikai/members/kaiha.html"
+    },
+    {
+      "filename": "kaiha_20260323133721.html",
+      "sha256": "319096298b335914f2555326386f2dd81288fe8a02d5bcb2bb363e1fb6faecd6",
+      "bytes": 21146,
+      "fetchedAt": "2026-10-31T09:38:51.643Z",
+      "fetchedFrom": "https://web.archive.org/web/20260323133721id_/https://www.pref.toyama.jp/0100/gikai/members/kaiha.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "unei.html",
+      "sha256": "ec55abb541a41143ac108bb6006376227e40798cdda4f6c118de3571060550b4",
+      "bytes": 19467,
+      "fetchedAt": "2026-10-31T09:38:51.643Z",
+      "fetchedFrom": "https://www.pref.toyama.jp/0100/gikai/structure/unei.html"
+    },
+    {
+      "filename": "giketsukekka.pdf",
+      "sha256": "77050d1ad87ad3a31a8afe39e2e36821681c2973d23637742be50acf16395272",
+      "bytes": 170586,
+      "fetchedAt": "2026-10-31T09:38:51.644Z",
+      "fetchedFrom": "https://www.pref.toyama.jp/documents/53928/giketsukekka.pdf"
+    },
+    {
+      "filename": "giketsu080323.pdf",
+      "sha256": "b6637957cf443d9738496aa117036a9148a2a9db08edaa718cd7ab080ffadeb0",
+      "bytes": 138693,
+      "fetchedAt": "2026-10-31T09:38:51.644Z",
+      "fetchedFrom": "https://www.pref.toyama.jp/documents/53928/giketsu080323.pdf"
+    }
+  ]
+}

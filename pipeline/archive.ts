@@ -17,19 +17,53 @@
 //
 // 行儀: 逐次実行・リクエスト間に間隔を置く（SPN の匿名レートリミットに配慮）。
 // 失敗はエラーにせず台帳に記録しない（次回実行で再試行される）。
-import { existsSync } from "node:fs";
+//
+// 実行の作法（2026-10-31・docs/proposals/wayback-bottleneck.md の第1段・lib/archive-state.ts）:
+// - **ワークツリーごとにロック**（`data/.archive.lock`）。2本目は止まる（`--wait` で空くまで待つ）。
+//   待つだけなら `--wait-only`。derive はロックが生きていたら止まる
+// - **SPN の要求の間隔はワークツリーをまたいで共有**（匿名の枠は IP ごと）
+// - **全要求にタイムアウト**。**SPN が続けて落ちたら要求をやめる**（止まっている日に全件を試して
+//   全件「未確認」にしない）。CDX が続けて引けなければ実行ごと止める
+// - **試行の結末を型つきで記録**（git の共通ディレクトリの archive-attempts.jsonl）。
+//   集計は `bun run pipeline:archive-attempts`
+import { existsSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 import { SOURCES } from "./registry/sources";
-import { DATA_DIR, readJson, readRawMeta, writeJson } from "./lib/store";
+import { DATA_DIR, readJson, readRawMeta } from "./lib/store";
 import { MIB, VERIFIABLE_RE, classifyVerify } from "./lib/wayback";
+import {
+  acquireArchiveLock,
+  readAttempts,
+  recordAttempt,
+  waitForArchiveLock,
+  waitForSpnSlot,
+  type AttemptOutcome,
+} from "./lib/archive-state";
 import { archivesLedgerSchema, type ArchiveEntry } from "./types";
 
 const ARCHIVES_PATH = join(DATA_DIR, "archives.json");
 const UA = "budget-trace archive step (github.com/philosophy-house/budget-trace)";
-const SAVE_INTERVAL_MS = 6_000; // SPN への連続要求の間隔
+/**
+ * SPN への要求の間隔（**全ワークツリーで共有**）。6秒では 429 が出た（§9b・2026-08-12）。
+ * 公開文書の匿名の上限は毎分3件なので、それより少し空ける。`ARCHIVE_SPN_INTERVAL_MS` で上書きできる。
+ */
+const SPN_INTERVAL_MS = Number(process.env.ARCHIVE_SPN_INTERVAL_MS ?? 30_000);
 const POLL_TRIES = 10;
 const POLL_INTERVAL_MS = 6_000;
+// タイムアウト。以前は無く、1件が1時間を超えて固まった（第21巡・2026-09-02）。
+// SPN の取得時間の上限は公開文書で2分。照合のダウンロードは数十MBの PDF があるので長めに取る。
+const CDX_TIMEOUT_MS = 60_000;
+const SAVE_TIMEOUT_MS = 150_000;
+const VERIFY_TIMEOUT_MS = 300_000;
+// 429 の待ち直し（SPN・CDX とも）。日次の枠が尽きると翌日まで戻らない（§9b）ので、回数は少なく
+const BACKOFF_MS = [60_000, 180_000];
+// これだけ続けて SPN が落ちたら（spn-down・rate-limited）この実行では要求をやめる
+const SPN_STOP_AFTER = 3;
+// これだけ続けて CDX が引けなければ実行ごと止める（引けないと捕捉の有無が分からない）
+const CDX_STOP_AFTER = 3;
+// これだけ続けて「未確認」（pending・rejected）の URL は、発行元がクローラを弾いている疑いを出す
+const SUSPECT_AFTER = 3;
 // sha256 照合のダウンロードは**一時的な失敗が多い**（#137: Wayback は同じスナップショットでも
 // 転送がランダムに途中で切れる — 港 H31 は 142KB で切れた5日後に同じ URL から全量 1.4MB が
 // 取れて完全一致した）。1回の失敗を台帳に固定しない。
@@ -52,16 +86,46 @@ type Snapshot = { timestamp: string; waybackUrl: string };
  * **revisit 記録**（statuscode "-"）として保存し、このフィルタには**永遠に新しい 200 捕捉が
  * 現れない**（新宿 R5 で実測）。→ 呼び出し側が最新から順に照合し、一致する捕捉を台帳に採る。
  */
-async function snapshots200(url: string): Promise<Snapshot[]> {
+async function snapshots200(url: string, retry = true): Promise<Snapshot[]> {
   const api = `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url)}&output=json&filter=statuscode:200&limit=-50`;
-  const res = await fetch(api, { headers: { "User-Agent": UA } });
-  if (!res.ok) return [];
-  const rows = (await res.json()) as string[][];
-  if (!Array.isArray(rows) || rows.length < 2) return [];
-  return rows
-    .slice(1)
-    .map((r) => ({ timestamp: r[1]!, waybackUrl: `https://web.archive.org/web/${r[1]}/${r[2]}` }))
-    .reverse();
+  // ⚠ **引けなかったことを「捕捉が無い」にしない**（2026-10-31）。以前は `!res.ok` で [] を返していたので、
+  //   CDX が 429/504 の間は全 URL が「未登録」に見えて SPN 要求に落ち、それも 429 で未確認になっていた（§9b）。
+  //   429・5xx は待ち直し、それでも駄目なら CdxError で呼び出し側に知らせる。
+  //   `retry: false` は SPN の後の待ち（呼び出し側が間隔を置いて何度も引く）用で、待ち直さない。
+  const tries = retry ? BACKOFF_MS.length + 1 : 1;
+  let last = "";
+  for (let attempt = 0; attempt < tries; attempt++) {
+    if (attempt > 0) await sleep(BACKOFF_MS[attempt - 1]!);
+    let res: Response;
+    try {
+      res = await fetch(api, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(CDX_TIMEOUT_MS) });
+    } catch (e) {
+      last = `接続できない（${e instanceof Error ? e.message : String(e)}）`;
+      continue;
+    }
+    if (res.status === 429 || res.status >= 500) {
+      res.body?.cancel();
+      last = `HTTP ${res.status}`;
+      continue;
+    }
+    if (!res.ok) throw new CdxError(`HTTP ${res.status}`, res.status);
+    const rows = (await res.json()) as string[][];
+    if (!Array.isArray(rows) || rows.length < 2) return [];
+    return rows
+      .slice(1)
+      .map((r) => ({ timestamp: r[1]!, waybackUrl: `https://web.archive.org/web/${r[1]}/${r[2]}` }))
+      .reverse();
+  }
+  throw new CdxError(`${last}（${tries}回試行）`);
+}
+
+class CdxError extends Error {
+  constructor(
+    message: string,
+    readonly http?: number,
+  ) {
+    super(`CDX が引けない: ${message}`);
+  }
 }
 
 /**
@@ -158,6 +222,7 @@ async function verifySnapshot(sourceId: string, url: string, timestamp: string):
     try {
       const res = await fetch(`https://web.archive.org/web/${ts}id_/${url}`, {
         headers: { "User-Agent": UA },
+        signal: AbortSignal.timeout(VERIFY_TIMEOUT_MS),
       });
       if (!res.ok) {
         lastReason = `コピーの取得が ${res.status}`;
@@ -246,18 +311,88 @@ function verifyNote(v: VerifyResult): string | null {
   }
 }
 
-/** Save Page Now に登録を要求する（結果はポーリングで確認） */
-async function requestSave(url: string): Promise<boolean> {
-  const res = await fetch(`https://web.archive.org/save/${url}`, {
-    headers: { "User-Agent": UA },
-    redirect: "follow",
-  });
-  // 200 のほか、処理受付ページや 302 経由でも登録は進む。429 はレートリミット
-  if (res.status === 429) {
-    console.log(`  ! レートリミット（429）。しばらく待って再実行してください`);
-    return false;
+type SaveResult =
+  | { outcome: "accepted"; http: number }
+  | { outcome: "spn-down" | "rate-limited" | "rejected"; http?: number; detail: string };
+
+/**
+ * Save Page Now に登録を要求する（結果はポーリングで確認）。
+ * **断られた理由を潰さない**（2026-10-31）— 以前は boolean で、520（SPN 全体の停止）も 429（回数の上限）も
+ * 403（拒否）も同じ「未確認」になっていた。間隔は全ワークツリーで共有する（waitForSpnSlot）。
+ */
+async function requestSave(url: string): Promise<SaveResult> {
+  let last: SaveResult = { outcome: "rate-limited", detail: "" };
+  for (let attempt = 0; attempt <= BACKOFF_MS.length; attempt++) {
+    if (attempt > 0) {
+      console.log(`  … 429。${BACKOFF_MS[attempt - 1]! / 1000}秒待って再要求`);
+      await sleep(BACKOFF_MS[attempt - 1]!);
+    }
+    await waitForSpnSlot(SPN_INTERVAL_MS);
+    let res: Response;
+    try {
+      res = await fetch(`https://web.archive.org/save/${url}`, {
+        headers: { "User-Agent": UA },
+        redirect: "follow",
+        signal: AbortSignal.timeout(SAVE_TIMEOUT_MS),
+      });
+    } catch (e) {
+      return { outcome: "spn-down", detail: `接続できない・タイムアウト（${e instanceof Error ? e.message : String(e)}）` };
+    }
+    // 200 のほか、処理受付ページや 302 経由でも登録は進む。
+    // ⚠ 2026-08-24 は 200 のまま本文で「You need to be logged in」を返した（メモリ spn-anonymous-disabled）
+    // 先頭だけ読む — 受理されると捕捉のページへリダイレクトされ、PDF なら数十MBが返る
+    const body = await readHead(res, 64 * 1024);
+    if (res.ok) {
+      if (/You need to be logged in/i.test(body)) {
+        return { outcome: "spn-down", http: res.status, detail: "匿名の要求にログインを求められた" };
+      }
+      return { outcome: "accepted", http: res.status };
+    }
+    const jobFailed = /Job failed/i.test(body) ? "・本文「Job failed」" : "";
+    if (res.status === 429) {
+      last = { outcome: "rate-limited", http: 429, detail: "429（回数の上限）" };
+      continue;
+    }
+    if (res.status >= 500) return { outcome: "spn-down", http: res.status, detail: `HTTP ${res.status}${jobFailed}` };
+    return { outcome: "rejected", http: res.status, detail: `HTTP ${res.status}${jobFailed}` };
   }
-  return res.ok;
+  return { ...last, detail: `${last.detail}が待ち直しても続いた（${BACKOFF_MS.length + 1}回）` };
+}
+
+/** 本文の先頭 limit バイトだけを文字列で返し、残りは捨てる */
+async function readHead(res: Response, limit: number): Promise<string> {
+  const reader = res.body?.getReader();
+  if (!reader) return "";
+  const chunks: Uint8Array[] = [];
+  let n = 0;
+  try {
+    while (n < limit) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      if (value) {
+        chunks.push(value);
+        n += value.length;
+      }
+    }
+  } catch {
+    /* 途中で切れても読めた分で判定する */
+  } finally {
+    reader.cancel().catch(() => {});
+  }
+  return Buffer.concat(chunks).toString("utf8");
+}
+
+/** SPN を止めたときに状態を添える（待ち行列が詰まっているのか、匿名だけ落ちているのかの手掛かり） */
+async function spnSystemStatus(): Promise<string> {
+  try {
+    const res = await fetch("https://web.archive.org/save/status/system", {
+      headers: { "User-Agent": UA },
+      signal: AbortSignal.timeout(15_000),
+    });
+    return `${res.status} ${(await res.text()).slice(0, 400)}`;
+  } catch (e) {
+    return `取得できない（${e instanceof Error ? e.message : String(e)}）`;
+  }
 }
 
 function loadLedger(): ArchiveEntry[] {
@@ -267,21 +402,34 @@ function loadLedger(): ArchiveEntry[] {
 
 function saveLedger(entries: ArchiveEntry[]): void {
   entries.sort((a, b) => a.sourceId.localeCompare(b.sourceId) || a.url.localeCompare(b.url));
-  writeJson(ARCHIVES_PATH, {
+  // **一時ファイルに書いてから入れ替える**（2026-10-31）。4MB を直接上書きすると、書いている最中に
+  // kill されたり別プロセスが読んだりしたとき、途中までの JSON が見える。rename は原子的。
+  const tmp = `${ARCHIVES_PATH}.${process.pid}.tmp`;
+  const doc = {
     note: "一次資料の Wayback Machine スナップショット台帳。再生成/追記: bun run pipeline:archive",
     entries,
-  });
+  };
+  writeFileSync(tmp, JSON.stringify(doc, null, 2) + "\n", "utf8");
+  renameSync(tmp, ARCHIVES_PATH);
 }
 
 const cliArgs = process.argv.slice(2);
 const arg = cliArgs.find((a) => !a.startsWith("--"));
 const force = cliArgs.includes("--force");
 
+// 待つだけ（derive の前などに）。`pgrep` の待ちループは自分のコマンドラインに当たる（メモリ wait-loop-matches-itself）
+if (cliArgs.includes("--wait-only")) {
+  await waitForArchiveLock();
+  process.exit(0);
+}
+
 const targets = SOURCES.filter((s) => !s.fixture && (!arg || s.id === arg));
 if (targets.length === 0) {
   console.error(`ソースが見つかりません: ${arg}`);
   process.exit(1);
 }
+
+await acquireArchiveLock(cliArgs, cliArgs.includes("--wait"));
 
 const ledger = loadLedger();
 // 逐次保存: 対象が多いと実行に時間がかかるため、1件ごとに台帳へ書く（中断しても進捗が残る）。
@@ -312,8 +460,37 @@ const upsert = (e: ArchiveEntry) => {
 let saved = 0;
 let already = 0;
 let failed = 0;
+let skipped = 0;
+let staleHtml = 0;
+// 結末の内訳（試行の記録と同じ語彙）。「未確認」を1つの数にまとめない
+const outcomes = new Map<AttemptOutcome, number>();
+// SPN をやめた理由（やめていなければ null）。やめた後の URL は要求せず `skipped` にする
+let spnStopped: string | null = null;
+let spnFailStreak = 0;
+let cdxFailStreak = 0;
+let cdxStopped: string | null = null;
+// この実行で未確認に終わった URL（最後に過去の試行と合わせ、「続けて未確認」を判定する）
+const unconfirmed: { sourceId: string; url: string }[] = [];
 
-for (const source of targets) {
+/** ISO 8601 → Wayback の14桁（UTC）。日付だけのときは 0 時で埋める */
+const toWaybackTs = (iso: string) => iso.replace(/[-:T]/g, "").slice(0, 14).padEnd(14, "0");
+const waybackTsAgo = (ms: number) => toWaybackTs(new Date(Date.now() - ms).toISOString());
+
+/**
+ * HTML（landing・`kind: "page"` の file）が「使った版」以降であるための下限（2026-10-31）。
+ * HTML は照合できないので、捕捉の日付で寄せるしかない。以前は CDX の最新の捕捉をそのまま記録して
+ * いたため、**使った版より古い捕捉**を指すことがあり（議会の巡で毎回 --force で取り直した・#418〜#423）、
+ * 逆に**再実行のたびに最新の捕捉へ動いて**いた。基準はその URL の raw の取得時刻、無ければ
+ * その資料の最初の取得時刻（landing は raw に入れないことが多い）。
+ */
+const versionFloor = (sourceId: string, url: string): string | null => {
+  const files = readRawMeta(sourceId)?.files ?? [];
+  const own = files.find((f) => f.fetchedFrom === url);
+  const at = own?.fetchedAt ?? files.map((f) => f.fetchedAt).sort()[0];
+  return at ? toWaybackTs(at) : null;
+};
+
+outer: for (const source of targets) {
   const urls: { url: string; kind: "file" | "landing" }[] = [
     ...(source.urls ?? (source.url ? [source.url] : [])).map((u) => ({ url: u, kind: "file" as const })),
     ...(source.landingPage ? [{ url: source.landingPage, kind: "landing" as const }] : []),
@@ -321,6 +498,11 @@ for (const source of targets) {
   for (const { url, kind } of urls) {
     // WARP（国立国会図書館）／Wayback 由来の URL はそれ自体が恒久アーカイブなので登録しない
     if (url.includes("warp.ndl.go.jp") || url.includes("web.archive.org")) continue;
+    const t0 = Date.now();
+    const log = (outcome: AttemptOutcome, extra: { http?: number; detail?: string } = {}) => {
+      outcomes.set(outcome, (outcomes.get(outcome) ?? 0) + 1);
+      recordAttempt({ sourceId: source.id, url, kind, outcome, ms: Date.now() - t0, ...extra });
+    };
     try {
     // 同じスナップショットを検証済みなら再ダウンロードしない
     const prior = ledger.find((x) => x.sourceId === source.id && x.url === url);
@@ -373,9 +555,40 @@ for (const source of targets) {
             };
 
     const rawSha = kind === "file" ? rawFileOf(source.id, url)?.sha256 : undefined;
+    // HTML は照合しない（verifySnapshot の判定と同じ）。捕捉の日付で版を寄せる
+    const htmlLike = kind !== "file" || !isVerifiable(source.id, url);
     const snaps = await snapshots200(url);
+    cdxFailStreak = 0;
     const existing = snaps[0];
-    if (existing && !force) {
+    if (existing && !force && htmlLike) {
+      const floor = versionFloor(source.id, url);
+      // snaps は新しい順。下限以降のうち**いちばん古い**＝使った版にいちばん近い捕捉を採る
+      const fresh = floor ? snaps.filter((s) => s.timestamp >= floor) : snaps;
+      const keep = prior ? fresh.find((s) => s.timestamp === prior.waybackTimestamp) : undefined;
+      const pick = keep ?? (floor ? fresh[fresh.length - 1] : existing);
+      if (pick) {
+        upsert({
+          sourceId: source.id, url, kind,
+          waybackUrl: pick.waybackUrl, waybackTimestamp: pick.timestamp,
+          checkedAt: new Date().toISOString(),
+        });
+        console.log(`✓ 登録済み ${source.id} ${kind}: ${pick.waybackUrl}${keep ? "（維持）" : ""}`);
+        log("reused");
+        already++;
+        continue;
+      }
+      // 下限より古い捕捉しか無い。**既にある行はそのまま残す**（引数なしの全体実行で、古い行の
+      // 数千件に一斉に SPN を投げないため。取り直すのは対象を指定した --force）。新しい行は SPN へ
+      if (prior && snaps.some((s) => s.timestamp === prior.waybackTimestamp)) {
+        upsert({ ...prior, checkedAt: new Date().toISOString() });
+        console.log(`✓ 登録済み ${source.id} ${kind}: ${prior.waybackUrl}（⚠ 使った版 ${floor} より古い捕捉・--force で取り直す）`);
+        log("reused", { detail: `使った版 ${floor} より古い捕捉のまま` });
+        staleHtml++;
+        already++;
+        continue;
+      }
+      console.log(`  （CDX の最新の捕捉 ${existing.timestamp} は使った版 ${floor} より古いので SPN へ）`);
+    } else if (existing && !force) {
       // **照合済みの捕捉は維持する**（再ダウンロードしない）。台帳の仕事は「raw と一致する写しの
       // 所在」を指すことで、新しい捕捉が現れても一致済みの記録は無効にならない。ただし
       // **raw が再取得で変わったら維持しない**（rawSha256 の錨・上書き型 URL の版違い検出を
@@ -389,6 +602,7 @@ for (const source of targets) {
       ) {
         upsert({ ...prior, checkedAt: new Date().toISOString() });
         console.log(`✓ 登録済み ${source.id} ${kind}: ${prior.waybackUrl}（照合済み・維持）`);
+        log("reused");
         already++;
         continue;
       }
@@ -419,16 +633,48 @@ for (const source of targets) {
         console.log(`  （最新の捕捉 ${existing.timestamp} は raw と不一致のため、一致する過去の捕捉を記録）`);
       const note = verifyNote(match);
       if (note) console.log(`  ${note}`);
+      log("reused");
       already++;
       continue;
     }
+    if (spnStopped) {
+      console.log(`- 省略 ${source.id} ${kind}（この実行では SPN をやめた）`);
+      log("skipped", { detail: spnStopped });
+      skipped++;
+      continue;
+    }
     console.log(`↑ SPN 登録要求 ${source.id} ${kind}: ${url}`);
-    const ok = await requestSave(url);
-    await sleep(SAVE_INTERVAL_MS);
-    let snap = ok ? ((await snapshots200(url))[0] ?? null) : null;
-    for (let t = 0; !snap && ok && t < POLL_TRIES; t++) {
+    // 要求より後の捕捉だけを「今回の登録」と認める。⚠ 以前は CDX の最新を拾っていたので、
+    // --force で古い捕捉がある URL は、実体化の前に**古い捕捉を「登録完了」として記録**していた。
+    // 1時間の幅は、SPN が直近の捕捉を新しく取らずに返す場合のため。
+    const requestedFloor = waybackTsAgo(60 * 60 * 1000);
+    const save = await requestSave(url);
+    if (save.outcome !== "accepted") {
+      console.log(`✗ 未確認 ${source.id} ${kind}: ${save.detail}（次回実行で再試行）`);
+      log(save.outcome, { http: save.http, detail: save.detail });
+      failed++;
+      if (save.outcome === "rejected") {
+        unconfirmed.push({ sourceId: source.id, url });
+        continue;
+      }
+      // SPN 全体が落ちている型（520・接続できない・429 が続く）。続いたら、この実行では要求をやめる
+      if (++spnFailStreak >= SPN_STOP_AFTER) {
+        spnStopped = `${SPN_STOP_AFTER}回続けて失敗（最後: ${save.detail}）`;
+        console.log(`\n⚠⚠ SPN が${spnStopped}。この実行では残りの URL に要求しない（CDX の既存の捕捉の照合は続ける）`);
+        console.log(`  /save/status/system: ${await spnSystemStatus()}`);
+        console.log(`  切り分けは handoff §4 の4本（save / availability / cdx / replay）。戻ったかは台帳の捕捉日で確かめる\n`);
+      }
+      continue;
+    }
+    spnFailStreak = 0;
+    let snap: Snapshot | null = null;
+    for (let t = 0; !snap && t <= POLL_TRIES; t++) {
       await sleep(POLL_INTERVAL_MS);
-      snap = (await snapshots200(url))[0] ?? null;
+      try {
+        snap = (await snapshots200(url, false)).find((s) => s.timestamp >= requestedFloor) ?? null;
+      } catch {
+        // 待っている間の CDX の失敗は、次の回で取り直す
+      }
     }
     if (snap) {
       const match = await verify(snap.timestamp, snap.waybackUrl);
@@ -445,9 +691,13 @@ for (const source of targets) {
       if (match.status === "verified" && !match.match && match.kind !== "truncated") {
         console.log(`  （登録直後なので SPN 反映待ちで古い版を拾った可能性もある。時間を置いて再実行）`);
       }
+      log("saved", { http: save.http });
       saved++;
     } else {
-      console.log(`✗ 未確認 ${source.id} ${kind}（次回実行で再試行）`);
+      // 受け付けられたが、待つ間に CDX に現れなかった（実体化の遅れ。数十分〜13時間の実例・§9b）
+      console.log(`✗ 未確認 ${source.id} ${kind}（SPN は受け付けた・CDX に未反映。次回実行で拾う）`);
+      log("pending", { http: save.http });
+      unconfirmed.push({ sourceId: source.id, url });
       failed++;
     }
     } catch (e) {
@@ -456,8 +706,20 @@ for (const source of targets) {
       //   プロセスが終了し、台帳に1件も登録されなかった**。ファイル数の多いソースでは
       //   ネットワークの一時失敗が必ず起きるので、**その1本だけ諦めて次へ進む**。
       //   台帳は毎回併合保存されるので、次回実行で未登録のものだけ再試行される。
-      console.log(`✗ 失敗 ${source.id} ${kind}: ${e instanceof Error ? e.message : String(e)}（次回実行で再試行）`);
+      const msg = e instanceof Error ? e.message : String(e);
+      console.log(`✗ 失敗 ${source.id} ${kind}: ${msg}（次回実行で再試行）`);
       failed++;
+      if (e instanceof CdxError) {
+        log("cdx-error", { http: e.http, detail: msg });
+        // CDX が引けないと捕捉の有無が分からず、SPN に落とすこともできない。続いたら止める
+        if (++cdxFailStreak >= CDX_STOP_AFTER) {
+          cdxStopped = `${CDX_STOP_AFTER}回続けて引けない（最後: ${msg}）`;
+          console.log(`\n⚠⚠ CDX が${cdxStopped}。実行を止める`);
+          break outer;
+        }
+      } else {
+        log("error", { detail: msg });
+      }
     }
   }
 }
@@ -471,7 +733,31 @@ for (const local of ledger) {
 }
 saveLedger(final);
 console.log(`\n台帳: ${ARCHIVES_PATH}`);
-console.log(`新規登録 ${saved} / 登録済み ${already} / 未確認 ${failed}（計 ${final.length} 件）`);
+console.log(
+  `新規登録 ${saved} / 登録済み ${already} / 未確認 ${failed}${skipped ? ` / 省略 ${skipped}` : ""}（計 ${final.length} 件）`,
+);
+const breakdown = [...outcomes].map(([k, v]) => `${k} ${v}`).join("・");
+if (breakdown) console.log(`  結末の内訳: ${breakdown}（記録: bun run pipeline:archive-attempts）`);
+if (spnStopped) console.log(`⚠ SPN をやめた: ${spnStopped}。省略した ${skipped} 件は、SPN が戻ってから流し直す`);
+if (cdxStopped) console.log(`⚠ CDX が止まったので途中で終えた: ${cdxStopped}`);
+if (staleHtml) console.log(`⚠ 使った版より古い捕捉のままの HTML: ${staleHtml} 件（取り直すなら対象を指定して --force）`);
+
+// **続けて未確認の URL**（2026-10-31）。SPN は受け付けるのに捕捉が現れない・4xx で断られる、が
+// 実行をまたいで続くなら、遅れではなく**発行元がクローラを弾いている**疑い（東村山型・
+// メモリ publisher-may-block-wayback）。SPN 全体の停止（spn-down 等）は数えない — 発行元のせいではない。
+{
+  const history = readAttempts();
+  const counted = new Set<AttemptOutcome>(["reused", "saved", "pending", "rejected"]);
+  const suspects = unconfirmed.filter(({ url }) => {
+    const last = history.filter((a) => a.url === url && counted.has(a.outcome)).slice(-SUSPECT_AFTER);
+    return last.length === SUSPECT_AFTER && last.every((a) => a.outcome === "pending" || a.outcome === "rejected");
+  });
+  if (suspects.length) {
+    console.log(`\n⚠ ${SUSPECT_AFTER}回続けて未確認（遅れではなく発行元の拒否の疑い）: ${suspects.length} 件`);
+    for (const s of suspects.slice(0, 10)) console.log(`    ${s.sourceId} — ${s.url}`);
+    console.log(`  → UA を3通り当てて切り分ける（素の curl・archive.org_bot・ブラウザ。メモリ publisher-may-block-wayback）`);
+  }
+}
 
 // **台帳全体の健康診断**（2026-07-16）。件数の報告だけでは「魚拓はあるが中身を照合していない」
 // エントリが見えない — 実際に**岡山 R2・R3・R4 が `waybackUrl` を持ちながら `sha256Match` が

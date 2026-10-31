@@ -1,0 +1,26 @@
+{
+  "sourceId": "oita-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "2264206.pdf",
+      "sha256": "f1f4b7b3c54ee599277aa5254a74b07f41967daeeeedf02e2ce60f6def3ec07e",
+      "bytes": 130289,
+      "fetchedAt": "2026-10-31T09:38:51.652Z",
+      "fetchedFrom": "https://www.pref.oita.jp/uploaded/attachment/2264206.pdf"
+    },
+    {
+      "filename": "gaiyou-teisu.html",
+      "sha256": "9f70b17ce68e3da66cff893466d52e709dd0240ba750a0e14fd4f27c97c40116",
+      "bytes": 22766,
+      "fetchedAt": "2026-10-31T09:38:51.653Z",
+      "fetchedFrom": "https://www.pref.oita.jp/site/gikai/gaiyou-teisu.html"
+    },
+    {
+      "filename": "giin-gisekijun_20260212.html",
+      "sha256": "6c2809b065893bb13d5b28f493baef5ba82d797e7c293a355ac2f11a77e8c0ee",
+      "bytes": 39446,
+      "fetchedAt": "2026-10-31T09:38:51.653Z",
+      "fetchedFrom": "https://web.archive.org/web/20260212190105id_/https://www.pref.oita.jp/site/gikai/giin-gisekijun.html"
+    }
+  ]
+}

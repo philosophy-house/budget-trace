@@ -120,6 +120,12 @@ bun run pipeline:archive <sourceId>
 同一パスへ上書きされる資料（財政事情）は版が変わるたび `--force`。
 `web.archive.org` / WARP 由来の URL は対象外（それ自体が恒久アーカイブ）。
 
+**終わってから derive する**。archive はワークツリーごとにロックを取り、ロック中の derive は止まる。
+待つのは `bun run pipeline:archive --wait-only`（`pgrep` で待たない）。
+「✗ 未確認」には理由が付く。`SPN が3回続けて失敗` と出て残りが「省略」になったら、SPN が落ちている。
+戻ったかを台帳の捕捉日か `bun run pipeline:archive-attempts` で確かめてから流し直す。
+`3回続けて未確認` と出た URL は、発行元がクローラを弾いている疑いがある（UA を3通り当てる）。
+
 ③自サーバー配信（`public/sources/`）は `pipeline/sync-public-sources.ts` が dev/build 前段で
 自動。**新しい形式を足したらドロワーの表示手段**（PDF=PdfViewer / HTML=HtmlViewer /
 その他=ダウンロードカード）**も確認する**。

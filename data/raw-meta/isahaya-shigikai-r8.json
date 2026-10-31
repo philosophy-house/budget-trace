@@ -1,0 +1,26 @@
+{
+  "sourceId": "isahaya-shigikai-r8",
+  "files": [
+    {
+      "filename": "2359.html",
+      "sha256": "6c14c286d22565466c8d1102456d9e6680b5992ced5bb0f60427129efa109f2a",
+      "bytes": 27551,
+      "fetchedAt": "2026-10-31T09:40:16.526Z",
+      "fetchedFrom": "https://web.archive.org/web/20251205001556id_/https://www.city.isahaya.nagasaki.jp/site/gikai/2359.html"
+    },
+    {
+      "filename": "25152.pdf",
+      "sha256": "60cfd696246d812a3ed83df3d20b02819ec1641746d98ec32b256dd881849eb1",
+      "bytes": 169409,
+      "fetchedAt": "2026-10-31T09:40:16.526Z",
+      "fetchedFrom": "https://www.city.isahaya.nagasaki.jp/uploaded/attachment/25152.pdf"
+    },
+    {
+      "filename": "2352.html",
+      "sha256": "ebd579691905f0182e7f02bfbb6f9e15912c96b75863fe78f9319f882ece2069",
+      "bytes": 30370,
+      "fetchedAt": "2026-10-31T09:40:16.526Z",
+      "fetchedFrom": "https://www.city.isahaya.nagasaki.jp/site/gikai/2352.html"
+    }
+  ]
+}

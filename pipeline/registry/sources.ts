@@ -52495,6 +52495,1129 @@ export const SOURCES: SourceEntry[] = [
       resolution: {"url":"https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000301_01/%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%E4%B8%80%E8%A6%A7%EF%BC%88R08%EF%BC%89.pdf","title":"Ｒ８議決結果一覧（議案）","alsoUrls":["https://warp.ndl.go.jp/20260418/20260407072452/https://www.city.daisen.lg.jp/uploads/contents/archive_0000000301_01/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4_%E8%AD%B0%E6%A1%88%E3%81%AE%E8%B3%9B%E5%90%A6%E4%B8%80%E8%A6%A7.pdf"],"billNo":"議案第35号","billName":"令和８年度大仙市一般会計予算","sessionLabel":"令和８年第１回定例会","decidedDate":"2026-03-13","result":"原案可決"},
     },
   },
+  // ---- 議会の構成 — 長崎・富山・福井・大分へ（`council-transcribed`・docs/data-sources.md §6-21）----
+  {
+    // 富山県議会（都道府県・団体コード 160008。⚠ 富山市議会 162019 と別物）。名簿は会派別議員名簿（/0100/gikai/members/kaiha.html・「更新日：2025年6月10日」）の議決前 2026-03-10 の魚拓（id_・gzip でない）。今の版は議決後の 2026-06-19 更新（川上浩が抜けて自民34・39人）なので魚拓を原典にした
+    // 議決時点の構成: 議決当日（3/23）の夜 22:37 JST の魚拓 20260323133721（gzip の本文を展開して登録＝transform gunzip）がバイト単位で 3/10 の魚拓と同じ（confirmUrls で全40人の在籍を照合）。CDX では 2025-09-15・2026-02-14・3-10 が同じ digest。asOf は更新日
+    // 照合: 区間方式（会派名「自由民主党／富山県議会議員会」などは原典の2つの <p> を空白なしでつないだ名前）。人数の網は会派ごとの「議員数」の欄（declared・会派名ごと書いた）、定数40（「議会の運営」/0100/gikai/structure/unei.html「議員は、13選挙区から選ばれた40名です。」・更新日 2025-04-02）、factionMarker「議員会\d+」（会派名の末尾「議員会」と議員数の並び＝会派ごとに1回・4）。現員40＝定数40（欠員なし）
+    // 議決: 「議案議決結果（予算、条例 等）」（/documents/53928/giketsukekka.pdf）の行「議案第１号 令和８年度富山県一般会計予算 8.3.23 原案可決」（近接・日付は「8.3.23」の形）。会期名は同じページ（0323giketsu.html）の「令和8年2月定例会 議決の内容」PDF（giketsu080323.pdf・alsoUrls）の表題。giketsukekka.pdf のメタデータの作成日は議決当日 2026-03-23 の朝（08:57）で、議決日の欄は印字のまま 8.3.23。⚠ 会期名を取る giketsu080323.pdf は作成日が議決の5日前の 2026-03-18（群馬県・鹿沼と同じ型）
+    // 賛否は入れていない: 議決結果・議決の内容は結果の語と件数だけで、会派・議員ごとの賛否の表を公表していない（議会のページ・広報「こんにちは富山県議会です」には見つからなかった）
+    // 照合の残った弱さ（改ざんテスト39通り中6通りが通る）: 会派名の前方・後方の切り詰め（「公明党」「自由民主党」「公明党富山県」＝パーサ一般）、1人の会派に independent、asOf だけの書き換え（パーサ一般）、公明党を日本共産党へ合流させて declared と factionMarker を外す3か所の作為
+    // ✗ になったもの: 会派間の1人移動（declared を両方直す型を含む）・入れ替え・1人の書き落とし（teisu を直す・declared を外す型を含む）・1人会派を丸ごと落とす（teisu39 つきを含む）・合流（declared を外すだけでは factionMarker で ✗）・議案番号（第２号・第45号・号落とし・「議案」落とし）・結果（可決・同意）・議決日（2/26・3/6）・特別会計の件名・会期名・会派名に人数・氏名・欄の語・会派名のすり替え・asOfText の差し替え・asOf を議決後に・teisuText を別の数に・欠員の原文なし・議決後の構成（川上を外す）
+    // ライセンス: 予算の行（toyama-ken-yosansetsumeisho-r8）の原文（県の「リンク・著作権・免責事項について」/1021/kensei/kouhou/0.html。議会のページのフッターも同じページを指す）。`無断` で要許可
+    // リンク: 予算の行に noDeepLink は無く（「リンクは、原則として自由です」＋リンク切れの免責・フレーム禁止＝第3群）、議会のページも同じ県のサイトなので付けない
+    // raw: 5件（HTML 3件・PDF 2件。拡張子どおり。議決当日の魚拓だけ gunzip）。電話・〒は議会事務局のものだけ（機械的に確認）。議決結果の副知事・教育委員の同意案件は件名だけで氏名は無い。選挙区別名簿・議員紹介のページは入れていない
+    id: "toyama-ken-gikai-r8",
+    title: "令和8年度 富山県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "富山県議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260310000249id_/https://www.pref.toyama.jp/0100/gikai/members/kaiha.html",
+      "https://web.archive.org/web/20260323133721id_/https://www.pref.toyama.jp/0100/gikai/members/kaiha.html",
+      "https://www.pref.toyama.jp/0100/gikai/structure/unei.html",
+      "https://www.pref.toyama.jp/documents/53928/giketsukekka.pdf",
+      "https://www.pref.toyama.jp/documents/53928/giketsu080323.pdf",
+    ],
+    landingPage: "https://www.pref.toyama.jp/0100/gikai/members/kaiha.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "富山県議会（定数40・団体コード160008）",
+    license: "このウェブサイトに掲載されている文章、画像等の著作権は、富山県または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で複製・転用することはできません。利用許諾については各ページに記載されているお問い合わせ先の所属へご連絡ください。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "富山県議会",
+      asOf: "2025-06-10",
+      asOfText: "更新日：2025年6月10日",
+      teisu: 40,
+      factionMarker: "議員会\\d+",
+      teisuText: "議員は、13選挙区から選ばれた40名です。",
+      teisuUrl: "https://www.pref.toyama.jp/0100/gikai/structure/unei.html",
+      roster: {"url":"https://web.archive.org/web/20260310000249id_/https://www.pref.toyama.jp/0100/gikai/members/kaiha.html","title":"会派別議員名簿（更新日：2025年6月10日・2026-03-10 の魚拓）","confirmUrls":["https://web.archive.org/web/20260323133721id_/https://www.pref.toyama.jp/0100/gikai/members/kaiha.html"]},
+      factions: [{"name":"自由民主党富山県議会議員会","declared":"自由民主党 富山県議会議員会 35","members":["横田誠二","尾山謙二郎","光澤智樹","大井陽司","嶋川武秀","寺口智之","鍋嶋慎一郎","瀧田孝吉","立村好司","谷村一成","澤﨑豊","庄司昌弘","大門良輔","瀬川侑希","安達孝彦","針山健史","藤井大輔","種部恭子","八嶋浩久","川上浩","亀山彰","川島国","山崎宗良","井上学","永森直人","奥野詠子","瘧師富士夫","筱岡貞郎","武田慎一","山本徹","宮本光明","五十嵐務","中川忠昭","鹿熊正一","米原蕃"]},{"name":"富山県議会立憲民主党議員会","declared":"富山県議会 立憲民主党議員会 3","members":["岡﨑信也","井加田まり","菅沢裕明"]},{"name":"日本共産党富山県議員会","declared":"日本共産党 富山県議員会 1","members":["火爪弘子"]},{"name":"公明党富山県議員会","declared":"公明党 富山県議員会 1","members":["佐藤則寿"]}],
+      resolution: {"url":"https://www.pref.toyama.jp/documents/53928/giketsukekka.pdf","title":"令和8年2月定例会 議案議決結果（予算、条例 等）","alsoUrls":["https://www.pref.toyama.jp/documents/53928/giketsu080323.pdf"],"billNo":"議案第１号","billName":"令和８年度富山県一般会計予算","sessionLabel":"令和８年２月定例会","decidedDate":"2026-03-23","result":"原案可決"},
+    },
+  },
+  {
+    // 名簿は市議会「議会の構成について」（2236.html）の「議員名簿一覧(議席番号順) 2025年12月16日現在」（更新日：2025年12月16日）の議決前（2026-02-23）の魚拓。議決後（2026-08-28）の捕捉は同じダイジェスト（OSPL6OUA…）で、今の版も同じ更新日のまま＝議決（3/17）まで更新されていない。所属は議員ごとの「所属会派」の欄（label 方式）
+    // 16番は空席（名簿の議席番号順の16番に氏名が無い）で現員16。条例定数17の原文は住所の無い原典で見つからなかった（氷見市の統計は画像だけ）ので teisu は持たせていない。議会全体の網は名簿の議員ごとの期別の印「N期」（16回・memberMarker）
+    // 自民同志会の人数は政務活動費のページの「令和７年度 政務活動費支出状況一覧」（2025shushijokyo.pdf）の「自 民 同 志 会 12」（declaredIn）。同じ一覧は無会派の4人を1人ずつの会派（氷見市議会日本共産党・氷見市議会新政会・氷見市立憲民主党・氷見クラブ）として載せ、年度途中まで在籍した会派社民（交付額は半年分）も載るが、名簿の所属会派の欄は4人とも「無会派」なので名簿の区分に従った（§6-19 須賀川・会津若松の前例）。無会派の人数は自民同志会の12と議会全体の16の差で捕まえる（noCountReason）
+    // 議決は議決結果一覧表（令和８年３月定例会）（202603giketukekka.pdf・作成 2026-03-17）の「議案第 １号 議決第 １号 令和８年度氷見市一般会計予算 令和 ８年 ３月１７日原案可決」
+    // ⚠ 議案番号は farOk: 一覧表は議案番号と件名の間に議決番号（「議決第 １号」）が入り、件名の直前の番号の照合（nearestBillNo）が議決番号の数字で外れる。議案番号は同じ PDF p.4 の議員別賛否一覧の行の頭「議案第 １号 令和８年度氷見市一般会計予算」にあり、賛否の anchor はこの行で件名と議案番号の両方に結び付いている
+    // 議決日も farOk＋decidedDateText「令和８年度氷見市一般会計予算 令和 ８年 ３月１７日原案可決」（件名の行の議決日の原文）。一覧表の各行は件名の上下に「３月 ４日提出」「３月１７日原案可決」が組まれ、既定の窓だと議決日を提出日 3/4 にする1か所の書き換えが通った（防府型）
+    // 賛否は同じ PDF p.4「議員別賛否一覧」（賛成・反対の双方があった議案のみ掲載）。表頭は「自民同志会」「無会派」の下に議員16人の縦書き（-raw で列の順に氏名がつながる）。予算の行は 賛成12・反対3（荻野・穴倉・澤田）・議長1（正保哲也・「－」）。凡例は「※注１ 「○」は賛成 「×」は反対」「※注 2 議長は表決に加わらないため「－」と表示してあります。」。全議員の氏名がこの PDF に出ることを confirmUrls で見ている
+    // license は予算の行（himi-yosan-gaiyou-r8）と同じ原文（「著作権について」・要許可）。議会のページは市の公式サイトと同じドメインで、リンクは「原則として自由です」（予算の行のコメント）なので noDeepLink は立てない
+    // raw: 名簿の魚拓（id_）は gzip の本文を返したので展開して登録する（transform gunzip）。PDF 2件は拡張子どおり。電話・〒は議会局・市役所のものだけ。住所・電話・生年月日を載せた議員のページは使っていない
+    // ⚠ 照合の残った弱さ（作業者の改ざんテストで実測）: 議案番号は farOk のため、原典に出る別の番号（議案第２号・議案第１０号）・議決番号（議決第１号）・号を落とした「議案第１」でも通る。議決日と decidedDateText を同じ行の提出日（3/4）の原文に一緒に書き換えると通る（越谷型）。asOfText を同じページの委員会の基準日「2025年9月17日現在」にしても通る。会派名の前方の切り詰め（「自民」）・無会派の independent の付け外し・asOf だけの書き換えはパーサ一般の型
+    id: "himi-shigikai-r8",
+    title: "令和8年度 氷見市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "氷見市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260223111848id_/https://www.city.himi.toyama.jp/gyosei/shisei/shigikai/2236.html",
+      "https://www.city.himi.toyama.jp/material/files/group/36/202603giketukekka.pdf",
+      "https://www.city.himi.toyama.jp/material/files/group/36/2025shushijokyo.pdf",
+    ],
+    landingPage: "https://www.city.himi.toyama.jp/gyosei/shisei/shigikai/2236.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "氷見市議会（団体コード162051）",
+    license: "氷見市公式ホームページに掲載されている情報・文章・画像等の著作権は、氷見市に帰属します。ただし、一部の画像等については、原著作者が著作権を所有しています。私的利用のための複製や引用など著作権法上認められた場合を除き、氷見市公式ホームページに掲載されている情報・文章・画像等は無断で複製・転用することはできません。使用許諾については、必ずそれぞれのページを所管する担当課にご確認ください（担当課は、それぞれのページ下部に記載しています）。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "氷見市議会",
+      asOf: "2025-12-16",
+      asOfText: "2025年12月16日現在",
+      memberMarker: "[0-9]+期",
+      roster: {"url":"https://web.archive.org/web/20260223111848id_/https://www.city.himi.toyama.jp/gyosei/shisei/shigikai/2236.html","confirmUrls":["https://www.city.himi.toyama.jp/material/files/group/36/202603giketukekka.pdf"],"title":"議会の構成について 議員名簿一覧（議席番号順・2025年12月16日現在・議決前の魚拓）"},
+      factions: [{"name":"自民同志会","label":"自民同志会","declared":"自民同志会 12","declaredIn":"https://www.city.himi.toyama.jp/material/files/group/36/2025shushijokyo.pdf","members":["福嶋正浩","北宣市","屋敷夕貴","稲積佐門","越田喜一郎","萬谷大作","竹岸秀晃","松原博之","上坊寺勇人","積良岳","萩山峰人","嶋田茂"]},{"name":"無会派","label":"無会派","independent":true,"noDeclaredCount":true,"noCountReason":"名簿（議員名簿一覧）は議員ごとの所属会派の欄だけで、無会派の人数の印字が無い。政務活動費の支出状況一覧は4人を1人ずつの会派（氷見市議会日本共産党・氷見市議会新政会・氷見市立憲民主党・氷見クラブ）として載せるので無会派の人数に使えない。人数は議会全体の網（議員ごとの期別の印・16回）と自民同志会の人数（12）の差で捕まえる","members":["荻野清隆","穴倉陽子","正保哲也","澤田勇"]}],
+      resolution: {"url":"https://www.city.himi.toyama.jp/material/files/group/36/202603giketukekka.pdf","title":"議決結果一覧表（令和８年３月定例会）","billNo":"議案第１号","billName":"令和８年度氷見市一般会計予算","sessionLabel":"令和８年３月定例会","decidedDate":"2026-03-17","result":"原案可決","farOk":["billNo","decidedDate"],"decidedDateText":"令和８年度氷見市一般会計予算 令和 ８年 ３月１７日原案可決"},
+      votes: {"url":"https://www.city.himi.toyama.jp/material/files/group/36/202603giketukekka.pdf","title":"議決結果一覧表（令和８年３月定例会） 議員別賛否一覧","basis":"member","legend":{"○":"賛成","×":"反対","－":"議長"},"legendText":["「○」は賛成 「×」は反対","議長は表決に加わらないため「－」と表示してあります。"],"anchor":"議案第１号令和８年度氷見市一般会計予算","symbols":"○○○○○○○○○○○○×××－","columns":[{"label":"福嶋正浩"},{"label":"北宣市"},{"label":"屋敷夕貴"},{"label":"稲積佐門"},{"label":"越田喜一郎"},{"label":"萬谷大作"},{"label":"竹岸秀晃"},{"label":"松原博之"},{"label":"上坊寺勇人"},{"label":"積良岳"},{"label":"萩山峰人"},{"label":"嶋田茂"},{"label":"荻野清隆"},{"label":"穴倉陽子"},{"label":"澤田勇"},{"label":"正保哲也"}]},
+    },
+  },
+  {
+    // 名簿は市議会「砺波市議会 会派別一覧」（17259p・更新日時：2025年05月15日 11時58分）。議決前の魚拓（2025-08-13）と今の版の本文が同じで、今の版も同じ更新日時のまま＝議決（3/16）まで更新されていない。会派ごとの人数は見出しの「（１３名）」「■無会派議員 ３名」（declared）
+    // 「無会派議員」は会派別一覧の見出しの語のまま（同じページ「会派とは、共通する政策や理念を有する２人以上の議員の集まりのことをいいます。」）。3人は会派を結成していない議員なので independent に independentReason
+    // 定数は「市議会の紹介」（17260p）の「さらに令和７年４月改選時からは１６人となっています」（定数16・欠員0）。⚠ このページの今の版は議決後の 2026-04-06 更新（定数の記述は令和7年4月の改選からのもの）。総数は議決当日（3/16）の会議録「令和８年３月砺波市議会定例会会議録（第４号）議事日程・名簿」（info.city.tonami.lg.jp/8096/）の「出席議員（１６名）」（totalText）。全議員の氏名が同じ会議録と議決当日の議員賛否一覧に出ることを confirmUrls で見ている
+    // 議決は「議案等の審議結果（議員賛否一覧）令和８年３月定例会」（賛否公開R8.3-2.pdf・作成 2026-03-18）の「議案第1号 令和８年度砺波市一般会計予算 原案可決」。この表には議決日が無いので、議決日は同じ会議録（第４号）の「３月１６日 午後 ２時００分 開議」で照合した（議事日程 第１ が「議案第１号 令和８年度砺波市一般会計予算から議案第２３号…まで…（委員長報告、質疑、討論、採決）」。本文の会議録では議案第１号〜第２３号と報告第１号の一括採決「起立全員」）
+    // 賛否は同じ PDF の議員ごとの賛否（列見出しは縦書きの氏名・座標で照合＝headerBbox）。予算の行は賛成15・議長1（有若隆・「議」）。凡例は「○･･･賛成 ●･･･反対 欠･･･欠席 議･･･議長（議長は採決に加わりません。）」
+    // license は予算の行（tonami-yosan-setsumeisho-r8）と同じ原文（要許可）。議会のページは市の公式サイトと同じドメイン（会議録は同じ市のサブドメイン info.city.tonami.lg.jp）なので、予算の行と同じく「リンク設定はトップページへお願いします。他のページへのリンクは、…ご遠慮ください。」が掛かるとみて noDeepLink。landingPage は市議会のトップ（/parliament/）
+    // raw: 会派別一覧・市議会の紹介・会議録の3件は拡張子の無い URL なので .html を付けて持つ（transform ext:.html・どれも gzip でない HTML）。電話・〒は市役所・議会事務局のものだけ。会議録（8096）には説明のため出席した市長・部課長・事務局職員の職と氏名がある（住所なし）。議員名簿（17239p）は使っていない
+    // ⚠ 照合の残った弱さ（作業者の改ざんテストで実測）: 合流先（自民）の declared を外して noDeclaredCount にし、無会派議員を丸ごと合流させる2か所の作為が通る（定数16・総数16は崩れない）。会派名の前方の切り詰め（「自由民主党」）・「無会派議員」を「無会派」に縮める・independent の付け外し・asOf/asOfText の書き換え（名簿の「公開日時」の文でも通る）はパーサ一般の型。議決時点の構成は名簿の更新日時（2025-05-15）から更新が無いことと、議決当日の会議録・賛否一覧の16人との一致で支えている
+    id: "tonami-shigikai-r8",
+    title: "令和8年度 砺波市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "砺波市議会",
+    url: null,
+    urls: [
+      "https://www.city.tonami.lg.jp/parliament/17259p/",
+      "https://www.city.tonami.lg.jp/wp-content/uploads/%E8%B3%9B%E5%90%A6%E5%85%AC%E9%96%8BR8.3-2.pdf",
+      "https://info.city.tonami.lg.jp/8096/",
+      "https://www.city.tonami.lg.jp/parliament/17260p/",
+    ],
+    landingPage: "https://www.city.tonami.lg.jp/parliament/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "砺波市議会（定数16・団体コード162086）",
+    license: "市ホームページに掲載されている情報（文章、写真、イラスト、画像等の各ファイル）およびその内容に関する諸権利は、原則として砺波市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、市ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市の許可なく当サイトに掲載されている文書・写真等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "砺波市議会",
+      asOf: "2025-05-15",
+      asOfText: "更新日時：2025年05月15日 11時58分",
+      teisu: 16,
+      teisuText: "令和７年４月改選時からは１６人となっています",
+      teisuUrl: "https://www.city.tonami.lg.jp/parliament/17260p/",
+      totalText: {"text":"出席議員（１６名）","url":"https://info.city.tonami.lg.jp/8096/"},
+      roster: {"url":"https://www.city.tonami.lg.jp/parliament/17259p/","title":"砺波市議会 会派別一覧（更新日時 2025年05月15日）","confirmUrls":["https://info.city.tonami.lg.jp/8096/","https://www.city.tonami.lg.jp/wp-content/uploads/%E8%B3%9B%E5%90%A6%E5%85%AC%E9%96%8BR8.3-2.pdf"]},
+      factions: [{"name":"自由民主党砺波市議会議員会","declared":"（１３名）","members":["米山勝規","嶋田充","原野誠","仁木良市","原田定範","境佐余子","林教子","向井幹雄","小西十四一","山本篤史","川辺一彦","島崎清孝","今藤久之"]},{"name":"無会派議員","independent":true,"declared":"無会派議員 ３名","independentReason":"会派別一覧の見出しが「■無会派議員 ３名」で、同じページに「会派とは、共通する政策や理念を有する２人以上の議員の集まりのことをいいます。」とある（3人は会派を結成していない議員の一覧で、会派ではない）","members":["有若隆","神島利明","境欣吾"]}],
+      resolution: {"url":"https://www.city.tonami.lg.jp/wp-content/uploads/%E8%B3%9B%E5%90%A6%E5%85%AC%E9%96%8BR8.3-2.pdf","title":"砺波市議会 議案等の審議結果（議員賛否一覧）令和８年３月定例会","alsoUrls":["https://info.city.tonami.lg.jp/8096/"],"farOk":["decidedDate"],"decidedDateText":"３月１６日 午後 ２時００分 開議","billNo":"議案第1号","billName":"令和８年度砺波市一般会計予算","sessionLabel":"令和８年３月定例会","decidedDate":"2026-03-16","result":"原案可決"},
+      votes: {"url":"https://www.city.tonami.lg.jp/wp-content/uploads/%E8%B3%9B%E5%90%A6%E5%85%AC%E9%96%8BR8.3-2.pdf","title":"砺波市議会 議案等の審議結果（議員賛否一覧）令和８年３月定例会","basis":"member","legend":{"○":"賛成","●":"反対","欠":"欠席","議":"議長"},"legendText":["○･･･賛成","●･･･反対","欠･･･欠席","議･･･議長（議長は採決に加わりません。）"],"anchor":"議案第1号令和８年度砺波市一般会計予算原案可決","headerBbox":true,"symbols":"○○○○○○○○○○○○議○○○","columns":[{"label":"米山勝規"},{"label":"嶋田充"},{"label":"原野誠"},{"label":"仁木良市"},{"label":"原田定範"},{"label":"境佐余子"},{"label":"林教子"},{"label":"向井幹雄"},{"label":"神島利明"},{"label":"小西十四一"},{"label":"境欣吾"},{"label":"山本篤史"},{"label":"有若隆"},{"label":"川辺一彦"},{"label":"島崎清孝"},{"label":"今藤久之"}]},
+    },
+  },
+  {
+    // 名簿は議会の「議員一覧（50音順）」（ichiran.html・最終更新日 2026年2月20日）の議決前（2026-03-13）の魚拓。議員ごとの「所属会派」の欄（label 方式）で、略称（会派名そのもの）の直後に選挙区の「〔」が付くので、会派ごとの人数は「会派名〔」の出現数で照合する（labelSuffix）。議会全体の網は議員ごとの期数「（N期）」（36回・memberMarker）
+    // 議決前の 2026-02-12 の捕捉（最終更新日 2026年2月4日）から議決後の 2026-04-20 の捕捉（最終更新日 2026年4月1日）まで、所属会派の欄が変わったのは後藤正邦議員（無所属から自民党福井県議会）だけ。議決当日の各会派の賛否の状況に「（無）…無所属」の列があり、議決時点で後藤議員は無所属【3/13〜3/18 に異動が無いことは推定】
+    // 会派別名簿（kaihabetsu.html）は今の版が議決後の 2026-04-01 更新（自民党福井県議会26名・越前若狭の会2名）で、議決前の最後の捕捉は 2025-11-13（最終更新日 2025年5月13日・越前若狭の会3名＝藤本一希議員を含み、後藤議員はまだいない）なので使っていない。後藤議員は 2026-01-25 の福井市選挙区の補欠選挙で当選（選挙ドットコム＝raw の外の二次資料）
+    // 現員36。定数37（「選挙区」のページの「当時の議員定数40名から37名に」）と欠員1は、欠員の原文が住所の無い原典に見つからないので持たせていない
+    // 議決は「第４４１回（令和８年２月）定例会における議案等に対する各会派の賛否の状況」（202602_shingikekka.pdf・作成 2026-03-17）の「第１号議案 令和８年度福井県一般会計予算 R8.3.18 原案可決」
+    // 賛否は同じ PDF の会派ごとの賛否（自・民・ふ・越・公・無の6列がすべて○）。列見出しは1字の略称なので、同じ PDF 冒頭の「会派の名称」の凡例（「（自）…自民党福井県議会」など）を evidence にし、座標で照合する（headerBbox・headerWeakReason）。議長 小堀友廣（自民党福井県議会）は名簿の「議長 こほり ともひろ 小堀 友廣」で blank にして外した
+    // license は予算の行（fukui-ken-yosansho-r8）と同じ原文（「福井県ホームページについて」の著作権・要許可）。議会のページは県の公式サイトと同じドメインで、予算の行と同じく「各課のページへのリンクの可否につきましては各課に個別にお問い合わせ頂きますようお願いします。」が掛かるので noDeepLink。landingPage は議会のトップ（/gikai/）
+    // raw: 名簿の魚拓（id_）は gzip でない HTML（拡張子どおり）。電話・〒は議会局（県庁）のものだけ。住所・電話・生年月日の載った議員のページは使っていない
+    // ⚠ 照合の残った弱さ（作業者の改ざんテストで実測）: 無所属の independent を外す・1人の公明党に independent を付ける・asOf だけの書き換えはパーサ一般の型（label 方式だが会派名＝略称なので、会派名だけの書き換えは賛否の列の evidence と略称の照合で ✗）。議決時点の構成は名簿の 3/13 の捕捉と議決当日の賛否の状況の会派の列で支えている（3/13〜3/18 は【推定】）
+    id: "fukui-ken-gikai-r8",
+    title: "令和8年度 福井県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "福井県議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260313211617id_/https://www.pref.fukui.lg.jp/doc/gikai-soumu/giinshokai/ichiran.html",
+      "https://www.pref.fukui.lg.jp/doc/gikai-giji/giankekka/2025sinngikekka_d/fil/202602_shingikekka.pdf",
+    ],
+    landingPage: "https://www.pref.fukui.lg.jp/gikai/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "福井県議会（団体コード180009）",
+    license: "このサイトにおけるコンテンツの著作権は、福井県に帰属します。著作権法上認められた場合を除いては、無断での複製・転用はできません。個々の写真・文章等の二次利用をご希望の方は、それぞれのページの担当課にご相談ください。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "福井県議会",
+      asOf: "2026-02-20",
+      asOfText: "最終更新日 2026年2月20日",
+      memberMarker: "\\([0-9]+期\\)",
+      labelSuffix: "〔",
+      roster: {"url":"https://web.archive.org/web/20260313211617id_/https://www.pref.fukui.lg.jp/doc/gikai-soumu/giinshokai/ichiran.html","title":"議員一覧（50音順）（最終更新日 2026年2月20日・議決前 2026-03-13 の魚拓）"},
+      factions: [{"name":"自民党福井県議会","label":"自民党福井県議会","noDeclaredCount":true,"members":["大森哲男","兼井大","小堀友廣","酒井秀和","笹原修之","清水智信","田中宏典","田中三津彦","田村康夫","時田和一良","中西昭雄","西本正俊","畑孝幸","福野大輔","松崎雄城","松田泰典","南川直人","宮本俊","森嘉治","山浦光一郎","山岸猛夫","大和久米登","山本建","力野豊","渡辺竜彦"]},{"name":"民主・みらい","label":"民主・みらい","noDeclaredCount":true,"members":["北川博規","野田哲生","三田村輝士","渡辺大輔"]},{"name":"ふくいの党","label":"ふくいの党","noDeclaredCount":true,"members":["堀居哲郎","三宅わたる","山岸みつる"]},{"name":"越前若狭の会","label":"越前若狭の会","noDeclaredCount":true,"members":["中村綾菜","細川かをり"]},{"name":"公明党","label":"公明党","noDeclaredCount":true,"members":["西本恵一"]},{"name":"無所属","label":"無所属","noDeclaredCount":true,"members":["後藤正邦"],"independent":true}],
+      resolution: {"url":"https://www.pref.fukui.lg.jp/doc/gikai-giji/giankekka/2025sinngikekka_d/fil/202602_shingikekka.pdf","title":"第４４１回（令和８年２月）定例会における議案等に対する各会派の賛否の状況","billNo":"第１号議案","billName":"令和８年度福井県一般会計予算","sessionLabel":"第４４１回（令和８年２月）定例会","decidedDate":"2026-03-18","result":"原案可決"},
+      votes: {"url":"https://www.pref.fukui.lg.jp/doc/gikai-giji/giankekka/2025sinngikekka_d/fil/202602_shingikekka.pdf","title":"第４４１回（令和８年２月）定例会における議案等に対する各会派の賛否の状況","basis":"faction","legend":{"○":"賛成","×":"反対"},"legendText":"○：賛成、×：反対","anchor":"第１号議案令和８年度福井県一般会計予算R8.3.18原案可決","headerBbox":true,"headerWeakReason":"賛否の表の列見出しが会派の略称1字（自・民・ふ・越・公・無）で、対応は同じPDFの冒頭の「会派の名称」の凡例（（自）…自民党福井県議会 など）にある","symbols":"○○○○○○","columns":[{"label":"自","faction":"自民党福井県議会","evidence":"（自）…自民党福井県議会"},{"label":"民","faction":"民主・みらい","evidence":"（民）…民主・みらい"},{"label":"ふ","faction":"ふくいの党","evidence":"（ふ）…ふくいの党"},{"label":"越","faction":"越前若狭の会","evidence":"（越）…越前若狭の会"},{"label":"公","faction":"公明党","evidence":"（公）…公明党"},{"label":"無","faction":"無所属","evidence":"（無）…無所属"}],"blank":[{"label":"小堀友廣","stance":"議長","evidence":"議長 こほり ともひろ 小堀 友廣","evidenceUrl":"https://web.archive.org/web/20260313211617id_/https://www.pref.fukui.lg.jp/doc/gikai-soumu/giinshokai/ichiran.html"}]},
+    },
+  },
+  {
+    // 名簿は「敦賀市議会会派一覧表（令和７年１２月２２日現在）」（9176.pdf・会派一覧のページ 15938.html の関連ファイル）。発行元の今の PDF は議決前（2026-02-27）の魚拓と SHA-1 が一致する。会派一覧のページ（更新日 2026年2月25日＝会期の初日）は今も同じ構成のままで、議決の後に更新されていない。12/22 は浅野好一議員が議長に就いた日
+    // 名簿は会派ごとに横の帯（会派名・人数の印字「（10）」・役職つきの所属議員）に組まれているので、帯を会派ごとの枠（box）で切る（座標は pdftotext -bbox で決め、帯の間に 15〜35pt の空きがある）。人数は枠の中の「（10）」等（declared）。議会全体の網は会派ごとに1回出る「（N）」（factionMarker・5回）と定数
+    // 定数は議員一覧（15906.html）の「議員定数 22人（現員数22人）」。⚠ このページは議決後（2026-06-02 更新）の版（副議長の交代の後）で、定数の原文としてだけ使っている。このページ自体には議員の住所・電話は無い（個別の議員のページにある＝raw に入れていない）
+    // 議決当日の「令和8年第1回（3月）定例会賛否が分かれた議案一覧」（10787.pdf）の表頭に22人全員が会派の見出しの下に並ぶ（confirmUrls で全員の氏名を照合。表頭の会派と名簿の会派の一致は bbox で目視）
+    // 議決は「令和８年第１回敦賀市議会定例会 審議結果一覧表」（11128.pdf）の「第 ８ 号議案 令和８年度敦賀市一般会計予算 予算 決算 ３／24 可 決」。議決日は件名の直後の「３／24」（会期は 2/25〜3/24）
+    // 賛否は入れていない — 10787.pdf に予算の行（第8号議案・議員ごと21列と、記号の無い議長 浅野好一 の列＝縦書きの「議長」と注記「※議長は採決に加わっていません。」）があり、凡例「（賛成：〇、反対：×、棄権又は欠席：欠）」も揃う（目視: 賛成19・反対2＝日本共産党敦賀市会議員団の松宮学・山本貴美子・議長1）。しかし行の頭が議案番号「第8号議案」だけで件名が無く、-layout でも -raw でも番号の直前が表頭の氏名の字（「う」「弘」）につながるので、番号との結び付き（② 番号の前が語の続きでないこと）が立たない。議会だより第129号 p.2 の同じ表も同じ組版
+    // license は予算の行（tsuruga-yosan-about-r8）と同じ原文（TSURUGA_LICENSE・要許可）。議会のページは市の公式サイトと同じドメイン（/site/gikai/）で、リンクの条項は依頼形（「できるだけトップページ…に対してお願いします」）なので、予算の行と同じく noDeepLink は立てない
+    // raw: 4件とも拡張子どおりで transform は不要。電話・〒は議会事務局・市役所のものだけ。審議結果一覧に人権擁護委員候補者の推薦の件名はあるが候補者の氏名は無い（「当選人：川端耕一」は議員）
+    // ⚠ 照合の残った弱さ（作業者の改ざんテストで実測・48通り中4通りが通る）: 合流先の枠を相手の帯まで広げ、declared を noDeclaredCount にし、factionMarker を外す4か所の作為で会派の合流が通る。会派名を前方に縮める（「日本共産党」）・asOf だけの書き換え・asOfText を名簿の別の文（表題）にする、はパーサ一般の型。議決時点の構成は、名簿の PDF が議決前の魚拓と同一であることと、議決当日の賛否表の表頭が22人とも名簿の会派と一致することで支えている
+    id: "tsuruga-shigikai-r8",
+    title: "令和8年度 敦賀市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "敦賀市議会",
+    url: null,
+    urls: [
+      "https://www.city.tsuruga.lg.jp/uploaded/attachment/9176.pdf",
+      "https://www.city.tsuruga.lg.jp/uploaded/attachment/11128.pdf",
+      "https://www.city.tsuruga.lg.jp/uploaded/attachment/10787.pdf",
+      "https://www.city.tsuruga.lg.jp/site/gikai/15906.html",
+    ],
+    landingPage: "https://www.city.tsuruga.lg.jp/site/gikai/15938.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "敦賀市議会（定数22・団体コード182028）",
+    license: "「敦賀市ホームページ」に掲載されている情報（文章、写真、イラスト、画像、プログラムなどをいいます。）は、著作権の対象であり、法律によって保護されています。また、「敦賀市ホームページ」全体についても編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。当サイトの内容の全部または一部について、私的使用または引用等著作権法上認められた行為として、適宜の方法により出所を明示することにより、引用・転載複製を行うことができます。ただし、「無断転載を禁じます」等の注記があるものについては、それに従ってください。当サイトの内容の全部または一部について、無断で複製・転載・印刷・配布・放送・翻訳・貸与・販売などを行うことを固く禁じます。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "敦賀市議会",
+      asOf: "2025-12-22",
+      asOfText: "（令和７年１２月２２日現在）",
+      teisu: 22,
+      teisuText: "議員定数 22人（現員数22人）",
+      teisuUrl: "https://www.city.tsuruga.lg.jp/site/gikai/15906.html",
+      factionMarker: "\\(\\d+\\)",
+      roster: {"url":"https://www.city.tsuruga.lg.jp/uploaded/attachment/9176.pdf","title":"敦賀市議会会派一覧表（令和７年１２月２２日現在）","confirmUrls":["https://www.city.tsuruga.lg.jp/uploaded/attachment/10787.pdf"]},
+      factions: [{"name":"市政会","box":[70,165,450,150],"declared":"（10）","members":["有馬茂人","馬渕清和","川端耕一","田中和義","中野史生","浅野好一","縄手博和","大石修平","高城庄佑","河瀬太治"]},{"name":"あたらしい敦賀","box":[70,330,450,80],"declared":"（５）","members":["籠太一朗","三田村りょう","橋本彬穂","吉田隆昭","北條正"]},{"name":"市民クラブ","box":[70,440,450,45],"declared":"（３）","members":["今川ひろし","豊田耕一","山本武志"]},{"name":"日本共産党敦賀市会議員団","box":[70,515,450,60],"declared":"（２）","members":["山本貴美子","松宮学"]},{"name":"公明党","box":[70,610,450,42],"declared":"（２）","members":["中道恭子","大塚佳弘"]}],
+      resolution: {"url":"https://www.city.tsuruga.lg.jp/uploaded/attachment/11128.pdf","title":"令和８年第１回敦賀市議会定例会 審議結果一覧表","billNo":"第８号議案","billName":"令和８年度敦賀市一般会計予算","sessionLabel":"令和８年第１回敦賀市議会定例会","decidedDate":"2026-03-24","result":"可決"},
+    },
+  },
+  {
+    // 名簿は「会派構成」（kaiha-kosei.html・「令和8年2月20日現在」・最終更新日 2026年2月24日）の議決前（2026-03-06）の魚拓。発行元の今のページも同じ版（本文一致・2026-10-31 確認）で、議決の後に更新されていない。11会派19人（うち7会派が1人）
+    // 定数20のうち1人が欠員: 末本幸夫議員の逝去（議会報第257号の目次「謹んでお悔やみ申し上げます（末本幸夫議員）」・委員会構成のページの「※令和8年2月11日現在 1人欠員」。どちらも raw の外）。名簿（2/20）は逝去の後の19人。定数・欠員を書いた住所の無い原典が無い（議員名簿 giin-meibo.html は議員の住所・電話つき＝raw に入れない）ので teisu は持たせず、議会全体の網は会派ごとの見出しに1回ずつ出る「【N人】」（factionMarker・11回）、会派ごとの網は見出しの印字（declared「さばえ結の会（さばえゆいのかい）【5人】」等・会派名ごと書いた）
+    // 1人の会派（無所属の会・清鯖会・ふくいの党・鯖江・市政新風会・SABA LABO・青の会・創造）は名簿の見出しが「会派構成」で代表の役職つきなので会派として書いた（independent にしていない）。会派名は見出しの読みの括弧（「（むしょぞくのかい）」等）を除いた字
+    // 議決は「第455回 令和8年3月定例会」のページ（Gikai455.html）の「議案と議決結果」の表の行「議案第3号｜令和8年度鯖江市一般会計予算｜可決」（table row）。表に議決日の欄が無いので、議決日は 3/19 の議事日程（第4号・455gizinittei-4.pdf）の「令和８年３月１９日（木）午前１０時開議」で照合した（日程第4「議案の審査結果」に議案第３号。議事日程による間接の照合）。同じページの会期日程も「3月19日 木曜日 午前10時 本会議（委員長報告・採決）」。同じ日に議員提案の市会案第2号「議案第3号 令和8年度鯖江市一般会計予算に対する修正案」が否決されている（表の別の行）
+    // 賛否は入れていない — 議会報第257号（令和8年5月発行）の「議案と議決結果」（18〜19頁）は文字が輪郭化されていてテキスト層が無い（埋め込みフォント0）。発行元のサイトに議員別の賛否を文字で載せた原典は見つからなかった
+    // license は予算の行（sabae-yosan-ippan-r8）と同じ原文（SABAE_LICENSE・要許可）。予算の行は市の「トップページ以外へのリンクは原則として禁止します」で noDeepLink を立てており、議会のページも同じ市の公式サイト（/about_city/shigikai/）にあるので議会の行にも noDeepLink を付けた。landingPage は会派構成のページ（予算の行も掲載ページを landingPage にしている）
+    // raw: 魚拓の id_ は gzip でない HTML（先頭 <?xml）、他の2件も拡張子どおりで transform は不要。電話・〒は議会事務局・市役所のものだけ。議事日程に教育長・教育委員の任命の件名はあるが候補者の氏名は無い
+    // ⚠ 照合の残った弱さ（作業者の改ざんテストで実測）: 議決日と decidedDateText を同じページの会期日程の別の日の行（3/2・3/24）に一緒に書き換えると通る（越谷型）。1人の会派を丸ごと書き落とし、factionMarker を外して noTotalReason を書く3か所の作為が通る。会期名（sessionLabel）はページのサイドメニューに並ぶ別の会期名（「第456回 令和8年6月定例会」）でも通る（中津川型）。会派名の後ろに読みの括弧を足す（「さばえ結の会（さばえゆいのかい）」）・前方に縮める（「市民」）・1人の会派に independent を付ける・asOf だけ・asOfText を名簿の別の文にする、はパーサ一般の型
+    id: "sabae-shigikai-r8",
+    title: "令和8年度 鯖江市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "鯖江市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260306105312id_/https://www.city.sabae.fukui.jp/about_city/shigikai/giinmeibo/kaiha-kosei.html",
+      "https://www.city.sabae.fukui.jp/about_city/shigikai/gikainonittei/Gikai455.html",
+      "https://www.city.sabae.fukui.jp/about_city/shigikai/gikainonittei/Gikai455.files/455gizinittei-4.pdf",
+    ],
+    landingPage: "https://www.city.sabae.fukui.jp/about_city/shigikai/giinmeibo/kaiha-kosei.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "鯖江市議会（団体コード182079）",
+    license: "鯖江市公式ホームページで提供しているコンテンツ（文章、画像、映像、音声、PDFなど）の著作権は、断りがない場合すべて鯖江市に帰属します。ただし、一部の画像等の著作権については、原著作者が所有しています。利用する皆さんは、鯖江市公式ホームページで提供しているコンテンツについて、許可なく使用・複製・転載・販売・改変・印刷配布といった二次利用することを禁止します。ただし、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "鯖江市議会",
+      asOf: "2026-02-20",
+      asOfText: "令和8年2月20日現在",
+      factionMarker: "【\\d+人】",
+      roster: {"url":"https://web.archive.org/web/20260306105312id_/https://www.city.sabae.fukui.jp/about_city/shigikai/giinmeibo/kaiha-kosei.html","title":"会派構成（令和8年2月20日現在・議決前の魚拓）"},
+      factions: [{"name":"さばえ結の会","declared":"さばえ結の会（さばえゆいのかい）【5人】","members":["三村尚司","福原敏弘","堀川秀樹","江端一高","玉邑哲雄"]},{"name":"市民創世会","declared":"市民創世会（しみんそうせいかい）【3人】","members":["石川修","空美英","木村愛子"]},{"name":"新清風会","declared":"新清風会（しんせいふうかい）【2人】","members":["林下豊彦","佐々木一弥"]},{"name":"公明党","declared":"公明党（こうめいとう）【2人】","members":["加藤優","遠藤隆"]},{"name":"無所属の会","declared":"無所属の会（むしょぞくのかい）【1人】","members":["帰山明朗"]},{"name":"清鯖会","declared":"清鯖会（せいせいかい）【1人】","members":["大門嘉和"]},{"name":"ふくいの党・鯖江","declared":"ふくいの党・鯖江（ふくいのとう・さばえ）【1人】","members":["酒井友季子"]},{"name":"市政新風会","declared":"市政新風会（しせいしんぷうかい）【1人】","members":["東井忠義"]},{"name":"SABA LABO","declared":"SABA LABO（さばらぼ）【1人】","members":["西野有香"]},{"name":"青の会","declared":"青の会（あおのかい）【1人】","members":["土田光"]},{"name":"創造","declared":"創造（そうぞう）【1人】","members":["田中良幸"]}],
+      resolution: {"url":"https://www.city.sabae.fukui.jp/about_city/shigikai/gikainonittei/Gikai455.html","title":"第455回 令和8年3月定例会（議案と議決結果）","alsoUrls":["https://www.city.sabae.fukui.jp/about_city/shigikai/gikainonittei/Gikai455.files/455gizinittei-4.pdf"],"table":"row","farOk":["decidedDate"],"decidedDateText":"令和８年３月１９日（木）午前１０時開議","billNo":"議案第3号","billName":"令和8年度鯖江市一般会計予算","sessionLabel":"第４５５回鯖江市議会定例会","decidedDate":"2026-03-19","result":"可決"},
+    },
+  },
+  {
+    // 大分県議会（都道府県・団体コード 440001。⚠ 大分市議会 442011 とは別団体）。名簿は議決当日（3/26）の「令和８年第１回定例会 議案等賛否一覧表（３月２６日分）」（/uploaded/attachment/2264206.pdf・PDF の作成日 2026-03-26）p.1 の表頭（会派名の行と、議席番号順の議員名の縦書きの列）。会派ごとの列の帯を枠で切る（-bbox で議員名の列は x=321.6 から 11.4pt 間隔。帯の境目は隣り合う列の中間）。asOf は議決日・asOfText は表題の会期名（日付の印字が無い＝宮崎県・三条の型）
+    // 「日本共産党」の表頭は縦書き2列（「共産党」の列と「日本」の列）で、-layout の切り出しは「共日産党本」と字が交互に並ぶ。-raw の切り出しは「日本共産党」で、名前はこちらで照合される
+    // 所属の2つ目の照合: 議決前の「議席順議員名簿」（giin-gisekijun.html）の魚拓 20260212190105 の id_（「更新日：2023年5月18日更新」・43人・氏名／ふりがな／所属会派／当選回数／選挙区）を labelUrl にして、各議員の氏名の直後の所属会派の欄が自分の会派の名前であることを見る（label＝会派名）。会派の枠を広げて隣の会派を合流させる書き写しはこれで落ちる。同じ魚拓を confirmUrls にして43人全員が出ることも見る。住所・電話は無い（選挙区は議員の選出区で住所ではない）
+    // 議決時点の構成: 名簿そのものが議決当日の資料。議決前（2/12 の魚拓・2023-05-18 版）と議決当日の表頭は43人・7会派・各議員の所属まで同じ。現行の議席順名簿は議決後の「更新日：2026年4月23日更新」の版で、17番 井上明夫議員（日田市選挙区・自由民主党）が載らず、選挙区別名簿の日田市の欄も「―」（議決後の欠員）。井上議員は議決当日の表の17番の列に○（賛成）があり、議決時は在職
+    // 人数の網: 定数43（「選挙区と議員定数」gaiyou-teisu.html「議員の定数は、条例で定めることとされ、大分県の場合４３人となっています。」）・欠員0（議決当日の表頭の列が43）。会派ごとの人数は表頭に印字が無い（noDeclaredCount・noCountReason）。賛否の議員ごとの43列が名簿の全員と1対1
+    // 議決: 同じ表の予算の行「第 1 号議案 令和８年度大分県一般会計予算 3月26日 可決 42 41 39 2」（近接）。結果は原典の語のまま「可決」
+    // 賛否（議員ごと・43列）: 凡例「「○」：賛成、「×」：反対、「除」：除斥、「欠」：議場に不在、「議」：議長」。予算の行は 賛成39・反対2（猿渡久子・堤栄三＝日本共産党）・「欠」1（18番 木付親次・自由民主党）・「議」1（21番 嶋幸一＝議長。列に「議」の字がある）。印字の「出席者数42 表決者数41 賛成者数39 反対者数2」と一致（tally。同じ印字「42 41 39 2」の行が第3・9・10・13号議案にもあり、予算の行に結び付いてはいない＝守谷型）
+    // 「欠」の凡例の語は「議場に不在」で、パーサの意味の語では「不参加」（「不在」）にしか当たらないので legend は「不参加」（画面の語は原典の「欠」＝議場に不在と違って見える）。legendText は凡例の原文を3つの断片に分けて書いた — 1つの原文のままだと「議」の字が「議場に不在」の「議」にも当たり、legend の「議」を「不参加」「除斥」に書き換えても通った（作業者が実測）
+    // ライセンス: 予算の行（oita-ken-zaisei-jokyo-r8）と同じ「著作権・リンク等について」（/site/userguide/menseki.html）の著作権の原文（無断＝要許可）。議会のページも県の公式サイト（/site/gikai/）で、議会独自の条項は無い
+    // リンク: 予算の行と同じく noDeepLink — 同じページの「トップページ以外のページへのリンクを希望される場合は，それぞれ担当課へお問い合わせ願います。」が議会のページにも掛かる。landingPage は議会のトップ（§6-20 の愛媛県・秋田県と同じ）
+    // raw: 3件とも拡張子どおり（PDF は先頭 %PDF、HTML は発行元・魚拓とも gzip でない <!DOCTYPE）で transform なし。電話・〒は議会事務局（大手町3丁目1番1号・097-506-5022／5032）のものだけ（機械的に確認）。賛否一覧表の人事案件は「監査委員の選任について（阿部長夫氏）（大友栄二氏）」で、どちらも議員。議員でない人の氏名・住所は無い。議員ごとの紹介ページ（giin-ooita.html など・顔写真入り）は確かめておらず raw に入れていない
+    // 照合の残った弱さ（改ざんテスト69通り中9通りが通る・0.8.20 では8通り）: 会派名の前方切り詰め（「県民」「日本維新」）、会派名の後ろに2桁の議席番号を足す「日本維新の会43」（0.8.19 では1桁の「自由民主党1」も通る。0.8.20 で ✗）、1人の会派（無所属の会）に independent、asOf だけの書き換え（パーサ一般）、合流先の枠を広げたうえで label を外す（合流先の label を消す・labelUrl を外す＝3〜4か所の作為）、legendText を原文全体に戻して「議」を「不参加」にする（2か所）
+    // ✗ になったもの: 会派間の1人移動（3通り）・人数を変えない入れ替え（2通り）・1人の書き落とし（名簿だけ／列・記号ごと＋欠員1・定数42・noTotalReason）・1人会派を丸ごと落とす・会派の合流（枠そのまま・枠を広げる4通り）・枠の境界を1列ずらして1人を隣の会派へ・議案番号（第2号議案・第13号議案・第1号報告・号落とし・数字だけ）・結果（承認・原案可決・否決・同意）・議決日（3/4・3/25・asOf つき）・件名（特別会計・補正）・会期名・会派名に氏名・人数・欄見出し・1字の切れ端・会派名のすり替え・県民クラブに independent・asOfText・asOf を議決後に・定数44・欠員1・列の入れ替え（3通り）・凡例の入れ替え（7通り）・記号の差し替え（2通り）・anchor を特別会計・第3号議案に・tally の数と原文の差し替え
+    id: "oita-ken-gikai-r8",
+    title: "令和8年度 大分県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "大分県議会",
+    url: null,
+    urls: [
+      "https://www.pref.oita.jp/uploaded/attachment/2264206.pdf",
+      "https://www.pref.oita.jp/site/gikai/gaiyou-teisu.html",
+      "https://web.archive.org/web/20260212190105id_/https://www.pref.oita.jp/site/gikai/giin-gisekijun.html",
+    ],
+    landingPage: "https://www.pref.oita.jp/site/gikai/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "大分県議会（定数43・団体コード440001）",
+    license: "大分県ホームページ全体及び大分県ホームページに掲載されている個々の情報（文章、写真、イラストなど）は、大分県及び第三者が有する著作権により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載・複製・改変などはできません。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "大分県議会",
+      asOf: "2026-03-26",
+      asOfText: "令和８年第１回定例会",
+      teisu: 43,
+      teisuText: "大分県の場合４３人となっています",
+      teisuUrl: "https://www.pref.oita.jp/site/gikai/gaiyou-teisu.html",
+      vacancies: 0,
+      labelUrl: "https://web.archive.org/web/20260212190105id_/https://www.pref.oita.jp/site/gikai/giin-gisekijun.html",
+      roster: {"url":"https://www.pref.oita.jp/uploaded/attachment/2264206.pdf","title":"令和８年第１回定例会 議案等賛否一覧表（３月２６日分）の表頭（会派名・議員名〔議席番号順〕）","confirmUrls":["https://web.archive.org/web/20260212190105id_/https://www.pref.oita.jp/site/gikai/giin-gisekijun.html"]},
+      factions: [{"name":"自由民主党","box":[319,50,273,90],"page":1,"label":"自由民主党","noDeclaredCount":true,"noCountReason":"名簿にした議案等賛否一覧表（3月26日分）の表頭は会派名と議員名だけで、会派ごとの人数を印字していない。議会全体を定数43（欠員0）と議員ごとの賛否の列（43列＝名簿の全員と1対1）で照合する","members":["志村学","御手洗吉生","桝田貢","穴見憲昭","岡野涼子","中野哲朗","宮成公一郎","首藤健二郎","清田哲也","今吉次郎","阿部長夫","小川克己","太田正美","後藤慎太郎","森誠一","大友栄二","井上明夫","木付親次","三浦正臣","古手川正治","嶋幸一","元𠮷俊博","麻生栄作","阿部英仁"]},{"name":"県民クラブ","box":[593,50,125,90],"page":1,"label":"県民クラブ","noDeclaredCount":true,"noCountReason":"名簿にした議案等賛否一覧表（3月26日分）の表頭は会派名と議員名だけで、会派ごとの人数を印字していない。議会全体を定数43（欠員0）と議員ごとの賛否の列（43列＝名簿の全員と1対1）で照合する","members":["御手洗朋宏","福崎智幸","吉村尚久","若山雅敏","成迫健児","高橋肇","木田昇","二ノ宮健治","守永信幸","原田孝司","玉田輝義"]},{"name":"公明党","box":[718,50,34,90],"page":1,"label":"公明党","noDeclaredCount":true,"noCountReason":"名簿にした議案等賛否一覧表（3月26日分）の表頭は会派名と議員名だけで、会派ごとの人数を印字していない。議会全体を定数43（欠員0）と議員ごとの賛否の列（43列＝名簿の全員と1対1）で照合する","members":["澤田友広","𠮷村哲彦","戸高賢史"]},{"name":"日本共産党","box":[752,50,22,90],"page":1,"label":"日本共産党","noDeclaredCount":true,"noCountReason":"名簿にした議案等賛否一覧表（3月26日分）の表頭は会派名と議員名だけで、会派ごとの人数を印字していない。議会全体を定数43（欠員0）と議員ごとの賛否の列（43列＝名簿の全員と1対1）で照合する","members":["猿渡久子","堤栄三"]},{"name":"志士の会","box":[775,50,11,90],"page":1,"label":"志士の会","noDeclaredCount":true,"noCountReason":"名簿にした議案等賛否一覧表（3月26日分）の表頭は会派名と議員名だけで、会派ごとの人数を印字していない。議会全体を定数43（欠員0）と議員ごとの賛否の列（43列＝名簿の全員と1対1）で照合する","members":["末宗秀雄"]},{"name":"無所属の会","box":[787,50,11,90],"page":1,"label":"無所属の会","noDeclaredCount":true,"noCountReason":"名簿にした議案等賛否一覧表（3月26日分）の表頭は会派名と議員名だけで、会派ごとの人数を印字していない。議会全体を定数43（欠員0）と議員ごとの賛否の列（43列＝名簿の全員と1対1）で照合する","members":["佐藤之則"]},{"name":"日本維新の会","box":[798,50,12,90],"page":1,"label":"日本維新の会","noDeclaredCount":true,"noCountReason":"名簿にした議案等賛否一覧表（3月26日分）の表頭は会派名と議員名だけで、会派ごとの人数を印字していない。議会全体を定数43（欠員0）と議員ごとの賛否の列（43列＝名簿の全員と1対1）で照合する","members":["三浦由紀"]}],
+      resolution: {"url":"https://www.pref.oita.jp/uploaded/attachment/2264206.pdf","title":"令和８年第１回定例会 議案等賛否一覧表（３月２６日分）","billNo":"第1号議案","billName":"令和８年度大分県一般会計予算","sessionLabel":"令和８年第１回定例会","decidedDate":"2026-03-26","result":"可決"},
+      votes: {"url":"https://www.pref.oita.jp/uploaded/attachment/2264206.pdf","title":"令和８年第１回定例会 議案等賛否一覧表（３月２６日分）","basis":"member","legend":{"○":"賛成","×":"反対","欠":"不参加","議":"議長"},"legendText":["「○」：賛成、「×」：反対、","「欠」：議場に不在、","「議」：議長"],"anchor":"令和８年度大分県一般会計予算","symbols":"○○○○○○○○○○○○○○○○○欠○○議○○○○○○○○○○○○○○○○○××○○○","columns":[{"label":"志村学","member":"志村学"},{"label":"御手洗吉生","member":"御手洗吉生"},{"label":"桝田貢","member":"桝田貢"},{"label":"穴見憲昭","member":"穴見憲昭"},{"label":"岡野涼子","member":"岡野涼子"},{"label":"中野哲朗","member":"中野哲朗"},{"label":"宮成公一郎","member":"宮成公一郎"},{"label":"首藤健二郎","member":"首藤健二郎"},{"label":"清田哲也","member":"清田哲也"},{"label":"今吉次郎","member":"今吉次郎"},{"label":"阿部長夫","member":"阿部長夫"},{"label":"小川克己","member":"小川克己"},{"label":"太田正美","member":"太田正美"},{"label":"後藤慎太郎","member":"後藤慎太郎"},{"label":"森誠一","member":"森誠一"},{"label":"大友栄二","member":"大友栄二"},{"label":"井上明夫","member":"井上明夫"},{"label":"木付親次","member":"木付親次"},{"label":"三浦正臣","member":"三浦正臣"},{"label":"古手川正治","member":"古手川正治"},{"label":"嶋幸一","member":"嶋幸一"},{"label":"元𠮷俊博","member":"元𠮷俊博"},{"label":"麻生栄作","member":"麻生栄作"},{"label":"阿部英仁","member":"阿部英仁"},{"label":"御手洗朋宏","member":"御手洗朋宏"},{"label":"福崎智幸","member":"福崎智幸"},{"label":"吉村尚久","member":"吉村尚久"},{"label":"若山雅敏","member":"若山雅敏"},{"label":"成迫健児","member":"成迫健児"},{"label":"高橋肇","member":"高橋肇"},{"label":"木田昇","member":"木田昇"},{"label":"二ノ宮健治","member":"二ノ宮健治"},{"label":"守永信幸","member":"守永信幸"},{"label":"原田孝司","member":"原田孝司"},{"label":"玉田輝義","member":"玉田輝義"},{"label":"澤田友広","member":"澤田友広"},{"label":"𠮷村哲彦","member":"𠮷村哲彦"},{"label":"戸高賢史","member":"戸高賢史"},{"label":"猿渡久子","member":"猿渡久子"},{"label":"堤栄三","member":"堤栄三"},{"label":"末宗秀雄","member":"末宗秀雄"},{"label":"佐藤之則","member":"佐藤之則"},{"label":"三浦由紀","member":"三浦由紀"}],"tally":{"text":"可決 42 41 39 2","counts":{"賛成":39,"反対":2}}},
+    },
+  },
+  {
+    // 別府市議会（団体コード 442020。⚠ 大分県議会 440001・大分市議会 442011 とは別団体）。名簿は「別府市議会 会派名簿（令和８年２月２日 現在）」（/gikai/03meibo/pdf/kaihameibo.pdf・PDF の更新日 2026-02-03＝議決前）。会派名・代表者名・所属議員の3列の表で、会派ごとの行の帯を枠で切る（-bbox で行の隙間に引いた）。人数は会派名の下の「（９名）」などの印字（declared）
+    // 議決時点の構成: 議員名簿のページ（03meibo/index.html・raw の外）は議決後も「各会派名簿（PDF：244KB）[R08.2.2現在]」を掲げたまま（2026-10-31 確認）。議決当日（3/25）の「令和８年 第１回 定例会 議決結果賛否一覧表」（sanpi01.pdf・作成日 2026-03-26）の表頭の「会派・議員名」が名簿と同じ11会派・同じ人数（9・4・3・2・1×7）・同じ顔ぶれ（目視）で、25人全員の氏名が出ることを confirmUrls で見る。2/2〜3/25 に異動が無かったことは表頭との一致による
+    // 人数の網: 会派ごとの declared・定数25（「市議会のしくみ」04sikumi/index.html「25名の議員で構成された市議会」・欠員0）・会派ごとに1回出る「（N名）」の印字（factionMarker「\(\d+名\)」＝11）・賛否の議員ごとの24列＋議長＝名簿の全員と1対1
+    // 議決: 賛否一覧表の予算の行「議第7号 令和８年度別府市一般会計予算 可決（多数）」（-raw で件名が1行につながる。近接）。結果は原典の語のまま「可決（多数）」（議決結果のページ regular_r08.html の表は「原案可決」だが日付が無いので主の原典にしていない）。議決日は区分の見出し「予算議案 3月２５日議決分」（farOk・decidedDateText＝大分市の型。同じ表に「予算議案 3月１０日議決分」もある）
+    // 賛否（議員ごと）: 凡例「議案賛成者は「○」、反対者は「×」、退席者は「－」、欠席者は「欠」、議長は「／」（採決に加わらない為）」。予算の行は 賛成23・反対1（美馬恭子＝日本共産党）。議長 小野正明（自民新政会）の列の「／」は図形でテキスト層に無いので blank（歴代議長・副議長の一覧 rekidai.html の「歴代議長の一覧」の「58 小野 正明 令和07．03．25」＝終期の無い現職の行）。印字された賛否の数は無い
+    // ライセンス: 予算の行（beppu-yosanan-setsumei-r8）と同じ「このサイトについて」（/about.html）の著作権の原文（要許可）。議会のページも市の公式サイト（/gikai/）で、フッターの「Copyright(C)2002-BeppuCityCouncilAll Rights Reserved」のほかに議会独自の条項は無い
+    // リンク: 予算の行と同じく「「別府市公式ホームページ」へのリンクは基本的に自由です。」なので noDeepLink は付けない
+    // raw: 4件とも拡張子どおり（PDF は先頭 %PDF、HTML は gzip でない <!DOCTYPE）で transform なし。電話・〒は議会事務局（上野口町1-15・0977-21-1547）のものだけ（機械的に確認）。「市議会のしくみ」のページに HTML コメントの長い残りは無い
+    // 照合の残った弱さ（改ざんテスト53通り中8通りが通る・0.8.20 も同じ）: 議決日を 3/10 にし decidedDateText を同じ表の「予算議案 3月１０日議決分」に替える（2か所・越谷型）、会派名の後ろに枠の中の氏名を足す「自民新政会山本一成」（代表者名の列が会派名の直後に組まれる）・「創世会黒木」（§6-19 の氏名を足す型）、会派名の前方切り詰め（「自民」「弱い立場の人に」）、1人の会派に independent、asOf だけの書き換え（パーサ一般）、合流先の枠を広げ declared を消して factionMarker も外す（4か所の作為）
+    // ✗ になったもの: 会派間の1人移動（2通り）・人数を変えない入れ替え（3通り）・1人の書き落とし（名簿だけ／列・記号ごと＋declared 8名・定数24）・1人会派を丸ごと落とす（2通り）・会派の合流（枠そのまま・枠を広げる・declared を消す3通り）・議案番号（議第8号・議第1号・号落とし・「第7号」）・結果（可決・原案可決・可決（全員））・議決日（3/10・3/27）・件名（特別会計・補正）・会期名・会派名に人数・役職・欄の切れ端・会派名のすり替え・創世会に independent・asOfText・asOf を議決後に・定数26・列の入れ替え（2通り）・議長のすり替え（2通り）・議長を名簿と blank から消す・凡例の入れ替え・記号の差し替え・anchor を補正・特別会計・議案番号に
+    // raw に入れなかったもの: 議員名簿のページ（03meibo/index.html）— 住所・電話は無いが、画面に出ない HTML コメントに前の議員の訃報（氏名・年齢）が残っているため。定数は同じ議会サイトの「市議会のしくみ」から取った。議員名簿の PDF（giinmeibo.pdf）は住所・電話つき
+    id: "beppu-shigikai-r8",
+    title: "令和8年度 別府市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "別府市議会",
+    url: null,
+    urls: [
+      "https://www.city.beppu.oita.jp/gikai/03meibo/pdf/kaihameibo.pdf",
+      "https://www.city.beppu.oita.jp/gikai/06kekka/01regular/pdf/r08/sanpi01.pdf",
+      "https://www.city.beppu.oita.jp/gikai/04sikumi/index.html",
+      "https://www.city.beppu.oita.jp/gikai/02chairman/rekidai.html",
+    ],
+    landingPage: "https://www.city.beppu.oita.jp/gikai/06kekka/01regular/regular_r08.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "別府市議会（定数25・団体コード442020）",
+    license: "別府市の公式サイトを構成している文章、画像、図表等の著作権は別府市及び各製作者に帰属しており、転載・二次転用などは禁止させていただきます。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "別府市議会",
+      asOf: "2026-02-02",
+      asOfText: "（令和８年２月２日 現在）",
+      teisu: 25,
+      teisuText: "25名の議員で構成された市議会",
+      teisuUrl: "https://www.city.beppu.oita.jp/gikai/04sikumi/index.html",
+      vacancies: 0,
+      factionMarker: "\\(\\d+名\\)",
+      roster: {"url":"https://www.city.beppu.oita.jp/gikai/03meibo/pdf/kaihameibo.pdf","title":"別府市議会 会派名簿（令和８年２月２日 現在）","confirmUrls":["https://www.city.beppu.oita.jp/gikai/06kekka/01regular/pdf/r08/sanpi01.pdf"]},
+      factions: [{"name":"自民新政会","box":[50,140,495,132],"page":1,"declared":"（９名）","members":["谷口和美","日名子敦子","阿部真一","安部一郎","小野正明","吉冨英三郎","松川章三","松川峰生","山本一成"]},{"name":"公明党","box":[50,276,495,49],"page":1,"declared":"（４名）","members":["重松康宏","小野佳子","穴井宏二","市原隆生"]},{"name":"市民クラブ","box":[50,330,495,48],"page":1,"declared":"（３名）","members":["三重忠昭","森山義治","加藤信康"]},{"name":"創世会","box":[50,384,495,41],"page":1,"declared":"（２名）","members":["黒木愛一郎","野口哲男"]},{"name":"弱い立場の人に政治の光を","box":[50,437,495,48],"page":1,"declared":"（１名）","members":["泉武弘"]},{"name":"新たな別府を創る会","box":[50,491,495,41],"page":1,"declared":"（１名）","members":["森大輔"]},{"name":"日本共産党","box":[50,545,495,41],"page":1,"declared":"（１名）","members":["美馬恭子"]},{"name":"ビーワンべっぷ","box":[50,599,495,41],"page":1,"declared":"（１名）","members":["森裕二"]},{"name":"創る未来の会","box":[50,653,495,41],"page":1,"declared":"（１名）","members":["中村悟"]},{"name":"日本維新の会","box":[50,706,495,41],"page":1,"declared":"（１名）","members":["石田強"]},{"name":"有志の会","box":[50,760,495,40],"page":1,"declared":"（１名）","members":["塩手悠太"]}],
+      resolution: {"url":"https://www.city.beppu.oita.jp/gikai/06kekka/01regular/pdf/r08/sanpi01.pdf","title":"令和８年 第１回 定例会 議決結果賛否一覧表","billNo":"議第7号","billName":"令和８年度別府市一般会計予算","sessionLabel":"令和８年第１回定例会","decidedDate":"2026-03-25","result":"可決（多数）","farOk":["decidedDate"],"decidedDateText":"予算議案 3月２５日議決分"},
+      votes: {"url":"https://www.city.beppu.oita.jp/gikai/06kekka/01regular/pdf/r08/sanpi01.pdf","title":"令和８年 第１回 定例会 議決結果賛否一覧表","basis":"member","legend":{"○":"賛成","×":"反対"},"legendText":"議案賛成者は「○」、反対者は「×」、退席者は「－」、欠席者は「欠」、議長は「／」（採決に加わらない為）","anchor":"令和８年度別府市一般会計予算","symbols":"○○○○○○○○○○○○○○○○○○○×○○○○","columns":[{"label":"山本一成","member":"山本一成"},{"label":"松川峰生","member":"松川峰生"},{"label":"松川章三","member":"松川章三"},{"label":"吉冨英三郎","member":"吉冨英三郎"},{"label":"安部一郎","member":"安部一郎"},{"label":"阿部真一","member":"阿部真一"},{"label":"日名子敦子","member":"日名子敦子"},{"label":"谷口和美","member":"谷口和美"},{"label":"市原隆生","member":"市原隆生"},{"label":"穴井宏二","member":"穴井宏二"},{"label":"小野佳子","member":"小野佳子"},{"label":"重松康宏","member":"重松康宏"},{"label":"加藤信康","member":"加藤信康"},{"label":"森山義治","member":"森山義治"},{"label":"三重忠昭","member":"三重忠昭"},{"label":"野口哲男","member":"野口哲男"},{"label":"黒木愛一郎","member":"黒木愛一郎"},{"label":"泉武弘","member":"泉武弘"},{"label":"森大輔","member":"森大輔"},{"label":"美馬恭子","member":"美馬恭子"},{"label":"森裕二","member":"森裕二"},{"label":"中村悟","member":"中村悟"},{"label":"石田強","member":"石田強"},{"label":"塩手悠太","member":"塩手悠太"}],"blank":[{"label":"小野正明","stance":"議長","evidence":"小野 正明 令和07．03．25","evidenceUrl":"https://www.city.beppu.oita.jp/gikai/02chairman/rekidai.html","evidenceHeading":"歴代議長の一覧"}]},
+    },
+  },
+  {
+    // 中津市議会（団体コード 442038。⚠ 岐阜県 中津川市 212067 とは別団体）。名簿は議決当日（3/18）の「令和８年第１回定例会提出案件 議決結果表」（R803_giketsu.pdf・更新日 2026-03-18）p.4「◆賛否の分かれた議案」の表頭（会派名の行と縦書きの議員名の列）。会派ごとの列の帯を枠で切る（帯の境目は隣り合う列の中間。p.4 を描画して罫線と一致することを確かめた）。asOf は議決日・asOfText は表題の会期名
+    // ⚠ この PDF は pdftotext -bbox が異常終了する（libc++ の out_of_range）ので、座標は PyMuPDF の get_text('words') で取った（回転なし・cropbox は mediabox と同じで、pdftotext -x -y の切り出しと座標系が一致することを切り出しで確かめた）。-layout・-raw の抽出と枠の切り出しは正常
+    // 住所の無い議決前の名簿が無い: 議員名簿のページ（2014112500035・公開日 2026年03月19日）は議員の住所・電話・メールつきで raw に入れていない。会派ごとの人数は「令和7年度政務活動費収支報告」（2026042300043・公開日 2026年04月30日）の「清流会：7名（…藤野英司（令和8年2月18日〜）、中西伸之（令和8年2月18日〜）」などの印字（declaredIn）で照合する
+    // 議決時点の構成: 名簿そのものが議決当日の資料。政務活動費の報告は、2/18 に会派「ほんき」（中西伸之・藤野英司・相良亜寿香）が解消し、中西・藤野が清流会へ、相良亜寿香が「再生」へ移ったと注記していて、議決当日の表頭（清流会7・前進6・日本共産党3・市民の会3・公明党2・豊の風1・再生1＝23人）と一致する。副議長の大内直樹（清流会）は議決当日の 3/18 に選任（副議長のページ「第72代副議長（令和8年3月18日～）」）
+    // 人数の網: 会派ごとの declared（declaredIn＝政務活動費の報告）。議会全体の人数（議員実数23人・定数24人）と欠員を書いた原文が住所つきの議員名簿のページにしか無いので noTotalReason。全員は賛否の議員ごとの22列＋議長（blank）＝名簿の全員と1対1で照合する。定数24は「市議会の説明」（2011100400353）の「中津市では平成31年の選挙から、議員の数は 24名 となっています。」（raw の外・scope の定数はこれによる。欠員1は 2025-02 の議員名簿の魚拓でも「23人（24人）」で、議決より前からの欠員）
+    // 議決: 議決結果表 p.1 の行「議第１０号 令和８年度中津市一般会計予算 原 案 可 決 ３月１８日」（近接）
+    // 賛否（議員ごと）: 凡例「（個人ごとの表決結果を賛成○、反対×、棄権－、欠席は欠で表しています。）」・「なお、議長は採決に加わらないため斜線としています。」。予算の行は 賛成18・反対3（荒木ひろ子・川内八千代・三上英範＝日本共産党）・欠席1（藤野英司＝清流会）。議長 林秀明（前進）の列は斜線（図形でテキスト層に無い）なので blank（議長あいさつのページ 2026032300053「第56代議長（令和7年3月25日～）」と写真の alt「議長林秀明」・氏名「林 秀明」）。印字された賛否の数は無い
+    // legendText は凡例の原文を2つの断片（「個人ごとの表決結果を賛成○、反対×、」「欠席は欠で表しています。」）に分けて書いた — 1つの原文のままだと「欠」の字が「欠席」の「欠」にも当たり、直前の「棄権－、」を読んで legend の「欠」を「棄権」に書き換えても通った（作業者が実測）
+    // ライセンス: 予算の行（nakatsu-yosansetsumeisho-r8）と同じ「リンク・著作権」（/link.html）の著作権の原文（要許可）。議会のページも市の公式サイト（/gikai/）で議会独自の条項は無い
+    // リンク: 予算の行と同じく「中津市ホームページへのリンクは原則として自由です。」なので noDeepLink は付けない
+    // raw: PDF は先頭 %PDF・拡張子どおり。HTML の2件（/gikai/2026042300043/・/gikai/2026032300053/）は URL が「/」で終わり拡張子が無いので ext:.html（本文は gzip でない <!DOCTYPE html>）。電話・〒は議会事務局・市役所（豊田町14番地3・0979-62-9882・0979-22-1111）のものだけ（機械的に確認）。議決結果表の人事案件（教育長・固定資産評価審査委員会委員）は件名だけで候補者の氏名は無い
+    // 照合の残った弱さ（改ざんテスト53通り中7通りが通る・0.8.20 も同じ）: 合流先の枠を広げ declared・declaredIn を消して noCountReason を書く（再生→豊の風・公明党→市民の会＝3か所の作為。議会全体の網が noTotalReason のため）、会派名の前方切り詰め（「日本共産」「市民」）、1人の会派（再生）に independent、asOf だけの書き換え（パーサ一般）、legendText を原文全体に戻して「欠」を「棄権」にする（2か所）
+    // ✗ になったもの: 会派間の1人移動（3通り）・人数を変えない入れ替え（2通り）・枠の境界を1列ずらして1人を隣の会派へ・1人の書き落とし（名簿だけ／列・記号ごと／declared を外して）・1人会派を丸ごと落とす・会派の合流（枠そのまま・枠を広げる）・2/18 以前の「ほんき」を復活させる・議案番号（議第１１号・議第１号・号落とし・数字だけ）・結果（可決・同意する・承認する）・議決日（3/17・2/18）・件名（特別会計・補正）・会期名・会派名に氏名・人数・欄の語・会派名のすり替え（無所属・ほんき）・公明党に independent・asOfText・asOf を議決後に・declared の付け替え・列の入れ替え（3通り）・議長のすり替え・議長を名簿と blank から消す・凡例の入れ替え・「欠」を「棄権」に・記号の差し替え（2通り）・anchor を特別会計・議案番号に
+    id: "nakatsu-shigikai-r8",
+    title: "令和8年度 中津市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "中津市議会",
+    url: null,
+    urls: [
+      "https://www.city-nakatsu.jp/gikai/2014121900031/file_contents/R803_giketsu.pdf",
+      "https://www.city-nakatsu.jp/gikai/2026042300043/",
+      "https://www.city-nakatsu.jp/gikai/2026032300053/",
+    ],
+    landingPage: "https://www.city-nakatsu.jp/gikai/2014121900031/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "中津市議会（定数24・団体コード442038）",
+    license: "中津市ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として中津市に帰属します。また、一部の画像等の著作権は、中津市以外の原著作者が所有しています。中津市ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内にある「お問い合わせ」に記載されている部署へ、事前にご相談ください。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "中津市議会",
+      asOf: "2026-03-18",
+      asOfText: "令和８年第１回定例会",
+      noTotalReason: "議会全体の人数（議員実数23人・定数24人）と欠員を書いた原文は、議員の住所・電話つきの議員名簿のページにしか無い（raw に入れない）。会派ごとの人数は政務活動費の報告（declaredIn）で、全員は議決当日の賛否表の議員ごとの列（22列＋議長＝名簿の全員と1対1）で照合する",
+      roster: {"url":"https://www.city-nakatsu.jp/gikai/2014121900031/file_contents/R803_giketsu.pdf","title":"令和８年第１回定例会提出案件 議決結果表 p.4「賛否の分かれた議案」の表頭（会派名・議員名）"},
+      factions: [{"name":"清流会","box":[392,97,176,113],"page":4,"declared":"清流会：7名","declaredIn":"https://www.city-nakatsu.jp/gikai/2026042300043/","members":["木ノ下素信","藤野英司","相良卓紀","中西伸之","本田哲也","三重野玉江","大内直樹"]},{"name":"前進","box":[569,97,150,113],"page":4,"declared":"前進：6名","declaredIn":"https://www.city-nakatsu.jp/gikai/2026042300043/","members":["古江信一","角祥臣","恒賀愼太郎","奥村一義","林秀明","渕野真己"]},{"name":"日本共産党","box":[720,97,75,113],"page":4,"declared":"日本共産党：3名","declaredIn":"https://www.city-nakatsu.jp/gikai/2026042300043/","members":["荒木ひろ子","川内八千代","三上英範"]},{"name":"市民の会","box":[796,97,74,113],"page":4,"declared":"市民の会：3名","declaredIn":"https://www.city-nakatsu.jp/gikai/2026042300043/","members":["千木良孝之","大塚正俊","木佐貫佳子"]},{"name":"公明党","box":[871,97,50,113],"page":4,"declared":"公明党：2名","declaredIn":"https://www.city-nakatsu.jp/gikai/2026042300043/","members":["松葉民雄","小住利子"]},{"name":"豊の風","box":[922,97,24,113],"page":4,"declared":"豊の風：1名","declaredIn":"https://www.city-nakatsu.jp/gikai/2026042300043/","members":["山影智一"]},{"name":"再生","box":[947,97,26,113],"page":4,"declared":"再生：1名","declaredIn":"https://www.city-nakatsu.jp/gikai/2026042300043/","members":["相良亜寿香"]}],
+      resolution: {"url":"https://www.city-nakatsu.jp/gikai/2014121900031/file_contents/R803_giketsu.pdf","title":"令和８年第１回定例会提出案件 議決結果表","billNo":"議第１０号","billName":"令和８年度中津市一般会計予算","sessionLabel":"令和８年第１回定例会","decidedDate":"2026-03-18","result":"原案可決"},
+      votes: {"url":"https://www.city-nakatsu.jp/gikai/2014121900031/file_contents/R803_giketsu.pdf","title":"令和８年第１回定例会提出案件 議決結果表 p.4「賛否の分かれた議案」","basis":"member","legend":{"○":"賛成","×":"反対","欠":"欠席"},"legendText":["個人ごとの表決結果を賛成○、反対×、","欠席は欠で表しています。"],"anchor":"令和８年度中津市一般会計予算","symbols":"○欠○○○○○○○○○○×××○○○○○○○","columns":[{"label":"木ノ下素信","member":"木ノ下素信"},{"label":"藤野英司","member":"藤野英司"},{"label":"相良卓紀","member":"相良卓紀"},{"label":"中西伸之","member":"中西伸之"},{"label":"本田哲也","member":"本田哲也"},{"label":"三重野玉江","member":"三重野玉江"},{"label":"大内直樹","member":"大内直樹"},{"label":"古江信一","member":"古江信一"},{"label":"角祥臣","member":"角祥臣"},{"label":"恒賀愼太郎","member":"恒賀愼太郎"},{"label":"奥村一義","member":"奥村一義"},{"label":"渕野真己","member":"渕野真己"},{"label":"荒木ひろ子","member":"荒木ひろ子"},{"label":"川内八千代","member":"川内八千代"},{"label":"三上英範","member":"三上英範"},{"label":"千木良孝之","member":"千木良孝之"},{"label":"大塚正俊","member":"大塚正俊"},{"label":"木佐貫佳子","member":"木佐貫佳子"},{"label":"松葉民雄","member":"松葉民雄"},{"label":"小住利子","member":"小住利子"},{"label":"山影智一","member":"山影智一"},{"label":"相良亜寿香","member":"相良亜寿香"}],"blank":[{"label":"林秀明","stance":"議長","evidence":"第56代議長 （令和7年3月25日～） 顔写真 議長林秀明 氏名 はやし ひであき 林 秀明","evidenceUrl":"https://www.city-nakatsu.jp/gikai/2026032300053/"}]},
+    },
+  },
+  {
+    // 佐伯市議会（大分県・団体コード 442054）。名簿は議会の「会派別議員名簿」ページ（kiji0033183・最終更新日 2025年5月9日）の PDF「佐伯市議会会派別名簿」（6期議員任期：R7.4.17～R11.4.16・「（令和 7 年 5 月 9 日現在）」）。会派・役職・氏名の表で、会派名の欄が氏名の行の途中に縦中央で組まれ、区間方式では読めないので、会派ごとの行の帯を枠（box）で切った（座標は pdftotext -tsv、帯の境目は描画で確かめた）。無会派の4人は1行ずつの枠で、それぞれ independent
+    // 人数の網: 会派ごとの人数の印字（「（７人）」「（４人）」「（３人）」「（２人）」「(２人)」＝declared）と、定数22（佐伯市議会議員定数条例 r159RG00001257.html「議員の定数は、22人とする。」）＝現員22（欠員0）。無会派の4人は人数の印字が無いので noCountReason で定数に任せる
+    // 議決時点の構成: 名簿の基準日（R7.5.9）は議決（R8.3.18）の約10か月前で、その間の異動を書いた原文は raw に無い【推定】。議決日の会議録（第6号）の出席議員22人・欠席なし（GetText3 の位置0・raw の外）、3/3 の代表質問一覧表（5会派の代表者と会派名・raw の外）、議決後のさいき市議会だより No.85（R8.5.1 発行）p.4「議員の表決態度の公表」の表頭（一志会7・佐伯を元気にする会4・さいき会3・彗星会2・公明党2・無会派4＝議長 塩月健治を含む）と、名簿の22人・会派が一致することを目視した。名簿のページも今なお R7.5.9 版を掲げる
+    // 𦚰坂豊議員の「𦚰」（U+266B0）は名簿のテキスト層の字のまま。会議録は「脇坂」と書くので、会議録を confirmUrls にしていない（norm がこの2字を寄せない）
+    // 議決: 「令和８年第２回佐伯市議会定例会議案結果」（kiji0033871 の 3_3871_up_v8n01r6b.pdf）の「第 ２ 号 令和８年度佐伯市一般会計予算 原案可決」。この PDF には議決日が無いので farOk: ["decidedDate"]。議決日は会議録検索システム（kensakusystem.jp・GetText3.exe の GET の固定 URL・Shift_JIS）の第6号（3月18日）の2つの発言の頁で照合する — 位置36674「次に、議案第２号、令和８年度佐伯市一般会計予算を議題といたします。…起立により採決いたします。…（起 立 多 数）」と位置37032「よって、議案第２号は原案のとおり可決されました。」。decidedDateText は頁の題「令和 8年第2回定例会（第6号 3月18日）」（同じ日のどの発言の頁にも出る題で、件名と結び付くのは頁の本文による）。会期日程（2/20〜3/18・3/18 は閉会の本会議）とも合う
+    // 賛否は入れていない — 議決当日の「令和8年第2回佐伯市議会定例会賛否結果一覧表」（3_3871_up_ioje76iu.pdf）は文字が輪郭化されていてテキスト層が0字。会議録は「起立多数」だけで議員ごとの記録が無い。だより No.85 の表決態度の表は raw に入れていない（下）
+    // ライセンス: 予算の行（saiki-yosansho-r8）と同じ「佐伯市ホームページについて」（/kiji0033762/index.html）の原文（要許可）。議会のページ・PDF・例規集は市の公式サイト（/gikai/・/reiki/）で、議会独自の条項は無い。会議録検索システム（kensakusystem.jp）にも著作権・リンクの条項は無く、守口（§6-10）の前例どおり市の原文
+    // リンク: 予算の行に noDeepLink は無く（「リンクは原則として自由です。…フレーム内に表示されるようなリンク設定は行わないでください。」）、議会の行にも付けない
+    // raw: 会議録の2件は拡張子の無い CGI の URL なので transform ext:.html（最初に落とした本文の先頭は <!DOCTYPE HTML・gzip ではない）。電話・〒・住所の語は5件とも0件（機械的に確認）。議案結果の PDF には議員でない人事案件の候補者12人の氏名（住所なし）がある（§6-18 の岩出・§6-19 の前例どおり残した）。だより No.85 は人事案件の候補者の出身地・学歴・職歴・年齢と未来議会（高校生）の記事があるので raw に入れていない。議員名簿（kiji0033182）は確かめていない（使っていない）
+    // 照合の残った弱さ（改ざんテスト47通り中6通りが通る・0.8.19 と 0.8.20 で同じ）: 合流先の枠を相手の帯まで広げ、declared を noDeclaredCount に替える3か所の作為の合流（彗星会→さいき会）、無会派の4人を1つの枠にまとめる（independent の呼び名なので理由が要らない・画面は「無会派4」）、会派名の前方切り詰め（「佐伯を元気」）・隣の欄の語の切れ端（「さいき会副」）、asOfText を名簿の別の日付（「R7.4.17」）にする・asOf の ISO だけを替える（一般の型）。✗ になったもの: 会派間の1人移動（3通り）・人数を変えない入れ替え（2通り）・1人の書き落とし（declared を合わせても・declared を外して定数21にしても）・無会派の1人の丸ごとの書き落とし（定数21・欠員1でも）・会派の合流（3通り・枠を広げても declared で）・無会派を公明党へ・議案番号（第 ３ 号・第 ８ 号・議案第３号・第５６号・号を落とす）・「可決」「原案同意」・議決日（3/3・2/20・decidedDateText ごと 3/13）・特別会計の件名・別の会期名・会派名に人数／役職／氏名／欄の語／括弧の読みを足す・別の会派名・independent の付け外し・asOf を議決後に・定数23
+    id: "saiki-shigikai-r8",
+    title: "令和8年度 佐伯市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "佐伯市議会",
+    url: null,
+    urls: [
+      "https://www.city.saiki.oita.jp/gikai/kiji0033183/3_3183_up_x0mmlqta.pdf",
+      "https://www.city.saiki.oita.jp/gikai/kiji0033871/3_3871_up_v8n01r6b.pdf",
+      "https://www.kensakusystem.jp/saiki/cgi-bin3/GetText3.exe?i0rsv3veozub4z36ou/R080318A/36674/10/1//0/0",
+      "https://www.kensakusystem.jp/saiki/cgi-bin3/GetText3.exe?i0rsv3veozub4z36ou/R080318A/37032/10/1//0/0",
+      "https://www.city.saiki.oita.jp/reiki/reiki_honbun/r159RG00001257.html",
+    ],
+    landingPage: "https://www.city.saiki.oita.jp/gikai/kiji0033183/index.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "佐伯市議会（定数22・団体コード442054）",
+    license: "当市ホームページから発信する情報（テキスト、画像、PDF、音声そのほかのデータ）の著作権は、佐伯市に帰属します。また、一部の写真、イラスト画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "佐伯市議会",
+      asOf: "2025-05-09",
+      asOfText: "令和 7 年 5 月 9 日現在",
+      teisu: 22,
+      teisuText: "議員の定数は、22人とする。",
+      teisuUrl: "https://www.city.saiki.oita.jp/reiki/reiki_honbun/r159RG00001257.html",
+      vacancies: 0,
+      roster: {"url":"https://www.city.saiki.oita.jp/gikai/kiji0033183/3_3183_up_x0mmlqta.pdf","title":"佐伯市議会会派別名簿（令和7年5月9日現在）"},
+      factions: [{"name":"一志会","box":[90,190,440,180],"page":1,"declared":"（７人）","members":["梶川善寛","大﨑栄治","塩月将登","染矢和陽","河野和史","廣津留龍二","河原勝也"]},{"name":"佐伯を元気にする会","box":[90,371,440,101],"page":1,"declared":"（４人）","members":["西條隆洋","三浦渉","井上清三","本田房代"]},{"name":"さいき会","box":[90,474,440,76],"page":1,"declared":"（３人）","members":["冨松万平","大野達也","池澤益彦"]},{"name":"彗星会","box":[90,552,440,50],"page":1,"declared":"（２人）","members":["本杉貴志","吉良栄三"]},{"name":"公明党","box":[90,604,440,50],"page":1,"declared":"(２人)","members":["後藤勇人","𦚰坂豊"]},{"name":"無会派","independent":true,"box":[90,656,440,24],"page":1,"noDeclaredCount":true,"noCountReason":"無会派の議員は1人ずつ名簿に載り、人数の印字が無い。議会全体の人数を定数22（佐伯市議会議員定数条例「議員の定数は、22人とする。」）で照合する","members":["佐藤元"]},{"name":"無会派","independent":true,"box":[90,682,440,24],"page":1,"noDeclaredCount":true,"noCountReason":"無会派の議員は1人ずつ名簿に載り、人数の印字が無い。議会全体の人数を定数22（佐伯市議会議員定数条例「議員の定数は、22人とする。」）で照合する","members":["髙司政文"]},{"name":"無会派","independent":true,"box":[90,708,440,24],"page":1,"noDeclaredCount":true,"noCountReason":"無会派の議員は1人ずつ名簿に載り、人数の印字が無い。議会全体の人数を定数22（佐伯市議会議員定数条例「議員の定数は、22人とする。」）で照合する","members":["塩月健治"]},{"name":"無会派","independent":true,"box":[90,734,440,24],"page":1,"noDeclaredCount":true,"noCountReason":"無会派の議員は1人ずつ名簿に載り、人数の印字が無い。議会全体の人数を定数22（佐伯市議会議員定数条例「議員の定数は、22人とする。」）で照合する","members":["森川寿子"]}],
+      resolution: {"url":"https://www.city.saiki.oita.jp/gikai/kiji0033871/3_3871_up_v8n01r6b.pdf","title":"令和８年第２回佐伯市議会定例会議案結果","alsoUrls":["https://www.kensakusystem.jp/saiki/cgi-bin3/GetText3.exe?i0rsv3veozub4z36ou/R080318A/36674/10/1//0/0","https://www.kensakusystem.jp/saiki/cgi-bin3/GetText3.exe?i0rsv3veozub4z36ou/R080318A/37032/10/1//0/0"],"billNo":"第 ２ 号","billName":"令和８年度佐伯市一般会計予算","sessionLabel":"令和８年第２回佐伯市議会定例会","decidedDate":"2026-03-18","result":"原案可決","farOk":["decidedDate"],"decidedDateText":"令和 8年第2回定例会（第6号 3月18日）"},
+    },
+  },
+  {
+    // 長崎県議会（団体コード 420000。⚠ 長崎市議会 422011 とは別団体）。会派と所属議員は議決当日（R8.3.30）の「本会議における議員の賛否の状況」（/gikai/0803teirei/pdf/sanpi_honkaigi.pdf・「令和８年３月定例会」・PDF の作成日 2026-03-30）p.1 の表頭を会派ごとの枠で照合する（氏名は縦書きで、-raw で1人ずつつながる。枠の境目は pdftotext -tsv の列の x で決めた）。会派ごとの人数は議決前の「会派別議員名簿」（/gikai/2020.html・「令和8年2月12日現在」・HTTP の Last-Modified 2026-02-25）の「自由民主党（３０名）」などを declaredIn で照合する
+    // 名簿の HTML は議決後の魚拓 20260407082029 と 2026-10-31 の発行元が同じバイト列（16,087 バイト）で、議決時点も同じ版とみた【推定】（2/25 から 4/7 の間に別の版を挟んでいないことは直接は確かめられない。それより前の捕捉は 2025-05-16 だけ）。会派・人数は議決当日の表頭（7会派・46人）とすべて一致する
+    // ⚠ 名簿の HTML は改革２１の饗庭敦子議員の氏名を画像（images/icon_aiba.gif・alt なし）で載せていて本文に字が無いので、氏名は名簿でなく議決当日の表頭の枠で照合する（表頭は「饗庭敦子」が文字）。名簿の HTML には離脱した議員の行と旧会派「県民会議（名）」「オールながさき（１名）」が HTML のコメント（<!-- -->）で残っていて、パーサはコメントの字も本文として読む — 会派ごとの印 factionMarker は「（N名）」の数で、コメントの中の「オールながさき（１名）」だけを lookbehind で除いた（7会派）
+    // 改革２１は名簿の印字「改革２１（９名）」が会派名の「２１」と人数の「９」の2つの数を含み、パーサが人数を1つに読めない（declaredNumber）ので declared を持たせず noCountReason を書いた。改革２１の1人の書き落としは定数46・欠員0と賛否の列（議員ごと46列）で捕まる
+    // 人数の網: 会派ごとの declared（改革２１を除く6会派）・定数46（「県議会のしくみと議案の流れ」/gikai/4030.html「議員の定数は、県条例で46人と定められています。」）＝現員46（欠員0）・会派ごとの印（factionMarker）
+    // 議決: 「令和８年３月定例会 議案及び採決結果」（/gikai/0803teirei/gian.html・HTTP の Last-Modified 2026-07-13）の表の行「第1号｜令和8年度長崎県一般会計予算｜令和8.3.30｜原案可決」（table: row）。賛否の状況 PDF の同じ行の議決結果の欄は「可決」だが、議決の結果は議案及び採決結果の語「原案可決」に従った。R8 当初予算は知事選（2026年2月）の年の骨格予算（skeleton-budgets.ts に記録済み・3月定例会で議決）
+    // 賛否: 議決当日の賛否の状況 p.1 の第1号議案の行（議員ごと46列。凡例「議：議長 ○：賛成 ×：反対 欠：欠席」）。賛成39・反対4（改革２１の坂本浩・堤典子・まきやま大和、日本共産党の堀江ひとみ）・欠席2（改革２１の山田朋子、もっと身近な県政の会の下条博文）・議長1（外間雅広・列に「議」の印字）。印字の「3/30 44 43 39 4 電子 可決」（出席者数44・採決者数43・賛成39・反対4）を tally で照合する（この並びの印字は第1号議案の行だけ）。列見出しの順は -raw の縦書きの氏名の並びで照合する（記号の列と氏名の列の対応は pdftotext -tsv の x で目視した）
+    // 同じ定例会で「長崎県議会議長の不信任決議」が可決されている（gian.html の概要）が、予算の採決の行では外間議長の列が「議」の印字で、議決時の議長は外間議長
+    // ライセンス: 予算の行（nagasaki-ken-yosan-setsumeisho-r8）と同じ「このサイトについて」（/pages/site_info.html・2026-10-31 に再確認）の原文。議会のページ（/gikai/）は県の公式サイトの中にあり、独自の著作権・リンクの条項は無い（フッターは「Copyright© 2023 Nagasaki Prefectural assembly.All Rights Reserved.」だけ）
+    // リンク: 予算の行と同じく noDeepLink（県の「リンクを貼る箇所については、原則、トップページとしてください。」が同じサイトの /gikai/ にも掛かる）。landingPage は議会のトップ（/gikai/）
+    // raw: 4件とも本文の先頭が <!DOCTYPE／%PDF で拡張子どおり（transform 不要・魚拓の本文は使っていない）。電話・〒は県庁と県議会事務局（総務課・議事課・政務調査課）のものだけ（機械的に確認）。賛否の状況 PDF と議案及び採決結果の人事案件（監査委員・副知事の選任）は件名だけで候補者の氏名は無い。50音順の議員名簿（2010.html）と議員ごとのページは raw に入れていない
+    // 照合の残った弱さ（改ざんテスト45通り中5通りが通る）: 会派名の前方切り詰め（「もっと身近な」）・1人会派に independent・asOf だけの書き換え（パーサ一般の型）。合流先の枠を相手の列まで広げて factionMarker を外す2か所の作為（改革２１へ公明党＝改革２１は declared が無い）、declared・declaredIn を外して noCountReason を書き factionMarker も外す4か所の作為（もったいないよ長崎へまっすぐ長崎）
+    id: "nagasaki-ken-gikai-r8",
+    title: "令和8年度 長崎県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "長崎県議会",
+    url: null,
+    urls: [
+      "https://www.pref.nagasaki.jp/gikai/2020.html",
+      "https://www.pref.nagasaki.jp/gikai/0803teirei/gian.html",
+      "https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf",
+      "https://www.pref.nagasaki.jp/gikai/4030.html",
+    ],
+    landingPage: "https://www.pref.nagasaki.jp/gikai/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "長崎県議会（定数46・団体コード420000）",
+    license: "当県サイトに掲載されている文字、写真、イラストなどの個々の情報に関する著作権は、原則として長崎県に帰属します。（ただし、一部の画像等の著作権は、原著作者が所有しています。）「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載、複製、改変、放送、送信、翻訳、販売、貸与などの利用をすることはできません。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "長崎県議会",
+      asOf: "2026-02-12",
+      asOfText: "令和8年2月12日現在",
+      teisu: 46,
+      teisuText: "議員の定数は、県条例で46人と定められています。",
+      teisuUrl: "https://www.pref.nagasaki.jp/gikai/4030.html",
+      factionMarker: "(?<!オールながさき)\\(\\d+名\\)",
+      roster: {"url":"https://www.pref.nagasaki.jp/gikai/2020.html","title":"会派別議員名簿（令和8年2月12日現在）"},
+      factions: [{"name":"自由民主党","members":["田中愛国","小林克敏","中山功","溝口芙美雄","徳永達也","外間雅広","前田哲也","中島浩介","ごうまなみ","松本洋介","山本由夫","宅島寿一","近藤智昭","大場博文","中村一三","石本政弘","山下博史","千住良治","坂口慎一","清川久義","鵜瀬和博","初手安幸","山村健志","中村俊介","大久保堅太","冨岡孝介","畑島晃貴","虎島泰洋","田川正毅","永安健次"],"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf","page":1,"box":[261,52,364,67],"declared":"自由民主党（３０名）","declaredIn":"https://www.pref.nagasaki.jp/gikai/2020.html"},{"name":"改革２１","members":["山田朋子","山口初實","坂本浩","堤典子","饗庭敦子","中村泰輔","赤木幸仁","まきやま大和","白川鮎美"],"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf","page":1,"box":[625,52,108,67],"noDeclaredCount":true,"noCountReason":"会派別議員名簿の印字「改革２１（９名）」は会派名の「２１」と人数の「９」の2つの数を含み、パーサが人数を1つに読めない（declaredNumber）。議会全体の人数を定数46（欠員0）と factionMarker で照合する"},{"name":"公明党","members":["川崎祥司","宮本法広","本多泰邦"],"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf","page":1,"box":[733,52,38,67],"declared":"公明党（３名）","declaredIn":"https://www.pref.nagasaki.jp/gikai/2020.html"},{"name":"日本共産党","members":["堀江ひとみ"],"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf","page":1,"box":[771,52,15,67],"declared":"日本共産党（１名）","declaredIn":"https://www.pref.nagasaki.jp/gikai/2020.html"},{"name":"もったいないよ長崎","members":["大倉聡"],"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf","page":1,"box":[786,52,14,67],"declared":"もったいないよ 長崎 （１名）","declaredIn":"https://www.pref.nagasaki.jp/gikai/2020.html"},{"name":"まっすぐ長崎","members":["湊亮太"],"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf","page":1,"box":[800,52,14,67],"declared":"まっすぐ長崎 （１名）","declaredIn":"https://www.pref.nagasaki.jp/gikai/2020.html"},{"name":"もっと身近な県政の会","members":["下条博文"],"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf","page":1,"box":[814,52,16,67],"declared":"もっと身近な県政の会 （１名）","declaredIn":"https://www.pref.nagasaki.jp/gikai/2020.html"}],
+      votes: {"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/pdf/sanpi_honkaigi.pdf","title":"本会議における議員の賛否の状況（令和８年３月定例会）","basis":"member","legend":{"議":"議長","○":"賛成","×":"反対","欠":"欠席"},"legendText":"議：議長 ○：賛成 ×：反対 欠：欠席","anchor":"令和8年度長崎県一般会計予算","symbols":"○○○○○議○○○○○○○○○○○○○○○○○○○○○○○○欠○××○○○×○○○○×○○欠","columns":[{"label":"田中愛国"},{"label":"小林克敏"},{"label":"中山功"},{"label":"溝口芙美雄"},{"label":"徳永達也"},{"label":"外間雅広"},{"label":"前田哲也"},{"label":"中島浩介"},{"label":"ごうまなみ"},{"label":"松本洋介"},{"label":"山本由夫"},{"label":"宅島寿一"},{"label":"近藤智昭"},{"label":"大場博文"},{"label":"中村一三"},{"label":"石本政弘"},{"label":"山下博史"},{"label":"千住良治"},{"label":"坂口慎一"},{"label":"清川久義"},{"label":"鵜瀬和博"},{"label":"初手安幸"},{"label":"山村健志"},{"label":"中村俊介"},{"label":"大久保堅太"},{"label":"冨岡孝介"},{"label":"畑島晃貴"},{"label":"虎島泰洋"},{"label":"田川正毅"},{"label":"永安健次"},{"label":"山田朋子"},{"label":"山口初實"},{"label":"坂本浩"},{"label":"堤典子"},{"label":"饗庭敦子"},{"label":"中村泰輔"},{"label":"赤木幸仁"},{"label":"まきやま大和"},{"label":"白川鮎美"},{"label":"川崎祥司"},{"label":"宮本法広"},{"label":"本多泰邦"},{"label":"堀江ひとみ"},{"label":"大倉聡"},{"label":"湊亮太"},{"label":"下条博文"}],"tally":{"text":"3/30 44 43 39 4 電子 可決","counts":{"賛成":39,"反対":4}}},
+      resolution: {"url":"https://www.pref.nagasaki.jp/gikai/0803teirei/gian.html","title":"令和８年３月定例会 議案及び採決結果","table":"row","billNo":"第1号","billName":"令和8年度長崎県一般会計予算","sessionLabel":"令和８年３月定例会","decidedDate":"2026-03-30","result":"原案可決"},
+    },
+  },
+  {
+    // 島原市議会（団体コード 422037）。会派と所属議員は「常任委員会名簿」（/gikai/page2519.html・「最終更新日：2025年6月23日」）の委員ごとの会派欄で照合する（label 方式。総務7・産業建設6・教育厚生6の3委員会で全19人＝「議員はいずれか一つの委員会に所属」page17487.html）。原典は議決前の魚拓 20260219040018 の id_（本文は 2026-10-31 の発行元と同じ）
+    // ⚠ 会派欄のある住所の無い原典はこれだけ — 市議会議員名簿（page2522.html・「※令和7年10月1日時点」）は会派欄があるが議員の住所・電話・年齢つきなので raw に入れていない（会派は19人とも常任委員会名簿と一致＝目視）。議会だより第269号（R8.5.1・3月定例会号）の一般質問の見出し「（会派 氏名 議員）」の14人の会派も一致（目視・raw の外）
+    // 議決時点の構成【推定】: 基準日は議決の約9か月前（委員会の構成は 2025-06-20 の議長選挙の後）で、2025-06-23 から議決（2026-03-19）までに会派の異動が無かったことを直接示す原典は無い（上の2つの目視と、2/19 の魚拓・今の版が同じ 6/23 版のままであることによる）
+    // 人数の網: 定数19（「島原市議会の概要」page2515.html「島原市の場合、条例で19名とするとしています。」）＝現員19。memberMarker は会派欄の語（10会派の名前のどれか）の出現数＝19（委員ごとに1回。名簿の本文にほかの出現は無い）。会派ごとの人数の印字は無い（noDeclaredCount）
+    // 議決: 「令和８年３月島原市議会定例会 会議結果」（page20878.html の添付 PDF・UploadFileOutput.ashx）の行「第19号議案 令和８年度島原市一般会計予算 令和8年3月19日 原案可決」。議会だより第269号 p.2 の議決結果も「第 1 9 号 令和８年度島原市一般会計予算 原案可決」
+    // 賛否は入れていない — 議員・会派ごとの賛否を公表した原典が見つからない（会議結果・議会だより第269号 p.2 は結果だけ）
+    // ライセンス: 予算の行（shimabara-tousho-gaiyo-r8）と同じフッターの表記（license-no-grant.ts に登録済み＝要許可）。議会のページ（/gikai/）も同じ市の公式サイトでフッターは同じ。利用規約・リンクの条項は無く、予算の行と同じく noDeepLink は付けない
+    // raw: 会議結果の URL は UploadFileOutput.ashx で拡張子が無いので ext:.pdf（最初に落とした本文の先頭が %PDF・content-disposition は 3_20878_75425_up_HI72W5ZP.pdf）。HTML 2件は先頭が UTF-8 の BOM（魚拓の本文も gzip でない）。電話・〒は市役所と議会事務局のものだけ（機械的に確認）。会議結果の人事案件（公平委員会委員の選任）は件名だけで候補者の氏名は無い
+    // 照合の残った弱さ（改ざんテスト33通り中5通りが通る）: label 方式は会派名と略称を結び付けない — 会派名だけを名簿の別の語（「総務委員会」、隣の欄の語を足した「新風会副委員長」）に替えても通る（§6-17 の光の型）。会派名の前方切り詰め（「市民平和」）・1人会派に independent・asOf だけの書き換え（パーサ一般の型）
+    id: "shimabara-shigikai-r8",
+    title: "令和8年度 島原市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "島原市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260219040018id_/https://www.city.shimabara.lg.jp/gikai/page2519.html",
+      "https://www.city.shimabara.lg.jp/common/UploadFileOutput.ashx?c_id=3&id=20878&sub_id=2&flid=75425",
+      "https://www.city.shimabara.lg.jp/gikai/page2515.html",
+    ],
+    landingPage: "https://www.city.shimabara.lg.jp/gikai/page2519.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "島原市議会（定数19・団体コード422037）",
+    license: "Copyrights(C) 2015 Shimabara City Allrights reserved.",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "島原市議会",
+      asOf: "2025-06-23",
+      asOfText: "最終更新日：2025年6月23日",
+      teisu: 19,
+      teisuText: "島原市の場合、条例で19名とするとしています。",
+      teisuUrl: "https://www.city.shimabara.lg.jp/gikai/page2515.html",
+      memberMarker: "(?:実践クラブ|カラフル|庶民の会|長浜会|市民平和の会|平成会|新風会|島原新時代|公明党|日本共産党)",
+      roster: {"url":"https://web.archive.org/web/20260219040018id_/https://www.city.shimabara.lg.jp/gikai/page2519.html","title":"常任委員会名簿（最終更新日 2025年6月23日）"},
+      factions: [{"name":"実践クラブ","label":"実践クラブ","members":["北浦守金","馬渡光春","森園浩太郎"],"noDeclaredCount":true},{"name":"カラフル","label":"カラフル","members":["松坂昌應","本田みえ"],"noDeclaredCount":true},{"name":"庶民の会","label":"庶民の会","members":["林田勉","本多松弘","種村繁德"],"noDeclaredCount":true},{"name":"長浜会","label":"長浜会","members":["楠晋典"],"noDeclaredCount":true},{"name":"市民平和の会","label":"市民平和の会","members":["草野勝義"],"noDeclaredCount":true},{"name":"平成会","label":"平成会","members":["本多秀樹","馬場勝郎","濱﨑清志"],"noDeclaredCount":true},{"name":"新風会","label":"新風会","members":["永田光臣","本田順也","上田義定"],"noDeclaredCount":true},{"name":"島原新時代","label":"島原新時代","members":["松井扶公"],"noDeclaredCount":true},{"name":"公明党","label":"公明党","members":["松﨑広大"],"noDeclaredCount":true},{"name":"日本共産党","label":"日本共産党","members":["一倉澄子"],"noDeclaredCount":true}],
+      resolution: {"url":"https://www.city.shimabara.lg.jp/common/UploadFileOutput.ashx?c_id=3&id=20878&sub_id=2&flid=75425","title":"令和８年３月島原市議会定例会 会議結果","billNo":"第19号議案","billName":"令和８年度島原市一般会計予算","sessionLabel":"令和８年３月島原市議会定例会","decidedDate":"2026-03-19","result":"原案可決"},
+    },
+  },
+  {
+    // 諫早市議会（団体コード 422045）。会派別名簿（/site/gikai/2359.html「会派別議員名簿（令和7年4月30日現在）」・更新日 2025年4月30日）の議決前の魚拓 20251205001556 の id_ を区間方式で照合する。議決後の魚拓 20260513041753 と 2026-10-31 の発行元も本文は同じ版
+    // 議決時点の構成: 名簿の基準日は議決の約11か月前（改選 R7.3.23 の後）。議決前後の魚拓の本文が同じで、「議会概要（令和8年度版）」（/uploaded/attachment/26053.pdf・令和8年4月1日現在・raw の外）の会派・党派別議員数も 新生クラブ6・明政クラブ5・経世みらい5・公明党3・創風いさはや2・日本共産党2（無所属を除く）で一致する。会派の中の入れ替えが無かったことは【推定】
+    // 人数の網: 会派ごとの declared（「新生クラブ（6人）」など）・定数26（「市議会のあらまし」2352.html「諫早市の場合は26人となります。」）＝現員26・会派ごとの見出しの印 factionMarker（「（N人）」の6つと見出し「無会派」の1つ）。無会派の3人（相浦喜代子・佐々木宣綱・橋本裕太）は名簿の見出し「無会派」の下に人数の印字なしで並ぶので、1つの independent の会派（noDeclaredCount）として書いた
+    // 議決: 「令和８年第２回（３月）諫早市議会定例会 結果」（/uploaded/attachment/25152.pdf・審議結果 2363.html の添付）の行「議案第２２号 令和８年度諫早市一般会計予算 ３月１８日 原 案 可 決」。⚠ PDF の作成日は 2026-03-17 09:02（議決の前日。決定日を先に印字した版）で、議決日は会期日程（/uploaded/attachment/24683.pdf・raw の外）の「18 水 … 本会議 委員長報告、質疑、討論、採決、閉会」とも合う
+    // 賛否は入れていない — 市のサイトの審議結果は結果だけで、議員・会派ごとの賛否の表が見つからない（市議会だよりは電子書棚 isahaya-denshigikai.backshelf.jp の JavaScript のアプリで、中身を確かめていない）
+    // ライセンス: 予算の行（isahaya-kanbetsu-r8）と同じ「著作権・リンク」（/soshiki/116/2283.html）の原文。議会のページ（/site/gikai/）は同じ市の公式サイト。リンクは「原則、リンクフリー」で、予算の行と同じく noDeepLink は付けない
+    // raw: 3件とも本文の先頭が <!DOCTYPE／%PDF で拡張子どおり（魚拓の本文は gzip でない）。電話・〒は市役所と議会事務局のものだけ（機械的に確認）。⚠ 結果の PDF に議員でない人の氏名（固定資産評価審査委員会委員の選任の森永泰仁・野田桂子・荒瀬嘉道、人権擁護委員の推薦の松村紳二・黒岩信子の各氏）があるが、住所・居住地は無いので §6-18 の岩出・§6-19 の前例どおり残した
+    // 照合の残った弱さ（改ざんテスト38通り中6通りが通る）: 会派名の前方切り詰め（「創風」）・asOf だけの書き換え（パーサ一般の型）。無会派の independent を外す（3人が1つの会派として表示される＝守山型）・無会派を1人ずつの3つに分ける（表示の違いだけ）。合流先の declared を noDeclaredCount に替えて factionMarker も外す3か所の作為（創風いさはやを公明党へ）。asOfText を同じ日付の別の原文（「更新日：2025年4月30日更新」）にする（値は同じ）
+    id: "isahaya-shigikai-r8",
+    title: "令和8年度 諫早市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "諫早市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20251205001556id_/https://www.city.isahaya.nagasaki.jp/site/gikai/2359.html",
+      "https://www.city.isahaya.nagasaki.jp/uploaded/attachment/25152.pdf",
+      "https://www.city.isahaya.nagasaki.jp/site/gikai/2352.html",
+    ],
+    landingPage: "https://www.city.isahaya.nagasaki.jp/site/gikai/2359.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "諫早市議会（定数26・団体コード422045）",
+    license: "諫早市ホームページに掲載されている文字、写真、イラストなどの個々の情報に関する著作権は、原則として諫早市に帰属します。（ただし、一部の画像等の著作権は、原著作者が所有しています。）「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載、複製、改変、放送、送信、翻訳、販売、貸与などの利用をすることはできません。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "諫早市議会",
+      asOf: "2025-04-30",
+      asOfText: "会派別議員名簿（令和7年4月30日現在）",
+      factionMarker: "\\(\\d+人\\)|無会派",
+      teisu: 26,
+      teisuText: "諫早市の場合は26人となります。",
+      teisuUrl: "https://www.city.isahaya.nagasaki.jp/site/gikai/2352.html",
+      roster: {"url":"https://web.archive.org/web/20251205001556id_/https://www.city.isahaya.nagasaki.jp/site/gikai/2359.html","title":"会派別議員名簿（令和7年4月30日現在）"},
+      factions: [{"name":"新生クラブ","declared":"新生クラブ（6人）","members":["南条博","北島守幸","福田美子","大久保正博","川崎剛","山口正広"]},{"name":"経世みらい","declared":"経世みらい（5人）","members":["青山昭広","森和明","谷澤和浩","中村太郎","鶴田啓子"]},{"name":"明政クラブ","declared":"明政クラブ（5人）","members":["並川和則","田川伸隆","島田和憲","中島康範","酒井晋介"]},{"name":"公明党","declared":"公明党（3人）","members":["湯田清美","岩竹洋一","江島克子"]},{"name":"創風いさはや","declared":"創風いさはや（2人）","members":["森多久男","北坂秋男"]},{"name":"日本共産党","declared":"日本共産党（2人）","members":["中野太陽","西田京子"]},{"name":"無会派","independent":true,"noDeclaredCount":true,"members":["相浦喜代子","佐々木宣綱","橋本裕太"]}],
+      resolution: {"url":"https://www.city.isahaya.nagasaki.jp/uploaded/attachment/25152.pdf","title":"令和８年第２回（３月）諫早市議会定例会 結果","billNo":"議案第２２号","billName":"令和８年度諫早市一般会計予算","sessionLabel":"令和８年第２回（３月）諫早市議会定例会","decidedDate":"2026-03-18","result":"原案可決"},
+    },
+  },
+  {
+    // 大村市議会（団体コード 422053）。会派の構成は会派別名簿（/gikaichousa/shise/shigikai/gin/mebo/r050502-/kaihabetsumeibo.html・「更新日：2026年2月9日」＝議決前の版。2026-10-31 の発行元も同じ更新日）。所属議員は議決後（PDF の作成日 2026-03-24）の「令和８年３月定例会 賛否の状況」（sannpi08-03-2.pdf）p.1 の表頭（会派の見出しの下に縦書きの議員名）を会派ごとの枠で照合し、名簿の HTML に全25人の氏名が出ることも confirmUrls で見る（名簿の会派・所属議員と表頭は25人とも一致）
+    // 議員名簿 PDF（/shise/shigikai/gin/mebo/documents/giinmeibo080319.pdf・「令 8.3.19 現在」）は住所・電話つきなので raw に入れていない（会派欄は25人とも会派別名簿と一致＝目視）。会派別名簿は会派ごとの人数を印字しない（noDeclaredCount）
+    // 人数の網: 定数25（「大村市議会とは」sigikaitoha.html「議員定数は、大村市の場合、条例で25人としています。」）＝現員25・会派ごとの印 factionMarker（会派ごとの「会派長」6つと無会派の説明「会派に所属していない議員です」1つ）・賛否の列（議員ごと25列）
+    // 議決: 「令和８年第２回大村市議会定例会上程案件及び処理結果」（kaigikekka0803.pdf）の行「第３１号議案 令和８年度大村市一般会計予算 2月24日 3月19日 原案可決」。同じ行に付託日（2月24日）と決定日が並ぶので、議決日は farOk にして、審議結果のページ（08-03.html）の「（第31号議案）令和8年度大村市一般会計予算」「3月19日」（同じ行のセル）を decidedDateText にした。08-03.html は議案番号を括弧「（第31号議案）」で件名の前に入れ（括弧の中の番号は読まない）、次の行の「（第32号議案）」が結果語の直後の括弧書きとして読まれるので、議決の主の原典にしなかった
+    // 賛否: 賛否の状況 p.1 の第３１号議案の行（議員ごと25列・凡例「（〇：賛成 ×：反対）」）。賛成24・議長1（小林史政。議長の列は記号が空欄で「議長 ※１」、注記「※１ 議長は表決に加わらない」。氏名と議長の原文は議長・副議長のページ seifukugichou.html「第41代大村市議会議長 小林 史政」・更新日 2025年5月22日）。列見出しは縦書きで、堀内学・水上享・竹森学・古閑森秀幸が別の高さに組まれて -layout の並びに出ず、-raw では表頭が行より後に出るので headerBbox（記号の真上の氏名）で照合する
+    // ライセンス: 予算の行（omura-yosangaiyou-r8）と同じ「著作権」（/kouhou/shise/koho/koho/hpriyo/chosakuken.html）の原文。議会のページ（/gikaichousa/shise/shigikai/）は同じ市の公式サイト。リンクは「原則として自由」で、予算の行と同じく noDeepLink は付けない
+    // raw: 6件とも本文の先頭が <!DOCTYPE／%PDF で拡張子どおり（transform 不要・魚拓は使っていない）。電話・〒は市役所と議会事務局のものだけ（機械的に確認）。上程案件及び処理結果・審議結果の人事案件（人権擁護委員候補者の推薦）は件名だけで候補者の氏名は無い
+    // 照合の残った弱さ（改ざんテスト42通り中7通りが通る）: 会派名の前方切り詰め（「おおむら」）・後ろに議員の氏名を足した名前（「公明党竹森学」＝§6-19 の型）・無会派の independent を外す・asOf だけの書き換え（パーサ一般の型）。合流先の枠を相手の列まで広げて factionMarker を外す2か所の作為（知音会を誠和会へ・公明党を知音会へ＝会派ごとの人数の印字が無い枠）。議決日と decidedDateText を同じ表の別の行の日付（第30号議案の 2月24日）に一緒に替える2か所の作為（越谷型）
+    id: "omura-shigikai-r8",
+    title: "令和8年度 大村市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "大村市議会",
+    url: null,
+    urls: [
+      "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/gin/mebo/r050502-/kaihabetsumeibo.html",
+      "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/kaigikekka0803.pdf",
+      "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/08-03.html",
+      "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf",
+      "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shikumi/shigikai/sigikaitoha.html",
+      "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/gin/r050515seifukugichou/seifukugichou.html",
+    ],
+    landingPage: "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/gin/mebo/r050502-/kaihabetsumeibo.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "大村市議会（定数25・団体コード422053）",
+    license: "本市サイトに掲載されている文字、写真、イラストなどの個々の情報に関する著作権は、原則として大村市に帰属します（ただし、一部の画像などの著作権は、原著作者が所有しています）。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で転載、複製、改変、放送、送信、翻訳、販売、貸与などの利用をすることはできません。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "大村市議会",
+      asOf: "2026-02-09",
+      asOfText: "更新日：2026年2月9日",
+      teisu: 25,
+      teisuText: "議員定数は、大村市の場合、条例で25人としています。",
+      teisuUrl: "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shikumi/shigikai/sigikaitoha.html",
+      factionMarker: "会派長|会派に所属していない議員です",
+      roster: {"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/gin/mebo/r050502-/kaihabetsumeibo.html","title":"会派別名簿（更新日 2026年2月9日）","confirmUrls":["https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/gin/mebo/r050502-/kaihabetsumeibo.html"]},
+      factions: [{"name":"進風おおむら","members":["久保和幸","高濵広司","堀内学","中崎秀紀","村崎浩史","城幸太郎"],"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf","page":1,"box":[330,55,118,69],"noDeclaredCount":true},{"name":"みらいの風","members":["南波伸孝","光山千絵","晦日房和","松尾祥秀","村上秀明"],"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf","page":1,"box":[448,55,98,69],"noDeclaredCount":true},{"name":"おおむら次世代","members":["髙見龍也","中村仁飛","古閑森秀幸","山口弘宣","朝長英美"],"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf","page":1,"box":[546,55,98,69],"noDeclaredCount":true},{"name":"誠和会","members":["入江詩子","小林史政","里脇清隆","田中秀和"],"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf","page":1,"box":[644,55,78,69],"noDeclaredCount":true},{"name":"知音会","members":["水上享","永尾髙宣"],"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf","page":1,"box":[722,55,39,69],"noDeclaredCount":true},{"name":"公明党","members":["竹森学","田中博文"],"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf","page":1,"box":[761,55,39,69],"noDeclaredCount":true},{"name":"無会派","members":["永山真美"],"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf","page":1,"box":[800,55,22,69],"noDeclaredCount":true,"independent":true}],
+      votes: {"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/sannpi08-03-2.pdf","title":"令和８年３月定例会 賛否の状況","basis":"member","legend":{"〇":"賛成","×":"反対"},"legendText":"（〇：賛成 ×：反対）","anchor":"令和８年度大村市一般会計予算","symbols":"○○○○○○○○○○○○○○○○○○○○○○○○","columns":[{"label":"久保和幸"},{"label":"高濵広司"},{"label":"堀内学"},{"label":"中崎秀紀"},{"label":"村崎浩史"},{"label":"城幸太郎"},{"label":"南波伸孝"},{"label":"光山千絵"},{"label":"晦日房和"},{"label":"松尾祥秀"},{"label":"村上秀明"},{"label":"髙見龍也"},{"label":"中村仁飛"},{"label":"古閑森秀幸"},{"label":"山口弘宣"},{"label":"朝長英美"},{"label":"入江詩子"},{"label":"里脇清隆"},{"label":"田中秀和"},{"label":"水上享"},{"label":"永尾髙宣"},{"label":"竹森学"},{"label":"田中博文"},{"label":"永山真美"}],"headerBbox":true,"blank":[{"label":"小林史政","stance":"議長","evidence":"第41代大村市議会議長 小林 史政","evidenceUrl":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/gin/r050515seifukugichou/seifukugichou.html"}]},
+      resolution: {"url":"https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/documents/kaigikekka0803.pdf","title":"令和８年第２回大村市議会定例会上程案件及び処理結果","alsoUrls":["https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/shingikekka/gian/kako/r8/08-03.html"],"farOk":["decidedDate"],"decidedDateText":"（第31号議案）令和8年度大村市一般会計予算 3月19日","billNo":"第３１号議案","billName":"令和８年度大村市一般会計予算","sessionLabel":"令和８年第２回大村市議会定例会","decidedDate":"2026-03-19","result":"原案可決"},
+    },
+  },
+  // ---- 議会の構成 — 青森・山形・島根・徳島・鳥取へ（`council-transcribed`・docs/data-sources.md §6-22）----
+  {
+    // 青森県議会（団体コード 020001。⚠ 青森市議会 022012 とは別団体）。名簿は「議員の紹介（会派別）」（giin-kaiha.html）の議決前の魚拓 20260308062014 の id_（「更新日付：2026年2月24日」・7会派45人・会派名＋「（N人）」＋氏名の区間方式）
+    // 議決時点の構成: 議決当日（3/24）の議決結果（325teirei_sanpi.pdf）の表頭が、自由民主党26・立憲民主・無所属の会5・オール青森5・日本共産党3・公明党2・参政党1・無所属3の会派の並びで、2/24 版と45人全員・会派ごとに一致する（賛否の列で全員を照合・会派の対応は目視）。次の捕捉 20260420 は「更新日付：2026年4月14日」で自由民主党に阿部祐己議員が加わった27人、現行の発行元のページは議決後の 2026-05-25 の版（立憲民主・憲法をいかす県民の会が分かれている）。前の捕捉 20251216（2025-12-10 版・自由民主党29人）からは阿部広悦・谷川政人・工藤貴弘の3人が 2/24 版で外れている
+    // 人数の網: 会派ごとの「（N人）」（declared）、議会全体は見出しの「（N人）」が会派ごとに1回出ること（factionMarker・7回）と、賛否の列（議員ごと45列）が名簿の全員とちょうど対応すること。定数48（「県議会の構成」shikumi-kose.html「青森県議会議員の定数は48人」・raw の外）に対し現員45だが、欠員の数を書いた原文が無いので teisu は掛けていない（scope の定数48はその原文による）
+    // 議決: 「令和８年２月 第３２５回定例会 議決結果」（325teirei_sanpi.pdf）の「第 1 号 令和８年度青森県一般会計予算案 3/24 起立 原案可決」（-layout の同じ行）。件名・議案番号は原典の字のまま（「…予算案」・「第 1 号」。表の左端の縦書きの「議案」は行の頭に組まれない）
+    // 賛否: 同じ表の第1号の行（議員ごと45列）。凡例は表の下の「【凡例】 賛否欄：「○」は賛成、「×」は反対、「議」は議長、…「除」は除斥、「欠」は欠席、「退」は退席」。賛成40・反対4（日本共産党の安藤晴美・吉俣洋・田端深雪と無所属の鹿内博）・議長1（工藤慎康・列の記号「議」）。印字「40 4 44」と一致
+    // 列見出し: 縦書きの氏名は -layout では1字ずつ行に割れ、-raw では氏名が列の順に1行ずつ並ぶが予算の行（-raw では件名と記号が別の場所に組まれる）より前には出ないので、headerUrl を同じ表にして -raw の並びで照合する（北杜の型）。「櫛引ユキ子」の「櫛」はテキスト層に無い（名簿は異体字セレクタつき「櫛󠄁」）ので列見出しは「引ユキ子」、「和田寬司」は表では「和田寛司」（寬と寛は norm で寄らない）なので列見出しは「和田」で照合する。同じ理由で confirmUrls は掛けていない（議決当日の在籍は賛否の列が名簿の全員と対応することで見る）
+    // 照合の残った弱さ（改ざんテスト34通り中2通りが通る）: 1人の会派（参政党）に independent を付けると通る（パーサ一般）。asOf を議決日より前の別の日にする書き換え（パーサ一般）。tally「40 4 44」は同じ表の第10号・第26号・第27号・第34号などにも同じ印字があり予算の行に結び付いていない（守谷型・数は記号から数える）。✗ になったもの: 会派間の1人移動（3通り）・1人の書き落とし（名簿だけ・列とも・1人会派ごと）・会派の合流（3通り・declared を外す型を含む）・議案番号（第 2 号・第 52 号・号落とし）・結果（可決への丸め・原案否決）・議決日（3/11・3/12）・件名（公債費特別会計）・会期名・会派名の前方切り詰め（立憲民主）・会派名に隣の欄の語や人数を足す型・賛否の列の入れ替え（2通り）・記号のすり替え・別の行の tally・凡例の入れ替え・anchor を公債費の行に・anchorSide before・議長の列のすり替え
+    // ライセンス: 予算の行（aomori-ken-kanbetsu-sokatsu-r8）と同じ原文（「著作権・リンク等」/contents/copyright.html・要許可）。議会のページも県の公式サイト（/soshiki/gikai/）で、議会独自の条項は無い
+    // リンク: 予算の行と同じ県のリンク方針（「最初に読むべきページを飛ばし、記載内容が十分に伝わらないページへの直接リンクは避けてください。」）が議会のページにも掛かるので noDeepLink。landingPage は県議会のトップ（home.html。名簿と議決結果の両方へのリンクがある）
+    // raw: 2件とも拡張子どおり（魚拓の id_ は gzip でない HTML・先頭 <!do）で transform は不要。電話・〒は議会事務局・県庁のものだけ（機械的に確認）。議決結果の人事案件（第52号 人事委員会委員の選任）は件名だけで候補者の氏名は無い。議員の個別ページ・選挙区別名簿は raw に入れていない
+    id: "aomori-ken-gikai-r8",
+    title: "令和8年度 青森県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "青森県議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260308062014id_/https://www.pref.aomori.lg.jp/soshiki/gikai/giin-kaiha.html",
+      "https://www.pref.aomori.lg.jp/soshiki/gikai/files/325teirei_sanpi.pdf",
+    ],
+    landingPage: "https://www.pref.aomori.lg.jp/soshiki/gikai/home.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "青森県議会（定数48・団体コード020001）",
+    license: "青森県庁ホームページ(https://www.pref.aomori.lg.jp/)に掲載されている文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「青森県庁ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、青森県または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "青森県議会",
+      asOf: "2026-02-24",
+      asOfText: "更新日付：2026年2月24日",
+      factionMarker: "\\(\\d+人\\)",
+      roster: {"url":"https://web.archive.org/web/20260308062014id_/https://www.pref.aomori.lg.jp/soshiki/gikai/giin-kaiha.html","title":"議員の紹介（会派別）（更新日付 2026年2月24日・議決前の魚拓）"},
+      factions: [{"name":"自由民主党","declared":"自由民主党（26人）","members":["田中順造","清水悦郎","森内之保留","工藤兼光","三橋一三","山田知","丸井裕","山谷清文","櫛引ユキ子","夏堀浩一","工藤慎康","高橋修一","蛯沢正勝","寺田達也","齊藤爾","花田栄介","菊池勲","小比類巻正規","和田寬司","木明和人","大崎光明","福士直治","成田陽光","大澤敏彦","工藤悠平","井本貴之"]},{"name":"立憲民主・無所属の会","declared":"立憲民主・無所属の会（5人）","members":["田名部定男","今博","高畑紀子","夏堀嘉一郎","小笠原大佑"]},{"name":"オール青森","declared":"オール青森（5人）","members":["川村悟","斉藤孝昭","大平陽子","北向由樹","大澤祥宏"]},{"name":"日本共産党","declared":"日本共産党（3人）","members":["安藤晴美","吉俣洋","田端深雪"]},{"name":"公明党","declared":"公明党（2人）","members":["伊吹信一","夏坂修"]},{"name":"参政党","declared":"参政党（1人）","members":["後藤清安"]},{"name":"無所属","declared":"無所属（3人）","members":["鹿内博","鶴賀谷貴","吉田ゆかり"],"independent":true}],
+      votes: {"url":"https://www.pref.aomori.lg.jp/soshiki/gikai/files/325teirei_sanpi.pdf","title":"令和８年２月 第３２５回定例会 議決結果（議員ごとの賛否）","basis":"member","legend":{"○":"賛成","×":"反対","議":"議長","除":"除斥","欠":"欠席","退":"退席"},"legendText":"賛否欄：「○」は賛成、「×」は反対、「議」は議長、「副」は副議長が議長の職務を代理、「除」は除斥、「欠」は欠席、「退」は退席","anchor":"令和８年度青森県一般会計予算案","maxGap":12,"headerUrl":"https://www.pref.aomori.lg.jp/soshiki/gikai/files/325teirei_sanpi.pdf","symbols":"○○○○○○○○○○議○○○○○○○○○○○○○○○○○○○○○○○○○×××○○○×○○","columns":[{"label":"田中順造"},{"label":"清水悦郎"},{"label":"森内之保留"},{"label":"工藤兼光"},{"label":"三橋一三"},{"label":"山田知"},{"label":"丸井裕"},{"label":"山谷清文"},{"label":"引ユキ子","member":"櫛引ユキ子"},{"label":"夏堀浩一"},{"label":"工藤慎康"},{"label":"高橋修一"},{"label":"蛯沢正勝"},{"label":"寺田達也"},{"label":"齊藤爾"},{"label":"花田栄介"},{"label":"菊池勲"},{"label":"小比類巻正規"},{"label":"和田","member":"和田寬司"},{"label":"木明和人"},{"label":"大崎光明"},{"label":"福士直治"},{"label":"成田陽光"},{"label":"大澤敏彦"},{"label":"工藤悠平"},{"label":"井本貴之"},{"label":"田名部定男"},{"label":"今博"},{"label":"高畑紀子"},{"label":"夏堀嘉一郎"},{"label":"小笠原大佑"},{"label":"川村悟"},{"label":"斉藤孝昭"},{"label":"大平陽子"},{"label":"北向由樹"},{"label":"大澤祥宏"},{"label":"安藤晴美"},{"label":"吉俣洋"},{"label":"田端深雪"},{"label":"伊吹信一"},{"label":"夏坂修"},{"label":"後藤清安"},{"label":"鹿内博"},{"label":"鶴賀谷貴"},{"label":"吉田ゆかり"}],"tally":{"text":"40 4 44","counts":{"賛成":40,"反対":4}}},
+      resolution: {"url":"https://www.pref.aomori.lg.jp/soshiki/gikai/files/325teirei_sanpi.pdf","title":"令和８年２月 第３２５回定例会 議決結果","billNo":"第 1 号","billName":"令和８年度青森県一般会計予算案","sessionLabel":"令和８年２月 第３２５回定例会","decidedDate":"2026-03-24","result":"原案可決"},
+    },
+  },
+  {
+    // むつ市議会（団体コード 022080）。名簿は「会派別・委員会別一覧」（giin/kaiha-iinkai.html）の議決前の魚拓 20251215051926 の id_（「令和７年10月３日現在」・6会派22人・会派名＋「（N人）」＋氏名の区間方式）。CDX のダイジェストは 2025-12-14 から議決後の 2026-09-19 まで同じで、現行の発行元のページも同じ版
+    // 議決時点の構成: 議決当日（3/13）の「議案に対する賛否一覧」（267_sanpi.pdf）の表頭が、市誠クラブ3・公明・自由3・自民クラブ5・陸奥未来4・むつの風4・会派に所属しない議員3の会派の見出しの下に22人の氏名で、名簿と全員・会派ごとに一致する（賛否の列を座標で照合・会派の対応は目視）。本会議の出欠状況（267-honkaigi.pdf）にも22人全員の氏名が出る（confirmUrls）。会派名は名簿の語のまま「会派に属しない議員」（表頭は「会派に所属しない議員」）
+    // 人数の網: 会派ごとの「（N人）」（declared）、議会全体は名簿の「（N人）」のうち委員会の人数（「議会運営委員会（７人）」など5つ）を除いた出現が会派ごとに1回（factionMarker「(?<!委員会)\(\d+人\)」・6回）と、賛否の列（21列）と議長の blank が名簿の全員とちょうど対応すること。条例定数を書いた原文が議会のしくみのページに無いので teisu は掛けていない（scope に定数を書いていない）
+    // 議決: 「議案に対する賛否一覧」（267_sanpi.pdf）の「議案第25号 令和８年度むつ市一般会計予算 原案 可決」（-raw で「原案」「可決」が件名の直後に続く。-layout では件名の行の上下に割れる）。賛否一覧に会期名・日付が無いので、会期名と議決日は本会議の出欠状況（267-honkaigi.pdf）の「第２６７回定例会出欠状況」「令和８年 ３月１３日閉会」で照合した（alsoUrls・farOk・閉会日による間接の照合＝七尾の型）。会期日程表（267-kaiki.pdf・raw の外）は 3/4 の本会議で予算審査特別委員会を設置して付託し、3/13 の本会議で「付託議案審議 各委員長報告、質疑、討論、採決」「閉会」。市議会だより No.37（raw の外）は予算審査特別委員会を 3/5・6・9 に開いたと書く
+    // 賛否: 同じ表の予算の行（議員ごと）。凡例は表の下の「※○は賛成、●は反対、「欠」は欠席または採決の際に不在の者、「退」は退席、「除」は除斥、議長（冨岡幸夫）は採決に加わらない」。賛成19・反対2（会派に属しない議員の佐藤武・工藤祥子）・議長1（冨岡幸夫）。印字「19 ： 2」と一致。議長の列の「－」は凡例に無いので ignoreChars（正規化後の「―」）で読み飛ばし、議長は blank（原文「議長（冨岡幸夫）は採決に加わらない」）。列見出しは縦書きで -layout・-raw のどちらでも氏名が列の順に並ばないので headerBbox（座標）で照合する
+    // 照合の残った弱さ（改ざんテスト31通り中5通りが通る）: 結果を「可決」に丸めると通る（-layout で「原案」「可決」が件名の行の上下に割れる＝富士宮型）。議決日と decidedDateText を同じ出欠状況の「２月１９日開会」に一緒に書き換えると通る（越谷型）。会派名の前方切り詰め（「公明・自由」を「公明」）。会派に属しない議員の independent を外すと3人が1つの会派として表示される（守山型）。asOf だけの書き換え（パーサ一般）。ほかに、議長の列は ignoreChars で読み飛ばしているので位置を記号で照合していない、tally「19 ： 2」は議案第27号などにも同じ印字があり予算の行に結び付いていない（守谷型）。✗ になったもの: 会派間の1人移動・入れ替え（3通り）・1人の書き落とし（2通り）・会派の合流（3通り・declared を外す型を含む）・議案番号（第27号・第26号・号落とし・前切り）・議決日（3/4）・件名（後期高齢者医療特別会計）・会派名に隣の欄の語・役職を足す型・賛否の列の入れ替え（2通り）・記号のすり替え・別の行の tally・凡例の入れ替え・anchor を別の行に・議長のすり替え・議長を名簿と blank から消す・会期名（第２６８回）
+    // ライセンス: 予算の行（mutsu-kakukaikei-yosan-r8）と同じ原文（「著作権情報」/siteinformation/chosakuken.html・要許可）。議会のページも市の公式サイト（www.city.mutsu.lg.jp/gikai/）で、議会独自の条項は無い
+    // リンク: 市のサイトにリンクの条項が無く、予算の行も noDeepLink を立てていないので立てない。landingPage は議会情報（令和8年）のページ（kiroku/2026-0108-0845-100.html。賛否一覧・出欠状況へのリンクがある）
+    // raw: 3件とも拡張子どおり（魚拓の id_ は gzip でない HTML・先頭 <!do）で transform は不要。電話・〒は議会事務局のものだけ（機械的に確認）。賛否一覧の人権擁護委員の推薦（議案第19号・第20号）は件名だけで候補者の氏名は無い。議員プロフィールのページは raw に入れていない
+    id: "mutsu-shigikai-r8",
+    title: "令和8年度 むつ市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "むつ市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20251215051926id_/https://www.city.mutsu.lg.jp/gikai/giin/kaiha-iinkai.html",
+      "https://www.city.mutsu.lg.jp/gikai/kiroku/files/267_sanpi.pdf",
+      "https://www.city.mutsu.lg.jp/gikai/kiroku/files/267-honkaigi.pdf",
+    ],
+    landingPage: "https://www.city.mutsu.lg.jp/gikai/kiroku/2026-0108-0845-100.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "むつ市議会（団体コード022080）",
+    license: "むつ市ホームページに掲載している文書や画像等の各ファイル及びその内容に関する諸権利は、原則としてむつ市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。むつ市ホームページで掲載している文書・画像等のすべてのデータについて、権利者の許可なく使用・転載・二次利用することを禁止します。これらの文書等について転用等を希望される場合は、市民連携課にご相談ください。また、いかなる場合であっても、掲載資料の使用に際して発生した損害について一切の責任を負いかねます。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "むつ市議会",
+      asOf: "2025-10-03",
+      asOfText: "令和７年10月３日現在",
+      factionMarker: "(?<!委員会)\\(\\d+人\\)",
+      roster: {"url":"https://web.archive.org/web/20251215051926id_/https://www.city.mutsu.lg.jp/gikai/giin/kaiha-iinkai.html","title":"会派別・委員会別一覧（令和７年10月３日現在・議決前の魚拓）","confirmUrls":["https://www.city.mutsu.lg.jp/gikai/kiroku/files/267-honkaigi.pdf"]},
+      factions: [{"name":"市誠クラブ","declared":"市誠クラブ（3人）","members":["佐賀英生","野中貴健","佐藤広政"]},{"name":"公明・自由","declared":"公明・自由（3人）","members":["住吉年広","櫻田秀夫","白井二郎"]},{"name":"自民クラブ","declared":"自民クラブ（5人）","members":["中村正志","佐々木肇","浅利竹二郎","井田茂樹","冨岡幸夫"]},{"name":"陸奥未来","declared":"陸奥未来（4人）","members":["佐々木隆徳","岡崎健吾","村中浩明","富岡直哉"]},{"name":"むつの風","declared":"むつの風（4人）","members":["杉浦弘樹","東健而","大瀧次男","濵田栄子"]},{"name":"会派に属しない議員","declared":"会派に属しない議員（3人）","members":["高橋征志","佐藤武","工藤祥子"],"independent":true}],
+      votes: {"url":"https://www.city.mutsu.lg.jp/gikai/kiroku/files/267_sanpi.pdf","title":"第２６７回定例会 議案に対する賛否一覧","basis":"member","legend":{"○":"賛成","●":"反対","欠":"欠席","退":"退席","除":"除斥"},"legendText":"※○は賛成、●は反対、「欠」は欠席または採決の際に不在の者、「退」は退席、「除」は除斥、議長（冨岡幸夫）は採決に加わらない","anchor":"令和８年度むつ市一般会計予算","ignoreChars":"―","headerBbox":true,"symbols":"○○○○○○○○○○○○○○○○○○○●●","columns":[{"label":"佐賀英生"},{"label":"野中貴健"},{"label":"佐藤広政"},{"label":"住吉年広"},{"label":"櫻田秀夫"},{"label":"白井二郎"},{"label":"佐々木肇"},{"label":"浅利竹二郎"},{"label":"中村正志"},{"label":"井田茂樹"},{"label":"佐々木隆徳"},{"label":"岡崎健吾"},{"label":"村中浩明"},{"label":"富岡直哉"},{"label":"東健而"},{"label":"大瀧次男"},{"label":"杉浦弘樹"},{"label":"濵田栄子"},{"label":"高橋征志"},{"label":"佐藤武"},{"label":"工藤祥子"}],"blank":[{"label":"冨岡幸夫","stance":"議長","evidence":"議長（冨岡幸夫）は採決に加わらない"}],"tally":{"text":"19 ： 2","counts":{"賛成":19,"反対":2}}},
+      resolution: {"url":"https://www.city.mutsu.lg.jp/gikai/kiroku/files/267_sanpi.pdf","title":"第２６７回定例会 議案に対する賛否一覧","alsoUrls":["https://www.city.mutsu.lg.jp/gikai/kiroku/files/267-honkaigi.pdf"],"farOk":["decidedDate"],"decidedDateText":"３月１３日閉会","billNo":"議案第25号","billName":"令和８年度むつ市一般会計予算","sessionLabel":"第２６７回定例会","decidedDate":"2026-03-13","result":"原案可決"},
+    },
+  },
+  {
+    // 五所川原市議会（青森県・団体コード 022055）。名簿は会派名簿のページ（kaihameibo.html）の議決前の魚拓 20251212055847 の id_（「令和7年12月5日現在」・会派名＋人数＋役職・氏名の表を区間方式）。現行のページは補欠選挙（R8.6.21）後の「令和8年6月24日現在」
+    // 議決時点の構成: 議決後の魚拓 20260412090531 も「令和7年12月5日現在」の同じ版（本文の会派・氏名が同じ）で、名簿は議決をまたいで掲げられていた。R7 年度の政務活動費収支状況一覧（R7seimu.pdf・R7.4〜R8.3）も孝志会9（注記「R7.4.30付けで1名脱会、R7.11.4付けで1名死亡」）・自民公明5・三和会3・日本共産党1・木村清一1・金谷勝1・計20名で名簿と一致する。12/5〜3/17 に異動が無かったことはこの2つによる【推定】
+    //   議決当日の本会議会議録（0802kaigiroku.pdf・raw の外）の出席議員（２０名）・欠席議員（なし）、市議会だより第61号 p.4 の賛否表の議席欄（議席7・18が「欠員」）とも一致する（目視・raw の外）
+    // 無所属の2人（議長の木村清一・金谷勝）は名簿で「無所属 1名」の行が別々なので、1人ずつ independent。declared は行の区別のため氏名の頭まで書いた（「無所属 1名 木村」）
+    // 人数の網: 会派ごとの「N名」（declared・区間の頭80字）と、議会全体は R7seimu.pdf の計「20名」（totalText）。定数22（市議会だより第62号「五所川原市議会の定数は 22 名ですが、任期期間中に２名死去となり」）は raw に入れられない原典（補欠当選者の住所つき）にしか欠員の数が無いので teisu は持たせていない（scope の定数22はその原文による）
+    // 議決: 議決結果表（0802kekka.pdf）の「議案第17号 8.2.26 令和８年度五所川原市一般会計予算 8.3.17 原案可決」。表の行で提案年月日「8.2.26」が議案番号と件名の間に入り、件名の直前の番号として読めないので議案番号は farOk（§6-20 の丸亀と同じ）。会期名は同じ PDF の表題「令和８年 五所川原市議会 第２回 定例会」の字のまま
+    //   議決日は議決結果表の同じ行の「令和８年度五所川原市一般会計予算 8.3.17」（decidedDateText・farOk。会期日程 0802nittei1.pdf の 3/17「常任委員長報告・採決」「特別委員長報告・採決」とも合う＝raw の外）
+    // 賛否は入れていない — 予算は市議会だより第61号（raw の外）の【全会一致の案件】の一覧に載るだけで記号の行が無い（同号の賛否表は「賛否の分かれた案件」の発議第１号・請願第１号だけ。南アルプスと同じ型）
+    // 照合の残った弱さ: 議案番号は farOk なので、議決結果表に出る別の議案の番号（議案第16号・第18号・第58号）や号を落とした「議案第17」に替えても通る（レビュー1巡目で第61号を raw から外した後に実測。外す前は第61号の一覧で件名の直前の番号として照合していた）。会派名の前方の切り詰め（「市民の声」）・括弧の読みを足した名前（「三和会（みつわかい）」）（パーサ一般の穴）、1人の会派「日本共産党」を independent の「無所属」に書き換える（同名の無所属が2つある区間方式で、2つ目の無所属の区間が末尾まで伸びる。会派ごとの印は同名の無所属を1つに数えるので factionMarker を掛けられない）、議決日と decidedDateText を同じ行の提案年月日「8.2.26」に一緒に書き換える（越谷型）
+    //   ✗ になったもの: 会派間の1人移動（3通り）・1人の書き落とし（declared・totalText の書き換えつきを含む5通り）・会派の合流（4通り）・議案番号の「号」だけ・本文に無い番号（議案第1号）・結果（「可決」への丸め・「承認」）・議決日（2/26・3/6）・特別会計の件名・会派名に「会長」・氏名・「5名」を足す・無所属の independent を外す・asOfText を現行の版の日付に・asOf を議決後に
+    // ライセンス: 予算の行（goshogawara-yosansho-r8）と同じ原文（「著作権」/copyright.html・要許可）。議会のページも市の公式サイト（/gikai/）で、議会独自の条項は無い
+    // リンク: 予算の行と同じく「リンクを設定する場合は、URLを当市ホームページのトップページ（https://www.city.goshogawara.lg.jp/）としてください。」が議会のページにも掛かる ⇒ noDeepLink。landingPage は議決結果表を掲げる「これまでの本会議開催状況」のページ
+    // raw: 3件とも拡張子どおり（transform なし・魚拓は gzip でない HTML、先頭 <!do）。電話・〒は議会事務局のものだけ（機械的に確認）。議員でない人の氏名は無い。市議会だより第61号は財産区管理委員14人の氏名を読みと財産区ごとに載せる（財産区の住民から選ぶ委員なので、氏名と居住の地区の組に近い＝§6-19 の二本松・一関の型）ので、レビュー1巡目で raw から外した
+    //   議員名簿（2-1meibogisekibanngoujunn.html）は議員の住所・メールつき、第62号は補欠当選者の住所（字名）と年齢つきなので raw に入れていない
+    id: "goshogawara-shigikai-r8",
+    title: "令和8年度 五所川原市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "五所川原市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20251212055847id_/https://www.city.goshogawara.lg.jp/gikai/kaihameibo.html",
+      "https://www.city.goshogawara.lg.jp/gikai/files/0802kekka.pdf",
+      "https://www.city.goshogawara.lg.jp/gikai/files/R7seimu.pdf",
+    ],
+    landingPage: "https://www.city.goshogawara.lg.jp/gikai/koremadenohonnkaigikaisaijoukyou.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "五所川原市議会（定数22・団体コード022055）",
+    license: "五所川原市ホームページに掲載している情報（文章・写真・イラスト等）の各ファイルおよびその内容に関する著作権は、原則として五所川原市に帰属します。許可なく使用・複製・転載・販売・改変・印刷といった二次利用をすることはできません。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "五所川原市議会",
+      asOf: "2025-12-05",
+      asOfText: "令和7年12月5日現在",
+      totalText: {"text":"20名","url":"https://www.city.goshogawara.lg.jp/gikai/files/R7seimu.pdf"},
+      roster: {"url":"https://web.archive.org/web/20251212055847id_/https://www.city.goshogawara.lg.jp/gikai/kaihameibo.html","title":"会派名簿（令和7年12月5日現在）"},
+      factions: [{"name":"市民の声を聴く孝志会","declared":"市民の声を聴く孝志会 9名","members":["桑田哲明","山田善治","山口孝夫","秋田幸保","伊藤永慈","木村博","黒沼剛","藤森真悦","藤田成保"]},{"name":"自民公明クラブ","declared":"自民公明クラブ 5名","members":["木村慶憲","平山秀直","伊藤雅輝","外崎英継","高橋美奈"]},{"name":"三和会","declared":"三和会 （みつわかい） ３名","members":["成田和美","松本和春","和田祐治"]},{"name":"無所属","independent":true,"declared":"無所属 1名 木村","members":["木村清一"]},{"name":"無所属","independent":true,"declared":"無所属 1名 金谷","members":["金谷勝"]},{"name":"日本共産党","declared":"日本共産党 1名","members":["花田勝暁"]}],
+      resolution: {"url":"https://www.city.goshogawara.lg.jp/gikai/files/0802kekka.pdf","title":"令和８年 五所川原市議会 第２回 定例会 議決結果表","billNo":"議案第17号","billName":"令和８年度五所川原市一般会計予算","sessionLabel":"令和８年 五所川原市議会 第２回 定例会","decidedDate":"2026-03-17","result":"原案可決","farOk":["billNo","decidedDate"],"decidedDateText":"令和８年度五所川原市一般会計予算 8.3.17"},
+    },
+  },
+  {
+    // 十和田市議会（青森県・団体コード 022063）。名簿は会派一覧表（giinichiran/2023-0112-1707-176.html・「令和７年（2025年）５月26日現在」・番号・会派名・役職名・氏名の表を区間方式）。2026-10-31 に取得した現行のページがこの版のまま。議決（3/18）前の 2026-03-09 の魚拓 20260309031702 も同じ版（会派表は raw と同じで、差はナビゲーションの4行だけ＝レビュー1巡目で照合。台帳に登録済み）
+    // 議決時点の構成: 5/26 は豊川泰市議員（黎明親和会）の辞職の日（「市議会議員の辞職について」）。名簿の版は議決（3/18）の約10か月前で、その間に異動が無いことは名簿が更新されていないことによる【推定】。議決当日の「賛否が分かれた議案等の審議結果一覧」（r8-1giansanpi.pdf・3/24 作成）の表頭に20人全員が議席順で出ることを confirmUrls で照合する
+    // 人数の網: 名簿に会派ごとの人数の印字が無い（noDeclaredCount）。議会全体は定数（市議会だより第83号 p.10「なお、これにより現在の議員数は 20 人となりました。（定数 22 人、欠員２人）」・R7.8.1 発行）＝現員20・欠員2（櫻田百合子 R7.1.12 自動失職・豊川泰市 R7.5.26 辞職）と、
+    //   会派ごとの印（factionMarker）＝各会派の筆頭の役職「会長」「代表」（副会長・副代表とフッターの「（代表）」は除く）の数＝5、議員ごとの賛否の列（20列）が名簿の全員とちょうど対応すること。⚠ 初版は factionMarker が無く、会派を隣の会派へ丸ごと合流させる書き写し（1か所）が通った（改ざんテストで実測・4通り）
+    // 議決: 市議会だより第86号 p.2（86_p02.pdf）の「賛否が分かれた議案の審議結果」の「議案 第13号 令和８年度十和田市一般会計予算 〇…－ 可決」（-raw で番号・件名・記号・結果が1行に並ぶ）。結果は原典の行の語「可決」
+    //   議決結果表（R08-01_giketukekka.pdf）は議案第13号の行の採決日・議決結果が「〃」（たどると「３月18日」「原案可決」）で、審議結果一覧（r8-1giansanpi.pdf）は -raw で件名が記号の行と別の塊に出るので、どちらも主の原典にしなかった
+    //   議決日は会期日程（R08-1_kaiki.pdf）の「第23日 ３月 18日 水 本会議 ○議案審議(質疑・討論・表決）」（間接・farOk。第86号 p.11 の出欠状況「3月18日㈬ 第１回定例会（閉会）」とも合う）
+    // 賛否: 第86号 p.2 の同じ行（議員ごと20列・議席順。列見出しは -raw で予算の行より前に議席順で出る）。凡例「「〇」は賛成、「×」は反対、「欠」は欠席、「退」は退出、「－」は議長（原則、表決に加わりません。）」。
+    //   賛成15・反対3（柊の会の竹島直樹・山田洋子・戸来伝）・欠席1（中尾利香）・議長1（石橋義雄・列の記号「－」）。印字された賛否の数は無い。審議結果一覧 PDF の同じ行の記号の並びとも一致（目視）
+    // 照合の残った弱さ（改ざんテスト40通り中8通りが通る）: 会派名の前方の切り詰め（「自民公明」）・1人の会派「日本共産党」に independent を付ける・asOfText の「現在」を落とす（パーサ一般）、議決日と decidedDateText を会期日程の別の日（2/24・3/16）に一緒に書き換える（越谷型）、
+    //   teisuText を同じ原文の「現在の議員数は 20 人」にして teisu 20・欠員0 にする（人を動かさずに定数の表示だけが変わる・§6-16 の神戸の型）、factionMarker を外す／正規表現を書き換えたうえでの合流（2〜3か所の作為）
+    //   ✗ になったもの: 会派間の1人移動（3通り）・1人の書き落とし（賛否の列・欠員・定数の書き換えつきを含む4通り）・会派の合流（3通り）・議案番号（第20号・第４号・号落とし・「第13号」）・結果（「原案可決」・「否決」）・議決日（3/13）・病院事業会計の件名・会期名・
+    //   賛否の列の入れ替え（2組）・記号の入れ替え・凡例の入れ替え（2通り）・anchor を病院事業会計の行・議案第20号に・anchorSide before で前の行の記号・会派名に「会長」「代表」・氏名を足す・日本共産党を「無所属」に
+    // ライセンス: 予算の行（towada-yosan-gaiyou-r8）と同じ原文（市サイトに著作権の条項が無くフッターの帰属表示だけ・license-no-grant.ts で要許可）。議会のページも市の公式サイト（/shisei/gikai/）で、議会独自の条項は無い
+    // リンク: 予算の行と同じく市サイトにリンクの条項が無い ⇒ noDeepLink は立てない
+    // raw: 5件とも拡張子どおり（transform なし）。電話・〒は議会事務局・市役所のものだけ（機械的に確認）。議会だよりは全ページ版（_all.pdf）でなくページごとの PDF を使い、どちらにも議員でない人の氏名は無い
+    //   議員名簿一覧表（議席順・2023-0116-1555-176.html）は議員の生年月日・電話・住所つきなので raw に入れていない
+    id: "towada-shigikai-r8",
+    title: "令和8年度 十和田市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "十和田市議会",
+    url: null,
+    urls: [
+      "https://www.city.towada.lg.jp/shisei/gikai/giinichiran/2023-0112-1707-176.html",
+      "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/86_p02.pdf",
+      "https://www.city.towada.lg.jp/shisei/gikai/teireikai/files/R08-1_kaiki.pdf",
+      "https://www.city.towada.lg.jp/shisei/gikai/teireikai/files/r8-1giansanpi.pdf",
+      "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/83_p10.pdf",
+    ],
+    landingPage: "https://www.city.towada.lg.jp/shisei/gikai/teireikai/2026-0212-1333-176.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "十和田市議会（定数22・団体コード022063）",
+    license: "Copyright © TOWADA CITY All Rights Reserved.",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "十和田市議会",
+      asOf: "2025-05-26",
+      asOfText: "令和７年（2025年）５月26日現在",
+      teisu: 22,
+      teisuText: "（定数 22 人、欠員２人）",
+      teisuUrl: "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/83_p10.pdf",
+      vacancies: 2,
+      vacanciesText: "人、欠員２人）",
+      factionMarker: "(?<![副(])(会長|代表)",
+      roster: {"url":"https://www.city.towada.lg.jp/shisei/gikai/giinichiran/2023-0112-1707-176.html","title":"会派一覧表（令和７年（2025年）５月26日現在）","confirmUrls":["https://www.city.towada.lg.jp/shisei/gikai/teireikai/files/r8-1giansanpi.pdf"]},
+      factions: [{"name":"自民公明クラブ","noDeclaredCount":true,"members":["江渡信貴","斉藤重美","中嶋秀一","石橋義雄","小川洋平","氣田量子","中尾利香","山端美樹子"]},{"name":"黎明親和会","noDeclaredCount":true,"members":["堰野端展雄","山端博","笹渕峰尚","小山田剛士"]},{"name":"柊の会","noDeclaredCount":true,"members":["工藤正廣","戸来伝","山田洋子","竹島直樹"]},{"name":"立憲農民クラブ","noDeclaredCount":true,"members":["久慈年和","今泉信明","太田正幸"]},{"name":"日本共産党","noDeclaredCount":true,"members":["小笠原良子"]}],
+      votes: {"url":"https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/86_p02.pdf","title":"十和田市議会だより第86号 p.2「賛否が分かれた議案の審議結果」（令和８年第１回定例会）","basis":"member","legend":{"〇":"賛成","×":"反対","欠":"欠席","－":"議長"},"legendText":["「〇」は賛成","「×」は反対","「欠」は欠席","「－」は議長"],"anchor":"令和８年度十和田市一般会計予算","maxGap":4,"symbols":"〇〇〇×〇×〇〇欠〇〇〇〇〇〇〇〇〇×－","columns":[{"label":"山端美樹子"},{"label":"小山田剛士"},{"label":"太田正幸"},{"label":"竹島直樹"},{"label":"笹渕峰尚"},{"label":"山田洋子"},{"label":"今泉信明"},{"label":"中嶋秀一"},{"label":"中尾利香"},{"label":"小笠原良子"},{"label":"山端博"},{"label":"氣田量子"},{"label":"斉藤重美"},{"label":"久慈年和"},{"label":"江渡信貴"},{"label":"堰野端展雄"},{"label":"工藤正廣"},{"label":"小川洋平"},{"label":"戸来伝"},{"label":"石橋義雄"}]},
+      resolution: {"url":"https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/files/86_p02.pdf","title":"十和田市議会だより第86号 p.2「議案審議の状況」（令和８年第１回定例会）","alsoUrls":["https://www.city.towada.lg.jp/shisei/gikai/teireikai/files/R08-1_kaiki.pdf"],"farOk":["decidedDate"],"decidedDateText":"第23日 ３月 18日 水 本会議 ○議案審議(質疑・討論・表決）","billNo":"議案第13号","billName":"令和８年度十和田市一般会計予算","sessionLabel":"令和８年第１回定例会","decidedDate":"2026-03-18","result":"可決"},
+    },
+  },
+  {
+    // 酒田市議会（山形県・団体コード 062049）。名簿は「議員紹介（会派別）」（giin/kaiha.html・「更新日：2025年11月13日」・会派名（N名）の下に会長・構成員を並べる区間方式）の魚拓 20260315024908 の id_
+    // 議決時点の構成: 捕捉は議決（3/12）の3日後だが、ページの更新日は 2025-11-13 のままで、現行（2026-10-31）も同じ版。議決前の最後の魚拓 20250906050201 は前の版。11/13〜3/15 にページが更新されていないことによる【推定】。⚠ 「○月○日現在」の印字は無く、asOf は更新日（§6-9 の習志野と同じ）
+    // 無会派の3人（大壁洋平・市原栄子・武田恵子）は名簿の見出し「会派規程に該当しない団体等」の下の「無会派（3名）」で、1つの independent（無所属の呼び名）
+    // 人数の網: 会派ごとの「（N名）」（declared）、議会全体は定数（「市議会とは」shigikai.html「議員の定数は、酒田市議会議員定数条例で25人としています。」）＝現員25・欠員0と、会派ごとの印「（N名）」の数（factionMarker）＝4
+    // 議決: 議決結果一覧表（R08-03.pdf・「令和８年定例会 第４回３月定例議会」）の「議第１７号 令和８年度酒田市一般会計予算 可 決 Ｒ8.3.12」（近接）。酒田市議会は通年議会で、会期名は原典の字のまま
+    // 賛否は入れていない — 議員ごと・会派ごとの賛否表を公表していない（議決結果一覧表・さかた市議会だより第88号の審議結果の表とも結果だけ。第88号は反対討論（無会派 市原栄子）を載せる）
+    // 照合の残った弱さ（改ざんテスト29通り中3通りが通る）: 会派名の前方の切り詰め（「市政研究」）・無会派の independent を外す（3人が1つの会派として表示される）（パーサ一般）、declared と factionMarker を外したうえでの合流（3か所の作為）
+    //   ✗ になったもの: 会派間の1人移動（declared の書き換えつきを含む3通り）・1人の書き落とし（定数・欠員の書き換えつきを含む3通り）・無会派を丸ごと落とす・会派の合流（declared を外すものを含む4通り）・議案番号（第１８号・第４０号・号落とし）・結果（「原案可決」・「報告」）・
+    //   議決日（同じ表の 3/17・2/27）・特別会計の件名・会期名・会派名に「会長」・氏名・「（6名）」を足す・無会派を見出しの語に・実在の3人会派に independent・asOfText を別の更新日に・asOf を議決後に
+    // ライセンス: 予算の行（sakata-yosansho-r8）と同じ原文（「このサイトについて」・要許可）。議会のページも市の公式サイト（/shisei/shigikai/）で、議会独自の条項は無い
+    // リンク: 予算の行と同じく「酒田市のリンクをする場合は原則として市トップページ…としてください。」が議会のページにも掛かる ⇒ noDeepLink。landingPage は議決結果一覧のページ
+    // raw: 3件とも拡張子どおり（transform なし・魚拓は gzip でない XHTML、先頭 <?xm）。電話・〒は議会事務局・市役所のものだけ（機械的に確認）。議決結果一覧表の諮第１号・第２号（人権擁護委員の候補者の推薦）は件名だけで候補者の氏名は無い
+    id: "sakata-shigikai-r8",
+    title: "令和8年度 酒田市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "酒田市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260315024908id_/https://www.city.sakata.lg.jp/shisei/shigikai/giin/kaiha.html",
+      "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/giketsu-kekka.files/R08-03.pdf",
+      "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/shigikai.html",
+    ],
+    landingPage: "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/giketsu-kekka.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "酒田市議会（定数25・団体コード062049）",
+    license: "酒田市ホームページに掲載されている個々の情報（文書、写真、イラスト等）に関する諸権利は、著作権法によって保護されています。これらの情報について、著作権法で認められた場合を除き、複製、転用をすることはできません。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "酒田市議会",
+      asOf: "2025-11-13",
+      asOfText: "更新日：2025年11月13日",
+      teisu: 25,
+      teisuText: "議員の定数は、酒田市議会議員定数条例で25人としています。",
+      teisuUrl: "https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/shigikai.html",
+      factionMarker: "\\(\\d+名\\)",
+      roster: {"url":"https://web.archive.org/web/20260315024908id_/https://www.city.sakata.lg.jp/shisei/shigikai/giin/kaiha.html","title":"議員紹介（会派別）（更新日：2025年11月13日）"},
+      factions: [{"name":"新和会","declared":"新和会（13名）","members":["佐藤伸二","高橋千代夫","佐藤猛","進藤晃","市村浩一","齋藤直","松本国博","佐藤喜紀","安藤浩夫","伊藤欣哉","遠田敏子","守屋紀彦","杉山道弘"]},{"name":"志友会","declared":"志友会（6名）","members":["後藤仁","田中廣","冨樫覚","後藤啓","池田博夫","田中斉"]},{"name":"市政研究会","declared":"市政研究会（3名）","members":["佐藤弘","佐藤千佳夫","ガンバリーニ杏子"]},{"name":"無会派","independent":true,"declared":"無会派（3名）","members":["大壁洋平","市原栄子","武田恵子"]}],
+      resolution: {"url":"https://www.city.sakata.lg.jp/shisei/shigikai/gikaishikumi/giketsu-kekka.files/R08-03.pdf","title":"令和８年定例会 第４回３月定例議会 議決結果一覧表","billNo":"議第１７号","billName":"令和８年度酒田市一般会計予算","sessionLabel":"令和８年定例会 第４回３月定例議会","decidedDate":"2026-03-12","result":"可決"},
+    },
+  },
+  {
+    // 名簿は「会派の構成」ページ（kaiha_kousei.html）の議決前の魚拓 20250713204106 の id_（「天童市議会会派構成名簿(令和7年4月1日現在)」・会派名から次の会派名までの区間方式）。現行のページは「令和8年4月1日現在」の版（駒延法子議員が清新会から無会派へ）で議決後。CDX の捕捉は 20250713 の次が 20260516（議決後の版）
+    // 議決時点の構成: 駒延議員の異動は、てんどう市議会だより №192（令和８年5月15日発行）p.13 の「令和８年４月１日から、会派の構成を次のように変更しましたので、お知らせします。」（raw の外・下）で議決（3/23）の後。同じ号の政務活動費の頁の抜き刷り（r7seimukatudouhisyuseigo.pdf）の表は「※会派の人数は、令和８年３月３１日現在の人数です。」で清新会１０・てんどう創生の会５・清風２と、個人交付の4人（伊藤和子・狩野佳和・野口さつき・遠藤敬知（議長））を並べ、名簿と一致する（declaredIn・totalText）
+    // R7.4.1〜R8.3.31 に人数を変えない会派間の入れ替えが無かったことは【推定】（清新会の交付額 1,560,000 円＝10人×年額15万6000円、個人交付は4人だけ）。⚠ №192 の3月定例会の一般質問の欄は駒延議員を「会派に所属していない議員」の見出しの下に置く（発行時点の会派で組んだとみる）。同じ号の「４月１日から…変更」の原文と 3/31 現在の人数（清新会10）に従った
+    // 人数の網: 会派ごとは政務活動費の表の人数（declaredIn）。議会全体は定数（市議会について shigikai_ni_tsuite.html「定数を21人としています。」）＝現員21・欠員0、同じ表の「合 計 ２１」（totalText）、会派ごとの印「会長|無会派」（名簿の3会派に1つずつの会長の欄と、会派に属さない議員の行の見出し「無会派」＝4回）
+    // 議決: 会議結果ページ（kaigiyotei_kaigikekka_07.html・「令和8年3月定例会の会議結果（令和8年3月25日更新）」）の表の行「議第72号｜令和８年度天童市一般会計予算｜令和8年 3月23日｜原案可決」（table: row）
+    // 賛否は入れていない — 予算は全会一致（№192 p.12 の議決結果の表「原案可決（全会一致）」）で記号の賛否表が無く、全会一致の原文がある №192 は raw に入れない（下）
+    // 照合の残った弱さ（改ざんテスト37通り中4通りが通る）: 会期名を同じページの別の会期名（令和8年1月臨時会）にする（中津川型）、会派名の前方切り詰め（「てんどう」）、無会派の independent を外す、asOf だけの書き換え（ほかに3か所の作為＝会派を消し・declared を noDeclaredCount に替え・factionMarker を外す合流も通る）。✗ になったもの: 会派間の1人移動（4通り）・入れ替え（2通り）・1人の書き落とし（定数の書き換えつきを含む4通り）・会派の合流（declared を外す型を含む4通り）・議案番号（議第73号・議第95号・号落とし）・結果（可決への丸め・同意）・議決日（2/27・3/25）・特別会計と補正予算の件名・会派名に役職・氏名・数字を足した名前（4通り）・無会派を清風に・清風に independent・asOfText を R8.4.1 版に・asOf を議決後に・totalText と teisuText の差し替え
+    // ライセンス: 予算の行（tendo-yosansho-r8）と同じ原文（「免責事項について」・要許可）。議会のページも市の公式サイト（/congress/）で、議会独自の条項は無い。リンクも予算の行と同じく「原則自由」⇒ noDeepLink は立てない
+    // raw: 4件とも拡張子どおり（transform なし・魚拓は gzip でない HTML、先頭 \n<!D）。電話・〒は議会事務局・市役所のものだけ（機械的に確認）。⚠ 議会だより №192 の全ページ版（gikaidayori/dayori192.pdf）は題字・イラストの作者として中学3年生2人の氏名・学年・学校を載せるので raw に入れていない（§6-18 八代の前例）。市の政務活動費のページ（seimukatsudouhi.html）が掲げる同じ号の政務活動費の頁だけの抜き刷りを使った（議員でない人の氏名は視察先の団体名だけ）
+    id: "tendo-shigikai-r8",
+    title: "令和8年度 天童市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "天童市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20250713204106id_/https://www.city.tendo.yamagata.jp/congress/kousei/kaiha_kousei.html",
+      "https://www.city.tendo.yamagata.jp/congress/kaigiyotei/kaigiyotei_kaigikekka_07.html",
+      "https://www.city.tendo.yamagata.jp/congress/gikainitsuite/shigikai_ni_tsuite.html",
+      "https://www.city.tendo.yamagata.jp/congress/katsudou/r7seimukatudouhisyuseigo.pdf",
+    ],
+    landingPage: "https://www.city.tendo.yamagata.jp/congress/kousei/kaiha_kousei.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "天童市議会（定数21・団体コード062103）",
+    license: "天童市公式ホームページに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっており、原則として天童市に帰属します。なお、一部の画像などの著作権は、原著作者が所有しているものがあります。著作権法上認められた場合を除き、無断での転載・複製を禁じます。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "天童市議会",
+      asOf: "2025-04-01",
+      asOfText: "令和7年4月1日現在",
+      teisu: 21,
+      teisuText: "定数を21人としています。",
+      teisuUrl: "https://www.city.tendo.yamagata.jp/congress/gikainitsuite/shigikai_ni_tsuite.html",
+      vacancies: 0,
+      totalText: {"text":"合 計 ２１","url":"https://www.city.tendo.yamagata.jp/congress/katsudou/r7seimukatudouhisyuseigo.pdf"},
+      factionMarker: "会長|無会派",
+      roster: {"url":"https://web.archive.org/web/20250713204106id_/https://www.city.tendo.yamagata.jp/congress/kousei/kaiha_kousei.html","title":"天童市議会会派構成名簿（令和7年4月1日現在）"},
+      factions: [{"name":"清新会","declared":"清 新 会 １０","declaredIn":"https://www.city.tendo.yamagata.jp/congress/katsudou/r7seimukatudouhisyuseigo.pdf","members":["水戸保","鈴木照一","水戸芳美","武田正二","佐藤俊弥","古澤義弘","佐藤孝一","滝口茂之","駒延法子","新関知己"]},{"name":"てんどう創生の会","declared":"てんどう創生の会 ５","declaredIn":"https://www.city.tendo.yamagata.jp/congress/katsudou/r7seimukatudouhisyuseigo.pdf","members":["遠藤喜昭","三宅和広","林正人","半田大介","斉藤美千代"]},{"name":"清風","declared":"清 風 ２","declaredIn":"https://www.city.tendo.yamagata.jp/congress/katsudou/r7seimukatudouhisyuseigo.pdf","members":["村山俊雄","横山愛"]},{"name":"無会派","independent":true,"noDeclaredCount":true,"members":["遠藤敬知","伊藤和子","狩野佳和","野口さつき"]}],
+      resolution: {"url":"https://www.city.tendo.yamagata.jp/congress/kaigiyotei/kaigiyotei_kaigikekka_07.html","title":"会議結果（令和8年3月定例会の会議結果）","table":"row","billNo":"議第72号","billName":"令和８年度天童市一般会計予算","sessionLabel":"令和8年3月定例会","decidedDate":"2026-03-23","result":"原案可決"},
+    },
+  },
+  {
+    // 名簿（基準日）は「会派別名簿」ページ（8595.html・「令和7年5月16日現在」・更新日 2025年05月19日）の議決前の魚拓 20251112223134 の id_。現行のページも同じ版のまま（2026-10-31 確認）
+    // 所属は議決当日（3/24）の採決を載せた「議案の賛否一覧表（３月定例会）」（2603sanpi.pdf・議案等と議決結果のページ 9232.html に掲載）の表頭の会派ごとの枠で照合する（会派に url と box）。帯の境目は pdftotext -bbox の列の x（26.9pt 間隔）で決めた（一新会8・至誠会5・市民平和クラブ4・ミライノトビラ3・公明党2・日本共産党市議団2）
+    // 氏名は表頭の字（通称）: 成沢かずね・たかはしちなつ・さいとうちえこ・太田かつのり・古山ゆうき・佐藤ひろし・高橋ひさし・我妻德雄。名簿のページは成澤和音・高橋千夏・齋藤千惠子・太田克典・古山悠生・佐藤弘司・高橋壽・我妻徳雄（代用文字）と書く。6会派24人の顔ぶれは名簿のページと全員一致（目視）
+    // 人数の網: 定数（議員定数について 444.html「議員定数を24名と定めています。」）＝現員24・欠員0、会派ごとの印「\D\(代表\)」（名簿の各会派の「（代表）」＝6回。フッターの電話番号の「（代表）」は数字の後なので数えない）、議員ごとの賛否の列（24列）が名簿の全員と1対1
+    // 議決: R8 の当初予算は議第25号が予算特別委員会で否決（3/12）された後に撤回され（3/19）、修正して追加提出された議第41号が 3/24 に可決（予算の行 yonezawa-yosansho-r8 の成立版 465億9,000万円と同じ）。原典は米沢市議会だより第186号（令和8年5月1日）p.5「３月定例会で審議された議案」の「議第41号 令和８年度米沢市一般会計予算 可決♦」（-layout で同じ行）。議決日は同じ号 p.4 の「３月２４日の本会議にて修正案が可決されました」（farOk・decidedDateText）
+    // 結果語は議会だよりの表の「可決」。議案等と議決結果のページ（9232.html）は本会議の結果を「3月24日 原案どおり可決（賛成多数）」と書くが、同じ行で予算特別委員会の「3月19日 可決すべきもの（賛成多数）」が先に来て近接では委員会の「可決」に当たり、表の経路ではセルが日付と結果語を合わせた1つのセルで結果語だけのセルが無いので、原典にしなかった
+    // 賛否: 2603sanpi.pdf の議第41号の行（議員ごと・議長を除く23列）。凡例「（〇＝賛成 ×＝反対）」。賛成16・反対7（一新会の議長以外の7人）・議長1（島軒純一・列の記号「-」は凡例に無いので ignoreChars、注記「※島軒純一議長は採決に加わりません。」で blank）。行は「議第41号 可決 × × …」と番号と記号の間に結果語が入るので anchor は「可決」、anchorEvidence「議第41号 可決」で議案番号に結び付ける。列見出しは縦書きの氏名なので headerBbox。印字された賛否の数は無い
+    // 照合の残った弱さ（改ざんテスト40通り中7通りが通る）: 議決日と decidedDateText を同じ号の別の日の原文（「３月１９日の本会議にて議第２５号を撤回し」「３月１２日の予算特別委員会で」）に一緒に書き換える（越谷型・asOf が議決の約10か月前なので asOf の網に掛からない）、会期名を同じ号の「１月臨時会」にする（中津川型）、会派名の前方切り詰め（「日本共産党」「市民平和」）、asOf だけの書き換え、議長の blank の evidence を同じ表の別の注記（「島軒純一議長、古山悠生副議長及び木村芳浩委員長は採決に加わりません。」）にする（値は同じ）。ほかに3か所の作為（会派を消し・合流先の枠を相手の列まで広げ・factionMarker を外す）の合流も通る
+    // ✗ になったもの: 会派間の1人移動（4通り）・1人の書き落とし（列ごと・定数の書き換えつきを含む3通り）・会派の合流（枠を広げる型を含む4通り）・議案番号（議第25号・議第40号・号落とし）・結果（原案可決・否決・原案どおり可決）・議決日だけの書き換え・特別会計の件名・賛否の列の入れ替え（3通り）・別の行の記号（議第27号・議第25号）・記号のすり替え・凡例の入れ替え・議長のすり替え・anchorSide before・会派名に氏名を足した名前（2通り）・公明党に independent・asOf を議決後に・定数25
+    // ライセンス: 予算の行（yonezawa-yosansho-r8）と同じ原文（「免責事項・著作権」・要許可）。議会のページも市の公式サイト（/gikai/・/soshiki/12/・/material/files/group/38/）で、議会独自の条項は無い。リンクも予算の行と同じ「…トップページ以外のページ…へのリンクについては、各ページの問い合わせ先…まで直接お問い合わせください。」が掛かるので noDeepLink・landingPage は会派別名簿のページ
+    // raw: 4件とも拡張子どおり（transform なし・魚拓は gzip でない HTML、先頭 <!DO）。電話・〒は議会事務局・市役所のものだけ（機械的に確認）。議会だより第186号には議員でない人の氏名（住所・居住地なし）がある — 請願の団体の代表者2人（「米沢市テニス協会 会長 …」「米沢市ソフトテニス連盟 会長 …」）と人権擁護委員候補者3人（「…氏（任期 令和８年７月１日から３年間）」）。§6-19・§6-20 の前例どおり raw に残した。中学校出前市議会の記事は学校名・学年・人数と匿名の感想だけ（生徒の氏名なし）。議員名簿のページ（8594.html）は議員の居住町名つきなので raw に入れていない
+    id: "yonezawa-shigikai-r8",
+    title: "令和8年度 米沢市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "米沢市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20251112223134id_/https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html",
+      "https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf",
+      "https://www.city.yonezawa.yamagata.jp/material/files/group/38/dayori_186.pdf",
+      "https://www.city.yonezawa.yamagata.jp/soshiki/12/1037/6/2/444.html",
+    ],
+    landingPage: "https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "米沢市議会（定数24・団体コード062022）",
+    license: "米沢市公式ホームページ（https://www.city.yonezawa.yamagata.jp/）に掲載している情報（文章及び写真、イラストやデザイン等の画像等）に関する著作権は、原則として米沢市に帰属します。また、一部の画像等の著作権は、米沢市以外の原著作者が所有しています。これらの情報を「私的使用のための複製」など著作権法上認められた範囲を越えて、本市や原著作者に無断で使用、複製、転載、販売、印刷等を行うことはできません。なお、リンク先のホームページについては、それぞれのホームページ管理者にお問い合わせください。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "米沢市議会",
+      asOf: "2025-05-16",
+      asOfText: "令和7年5月16日現在",
+      teisu: 24,
+      teisuText: "議員定数を24名と定めています。",
+      teisuUrl: "https://www.city.yonezawa.yamagata.jp/soshiki/12/1037/6/2/444.html",
+      vacancies: 0,
+      factionMarker: "\\D\\(代表\\)",
+      roster: {"url":"https://web.archive.org/web/20251112223134id_/https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html","title":"会派別名簿（令和7年5月16日現在）"},
+      factions: [{"name":"一新会","box":[150,76,214,112],"page":1,"noDeclaredCount":true,"members":["鳥海隆太","佐野洋平","成沢かずね","たかはしちなつ","関谷幸子","島軒純一","さいとうちえこ","工藤正雄"],"url":"https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf"},{"name":"至誠会","box":[364,76,134,112],"page":1,"noDeclaredCount":true,"members":["相田克平","堤郁雄","山村明","木村芳浩","島貫宏幸"],"url":"https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf"},{"name":"市民平和クラブ","box":[498,76,108,112],"page":1,"noDeclaredCount":true,"members":["小久保広信","影澤政夫","太田かつのり","我妻德雄"],"url":"https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf"},{"name":"ミライノトビラ","box":[606,76,81,112],"page":1,"noDeclaredCount":true,"members":["植松美穂","古山ゆうき","遠藤隆一"],"url":"https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf"},{"name":"公明党","box":[687,76,54,112],"page":1,"noDeclaredCount":true,"members":["佐藤ひろし","山田富佐子"],"url":"https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf"},{"name":"日本共産党市議団","box":[741,76,56,112],"page":1,"noDeclaredCount":true,"members":["髙橋英夫","高橋ひさし"],"url":"https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf"}],
+      votes: {"url":"https://www.city.yonezawa.yamagata.jp/material/files/group/38/2603sanpi.pdf","title":"議案の賛否一覧表（３月定例会）","basis":"member","legend":{"〇":"賛成","×":"反対"},"legendText":"（〇＝賛成 ×＝反対）","anchor":"可決","anchorEvidence":{"text":"議第41号 可決"},"ignoreChars":"―","headerBbox":true,"symbols":"×××××××〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇","columns":[{"label":"鳥海隆太"},{"label":"佐野洋平"},{"label":"成沢かずね"},{"label":"たかはしちなつ"},{"label":"関谷幸子"},{"label":"さいとうちえこ"},{"label":"工藤正雄"},{"label":"相田克平"},{"label":"堤郁雄"},{"label":"山村明"},{"label":"木村芳浩"},{"label":"島貫宏幸"},{"label":"小久保広信"},{"label":"影澤政夫"},{"label":"太田かつのり"},{"label":"我妻德雄"},{"label":"植松美穂"},{"label":"古山ゆうき"},{"label":"遠藤隆一"},{"label":"佐藤ひろし"},{"label":"山田富佐子"},{"label":"髙橋英夫"},{"label":"高橋ひさし"}],"blank":[{"label":"島軒純一","stance":"議長","evidence":"※島軒純一議長は採決に加わりません。"}]},
+      resolution: {"url":"https://www.city.yonezawa.yamagata.jp/material/files/group/38/dayori_186.pdf","title":"米沢市議会だより第186号（令和8年5月1日）「３月定例会で審議された議案」","billNo":"議第41号","billName":"令和８年度米沢市一般会計予算","sessionLabel":"令和８年３月定例会","decidedDate":"2026-03-24","result":"可決","farOk":["decidedDate"],"decidedDateText":"３月２４日の本会議にて修正案が可決されました"},
+    },
+  },
+  {
+    // 名簿は「会派別議員名簿（令和７年６月９日）」（r070609_kaihabetumeibo.pdf・発行元の現行ファイル。PDF の作成日・更新日とも 2025-06-09 16:20）。議決前（2026-02-26）の議員名簿ページの魚拓が同じファイル名にリンクしており（linkedFrom）、2026-10-31 の現行ページも同じファイルを掲げる＝議決をまたいで差し替えられていない。PDF 自体の魚拓は 20250926 の1件だけで中身は Wayback のエラーページ（4,724 バイト）なので、発行元の写しを原典にした。しおり R7（R7_shiori.pdf）の 20250926 の捕捉も同じく再生すると 404 なので、2件とも台帳から外した（CDX は statuscode 200 を返すが length が壊れている。kind が page なので sha256 の照合が掛からず採られていた＝レビュー1巡目）。SPN が戻ったら `--force` で取り直す
+    // 会派は名簿の区間方式。名簿は「〇 交渉会派に属しない議員（５名）」の見出しの下に「・公明党島根県議団」「・日本共産党島根県議団」「・会派に属しない議員」を並べる。県議会のしおり（令和7年度・R7.6.26 作成・議決前）の「会派別議員数」がこの3つを会派として「２名」「２名」「１名」と数えるので6会派として書いた（公明・共産・無所属の人数は declaredIn で照合）
+    // 議決時点の構成: 名簿（R7.6.9）・しおり R7（R7.6.26）・議決当日（3/12）の議員別採決結果一覧の35列が全員一致（confirmUrls と賛否の列で照合）。議長は R7.6.9〜R8.6.9 が池田一（歴代議長・副議長名簿 r080609・raw の外）で、議決後 2026-04-21 の議長あいさつの魚拓「令和７年６月 島根県議会議長 池田 一」を blank の原文にした。R8 のしおり（R8.7.2 作成・raw の外）も会派別議員数は同じ 15・10・5・2・2・1
+    // 定数は36（「選挙区と議員定数」teisu.html の「計 36人」・しおり「議員定数は36人」）で現員35。欠員1は松江選挙区（しおりの「松江11人（現員10人）」・出川桃子議員が 2025-03-31 に辞職＝二次資料）だが、「欠員」の語で数を書いた原文が住所の無いページに無いので teisu は持たせず noTotalReason にした（scope の定数36は teisu.html による）。議会全体の網は6会派すべての declared と、議員ごとの賛否の列（35・議長の空欄を含む）が名簿の全員とちょうど対応すること
+    // 議決は「第４９８回島根県議会（令和８年２月定例会）議案一覧表」（r0802_giketu_kekka.pdf）の「第 3 号 議案 令和８年度島根県一般会計予算 （３月12日 原案可決）」（近接）。⚠ この PDF の作成日は 2026-03-11 17:22（議決の前日）で、結果を前もって組んだ版を掲げている。議決当日（3/12 14:54 作成）の議員別採決結果一覧の第3号の行も「原案可決 30 3」で、県議会だより（令和８年２月定例会）の「２月12日から３月12日までの29日間」と会期日程（r0802_nittei0304.pdf・raw の外）の会期末 3/12 とも合う
+    // 賛否: 議員別採決結果一覧（r0802_giinbetu_kekka.pdf）p.1 の第3号の行（議員ごと35列・-raw で縦書きの氏名が列の順に出る）。凡例「「○」･･･賛成、「●」･･･反対、「棄権」･･･棄権、「－」･･･欠席等による不在」。賛成30・反対3（大国陽介・尾村利成＝日本共産党島根県議団、成相安信＝会派に属しない議員）・欠席1（福田正明「－」）・議長1（池田一・列が空欄）。印字「30 3」と一致
+    // 照合の残った弱さ（改ざんテスト40通り中2通りが通る）: 会派名の前方切り詰め（「自由民主党」・パーサ一般）、会派に属しない議員の independent を外す（1人なので名前は同じ・パーサ一般）。会派間の1人移動（declared の書き換えつきを含む）・1人の書き落とし（賛否の列も消す型を含む）・会派の合流（3通り）・会派を列ごと丸ごと消す（2通り）・議案番号（第1・2・4号・号落とし・議案落とし）・結果の丸め・議決日（2/12・3/4・3/11）・件名・会派名に役職・氏名・人数を足す型・賛否の列の入れ替え（3組）・凡例の入れ替え・別の行の記号（第9号）・anchorSide before・tally の別の行・議長のすり替え・公明への independent・asOfText はすべて ✗
+    // ライセンス: 予算の行（shimane-ken-kamoku-mokuteki-r8）と同じ県の「著作権・リンク等」の原文（要許可）。議会のページも県の公式サイト（/gikai/）で議会独自の条項は無い。リンクは予算の行と同じく「原則としてご自由に」⇒ noDeepLink は立てない
+    // raw: 6件。拡張子の無い魚拓（議員名簿ページ /meibo/）だけ ext:.html（先頭 <!DO・gzip でない）。議員名別名簿（070401_giinmeibo2.pdf）は議員の自宅住所・電話つきなので raw に入れていない。しおり R7 の「住所」「電話番号」は請願書・陳情書のひな形の欄名だけで、電話・〒は議会事務局・県庁のものだけ（機械的に確認）。議員でない人の氏名は raw に無い（第76号の教育長任命同意は件名だけ）
+    id: "shimane-ken-gikai-r8",
+    title: "令和8年度 島根県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "島根県議会",
+    url: null,
+    urls: [
+      "https://www.pref.shimane.lg.jp/gikai/gaido/meibo/index.data/r070609_kaihabetumeibo.pdf",
+      "https://www.pref.shimane.lg.jp/gikai/gaido/shiori.data/R7_shiori.pdf",
+      "https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giketu_kekka.pdf",
+      "https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giinbetu_kekka.pdf",
+      "https://web.archive.org/web/20260226193500id_/https://www.pref.shimane.lg.jp/gikai/gaido/meibo/",
+      "https://web.archive.org/web/20260421073043id_/https://www1.pref.shimane.lg.jp/gikai/gityou/aisatu.html",
+    ],
+    landingPage: "https://www.pref.shimane.lg.jp/gikai/gaido/meibo/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "島根県議会（定数36・団体コード320005）",
+    license: "「島根県ホームページ」に掲載されている文章や写真、イラスト、画像などの著作権は、「島根県」又は「コンテンツ提供者」にあります。「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については、各ホームページに記載されている所属へお問い合わせください。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "島根県議会",
+      asOf: "2025-06-09",
+      asOfText: "（令和７年６月９日）",
+      noTotalReason: "定数36に対し現員35（松江選挙区の欠員1）だが、欠員の数を書いた原文が住所の無いページに無い（県議会のしおりは「松江11人（現員10人）」だけ）。議会全体の網は、6会派すべての人数の印字（declared・declaredIn）と、議員ごとの賛否の列35（議長の空欄を含む）が名簿の全員とちょうど対応することで掛ける",
+      roster: {"url":"https://www.pref.shimane.lg.jp/gikai/gaido/meibo/index.data/r070609_kaihabetumeibo.pdf","title":"会派別議員名簿（令和７年６月９日）","confirmUrls":["https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giinbetu_kekka.pdf"],"linkedFrom":{"url":"https://web.archive.org/web/20260226193500id_/https://www.pref.shimane.lg.jp/gikai/gaido/meibo/","text":"会派別名簿"}},
+      factions: [{"name":"自由民主党島根県議会議員連盟","declared":"自由民主党島根県議会議員連盟（１５名）","members":["五百川純寿","中村芳信","田中明美","久城恵治","坪内涼二","福井竜夫","吉田雅紀","高橋雅彦","生越俊一","山根成二","池田一","中島謙二","園山繁","大屋俊弘","絲原德康"]},{"name":"自由民主党ネクスト島根","declared":"自由民主党ネクスト島根（１０名）","members":["嘉本祐一","内藤芳秀","多々納剛人","野津直嗣","原拓也","河内大輔","森山裕介","中村絢","岡本淳","福田正明"]},{"name":"民主県民クラブ","declared":"民主県民クラブ（５名）","members":["須山隆","白石恵子","岩田浩岳","岸道三","角智子"]},{"name":"公明党島根県議団","declared":"公明党島根県議団 ２名","declaredIn":"https://www.pref.shimane.lg.jp/gikai/gaido/shiori.data/R7_shiori.pdf","members":["吉野和彦","岡崎綾子"]},{"name":"日本共産党島根県議団","declared":"日本共産党島根県議団 ２名","declaredIn":"https://www.pref.shimane.lg.jp/gikai/gaido/shiori.data/R7_shiori.pdf","members":["尾村利成","大国陽介"]},{"name":"会派に属しない議員","independent":true,"declared":"会派に属しない議員 １名","declaredIn":"https://www.pref.shimane.lg.jp/gikai/gaido/shiori.data/R7_shiori.pdf","members":["成相安信"]}],
+      votes: {"url":"https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giinbetu_kekka.pdf","title":"第４９８回島根県議会（令和８年２月定例会）採決結果（議員別採決結果一覧）","basis":"member","legend":{"○":"賛成","●":"反対","－":"欠席"},"legendText":"「○」･･･賛成、「●」･･･反対、「棄権」･･･棄権、「－」･･･欠席等による不在","anchor":"令和８年度島根県一般会計予算","maxGap":60,"symbols":"○○○○○○○○○○○○○●○○○○○○○○○○○○●○○○○○－●","columns":[{"label":"中村絢"},{"label":"森山裕介"},{"label":"河内大輔"},{"label":"岡崎綾子"},{"label":"野津直嗣"},{"label":"岡本淳"},{"label":"岸道三"},{"label":"久城恵治"},{"label":"坪内涼二"},{"label":"原拓也"},{"label":"福井竜夫"},{"label":"多々納剛人"},{"label":"内藤芳秀"},{"label":"大国陽介"},{"label":"田中明美"},{"label":"嘉本祐一"},{"label":"吉野和彦"},{"label":"吉田雅紀"},{"label":"高橋雅彦"},{"label":"岩田浩岳"},{"label":"生越俊一"},{"label":"山根成二"},{"label":"須山隆"},{"label":"中島謙二"},{"label":"角智子"},{"label":"白石恵子"},{"label":"尾村利成"},{"label":"園山繁"},{"label":"中村芳信"},{"label":"大屋俊弘"},{"label":"絲原德康"},{"label":"五百川純寿"},{"label":"福田正明"},{"label":"成相安信"}],"blank":[{"label":"池田一","stance":"議長","evidence":"島根県議会議長 池田 一","evidenceUrl":"https://web.archive.org/web/20260421073043id_/https://www1.pref.shimane.lg.jp/gikai/gityou/aisatu.html"}],"tally":{"text":"原案可決 30 3","counts":{"賛成":30,"反対":3}}},
+      resolution: {"url":"https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giketu_kekka.pdf","title":"第４９８回島根県議会（令和８年２月定例会）議案一覧表（議決結果一覧）","billNo":"第 3 号 議案","billName":"令和８年度島根県一般会計予算","sessionLabel":"第４９８回島根県議会（令和８年２月定例会）","decidedDate":"2026-03-12","result":"原案可決"},
+    },
+  },
+  {
+    // 議会のサイトは市の公式サイトと別ドメイン（gikai.izumo-city.jp・出雲市議会の WordPress）。名簿は「議員紹介」（/roster）の議決前 2026-02-19 の魚拓（id_・gzip でない HTML）の「１．大村 朋寛 (おおむら ともひろ) 平成クラブ」の形の会派欄（label 方式・略称＝会派名そのもの）
+    // ⚠ 基準日: ページの日付の印字は「議員…定数30人（R7.4.17現在 30人）」（任期の始まりの現員）だけで、会派欄に基準日の印字は無い。asOf はこの原文の 2025-04-17。会派欄は魚拓 2025-08-10・2025-11-06・2026-02-19・議決後 2026-06-10 の4つで全30人の会派が一致し（2025-05-20 の版も会派は同じで、無所属の呼び名だけ「会派に属さない議員」）、議決（3/25）をまたいで異動が無い【推定】。現行（2026-10）の版は大村朋寛が「会派に属さない」に変わっている（議決後の異動）ので landingPage は第5回定例会（令和8年3月）のページにした
+    // 人数の網: 定数30（同じページ「定数30人（R7.4.17現在 30人）」・欠員0）、議員ごとの印＝ふりがなの括弧（memberMarker・30回）、議員ごとの賛否の列（30・議長の空欄を含む）が名簿の全員とちょうど対応すること。会派ごとの人数の印字は無い（会派欄の数は label 方式で照合）
+    // 議決は「採決結果概要（令和7年度第5回定例会）」（R7-5_saiketugaiyou.pdf・3/26 作成）の「議第１０９号 令和８年度（2026）出雲市一般会計予算 原案可決 …（3月25日議決）」（近接）
+    // 賛否: 「議員別採決結果（令和7年度第5回定例会）」（R7-5_giinnbetusaiketu.pdf）の議第１０９号の行（議員ごと30列・議席順で、議長の伊藤繁満は末尾の列で記号なし）。凡例「『〇』…賛成、『●』…反対、『棄権』…棄権、『－』…欠席」。賛成26・反対3（長島和孝＝会派に属さない、𠮷井安見・後藤由美＝日本共産党）・議長1。印字「26 3」と一致。-layout では記号の行が件名の行の上に組まれ、-raw では件名の行の後ろに出る（anchorSide は既定の after で -raw が読む。次の行（議第１１０号）の記号に替える改ざんは ✗）。表頭の「𠮷」は外字で「□」になるので、列見出しは「井安見」で照合した
+    // 議長: 正副議長のページ（/greeting-2・発行元の現行）の「第11代議長（令和7年4月30日就任） 議長 伊藤 繁満」（議決後も在任・副議長は R8.5.1 に交代）。議決前の魚拓は 2025-01 以前しか無い
+    // 照合の残った弱さ（改ざんテスト39通り中3通りが通る）: 会派名の前方切り詰め（「真誠」・パーサ一般）、asOfText を同じページの別の原文（「令和7年(2025)4月17日から」＝任期の始まり・同じ日付）、teisuText を「現在 30人」に縮める（数は同じ）。会派間の1人移動（3通り）・無所属の行を消して会派へ移す・1人の書き落とし（賛否の列も消す型・teisu を29にする型を含む）・会派の合流（3通り）・会派を列ごと丸ごと消す・議案番号（議第１１０号・議第１０２号・号落とし・「議」落とし）・結果の丸め・議決日（3/5・3/23・3/26）・件名・会派名に役職・氏名を足す型・会派名と label の書き換え・賛否の列の入れ替え（2組）・凡例の入れ替え・別の行の記号（2通り）・anchorSide before（2通り）・tally の別の行・議長のすり替え・公明への independent・無所属の independent を外す、はすべて ✗
+    // ライセンス: 議会のサイトに著作権・リンクの条項は無い（フッターの「Copyright © 2000-2026 出雲市議会」と個人情報保護指針だけ・2026-10-31 確認）。事業者の会議録システムではなく議会自身のサイトなので、予算の行（izumo-yosangaiyou-r8）と同じ市の原文（要許可）を当てた（§6-14 可児・§6-20 秋田県の前例）。市にリンク方針の記述が無く、予算の行も noDeepLink を立てていない ⇒ 立てない
+    // raw: 4件。拡張子の無い URL（/roster の魚拓・/greeting-2）は ext:.html（どちらも先頭 <!DO・gzip でない）。電話・〒は議会事務局（市役所本庁舎）のものだけ（機械的に確認）。⚠ 採決結果概要と議員別採決結果に議員でない人の氏名（固定資産評価審査委員会委員の選任3人・人権擁護委員候補者の推薦）が「（常松耕治氏）」の形で載る（住所・居住地なし）＝§6-18 岩出・§6-20 の前例どおり残した
+    id: "izumo-shigikai-r8",
+    title: "令和8年度 出雲市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "出雲市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260219032924id_/https://gikai.izumo-city.jp/roster",
+      "https://gikai.izumo-city.jp/wp/wp-content/uploads/2026/03/R7-5_saiketugaiyou.pdf",
+      "https://gikai.izumo-city.jp/wp/wp-content/uploads/2026/03/R7-5_giinnbetusaiketu.pdf",
+      "https://gikai.izumo-city.jp/greeting-2",
+    ],
+    landingPage: "https://gikai.izumo-city.jp/gikai/r07gikai/5tr07",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "出雲市議会（定数30・団体コード322032）",
+    license: "出雲市ホームページに掲載されている文章、写真、イラスト、画像等の著作権は、出雲市またはコンテンツ提供者の方にあります。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各課等へお問い合わせください。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "出雲市議会",
+      asOf: "2025-04-17",
+      asOfText: "R7.4.17現在 30人",
+      teisu: 30,
+      teisuText: "定数30人（R7.4.17現在 30人）",
+      vacancies: 0,
+      memberMarker: "\\([ぁ-ゖー]+\\)",
+      roster: {"url":"https://web.archive.org/web/20260219032924id_/https://gikai.izumo-city.jp/roster","title":"議員紹介 議員名簿（会派欄つき・2026年2月19日の魚拓）"},
+      factions: [{"name":"真誠クラブ","label":"真誠クラブ","noDeclaredCount":true,"members":["吉岡拓也","成相寛之","川上雅文","福田実","今岡真治","児玉俊雄","寺本淳一","伊藤繁満","板垣成二","萬代輝正"]},{"name":"平成クラブ","label":"平成クラブ","noDeclaredCount":true,"members":["大村朋寛","糸賀太郎","今岡久人","大場利信","保科孝充","宮本享","長廻利行"]},{"name":"政雲クラブ","label":"政雲クラブ","noDeclaredCount":true,"members":["坂本祐麻","三加茂圭祐","鐘推義憲","湯淺啓史"]},{"name":"公明党","label":"公明党","noDeclaredCount":true,"members":["樋野千晴","石橋広信","錦織稔"]},{"name":"市民クラブ","label":"市民クラブ","noDeclaredCount":true,"members":["三島好弘","大谷良治"]},{"name":"日本共産党","label":"日本共産党","noDeclaredCount":true,"members":["𠮷井安見","後藤由美"]},{"name":"会派に属さない","independent":true,"label":"会派に属さない","noDeclaredCount":true,"members":["長島和孝"]},{"name":"会派に属さない","independent":true,"label":"会派に属さない","noDeclaredCount":true,"members":["板倉一郎"]}],
+      votes: {"url":"https://gikai.izumo-city.jp/wp/wp-content/uploads/2026/03/R7-5_giinnbetusaiketu.pdf","title":"令和７年度（2025）第５回出雲市議会（定例会） 議員別採決結果","basis":"member","legend":{"○":"賛成","●":"反対","－":"欠席"},"legendText":"『〇』…賛成、 『●』…反対、 『棄権』…棄権、 『－』…欠席","anchor":"令和８年度（2026）出雲市一般会計予算","maxGap":40,"symbols":"○○○○○○○●○○●○○○○○●○○○○○○○○○○○○","columns":[{"label":"大村朋寛"},{"label":"坂本祐麻"},{"label":"糸賀太郎"},{"label":"三加茂圭祐"},{"label":"吉岡拓也"},{"label":"成相寛之"},{"label":"樋野千晴"},{"label":"長島和孝"},{"label":"三島好弘"},{"label":"川上雅文"},{"label":"井安見","member":"𠮷井安見"},{"label":"福田実"},{"label":"石橋広信"},{"label":"鐘推義憲"},{"label":"今岡久人"},{"label":"今岡真治"},{"label":"後藤由美"},{"label":"児玉俊雄"},{"label":"錦織稔"},{"label":"大谷良治"},{"label":"湯淺啓史"},{"label":"寺本淳一"},{"label":"大場利信"},{"label":"保科孝充"},{"label":"板垣成二"},{"label":"萬代輝正"},{"label":"板倉一郎"},{"label":"宮本享"},{"label":"長廻利行"}],"blank":[{"label":"伊藤繁満","stance":"議長","evidence":"議長 伊藤 繁満","evidenceUrl":"https://gikai.izumo-city.jp/greeting-2"}],"tally":{"text":"原案可決 26 3","counts":{"賛成":26,"反対":3}}},
+      resolution: {"url":"https://gikai.izumo-city.jp/wp/wp-content/uploads/2026/03/R7-5_saiketugaiyou.pdf","title":"令和７年度（2025）第５回出雲市議会（定例会） 採決結果概要","billNo":"議第１０９号","billName":"令和８年度（2026）出雲市一般会計予算","sessionLabel":"令和７年度（2025）第５回出雲市議会（定例会）","decidedDate":"2026-03-25","result":"原案可決"},
+    },
+  },
+  {
+    // 徳島県議会（団体コード 360007。⚠ 徳島市議会 362018 とは別団体）。名簿は議決当日の「議案審査結果（令和８年３月１１日）」（各議員の表決態度・3月11日採決 1042426.pdf）p.1 の表頭（会派名の下に議員名が縦書きで並ぶ）を会派ごとの座標の枠で切った（asOf は議決日・asOfText は表題）。列は自民17・新しい県政を創る会5・県民会議4・グローカルplus3・真政会2・1人会派5つの36列で、枠の境目は pdftotext -tsv の列の x（約13.45pt 間隔）の中間に引いた
+    // 議決時点の構成: 会派別の議員紹介（/gikai/giin/kaihabetu/）は基準日の印字が無い（「※定数38名」と会派名＋（N人）だけ）。議決前 2026-02-17 と議決後 2026-03-12・2026-06-08 の魚拓は会派・所属議員が同じ（役職の並びだけが違う）。表頭の36人と会派ごとに一致する
+    // 人数の網: 会派ごとの人数は議決前の魚拓 20260217013140 の「徳島県議会自由民主党（17人）」などで照合する（declaredIn・10会派とも）。議会全体は選挙区別の議員紹介（/gikai/giin/senkyoku/・現行の版・魚拓なし）の「当選回数」が議員ごとに1回出ること（memberMarker＝36）。定数38（「県議会議員」のページ・raw の外）で現員36＝欠員2だが、欠員の数を書いた原文が見つからないので teisu は持たせていない（scope の定数38は「※定数38名」による）
+    // 議決: 3/11 の議案審査結果の予算の行「令和８年度徳島県一般会計予算 可決 …（議員ごとの記号）… 可決」。表の議案番号「第１号」は -layout で予算の行と修正案の行の間（件名の後ろ）に組まれるので、議案番号は議員提出の修正案（1042115.pdf）の本文「議案第１号令和８年度徳島県一般会計予算の一部を次のように修正する」で照合する（alsoUrls）。議決日は表題「議案審査結果（令和８年３月１１日）」（farOk・decidedDateText）。会期名は「令和8年2月定例会 各議員の表決態度(審議の結果）」のページ（7310454）。同じ日に議員提出の修正案（第１号に対する修正案）は否決
+    // 結果は原典の語のまま「可決」（委員会審査結果の欄・議決結果の欄とも「可決」）
+    // 賛否は入れていない — 凡例が「「○」委員会審査結果又は議長宣告に起立（賛成）した者、…「●」〃に起立しなかった者」で、記号の意味が委員会の結果に対する起立かどうかで決まり、賛成・反対の語に直接結び付かない（パーサの凡例の照合で ✗。括弧の「（賛成）」は補足として落ちる）。目視では予算の行は ○29・●4（長池文武・庄野昌彦＝新しい県政を創る会、岡佑樹＝真政会、達田良子＝日本共産党）・退1（東条恭子）・欠1（坂口誠治）・議1（須見一仁）。headerBbox で列見出しと記号の並びは照合できた
+    // 議長: 須見一仁（徳島県議会自由民主党・予算の行の「議」）。3/11 の採決の後に正副議長選挙があり議長は井川龍二に替わった（とくしま県議会だより129号・raw の外）。名簿は採決時点の表なので須見を自民に数える
+    // 照合の残った弱さ（改ざんテスト59通り中6通りが通る）: 議決日・decidedDateText・asOf の3か所を同じ原典群の別の日の原文（表決態度のページの「各議員の表決態度（2月20日採決）」・修正案の「令和８年３月１０日」）に一緒に替える（越谷型）、memberMarker を外して noTotalReason を書く、memberMarker を同じページの別の語（「所属会派」）にする（数は同じ）、会派名の前方の切り詰め（「徳島県議会自由民主」「新しい県政」・パーサ一般）。✗ になったもの: 会派間の1人移動（18通り・1人会派の移動はスキーマで ✗）・1人の書き落とし（10通り）・会派の合流（9通り）・枠を広げての合流・会派名に役職・人数の語を足す（3通り）・会派名に議員の氏名を足す・declared の入れ替え・independent を付ける・議案番号（議案第２号・第１号・第２号）・結果（原案可決・否決）・議決日（2/20 を単独で）・特別会計の件名・会期名（6月定例会）・asOfText
+    // ライセンス: 予算の行（tokushima-ken-yosan-gaiyou-keisu-r8）と同じ原文（「サイトポリシーについて」＞著作権について・要許可）。議会のページも県の公式サイト（/gikai/）で議会独自の条項は無い
+    // リンク: 予算の行と同じく県の「リンクについて」が「トップページ以外の各部局等のページへのリンクについては、各ページに記載の担当までお問い合わせください。」（§11h 第2群）なので noDeepLink。landingPage は会期の表決態度のページ（7310454）
+    // raw: 7310454・選挙区別ページは拡張子の無い URL なので ext:.html。会派別の魚拓（id_）は gzip の本文を返したので展開して ext:.html（transform gunzip）。PDF 2件は拡張子どおり。電話・〒は議会事務局のものだけ（機械的に確認）。選挙区別のページは議員の氏名・読み・所属会派・当選回数と選挙区だけで住所は無い。議会だより129号（会派名簿・人員あり、日付の印字なし）・議会の概要2026（テキストが文字化け）は raw に入れていない
+    id: "tokushima-ken-gikai-r8",
+    title: "令和8年度 徳島県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "徳島県議会",
+    url: null,
+    urls: [
+      "https://www.pref.tokushima.lg.jp/file/attachment/1042426.pdf",
+      "https://www.pref.tokushima.lg.jp/file/attachment/1042115.pdf",
+      "https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/",
+      "https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/",
+      "https://www.pref.tokushima.lg.jp/gikai/giin/senkyoku/",
+    ],
+    landingPage: "https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "徳島県議会（定数38・団体コード360007）",
+    license: "徳島県ホームページで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、徳島県の許可なく複製・転用・販売することはできません。ただし、当県サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "徳島県議会",
+      asOf: "2026-03-11",
+      asOfText: "議案審査結果（令和８年３月１１日）",
+      memberMarker: "当選回数",
+      memberMarkerUrl: "https://www.pref.tokushima.lg.jp/gikai/giin/senkyoku/",
+      roster: {"url":"https://www.pref.tokushima.lg.jp/file/attachment/1042426.pdf","title":"議案審査結果（令和８年３月１１日）の表頭（会派名と議員名）"},
+      factions: [{"name":"徳島県議会自由民主党","box":[281,100,229,60],"page":1,"declared":"徳島県議会自由民主党（17人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["嘉見博之","岡本富治","重清佳之","眞貝浩司","山西国朗","原徹臣","福山博史","須見一仁","岡田理絵","井村保裕","沢本勝彦","川真田琢巳","大塚明廣","木下賢功","古野司","平山尚道","元木章生"]},{"name":"新しい県政を創る会","box":[510,100,67,60],"page":1,"declared":"新しい県政を創る会（5人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["仁木啓人","東条恭子","長池文武","庄野昌彦","竹内義了"]},{"name":"自由民主党県民会議","box":[577,100,53,60],"page":1,"declared":"自由民主党県民会議（4人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["井川龍二","立川了大","井下泰憲","寺井正邇"]},{"name":"グローカルplus","box":[630,100,41,60],"page":1,"declared":"グローカルplus（3人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["浪越憲一","近藤諭","岸本淳志"]},{"name":"真政会","box":[671,100,27,60],"page":1,"declared":"真政会（2人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["岡佑樹","坂口誠治"]},{"name":"公明党徳島県議団","box":[698,100,13,60],"page":1,"declared":"公明党徳島県議団（1人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["梶原一哉"]},{"name":"日本共産党","box":[711,100,14,60],"page":1,"declared":"日本共産党（1人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["達田良子"]},{"name":"護民官","box":[725,100,13,60],"page":1,"declared":"護民官（1人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["扶川敦"]},{"name":"元気とくしま","box":[738,100,14,60],"page":1,"declared":"元気とくしま（1人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["岡田晋"]},{"name":"日本維新の会","box":[752,100,14,60],"page":1,"declared":"日本維新の会（1人）","declaredIn":"https://web.archive.org/web/20260217013140id_/https://www.pref.tokushima.lg.jp/gikai/giin/kaihabetu/","members":["曽根大志"]}],
+      resolution: {"url":"https://www.pref.tokushima.lg.jp/file/attachment/1042426.pdf","title":"令和8年2月定例会 各議員の表決態度（3月11日採決）「議案審査結果（令和８年３月１１日）」","alsoUrls":["https://www.pref.tokushima.lg.jp/file/attachment/1042115.pdf","https://www.pref.tokushima.lg.jp/gikai/honkaigi/r08/7310454/"],"farOk":["decidedDate"],"decidedDateText":"議案審査結果（令和８年３月１１日）","billNo":"議案第１号","billName":"令和８年度徳島県一般会計予算","sessionLabel":"令和8年2月定例会","decidedDate":"2026-03-11","result":"可決"},
+    },
+  },
+  {
+    // 鳴門市議会（徳島県・団体コード 362026）。名簿は「委員会等構成表・会派構成表（令和7年12月25日現在）」（kouseihyou071225.pdf）の議決前日 2026-03-16 の魚拓の id_（「会派構成表（６会派 無所属２名）」・会派名＋N名＋役職＋氏名）。会派ごとの座標の枠で切った（2段組み）
+    // 議決時点の構成: 2025-11-23 の改選後の第21期。議員名簿等のページ（2026010600250）は議決前日 3/16 の魚拓でもこの R7.12.25 版を掲げていた。現行は「令和8年8月25日現在」（７会派・新・令和なるとが分かれて「なると令和」「至誠会」、笠原将吾が至誠会へ）。分かれた時期は、議会だより135号（6/1 発行・3月定例会の代表質問）が森江大蔵を、136号（9/1 発行・6月定例会の一般質問）が宅川靖次を「会派 新・令和なると」と書いているので6月定例会より後（raw の外の目視）。議決時点は R7.12.25 版の構成とみた【推定】
+    // 人数の網: 会派ごとの「N名」（declared・枠の中）と、議会全体は会派ごとに1回出る人数の印字（factionMarker「(?<!会派無所属)\d+名」＝7。表題の「（６会派 無所属２名）」の2名だけを除く）。定数20（2025-11-23 の選挙・raw の外）は原文を raw に持てないので teisu は持たせていない（scope も定数を省いた）
+    // 無所属の2人（上田公司・笠原将吾）は構成表の見出し「無所属 2名」の下に並ぶので、1つの「無所属」（independent・declared「無所属　2名」）にした
+    // 議決: 議決結果（r8-1tei.pdf）の「4 議案第 ４ 号 令和８年度鳴門市一般会計予算 R8.3.17 原案可決」（近接）。会期名は同じ PDF の「○令和８年第１回定例会」
+    // 賛否は入れていない — 議員ごと・会派ごとの賛否を公表した原典が見つからない（議決結果・議会だより135号は結果だけ）
+    // 照合の残った弱さ（改ざんテスト49通り中3通りが通る）: factionMarker を外して noTotalReason を書く、会派名の前方の切り詰め（「なると」・パーサ一般）、無所属の independent を外す（2人が1つの会派として表示される・パーサ一般）。✗ になったもの: 会派間の1人移動（12通り）・1人の書き落とし（7通り）・会派の合流（6通り）・枠を広げての合流（declared を外す型を含む3通り）・会派名に役職・人数・氏名の語を足す・読みの括弧を外す（「創心クラブ」）・independent を付ける・議案番号（議案第 ５ 号・議案第３５号・号落とし・「第 ４ 号」）・結果（可決・同意）・議決日（2/18）・国保特会と補正予算の件名・会期名・asOfText を R8.8.25 版に・factionMarker を \d+名 に
+    // ライセンス: 予算の行（naruto-yosansho-r8）と同じ原文（NARUTO_LICENSE・「サイトの利用について」・要許可）。議会のページも市の公式サイト（/gikai/）で議会独自の条項は無い
+    // リンク: 予算の行と同じく市のリンクの条項が「トップページ以外の各部局等のページへのリンクについては、各ページに記載の担当までお問い合わせください。」（§11h 第2群）なので noDeepLink。landingPage は議員名簿等のページ（現行は R8.8.25 版の構成表。⚠ 同じページの議員名簿 PDF は議員の住所・電話つき＝発行元のページなので振替先には置くが raw には入れない）
+    // raw: 2件とも PDF（魚拓は gzip でない・先頭 %PDF）。transform なし。電話・〒・住所は無い（機械的に確認）。議員名簿（meibo_r71225.pdf・giinnmeibo071225.pdf）は議員の自宅住所・電話つきなので raw に入れていない
+    id: "naruto-shigikai-r8",
+    title: "令和8年度 鳴門市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "鳴門市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20260316095011id_/https://www.city.naruto.lg.jp/gikai/docs/2026010600250/file_contents/2026010600250__files_00650335_kouseihyou071225.pdf",
+      "https://www.city.naruto.lg.jp/gikai/docs/2025122500120/file_contents/r8-1tei.pdf",
+    ],
+    landingPage: "https://www.city.naruto.lg.jp/gikai/docs/2026010600250/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "鳴門市議会（団体コード362026）",
+    license: "鳴門市公式ウェブサイトで提供するすべての情報（文章・写真・イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、鳴門市の許可なく複製・転用・販売することはできません。ただし、当市サイトの各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "鳴門市議会",
+      asOf: "2025-12-25",
+      asOfText: "令和7年12月25日現在",
+      factionMarker: "(?<!会派無所属)\\d+名",
+      roster: {"url":"https://web.archive.org/web/20260316095011id_/https://www.city.naruto.lg.jp/gikai/docs/2026010600250/file_contents/2026010600250__files_00650335_kouseihyou071225.pdf","title":"委員会等構成表・会派構成表（令和7年12月25日現在）"},
+      factions: [{"name":"なると未来","box":[410,98,125,112],"page":1,"declared":"なると未来　6名","members":["山根巌","梶達矢","納田盛資","八木知子","黒島宏美","高麗裕之"]},{"name":"新・令和なると","box":[575,98,125,67],"page":1,"declared":"新・令和なると　3名","members":["森江大蔵","八木亨","宅川靖次"]},{"name":"創心（そうしん）クラブ","box":[410,219,125,66],"page":1,"declared":"創心（そうしん）クラブ 3 名","members":["岡香名芽","秋岡大喜","長濱賢一"]},{"name":"潮（うずしお）","box":[575,219,125,50],"page":1,"declared":"潮（うずしお）　2名","members":["東正昇","藤田茂男"]},{"name":"公明党","box":[410,294,125,50],"page":1,"declared":"公明党　2名","members":["前田ナツ子","山下敬子"]},{"name":"鳴光会（めいこうかい）","box":[575,294,125,50],"page":1,"declared":"鳴光会（めいこうかい） 2 名","members":["潮崎憲司","三津良裕"]},{"name":"無所属","box":[410,355,125,50],"page":1,"declared":"無所属　2名","members":["上田公司","笠原将吾"],"independent":true}],
+      resolution: {"url":"https://www.city.naruto.lg.jp/gikai/docs/2025122500120/file_contents/r8-1tei.pdf","title":"令和８年第１回定例会 議決結果","billNo":"議案第 ４ 号","billName":"令和８年度鳴門市一般会計予算","sessionLabel":"令和８年第１回定例会","decidedDate":"2026-03-17","result":"原案可決"},
+    },
+  },
+  {
+    // 鳥取県議会（団体コード 310000）。名簿は議決後に出た「とっとり県議会だより」No.056（令和８年２月定例会号・発行日 令和８年６月１日）p.10〜11「令和８年２月定例会付議案等議決結果」（賛否が分かれた議案及び否決された議案）の表頭。asOf は議決日・asOfText は表題（三条・北上の型＝表に日付の印字が無い）
+    // 表頭は p.10 に自由民主党12人・民主とっとり6人・公明党3人・無所属7人、p.11 に自由民主党の残り7人（入江〜鹿島）と2ページに分かれて組まれる。民主とっとり・公明党・無所属は p.10 の会派ごとの座標の枠（-raw で氏名が1人ずつ続けて出る）。自由民主党は2ページにまたがり1つの枠で切れないので、会派の url を名簿の PDF そのものにして本文全体を範囲にした — 他の3会派の枠に自民の議員が入らないこと（枠の外の照合）と、会派ごとの人数の印字（declaredIn）で会派間の移動・合流を捕まえる
+    // 会派ごとの人数は県議会のあらまし（75929.htm）の「現在届出のある会派と所属議員数は次のとおりです。（令和7年6月時点）」の「鳥取県議会自由民主党　（19人）」「鳥取県議会民主とっとり　（6人）」「公明党鳥取県議会議員団　（3人）」（declaredIn・abbr は正式名）。無所属7人は人数の印字が無い。議会全体は同じページの「(1)鳥取県議会議員の定数　35人」＝現員35・欠員0
+    // 議決時点の構成: 県議会の「県議会会派変遷表」（B_kaihaR0709.pdf・raw の外）の最後の異動は令和7年5月28日（自民19・民主6・公明3・無所属7＝35名）で、議決当日の議決結果 PDF の表頭（姓だけ）も同じ4会派・35人（議長 福田俊史は自民の列の「議」）。議員名簿 PDF「（令和8年3月16日現在）」（HP_meiboR080316.pdf）の会派欄とも35人全員が一致する（目視・議員の連絡先住所・電話つきなので raw に入れていない）
+    // 会派名は表頭の語のまま（自由民主党・民主とっとり・公明党・無所属）。正式名は あらまし の「鳥取県議会自由民主党」「鳥取県議会民主とっとり」「公明党鳥取県議会議員団」。無所属の7人は会派ではなく、表頭で1つの欄にまとめられている（independent）
+    // 議決: 議決当日の「令和8年2月定例会 議決結果（令和8年3月25日議決分）」（R8.2giketsukekka0325.pdf）p.1 の「第１号 令和８年度鳥取県一般会計予算 … 33 1 34 可決 起立」（近接）。議決日は表題の「（令和8年3月25日議決分）」（farOk）。同じ表に議案第1号への附帯意見の行（「決定」）があるが、予算の結果は「可決」。同じ PDF が発行元の3つの URL（secure/1412309・1412310・1412311）に同じハッシュで置かれ、予算の欄のリンク先の 1412311 を使った
+    // 賛否は入れていない: 議決結果 PDF の表頭は縦書きの姓だけで「森議員」が1字の姓。1字の列見出しは -layout の同じ1行に全列の見出しが順に並ぶことを要求されるが、縦書きでは並ばない（headerBbox を付けても同じ検査が掛かる）。だより p.10〜11 の表は氏名つきだが、予算の行が2ページに割れて p.10 側に件名が無い。目視では賛成33・反対1（市谷知子）・議長1（福田俊史）、印字「33 1 34」
+    // license は予算の行（tottori-ken-yosan-gaiyou-bunseki-r8）の原文。議会のページも県の公式サイト（www.pref.tottori.lg.jp）で、リンクの条項（/9320.htm「トップページ以外のページへのリンクについては、該当するページの担当所属へお問い合わせください。」）が同じく掛かるので noDeepLink・landingPage は議会のトップ
+    // raw: 3件とも拡張子どおり（transform なし・先頭は %PDF と <!DOCTYPE）。電話・〒は議会事務局のものだけ（機械的に確認）。議員でない人の氏名は無い（廃棄物審議会委員の任命は件名だけ）。議員名簿 PDF（住所・電話）・県議会年報（生年月日・現住所）は raw に入れていない
+    // 照合の残った弱さ（改ざんテスト46通り中7通りが通る＋追加の3通り）: 会派名の前方切り詰め（自由民主・民主とっと・公明）・会派名の後ろに枠の中の氏名を足す（「民主とっとり村上泰二朗」）・無所属の independent を外す（7人が1つの会派に見える）・asOfText を表の別の見出し（「令和８年２月定例会」）にする。✗ になったもの: 会派間の1人移動（6通り）・1人の書き落とし（4通り）・会派の合流（6通り）・議案番号（第２号・第５号・第10号・「第１」）・結果（原案可決・同意・決定）・議決日（3/9・3/24・decidedDateText を3/9 に・3/9 と「3月9日可決」の組）・件名（公債管理特別会計・附帯意見）・会期名・定数（34・36）・実在の会派への independent
+    id: "tottori-ken-gikai-r8",
+    title: "令和8年度 鳥取県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "鳥取県議会",
+    url: null,
+    urls: [
+      "https://www.pref.tottori.lg.jp/secure/1427282/dayori056_all.pdf",
+      "https://www.pref.tottori.lg.jp/secure/1412311/R8.2giketsukekka0325.pdf",
+      "https://www.pref.tottori.lg.jp/75929.htm",
+    ],
+    landingPage: "https://www.pref.tottori.lg.jp/gikai/",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "鳥取県議会（定数35・団体コード310000）",
+    license: "とりネットに掲載されている個々の情報（文章，写真，イラストなど）は，著作権の対象となっています。とりネット全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。 「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。利用許諾については該当するウェブページを所管する担当課へお問い合わせください。",
+    noDeepLink: true,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "鳥取県議会",
+      asOf: "2026-03-25",
+      asOfText: "令和８年２月定例会付議案等議決結果",
+      teisu: 35,
+      teisuText: "鳥取県議会議員の定数　35人",
+      teisuUrl: "https://www.pref.tottori.lg.jp/75929.htm",
+      roster: {"url":"https://www.pref.tottori.lg.jp/secure/1427282/dayori056_all.pdf","title":"とっとり県議会だより No.056（令和８年２月定例会号）p.10〜11「令和８年２月定例会付議案等議決結果」の表頭"},
+      factions: [{"name":"自由民主党","url":"https://www.pref.tottori.lg.jp/secure/1427282/dayori056_all.pdf","declared":"鳥取県議会自由民主党　（19人）","declaredIn":"https://www.pref.tottori.lg.jp/75929.htm","abbr":"鳥取県議会自由民主党","members":["浜崎晋一","斉木正一","野坂道明","内田博長","川部洋","広谷直樹","中島規夫","安田由毅","語堂正範","東田義博","浜田一哉","福田俊史","入江誠","河上定弘","鳥羽喜一","森由美子","山本暁子","島谷龍司","鹿島功"]},{"name":"民主とっとり","box":[219,115,86,85],"page":10,"declared":"鳥取県議会民主とっとり　（6人）","declaredIn":"https://www.pref.tottori.lg.jp/75929.htm","abbr":"鳥取県議会民主とっとり","members":["村上泰二朗","坂野経三郎","浜田妙子","尾崎薫","興治英夫","伊藤保"]},{"name":"公明党","box":[305,115,42,85],"page":10,"declared":"公明党鳥取県議会議員団　（3人）","declaredIn":"https://www.pref.tottori.lg.jp/75929.htm","members":["前田伸一","前原茂","銀杏泰利"]},{"name":"無所属","independent":true,"box":[347,115,101,85],"page":10,"noDeclaredCount":true,"members":["玉木裕一","前住孝行","西村弥子","山川智帆","松田正","福浜隆宏","市谷知子"]}],
+      resolution: {"url":"https://www.pref.tottori.lg.jp/secure/1412311/R8.2giketsukekka0325.pdf","title":"令和8年2月定例会 議決結果（令和8年3月25日議決分）","farOk":["decidedDate"],"decidedDateText":"（令和8年3月25日議決分）","billNo":"第１号","billName":"令和８年度鳥取県一般会計予算","sessionLabel":"令和8年2月定例会","decidedDate":"2026-03-25","result":"可決"},
+    },
+  },
+  {
+    // 米子市議会（団体コード 312029。⚠ 鳥取市 312011 とは別）。名簿は議決後に出た「よなご市議会だより 第85号（令和8年7月1日発行）」p.15「令和８年米子市議会３月定例会・令和８年４月臨時会提出議案等審議結果一覧表」の賛否の表頭（会派ごとの座標の枠）。表の注記「※所属会派名は、３月定例会時のものです。」を asOfText に、asOf は議決日（三条・北上の型）
+    // 表頭は見開きの左右にまたがり、自由創政は折り目をはさんで「自由創政」が2回印字される（左に岩﨑・岡田・田村、右に戸田・西野）。5人を1つの枠に入れた（枠の中に他の字は無い）。帯の境目は描画で確かめた（自由創政5・蒼生会5・よなご・未来4・公明党議員団4・信風4・日本共産党米子市議団2・無所属1・新ファミリア1）
+    // 議決時点の構成: 議決前（3/1 発行）の第84号 p.10（12月定例会・1月臨時会の賛否表）の表頭も同じ8会派・26人が同じ並び（目視。84号は「𠮷岡古都」の𠮷がテキスト層で化けていて confirmUrls に使えない）。4/8 に蒼生会が消滅し所属議員は無所属に（85号の注記）、6月に改選 — どちらも議決後
+    // 議会全体の網は定数（市議会のしくみ 2913.htm「現在の議員の定数は26人です。」・現行のページ。改選後も定数26）＝現員26・欠員0 と、議員ごとの賛否の列（26列）が名簿の全員とちょうど対応すること。会派ごとの人数の印字は無い（noDeclaredCount）
+    // 議決: 「令和８年米子市議会３月定例会付議案議決結果一覧表」（giketsu8.03.pdf）の「議 案 第 ４０ 号 令和８年度米子市一般会計予算 令和8年3月25日 原案可決」（近接・番号は原典の空白のまま）
+    // 賛否: だより第85号 p.15 の議案第40号の行（○賛成・×反対・議＝議長、凡例「○：賛成　×：反対　欠：欠席　議：議長」）。賛成22・反対3（国頭靖・錦織陽子・又野史朗）・議長1（岡田啓介）。列見出しは -raw で縦書きの氏名が列の順に出る。賛否の数の印字は無い
+    // 無所属（森田悟史）は1人（independent）。新ファミリア（森谷司）は1人の会派。会派名は表頭の語のまま
+    // license は予算の行（yonago-yosan-gaiyou-r8）の原文（「リンク・著作権」/1085.htm・禁止の述語が無く unverified＝#293 の米子型）。リンクは「ご自由にリンクしていただいて結構です」で予算の行と同じく noDeepLink なし。原典はすべて市の公式サイト（www.city.yonago.lg.jp）
+    // raw: 3件とも拡張子どおり（transform なし・2913.htm の先頭は <?xml）。電話・〒は市議会事務局・市役所のものだけ（機械的に確認）。だよりに議員でない人の氏名・住所は無い（諮問の人権擁護委員は件名だけ）
+    // 照合の残った弱さ（改ざんテスト80通り中17通りが通る＋追加の2通り）: 会派名の前方切り詰め・会派名の後ろに枠の中の最初の氏名を足す（全8会派。-raw で会派名と氏名が続く）・1人の会派の independent の付け外し（無所属・新ファミリア）・asOfText を同じだよりの別の見出しにする。✗ になったもの: 会派間の1人移動（11通り）・1人の書き落とし（賛否の列ごと消す型を含む12通り）・会派の合流（14通り）・議案番号（第41号・第53号・第33号・号落とし・「議案」落とし）・結果（可決・原案承認）・議決日（2/26・3/24・asOf と組の 2/26）・件名（国保特別会計・補正予算）・会期名・定数25・記号の並び（議長の位置・反対の位置）・凡例の入れ替え・別の行（後期高齢者医療）の記号・anchorSide before・2人以上の会派への independent
+    id: "yonago-shigikai-r8",
+    title: "令和8年度 米子市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "米子市議会",
+    url: null,
+    urls: [
+      "https://www.city.yonago.lg.jp/secure/62741/gikaidayori0807.pdf",
+      "https://www.city.yonago.lg.jp/secure/16192/giketsu8.03.pdf",
+      "https://www.city.yonago.lg.jp/2913.htm",
+    ],
+    landingPage: "https://www.city.yonago.lg.jp/2922.htm",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "米子市議会（定数26・団体コード312029）",
+    license: "このサイトに掲載されている文書・画像などの各ファイル、およびその内容に関する諸権利は、原則として米子市に帰属します。これらの文書などについての使用をご希望の場合は、秘書広報課までご連絡ください。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "米子市議会",
+      asOf: "2026-03-25",
+      asOfText: "※所属会派名は、３月定例会時のものです。",
+      teisu: 26,
+      teisuText: "現在の議員の定数は26人です。",
+      teisuUrl: "https://www.city.yonago.lg.jp/2913.htm",
+      roster: {"url":"https://www.city.yonago.lg.jp/secure/62741/gikaidayori0807.pdf","title":"よなご市議会だより 第85号（令和8年7月1日発行）p.15「令和８年米子市議会３月定例会・令和８年４月臨時会提出議案等審議結果一覧表」の表頭"},
+      factions: [{"name":"自由創政","box":[480,123,210,82],"page":15,"noDeclaredCount":true,"members":["岩﨑康朗","岡田啓介","田村謙介","戸田隆次","西野太一"]},{"name":"蒼生会","box":[690,123,105,82],"page":15,"noDeclaredCount":true,"members":["稲田清","奥岩浩基","門脇一男","塚田佳充","渡辺穣爾"]},{"name":"よなご・未来","box":[795,123,86,82],"page":15,"noDeclaredCount":true,"members":["国頭靖","土光均","松田真哉","𠮷岡古都"]},{"name":"公明党議員団","box":[881,123,86,82],"page":15,"noDeclaredCount":true,"members":["今城雅子","津田幸一","徳田博文","矢田貝香織"]},{"name":"信風","box":[967,123,86,82],"page":15,"noDeclaredCount":true,"members":["安達卓是","伊藤ひろえ","大下哲治","中田利幸"]},{"name":"日本共産党米子市議団","box":[1053,123,43,82],"page":15,"noDeclaredCount":true,"members":["錦織陽子","又野史朗"]},{"name":"無所属","independent":true,"box":[1096,123,22,82],"page":15,"noDeclaredCount":true,"members":["森田悟史"]},{"name":"新ファミリア","box":[1118,123,22,82],"page":15,"noDeclaredCount":true,"members":["森谷司"]}],
+      votes: {"url":"https://www.city.yonago.lg.jp/secure/62741/gikaidayori0807.pdf","title":"よなご市議会だより 第85号 p.15「賛否が分かれた議案、請願及び陳情」（令和８年米子市議会３月定例会）","basis":"member","legend":{"○":"賛成","×":"反対","議":"議長"},"legendText":"○：賛成　×：反対　欠：欠席　議：議長","anchor":"令和８年度米子市一般会計予算","maxGap":6,"symbols":"○議○○○○○○○○×○○○○○○○○○○○××○○","columns":[{"label":"岩﨑康朗"},{"label":"岡田啓介"},{"label":"田村謙介"},{"label":"戸田隆次"},{"label":"西野太一"},{"label":"稲田清"},{"label":"奥岩浩基"},{"label":"門脇一男"},{"label":"塚田佳充"},{"label":"渡辺穣爾"},{"label":"国頭靖"},{"label":"土光均"},{"label":"松田真哉"},{"label":"𠮷岡古都"},{"label":"今城雅子"},{"label":"津田幸一"},{"label":"徳田博文"},{"label":"矢田貝香織"},{"label":"安達卓是"},{"label":"伊藤ひろえ"},{"label":"大下哲治"},{"label":"中田利幸"},{"label":"錦織陽子"},{"label":"又野史朗"},{"label":"森田悟史"},{"label":"森谷司"}]},
+      resolution: {"url":"https://www.city.yonago.lg.jp/secure/16192/giketsu8.03.pdf","title":"令和８年米子市議会３月定例会付議案議決結果一覧表","billNo":"議 案 第 ４０ 号","billName":"令和８年度米子市一般会計予算","sessionLabel":"令和８年米子市議会３月定例会","decidedDate":"2026-03-25","result":"原案可決"},
+    },
+  },
+  {
+    // 倉吉市議会（団体コード 312037）。名簿は議決当日の「議案等の議決結果等（令和8年3月 第2回定例会）」（議員別・R080317】議決結果（議員別）.pdf）の表頭 — 列ごとに会派名（やらいや・新政会・そうせい会）とその下に議員の氏名が縦書きで並ぶ。会派ごとの座標の枠。asOf は議決日・asOfText は表題
+    // 議会全体の網は定数（「倉吉市議会概要」令和7年版 物理 p.7（印字 4）「（１）条例定数 １７人（平成２５年１０月６日執行の一般選挙より施行）」）＝現員17・欠員0、memberMarker（表頭の会派名は議員の列ごとに1回＝17）、議員ごとの賛否の列（17列）。⚠ 概要は令和7年版（R6.12.31 現在・改選前の版で、令和8年版は未掲載）。2025-10-05 の市議選も定数17（無投票）で、議決の表も17人。会派ごとの人数の印字は無い（noDeclaredCount）
+    // 議決: 同じ PDF の「議案 第 13号 令和８年度倉吉市一般会計予算 R8.2.24 予算決算 R8.3.17 原案可決 16 0 …」（近接。行の頭の R8.2.24 は提出月日、R8.3.17 が議決月日）。概要版（R08.03月定例会結果（HP）議案番号有.pdf）は会期の範囲だけで行に日付が無いので使っていない
+    // R8 の当初予算は骨格予算（市長の任期末・skeleton-budgets.ts に記録済み）だが、当初予算（議案第13号）の議決として収録した（§6-20 の小林・能代と同じ）
+    // 賛否: 同じ行。○賛成・議長（凡例「○ ： 賛成、 × ： 反対、 ※ ： 欠席・退席・棄権・除斥、 議長 ： 議長のため表決に加わらず」）。賛成16・議長1（福谷直美・列に縦書きの「議長」）、印字「16 0」と一致。福田・山根の列の ○ はテキスト層で約7pt 下に組まれるが、-raw で列の順に並び、描画では全列そろっている（目視）
+    // license は予算の行（kurayoshi-yosan-setsumei-r8）の原文（KURAYOSHI_LICENSE・要許可）。リンクは「原則フリーです。」で予算の行と同じく noDeepLink なし。原典はすべて市の公式サイト（www.city.kurayoshi.lg.jp）。landingPage は議決結果の一覧（4235.htm）
+    // raw: 2件とも拡張子どおり（transform なし）。URL の日本語のファイル名は %エンコード。電話・〒は議会事務局・市役所のものだけ（機械的に確認）。議員でない人の氏名は無い（人権擁護委員候補者の推薦は件名だけ）。概要の「行政視察の受入れ状況」は市議会名・会派名・委員会名・人数だけで、氏名は無い。現行の会派所属議員名簿（4276.htm・令和8年10月2日現在）は議決後の版なので使っていない
+    // 照合の残った弱さ（改ざんテスト42通り中8通りが通る＋追加の2通り）: 会派名の前方切り詰め・会派名の後ろに枠の中の最初の氏名を足す（全3会派）・議決日と asOf を同じ行の提出月日 2/24 に一緒に書き換える（越谷型・2か所）・anchorSide before（前の行＝議案第12号の記号の並びが同じ）・asOfText を同じ表の会期名にする。✗ になったもの: 会派間の1人移動（4通り）・1人の書き落とし（6通り）・会派の合流（4通り）・議案番号（第14号・第11号・第12号・号落とし・「議案」落とし）・結果（可決・承認）・議決日（2/24 だけ・3/3）・件名・会期名・定数（16・18）・memberMarker の会派の書き落とし・記号の並び（議長の位置2通り）・tally の別の行の数・2人以上の会派への independent
+    id: "kurayoshi-shigikai-r8",
+    title: "令和8年度 倉吉市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "倉吉市議会",
+    url: null,
+    urls: [
+      "https://www.city.kurayoshi.lg.jp/secure/4230/R080317%E3%80%91%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%EF%BC%88%E8%AD%B0%E5%93%A1%E5%88%A5%EF%BC%89.pdf",
+      "https://www.city.kurayoshi.lg.jp/secure/3971/02_R07%E6%9C%AC%E4%BD%93%EF%BC%88%E5%AE%8C%E6%88%90%E7%89%88%EF%BC%89.pdf",
+    ],
+    landingPage: "https://www.city.kurayoshi.lg.jp/4235.htm",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "倉吉市議会（定数17・団体コード312037）",
+    license: "このサイトに掲載されている文字、画像、動画、図表等の著作権は、特に明示がない限り倉吉市に帰属します。また、一部の画像などは原著作者が著作権を所有したり、本市が使用する場合に限り認められたものがあります。よって、　　本サイトの内容を無断で使用・転載することはできません。本サイトの引用、転載等を希望される場合は、 倉吉市総務部企画課 までご連絡ください。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "倉吉市議会",
+      asOf: "2026-03-17",
+      asOfText: "議案等の議決結果等（令和8年3月 第2回定例会）",
+      teisu: 17,
+      teisuText: "条例定数         １７人",
+      teisuUrl: "https://www.city.kurayoshi.lg.jp/secure/3971/02_R07%E6%9C%AC%E4%BD%93%EF%BC%88%E5%AE%8C%E6%88%90%E7%89%88%EF%BC%89.pdf",
+      memberMarker: "やらいや|新政会|そうせい会",
+      roster: {"url":"https://www.city.kurayoshi.lg.jp/secure/4230/R080317%E3%80%91%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%EF%BC%88%E8%AD%B0%E5%93%A1%E5%88%A5%EF%BC%89.pdf","title":"議案等の議決結果等（令和8年3月 第2回定例会）（議員別）の表頭"},
+      factions: [{"name":"やらいや","box":[437,75,140,93],"page":1,"noDeclaredCount":true,"members":["朝日等治","大津昌克","田村閑美","福井典子","福田淳","福谷直美","増田孝二"]},{"name":"新政会","box":[577,75,103,93],"page":1,"noDeclaredCount":true,"members":["竺原晶子","福井康夫","鳥羽昌明","萬場恵理","米田勝彦"]},{"name":"そうせい会","box":[680,75,100,93],"page":1,"noDeclaredCount":true,"members":["山根健資","髙橋義博","中山晶雄","藤井陽介","山下達也"]}],
+      votes: {"url":"https://www.city.kurayoshi.lg.jp/secure/4230/R080317%E3%80%91%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%EF%BC%88%E8%AD%B0%E5%93%A1%E5%88%A5%EF%BC%89.pdf","title":"議案等の議決結果等（令和8年3月 第2回定例会）（議員別）","basis":"member","legend":{"○":"賛成","×":"反対","議長":"議長"},"legendText":"○ ： 賛成、 × ： 反対、 ※ ： 欠席・退席・棄権・除斥、 議長 ： 議長のため表決に加わらず","anchor":"令和８年度倉吉市一般会計予算","maxGap":32,"symbols":"○○○○○議長○○○○○○○○○○○","columns":[{"label":"朝日等治"},{"label":"大津昌克"},{"label":"田村閑美"},{"label":"福井典子"},{"label":"福田淳"},{"label":"福谷直美"},{"label":"増田孝二"},{"label":"竺原晶子"},{"label":"福井康夫"},{"label":"鳥羽昌明"},{"label":"萬場恵理"},{"label":"米田勝彦"},{"label":"山根健資"},{"label":"髙橋義博"},{"label":"中山晶雄"},{"label":"藤井陽介"},{"label":"山下達也"}],"tally":{"text":"16 0","counts":{"賛成":16,"反対":0}}},
+      resolution: {"url":"https://www.city.kurayoshi.lg.jp/secure/4230/R080317%E3%80%91%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%EF%BC%88%E8%AD%B0%E5%93%A1%E5%88%A5%EF%BC%89.pdf","title":"議案等の議決結果等（令和8年3月 第2回定例会）","billNo":"議案 第 13号","billName":"令和８年度倉吉市一般会計予算","sessionLabel":"令和8年3月 第2回定例会","decidedDate":"2026-03-17","result":"原案可決"},
+    },
+  },
 ];
 
 // 起動時にレジストリ自体を検証する（不正エントリの混入防止）

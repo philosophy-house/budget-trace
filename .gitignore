@@ -16,3 +16,8 @@ npm-debug.log*
 # 一次資料 PDF の配信コピー（data/raw から bun pipeline/sync-public-sources.ts が生成）
 /public/sources/
 /public/vendor/
+
+# pipeline:archive の実行中ロックと、git の外で動くときの状態（pipeline/lib/archive-state.ts）
+/data/.archive.lock
+/data/.archive-state/
+/data/archives.json.*.tmp

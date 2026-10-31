@@ -1,0 +1,305 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yonago-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:41.778Z",
+  "fiscalYear": "R8",
+  "body": "米子市議会",
+  "seats": 26,
+  "asOf": "2026-03-25",
+  "teisu": 26,
+  "factions": [
+    {
+      "name": "自由創政",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "岩﨑康朗",
+        "岡田啓介",
+        "田村謙介",
+        "戸田隆次",
+        "西野太一"
+      ],
+      "locator": {
+        "file": "gikaidayori0807.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "蒼生会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "稲田清",
+        "奥岩浩基",
+        "門脇一男",
+        "塚田佳充",
+        "渡辺穣爾"
+      ],
+      "locator": {
+        "file": "gikaidayori0807.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "よなご・未来",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "国頭靖",
+        "土光均",
+        "松田真哉",
+        "𠮷岡古都"
+      ],
+      "locator": {
+        "file": "gikaidayori0807.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "今城雅子",
+        "津田幸一",
+        "徳田博文",
+        "矢田貝香織"
+      ],
+      "locator": {
+        "file": "gikaidayori0807.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "信風",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "安達卓是",
+        "伊藤ひろえ",
+        "大下哲治",
+        "中田利幸"
+      ],
+      "locator": {
+        "file": "gikaidayori0807.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "日本共産党米子市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "錦織陽子",
+        "又野史朗"
+      ],
+      "locator": {
+        "file": "gikaidayori0807.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "無所属（森田悟史）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "森田悟史"
+      ],
+      "locator": {
+        "file": "gikaidayori0807.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "新ファミリア",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森谷司"
+      ],
+      "locator": {
+        "file": "gikaidayori0807.pdf",
+        "page": 15
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議 案 第 ４０ 号",
+    "billName": "令和８年度米子市一般会計予算",
+    "sessionLabel": "令和８年米子市議会３月定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "giketsu8.03.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "よなご市議会だより 第85号（令和8年7月1日発行）p.15「令和８年米子市議会３月定例会・令和８年４月臨時会提出議案等審議結果一覧表」の表頭",
+  "resultTitle": "令和８年米子市議会３月定例会付議案議決結果一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "よなご市議会だより 第85号 p.15「賛否が分かれた議案、請願及び陳情」（令和８年米子市議会３月定例会）",
+    "sourceFile": "gikaidayori0807.pdf",
+    "columns": [
+      {
+        "label": "岩﨑康朗",
+        "faction": "自由創政",
+        "member": "岩﨑康朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田啓介",
+        "faction": "自由創政",
+        "member": "岡田啓介",
+        "stance": "議長"
+      },
+      {
+        "label": "田村謙介",
+        "faction": "自由創政",
+        "member": "田村謙介",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸田隆次",
+        "faction": "自由創政",
+        "member": "戸田隆次",
+        "stance": "賛成"
+      },
+      {
+        "label": "西野太一",
+        "faction": "自由創政",
+        "member": "西野太一",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲田清",
+        "faction": "蒼生会",
+        "member": "稲田清",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥岩浩基",
+        "faction": "蒼生会",
+        "member": "奥岩浩基",
+        "stance": "賛成"
+      },
+      {
+        "label": "門脇一男",
+        "faction": "蒼生会",
+        "member": "門脇一男",
+        "stance": "賛成"
+      },
+      {
+        "label": "塚田佳充",
+        "faction": "蒼生会",
+        "member": "塚田佳充",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺穣爾",
+        "faction": "蒼生会",
+        "member": "渡辺穣爾",
+        "stance": "賛成"
+      },
+      {
+        "label": "国頭靖",
+        "faction": "よなご・未来",
+        "member": "国頭靖",
+        "stance": "反対"
+      },
+      {
+        "label": "土光均",
+        "faction": "よなご・未来",
+        "member": "土光均",
+        "stance": "賛成"
+      },
+      {
+        "label": "松田真哉",
+        "faction": "よなご・未来",
+        "member": "松田真哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "𠮷岡古都",
+        "faction": "よなご・未来",
+        "member": "𠮷岡古都",
+        "stance": "賛成"
+      },
+      {
+        "label": "今城雅子",
+        "faction": "公明党議員団",
+        "member": "今城雅子",
+        "stance": "賛成"
+      },
+      {
+        "label": "津田幸一",
+        "faction": "公明党議員団",
+        "member": "津田幸一",
+        "stance": "賛成"
+      },
+      {
+        "label": "徳田博文",
+        "faction": "公明党議員団",
+        "member": "徳田博文",
+        "stance": "賛成"
+      },
+      {
+        "label": "矢田貝香織",
+        "faction": "公明党議員団",
+        "member": "矢田貝香織",
+        "stance": "賛成"
+      },
+      {
+        "label": "安達卓是",
+        "faction": "信風",
+        "member": "安達卓是",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤ひろえ",
+        "faction": "信風",
+        "member": "伊藤ひろえ",
+        "stance": "賛成"
+      },
+      {
+        "label": "大下哲治",
+        "faction": "信風",
+        "member": "大下哲治",
+        "stance": "賛成"
+      },
+      {
+        "label": "中田利幸",
+        "faction": "信風",
+        "member": "中田利幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "錦織陽子",
+        "faction": "日本共産党米子市議団",
+        "member": "錦織陽子",
+        "stance": "反対"
+      },
+      {
+        "label": "又野史朗",
+        "faction": "日本共産党米子市議団",
+        "member": "又野史朗",
+        "stance": "反対"
+      },
+      {
+        "label": "森田悟史",
+        "faction": "無所属（森田悟史）",
+        "member": "森田悟史",
+        "stance": "賛成"
+      },
+      {
+        "label": "森谷司",
+        "faction": "新ファミリア",
+        "member": "森谷司",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

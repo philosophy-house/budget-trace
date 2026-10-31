@@ -1,0 +1,50 @@
+{
+  "sourceId": "shimane-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "r070609_kaihabetumeibo.pdf",
+      "sha256": "572fdf47df0516cd886550959bfffd78d78bfa13635487b7455fbd1fea362523",
+      "bytes": 86342,
+      "fetchedAt": "2026-10-31T09:33:08.839Z",
+      "fetchedFrom": "https://www.pref.shimane.lg.jp/gikai/gaido/meibo/index.data/r070609_kaihabetumeibo.pdf"
+    },
+    {
+      "filename": "R7_shiori.pdf",
+      "sha256": "0142cc807fe4138f4b0ca45e7b7d812c3ada1205ecd997d988b9a94519c8a33a",
+      "bytes": 2881907,
+      "fetchedAt": "2026-10-31T09:33:08.842Z",
+      "fetchedFrom": "https://www.pref.shimane.lg.jp/gikai/gaido/shiori.data/R7_shiori.pdf"
+    },
+    {
+      "filename": "r0802_giketu_kekka.pdf",
+      "sha256": "58a0d53a7f1033357b1e74bb5d0ba6c330a466389d46ea249561af74f33b2644",
+      "bytes": 167108,
+      "fetchedAt": "2026-10-31T09:33:08.842Z",
+      "fetchedFrom": "https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giketu_kekka.pdf"
+    },
+    {
+      "filename": "r0802_giinbetu_kekka.pdf",
+      "sha256": "27c6b90fdc8e5512aa98b5ef79b10fed20dd324664a0be5671e5f87e2727049f",
+      "bytes": 809050,
+      "fetchedAt": "2026-10-31T09:33:08.843Z",
+      "fetchedFrom": "https://www.pref.shimane.lg.jp/gikai/ugoki/gikai_kako/r0802/index.data/r0802_giinbetu_kekka.pdf"
+    },
+    {
+      "filename": "wb20260226193500_meibo.html",
+      "sha256": "50339ec6902be624b5d1acad2fdc1218cec820b079a27a205536fde7f803f460",
+      "bytes": 23278,
+      "fetchedAt": "2026-10-31T09:33:08.844Z",
+      "fetchedFrom": "https://web.archive.org/web/20260226193500id_/https://www.pref.shimane.lg.jp/gikai/gaido/meibo/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "wb20260421073043_aisatu.html",
+      "sha256": "10d1acbc7ff5007228a3276cf10079d15a6a733b0b9911fe3bd0c34a9fed71fa",
+      "bytes": 209695,
+      "fetchedAt": "2026-10-31T09:33:08.844Z",
+      "fetchedFrom": "https://web.archive.org/web/20260421073043id_/https://www1.pref.shimane.lg.jp/gikai/gityou/aisatu.html"
+    }
+  ]
+}

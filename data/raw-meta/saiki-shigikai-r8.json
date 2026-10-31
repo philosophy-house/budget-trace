@@ -1,0 +1,46 @@
+{
+  "sourceId": "saiki-shigikai-r8",
+  "files": [
+    {
+      "filename": "3_3183_up_x0mmlqta.pdf",
+      "sha256": "90718a5a0bda3c90a9d2b5212d11b57cc16d46653c5307fcb5fed663a809e598",
+      "bytes": 105195,
+      "fetchedAt": "2026-10-31T09:38:51.657Z",
+      "fetchedFrom": "https://www.city.saiki.oita.jp/gikai/kiji0033183/3_3183_up_x0mmlqta.pdf"
+    },
+    {
+      "filename": "3_3871_up_v8n01r6b.pdf",
+      "sha256": "99c4c507c05dd1bded0fe7159928cde51a6fcdf8ea401be8b383d835e6119c99",
+      "bytes": 206967,
+      "fetchedAt": "2026-10-31T09:38:51.657Z",
+      "fetchedFrom": "https://www.city.saiki.oita.jp/gikai/kiji0033871/3_3871_up_v8n01r6b.pdf"
+    },
+    {
+      "filename": "GetText3_R080318A_36674.html",
+      "sha256": "044dfc9055effcd9e8373112d0ea92ef8251be96d25f53a303a1d1bce9a2150f",
+      "bytes": 851,
+      "fetchedAt": "2026-10-31T09:38:51.657Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/saiki/cgi-bin3/GetText3.exe?i0rsv3veozub4z36ou/R080318A/36674/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "GetText3_R080318A_37032.html",
+      "sha256": "7f4559ad481b730067758b553656e3db76148386ac49af416c6a8f8201dec4de",
+      "bytes": 767,
+      "fetchedAt": "2026-10-31T09:38:51.657Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/saiki/cgi-bin3/GetText3.exe?i0rsv3veozub4z36ou/R080318A/37032/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "r159RG00001257.html",
+      "sha256": "ec4f6fb559032c0f1ffb20eaefbfa2b0aff2b259ec70d66d5824a3fe1170fb76",
+      "bytes": 13243,
+      "fetchedAt": "2026-10-31T09:38:51.658Z",
+      "fetchedFrom": "https://www.city.saiki.oita.jp/reiki/reiki_honbun/r159RG00001257.html"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yonezawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:41:37.774Z",
+  "fiscalYear": "R8",
+  "body": "米沢市議会",
+  "seats": 24,
+  "asOf": "2025-05-16",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "一新会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "鳥海隆太",
+        "佐野洋平",
+        "成沢かずね",
+        "たかはしちなつ",
+        "関谷幸子",
+        "島軒純一",
+        "さいとうちえこ",
+        "工藤正雄"
+      ],
+      "locator": {
+        "file": "yonezawa_8595_20251112.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "至誠会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "相田克平",
+        "堤郁雄",
+        "山村明",
+        "木村芳浩",
+        "島貫宏幸"
+      ],
+      "locator": {
+        "file": "yonezawa_8595_20251112.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市民平和クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小久保広信",
+        "影澤政夫",
+        "太田かつのり",
+        "我妻德雄"
+      ],
+      "locator": {
+        "file": "yonezawa_8595_20251112.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "ミライノトビラ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "植松美穂",
+        "古山ゆうき",
+        "遠藤隆一"
+      ],
+      "locator": {
+        "file": "yonezawa_8595_20251112.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐藤ひろし",
+        "山田富佐子"
+      ],
+      "locator": {
+        "file": "yonezawa_8595_20251112.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "髙橋英夫",
+        "高橋ひさし"
+      ],
+      "locator": {
+        "file": "yonezawa_8595_20251112.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第41号",
+    "billName": "令和８年度米沢市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "yonezawa_dayori_186.pdf",
+      "page": 5
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年5月16日現在）",
+  "resultTitle": "米沢市議会だより第186号（令和8年5月1日）「３月定例会で審議された議案」",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議案の賛否一覧表（３月定例会）",
+    "sourceFile": "yonezawa_2603sanpi.pdf",
+    "columns": [
+      {
+        "label": "鳥海隆太",
+        "faction": "一新会",
+        "member": "鳥海隆太",
+        "stance": "反対"
+      },
+      {
+        "label": "佐野洋平",
+        "faction": "一新会",
+        "member": "佐野洋平",
+        "stance": "反対"
+      },
+      {
+        "label": "成沢かずね",
+        "faction": "一新会",
+        "member": "成沢かずね",
+        "stance": "反対"
+      },
+      {
+        "label": "たかはしちなつ",
+        "faction": "一新会",
+        "member": "たかはしちなつ",
+        "stance": "反対"
+      },
+      {
+        "label": "関谷幸子",
+        "faction": "一新会",
+        "member": "関谷幸子",
+        "stance": "反対"
+      },
+      {
+        "label": "さいとうちえこ",
+        "faction": "一新会",
+        "member": "さいとうちえこ",
+        "stance": "反対"
+      },
+      {
+        "label": "工藤正雄",
+        "faction": "一新会",
+        "member": "工藤正雄",
+        "stance": "反対"
+      },
+      {
+        "label": "相田克平",
+        "faction": "至誠会",
+        "member": "相田克平",
+        "stance": "賛成"
+      },
+      {
+        "label": "堤郁雄",
+        "faction": "至誠会",
+        "member": "堤郁雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "山村明",
+        "faction": "至誠会",
+        "member": "山村明",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村芳浩",
+        "faction": "至誠会",
+        "member": "木村芳浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "島貫宏幸",
+        "faction": "至誠会",
+        "member": "島貫宏幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "小久保広信",
+        "faction": "市民平和クラブ",
+        "member": "小久保広信",
+        "stance": "賛成"
+      },
+      {
+        "label": "影澤政夫",
+        "faction": "市民平和クラブ",
+        "member": "影澤政夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田かつのり",
+        "faction": "市民平和クラブ",
+        "member": "太田かつのり",
+        "stance": "賛成"
+      },
+      {
+        "label": "我妻德雄",
+        "faction": "市民平和クラブ",
+        "member": "我妻德雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "植松美穂",
+        "faction": "ミライノトビラ",
+        "member": "植松美穂",
+        "stance": "賛成"
+      },
+      {
+        "label": "古山ゆうき",
+        "faction": "ミライノトビラ",
+        "member": "古山ゆうき",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤隆一",
+        "faction": "ミライノトビラ",
+        "member": "遠藤隆一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤ひろし",
+        "faction": "公明党",
+        "member": "佐藤ひろし",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田富佐子",
+        "faction": "公明党",
+        "member": "山田富佐子",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋英夫",
+        "faction": "日本共産党市議団",
+        "member": "髙橋英夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋ひさし",
+        "faction": "日本共産党市議団",
+        "member": "高橋ひさし",
+        "stance": "賛成"
+      },
+      {
+        "label": "島軒純一",
+        "faction": "一新会",
+        "member": "島軒純一",
+        "stance": "議長"
+      }
+    ]
+  }
+}

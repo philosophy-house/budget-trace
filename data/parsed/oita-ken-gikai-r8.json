@@ -1,0 +1,413 @@
+{
+  "docType": "council-composition",
+  "sourceId": "oita-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:39:01.044Z",
+  "fiscalYear": "R8",
+  "body": "大分県議会",
+  "seats": 43,
+  "asOf": "2026-03-26",
+  "teisu": 43,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 24,
+      "isIndependent": false,
+      "members": [
+        "志村学",
+        "御手洗吉生",
+        "桝田貢",
+        "穴見憲昭",
+        "岡野涼子",
+        "中野哲朗",
+        "宮成公一郎",
+        "首藤健二郎",
+        "清田哲也",
+        "今吉次郎",
+        "阿部長夫",
+        "小川克己",
+        "太田正美",
+        "後藤慎太郎",
+        "森誠一",
+        "大友栄二",
+        "井上明夫",
+        "木付親次",
+        "三浦正臣",
+        "古手川正治",
+        "嶋幸一",
+        "元𠮷俊博",
+        "麻生栄作",
+        "阿部英仁"
+      ],
+      "locator": {
+        "file": "2264206.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "県民クラブ",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "御手洗朋宏",
+        "福崎智幸",
+        "吉村尚久",
+        "若山雅敏",
+        "成迫健児",
+        "高橋肇",
+        "木田昇",
+        "二ノ宮健治",
+        "守永信幸",
+        "原田孝司",
+        "玉田輝義"
+      ],
+      "locator": {
+        "file": "2264206.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "澤田友広",
+        "𠮷村哲彦",
+        "戸高賢史"
+      ],
+      "locator": {
+        "file": "2264206.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "猿渡久子",
+        "堤栄三"
+      ],
+      "locator": {
+        "file": "2264206.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "志士の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "末宗秀雄"
+      ],
+      "locator": {
+        "file": "2264206.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "佐藤之則"
+      ],
+      "locator": {
+        "file": "2264206.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "三浦由紀"
+      ],
+      "locator": {
+        "file": "2264206.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号議案",
+    "billName": "令和８年度大分県一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "可決",
+    "locator": {
+      "file": "2264206.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年第１回定例会 議案等賛否一覧表（３月２６日分）の表頭（会派名・議員名〔議席番号順〕）",
+  "resultTitle": "令和８年第１回定例会 議案等賛否一覧表（３月２６日分）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会 議案等賛否一覧表（３月２６日分）",
+    "sourceFile": "2264206.pdf",
+    "columns": [
+      {
+        "label": "志村学",
+        "faction": "自由民主党",
+        "member": "志村学",
+        "stance": "賛成"
+      },
+      {
+        "label": "御手洗吉生",
+        "faction": "自由民主党",
+        "member": "御手洗吉生",
+        "stance": "賛成"
+      },
+      {
+        "label": "桝田貢",
+        "faction": "自由民主党",
+        "member": "桝田貢",
+        "stance": "賛成"
+      },
+      {
+        "label": "穴見憲昭",
+        "faction": "自由民主党",
+        "member": "穴見憲昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡野涼子",
+        "faction": "自由民主党",
+        "member": "岡野涼子",
+        "stance": "賛成"
+      },
+      {
+        "label": "中野哲朗",
+        "faction": "自由民主党",
+        "member": "中野哲朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮成公一郎",
+        "faction": "自由民主党",
+        "member": "宮成公一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "首藤健二郎",
+        "faction": "自由民主党",
+        "member": "首藤健二郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "清田哲也",
+        "faction": "自由民主党",
+        "member": "清田哲也",
+        "stance": "賛成"
+      },
+      {
+        "label": "今吉次郎",
+        "faction": "自由民主党",
+        "member": "今吉次郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部長夫",
+        "faction": "自由民主党",
+        "member": "阿部長夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川克己",
+        "faction": "自由民主党",
+        "member": "小川克己",
+        "stance": "賛成"
+      },
+      {
+        "label": "太田正美",
+        "faction": "自由民主党",
+        "member": "太田正美",
+        "stance": "賛成"
+      },
+      {
+        "label": "後藤慎太郎",
+        "faction": "自由民主党",
+        "member": "後藤慎太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "森誠一",
+        "faction": "自由民主党",
+        "member": "森誠一",
+        "stance": "賛成"
+      },
+      {
+        "label": "大友栄二",
+        "faction": "自由民主党",
+        "member": "大友栄二",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上明夫",
+        "faction": "自由民主党",
+        "member": "井上明夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "木付親次",
+        "faction": "自由民主党",
+        "member": "木付親次",
+        "stance": "不参加"
+      },
+      {
+        "label": "三浦正臣",
+        "faction": "自由民主党",
+        "member": "三浦正臣",
+        "stance": "賛成"
+      },
+      {
+        "label": "古手川正治",
+        "faction": "自由民主党",
+        "member": "古手川正治",
+        "stance": "賛成"
+      },
+      {
+        "label": "嶋幸一",
+        "faction": "自由民主党",
+        "member": "嶋幸一",
+        "stance": "議長"
+      },
+      {
+        "label": "元𠮷俊博",
+        "faction": "自由民主党",
+        "member": "元𠮷俊博",
+        "stance": "賛成"
+      },
+      {
+        "label": "麻生栄作",
+        "faction": "自由民主党",
+        "member": "麻生栄作",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部英仁",
+        "faction": "自由民主党",
+        "member": "阿部英仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "御手洗朋宏",
+        "faction": "県民クラブ",
+        "member": "御手洗朋宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "福崎智幸",
+        "faction": "県民クラブ",
+        "member": "福崎智幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉村尚久",
+        "faction": "県民クラブ",
+        "member": "吉村尚久",
+        "stance": "賛成"
+      },
+      {
+        "label": "若山雅敏",
+        "faction": "県民クラブ",
+        "member": "若山雅敏",
+        "stance": "賛成"
+      },
+      {
+        "label": "成迫健児",
+        "faction": "県民クラブ",
+        "member": "成迫健児",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋肇",
+        "faction": "県民クラブ",
+        "member": "高橋肇",
+        "stance": "賛成"
+      },
+      {
+        "label": "木田昇",
+        "faction": "県民クラブ",
+        "member": "木田昇",
+        "stance": "賛成"
+      },
+      {
+        "label": "二ノ宮健治",
+        "faction": "県民クラブ",
+        "member": "二ノ宮健治",
+        "stance": "賛成"
+      },
+      {
+        "label": "守永信幸",
+        "faction": "県民クラブ",
+        "member": "守永信幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "原田孝司",
+        "faction": "県民クラブ",
+        "member": "原田孝司",
+        "stance": "賛成"
+      },
+      {
+        "label": "玉田輝義",
+        "faction": "県民クラブ",
+        "member": "玉田輝義",
+        "stance": "賛成"
+      },
+      {
+        "label": "澤田友広",
+        "faction": "公明党",
+        "member": "澤田友広",
+        "stance": "賛成"
+      },
+      {
+        "label": "𠮷村哲彦",
+        "faction": "公明党",
+        "member": "𠮷村哲彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸高賢史",
+        "faction": "公明党",
+        "member": "戸高賢史",
+        "stance": "賛成"
+      },
+      {
+        "label": "猿渡久子",
+        "faction": "日本共産党",
+        "member": "猿渡久子",
+        "stance": "反対"
+      },
+      {
+        "label": "堤栄三",
+        "faction": "日本共産党",
+        "member": "堤栄三",
+        "stance": "反対"
+      },
+      {
+        "label": "末宗秀雄",
+        "faction": "志士の会",
+        "member": "末宗秀雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤之則",
+        "faction": "無所属の会",
+        "member": "佐藤之則",
+        "stance": "賛成"
+      },
+      {
+        "label": "三浦由紀",
+        "faction": "日本維新の会",
+        "member": "三浦由紀",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

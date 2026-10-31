@@ -1,0 +1,105 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tsuruga-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.20",
+  "parsedAt": "2026-10-31T09:39:00.339Z",
+  "fiscalYear": "R8",
+  "body": "敦賀市議会",
+  "seats": 22,
+  "asOf": "2025-12-22",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "市政会",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "有馬茂人",
+        "馬渕清和",
+        "川端耕一",
+        "田中和義",
+        "中野史生",
+        "浅野好一",
+        "縄手博和",
+        "大石修平",
+        "高城庄佑",
+        "河瀬太治"
+      ],
+      "locator": {
+        "file": "9176.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "あたらしい敦賀",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "籠太一朗",
+        "三田村りょう",
+        "橋本彬穂",
+        "吉田隆昭",
+        "北條正"
+      ],
+      "locator": {
+        "file": "9176.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "今川ひろし",
+        "豊田耕一",
+        "山本武志"
+      ],
+      "locator": {
+        "file": "9176.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党敦賀市会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山本貴美子",
+        "松宮学"
+      ],
+      "locator": {
+        "file": "9176.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中道恭子",
+        "大塚佳弘"
+      ],
+      "locator": {
+        "file": "9176.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第８号議案",
+    "billName": "令和８年度敦賀市一般会計予算",
+    "sessionLabel": "令和８年第１回敦賀市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "11128.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "敦賀市議会会派一覧表（令和７年１２月２２日現在）",
+  "resultTitle": "令和８年第１回敦賀市議会定例会 審議結果一覧表"
+}
