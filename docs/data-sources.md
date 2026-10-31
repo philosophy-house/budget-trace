@@ -1904,7 +1904,8 @@ WARP の URL は `pipeline:archive` の対象外（台帳に入れない）。`i
   **持ち越し3件**（SPN2 のジョブは受け付けられたが、2回の確認で CDX に載らなかった）: 高知県 `0802.pdf`（名簿・議決・賛否の唯一の原典）・高知市 `258505_1108665_misc.pdf`（賛否一覧表）・山陽小野田の landing `sinngikekka.html`。
   2件の PDF は議決直後の捕捉（0802.pdf は 20260324235805・258505 は 20260327101238）が CDX にあり、digest（SHA1）が raw と同じ＝同じファイル（レビュー1巡目で確かめた）。
   それでも archive が使わないのは、kind が page の行では PDF も HTML と同じく照合しない扱い（`isVerifiable`）になり、raw の取得時刻より前の捕捉を採らない（#429 の第1段の規則）ため。
-  画面の魚拓のリンクはそれまで発行元を指す。次に `bun run pipeline:archive --resolve-only`（`data/.archive-jobs.json` の3件）を回し、台帳に入ったら derive し直す。
+  画面の魚拓のリンクはそれまで発行元を指す。SPN2 のジョブは3件とも成功済み（捕捉の時刻 20261031174721・20261031180240・20261031183725。どれも raw の取得時刻より後）で、CDX への反映待ち。
+  CDX に載ったら、どのワークツリーからでも `bun run pipeline:archive <sourceId>`（kochi-ken-gikai-r8・kochi-shi-shigikai-r8・sanyoonoda-shigikai-r8 を1本ずつ直列で）で台帳に入る（ジョブの控え `data/.archive-jobs.json` は git の管理外でワークツリーの持ち物なので、それに頼らない）。台帳に入ったら derive し直す。
   ⚠ kind が page の行の PDF でも digest が raw と一致する捕捉は採ってよいはず — archive.ts の `isVerifiable` が kind で切っているのを、ファイルの種類で切るように直せば片付く（未着手）
 
 ### 7. 甲府市 事務事業評価 詳細票（事業報告・成果）（kofu-jigyou-houkoku-r6/r7）
