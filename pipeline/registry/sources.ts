@@ -53618,6 +53618,51 @@ export const SOURCES: SourceEntry[] = [
       resolution: {"url":"https://www.city.kurayoshi.lg.jp/secure/4230/R080317%E3%80%91%E8%AD%B0%E6%B1%BA%E7%B5%90%E6%9E%9C%EF%BC%88%E8%AD%B0%E5%93%A1%E5%88%A5%EF%BC%89.pdf","title":"議案等の議決結果等（令和8年3月 第2回定例会）","billNo":"議案 第 13号","billName":"令和８年度倉吉市一般会計予算","sessionLabel":"令和8年3月 第2回定例会","decidedDate":"2026-03-17","result":"原案可決"},
     },
   },
+  // ---- 議会の構成 — 茨城・栃木・群馬の残りへ（`council-transcribed`・docs/data-sources.md §6-24）----
+  {
+    // 名簿: 議会のページ「会派」（giin/1846.html・住所なし・「更新日：2024年09月30日」）の会派一覧を在籍と会派名の原典にする（2024-09 の改選後の版のまま更新されておらず、議決後（2026-04-19）の魚拓も同じ本文）。会派に属さない2人（大名美惠子・阿部功志）はこのページの区間（見出し「会派に属さない」から注釈の「公明党」まで）で照合し、見出しの語のまま1つの independent
+    // 議決時点の構成: 新政とうかい・公明党・光風会の3会派は、議決後に出た議会だより第64号（2026.4）p.3「各議員の賛否」の表頭（令和８年第１回定例会（３月議会）の採決時）を会派ごとの座標の枠で照合する（p.1・新政とうかい [150,120,238,60]・公明党 [388,120,38,60]・光風会 [426,120,38,60]。pdftotext -tsv で見出しと縦書きの氏名の x を測り、-layout・-raw の両方で枠の中が会派名と所属議員の氏名だけになることを確かめた。見出しの無い大名・阿部の列（x 472〜501）は枠に入れていない）。asOf は議決日 2026-03-26、asOfText は表の前文の「令和８年第１回定例会（３月議会）」（だよりに日付の印字は無い＝足立・那須塩原の型）。confirmUrls で18人全員が同じ表に出ることも見る
+    // ⚠ 3/26 の議選で議長が河野健一から吉田充宏に替わった（議決結果の「議選結果」）。会派の構成は変わらず、どちらも新政とうかい。今の「正副議長・議員」ページ（3855.html）は議員の住所・電話・メールつきなので raw に入れていない（landingPage にもしない）
+    // 人数の網: 会派ごとの人数の印字が無い（noDeclaredCount）。定数は議員定数のページ（sikumi/1890.html）の東海村議会議員定数条例「東海村議会議員の定数は、18人とする。」（欠員0＝表頭の18人）。memberMarker は名簿（1846.html）の氏名の後ろの党派の略記「（無）（公）（共）（国民）」（議員ごとに1回。末尾の注釈の4つは後ろの語で除く）、factionMarker は名簿の会派代表者の印「★」（注釈の「★印」を除く）と見出し「会派に属さない」（会派ごとに1回＝4）。factionMarker は枠を広げて会派を消す合流（作業者の改ざんテストで実測）も塞いでいる
+    // 議決: 「令和８年第１回東海村議会定例会 村長提出議案等議決結果」（R80326giketu2.pdf・作成 2026-03-26）の行「議案第１８号 令和８年度東海村一般会計予算 R8.3.2 R8.3.26 予算決算委員会付託 原案可決」。-layout は「議 案」と「第１８号」が件名の行の上下に割れるので、議案番号は -raw の「議 案 第１８号 令和８年度…」で照合している
+    // 議決日: 議決結果の行に上程日 R8.3.2 と議決日 R8.3.26 が並ぶ。議決日を 3/2 に替える書き換えは、asOf（議決日の 3/26）より前になるので ✗（asOf と一緒に替える2か所の作為なら通る＝防府型）。会期は「３月２日から 26 日まで」（議会だより第64号 p.2）
+    // 賛否: 入れていない — 議会だより第64号 p.3 の表は議員ごと（予算の行は 賛成16・反対1（大名美恵子）・議長1（河野健一の列は縦書きの「議長」）。凡例「○…賛成 ×…反対」）だが、記号の行の頭は「議案第 18 号」だけで件名が無く、番号の直前が -raw では前の行の結果「可 決」、-layout では議長の縦書きの「議」の字になり、議案番号だけの anchor の制限（番号の前が語の続きでないこと・0.8.8 の②）に当たる。件名は同じ頁の下の要旨の表にだけあり、記号の行と結び付く原文が無い。議長の氏名と「議長」を並べた原文も同じ頁に無い
+    // ライセンス: 予算の行（tokaimura-yosansho-r8）と同じ村の「このサイトについて」の原文（議会のページも村の公式サイトの /tokaimuragikai/ の下で、独自の著作権・リンクの条項は無い。フッターは「Copyright (c) Tokai Village Council. All Rights Reserved.」だけ）。リンク: 予算の行と同じく noDeepLink は立てない（「リンクは原則として自由ですが,トップページ…へリンクさせるようお願いします」）
+    // raw: 4件とも発行元から取得（HTML は <!DOCTYPE・PDF は %PDF・拡張子どおり・gzip なし）
+    // 自宅住所: raw の電話・〒は議会事務局・村役場のものだけ（機械的に確認）。HTML の非表示のコメントはテンプレートの区切りだけ。議決結果の陳情の行に陳情者の氏名は無い
+    // 改ざんテスト（作業者）: 会派間の1人移動（5通り）・1人の書き落とし（定数を一緒に変える・memberMarker を外す型を含む）・会派の合流（3通り。合流先の枠を相手の列まで広げる2か所の作為も factionMarker で ✗）・議案番号（第１９号・第１７号・号を落とした「議案第１８」）・結果の丸め（「可決」）と差し替え・議決日（3/2・3/25）・件名の差し替え・会派名に隣の欄の語（枠の後ろの氏名「公明党植木伸寿」「光風会村上志保」・「会派代表者」・「議員名」）・注釈の語への書き換え・光風会を independent に・会派に属さないを「無所属」に・定数17・asOfText（6月議会）・議決後の asOf・会期名はすべて ✗。⚠ 通るもの: 会派名の後ろに枠の最初の氏名を足す（「新政とうかい飛田静幸」「公明党岡崎悟」「光風会恵利いつ」。-raw で見出しの直後に最初の列の氏名が続く＝§6-22 の型）と、-layout で見出しの行に並ぶ氏名を足す（「新政とうかい笹嶋士郎」）、枠の境目を1列ずらして端の1人を隣の会派へ移す（3か所の作為）、合流＋枠を広げる＋factionMarker の削除（3か所）、asOfText を表の前文の別の文にする、会派に属さないを1人ずつ2つに分ける、会派名の前方の切り詰め・independent の付け外し・asOf だけの書き換え（パーサ一般）
+    // レビュー1巡目で足した通り方（パーサ一般）: 議決日の年だけの書き換え（照合は月日だけ）・会派名の後方の切り詰めと頭の欠け（「公明」「風会」）・会期名の切り詰め・teisuText を「18人」まで縮める・新政とうかいの枠を外して名簿の区間だけにする（asOfText は枠の会派のどれか1つの url に当たれば足りる）
+    // 画面: 見出しの基準日は議決日だが、構成の出典チップは名簿（2024-09-30 の版）を開く（derive は枠の url をチップに出さない）。名簿の題に議決時点の照合元を書き添えた
+    id: "tokaimura-songikai-r8",
+    title: "令和8年度 東海村議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "東海村議会",
+    url: null,
+    urls: [
+      "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html",
+      "https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf",
+      "https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf",
+      "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/sikumi/1890.html",
+    ],
+    landingPage: "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "東海村議会（定数18・団体コード083411）",
+    license: TOKAIMURA_LICENSE,
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "東海村議会",
+      asOf: "2026-03-26",
+      asOfText: "令和８年第１回定例会（３月議会）",
+      teisu: 18,
+      teisuText: "東海村議会議員の定数は、18人とする。",
+      teisuUrl: "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/sikumi/1890.html",
+      memberMarker: "\\((?:無|公|共|国民)\\)(?!無所属|公明党\\(|日本共産党|国民民主党)",
+      factionMarker: "★(?!印)|会派に属さない",
+      roster: {"url":"https://www.vill.tokai.ibaraki.jp/tokaimuragikai/giin/1846.html","title":"会派一覧（更新日 2024年09月30日。議決時点の所属は議会だより第64号（2026年4月）の「各議員の賛否」の表で確認）","confirmUrls":["https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf"]},
+      factions: [{"name":"新政とうかい","noDeclaredCount":true,"members":["飛田静幸","大内則夫","越智辰哉","河野健一","吉田充宏","寺門定範","笹嶋士郎","三上修","松江秀明","川崎克彦","川﨑裕弥","宮本翔太"],"url":"https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf","asOfText":"令和８年第１回定例会（３月議会）","page":1,"box":[150,120,238,60]},{"name":"公明党","noDeclaredCount":true,"members":["岡崎悟","植木伸寿"],"url":"https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf","asOfText":"令和８年第１回定例会（３月議会）","page":1,"box":[388,120,38,60]},{"name":"光風会","noDeclaredCount":true,"members":["恵利いつ","村上志保"],"url":"https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf","asOfText":"令和８年第１回定例会（３月議会）","page":1,"box":[426,120,38,60]},{"name":"会派に属さない","independent":true,"noDeclaredCount":true,"members":["大名美惠子","阿部功志"]}],
+      resolution: {"url":"https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf","title":"令和８年第１回東海村議会定例会 村長提出議案等議決結果","billNo":"議案第１８号","billName":"令和８年度東海村一般会計予算","sessionLabel":"令和８年第１回東海村議会定例会","decidedDate":"2026-03-26","result":"原案可決"},
+    },
+  },
   // ---- 議会の構成 — 中国・四国の残りへ（`council-transcribed`・docs/data-sources.md §6-25）----
   {
     // 高知県議会（団体コード 390003。⚠ 高知市議会 392014 とは別団体）。名簿は議決当日の「令和８年２月定例会議決結果一覧表」（議員別賛否の状況のページ /activity/decision.html に掲げる 0802.pdf・作成日・更新日とも 2026-03-24 13:41）p.1 の表頭（会派名の下に議員名が縦書きで並ぶ）を会派ごとの座標の枠で切った（asOf は議決日・asOfText は予算の行の議決年月日「R8.3.24」）。列は自由民主党20・一燈立志の会2・公明党3・自由の風1・県民の会4・日本共産党6 の36列で、枠の境目は pdftotext -bbox の列の x（約10.8pt 間隔・語と語の隙間は約3.2pt）の隙間に整数で引いた。描画して、境目がどれも隣の列の氏名・会派名に掛からないことを確かめた（この PDF は字形が bbox より約3pt 左に描かれるので、枠の線は表の罫線より約3pt 右に来る）

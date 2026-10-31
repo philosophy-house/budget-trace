@@ -27552,7 +27552,7 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20261031174831/https://gikai.pref.kochi.lg.jp/",
       "waybackTimestamp": "20261031174831",
-      "checkedAt": "2026-10-31T17:49:02.350Z"
+      "checkedAt": "2026-10-31T20:29:25.289Z"
     },
     {
       "sourceId": "kochi-ken-zaisei-jokyo-r8",
@@ -27579,7 +27579,7 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20261031180307/https://www.city.kochi.kochi.jp/life/4/216/",
       "waybackTimestamp": "20261031180307",
-      "checkedAt": "2026-10-31T18:03:25.651Z"
+      "checkedAt": "2026-10-31T20:44:32.653Z"
     },
     {
       "sourceId": "kochi-shi-shigikai-r8",
@@ -27587,7 +27587,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261031180256/https://www.city.kochi.kochi.jp/soshiki/97/teirei512.html",
       "waybackTimestamp": "20261031180256",
-      "checkedAt": "2026-10-31T18:03:24.963Z"
+      "checkedAt": "2026-10-31T20:44:31.312Z"
     },
     {
       "sourceId": "kochi-shi-yosan-gaiyou-h30",
@@ -53373,7 +53373,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261031183650/https://www.city.sanyo-onoda.lg.jp/site/sigikai/siryou202603.html",
       "waybackTimestamp": "20261031183650",
-      "checkedAt": "2026-10-31T18:37:25.053Z"
+      "checkedAt": "2026-10-31T20:59:46.197Z"
     },
     {
       "sourceId": "sanyoonoda-shigikai-r8",
@@ -53381,7 +53381,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261031183703/https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74399.pdf",
       "waybackTimestamp": "20261031183703",
-      "checkedAt": "2026-10-31T18:37:26.487Z"
+      "checkedAt": "2026-10-31T20:59:46.656Z"
     },
     {
       "sourceId": "sanyoonoda-shigikai-r8",
@@ -53389,7 +53389,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261031183752/https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74462.pdf",
       "waybackTimestamp": "20261031183752",
-      "checkedAt": "2026-10-31T18:38:23.990Z"
+      "checkedAt": "2026-10-31T20:59:51.883Z"
     },
     {
       "sourceId": "sanyoonoda-shigikai-r8",
@@ -53397,7 +53397,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261031183531/https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/74508.pdf",
       "waybackTimestamp": "20261031183531",
-      "checkedAt": "2026-10-31T18:37:23.556Z"
+      "checkedAt": "2026-10-31T20:59:43.163Z"
     },
     {
       "sourceId": "sapporo-jigyou-hyouka-r7",
@@ -70331,6 +70331,22 @@
       "sha256Match": true,
       "waybackBytes": 1988591,
       "rawSha256": "af889349bed3ef4f74665cfeb3587c4c873326166909500a779698d8968230e4"
+    },
+    {
+      "sourceId": "tokaimura-songikai-r8",
+      "url": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261031172600/https://www.vill.tokai.ibaraki.jp/material/files/group/31/64P3.pdf",
+      "waybackTimestamp": "20261031172600",
+      "checkedAt": "2026-10-31T17:42:12.628Z"
+    },
+    {
+      "sourceId": "tokaimura-songikai-r8",
+      "url": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261031172550/https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf",
+      "waybackTimestamp": "20261031172550",
+      "checkedAt": "2026-10-31T17:42:11.979Z"
     },
     {
       "sourceId": "tokaimura-yosansho-r3",
