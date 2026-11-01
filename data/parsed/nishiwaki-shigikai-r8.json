@@ -1,0 +1,131 @@
+{
+  "docType": "council-composition",
+  "sourceId": "nishiwaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:44.428Z",
+  "fiscalYear": "R8",
+  "body": "西脇市議会",
+  "seats": 16,
+  "asOf": "2025-11-25",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "市民とともに歩む会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "高瀬弘行",
+        "藤本留実"
+      ],
+      "locator": {
+        "file": "nishiwaki_R71125kaihakousei-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "月曜会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "浅田康子",
+        "吉井敏恭"
+      ],
+      "locator": {
+        "file": "nishiwaki_R71125kaihakousei-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "にしわき青嵐会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "杉本佳隆",
+        "高瀬洋"
+      ],
+      "locator": {
+        "file": "nishiwaki_R71125kaihakousei-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "にしわき自民党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "藤原秀樹",
+        "岸本年裕"
+      ],
+      "locator": {
+        "file": "nishiwaki_R71125kaihakousei-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "藤原哲也"
+      ],
+      "locator": {
+        "file": "nishiwaki_R71125kaihakousei-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "寺北建樹"
+      ],
+      "locator": {
+        "file": "nishiwaki_R71125kaihakousei-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "馬場智大",
+        "巽泰",
+        "長谷川智春",
+        "森脇久夫",
+        "林晴信"
+      ],
+      "locator": {
+        "file": "nishiwaki_R71125kaihakousei-2.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に所属しない議員（村岡栄紀）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "村岡栄紀"
+      ],
+      "locator": {
+        "file": "nishiwaki_R71125kaihakousei-2.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第24号",
+    "billName": "令和8年度西脇市一般会計予算",
+    "sessionLabel": "第113回西脇市議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案のとおり可決",
+    "locator": {
+      "file": "nishiwaki_GetText3_R080324A_58990.html"
+    }
+  },
+  "rosterTitle": "西脇市議会第6期会派構成表（令和7年11月25日現在）「会派・政党構成」",
+  "resultTitle": "第113回西脇市議会定例会（第3日 3月24日）会議録 日程第4 議案第15号〜議案第24号の採決"
+}

@@ -1,0 +1,108 @@
+{
+  "docType": "council-composition",
+  "sourceId": "katano-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:43.158Z",
+  "fiscalYear": "R8",
+  "body": "交野市議会",
+  "seats": 14,
+  "asOf": "2026-03-26",
+  "teisu": 15,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "中谷政人",
+        "三浦美代子",
+        "山下千穂"
+      ],
+      "locator": {
+        "file": "R8-5-1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "name": "未来創生会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "黒田実",
+        "野口陽輔"
+      ],
+      "locator": {
+        "file": "R8-5-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "チームみんなの交野",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松永隆太",
+        "坂本顕"
+      ],
+      "locator": {
+        "file": "R8-5-1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "藤田茉里",
+        "皿海ふみ"
+      ],
+      "locator": {
+        "file": "R8-5-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "にじいろ対話の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松村紘子",
+        "安部敬子"
+      ],
+      "locator": {
+        "file": "R8-5-1.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岡田智里",
+        "岡田伴昌",
+        "堀天地"
+      ],
+      "locator": {
+        "file": "R8-5-1.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１５号",
+    "billName": "令和８年度交野市一般会計予算について",
+    "sessionLabel": "令和８年第１回議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R08-1kai.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "かたの市議会だより 令和8年5月1日号 pp.3–6「一般質問（令和８年第１回議会定例会）」の会派ごとの見出し（会派名と所属議員）",
+  "resultTitle": "令和８年第１回議会定例会 議決結果一覧"
+}

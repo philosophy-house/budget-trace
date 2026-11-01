@@ -1,0 +1,50 @@
+{
+  "sourceId": "kure-shigikai-r8",
+  "files": [
+    {
+      "filename": "kure_kaihameibo_warp20260304.html",
+      "sha256": "aecfbe068fa865a622565f342a995673d4105ad7170002057587ab7d192c3a62",
+      "bytes": 27279,
+      "fetchedAt": "2026-10-31T17:46:52.058Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260305/20260304014634id_/https://www.city.kure.lg.jp/site/gikai/kaihameibo.html"
+    },
+    {
+      "filename": "kure_gian-shingikekka-0803.html",
+      "sha256": "892c365208071aa4c4cf8e85b285b6491ee3ef391dcc654d7aba45ec9c7951f4",
+      "bytes": 56358,
+      "fetchedAt": "2026-10-31T17:46:52.059Z",
+      "fetchedFrom": "https://www.city.kure.lg.jp/site/gikai/gian-oyobi-shingikekka-0803.html"
+    },
+    {
+      "filename": "kure_vod_R080324.html",
+      "sha256": "766264d25aa44df360e48a7f03f023cc922dc92636dcf181ae1d2e634bffdde9",
+      "bytes": 6384,
+      "fetchedAt": "2026-10-31T17:46:52.059Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/kure-vod/cgi-bin4/GetHTML.exe?oq14zhb47bbo2qosz2/R080324_00TEIREI.html/0/10/1/0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "kure_r8-teirei0803-hiwari.html",
+      "sha256": "8cf2da6db455465d645f62129f267b732241f82c30e839cffce3639cd9ac144a",
+      "bytes": 42105,
+      "fetchedAt": "2026-10-31T17:46:52.059Z",
+      "fetchedFrom": "https://www.city.kure.lg.jp/site/gikai/r8-teirei0803-hiwari.html"
+    },
+    {
+      "filename": "kure_109543.pdf",
+      "sha256": "c6602c33b92f06924d05cf542e762dee541bda6c39f0b7bba1d3c6e52f519c5b",
+      "bytes": 186277,
+      "fetchedAt": "2026-10-31T17:46:52.060Z",
+      "fetchedFrom": "https://www.city.kure.lg.jp/uploaded/attachment/109543.pdf"
+    },
+    {
+      "filename": "kure_sigikaikousei.html",
+      "sha256": "75a6c59fb5ec62082da6b639d4b0a7d238db6f11ee9cada9ea167841f755fd27",
+      "bytes": 20607,
+      "fetchedAt": "2026-10-31T17:46:52.060Z",
+      "fetchedFrom": "https://www.city.kure.lg.jp/site/gikai/sigikaikousei.html"
+    }
+  ]
+}

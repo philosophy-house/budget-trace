@@ -1,0 +1,134 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ishinomaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:04.044Z",
+  "fiscalYear": "R8",
+  "body": "石巻市議会",
+  "seats": 30,
+  "asOf": "2025-05-29",
+  "teisu": 30,
+  "factions": [
+    {
+      "name": "ニュー石巻",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "奥山浩幸",
+        "阿部久一",
+        "阿部浩章",
+        "千葉正幸",
+        "丹野清",
+        "安倍太郎",
+        "早川俊弘"
+      ],
+      "locator": {
+        "file": "ishinomaki_kaiha_warp20260108.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "石巻颯（はやて）の会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "後藤兼位",
+        "阿部正敏",
+        "山口荘一郎",
+        "宇都宮弘和",
+        "我妻久美子",
+        "谷祐輔",
+        "西條正昭"
+      ],
+      "locator": {
+        "file": "ishinomaki_kaiha_warp20260108.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日高見会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "星雅俊",
+        "阿部和芳",
+        "都甲マリ子",
+        "楯石光弘"
+      ],
+      "locator": {
+        "file": "ishinomaki_kaiha_warp20260108.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "渡辺拓朗",
+        "櫻田誠子",
+        "鈴木良広"
+      ],
+      "locator": {
+        "file": "ishinomaki_kaiha_warp20260108.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "石巻あかつきの会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "木村美輝",
+        "勝又和宣",
+        "原田豊"
+      ],
+      "locator": {
+        "file": "ishinomaki_kaiha_warp20260108.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "石巻市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大森秀一",
+        "高橋憲悦"
+      ],
+      "locator": {
+        "file": "ishinomaki_kaiha_warp20260108.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "佐藤雄一",
+        "阿部正春",
+        "齋藤澄子",
+        "遠藤宏昭"
+      ],
+      "locator": {
+        "file": "ishinomaki_kaiha_warp20260108.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第22号議案",
+    "billName": "令和8年度石巻市一般会計予算",
+    "sessionLabel": "令和8年　第1回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "ishinomaki_20260323104836.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（更新日 2025年5月29日）の国立国会図書館 WARP の捕捉（2026-01-08・議決前）",
+  "resultTitle": "令和8年　第1回定例会　議案一覧・議決結果"
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "hokkaido-do-gikai-r8",
+  "files": [
+    {
+      "filename": "hokkaido_senkyoku-kaiha_20260226.pdf",
+      "sha256": "1ca40d7f4d4ef31024c5f049e506473b3bd2d307798a269bd7509ec73198dadc",
+      "bytes": 191908,
+      "fetchedAt": "2026-10-31T17:35:00.050Z",
+      "fetchedFrom": "https://web.archive.org/web/20260401115403id_/https://www.gikai.pref.hokkaido.lg.jp/fs/1/3/0/4/6/4/3/7/_/senkyoku-kaiha(20260226).pdf"
+    },
+    {
+      "filename": "hokkaido_minnanodougikai_No37.pdf",
+      "sha256": "97925123702f06549deb0b6b90faba1b76d014cebdb4fce769d3c980d3288d83",
+      "bytes": 2543364,
+      "fetchedAt": "2026-10-31T17:35:00.053Z",
+      "fetchedFrom": "http://www03.gikai.pref.hokkaido.jp/minnnano/2026_07/minnanodougikai_No37_look01.pdf"
+    },
+    {
+      "filename": "hokkaido_gian_shoribo_r8-1t.pdf",
+      "sha256": "d613ff94994af93dec1002db5ab5b41d238c9bcf51082ad0f4c49417cb5dbb09",
+      "bytes": 111198,
+      "fetchedAt": "2026-10-31T17:35:00.053Z",
+      "fetchedFrom": "https://www.gikai.pref.hokkaido.lg.jp/fs/1/3/1/0/3/6/5/9/_/01_%E8%AD%B0%E6%A1%88%E5%87%A6%E7%90%86%E7%B0%BF.pdf"
+    }
+  ]
+}

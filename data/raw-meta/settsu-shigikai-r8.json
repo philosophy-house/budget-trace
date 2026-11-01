@@ -1,0 +1,42 @@
+{
+  "sourceId": "settsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "settsu_244.pdf",
+      "sha256": "9083980410c0dfd1f98a200f1600f5d810c486f478f612a9c555a20c050ed77d",
+      "bytes": 6492942,
+      "fetchedAt": "2026-10-31T17:39:39.222Z",
+      "fetchedFrom": "http://www2.city.settsu.osaka.jp/gikai/dayori/gikaidayori/244.pdf"
+    },
+    {
+      "filename": "settsu_giketsukekka_ippankaikeiyosan.html",
+      "sha256": "91552d84edd95c0ebe882f86d1aa31b8b1b65de3c7d479b2030cad1f78fe356d",
+      "bytes": 27391,
+      "fetchedAt": "2026-10-31T17:39:39.223Z",
+      "fetchedFrom": "http://www2.city.settsu.osaka.jp/gikai/giketsukekka.php?keyword=%E4%B8%80%E8%88%AC%E4%BC%9A%E8%A8%88%E4%BA%88%E7%AE%97&-op=cn&-Find=%E6%A4%9C%E7%B4%A2",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "settsu_kaihameibo_20260301052655.html",
+      "sha256": "694cd44a036b00339ac5f0b982253f1b0c428a22f3ace2aba84075e630e3aaa6",
+      "bytes": 26443,
+      "fetchedAt": "2026-10-31T17:39:39.224Z",
+      "fetchedFrom": "https://web.archive.org/web/20260301052655id_/http://www2.city.settsu.osaka.jp/gikai/kaihameibo.php",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "settsu_guide.html",
+      "sha256": "229449c5e4aeafa394c1f67ca7c1ef8b0d0315c8014cff611b7eff736da67634",
+      "bytes": 42874,
+      "fetchedAt": "2026-10-31T17:39:39.224Z",
+      "fetchedFrom": "http://www2.city.settsu.osaka.jp/gikai/guide.php",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

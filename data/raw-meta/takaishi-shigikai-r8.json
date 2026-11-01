@@ -1,0 +1,26 @@
+{
+  "sourceId": "takaishi-shigikai-r8",
+  "files": [
+    {
+      "filename": "229.pdf",
+      "sha256": "5360dfd0f046bf7a94c0c2b445455a0d1afc35a0637d6d85dfc36270b0052683",
+      "bytes": 2055114,
+      "fetchedAt": "2026-10-31T17:39:39.195Z",
+      "fetchedFrom": "https://www.gijiroku.jp/takaishi/dayori_pdf/229.pdf"
+    },
+    {
+      "filename": "231.pdf",
+      "sha256": "d7b94eb93dd85ac231118651412252bd46c5e6e8917a340a59d85910eb29cd88",
+      "bytes": 1042169,
+      "fetchedAt": "2026-10-31T17:39:39.196Z",
+      "fetchedFrom": "https://www.gijiroku.jp/takaishi/dayori_pdf/231.pdf"
+    },
+    {
+      "filename": "k227RG00000024.html",
+      "sha256": "128e17f0c580d0ea737c6ccb870131ec2ed09d7ab0573c447b0095e81da37ef0",
+      "bytes": 8889,
+      "fetchedAt": "2026-10-31T17:39:39.196Z",
+      "fetchedFrom": "https://www.city.takaishi.lg.jp/section/reiki_int/reiki_honbun/k227RG00000024.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "osaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "osaki_21369_warp20260109.html",
+      "sha256": "79f23a0265aa51028e04df519c62f6d6e73c0e3cdf75d1a4fb77bcc49bd4c2c8",
+      "bytes": 62750,
+      "fetchedAt": "2026-10-31T17:35:00.074Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260110/20260109010432id_/https://www.city.osaki.miyagi.jp/shisei/shiseijoho/sigikai/21369.html"
+    },
+    {
+      "filename": "osaki_21924.html",
+      "sha256": "9e5d7736953a57f6afdda9b47a3f2530ee4fc522f7f1c67f6f84a2e0e29ee4fe",
+      "bytes": 95612,
+      "fetchedAt": "2026-10-31T17:35:00.074Z",
+      "fetchedFrom": "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/gikaijimukyoku/7/reiwa6shingi_2/21924.html"
+    },
+    {
+      "filename": "osaki_21922.html",
+      "sha256": "89b080f8616d9047f77aaee08602a0147ca72cf4d558b2bda5a4a7133b32abc0",
+      "bytes": 58983,
+      "fetchedAt": "2026-10-31T17:35:00.074Z",
+      "fetchedFrom": "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/gikaijimukyoku/7/reiwa6shingi_2/21922.html"
+    }
+  ]
+}

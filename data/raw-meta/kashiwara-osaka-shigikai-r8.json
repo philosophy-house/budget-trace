@@ -1,0 +1,36 @@
+{
+  "sourceId": "kashiwara-osaka-shigikai-r8",
+  "files": [
+    {
+      "filename": "file_2025106191030_1.pdf",
+      "sha256": "538a02d56307c3e8891043368d3609cba830e312d6b4115ee0593fecf5f16f4e",
+      "bytes": 76686,
+      "fetchedAt": "2026-10-31T17:39:39.208Z",
+      "fetchedFrom": "https://www.city.kashiwara.lg.jp/docs/2017092500033/file_contents/file_2025106191030_1.pdf"
+    },
+    {
+      "filename": "2017092500033_20260307065003.html",
+      "sha256": "1d742fc49c43504927264f866aea66aa59ebbe0beda672e7afc3b8df3ac85fcf",
+      "bytes": 27457,
+      "fetchedAt": "2026-10-31T17:39:39.209Z",
+      "fetchedFrom": "https://web.archive.org/web/20260307065003id_/https://www.city.kashiwara.lg.jp/docs/2017092500033/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "file_2026326410367_1.pdf",
+      "sha256": "dcca7fbee8f6624640beae1572d53c76118e3739337cd5101917ab0b3447bb63",
+      "bytes": 148104,
+      "fetchedAt": "2026-10-31T17:39:39.209Z",
+      "fetchedFrom": "https://www.city.kashiwara.lg.jp/docs/2020111200043/file_contents/file_2026326410367_1.pdf"
+    },
+    {
+      "filename": "file_20264201151049_1.pdf",
+      "sha256": "1e493e8f16ea51eeca5b962e7a42a98c0a351b7b369195d22611cd9401c37bee",
+      "bytes": 945024,
+      "fetchedAt": "2026-10-31T17:39:39.210Z",
+      "fetchedFrom": "https://www.city.kashiwara.lg.jp/docs/2022122300033/file_contents/file_20264201151049_1.pdf"
+    }
+  ]
+}

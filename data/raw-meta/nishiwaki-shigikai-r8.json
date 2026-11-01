@@ -1,0 +1,39 @@
+{
+  "sourceId": "nishiwaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "nishiwaki_R71125kaihakousei-2.pdf",
+      "sha256": "7f42a1cd12c6addafcc41914756bec7224e314fd3b079917c340c6747520a844",
+      "bytes": 76734,
+      "fetchedAt": "2026-10-31T17:39:39.224Z",
+      "fetchedFrom": "https://www.city.nishiwaki.lg.jp/material/files/group/23/R71125kaihakousei-2.pdf"
+    },
+    {
+      "filename": "nishiwaki_GetText3_R080324A_0.html",
+      "sha256": "142f7f9bb112cd25c8a0a0e49559eee3022585f8ce69b658757c8dcf9989e52b",
+      "bytes": 4962,
+      "fetchedAt": "2026-10-31T17:39:39.225Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/nishiwaki/cgi-bin3/GetText3.exe?50679759hycqmtwuze/R080324A/0/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "nishiwaki_GetText3_R080324A_58990.html",
+      "sha256": "326c62c1d50bbadab69a10e8fc0c8e4ff42179053ba74148d1d544487f36797d",
+      "bytes": 1675,
+      "fetchedAt": "2026-10-31T17:39:39.225Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/nishiwaki/cgi-bin3/GetText3.exe?50679759hycqmtwuze/R080324A/58990/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "nishiwaki_reiki_H420901010029_j.html",
+      "sha256": "a17a665e4c980b26bb9b3148b1efdf1f6778b44ee35123493f229f5cd8abca78",
+      "bytes": 10745,
+      "fetchedAt": "2026-10-31T17:39:39.225Z",
+      "fetchedFrom": "https://en3-jg.d1-law.com/nishiwaki/d1w_reiki/H420901010029/H420901010029_j.html"
+    }
+  ]
+}

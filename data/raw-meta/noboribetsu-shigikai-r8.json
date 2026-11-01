@@ -1,0 +1,35 @@
+{
+  "sourceId": "noboribetsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "noboribetsu_kaiha_20251005.html",
+      "sha256": "e514e6e0e64f69517d6632e3c2f06e1594e4c0fd177cdf92e2eb32a241f6ec85",
+      "bytes": 55156,
+      "fetchedAt": "2026-10-31T17:35:00.065Z",
+      "fetchedFrom": "https://web.archive.org/web/20251005191018id_/https://www.noboribetsu-shigikai.org/%E6%94%BF%E5%8B%99%E6%B4%BB%E5%8B%95%E5%85%AC%E9%96%8B/%E4%BC%9A%E6%B4%BE%E5%88%A5%E8%AD%B0%E5%93%A1%E4%B8%80%E8%A6%A7/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "noboribetsu_R8-1_giketsu.pdf",
+      "sha256": "2f40672521d789fcde2d933c6f61263c0a65558a1f787403d938fbd50362ef91",
+      "bytes": 158739,
+      "fetchedAt": "2026-10-31T17:35:00.065Z",
+      "fetchedFrom": "https://drive.google.com/uc?export=download&id=1S8hYrG3uVmsfoLglO0IsLFEPwXBFTIdl",
+      "transform": [
+        "ext:.pdf"
+      ]
+    },
+    {
+      "filename": "noboribetsu_giin_20250708.html",
+      "sha256": "b8d1ea18bde955a6f8ff0a9c8004cf3f284f0988ae8413f882d9f217105d79e9",
+      "bytes": 82603,
+      "fetchedAt": "2026-10-31T17:35:00.065Z",
+      "fetchedFrom": "https://web.archive.org/web/20250708045542id_/https://www.noboribetsu-shigikai.org/%E8%AD%B0%E5%93%A1%E3%81%AE%E7%B4%B9%E4%BB%8B-1/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

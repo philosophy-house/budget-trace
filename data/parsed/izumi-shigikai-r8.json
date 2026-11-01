@@ -1,0 +1,280 @@
+{
+  "docType": "council-composition",
+  "sourceId": "izumi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:40.096Z",
+  "fiscalYear": "R8",
+  "body": "和泉市議会",
+  "seats": 24,
+  "asOf": "2025-10-03",
+  "teisu": 24,
+  "factions": [
+    {
+      "name": "市民未来の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "谷上昇",
+        "大浦まさし",
+        "小野林治三夫"
+      ],
+      "locator": {
+        "file": "071003kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "垰田英伸",
+        "大坪靖",
+        "阿部博",
+        "吉川茂樹",
+        "末下広幸"
+      ],
+      "locator": {
+        "file": "071003kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "明政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "坂本健治",
+        "友田博文",
+        "スペル・デルフィン",
+        "山本秀明"
+      ],
+      "locator": {
+        "file": "071003kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "原重樹",
+        "早乙女実"
+      ],
+      "locator": {
+        "file": "071003kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "五月会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "浜田千秋",
+        "森久往",
+        "関戸繁樹",
+        "松田義人"
+      ],
+      "locator": {
+        "file": "071003kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "井阪雄大",
+        "岡田勉",
+        "飯阪光典"
+      ],
+      "locator": {
+        "file": "071003kaihameibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に所属しない",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "遠藤隆志",
+        "北川美穂",
+        "小林昌子"
+      ],
+      "locator": {
+        "file": "071003kaihameibo.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案 ３",
+    "billName": "令和８年度和泉市一般会計予算",
+    "sessionLabel": "令和８年和泉市議会第１回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8.1giketsu.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派名簿（令和７年１０月３日現在）",
+  "resultTitle": "令和８年和泉市議会第１回定例会議決結果表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年和泉市議会第１回定例会 議員の賛否",
+    "sourceFile": "R8.1sanpi.pdf",
+    "columns": [
+      {
+        "label": "谷上昇",
+        "faction": "市民未来の会",
+        "member": "谷上昇",
+        "stance": "賛成"
+      },
+      {
+        "label": "大浦まさし",
+        "faction": "市民未来の会",
+        "member": "大浦まさし",
+        "stance": "賛成"
+      },
+      {
+        "label": "小野林治三夫",
+        "faction": "市民未来の会",
+        "member": "小野林治三夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "垰田英伸",
+        "faction": "公明党",
+        "member": "垰田英伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "大坪靖",
+        "faction": "公明党",
+        "member": "大坪靖",
+        "stance": "賛成"
+      },
+      {
+        "label": "阿部博",
+        "faction": "公明党",
+        "member": "阿部博",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉川茂樹",
+        "faction": "公明党",
+        "member": "吉川茂樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "末下広幸",
+        "faction": "公明党",
+        "member": "末下広幸",
+        "stance": "欠席"
+      },
+      {
+        "label": "坂本健治",
+        "faction": "明政会",
+        "member": "坂本健治",
+        "stance": "賛成"
+      },
+      {
+        "label": "友田博文",
+        "faction": "明政会",
+        "member": "友田博文",
+        "stance": "賛成"
+      },
+      {
+        "label": "スペル・デルフィン",
+        "faction": "明政会",
+        "member": "スペル・デルフィン",
+        "stance": "賛成"
+      },
+      {
+        "label": "原重樹",
+        "faction": "日本共産党",
+        "member": "原重樹",
+        "stance": "反対"
+      },
+      {
+        "label": "早乙女実",
+        "faction": "日本共産党",
+        "member": "早乙女実",
+        "stance": "反対"
+      },
+      {
+        "label": "浜田千秋",
+        "faction": "五月会",
+        "member": "浜田千秋",
+        "stance": "賛成"
+      },
+      {
+        "label": "森久往",
+        "faction": "五月会",
+        "member": "森久往",
+        "stance": "賛成"
+      },
+      {
+        "label": "関戸繁樹",
+        "faction": "五月会",
+        "member": "関戸繁樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "松田義人",
+        "faction": "五月会",
+        "member": "松田義人",
+        "stance": "賛成"
+      },
+      {
+        "label": "井阪雄大",
+        "faction": "大阪維新の会",
+        "member": "井阪雄大",
+        "stance": "反対"
+      },
+      {
+        "label": "岡田勉",
+        "faction": "大阪維新の会",
+        "member": "岡田勉",
+        "stance": "反対"
+      },
+      {
+        "label": "飯阪光典",
+        "faction": "大阪維新の会",
+        "member": "飯阪光典",
+        "stance": "反対"
+      },
+      {
+        "label": "遠藤隆志",
+        "faction": "会派に所属しない",
+        "member": "遠藤隆志",
+        "stance": "賛成"
+      },
+      {
+        "label": "北川美穂",
+        "faction": "会派に所属しない",
+        "member": "北川美穂",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林昌子",
+        "faction": "会派に所属しない",
+        "member": "小林昌子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本秀明",
+        "faction": "明政会",
+        "member": "山本秀明",
+        "stance": "議長"
+      }
+    ]
+  }
+}

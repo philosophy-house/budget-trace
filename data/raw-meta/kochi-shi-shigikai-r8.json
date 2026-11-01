@@ -1,0 +1,33 @@
+{
+  "sourceId": "kochi-shi-shigikai-r8",
+  "files": [
+    {
+      "filename": "kochi-kaiha-meibo-r080217-warp.pdf",
+      "sha256": "310f2e010fdcc806f4faf1c2c4c826508024bb47559d9c3437087fbce71bcbb2",
+      "bytes": 87298,
+      "fetchedAt": "2026-10-31T17:46:52.056Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260306/20260304020600/https://www.city.kochi.kochi.jp/uploaded/life/249642_1035262_misc.pdf"
+    },
+    {
+      "filename": "kochi-512-giketsu-sanpi.pdf",
+      "sha256": "6e722d1900c38dc5217a2ce7acc972ae5b81d79aa54f9685abdc31e9b95e315e",
+      "bytes": 92107,
+      "fetchedAt": "2026-10-31T17:46:52.057Z",
+      "fetchedFrom": "https://www.city.kochi.kochi.jp/uploaded/life/258505_1108665_misc.pdf"
+    },
+    {
+      "filename": "kochi-teirei512.html",
+      "sha256": "7397d556dea95be7651ca207601adbc95e06eeb8683be5d38e9482518d0b2dd2",
+      "bytes": 49478,
+      "fetchedAt": "2026-10-31T17:46:52.057Z",
+      "fetchedFrom": "https://www.city.kochi.kochi.jp/soshiki/97/teirei512.html"
+    },
+    {
+      "filename": "kochi-yosan08-wb20260326.html",
+      "sha256": "9cf7a58b357ea4560ea1784685c76bb631fc818aadbefdfc216cbf21d6eaad12",
+      "bytes": 28114,
+      "fetchedAt": "2026-10-31T17:46:52.058Z",
+      "fetchedFrom": "https://web.archive.org/web/20260326161205id_/https://www.city.kochi.kochi.jp/soshiki/3/yosan08.html"
+    }
+  ]
+}

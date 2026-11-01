@@ -1,0 +1,276 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ebetsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T21:46:42.277Z",
+  "fiscalYear": "R8",
+  "body": "江別市議会",
+  "seats": 25,
+  "asOf": "2025-06-11",
+  "teisu": 25,
+  "factions": [
+    {
+      "name": "政和会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "島田泰美",
+        "石田武史",
+        "野村和宏",
+        "高間専逸",
+        "野村尚志",
+        "芳賀理己",
+        "藤城正興"
+      ],
+      "locator": {
+        "file": "8025_20260123072452.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "奥野妙子",
+        "長田旭輝",
+        "三吉芳枝",
+        "石川麻美",
+        "徳田哲"
+      ],
+      "locator": {
+        "file": "8025_20260123072452.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "民主・市民の会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "佐々木聖子",
+        "稲守耕司",
+        "吉田美幸",
+        "内山祥弘",
+        "干場芳子"
+      ],
+      "locator": {
+        "file": "8025_20260123072452.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "えべつ地域創生の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "岡英彦",
+        "猪股美香",
+        "鈴木誠",
+        "本間憲一"
+      ],
+      "locator": {
+        "file": "8025_20260123072452.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "吉本和子",
+        "高橋典子"
+      ],
+      "locator": {
+        "file": "8025_20260123072452.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "岩田優太",
+        "髙柳理紗"
+      ],
+      "locator": {
+        "file": "8025_20260123072452.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２３号",
+    "billName": "令和８年度江別市一般会計予算",
+    "sessionLabel": "令和８年第１回江別市議会定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "81735.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "会派（令和7年6月11日現在）",
+  "resultTitle": "令和８年第１回江別市議会定例会議決結果表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年 第１回定例会 議案等に係る賛否の結果",
+    "sourceFile": "80696.pdf",
+    "columns": [
+      {
+        "label": "石田武史",
+        "faction": "政和会",
+        "member": "石田武史",
+        "stance": "賛成"
+      },
+      {
+        "label": "島田泰美",
+        "faction": "政和会",
+        "member": "島田泰美",
+        "stance": "賛成"
+      },
+      {
+        "label": "高間専逸",
+        "faction": "政和会",
+        "member": "高間専逸",
+        "stance": "賛成"
+      },
+      {
+        "label": "野村和宏",
+        "faction": "政和会",
+        "member": "野村和宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "芳賀理己",
+        "faction": "政和会",
+        "member": "芳賀理己",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤城正興",
+        "faction": "政和会",
+        "member": "藤城正興",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川麻美",
+        "faction": "公明党",
+        "member": "石川麻美",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥野妙子",
+        "faction": "公明党",
+        "member": "奥野妙子",
+        "stance": "賛成"
+      },
+      {
+        "label": "長田旭輝",
+        "faction": "公明党",
+        "member": "長田旭輝",
+        "stance": "賛成"
+      },
+      {
+        "label": "徳田哲",
+        "faction": "公明党",
+        "member": "徳田哲",
+        "stance": "賛成"
+      },
+      {
+        "label": "三吉芳枝",
+        "faction": "公明党",
+        "member": "三吉芳枝",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲守耕司",
+        "faction": "民主・市民の会",
+        "member": "稲守耕司",
+        "stance": "賛成"
+      },
+      {
+        "label": "内山祥弘",
+        "faction": "民主・市民の会",
+        "member": "内山祥弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐々木聖子",
+        "faction": "民主・市民の会",
+        "member": "佐々木聖子",
+        "stance": "賛成"
+      },
+      {
+        "label": "干場芳子",
+        "faction": "民主・市民の会",
+        "member": "干場芳子",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田美幸",
+        "faction": "民主・市民の会",
+        "member": "吉田美幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "猪股美香",
+        "faction": "えべつ地域創生の会",
+        "member": "猪股美香",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡英彦",
+        "faction": "えべつ地域創生の会",
+        "member": "岡英彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木誠",
+        "faction": "えべつ地域創生の会",
+        "member": "鈴木誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "本間憲一",
+        "faction": "えべつ地域創生の会",
+        "member": "本間憲一",
+        "stance": "賛成"
+      },
+      {
+        "label": "高橋典子",
+        "faction": "日本共産党議員団",
+        "member": "高橋典子",
+        "stance": "反対"
+      },
+      {
+        "label": "吉本和子",
+        "faction": "日本共産党議員団",
+        "member": "吉本和子",
+        "stance": "反対"
+      },
+      {
+        "label": "岩田優太",
+        "faction": "無所属",
+        "member": "岩田優太",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙柳理紗",
+        "faction": "無所属",
+        "member": "髙柳理紗",
+        "stance": "賛成"
+      },
+      {
+        "label": "野村尚志",
+        "faction": "政和会",
+        "member": "野村尚志",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kushiro-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:03.606Z",
+  "fiscalYear": "R8",
+  "body": "釧路市議会",
+  "seats": 24,
+  "asOf": "2025-11-04",
+  "factions": [
+    {
+      "name": "自民市政クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "大澤恵介",
+        "髙橋一彦",
+        "金安潤子",
+        "山口光信",
+        "夏堀めぐみ",
+        "草島守之"
+      ],
+      "locator": {
+        "file": "1002834_20260218.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "梅津則行",
+        "村上和繁",
+        "西村雅人",
+        "小山秀人"
+      ],
+      "locator": {
+        "file": "1002834_20260218.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "松橋尚文",
+        "河合初恵",
+        "松原慶子",
+        "月田光明"
+      ],
+      "locator": {
+        "file": "1002834_20260218.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民連合議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "宮田団",
+        "板谷昌慶",
+        "木村勇太",
+        "松尾和仁"
+      ],
+      "locator": {
+        "file": "1002834_20260218.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "創志会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大越拓也",
+        "五十嵐誠",
+        "藤井若菜"
+      ],
+      "locator": {
+        "file": "1002834_20260218.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "齋藤賢之",
+        "畑中優周",
+        "木村隼人"
+      ],
+      "locator": {
+        "file": "1002834_20260218.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "3",
+    "billName": "令和８年度釧路市一般会計予算",
+    "sessionLabel": "令和８年第２回釧路市議会２月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "giketsukekka_r8_2t.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "各会派構成表（令和7年11月4日現在）",
+  "resultTitle": "令和８年第２回釧路市議会２月定例会 議決結果表",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "令和８年第２回釧路市議会２月定例会 議決結果表（賛否が分かれたもの）",
+    "sourceFile": "giketsukekka_r8_2t.pdf",
+    "columns": [
+      {
+        "label": "自政ク",
+        "faction": "自民市政クラブ",
+        "stance": "賛成"
+      },
+      {
+        "label": "共産党",
+        "faction": "日本共産党議員団",
+        "stance": "反対"
+      },
+      {
+        "label": "公明党",
+        "faction": "公明党議員団",
+        "stance": "賛成"
+      },
+      {
+        "label": "市民連合",
+        "faction": "市民連合議員団",
+        "stance": "賛成"
+      },
+      {
+        "label": "創志会",
+        "faction": "創志会",
+        "stance": "賛成"
+      },
+      {
+        "label": "齋藤",
+        "faction": "無所属",
+        "member": "齋藤賢之",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村",
+        "faction": "無所属",
+        "member": "木村隼人",
+        "stance": "賛成"
+      },
+      {
+        "label": "畑中優周",
+        "faction": "無所属",
+        "member": "畑中優周",
+        "stance": "議長"
+      }
+    ]
+  }
+}

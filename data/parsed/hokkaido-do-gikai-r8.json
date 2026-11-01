@@ -1,0 +1,190 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hokkaido-do-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:35:00.408Z",
+  "fiscalYear": "R8",
+  "body": "北海道議会",
+  "seats": 97,
+  "asOf": "2026-02-26",
+  "factions": [
+    {
+      "name": "自民党・道民会議",
+      "seats": 52,
+      "isIndependent": false,
+      "members": [
+        "千葉真裕",
+        "檜垣尚子",
+        "道見泰憲",
+        "渡邊靖司",
+        "伊藤条一",
+        "花崎勝",
+        "大越農子",
+        "吉田祐樹",
+        "宮下准一",
+        "丸岩浩二",
+        "和田敬太",
+        "武市尚子",
+        "藤井辰吉",
+        "冨原亮",
+        "佐藤禎洋",
+        "木下雅之",
+        "林祐作",
+        "安住太伸",
+        "千葉英也",
+        "伊東尚悟",
+        "村田光成",
+        "清水拓也",
+        "船橋賢二",
+        "村木中",
+        "板谷よしひさ",
+        "吉田正人",
+        "中野秀敏",
+        "松浦宗信",
+        "太田憲之",
+        "早坂貴敏",
+        "田中芳憲",
+        "髙田真次",
+        "鶴羽芳代子",
+        "滝口直人",
+        "植村真美",
+        "佐々木大介",
+        "村田憲俊",
+        "戸田安彦",
+        "小林雄志",
+        "藤沢澄雄",
+        "前田一男",
+        "内田尊之",
+        "今津寬史",
+        "水間健太",
+        "浅野貴博",
+        "三好雅",
+        "髙橋文明",
+        "久保秋雄太",
+        "黒田栄継",
+        "喜多龍一",
+        "桐木茂雄",
+        "中司哲雄"
+      ],
+      "locator": {
+        "file": "hokkaido_senkyoku-kaiha_20260226.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民主・道民連合",
+      "seats": 26,
+      "isIndependent": false,
+      "members": [
+        "田中勝一",
+        "山根まさひろ",
+        "渕上綾子",
+        "広田まゆみ",
+        "菅原和忠",
+        "松山丈史",
+        "梶谷大志",
+        "畠山みのり",
+        "武田浩光",
+        "清水敬弘",
+        "高橋亨",
+        "平出陽子",
+        "川澄宗之介",
+        "宮崎アカネ",
+        "岡田遼",
+        "鈴木仁志",
+        "鈴木一磨",
+        "中川浩利",
+        "沖田清志",
+        "木葉淳",
+        "小林千代美",
+        "稲村久男",
+        "池端英昭",
+        "市橋修治",
+        "笹田浩",
+        "小泉真志"
+      ],
+      "locator": {
+        "file": "hokkaido_senkyoku-kaiha_20260226.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "北海道結志会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "石川さわ子",
+        "滝口信喜",
+        "佐藤伸弥",
+        "水口典一",
+        "赤根広介",
+        "白川祥二",
+        "新沼透",
+        "池本柳次"
+      ],
+      "locator": {
+        "file": "hokkaido_senkyoku-kaiha_20260226.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "中野渡志穂",
+        "阿知良寛美",
+        "森成之",
+        "海野真樹",
+        "寺島信寿",
+        "田中英樹",
+        "中村守",
+        "荒当聖吾"
+      ],
+      "locator": {
+        "file": "hokkaido_senkyoku-kaiha_20260226.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "丸山はるみ",
+        "真下紀子"
+      ],
+      "locator": {
+        "file": "hokkaido_senkyoku-kaiha_20260226.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "北海道維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山崎真由美"
+      ],
+      "locator": {
+        "file": "hokkaido_senkyoku-kaiha_20260226.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 １ 号",
+    "billName": "令和８年度北海道一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hokkaido_minnanodougikai_No37.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "第32期北海道議会議員選挙区別・会派別一覧（令和8年2月26日・議決後 2026-04-01 の魚拓）",
+  "resultTitle": "みんなの道議会 No.37（2026年7月8日発行）p.2「主な議決の状況」"
+}

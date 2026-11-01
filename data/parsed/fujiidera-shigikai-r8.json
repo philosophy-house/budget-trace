@@ -1,0 +1,210 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fujiidera-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:42.285Z",
+  "fiscalYear": "R8",
+  "body": "藤井寺市議会",
+  "seats": 14,
+  "asOf": "2026-03-24",
+  "teisu": 14,
+  "factions": [
+    {
+      "name": "改革ふじいでら",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山本忠司",
+        "畑謙太朗",
+        "横山太喜"
+      ],
+      "locator": {
+        "file": "ginbetu_giketukka_0324.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "片山敬子",
+        "伊藤政一",
+        "水谷雄路"
+      ],
+      "locator": {
+        "file": "ginbetu_giketukka_0324.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松木洋介",
+        "河井計実"
+      ],
+      "locator": {
+        "file": "ginbetu_giketukka_0324.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政新クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "國下尊央",
+        "岡本光"
+      ],
+      "locator": {
+        "file": "ginbetu_giketukka_0324.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "木下誇",
+        "長尾匡浩"
+      ],
+      "locator": {
+        "file": "ginbetu_giketukka_0324.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（花崎由貴子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "花崎由貴子"
+      ],
+      "locator": {
+        "file": "ginbetu_giketukka_0324.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（生田達也）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "生田達也"
+      ],
+      "locator": {
+        "file": "ginbetu_giketukka_0324.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第16号",
+    "billName": "令和8年度藤井寺市一般会計予算について",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "ginbetu_giketukka_0324.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和8年第1回定例会議決結果一覧（議員別議決結果一覧・議決当日の会派・議員名の表頭）",
+  "resultTitle": "令和8年第1回定例会 議決結果（議員別議決結果一覧）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第1回定例会 議決結果（議員別議決結果一覧）",
+    "sourceFile": "ginbetu_giketukka_0324.pdf",
+    "columns": [
+      {
+        "label": "畑謙太朗",
+        "faction": "改革ふじいでら",
+        "member": "畑謙太朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "横山太喜",
+        "faction": "改革ふじいでら",
+        "member": "横山太喜",
+        "stance": "賛成"
+      },
+      {
+        "label": "片山敬子",
+        "faction": "公明党",
+        "member": "片山敬子",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤政一",
+        "faction": "公明党",
+        "member": "伊藤政一",
+        "stance": "賛成"
+      },
+      {
+        "label": "水谷雄路",
+        "faction": "公明党",
+        "member": "水谷雄路",
+        "stance": "賛成"
+      },
+      {
+        "label": "松木洋介",
+        "faction": "大阪維新の会",
+        "member": "松木洋介",
+        "stance": "賛成"
+      },
+      {
+        "label": "河井計実",
+        "faction": "大阪維新の会",
+        "member": "河井計実",
+        "stance": "賛成"
+      },
+      {
+        "label": "國下尊央",
+        "faction": "政新クラブ",
+        "member": "國下尊央",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡本光",
+        "faction": "政新クラブ",
+        "member": "岡本光",
+        "stance": "賛成"
+      },
+      {
+        "label": "木下誇",
+        "faction": "日本共産党",
+        "member": "木下誇",
+        "stance": "反対"
+      },
+      {
+        "label": "長尾匡浩",
+        "faction": "日本共産党",
+        "member": "長尾匡浩",
+        "stance": "反対"
+      },
+      {
+        "label": "花崎由貴子",
+        "faction": "無会派（花崎由貴子）",
+        "member": "花崎由貴子",
+        "stance": "賛成"
+      },
+      {
+        "label": "生田達也",
+        "faction": "無会派（生田達也）",
+        "member": "生田達也",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本忠司",
+        "faction": "改革ふじいでら",
+        "member": "山本忠司",
+        "stance": "議長"
+      }
+    ]
+  }
+}

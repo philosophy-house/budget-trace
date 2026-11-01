@@ -1,0 +1,155 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kagawa-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:47:00.529Z",
+  "fiscalYear": "R8",
+  "body": "香川県議会",
+  "seats": 40,
+  "asOf": "2025-06-30",
+  "teisu": 41,
+  "factions": [
+    {
+      "name": "自由民主党香川県政会",
+      "seats": 21,
+      "isIndependent": false,
+      "members": [
+        "植條敬介",
+        "氏家孝志",
+        "氏家寿士",
+        "大山一郎",
+        "岡野朱里子",
+        "尾崎道広",
+        "川池秀文",
+        "五所野尾恭一",
+        "里石明敏",
+        "白川和幸",
+        "城本宏",
+        "十河直",
+        "谷久浩一",
+        "天雲千恵美",
+        "友枝俊陽",
+        "新田耕造",
+        "花崎光弘",
+        "松岡里佳",
+        "松原哲也",
+        "宮本欣貞",
+        "山根千佳"
+      ],
+      "locator": {
+        "file": "kagawa_r6_kobetsu.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "香川県議会自由民主党議員会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "鎌田守恭",
+        "斉藤勝範",
+        "平木享",
+        "松本公継",
+        "山田正芳"
+      ],
+      "locator": {
+        "file": "kagawa_r6_kobetsu.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "香川県議会国民民主党議員会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "鏡原慎一郎",
+        "金藤友香理",
+        "五味伸亮",
+        "三木由美子",
+        "山本悟史"
+      ],
+      "locator": {
+        "file": "kagawa_r6_kobetsu.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "立憲・市民派ネット",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "植田真紀",
+        "富野和憲",
+        "米田晴彦",
+        "森裕行"
+      ],
+      "locator": {
+        "file": "kagawa_r6_kobetsu.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "香川県議会公明党議員会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田井久留美",
+        "都築信行"
+      ],
+      "locator": {
+        "file": "kagawa_r6_kobetsu.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本共産党香川県議会議員団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "樫昭二"
+      ],
+      "locator": {
+        "file": "kagawa_r6_kobetsu.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "みらい香川",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "宮岡陽子"
+      ],
+      "locator": {
+        "file": "kagawa_r6_kobetsu.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "香川・せとうちnext",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小泉敦"
+      ],
+      "locator": {
+        "file": "kagawa_r6_kobetsu.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号",
+    "billName": "令和8年度香川県一般会計予算議案",
+    "sessionLabel": "令和8年2月香川県議会定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kagawa_0802_t01.html"
+    }
+  },
+  "rosterTitle": "令和6年度政務活動費収支報告（会派ごとの所属議員・「議員の所属会派は令和7年6月30日現在」）",
+  "resultTitle": "令和8年2月香川県議会定例会議決一覧"
+}
