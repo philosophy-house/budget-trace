@@ -1,0 +1,113 @@
+{
+  "docType": "council-composition",
+  "sourceId": "settsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:44.158Z",
+  "fiscalYear": "R8",
+  "body": "摂津市議会",
+  "seats": 19,
+  "asOf": "2026-03-27",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "大阪維新の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "塚本崇",
+        "峰松由紀子",
+        "光田あまね",
+        "香川良平"
+      ],
+      "locator": {
+        "file": "settsu_244.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "藤浦雅彦",
+        "宇都宮美男",
+        "村上英明",
+        "水谷毅",
+        "南野直司"
+      ],
+      "locator": {
+        "file": "settsu_244.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "増永和起",
+        "安藤薫",
+        "谷口治子"
+      ],
+      "locator": {
+        "file": "settsu_244.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "保守・市民の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "光好博幸",
+        "松本暁彦"
+      ],
+      "locator": {
+        "file": "settsu_244.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "民主市民連合",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "西谷知美",
+        "大川ゆり",
+        "早坂京一朗"
+      ],
+      "locator": {
+        "file": "settsu_244.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "長田知樹",
+        "中川嘉彦"
+      ],
+      "locator": {
+        "file": "settsu_244.pdf",
+        "page": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 1 号",
+    "billName": "令和８年度摂津市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "可決",
+    "locator": {
+      "file": "settsu_244.pdf",
+      "page": 12
+    }
+  },
+  "rosterTitle": "摂津市議会だより No.244（2026.6.1）p.12「第1回定例会議決結果一覧表」の表頭（会派・議員名）",
+  "resultTitle": "摂津市議会だより No.244（2026.6.1）p.12「第1回定例会議決結果一覧表」"
+}

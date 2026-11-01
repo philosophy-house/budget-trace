@@ -1,0 +1,184 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kumatori-chogikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T22:14:46.630Z",
+  "fiscalYear": "R8",
+  "body": "熊取町議会",
+  "seats": 12,
+  "asOf": "2026-03-27",
+  "teisu": 14,
+  "factions": [
+    {
+      "name": "熊取公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "渡辺豊子",
+        "二見裕子"
+      ],
+      "locator": {
+        "file": "kumatori_R7syuusihoukokuzentai.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "熊愛",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "文野慎治",
+        "多和本英一"
+      ],
+      "locator": {
+        "file": "kumatori_R7syuusihoukokuzentai.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "大阪維新の会熊取",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "石井一彰",
+        "長田健太郎"
+      ],
+      "locator": {
+        "file": "kumatori_R7syuusihoukokuzentai.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "田中圭介"
+      ],
+      "locator": {
+        "file": "kumatori_R7syuusihoukokuzentai.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党熊取町会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "坂上巳生男",
+        "江川慶子"
+      ],
+      "locator": {
+        "file": "kumatori_R7syuusihoukokuzentai.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みらい創生",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "河合弘樹",
+        "大林隆昭",
+        "坂上昌史"
+      ],
+      "locator": {
+        "file": "kumatori_R7syuusihoukokuzentai.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第19号",
+    "billName": "令和8年度熊取町一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kumatori_kekka_14819.html"
+    }
+  },
+  "rosterTitle": "令和７年度 議会政務活動費収支報告（会派名・所属議員名の表）",
+  "resultTitle": "議案と会議の結果（令和8年）令和8年3月定例会",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "くまとり議会だより No.73（令和8年5月発行）p.3「議員の態度表明」（態度が分かれたもののみ記載）",
+    "sourceFile": "kumatori_gikaidayori-no73.pdf",
+    "columns": [
+      {
+        "label": "多和本",
+        "faction": "熊愛",
+        "member": "多和本英一",
+        "stance": "賛成"
+      },
+      {
+        "label": "長田",
+        "faction": "大阪維新の会熊取",
+        "member": "長田健太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井",
+        "faction": "大阪維新の会熊取",
+        "member": "石井一彰",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂上昌史",
+        "faction": "みらい創生",
+        "member": "坂上昌史",
+        "stance": "賛成"
+      },
+      {
+        "label": "大林",
+        "faction": "みらい創生",
+        "member": "大林隆昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "河合",
+        "faction": "みらい創生",
+        "member": "河合弘樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂上巳生男",
+        "faction": "日本共産党熊取町会議員団",
+        "member": "坂上巳生男",
+        "stance": "反対"
+      },
+      {
+        "label": "江川",
+        "faction": "日本共産党熊取町会議員団",
+        "member": "江川慶子",
+        "stance": "反対"
+      },
+      {
+        "label": "渡辺",
+        "faction": "熊取公明党",
+        "member": "渡辺豊子",
+        "stance": "賛成"
+      },
+      {
+        "label": "二見",
+        "faction": "熊取公明党",
+        "member": "二見裕子",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中",
+        "faction": "自由民主",
+        "member": "田中圭介",
+        "stance": "賛成"
+      },
+      {
+        "label": "文野慎治",
+        "faction": "熊愛",
+        "member": "文野慎治",
+        "stance": "議長"
+      }
+    ]
+  }
+}

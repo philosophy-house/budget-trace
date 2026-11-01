@@ -1,0 +1,67 @@
+{
+  "sourceId": "tambasasayama-shigikai-r8",
+  "files": [
+    {
+      "filename": "tanbasasayamasigikaikaihameibo6-5-1_20241213115738.pdf",
+      "sha256": "ef3f763e78e3ffef542297f0b39e4533895adf585ce41a19ed26d0dab3ec90a9",
+      "bytes": 188991,
+      "fetchedAt": "2026-10-31T22:13:01.895Z",
+      "fetchedFrom": "https://web.archive.org/web/20241213115738id_/https://www.city.tambasasayama.lg.jp/material/files/group/2/tanbasasayamasigikaikaihameibo6-5-1.pdf"
+    },
+    {
+      "filename": "13110_20251110224009.html",
+      "sha256": "f000c199c5d68dc14776bdf0657eeeb70e7c6bf453178f367a0fbf6ebfd61c2a",
+      "bytes": 34255,
+      "fetchedAt": "2026-10-31T22:13:01.895Z",
+      "fetchedFrom": "https://web.archive.org/web/20251110224009id_/https://www.city.tambasasayama.lg.jp/soshikikarasagasu/gikaijimukyoku/sigikainituite/13110.html"
+    },
+    {
+      "filename": "kaihameibo-reiwa8nen5gatu1niti-.pdf",
+      "sha256": "4e69b760cb5b550d91f8082a747b0bf72ef7a6a7f794c98225da70328827e21e",
+      "bytes": 190446,
+      "fetchedAt": "2026-10-31T22:13:01.896Z",
+      "fetchedFrom": "https://www.city.tambasasayama.lg.jp/material/files/group/2/kaihameibo-reiwa8nen5gatu1niti-.pdf"
+    },
+    {
+      "filename": "1663.html",
+      "sha256": "76a8239f5ed87f4a9eb92eeeadcb0b7866e071d923870e592e5c57f657e3c206",
+      "bytes": 36367,
+      "fetchedAt": "2026-10-31T22:13:01.896Z",
+      "fetchedFrom": "https://www.city.tambasasayama.lg.jp/soshikikarasagasu/gikaijimukyoku/sigikainituite/1663.html"
+    },
+    {
+      "filename": "126-r8-3giketuitiran.pdf",
+      "sha256": "3d7b3af639f471312af81c656afd79b102e649cf9843a8f8d70f1206697f7d58",
+      "bytes": 157206,
+      "fetchedAt": "2026-10-31T22:13:01.896Z",
+      "fetchedFrom": "https://www.city.tambasasayama.lg.jp/material/files/group/2/126-r8-3giketuitiran.pdf"
+    },
+    {
+      "filename": "tanbasasayamashigikaidayoridai118gou.pdf",
+      "sha256": "913f4d9eb7a4260a2291deedf0d73abafffcfcf961f18b9af0206d7e34b5f94d",
+      "bytes": 4849746,
+      "fetchedAt": "2026-10-31T22:13:01.899Z",
+      "fetchedFrom": "https://www.city.tambasasayama.lg.jp/material/files/group/2/tanbasasayamashigikaidayoridai118gou.pdf"
+    },
+    {
+      "filename": "R080325A_184.html",
+      "sha256": "84001b6797b1070136d1f676f544826ab7a37482a4f85f0c7a1f02c8a32b6437",
+      "bytes": 6502,
+      "fetchedAt": "2026-10-31T22:13:01.900Z",
+      "fetchedFrom": "https://kensaku.sasayama.jp/cgi-bin3/GetText3.exe?ypvpvhw7z6s7qz9kda/R080325A/184/10/1/0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "R080325A_97489.html",
+      "sha256": "ec374177d9b19676711e6d775e8206a14ecea74d64f2be7c360302d0fde31e19",
+      "bytes": 621,
+      "fetchedAt": "2026-10-31T22:13:01.900Z",
+      "fetchedFrom": "https://kensaku.sasayama.jp/cgi-bin3/GetText3.exe?ypvpvhw7z6s7qz9kda/R080325A/97489/10/1/0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

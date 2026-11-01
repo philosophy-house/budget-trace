@@ -1,0 +1,213 @@
+{
+  "docType": "council-composition",
+  "sourceId": "izumiotsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:39.750Z",
+  "fiscalYear": "R8",
+  "body": "泉大津市議会",
+  "seats": 16,
+  "asOf": "2025-05-16",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "森下巖",
+        "松本真麗"
+      ],
+      "locator": {
+        "file": "kaiha_2019042400042.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市民未来の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "野田悦子",
+        "井上信久"
+      ],
+      "locator": {
+        "file": "kaiha_2019042400042.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "村岡均",
+        "大塚英一",
+        "丸山直土"
+      ],
+      "locator": {
+        "file": "kaiha_2019042400042.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "大阪維新の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "堀口陽一",
+        "黒川俊明",
+        "岡本笑明",
+        "西條徹"
+      ],
+      "locator": {
+        "file": "kaiha_2019042400042.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "丸谷正八郎",
+        "朝比奈大貴"
+      ],
+      "locator": {
+        "file": "kaiha_2019042400042.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "泉大津創志会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "池辺貢三",
+        "村田雅利",
+        "谷野司"
+      ],
+      "locator": {
+        "file": "kaiha_2019042400042.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案 22",
+    "billName": "令和８年度泉大津市一般会計予算の件",
+    "sessionLabel": "令和8年3月泉大津市議会第1回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "08-1sanpi.pdf",
+      "page": 4
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年5月16日現在）",
+  "resultTitle": "令和8年3月泉大津市議会第1回定例会議員別議決結果一覧表（賛否の公表）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月泉大津市議会第1回定例会議員別議決結果一覧表",
+    "sourceFile": "08-1sanpi.pdf",
+    "columns": [
+      {
+        "label": "井上信久",
+        "faction": "市民未来の会",
+        "member": "井上信久",
+        "stance": "賛成"
+      },
+      {
+        "label": "村岡均",
+        "faction": "公明党",
+        "member": "村岡均",
+        "stance": "賛成"
+      },
+      {
+        "label": "丸山直土",
+        "faction": "公明党",
+        "member": "丸山直土",
+        "stance": "賛成"
+      },
+      {
+        "label": "野田悦子",
+        "faction": "市民未来の会",
+        "member": "野田悦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "西條徹",
+        "faction": "大阪維新の会",
+        "member": "西條徹",
+        "stance": "賛成"
+      },
+      {
+        "label": "黒川俊明",
+        "faction": "大阪維新の会",
+        "member": "黒川俊明",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡本笑明",
+        "faction": "大阪維新の会",
+        "member": "岡本笑明",
+        "stance": "賛成"
+      },
+      {
+        "label": "池辺貢三",
+        "faction": "泉大津創志会",
+        "member": "池辺貢三",
+        "stance": "賛成"
+      },
+      {
+        "label": "村田雅利",
+        "faction": "泉大津創志会",
+        "member": "村田雅利",
+        "stance": "賛成"
+      },
+      {
+        "label": "谷野司",
+        "faction": "泉大津創志会",
+        "member": "谷野司",
+        "stance": "賛成"
+      },
+      {
+        "label": "丸谷正八郎",
+        "faction": "市民クラブ",
+        "member": "丸谷正八郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "朝比奈大貴",
+        "faction": "市民クラブ",
+        "member": "朝比奈大貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀口陽一",
+        "faction": "大阪維新の会",
+        "member": "堀口陽一",
+        "stance": "賛成"
+      },
+      {
+        "label": "森下巖",
+        "faction": "日本共産党",
+        "member": "森下巖",
+        "stance": "反対"
+      },
+      {
+        "label": "松本真麗",
+        "faction": "日本共産党",
+        "member": "松本真麗",
+        "stance": "反対"
+      },
+      {
+        "label": "大塚英一",
+        "faction": "公明党",
+        "member": "大塚英一",
+        "stance": "議長"
+      }
+    ]
+  }
+}

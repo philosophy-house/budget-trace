@@ -1,0 +1,202 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kashiwara-osaka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-10-31T17:39:42.736Z",
+  "fiscalYear": "R8",
+  "body": "柏原市議会",
+  "seats": 16,
+  "asOf": "2025-09-30",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "大阪維新の会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "鶴田将良",
+        "榊田和之",
+        "嶋谷一成",
+        "小宮早苗",
+        "峯弘之",
+        "山本修広"
+      ],
+      "locator": {
+        "file": "file_2025106191030_1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政新会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "奥山渉",
+        "乾一",
+        "田中秀昭",
+        "山口由華",
+        "山下亜緯子"
+      ],
+      "locator": {
+        "file": "file_2025106191030_1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村保治",
+        "大木留美"
+      ],
+      "locator": {
+        "file": "file_2025106191030_1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "橋本満夫",
+        "江村淳"
+      ],
+      "locator": {
+        "file": "file_2025106191030_1.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "会派に属さない議員（島野友子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "島野友子"
+      ],
+      "locator": {
+        "file": "file_2025106191030_1.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度柏原市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "file_2026326410367_1.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派構成表（令和７年９月３０日現在）",
+  "resultTitle": "会議結果報告（令和8年第1回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "かしわら市議会だより 2026年5月号 p.8「令和８年第１回臨時会及び第１回定例会の議決結果」",
+    "sourceFile": "file_20264201151049_1.pdf",
+    "columns": [
+      {
+        "label": "奥山渉",
+        "faction": "政新会",
+        "member": "奥山渉",
+        "stance": "賛成"
+      },
+      {
+        "label": "乾一",
+        "faction": "政新会",
+        "member": "乾一",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口由華",
+        "faction": "政新会",
+        "member": "山口由華",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中秀昭",
+        "faction": "政新会",
+        "member": "田中秀昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "鶴田将良",
+        "faction": "大阪維新の会",
+        "member": "鶴田将良",
+        "stance": "賛成"
+      },
+      {
+        "label": "榊田和之",
+        "faction": "大阪維新の会",
+        "member": "榊田和之",
+        "stance": "賛成"
+      },
+      {
+        "label": "小宮早苗",
+        "faction": "大阪維新の会",
+        "member": "小宮早苗",
+        "stance": "賛成"
+      },
+      {
+        "label": "嶋谷一成",
+        "faction": "大阪維新の会",
+        "member": "嶋谷一成",
+        "stance": "賛成"
+      },
+      {
+        "label": "峯弘之",
+        "faction": "大阪維新の会",
+        "member": "峯弘之",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本修広",
+        "faction": "大阪維新の会",
+        "member": "山本修広",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村保治",
+        "faction": "公明党",
+        "member": "中村保治",
+        "stance": "賛成"
+      },
+      {
+        "label": "大木留美",
+        "faction": "公明党",
+        "member": "大木留美",
+        "stance": "賛成"
+      },
+      {
+        "label": "橋本満夫",
+        "faction": "日本共産党",
+        "member": "橋本満夫",
+        "stance": "反対"
+      },
+      {
+        "label": "江村淳",
+        "faction": "日本共産党",
+        "member": "江村淳",
+        "stance": "反対"
+      },
+      {
+        "label": "島野友子",
+        "faction": "会派に属さない議員（島野友子）",
+        "member": "島野友子",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下亜緯子",
+        "faction": "政新会",
+        "member": "山下亜緯子",
+        "stance": "議長"
+      }
+    ]
+  }
+}

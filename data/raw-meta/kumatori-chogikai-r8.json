@@ -1,0 +1,40 @@
+{
+  "sourceId": "kumatori-chogikai-r8",
+  "files": [
+    {
+      "filename": "kumatori_R7syuusihoukokuzentai.pdf",
+      "sha256": "9df6232608015963e7b07adf9b295db0e6d3dea4b7559d297a85efd17ec05355",
+      "bytes": 69612,
+      "fetchedAt": "2026-10-31T22:14:45.906Z",
+      "fetchedFrom": "https://www.town.kumatori.lg.jp/material/files/group/30/R7syuusihoukokuzentai.pdf"
+    },
+    {
+      "filename": "kumatori_gikaidayori-no73.pdf",
+      "sha256": "df02f66989129e9285f426ef73dbfab8c7ff1c4c256cdd433c27e0e9d2f569ff",
+      "bytes": 4509620,
+      "fetchedAt": "2026-10-31T22:14:45.909Z",
+      "fetchedFrom": "https://www.town.kumatori.lg.jp/material/files/group/30/gikaidayori-no73.pdf"
+    },
+    {
+      "filename": "kumatori_kekka_14819.html",
+      "sha256": "73bb1a87ece2e55814f0d690503ede3e52f017bfce27464c36009e9a34badfa2",
+      "bytes": 102214,
+      "fetchedAt": "2026-10-31T22:14:45.909Z",
+      "fetchedFrom": "https://www.town.kumatori.lg.jp/soshiki/gikai_somu/gyomu/kumatori_gikai/kekka/14819.html"
+    },
+    {
+      "filename": "kumatori_R0803teireikai-iinkai.pdf",
+      "sha256": "cc137ac1a4bd5e4cde06a955065b7176f96190e51ccd38b35219f1bf310b95ef",
+      "bytes": 914922,
+      "fetchedAt": "2026-10-31T22:14:45.910Z",
+      "fetchedFrom": "https://www.town.kumatori.lg.jp/material/files/group/30/R0803teireikai-iinkai.pdf"
+    },
+    {
+      "filename": "kumatori_12410.html",
+      "sha256": "996294b5e4fbf0653b1bfd19cb637e044cd05c3484304a08570bf52bd661b988",
+      "bytes": 45951,
+      "fetchedAt": "2026-10-31T22:14:45.910Z",
+      "fetchedFrom": "https://www.town.kumatori.lg.jp/gyosei_joho/kumatori_gikai/12410.html"
+    }
+  ]
+}
