@@ -42210,5 +42210,29 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www.town.kumatori.lg.jp/gyosei_joho/kumatori_gikai/12410.html",
     "license": "熊取町ウェブサイトに掲載しているコンテンツ（テキスト、画像、PDF、その他のデータ）の著作権は熊取町に帰属します。ただし、画像などの著作権には原著作者が所有しているものもあります。熊取町ウェブサイトに掲載または表示されている個々の情報（写真・イラスト・ロゴ・文書など）は著作権法及びその他の法律で保護されています。著作権法上の「私的利用」、その他法律によって明示的に認められる範囲を超えて、これらの全部または一部を許可なく使用（複製、引用、改変、掲示、送信、頒布、販売等を含む）することを禁じます。",
     "target": "page"
+  },
+  "/sources/nakama-shigikai-r8/1387.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260227001002id_/https://www.city.nakama.lg.jp/site/gikai/1387.html",
+    "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nakama-shigikai-r8/18373.html": {
+    "mode": "origin",
+    "href": "https://www.city.nakama.lg.jp/soshiki/33/18373.html",
+    "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nakama-shigikai-r8/6223.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nakama.lg.jp/uploaded/attachment/6223.pdf",
+    "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/nakama-shigikai-r8/13403.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nakama.lg.jp/uploaded/attachment/13403.pdf",
+    "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
   }
 };

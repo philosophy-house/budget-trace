@@ -51978,6 +51978,87 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       "newsletterUrl": null
     }
   ],
+  "402150": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "中間市議会",
+      "seats": 16,
+      "teisu": 16,
+      "asOf": "2025-07-18",
+      "asOfLabel": "2025年7月18日",
+      "factions": [
+        {
+          "name": "公明党",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "明政クラブ",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "創希改",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "中間クラブ",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "勝友会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "新風クラブ",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "清和会",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "おれんじの会",
+          "seats": 1,
+          "isIndependent": false
+        }
+      ],
+      "resolution": {
+        "billNo": "第19号議案",
+        "billName": "令和8年度中間市一般会計予算",
+        "sessionLabel": "令和8年第2回（3月）定例会",
+        "decidedDate": "2026-03-25",
+        "decidedDateLabel": "令和8年3月25日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 中間市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "会派別名簿（更新日：2025年7月18日更新・議決前の魚拓 2026-02-27）",
+        "localUrl": "/sources/nakama-shigikai-r8/1387.html",
+        "originUrl": "https://web.archive.org/web/20260227001002id_/https://www.city.nakama.lg.jp/site/gikai/1387.html",
+        "archiveUrl": "https://web.archive.org/web/20260227001002id_/https://www.city.nakama.lg.jp/site/gikai/1387.html"
+      },
+      "result": {
+        "title": "令和8年第2回（3月）定例会議会議案・議決結果",
+        "localUrl": "/sources/nakama-shigikai-r8/18373.html",
+        "originUrl": "https://www.city.nakama.lg.jp/soshiki/33/18373.html",
+        "archiveUrl": "https://web.archive.org/web/20261031172810/https://www.city.nakama.lg.jp/soshiki/33/18373.html"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
   "402184": [
     {
       "fy": "R8",
