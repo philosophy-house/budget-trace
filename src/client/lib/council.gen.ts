@@ -31709,92 +31709,6 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       }
     }
   ],
-  "243418": [
-    {
-      "fy": "R8",
-      "fyLabel": "令和8年度 当初予算",
-      "body": "菰野町議会",
-      "seats": 18,
-      "teisu": 18,
-      "asOf": "2024-11-19",
-      "asOfLabel": "2024年11月19日",
-      "factions": [
-        {
-          "name": "こもの未来",
-          "seats": 4,
-          "isIndependent": false
-        },
-        {
-          "name": "新政みらい",
-          "seats": 3,
-          "isIndependent": false
-        },
-        {
-          "name": "共創",
-          "seats": 2,
-          "isIndependent": false
-        },
-        {
-          "name": "こもの輝",
-          "seats": 2,
-          "isIndependent": false
-        },
-        {
-          "name": "颯新",
-          "seats": 2,
-          "isIndependent": false
-        },
-        {
-          "name": "無所属（伊藤敦）",
-          "seats": 1,
-          "isIndependent": true
-        },
-        {
-          "name": "無所属（鈴木かがり）",
-          "seats": 1,
-          "isIndependent": true
-        },
-        {
-          "name": "無所属（山岡和男）",
-          "seats": 1,
-          "isIndependent": true
-        },
-        {
-          "name": "無所属（柴田孝之）",
-          "seats": 1,
-          "isIndependent": true
-        },
-        {
-          "name": "無所属（羽間透）",
-          "seats": 1,
-          "isIndependent": true
-        }
-      ],
-      "resolution": {
-        "billNo": "議案第19号",
-        "billName": "令和８年度菰野町一般会計予算（案）",
-        "sessionLabel": "令和8年第1回定例会（令和8年3月2日～3月25日）",
-        "decidedDate": "2026-03-25",
-        "decidedDateLabel": "令和8年3月25日",
-        "result": "可決"
-      },
-      "sourceTitle": "令和8年度 菰野町議会の構成（会派別議席数）と当初予算の議決",
-      "roster": {
-        "title": "菰野町議会 会派構成（令和6年11月19日現在）",
-        "localUrl": "/sources/komono-chogikai-r8/komono_faction.html",
-        "originUrl": "https://gikai-town-komono.com/list/faction/",
-        "archiveUrl": "https://gikai-town-komono.com/list/faction/"
-      },
-      "result": {
-        "title": "令和8年3月定例会 議決事件一覧",
-        "localUrl": "/sources/komono-chogikai-r8/komono_votelist_r8_3.html",
-        "originUrl": "https://gikai-town-komono.com/votelist/%e4%bb%a4%e5%92%8c8%e5%b9%b43%e6%9c%88%e5%ae%9a%e4%be%8b%e4%bc%9a%e3%80%80%e8%ad%b0%e6%b1%ba%e4%ba%8b%e4%bb%b6%e4%b8%80%e8%a6%a7/",
-        "archiveUrl": "https://gikai-town-komono.com/votelist/%e4%bb%a4%e5%92%8c8%e5%b9%b43%e6%9c%88%e5%ae%9a%e4%be%8b%e4%bc%9a%e3%80%80%e8%ad%b0%e6%b1%ba%e4%ba%8b%e4%bb%b6%e4%b8%80%e8%a6%a7/"
-      },
-      "minutesUrl": null,
-      "newsletterUrl": null
-    }
-  ],
   "250007": [
     {
       "fy": "R8",
@@ -37933,8 +37847,8 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       "body": "門真市議会",
       "seats": 20,
       "teisu": 20,
-      "asOf": "2025-05-14",
-      "asOfLabel": "2025年5月14日",
+      "asOf": "2025-07-01",
+      "asOfLabel": "2025年7月1日",
       "factions": [
         {
           "name": "公明党",
@@ -37967,10 +37881,10 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       },
       "sourceTitle": "令和8年度 門真市議会の構成（会派別議員名簿）と当初予算の議決",
       "roster": {
-        "title": "過去の議会構成 p.1「会派別議員名簿（令和７年５月14日現在）」",
-        "localUrl": "/sources/kadoma-shigikai-r8/kadoma_gikaikako.pdf",
-        "originUrl": "https://www.city.kadoma.osaka.jp/material/files/group/57/gikaikako.pdf",
-        "archiveUrl": "https://web.archive.org/web/20261031195832/https://www.city.kadoma.osaka.jp/material/files/group/57/gikaikako.pdf"
+        "title": "市議会の構成「7．会派別議員一覧」（議会構成(令和7(2025)年7月1日現在)・議決前の魚拓 20250810034103）",
+        "localUrl": "/sources/kadoma-shigikai-r8/kadoma_5212_20250810034103.html",
+        "originUrl": "https://web.archive.org/web/20250810034103id_/https://www.city.kadoma.osaka.jp/shisei/shigikai/5/5212.html",
+        "archiveUrl": "https://web.archive.org/web/20250810034103id_/https://www.city.kadoma.osaka.jp/shisei/shigikai/5/5212.html"
       },
       "result": {
         "title": "門真市議会だより No.235（令和8年5月1日号）p.8「第１回定例会で審議した案件と議決結果」",

@@ -111,7 +111,6 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "小諸市", license: "当サイトに掲載された一切の情報は著作権の対象となっております。" },
   { who: "山武市", license: "「山武市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として山武市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },
   { who: "菰野町（旧サイト）", license: "Copyright © Komono Town. All Rights Reserved." },
-  { who: "菰野町議会", license: "Copyright © 2018 Komono town council All Rights Reserved." },
   { who: "愛川町", license: "Copyright (c)2023 Aikawa town. All Rights Reserved." },
   { who: "愛川町（旧サイト）", license: "Copyright 2015 Aikawa Town All Rights Reserved." },
 ];

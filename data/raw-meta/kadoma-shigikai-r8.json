@@ -2,24 +2,38 @@
   "sourceId": "kadoma-shigikai-r8",
   "files": [
     {
+      "filename": "kadoma_5212_20250810034103.html",
+      "sha256": "348d4d1030693df9acafa13aacc4ae94b034c7226161e1b5d57e1bdb31322454",
+      "bytes": 61331,
+      "fetchedAt": "2026-10-31T22:12:49.480Z",
+      "fetchedFrom": "https://web.archive.org/web/20250810034103id_/https://www.city.kadoma.osaka.jp/shisei/shigikai/5/5212.html"
+    },
+    {
+      "filename": "kadoma_5212_20260512092836.html",
+      "sha256": "d446cb73b11863909f9a090c4bd8bd83ed619bcef29848ab103df23086d383f6",
+      "bytes": 61644,
+      "fetchedAt": "2026-10-31T22:12:49.481Z",
+      "fetchedFrom": "https://web.archive.org/web/20260512092836id_/https://www.city.kadoma.osaka.jp/shisei/shigikai/5/5212.html"
+    },
+    {
       "filename": "kadoma_gikaikako.pdf",
       "sha256": "56483646d0d747788b80c1c35b0ca369a87615273b294b8669b44acf7ecf36e7",
       "bytes": 1648105,
-      "fetchedAt": "2026-10-31T17:39:39.214Z",
+      "fetchedAt": "2026-10-31T22:12:49.482Z",
       "fetchedFrom": "https://www.city.kadoma.osaka.jp/material/files/group/57/gikaikako.pdf"
     },
     {
       "filename": "kadoma_qwwwwe.pdf",
       "sha256": "847eb3668897299f2b7f00bd84d266da149b6bd87898788ffa08fa04053e8181",
       "bytes": 4676184,
-      "fetchedAt": "2026-10-31T17:39:39.218Z",
+      "fetchedAt": "2026-10-31T22:12:49.485Z",
       "fetchedFrom": "https://www.city.kadoma.osaka.jp/material/files/group/57/qwwwwe.pdf"
     },
     {
       "filename": "kadoma_voiweb_R080323-04.html",
       "sha256": "ec4ed386a17fe78577f4ed9e9b7331423f20da569ce8312a2ed604ff237b093b",
       "bytes": 35386,
-      "fetchedAt": "2026-10-31T17:39:39.218Z",
+      "fetchedAt": "2026-10-31T22:12:49.486Z",
       "fetchedFrom": "https://www03.gijiroku.com/kadoma/cgi/voiweb.exe?ACT=203&KENSAKU=0&SORT=0&KTYP=0,1,2,3&KGTP=1,2&FYY=2026&TYY=2026&TITL_SUBT=%97%DF%98a%81@%82W%94N%91%E6%81@%82P%89%F1%92%E8%97%E1%89%EF%81%7C03%8C%8E23%93%FA-04%8D%86&FINO=984&HATSUGENMODE=1&HYOUJIMODE=0&HUID=115135&STYLE=0",
       "transform": [
         "ext:.html"
@@ -29,7 +43,7 @@
       "filename": "kadoma_5220.html",
       "sha256": "1f98bf860c747d9a81e5eadb25d3cdffac1dea9d990b8ccc6a16dc1cf8feecd2",
       "bytes": 61325,
-      "fetchedAt": "2026-10-31T17:39:39.218Z",
+      "fetchedAt": "2026-10-31T22:12:49.486Z",
       "fetchedFrom": "https://www.city.kadoma.osaka.jp/shisei/shigikai/5/5220.html"
     }
   ]

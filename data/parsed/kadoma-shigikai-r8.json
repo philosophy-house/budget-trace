@@ -3,11 +3,11 @@
   "sourceId": "kadoma-shigikai-r8",
   "parser": "council-transcribed",
   "parserVersion": "0.8.22",
-  "parsedAt": "2026-10-31T17:39:43.628Z",
+  "parsedAt": "2026-10-31T22:13:02.626Z",
   "fiscalYear": "R8",
   "body": "門真市議会",
   "seats": 20,
-  "asOf": "2025-05-14",
+  "asOf": "2025-07-01",
   "teisu": 20,
   "factions": [
     {
@@ -24,8 +24,8 @@
         "内海武寿"
       ],
       "locator": {
-        "file": "kadoma_gikaikako.pdf",
-        "page": 1
+        "file": "kadoma_5212_20250810034103.html",
+        "row": 1
       }
     },
     {
@@ -42,8 +42,8 @@
         "今田哲哉"
       ],
       "locator": {
-        "file": "kadoma_gikaikako.pdf",
-        "page": 1
+        "file": "kadoma_5212_20250810034103.html",
+        "row": 2
       }
     },
     {
@@ -57,8 +57,8 @@
         "森博孝"
       ],
       "locator": {
-        "file": "kadoma_gikaikako.pdf",
-        "page": 1
+        "file": "kadoma_5212_20250810034103.html",
+        "row": 3
       }
     },
     {
@@ -70,8 +70,8 @@
         "豊北裕子"
       ],
       "locator": {
-        "file": "kadoma_gikaikako.pdf",
-        "page": 1
+        "file": "kadoma_5212_20250810034103.html",
+        "row": 4
       }
     }
   ],
@@ -87,7 +87,7 @@
       "page": 8
     }
   },
-  "rosterTitle": "過去の議会構成 p.1「会派別議員名簿（令和７年５月14日現在）」",
+  "rosterTitle": "市議会の構成「7．会派別議員一覧」（議会構成(令和7(2025)年7月1日現在)・議決前の魚拓 20250810034103）",
   "resultTitle": "門真市議会だより No.235（令和8年5月1日号）p.8「第１回定例会で審議した案件と議決結果」",
   "votes": {
     "basis": "member",
