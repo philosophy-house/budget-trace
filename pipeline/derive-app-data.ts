@@ -1064,6 +1064,10 @@ function buildCouncilVotes(
       ...(doc.teisu != null ? { teisu: doc.teisu } : {}),
       asOf: doc.asOf,
       asOfLabel,
+      // 名簿の基準日から議決までに議席を離れた議員（council-transcribed 0.8.23）。画面は「（1月31日の辞職を除く）」
+      ...(doc.departures?.length
+        ? { departures: doc.departures.map((d) => ({ kind: d.kind, date: d.date, dateLabel: d.dateLabel, faction: d.faction, source: ev(d.url, d.title) })) }
+        : {}),
       // 原典の並び（議席番号順の賛否表の列など）は団体ごとにまちまちなので、議席の多い順・無所属は後ろにそろえる
       factions: doc.factions
         .map((f) => ({ name: f.name, seats: f.seats, isIndependent: f.isIndependent }))
@@ -1138,6 +1142,11 @@ export interface Council {
   /** 会派構成の基準日 ISO（名簿の更新日） */
   asOf: string;
   asOfLabel: string;
+  /**
+   * 名簿の基準日から議決までに議席を離れた議員（辞職・失職・逝去）。factions の議席には入っていない。
+   * 名簿の「○月○日現在」の人数と議決時の人数が違う理由として、画面に「（1月31日の辞職を除く）」と出す
+   */
+  departures?: { kind: string; date: string; dateLabel: string; faction: string; source: CouncilEvidence }[];
   factions: CouncilFaction[];
   resolution: {
     billNo: string;

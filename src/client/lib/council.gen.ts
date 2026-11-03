@@ -31,6 +31,11 @@ export interface Council {
   /** 会派構成の基準日 ISO（名簿の更新日） */
   asOf: string;
   asOfLabel: string;
+  /**
+   * 名簿の基準日から議決までに議席を離れた議員（辞職・失職・逝去）。factions の議席には入っていない。
+   * 名簿の「○月○日現在」の人数と議決時の人数が違う理由として、画面に「（1月31日の辞職を除く）」と出す
+   */
+  departures?: { kind: string; date: string; dateLabel: string; faction: string; source: CouncilEvidence }[];
   factions: CouncilFaction[];
   resolution: {
     billNo: string;

@@ -1350,6 +1350,28 @@ export default function BudgetTrace({ initial, consentEnabled }: { initial?: Par
             }),
           minutesUrl: shownCouncil.minutesUrl,
           newsletterUrl: shownCouncil.newsletterUrl,
+          // 名簿の基準日から議決までに議席を離れた議員（council-transcribed 0.8.23）。名簿の「○月○日現在」の人数と
+          // 議決時の人数（会派の議席の和）が違う理由を、基準日の横に「（1月31日の辞職を除く）」と出す。原文は出典チップで開く
+          departureLabel: (() => {
+            const deps = "departures" in shownCouncil ? (shownCouncil.departures ?? []) : [];
+            if (!deps.length) return null;
+            // 同じ日・同じ理由は1つにまとめて人数を添える（和歌山県: 2月18日に2人が辞職）
+            const groups = new Map<string, number>();
+            for (const d of [...deps].sort((a, b) => a.date.localeCompare(b.date))) groups.set(`${d.dateLabel}の${d.kind}`, (groups.get(`${d.dateLabel}の${d.kind}`) ?? 0) + 1);
+            return `（${[...groups].map(([k, n]) => (n > 1 ? `${k}${n}人` : k)).join("・")}を除く）`;
+          })(),
+          departureChips: ("departures" in shownCouncil ? (shownCouncil.departures ?? []) : [])
+            .filter((d, i, all) => all.findIndex((o) => o.source.localUrl === d.source.localUrl) === i)
+            .map((d) => ({
+              title: d.source.title,
+              action: evAction(d.source.localUrl),
+              open: () =>
+                openViewer({
+                  url: d.source.localUrl, title: d.source.title,
+                  sub: `${d.dateLabel}の${d.kind}`, originUrl: d.source.originUrl,
+                  archiveUrl: d.source.archiveUrl,
+                }),
+            })),
         }
       : null,
     // 事業報告（成果）＝事務事業評価 詳細票。full（甲府）のみ。予算→執行→成果を1事業で通す。

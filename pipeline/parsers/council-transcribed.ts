@@ -24,7 +24,7 @@ import { z } from "zod";
 import { readRawMeta } from "../lib/store";
 import type { CouncilCompositionDoc, CouncilFactionFact, SourceEntry } from "../types";
 
-export const PARSER_VERSION = "0.8.22";
+export const PARSER_VERSION = "0.8.23";
 
 /** 名前の字が原典に無くても書ける、会派に属さない議員の呼び名（`nameAbsentReason`） */
 const INDEPENDENT_NAMES = ["無所属", "無所属議員", "無会派", "会派に属さない議員", "会派に所属しない議員", "会派に所属していない議員", "会派を構成しない議員"];
@@ -248,6 +248,35 @@ const optionsSchema = z.object({
   /** 議会全体の人数の網がどれも掛けられない理由（原典の事情）。書けば通るが、会派ごとの書き落としは捕まらない */
   noTotalReason: z.string().min(10).optional(),
   noFactions: z.boolean().optional(),
+  /**
+   * 名簿の基準日から議決までに議席を離れた議員（辞職・失職・逝去・0.8.23）。名簿に載っているが議決時にはいない議員を
+   * members から除き、**誰を除いたか**をここに書く（0.8.22 までは書き写しで除くだけで、パーサが照合しなかった＝
+   * 尼崎で、辞職した議員を残して同じ会派の別の議員を外しても通った。docs §6-13・§6-28）。パーサが確かめること:
+   * - name が名簿の faction の範囲（区間・枠・ページ）にあり、他の会派の枠に無く、members のどこにも無いこと
+   * - text（url の原典の原文）に name・kind の語・date の月日があり、kind の語に**最も近い**議員の氏名が name で、
+   *   最も近い日付が date であること（「Aが辞職し、Bが繰上げ当選」の原文で B を除く書き写しを通さない）
+   * - 名簿の基準日 < date < 議決日（議決日の離職は、議決のときに在籍していたかを原文で決められないので書けない）
+   * 人数の網の数え方: 名簿に印字された人数（区間・枠・ページの declared、名簿で数える memberMarker・labelSuffix、
+   * 名簿の totalText）は**基準日の人数**＝ members ＋ その会派の departures と照合する。別の原典（declaredIn・
+   * memberMarkerUrl・totalText.url）と定数−欠員は**議決時の人数**＝ members と照合する
+   */
+  departures: z
+    .array(
+      z.object({
+        name: z.string().min(1),
+        /** 名簿で属していた会派（factions の name） */
+        faction: z.string().min(1),
+        kind: z.enum(["辞職", "失職", "逝去", "死去"]),
+        /** 議席を離れた日（「1月31日をもって辞職」なら 1/31） */
+        date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+        /** 原文（氏名・kind の語・月日を含む。200字以内） */
+        text: z.string().min(1),
+        url: z.string().url(),
+        /** 画面の出典チップの呼び名 */
+        title: z.string().min(1),
+      }),
+    )
+    .optional(),
   roster: z.object({
     url: z.string().url(),
     title: z.string().min(1),
@@ -497,6 +526,24 @@ function dateTokens(s: string): string[] {
     // 「R08/3/11」（三郷の議決結果一覧表・元号の頭文字つきの年/月/日）。「3/24」は前後に / を許さないので別に取る
     ...[...n.matchAll(/(?<![\dA-Za-z/])R\d{1,2}\/(\d{1,2})\/(\d{1,2})(?![\d/])/g)].map((m) => `${Number(m[1])}月${Number(m[2])}日`),
   ];
+}
+
+/**
+ * 正規化済みの本文の日付の位置（議決前に離れた議員の原文・0.8.23）。「令和8年1月31日」「1月31日」「R8.1.31」「1/31」。
+ * reiwa は年が書いてあればその年（元年は 1）
+ */
+function datePositions(n: string): { md: string; at: number; end: number; reiwa: number | null }[] {
+  const out: { md: string; at: number; end: number; reiwa: number | null }[] = [];
+  for (const m of n.matchAll(/(?:令和(\d+|元)年)?(\d+)月(\d+)日/g)) {
+    out.push({ md: `${Number(m[2])}月${Number(m[3])}日`, at: m.index!, end: m.index! + m[0].length, reiwa: m[1] == null ? null : m[1] === "元" ? 1 : Number(m[1]) });
+  }
+  for (const m of n.matchAll(/(?<![\d.])(R?)(\d{1,2})\.(\d{1,2})\.(\d{1,2})(?![\d.])/g)) {
+    out.push({ md: `${Number(m[3])}月${Number(m[4])}日`, at: m.index!, end: m.index! + m[0].length, reiwa: Number(m[2]) });
+  }
+  for (const m of n.matchAll(/(?<![\d/])(\d{1,2})\/(\d{1,2})(?![\d/])/g)) {
+    out.push({ md: `${Number(m[1])}月${Number(m[2])}日`, at: m.index!, end: m.index! + m[0].length, reiwa: null });
+  }
+  return out;
 }
 
 /** HTML → テーブルの行列（セルは正規化済み）。rowspan/colspan は展開しない */
@@ -1423,8 +1470,16 @@ export function parseCouncilTranscribed(
   }
 
   const allNames = opt.factions.map((f) => (f.nameParts ?? [f.name]).map(norm));
-  /** 会派 i の範囲（モード×ページごと）。枠があれば切り出し、無ければ会派名から次の会派名まで */
+  const sectionsCache = new Map<number, string[]>();
   const sectionsOf = (i: number): string[] => {
+    if (!sectionsCache.has(i)) sectionsCache.set(i, readSections(i));
+    return sectionsCache.get(i)!;
+  };
+  // 議決前に離れた議員（0.8.23）。会派ごとの人数（名簿の基準日の印字と照合する）
+  const departures = opt.departures ?? [];
+  const departedOf = (f: { name: string }) => departures.filter((d) => norm(d.faction) === norm(f.name));
+  /** 会派 i の範囲（モード×ページごと）。枠があれば切り出し、無ければ会派名から次の会派名まで */
+  const readSections = (i: number): string[] => {
     const f = opt.factions[i]!;
     // url と box の両方があれば、その URL の PDF を枠で切る（印西: 会派ページの本文全体だと他の会派の議員も入り、
     // 枠の外の照合が常に鳴る／枠の照合が効かないまま合流の書き写しが通る＝0.8.9・レビューで実測）
@@ -1674,7 +1729,7 @@ export function parseCouncilTranscribed(
     if (f.box) {
       opt.factions.forEach((g, j) => {
         if (j === i) return;
-        for (const m of g.members) {
+        for (const m of [...g.members, ...departedOf(g).map((d) => d.name)]) {
           if (sections.some((s) => s.includes(norm(m)))) {
             missing.push(`${rosterFile.filename}: 会派「${f.name}」の枠に「${g.name}」の議員「${m}」が入っています（枠か書き写しの誤り）`);
           }
@@ -1687,7 +1742,11 @@ export function parseCouncilTranscribed(
       else {
         const ex = f.declaredExcludes ?? [];
         for (const e of ex) if (!f.members.some((m) => norm(m) === norm(e))) missing.push(`${f.name}: declaredExcludes「${e}」が members にありません`);
-        if (n !== f.members.length - ex.length) missing.push(`${f.name}: 名簿の印字は ${n}人、書き写しは ${f.members.length - ex.length}人${ex.length ? `（${ex.join("・")}を除く）` : ""}`);
+        // 名簿（区間・枠・ページ）の印字は基準日の人数＝議決前に離れた議員を含む。別の原典（declaredIn）は議決時の人数（0.8.23）
+        const dep = f.declaredIn ? 0 : departedOf(f).length;
+        if (n !== f.members.length - ex.length + dep) {
+          missing.push(`${f.name}: 名簿の印字は ${n}人、書き写しは ${f.members.length - ex.length}人${ex.length ? `（${ex.join("・")}を除く）` : ""}${dep ? `＋議決前に離れた ${dep}人` : ""}`);
+        }
       }
       const dN = norm(f.declared!);
       if (f.declaredIn) {
@@ -1717,6 +1776,56 @@ export function parseCouncilTranscribed(
     };
   });
   const seats = factions.reduce((s, f) => s + f.seats, 0);
+  const departuresOut = departures.map((d) => checkDeparture(d));
+  function checkDeparture(d: NonNullable<CouncilTranscribedOptions["departures"]>[number]) {
+    const who = `議決前に離れた議員「${d.name}」`;
+    const nameN = norm(d.name);
+    const fi = opt.factions.findIndex((f) => norm(f.name) === norm(d.faction));
+    const f = opt.factions[fi];
+    if (!f) missing.push(`${who}: 会派「${d.faction}」が factions にありません`);
+    else if (f.label != null) missing.push(`${who}: 略称（label）方式の会派には、まだ書けません（${f.name}）`);
+    else if (!sectionsOf(fi).some((s) => s.includes(nameN))) {
+      missing.push(`${rosterFile.filename}: ${who}が会派「${f.name}」の${f.box ? "枠" : f.url ? "ページ" : "区間（会派名から次の会派名まで）"}に見つかりません`);
+    }
+    if (seen.has(nameN)) missing.push(`${who}が members（${seen.get(nameN)}）に残っています`);
+    if (departures.filter((o) => norm(o.name) === nameN).length > 1) missing.push(`${who}が departures に重複しています`);
+    if (!(opt.asOf < d.date)) missing.push(`${who}: 離れた日 ${d.date} が名簿の基準日 ${opt.asOf} より後ではありません（名簿に載っていないはずの人です）`);
+    if (!(d.date < opt.resolution.decidedDate)) {
+      missing.push(`${who}: 離れた日 ${d.date} が議決日 ${opt.resolution.decidedDate} より前ではありません（議決日の離職は議決時に在籍したかを決められない）`);
+    }
+    const tN = norm(d.text);
+    if (tN.length > 200) missing.push(`${who}: 原文が長すぎます（${tN.length}字・200字まで）— 辞職などを述べた文だけを書く`);
+    if (!has(readDoc(fileFor(d.url)).views, d.text)) missing.push(`${d.url}: ${who}の原文「${d.text}」が見つかりません`);
+    // 原文の中で、kind の語に最も近い議員の氏名が name で、最も近い日付が date であること（どれかの kind の出現で両方満たす）
+    const [y, mo, da] = d.date.split("-").map(Number) as [number, number, number];
+    const md = `${mo}月${da}日`;
+    const dates = datePositions(tN);
+    const names = [...new Set([...opt.factions.flatMap((g) => g.members), ...departures.map((o) => o.name)].map(norm))];
+    // 長い氏名の中の短い氏名（「田中一郎」の中の「田中一」）は数えない
+    const spans0 = names.flatMap((n) => boundedAll(tN, n).map((at) => ({ n, at, end: at + n.length })));
+    const spans = spans0.filter((s) => !spans0.some((o) => o !== s && o.at <= s.at && s.end <= o.end && o.end - o.at > s.end - s.at));
+    const gap = (a: { at: number; end: number }, b: { at: number; end: number }) => Math.max(0, a.at - b.end, b.at - a.end);
+    const kinds = boundedAll(tN, d.kind).map((at) => ({ at, end: at + d.kind.length }));
+    if (!tN.includes(nameN)) missing.push(`${who}: 原文に氏名がありません`);
+    if (!kinds.length) missing.push(`${who}: 原文に「${d.kind}」の語がありません`);
+    if (!dates.some((t) => t.md === md)) missing.push(`${who}: 原文に離れた日「${md}」がありません`);
+    for (const t of dates) {
+      if (t.md === md && t.reiwa != null && t.reiwa !== y - 2018) missing.push(`${who}: 原文の「令和${t.reiwa}年${md}」が離れた日 ${d.date} の年と合いません`);
+    }
+    if (kinds.length && tN.includes(nameN) && dates.some((t) => t.md === md)) {
+      const ok = kinds.some((k) => {
+        const nearestName = spans.reduce<{ n: string; g: number } | null>((b, s) => (b == null || gap(s, k) < b.g ? { n: s.n, g: gap(s, k) } : b), null);
+        const nearDates = dates.map((t) => ({ md: t.md, g: gap(t, k) }));
+        const minG = Math.min(...nearDates.map((t) => t.g));
+        const nearestMd = new Set(nearDates.filter((t) => t.g === minG).map((t) => t.md));
+        // 同じ距離に別の氏名・別の日付があれば決められないので通さない
+        const tiedNames = new Set(spans.filter((s) => gap(s, k) === nearestName?.g).map((s) => s.n));
+        return nearestName?.n === nameN && tiedNames.size === 1 && nearestMd.size === 1 && nearestMd.has(md);
+      });
+      if (!ok) missing.push(`${who}: 原文で「${d.kind}」に最も近い議員の氏名が「${d.name}」で、最も近い日付が「${md}」である箇所がありません`);
+    }
+    return { name: d.name, faction: f?.name ?? d.faction, kind: d.kind, date: d.date, dateLabel: md, title: d.title, url: d.url, locator: { file: fileFor(d.url).filename } };
+  }
   // 人数の網（印字・定数・略称の数）がどこにも無い書き写しは通さない — 1人の書き落としが誰にも捕まらない
   const unguarded = opt.factions.filter((f) => f.declared == null && !(f.label != null && opt.labelSuffix) && !f.noCountReason);
   if (unguarded.length && opt.teisu == null) {
@@ -1731,8 +1840,10 @@ export function parseCouncilTranscribed(
     const all = opt.factions.flatMap((f) => f.members.map(norm));
     for (const e of ex) if (!all.includes(norm(e))) missing.push(`memberMarkerExcludes「${e}」が members にありません`);
     const c = countIn(views, opt.memberMarker);
-    if (c + ex.length !== seats) {
-      missing.push(`議員ごとの印「${opt.memberMarker}」は ${c} 回${ex.length ? `＋印の無い ${ex.length}人` : ""}、書き写しは ${seats}人`);
+    // 名簿で数えるなら基準日の人数（議決前に離れた議員を含む）。別の原典（memberMarkerUrl）なら議決時の人数（0.8.23）
+    const dep = opt.memberMarkerUrl ? 0 : departures.length;
+    if (c + ex.length !== seats + dep) {
+      missing.push(`議員ごとの印「${opt.memberMarker}」は ${c} 回${ex.length ? `＋印の無い ${ex.length}人` : ""}、書き写しは ${seats}人${dep ? `＋議決前に離れた ${dep}人` : ""}`);
     }
   }
   if (opt.factionMarker) {
@@ -1743,7 +1854,10 @@ export function parseCouncilTranscribed(
   if (opt.totalText) {
     const tv = opt.totalText.url ? readDoc(fileFor(opt.totalText.url)).views : rosterAll;
     if (!has(tv, opt.totalText.text)) missing.push(`総数の原文「${opt.totalText.text}」が見つかりません`);
-    if (declaredNumber(opt.totalText.text) !== seats) missing.push(`総数の原文「${opt.totalText.text}」の数が現員 ${seats} と合いません`);
+    const dep = opt.totalText.url ? 0 : departures.length;
+    if (declaredNumber(opt.totalText.text) !== seats + dep) {
+      missing.push(`総数の原文「${opt.totalText.text}」の数が現員 ${seats}${dep ? `＋議決前に離れた ${dep}人` : ""} と合いません`);
+    }
   }
   if (opt.teisu == null && !opt.memberMarker && !opt.factionMarker && !opt.totalText && !opt.noTotalReason) {
     missing.push(`議会全体の人数の網がありません — teisu・memberMarker・factionMarker・totalText のどれか（無理なら noTotalReason）`);
@@ -2058,6 +2172,7 @@ export function parseCouncilTranscribed(
     ...(opt.teisu != null ? { teisu: opt.teisu } : {}),
     factions,
     ...(opt.noFactions ? { noFactions: true } : {}),
+    ...(departuresOut.length ? { departures: departuresOut } : {}),
     resolution: {
       billNo: r.billNo,
       billName: r.billName,
