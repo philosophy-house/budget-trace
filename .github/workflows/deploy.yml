@@ -1,0 +1,67 @@
+# 本番デプロイ（main への push）。**Vercel の git 連携の自動ビルドの代わり**（vercel.json で main も止めてある）。
+#
+# ⚠ なぜ Vercel に clone させないか（2026-11-03）: Vercel の git 連携は作業ツリー全体を clone する（浅い clone でも
+#   取り出すのは全ファイル）。data/raw が 13.97 GiB に増え、#442（clone 11分）の後の本番デプロイは clone が
+#   ビルドの上限時間（約45分）を超えて全部 ERROR（BUILD_EXCEEDED_MAXIMUM_TIME）になった。ビルドが使う raw は
+#   public/sources へ配る 346 ファイル・約 640 MB だけ（残りは要許可の資料で、画面のリンクが発行元へ振り替わる）。
+#   ここでは blob を後から取る clone（filter: blob:none）で、配る raw だけを sparse-checkout で取り出してビルドし、
+#   ビルド済みの出力を Vercel へ出す（vercel build → vercel deploy --prebuilt）。
+#   配る raw の判定は pipeline/lib/served-raw.ts（sync-public-sources と同じ関数）。
+#
+# 要るシークレット: VERCEL_TOKEN（Vercel のアカウント設定で作るトークン。リポジトリの Settings → Secrets → Actions）
+name: 本番デプロイ
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# 本番は1本ずつ。後から来た push は前のデプロイを取り消さずに待つ
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: 本番デプロイ
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_ORG_ID: team_O7x8Sewr49UwDa5EXlxlyv9E
+      VERCEL_PROJECT_ID: prj_uqFGnSl1z5GCiGI1kgsL18xZyo43
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            src
+            pipeline
+            public
+            docs
+            data/normalized
+            data/parsed
+            data/raw-meta
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+
+      # 配る raw だけを足す（cone mode はディレクトリ単位なので non-cone に切り替え、ファイルを1つずつ挙げる）。
+      # 一覧は git ls-tree から作るので blob は要らない。パターンの特殊文字（* ? [ ] ! # \）は逃がす
+      - name: 配る raw を取り出す
+        run: |
+          {
+            printf '%s\n' '/*' '!/*/' '/.github/' '/src/' '/pipeline/' '/public/' '/docs/' '/data/normalized/' '/data/parsed/' '/data/raw-meta/'
+            bun pipeline/served-raw-paths.ts | sed -e 's/[][*?!#\\]/\\&/g' -e 's#^#/#'
+          } > "$RUNNER_TEMP/sparse"
+          git sparse-checkout set --no-cone --stdin < "$RUNNER_TEMP/sparse"
+          echo "raw: $(find data/raw -type f | wc -l) ファイル・$(du -sh data/raw | cut -f1)"
+          test "$(find data/raw -type f | wc -l)" -eq "$(bun pipeline/served-raw-paths.ts | wc -l)"
+
+      - run: bunx vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      - run: bunx vercel build --prod --token="$VERCEL_TOKEN"
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      - run: bunx vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
