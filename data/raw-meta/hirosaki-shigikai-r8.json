@@ -1,0 +1,49 @@
+{
+  "sourceId": "hirosaki-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_warp20260406.html",
+      "sha256": "68df171a3e17637f1a87f6f0613a1ccb66f2e2a7337af593b91ed9226bee17a8",
+      "bytes": 9159,
+      "fetchedAt": "2026-11-03T12:28:52.181Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260416/20260406012022id_/https://www.city.hirosaki.aomori.jp/gikai/kaiha.html"
+    },
+    {
+      "filename": "2026-1_kekka.pdf",
+      "sha256": "af836863e52d5fe0b4af0de21189fb4e0004216c8cbc60862ab7cc065c4d503d",
+      "bytes": 88167,
+      "fetchedAt": "2026-11-03T12:28:52.182Z",
+      "fetchedFrom": "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf"
+    },
+    {
+      "filename": "kaigiroku_R080319A_14.html",
+      "sha256": "8a201e625b6cb48855d1d3c40ebb50d93e6a509abd3c02fa0cd2f7f5e6a312de",
+      "bytes": 7590,
+      "fetchedAt": "2026-11-03T12:28:52.182Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/14/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "kaigiroku_R080319A_45479.html",
+      "sha256": "6167807a2251337b6daaa28856815296377f5406663dbdfcbf132517a16c5a4b",
+      "bytes": 658,
+      "fetchedAt": "2026-11-03T12:28:52.182Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/45479/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "kaigiroku_R080304A_13.html",
+      "sha256": "11c33508be22a39ba9b44ce15ab7442144ef64a1274ac0da182aed1152f1de1d",
+      "bytes": 4262,
+      "fetchedAt": "2026-11-03T12:28:52.183Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080304A/13/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}
