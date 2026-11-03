@@ -1,0 +1,286 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sakai-fukui-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:33:06.519Z",
+  "fiscalYear": "R8",
+  "body": "坂井市議会",
+  "seats": 22,
+  "asOf": "2026-01-06",
+  "factions": [
+    {
+      "name": "誠政会",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "伊藤聖一",
+        "前田嘉彦",
+        "古屋信二",
+        "前川徹",
+        "山田秀樹",
+        "戸板進",
+        "上坂健司",
+        "鍋嶋邦広",
+        "廣瀬陽子",
+        "佐藤岳之",
+        "林豊夏"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "坂井未来の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田中哲治",
+        "岡部恭典",
+        "佐藤寛治"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "畑野麻美子",
+        "松本朗"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "政友会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "川畑孝治"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "永井純一"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "チャレンジさかい",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "三宅小百合"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "政新さかい",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "辻人志"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "志政会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "後藤寿和"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "市民クラブさかい",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "伊藤宏実"
+      ],
+      "locator": {
+        "file": "sakai_3004kaihashoukai_warp20260206.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第6号",
+    "billName": "令和8年度坂井市一般会計予算",
+    "sessionLabel": "令和8年3月第1回坂井市議会定例会",
+    "decidedDate": "2026-03-05",
+    "decidedDateLabel": "令和8年3月5日",
+    "result": "賛成多数可決",
+    "locator": {
+      "file": "sakai_r8-3kekka.html"
+    }
+  },
+  "rosterTitle": "会派紹介（令和8年1月6日現在）— 国立国会図書館 WARP の 2026-02-06 の収集",
+  "resultTitle": "令和8年3月第1回坂井市議会定例会審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議会だより第80号（3月定例会）p.8「賛否が分かれた議案一覧」議案第６号の行（議員ごと・議席順）",
+    "sourceFile": "sakai_gikaidayori80.pdf",
+    "columns": [
+      {
+        "label": "林豊夏",
+        "faction": "誠政会",
+        "member": "林豊夏",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤岳之",
+        "faction": "誠政会",
+        "member": "佐藤岳之",
+        "stance": "賛成"
+      },
+      {
+        "label": "廣瀬陽子",
+        "faction": "誠政会",
+        "member": "廣瀬陽子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鍋嶋邦広",
+        "faction": "誠政会",
+        "member": "鍋嶋邦広",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤宏実",
+        "faction": "市民クラブさかい",
+        "member": "伊藤宏実",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡部恭典",
+        "faction": "坂井未来の会",
+        "member": "岡部恭典",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田秀樹",
+        "faction": "誠政会",
+        "member": "山田秀樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "三宅小百合",
+        "faction": "チャレンジさかい",
+        "member": "三宅小百合",
+        "stance": "賛成"
+      },
+      {
+        "label": "後藤寿和",
+        "faction": "志政会",
+        "member": "後藤寿和",
+        "stance": "賛成"
+      },
+      {
+        "label": "前川徹",
+        "faction": "誠政会",
+        "member": "前川徹",
+        "stance": "賛成"
+      },
+      {
+        "label": "上坂健司",
+        "faction": "誠政会",
+        "member": "上坂健司",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸板進",
+        "faction": "誠政会",
+        "member": "戸板進",
+        "stance": "欠席"
+      },
+      {
+        "label": "古屋信二",
+        "faction": "誠政会",
+        "member": "古屋信二",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中哲治",
+        "faction": "坂井未来の会",
+        "member": "田中哲治",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本朗",
+        "faction": "日本共産党議員団",
+        "member": "松本朗",
+        "stance": "反対"
+      },
+      {
+        "label": "伊藤聖一",
+        "faction": "誠政会",
+        "member": "伊藤聖一",
+        "stance": "賛成"
+      },
+      {
+        "label": "辻人志",
+        "faction": "政新さかい",
+        "member": "辻人志",
+        "stance": "賛成"
+      },
+      {
+        "label": "川畑孝治",
+        "faction": "政友会",
+        "member": "川畑孝治",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田嘉彦",
+        "faction": "誠政会",
+        "member": "前田嘉彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "永井純一",
+        "faction": "公明党",
+        "member": "永井純一",
+        "stance": "賛成"
+      },
+      {
+        "label": "畑野麻美子",
+        "faction": "日本共産党議員団",
+        "member": "畑野麻美子",
+        "stance": "反対"
+      },
+      {
+        "label": "佐藤寛治",
+        "faction": "坂井未来の会",
+        "member": "佐藤寛治",
+        "stance": "議長"
+      }
+    ]
+  }
+}

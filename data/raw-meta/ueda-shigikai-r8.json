@@ -1,0 +1,36 @@
+{
+  "sourceId": "ueda-shigikai-r8",
+  "files": [
+    {
+      "filename": "ueda_78500_warp20260204.pdf",
+      "sha256": "e2bc6efe05e89383c3d1c63e4d6bc5c0da988e4f79d67bb00c379432a4ac5ebc",
+      "bytes": 78493,
+      "fetchedAt": "2026-11-03T12:46:09.226Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260205/20260204210000id_/https://www.city.ueda.nagano.jp/uploaded/attachment/78500.pdf"
+    },
+    {
+      "filename": "ueda_4709_warp20260204.html",
+      "sha256": "75e64d9056b9d5ed7042d5dd118d61e8c7334aaed743825ecb5fd7d26a3ea3f8",
+      "bytes": 27955,
+      "fetchedAt": "2026-11-03T12:46:09.226Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260205/20260204051448id_/https://www.city.ueda.nagano.jp/site/gikai/4709.html"
+    },
+    {
+      "filename": "ueda_79545.pdf",
+      "sha256": "b161bd028373bda3f5d8f9055ab16419c26ffdcea63f9f5a38774ce219e28375",
+      "bytes": 141675,
+      "fetchedAt": "2026-11-03T12:46:09.227Z",
+      "fetchedFrom": "https://www.city.ueda.nagano.jp/uploaded/attachment/79545.pdf"
+    },
+    {
+      "filename": "ueda_jfit_day106.html",
+      "sha256": "0e0191a8ca3481b1b5fd880a1f1ef8c9b1c18fa7f19318a4dbea0fea8b78eb66",
+      "bytes": 5183,
+      "fetchedAt": "2026-11-03T12:46:09.227Z",
+      "fetchedFrom": "https://ueda-city.stream.jfit.co.jp/?tpl=gikai_result&gikai_day_id=106&category_id=6&inquiry_id=701",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

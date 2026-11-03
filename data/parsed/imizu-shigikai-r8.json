@@ -1,0 +1,92 @@
+{
+  "docType": "council-composition",
+  "sourceId": "imizu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:33:04.773Z",
+  "fiscalYear": "R8",
+  "body": "射水市議会",
+  "seats": 20,
+  "asOf": "2025-11-27",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "自民創政会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "堀義治",
+        "西尾哲",
+        "大垣友和",
+        "長田定克",
+        "岩口久梨果",
+        "杉浦実",
+        "高橋久和",
+        "中村文隆",
+        "吉野省三"
+      ],
+      "locator": {
+        "file": "imizu_139331.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いみず志政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山崎晋次",
+        "加治宏規",
+        "金賢志",
+        "石田勝志",
+        "井相田礼子"
+      ],
+      "locator": {
+        "file": "imizu_139331.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民議員会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "津田信人",
+        "奈田安弘",
+        "上野進"
+      ],
+      "locator": {
+        "file": "imizu_139331.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "古田逸宏",
+        "澤村理",
+        "津本二三男"
+      ],
+      "locator": {
+        "file": "imizu_139331.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第 １ 号",
+    "billName": "令和８年度射水市一般会計予算",
+    "sessionLabel": "令和８年３月射水市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "可決",
+    "locator": {
+      "file": "imizu_142068.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "射水市議会 会派別議員名簿（令和7年11月27日）",
+  "resultTitle": "議決結果一覧表（令和８年３月射水市議会定例会）"
+}

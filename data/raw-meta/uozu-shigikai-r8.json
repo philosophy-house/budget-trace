@@ -1,0 +1,19 @@
+{
+  "sourceId": "uozu-shigikai-r8",
+  "files": [
+    {
+      "filename": "uozu_078761.pdf",
+      "sha256": "7309f4c1f95cd73e79e2af8a30d855e155e1d204ca5c828d3ca578a51586f47a",
+      "bytes": 179785,
+      "fetchedAt": "2026-11-03T12:46:09.209Z",
+      "fetchedFrom": "https://www.city.uozu.toyama.jp/attach/EDIT/078/078761.pdf"
+    },
+    {
+      "filename": "uozu_i005RG00000011.html",
+      "sha256": "debfd9ece9d9d50c3660a0a28de337504acf0fd2bfe963a4fc7a0f69ac95da91",
+      "bytes": 8263,
+      "fetchedAt": "2026-11-03T12:46:09.209Z",
+      "fetchedFrom": "https://www1.g-reiki.net/uozu/reiki_honbun/i005RG00000011.html"
+    }
+  ]
+}

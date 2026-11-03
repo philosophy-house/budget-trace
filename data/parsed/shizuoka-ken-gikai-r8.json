@@ -1,0 +1,183 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shizuoka-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:33:07.357Z",
+  "fiscalYear": "R8",
+  "body": "静岡県議会",
+  "seats": 68,
+  "asOf": "2026-03-16",
+  "teisu": 68,
+  "factions": [
+    {
+      "name": "自民改革会議",
+      "seats": 41,
+      "isIndependent": false,
+      "members": [
+        "加畑毅",
+        "中田次城",
+        "藤曲敬宏",
+        "野田治久",
+        "土屋源由",
+        "岩田徹也",
+        "伊丹雅治",
+        "宮沢正美",
+        "坪内秀樹",
+        "加藤祐喜",
+        "鳥澤由克",
+        "勝俣昇",
+        "和田篤夫",
+        "杉山盛雄",
+        "鈴木澄美",
+        "植田徹",
+        "木内満",
+        "天野一",
+        "天野多美子",
+        "相坂摂治",
+        "佐地茂人",
+        "望月香世子",
+        "良知淳行",
+        "西原明美",
+        "落合愼悟",
+        "大石健司",
+        "河原崎聖",
+        "河原﨑全",
+        "赤堀慎吾",
+        "増田享大",
+        "小沼秀朗",
+        "伊藤謙一",
+        "江間治人",
+        "竹内良訓",
+        "杉本好重",
+        "中沢公彦",
+        "鈴木啓嗣",
+        "飯田末夫",
+        "鈴木利幸",
+        "中谷多加二",
+        "市川秀之"
+      ],
+      "locator": {
+        "file": "sz_1079434.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "ふじのくに県民クラブ",
+      "seats": 17,
+      "isIndependent": false,
+      "members": [
+        "曳田卓",
+        "伴卓",
+        "四本康久",
+        "小長井由雄",
+        "杉山淳",
+        "松井優介",
+        "山田新",
+        "佐野愛子",
+        "伊藤和子",
+        "川崎和子",
+        "沢田智文",
+        "鈴木唯記子",
+        "田中照彦",
+        "田口章",
+        "良知駿一",
+        "阿部卓也",
+        "菅沼泰久"
+      ],
+      "locator": {
+        "file": "sz_1079434.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党静岡県議団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "蓮池章平",
+        "早川育子",
+        "山本彰彦",
+        "牧野正史",
+        "盛月寿美"
+      ],
+      "locator": {
+        "file": "sz_1079434.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属（大石哲司）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大石哲司"
+      ],
+      "locator": {
+        "file": "sz_1079434.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属（遠藤行洋）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "遠藤行洋"
+      ],
+      "locator": {
+        "file": "sz_1079434.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（塚本大）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "塚本大"
+      ],
+      "locator": {
+        "file": "sz_1079434.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無所属（桜井勝郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "桜井勝郎"
+      ],
+      "locator": {
+        "file": "sz_1079434.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "無所属（山本隆久）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山本隆久"
+      ],
+      "locator": {
+        "file": "sz_1079434.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号",
+    "billName": "令和8年度静岡県一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "可決・全員一致",
+    "locator": {
+      "file": "sz_1079434.html"
+    }
+  },
+  "rosterTitle": "県議会令和8年2月定例会における審議結果",
+  "resultTitle": "県議会令和8年2月定例会における審議結果"
+}
