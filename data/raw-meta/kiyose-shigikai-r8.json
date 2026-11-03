@@ -1,0 +1,19 @@
+{
+  "sourceId": "kiyose-shigikai-r8",
+  "files": [
+    {
+      "filename": "kiyose_dayori_249.pdf",
+      "sha256": "638f7a75dbfb237a8d3bb71b4ae87166d7e6c4262a4427c0a0f72a5b868dc106",
+      "bytes": 5345932,
+      "fetchedAt": "2026-11-03T12:48:52.109Z",
+      "fetchedFrom": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/280/249-5-15.pdf"
+    },
+    {
+      "filename": "kiyose_r8-1_shichougian_kekka.pdf",
+      "sha256": "0cfc3d7c82be269a689c071cd658dd62ecf6e5f98624438e78fda851cf6ae4d4",
+      "bytes": 487105,
+      "fetchedAt": "2026-11-03T12:48:52.111Z",
+      "fetchedFrom": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/950/r8.1.shicyougian.zenbu0316.pdf"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sourceId": "hamura-shigikai-r8",
+  "files": [
+    {
+      "filename": "hamura_tobira154_p20-24.pdf",
+      "sha256": "9629556dc03e06a577dbab17b300fa713641ecf93d8858ca51b85f1b93cab130",
+      "bytes": 1284345,
+      "fetchedAt": "2026-11-03T12:48:14.704Z",
+      "fetchedFrom": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20400/154-2024.pdf"
+    },
+    {
+      "filename": "hamura_tobira154_p10-19.pdf",
+      "sha256": "549812647d290368f88926f870b1b70d32a63423be566860f6099304d640a20d",
+      "bytes": 1553201,
+      "fetchedAt": "2026-11-03T12:48:14.707Z",
+      "fetchedFrom": "https://www.city.hamura.tokyo.jp/cmsfiles/contents/0000020/20400/154-1019.pdf"
+    },
+    {
+      "filename": "hamura_0000020466.html",
+      "sha256": "5e5f40af5fc7c5419c7c50018c5a71591cfcf2aa64d110aa4800d76d028ae345",
+      "bytes": 27855,
+      "fetchedAt": "2026-11-03T12:48:14.707Z",
+      "fetchedFrom": "https://www.city.hamura.tokyo.jp/0000020466.html"
+    },
+    {
+      "filename": "hamura_0000002299.html",
+      "sha256": "29e3d186d1092303ec8bbf54d8dda0fb7e7dd0d1f8900d9d5ed2b19a3bdef1dd",
+      "bytes": 23646,
+      "fetchedAt": "2026-11-03T12:48:14.707Z",
+      "fetchedFrom": "https://www.city.hamura.tokyo.jp/0000002299.html"
+    },
+    {
+      "filename": "hamura_0000012267.html",
+      "sha256": "20e27c90696774b665fa9a0729cc62642ffc9922cc3a8c4fb761081cdcfd208c",
+      "bytes": 24077,
+      "fetchedAt": "2026-11-03T12:48:14.707Z",
+      "fetchedFrom": "https://www.city.hamura.tokyo.jp/0000012267.html"
+    }
+  ]
+}
