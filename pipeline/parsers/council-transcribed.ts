@@ -536,16 +536,20 @@ function dateTokens(s: string): string[] {
  * 正規化済みの本文の日付の位置（議決前に離れた議員の原文・0.8.23）。「令和8年1月31日」「1月31日」「R8.1.31」「1/31」。
  * reiwa は年が書いてあればその年（元年は 1）
  */
-function datePositions(n: string): { md: string; at: number; end: number; reiwa: number | null }[] {
-  const out: { md: string; at: number; end: number; reiwa: number | null }[] = [];
-  for (const m of n.matchAll(/(?:令和(\d+|元)年)?(\d+)月(\d+)日/g)) {
-    out.push({ md: `${Number(m[2])}月${Number(m[3])}日`, at: m.index!, end: m.index! + m[0].length, reiwa: m[1] == null ? null : m[1] === "元" ? 1 : Number(m[1]) });
+function datePositions(n: string): { md: string; at: number; end: number; year: number | null }[] {
+  const out: { md: string; at: number; end: number; year: number | null }[] = [];
+  // 年は西暦に直す（令和N年＝2018+N・平成N年＝1988+N・「2026年」）。年が無ければ null
+  const era = (e: string | undefined, y: string | undefined) =>
+    y == null ? null : e === "令和" ? 2018 + (y === "元" ? 1 : Number(y)) : e === "平成" ? 1988 + (y === "元" ? 1 : Number(y)) : Number(y);
+  for (const m of n.matchAll(/(?:(令和|平成)?(\d+|元)年)?(\d+)月(\d+)日/g)) {
+    const y = m[1] == null && m[2] != null && m[2].length !== 4 ? null : era(m[1], m[2]);
+    out.push({ md: `${Number(m[3])}月${Number(m[4])}日`, at: m.index!, end: m.index! + m[0].length, year: y });
   }
   for (const m of n.matchAll(/(?<![\d.])(R?)(\d{1,2})\.(\d{1,2})\.(\d{1,2})(?![\d.])/g)) {
-    out.push({ md: `${Number(m[3])}月${Number(m[4])}日`, at: m.index!, end: m.index! + m[0].length, reiwa: Number(m[2]) });
+    out.push({ md: `${Number(m[3])}月${Number(m[4])}日`, at: m.index!, end: m.index! + m[0].length, year: 2018 + Number(m[2]) });
   }
   for (const m of n.matchAll(/(?<![\d/])(\d{1,2})\/(\d{1,2})(?![\d/])/g)) {
-    out.push({ md: `${Number(m[1])}月${Number(m[2])}日`, at: m.index!, end: m.index! + m[0].length, reiwa: null });
+    out.push({ md: `${Number(m[1])}月${Number(m[2])}日`, at: m.index!, end: m.index! + m[0].length, year: null });
   }
   return out;
 }
@@ -1481,7 +1485,9 @@ export function parseCouncilTranscribed(
   };
   // 議決前に離れた議員（0.8.23）。会派ごとの人数（名簿の基準日の印字と照合する）
   const departures = opt.departures ?? [];
-  const departedOf = (f: { name: string }) => departures.filter((d) => norm(d.faction) === norm(f.name));
+  // 同じ名前の会派（無所属を1人ずつ並べる型）が複数あると、どれに数えるか決められない（レビュー1巡目）。checkDeparture で throw する
+  const departedOf = (f: { name: string }) =>
+    opt.factions.filter((g) => norm(g.name) === norm(f.name)).length === 1 ? departures.filter((d) => norm(d.faction) === norm(f.name)) : [];
   /** 会派 i の範囲（モード×ページごと）。枠があれば切り出し、無ければ会派名から次の会派名まで */
   const readSections = (i: number): string[] => {
     const f = opt.factions[i]!;
@@ -1773,7 +1779,8 @@ export function parseCouncilTranscribed(
         }
       }
     }
-    const page = isPdf(rosterFile) ? (f.page ?? (f.members[0] ?? departedOf(f)[0]?.name) != null ? pageOf(roster.views, (f.members[0] ?? departedOf(f)[0]?.name)!) : null) : null;
+    const firstName = f.members[0] ?? departedOf(f)[0]?.name;
+    const page = isPdf(rosterFile) ? (f.page ?? (firstName != null ? pageOf(roster.views, firstName) : null)) : null;
     return {
       name: f.independent && f.members.length === 1 ? `${f.name}（${f.members[0]}）` : f.name,
       seats: f.members.length,
@@ -1793,6 +1800,7 @@ export function parseCouncilTranscribed(
     const fi = opt.factions.findIndex((f) => norm(f.name) === norm(d.faction));
     const f = opt.factions[fi];
     if (!f) missing.push(`${who}: 会派「${d.faction}」が factions にありません`);
+    else if (opt.factions.filter((g) => norm(g.name) === norm(d.faction)).length > 1) missing.push(`${who}: 会派「${d.faction}」が factions に複数あり、どれから離れたか決められません`);
     else if (f.label != null) missing.push(`${who}: 略称（label）方式の会派には、まだ書けません（${f.name}）`);
     else if (!sectionsOf(fi).some((s) => s.includes(nameN))) {
       missing.push(`${rosterFile.filename}: ${who}が会派「${f.name}」の${f.box ? "枠" : f.url ? "ページ" : "区間（会派名から次の会派名まで）"}に見つかりません`);
@@ -1805,7 +1813,11 @@ export function parseCouncilTranscribed(
     }
     const tN = norm(d.text);
     if (tN.length > 200) missing.push(`${who}: 原文が長すぎます（${tN.length}字・200字まで）— 辞職などを述べた文だけを書く`);
-    if (!has(readDoc(fileFor(d.url)).views, d.text)) missing.push(`${d.url}: ${who}の原文「${d.text}」が見つかりません`);
+    // PDF は -raw の本文でだけ探す。-layout は段組みの記事が交互に混ざり、見出し「議員の辞職について」の直後に別の記事の氏名が
+    // 来た文字列の中で「近さ」が成り立った（尼崎 158.pdf・レビュー1巡目で実測）
+    const df = fileFor(d.url);
+    const dViews = isPdf(df) ? pdftotext(df.path, ["-raw"]).split("\f").map((p) => norm(p)) : readDoc(df).views.map((v) => v.text);
+    if (!dViews.some((t) => t.includes(norm(d.text)))) missing.push(`${d.url}: ${who}の原文「${d.text}」が見つかりません${isPdf(df) ? "（PDF は -raw の本文で探す）" : ""}`);
     // 原文の中で、kind の語に最も近い議員の氏名が name で、最も近い日付が date であること（どれかの kind の出現で両方満たす）
     const [y, mo, da] = d.date.split("-").map(Number) as [number, number, number];
     const md = `${mo}月${da}日`;
@@ -1813,11 +1825,16 @@ export function parseCouncilTranscribed(
     const names = [...new Set([...opt.factions.flatMap((g) => g.members), ...departures.map((o) => o.name)].map(norm))];
     // 長い氏名の中の短い氏名（「田中一郎」の中の「田中一」）は数えない
     // 氏名の直後は区切り・敬称・助詞であること（姓だけの「中本」が原文の「中本浩精君」に当たって通った＝和歌山県の作業者が実測）
-    const NAME_END = /^(?:$|[、。,.・()「」『』:\[\]【】〔〕]|議員|君|氏|さん|様|前|元|が|は|の|から|を|に|と|も|及|並)/;
-    const spans0 = names.flatMap((n) => boundedAll(tN, n).filter((at) => NAME_END.test(tN.slice(at + n.length))).map((at) => ({ n, at, end: at + n.length })));
+    const NAME_END = /^(?:$|[、。,.・()「」『』:\[\]【】〔〕]|議員|君|氏|さん|様|殿|前|元|が|は|の|から|を|に|と|も|及|並|両|ら|外|各)/;
+    // 宛名（「議長、岡本陽子様」「殿」）の氏名は、離れた本人として数えない（宗像の辞職願の宛名の議長が通った＝レビュー1巡目）
+    const spans0 = names.flatMap((n) =>
+      boundedAll(tN, n)
+        .filter((at) => NAME_END.test(tN.slice(at + n.length)) && !/^(様|殿)/.test(tN.slice(at + n.length)))
+        .map((at) => ({ n, at, end: at + n.length })),
+    );
     const spans = spans0.filter((s) => !spans0.some((o) => o !== s && o.at <= s.at && s.end <= o.end && o.end - o.at > s.end - s.at)).sort((a, b) => a.at - b.at);
     // 並べて書いた氏名（「中本浩精君、小西政宏君から…辞職」）は1つの組として扱う。間が敬称・括弧書き・読点・「及び」だけの氏名どうし
-    const LIST_GAP = /^(?:議員|君|氏|さん|様)?(?:\([^()]{0,40}\))?(?:議員|君|氏|さん|様)?(?:[、,・]|及び|並びに|と)$/;
+    const LIST_GAP = /^(?:議員|君|氏|さん|様)?(?:\([^()]{0,40}\))?(?:議員|君|氏|さん|様)?(?:[、,・]?(?:及び|および|並びに|ならびに)|[、,・]|と)$/;
     const groupOf = (s: (typeof spans)[number]) => {
       let a = spans.indexOf(s);
       let b = a;
@@ -1826,13 +1843,23 @@ export function parseCouncilTranscribed(
       return spans.slice(a, b + 1);
     };
     const gap = (a: { at: number; end: number }, b: { at: number; end: number }) => Math.max(0, a.at - b.end, b.at - a.end);
-    const kinds = boundedAll(tN, d.kind).map((at) => ({ at, end: at + d.kind.length }));
+    // 見出し・議題の「辞職について」「辞職勧告決議案」、否決の文の中の語は、離れた事実の語として数えない（レビュー1巡目）
+    const sentenceOf = (at: number) => tN.slice(tN.lastIndexOf("。", at) + 1, (tN.indexOf("。", at) + 1 || tN.length + 1) - 1);
+    const kinds = boundedAll(tN, d.kind)
+      .filter((at) => !/^(勧告|について|に関する|に対する|に係る)/.test(tN.slice(at + d.kind.length)) && !/否決|勧告/.test(sentenceOf(at)))
+      .map((at) => ({ at, end: at + d.kind.length }));
     if (!spans.some((s) => s.n === nameN)) missing.push(`${who}: 原文に氏名がありません（氏名の直後が区切り・敬称・助詞の出現が要る）`);
     if (!kinds.length) missing.push(`${who}: 原文に「${d.kind}」の語がありません`);
     if (!dates.some((t) => t.md === md)) missing.push(`${who}: 原文に離れた日「${md}」がありません`);
     for (const t of dates) {
-      if (t.md === md && t.reiwa != null && t.reiwa !== y - 2018) missing.push(`${who}: 原文の「令和${t.reiwa}年${md}」が離れた日 ${d.date} の年と合いません`);
+      if (t.md === md && t.year != null && t.year !== y) missing.push(`${who}: 原文の${md}の年（${t.year}年）が離れた日 ${d.date} の年と合いません`);
     }
+    // 基準日から議決日までに同じ月日が2回あるとき（期間が1年を超える）は、原文に年が要る（年を1年ずらした書き写しが通った＝宗像・レビュー1巡目）
+    const inRange = [y - 1, y, y + 1].filter((yy) => {
+      const iso = `${yy}-${String(mo).padStart(2, "0")}-${String(da).padStart(2, "0")}`;
+      return opt.asOf < iso && iso < opt.resolution.decidedDate;
+    });
+    if (inRange.length > 1 && !dates.some((t) => t.md === md && t.year === y)) missing.push(`${who}: 名簿の基準日から議決日までに${md}が2回あるので、原文に年（令和N年など）が要ります`);
     if (kinds.length && spans.some((s) => s.n === nameN) && dates.some((t) => t.md === md)) {
       const ok = kinds.some((k) => {
         const minN = Math.min(...spans.map((s) => gap(s, k)));

@@ -1066,7 +1066,16 @@ function buildCouncilVotes(
       asOfLabel,
       // 名簿の基準日から議決までに議席を離れた議員（council-transcribed 0.8.23）。画面は「（1月31日の辞職を除く）」
       ...(doc.departures?.length
-        ? { departures: doc.departures.map((d) => ({ kind: d.kind, date: d.date, dateLabel: d.dateLabel, faction: d.faction, source: ev(d.url, d.title) })) }
+        ? {
+            departures: doc.departures.map((d) => ({
+              kind: d.kind,
+              date: d.date,
+              // 年を付ける（「2025年9月9日現在（2月18日の辞職を除く）」だと基準日より前の日と読み違える＝レビュー1巡目）
+              dateLabel: d.date.replace(/^(\d{4})-(\d{2})-(\d{2})$/, (_m, y, mo, dd) => `${y}年${Number(mo)}月${Number(dd)}日`),
+              faction: d.faction,
+              source: ev(d.url, d.title),
+            })),
+          }
         : {}),
       // 原典の並び（議席番号順の賛否表の列など）は団体ごとにまちまちなので、議席の多い順・無所属は後ろにそろえる
       factions: doc.factions
