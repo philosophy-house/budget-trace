@@ -1800,9 +1800,10 @@ export function parseCouncilTranscribed(
   // 網は**氏名を見るもの**に限る（レビュー5巡目）。人数だけの網（totalText.url・teisu など）は、本当に離れた議員を残して在籍の議員を
   // 外す入れ替えを捕まえず、declaredIn は離れた議員と関係の無い会派に1つあるだけで条件を満たした
   if (departures.length) {
-    const memberVotes = [opt.votes, ...(opt.votesParts ?? [])].some((v) => v?.basis === "member");
+    // 1字の見出しの賛否表（headerWeakReason）は列と議員の結び付きが弱いので、氏名の網に数えない（レビュー6巡目）
+    const memberVotes = [opt.votes, ...(opt.votesParts ?? [])].some((v) => v?.basis === "member" && !v.headerWeakReason);
     if (!(opt.roster.confirmUrls?.length ?? 0) && !memberVotes) {
-      missing.push(`departures を書く行には、議決時の氏名の網（confirmUrls か議員ごとの賛否表）が要ります`);
+      missing.push(`departures を書く行には、議決時の氏名の網（confirmUrls か議員ごとの賛否表。1字の見出しの表は数えない）が要ります`);
     }
   }
   function checkDeparture(d: NonNullable<CouncilTranscribedOptions["departures"]>[number]) {
@@ -1881,15 +1882,24 @@ export function parseCouncilTranscribed(
           !/否決|勧告|撤回|不許可|求める|決議/.test(sentenceOf(at)) &&
           // 「委員の職を辞職」も役職（レビュー3巡目）。「議長が辞職を許可」は議長が主語なので数える
           // 「副議長職を辞職」「委員長が辞職」も役職（レビュー4巡目）
-          !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)?[をの]?$/.test(tN.slice(Math.max(0, at - 8), at)) &&
-          !/(委員|委員長|理事|会長|監査|役員|代表)が$/.test(tN.slice(Math.max(0, at - 8), at)) &&
+          (d.kind !== "辞職" ||
+            (!/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)?[をの]?$/.test(tN.slice(Math.max(0, at - 8), at)) &&
+              !/(委員|委員長|理事|会長|監査|役員|代表)が$/.test(tN.slice(Math.max(0, at - 8), at)))) &&
           // 役職の語と「辞職」の間に日付などが挟まる「委員の職を２月18日付で辞職」も、同じ文の中の前30字で見る
-          // 役職の語の一覧に無い「幹事長の職を辞職」も同じ（議員以外の「職を」。「議員の職を辞する」は議席の辞職＝レビュー5巡目）
-          !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)|(?<!議員)(?<!議員の)職を/.test(tN.slice(Math.max(tN.lastIndexOf("。", at - 1) + 1, at - 30), at)),
+          // 役職の語の一覧に無い「幹事長の職を辞職」も同じ（役職らしい語＋「の職を」。レビュー5巡目）。「その職を」「議員としての職を」
+          // 「現職を」「就職を」は議席の辞職の言い回しなので数える（レビュー6巡目）。役職の規則は「辞職」にだけ当てる
+          (d.kind !== "辞職" ||
+            !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)|(?<!議)(長|員|事|役)の?職を/.test(tN.slice(Math.max(tN.lastIndexOf("。", at - 1) + 1, at - 30), at))),
       )
       .map((at) => ({ at, end: at + d.kind.length }));
     if (!spans.some((s) => s.n === nameN)) missing.push(`${who}: 原文に氏名がありません（氏名の直後が区切り・敬称・助詞の出現が要る）`);
-    if (!kinds.length) missing.push(`${who}: 原文に「${d.kind}」の語がありません`);
+    if (!kinds.length) {
+      missing.push(
+        boundedAll(tN, d.kind).length
+          ? `${who}: 原文の「${d.kind}」は、議題の見出し・撤回や否決の文・役職の辞職の言い回しとして除いたものだけです`
+          : `${who}: 原文に「${d.kind}」の語がありません`,
+      );
+    }
     if (!dates.some((t) => t.md === md)) missing.push(`${who}: 原文に離れた日「${md}」がありません`);
     for (const t of dates) {
       if (t.md === md && t.year != null && t.year !== y) missing.push(`${who}: 原文の${md}の年（${t.year}年）が離れた日 ${d.date} の年と合いません`);
