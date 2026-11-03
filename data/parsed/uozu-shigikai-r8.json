@@ -1,0 +1,155 @@
+{
+  "docType": "council-composition",
+  "sourceId": "uozu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:33:04.513Z",
+  "fiscalYear": "R8",
+  "body": "魚津市議会",
+  "seats": 17,
+  "asOf": "2026-03-23",
+  "teisu": 17,
+  "factions": [
+    {
+      "name": "自民党議員会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "寺口俊光",
+        "大城章仁",
+        "島田修",
+        "林久嗣",
+        "金川敏子",
+        "浜田泰友",
+        "関口雅治"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主党議員会「響」",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "石﨑一成",
+        "久保田満宏"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民進",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "寺﨑孝洋"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "よつば",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "野村明男"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "岡田龍朗"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中瀬淑美"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民自治をめざす会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "宮坂昌利"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "立憲",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "越川隆文"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市政クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "八倉巻正臣"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "雄心会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "松倉勇"
+      ],
+      "locator": {
+        "file": "uozu_078761.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１号",
+    "billName": "令和８年度魚津市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "uozu_078761.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和8年3月定例会 議案等に対する賛否について",
+  "resultTitle": "令和8年3月定例会 議案等に対する賛否について"
+}

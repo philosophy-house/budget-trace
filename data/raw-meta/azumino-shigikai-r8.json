@@ -1,0 +1,33 @@
+{
+  "sourceId": "azumino-shigikai-r8",
+  "files": [
+    {
+      "filename": "azumino_79213_warp20260207.pdf",
+      "sha256": "57c69cad356bb4c35f63a8ae2656e181b45225fff1c147246a250d44dba87bc5",
+      "bytes": 107082,
+      "fetchedAt": "2026-11-03T12:46:09.228Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260208/20260207214339id_/https://www.city.azumino.nagano.jp/uploaded/attachment/79213.pdf"
+    },
+    {
+      "filename": "azumino_10031_warp20260207.html",
+      "sha256": "45717f6f66701ee46cc86a2921cdd892d1430b646fcfb0f118b07dcd01c484de",
+      "bytes": 24272,
+      "fetchedAt": "2026-11-03T12:46:09.228Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260208/20260207130358id_/https://www.city.azumino.nagano.jp/site/gikai/10031.html"
+    },
+    {
+      "filename": "azumino_81854.pdf",
+      "sha256": "eeacb8693cb5fb86f6fcf6ac2e208228166bf523af46cfd613e1194ae2fed35f",
+      "bytes": 283948,
+      "fetchedAt": "2026-11-03T12:46:09.228Z",
+      "fetchedFrom": "https://www.city.azumino.nagano.jp/uploaded/attachment/81854.pdf"
+    },
+    {
+      "filename": "azumino_141399.html",
+      "sha256": "6df6cc7d53f45d76719aa8d608154fe20dc15bdcd2010951363300201821bd50",
+      "bytes": 32080,
+      "fetchedAt": "2026-11-03T12:46:09.229Z",
+      "fetchedFrom": "https://www.city.azumino.nagano.jp/site/gikai/141399.html"
+    }
+  ]
+}

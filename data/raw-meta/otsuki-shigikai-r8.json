@@ -1,0 +1,19 @@
+{
+  "sourceId": "otsuki-shigikai-r8",
+  "files": [
+    {
+      "filename": "ot_gikaidayori182_2026_5.pdf",
+      "sha256": "67e5f8e5cdffd10b04e7789b872fd45d473fbd40af6b6010d0406da941de9786",
+      "bytes": 5953796,
+      "fetchedAt": "2026-11-03T12:46:09.218Z",
+      "fetchedFrom": "https://www.city.otsuki.yamanashi.jp/shigikai/images/gikai_2026_5.pdf"
+    },
+    {
+      "filename": "ot_R8.3.19giketu.pdf",
+      "sha256": "4d6160e53dd18c10fc2a4e4931df1347f59cf6dc94ffbb564e22b8a7e483097a",
+      "bytes": 128459,
+      "fetchedAt": "2026-11-03T12:46:09.219Z",
+      "fetchedFrom": "https://www.city.otsuki.yamanashi.jp/shigikai/images/R8.3.19giketu.pdf"
+    }
+  ]
+}

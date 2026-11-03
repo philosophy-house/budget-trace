@@ -114,4 +114,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "菰野町（旧サイト）", license: "Copyright © Komono Town. All Rights Reserved." },
   { who: "愛川町", license: "Copyright (c)2023 Aikawa town. All Rights Reserved." },
   { who: "愛川町（旧サイト）", license: "Copyright 2015 Aikawa Town All Rights Reserved." },
+  { who: "大月市", license: "大月市ホームページで公開している文章や画像の著作権は、大月市に帰属します。 これらの著作物を大月市の承諾なしに複製、または他の電子メディアや印刷物などに再利用する事はできません。" },
 ];
