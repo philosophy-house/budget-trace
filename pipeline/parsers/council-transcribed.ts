@@ -1794,6 +1794,16 @@ export function parseCouncilTranscribed(
   const factionsLive = opt.factions.filter((f) => f.members.length > 0);
   const seats = factions.reduce((s, f) => s + f.seats, 0);
   const departuresOut = departures.map((d) => checkDeparture(d));
+  // departures を書く行は、議決時の人数・在籍の網を必須にする（レビュー4巡目）。原文の語・並びの読みは許可リストで、
+  // 言い回しを変えると抜けられる（「中本浩精君のほか、小西政宏君から」で組が切れる・「職を…辞職」）。議決時の網があれば、
+  // 離れていない議員を離れたことにしても、離れた議員を残しても、議決時の人数・氏名と合わなくなる
+  if (departures.length) {
+    const memberVotes = [opt.votes, ...(opt.votesParts ?? [])].some((v) => v?.basis === "member");
+    const decisionNet =
+      (opt.roster.confirmUrls?.length ?? 0) > 0 || opt.totalText?.url != null || opt.memberMarkerUrl != null ||
+      opt.factions.some((f) => f.declaredIn != null) || memberVotes || opt.teisu != null;
+    if (!decisionNet) missing.push(`departures を書く行には議決時の網（confirmUrls・totalText.url・memberMarkerUrl・declaredIn・議員ごとの賛否・teisu のどれか）が要ります`);
+  }
   function checkDeparture(d: NonNullable<CouncilTranscribedOptions["departures"]>[number]) {
     const who = `議決前に離れた議員「${d.name}」`;
     const nameN = norm(d.name);
@@ -1869,7 +1879,11 @@ export function parseCouncilTranscribed(
           !/^(勧告|について|に関する|に対する|に係る)/.test(tN.slice(at + d.kind.length)) &&
           !/否決|勧告|撤回|不許可|求める|決議/.test(sentenceOf(at)) &&
           // 「委員の職を辞職」も役職（レビュー3巡目）。「議長が辞職を許可」は議長が主語なので数える
-          !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職)?[をの]?$/.test(tN.slice(Math.max(0, at - 8), at)),
+          // 「副議長職を辞職」「委員長が辞職」も役職（レビュー4巡目）
+          !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)?[をの]?$/.test(tN.slice(Math.max(0, at - 8), at)) &&
+          !/(委員|委員長|理事|会長|監査|役員|代表)が$/.test(tN.slice(Math.max(0, at - 8), at)) &&
+          // 役職の語と「辞職」の間に日付などが挟まる「委員の職を２月18日付で辞職」も、同じ文の中の前30字で見る
+          !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)/.test(tN.slice(Math.max(tN.lastIndexOf("。", at - 1) + 1, at - 30), at)),
       )
       .map((at) => ({ at, end: at + d.kind.length }));
     if (!spans.some((s) => s.n === nameN)) missing.push(`${who}: 原文に氏名がありません（氏名の直後が区切り・敬称・助詞の出現が要る）`);
