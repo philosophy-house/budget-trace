@@ -1811,13 +1811,24 @@ export function parseCouncilTranscribed(
     if (!(d.date < opt.resolution.decidedDate)) {
       missing.push(`${who}: 離れた日 ${d.date} が議決日 ${opt.resolution.decidedDate} より前ではありません（議決日の離職は議決時に在籍したかを決められない）`);
     }
-    const tN = norm(d.text);
-    if (tN.length > 200) missing.push(`${who}: 原文が長すぎます（${tN.length}字・200字まで）— 辞職などを述べた文だけを書く`);
+    const tText = norm(d.text);
+    if (tText.length > 200) missing.push(`${who}: 原文が長すぎます（${tText.length}字・200字まで）— 辞職などを述べた文だけを書く`);
     // PDF は -raw の本文でだけ探す。-layout は段組みの記事が交互に混ざり、見出し「議員の辞職について」の直後に別の記事の氏名が
     // 来た文字列の中で「近さ」が成り立った（尼崎 158.pdf・レビュー1巡目で実測）
     const df = fileFor(d.url);
     const dViews = isPdf(df) ? pdftotext(df.path, ["-raw"]).split("\f").map((p) => norm(p)) : readDoc(df).views.map((v) => v.text);
-    if (!dViews.some((t) => t.includes(norm(d.text)))) missing.push(`${d.url}: ${who}の原文「${d.text}」が見つかりません${isPdf(df) ? "（PDF は -raw の本文で探す）" : ""}`);
+    if (!dViews.some((t) => t.includes(tText))) missing.push(`${d.url}: ${who}の原文「${d.text}」が見つかりません${isPdf(df) ? "（PDF は -raw の本文で探す）" : ""}`);
+    // 照合は書き写した text ではなく、原典の中で text を前後の「。」まで（最大80字ずつ）広げた文で行う。text の切り方しだいで、
+    // 「中本浩精君、」を切り落として組の規則を、「様」を切り落として宛名の除外を抜けられた（レビュー2巡目で実測）
+    const tN = (() => {
+      const v = dViews.find((t) => t.includes(tText));
+      if (!v) return tText;
+      const at = v.indexOf(tText);
+      const st = Math.max(v.lastIndexOf("。", at - 1) + 1, at - 80, 0);
+      const nx = v.indexOf("。", at + tText.length - 1);
+      const en = Math.min(nx < 0 ? v.length : nx + 1, at + tText.length + 80);
+      return v.slice(st, Math.max(en, at + tText.length));
+    })();
     // 原文の中で、kind の語に最も近い議員の氏名が name で、最も近い日付が date であること（どれかの kind の出現で両方満たす）
     const [y, mo, da] = d.date.split("-").map(Number) as [number, number, number];
     const md = `${mo}月${da}日`;
@@ -1827,9 +1838,13 @@ export function parseCouncilTranscribed(
     // 氏名の直後は区切り・敬称・助詞であること（姓だけの「中本」が原文の「中本浩精君」に当たって通った＝和歌山県の作業者が実測）
     const NAME_END = /^(?:$|[、。,.・()「」『』:\[\]【】〔〕]|議員|君|氏|さん|様|殿|前|元|が|は|の|から|を|に|と|も|及|並|両|ら|外|各)/;
     // 宛名（「議長、岡本陽子様」「殿」）の氏名は、離れた本人として数えない（宗像の辞職願の宛名の議長が通った＝レビュー1巡目）
+    // 区切りなしで続く氏名（表のセルの「中本浩精 小西政宏」は正規化で空白が落ちる）は、後ろが別の議員の氏名なら区切りとみる（レビュー2巡目）
     const spans0 = names.flatMap((n) =>
       boundedAll(tN, n)
-        .filter((at) => NAME_END.test(tN.slice(at + n.length)) && !/^(様|殿)/.test(tN.slice(at + n.length)))
+        .filter((at) => {
+          const rest = tN.slice(at + n.length);
+          return (NAME_END.test(rest) || names.some((o) => o !== n && rest.startsWith(o))) && !/^(様|殿)/.test(rest);
+        })
         .map((at) => ({ n, at, end: at + n.length })),
     );
     const spans = spans0.filter((s) => !spans0.some((o) => o !== s && o.at <= s.at && s.end <= o.end && o.end - o.at > s.end - s.at)).sort((a, b) => a.at - b.at);
@@ -1838,15 +1853,22 @@ export function parseCouncilTranscribed(
     const groupOf = (s: (typeof spans)[number]) => {
       let a = spans.indexOf(s);
       let b = a;
-      while (a > 0 && LIST_GAP.test(tN.slice(spans[a - 1]!.end, spans[a]!.at))) a--;
-      while (b < spans.length - 1 && LIST_GAP.test(tN.slice(spans[b]!.end, spans[b + 1]!.at))) b++;
+      const listed = (g: string) => g === "" || LIST_GAP.test(g);
+      while (a > 0 && listed(tN.slice(spans[a - 1]!.end, spans[a]!.at))) a--;
+      while (b < spans.length - 1 && listed(tN.slice(spans[b]!.end, spans[b + 1]!.at))) b++;
       return spans.slice(a, b + 1);
     };
     const gap = (a: { at: number; end: number }, b: { at: number; end: number }) => Math.max(0, a.at - b.end, b.at - a.end);
     // 見出し・議題の「辞職について」「辞職勧告決議案」、否決の文の中の語は、離れた事実の語として数えない（レビュー1巡目）
     const sentenceOf = (at: number) => tN.slice(tN.lastIndexOf("。", at) + 1, (tN.indexOf("。", at) + 1 || tN.length + 1) - 1);
     const kinds = boundedAll(tN, d.kind)
-      .filter((at) => !/^(勧告|について|に関する|に対する|に係る)/.test(tN.slice(at + d.kind.length)) && !/否決|勧告/.test(sentenceOf(at)))
+      // 撤回・不許可・「辞職を求める決議」の文と、直前が役職の語（「委員を辞職」「副議長を辞職」＝議席は残る）の出現も数えない（レビュー2巡目）
+      .filter(
+        (at) =>
+          !/^(勧告|について|に関する|に対する|に係る)/.test(tN.slice(at + d.kind.length)) &&
+          !/否決|勧告|撤回|不許可|求める|決議/.test(sentenceOf(at)) &&
+          !/(委員|議長|委員長|理事|会長|監査|役員|代表)[をのが]?$/.test(tN.slice(Math.max(0, at - 6), at)),
+      )
       .map((at) => ({ at, end: at + d.kind.length }));
     if (!spans.some((s) => s.n === nameN)) missing.push(`${who}: 原文に氏名がありません（氏名の直後が区切り・敬称・助詞の出現が要る）`);
     if (!kinds.length) missing.push(`${who}: 原文に「${d.kind}」の語がありません`);
