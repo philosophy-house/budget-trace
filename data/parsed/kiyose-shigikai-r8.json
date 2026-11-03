@@ -1,0 +1,156 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kiyose-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:48:53.540Z",
+  "fiscalYear": "R8",
+  "body": "清瀬市議会",
+  "seats": 20,
+  "asOf": "2026-03-16",
+  "factions": [
+    {
+      "name": "清瀬自民クラブ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "中村きよし",
+        "星野玲子",
+        "斉藤まさひろ",
+        "友野和子",
+        "城野けんいち",
+        "清水ひろなが",
+        "森田正英"
+      ],
+      "locator": {
+        "file": "kiyose_dayori_249.pdf",
+        "page": 14
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "原かずひろ",
+        "やつだこうじ",
+        "鈴木たかし",
+        "斉藤あき子"
+      ],
+      "locator": {
+        "file": "kiyose_dayori_249.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "穴見れいな",
+        "香川やすのり",
+        "原田ひろみ",
+        "佐々木あつ子"
+      ],
+      "locator": {
+        "file": "kiyose_dayori_249.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "風・立憲・ネット",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "宮原りえ",
+        "松本潤",
+        "小西みか"
+      ],
+      "locator": {
+        "file": "kiyose_dayori_249.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "石川秀樹"
+      ],
+      "locator": {
+        "file": "kiyose_dayori_249.pdf",
+        "page": 15
+      }
+    },
+    {
+      "name": "共に生きる",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "ふせ由女"
+      ],
+      "locator": {
+        "file": "kiyose_dayori_249.pdf",
+        "page": 15
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度清瀬市一般会計予算",
+    "sessionLabel": "令和８年清瀬市議会第１回定例会",
+    "decidedDate": "2026-03-16",
+    "decidedDateLabel": "令和8年3月16日",
+    "result": "可決",
+    "locator": {
+      "file": "kiyose_dayori_249.pdf",
+      "page": 15
+    }
+  },
+  "rosterTitle": "清瀬市議会だより No.249（令和8年5月15日発行）15面「提出された議案等の結果」の表中の会派の名称及び議員名",
+  "resultTitle": "清瀬市議会だより No.249（令和8年5月15日発行）15面「提出された議案等の結果」",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "清瀬市議会だより No.249（令和8年5月15日発行）15面「提出された議案等の結果」市長提出議案",
+    "sourceFile": "kiyose_dayori_249.pdf",
+    "columns": [
+      {
+        "label": "清瀬自民クラブ",
+        "faction": "清瀬自民クラブ",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明党",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "日本共産党",
+        "faction": "日本共産党",
+        "stance": "反対"
+      },
+      {
+        "label": "風・立憲・ネット",
+        "faction": "風・立憲・ネット",
+        "stance": "賛成"
+      },
+      {
+        "label": "無所属の会",
+        "faction": "無所属の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "共に生きる",
+        "faction": "共に生きる",
+        "stance": "反対"
+      },
+      {
+        "label": "森田正英",
+        "faction": "清瀬自民クラブ",
+        "member": "森田正英",
+        "stance": "議長"
+      }
+    ]
+  }
+}
