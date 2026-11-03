@@ -1,0 +1,33 @@
+{
+  "sourceId": "yotsukaido-shigikai-r8",
+  "files": [
+    {
+      "filename": "yk_R8.3.9_kaihabetugiinmeibo.pdf",
+      "sha256": "bf31f44fbf4e5487d12ec1928e8edffdb324bdb17bf963096a24478e0a10b4ea",
+      "bytes": 53336,
+      "fetchedAt": "2026-11-03T12:47:24.004Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260806/20260805073540id_/https://www.city.yotsukaido.chiba.jp/shigikai/giinshoukai/giinmeibo.files/R8.3.9_kaihabetugiinmeibo.pdf"
+    },
+    {
+      "filename": "yk_shikumi.html",
+      "sha256": "0e789c592fd3f8acfc15c103ba8832e4a65a2677a58333b66d181b991c3ef1ea",
+      "bytes": 14176,
+      "fetchedAt": "2026-11-03T12:47:24.005Z",
+      "fetchedFrom": "https://www.city.yotsukaido.chiba.jp/shigikai/shigikai/shikumi.html"
+    },
+    {
+      "filename": "yk_R08-03.html",
+      "sha256": "eb8f061fd72b0eafb7174443f5ead03d8a303255e5d963e26f45d0e5121af460",
+      "bytes": 39286,
+      "fetchedAt": "2026-11-03T12:47:24.005Z",
+      "fetchedFrom": "https://www.city.yotsukaido.chiba.jp/shigikai/jouhou/giangiketsu/R08-03.html"
+    },
+    {
+      "filename": "yk_gikaidayori222_web.pdf",
+      "sha256": "2217e9c6d6d2e0b90a3eaf9f2c08ab4a418590c63c90efaab6ec4f068343ed57",
+      "bytes": 1909529,
+      "fetchedAt": "2026-11-03T12:47:24.007Z",
+      "fetchedFrom": "https://www.city.yotsukaido.chiba.jp/shigikai/katsudou/223.files/gikaidayori222_web.pdf"
+    }
+  ]
+}

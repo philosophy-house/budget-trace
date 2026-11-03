@@ -1,0 +1,40 @@
+{
+  "sourceId": "ayase-shigikai-r8",
+  "files": [
+    {
+      "filename": "ayase_9282_wb20251212.html",
+      "sha256": "95571ff1efc275b55ba1b21518adcd3ef84eb8ac5ff2c9017dcf372a6d4f9f9a",
+      "bytes": 50649,
+      "fetchedAt": "2026-11-03T12:47:24.018Z",
+      "fetchedFrom": "https://web.archive.org/web/20251212214809id_/https://www.city.ayase.kanagawa.jp/gyoseijoho/shigikai/giin_yakushoku_kaihabetsumeibo/9282.html"
+    },
+    {
+      "filename": "ayase_R8-3sinngikekka1.pdf",
+      "sha256": "79f409c9ee9e8f42e51ae5fcbe1fdb1a682896432e259ce2968d6f52ef921b17",
+      "bytes": 133058,
+      "fetchedAt": "2026-11-03T12:47:24.019Z",
+      "fetchedFrom": "https://www.city.ayase.kanagawa.jp/material/files/group/42/R8-3sinngikekka1.pdf"
+    },
+    {
+      "filename": "ayase_24092.html",
+      "sha256": "c2d5f33ca3913a2658dd35f7400365ba9f3aba84b49fe4a8e80e45cccae31e0b",
+      "bytes": 48108,
+      "fetchedAt": "2026-11-03T12:47:24.019Z",
+      "fetchedFrom": "https://www.city.ayase.kanagawa.jp/gyoseijoho/shigikai/shingikekka/8/24092.html"
+    },
+    {
+      "filename": "ayase_7897.html",
+      "sha256": "ee6bd12ecf89dadbffe94073a4606026e6f53f992e30b8e4ddc79d6f7795d4cf",
+      "bytes": 50255,
+      "fetchedAt": "2026-11-03T12:47:24.019Z",
+      "fetchedFrom": "https://www.city.ayase.kanagawa.jp/gyoseijoho/shigikai/shigikainoannai/7897.html"
+    },
+    {
+      "filename": "ayase_9315.html",
+      "sha256": "1f914b4a44cb894cd6b7efa556d80dae4bbdf96639e7be3195275d93f9ecee3e",
+      "bytes": 50972,
+      "fetchedAt": "2026-11-03T12:47:24.020Z",
+      "fetchedFrom": "https://www.city.ayase.kanagawa.jp/gyoseijoho/shigikai/gicho_fukugichonoheya/7/9315.html"
+    }
+  ]
+}

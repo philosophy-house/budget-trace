@@ -1,0 +1,136 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kimitsu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:47:26.500Z",
+  "fiscalYear": "R8",
+  "body": "君津市議会",
+  "seats": 21,
+  "asOf": "2026-03-25",
+  "factions": [
+    {
+      "name": "令和新政",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "小倉靖幸",
+        "大和ヒロシ",
+        "天笠等",
+        "鶴岡一成",
+        "三浦章",
+        "小林喜久男"
+      ],
+      "locator": {
+        "file": "59290.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "麒麟",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "下田剣吾",
+        "保坂好一",
+        "高橋明"
+      ],
+      "locator": {
+        "file": "59290.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "明政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大滝浩介",
+        "四宮安彦",
+        "鈴木高大"
+      ],
+      "locator": {
+        "file": "59290.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "きみつ未来",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "滿武琢也",
+        "石上塁",
+        "松本裕次郎"
+      ],
+      "locator": {
+        "file": "59290.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "高橋健治",
+        "佐藤葉子",
+        "野上慎治"
+      ],
+      "locator": {
+        "file": "59290.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "諸派（林祥子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "林祥子"
+      ],
+      "locator": {
+        "file": "59290.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "諸派（小倉広紀）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小倉広紀"
+      ],
+      "locator": {
+        "file": "59290.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "諸派（三浦道雄）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "三浦道雄"
+      ],
+      "locator": {
+        "file": "59290.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３２号",
+    "billName": "令和８年度君津市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "59290.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "令和８年第１回定例会 審議結果（令和８年３月２５日最終更新）の表頭の会派と議員",
+  "resultTitle": "令和８年第１回定例会 審議結果（令和８年３月２５日最終更新）"
+}

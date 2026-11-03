@@ -1,0 +1,26 @@
+{
+  "sourceId": "yachimata-shigikai-r8",
+  "files": [
+    {
+      "filename": "31318.html",
+      "sha256": "56d12eec255d088754343881b1acdbb4f6748fd35be36684e4482879929366cd",
+      "bytes": 34530,
+      "fetchedAt": "2026-11-03T12:47:24.008Z",
+      "fetchedFrom": "https://www.city.yachimata.lg.jp/site/yachimatasigikai/31318.html"
+    },
+    {
+      "filename": "26208.pdf",
+      "sha256": "d431157989b40c2ea35a05c6bba5924d5427e458fb3e8fbd901730cd8ea00ccc",
+      "bytes": 73792,
+      "fetchedAt": "2026-11-03T12:47:24.008Z",
+      "fetchedFrom": "https://www.city.yachimata.lg.jp/uploaded/attachment/26208.pdf"
+    },
+    {
+      "filename": "27568.pdf",
+      "sha256": "4b1f620257eb7e62463e5ac8dc6390e79a2f5a10dc5ae47199e92c0491fccaa2",
+      "bytes": 6038627,
+      "fetchedAt": "2026-11-03T12:47:24.012Z",
+      "fetchedFrom": "https://www.city.yachimata.lg.jp/uploaded/attachment/27568.pdf"
+    }
+  ]
+}

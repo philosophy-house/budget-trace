@@ -1,0 +1,26 @@
+{
+  "sourceId": "choshi-shigikai-r8",
+  "files": [
+    {
+      "filename": "page1901_00009.html",
+      "sha256": "55ba0803c5c9f4b261ce70c51df1a25e9df5b012246244ce07944f5ca2a4b641",
+      "bytes": 15998,
+      "fetchedAt": "2026-11-03T12:47:23.984Z",
+      "fetchedFrom": "https://www.city.choshi.chiba.jp/gikai/page1901_00009.html"
+    },
+    {
+      "filename": "page190025_00015.html",
+      "sha256": "5d0ffedc2ca48878bf0ea4a873eeeb0db1e24eed28ea651bfdc787f812845959",
+      "bytes": 25643,
+      "fetchedAt": "2026-11-03T12:47:23.984Z",
+      "fetchedFrom": "https://www.city.choshi.chiba.jp/gikai/page190025_00015.html"
+    },
+    {
+      "filename": "000067494.pdf",
+      "sha256": "3f9f474b8ca55825ecbdc895dcbadce0faefc0668bc6fbffce9cf14c57490ae1",
+      "bytes": 109483,
+      "fetchedAt": "2026-11-03T12:47:23.985Z",
+      "fetchedFrom": "https://www.city.choshi.chiba.jp/content/000067494.pdf"
+    }
+  ]
+}

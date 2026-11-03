@@ -1,0 +1,294 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kisarazu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:47:25.440Z",
+  "fiscalYear": "R8",
+  "body": "木更津市議会",
+  "seats": 23,
+  "asOf": "2026-03-19",
+  "factions": [
+    {
+      "name": "羅針盤",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "吉田眞紀人",
+        "吾津松太郎",
+        "齊藤秀樹",
+        "草刈慎祐",
+        "永原利浩",
+        "鶴岡大治",
+        "近藤忍"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "石井徳亮",
+        "重城正義",
+        "斉藤高根",
+        "三上和俊"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "佐藤修一",
+        "神蔵五月",
+        "竹内伸江",
+        "渡辺厚子"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新栄会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "柗井晃治",
+        "安藤順子",
+        "座親政彦"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民とともに（田中紀子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "田中紀子"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "一隅（堀切俊一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "堀切俊一"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "しげのぶ塾（重信文彦）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "重信文彦"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "輝楽会（藤田真澄）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "藤田真澄"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（大野俊幸）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大野俊幸"
+      ],
+      "locator": {
+        "file": "r7_houkoku.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１０号",
+    "billName": "令和８年度木更津市一般会計予算",
+    "sessionLabel": "令和８年３月市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R0803gianitiran-R080319-2.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和7年度 政務活動費収支報告書（令和7年４月分～令和8年３月分）の会派名と所属議員",
+  "resultTitle": "令和８年３月市議会定例会議案一覧表（議決結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月議員別表決結果一覧（議案の議員別表決結果一覧）",
+    "sourceFile": "R0803giketsu_R080319-2.pdf",
+    "columns": [
+      {
+        "label": "吉田眞紀人",
+        "faction": "羅針盤",
+        "member": "吉田眞紀人",
+        "stance": "賛成"
+      },
+      {
+        "label": "吾津松太郎",
+        "faction": "羅針盤",
+        "member": "吾津松太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "柗井晃治",
+        "faction": "新栄会",
+        "member": "柗井晃治",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤田真澄",
+        "faction": "輝楽会（藤田真澄）",
+        "member": "藤田真澄",
+        "stance": "賛成"
+      },
+      {
+        "label": "重信文彦",
+        "faction": "しげのぶ塾（重信文彦）",
+        "member": "重信文彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "安藤順子",
+        "faction": "新栄会",
+        "member": "安藤順子",
+        "stance": "賛成"
+      },
+      {
+        "label": "齊藤秀樹",
+        "faction": "羅針盤",
+        "member": "齊藤秀樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤修一",
+        "faction": "公明党",
+        "member": "佐藤修一",
+        "stance": "賛成"
+      },
+      {
+        "label": "神蔵五月",
+        "faction": "公明党",
+        "member": "神蔵五月",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀切俊一",
+        "faction": "一隅（堀切俊一）",
+        "member": "堀切俊一",
+        "stance": "反対"
+      },
+      {
+        "label": "石井徳亮",
+        "faction": "自由民主クラブ",
+        "member": "石井徳亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹内伸江",
+        "faction": "公明党",
+        "member": "竹内伸江",
+        "stance": "賛成"
+      },
+      {
+        "label": "重城正義",
+        "faction": "自由民主クラブ",
+        "member": "重城正義",
+        "stance": "賛成"
+      },
+      {
+        "label": "永原利浩",
+        "faction": "羅針盤",
+        "member": "永原利浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "座親政彦",
+        "faction": "新栄会",
+        "member": "座親政彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺厚子",
+        "faction": "公明党",
+        "member": "渡辺厚子",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中紀子",
+        "faction": "市民とともに（田中紀子）",
+        "member": "田中紀子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鶴岡大治",
+        "faction": "羅針盤",
+        "member": "鶴岡大治",
+        "stance": "賛成"
+      },
+      {
+        "label": "近藤忍",
+        "faction": "羅針盤",
+        "member": "近藤忍",
+        "stance": "賛成"
+      },
+      {
+        "label": "大野俊幸",
+        "faction": "無会派（大野俊幸）",
+        "member": "大野俊幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "斉藤高根",
+        "faction": "自由民主クラブ",
+        "member": "斉藤高根",
+        "stance": "賛成"
+      },
+      {
+        "label": "三上和俊",
+        "faction": "自由民主クラブ",
+        "member": "三上和俊",
+        "stance": "賛成"
+      },
+      {
+        "label": "草刈慎祐",
+        "faction": "羅針盤",
+        "member": "草刈慎祐",
+        "stance": "議長"
+      }
+    ]
+  }
+}

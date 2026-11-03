@@ -1,0 +1,40 @@
+{
+  "sourceId": "samukawa-chogikai-r8",
+  "files": [
+    {
+      "filename": "samukawa_202603-4_giinbetusanpi.pdf",
+      "sha256": "4ce6ef9b5c0c27ecab667ad47fe43bf88bf2841054a564beca48cefe00e71c07",
+      "bytes": 210502,
+      "fetchedAt": "2026-11-03T12:47:24.021Z",
+      "fetchedFrom": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/202603-4_giinbetusanpi.pdf"
+    },
+    {
+      "filename": "samukawa_20475.html",
+      "sha256": "91eba516a32956c5f873dfc75e72c017d66b42ab8c531de2dcfc901a618e6cf6",
+      "bytes": 118580,
+      "fetchedAt": "2026-11-03T12:47:24.021Z",
+      "fetchedFrom": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/singigian/20475.html"
+    },
+    {
+      "filename": "samukawa_1361162844963.html",
+      "sha256": "3bcb154be0ca3e8bb05b733b92ca3f8eb0d26182319441e1873bb7a7a27fd2d5",
+      "bytes": 72864,
+      "fetchedAt": "2026-11-03T12:47:24.022Z",
+      "fetchedFrom": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/gikainituite/1361162844963.html"
+    },
+    {
+      "filename": "samukawa_gityouaisatsu.html",
+      "sha256": "f98f169092901ea349175050a9520c88fd4e07d1cbfefc932b406ccf59f1c6d7",
+      "bytes": 73387,
+      "fetchedAt": "2026-11-03T12:47:24.022Z",
+      "fetchedFrom": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/gikaimeibo/gityouaisatsu.html"
+    },
+    {
+      "filename": "samukawa_dayori219.pdf",
+      "sha256": "fe77b2ff2f0cdf07ef01ab17243c90e036d9e62ed1705c4e9afccac82301549e",
+      "bytes": 5925455,
+      "fetchedAt": "2026-11-03T12:47:24.027Z",
+      "fetchedFrom": "https://www.town.samukawa.kanagawa.jp/material/files/group/21/dayori219.pdf"
+    }
+  ]
+}

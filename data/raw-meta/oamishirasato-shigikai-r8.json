@@ -1,0 +1,40 @@
+{
+  "sourceId": "oamishirasato-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_20241120.pdf",
+      "sha256": "d35b61e8744c61772b8acb37856d63611ec3b9a0b2e4dc8dc4ae945d12074a7f",
+      "bytes": 37634,
+      "fetchedAt": "2026-11-03T12:47:24.000Z",
+      "fetchedFrom": "https://www.city.oamishirasato.lg.jp/cmsfiles/contents/0000008/8392/kaiha_20241120.pdf"
+    },
+    {
+      "filename": "0000008392_wb20260418.html",
+      "sha256": "1bb7d257e86cbbb33b32178c8d9919eb326c02991395c929912781d53916e621",
+      "bytes": 19280,
+      "fetchedAt": "2026-11-03T12:47:24.001Z",
+      "fetchedFrom": "https://web.archive.org/web/20260418141855id_/https://www.city.oamishirasato.lg.jp/0000008392.html"
+    },
+    {
+      "filename": "R071219_IINKAI.pdf",
+      "sha256": "4d4a9e4b17f77d985073cdd1ac58a32d792eb27f820136dd75b3be2c22993971",
+      "bytes": 146435,
+      "fetchedAt": "2026-11-03T12:47:24.001Z",
+      "fetchedFrom": "https://www.city.oamishirasato.lg.jp/cmsfiles/contents/0000008/8392/R071219_IINKAI.pdf"
+    },
+    {
+      "filename": "0000000277.html",
+      "sha256": "1e42e784d946febc211aead7399c6b8b0d4afc4737bc9730d7f53d6132a12e04",
+      "bytes": 22581,
+      "fetchedAt": "2026-11-03T12:47:24.001Z",
+      "fetchedFrom": "https://www.city.oamishirasato.lg.jp/0000000277.html"
+    },
+    {
+      "filename": "R8.1_kekka.pdf",
+      "sha256": "1b7bf955a026076935d38d177c693c832343b32cb60faa0fb03119915efb456f",
+      "bytes": 131460,
+      "fetchedAt": "2026-11-03T12:47:24.002Z",
+      "fetchedFrom": "https://www.city.oamishirasato.lg.jp/cmsfiles/contents/0000015/15154/R8.1_kekka.pdf"
+    }
+  ]
+}

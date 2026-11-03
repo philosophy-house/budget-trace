@@ -1,0 +1,124 @@
+{
+  "docType": "council-composition",
+  "sourceId": "togane-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:47:40.916Z",
+  "fiscalYear": "R8",
+  "body": "東金市議会",
+  "seats": 20,
+  "asOf": "2025-04-01",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "蒼政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "高科雄一郎",
+        "桑田豪",
+        "村上大蔵",
+        "坂本賀一",
+        "石田明",
+        "宮山博"
+      ],
+      "locator": {
+        "file": "R070401kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "志政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "佐瀨和隆",
+        "中村美恵",
+        "宮沢敬人",
+        "伊藤博幸",
+        "塚瀬一夫"
+      ],
+      "locator": {
+        "file": "R070401kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "滝田修",
+        "上田光子",
+        "布施満明"
+      ],
+      "locator": {
+        "file": "R070401kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新生みらい",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鳥海翔平",
+        "清宮利男",
+        "石﨑公一"
+      ],
+      "locator": {
+        "file": "R070401kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "誠至会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "保科勇"
+      ],
+      "locator": {
+        "file": "R070401kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "西原晴美"
+      ],
+      "locator": {
+        "file": "R070401kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "前田京子"
+      ],
+      "locator": {
+        "file": "R070401kaiha.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第13号議案",
+    "billName": "令和8年度東金市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "0000014173.html"
+    }
+  },
+  "rosterTitle": "会派設置状況（令和7年4月1日現在）",
+  "resultTitle": "令和8年第1回定例会（日程・議案等）"
+}

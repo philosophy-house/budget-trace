@@ -1,0 +1,33 @@
+{
+  "sourceId": "tomisato-shigikai-r8",
+  "files": [
+    {
+      "filename": "tomisatogikai230.pdf",
+      "sha256": "b50cf72be0a66d78f120c3cbac657aa5047fe33063256dd9df63e95dbd73ead8",
+      "bytes": 1793979,
+      "fetchedAt": "2026-11-03T12:47:24.014Z",
+      "fetchedFrom": "https://www.city.tomisato.lg.jp/cmsfiles/contents/0000017/17344/tomisatogikai230.pdf"
+    },
+    {
+      "filename": "0000017132.html",
+      "sha256": "edc1edb62e070c9858adc2e15859099a5f9271770c44ff026c0cbb77ef7e27ab",
+      "bytes": 26816,
+      "fetchedAt": "2026-11-03T12:47:24.014Z",
+      "fetchedFrom": "https://www.city.tomisato.lg.jp/0000017132.html"
+    },
+    {
+      "filename": "0000017122.html",
+      "sha256": "c5d96ef270226e43cba085f4bc89a0571a7e479e2af384bc4a64b9869b86e887",
+      "bytes": 27842,
+      "fetchedAt": "2026-11-03T12:47:24.014Z",
+      "fetchedFrom": "https://www.city.tomisato.lg.jp/0000017122.html"
+    },
+    {
+      "filename": "0000001144.html",
+      "sha256": "2e14862ee3dbbd366f61b4bbc54c5449fc1529623d60778d847284523b806b35",
+      "bytes": 22752,
+      "fetchedAt": "2026-11-03T12:47:24.015Z",
+      "fetchedFrom": "https://www.city.tomisato.lg.jp/0000001144.html"
+    }
+  ]
+}

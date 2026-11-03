@@ -1,0 +1,33 @@
+{
+  "sourceId": "kamagaya-shigikai-r8",
+  "files": [
+    {
+      "filename": "kg_kaihameibo0801.pdf",
+      "sha256": "b6570b67b3ee8e82ad7746e3590b39fc26ef141014138c0c09be5eadc992e64e",
+      "bytes": 72274,
+      "fetchedAt": "2026-11-03T12:47:24.002Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260212/20260204175636id_/https://www.city.kamagaya.chiba.jp/gikai/giinmeibo.files/kaihameibo0801.pdf"
+    },
+    {
+      "filename": "kg_shinngi0803.html",
+      "sha256": "48c895ad60563ab29dbb54327a0b760490b0e93cb94bff6d9eedc0d87e1cf62b",
+      "bytes": 18769,
+      "fetchedAt": "2026-11-03T12:47:24.003Z",
+      "fetchedFrom": "https://www.city.kamagaya.chiba.jp/gikai/teireikai/shinngi0803.html"
+    },
+    {
+      "filename": "kg_R803.html",
+      "sha256": "62db89396d6681305229bef1c3dbee8e59f4de2f317e2a6c9ace78d3e9a0264d",
+      "bytes": 12790,
+      "fetchedAt": "2026-11-03T12:47:24.003Z",
+      "fetchedFrom": "https://www.city.kamagaya.chiba.jp/gikai/teireikai/R803.html"
+    },
+    {
+      "filename": "kg_0803oshirase0.pdf",
+      "sha256": "d23449f426bed4683287ba8d7f31f21e67d70d8f20833f894627adaeb5884644",
+      "bytes": 401760,
+      "fetchedAt": "2026-11-03T12:47:24.004Z",
+      "fetchedFrom": "https://www.city.kamagaya.chiba.jp/gikai/teireikai/index.files/0803oshirase0.pdf"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "chiba-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "kaihabetsu_warp20260203.html",
+      "sha256": "e0d0e25c6d263b66e6476841362201b06402b07bf083e3ce8920e334ea8e9a70",
+      "bytes": 37590,
+      "fetchedAt": "2026-11-03T12:47:23.982Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260221/20260203065726id_/https://www.pref.chiba.lg.jp/gikai/giji/giin/kaihabetsu.html"
+    },
+    {
+      "filename": "gian.html",
+      "sha256": "d6d0dbbab1c50842e02e14ef3593703d902feb8edb01fb8d50358c292c15dd28",
+      "bytes": 47540,
+      "fetchedAt": "2026-11-03T12:47:23.983Z",
+      "fetchedFrom": "https://www.pref.chiba.lg.jp/gikai/giji/gaiyou/r8/r8-2-teirei/gian.html"
+    },
+    {
+      "filename": "houdou-kaiha1117.html",
+      "sha256": "f2d0827548e10cc9a0e1f007027924da905b3899eea2ed350b3de93365968432",
+      "bytes": 25370,
+      "fetchedAt": "2026-11-03T12:47:23.983Z",
+      "fetchedFrom": "https://www.pref.chiba.lg.jp/gikai/giji/press/2025/houdou-kaiha1117.html"
+    }
+  ]
+}

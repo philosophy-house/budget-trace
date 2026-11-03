@@ -1,0 +1,293 @@
+{
+  "docType": "council-composition",
+  "sourceId": "chiba-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:47:24.226Z",
+  "fiscalYear": "R8",
+  "body": "千葉県議会",
+  "seats": 90,
+  "asOf": "2025-12-25",
+  "teisu": 95,
+  "factions": [
+    {
+      "name": "自由民主党千葉県議会議員会",
+      "seats": 49,
+      "isIndependent": false,
+      "members": [
+        "宇野裕",
+        "浜田穂積",
+        "酒井茂英",
+        "川名寛章",
+        "河上茂",
+        "宍倉登",
+        "小高伸太",
+        "本間進",
+        "阿部紘一",
+        "阿井伸也",
+        "石橋清孝",
+        "信田光保",
+        "佐野彰",
+        "今井勝",
+        "木下敬二",
+        "江野澤吉克",
+        "伊藤昌弘",
+        "瀧田敏幸",
+        "武田正光",
+        "山本義一",
+        "實川隆",
+        "関政幸",
+        "坂下しげき",
+        "岩井泰憲",
+        "三沢智",
+        "中村実",
+        "茂呂剛",
+        "森岳",
+        "伊豆倉雄太",
+        "小野崎正喜",
+        "川名康介",
+        "高橋祐子",
+        "木名瀬訓光",
+        "高橋秀典",
+        "伊藤寛",
+        "宮坂奈緒",
+        "田中幸太郎",
+        "宮川太",
+        "松崎太洋",
+        "渡辺務",
+        "川村博章",
+        "小川としゆき",
+        "鈴木ともなり",
+        "鷲見隆仁",
+        "野田宏規",
+        "西ケ谷正士",
+        "雨宮真吾",
+        "田畑毅",
+        "小高夕佳"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "立憲民主党千葉県議会議員会",
+      "seats": 13,
+      "isIndependent": false,
+      "members": [
+        "高橋浩",
+        "河野俊紀",
+        "竹内圭司",
+        "入江晶子",
+        "網中肇",
+        "野田剛彦",
+        "守屋貴子",
+        "菊岡たづ子",
+        "鈴木均",
+        "伊藤ちかこ",
+        "山下洋輔",
+        "秋山陽",
+        "関根ジロー"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党千葉県議会議員団",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "横山秀明",
+        "赤間正明",
+        "阿部俊昭",
+        "秋林貴史",
+        "田村耕作",
+        "仲村秀明",
+        "鈴木和宏",
+        "篠田哲弥"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "千葉新政策議員団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "水野友貴",
+        "谷田川充丈",
+        "須永和良",
+        "石川りょう",
+        "保坂康平"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党千葉県議会議員団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "加藤英雄",
+        "丸山慎一",
+        "みわ由美",
+        "浅野ふみ子"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "平和の党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "西尾憲一"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "国民民主党千葉県議会議員会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "天野行雄"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "千葉県民の声",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "プリティ長嶋"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "リベラル民主",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "秋葉就一"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 9
+      }
+    },
+    {
+      "name": "市民力",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中西香澄"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 10
+      }
+    },
+    {
+      "name": "有志の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "折本龍則"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 11
+      }
+    },
+    {
+      "name": "野田民主の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "榎本怜"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 12
+      }
+    },
+    {
+      "name": "未来ちば",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "川口絵未"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 13
+      }
+    },
+    {
+      "name": "無所属議員（栗原直也）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "栗原直也"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 14
+      }
+    },
+    {
+      "name": "無所属議員（松澤武人）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "松澤武人"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 15
+      }
+    },
+    {
+      "name": "無所属議員（加藤裕太）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "加藤裕太"
+      ],
+      "locator": {
+        "file": "kaihabetsu_warp20260203.html",
+        "row": 16
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和8年度千葉県一般会計予算",
+    "sessionLabel": "令和8年2月定例県議会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gian.html"
+    }
+  },
+  "rosterTitle": "会派等別議員名簿（令和7年12月25日現在）",
+  "resultTitle": "令和8年2月定例県議会議案一覧"
+}

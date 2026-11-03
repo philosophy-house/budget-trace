@@ -1,0 +1,177 @@
+{
+  "docType": "council-composition",
+  "sourceId": "aikawa-chogikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:47:47.242Z",
+  "fiscalYear": "R8",
+  "body": "愛川町議会",
+  "seats": 14,
+  "asOf": "2026-03-25",
+  "teisu": 14,
+  "factions": [
+    {
+      "name": "愛川の新時代",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "渡辺基",
+        "山中正樹",
+        "花上功",
+        "熊坂健太郎",
+        "茅大夢"
+      ],
+      "locator": {
+        "file": "aikawa_gikaidai1kaiteireikaikaihabetu.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "佐藤りえ",
+        "井出一己",
+        "岸上敦子"
+      ],
+      "locator": {
+        "file": "aikawa_gikaidai1kaiteireikaikaihabetu.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "日本共産党愛川町議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鈴木信一",
+        "井上博明",
+        "小林敬子"
+      ],
+      "locator": {
+        "file": "aikawa_gikaidai1kaiteireikaikaihabetu.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "令和あいかわ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "茅孝之",
+        "小島総一郎",
+        "阿部隆之"
+      ],
+      "locator": {
+        "file": "aikawa_gikaidai1kaiteireikaikaihabetu.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第１８号",
+    "billName": "令和８年度愛川町一般会計予算",
+    "sessionLabel": "令和８年第１回（３月）定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決（起立多数）",
+    "locator": {
+      "file": "aikawa_gikaidai1kaiteireikaisingikekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "令和８年第１回（３月）定例会 議決一覧表（会派議決一覧表）p.2「意見が分かれた議案」の表頭（会派名・議員名）",
+  "resultTitle": "令和８年第１回（３月）定例会 議案審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回（３月）定例会 議決一覧表 p.2「意見が分かれた議案」",
+    "sourceFile": "aikawa_gikaidai1kaiteireikaikaihabetu.pdf",
+    "columns": [
+      {
+        "label": "渡辺基",
+        "faction": "愛川の新時代",
+        "member": "渡辺基",
+        "stance": "賛成"
+      },
+      {
+        "label": "花上功",
+        "faction": "愛川の新時代",
+        "member": "花上功",
+        "stance": "賛成"
+      },
+      {
+        "label": "熊坂健太郎",
+        "faction": "愛川の新時代",
+        "member": "熊坂健太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "茅大夢",
+        "faction": "愛川の新時代",
+        "member": "茅大夢",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤りえ",
+        "faction": "公明党",
+        "member": "佐藤りえ",
+        "stance": "賛成"
+      },
+      {
+        "label": "井出一己",
+        "faction": "公明党",
+        "member": "井出一己",
+        "stance": "賛成"
+      },
+      {
+        "label": "岸上敦子",
+        "faction": "公明党",
+        "member": "岸上敦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木信一",
+        "faction": "日本共産党愛川町議員団",
+        "member": "鈴木信一",
+        "stance": "賛成"
+      },
+      {
+        "label": "井上博明",
+        "faction": "日本共産党愛川町議員団",
+        "member": "井上博明",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林敬子",
+        "faction": "日本共産党愛川町議員団",
+        "member": "小林敬子",
+        "stance": "賛成"
+      },
+      {
+        "label": "茅孝之",
+        "faction": "令和あいかわ",
+        "member": "茅孝之",
+        "stance": "賛成"
+      },
+      {
+        "label": "小島総一郎",
+        "faction": "令和あいかわ",
+        "member": "小島総一郎",
+        "stance": "反対"
+      },
+      {
+        "label": "阿部隆之",
+        "faction": "令和あいかわ",
+        "member": "阿部隆之",
+        "stance": "賛成"
+      },
+      {
+        "label": "山中正樹",
+        "faction": "愛川の新時代",
+        "member": "山中正樹",
+        "stance": "議長"
+      }
+    ]
+  }
+}

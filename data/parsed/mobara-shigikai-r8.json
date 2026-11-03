@@ -1,0 +1,288 @@
+{
+  "docType": "council-composition",
+  "sourceId": "mobara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:47:40.629Z",
+  "fiscalYear": "R8",
+  "body": "茂原市議会",
+  "seats": 22,
+  "asOf": "2026-01-01",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "緑風会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "常泉健一",
+        "御園敏之",
+        "河野健市"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "薫風もばら",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "高山佳久",
+        "横堀喜一郎"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "石毛隆夫",
+        "佐久間秀之",
+        "折原孝浩"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "政風会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "髙鳥竜平",
+        "高澤知佳代"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "創政会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "鈴木敏文",
+        "野口雅一",
+        "小倉義久",
+        "工藤孝弘"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "もばら会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岡沢与志隆",
+        "糸久佳伸",
+        "細谷菜穂子"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "志友会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "ますだよしお",
+        "河野英美",
+        "三橋弘明"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無会派（向後研二）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "向後研二"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無会派（平ゆき子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "平ゆき子"
+      ],
+      "locator": {
+        "file": "gikaidayori_R8.1.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 ３号",
+    "billName": "令和８年度茂原市一般会計予算",
+    "sessionLabel": "令和８年茂原市議会３月定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "shingikekka_R8.3.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "もばら議会だより 新年号（令和8年1月1日発行）「会派の抱負」",
+  "resultTitle": "令和８年茂原市議会３月定例会 議案等の審議結果一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "もばら議会だより 第168号（令和8年5月15日）「令和８年３月定例会 議員別表決・審議結果一覧」",
+    "sourceFile": "gikaidayori_168_R8.3.pdf",
+    "columns": [
+      {
+        "label": "高澤知佳代",
+        "faction": "政風会",
+        "member": "高澤知佳代",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙鳥竜平",
+        "faction": "政風会",
+        "member": "髙鳥竜平",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐久間秀之",
+        "faction": "公明党",
+        "member": "佐久間秀之",
+        "stance": "賛成"
+      },
+      {
+        "label": "折原孝浩",
+        "faction": "公明党",
+        "member": "折原孝浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "糸久佳伸",
+        "faction": "もばら会",
+        "member": "糸久佳伸",
+        "stance": "賛成"
+      },
+      {
+        "label": "野口雅一",
+        "faction": "創政会",
+        "member": "野口雅一",
+        "stance": "賛成"
+      },
+      {
+        "label": "小倉義久",
+        "faction": "創政会",
+        "member": "小倉義久",
+        "stance": "賛成"
+      },
+      {
+        "label": "御園敏之",
+        "faction": "緑風会",
+        "member": "御園敏之",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤孝弘",
+        "faction": "創政会",
+        "member": "工藤孝弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "河野英美",
+        "faction": "志友会",
+        "member": "河野英美",
+        "stance": "賛成"
+      },
+      {
+        "label": "横堀喜一郎",
+        "faction": "薫風もばら",
+        "member": "横堀喜一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "河野健市",
+        "faction": "緑風会",
+        "member": "河野健市",
+        "stance": "賛成"
+      },
+      {
+        "label": "高山佳久",
+        "faction": "薫風もばら",
+        "member": "高山佳久",
+        "stance": "賛成"
+      },
+      {
+        "label": "石毛隆夫",
+        "faction": "公明党",
+        "member": "石毛隆夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡沢与志隆",
+        "faction": "もばら会",
+        "member": "岡沢与志隆",
+        "stance": "賛成"
+      },
+      {
+        "label": "細谷菜穂子",
+        "faction": "もばら会",
+        "member": "細谷菜穂子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木敏文",
+        "faction": "創政会",
+        "member": "鈴木敏文",
+        "stance": "賛成"
+      },
+      {
+        "label": "平ゆき子",
+        "faction": "無会派（平ゆき子）",
+        "member": "平ゆき子",
+        "stance": "反対"
+      },
+      {
+        "label": "ますだよしお",
+        "faction": "志友会",
+        "member": "ますだよしお",
+        "stance": "賛成"
+      },
+      {
+        "label": "三橋弘明",
+        "faction": "志友会",
+        "member": "三橋弘明",
+        "stance": "賛成"
+      },
+      {
+        "label": "常泉健一",
+        "faction": "緑風会",
+        "member": "常泉健一",
+        "stance": "賛成"
+      },
+      {
+        "label": "向後研二",
+        "faction": "無会派（向後研二）",
+        "member": "向後研二",
+        "stance": "議長"
+      }
+    ]
+  }
+}

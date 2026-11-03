@@ -1,0 +1,40 @@
+{
+  "sourceId": "togane-shigikai-r8",
+  "files": [
+    {
+      "filename": "R070401kaiha.pdf",
+      "sha256": "391ac21e673ce6a2c02962c212eb25b4eac3ea90d1cbd1c67ede24835372f2d1",
+      "bytes": 36412,
+      "fetchedAt": "2026-11-03T12:47:23.999Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260508/20260508064148id_/https://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1444/R070401kaiha.pdf"
+    },
+    {
+      "filename": "0000001444_wb20260312.html",
+      "sha256": "2b235d0fabc67ee840ce77f39f41092b2384113e7712e3fdc44408e34393ef3e",
+      "bytes": 20822,
+      "fetchedAt": "2026-11-03T12:47:23.999Z",
+      "fetchedFrom": "https://web.archive.org/web/20260312164816id_/https://www.city.togane.chiba.jp/0000001444.html"
+    },
+    {
+      "filename": "R080515kaiha.pdf",
+      "sha256": "1f2bdc6b26de936c42da44ea14e29bf76571cfc30b452c592e80f69d8ffe7337",
+      "bytes": 36442,
+      "fetchedAt": "2026-11-03T12:47:23.999Z",
+      "fetchedFrom": "https://www.city.togane.chiba.jp/cmsfiles/contents/0000001/1444/R080515kaiha.pdf"
+    },
+    {
+      "filename": "0000000682.html",
+      "sha256": "0ab130f335cff7aa341c3a1df5f9951f85c87134ea54bf9ff4568191cc0b6c82",
+      "bytes": 23406,
+      "fetchedAt": "2026-11-03T12:47:24.000Z",
+      "fetchedFrom": "https://www.city.togane.chiba.jp/0000000682.html"
+    },
+    {
+      "filename": "0000014173.html",
+      "sha256": "bcc8acd355ca998789c8955b806bba3176229e01e13b6b77fa3602d942432cce",
+      "bytes": 43296,
+      "fetchedAt": "2026-11-03T12:47:24.000Z",
+      "fetchedFrom": "https://www.city.togane.chiba.jp/0000014173.html"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "sourceId": "kimitsu-shigikai-r8",
+  "files": [
+    {
+      "filename": "59290.pdf",
+      "sha256": "5d4ccc8eb3236eff628741fb0751242a2bc3d041be7ab147339e36729e1b6a10",
+      "bytes": 338174,
+      "fetchedAt": "2026-11-03T12:47:23.988Z",
+      "fetchedFrom": "https://www.city.kimitsu.lg.jp/uploaded/attachment/59290.pdf"
+    },
+    {
+      "filename": "59917.pdf",
+      "sha256": "36d97bd033320128564b420a4748e336026addf7fdcaf8d22ee7b06675cf8f62",
+      "bytes": 1342991,
+      "fetchedAt": "2026-11-03T12:47:23.990Z",
+      "fetchedFrom": "https://www.city.kimitsu.lg.jp/uploaded/attachment/59917.pdf"
+    }
+  ]
+}

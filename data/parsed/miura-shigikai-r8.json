@@ -1,0 +1,173 @@
+{
+  "docType": "council-composition",
+  "sourceId": "miura-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:47:24.910Z",
+  "fiscalYear": "R8",
+  "body": "三浦市議会",
+  "seats": 12,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "神田眞弓",
+        "千田征志",
+        "出口景介",
+        "長島満理子"
+      ],
+      "locator": {
+        "file": "R8_1singikekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "三志会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "下田剛",
+        "石﨑遊太",
+        "溝川幸二",
+        "草間道治"
+      ],
+      "locator": {
+        "file": "R8_1singikekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "石橋むつみ",
+        "小林直樹"
+      ],
+      "locator": {
+        "file": "R8_1singikekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森谷久一郎"
+      ],
+      "locator": {
+        "file": "R8_1singikekka.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "無所属（寺田一樹）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "寺田一樹"
+      ],
+      "locator": {
+        "file": "R8_1singikekka.pdf",
+        "page": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第20号",
+    "billName": "令和８年度三浦市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8_1singikekka.pdf",
+      "page": 5
+    }
+  },
+  "rosterTitle": "令和8年第1回定例会 審議結果「賛否が分かれた議案」の表頭（議決当日）",
+  "resultTitle": "令和8年第1回定例会（2月26日～3月24日）審議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年第1回定例会 審議結果〈賛否が分かれた議案〉",
+    "sourceFile": "R8_1singikekka.pdf",
+    "columns": [
+      {
+        "label": "神田眞弓",
+        "faction": "自由民主党",
+        "member": "神田眞弓",
+        "stance": "議長"
+      },
+      {
+        "label": "千田征志",
+        "faction": "自由民主党",
+        "member": "千田征志",
+        "stance": "賛成"
+      },
+      {
+        "label": "出口景介",
+        "faction": "自由民主党",
+        "member": "出口景介",
+        "stance": "賛成"
+      },
+      {
+        "label": "長島満理子",
+        "faction": "自由民主党",
+        "member": "長島満理子",
+        "stance": "賛成"
+      },
+      {
+        "label": "下田剛",
+        "faction": "三志会",
+        "member": "下田剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "石﨑遊太",
+        "faction": "三志会",
+        "member": "石﨑遊太",
+        "stance": "賛成"
+      },
+      {
+        "label": "溝川幸二",
+        "faction": "三志会",
+        "member": "溝川幸二",
+        "stance": "賛成"
+      },
+      {
+        "label": "草間道治",
+        "faction": "三志会",
+        "member": "草間道治",
+        "stance": "賛成"
+      },
+      {
+        "label": "石橋むつみ",
+        "faction": "日本共産党",
+        "member": "石橋むつみ",
+        "stance": "反対"
+      },
+      {
+        "label": "小林直樹",
+        "faction": "日本共産党",
+        "member": "小林直樹",
+        "stance": "反対"
+      },
+      {
+        "label": "森谷久一郎",
+        "faction": "公明党",
+        "member": "森谷久一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "寺田一樹",
+        "faction": "無所属（寺田一樹）",
+        "member": "寺田一樹",
+        "stance": "賛成"
+      }
+    ]
+  }
+}
