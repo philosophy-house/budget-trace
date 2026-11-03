@@ -1,0 +1,123 @@
+{
+  "docType": "council-composition",
+  "sourceId": "chiryu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T16:29:23.848Z",
+  "fiscalYear": "R8",
+  "body": "知立市議会",
+  "seats": 19,
+  "asOf": "2026-03-18",
+  "factions": [
+    {
+      "name": "篤心会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "岩城道雄",
+        "中島清志",
+        "三浦美香",
+        "神谷定雄",
+        "山崎りょうじ",
+        "中野智基",
+        "小林昭弌",
+        "永田起也"
+      ],
+      "locator": {
+        "file": "chiryu_202603sanpiichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "池鯉鮒クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "嶋田義雄",
+        "柴田勝",
+        "久世泰男"
+      ],
+      "locator": {
+        "file": "chiryu_202603sanpiichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党知立市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中島孝之",
+        "佐藤修"
+      ],
+      "locator": {
+        "file": "chiryu_202603sanpiichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "兼子義信",
+        "那須幸子"
+      ],
+      "locator": {
+        "file": "chiryu_202603sanpiichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民友クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "杉浦弘一",
+        "神谷文明"
+      ],
+      "locator": {
+        "file": "chiryu_202603sanpiichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "正和会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "川合正彦"
+      ],
+      "locator": {
+        "file": "chiryu_202603sanpiichiran.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（大崎あつし）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大崎あつし"
+      ],
+      "locator": {
+        "file": "chiryu_202603sanpiichiran.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１９号",
+    "billName": "令和８年度知立市一般会計予算",
+    "sessionLabel": "令和８年知立市議会３月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "chiryu_202603giketukekkaichiranhyou.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "令和８年知立市議会３月定例会議案に対する各議員の賛否一覧表（議決当日・3/18）の表頭",
+  "resultTitle": "令和８年知立市議会３月定例会議決結果一覧表"
+}

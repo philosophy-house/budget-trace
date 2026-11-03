@@ -1,0 +1,49 @@
+{
+  "sourceId": "hekinan-shigikai-r8",
+  "files": [
+    {
+      "filename": "hekinan_group_warp20260207.html",
+      "sha256": "a648531a87423d4a84b956404923617e0bd72c45e765a9dd6278157403a5b551",
+      "bytes": 14070,
+      "fetchedAt": "2026-11-03T12:56:05.300Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260209/20260207185353id_/http://www.city.hekinan.aichi.jp/GIKAI/councilor/group.php",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "hekinan_r8_03_kekka.pdf",
+      "sha256": "13e5bc6d526b68855507170dac6dbb85b337e5e313c79f2203e6ccd9f319acb9",
+      "bytes": 64496,
+      "fetchedAt": "2026-11-03T12:56:05.301Z",
+      "fetchedFrom": "http://www.city.hekinan.aichi.jp/GIKAI/_upload/mresult/file/8d050daf559181671290fac46c0873a6.pdf"
+    },
+    {
+      "filename": "hekinan_dbsr_1324.html",
+      "sha256": "4ac2001f121e09ec80872433f6ff516c98885de09625bc3e02ec2aa4d5d7a36f",
+      "bytes": 8782,
+      "fetchedAt": "2026-11-03T12:56:05.301Z",
+      "fetchedFrom": "https://www.city.hekinan.aichi.dbsr.jp/index.php/?Template=doc-print-window&VoiceType=all&DocumentID=1324",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "hekinan_glossary.html",
+      "sha256": "282da84aafa176066e09116e0271c45823b17539aa8612aa15e006b9dd5154df",
+      "bytes": 21414,
+      "fetchedAt": "2026-11-03T12:56:05.301Z",
+      "fetchedFrom": "http://www.city.hekinan.aichi.jp/GIKAI/congress/glossary.php",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "hekinan_dayori148.pdf",
+      "sha256": "d82ecfe86ecae92937e0e8675f13791627798814fcea5a2d487c50244e7e81fe",
+      "bytes": 11167062,
+      "fetchedAt": "2026-11-03T12:56:05.310Z",
+      "fetchedFrom": "http://www.city.hekinan.aichi.jp/GIKAI/_upload/cnews/file/2b8ae44c6c06990ea7515d99bdd5c94d.pdf"
+    }
+  ]
+}

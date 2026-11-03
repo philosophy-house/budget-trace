@@ -1,0 +1,33 @@
+{
+  "sourceId": "inuyama-shigikai-r8",
+  "files": [
+    {
+      "filename": "inuyama_1000362_warp20260510.html",
+      "sha256": "cc44521b781b5c09e8f364461a4fad51bd26ac352703fc8539c6834ad21d5001",
+      "bytes": 35967,
+      "fetchedAt": "2026-11-03T12:56:05.334Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260510091728id_/https://www.city.inuyama.aichi.jp/shisei/gikai/1000340/1000362.html"
+    },
+    {
+      "filename": "inuyama_0802.pdf",
+      "sha256": "0ff6e6557a2a0d4acce6c280e3da482a6b7ed4e07dea98f254b843057452d24e",
+      "bytes": 172686,
+      "fetchedAt": "2026-11-03T12:56:05.335Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260510125859id_/https://www.city.inuyama.aichi.jp/_res/projects/default_project/_page_/001/002/674/0802.pdf"
+    },
+    {
+      "filename": "inuyama_1012718_warp20260510.html",
+      "sha256": "3524f2232c4ada41509307a9553904c3cd843e47a4c9a394a336861c3858ff53",
+      "bytes": 52295,
+      "fetchedAt": "2026-11-03T12:56:05.335Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260510164614id_/https://www.city.inuyama.aichi.jp/shisei/gikai/1000364/1000414/1012651/1012718.html"
+    },
+    {
+      "filename": "inuyama_1000337_warp20260510.html",
+      "sha256": "2f252cad694b0dbc33d25ff14503f8c975f66af2815c5b28f7bdf6d555fbbc89",
+      "bytes": 39328,
+      "fetchedAt": "2026-11-03T12:56:05.335Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260510091705id_/https://www.city.inuyama.aichi.jp/shisei/gikai/1000336/1000337.html"
+    }
+  ]
+}

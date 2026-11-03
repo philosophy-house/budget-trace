@@ -1,0 +1,215 @@
+{
+  "docType": "council-composition",
+  "sourceId": "inuyama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T16:29:24.333Z",
+  "fiscalYear": "R8",
+  "body": "犬山市議会",
+  "seats": 18,
+  "asOf": "2025-05-12",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "日本共産党犬山市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岡覚",
+        "岡村千里",
+        "小川隆広"
+      ],
+      "locator": {
+        "file": "inuyama_1000362_warp20260510.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "諏訪毅",
+        "島田亜紀"
+      ],
+      "locator": {
+        "file": "inuyama_1000362_warp20260510.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "創犬会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "柴田浩行",
+        "畑竜介",
+        "増田修治",
+        "大沢秀教",
+        "玉置幸哉",
+        "小川清美",
+        "光清毅"
+      ],
+      "locator": {
+        "file": "inuyama_1000362_warp20260510.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "清風会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "久世高裕",
+        "柴山一生",
+        "鈴木伸太郎",
+        "沼靖子"
+      ],
+      "locator": {
+        "file": "inuyama_1000362_warp20260510.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属議員",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "ビアンキ恵子",
+        "丸山幸治"
+      ],
+      "locator": {
+        "file": "inuyama_1000362_warp20260510.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第25号議案",
+    "billName": "令和8年度犬山市一般会計予算",
+    "sessionLabel": "令和8年2月定例議会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "inuyama_1012718_warp20260510.html"
+    }
+  },
+  "rosterTitle": "会派別・無所属議員一覧表（令和7年5月12日 現在・更新日 令和8年3月19日の版）",
+  "resultTitle": "令和8年2月定例議会議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年2月定例議会 議案等の賛否",
+    "sourceFile": "inuyama_0802.pdf",
+    "columns": [
+      {
+        "label": "小川隆広",
+        "faction": "日本共産党犬山市議団",
+        "member": "小川隆広",
+        "stance": "反対"
+      },
+      {
+        "label": "岡覚",
+        "faction": "日本共産党犬山市議団",
+        "member": "岡覚",
+        "stance": "反対"
+      },
+      {
+        "label": "岡村千里",
+        "faction": "日本共産党犬山市議団",
+        "member": "岡村千里",
+        "stance": "反対"
+      },
+      {
+        "label": "島田亜紀",
+        "faction": "公明クラブ",
+        "member": "島田亜紀",
+        "stance": "賛成"
+      },
+      {
+        "label": "諏訪毅",
+        "faction": "公明クラブ",
+        "member": "諏訪毅",
+        "stance": "賛成"
+      },
+      {
+        "label": "増田修治",
+        "faction": "創犬会",
+        "member": "増田修治",
+        "stance": "賛成"
+      },
+      {
+        "label": "光清毅",
+        "faction": "創犬会",
+        "member": "光清毅",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川清美",
+        "faction": "創犬会",
+        "member": "小川清美",
+        "stance": "賛成"
+      },
+      {
+        "label": "畑竜介",
+        "faction": "創犬会",
+        "member": "畑竜介",
+        "stance": "賛成"
+      },
+      {
+        "label": "玉置幸哉",
+        "faction": "創犬会",
+        "member": "玉置幸哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴田浩行",
+        "faction": "創犬会",
+        "member": "柴田浩行",
+        "stance": "賛成"
+      },
+      {
+        "label": "大沢秀教",
+        "faction": "創犬会",
+        "member": "大沢秀教",
+        "stance": "議長"
+      },
+      {
+        "label": "鈴木伸太郎",
+        "faction": "清風会",
+        "member": "鈴木伸太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "沼靖子",
+        "faction": "清風会",
+        "member": "沼靖子",
+        "stance": "賛成"
+      },
+      {
+        "label": "久世高裕",
+        "faction": "清風会",
+        "member": "久世高裕",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴山一生",
+        "faction": "清風会",
+        "member": "柴山一生",
+        "stance": "賛成"
+      },
+      {
+        "label": "丸山幸治",
+        "faction": "無所属議員",
+        "member": "丸山幸治",
+        "stance": "賛成"
+      },
+      {
+        "label": "ビアンキ恵子",
+        "faction": "無所属議員",
+        "member": "ビアンキ恵子",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

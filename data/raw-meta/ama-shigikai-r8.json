@@ -1,0 +1,26 @@
+{
+  "sourceId": "ama-shigikai-r8",
+  "files": [
+    {
+      "filename": "64goutayori.pdf",
+      "sha256": "28b7940825c72a0898cbf9dbc9fa06940ff07b42190a8979b324f7f4bd2ab6ce",
+      "bytes": 4377205,
+      "fetchedAt": "2026-11-03T12:56:05.297Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260812/20260809191559id_/https://www.city.ama.aichi.jp/_res/projects/default_project/_page_/001/011/109/64goutayori.pdf"
+    },
+    {
+      "filename": "1010746.html",
+      "sha256": "af1b993440bfe979b455a768ab89cc9fa90bd55fbe06526957faf45686c48f3e",
+      "bytes": 48337,
+      "fetchedAt": "2026-11-03T12:56:05.298Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260514/20260511072919id_/https://www.city.ama.aichi.jp/gikai/1003997/1010745/1010746.html"
+    },
+    {
+      "filename": "1010570.html",
+      "sha256": "7394c2ae1d5f0d60e765b642a00f6531dfca352c8d7fce133c5c77babd29956b",
+      "bytes": 23032,
+      "fetchedAt": "2026-11-03T12:56:05.298Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260514/20260511060604id_/https://www.city.ama.aichi.jp/shisei/zaisei/yosann/1010570.html"
+    }
+  ]
+}
