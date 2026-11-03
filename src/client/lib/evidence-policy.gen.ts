@@ -42397,30 +42397,6 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本ホームページに掲載の文章・画像の無断転載を禁止します。",
     "target": "file"
   },
-  "/sources/kamagaya-shigikai-r8/kg_kaihameibo0801.pdf": {
-    "mode": "archive",
-    "href": "https://warp.ndl.go.jp/20260212/20260204175636id_/https://www.city.kamagaya.chiba.jp/gikai/giinmeibo.files/kaihameibo0801.pdf",
-    "license": "当ウェブサイト上の情報（文章・画像・音楽等）に関する著作権は、鎌ケ谷市に帰属しています。ただし、一部の画像等の著作権は、原著作者が所有している場合があります。これらの情報を営利目的に使用することや、無断転載を禁じます。",
-    "target": "file"
-  },
-  "/sources/kamagaya-shigikai-r8/kg_shinngi0803.html": {
-    "mode": "origin",
-    "href": "https://www.city.kamagaya.chiba.jp/gikai/teireikai/shinngi0803.html",
-    "license": "当ウェブサイト上の情報（文章・画像・音楽等）に関する著作権は、鎌ケ谷市に帰属しています。ただし、一部の画像等の著作権は、原著作者が所有している場合があります。これらの情報を営利目的に使用することや、無断転載を禁じます。",
-    "target": "page"
-  },
-  "/sources/kamagaya-shigikai-r8/kg_R803.html": {
-    "mode": "origin",
-    "href": "https://www.city.kamagaya.chiba.jp/gikai/teireikai/R803.html",
-    "license": "当ウェブサイト上の情報（文章・画像・音楽等）に関する著作権は、鎌ケ谷市に帰属しています。ただし、一部の画像等の著作権は、原著作者が所有している場合があります。これらの情報を営利目的に使用することや、無断転載を禁じます。",
-    "target": "page"
-  },
-  "/sources/kamagaya-shigikai-r8/kg_0803oshirase0.pdf": {
-    "mode": "origin",
-    "href": "https://www.city.kamagaya.chiba.jp/gikai/teireikai/index.files/0803oshirase0.pdf",
-    "license": "当ウェブサイト上の情報（文章・画像・音楽等）に関する著作権は、鎌ケ谷市に帰属しています。ただし、一部の画像等の著作権は、原著作者が所有している場合があります。これらの情報を営利目的に使用することや、無断転載を禁じます。",
-    "target": "file"
-  },
   "/sources/yotsukaido-shigikai-r8/yk_R8.3.9_kaihabetugiinmeibo.pdf": {
     "mode": "origin",
     "href": "https://www.city.yotsukaido.chiba.jp/shigikai/index.html",
@@ -42562,37 +42538,37 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/aikawa-chogikai-r8/aikawa_gikaidai1kaiteireikaikaihabetu.pdf": {
     "mode": "origin",
     "href": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/gikaidai1kaiteireikaikaihabetu.pdf",
-    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.",
+    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.／愛川町議会ウェブサイト「情報公開に関する注意事項（著作権等）」（kouhou/17213.html）: 「私的使用のための複製」や「引用」など、著作権法で認められている場合を除き、無断での複製・転載・転用はできません。",
     "target": "file"
   },
   "/sources/aikawa-chogikai-r8/aikawa_gikaidai1kaiteireikaisingikekka.pdf": {
     "mode": "origin",
     "href": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/gikaidai1kaiteireikaisingikekka.pdf",
-    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.",
+    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.／愛川町議会ウェブサイト「情報公開に関する注意事項（著作権等）」（kouhou/17213.html）: 「私的使用のための複製」や「引用」など、著作権法で認められている場合を除き、無断での複製・転載・転用はできません。",
     "target": "file"
   },
   "/sources/aikawa-chogikai-r8/aikawa_R0803soumukennsetuhoukoku.pdf": {
     "mode": "origin",
     "href": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/R0803soumukennsetuhoukoku.pdf",
-    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.",
+    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.／愛川町議会ウェブサイト「情報公開に関する注意事項（著作権等）」（kouhou/17213.html）: 「私的使用のための複製」や「引用」など、著作権法で認められている場合を除き、無断での複製・転載・転用はできません。",
     "target": "file"
   },
   "/sources/aikawa-chogikai-r8/aikawa_6307.html": {
     "mode": "origin",
     "href": "https://www.town.aikawa.kanagawa.jp/assembly/shikumi/6307.html",
-    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.",
+    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.／愛川町議会ウェブサイト「情報公開に関する注意事項（著作権等）」（kouhou/17213.html）: 「私的使用のための複製」や「引用」など、著作権法で認められている場合を除き、無断での複製・転載・転用はできません。",
     "target": "page"
   },
   "/sources/aikawa-chogikai-r8/aikawa_6503.html": {
     "mode": "origin",
     "href": "https://www.town.aikawa.kanagawa.jp/assembly/syoukai/6503.html",
-    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.",
+    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.／愛川町議会ウェブサイト「情報公開に関する注意事項（著作権等）」（kouhou/17213.html）: 「私的使用のための複製」や「引用」など、著作権法で認められている場合を除き、無断での複製・転載・転用はできません。",
     "target": "page"
   },
   "/sources/aikawa-chogikai-r8/aikawa_seimukatudouR7.pdf": {
     "mode": "origin",
     "href": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/seimukatudouR7.pdf",
-    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.",
+    "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.／愛川町議会ウェブサイト「情報公開に関する注意事項（著作権等）」（kouhou/17213.html）: 「私的使用のための複製」や「引用」など、著作権法で認められている場合を除き、無断での複製・転載・転用はできません。",
     "target": "file"
   }
 };
