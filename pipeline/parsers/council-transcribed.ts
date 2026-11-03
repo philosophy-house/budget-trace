@@ -1853,7 +1853,8 @@ export function parseCouncilTranscribed(
     const groupOf = (s: (typeof spans)[number]) => {
       let a = spans.indexOf(s);
       let b = a;
-      const listed = (g: string) => g === "" || LIST_GAP.test(g);
+      // 敬称・括弧書きだけの間（「中本浩精君　小西政宏君」は正規化で空白が落ちて「君」だけになる）も並び（レビュー3巡目）
+      const listed = (g: string) => g === "" || LIST_GAP.test(g) || /^(?:議員|君|氏|さん|様)?(?:\([^()]{0,40}\))?(?:議員|君|氏|さん|様)?$/.test(g);
       while (a > 0 && listed(tN.slice(spans[a - 1]!.end, spans[a]!.at))) a--;
       while (b < spans.length - 1 && listed(tN.slice(spans[b]!.end, spans[b + 1]!.at))) b++;
       return spans.slice(a, b + 1);
@@ -1867,7 +1868,8 @@ export function parseCouncilTranscribed(
         (at) =>
           !/^(勧告|について|に関する|に対する|に係る)/.test(tN.slice(at + d.kind.length)) &&
           !/否決|勧告|撤回|不許可|求める|決議/.test(sentenceOf(at)) &&
-          !/(委員|議長|委員長|理事|会長|監査|役員|代表)[をのが]?$/.test(tN.slice(Math.max(0, at - 6), at)),
+          // 「委員の職を辞職」も役職（レビュー3巡目）。「議長が辞職を許可」は議長が主語なので数える
+          !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職)?[をの]?$/.test(tN.slice(Math.max(0, at - 8), at)),
       )
       .map((at) => ({ at, end: at + d.kind.length }));
     if (!spans.some((s) => s.n === nameN)) missing.push(`${who}: 原文に氏名がありません（氏名の直後が区切り・敬称・助詞の出現が要る）`);
@@ -1948,6 +1950,9 @@ export function parseCouncilTranscribed(
     for (const f of opt.factions) {
       for (const m of f.members) if (!has(doc.views, m)) missing.push(`${cf.filename}: 議員「${m}」が議決当日の資料に見つかりません`);
     }
+    // 議決前に離れた議員は、議決当日の資料に出ないこと（原文の「辞職」の語の一覧では、言い換えた撤回・取り下げ・不許可や、
+    // 次の文の撤回を見分けられない＝レビュー3巡目。在籍の網の逆向き）
+    for (const d of departures) if (has(doc.views, d.name)) missing.push(`${cf.filename}: 議決前に離れた議員「${d.name}」が議決当日の資料に出ます（議決時に在籍していた？）`);
   }
 
   // ---- 議決 ----
