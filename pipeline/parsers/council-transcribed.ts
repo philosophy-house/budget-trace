@@ -1888,18 +1888,27 @@ export function parseCouncilTranscribed(
             (() => {
               const st = tN.lastIndexOf("。", at - 1) + 1;
               const w = tN.slice(Math.max(st, at - 24), at);
-              // 議席の語は「辞職」の**目的語の位置**にあること（レビュー9巡目）: 議席の語と「辞職」の間は、を・の・職・日付（「２月18日付で」
+              // 他の議会（一部事務組合・広域連合・企業団・財産区）の語が窓のどこかにあれば、どちらの枝でも数えない（語順を変えた
+              // 「組合の議会議員を辞職」「広域連合議会議員の辞職願」が通った＝レビュー10巡目）
+              if (/(組合|連合|企業団|財産区)/.test(w)) return false;
+              // 議席の語は「辞職」の**目的語の位置**にあること（レビュー9巡目）: 議席の語と「辞職」の間は、を・の・「職を」・日付（「２月18日付で」
               // 「をもって」）・「としての職を」だけ。敬称の「○○議員から、副議長の辞職願」や「議員の互選による委員長を辞職」「議員団の団長を」は数えない。
               // 他の議会の議席（「組合議会議員」「広域連合議会の議員」「企業団議会議員」）と評議員・協議員・代議員も除く
               const seat = [...w.matchAll(/(?<![評協代])議員|議席|一員/g)].at(-1);
               if (seat) {
                 const between = w.slice(seat.index! + seat[0].length);
                 const before = w.slice(0, seat.index!);
-                const objectPos = /^(?:としての職を|の職を|職を|を|の)?(?:\d+月\d+日(?:付け?で?|をもって)|をもって)?$/.test(between);
-                if (objectPos && !/(組合|連合|企業団)(議会)?の?$/.test(before)) return true;
+                const objectPos = /^(?:としての職を|の職を|職を|を|の)?(?:(?:令和(?:\d+|元)年)?\d+月\d+日(?:付け?で?|をもって)|同日付け?で|をもって)?$/.test(between);
+                // 委員会の一員（「議会運営委員会の一員としての職を」）は議席ではない
+                if (objectPos && !(seat[0] === "一員" && /委員会の?$/.test(before))) return true;
               }
               const w12 = tN.slice(Math.max(st, at - 12), at);
-              return /^(願|届)/.test(tN.slice(at + d.kind.length)) && !/(委員|議長|理事|会長|監査|役員|代表|顧問|会計|幹事|団長|部長|任を)/.test(w12);
+              // 辞職願の直前が議員以外の「員」（「消防団員の辞職願」）・評議員なども役職（レビュー10巡目）
+              return (
+                /^(願|届)/.test(tN.slice(at + d.kind.length)) &&
+                !/(委員|議長|理事|会長|監査|役員|代表|顧問|会計|幹事|団長|部長|任を|評議員|協議員|代議員)/.test(w12) &&
+                !/(?<!議)員の?$/.test(w12)
+              );
             })()),
       )
       .map((at) => ({ at, end: at + d.kind.length }));
