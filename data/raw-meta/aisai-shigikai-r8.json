@@ -1,0 +1,26 @@
+{
+  "sourceId": "aisai-shigikai-r8",
+  "files": [
+    {
+      "filename": "p.8.pdf",
+      "sha256": "7065f36e5d8e695d72543dd61121ed36417d2cebcb2411d372a62ef2e3ffcf30",
+      "bytes": 1145503,
+      "fetchedAt": "2026-11-03T12:56:05.293Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260811/20260809032111id_/https://www.city.aisai.lg.jp/cmsfiles/contents/0000018/18326/p.8.pdf"
+    },
+    {
+      "filename": "0000018107.html",
+      "sha256": "bb936b7f6f5f7a13635db90767259b40c286b15c700356f54a99e2083788ca8f",
+      "bytes": 30688,
+      "fetchedAt": "2026-11-03T12:56:05.293Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260510170409id_/https://www.city.aisai.lg.jp/0000018107.html"
+    },
+    {
+      "filename": "0000017757.html",
+      "sha256": "6632ecfefba7f2b78216661214f0e6d09bcb11a2e5aa2a238e7c10688e0a466c",
+      "bytes": 21812,
+      "fetchedAt": "2026-11-03T12:56:05.294Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260811/20260808173932id_/https://www.city.aisai.lg.jp/0000017757.html"
+    }
+  ]
+}

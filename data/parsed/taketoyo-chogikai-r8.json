@@ -1,0 +1,110 @@
+{
+  "docType": "council-composition",
+  "sourceId": "taketoyo-chogikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:56:06.200Z",
+  "fiscalYear": "R8",
+  "body": "武豊町議会",
+  "seats": 16,
+  "asOf": "2026-01-08",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "あさひ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "石原壽朗",
+        "谷川健一郎",
+        "鈴木絢賀",
+        "石川喜次"
+      ],
+      "locator": {
+        "file": "1002820_warp20260208.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "きずな",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "青木信哉",
+        "鈴木一也"
+      ],
+      "locator": {
+        "file": "1002820_warp20260208.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "鳥居美和",
+        "甲斐百合子"
+      ],
+      "locator": {
+        "file": "1002820_warp20260208.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "政和クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "石川よしはる",
+        "南賢治"
+      ],
+      "locator": {
+        "file": "1002820_warp20260208.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "たけとよ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "福本貴久",
+        "久野勇"
+      ],
+      "locator": {
+        "file": "1002820_warp20260208.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "櫻井雅美",
+        "梶田進",
+        "松本万之",
+        "本村強"
+      ],
+      "locator": {
+        "file": "1002820_warp20260208.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２７号",
+    "billName": "令和８年度武豊町一般会計予算",
+    "sessionLabel": "令和８年 第１回武豊町議会定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r8_1giketsukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派結成状況（会派結成状況一覧表・更新日 2026年1月8日）国立国会図書館 WARP 2026-02-08 収集",
+  "resultTitle": "令和８年 第１回武豊町議会定例会議決結果"
+}

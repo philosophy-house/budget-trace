@@ -1,0 +1,40 @@
+{
+  "sourceId": "chiryu-shigikai-r8",
+  "files": [
+    {
+      "filename": "chiryu_kaihameibo1_warp20260208.pdf",
+      "sha256": "7d6dd8f05caf10964e52fbd0bc569dc664d2e78f93473b53bbb64a046826b565",
+      "bytes": 51087,
+      "fetchedAt": "2026-11-03T12:56:05.317Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260209/20260208095201id_/https://www.city.chiryu.aichi.jp/material/files/group/29/kaihameibo1.pdf"
+    },
+    {
+      "filename": "chiryu_202603sanpiichiran.pdf",
+      "sha256": "72a93085c83a2a768da6eee2b75793decb2d6445d9be487a6c41a88cdce79b89",
+      "bytes": 208365,
+      "fetchedAt": "2026-11-03T12:56:05.317Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260514/20260510193452id_/https://www.city.chiryu.aichi.jp/material/files/group/29/202603sanpiichiran.pdf"
+    },
+    {
+      "filename": "chiryu_202603giketukekkaichiranhyou.pdf",
+      "sha256": "7531f6b73c9f2bb06929946cd107a7c607803d6c2978f41579a25e9348714da4",
+      "bytes": 86994,
+      "fetchedAt": "2026-11-03T12:56:05.318Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260514/20260510193450id_/https://www.city.chiryu.aichi.jp/material/files/group/29/202603giketukekkaichiranhyou.pdf"
+    },
+    {
+      "filename": "chiryu_yakuinmeibo_warp20260208.pdf",
+      "sha256": "9ccb665cc4a7319ace8ae25aa71c26d3def838e7af446df0da583aa1108431fd",
+      "bytes": 89599,
+      "fetchedAt": "2026-11-03T12:56:05.318Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260209/20260208095202id_/https://www.city.chiryu.aichi.jp/material/files/group/29/yakuinmeibo.pdf"
+    },
+    {
+      "filename": "chiryu_16722_warp20260208.html",
+      "sha256": "6c66a917abbeab6596f724dcf9b20d357d1ff9786c43dbe382b67cee39bef243",
+      "bytes": 68033,
+      "fetchedAt": "2026-11-03T12:56:05.319Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260209/20260208024311id_/https://www.city.chiryu.aichi.jp/gikai/about/1/16722.html"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hekinan-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:56:08.773Z",
+  "fiscalYear": "R8",
+  "body": "碧南市議会",
+  "seats": 22,
+  "asOf": "2025-05-14",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "心政会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "小林晃三",
+        "藤浦伸介",
+        "磯貝忠通",
+        "生田悠",
+        "中西里江",
+        "髙木洋和",
+        "生田綱夫",
+        "林田かなめ"
+      ],
+      "locator": {
+        "file": "hekinan_group_warp20260207.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "みらい市民（しみん）クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "鈴木みのり",
+        "神谷悟",
+        "石川輝彦",
+        "藤田宇哉",
+        "杉浦文俊"
+      ],
+      "locator": {
+        "file": "hekinan_group_warp20260207.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党碧南市会議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山口春美",
+        "磯貝明彦"
+      ],
+      "locator": {
+        "file": "hekinan_group_warp20260207.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大竹敦子",
+        "加藤厚雄"
+      ],
+      "locator": {
+        "file": "hekinan_group_warp20260207.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "翔政会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "祢宜田拓治",
+        "森下敏弥"
+      ],
+      "locator": {
+        "file": "hekinan_group_warp20260207.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派（かいは）に属（ぞく）さない議員（ぎいん）",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "長﨑章浩",
+        "岩月ひろし",
+        "生田充夫"
+      ],
+      "locator": {
+        "file": "hekinan_group_warp20260207.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１６号",
+    "billName": "令和８年度碧南市一般会計予算",
+    "sessionLabel": "令和８年３月定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hekinan_r8_03_kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派の構成（令和７年５月１４日現在）",
+  "resultTitle": "令和８年３月定例会 会議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "へきなん議会だより No.148（2026年5月1日）p.4「３月市議会定例会に上程された議案等の審議結果」",
+    "sourceFile": "hekinan_dayori148.pdf",
+    "columns": [
+      {
+        "label": "小林",
+        "faction": "心政会",
+        "member": "小林晃三",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤浦",
+        "faction": "心政会",
+        "member": "藤浦伸介",
+        "stance": "賛成"
+      },
+      {
+        "label": "磯貝忠",
+        "faction": "心政会",
+        "member": "磯貝忠通",
+        "stance": "賛成"
+      },
+      {
+        "label": "生田悠",
+        "faction": "心政会",
+        "member": "生田悠",
+        "stance": "賛成"
+      },
+      {
+        "label": "中西",
+        "faction": "心政会",
+        "member": "中西里江",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙木",
+        "faction": "心政会",
+        "member": "髙木洋和",
+        "stance": "賛成"
+      },
+      {
+        "label": "林田",
+        "faction": "心政会",
+        "member": "林田かなめ",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木",
+        "faction": "みらい市民（しみん）クラブ",
+        "member": "鈴木みのり",
+        "stance": "賛成"
+      },
+      {
+        "label": "神谷",
+        "faction": "みらい市民（しみん）クラブ",
+        "member": "神谷悟",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川",
+        "faction": "みらい市民（しみん）クラブ",
+        "member": "石川輝彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤田",
+        "faction": "みらい市民（しみん）クラブ",
+        "member": "藤田宇哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉浦",
+        "faction": "みらい市民（しみん）クラブ",
+        "member": "杉浦文俊",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口",
+        "faction": "日本共産党碧南市会議員団",
+        "member": "山口春美",
+        "stance": "反対"
+      },
+      {
+        "label": "大竹",
+        "faction": "公明党",
+        "member": "大竹敦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤",
+        "faction": "公明党",
+        "member": "加藤厚雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "祢宜田",
+        "faction": "翔政会",
+        "member": "祢宜田拓治",
+        "stance": "反対"
+      },
+      {
+        "label": "森下",
+        "faction": "翔政会",
+        "member": "森下敏弥",
+        "stance": "反対"
+      },
+      {
+        "label": "長﨑",
+        "faction": "会派（かいは）に属（ぞく）さない議員（ぎいん）",
+        "member": "長﨑章浩",
+        "stance": "反対"
+      },
+      {
+        "label": "岩月",
+        "faction": "会派（かいは）に属（ぞく）さない議員（ぎいん）",
+        "member": "岩月ひろし",
+        "stance": "反対"
+      },
+      {
+        "label": "生田充",
+        "faction": "会派（かいは）に属（ぞく）さない議員（ぎいん）",
+        "member": "生田充夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "生田綱夫",
+        "faction": "心政会",
+        "member": "生田綱夫",
+        "stance": "議長"
+      },
+      {
+        "label": "磯貝明彦",
+        "faction": "日本共産党碧南市会議員団",
+        "member": "磯貝明彦",
+        "stance": "欠席"
+      }
+    ]
+  }
+}

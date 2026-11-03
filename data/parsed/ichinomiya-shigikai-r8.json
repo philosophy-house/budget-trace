@@ -1,0 +1,151 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ichinomiya-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:56:05.802Z",
+  "fiscalYear": "R8",
+  "body": "一宮市議会",
+  "seats": 37,
+  "asOf": "2026-03-23",
+  "factions": [
+    {
+      "name": "令和会",
+      "seats": 20,
+      "isIndependent": false,
+      "members": [
+        "浅井俊彦",
+        "井田吉彦",
+        "井上文男",
+        "うすいゆか",
+        "大津乃里予",
+        "岡本将嗣",
+        "尾関さとる",
+        "木村健太",
+        "島津秀典",
+        "竹山聡",
+        "東渕正人",
+        "中村かずひと",
+        "野村悠介",
+        "則竹安郎",
+        "花谷昌章",
+        "本山廣次",
+        "八木丈之",
+        "横井忠史",
+        "渡辺之良",
+        "渡部晃久"
+      ],
+      "locator": {
+        "file": "ichinomiya_sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "新流会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "鵜飼和司",
+        "京極ふみか",
+        "佐々のりな",
+        "松井哲朗",
+        "森ひとみ"
+      ],
+      "locator": {
+        "file": "ichinomiya_sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党一宮市議団",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "市川智明",
+        "河村弘保",
+        "柴田雄二",
+        "平松邦江",
+        "水谷千恵子"
+      ],
+      "locator": {
+        "file": "ichinomiya_sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "共産",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "彦坂和子",
+        "渡辺さとし"
+      ],
+      "locator": {
+        "file": "ichinomiya_sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "いち良",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宇山祥子",
+        "後藤みゆき"
+      ],
+      "locator": {
+        "file": "ichinomiya_sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "自民",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "伊藤裕通"
+      ],
+      "locator": {
+        "file": "ichinomiya_sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "一風会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "髙橋一"
+      ],
+      "locator": {
+        "file": "ichinomiya_sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "市民",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "服部修寛"
+      ],
+      "locator": {
+        "file": "ichinomiya_sanpi.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "市長提出3",
+    "billName": "令和8年度愛知県一宮市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "ichinomiya_1074652.html"
+    }
+  },
+  "rosterTitle": "賛否の分かれた議案等（令和8年3月定例会・3月23日）の議員の賛否の表頭（会派名・氏名）",
+  "resultTitle": "議案・議決結果一覧（令和8年3月定例会）"
+}
