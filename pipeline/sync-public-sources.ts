@@ -20,6 +20,7 @@
 import { copyFileSync, existsSync, mkdirSync, readdirSync, rmSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { RESTRICTED_EVIDENCE } from "../src/client/lib/evidence-policy.gen";
+import { isServedRaw } from "./lib/served-raw";
 
 const RAW_DIR = join(process.cwd(), "data", "raw");
 const OUT_DIR = join(process.cwd(), "public", "sources");
@@ -33,11 +34,12 @@ const seenRestricted = new Set<string>();
 if (existsSync(RAW_DIR)) {
   for (const sourceId of readdirSync(RAW_DIR)) {
     const srcDir = join(RAW_DIR, sourceId);
-    if (!statSync(srcDir).isDirectory() || sourceId.startsWith("fixture-")) continue;
+    if (!statSync(srcDir).isDirectory()) continue;
     for (const filename of readdirSync(srcDir)) {
-      if (!/\.(pdf|html?|xlsx?|csv)$/i.test(filename)) continue;
+      const served = isServedRaw(sourceId, filename);
+      if (served === "skip") continue;
       const localUrl = `/sources/${sourceId}/${filename}`;
-      if (RESTRICTED_EVIDENCE[localUrl]) {
+      if (served === "restricted") {
         // リンクは発行元（消えている資料は魚拓）へ向く＝このコピーは到達不能なので配らない
         seenRestricted.add(localUrl);
         skipped++;

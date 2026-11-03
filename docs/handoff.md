@@ -3876,7 +3876,13 @@ bun run pipeline:fixture && bun run pipeline:parse fixture-shichoson-kessan-r6 \
 
 ### 本番を手で出すとき（自動デプロイが走らなかったとき）
 
-**通常は `main` への push で本番デプロイが自動で走る**（Vercel の GitHub 連携）。この節は、それが走らなかったときの手順。
+**通常は `main` への push で本番デプロイが自動で走る**。⚠ **2026-11-03 から、走らせるのは GitHub Actions の「本番デプロイ」（`.github/workflows/deploy.yml`）で、Vercel の git 連携ではない**:
+data/raw が 13.97 GiB になり、Vercel の git 連携の clone（浅い clone でも作業ツリー全体を取り出す）が #442 で11分、その後は上限時間（約45分）を超えて、
+#443・#439・#444・#441 の本番デプロイがすべて `BUILD_EXCEEDED_MAXIMUM_TIME` で落ちた（ログは「Cloning …」で止まる）。API での手動の再デプロイも同じく落ちる（同じ clone を通るため）。
+Actions は `filter: blob:none` の clone で、public/sources へ配る raw（346 ファイル・約 640 MB。判定は `pipeline/lib/served-raw.ts`＝`sync-public-sources` と同じ関数）だけを
+sparse-checkout で取り出し、`vercel build --prod` → `vercel deploy --prebuilt --prod` で出す。Vercel の git 連携の自動ビルドは `vercel.json` で main も止めた。
+シークレット `VERCEL_TOKEN`（リポジトリの Settings → Secrets and variables → Actions）が要る。⇒ 本番が更新されないときは、まず Actions の「本番デプロイ」の実行を見る。
+**下の API の手順は Vercel に clone させるので、raw が大きい今は使えない**（使うなら手元で `bunx vercel build --prod` → `bunx vercel deploy --prebuilt --prod`）。以下は経緯として残す。
 
 ⚠ **リポジトリの移転後、しばらく自動デプロイが止まっていた**（少なくとも 2026-10-08〜10 の本番デプロイは手で出した＝source: `cli`）— リポジトリを `philosophy-house/budget-trace` へ移転したのに、
 Vercel のプロジェクトの GitHub 連携先（`/v9/projects/budget-trace` の `link`）が**移転前の `chan-shiro/budget-trace` のまま**
