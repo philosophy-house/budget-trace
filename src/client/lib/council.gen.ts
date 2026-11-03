@@ -43048,7 +43048,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
           "title": "令和８年２月定例会における議案等に対する各会派の賛否の状況",
           "localUrl": "/sources/wakayama-ken-gikai-r8/sanpi.pdf",
           "originUrl": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625_d/fil/sanpi.pdf",
-          "archiveUrl": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625_d/fil/sanpi.pdf"
+          "archiveUrl": "https://web.archive.org/web/20260410225041/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625_d/fil/sanpi.pdf"
         }
       }
     }
@@ -52407,7 +52407,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "令和８年第１回定例会付議事件議決結果",
         "localUrl": "/sources/munakata-shigikai-r8/giketsu.pdf",
         "originUrl": "https://www.city.munakata.lg.jp/kiji0032074/3_2074_13454_up_zd07rxsa.pdf",
-        "archiveUrl": "https://www.city.munakata.lg.jp/kiji0032074/3_2074_13454_up_zd07rxsa.pdf"
+        "archiveUrl": "https://web.archive.org/web/20260520194147/https://www.city.munakata.lg.jp/kiji0032074/3_2074_13454_up_zd07rxsa.pdf"
       },
       "minutesUrl": null,
       "newsletterUrl": null,
