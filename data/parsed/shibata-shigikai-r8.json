@@ -1,0 +1,127 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shibata-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:46:09.762Z",
+  "fiscalYear": "R8",
+  "body": "新発田市議会",
+  "seats": 24,
+  "asOf": "2026-03-25",
+  "factions": [
+    {
+      "name": "令和会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "湯浅佐太郎",
+        "宮崎光夫",
+        "五十嵐良一",
+        "比企広正",
+        "若月学",
+        "板垣功",
+        "宮野清隆",
+        "髙橋茂"
+      ],
+      "locator": {
+        "file": "shibata_Kg150_R0802sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "すすむ会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小柳はじめ",
+        "阿部聡",
+        "宮本佳太",
+        "惣山かすみ"
+      ],
+      "locator": {
+        "file": "shibata_Kg150_R0802sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "日本共産党新発田市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "加藤和雄",
+        "宮村幸男",
+        "髙橋芳子"
+      ],
+      "locator": {
+        "file": "shibata_Kg150_R0802sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "共道しばた",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "小坂博司",
+        "三母高志",
+        "長島徹"
+      ],
+      "locator": {
+        "file": "shibata_Kg150_R0802sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中村こう",
+        "小川徹"
+      ],
+      "locator": {
+        "file": "shibata_Kg150_R0802sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "新友会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "板倉久徳",
+        "広岡けんじろう"
+      ],
+      "locator": {
+        "file": "shibata_Kg150_R0802sanpi.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "渡邊喜夫",
+        "石山洋子"
+      ],
+      "locator": {
+        "file": "shibata_Kg150_R0802sanpi.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議第116号",
+    "billName": "令和８年度新発田市一般会計予算議定について",
+    "sessionLabel": "令和８年　２月定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決(賛成多数)",
+    "locator": {
+      "file": "shibata_giketsu_s141.html"
+    }
+  },
+  "rosterTitle": "令和8年新発田市議会2月定例会 議決結果（表頭の会派・議員の欄）",
+  "resultTitle": "議案の概要と議決結果（令和８年 ２月定例会）"
+}

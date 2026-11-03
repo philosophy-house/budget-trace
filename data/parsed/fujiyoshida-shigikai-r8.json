@@ -1,0 +1,125 @@
+{
+  "docType": "council-composition",
+  "sourceId": "fujiyoshida-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:46:11.082Z",
+  "fiscalYear": "R8",
+  "body": "富士吉田市議会",
+  "seats": 20,
+  "asOf": "2025-03-10",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "政友会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "前田厚子",
+        "太田利政",
+        "伊藤進"
+      ],
+      "locator": {
+        "file": "fy_kaiha_warp20260206.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "令和会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "渡辺将",
+        "宮下宗昭",
+        "渡辺新喜"
+      ],
+      "locator": {
+        "file": "fy_kaiha_warp20260206.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "浄政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "勝俣米治",
+        "奥脇和一",
+        "渡辺利彦"
+      ],
+      "locator": {
+        "file": "fy_kaiha_warp20260206.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "みらい",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "横山勇志",
+        "渡辺幸寿",
+        "勝俣大紀",
+        "藤井義房"
+      ],
+      "locator": {
+        "file": "fy_kaiha_warp20260206.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市民ファースト市政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鈴木富蔵",
+        "小俣光吉",
+        "藤田徹"
+      ],
+      "locator": {
+        "file": "fy_kaiha_warp20260206.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "市民ファースト",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "戸田元",
+        "藤原栄作",
+        "滝口晴夫"
+      ],
+      "locator": {
+        "file": "fy_kaiha_warp20260206.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に所属していない議員（秋山晃一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "秋山晃一"
+      ],
+      "locator": {
+        "file": "fy_kaiha_warp20260206.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度富士吉田市一般会計予算",
+    "sessionLabel": "令和８年第２回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決",
+    "locator": {
+      "file": "fy_shingikekka_7398.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "交渉団体（会派）一覧（更新日：2025年3月10日・国立国会図書館 WARP 2026-02-06 収集）",
+  "resultTitle": "令和８年第２回定例会 議案等審議結果"
+}

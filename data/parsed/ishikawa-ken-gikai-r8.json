@@ -1,0 +1,193 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ishikawa-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:46:10.648Z",
+  "fiscalYear": "R8",
+  "body": "石川県議会",
+  "seats": 41,
+  "asOf": "2025-12-25",
+  "factions": [
+    {
+      "name": "自由民主党石川県議会議員協議会",
+      "seats": 29,
+      "isIndependent": false,
+      "members": [
+        "福村章",
+        "和田内幸三",
+        "紐野義昭",
+        "下沢佳充",
+        "米澤賢司",
+        "宮下正博",
+        "作野広昭",
+        "焼田宏明",
+        "善田善彦",
+        "安居知世",
+        "不破大仁",
+        "平蔵豊志",
+        "室谷弘幸",
+        "八田知子",
+        "横山隆也",
+        "車幸弘",
+        "太郎田真理",
+        "長田哲也",
+        "安実隆直",
+        "太田臣宣",
+        "清水真一路",
+        "髙辻伸行",
+        "堂前利昭",
+        "石田章",
+        "馬場弘勝",
+        "亀田豊",
+        "竹田良平",
+        "寳達典久",
+        "金子健太郎"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260203.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "未来石川議員会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "盛本芳久",
+        "吉田修",
+        "一川政之",
+        "岡野定隆志",
+        "打出喜代文",
+        "田中美絵子"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260203.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "谷内律夫",
+        "小松実"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260203.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "佐藤正幸"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260203.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "田中敬人"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260203.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "まっすぐ県民目線の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "喜多浩一"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260203.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "荒木博文"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260203.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第５号",
+    "billName": "令和８年度石川県一般会計予算",
+    "sessionLabel": "令和８年１月定例会",
+    "decidedDate": "2026-02-13",
+    "decidedDateLabel": "令和8年2月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kekka202601.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別名簿（令和7年12月25日現在・更新日 2025年12月26日）の国立国会図書館 WARP の収集（2026-02-03・議決前）",
+  "resultTitle": "議案議決結果（令和８年１月定例会）",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "各会派の議案に対する賛否の状況（令和８年１月定例会）",
+    "sourceFile": "sanpi202601.pdf",
+    "columns": [
+      {
+        "label": "自民",
+        "faction": "自由民主党石川県議会議員協議会",
+        "stance": "賛成"
+      },
+      {
+        "label": "未来",
+        "faction": "未来石川議員会",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "共産",
+        "faction": "日本共産党",
+        "stance": "反対"
+      },
+      {
+        "label": "無所属",
+        "faction": "無所属の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "まっすぐ",
+        "faction": "まっすぐ県民目線の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "参政",
+        "faction": "参政党",
+        "stance": "賛成"
+      },
+      {
+        "label": "安居知世",
+        "faction": "自由民主党石川県議会議員協議会",
+        "member": "安居知世",
+        "stance": "議長"
+      }
+    ]
+  }
+}

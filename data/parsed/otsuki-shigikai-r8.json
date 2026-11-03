@@ -1,0 +1,73 @@
+{
+  "docType": "council-composition",
+  "sourceId": "otsuki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:46:11.422Z",
+  "fiscalYear": "R8",
+  "body": "大月市議会",
+  "seats": 13,
+  "asOf": "2026-03-09",
+  "factions": [
+    {
+      "name": "市民とともに歩む会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "萩原剛",
+        "山田政文",
+        "相馬力",
+        "山地渉",
+        "鈴木竜児",
+        "天野築"
+      ],
+      "locator": {
+        "file": "ot_gikaidayori182_2026_5.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "山と川の街大月",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "奥脇一夫",
+        "小原丈司",
+        "棚本晃行"
+      ],
+      "locator": {
+        "file": "ot_gikaidayori182_2026_5.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "無会派議員",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "山田善一",
+        "藤本実",
+        "鈴木基方",
+        "鈴木康揮"
+      ],
+      "locator": {
+        "file": "ot_gikaidayori182_2026_5.pdf",
+        "page": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１１号",
+    "billName": "令和８年度大月市一般会計予算",
+    "sessionLabel": "令和８年 第２回（３月）大月市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "ot_R8.3.19giketu.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "市議会だより第182号「会派構成」（令和８年３月定例会の号）",
+  "resultTitle": "令和８年 第２回（３月）大月市議会定例会 審議結果一覧"
+}

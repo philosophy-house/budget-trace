@@ -1,0 +1,108 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ueda-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:46:12.299Z",
+  "fiscalYear": "R8",
+  "body": "上田市議会",
+  "seats": 26,
+  "asOf": "2026-02-01",
+  "factions": [
+    {
+      "name": "新生会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "飯島裕貴",
+        "石合祐太",
+        "齊藤加代美",
+        "井澤毅",
+        "佐藤論征",
+        "土屋勝浩",
+        "尾島勝"
+      ],
+      "locator": {
+        "file": "ueda_78500_warp20260204.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "上志の風",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "中村知義",
+        "武田紗知",
+        "矢島昭徳",
+        "堀内仁志",
+        "金井清一",
+        "飯島伴典",
+        "池田総一郎"
+      ],
+      "locator": {
+        "file": "ueda_78500_warp20260204.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "壮志会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "村越深典",
+        "松山賢太郎",
+        "髙田忍",
+        "西沢逸郎",
+        "宮下省二"
+      ],
+      "locator": {
+        "file": "ueda_78500_warp20260204.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "松尾卓",
+        "金沢広美",
+        "池上喜美子",
+        "半田大介"
+      ],
+      "locator": {
+        "file": "ueda_78500_warp20260204.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党上田市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "泉弥生",
+        "古市順子",
+        "久保田由夫"
+      ],
+      "locator": {
+        "file": "ueda_78500_warp20260204.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２３号",
+    "billName": "令和８年度上田市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-05",
+    "decidedDateLabel": "令和8年3月5日",
+    "result": "可決",
+    "locator": {
+      "file": "ueda_79545.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和８年２月１日現在）— 国立国会図書館 WARP の 2026-02-04 の収集",
+  "resultTitle": "令和8年3月定例会 議案一覧表（議案の審査について）"
+}
