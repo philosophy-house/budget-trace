@@ -1,0 +1,113 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kitamoto-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:21.791Z",
+  "fiscalYear": "R8",
+  "body": "北本市議会",
+  "seats": 20,
+  "asOf": "2026-03-25",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "みらい",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "小久保博雅",
+        "毛呂一夫",
+        "金森すみ子",
+        "村田裕子",
+        "工藤日出夫",
+        "大嶋達巳"
+      ],
+      "locator": {
+        "file": "kitamoto_dayori136.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "北本の将来を創る会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "青野康子",
+        "高橋誠",
+        "永井司",
+        "現王園孝昭",
+        "諏訪幸男"
+      ],
+      "locator": {
+        "file": "kitamoto_dayori136.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "斉藤章",
+        "保角美代",
+        "島野和夫"
+      ],
+      "locator": {
+        "file": "kitamoto_dayori136.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "湯沢美恵",
+        "中村洋子"
+      ],
+      "locator": {
+        "file": "kitamoto_dayori136.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "清和会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岡村有正",
+        "滝瀬光一"
+      ],
+      "locator": {
+        "file": "kitamoto_dayori136.pdf",
+        "page": 9
+      }
+    },
+    {
+      "name": "緑風会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "桜井卓",
+        "今関公美"
+      ],
+      "locator": {
+        "file": "kitamoto_dayori136.pdf",
+        "page": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第10号",
+    "billName": "令和8年度北本市一般会計予算",
+    "sessionLabel": "令和8年第1回北本市議会定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "可決",
+    "locator": {
+      "file": "kitamoto_18982.html"
+    }
+  },
+  "rosterTitle": "北本市議会だより No.136（令和8年5月1日発行）p.9「賛否表」の表頭（3月定例会の会派と議員）",
+  "resultTitle": "令和8年第1回北本市議会定例会 市長提出議案の審議結果"
+}

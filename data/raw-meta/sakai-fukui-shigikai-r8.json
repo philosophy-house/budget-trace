@@ -1,0 +1,40 @@
+{
+  "sourceId": "sakai-fukui-shigikai-r8",
+  "files": [
+    {
+      "filename": "sakai_3004kaihashoukai_warp20260206.html",
+      "sha256": "bba85ba904af70244069ab264a07e4a942269852c9bb3f6f597ea98c5a7ceaaf",
+      "bytes": 19761,
+      "fetchedAt": "2026-11-03T12:46:09.219Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260208/20260206201550id_/https://www.city.fukui-sakai.lg.jp/gikai/gikai/gikai/kaiha/3004kaihashoukai.html"
+    },
+    {
+      "filename": "sakai_r8-3kekka.html",
+      "sha256": "b10f3b1fde8e036ffab92a6e531d79ced50b7270aada0029cb787a30ec304fe0",
+      "bytes": 29508,
+      "fetchedAt": "2026-11-03T12:46:09.220Z",
+      "fetchedFrom": "https://www.city.fukui-sakai.lg.jp/gikai/gikai/teirei/gian-kekka/r8/r8-3kekka.html"
+    },
+    {
+      "filename": "sakai_gikaidayori80.pdf",
+      "sha256": "d54fe3df417407b69cccd679a15be3f0073f65f3baf648c44d414df083e36ace",
+      "bytes": 6332842,
+      "fetchedAt": "2026-11-03T12:46:09.225Z",
+      "fetchedFrom": "https://www.city.fukui-sakai.lg.jp/gikai/gikai/dayori/documents/gikaidayori80.pdf"
+    },
+    {
+      "filename": "sakai_30gicho-fukugicho_warp20260206.html",
+      "sha256": "d7713339694a99c443d8b1305081746ed71a6c05dda006a847218abf606cc995",
+      "bytes": 19045,
+      "fetchedAt": "2026-11-03T12:46:09.225Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260208/20260206201622id_/https://www.city.fukui-sakai.lg.jp/gikai/gikai/giin/30gicho-fukugicho.html"
+    },
+    {
+      "filename": "sakai_07kaihashushi.pdf",
+      "sha256": "b596eaf40525d075f253b457f97a4973bd33073fb1c6b4cdcd76e382e70b64f1",
+      "bytes": 74236,
+      "fetchedAt": "2026-11-03T12:46:09.226Z",
+      "fetchedFrom": "https://www.city.fukui-sakai.lg.jp/gikai/seimukatsudouhi/documents/07kaihashushi.pdf"
+    }
+  ]
+}

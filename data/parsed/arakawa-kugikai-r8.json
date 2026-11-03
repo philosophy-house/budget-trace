@@ -1,0 +1,167 @@
+{
+  "docType": "council-composition",
+  "sourceId": "arakawa-kugikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T16:29:03.277Z",
+  "fiscalYear": "R8",
+  "body": "荒川区議会",
+  "seats": 31,
+  "asOf": "2026-01-01",
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "菅谷元昭",
+        "北城貞治",
+        "西川浩平",
+        "明戸真弓美",
+        "若林由季",
+        "土橋圭子",
+        "夏目亜季",
+        "鎌田理光",
+        "茂木弘",
+        "並木一元",
+        "斎藤泰紀"
+      ],
+      "locator": {
+        "file": "arakawa_dayori293.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "山口幸一郎",
+        "菊地秀信",
+        "増田峰子",
+        "森本達夫",
+        "松田智子",
+        "保坂正仁"
+      ],
+      "locator": {
+        "file": "arakawa_dayori293.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "ゆいの会（都民ファースト・国民民主・あたらしい党・無所属）",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "清水啓史",
+        "竹内明浩",
+        "花澤昭信",
+        "山本剛",
+        "大月健弘",
+        "宮本舜馬"
+      ],
+      "locator": {
+        "file": "arakawa_dayori293.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "相馬ゆうこ",
+        "横山幸次",
+        "北村綾子",
+        "斉藤邦子",
+        "小島和男"
+      ],
+      "locator": {
+        "file": "arakawa_dayori293.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "久家しげる",
+        "鬼頭あきゆき"
+      ],
+      "locator": {
+        "file": "arakawa_dayori293.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "維新・子育ての会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山田晴美"
+      ],
+      "locator": {
+        "file": "arakawa_dayori293.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第74号",
+    "billName": "令和８年度荒川区一般会計予算",
+    "sessionLabel": "令和7年度荒川区議会定例会・2月会議",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "可決",
+    "locator": {
+      "file": "arakawa_dayori295_zentai.pdf",
+      "page": 11
+    }
+  },
+  "rosterTitle": "あらかわ区議会だより No.293（令和8年新年号・令和8年1月1日）p.4 会派ごとの議員の紹介",
+  "resultTitle": "あらかわ区議会だより No.295（令和8年4月19日）p.18 議案の審議結果",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "あらかわ区議会だより No.295（令和8年4月19日）p.18 議案の審議結果",
+    "sourceFile": "arakawa_dayori295_zentai.pdf",
+    "columns": [
+      {
+        "label": "自",
+        "faction": "自由民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "公",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "ゆ",
+        "faction": "ゆいの会（都民ファースト・国民民主・あたらしい党・無所属）",
+        "stance": "賛成"
+      },
+      {
+        "label": "共",
+        "faction": "日本共産党",
+        "stance": "反対"
+      },
+      {
+        "label": "立",
+        "faction": "立憲民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "維",
+        "faction": "維新・子育ての会",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤泰紀",
+        "faction": "自由民主党",
+        "member": "斎藤泰紀",
+        "stance": "議長"
+      }
+    ]
+  }
+}

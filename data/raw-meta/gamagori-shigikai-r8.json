@@ -1,0 +1,26 @@
+{
+  "sourceId": "gamagori-shigikai-r8",
+  "files": [
+    {
+      "filename": "gamagori_dayori132_p11.pdf",
+      "sha256": "3b38bd2e0b385c506849d1eb24dfe25daf8491b5d5041bf27444e099c50feaca",
+      "bytes": 625078,
+      "fetchedAt": "2026-11-03T12:56:05.321Z",
+      "fetchedFrom": "https://www.city.gamagori.lg.jp/uploaded/attachment/115934.pdf"
+    },
+    {
+      "filename": "gamagori_202603kekka.html",
+      "sha256": "0997e6940bbb97f0c3c2dead43fa502c0b56054c8484aba35b85dd13a0dbebed",
+      "bytes": 56797,
+      "fetchedAt": "2026-11-03T12:56:05.322Z",
+      "fetchedFrom": "https://www.city.gamagori.lg.jp/site/gikai/202603kekka.html"
+    },
+    {
+      "filename": "gamagori_shikumi.html",
+      "sha256": "5e60c443eb033e64d3192e42fc9e4f3bef97d04740ad1ab0d34eff34209f89f9",
+      "bytes": 35061,
+      "fetchedAt": "2026-11-03T12:56:05.322Z",
+      "fetchedFrom": "https://www.city.gamagori.lg.jp/site/gikai/shikumi.html"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "docType": "council-composition",
+  "sourceId": "aisai-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T16:29:21.027Z",
+  "fiscalYear": "R8",
+  "body": "愛西市議会",
+  "seats": 17,
+  "asOf": "2026-03-23",
+  "factions": [
+    {
+      "name": "新生クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "佐藤信男",
+        "原裕司",
+        "山岡幹雄",
+        "杉村義仁",
+        "近藤武"
+      ],
+      "locator": {
+        "file": "p.8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "拓く愛西の未来",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "角田龍仁",
+        "石崎誠子",
+        "鬼頭勝治",
+        "中村文武",
+        "佐藤旭浩"
+      ],
+      "locator": {
+        "file": "p.8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党あいさい",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "竹村仁司",
+        "髙松幸雄"
+      ],
+      "locator": {
+        "file": "p.8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党愛西市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "河合克平",
+        "真野和久"
+      ],
+      "locator": {
+        "file": "p.8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（吉川三津子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "吉川三津子"
+      ],
+      "locator": {
+        "file": "p.8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（馬渕紀明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "馬渕紀明"
+      ],
+      "locator": {
+        "file": "p.8.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（永田千佳）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "永田千佳"
+      ],
+      "locator": {
+        "file": "p.8.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第19号",
+    "billName": "令和8年度愛西市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決（多数）",
+    "locator": {
+      "file": "0000018107.html"
+    }
+  },
+  "rosterTitle": "愛西市議会だより 2026年6月号 p.8「令和８年３月定例会議案審議の結果と議員の賛否」の表頭（議決時の会派）",
+  "resultTitle": "令和8年3月定例会議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "愛西市議会だより 2026年6月号 p.8「令和８年３月定例会議案審議の結果と議員の賛否」",
+    "sourceFile": "p.8.pdf",
+    "columns": [
+      {
+        "label": "佐藤信男",
+        "faction": "新生クラブ",
+        "member": "佐藤信男",
+        "stance": "賛成"
+      },
+      {
+        "label": "原裕司",
+        "faction": "新生クラブ",
+        "member": "原裕司",
+        "stance": "賛成"
+      },
+      {
+        "label": "山岡幹雄",
+        "faction": "新生クラブ",
+        "member": "山岡幹雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "杉村義仁",
+        "faction": "新生クラブ",
+        "member": "杉村義仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "近藤武",
+        "faction": "新生クラブ",
+        "member": "近藤武",
+        "stance": "議長"
+      },
+      {
+        "label": "角田龍仁",
+        "faction": "拓く愛西の未来",
+        "member": "角田龍仁",
+        "stance": "賛成"
+      },
+      {
+        "label": "石崎誠子",
+        "faction": "拓く愛西の未来",
+        "member": "石崎誠子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鬼頭勝治",
+        "faction": "拓く愛西の未来",
+        "member": "鬼頭勝治",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村文武",
+        "faction": "拓く愛西の未来",
+        "member": "中村文武",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤旭浩",
+        "faction": "拓く愛西の未来",
+        "member": "佐藤旭浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "竹村仁司",
+        "faction": "公明党あいさい",
+        "member": "竹村仁司",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙松幸雄",
+        "faction": "公明党あいさい",
+        "member": "髙松幸雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "河合克平",
+        "faction": "日本共産党愛西市議団",
+        "member": "河合克平",
+        "stance": "反対"
+      },
+      {
+        "label": "真野和久",
+        "faction": "日本共産党愛西市議団",
+        "member": "真野和久",
+        "stance": "反対"
+      },
+      {
+        "label": "吉川三津子",
+        "faction": "無会派（吉川三津子）",
+        "member": "吉川三津子",
+        "stance": "反対"
+      },
+      {
+        "label": "馬渕紀明",
+        "faction": "無会派（馬渕紀明）",
+        "member": "馬渕紀明",
+        "stance": "賛成"
+      },
+      {
+        "label": "永田千佳",
+        "faction": "無会派（永田千佳）",
+        "member": "永田千佳",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

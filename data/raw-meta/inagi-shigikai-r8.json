@@ -1,0 +1,26 @@
+{
+  "sourceId": "inagi-shigikai-r8",
+  "files": [
+    {
+      "filename": "inagi_shigi252.pdf",
+      "sha256": "98734c067d0790a685812e5ca9bc24703ea9d1648a1517159f190efe3b4c41ef",
+      "bytes": 3712543,
+      "fetchedAt": "2026-11-03T12:48:14.701Z",
+      "fetchedFrom": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/879/inagi_shigi252.pdf"
+    },
+    {
+      "filename": "inagi_1013698.html",
+      "sha256": "ac88b3f839df3526a204cf1748bdf3223d41b5539302de067a71cb48b69e3570",
+      "bytes": 110062,
+      "fetchedAt": "2026-11-03T12:48:14.701Z",
+      "fetchedFrom": "https://www.city.inagi.tokyo.jp/gikai/ugoki/1013693/1013698.html"
+    },
+    {
+      "filename": "inagi_1009534.html",
+      "sha256": "9c15deb35278ce99ff08dbc05384385b468e19cf4a50a4a3d765a89c4936cc66",
+      "bytes": 37479,
+      "fetchedAt": "2026-11-03T12:48:14.702Z",
+      "fetchedFrom": "https://www.city.inagi.tokyo.jp/gikai/shikumi/1009534.html"
+    }
+  ]
+}

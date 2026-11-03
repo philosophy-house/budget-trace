@@ -1,0 +1,40 @@
+{
+  "sourceId": "ishikawa-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_warp20260203.html",
+      "sha256": "bc578e555165a7dece9ec23bc156f83f3521270ef6f78c5ed89f6c56af0219b9",
+      "bytes": 23168,
+      "fetchedAt": "2026-11-03T12:46:09.211Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260215/20260203141009id_/https://www.pref.ishikawa.lg.jp/gikai/meibo/kaiha20150430.html"
+    },
+    {
+      "filename": "senkyoku_warp20260204.html",
+      "sha256": "135a6072c4db1d012b1529fa197c4743082462406c45785cbda5ec02448c3933",
+      "bytes": 34648,
+      "fetchedAt": "2026-11-03T12:46:09.211Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260215/20260204080910id_/https://www.pref.ishikawa.lg.jp/gikai/meibo/senkyoku20150430.html"
+    },
+    {
+      "filename": "kekka202601.pdf",
+      "sha256": "d496d69042b86fb83a0ccb23a4a3e248be9de315d56d96f46c57a53b9f09c475",
+      "bytes": 112493,
+      "fetchedAt": "2026-11-03T12:46:09.211Z",
+      "fetchedFrom": "https://www.pref.ishikawa.lg.jp/gikai/gaiyou/202601/documents/kekka202601.pdf"
+    },
+    {
+      "filename": "sanpi202601.pdf",
+      "sha256": "0262fbc892be535310202614a4a92a1da38957a9184a62d17437a2be451a9ecb",
+      "bytes": 127504,
+      "fetchedAt": "2026-11-03T12:46:09.212Z",
+      "fetchedFrom": "https://www.pref.ishikawa.lg.jp/gikai/gaiyou/202601/documents/sanpi202601.pdf"
+    },
+    {
+      "filename": "kaiha_post_20260508.html",
+      "sha256": "821bad6de1ba6698895bc8ec94046e4d15bf2d03ae3466cc9f2389f0ff959e49",
+      "bytes": 22891,
+      "fetchedAt": "2026-11-03T12:46:09.212Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260523/20260508042851id_/https://www.pref.ishikawa.lg.jp/gikai/meibo/kaiha20150430.html"
+    }
+  ]
+}

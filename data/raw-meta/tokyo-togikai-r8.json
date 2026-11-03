@@ -1,0 +1,43 @@
+{
+  "sourceId": "tokyo-togikai-r8",
+  "files": [
+    {
+      "filename": "newsletter367_07.html",
+      "sha256": "66fc81b880a34a2938bcb8fe33e8993f698ee12d159644aaa7f2650d7f6d7e69",
+      "bytes": 31126,
+      "fetchedAt": "2026-11-03T12:48:14.669Z",
+      "fetchedFrom": "https://www.gikai.metro.tokyo.lg.jp/newsletter/367/07.html"
+    },
+    {
+      "filename": "electoral-zone_20260217150502.html",
+      "sha256": "a1db81449ac8bb3cccea4df8838196fb44cad1b6fc34758359ff4b635498af7f",
+      "bytes": 19939,
+      "fetchedAt": "2026-11-03T12:48:14.670Z",
+      "fetchedFrom": "https://web.archive.org/web/20260217150502id_/http://www.gikai.metro.tokyo.lg.jp/membership/electoral-zone.html",
+      "transform": [
+        "gunzip"
+      ]
+    },
+    {
+      "filename": "bill_reg2026-1.html",
+      "sha256": "28b6368765ac8b722ad94251572b2468ba1145b40342d675496b311022524fb1",
+      "bytes": 48679,
+      "fetchedAt": "2026-11-03T12:48:14.671Z",
+      "fetchedFrom": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html"
+    },
+    {
+      "filename": "newsletter367_01.html",
+      "sha256": "765098c064520bbb4bcdf6ad6b53a0fb96f6c4d9e50748dfe9bfcf7c69135526",
+      "bytes": 10882,
+      "fetchedAt": "2026-11-03T12:48:14.671Z",
+      "fetchedFrom": "https://www.gikai.metro.tokyo.lg.jp/newsletter/367/01.html"
+    },
+    {
+      "filename": "political-party_20260416014155.html",
+      "sha256": "512e3a05a4bb2e196b6ffaa8fb0188add34e5c568d2a553e08f8e7e9f8bd7ad0",
+      "bytes": 24718,
+      "fetchedAt": "2026-11-03T12:48:14.672Z",
+      "fetchedFrom": "https://web.archive.org/web/20260416014155id_/https://www.gikai.metro.tokyo.lg.jp/membership/political-party.html"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kumagaya-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:18.412Z",
+  "fiscalYear": "R8",
+  "body": "熊谷市議会",
+  "seats": 30,
+  "asOf": "2026-02-20",
+  "teisu": 30,
+  "factions": [
+    {
+      "name": "熊谷清風会・維新",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "影山琢也",
+        "富岡信吾",
+        "須永宣延",
+        "小鮒賢二",
+        "千葉義浩",
+        "田中正",
+        "川田勝巳",
+        "田中純一",
+        "山本絢女"
+      ],
+      "locator": {
+        "file": "kaiha45_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "令新クラブ・自民",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山下一男",
+        "大久保照夫",
+        "新島一英",
+        "小林國章",
+        "出井哲司"
+      ],
+      "locator": {
+        "file": "kaiha45_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "林幸子",
+        "三浦和一",
+        "池井光吉",
+        "江田大助"
+      ],
+      "locator": {
+        "file": "kaiha45_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "創新みらい",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "沼上政幸",
+        "権田清志",
+        "小林拓朗"
+      ],
+      "locator": {
+        "file": "kaiha45_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "白根佳典",
+        "大山美智子",
+        "桜井くるみ"
+      ],
+      "locator": {
+        "file": "kaiha45_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "えだまめ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "臼杵健",
+        "小島正泰"
+      ],
+      "locator": {
+        "file": "kaiha45_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "民主くまがや",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "腰塚菜穂子",
+        "黒澤三千夫"
+      ],
+      "locator": {
+        "file": "kaiha45_warp20260406.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "友和会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "石川広己",
+        "福田勝美"
+      ],
+      "locator": {
+        "file": "kaiha45_warp20260406.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第２号",
+    "billName": "令和８年度熊谷市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kekka0803_0317.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派構成一覧表（令和8年2月20日）",
+  "resultTitle": "令和８年第１回定例会 審議結果（3月17日議決分）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会 審議結果（3月17日議決分）",
+    "sourceFile": "kekka0803_0317.pdf",
+    "columns": [
+      {
+        "label": "山本絢女",
+        "faction": "熊谷清風会・維新",
+        "member": "山本絢女",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林拓朗",
+        "faction": "創新みらい",
+        "member": "小林拓朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中純一",
+        "faction": "熊谷清風会・維新",
+        "member": "田中純一",
+        "stance": "賛成"
+      },
+      {
+        "label": "江田大助",
+        "faction": "公明党",
+        "member": "江田大助",
+        "stance": "賛成"
+      },
+      {
+        "label": "臼杵健",
+        "faction": "えだまめ",
+        "member": "臼杵健",
+        "stance": "賛成"
+      },
+      {
+        "label": "池井光吉",
+        "faction": "公明党",
+        "member": "池井光吉",
+        "stance": "賛成"
+      },
+      {
+        "label": "川田勝巳",
+        "faction": "熊谷清風会・維新",
+        "member": "川田勝巳",
+        "stance": "賛成"
+      },
+      {
+        "label": "出井哲司",
+        "faction": "令新クラブ・自民",
+        "member": "出井哲司",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林國章",
+        "faction": "令新クラブ・自民",
+        "member": "小林國章",
+        "stance": "賛成"
+      },
+      {
+        "label": "白根佳典",
+        "faction": "日本共産党",
+        "member": "白根佳典",
+        "stance": "反対"
+      },
+      {
+        "label": "沼上政幸",
+        "faction": "創新みらい",
+        "member": "沼上政幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "新島一英",
+        "faction": "令新クラブ・自民",
+        "member": "新島一英",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中正",
+        "faction": "熊谷清風会・維新",
+        "member": "田中正",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下一男",
+        "faction": "令新クラブ・自民",
+        "member": "山下一男",
+        "stance": "賛成"
+      },
+      {
+        "label": "影山琢也",
+        "faction": "熊谷清風会・維新",
+        "member": "影山琢也",
+        "stance": "賛成"
+      },
+      {
+        "label": "千葉義浩",
+        "faction": "熊谷清風会・維新",
+        "member": "千葉義浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "腰塚菜穂子",
+        "faction": "民主くまがや",
+        "member": "腰塚菜穂子",
+        "stance": "賛成"
+      },
+      {
+        "label": "小島正泰",
+        "faction": "えだまめ",
+        "member": "小島正泰",
+        "stance": "賛成"
+      },
+      {
+        "label": "権田清志",
+        "faction": "創新みらい",
+        "member": "権田清志",
+        "stance": "賛成"
+      },
+      {
+        "label": "石川広己",
+        "faction": "友和会",
+        "member": "石川広己",
+        "stance": "賛成"
+      },
+      {
+        "label": "林幸子",
+        "faction": "公明党",
+        "member": "林幸子",
+        "stance": "賛成"
+      },
+      {
+        "label": "黒澤三千夫",
+        "faction": "民主くまがや",
+        "member": "黒澤三千夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "須永宣延",
+        "faction": "熊谷清風会・維新",
+        "member": "須永宣延",
+        "stance": "賛成"
+      },
+      {
+        "label": "桜井くるみ",
+        "faction": "日本共産党",
+        "member": "桜井くるみ",
+        "stance": "反対"
+      },
+      {
+        "label": "三浦和一",
+        "faction": "公明党",
+        "member": "三浦和一",
+        "stance": "賛成"
+      },
+      {
+        "label": "大山美智子",
+        "faction": "日本共産党",
+        "member": "大山美智子",
+        "stance": "反対"
+      },
+      {
+        "label": "富岡信吾",
+        "faction": "熊谷清風会・維新",
+        "member": "富岡信吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "福田勝美",
+        "faction": "友和会",
+        "member": "福田勝美",
+        "stance": "賛成"
+      },
+      {
+        "label": "大久保照夫",
+        "faction": "令新クラブ・自民",
+        "member": "大久保照夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "小鮒賢二",
+        "faction": "熊谷清風会・維新",
+        "member": "小鮒賢二",
+        "stance": "議長"
+      }
+    ]
+  }
+}

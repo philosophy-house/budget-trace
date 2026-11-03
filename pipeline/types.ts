@@ -619,6 +619,24 @@ export const councilCompositionDocSchema = z.object({
   factions: z.array(councilFactionFactSchema),
   /** 会派制を採らない議会（町村議会に多い）。factions は「会派なし」1件＝全議員 */
   noFactions: z.boolean().optional(),
+  /**
+   * 名簿の基準日から議決までに議席を離れた議員（`council-transcribed` 0.8.23〜）。factions の members には居ない。
+   * 原文（url の原典）で氏名・辞職などの語・日付を照合済み。画面は「（1月31日の辞職を除く）」と出す
+   */
+  departures: z
+    .array(
+      z.object({
+        name: z.string(),
+        faction: z.string(),
+        kind: z.enum(["辞職", "失職", "逝去", "死去"]),
+        date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+        dateLabel: z.string(),
+        title: z.string(),
+        url: z.string(),
+        locator: z.object({ file: z.string() }),
+      }),
+    )
+    .optional(),
   resolution: councilResolutionSchema,
   /** 名簿・議決結果の原典の呼び名（画面の出典チップ。`council-transcribed` のみ） */
   rosterTitle: z.string().optional(),

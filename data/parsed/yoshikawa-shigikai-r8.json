@@ -1,0 +1,251 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yoshikawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:24.995Z",
+  "fiscalYear": "R8",
+  "body": "吉川市議会",
+  "seats": 20,
+  "asOf": "2026-02-05",
+  "factions": [
+    {
+      "name": "SELECT吉川・自民・参政・維新・無所属",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "稲葉剛治",
+        "中嶋通治",
+        "菊名克典",
+        "宮窪雅一",
+        "野村拓郎",
+        "赤出川義夫"
+      ],
+      "locator": {
+        "file": "34_18494_254.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "平和市民クラブ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "降旗聡",
+        "岩田京子",
+        "岩崎小百合"
+      ],
+      "locator": {
+        "file": "34_18494_254.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "公明党吉川市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大泉日出男",
+        "五十嵐惠千子",
+        "小野潔"
+      ],
+      "locator": {
+        "file": "34_18494_254.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党吉川市議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "雪田きよみ",
+        "遠藤義法",
+        "飯島正義"
+      ],
+      "locator": {
+        "file": "34_18494_254.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "未来会議よしかわ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "戸田馨",
+        "林美希"
+      ],
+      "locator": {
+        "file": "34_18494_254.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "自由民主党吉川市議員団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "松﨑誠",
+        "吉川敏幸"
+      ],
+      "locator": {
+        "file": "34_18494_254.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に属さない議員（無所属）（加藤克明）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "加藤克明"
+      ],
+      "locator": {
+        "file": "34_18494_254.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第20号議案",
+    "billName": "令和８年度吉川市一般会計予算",
+    "sessionLabel": "令和８年第２回（３月）吉川市議会定例会",
+    "decidedDate": "2026-03-12",
+    "decidedDateLabel": "令和8年3月12日",
+    "result": "原案可決",
+    "locator": {
+      "file": "20260318-160117.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派構成名簿（令和8年2月5日現在）",
+  "resultTitle": "令和８年第２回（３月）吉川市議会定例会 議決結果の一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "吉川市議会だより第209号 令和８年３月定例会提出議案とその結果",
+    "sourceFile": "20260731-194459.pdf",
+    "columns": [
+      {
+        "label": "菊名克典",
+        "faction": "SELECT吉川・自民・参政・維新・無所属",
+        "member": "菊名克典",
+        "stance": "賛成"
+      },
+      {
+        "label": "赤出川義夫",
+        "faction": "SELECT吉川・自民・参政・維新・無所属",
+        "member": "赤出川義夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "中嶋通治",
+        "faction": "SELECT吉川・自民・参政・維新・無所属",
+        "member": "中嶋通治",
+        "stance": "賛成"
+      },
+      {
+        "label": "稲葉剛治",
+        "faction": "SELECT吉川・自民・参政・維新・無所属",
+        "member": "稲葉剛治",
+        "stance": "賛成"
+      },
+      {
+        "label": "野村拓郎",
+        "faction": "SELECT吉川・自民・参政・維新・無所属",
+        "member": "野村拓郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮窪雅一",
+        "faction": "SELECT吉川・自民・参政・維新・無所属",
+        "member": "宮窪雅一",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤義法",
+        "faction": "日本共産党吉川市議員団",
+        "member": "遠藤義法",
+        "stance": "反対"
+      },
+      {
+        "label": "飯島正義",
+        "faction": "日本共産党吉川市議員団",
+        "member": "飯島正義",
+        "stance": "反対"
+      },
+      {
+        "label": "雪田きよみ",
+        "faction": "日本共産党吉川市議員団",
+        "member": "雪田きよみ",
+        "stance": "反対"
+      },
+      {
+        "label": "小野潔",
+        "faction": "公明党吉川市議団",
+        "member": "小野潔",
+        "stance": "議長"
+      },
+      {
+        "label": "五十嵐惠千子",
+        "faction": "公明党吉川市議団",
+        "member": "五十嵐惠千子",
+        "stance": "賛成"
+      },
+      {
+        "label": "大泉日出男",
+        "faction": "公明党吉川市議団",
+        "member": "大泉日出男",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩崎小百合",
+        "faction": "平和市民クラブ",
+        "member": "岩崎小百合",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩田京子",
+        "faction": "平和市民クラブ",
+        "member": "岩田京子",
+        "stance": "賛成"
+      },
+      {
+        "label": "降旗聡",
+        "faction": "平和市民クラブ",
+        "member": "降旗聡",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉川敏幸",
+        "faction": "自由民主党吉川市議員団",
+        "member": "吉川敏幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "松﨑誠",
+        "faction": "自由民主党吉川市議員団",
+        "member": "松﨑誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸田馨",
+        "faction": "未来会議よしかわ",
+        "member": "戸田馨",
+        "stance": "賛成"
+      },
+      {
+        "label": "林美希",
+        "faction": "未来会議よしかわ",
+        "member": "林美希",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤克明",
+        "faction": "会派に属さない議員（無所属）（加藤克明）",
+        "member": "加藤克明",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "echizenshi-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaihameibo_warp20260207.html",
+      "sha256": "22e7d7603065c9f711ebd928fa32da3f88e42142ae5d4430dbf8745ccbe47c18",
+      "bytes": 29197,
+      "fetchedAt": "2026-11-03T12:46:09.212Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260208/20260207000521id_/https://www.city.echizen.lg.jp/office/110/010/kaihameibo.html"
+    },
+    {
+      "filename": "kousei.html",
+      "sha256": "6f48a4557e0e0f106df2e23f42acaa6a8ab196c4f593f0c1fcf2af71aabe4412",
+      "bytes": 23987,
+      "fetchedAt": "2026-11-03T12:46:09.213Z",
+      "fetchedFrom": "https://www.city.echizen.lg.jp/office/110/010/kousei.html"
+    },
+    {
+      "filename": "kekka0803.pdf",
+      "sha256": "8623e81089d0eed10f0956fd9924442946eaa38f522cabb819495b6c7fd6d3fc",
+      "bytes": 61904,
+      "fetchedAt": "2026-11-03T12:46:09.213Z",
+      "fetchedFrom": "https://www.city.echizen.lg.jp/office/110/010/kaigikettka/kekka08_d/fil/kekka0803.pdf"
+    },
+    {
+      "filename": "kaihameibo_post_20260509.html",
+      "sha256": "e0caa215b1790824f2d8c2ecb4a2ed59a7c64da4f74b29dbcaa96d84403d0b5e",
+      "bytes": 29172,
+      "fetchedAt": "2026-11-03T12:46:09.213Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260509192710id_/https://www.city.echizen.lg.jp/office/110/010/kaihameibo.html"
+    }
+  ]
+}

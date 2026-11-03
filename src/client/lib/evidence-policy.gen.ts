@@ -43,10 +43,22 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "南アルプス市ウェブサイト掲載資料（二次利用は要許可。利用条件は同サイト参照）",
     "target": "file"
   },
+  "/sources/otsuki-yosansho-r8/R08_yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.otsuki.yamanashi.jp/shisei/jyohokokai/yosan.html",
+    "license": "大月市ホームページで公開している文章や画像の著作権は、大月市に帰属します。 これらの著作物を大月市の承諾なしに複製、または他の電子メディアや印刷物などに再利用する事はできません。",
+    "target": "page"
+  },
   "/sources/fujikawaguchiko-yosansho-r8/R8yosan ga.pdf": {
     "mode": "origin",
     "href": "https://www.town.fujikawaguchiko.lg.jp/upload/file/soumu/zaisei/yosan/R8yosan%20ga.pdf",
     "license": "富士河口湖町公式ホームページに掲載している個々の情報（文章，写真，イラストなど）は，著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/fujiyoshida-yosansho-r8/7412.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fujiyoshida.yamanashi.jp/uploaded/attachment/7412.pdf",
+    "license": "富士吉田市ホームページに掲載されている、写真・イラストなど及び記事は、著作権の対象となっています。また、富士吉田市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は富士吉田市に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や引用など著作権法上認められた場合を除き、富士吉田市ホームページの掲載コンテンツを複製・転用する際は、必ず事前にご相談ください。",
     "target": "file"
   },
   "/sources/saitama-ken-yosangaiyou-r8/03-r8-02-siryou2.pdf": {
@@ -42234,6 +42246,1248 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www.city.nakama.lg.jp/uploaded/attachment/13403.pdf",
     "license": "中間市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
     "target": "file"
+  },
+  "/sources/hirosaki-shigikai-r8/kaiha_warp20260406.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260416/20260406012022id_/https://www.city.hirosaki.aomori.jp/gikai/kaiha.html",
+    "license": "弘前市ホームページに掲載している文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「弘前市ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、弘前市または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/hirosaki-shigikai-r8/2026-1_kekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf",
+    "license": "弘前市ホームページに掲載している文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「弘前市ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、弘前市または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/hirosaki-shigikai-r8/kaigiroku_R080319A_14.html": {
+    "mode": "origin",
+    "href": "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/14/10/1//0/0",
+    "license": "弘前市ホームページに掲載している文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「弘前市ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、弘前市または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/hirosaki-shigikai-r8/kaigiroku_R080319A_45479.html": {
+    "mode": "origin",
+    "href": "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/45479/10/1//0/0",
+    "license": "弘前市ホームページに掲載している文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「弘前市ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、弘前市または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/hirosaki-shigikai-r8/kaigiroku_R080304A_13.html": {
+    "mode": "origin",
+    "href": "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080304A/13/10/1//0/0",
+    "license": "弘前市ホームページに掲載している文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「弘前市ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、弘前市または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/munakata-shigikai-r8/kaiha_r061101.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/kiji0037517_20260120.html": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/giketsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/sanpi_r0803.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/kaigiroku_r080226_d1662.html": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/kaigiroku_r080326_d1675_meibo.html": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/tokyo-togikai-r8/newsletter367_07.html": {
+    "mode": "origin",
+    "href": "https://www.gikai.metro.tokyo.lg.jp/newsletter/367/07.html",
+    "license": "当サイトに掲載されている著作物の著作権は、東京都及びその他の第三者が所有しています。「私的使用のための複製」や「引用」など著作権法上で著作権者の許諾が不要とされている場合を除き、著作物の無断複製・転用することはできません。なお、引用する場合には引用元として「東京都財務局出典」と明記してください。／東京都議会ウェブサイト（gikai.metro.tokyo.lg.jp）の「著作権・リンク」: 本サイトに掲載している個々の情報（文章、写真、イラスト、ロゴ、動画など）は、著作権の対象となっています。また、東京都議会ウェブサイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/tokyo-togikai-r8/electoral-zone_20260217150502.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260217150502id_/http://www.gikai.metro.tokyo.lg.jp/membership/electoral-zone.html",
+    "license": "当サイトに掲載されている著作物の著作権は、東京都及びその他の第三者が所有しています。「私的使用のための複製」や「引用」など著作権法上で著作権者の許諾が不要とされている場合を除き、著作物の無断複製・転用することはできません。なお、引用する場合には引用元として「東京都財務局出典」と明記してください。／東京都議会ウェブサイト（gikai.metro.tokyo.lg.jp）の「著作権・リンク」: 本サイトに掲載している個々の情報（文章、写真、イラスト、ロゴ、動画など）は、著作権の対象となっています。また、東京都議会ウェブサイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/tokyo-togikai-r8/bill_reg2026-1.html": {
+    "mode": "origin",
+    "href": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
+    "license": "当サイトに掲載されている著作物の著作権は、東京都及びその他の第三者が所有しています。「私的使用のための複製」や「引用」など著作権法上で著作権者の許諾が不要とされている場合を除き、著作物の無断複製・転用することはできません。なお、引用する場合には引用元として「東京都財務局出典」と明記してください。／東京都議会ウェブサイト（gikai.metro.tokyo.lg.jp）の「著作権・リンク」: 本サイトに掲載している個々の情報（文章、写真、イラスト、ロゴ、動画など）は、著作権の対象となっています。また、東京都議会ウェブサイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/tokyo-togikai-r8/newsletter367_01.html": {
+    "mode": "origin",
+    "href": "https://www.gikai.metro.tokyo.lg.jp/newsletter/367/01.html",
+    "license": "当サイトに掲載されている著作物の著作権は、東京都及びその他の第三者が所有しています。「私的使用のための複製」や「引用」など著作権法上で著作権者の許諾が不要とされている場合を除き、著作物の無断複製・転用することはできません。なお、引用する場合には引用元として「東京都財務局出典」と明記してください。／東京都議会ウェブサイト（gikai.metro.tokyo.lg.jp）の「著作権・リンク」: 本サイトに掲載している個々の情報（文章、写真、イラスト、ロゴ、動画など）は、著作権の対象となっています。また、東京都議会ウェブサイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/tokyo-togikai-r8/political-party_20260416014155.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260416014155id_/https://www.gikai.metro.tokyo.lg.jp/membership/political-party.html",
+    "license": "当サイトに掲載されている著作物の著作権は、東京都及びその他の第三者が所有しています。「私的使用のための複製」や「引用」など著作権法上で著作権者の許諾が不要とされている場合を除き、著作物の無断複製・転用することはできません。なお、引用する場合には引用元として「東京都財務局出典」と明記してください。／東京都議会ウェブサイト（gikai.metro.tokyo.lg.jp）の「著作権・リンク」: 本サイトに掲載している個々の情報（文章、写真、イラスト、ロゴ、動画など）は、著作権の対象となっています。また、東京都議会ウェブサイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/toshima-kugikai-r8/toshima_kaiha_20251119.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20251119072848id_/https://www.city.toshima.lg.jp/366/kuse/gikai/ginichiran/2305291045.html",
+    "license": "当サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として豊島区に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。／当サイト上の文書や画像等は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/toshima-kugikai-r8/toshima_080324saiketsukekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toshima.lg.jp/documents/55965/080324saiketsukekka.pdf",
+    "license": "当サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として豊島区に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。／当サイト上の文書や画像等は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/toshima-kugikai-r8/toshima_vod_R080324.html": {
+    "mode": "origin",
+    "href": "https://www.kensakusystem.jp/toshima-vod/cgi-bin4/GetHTML.exe?ozidjniby311zqkv9s/R080324_00TEIREI.html/0/10/1/0/0",
+    "license": "当サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として豊島区に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。／当サイト上の文書や画像等は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/toshima-kugikai-r8/toshima_kaiha_20260413.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260413171917id_/https://www.city.toshima.lg.jp/366/kuse/gikai/ginichiran/2305291045.html",
+    "license": "当サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として豊島区に帰属しています。また、一部の画像等の著作権は、原著作者が所有しています。／当サイト上の文書や画像等は、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/arakawa-kugikai-r8/arakawa_dayori293.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.arakawa.tokyo.jp/documents/43001/no293.pdf",
+    "license": "荒川区公式サイト上（各SNSも含む）の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として荒川区に帰属します。また、一部の画像などの著作権は原著作権者が所有しています。本サイト上の文書・画像等の各ファイルの無断使用・転載・引用は禁じます。なお、文書・画像等の各ファイルについて転用等を希望される場合は、お問い合わせください。",
+    "target": "file"
+  },
+  "/sources/arakawa-kugikai-r8/arakawa_dayori295_zentai.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.arakawa.tokyo.jp/documents/44379/no295_zentai.pdf",
+    "license": "荒川区公式サイト上（各SNSも含む）の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として荒川区に帰属します。また、一部の画像などの著作権は原著作権者が所有しています。本サイト上の文書・画像等の各ファイルの無断使用・転載・引用は禁じます。なお、文書・画像等の各ファイルについて転用等を希望される場合は、お問い合わせください。",
+    "target": "file"
+  },
+  "/sources/arakawa-kugikai-r8/arakawa_080317_honkaigi.html": {
+    "mode": "origin",
+    "href": "https://www.city.arakawa.tokyo.jp/a053/080317_honkaigi.html",
+    "license": "荒川区公式サイト上（各SNSも含む）の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として荒川区に帰属します。また、一部の画像などの著作権は原著作権者が所有しています。本サイト上の文書・画像等の各ファイルの無断使用・転載・引用は禁じます。なお、文書・画像等の各ファイルについて転用等を希望される場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/arakawa-kugikai-r8/arakawa_rekidaigicho.html": {
+    "mode": "origin",
+    "href": "https://www.city.arakawa.tokyo.jp/a053/gikaisenkyo/kugikai/rekidaigicho.html",
+    "license": "荒川区公式サイト上（各SNSも含む）の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として荒川区に帰属します。また、一部の画像などの著作権は原著作権者が所有しています。本サイト上の文書・画像等の各ファイルの無断使用・転載・引用は禁じます。なお、文書・画像等の各ファイルについて転用等を希望される場合は、お問い合わせください。",
+    "target": "page"
+  },
+  "/sources/kunitachi-shigikai-r8/kunitachi_gikai_279.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/72/gikai_279.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kunitachi-shigikai-r8/kunitachi_08kaigikekka1st.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kunitachi-shigikai-r8/kunitachi_7646.html": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/shisei/gikai/2/7646.html",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/kunitachi-shigikai-r8/kunitachi_7322.html": {
+    "mode": "origin",
+    "href": "https://www.city.kunitachi.tokyo.jp/shisei/gikai/1/7322.html",
+    "license": "当本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として国立市に帰属します。著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、国立市の許可なく本サイト上に掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/komae-shigikai-r8/komae_kakukaiha_meibo_20260210.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.komae.tokyo.jp/index.cfm/49,95131,c,html/95131/20260216-140847.pdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/komae-shigikai-r8/komae_gikaidayori_241.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.komae.tokyo.jp/index.cfm/49,144209,c,html/144209/20260512-154256.pdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/komae-shigikai-r8/komae_r8_1_shinsakekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.komae.tokyo.jp/index.cfm/49,145713,c,html/145713/20260817-155303.pdf",
+    "license": "本ホームページに掲載しているデジタルコンテンツの著作権は狛江市に帰属します。 また、一部のデジタルコンテンツについては、その作者・撮影者が所有しているものを、狛江市が許可を得て使用しています。 本ホームページに掲載されている文書や画像等の各ファイルおよび内容について、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製・転用等をすることはできません。",
+    "target": "file"
+  },
+  "/sources/inagi-shigikai-r8/inagi_shigi252.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/013/879/inagi_shigi252.pdf",
+    "license": "本ウェブサイト上の文書や画像などの各情報は、原則として稲城市が所有権を有しており、著作権法及び国際条約により保護されています。 法令などに認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/inagi-shigikai-r8/inagi_1013698.html": {
+    "mode": "origin",
+    "href": "https://www.city.inagi.tokyo.jp/gikai/ugoki/1013693/1013698.html",
+    "license": "本ウェブサイト上の文書や画像などの各情報は、原則として稲城市が所有権を有しており、著作権法及び国際条約により保護されています。 法令などに認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/inagi-shigikai-r8/inagi_1009534.html": {
+    "mode": "origin",
+    "href": "https://www.city.inagi.tokyo.jp/gikai/shikumi/1009534.html",
+    "license": "本ウェブサイト上の文書や画像などの各情報は、原則として稲城市が所有権を有しており、著作権法及び国際条約により保護されています。 法令などに認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/hamura-shigikai-r8/hamura_tobira154_p20-24.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamura.tokyo.jp/0000020400.html",
+    "license": "当サイト上のコンテンツ（文章・画像・資料など）、内容に関する諸権利は、原則として羽村市に帰属します。当サイトのコンテンツを無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hamura-shigikai-r8/hamura_tobira154_p10-19.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hamura.tokyo.jp/0000020400.html",
+    "license": "当サイト上のコンテンツ（文章・画像・資料など）、内容に関する諸権利は、原則として羽村市に帰属します。当サイトのコンテンツを無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hamura-shigikai-r8/hamura_0000020466.html": {
+    "mode": "origin",
+    "href": "https://www.city.hamura.tokyo.jp/0000020400.html",
+    "license": "当サイト上のコンテンツ（文章・画像・資料など）、内容に関する諸権利は、原則として羽村市に帰属します。当サイトのコンテンツを無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hamura-shigikai-r8/hamura_0000002299.html": {
+    "mode": "origin",
+    "href": "https://www.city.hamura.tokyo.jp/0000020400.html",
+    "license": "当サイト上のコンテンツ（文章・画像・資料など）、内容に関する諸権利は、原則として羽村市に帰属します。当サイトのコンテンツを無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hamura-shigikai-r8/hamura_0000012267.html": {
+    "mode": "origin",
+    "href": "https://www.city.hamura.tokyo.jp/0000020400.html",
+    "license": "当サイト上のコンテンツ（文章・画像・資料など）、内容に関する諸権利は、原則として羽村市に帰属します。当サイトのコンテンツを無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/akiruno-shigikai-r8/akiruno_sanpiR8-3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000020278.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/akiruno-shigikai-r8/akiruno_0000020278.html": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000020278.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/akiruno-shigikai-r8/akiruno_giinR8-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.akiruno.tokyo.jp/0000020278.html",
+    "license": "あきる野市ホームページに掲載されている情報（文章、写真、イラストなど）の著作権は、原則としてあきる野市に帰属し、法律によって保護されています（一部の画像などの著作権は、原著作者が所有しています）。あきる野市ホームページの全部もしくは一部の情報について、「私的使用」や「引用」などの著作権法上認められている場合を除き、あきる野市の許可なく複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/kiyose-shigikai-r8/kiyose_dayori_249.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/280/249-5-15.pdf",
+    "license": "「清瀬市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、当ホームページ全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法および国際条約により保護されています。当ホームページの内容の全部または一部については、著作権上認められた場合を除き、無断で引用・転載・複製を行うことができません。",
+    "target": "file"
+  },
+  "/sources/kiyose-shigikai-r8/kiyose_r8-1_shichougian_kekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/015/950/r8.1.shicyougian.zenbu0316.pdf",
+    "license": "「清瀬市公式ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、当ホームページ全体も編集著作物として、著作権の対象となっています。著作権は日本国著作権法および国際条約により保護されています。当ホームページの内容の全部または一部については、著作権上認められた場合を除き、無断で引用・転載・複製を行うことができません。",
+    "target": "file"
+  },
+  "/sources/musashimurayama-shigikai-r8/musashimurayama_kaiha_1003318_wb20260208.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260208194713id_/https://www.city.musashimurayama.lg.jp/shisei/shigikai/1003318.html",
+    "license": "本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として武蔵村山市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。武蔵村山市又は第三者が著作権を有しており、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/musashimurayama-shigikai-r8/musashimurayama_dayori_236.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.musashimurayama.lg.jp/_res/projects/default_project/_page_/001/021/905/gikaidayori236gou.pdf",
+    "license": "本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として武蔵村山市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。武蔵村山市又は第三者が著作権を有しており、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/musashimurayama-shigikai-r8/musashimurayama_kekka_r8-1_1021877.html": {
+    "mode": "origin",
+    "href": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/1022404/kaigi/1021877.html",
+    "license": "本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として武蔵村山市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。武蔵村山市又は第三者が著作権を有しており、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/musashimurayama-shigikai-r8/musashimurayama_gaiyou_1003273.html": {
+    "mode": "origin",
+    "href": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/1022402/1003273.html",
+    "license": "本サイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則として武蔵村山市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。武蔵村山市又は第三者が著作権を有しており、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ichinomiya-shigikai-r8/ichinomiya_sanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ichinomiya.aichi.jp/_res/projects/default_project/_page_/001/074/637/sanpi.pdf",
+    "license": "Copyright © City Ichinomiya, All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/ichinomiya-shigikai-r8/ichinomiya_1074652.html": {
+    "mode": "origin",
+    "href": "https://www.city.ichinomiya.aichi.jp/shigikai/1000085/1000357/1074652.html",
+    "license": "Copyright © City Ichinomiya, All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/ichinomiya-shigikai-r8/ichinomiya_1074637.html": {
+    "mode": "origin",
+    "href": "https://www.city.ichinomiya.aichi.jp/shigikai/1010238/1041978/1074632/1074637.html",
+    "license": "Copyright © City Ichinomiya, All Rights Reserved.",
+    "target": "page"
+  },
+  "/sources/taketoyo-chogikai-r8/1002820_warp20260208.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260208/20260208033246id_/https://www.town.taketoyo.lg.jp/gikai/1002800/1002820.html",
+    "license": "武豊町ホームページに掲載されている、写真・イラスト・音声・動画および記事は、著作権の対象となっています。また、武豊町ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は武豊町に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や、引用など著作権法上認められた場合を除き、武豊町ホームページの掲載コンテンツを複製・転用する際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "page"
+  },
+  "/sources/taketoyo-chogikai-r8/1002820_warp20260510.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260513/20260510121423id_/https://www.town.taketoyo.lg.jp/gikai/1002800/1002820.html",
+    "license": "武豊町ホームページに掲載されている、写真・イラスト・音声・動画および記事は、著作権の対象となっています。また、武豊町ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は武豊町に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や、引用など著作権法上認められた場合を除き、武豊町ホームページの掲載コンテンツを複製・転用する際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "page"
+  },
+  "/sources/taketoyo-chogikai-r8/r8_1giketsukekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.taketoyo.lg.jp/_res/projects/default_project/_page_/001/006/300/r8_1giketsukekka.pdf",
+    "license": "武豊町ホームページに掲載されている、写真・イラスト・音声・動画および記事は、著作権の対象となっています。また、武豊町ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は武豊町に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や、引用など著作権法上認められた場合を除き、武豊町ホームページの掲載コンテンツを複製・転用する際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "file"
+  },
+  "/sources/taketoyo-chogikai-r8/1002822.html": {
+    "mode": "origin",
+    "href": "https://www.town.taketoyo.lg.jp/gikai/1002802/1002822.html",
+    "license": "武豊町ホームページに掲載されている、写真・イラスト・音声・動画および記事は、著作権の対象となっています。また、武豊町ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は武豊町に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や、引用など著作権法上認められた場合を除き、武豊町ホームページの掲載コンテンツを複製・転用する際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "page"
+  },
+  "/sources/taketoyo-chogikai-r8/1004032.html": {
+    "mode": "origin",
+    "href": "https://www.town.taketoyo.lg.jp/gikai/1002799/1004032/index.html",
+    "license": "武豊町ホームページに掲載されている、写真・イラスト・音声・動画および記事は、著作権の対象となっています。また、武豊町ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は武豊町に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や、引用など著作権法上認められた場合を除き、武豊町ホームページの掲載コンテンツを複製・転用する際は、必ず事前にそれぞれのページを所管する各担当にご相談ください。",
+    "target": "page"
+  },
+  "/sources/higashiura-chogikai-r8/0803kojin.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260514/20260510222333id_/https://www.town.aichi-higashiura.lg.jp/material/files/group/52/0803kojin.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/higashiura-chogikai-r8/0803kekka.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260514/20260510222332id_/https://www.town.aichi-higashiura.lg.jp/material/files/group/52/0803kekka.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/higashiura-chogikai-r8/229seimukatudouhi.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260514/20260510223141id_/https://www.town.aichi-higashiura.lg.jp/material/files/group/52/229seimukatudouhi.pdf",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "file"
+  },
+  "/sources/higashiura-chogikai-r8/kids_1513666496845.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260811/20260808184956id_/https://www.town.aichi-higashiura.lg.jp/gyosei/gikai/gikai_kids/1513666496845.html",
+    "license": "当サイト上のコンテンツの著作権は原則として東浦町が所有しており、利用目的を問わずご自由に閲覧していただくことが可能です。提供されるコンテンツを改変しない条件で複製やこれに類する行為を認めますので、私的かつ非商業目的のみに限定して利用してください。引用、転用、転載を行う場合は、必ず事前にご連絡いただくようにお願いします。",
+    "target": "page"
+  },
+  "/sources/aisai-shigikai-r8/p.8.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/category/6-2-0-0-0-0-0-0-0-0.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/aisai-shigikai-r8/0000018107.html": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/category/6-2-0-0-0-0-0-0-0-0.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/aisai-shigikai-r8/0000017757.html": {
+    "mode": "origin",
+    "href": "https://www.city.aisai.lg.jp/category/6-2-0-0-0-0-0-0-0-0.html",
+    "license": "当サイトの著作権は愛西市が有しています。掲載内容を無断で複写・複製・転用することは、著作権の侵害となることがありますので、ご注意ください。",
+    "target": "page"
+  },
+  "/sources/ama-shigikai-r8/64goutayori.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ama.aichi.jp/gikai/index.html",
+    "license": "当サイトに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、日本国著作権法及び国際条約により保護されています。",
+    "target": "page"
+  },
+  "/sources/ama-shigikai-r8/1010746.html": {
+    "mode": "origin",
+    "href": "https://www.city.ama.aichi.jp/gikai/index.html",
+    "license": "当サイトに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、日本国著作権法及び国際条約により保護されています。",
+    "target": "page"
+  },
+  "/sources/ama-shigikai-r8/1010570.html": {
+    "mode": "origin",
+    "href": "https://www.city.ama.aichi.jp/gikai/index.html",
+    "license": "当サイトに掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっており、日本国著作権法及び国際条約により保護されています。",
+    "target": "page"
+  },
+  "/sources/hekinan-shigikai-r8/hekinan_group_warp20260207.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260209/20260207185353id_/http://www.city.hekinan.aichi.jp/GIKAI/councilor/group.php",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-shigikai-r8/hekinan_r8_03_kekka.pdf": {
+    "mode": "origin",
+    "href": "http://www.city.hekinan.aichi.jp/GIKAI/_upload/mresult/file/8d050daf559181671290fac46c0873a6.pdf",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-shigikai-r8/hekinan_dbsr_1324.html": {
+    "mode": "origin",
+    "href": "https://www.city.hekinan.aichi.dbsr.jp/index.php/?Template=doc-print-window&VoiceType=all&DocumentID=1324",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-shigikai-r8/hekinan_glossary.html": {
+    "mode": "origin",
+    "href": "http://www.city.hekinan.aichi.jp/GIKAI/congress/glossary.php",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/hekinan-shigikai-r8/hekinan_dayori148.pdf": {
+    "mode": "origin",
+    "href": "http://www.city.hekinan.aichi.jp/GIKAI/_upload/cnews/file/2b8ae44c6c06990ea7515d99bdd5c94d.pdf",
+    "license": "碧南市ホームページに掲載している著作物（文章・画像・映像･音声などで、プログラムデータを含む）にかかる著作権は、碧南市もしくは、碧南市に情報提供していただいた提供元に帰属します。当ホームページで掲載している情報・文章・画像などのデータについては、権利者の許可なく複製・転用することを固く禁止します。",
+    "target": "file"
+  },
+  "/sources/takahama-shigikai-r8/takahama_peeple123.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.takahama.lg.jp/site/gikai/",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、高浜市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/takahama-shigikai-r8/takahama_37652_kaigikekka.html": {
+    "mode": "origin",
+    "href": "https://www.city.takahama.lg.jp/site/gikai/",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、高浜市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/takahama-shigikai-r8/takahama_37233_nittei.html": {
+    "mode": "origin",
+    "href": "https://www.city.takahama.lg.jp/site/gikai/",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、高浜市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/chiryu-shigikai-r8/chiryu_kaihameibo1_warp20260208.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/gikai/index.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-shigikai-r8/chiryu_202603sanpiichiran.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/gikai/index.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-shigikai-r8/chiryu_202603giketukekkaichiranhyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/gikai/index.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-shigikai-r8/chiryu_yakuinmeibo_warp20260208.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/gikai/index.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/chiryu-shigikai-r8/chiryu_16722_warp20260208.html": {
+    "mode": "origin",
+    "href": "https://www.city.chiryu.aichi.jp/gikai/index.html",
+    "license": "このホームページ上のすべてのコンテンツは、原則として知立市が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前にご連絡ください。",
+    "target": "page"
+  },
+  "/sources/inuyama-shigikai-r8/inuyama_1000362_warp20260510.html": {
+    "mode": "origin",
+    "href": "https://www.city.inuyama.aichi.jp/shisei/gikai/1000364/1000414/1012651/1012718.html",
+    "license": "当ホームページの著作権は犬山市が有しています。掲載内容を無断で複写・複製することは、著作権の侵害となります。",
+    "target": "page"
+  },
+  "/sources/inuyama-shigikai-r8/inuyama_0802.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.inuyama.aichi.jp/shisei/gikai/1000364/1000414/1012651/1012718.html",
+    "license": "当ホームページの著作権は犬山市が有しています。掲載内容を無断で複写・複製することは、著作権の侵害となります。",
+    "target": "page"
+  },
+  "/sources/inuyama-shigikai-r8/inuyama_1012718_warp20260510.html": {
+    "mode": "origin",
+    "href": "https://www.city.inuyama.aichi.jp/shisei/gikai/1000364/1000414/1012651/1012718.html",
+    "license": "当ホームページの著作権は犬山市が有しています。掲載内容を無断で複写・複製することは、著作権の侵害となります。",
+    "target": "page"
+  },
+  "/sources/inuyama-shigikai-r8/inuyama_1000337_warp20260510.html": {
+    "mode": "origin",
+    "href": "https://www.city.inuyama.aichi.jp/shisei/gikai/1000364/1000414/1012651/1012718.html",
+    "license": "当ホームページの著作権は犬山市が有しています。掲載内容を無断で複写・複製することは、著作権の侵害となります。",
+    "target": "page"
+  },
+  "/sources/shibata-shigikai-r8/shibata_Kg150_R0802sanpi.pdf": {
+    "mode": "origin",
+    "href": "https://www.shibata-shigikai.jp/",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-shigikai-r8/shibata_giketsu_s141.html": {
+    "mode": "origin",
+    "href": "https://www.shibata-shigikai.jp/",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-shigikai-r8/shibata_g07_Kaiha.html": {
+    "mode": "origin",
+    "href": "https://www.shibata-shigikai.jp/",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shibata-shigikai-r8/shibata_g07_giinlist_s.html": {
+    "mode": "origin",
+    "href": "https://www.shibata-shigikai.jp/",
+    "license": "「新発田市ホームページ」に掲載されている個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、「新発田市ホームページ」全体も編集著作物となっています。これらの著作権は、新発田市および写真撮影者、イラスト作成者などに帰属しており、著作権法および国際条約により保護されています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転載、販売、貸与することはできません。ご利用に当たってはあらかじめ新発田市までご連絡ください。本ホームページの内容の全部または一部について無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/uozu-shigikai-r8/uozu_078761.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uozu.toyama.jp/attach/EDIT/078/078761.pdf",
+    "license": "このホームページに掲載されている文章、画像等の著作権は、魚津市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ページに記載されている情報発信元、もしくは魚津市企画広報室へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/uozu-shigikai-r8/uozu_i005RG00000011.html": {
+    "mode": "origin",
+    "href": "https://www1.g-reiki.net/uozu/reiki_honbun/i005RG00000011.html",
+    "license": "このホームページに掲載されている文章、画像等の著作権は、魚津市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ページに記載されている情報発信元、もしくは魚津市企画広報室へお問い合わせください。",
+    "target": "page"
+  },
+  "/sources/imizu-shigikai-r8/imizu_139331.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imizu.toyama.jp/appupload/EDIT/139/139331.pdf",
+    "license": "掲載されている画像、文章等に関する著作権は、特別の断りがない限り射水市に帰属します。無断で転載することを一切禁じます。射水市ホームページに掲載されている個々の情報(文字、写真、イラストなど)の著作権は、射水市にあります。射水市ホームページの内容を転載・掲載する場合は、私的使用のための複製や引用等著作権法上認められた行為として、出所を明示することにより、複製・引用・転載できます。利用する場合は射水市ホームページ管理担当までその旨を届け出てください。",
+    "target": "file"
+  },
+  "/sources/imizu-shigikai-r8/imizu_142068.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imizu.toyama.jp/appupload/EDIT/142/142068.pdf",
+    "license": "掲載されている画像、文章等に関する著作権は、特別の断りがない限り射水市に帰属します。無断で転載することを一切禁じます。射水市ホームページに掲載されている個々の情報(文字、写真、イラストなど)の著作権は、射水市にあります。射水市ホームページの内容を転載・掲載する場合は、私的使用のための複製や引用等著作権法上認められた行為として、出所を明示することにより、複製・引用・転載できます。利用する場合は射水市ホームページ管理担当までその旨を届け出てください。",
+    "target": "file"
+  },
+  "/sources/imizu-shigikai-r8/imizu_142069.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.imizu.toyama.jp/appupload/EDIT/142/142069.pdf",
+    "license": "掲載されている画像、文章等に関する著作権は、特別の断りがない限り射水市に帰属します。無断で転載することを一切禁じます。射水市ホームページに掲載されている個々の情報(文字、写真、イラストなど)の著作権は、射水市にあります。射水市ホームページの内容を転載・掲載する場合は、私的使用のための複製や引用等著作権法上認められた行為として、出所を明示することにより、複製・引用・転載できます。利用する場合は射水市ホームページ管理担当までその旨を届け出てください。",
+    "target": "file"
+  },
+  "/sources/imizu-shigikai-r8/imizu_svGuideDtl_14760.html": {
+    "mode": "origin",
+    "href": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=14760",
+    "license": "掲載されている画像、文章等に関する著作権は、特別の断りがない限り射水市に帰属します。無断で転載することを一切禁じます。射水市ホームページに掲載されている個々の情報(文字、写真、イラストなど)の著作権は、射水市にあります。射水市ホームページの内容を転載・掲載する場合は、私的使用のための複製や引用等著作権法上認められた行為として、出所を明示することにより、複製・引用・転載できます。利用する場合は射水市ホームページ管理担当までその旨を届け出てください。",
+    "target": "file"
+  },
+  "/sources/ishikawa-ken-gikai-r8/kaiha_warp20260203.html": {
+    "mode": "origin",
+    "href": "https://www.pref.ishikawa.lg.jp/gikai/index.html",
+    "license": "「石川県ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、「石川県ホームページ」全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、石川県の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ishikawa-ken-gikai-r8/senkyoku_warp20260204.html": {
+    "mode": "origin",
+    "href": "https://www.pref.ishikawa.lg.jp/gikai/index.html",
+    "license": "「石川県ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、「石川県ホームページ」全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、石川県の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ishikawa-ken-gikai-r8/kekka202601.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.ishikawa.lg.jp/gikai/index.html",
+    "license": "「石川県ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、「石川県ホームページ」全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、石川県の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ishikawa-ken-gikai-r8/sanpi202601.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.ishikawa.lg.jp/gikai/index.html",
+    "license": "「石川県ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、「石川県ホームページ」全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、石川県の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ishikawa-ken-gikai-r8/kaiha_post_20260508.html": {
+    "mode": "origin",
+    "href": "https://www.pref.ishikawa.lg.jp/gikai/index.html",
+    "license": "「石川県ホームページ」に掲載されている個々の情報（文字、写真、イラスト等）は著作権の対象となっています。また、「石川県ホームページ」全体も編集著作物として著作権の対象となっており、ともに日本国著作権法及び国際条約により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、石川県の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/echizenshi-shigikai-r8/kaihameibo_warp20260207.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260208/20260207000521id_/https://www.city.echizen.lg.jp/office/110/010/kaihameibo.html",
+    "license": "1. 越前市ホームページに掲載している内容（文章、写真、イラスト、画像など）に関する著作権は、越前市に帰属します。2. 当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、越前市の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/echizenshi-shigikai-r8/kousei.html": {
+    "mode": "origin",
+    "href": "https://www.city.echizen.lg.jp/office/110/010/kousei.html",
+    "license": "1. 越前市ホームページに掲載している内容（文章、写真、イラスト、画像など）に関する著作権は、越前市に帰属します。2. 当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、越前市の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/echizenshi-shigikai-r8/kekka0803.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.echizen.lg.jp/office/110/010/kaigikettka/kekka08_d/fil/kekka0803.pdf",
+    "license": "1. 越前市ホームページに掲載している内容（文章、写真、イラスト、画像など）に関する著作権は、越前市に帰属します。2. 当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、越前市の許可なく無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/echizenshi-shigikai-r8/kaihameibo_post_20260509.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260513/20260509192710id_/https://www.city.echizen.lg.jp/office/110/010/kaihameibo.html",
+    "license": "1. 越前市ホームページに掲載している内容（文章、写真、イラスト、画像など）に関する著作権は、越前市に帰属します。2. 当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、越前市の許可なく無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/fujiyoshida-shigikai-r8/fy_kaiha_warp20260206.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260207/20260206195000id_/https://www.city.fujiyoshida.yamanashi.jp/site/gikai/1039.html",
+    "license": "富士吉田市ホームページに掲載されている、写真・イラストなど及び記事は、著作権の対象となっています。また、富士吉田市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は富士吉田市に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や引用など著作権法上認められた場合を除き、富士吉田市ホームページの掲載コンテンツを複製・転用する際は、必ず事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/fujiyoshida-shigikai-r8/fy_kaiha_warp20260509.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260511/20260509173143id_/https://www.city.fujiyoshida.yamanashi.jp/site/gikai/1039.html",
+    "license": "富士吉田市ホームページに掲載されている、写真・イラストなど及び記事は、著作権の対象となっています。また、富士吉田市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は富士吉田市に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や引用など著作権法上認められた場合を除き、富士吉田市ホームページの掲載コンテンツを複製・転用する際は、必ず事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/fujiyoshida-shigikai-r8/fy_shingikekka_7398.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fujiyoshida.yamanashi.jp/uploaded/attachment/7398.pdf",
+    "license": "富士吉田市ホームページに掲載されている、写真・イラストなど及び記事は、著作権の対象となっています。また、富士吉田市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は富士吉田市に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や引用など著作権法上認められた場合を除き、富士吉田市ホームページの掲載コンテンツを複製・転用する際は、必ず事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/fujiyoshida-shigikai-r8/fy_nittei_12782.html": {
+    "mode": "origin",
+    "href": "https://www.city.fujiyoshida.yamanashi.jp/site/gikai/12782.html",
+    "license": "富士吉田市ホームページに掲載されている、写真・イラストなど及び記事は、著作権の対象となっています。また、富士吉田市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は富士吉田市に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や引用など著作権法上認められた場合を除き、富士吉田市ホームページの掲載コンテンツを複製・転用する際は、必ず事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/fujiyoshida-shigikai-r8/fy_kousei_1051.html": {
+    "mode": "origin",
+    "href": "https://www.city.fujiyoshida.yamanashi.jp/site/gikai/1051.html",
+    "license": "富士吉田市ホームページに掲載されている、写真・イラストなど及び記事は、著作権の対象となっています。また、富士吉田市ホームページ全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。原則、著作権は富士吉田市に帰属しており、一部の画像等の著作権は、原著作者が所有していますので、無断での使用や転載を禁じます。私的使用のための複製や引用など著作権法上認められた場合を除き、富士吉田市ホームページの掲載コンテンツを複製・転用する際は、必ず事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/otsuki-shigikai-r8/ot_gikaidayori182_2026_5.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.otsuki.yamanashi.jp/shigikai/2024-0509-1148-9.html",
+    "license": "大月市ホームページで公開している文章や画像の著作権は、大月市に帰属します。 これらの著作物を大月市の承諾なしに複製、または他の電子メディアや印刷物などに再利用する事はできません。",
+    "target": "page"
+  },
+  "/sources/otsuki-shigikai-r8/ot_R8.3.19giketu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.otsuki.yamanashi.jp/shigikai/2024-0509-1148-9.html",
+    "license": "大月市ホームページで公開している文章や画像の著作権は、大月市に帰属します。 これらの著作物を大月市の承諾なしに複製、または他の電子メディアや印刷物などに再利用する事はできません。",
+    "target": "page"
+  },
+  "/sources/sakai-fukui-shigikai-r8/sakai_3004kaihashoukai_warp20260206.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260208/20260206201550id_/https://www.city.fukui-sakai.lg.jp/gikai/gikai/gikai/kaiha/3004kaihashoukai.html",
+    "license": "特に注意書きが無い限り、当ウェブサイトに記載される情報の著作権は坂井市にあり、著作権法を含む各種の法律によって保護されています。これらは私的使用や引用など、著作権法を含む各種の法律上認められている場合、および坂井市が明確に禁止している場合を除き、坂井市に無断で転載・複製・印刷・配布・放送・公衆送信・翻訳・販売・貸与などを行うことはできません。",
+    "target": "page"
+  },
+  "/sources/sakai-fukui-shigikai-r8/sakai_r8-3kekka.html": {
+    "mode": "origin",
+    "href": "https://www.city.fukui-sakai.lg.jp/gikai/gikai/teirei/gian-kekka/r8/r8-3kekka.html",
+    "license": "特に注意書きが無い限り、当ウェブサイトに記載される情報の著作権は坂井市にあり、著作権法を含む各種の法律によって保護されています。これらは私的使用や引用など、著作権法を含む各種の法律上認められている場合、および坂井市が明確に禁止している場合を除き、坂井市に無断で転載・複製・印刷・配布・放送・公衆送信・翻訳・販売・貸与などを行うことはできません。",
+    "target": "page"
+  },
+  "/sources/sakai-fukui-shigikai-r8/sakai_gikaidayori80.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukui-sakai.lg.jp/gikai/gikai/dayori/documents/gikaidayori80.pdf",
+    "license": "特に注意書きが無い限り、当ウェブサイトに記載される情報の著作権は坂井市にあり、著作権法を含む各種の法律によって保護されています。これらは私的使用や引用など、著作権法を含む各種の法律上認められている場合、および坂井市が明確に禁止している場合を除き、坂井市に無断で転載・複製・印刷・配布・放送・公衆送信・翻訳・販売・貸与などを行うことはできません。",
+    "target": "file"
+  },
+  "/sources/sakai-fukui-shigikai-r8/sakai_30gicho-fukugicho_warp20260206.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260208/20260206201622id_/https://www.city.fukui-sakai.lg.jp/gikai/gikai/giin/30gicho-fukugicho.html",
+    "license": "特に注意書きが無い限り、当ウェブサイトに記載される情報の著作権は坂井市にあり、著作権法を含む各種の法律によって保護されています。これらは私的使用や引用など、著作権法を含む各種の法律上認められている場合、および坂井市が明確に禁止している場合を除き、坂井市に無断で転載・複製・印刷・配布・放送・公衆送信・翻訳・販売・貸与などを行うことはできません。",
+    "target": "page"
+  },
+  "/sources/sakai-fukui-shigikai-r8/sakai_07kaihashushi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.fukui-sakai.lg.jp/gikai/seimukatsudouhi/documents/07kaihashushi.pdf",
+    "license": "特に注意書きが無い限り、当ウェブサイトに記載される情報の著作権は坂井市にあり、著作権法を含む各種の法律によって保護されています。これらは私的使用や引用など、著作権法を含む各種の法律上認められている場合、および坂井市が明確に禁止している場合を除き、坂井市に無断で転載・複製・印刷・配布・放送・公衆送信・翻訳・販売・貸与などを行うことはできません。",
+    "target": "file"
+  },
+  "/sources/ueda-shigikai-r8/ueda_78500_warp20260204.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260205/20260204210000id_/https://www.city.ueda.nagano.jp/uploaded/attachment/78500.pdf",
+    "license": "上田市ホームページの掲載情報は、日本国の著作権法及び国際条約による著作権保護の対象となっています。当ホームページの内容及びこれらの配置・編集などについて私的使用又は引用等著作権法上、認められた行為を除き、著作権は上田市又はその作成者に帰属しておりますので、これらを無断で、転載、複製、出版、放送、上映等を行うことはできません。また、引用を行う場合は、適宜の方法により、必ず出所を明示してください。なお、上田市ホームページの内容の全部または一部について、上田市に無断で改変を行うことはできません。",
+    "target": "file"
+  },
+  "/sources/ueda-shigikai-r8/ueda_4709_warp20260204.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260205/20260204051448id_/https://www.city.ueda.nagano.jp/site/gikai/4709.html",
+    "license": "上田市ホームページの掲載情報は、日本国の著作権法及び国際条約による著作権保護の対象となっています。当ホームページの内容及びこれらの配置・編集などについて私的使用又は引用等著作権法上、認められた行為を除き、著作権は上田市又はその作成者に帰属しておりますので、これらを無断で、転載、複製、出版、放送、上映等を行うことはできません。また、引用を行う場合は、適宜の方法により、必ず出所を明示してください。なお、上田市ホームページの内容の全部または一部について、上田市に無断で改変を行うことはできません。",
+    "target": "page"
+  },
+  "/sources/ueda-shigikai-r8/ueda_79545.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ueda.nagano.jp/uploaded/attachment/79545.pdf",
+    "license": "上田市ホームページの掲載情報は、日本国の著作権法及び国際条約による著作権保護の対象となっています。当ホームページの内容及びこれらの配置・編集などについて私的使用又は引用等著作権法上、認められた行為を除き、著作権は上田市又はその作成者に帰属しておりますので、これらを無断で、転載、複製、出版、放送、上映等を行うことはできません。また、引用を行う場合は、適宜の方法により、必ず出所を明示してください。なお、上田市ホームページの内容の全部または一部について、上田市に無断で改変を行うことはできません。",
+    "target": "file"
+  },
+  "/sources/ueda-shigikai-r8/ueda_jfit_day106.html": {
+    "mode": "origin",
+    "href": "https://ueda-city.stream.jfit.co.jp/?tpl=gikai_result&gikai_day_id=106&category_id=6&inquiry_id=701",
+    "license": "上田市ホームページの掲載情報は、日本国の著作権法及び国際条約による著作権保護の対象となっています。当ホームページの内容及びこれらの配置・編集などについて私的使用又は引用等著作権法上、認められた行為を除き、著作権は上田市又はその作成者に帰属しておりますので、これらを無断で、転載、複製、出版、放送、上映等を行うことはできません。また、引用を行う場合は、適宜の方法により、必ず出所を明示してください。なお、上田市ホームページの内容の全部または一部について、上田市に無断で改変を行うことはできません。",
+    "target": "file"
+  },
+  "/sources/azumino-shigikai-r8/azumino_79213_warp20260207.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.azumino.nagano.jp/site/gikai/10031.html",
+    "license": "市ホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として安曇野市に帰属します。市ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、市ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/azumino-shigikai-r8/azumino_10031_warp20260207.html": {
+    "mode": "origin",
+    "href": "https://www.city.azumino.nagano.jp/site/gikai/10031.html",
+    "license": "市ホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として安曇野市に帰属します。市ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、市ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/azumino-shigikai-r8/azumino_81854.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.azumino.nagano.jp/site/gikai/10031.html",
+    "license": "市ホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として安曇野市に帰属します。市ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、市ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/azumino-shigikai-r8/azumino_141399.html": {
+    "mode": "origin",
+    "href": "https://www.city.azumino.nagano.jp/site/gikai/10031.html",
+    "license": "市ホームページに掲載している個々の情報（文章、画像、イラストなど）に関する諸権利は、原則として安曇野市に帰属します。市ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、市ホームページの内容の全部または一部について、無断で改変することもできません。",
+    "target": "page"
+  },
+  "/sources/shizuoka-ken-gikai-r8/sz_1079434.html": {
+    "mode": "origin",
+    "href": "https://www.pref.shizuoka.jp/kensei/kengikai/index.html",
+    "license": "「静岡県ホームページ」に掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shizuoka-ken-gikai-r8/sz_1083285.html": {
+    "mode": "origin",
+    "href": "https://www.pref.shizuoka.jp/kensei/kengikai/index.html",
+    "license": "「静岡県ホームページ」に掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shizuoka-ken-gikai-r8/sz_1083286.html": {
+    "mode": "origin",
+    "href": "https://www.pref.shizuoka.jp/kensei/kengikai/index.html",
+    "license": "「静岡県ホームページ」に掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shizuoka-ken-gikai-r8/sz_1083287.html": {
+    "mode": "origin",
+    "href": "https://www.pref.shizuoka.jp/kensei/kengikai/index.html",
+    "license": "「静岡県ホームページ」に掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shizuoka-ken-gikai-r8/sz_1078812.html": {
+    "mode": "origin",
+    "href": "https://www.pref.shizuoka.jp/kensei/kengikai/index.html",
+    "license": "「静岡県ホームページ」に掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shizuoka-ken-gikai-r8/sz_1030974.html": {
+    "mode": "origin",
+    "href": "https://www.pref.shizuoka.jp/kensei/kengikai/index.html",
+    "license": "「静岡県ホームページ」に掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shizuoka-ken-gikai-r8/sz_warp_1054942.html": {
+    "mode": "origin",
+    "href": "https://www.pref.shizuoka.jp/kensei/kengikai/index.html",
+    "license": "「静岡県ホームページ」に掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shizuoka-ken-gikai-r8/sz_1081611.html": {
+    "mode": "origin",
+    "href": "https://www.pref.shizuoka.jp/kensei/kengikai/index.html",
+    "license": "「静岡県ホームページ」に掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/saitama-ken-gikai-r8/gikai-member-kaiha_20260420.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260420064244id_/https://www.pref.saitama.lg.jp/e1601/gikai-member-kaiha.html",
+    "license": "埼玉県ホームページに掲載される記事、写真、図画、その他データ類の著作権は、埼玉県、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、埼玉県の許可・承諾を得ないままほかのメディアへ転載することはお断りします。",
+    "target": "page"
+  },
+  "/sources/saitama-ken-gikai-r8/r0802gianbetsukaihabetsuhyoketsujokyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.pref.saitama.lg.jp/documents/277694/r0802gianbetsukaihabetsuhyoketsujokyo.pdf",
+    "license": "埼玉県ホームページに掲載される記事、写真、図画、その他データ類の著作権は、埼玉県、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、埼玉県の許可・承諾を得ないままほかのメディアへ転載することはお断りします。",
+    "target": "file"
+  },
+  "/sources/saitama-ken-gikai-r8/gikai-chairman_20260210.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260210183426id_/https://www.pref.saitama.lg.jp/e1601/gikai-chairman.html",
+    "license": "埼玉県ホームページに掲載される記事、写真、図画、その他データ類の著作権は、埼玉県、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、埼玉県の許可・承諾を得ないままほかのメディアへ転載することはお断りします。",
+    "target": "page"
+  },
+  "/sources/warabi-shigikai-r8/g07_Kaiha_warp20260110.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260111/20260110004858id_/https://warabi.gijiroku.com/gikai/g07_Kaiha.asp",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-shigikai-r8/g07_Kaiha_warp20260408.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260419/20260408003046id_/https://warabi.gijiroku.com/gikai/g07_Kaiha.asp",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-shigikai-r8/aramashi_warp20260408.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260419/20260408001714id_/https://warabi.gijiroku.com/gikai/aramashi.asp",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-shigikai-r8/g07_Committee_warp20260408.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260419/20260408001719id_/https://warabi.gijiroku.com/gikai/g07_Committee.asp",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-shigikai-r8/g07_Giketsu_View_1665.html": {
+    "mode": "origin",
+    "href": "https://warabi.gijiroku.com/gikai/g07_Giketsu_View.asp?SrchID=1665&Sflg=1&kword1=&kword2=",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/warabi-shigikai-r8/g07_Nittei_Kaigi_145.html": {
+    "mode": "origin",
+    "href": "https://warabi.gijiroku.com/gikai/g07_Nittei_Kaigi.asp?KaigiID=145&Kaigi=%97%DF%98a%82W%94N%91%E6%82Q%89%F1%92%E8%97%E1%89%EF",
+    "license": "本サイトのコンテンツはすべて蕨市に帰属します。本サイト内の記事・写真の無断転載はできません。利用許諾については秘書広報課へお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/saitama-shigikai-r8/sai_0802hyouketutaido.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.saitama.lg.jp/gikai/003/002/hyouketutaido/p129237_d/fil/0802hyouketutaido.pdf",
+    "license": "市WEBサイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則としてさいたま市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。市WEBサイト上の文書・画像等の無断使用・転載を禁止します。（さいたま市の各局ホームページ等に利用規約等の特段の定めがある場合は、この取り扱いに優先するものとします。）",
+    "target": "file"
+  },
+  "/sources/saitama-shigikai-r8/sai_warp_p005176.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260419/20260407083845id_/https://www.city.saitama.lg.jp/gikai/001/meibo/p005176.html",
+    "license": "市WEBサイト上の文書や画像等の各ファイル、及びその内容に関する諸権利は、原則としてさいたま市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。市WEBサイト上の文書・画像等の無断使用・転載を禁止します。（さいたま市の各局ホームページ等に利用規約等の特段の定めがある場合は、この取り扱いに優先するものとします。）",
+    "target": "page"
+  },
+  "/sources/wako-shigikai-r8/wako_r80318giinbetukekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/013/156/r80318giinbetukekka.pdf",
+    "license": "和光市ホームページに掲載される記事、画像、データ類の著作権は、和光市、又はその情報提供者に帰属します。また、その全てについて、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、和光市の許可・承諾を得ないままほかの媒体へ転載することはお断りします。／「情報などの転載について」: 和光市ホームページに掲載されている情報や画像などの転載を希望する場合は、必ず転載の許可を得てください。なお、版権などの問題により、一部の画像などについては転載を認められない場合がありますのでご了承ください。",
+    "target": "file"
+  },
+  "/sources/wako-shigikai-r8/wako_2605dayori3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/013/556/2605dayori3.pdf",
+    "license": "和光市ホームページに掲載される記事、画像、データ類の著作権は、和光市、又はその情報提供者に帰属します。また、その全てについて、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、和光市の許可・承諾を得ないままほかの媒体へ転載することはお断りします。／「情報などの転載について」: 和光市ホームページに掲載されている情報や画像などの転載を希望する場合は、必ず転載の許可を得てください。なお、版権などの問題により、一部の画像などについては転載を認められない場合がありますのでご了承ください。",
+    "target": "file"
+  },
+  "/sources/wako-shigikai-r8/wako_r80318giji.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/013/156/r80318giji.pdf",
+    "license": "和光市ホームページに掲載される記事、画像、データ類の著作権は、和光市、又はその情報提供者に帰属します。また、その全てについて、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、和光市の許可・承諾を得ないままほかの媒体へ転載することはお断りします。／「情報などの転載について」: 和光市ホームページに掲載されている情報や画像などの転載を希望する場合は、必ず転載の許可を得てください。なお、版権などの問題により、一部の画像などについては転載を認められない場合がありますのでご了承ください。",
+    "target": "file"
+  },
+  "/sources/wako-shigikai-r8/wako_wb20260114_meibo.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260114101128id_/https://www.city.wako.lg.jp/shisei/1006222/1006464/1006466/index.html",
+    "license": "和光市ホームページに掲載される記事、画像、データ類の著作権は、和光市、又はその情報提供者に帰属します。また、その全てについて、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、和光市の許可・承諾を得ないままほかの媒体へ転載することはお断りします。／「情報などの転載について」: 和光市ホームページに掲載されている情報や画像などの転載を希望する場合は、必ず転載の許可を得てください。なお、版権などの問題により、一部の画像などについては転載を認められない場合がありますのでご了承ください。",
+    "target": "page"
+  },
+  "/sources/okegawa-shigikai-r8/oke_gikaidayori_R803.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/2/gikaidayori_R803.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/okegawa-shigikai-r8/oke_warp_7333.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260417/20260408004512id_/https://www.city.okegawa.lg.jp/shisei/shigikai/meibo/7333.html",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "page"
+  },
+  "/sources/okegawa-shigikai-r8/oke_r83giankekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/material/files/group/2/r83giankekka.pdf",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "file"
+  },
+  "/sources/okegawa-shigikai-r8/oke_14613.html": {
+    "mode": "origin",
+    "href": "https://www.city.okegawa.lg.jp/soshiki/gikai/gikaijimukyoku/teirei/14613.html",
+    "license": "本ページの内容についての著作権は原則として桶川市に帰属します。また、一部の情報（画像など）については、原著作者が 保有しています。当ホームページの内容について無断で複製および転用することはできません。当ホームページの情報を転用する場合については、秘書広報課にご確認ください。",
+    "target": "page"
+  },
+  "/sources/kumagaya-shigikai-r8/kaiha45_warp20260406.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kumagaya.lg.jp/shigikai/gaiyou/reiwa8nenn3gatu/kekka0803.html",
+    "license": "本市ホームページに掲載されている文書や、画像等の情報及び内容に関しては著作権の対象になっています。著作権は本市およびウェブ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法等により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。ただし、熊谷市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/kumagaya-shigikai-r8/kakushumeibo_warp20260406.html": {
+    "mode": "origin",
+    "href": "https://www.city.kumagaya.lg.jp/shigikai/gaiyou/reiwa8nenn3gatu/kekka0803.html",
+    "license": "本市ホームページに掲載されている文書や、画像等の情報及び内容に関しては著作権の対象になっています。著作権は本市およびウェブ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法等により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。ただし、熊谷市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/kumagaya-shigikai-r8/kekka0803_0317.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kumagaya.lg.jp/shigikai/gaiyou/reiwa8nenn3gatu/kekka0803.html",
+    "license": "本市ホームページに掲載されている文書や、画像等の情報及び内容に関しては著作権の対象になっています。著作権は本市およびウェブ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法等により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。ただし、熊谷市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/kumagaya-shigikai-r8/kekka0803.html": {
+    "mode": "origin",
+    "href": "https://www.city.kumagaya.lg.jp/shigikai/gaiyou/reiwa8nenn3gatu/kekka0803.html",
+    "license": "本市ホームページに掲載されている文書や、画像等の情報及び内容に関しては著作権の対象になっています。著作権は本市およびウェブ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法等により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。ただし、熊谷市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/kumagaya-shigikai-r8/sikumi_bocho.html": {
+    "mode": "origin",
+    "href": "https://www.city.kumagaya.lg.jp/shigikai/gaiyou/reiwa8nenn3gatu/kekka0803.html",
+    "license": "本市ホームページに掲載されている文書や、画像等の情報及び内容に関しては著作権の対象になっています。著作権は本市およびウェブ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法等により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。ただし、熊谷市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/kumagaya-shigikai-r8/seihukugityouaisatu_warp20260406.html": {
+    "mode": "origin",
+    "href": "https://www.city.kumagaya.lg.jp/shigikai/gaiyou/reiwa8nenn3gatu/kekka0803.html",
+    "license": "本市ホームページに掲載されている文書や、画像等の情報及び内容に関しては著作権の対象になっています。著作権は本市およびウェブ作成者、画像等提供者、撮影者等に帰属しており、日本国著作権法等により保護されています。なお、本市ホームページに掲載されている文書・画像等の無断使用・転載を禁止します。ただし、熊谷市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/chichibu-shigikai-r8/7.10.25kaiha.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/2435/7.10.25kaiha.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-shigikai-r8/gikai_warp20260408.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260420/20260408000449id_/https://city.chichibu.lg.jp/gikai/",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-shigikai-r8/0803gikestusyorikekka.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/14383/0803gikestusyorikekka.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-shigikai-r8/R7gikaiyouran.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/2435/R7gikaiyouran.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/chichibu-shigikai-r8/gikaidayori84p2-5.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.chichibu.lg.jp/secure/28939/gikaidayori84p2-5.pdf",
+    "license": "秩父市ホームページに掲載される記事、写真、図画、その他のデータ類の著作権は、秩父市、またはその情報提供者に帰属します。また、そのすべてについて、「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、秩父市の許可・承諾を得ないまま、無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/hanno-shigikai-r8/kaiha070515.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hanno.lg.jp/shiseijoho/shigikai/kaigijoho/13091.html",
+    "license": "飯能市ホームページや広報はんのうなど飯能市の発行物に掲載されている文書や画像等の各ファイル、およびその内容に関する諸権利は、飯能市に帰属します(一部の画像等の著作権は、原著作者が所有しています)。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/hanno-shigikai-r8/3455_warp20260110.html": {
+    "mode": "origin",
+    "href": "https://www.city.hanno.lg.jp/shiseijoho/shigikai/kaigijoho/13091.html",
+    "license": "飯能市ホームページや広報はんのうなど飯能市の発行物に掲載されている文書や画像等の各ファイル、およびその内容に関する諸権利は、飯能市に帰属します(一部の画像等の著作権は、原著作者が所有しています)。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/hanno-shigikai-r8/3455_warp20260408.html": {
+    "mode": "origin",
+    "href": "https://www.city.hanno.lg.jp/shiseijoho/shigikai/kaigijoho/13091.html",
+    "license": "飯能市ホームページや広報はんのうなど飯能市の発行物に掲載されている文書や画像等の各ファイル、およびその内容に関する諸権利は、飯能市に帰属します(一部の画像等の著作権は、原著作者が所有しています)。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/hanno-shigikai-r8/13091.html": {
+    "mode": "origin",
+    "href": "https://www.city.hanno.lg.jp/shiseijoho/shigikai/kaigijoho/13091.html",
+    "license": "飯能市ホームページや広報はんのうなど飯能市の発行物に掲載されている文書や画像等の各ファイル、およびその内容に関する諸権利は、飯能市に帰属します(一部の画像等の著作権は、原著作者が所有しています)。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/hanno-shigikai-r8/sannpizyoukyou8-3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hanno.lg.jp/shiseijoho/shigikai/kaigijoho/13091.html",
+    "license": "飯能市ホームページや広報はんのうなど飯能市の発行物に掲載されている文書や画像等の各ファイル、およびその内容に関する諸権利は、飯能市に帰属します(一部の画像等の著作権は、原著作者が所有しています)。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/honjo-shigikai-r8/9552_warp20260406.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260416/20260406025327id_/https://www.city.honjo.lg.jp/shiseijoho/shigikai/giinnitsuite/9552.html",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/honjo-shigikai-r8/8205.html": {
+    "mode": "origin",
+    "href": "https://www.city.honjo.lg.jp/shiseijoho/shigikai/giinnitsuite/8205.html",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/honjo-shigikai-r8/sanpi0325.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.honjo.lg.jp/material/files/group/30/sanpi0325.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/honjo-shigikai-r8/giketukekka080325.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.honjo.lg.jp/material/files/group/30/giketukekka080325.pdf",
+    "license": "本市ホームページに掲載されている文書や画像等の各ファイル及びその内容に関する諸権利は、原則として本庄市に帰属し、国際条約・法律等によって保護されています（一部の画像等の著作権は、原著作者が所有しています）。また、当ホームページに掲載された社名・商品名などの名称は、一般に関係各社の商標・登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、本庄市の許可なく当ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/kitamoto-shigikai-r8/kitamoto_dayori136.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kitamoto.lg.jp/material/files/group/19/dayori136.pdf",
+    "license": "北本市ホームページ上の文書や画像等の各ファイル、およびその内容に関する諸権利は、原則として北本市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、いかなる場合であっても、掲載資料の使用に際して発生した損害については一切責任を負いません。",
+    "target": "file"
+  },
+  "/sources/kitamoto-shigikai-r8/kitamoto_18982.html": {
+    "mode": "origin",
+    "href": "https://www.city.kitamoto.lg.jp/shigikai/katsudo/gian/2/reiwa8nen/18982.html",
+    "license": "北本市ホームページ上の文書や画像等の各ファイル、およびその内容に関する諸権利は、原則として北本市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、いかなる場合であっても、掲載資料の使用に際して発生した損害については一切責任を負いません。",
+    "target": "page"
+  },
+  "/sources/kitamoto-shigikai-r8/kitamoto_1416921718734.html": {
+    "mode": "origin",
+    "href": "https://www.city.kitamoto.lg.jp/shigikai/about/1416921718734.html",
+    "license": "北本市ホームページ上の文書や画像等の各ファイル、およびその内容に関する諸権利は、原則として北本市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。また、いかなる場合であっても、掲載資料の使用に際して発生した損害については一切責任を負いません。",
+    "target": "page"
+  },
+  "/sources/hasuda-shigikai-r8/hasuda_kaihabetsu250607_warp20260110.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260110/20260110020015id_/https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/ginmebo/kaihabetsu250607.html",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "page"
+  },
+  "/sources/hasuda-shigikai-r8/hasuda_r803giketukekka2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/giketsukekka/h29/documents/r803giketukekka2.pdf",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "file"
+  },
+  "/sources/hasuda-shigikai-r8/hasuda_0803giketukekka.html": {
+    "mode": "origin",
+    "href": "https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/giketsukekka/h29/0803giketukekka.html",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "page"
+  },
+  "/sources/hasuda-shigikai-r8/hasuda_e339RG00000022.html": {
+    "mode": "origin",
+    "href": "https://www1.g-reiki.net/hasuda/reiki_honbun/e339RG00000022.html",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "page"
+  },
+  "/sources/hasuda-shigikai-r8/hasuda_kaihabetsu250607_warp20260408.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260417/20260408010442id_/https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/ginmebo/kaihabetsu250607.html",
+    "license": "本ホームページで掲載している、情報・文章・画像などの全てのコンテンツデータについて、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。本ホームページに掲載している著作物（文章・画像・映像・音声など）から、プログラムにかかわる著作権は、「蓮田市」もしくは、蓮田市に情報提供いただいている提供元に帰属します。",
+    "target": "page"
+  },
+  "/sources/satte-shigikai-r8/satte_kaiha.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/parliament/index.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-shigikai-r8/satte_dayori1185.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/parliament/index.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-shigikai-r8/satte_kekka0803.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/parliament/index.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-shigikai-r8/satte_1567.html": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/parliament/index.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-shigikai-r8/satte_yakusyoku2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/parliament/index.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/satte-shigikai-r8/satte_kaiha_warp20260110.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.satte.lg.jp/parliament/index.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用（複製・転用・販売など）することはできません。",
+    "target": "page"
+  },
+  "/sources/tsurugashima-shigikai-r8/page009874.html": {
+    "mode": "origin",
+    "href": "https://www.city.tsurugashima.lg.jp/gikai/meibo/page009874.html",
+    "license": "鶴ヶ島市ホームページに掲載されている情報（文書、写真、イラスト、画像、動画等の各ファイル）およびその内容に関する諸権利は、原則として鶴ヶ島市に帰属します（一部の画像等の著作権は、原著作者が所有しています）。また、鶴ヶ島市ホームページに掲載された会社名・製品名などの名称は、一般に各社の商標あるいは登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、鶴ヶ島市の許可なく鶴ヶ島市ホームページに掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/tsurugashima-shigikai-r8/1773626116_doc_507_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tsurugashima.lg.jp/data/doc/1773626116_doc_507_0.pdf",
+    "license": "鶴ヶ島市ホームページに掲載されている情報（文書、写真、イラスト、画像、動画等の各ファイル）およびその内容に関する諸権利は、原則として鶴ヶ島市に帰属します（一部の画像等の著作権は、原著作者が所有しています）。また、鶴ヶ島市ホームページに掲載された会社名・製品名などの名称は、一般に各社の商標あるいは登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、鶴ヶ島市の許可なく鶴ヶ島市ホームページに掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "file"
+  },
+  "/sources/tsurugashima-shigikai-r8/page012058_warp20260408.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260418/20260408023114id_/https://www.city.tsurugashima.lg.jp/gikai/news/page012058.html",
+    "license": "鶴ヶ島市ホームページに掲載されている情報（文書、写真、イラスト、画像、動画等の各ファイル）およびその内容に関する諸権利は、原則として鶴ヶ島市に帰属します（一部の画像等の著作権は、原著作者が所有しています）。また、鶴ヶ島市ホームページに掲載された会社名・製品名などの名称は、一般に各社の商標あるいは登録商標です。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、鶴ヶ島市の許可なく鶴ヶ島市ホームページに掲載されている文書や画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/saitama-hidaka-shigikai-r8/746_warp20260110.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260111/20260110121206id_/https://www.city.hidaka.lg.jp/soshiki/gikai/gikai/shigikaigiin/746.html",
+    "license": "このサイトに掲載されている記事、絵、写真等の著作権は、本文中に記載がない限り日高市に帰属します。著作権法上認められた場合を除き、無許可での複写転載はしないでください。",
+    "target": "page"
+  },
+  "/sources/saitama-hidaka-shigikai-r8/R805-2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hidaka.lg.jp/material/files/group/30/R805-2.pdf",
+    "license": "このサイトに掲載されている記事、絵、写真等の著作権は、本文中に記載がない限り日高市に帰属します。著作権法上認められた場合を除き、無許可での複写転載はしないでください。",
+    "target": "file"
+  },
+  "/sources/saitama-hidaka-shigikai-r8/reiwa8nendai2kai.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hidaka.lg.jp/material/files/group/30/reiwa8nendai2kai.pdf",
+    "license": "このサイトに掲載されている記事、絵、写真等の著作権は、本文中に記載がない限り日高市に帰属します。著作権法上認められた場合を除き、無許可での複写転載はしないでください。",
+    "target": "file"
+  },
+  "/sources/saitama-hidaka-shigikai-r8/25683.html": {
+    "mode": "origin",
+    "href": "https://www.city.hidaka.lg.jp/information/106/r5_0423_senkyo/25683.html",
+    "license": "このサイトに掲載されている記事、絵、写真等の著作権は、本文中に記載がない限り日高市に帰属します。著作権法上認められた場合を除き、無許可での複写転載はしないでください。",
+    "target": "page"
+  },
+  "/sources/yoshikawa-shigikai-r8/34_18494_254.html": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/34,18494,254,html",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/yoshikawa-shigikai-r8/20260318-160117.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/34,116167,c,html/116167/20260318-160117.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/yoshikawa-shigikai-r8/20260731-194459.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yoshikawa.saitama.jp/index.cfm/34,117448,c,html/117448/20260731-194459.pdf",
+    "license": "Copyright 2026 吉川市公式ホームページ（HTML の meta 要素 copyright のみ）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（2026-10-22 時点で確認）。",
+    "target": "file"
+  },
+  "/sources/shiraoka-shigikai-r8/shiraoka_seito-kaihaichiran-R70610.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260111/20260110113313id_/https://www.city.shiraoka.lg.jp/material/files/group/28/seito-kaihaichiran-R70610.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は白岡市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/shiraoka-shigikai-r8/shiraoka_155_warp20260110.html": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260111/20260110090326id_/https://www.city.shiraoka.lg.jp/soshiki/gikaijimukyoku/1/155.html",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は白岡市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/shiraoka-shigikai-r8/shiraoka_R803-giketsukekka-080318.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiraoka.lg.jp/material/files/group/28/R803-giketsukekka-080318.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は白岡市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/shiraoka-shigikai-r8/shiraoka_P7-231.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shiraoka.lg.jp/material/files/group/28/P7-231.pdf",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は白岡市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "file"
+  },
+  "/sources/shiraoka-shigikai-r8/shiraoka_152.html": {
+    "mode": "origin",
+    "href": "https://www.city.shiraoka.lg.jp/soshiki/gikaijimukyoku/4/152.html",
+    "license": "当サイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は白岡市に帰属します。「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変などをすることはできません。",
+    "target": "page"
+  },
+  "/sources/inamachi-chogikai-r8/ina_R8-3kekka.pdf": {
+    "mode": "origin",
+    "href": "https://inamachi.gsl-service.net/top/index.html",
+    "license": "伊奈町ホームページ上に掲載しているコンテンツ（文書や画像等）に関する著作権は、原則として伊奈町に帰属します。ただし、一部の画像などの著作権は、原著作者が所有しています。伊奈町ホームページは利用目的を問わず、自由に閲覧していただくことが可能ですが、著作権法上認められた「私的使用」や「引用」の範囲を越えて、無断で複製・転用などをすることは出来ません。ただし、伊奈町ホームページ内の各ページ等に利用規約など、特段の定めがある場合は、その取扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/inamachi-chogikai-r8/ina_2026-3Tkaikiyotei.pdf": {
+    "mode": "origin",
+    "href": "https://inamachi.gsl-service.net/top/index.html",
+    "license": "伊奈町ホームページ上に掲載しているコンテンツ（文書や画像等）に関する著作権は、原則として伊奈町に帰属します。ただし、一部の画像などの著作権は、原著作者が所有しています。伊奈町ホームページは利用目的を問わず、自由に閲覧していただくことが可能ですが、著作権法上認められた「私的使用」や「引用」の範囲を越えて、無断で複製・転用などをすることは出来ません。ただし、伊奈町ホームページ内の各ページ等に利用規約など、特段の定めがある場合は、その取扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/inamachi-chogikai-r8/ina_teisu_e345RG00000506.html": {
+    "mode": "origin",
+    "href": "https://inamachi.gsl-service.net/top/index.html",
+    "license": "伊奈町ホームページ上に掲載しているコンテンツ（文書や画像等）に関する著作権は、原則として伊奈町に帰属します。ただし、一部の画像などの著作権は、原著作者が所有しています。伊奈町ホームページは利用目的を問わず、自由に閲覧していただくことが可能ですが、著作権法上認められた「私的使用」や「引用」の範囲を越えて、無断で複製・転用などをすることは出来ません。ただし、伊奈町ホームページ内の各ページ等に利用規約など、特段の定めがある場合は、その取扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/inamachi-chogikai-r8/ina_gicho_2020100800032.html": {
+    "mode": "origin",
+    "href": "https://inamachi.gsl-service.net/top/index.html",
+    "license": "伊奈町ホームページ上に掲載しているコンテンツ（文書や画像等）に関する著作権は、原則として伊奈町に帰属します。ただし、一部の画像などの著作権は、原著作者が所有しています。伊奈町ホームページは利用目的を問わず、自由に閲覧していただくことが可能ですが、著作権法上認められた「私的使用」や「引用」の範囲を越えて、無断で複製・転用などをすることは出来ません。ただし、伊奈町ホームページ内の各ページ等に利用規約など、特段の定めがある場合は、その取扱いが優先されます。",
+    "target": "page"
+  },
+  "/sources/sugito-chogikai-r8/sugito_6175_wb20260305180337.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260305180337id_/https://www.town.sugito.lg.jp/site/gikai/6175.html",
+    "license": "当サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、これらの情報の全部または一部について、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/sugito-chogikai-r8/sugito_6175_wb20260616190603.html": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260616190603id_/https://www.town.sugito.lg.jp/site/gikai/6175.html",
+    "license": "当サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、これらの情報の全部または一部について、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/sugito-chogikai-r8/sugito_17312.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sugito.lg.jp/uploaded/attachment/17312.pdf",
+    "license": "当サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、これらの情報の全部または一部について、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/sugito-chogikai-r8/sugito_16136.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sugito.lg.jp/uploaded/attachment/16136.pdf",
+    "license": "当サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、これらの情報の全部または一部について、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/sugito-chogikai-r8/sugito_teisu_e391RG00000026.html": {
+    "mode": "origin",
+    "href": "https://www1.g-reiki.net/sugito/reiki_honbun/e391RG00000026.html",
+    "license": "当サイトに掲載している個々の情報（文章、写真、イラストなど）は、著作権の対象となっています。また、これらの情報の全部または一部について、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
   },
   "/sources/chiba-ken-gikai-r8/kaihabetsu_warp20260203.html": {
     "mode": "archive",

@@ -1,0 +1,40 @@
+{
+  "sourceId": "shiraoka-shigikai-r8",
+  "files": [
+    {
+      "filename": "shiraoka_seito-kaihaichiran-R70610.pdf",
+      "sha256": "f2684394edddab4daf160d52af2f12c339c097e35e424177bff2a983c82e89ca",
+      "bytes": 97605,
+      "fetchedAt": "2026-11-03T12:52:18.587Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260111/20260110113313id_/https://www.city.shiraoka.lg.jp/material/files/group/28/seito-kaihaichiran-R70610.pdf"
+    },
+    {
+      "filename": "shiraoka_155_warp20260110.html",
+      "sha256": "2d5c28708215338bf40e668c7431b9993409f1e79817bbb2e5f6d6ef84ac322a",
+      "bytes": 42768,
+      "fetchedAt": "2026-11-03T12:52:18.588Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260111/20260110090326id_/https://www.city.shiraoka.lg.jp/soshiki/gikaijimukyoku/1/155.html"
+    },
+    {
+      "filename": "shiraoka_R803-giketsukekka-080318.pdf",
+      "sha256": "3005f884d13f95b2b9d7727af0ea858434b2922e684c032514513f26e7d27783",
+      "bytes": 120878,
+      "fetchedAt": "2026-11-03T12:52:18.588Z",
+      "fetchedFrom": "https://www.city.shiraoka.lg.jp/material/files/group/28/R803-giketsukekka-080318.pdf"
+    },
+    {
+      "filename": "shiraoka_P7-231.pdf",
+      "sha256": "1c0add62a0228a93b164972c1f1ea1c5666dc9e98d5220c39f28de21531f6eb6",
+      "bytes": 459676,
+      "fetchedAt": "2026-11-03T12:52:18.589Z",
+      "fetchedFrom": "https://www.city.shiraoka.lg.jp/material/files/group/28/P7-231.pdf"
+    },
+    {
+      "filename": "shiraoka_152.html",
+      "sha256": "1a9f5ade9af64276f11449f67d73649a3e37716c101b68fd23f26970eab3dfe8",
+      "bytes": 42475,
+      "fetchedAt": "2026-11-03T12:52:18.589Z",
+      "fetchedFrom": "https://www.city.shiraoka.lg.jp/soshiki/gikaijimukyoku/4/152.html"
+    }
+  ]
+}

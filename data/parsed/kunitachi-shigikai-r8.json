@@ -1,0 +1,222 @@
+{
+  "docType": "council-composition",
+  "sourceId": "kunitachi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T16:29:03.958Z",
+  "fiscalYear": "R8",
+  "body": "国立市議会",
+  "seats": 21,
+  "asOf": "2026-03-24",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "自由民主党",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "青木健",
+        "石井伸之",
+        "髙柳貴美代",
+        "遠藤直弘",
+        "大谷俊樹"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "社民・ネット・風",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "関口博",
+        "藤田貴裕",
+        "古濱薫",
+        "中谷絢子"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "青木淳子",
+        "香西貴弘",
+        "山口智之"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "住友珠美",
+        "矢部新"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "新しい議会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "藤江竜三",
+        "石井めぐみ"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中川貴大"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "稗田美菜子"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "こぶしの木",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "上村和子"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "みらいのくにたち",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "望月健一"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "耕す未来＠くにたち",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小川宏美"
+      ],
+      "locator": {
+        "file": "kunitachi_gikai_279.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第２１号議案",
+    "billName": "令和８年度国立市一般会計予算案",
+    "sessionLabel": "令和８年国立市議会第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "原案可決",
+    "locator": {
+      "file": "kunitachi_08kaigikekka1st.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "国立市議会だより No.279（令和8年5月5日号）3面 各会派の議案等への賛否（令和8年第1回定例会）の会派略称",
+  "resultTitle": "令和８年国立市議会第１回定例会 会議結果について（報告）（令和8年3月31日）",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "国立市議会だより No.279（令和8年5月5日号）3面 令和8年第1回定例会 各会派の議案等への賛否",
+    "sourceFile": "kunitachi_gikai_279.pdf",
+    "columns": [
+      {
+        "label": "自",
+        "faction": "自由民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "風",
+        "faction": "社民・ネット・風",
+        "stance": "賛成"
+      },
+      {
+        "label": "公",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "共",
+        "faction": "日本共産党",
+        "stance": "賛成"
+      },
+      {
+        "label": "新",
+        "faction": "新しい議会",
+        "stance": "賛成"
+      },
+      {
+        "label": "維",
+        "faction": "日本維新の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "立",
+        "faction": "立憲民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "こ",
+        "faction": "こぶしの木",
+        "stance": "反対"
+      },
+      {
+        "label": "み",
+        "faction": "みらいのくにたち",
+        "stance": "賛成"
+      },
+      {
+        "label": "耕",
+        "faction": "耕す未来＠くにたち",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤直弘",
+        "faction": "自由民主党",
+        "member": "遠藤直弘",
+        "stance": "議長"
+      }
+    ]
+  }
+}

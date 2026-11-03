@@ -1,0 +1,206 @@
+{
+  "docType": "council-composition",
+  "sourceId": "satte-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:22.814Z",
+  "fiscalYear": "R8",
+  "body": "幸手市議会",
+  "seats": 15,
+  "asOf": "2025-06-02",
+  "teisu": 15,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "芦葉弘志",
+        "四本奈緒美"
+      ],
+      "locator": {
+        "file": "satte_kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "市民の幸せをつくる会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "坂本達夫",
+        "小泉圭司"
+      ],
+      "locator": {
+        "file": "satte_kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民党市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "木村治夫",
+        "藤沼貢"
+      ],
+      "locator": {
+        "file": "satte_kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新緑",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小河原浩和",
+        "青木章"
+      ],
+      "locator": {
+        "file": "satte_kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "大平泰二"
+      ],
+      "locator": {
+        "file": "satte_kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "髙野優一",
+        "宮澤大地",
+        "小林英雄",
+        "枝久保喜八郎",
+        "松田雅代",
+        "本田謡子"
+      ],
+      "locator": {
+        "file": "satte_kaiha.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１５号",
+    "billName": "令和８年度幸手市一般会計予算",
+    "sessionLabel": "令和８年第１回（３月）定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "satte_kekka0803.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "幸手市議会議員名簿（会派別）（令和7年6月2日現在）",
+  "resultTitle": "令和８年第１回（３月）定例会 議決結果一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "市議会だよりさって №118（令和8年5月1日発行）令和８年３月定例会 提出された議案の結果",
+    "sourceFile": "satte_dayori1185.pdf",
+    "columns": [
+      {
+        "label": "髙野優一",
+        "faction": "無所属",
+        "member": "髙野優一",
+        "stance": "賛成"
+      },
+      {
+        "label": "小泉圭司",
+        "faction": "市民の幸せをつくる会",
+        "member": "小泉圭司",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮澤大地",
+        "faction": "無所属",
+        "member": "宮澤大地",
+        "stance": "賛成"
+      },
+      {
+        "label": "芦葉弘志",
+        "faction": "公明党",
+        "member": "芦葉弘志",
+        "stance": "賛成"
+      },
+      {
+        "label": "四本奈緒美",
+        "faction": "公明党",
+        "member": "四本奈緒美",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂本達夫",
+        "faction": "市民の幸せをつくる会",
+        "member": "坂本達夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林英雄",
+        "faction": "無所属",
+        "member": "小林英雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "枝久保喜八郎",
+        "faction": "無所属",
+        "member": "枝久保喜八郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村治夫",
+        "faction": "自民党市議団",
+        "member": "木村治夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "松田雅代",
+        "faction": "無所属",
+        "member": "松田雅代",
+        "stance": "賛成"
+      },
+      {
+        "label": "小河原浩和",
+        "faction": "新緑",
+        "member": "小河原浩和",
+        "stance": "賛成"
+      },
+      {
+        "label": "本田謡子",
+        "faction": "無所属",
+        "member": "本田謡子",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤沼貢",
+        "faction": "自民党市議団",
+        "member": "藤沼貢",
+        "stance": "賛成"
+      },
+      {
+        "label": "大平泰二",
+        "faction": "日本共産党",
+        "member": "大平泰二",
+        "stance": "賛成"
+      },
+      {
+        "label": "青木章",
+        "faction": "新緑",
+        "member": "青木章",
+        "stance": "議長"
+      }
+    ]
+  }
+}

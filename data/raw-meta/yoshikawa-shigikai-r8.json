@@ -1,0 +1,29 @@
+{
+  "sourceId": "yoshikawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "34_18494_254.html",
+      "sha256": "a418adc8b67f2eae57783cbcc34c1a3275f3a8a62d5474d21500d8e593edca31",
+      "bytes": 17033,
+      "fetchedAt": "2026-11-03T12:52:18.583Z",
+      "fetchedFrom": "https://www.city.yoshikawa.saitama.jp/index.cfm/34,18494,254,html",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "20260318-160117.pdf",
+      "sha256": "812cc36d9c8c293b2d8189f0ac4b04f03fe4bc73f4c44811804f2efde59bd557",
+      "bytes": 99456,
+      "fetchedAt": "2026-11-03T12:52:18.583Z",
+      "fetchedFrom": "https://www.city.yoshikawa.saitama.jp/index.cfm/34,116167,c,html/116167/20260318-160117.pdf"
+    },
+    {
+      "filename": "20260731-194459.pdf",
+      "sha256": "41fb907a03c8ea3c236541c2c14f3bb10eb56026600dacc8ca4d4578e572d661",
+      "bytes": 3818558,
+      "fetchedAt": "2026-11-03T12:52:18.586Z",
+      "fetchedFrom": "https://www.city.yoshikawa.saitama.jp/index.cfm/34,117448,c,html/117448/20260731-194459.pdf"
+    }
+  ]
+}

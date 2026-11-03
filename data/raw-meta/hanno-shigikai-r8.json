@@ -1,0 +1,40 @@
+{
+  "sourceId": "hanno-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha070515.pdf",
+      "sha256": "a40dc144e6b30f1f03dda8a423e4b397697921d8630a1cd05d73f69f0341b7f8",
+      "bytes": 34309,
+      "fetchedAt": "2026-11-03T12:52:18.563Z",
+      "fetchedFrom": "https://web.archive.org/web/20251219164948id_/https://www.city.hanno.lg.jp/material/files/group/45/kaiha070515.pdf"
+    },
+    {
+      "filename": "3455_warp20260110.html",
+      "sha256": "f2359e107c4a494ee2c2ea835dc5b269a2e8ee30418786dc16d8dac57d365b2c",
+      "bytes": 52728,
+      "fetchedAt": "2026-11-03T12:52:18.564Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260111/20260110020648id_/https://www.city.hanno.lg.jp/shiseijoho/shigikai/shigikaigiin/3455.html"
+    },
+    {
+      "filename": "3455_warp20260408.html",
+      "sha256": "a596d9b4e98c92ff9edfe0822a061d9d2b76785ec700f55453d716839f3e793a",
+      "bytes": 52278,
+      "fetchedAt": "2026-11-03T12:52:18.564Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260418/20260408010317id_/https://www.city.hanno.lg.jp/shiseijoho/shigikai/shigikaigiin/3455.html"
+    },
+    {
+      "filename": "13091.html",
+      "sha256": "f51577beaaff473a17e5cebb923b1ade61637918bd41cc0dde2385d67f60ad23",
+      "bytes": 71826,
+      "fetchedAt": "2026-11-03T12:52:18.565Z",
+      "fetchedFrom": "https://www.city.hanno.lg.jp/shiseijoho/shigikai/kaigijoho/13091.html"
+    },
+    {
+      "filename": "sannpizyoukyou8-3.pdf",
+      "sha256": "3a1bdc01014ac5fb93a97f30652e736d578890cb3ddc49bcc9d55e620bc24e62",
+      "bytes": 126166,
+      "fetchedAt": "2026-11-03T12:52:18.566Z",
+      "fetchedFrom": "https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf"
+    }
+  ]
+}

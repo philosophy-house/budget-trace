@@ -1,0 +1,36 @@
+{
+  "sourceId": "imizu-shigikai-r8",
+  "files": [
+    {
+      "filename": "imizu_139331.pdf",
+      "sha256": "950f6ce39f092cdb2b0b95c5b436339e48531b29e9e3034c2d99613449f6d053",
+      "bytes": 30305,
+      "fetchedAt": "2026-11-03T12:46:09.210Z",
+      "fetchedFrom": "https://www.city.imizu.toyama.jp/appupload/EDIT/139/139331.pdf"
+    },
+    {
+      "filename": "imizu_142068.pdf",
+      "sha256": "51e944afaa22850d1b5b9c1179c97204a0eaf517c6a0f0a6bf85d495b527bedd",
+      "bytes": 67953,
+      "fetchedAt": "2026-11-03T12:46:09.210Z",
+      "fetchedFrom": "https://www.city.imizu.toyama.jp/appupload/EDIT/142/142068.pdf"
+    },
+    {
+      "filename": "imizu_142069.pdf",
+      "sha256": "f1ef00633f9c4c7b391933e9a59c2214b54c8aeffe5aed5af7a8cd709661c981",
+      "bytes": 119580,
+      "fetchedAt": "2026-11-03T12:46:09.210Z",
+      "fetchedFrom": "https://www.city.imizu.toyama.jp/appupload/EDIT/142/142069.pdf"
+    },
+    {
+      "filename": "imizu_svGuideDtl_14760.html",
+      "sha256": "b42eaf39c83fe2777ed5fb11808303ce6b20fdefe2c8ef6e97d86d10f1bc5f6f",
+      "bytes": 36842,
+      "fetchedAt": "2026-11-03T12:46:09.210Z",
+      "fetchedFrom": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=14760",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

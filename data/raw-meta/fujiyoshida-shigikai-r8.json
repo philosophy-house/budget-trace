@@ -1,0 +1,40 @@
+{
+  "sourceId": "fujiyoshida-shigikai-r8",
+  "files": [
+    {
+      "filename": "fy_kaiha_warp20260206.html",
+      "sha256": "827b74699d492ff265ba3d9996c2b222e2916e77837377e5b5e7838adb2c43c8",
+      "bytes": 24645,
+      "fetchedAt": "2026-11-03T12:46:09.213Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260207/20260206195000id_/https://www.city.fujiyoshida.yamanashi.jp/site/gikai/1039.html"
+    },
+    {
+      "filename": "fy_kaiha_warp20260509.html",
+      "sha256": "12f967b872f0333a9d1348e527845f791c0bf2e527bd29990284112b37475526",
+      "bytes": 24670,
+      "fetchedAt": "2026-11-03T12:46:09.214Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260511/20260509173143id_/https://www.city.fujiyoshida.yamanashi.jp/site/gikai/1039.html"
+    },
+    {
+      "filename": "fy_shingikekka_7398.pdf",
+      "sha256": "9c1151b826cb458d2410d28ad703a9ed9b4b2b6a20bb23ef347664692eb99dcf",
+      "bytes": 206566,
+      "fetchedAt": "2026-11-03T12:46:09.214Z",
+      "fetchedFrom": "https://www.city.fujiyoshida.yamanashi.jp/uploaded/attachment/7398.pdf"
+    },
+    {
+      "filename": "fy_nittei_12782.html",
+      "sha256": "30c6c4a13f2651dd52762f05f45e42ceb4c184e82d8864f1eaf4e66a706e8f59",
+      "bytes": 35720,
+      "fetchedAt": "2026-11-03T12:46:09.214Z",
+      "fetchedFrom": "https://www.city.fujiyoshida.yamanashi.jp/site/gikai/12782.html"
+    },
+    {
+      "filename": "fy_kousei_1051.html",
+      "sha256": "f0e9c5291148eed01b1eda974a3ee83585c1f7c17429f2f1c872a33a7cbfb8e6",
+      "bytes": 25592,
+      "fetchedAt": "2026-11-03T12:46:09.214Z",
+      "fetchedFrom": "https://www.city.fujiyoshida.yamanashi.jp/site/gikai/1051.html"
+    }
+  ]
+}

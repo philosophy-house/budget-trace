@@ -1,0 +1,202 @@
+{
+  "docType": "council-composition",
+  "sourceId": "toshima-kugikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T16:29:02.152Z",
+  "fiscalYear": "R8",
+  "body": "豊島区議会",
+  "seats": 34,
+  "asOf": "2025-06-12",
+  "factions": [
+    {
+      "name": "公明党豊島区議団",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "西山陽介",
+        "高橋佳代子",
+        "北岡あや子",
+        "ふまミチ",
+        "根岸光洋",
+        "辻薫",
+        "島村高彦"
+      ],
+      "locator": {
+        "file": "toshima_kaiha_20251119.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "都民ファーストの会豊島区議団・国民民主党",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "星京子",
+        "片岡きょうこ",
+        "中山よしと",
+        "宮崎けい子",
+        "原田たかき",
+        "細川正博",
+        "中澤まさゆき"
+      ],
+      "locator": {
+        "file": "toshima_kaiha_20251119.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "自由民主党豊島区議団",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "松下創一郎",
+        "有里真穂",
+        "井上幸一",
+        "藤澤愛子",
+        "芳賀竜朗",
+        "磯一昭",
+        "竹下ひろみ"
+      ],
+      "locator": {
+        "file": "toshima_kaiha_20251119.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "維新・無所属の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "泉谷つよし",
+        "入江あゆみ",
+        "林二葉",
+        "ふるぼう知生"
+      ],
+      "locator": {
+        "file": "toshima_kaiha_20251119.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党豊島区議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小林ひろみ",
+        "儀武さとる",
+        "森とおる",
+        "垣内信行"
+      ],
+      "locator": {
+        "file": "toshima_kaiha_20251119.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "立憲・れいわ・市民の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "川瀬さなえ",
+        "塚田ひさこ",
+        "西崎ふうか"
+      ],
+      "locator": {
+        "file": "toshima_kaiha_20251119.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "豊島区無所属元気の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小林弘明"
+      ],
+      "locator": {
+        "file": "toshima_kaiha_20251119.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "さくま一生"
+      ],
+      "locator": {
+        "file": "toshima_kaiha_20251119.html",
+        "row": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第 24 号 議 案",
+    "billName": "令和８年度豊島区一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "toshima_080324saiketsukekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派等別議員名簿（更新日 2025年6月12日・2025-11-19 の魚拓）",
+  "resultTitle": "議案等の本会議採決結果（令和8年第1回定例会）",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "議案等の本会議採決結果（令和8年第1回定例会）",
+    "sourceFile": "toshima_080324saiketsukekka.pdf",
+    "columns": [
+      {
+        "label": "公明党",
+        "faction": "公明党豊島区議団",
+        "stance": "賛成"
+      },
+      {
+        "label": "都民ファーストの会",
+        "faction": "都民ファーストの会豊島区議団・国民民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "自民党豊島区議団",
+        "faction": "自由民主党豊島区議団",
+        "stance": "賛成"
+      },
+      {
+        "label": "維新・無所属",
+        "faction": "維新・無所属の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "日本共産党",
+        "faction": "日本共産党豊島区議団",
+        "stance": "反対"
+      },
+      {
+        "label": "立憲・れいわ",
+        "faction": "立憲・れいわ・市民の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "無所属元気の会",
+        "faction": "豊島区無所属元気の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "立憲民主",
+        "faction": "立憲民主党",
+        "stance": "賛成"
+      },
+      {
+        "label": "島村高彦",
+        "faction": "公明党豊島区議団",
+        "member": "島村高彦",
+        "stance": "議長"
+      }
+    ]
+  }
+}

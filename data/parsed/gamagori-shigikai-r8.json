@@ -1,0 +1,102 @@
+{
+  "docType": "council-composition",
+  "sourceId": "gamagori-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T16:29:24.099Z",
+  "fiscalYear": "R8",
+  "body": "蒲郡市議会",
+  "seats": 20,
+  "asOf": "2026-03-23",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "自由民主党蒲郡市議団・無所属の会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "大場康議",
+        "千賀充能",
+        "芦刈純奈",
+        "中野香余",
+        "藤田裕喜",
+        "鈴木将浩",
+        "青山義明",
+        "大須賀林",
+        "八田寿人"
+      ],
+      "locator": {
+        "file": "gamagori_dayori132_p11.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "蒲郡自由クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "牧野泰広",
+        "鈴木基夫",
+        "鈴木貴晶",
+        "尾崎広道"
+      ],
+      "locator": {
+        "file": "gamagori_dayori132_p11.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "蒲郡市政クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "来本健作",
+        "新実祥悟",
+        "伊藤享佑",
+        "竹内滋泰"
+      ],
+      "locator": {
+        "file": "gamagori_dayori132_p11.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党蒲郡市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "太田哲也",
+        "松本昌成"
+      ],
+      "locator": {
+        "file": "gamagori_dayori132_p11.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派（日恵野佳代）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "日恵野佳代"
+      ],
+      "locator": {
+        "file": "gamagori_dayori132_p11.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第28号議案",
+    "billName": "令和8年度蒲郡市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "gamagori_202603kekka.html"
+    }
+  },
+  "rosterTitle": "がまごおり議会だより No.132（令和8年4月24日発行）p.11「賛否が分かれた議案」の表頭（会派・議員名）",
+  "resultTitle": "令和8年3月定例会審議結果"
+}

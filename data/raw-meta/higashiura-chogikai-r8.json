@@ -1,0 +1,33 @@
+{
+  "sourceId": "higashiura-chogikai-r8",
+  "files": [
+    {
+      "filename": "0803kojin.pdf",
+      "sha256": "efd8aba22fe78dbcca09c7775848fb2def6120c3f75261775f6b2a522c059428",
+      "bytes": 166875,
+      "fetchedAt": "2026-11-03T12:56:05.289Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260514/20260510222333id_/https://www.town.aichi-higashiura.lg.jp/material/files/group/52/0803kojin.pdf"
+    },
+    {
+      "filename": "0803kekka.pdf",
+      "sha256": "af9b9fb9f3641bfef5fcea1fd8f90ed83bc459510d3d3ab28549ea3cee422f4d",
+      "bytes": 127045,
+      "fetchedAt": "2026-11-03T12:56:05.290Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260514/20260510222332id_/https://www.town.aichi-higashiura.lg.jp/material/files/group/52/0803kekka.pdf"
+    },
+    {
+      "filename": "229seimukatudouhi.pdf",
+      "sha256": "ea3ae7ae34e4d10d55f734e0f004f5de65caa9841c550b79970e147ecc55d7bb",
+      "bytes": 746068,
+      "fetchedAt": "2026-11-03T12:56:05.291Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260514/20260510223141id_/https://www.town.aichi-higashiura.lg.jp/material/files/group/52/229seimukatudouhi.pdf"
+    },
+    {
+      "filename": "kids_1513666496845.html",
+      "sha256": "372596b7518178fbbc9640d3851e004a55e6005e69767f9173f052154160a680",
+      "bytes": 61125,
+      "fetchedAt": "2026-11-03T12:56:05.291Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260811/20260808184956id_/https://www.town.aichi-higashiura.lg.jp/gyosei/gikai/gikai_kids/1513666496845.html"
+    }
+  ]
+}

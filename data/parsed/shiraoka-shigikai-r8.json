@@ -1,0 +1,249 @@
+{
+  "docType": "council-composition",
+  "sourceId": "shiraoka-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:25.417Z",
+  "fiscalYear": "R8",
+  "body": "白岡市議会",
+  "seats": 18,
+  "asOf": "2025-06-10",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "公明党白岡市議団",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "菱沼あゆ美",
+        "中山廣子"
+      ],
+      "locator": {
+        "file": "shiraoka_seito-kaihaichiran-R70610.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党白岡市議",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "浜口清志"
+      ],
+      "locator": {
+        "file": "shiraoka_seito-kaihaichiran-R70610.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "白和",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "江原浩之",
+        "寺戸睦子",
+        "嶋田友一郎",
+        "松本栄一",
+        "黒須大一郎"
+      ],
+      "locator": {
+        "file": "shiraoka_seito-kaihaichiran-R70610.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ＷＡＫＡＢＡ",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "遠藤誠",
+        "細井藤夫",
+        "斎藤信治"
+      ],
+      "locator": {
+        "file": "shiraoka_seito-kaihaichiran-R70610.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ＴＳＵＮＡＧＵ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "野々口眞由美",
+        "石渡征浩"
+      ],
+      "locator": {
+        "file": "shiraoka_seito-kaihaichiran-R70610.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ＭＩＲＡＩ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "尾嶋一雄",
+        "和賀正義"
+      ],
+      "locator": {
+        "file": "shiraoka_seito-kaihaichiran-R70610.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "真風",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "加藤一生",
+        "中川幸廣"
+      ],
+      "locator": {
+        "file": "shiraoka_seito-kaihaichiran-R70610.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政党・会派に所属しない議員（大島勉）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "大島勉"
+      ],
+      "locator": {
+        "file": "shiraoka_seito-kaihaichiran-R70610.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第１６号",
+    "billName": "令和８年度白岡市一般会計予算",
+    "sessionLabel": "令和８年第２回（３月）白岡市議会定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "shiraoka_R803-giketsukekka-080318.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "白岡市議会政党・会派一覧表（令和7年6月10日現在・国立国会図書館 WARP の 2026-01-10 の収集）",
+  "resultTitle": "令和８年第２回（３月）白岡市議会定例会 議決結果一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "議会だよりしらおか No.231（2026年5月1日発行）p.7「１月議会臨時会及び３月議会定例会の審議結果」",
+    "sourceFile": "shiraoka_P7-231.pdf",
+    "columns": [
+      {
+        "label": "寺戸睦子",
+        "faction": "白和",
+        "member": "寺戸睦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "尾嶋一雄",
+        "faction": "ＭＩＲＡＩ",
+        "member": "尾嶋一雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "嶋田友一郎",
+        "faction": "白和",
+        "member": "嶋田友一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "細井藤夫",
+        "faction": "ＷＡＫＡＢＡ",
+        "member": "細井藤夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "浜口清志",
+        "faction": "日本共産党白岡市議",
+        "member": "浜口清志",
+        "stance": "賛成"
+      },
+      {
+        "label": "和賀正義",
+        "faction": "ＭＩＲＡＩ",
+        "member": "和賀正義",
+        "stance": "賛成"
+      },
+      {
+        "label": "野々口眞由美",
+        "faction": "ＴＳＵＮＡＧＵ",
+        "member": "野々口眞由美",
+        "stance": "賛成"
+      },
+      {
+        "label": "石渡征浩",
+        "faction": "ＴＳＵＮＡＧＵ",
+        "member": "石渡征浩",
+        "stance": "賛成"
+      },
+      {
+        "label": "斎藤信治",
+        "faction": "ＷＡＫＡＢＡ",
+        "member": "斎藤信治",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤一生",
+        "faction": "真風",
+        "member": "加藤一生",
+        "stance": "賛成"
+      },
+      {
+        "label": "松本栄一",
+        "faction": "白和",
+        "member": "松本栄一",
+        "stance": "賛成"
+      },
+      {
+        "label": "中山廣子",
+        "faction": "公明党白岡市議団",
+        "member": "中山廣子",
+        "stance": "賛成"
+      },
+      {
+        "label": "菱沼あゆ美",
+        "faction": "公明党白岡市議団",
+        "member": "菱沼あゆ美",
+        "stance": "賛成"
+      },
+      {
+        "label": "遠藤誠",
+        "faction": "ＷＡＫＡＢＡ",
+        "member": "遠藤誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "大島勉",
+        "faction": "政党・会派に所属しない議員（大島勉）",
+        "member": "大島勉",
+        "stance": "賛成"
+      },
+      {
+        "label": "黒須大一郎",
+        "faction": "白和",
+        "member": "黒須大一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "江原浩之",
+        "faction": "白和",
+        "member": "江原浩之",
+        "stance": "賛成"
+      },
+      {
+        "label": "中川幸廣",
+        "faction": "真風",
+        "member": "中川幸廣",
+        "stance": "議長"
+      }
+    ]
+  }
+}

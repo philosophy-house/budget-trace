@@ -1,0 +1,47 @@
+{
+  "sourceId": "satte-shigikai-r8",
+  "files": [
+    {
+      "filename": "satte_kaiha.pdf",
+      "sha256": "c7547e7a24d1412b469effe8fef7f7ddf7a2bf6c7149f1e74027bc179a03eadd",
+      "bytes": 51369,
+      "fetchedAt": "2026-11-03T12:52:18.575Z",
+      "fetchedFrom": "https://www.city.satte.lg.jp/material/files/group/31/kaiha.pdf"
+    },
+    {
+      "filename": "satte_dayori1185.pdf",
+      "sha256": "4ae10740c9cd9682d03969bf02c325f81e509c71a236651479ed37551c170340",
+      "bytes": 806075,
+      "fetchedAt": "2026-11-03T12:52:18.576Z",
+      "fetchedFrom": "https://www.city.satte.lg.jp/material/files/group/31/dayori1185.pdf"
+    },
+    {
+      "filename": "satte_kekka0803.pdf",
+      "sha256": "323614e88ae9f4bd1b2acd4a068f190df994286536d19f68c341b44cd550a56f",
+      "bytes": 140295,
+      "fetchedAt": "2026-11-03T12:52:18.577Z",
+      "fetchedFrom": "https://www.city.satte.lg.jp/material/files/group/31/kekka0803.pdf"
+    },
+    {
+      "filename": "satte_1567.html",
+      "sha256": "4c6d47cb4cb3eeaaa5ab74e90f6146fa6ac7ebee4dc582f1f21b250271966616",
+      "bytes": 43596,
+      "fetchedAt": "2026-11-03T12:52:18.577Z",
+      "fetchedFrom": "https://www.city.satte.lg.jp/parliament/5/2/1567.html"
+    },
+    {
+      "filename": "satte_yakusyoku2.pdf",
+      "sha256": "a0dfc0524ceba3959bbf0f6fb5243665e1ea15450f8e8628402a3375231cc9b9",
+      "bytes": 68503,
+      "fetchedAt": "2026-11-03T12:52:18.577Z",
+      "fetchedFrom": "https://www.city.satte.lg.jp/material/files/group/31/yakusyoku2.pdf"
+    },
+    {
+      "filename": "satte_kaiha_warp20260110.pdf",
+      "sha256": "c7547e7a24d1412b469effe8fef7f7ddf7a2bf6c7149f1e74027bc179a03eadd",
+      "bytes": 51369,
+      "fetchedAt": "2026-11-03T12:52:18.578Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260111/20260110042613id_/https://www.city.satte.lg.jp/material/files/group/31/kaiha.pdf"
+    }
+  ]
+}

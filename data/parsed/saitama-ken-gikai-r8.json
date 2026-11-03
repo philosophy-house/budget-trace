@@ -1,0 +1,285 @@
+{
+  "docType": "council-composition",
+  "sourceId": "saitama-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:17.653Z",
+  "fiscalYear": "R8",
+  "body": "埼玉県議会",
+  "seats": 87,
+  "asOf": "2026-03-26",
+  "teisu": 93,
+  "factions": [
+    {
+      "name": "埼玉県議会自由民主党議員団",
+      "seats": 52,
+      "isIndependent": false,
+      "members": [
+        "小見山祐紀",
+        "橋本健人",
+        "栄寛美",
+        "渡辺聡一郎",
+        "森伊久磨",
+        "鈴木まさひろ",
+        "長峰秀和",
+        "須賀昭夫",
+        "渋谷真実子",
+        "東山徹",
+        "松本義明",
+        "保谷武",
+        "金子裕太",
+        "林薫",
+        "柿沼貴志",
+        "小川直志",
+        "杉田茂実",
+        "阿左美健司",
+        "千葉達也",
+        "逢澤圭一郎",
+        "渡辺大",
+        "松井弘",
+        "宮崎吾一",
+        "関根信明",
+        "木下博信",
+        "藤井健志",
+        "美田宗亮",
+        "吉良英敏",
+        "松澤正",
+        "宇田川幸夫",
+        "飯塚俊彦",
+        "横川雅也",
+        "内沼博史",
+        "細田善則",
+        "永瀬秀樹",
+        "日下部伸三",
+        "小久保憲一",
+        "新井豪",
+        "荒木裕介",
+        "岡地優",
+        "白土幸仁",
+        "小川真一郎",
+        "齊藤邦明",
+        "武内政文",
+        "新井一徳",
+        "梅澤佳一",
+        "中屋敷慎一",
+        "神尾高善",
+        "高橋政雄",
+        "田村琢実",
+        "鈴木正人",
+        "小島信昭"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "埼玉民主フォーラム",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "小森克己",
+        "泉津井京子",
+        "野本怜子",
+        "細川威",
+        "小川寿士",
+        "武田和浩",
+        "白根大輔",
+        "町田皇介",
+        "水村篤弘",
+        "木村勇夫",
+        "田並尚明"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "埼玉県議会公明党議員団",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "小早川一博",
+        "戸野部直乃",
+        "深谷顕史",
+        "橋詰昌児",
+        "安藤友貴",
+        "権守幸男",
+        "萩原一寿",
+        "塩野正行",
+        "蒲生徳明"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "無所属県民会議",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "金野桃子",
+        "平松大佑",
+        "八子朋弘",
+        "松坂喜浩",
+        "石川忠義",
+        "井上航"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "日本共産党埼玉県議会議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山崎すなお",
+        "伊藤はつみ",
+        "城下のり子"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属改革の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "中川浩"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "さいたま国粋の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "古川圭吾"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "埼玉県市民ネットワーク",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山田裕子"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "高木功介",
+        "諸井真英",
+        "小谷野五雄"
+      ],
+      "locator": {
+        "file": "gikai-member-kaiha_20260420.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第1号議案",
+    "billName": "令和８年度埼玉県一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-27",
+    "decidedDateLabel": "令和8年3月27日",
+    "result": "原案可決",
+    "locator": {
+      "file": "r0802gianbetsukaihabetsuhyoketsujokyo.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "埼玉県議会 議員名簿 会派別（掲載日：2026年3月26日）",
+  "resultTitle": "埼玉県議会 令和８年２月定例会 議案別会派別 表決状況",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "埼玉県議会 令和８年２月定例会 議案別会派別 表決状況",
+    "sourceFile": "r0802gianbetsukaihabetsuhyoketsujokyo.pdf",
+    "columns": [
+      {
+        "label": "自民",
+        "faction": "埼玉県議会自由民主党議員団",
+        "stance": "賛成"
+      },
+      {
+        "label": "民主フォーラム",
+        "faction": "埼玉民主フォーラム",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明",
+        "faction": "埼玉県議会公明党議員団",
+        "stance": "賛成"
+      },
+      {
+        "label": "県民",
+        "faction": "無所属県民会議",
+        "stance": "賛成"
+      },
+      {
+        "label": "共産党",
+        "faction": "日本共産党埼玉県議会議員団",
+        "stance": "反対"
+      },
+      {
+        "label": "改革",
+        "faction": "無所属改革の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "国粋の会",
+        "faction": "さいたま国粋の会",
+        "stance": "反対"
+      },
+      {
+        "label": "埼玉県市民ネットワーク",
+        "faction": "埼玉県市民ネットワーク",
+        "stance": "賛成"
+      },
+      {
+        "label": "小谷野",
+        "faction": "無所属",
+        "member": "小谷野五雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "諸井",
+        "faction": "無所属",
+        "member": "諸井真英",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙木",
+        "faction": "無所属",
+        "member": "高木功介",
+        "stance": "賛成"
+      },
+      {
+        "label": "白土幸仁",
+        "faction": "埼玉県議会自由民主党議員団",
+        "member": "白土幸仁",
+        "stance": "議長"
+      }
+    ]
+  }
+}

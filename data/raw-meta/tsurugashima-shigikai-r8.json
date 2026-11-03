@@ -1,0 +1,26 @@
+{
+  "sourceId": "tsurugashima-shigikai-r8",
+  "files": [
+    {
+      "filename": "page009874.html",
+      "sha256": "a4ab2af8cfb20023a864afe6d3e965bf116879613ae19eff1902e0fd901b9bb1",
+      "bytes": 13321,
+      "fetchedAt": "2026-11-03T12:52:18.579Z",
+      "fetchedFrom": "https://www.city.tsurugashima.lg.jp/gikai/meibo/page009874.html"
+    },
+    {
+      "filename": "1773626116_doc_507_0.pdf",
+      "sha256": "b4443d9d2a52969d9c0b38844ed7af350489ccf7cbdb2d01254e261acda70cdb",
+      "bytes": 194421,
+      "fetchedAt": "2026-11-03T12:52:18.579Z",
+      "fetchedFrom": "https://www.city.tsurugashima.lg.jp/data/doc/1773626116_doc_507_0.pdf"
+    },
+    {
+      "filename": "page012058_warp20260408.html",
+      "sha256": "66aa543a10f444aef6f9e8db2991b8c5befb0c5e0bdb82f882eaffc594569c00",
+      "bytes": 15252,
+      "fetchedAt": "2026-11-03T12:52:18.580Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260418/20260408023114id_/https://www.city.tsurugashima.lg.jp/gikai/news/page012058.html"
+    }
+  ]
+}
