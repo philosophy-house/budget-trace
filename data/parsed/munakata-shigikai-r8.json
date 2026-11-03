@@ -1,0 +1,280 @@
+{
+  "docType": "council-composition",
+  "sourceId": "munakata-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T12:31:16.094Z",
+  "fiscalYear": "R8",
+  "body": "宗像市議会",
+  "seats": 19,
+  "asOf": "2024-11-01",
+  "factions": [
+    {
+      "name": "宗像志政クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "小林栄二",
+        "伊達正信",
+        "安部芳英",
+        "井浦潤也",
+        "木藤裕司",
+        "石松修"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "新留久味子",
+        "川内亮",
+        "神田亜希子"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "未来むなかた",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "北﨑正則",
+        "上野崇之",
+        "三島隆由"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岡本陽子",
+        "木村武士"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "岩岡良"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ふくおか市民政治ネットワーク",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "田中るみ子"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "豊創会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "吉田剛"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "清政郷土むなかた",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "花田哲司"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "笑顔、むなかた",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "齋藤元孝"
+      ],
+      "locator": {
+        "file": "kaiha_r061101.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "departures": [
+    {
+      "name": "森田卓也",
+      "faction": "宗像志政クラブ",
+      "kind": "辞職",
+      "date": "2026-02-26",
+      "dateLabel": "2月26日",
+      "title": "令和８年第１回宗像市議会定例会（第１日・2月26日）会議録「議員の辞職許可について」",
+      "url": "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1662",
+      "locator": {
+        "file": "kaigiroku_r080226_d1662.html"
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第26号議案",
+    "billName": "令和８年度宗像市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "giketsu.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派名簿〔R061101更新〕",
+  "resultTitle": "令和８年第１回定例会付議事件議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回宗像市議会定例会 賛否が分かれた議案名と議決結果",
+    "sourceFile": "sanpi_r0803.pdf",
+    "columns": [
+      {
+        "label": "齋藤元孝",
+        "faction": "笑顔、むなかた",
+        "member": "齋藤元孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "花田哲司",
+        "faction": "清政郷土むなかた",
+        "member": "花田哲司",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村武士",
+        "faction": "公明党",
+        "member": "木村武士",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中るみ子",
+        "faction": "ふくおか市民政治ネットワーク",
+        "member": "田中るみ子",
+        "stance": "賛成"
+      },
+      {
+        "label": "神田亜希子",
+        "faction": "日本共産党",
+        "member": "神田亜希子",
+        "stance": "反対"
+      },
+      {
+        "label": "三島隆由",
+        "faction": "未来むなかた",
+        "member": "三島隆由",
+        "stance": "賛成"
+      },
+      {
+        "label": "川内亮",
+        "faction": "日本共産党",
+        "member": "川内亮",
+        "stance": "反対"
+      },
+      {
+        "label": "石松修",
+        "faction": "宗像志政クラブ",
+        "member": "石松修",
+        "stance": "賛成"
+      },
+      {
+        "label": "木藤裕司",
+        "faction": "宗像志政クラブ",
+        "member": "木藤裕司",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩岡良",
+        "faction": "日本維新の会",
+        "member": "岩岡良",
+        "stance": "賛成"
+      },
+      {
+        "label": "上野崇之",
+        "faction": "未来むなかた",
+        "member": "上野崇之",
+        "stance": "賛成"
+      },
+      {
+        "label": "井浦潤也",
+        "faction": "宗像志政クラブ",
+        "member": "井浦潤也",
+        "stance": "賛成"
+      },
+      {
+        "label": "小林栄二",
+        "faction": "宗像志政クラブ",
+        "member": "小林栄二",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田剛",
+        "faction": "豊創会",
+        "member": "吉田剛",
+        "stance": "賛成"
+      },
+      {
+        "label": "安部芳英",
+        "faction": "宗像志政クラブ",
+        "member": "安部芳英",
+        "stance": "賛成"
+      },
+      {
+        "label": "北﨑正則",
+        "faction": "未来むなかた",
+        "member": "北﨑正則",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊達正信",
+        "faction": "宗像志政クラブ",
+        "member": "伊達正信",
+        "stance": "賛成"
+      },
+      {
+        "label": "新留久味子",
+        "faction": "日本共産党",
+        "member": "新留久味子",
+        "stance": "反対"
+      },
+      {
+        "label": "岡本陽子",
+        "faction": "公明党",
+        "member": "岡本陽子",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -42264,5 +42264,41 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080304A/13/10/1//0/0",
     "license": "弘前市ホームページに掲載している文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「弘前市ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、弘前市または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "file"
+  },
+  "/sources/munakata-shigikai-r8/kaiha_r061101.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/kiji0037517_20260120.html": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/giketsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/sanpi_r0803.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/kaigiroku_r080226_d1662.html": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
+  },
+  "/sources/munakata-shigikai-r8/kaigiroku_r080326_d1675_meibo.html": {
+    "mode": "origin",
+    "href": "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    "license": "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    "target": "page"
   }
 };

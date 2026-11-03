@@ -55286,6 +55286,49 @@ export const SOURCES: SourceEntry[] = [
       resolution: {"url": "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf", "title": "令和８年第１回定例会 議決結果", "alsoUrls": ["https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/45479/10/1//0/0"], "farOk": ["decidedDate"], "decidedDateText": "（第6号 3月19日） 議長（尾﨑寿一議員） 起立多数であります。 よって、議案第11号は、委員長報告のとおり可決いたしました。", "billNo": "議案第11号", "billName": "令和８年度弘前市一般会計予算", "sessionLabel": "令和８年第１回定例会", "decidedDate": "2026-03-19", "result": "原案可決"},
     },
   },
+  {
+    // 名簿: 会派一覧（kiji0037517）の「会派名簿〔R061101更新〕」PDF（3_7517_1_Kaiha.pdf）の魚拓 20250621172117（住所なし・会派名・代表者・結成日・構成員の氏名だけ）。議決前の魚拓 20260120024101 の会派一覧ページ（最終更新日 2024年11月1日・「の9会派があります。（令和6年11月現在）」）がこの PDF（59.4キロバイト）にリンクしている（linkedFrom）。発行元は 2026-02-26 に森田卓也議員を除いた版（3_7517_12445_up_d5t0rep2.pdf・議決後の魚拓 20260415184904 の会派一覧ページがリンク）に差し替えたが、その PDF は今は 302（error404）で魚拓も無い
+    // 会派の範囲: 名簿は会派が列に並ぶ表なので、会派ごとの列を座標の枠で切る（p.1・pdftotext -tsv で語の位置を測り、-layout・-raw の両方で枠の中が会派名・代表者・結成日・構成員の氏名だけになることを確かめた。枠の上端 y=103 は右上の〔R061101更新〕（y 89〜97）を外す）
+    // 議決前に離れた議員: 森田卓也（宗像志政クラブ）が 2026-02-26 に辞職。原文は令和８年第１回定例会（第１日・2月26日）の会議録（dbsr の印刷用ページ・DocumentID=1662・セッション番号に依らず引ける）の日程第４「議員の辞職許可について」で朗読された辞職願と、同じ日の「森田議員の議員辞職を許可することに決定しました」。議決結果 PDF の先頭の行「議員の辞職許可について 許可」とも合う
+    // 人数の網: 名簿に会派ごとの人数の印字が無いので各会派は noCountReason。議会全体は factionMarker（会派ごとの結成日「R061101」＝9。右上の「R061101更新」は先読みで除く）と totalText（議決当日 3/26 の会議録の名簿（DocumentID=1675）「出席１９人」＝議決時の19人・欠席０人）。定数（議会要覧 令和8年度版「条例数 20」・現員数 19）は欠員の原文が無いので teisu にしていない
+    // 議決時点の構成: 名簿の基準日（2024-11-01）から議決（2026-03-26）までの会派の異動は、森田議員の辞職だけとした — 議決当日の賛否表（3/26・18列＋議長 岡本陽子の注記）と 3/26 の会議録の名簿（出席19人・番号15＝森田議員の議席が無い）が19人全員を載せ（confirmUrls）、議決後の議会要覧 令和8年度版（令和8年4月1日現在・kiji0032097）の「党派会派別議員数」が宗像志政クラブ6・日本共産党3・未来むなかた3・公明党2・ほか1人会派5つ（計19）で、委員会の名簿の（会派）も19人全員がこの名簿の会派と一致する（目視・raw の外）。現行の会派名簿〔R080507更新〕も9会派の結成日が R061101 のままで構成員が同じ（R080507 に結びの会＝補欠選挙で当選した井本美帆議員が加わっただけ・目視）。2026-02-26 の更新は会派一覧ページの本文（9会派・令和6年11月現在）が変わっていない（議決後の魚拓 20260415）【推定: R061101 から R8.4.1 までの間に移籍して戻った議員がいないこと】
+    // 議決: 議決結果（kiji0032074）の「令和8年第1回定例会（3月）」PDF の行「第26号議案 令和８年度宗像市一般会計予算について 原案可決」。PDF に日付が無いので、議決日は議決当日の会議録の名簿（DocumentID=1675・第６日）の「開議　│令和８年３月２６日」で照合する（farOk）。1675 の日付は招集年月日の 2/26 と開議・閉会の 3/26 だけで、2/26 は森田議員の辞職の日なので departures の照合（離れた日 < 議決日）で塞がる。第26号議案がこの日に採決されたことは、同じ日の議事日程（DocumentID=1676「日程第　１７　第２６号議案　令和８年度宗像市一般会計予算について」）と本文（1677「よって、第２６号議案　令和８年度宗像市一般会計予算については、原案のとおり可決されました。」）にある（目視・raw の外）。1676 は行政視察報告の「令和８年３月２５日」を含み、議決日を 3/25 に書き換えた書き写しが通った（作業者が実測）ので urls に入れていない。1677 は財産の取得の議案の契約の相手方（法人の所在地と代表者の氏名）を載せるので raw に入れていない
+    // 賛否: 賛否の分かれた議案名と議決結果（kiji0032075）の「令和8年第1回定例会（3月）」PDF の行「第26号議案 令和８年度一般会計予算について 原案可決」（議員ごと18列）。賛成15・反対3（日本共産党の神田亜希子・川内亮・新留久味子）・議長1（岡本陽子・※の注記「岡本陽子議長には、賛成・反対の意思表示をする表決権がありません。」）。凡例「（○：賛成 ◆：反対）」
+    // ライセンス: 予算の行（munakata-yosansho-*）と同じ「このサイトについて」の原文（MUNAKATA_LICENSE）。リンクは「トップページ以外へのリンクは原則として禁止します。」で予算の行と同じく noDeepLink
+    // raw: PDF はすべて %PDF・HTML は <!DOCTYPE で始まり gzip でない（会議録は UTF-8 の BOM なし・会派一覧の魚拓は BOM つき）。拡張子の無い会議録の URL は .html で保存
+    // 自宅住所: raw の〒・電話は市役所のものだけ。会議録は 2/26 の本文（1662）と 3/26 の名簿（1675）だけを入れ、どちらにも住所・電話・生年月日・法人の所在地は無い（機械的に確認）。1662 は人権擁護委員の候補者・公平委員・教育委員の氏名を載せるが住所は無い（第９・１０号議案の提案理由も契約の相手方の名前を述べない）。1675 は議員と市の職員の職・氏名だけ。3/26 の本文（1677）と議員名簿（kiji0032076）は使っていない
+    id: "munakata-shigikai-r8",
+    title: "令和8年度 宗像市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "宗像市議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20250621172117id_/https://www.city.munakata.lg.jp/kiji0037517/3_7517_1_Kaiha.pdf",
+      "https://web.archive.org/web/20260120024101id_/https://www.city.munakata.lg.jp/kiji0037517/index.html",
+      "https://www.city.munakata.lg.jp/kiji0032074/3_2074_13454_up_zd07rxsa.pdf",
+      "https://www.city.munakata.lg.jp/kiji0032075/3_2075_13440_up_pkkvc4ny.pdf",
+      "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1662",
+      "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1675",
+    ],
+    landingPage: "https://www.city.munakata.lg.jp/kiji0037517/index.html",
+    noDeepLink: true,
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "宗像市議会（団体コード402206）",
+    license: "宗像市ウェブサイトから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は宗像市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "宗像市議会",
+      asOf: "2024-11-01",
+      asOfText: "R061101更新",
+      factionMarker: "R061101(?!更新)",
+      totalText: {"text": "出席１９人", "url": "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1675"},
+      roster: {"url": "https://web.archive.org/web/20250621172117id_/https://www.city.munakata.lg.jp/kiji0037517/3_7517_1_Kaiha.pdf", "title": "会派名簿〔R061101更新〕", "confirmUrls": ["https://www.city.munakata.lg.jp/kiji0032075/3_2075_13440_up_pkkvc4ny.pdf", "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1675"], "linkedFrom": {"url": "https://web.archive.org/web/20260120024101id_/https://www.city.munakata.lg.jp/kiji0037517/index.html", "text": "会派一覧（各会派名簿）（PDF：59.4キロバイト）"}},
+      factions: [{"name": "宗像志政クラブ", "members": ["小林栄二", "伊達正信", "安部芳英", "井浦潤也", "木藤裕司", "石松修"], "box": [76, 103, 48, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}, {"name": "日本共産党", "members": ["新留久味子", "川内亮", "神田亜希子"], "box": [125, 103, 57, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}, {"name": "未来むなかた", "members": ["北﨑正則", "上野崇之", "三島隆由"], "box": [184, 103, 55, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}, {"name": "公明党", "members": ["岡本陽子", "木村武士"], "box": [241, 103, 52, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}, {"name": "日本維新の会", "members": ["岩岡良"], "box": [295, 103, 53, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}, {"name": "ふくおか市民政治ネットワーク", "members": ["田中るみ子"], "box": [350, 103, 63, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}, {"name": "豊創会", "members": ["吉田剛"], "box": [415, 103, 43, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}, {"name": "清政郷土むなかた", "members": ["花田哲司"], "box": [460, 103, 63, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}, {"name": "笑顔、むなかた", "members": ["齋藤元孝"], "box": [524, 103, 56, 240], "page": 1, "noDeclaredCount": true, "noCountReason": "会派名簿は会派ごとの人数を印字しない（会派名・代表者・結成日・構成員の氏名だけ）。議会全体は会派ごとの結成日の印（factionMarker）・議決当日の会議録の出席議員数（totalText）・議員ごとの賛否表で網を掛ける"}],
+      departures: [{"name": "森田卓也", "faction": "宗像志政クラブ", "kind": "辞職", "date": "2026-02-26", "text": "辞職願。令和８年２月２６日。宗像市議会議長、岡本陽子様。宗像市議会議員、森田卓也。このたび一身上の都合により、議員を辞職したいので", "url": "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1662", "title": "令和８年第１回宗像市議会定例会（第１日・2月26日）会議録「議員の辞職許可について」"}],
+      votes: {"url": "https://www.city.munakata.lg.jp/kiji0032075/3_2075_13440_up_pkkvc4ny.pdf", "title": "令和８年第１回宗像市議会定例会 賛否が分かれた議案名と議決結果", "basis": "member", "legend": {"○": "賛成", "◆": "反対"}, "legendText": ["（○：賛成 ◆：反対）", "※岡本陽子議長には、賛成・反対の意思表示をする表決権がありません。"], "anchor": "令和８年度一般会計予算について 原案可決", "symbols": "○○○○◆○◆○○○○○○○○○○◆", "columns": [{"label": "齋藤元孝"}, {"label": "花田哲司"}, {"label": "木村武士"}, {"label": "田中るみ子"}, {"label": "神田亜希子"}, {"label": "三島隆由"}, {"label": "川内亮"}, {"label": "石松修"}, {"label": "木藤裕司"}, {"label": "岩岡良"}, {"label": "上野崇之"}, {"label": "井浦潤也"}, {"label": "小林栄二"}, {"label": "吉田剛"}, {"label": "安部芳英"}, {"label": "北﨑正則"}, {"label": "伊達正信"}, {"label": "新留久味子"}], "blank": [{"label": "岡本陽子", "stance": "議長", "evidence": "※岡本陽子議長には、賛成・反対の意思表示をする表決権がありません。"}]},
+      resolution: {"url": "https://www.city.munakata.lg.jp/kiji0032074/3_2074_13454_up_zd07rxsa.pdf", "title": "令和８年第１回定例会付議事件議決結果", "alsoUrls": ["https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1675"], "farOk": ["decidedDate"], "decidedDateText": "開議　│令和８年３月２６日", "billNo": "第26号議案", "billName": "令和８年度宗像市一般会計予算", "sessionLabel": "令和8年第1回定例会", "decidedDate": "2026-03-26", "result": "原案可決"},
+    },
+  },
 ];
 
 // 起動時にレジストリ自体を検証する（不正エントリの混入防止）
