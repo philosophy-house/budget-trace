@@ -1,0 +1,33 @@
+{
+  "sourceId": "wako-shigikai-r8",
+  "files": [
+    {
+      "filename": "wako_r80318giinbetukekka.pdf",
+      "sha256": "c1ae0b76185c3709c776fce8a6d3cd749ff26b2c4f05251b162b5dac8ad6dcf6",
+      "bytes": 1588704,
+      "fetchedAt": "2026-11-03T12:52:18.547Z",
+      "fetchedFrom": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/013/156/r80318giinbetukekka.pdf"
+    },
+    {
+      "filename": "wako_2605dayori3.pdf",
+      "sha256": "7d74146ec67d67f35449be696bed626515341d837c3331863b76c5c5cc889b2f",
+      "bytes": 3513643,
+      "fetchedAt": "2026-11-03T12:52:18.549Z",
+      "fetchedFrom": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/013/556/2605dayori3.pdf"
+    },
+    {
+      "filename": "wako_r80318giji.pdf",
+      "sha256": "839220a7a3dca58595b3b378333650d09944e6a5b3f70dc9354b3441e48029e9",
+      "bytes": 73316,
+      "fetchedAt": "2026-11-03T12:52:18.550Z",
+      "fetchedFrom": "https://www.city.wako.lg.jp/_res/projects/default_project/_page_/001/013/156/r80318giji.pdf"
+    },
+    {
+      "filename": "wako_wb20260114_meibo.html",
+      "sha256": "6754598d62c450e457e882fa7e95558ea3a0905e4c37fbcbb14228ae7cc8c1a7",
+      "bytes": 56353,
+      "fetchedAt": "2026-11-03T12:52:18.550Z",
+      "fetchedFrom": "https://web.archive.org/web/20260114101128id_/https://www.city.wako.lg.jp/shisei/1006222/1006464/1006466/index.html"
+    }
+  ]
+}

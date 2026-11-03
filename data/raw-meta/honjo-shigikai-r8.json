@@ -1,0 +1,33 @@
+{
+  "sourceId": "honjo-shigikai-r8",
+  "files": [
+    {
+      "filename": "9552_warp20260406.html",
+      "sha256": "a2f1560aac9d0247c5f0b1cb9d6da61b233a4099e900f73448b39da43de2e265",
+      "bytes": 28494,
+      "fetchedAt": "2026-11-03T12:52:18.566Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260416/20260406025327id_/https://www.city.honjo.lg.jp/shiseijoho/shigikai/giinnitsuite/9552.html"
+    },
+    {
+      "filename": "8205.html",
+      "sha256": "78b20aaabc2cecc17f9458974d81a4ebd4f183072b7ed2bf3e567d7f20a54f7a",
+      "bytes": 29706,
+      "fetchedAt": "2026-11-03T12:52:18.566Z",
+      "fetchedFrom": "https://www.city.honjo.lg.jp/shiseijoho/shigikai/giinnitsuite/8205.html"
+    },
+    {
+      "filename": "sanpi0325.pdf",
+      "sha256": "62612e2ad96e692b460a81914bd55245545d93dcf181316a8219f36f49c7fa95",
+      "bytes": 99538,
+      "fetchedAt": "2026-11-03T12:52:18.567Z",
+      "fetchedFrom": "https://www.city.honjo.lg.jp/material/files/group/30/sanpi0325.pdf"
+    },
+    {
+      "filename": "giketukekka080325.pdf",
+      "sha256": "ec861165551a5b9548060c3cb84d7f5238fd338017f71c459a10cabc2f84e7c6",
+      "bytes": 93364,
+      "fetchedAt": "2026-11-03T12:52:18.568Z",
+      "fetchedFrom": "https://www.city.honjo.lg.jp/material/files/group/30/giketukekka080325.pdf"
+    }
+  ]
+}

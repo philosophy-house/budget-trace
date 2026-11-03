@@ -1,0 +1,111 @@
+{
+  "docType": "council-composition",
+  "sourceId": "warabi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:19.605Z",
+  "fiscalYear": "R8",
+  "body": "蕨市議会",
+  "seats": 18,
+  "asOf": "2026-01-10",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "わらび未来の会",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "前川やすえ",
+        "金丸けんじ",
+        "岡田みきお",
+        "庄野航二",
+        "栃本よしかね",
+        "大石圭子",
+        "古川歩",
+        "比企孝司"
+      ],
+      "locator": {
+        "file": "g07_Kaiha_warp20260110.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "蕨市公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大石幸一",
+        "矢嶋聡子",
+        "本田てい子"
+      ],
+      "locator": {
+        "file": "g07_Kaiha_warp20260110.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党蕨市議会議員団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鈴木智",
+        "武下涼",
+        "山脇紀子"
+      ],
+      "locator": {
+        "file": "g07_Kaiha_warp20260110.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "新翔会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小林利規"
+      ],
+      "locator": {
+        "file": "g07_Kaiha_warp20260110.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "宮下奈美",
+        "榎本和孝"
+      ],
+      "locator": {
+        "file": "g07_Kaiha_warp20260110.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "鈴木慎乃助"
+      ],
+      "locator": {
+        "file": "g07_Kaiha_warp20260110.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第21号",
+    "billName": "令和８年度蕨市一般会計予算",
+    "sessionLabel": "令和８年第２回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "g07_Giketsu_View_1665.html"
+    }
+  },
+  "rosterTitle": "蕨市議会 議員名簿（会派別）（国立国会図書館 WARP 2026年1月10日の収集）",
+  "resultTitle": "蕨市議会 議案等の詳細情報（議案第21号 令和８年度蕨市一般会計予算）"
+}

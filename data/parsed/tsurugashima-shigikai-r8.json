@@ -1,0 +1,99 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tsurugashima-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:23.390Z",
+  "fiscalYear": "R8",
+  "body": "鶴ケ島市議会",
+  "seats": 17,
+  "asOf": "2026-03-19",
+  "factions": [
+    {
+      "name": "新政クラブ",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小川茂",
+        "瀧嶋正紀",
+        "杉田恭之",
+        "髙橋剣二"
+      ],
+      "locator": {
+        "file": "page009874.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "今野雄一",
+        "小林ひとみ",
+        "山中基充"
+      ],
+      "locator": {
+        "file": "page009874.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "すだち",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "髙篠雅洋",
+        "大野洋子",
+        "大曽根英明"
+      ],
+      "locator": {
+        "file": "page009874.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "太田忠芳",
+        "小島幸広"
+      ],
+      "locator": {
+        "file": "page009874.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "所属なし",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "出雲敏太郎",
+        "福島恵美",
+        "村上信吉",
+        "内野嘉広",
+        "長谷川清"
+      ],
+      "locator": {
+        "file": "page009874.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第３１号",
+    "billName": "令和８年度鶴ヶ島市一般会計予算について",
+    "sessionLabel": "令和８年第１回鶴ヶ島市議会定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1773626116_doc_507_0.pdf",
+      "page": 3
+    }
+  },
+  "rosterTitle": "鶴ヶ島市議会議員名簿(会派別)令和7年10月20日現在（議決時点の所属は令和８年第１回定例会審議結果（R8.3.19）の表頭で確認）",
+  "resultTitle": "令和８年第１回鶴ヶ島市議会定例会審議結果"
+}

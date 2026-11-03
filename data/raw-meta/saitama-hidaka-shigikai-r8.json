@@ -1,0 +1,33 @@
+{
+  "sourceId": "saitama-hidaka-shigikai-r8",
+  "files": [
+    {
+      "filename": "746_warp20260110.html",
+      "sha256": "e095f5124d487219bdbbde0daa126ef31384f85460ff07c9f51f3cd9c4de79b4",
+      "bytes": 38311,
+      "fetchedAt": "2026-11-03T12:52:18.580Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260111/20260110121206id_/https://www.city.hidaka.lg.jp/soshiki/gikai/gikai/shigikaigiin/746.html"
+    },
+    {
+      "filename": "R805-2.pdf",
+      "sha256": "a2a3c11a71b7f5db456ec6f42c1d68fb1fe5a616d16fd65a9ece32438e8557f5",
+      "bytes": 576885,
+      "fetchedAt": "2026-11-03T12:52:18.581Z",
+      "fetchedFrom": "https://www.city.hidaka.lg.jp/material/files/group/30/R805-2.pdf"
+    },
+    {
+      "filename": "reiwa8nendai2kai.pdf",
+      "sha256": "18be29f4b12eb87151bdf5f97a6ebf789be2085e4c58573c126bd3a8b075213e",
+      "bytes": 114790,
+      "fetchedAt": "2026-11-03T12:52:18.582Z",
+      "fetchedFrom": "https://www.city.hidaka.lg.jp/material/files/group/30/reiwa8nendai2kai.pdf"
+    },
+    {
+      "filename": "25683.html",
+      "sha256": "c7b832e45ae214d8fdccdd562b045d978a1c61f11dbbd6546286e52804bc416c",
+      "bytes": 38155,
+      "fetchedAt": "2026-11-03T12:52:18.582Z",
+      "fetchedFrom": "https://www.city.hidaka.lg.jp/information/106/r5_0423_senkyo/25683.html"
+    }
+  ]
+}

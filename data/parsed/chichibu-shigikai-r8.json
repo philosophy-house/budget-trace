@@ -1,0 +1,99 @@
+{
+  "docType": "council-composition",
+  "sourceId": "chichibu-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T17:35:18.925Z",
+  "fiscalYear": "R8",
+  "body": "秩父市議会",
+  "seats": 17,
+  "asOf": "2025-10-25",
+  "factions": [
+    {
+      "name": "市民クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "赤岩秀文",
+        "小櫃市郎",
+        "宮前昌美",
+        "髙野宏",
+        "木村隆彦",
+        "浅海忠"
+      ],
+      "locator": {
+        "file": "7.10.25kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "大久保進",
+        "本橋貢"
+      ],
+      "locator": {
+        "file": "7.10.25kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新政ちちぶ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小松穂波",
+        "堀口義正"
+      ],
+      "locator": {
+        "file": "7.10.25kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "まほろば",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "笠原宏平",
+        "宮川浩司",
+        "髙野佳男",
+        "坂本勝幸",
+        "内田均"
+      ],
+      "locator": {
+        "file": "7.10.25kaiha.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "出浦章恵",
+        "黒澤秀之"
+      ],
+      "locator": {
+        "file": "7.10.25kaiha.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第32号",
+    "billName": "令和８年度秩父市一般会計予算",
+    "sessionLabel": "3月定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "0803gikestusyorikekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "秩父市議会 会派別名簿（令和7年10月25日）",
+  "resultTitle": "議案処理結果一覧表（令和8年3月定例会）"
+}

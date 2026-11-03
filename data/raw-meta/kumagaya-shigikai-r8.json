@@ -1,0 +1,47 @@
+{
+  "sourceId": "kumagaya-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha45_warp20260406.pdf",
+      "sha256": "77a0cef21e072ecde700b52fd3fc0d95fcb462bf4f2cc1797ff96007ffd9b324",
+      "bytes": 37554,
+      "fetchedAt": "2026-11-03T12:52:18.557Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260415/20260406090815id_/https://www.city.kumagaya.lg.jp/shigikai/meibo/kakushumeibo.files/kaiha45.pdf"
+    },
+    {
+      "filename": "kakushumeibo_warp20260406.html",
+      "sha256": "a35a2bf1dca44fce2b8af8113a7480f20e7a154b389db5630cdc5d637a0764d6",
+      "bytes": 24459,
+      "fetchedAt": "2026-11-03T12:52:18.557Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260415/20260406025530id_/https://www.city.kumagaya.lg.jp/shigikai/meibo/kakushumeibo.html"
+    },
+    {
+      "filename": "kekka0803_0317.pdf",
+      "sha256": "d6547a8777ce2c720abc4ede786a1fda5221ad85853c1077f7367c31fe935cd4",
+      "bytes": 231374,
+      "fetchedAt": "2026-11-03T12:52:18.558Z",
+      "fetchedFrom": "https://www.city.kumagaya.lg.jp/shigikai/gaiyou/reiwa8nenn3gatu/kekka0803.files/kekka0803_0317.pdf"
+    },
+    {
+      "filename": "kekka0803.html",
+      "sha256": "cc17c199e17d3765b72a327d71b5cd28c8fe9e17ccfe4fb991413f85e0a9bd6c",
+      "bytes": 21523,
+      "fetchedAt": "2026-11-03T12:52:18.558Z",
+      "fetchedFrom": "https://www.city.kumagaya.lg.jp/shigikai/gaiyou/reiwa8nenn3gatu/kekka0803.html"
+    },
+    {
+      "filename": "sikumi_bocho.html",
+      "sha256": "41918f69f568915daae9c1723ffe8c514f8d54b0cb58e6dda37380b7012b646b",
+      "bytes": 28766,
+      "fetchedAt": "2026-11-03T12:52:18.558Z",
+      "fetchedFrom": "https://www.city.kumagaya.lg.jp/shigikai/sikumi_bocho.html"
+    },
+    {
+      "filename": "seihukugityouaisatu_warp20260406.html",
+      "sha256": "1f08fb6290c70143974171ac39d2609d7eee15b2c1af862d4a19e5ecdcd80704",
+      "bytes": 22550,
+      "fetchedAt": "2026-11-03T12:52:18.558Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260415/20260406025515id_/https://www.city.kumagaya.lg.jp/shigikai/seihukugityouaisatu.html"
+    }
+  ]
+}

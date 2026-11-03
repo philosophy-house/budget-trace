@@ -1,0 +1,19 @@
+{
+  "sourceId": "saitama-shigikai-r8",
+  "files": [
+    {
+      "filename": "sai_0802hyouketutaido.pdf",
+      "sha256": "de825a06c5961ecbb12036528c922b6274c5a7b27111e819d332e72473447f11",
+      "bytes": 326564,
+      "fetchedAt": "2026-11-03T12:52:18.544Z",
+      "fetchedFrom": "https://www.city.saitama.lg.jp/gikai/003/002/hyouketutaido/p129237_d/fil/0802hyouketutaido.pdf"
+    },
+    {
+      "filename": "sai_warp_p005176.html",
+      "sha256": "c1a198b5445decd59f6f811e27f230ef91fe2d055a4a9b3153d83fac8c9753a6",
+      "bytes": 27075,
+      "fetchedAt": "2026-11-03T12:52:18.545Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260419/20260407083845id_/https://www.city.saitama.lg.jp/gikai/001/meibo/p005176.html"
+    }
+  ]
+}

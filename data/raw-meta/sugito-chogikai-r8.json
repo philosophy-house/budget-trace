@@ -1,0 +1,40 @@
+{
+  "sourceId": "sugito-chogikai-r8",
+  "files": [
+    {
+      "filename": "sugito_6175_wb20260305180337.html",
+      "sha256": "4c48c2f64a37459fc2ed2a9f919036a8a826246491733a1e85fbfdd459f4bfcb",
+      "bytes": 26480,
+      "fetchedAt": "2026-11-03T12:52:18.595Z",
+      "fetchedFrom": "https://web.archive.org/web/20260305180337id_/https://www.town.sugito.lg.jp/site/gikai/6175.html"
+    },
+    {
+      "filename": "sugito_6175_wb20260616190603.html",
+      "sha256": "107df0be6830f419888b0d330977d46194dc1693564cc23c3fcb8cb4b79841cf",
+      "bytes": 26446,
+      "fetchedAt": "2026-11-03T12:52:18.595Z",
+      "fetchedFrom": "https://web.archive.org/web/20260616190603id_/https://www.town.sugito.lg.jp/site/gikai/6175.html"
+    },
+    {
+      "filename": "sugito_17312.pdf",
+      "sha256": "6ba8501d59370cdae93350a16efe59e09cbc6b6c539dfb4f34a0d64dd702c882",
+      "bytes": 48741,
+      "fetchedAt": "2026-11-03T12:52:18.596Z",
+      "fetchedFrom": "https://www.town.sugito.lg.jp/uploaded/attachment/17312.pdf"
+    },
+    {
+      "filename": "sugito_16136.pdf",
+      "sha256": "666dffe58eeb176dd03d8db3bc8f02ed03f250f5d82e213debf7c1083f9da05d",
+      "bytes": 147800,
+      "fetchedAt": "2026-11-03T12:52:18.596Z",
+      "fetchedFrom": "https://www.town.sugito.lg.jp/uploaded/attachment/16136.pdf"
+    },
+    {
+      "filename": "sugito_teisu_e391RG00000026.html",
+      "sha256": "d9459597052c90524b8388d7d8d2d07fd56038fee503d956e219e32eb04aa365",
+      "bytes": 8452,
+      "fetchedAt": "2026-11-03T12:52:18.596Z",
+      "fetchedFrom": "https://www1.g-reiki.net/sugito/reiki_honbun/e391RG00000026.html"
+    }
+  ]
+}
