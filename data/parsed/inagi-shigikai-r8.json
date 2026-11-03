@@ -1,0 +1,246 @@
+{
+  "docType": "council-composition",
+  "sourceId": "inagi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:48:36.429Z",
+  "fiscalYear": "R8",
+  "body": "稲城市議会",
+  "seats": 21,
+  "asOf": "2026-03-30",
+  "factions": [
+    {
+      "name": "稲志会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "北浜けんいち",
+        "川村あや",
+        "中田中",
+        "鈴木誠",
+        "土居のりひろ",
+        "中島健介"
+      ],
+      "locator": {
+        "file": "inagi_shigi252.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "渡辺力",
+        "坂田たけふみ",
+        "池田英司",
+        "角田政信",
+        "梶浦みさこ"
+      ],
+      "locator": {
+        "file": "inagi_shigi252.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "つのじ寛美",
+        "佐藤しんじ",
+        "湯谷ひろし"
+      ],
+      "locator": {
+        "file": "inagi_shigi252.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岡田まなぶ",
+        "山岸太一",
+        "田島きく子"
+      ],
+      "locator": {
+        "file": "inagi_shigi252.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "改革未来の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "榎本久春",
+        "いそむらあきこ"
+      ],
+      "locator": {
+        "file": "inagi_shigi252.pdf",
+        "page": 12
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "村上洋子",
+        "武田まさひと"
+      ],
+      "locator": {
+        "file": "inagi_shigi252.pdf",
+        "page": 12
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第16号議案",
+    "billName": "令和8年度東京都稲城市一般会計予算",
+    "sessionLabel": "令和8年第1回稲城市議会定例会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "原案可決",
+    "locator": {
+      "file": "inagi_1013698.html"
+    }
+  },
+  "rosterTitle": "いなぎ市議会だより第252号（令和8年5月15日発行）12面 令和8年第1回定例会での審議結果（会派と議員の表頭）",
+  "resultTitle": "令和8年第1回稲城市議会定例会 市長提出議案一覧（結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "いなぎ市議会だより第252号（令和8年5月15日発行）12面 令和8年第1回定例会での審議結果",
+    "sourceFile": "inagi_shigi252.pdf",
+    "columns": [
+      {
+        "label": "北浜けんいち",
+        "faction": "稲志会",
+        "member": "北浜けんいち",
+        "stance": "賛成"
+      },
+      {
+        "label": "川村あや",
+        "faction": "稲志会",
+        "member": "川村あや",
+        "stance": "賛成"
+      },
+      {
+        "label": "中田中",
+        "faction": "稲志会",
+        "member": "中田中",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木誠",
+        "faction": "稲志会",
+        "member": "鈴木誠",
+        "stance": "賛成"
+      },
+      {
+        "label": "土居のりひろ",
+        "faction": "稲志会",
+        "member": "土居のりひろ",
+        "stance": "賛成"
+      },
+      {
+        "label": "中島健介",
+        "faction": "稲志会",
+        "member": "中島健介",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡辺力",
+        "faction": "新政会",
+        "member": "渡辺力",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂田たけふみ",
+        "faction": "新政会",
+        "member": "坂田たけふみ",
+        "stance": "議長"
+      },
+      {
+        "label": "池田英司",
+        "faction": "新政会",
+        "member": "池田英司",
+        "stance": "賛成"
+      },
+      {
+        "label": "角田政信",
+        "faction": "新政会",
+        "member": "角田政信",
+        "stance": "賛成"
+      },
+      {
+        "label": "梶浦みさこ",
+        "faction": "新政会",
+        "member": "梶浦みさこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "つのじ寛美",
+        "faction": "公明党",
+        "member": "つのじ寛美",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤しんじ",
+        "faction": "公明党",
+        "member": "佐藤しんじ",
+        "stance": "賛成"
+      },
+      {
+        "label": "湯谷ひろし",
+        "faction": "公明党",
+        "member": "湯谷ひろし",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡田まなぶ",
+        "faction": "日本共産党",
+        "member": "岡田まなぶ",
+        "stance": "反対"
+      },
+      {
+        "label": "山岸太一",
+        "faction": "日本共産党",
+        "member": "山岸太一",
+        "stance": "反対"
+      },
+      {
+        "label": "田島きく子",
+        "faction": "日本共産党",
+        "member": "田島きく子",
+        "stance": "反対"
+      },
+      {
+        "label": "榎本久春",
+        "faction": "改革未来の会",
+        "member": "榎本久春",
+        "stance": "賛成"
+      },
+      {
+        "label": "いそむらあきこ",
+        "faction": "改革未来の会",
+        "member": "いそむらあきこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "村上洋子",
+        "faction": "無所属",
+        "member": "村上洋子",
+        "stance": "反対"
+      },
+      {
+        "label": "武田まさひと",
+        "faction": "無所属",
+        "member": "武田まさひと",
+        "stance": "反対"
+      }
+    ]
+  }
+}

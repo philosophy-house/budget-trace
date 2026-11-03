@@ -1,0 +1,33 @@
+{
+  "sourceId": "arakawa-kugikai-r8",
+  "files": [
+    {
+      "filename": "arakawa_dayori293.pdf",
+      "sha256": "bad394143615701f3290b5aed77c085066273a7a9dfa38725f8a2638e28c0889",
+      "bytes": 3838834,
+      "fetchedAt": "2026-11-03T12:48:14.678Z",
+      "fetchedFrom": "https://www.city.arakawa.tokyo.jp/documents/43001/no293.pdf"
+    },
+    {
+      "filename": "arakawa_dayori295_zentai.pdf",
+      "sha256": "eb71081d2e73a96efec8f7e1d8748f89c5707823954a1191dea9101119d578ef",
+      "bytes": 6125859,
+      "fetchedAt": "2026-11-03T12:48:14.683Z",
+      "fetchedFrom": "https://www.city.arakawa.tokyo.jp/documents/44379/no295_zentai.pdf"
+    },
+    {
+      "filename": "arakawa_080317_honkaigi.html",
+      "sha256": "58ddbc7013f46aecec1341efa9cefe206e347e6da381e6eda0cced6ac734a14d",
+      "bytes": 22665,
+      "fetchedAt": "2026-11-03T12:48:14.686Z",
+      "fetchedFrom": "https://www.city.arakawa.tokyo.jp/a053/080317_honkaigi.html"
+    },
+    {
+      "filename": "arakawa_rekidaigicho.html",
+      "sha256": "37dbf02453598c31dba17b568c4f3096fa9f08ef183147fd852d714abefddb55",
+      "bytes": 36774,
+      "fetchedAt": "2026-11-03T12:48:14.686Z",
+      "fetchedFrom": "https://www.city.arakawa.tokyo.jp/a053/gikaisenkyo/kugikai/rekidaigicho.html"
+    }
+  ]
+}
