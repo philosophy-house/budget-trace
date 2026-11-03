@@ -1,0 +1,101 @@
+{
+  "docType": "council-composition",
+  "sourceId": "oamishirasato-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T21:27:37.846Z",
+  "fiscalYear": "R8",
+  "body": "大網白里市議会",
+  "seats": 18,
+  "asOf": "2024-11-20",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "上代和利",
+        "輪島美津江",
+        "引間真理子"
+      ],
+      "locator": {
+        "file": "kaiha_20241120.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政真会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "森建二",
+        "猪崎紀人"
+      ],
+      "locator": {
+        "file": "kaiha_20241120.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "小金井勉",
+        "斉藤完育",
+        "金森浩二",
+        "高野祐二",
+        "土屋忠和",
+        "小倉利昭"
+      ],
+      "locator": {
+        "file": "kaiha_20241120.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自由民主の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "田辺正弘",
+        "北田宏彦"
+      ],
+      "locator": {
+        "file": "kaiha_20241120.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "どの会派にも属していない議員",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "佐久間久良",
+        "石渡登志男",
+        "宮間文夫",
+        "黒須俊隆",
+        "岡田憲二"
+      ],
+      "locator": {
+        "file": "kaiha_20241120.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第９号",
+    "billName": "令和８年度大網白里市一般会計予算",
+    "sessionLabel": "令和８年大網白里市議会第１回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "R8.1_kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派の構成（令和6年11月20日現在）",
+  "resultTitle": "議案等処理結果（令和８年大網白里市議会第１回定例会）"
+}

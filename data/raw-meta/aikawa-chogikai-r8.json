@@ -1,0 +1,47 @@
+{
+  "sourceId": "aikawa-chogikai-r8",
+  "files": [
+    {
+      "filename": "aikawa_gikaidai1kaiteireikaikaihabetu.pdf",
+      "sha256": "35da1cdaedf00279a4fc9859968f433d63badf0bfad32e6d8cf820060ebc0fbd",
+      "bytes": 192062,
+      "fetchedAt": "2026-11-03T12:47:24.029Z",
+      "fetchedFrom": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/gikaidai1kaiteireikaikaihabetu.pdf"
+    },
+    {
+      "filename": "aikawa_gikaidai1kaiteireikaisingikekka.pdf",
+      "sha256": "6a0cf13eee35ebf5b1551713dfabf48cb3ca5062f58b52cd72876727df1de65b",
+      "bytes": 158848,
+      "fetchedAt": "2026-11-03T12:47:24.029Z",
+      "fetchedFrom": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/gikaidai1kaiteireikaisingikekka.pdf"
+    },
+    {
+      "filename": "aikawa_R0803soumukennsetuhoukoku.pdf",
+      "sha256": "6ebf25cc2e251fcfd9d87ede2a5751a5f9fb654c57b951139fe4de8586d96b19",
+      "bytes": 290980,
+      "fetchedAt": "2026-11-03T12:47:24.030Z",
+      "fetchedFrom": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/R0803soumukennsetuhoukoku.pdf"
+    },
+    {
+      "filename": "aikawa_6307.html",
+      "sha256": "4b89e85b45bbc2a1ab935515cff5e237c39a3b0590c7cbba25053f4a3e2e8ab7",
+      "bytes": 38408,
+      "fetchedAt": "2026-11-03T12:47:24.030Z",
+      "fetchedFrom": "https://www.town.aikawa.kanagawa.jp/assembly/shikumi/6307.html"
+    },
+    {
+      "filename": "aikawa_6503.html",
+      "sha256": "01467d4ff0d2b823006bf2840d7e9cca2e6078d4f1faf9c9622964a1a9dcccb3",
+      "bytes": 34665,
+      "fetchedAt": "2026-11-03T12:47:24.030Z",
+      "fetchedFrom": "https://www.town.aikawa.kanagawa.jp/assembly/syoukai/6503.html"
+    },
+    {
+      "filename": "aikawa_seimukatudouR7.pdf",
+      "sha256": "852b52e7e966993a62537fbfaaf45fd3646cbb541030e3c4369ddd5b0733e344",
+      "bytes": 140705,
+      "fetchedAt": "2026-11-03T12:47:24.031Z",
+      "fetchedFrom": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/seimukatudouR7.pdf"
+    }
+  ]
+}

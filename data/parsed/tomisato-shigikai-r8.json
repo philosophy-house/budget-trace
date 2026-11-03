@@ -1,0 +1,78 @@
+{
+  "docType": "council-composition",
+  "sourceId": "tomisato-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T21:27:39.736Z",
+  "fiscalYear": "R8",
+  "body": "富里市議会",
+  "seats": 18,
+  "asOf": "2026-03-18",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "富里自民の会",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "関根正之",
+        "荒野峰之",
+        "河田厚子",
+        "國本正美",
+        "野並慶光",
+        "戸村喜一郎",
+        "岡野耕平",
+        "田口勝一",
+        "高橋益枝"
+      ],
+      "locator": {
+        "file": "tomisatogikai230.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "日下部千秋",
+        "杉山弘一",
+        "布川好夫"
+      ],
+      "locator": {
+        "file": "tomisatogikai230.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 6,
+      "isIndependent": true,
+      "members": [
+        "岩田克彦",
+        "平岡真奈美",
+        "藤田幹",
+        "井上康",
+        "柏崎のり子",
+        "鈴木英吉"
+      ],
+      "locator": {
+        "file": "tomisatogikai230.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和8年度富里市一般会計予算",
+    "sessionLabel": "令和8年第2回富里市議会定例会(3月)",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "多数可決",
+    "locator": {
+      "file": "0000017132.html"
+    }
+  },
+  "rosterTitle": "みんなの議会 第230号（令和8年5月1日発行）p.3「１月臨時会・３月定例会の議案と議決結果」の表頭（会派名及び議員名）",
+  "resultTitle": "令和8年第2回富里市議会定例会(3月)議案と議決結果"
+}

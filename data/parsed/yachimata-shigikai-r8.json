@@ -1,0 +1,244 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yachimata-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T21:27:39.205Z",
+  "fiscalYear": "R8",
+  "body": "八街市議会",
+  "seats": 19,
+  "asOf": "2026-03-13",
+  "factions": [
+    {
+      "name": "誠和会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "小菅耕二",
+        "山口孝弘",
+        "鈴木広美",
+        "小川喜敬",
+        "小山昌弘"
+      ],
+      "locator": {
+        "file": "31318.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "角麻子",
+        "木内文雄",
+        "栗林澄惠",
+        "清水顕司"
+      ],
+      "locator": {
+        "file": "31318.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "やちまた21",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "林政男",
+        "加藤弘",
+        "小澤孝延"
+      ],
+      "locator": {
+        "file": "31318.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "丸山わき子",
+        "若泉聡志"
+      ],
+      "locator": {
+        "file": "31318.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "新誠会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小髙良則",
+        "石井孝昭"
+      ],
+      "locator": {
+        "file": "31318.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "Move it!八街 政治は生活",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "木村由希子",
+        "後藤祐樹"
+      ],
+      "locator": {
+        "file": "31318.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "会派に所属しない議員（桜田秀雄）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "桜田秀雄"
+      ],
+      "locator": {
+        "file": "31318.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議 20",
+    "billName": "令和８年度八街市一般会計予算について",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-13",
+    "decidedDateLabel": "令和8年3月13日",
+    "result": "原案可決",
+    "locator": {
+      "file": "26208.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派別名簿（更新日 2025年4月1日。議決時点の所属は「令和8年3月定例会議案等賛否一覧」の表頭で確認）",
+  "resultTitle": "令和8年3月定例会議案等賛否一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月定例会議案等賛否一覧",
+    "sourceFile": "26208.pdf",
+    "columns": [
+      {
+        "label": "小菅耕二",
+        "faction": "誠和会",
+        "member": "小菅耕二",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口孝弘",
+        "faction": "誠和会",
+        "member": "山口孝弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木広美",
+        "faction": "誠和会",
+        "member": "鈴木広美",
+        "stance": "賛成"
+      },
+      {
+        "label": "小川喜敬",
+        "faction": "誠和会",
+        "member": "小川喜敬",
+        "stance": "賛成"
+      },
+      {
+        "label": "小山昌弘",
+        "faction": "誠和会",
+        "member": "小山昌弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "角麻子",
+        "faction": "公明党",
+        "member": "角麻子",
+        "stance": "賛成"
+      },
+      {
+        "label": "木内文雄",
+        "faction": "公明党",
+        "member": "木内文雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "栗林澄惠",
+        "faction": "公明党",
+        "member": "栗林澄惠",
+        "stance": "賛成"
+      },
+      {
+        "label": "清水顕司",
+        "faction": "公明党",
+        "member": "清水顕司",
+        "stance": "賛成"
+      },
+      {
+        "label": "林政男",
+        "faction": "やちまた21",
+        "member": "林政男",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤弘",
+        "faction": "やちまた21",
+        "member": "加藤弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "丸山わき子",
+        "faction": "日本共産党",
+        "member": "丸山わき子",
+        "stance": "反対"
+      },
+      {
+        "label": "若泉聡志",
+        "faction": "日本共産党",
+        "member": "若泉聡志",
+        "stance": "反対"
+      },
+      {
+        "label": "小髙良則",
+        "faction": "新誠会",
+        "member": "小髙良則",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井孝昭",
+        "faction": "新誠会",
+        "member": "石井孝昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "木村由希子",
+        "faction": "Move it!八街 政治は生活",
+        "member": "木村由希子",
+        "stance": "反対"
+      },
+      {
+        "label": "後藤祐樹",
+        "faction": "Move it!八街 政治は生活",
+        "member": "後藤祐樹",
+        "stance": "反対"
+      },
+      {
+        "label": "桜田秀雄",
+        "faction": "会派に所属しない議員（桜田秀雄）",
+        "member": "桜田秀雄",
+        "stance": "反対"
+      },
+      {
+        "label": "小澤孝延",
+        "faction": "やちまた21",
+        "member": "小澤孝延",
+        "stance": "議長"
+      }
+    ]
+  }
+}

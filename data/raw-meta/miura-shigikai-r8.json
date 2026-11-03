@@ -1,0 +1,32 @@
+{
+  "sourceId": "miura-shigikai-r8",
+  "files": [
+    {
+      "filename": "R8_1singikekka.pdf",
+      "sha256": "145e9a7ba419f632534ee611693e480f988c10186f8a68274274180f2c8dc36e",
+      "bytes": 238479,
+      "fetchedAt": "2026-11-03T12:47:23.985Z",
+      "fetchedFrom": "https://www.city.miura.kanagawa.jp/material/files/group/44/R8_1singikekka.pdf"
+    },
+    {
+      "filename": "R080324A_gettext_66.html",
+      "sha256": "2abadff6ecba9db59ae26c1bd33429f5b8f279d0bd22c2646c78d0b70ff17794",
+      "bytes": 11902,
+      "fetchedAt": "2026-11-03T12:47:23.986Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/miura/cgi-bin3/GetText3.exe?rrja7id2c5c8pt2k7b/R080324A/66/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "R080324A_gettext_41979.html",
+      "sha256": "79c7a8205e447e4d8d01b388d1c83a26e80961d505f8a54e15a29de22632d71f",
+      "bytes": 992,
+      "fetchedAt": "2026-11-03T12:47:23.986Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/miura/cgi-bin3/GetText3.exe?rrja7id2c5c8pt2k7b/R080324A/41979/10/1//0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

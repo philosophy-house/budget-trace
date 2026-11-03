@@ -1,0 +1,19 @@
+{
+  "sourceId": "minamiashigara-shigikai-r8",
+  "files": [
+    {
+      "filename": "minamiashigara_dayori227.pdf",
+      "sha256": "96964c2c6dccf715cdda2062ab2430324edc746211da1947916c81419df00b2e",
+      "bytes": 2532220,
+      "fetchedAt": "2026-11-03T12:47:24.017Z",
+      "fetchedFrom": "https://www.city.minamiashigara.kanagawa.jp/global-image/units/207696/1-20260528090655.pdf"
+    },
+    {
+      "filename": "minamiashigara_p08610_wb20260418.html",
+      "sha256": "7503aebc8e66090ded06cab69b54c14195987cfd424ef9ca3c828164a912f1af",
+      "bytes": 29157,
+      "fetchedAt": "2026-11-03T12:47:24.017Z",
+      "fetchedFrom": "https://web.archive.org/web/20260418101716id_/https://www.city.minamiashigara.kanagawa.jp/gikai/giin/p08610.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "kisarazu-shigikai-r8",
+  "files": [
+    {
+      "filename": "r7_houkoku.pdf",
+      "sha256": "6cf4196c64e0a9a02eb31d362b3562c7dc7e0763a9e235c05aad0657e038371b",
+      "bytes": 97423,
+      "fetchedAt": "2026-11-03T12:47:23.987Z",
+      "fetchedFrom": "https://www.city.kisarazu.lg.jp/material/files/group/54/r7_houkoku.pdf"
+    },
+    {
+      "filename": "R0803gianitiran-R080319-2.pdf",
+      "sha256": "48b11230c0cce0cbb0393b97dfb2ca24c15d80f0e4985938dda2fdd1b7bb43b5",
+      "bytes": 198802,
+      "fetchedAt": "2026-11-03T12:47:23.987Z",
+      "fetchedFrom": "https://www.city.kisarazu.lg.jp/material/files/group/54/R0803gianitiran-R080319-2.pdf"
+    },
+    {
+      "filename": "R0803giketsu_R080319-2.pdf",
+      "sha256": "b46323fb58eab5d82db73c55ee17b77ed616c5a01116a304eaf86f9f4441250b",
+      "bytes": 230799,
+      "fetchedAt": "2026-11-03T12:47:23.988Z",
+      "fetchedFrom": "https://www.city.kisarazu.lg.jp/material/files/group/54/R0803giketsu_R080319-2.pdf"
+    }
+  ]
+}

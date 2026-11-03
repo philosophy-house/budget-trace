@@ -1,0 +1,152 @@
+{
+  "docType": "council-composition",
+  "sourceId": "minamiashigara-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T21:27:40.552Z",
+  "fiscalYear": "R8",
+  "body": "南足柄市議会",
+  "seats": 15,
+  "asOf": "2026-03-24",
+  "factions": [
+    {
+      "name": "あしがら山河",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "柏木實",
+        "加藤雅彦",
+        "髙田明美"
+      ],
+      "locator": {
+        "file": "minamiashigara_dayori227.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "共創の風",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "綱島麻実",
+        "中村有佐",
+        "加藤洋一"
+      ],
+      "locator": {
+        "file": "minamiashigara_dayori227.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "愛郷倶楽部",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "岸本敦子",
+        "角野圭子"
+      ],
+      "locator": {
+        "file": "minamiashigara_dayori227.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "あしがらクラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "池田真一",
+        "加藤直己"
+      ],
+      "locator": {
+        "file": "minamiashigara_dayori227.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "臼井忠欣",
+        "我妻秀明"
+      ],
+      "locator": {
+        "file": "minamiashigara_dayori227.pdf",
+        "page": 8
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "高木吉勝",
+        "高田三郎",
+        "滝本妙子"
+      ],
+      "locator": {
+        "file": "minamiashigara_dayori227.pdf",
+        "page": 8
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第18号",
+    "billName": "令和８年度一般会計予算について",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-24",
+    "decidedDateLabel": "令和8年3月24日",
+    "result": "可決",
+    "locator": {
+      "file": "minamiashigara_dayori227.pdf",
+      "page": 8
+    }
+  },
+  "rosterTitle": "みなみあしがら議会だより No.227（令和8年6月1日発行）p.14「議案等審議結果」（令和８年第１回定例会）の表頭「各会派の所属議員（◎印は代表者）」",
+  "resultTitle": "みなみあしがら議会だより No.227（令和8年6月1日発行）p.14「議案等審議結果」",
+  "votes": {
+    "basis": "faction",
+    "unanimousText": "賛成全員",
+    "sourceTitle": "みなみあしがら議会だより No.227（令和8年6月1日発行）p.14「議案等審議結果」",
+    "sourceFile": "minamiashigara_dayori227.pdf",
+    "columns": [
+      {
+        "label": "加藤洋一",
+        "faction": "共創の風",
+        "member": "加藤洋一",
+        "stance": "議長"
+      },
+      {
+        "label": "あしがら山河",
+        "faction": "あしがら山河",
+        "stance": "賛成"
+      },
+      {
+        "label": "共創の風",
+        "faction": "共創の風",
+        "stance": "賛成"
+      },
+      {
+        "label": "愛郷倶楽部",
+        "faction": "愛郷倶楽部",
+        "stance": "賛成"
+      },
+      {
+        "label": "あしがらクラブ",
+        "faction": "あしがらクラブ",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明党",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "無会派",
+        "faction": "無会派",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

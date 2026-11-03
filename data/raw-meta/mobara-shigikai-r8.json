@@ -1,0 +1,47 @@
+{
+  "sourceId": "mobara-shigikai-r8",
+  "files": [
+    {
+      "filename": "gikaidayori_R8.1.pdf",
+      "sha256": "d06ba18fbe87f77a16bf859d8752d2dbec0e76b0da05c9ad2b2226e27fbc5a1d",
+      "bytes": 4970978,
+      "fetchedAt": "2026-11-03T12:47:23.993Z",
+      "fetchedFrom": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9230/R8.1.pdf"
+    },
+    {
+      "filename": "keihabetu_meibo.pdf",
+      "sha256": "53cbff8c84c652b5c289c0cf5d738aff886b26146dde35e034dbdcd5b28d5a8a",
+      "bytes": 70961,
+      "fetchedAt": "2026-11-03T12:47:23.994Z",
+      "fetchedFrom": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000007/7291/keihabetu_meibo.pdf"
+    },
+    {
+      "filename": "iinnkai.pdf",
+      "sha256": "52f062df62a51f2288f9a3d9c27766fa1ad4b485815b25e198578d0a5caf8872",
+      "bytes": 97728,
+      "fetchedAt": "2026-11-03T12:47:23.994Z",
+      "fetchedFrom": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000007/7289/iinnkai.pdf"
+    },
+    {
+      "filename": "0000000522.html",
+      "sha256": "46ccb28c5cf9d24ee6b68a322d8ca2003e77859c8f3f1ca0de3dad394cafb5ec",
+      "bytes": 21990,
+      "fetchedAt": "2026-11-03T12:47:23.995Z",
+      "fetchedFrom": "https://www.city.mobara.chiba.jp/0000000522.html"
+    },
+    {
+      "filename": "shingikekka_R8.3.pdf",
+      "sha256": "416c17abf74756e8716cf243e9ffc94a9254603b1499ef1e7f3ebf4cf9b9627b",
+      "bytes": 142341,
+      "fetchedAt": "2026-11-03T12:47:23.995Z",
+      "fetchedFrom": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9368/R8.3.pdf"
+    },
+    {
+      "filename": "gikaidayori_168_R8.3.pdf",
+      "sha256": "a65aa47686c4addbb29b2962ca195693e08c22078d0e4f8facf8d1cdcd085ca2",
+      "bytes": 2042760,
+      "fetchedAt": "2026-11-03T12:47:23.997Z",
+      "fetchedFrom": "https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9230/R8.3.pdf"
+    }
+  ]
+}

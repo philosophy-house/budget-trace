@@ -1,0 +1,113 @@
+{
+  "docType": "council-composition",
+  "sourceId": "yotsukaido-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T21:27:38.199Z",
+  "fiscalYear": "R8",
+  "body": "四街道市議会",
+  "seats": 20,
+  "asOf": "2026-03-09",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "チャレンジみらい",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "関根登志夫",
+        "加藤真裕",
+        "六田喜彦",
+        "石井幸夫",
+        "岸本潤一郎",
+        "森本次郎",
+        "坂本弘毅"
+      ],
+      "locator": {
+        "file": "yk_R8.3.9_kaihabetugiinmeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新政",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "成田芳律",
+        "戸田由紀子",
+        "石山健作"
+      ],
+      "locator": {
+        "file": "yk_R8.3.9_kaihabetugiinmeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "田中徳彦",
+        "大谷満子",
+        "西塚義尊"
+      ],
+      "locator": {
+        "file": "yk_R8.3.9_kaihabetugiinmeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "いぶき",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "飯豊明久",
+        "大越登美子"
+      ],
+      "locator": {
+        "file": "yk_R8.3.9_kaihabetugiinmeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "政 まつりごと",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "宮城そういち",
+        "芝崎剛介"
+      ],
+      "locator": {
+        "file": "yk_R8.3.9_kaihabetugiinmeibo.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "阿部百合子",
+        "長谷川清和",
+        "ふじわらちかこ"
+      ],
+      "locator": {
+        "file": "yk_R8.3.9_kaihabetugiinmeibo.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第21号",
+    "billName": "令和８年度四街道市一般会計予算",
+    "sessionLabel": "令和8年第1回（3月）定例会",
+    "decidedDate": "2026-03-30",
+    "decidedDateLabel": "令和8年3月30日",
+    "result": "原案可決（賛成多数）",
+    "locator": {
+      "file": "yk_R08-03.html"
+    }
+  },
+  "rosterTitle": "四街道市議会会派別議員名簿（令和8年3月9日現在）（国立国会図書館 WARP の写し）",
+  "resultTitle": "令和8年第1回（3月）定例会議案等処理結果一覧表"
+}

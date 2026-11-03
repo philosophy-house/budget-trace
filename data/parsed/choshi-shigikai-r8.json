@@ -1,0 +1,251 @@
+{
+  "docType": "council-composition",
+  "sourceId": "choshi-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T21:27:24.504Z",
+  "fiscalYear": "R8",
+  "body": "銚子市議会",
+  "seats": 17,
+  "asOf": "2025-10-10",
+  "factions": [
+    {
+      "name": "市民クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "地下誠幸",
+        "岩井文男"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "みらい",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "釜谷藤男",
+        "広野恭代"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "笠原幸子"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "緑の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "工藤忠男"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "ネクストちょうし",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "石上友寛"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "加瀬栄子",
+        "塙保"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "加瀬庫蔵",
+        "鎌倉金"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 7
+      }
+    },
+    {
+      "name": "新和会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "野平仁人",
+        "桶谷範幸",
+        "宮﨑光子",
+        "石神嘉明"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 8
+      }
+    },
+    {
+      "name": "市民の声",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "髙根一芳",
+        "池田健一"
+      ],
+      "locator": {
+        "file": "page1901_00009.html",
+        "row": 9
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第7号",
+    "billName": "令和8年度銚子市一般会計予算",
+    "sessionLabel": "令和8年3月市議会定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決",
+    "locator": {
+      "file": "page190025_00015.html"
+    }
+  },
+  "rosterTitle": "会派（更新日 2025年10月10日）",
+  "resultTitle": "令和8年3月市議会定例会（議案の一覧・会期日程）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "3月定例会 議案等審議結果一覧",
+    "sourceFile": "000067494.pdf",
+    "columns": [
+      {
+        "label": "塙保",
+        "faction": "公明党",
+        "member": "塙保",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮﨑光子",
+        "faction": "新和会",
+        "member": "宮﨑光子",
+        "stance": "賛成"
+      },
+      {
+        "label": "桶谷範幸",
+        "faction": "新和会",
+        "member": "桶谷範幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "加瀬栄子",
+        "faction": "公明党",
+        "member": "加瀬栄子",
+        "stance": "賛成"
+      },
+      {
+        "label": "池田健一",
+        "faction": "市民の声",
+        "member": "池田健一",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙根一芳",
+        "faction": "市民の声",
+        "member": "髙根一芳",
+        "stance": "賛成"
+      },
+      {
+        "label": "石上友寛",
+        "faction": "ネクストちょうし",
+        "member": "石上友寛",
+        "stance": "賛成"
+      },
+      {
+        "label": "笠原幸子",
+        "faction": "日本共産党",
+        "member": "笠原幸子",
+        "stance": "賛成"
+      },
+      {
+        "label": "鎌倉金",
+        "faction": "立憲民主党",
+        "member": "鎌倉金",
+        "stance": "賛成"
+      },
+      {
+        "label": "石神嘉明",
+        "faction": "新和会",
+        "member": "石神嘉明",
+        "stance": "議長"
+      },
+      {
+        "label": "野平仁人",
+        "faction": "新和会",
+        "member": "野平仁人",
+        "stance": "賛成"
+      },
+      {
+        "label": "広野恭代",
+        "faction": "みらい",
+        "member": "広野恭代",
+        "stance": "賛成"
+      },
+      {
+        "label": "釜谷藤男",
+        "faction": "みらい",
+        "member": "釜谷藤男",
+        "stance": "賛成"
+      },
+      {
+        "label": "地下誠幸",
+        "faction": "市民クラブ",
+        "member": "地下誠幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩井文男",
+        "faction": "市民クラブ",
+        "member": "岩井文男",
+        "stance": "賛成"
+      },
+      {
+        "label": "加瀬庫蔵",
+        "faction": "立憲民主党",
+        "member": "加瀬庫蔵",
+        "stance": "賛成"
+      },
+      {
+        "label": "工藤忠男",
+        "faction": "緑の会",
+        "member": "工藤忠男",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

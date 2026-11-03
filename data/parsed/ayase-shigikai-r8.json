@@ -1,0 +1,216 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ayase-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T21:27:40.797Z",
+  "fiscalYear": "R8",
+  "body": "綾瀬市議会",
+  "seats": 18,
+  "asOf": "2025-05-13",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "志政あやせ",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "古市正",
+        "武藤俊宏",
+        "齊藤慶吾",
+        "金江大志",
+        "石井麻理",
+        "笠間功治",
+        "古郡敏正"
+      ],
+      "locator": {
+        "file": "ayase_9282_wb20251212.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "三谷小鶴",
+        "内山恵子",
+        "天笠哲史",
+        "野田広吉"
+      ],
+      "locator": {
+        "file": "ayase_9282_wb20251212.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "あやせ未来会議",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "安藤多惠子",
+        "畑井陽子"
+      ],
+      "locator": {
+        "file": "ayase_9282_wb20251212.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党あやせ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "上田博之",
+        "福田久美子"
+      ],
+      "locator": {
+        "file": "ayase_9282_wb20251212.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "越川好昭",
+        "岡徳行",
+        "成田龍二"
+      ],
+      "locator": {
+        "file": "ayase_9282_wb20251212.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第３号議案",
+    "billName": "令和８年度綾瀬市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "可決",
+    "locator": {
+      "file": "ayase_R8-3sinngikekka1.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "市議会会派別名簿（令和7年5月13日現在）",
+  "resultTitle": "令和8年3月定例会 審議結果一覧表",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "３月定例会の審議結果一覧表（案件に対する賛否）",
+    "sourceFile": "ayase_R8-3sinngikekka1.pdf",
+    "columns": [
+      {
+        "label": "古市正",
+        "faction": "志政あやせ",
+        "member": "古市正",
+        "stance": "賛成"
+      },
+      {
+        "label": "武藤俊宏",
+        "faction": "志政あやせ",
+        "member": "武藤俊宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "金江大志",
+        "faction": "志政あやせ",
+        "member": "金江大志",
+        "stance": "賛成"
+      },
+      {
+        "label": "石井麻理",
+        "faction": "志政あやせ",
+        "member": "石井麻理",
+        "stance": "賛成"
+      },
+      {
+        "label": "笠間功治",
+        "faction": "志政あやせ",
+        "member": "笠間功治",
+        "stance": "賛成"
+      },
+      {
+        "label": "古郡敏正",
+        "faction": "志政あやせ",
+        "member": "古郡敏正",
+        "stance": "賛成"
+      },
+      {
+        "label": "三谷小鶴",
+        "faction": "公明党",
+        "member": "三谷小鶴",
+        "stance": "賛成"
+      },
+      {
+        "label": "内山恵子",
+        "faction": "公明党",
+        "member": "内山恵子",
+        "stance": "賛成"
+      },
+      {
+        "label": "天笠哲史",
+        "faction": "公明党",
+        "member": "天笠哲史",
+        "stance": "賛成"
+      },
+      {
+        "label": "野田広吉",
+        "faction": "公明党",
+        "member": "野田広吉",
+        "stance": "賛成"
+      },
+      {
+        "label": "安藤多惠子",
+        "faction": "あやせ未来会議",
+        "member": "安藤多惠子",
+        "stance": "反対"
+      },
+      {
+        "label": "畑井陽子",
+        "faction": "あやせ未来会議",
+        "member": "畑井陽子",
+        "stance": "反対"
+      },
+      {
+        "label": "上田博之",
+        "faction": "日本共産党あやせ",
+        "member": "上田博之",
+        "stance": "反対"
+      },
+      {
+        "label": "福田久美子",
+        "faction": "日本共産党あやせ",
+        "member": "福田久美子",
+        "stance": "反対"
+      },
+      {
+        "label": "越川好昭",
+        "faction": "無会派",
+        "member": "越川好昭",
+        "stance": "反対"
+      },
+      {
+        "label": "岡徳行",
+        "faction": "無会派",
+        "member": "岡徳行",
+        "stance": "賛成"
+      },
+      {
+        "label": "成田龍二",
+        "faction": "無会派",
+        "member": "成田龍二",
+        "stance": "賛成"
+      },
+      {
+        "label": "齊藤慶吾",
+        "faction": "志政あやせ",
+        "member": "齊藤慶吾",
+        "stance": "議長"
+      }
+    ]
+  }
+}
