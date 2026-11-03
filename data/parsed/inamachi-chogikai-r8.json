@@ -1,0 +1,257 @@
+{
+  "docType": "council-composition",
+  "sourceId": "inamachi-chogikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:52:48.751Z",
+  "fiscalYear": "R8",
+  "body": "伊奈町議会",
+  "seats": 16,
+  "asOf": "2026-03-18",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大沢淳",
+        "五味雅美",
+        "大野興一"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "新政伊奈",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐藤弘一",
+        "藤原義春"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "清風クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "上野尚德",
+        "髙橋まゆみ"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "戸張光枝",
+        "木俣美千代"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "颯政会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "栗原惠子",
+        "武藤倫雄"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "立憲民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "青木久男"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "幸福実現党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山野智彦"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "日本維新の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "仲島雄大"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "改新みらい",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "冨井篤弥"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    },
+    {
+      "name": "無会派（川内雅人）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "川内雅人"
+      ],
+      "locator": {
+        "file": "ina_R8-3kekka.pdf",
+        "page": 2
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第14号議案",
+    "billName": "令和８年度伊奈町一般会計予算",
+    "sessionLabel": "令和８年第１回伊奈町議会（定例会）",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "ina_R8-3kekka.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "令和8年3月議案処理結果一覧（議案等処理結果一覧表・3月18日議決・会派名と議員名の表頭）",
+  "resultTitle": "令和8年3月議案処理結果一覧（議案等処理結果一覧表）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月議案処理結果一覧（議案等処理結果一覧表）",
+    "sourceFile": "ina_R8-3kekka.pdf",
+    "columns": [
+      {
+        "label": "大沢淳",
+        "faction": "日本共産党",
+        "member": "大沢淳",
+        "stance": "賛成"
+      },
+      {
+        "label": "五味雅美",
+        "faction": "日本共産党",
+        "member": "五味雅美",
+        "stance": "賛成"
+      },
+      {
+        "label": "大野興一",
+        "faction": "日本共産党",
+        "member": "大野興一",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤弘一",
+        "faction": "新政伊奈",
+        "member": "佐藤弘一",
+        "stance": "賛成"
+      },
+      {
+        "label": "藤原義春",
+        "faction": "新政伊奈",
+        "member": "藤原義春",
+        "stance": "賛成"
+      },
+      {
+        "label": "髙橋まゆみ",
+        "faction": "清風クラブ",
+        "member": "髙橋まゆみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "戸張光枝",
+        "faction": "公明党",
+        "member": "戸張光枝",
+        "stance": "賛成"
+      },
+      {
+        "label": "木俣美千代",
+        "faction": "公明党",
+        "member": "木俣美千代",
+        "stance": "賛成"
+      },
+      {
+        "label": "栗原惠子",
+        "faction": "颯政会",
+        "member": "栗原惠子",
+        "stance": "賛成"
+      },
+      {
+        "label": "武藤倫雄",
+        "faction": "颯政会",
+        "member": "武藤倫雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "青木久男",
+        "faction": "立憲民主党",
+        "member": "青木久男",
+        "stance": "賛成"
+      },
+      {
+        "label": "山野智彦",
+        "faction": "幸福実現党",
+        "member": "山野智彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "仲島雄大",
+        "faction": "日本維新の会",
+        "member": "仲島雄大",
+        "stance": "賛成"
+      },
+      {
+        "label": "冨井篤弥",
+        "faction": "改新みらい",
+        "member": "冨井篤弥",
+        "stance": "賛成"
+      },
+      {
+        "label": "川内雅人",
+        "faction": "無会派（川内雅人）",
+        "member": "川内雅人",
+        "stance": "賛成"
+      },
+      {
+        "label": "上野尚德",
+        "faction": "清風クラブ",
+        "member": "上野尚德",
+        "stance": "議長"
+      }
+    ]
+  }
+}

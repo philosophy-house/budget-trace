@@ -1,0 +1,240 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hasuda-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:52:44.714Z",
+  "fiscalYear": "R8",
+  "body": "蓮田市議会",
+  "seats": 20,
+  "asOf": "2025-05-30",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "高橋健一郎",
+        "山田孝夫",
+        "鈴木貴美子"
+      ],
+      "locator": {
+        "file": "hasuda_kaihabetsu250607_warp20260110.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "榎本菜保",
+        "諸根善昭",
+        "深田康孝"
+      ],
+      "locator": {
+        "file": "hasuda_kaihabetsu250607_warp20260110.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "はすだ政和会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "関根香織",
+        "関根守男",
+        "豊嶋遥",
+        "近藤純枝",
+        "齋藤昌司"
+      ],
+      "locator": {
+        "file": "hasuda_kaihabetsu250607_warp20260110.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民クラブ未来",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "秦邦雄",
+        "武藤康史",
+        "齋藤齊",
+        "菊池義人"
+      ],
+      "locator": {
+        "file": "hasuda_kaihabetsu250607_warp20260110.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "双志会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中里幸一",
+        "勝浦敦"
+      ],
+      "locator": {
+        "file": "hasuda_kaihabetsu250607_warp20260110.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "会派に所属しない議員",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "木佐木照男",
+        "山田慎太郎",
+        "湯谷百合子"
+      ],
+      "locator": {
+        "file": "hasuda_kaihabetsu250607_warp20260110.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第22号",
+    "billName": "令和８年度蓮田市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hasuda_0803giketukekka.html"
+    }
+  },
+  "rosterTitle": "会派別議員名簿（令和7年5月30日現在）",
+  "resultTitle": "令和8年3月定例会（議決結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和8年3月定例会審議案件とその結果（個人別表決結果表）",
+    "sourceFile": "hasuda_r803giketukekka2.pdf",
+    "columns": [
+      {
+        "label": "湯谷百合子",
+        "faction": "会派に所属しない議員",
+        "member": "湯谷百合子",
+        "stance": "賛成"
+      },
+      {
+        "label": "木佐木照男",
+        "faction": "会派に所属しない議員",
+        "member": "木佐木照男",
+        "stance": "議長"
+      },
+      {
+        "label": "高橋健一郎",
+        "faction": "公明党",
+        "member": "高橋健一郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田孝夫",
+        "faction": "公明党",
+        "member": "山田孝夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木貴美子",
+        "faction": "公明党",
+        "member": "鈴木貴美子",
+        "stance": "賛成"
+      },
+      {
+        "label": "関根守男",
+        "faction": "はすだ政和会",
+        "member": "関根守男",
+        "stance": "賛成"
+      },
+      {
+        "label": "豊嶋遥",
+        "faction": "はすだ政和会",
+        "member": "豊嶋遥",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田慎太郎",
+        "faction": "会派に所属しない議員",
+        "member": "山田慎太郎",
+        "stance": "賛成"
+      },
+      {
+        "label": "武藤康史",
+        "faction": "市民クラブ未来",
+        "member": "武藤康史",
+        "stance": "欠席"
+      },
+      {
+        "label": "齋藤齊",
+        "faction": "市民クラブ未来",
+        "member": "齋藤齊",
+        "stance": "賛成"
+      },
+      {
+        "label": "勝浦敦",
+        "faction": "双志会",
+        "member": "勝浦敦",
+        "stance": "賛成"
+      },
+      {
+        "label": "榎本菜保",
+        "faction": "日本共産党",
+        "member": "榎本菜保",
+        "stance": "反対"
+      },
+      {
+        "label": "諸根善昭",
+        "faction": "日本共産党",
+        "member": "諸根善昭",
+        "stance": "反対"
+      },
+      {
+        "label": "深田康孝",
+        "faction": "日本共産党",
+        "member": "深田康孝",
+        "stance": "反対"
+      },
+      {
+        "label": "近藤純枝",
+        "faction": "はすだ政和会",
+        "member": "近藤純枝",
+        "stance": "賛成"
+      },
+      {
+        "label": "関根香織",
+        "faction": "はすだ政和会",
+        "member": "関根香織",
+        "stance": "賛成"
+      },
+      {
+        "label": "齋藤昌司",
+        "faction": "はすだ政和会",
+        "member": "齋藤昌司",
+        "stance": "賛成"
+      },
+      {
+        "label": "秦邦雄",
+        "faction": "市民クラブ未来",
+        "member": "秦邦雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "菊池義人",
+        "faction": "市民クラブ未来",
+        "member": "菊池義人",
+        "stance": "賛成"
+      },
+      {
+        "label": "中里幸一",
+        "faction": "双志会",
+        "member": "中里幸一",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

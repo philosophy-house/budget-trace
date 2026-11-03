@@ -1,0 +1,65 @@
+{
+  "sourceId": "warabi-shigikai-r8",
+  "files": [
+    {
+      "filename": "g07_Kaiha_warp20260110.html",
+      "sha256": "aa8f6265e4cd01c89e68eccc7ffcf59c2e79e89a1d212c2dc758c05001ea1bde",
+      "bytes": 9698,
+      "fetchedAt": "2026-11-03T12:52:18.541Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260111/20260110004858id_/https://warabi.gijiroku.com/gikai/g07_Kaiha.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "g07_Kaiha_warp20260408.html",
+      "sha256": "aa8f6265e4cd01c89e68eccc7ffcf59c2e79e89a1d212c2dc758c05001ea1bde",
+      "bytes": 9698,
+      "fetchedAt": "2026-11-03T12:52:18.542Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260419/20260408003046id_/https://warabi.gijiroku.com/gikai/g07_Kaiha.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "aramashi_warp20260408.html",
+      "sha256": "476baff6207dbfa0699eef7807ce6f96c55ef001bf475ddc358eb2765b522ce7",
+      "bytes": 11069,
+      "fetchedAt": "2026-11-03T12:52:18.542Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260419/20260408001714id_/https://warabi.gijiroku.com/gikai/aramashi.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "g07_Committee_warp20260408.html",
+      "sha256": "27bf14b7e11c85a5552dedc64eec20c05220a15db2d187a09c9141d0b6b9a529",
+      "bytes": 18804,
+      "fetchedAt": "2026-11-03T12:52:18.542Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260419/20260408001719id_/https://warabi.gijiroku.com/gikai/g07_Committee.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "g07_Giketsu_View_1665.html",
+      "sha256": "9858d435cd8ee90f6267a8f18256ef09eeeb56dd47dcc95762d320f4e7e743aa",
+      "bytes": 13393,
+      "fetchedAt": "2026-11-03T12:52:18.542Z",
+      "fetchedFrom": "https://warabi.gijiroku.com/gikai/g07_Giketsu_View.asp?SrchID=1665&Sflg=1&kword1=&kword2=",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "g07_Nittei_Kaigi_145.html",
+      "sha256": "4a409cd9d7f025a6c6d4716a38a38749d73f42797589cba4fff60257cf4e87c2",
+      "bytes": 13662,
+      "fetchedAt": "2026-11-03T12:52:18.543Z",
+      "fetchedFrom": "https://warabi.gijiroku.com/gikai/g07_Nittei_Kaigi.asp?KaigiID=145&Kaigi=%97%DF%98a%82W%94N%91%E6%82Q%89%F1%92%E8%97%E1%89%EF",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

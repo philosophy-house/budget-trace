@@ -1,0 +1,217 @@
+{
+  "docType": "council-composition",
+  "sourceId": "saitama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:52:39.268Z",
+  "fiscalYear": "R8",
+  "body": "さいたま市議会",
+  "seats": 58,
+  "asOf": "2026-03-12",
+  "factions": [
+    {
+      "name": "立憲",
+      "seats": 12,
+      "isIndependent": false,
+      "members": [
+        "相川綾香",
+        "出雲圭子",
+        "小柳嘉文",
+        "佐伯加寿美",
+        "阪本克己",
+        "佐々木郷美",
+        "添野ふみ子",
+        "高柳俊哉",
+        "堤日出喜",
+        "西山幸代",
+        "松本翔",
+        "三神尊志"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "上三信彰",
+        "大貫田鶴子",
+        "尾上貴明",
+        "神坂達成",
+        "小森谷優",
+        "斉藤健一",
+        "関ひろみ",
+        "照喜納弘志",
+        "服部剛",
+        "谷中信人",
+        "吉田一志"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "さいたま自民党",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "石関洋臣",
+        "稲川智美",
+        "江原大輔",
+        "金井康博",
+        "川崎照正",
+        "渋谷佳孝",
+        "新藤信夫",
+        "高子景",
+        "鶴崎敏康"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "自民党市議団",
+      "seats": 9,
+      "isIndependent": false,
+      "members": [
+        "伊藤仕",
+        "青羽健仁",
+        "新井森夫",
+        "桶本大輔",
+        "都築龍太",
+        "津和野眞佐子",
+        "土橋勇司",
+        "萩原章弘",
+        "帆足和之"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "池田めぐみ",
+        "金子昭代",
+        "久保美樹",
+        "竹腰連",
+        "鳥羽恵",
+        "松村敏夫"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "維新",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "秋山朋彦",
+        "北岡久住",
+        "堀川友良",
+        "吉村豪介"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属みらい",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐藤真実",
+        "中山欽哉"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（川村準）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "川村準"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（佐藤征治郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "佐藤征治郎"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（中山淳一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "中山淳一"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（浜口健司）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "浜口健司"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（吉田一郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "吉田一郎"
+      ],
+      "locator": {
+        "file": "sai_0802hyouketutaido.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第18号",
+    "billName": "令和８年度さいたま市一般会計予算",
+    "sessionLabel": "令和８年２月定例会",
+    "decidedDate": "2026-03-12",
+    "decidedDateLabel": "令和8年3月12日",
+    "result": "原案可決",
+    "locator": {
+      "file": "sai_0802hyouketutaido.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "さいたま市議会 令和８年２月定例会 議案表決態度一覧（議決当日 3/12・表頭の会派名と所属議員名）",
+  "resultTitle": "さいたま市議会 令和８年２月定例会 議案表決態度一覧"
+}

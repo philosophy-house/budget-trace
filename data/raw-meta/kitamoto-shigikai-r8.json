@@ -1,0 +1,26 @@
+{
+  "sourceId": "kitamoto-shigikai-r8",
+  "files": [
+    {
+      "filename": "kitamoto_dayori136.pdf",
+      "sha256": "c5702b82284036ca7a2befcbdbccf7c45994ee2af88da5435d05900cb4818938",
+      "bytes": 4810287,
+      "fetchedAt": "2026-11-03T12:52:18.571Z",
+      "fetchedFrom": "https://www.city.kitamoto.lg.jp/material/files/group/19/dayori136.pdf"
+    },
+    {
+      "filename": "kitamoto_18982.html",
+      "sha256": "d5ef8ed1851a46bfc61cb0a84f41fae6d02c536501d8f774e16ec69e8a0ab23a",
+      "bytes": 86231,
+      "fetchedAt": "2026-11-03T12:52:18.572Z",
+      "fetchedFrom": "https://www.city.kitamoto.lg.jp/shigikai/katsudo/gian/2/reiwa8nen/18982.html"
+    },
+    {
+      "filename": "kitamoto_1416921718734.html",
+      "sha256": "6b67b7f8038757f416510bd9abb0aba064dfc53a68ff0cb91e896412b910ef15",
+      "bytes": 41555,
+      "fetchedAt": "2026-11-03T12:52:18.572Z",
+      "fetchedFrom": "https://www.city.kitamoto.lg.jp/shigikai/about/1416921718734.html"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "docType": "council-composition",
+  "sourceId": "sugito-chogikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:52:48.980Z",
+  "fiscalYear": "R8",
+  "body": "杉戸町議会",
+  "seats": 15,
+  "asOf": "2025-12-25",
+  "teisu": 15,
+  "factions": [
+    {
+      "name": "政",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "野口俊彦",
+        "浜田章一",
+        "冨澤義之",
+        "市毛大助"
+      ],
+      "locator": {
+        "file": "sugito_6175_wb20260305180337.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "創新",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "原田壽々子",
+        "大橋芳久"
+      ],
+      "locator": {
+        "file": "sugito_6175_wb20260305180337.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "北出惠造",
+        "江口栄子"
+      ],
+      "locator": {
+        "file": "sugito_6175_wb20260305180337.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "平川忠良",
+        "伊藤美佐子"
+      ],
+      "locator": {
+        "file": "sugito_6175_wb20260305180337.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 5,
+      "isIndependent": true,
+      "members": [
+        "宮田雄一",
+        "上田聡",
+        "栗原偉憲",
+        "久松祐樹",
+        "太田康之"
+      ],
+      "locator": {
+        "file": "sugito_6175_wb20260305180337.html",
+        "row": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第１７号",
+    "billName": "令和８年度杉戸町一般会計予算",
+    "sessionLabel": "令和８年第２回杉戸町議会定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "sugito_17312.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派名簿（令和7年12月25日現在・議決前の魚拓 2026-03-05）",
+  "resultTitle": "令和8年第2回3月定例会 議案等議決結果一覧表"
+}

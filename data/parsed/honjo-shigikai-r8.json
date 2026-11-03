@@ -1,0 +1,258 @@
+{
+  "docType": "council-composition",
+  "sourceId": "honjo-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:52:40.877Z",
+  "fiscalYear": "R8",
+  "body": "本庄市議会",
+  "seats": 21,
+  "asOf": "2026-02-13",
+  "factions": [
+    {
+      "name": "市議団きせき",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "原由徳",
+        "倉林益代",
+        "矢野間規",
+        "山田康博",
+        "門倉道雄"
+      ],
+      "locator": {
+        "file": "9552_warp20260406.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "市議団 知新",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "山田高史",
+        "出牛順一",
+        "内田英亮",
+        "冨田雅寿",
+        "田中輝好"
+      ],
+      "locator": {
+        "file": "9552_warp20260406.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "市議団本庄",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "加藤栄二",
+        "山口豊",
+        "広瀬伸一",
+        "早野清"
+      ],
+      "locator": {
+        "file": "9552_warp20260406.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "朝比奈知恵子",
+        "栗田弘志"
+      ],
+      "locator": {
+        "file": "9552_warp20260406.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "市議団共創",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "図師雄太",
+        "原史子"
+      ],
+      "locator": {
+        "file": "9552_warp20260406.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "市議団一期",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "小賀野健司",
+        "堀口伊代子"
+      ],
+      "locator": {
+        "file": "9552_warp20260406.html",
+        "row": 6
+      }
+    },
+    {
+      "name": "無会派（柿沼綾子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "柿沼綾子"
+      ],
+      "locator": {
+        "file": "9552_warp20260406.html",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第18号議案",
+    "billName": "令和８年度本庄市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "giketukekka080325.pdf",
+      "page": 2
+    }
+  },
+  "rosterTitle": "会派構成名簿（令和8年2月13日現在）",
+  "resultTitle": "令和８年第１回定例会議案一覧",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会 提出議案とその結果（各議員の議案賛否表）",
+    "sourceFile": "sanpi0325.pdf",
+    "columns": [
+      {
+        "label": "図師雄太",
+        "faction": "市議団共創",
+        "member": "図師雄太",
+        "stance": "賛成"
+      },
+      {
+        "label": "原史子",
+        "faction": "市議団共創",
+        "member": "原史子",
+        "stance": "賛成"
+      },
+      {
+        "label": "原由徳",
+        "faction": "市議団きせき",
+        "member": "原由徳",
+        "stance": "賛成"
+      },
+      {
+        "label": "加藤栄二",
+        "faction": "市議団本庄",
+        "member": "加藤栄二",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田高史",
+        "faction": "市議団 知新",
+        "member": "山田高史",
+        "stance": "賛成"
+      },
+      {
+        "label": "出牛順一",
+        "faction": "市議団 知新",
+        "member": "出牛順一",
+        "stance": "賛成"
+      },
+      {
+        "label": "朝比奈知恵子",
+        "faction": "公明党",
+        "member": "朝比奈知恵子",
+        "stance": "賛成"
+      },
+      {
+        "label": "栗田弘志",
+        "faction": "公明党",
+        "member": "栗田弘志",
+        "stance": "賛成"
+      },
+      {
+        "label": "倉林益代",
+        "faction": "市議団きせき",
+        "member": "倉林益代",
+        "stance": "賛成"
+      },
+      {
+        "label": "小賀野健司",
+        "faction": "市議団一期",
+        "member": "小賀野健司",
+        "stance": "賛成"
+      },
+      {
+        "label": "内田英亮",
+        "faction": "市議団 知新",
+        "member": "内田英亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "矢野間規",
+        "faction": "市議団きせき",
+        "member": "矢野間規",
+        "stance": "賛成"
+      },
+      {
+        "label": "山口豊",
+        "faction": "市議団本庄",
+        "member": "山口豊",
+        "stance": "賛成"
+      },
+      {
+        "label": "門倉道雄",
+        "faction": "市議団きせき",
+        "member": "門倉道雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "冨田雅寿",
+        "faction": "市議団 知新",
+        "member": "冨田雅寿",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀口伊代子",
+        "faction": "市議団一期",
+        "member": "堀口伊代子",
+        "stance": "賛成"
+      },
+      {
+        "label": "田中輝好",
+        "faction": "市議団 知新",
+        "member": "田中輝好",
+        "stance": "賛成"
+      },
+      {
+        "label": "柿沼綾子",
+        "faction": "無会派（柿沼綾子）",
+        "member": "柿沼綾子",
+        "stance": "反対"
+      },
+      {
+        "label": "広瀬伸一",
+        "faction": "市議団本庄",
+        "member": "広瀬伸一",
+        "stance": "賛成"
+      },
+      {
+        "label": "早野清",
+        "faction": "市議団本庄",
+        "member": "早野清",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田康博",
+        "faction": "市議団きせき",
+        "member": "山田康博",
+        "stance": "議長"
+      }
+    ]
+  }
+}

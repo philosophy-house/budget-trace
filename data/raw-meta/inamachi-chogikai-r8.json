@@ -1,0 +1,36 @@
+{
+  "sourceId": "inamachi-chogikai-r8",
+  "files": [
+    {
+      "filename": "ina_R8-3kekka.pdf",
+      "sha256": "b436e908a74999837f9399a705c048a1f0b49580c1b5f3e96dadaac486332159",
+      "bytes": 330824,
+      "fetchedAt": "2026-11-03T12:52:18.591Z",
+      "fetchedFrom": "https://inamachi.gsl-service.net/doc/2019122700147/file_contents/R8-3kekka.pdf"
+    },
+    {
+      "filename": "ina_2026-3Tkaikiyotei.pdf",
+      "sha256": "d3bf0b9a53f199803ef71a5280e1443034ffc9429dd901adb0da4eb48ffa71a8",
+      "bytes": 128299,
+      "fetchedAt": "2026-11-03T12:52:18.593Z",
+      "fetchedFrom": "https://inamachi.gsl-service.net/doc/2019122700123/file_contents/2026-3Tkaikiyotei.pdf"
+    },
+    {
+      "filename": "ina_teisu_e345RG00000506.html",
+      "sha256": "048a3767d80b9ef86045cfa65343e3ce82d44aef5bae6334328a3d8e62cc7f3f",
+      "bytes": 8322,
+      "fetchedAt": "2026-11-03T12:52:18.593Z",
+      "fetchedFrom": "https://www1.g-reiki.net/town.ina/reiki_honbun/e345RG00000506.html"
+    },
+    {
+      "filename": "ina_gicho_2020100800032.html",
+      "sha256": "d9988a1830d856951461ef10dd5370acb0d7ad053f47c16431abfa46fa9a02f2",
+      "bytes": 15033,
+      "fetchedAt": "2026-11-03T12:52:18.594Z",
+      "fetchedFrom": "https://inamachi.gsl-service.net/doc/2020100800032/",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sourceId": "okegawa-shigikai-r8",
+  "files": [
+    {
+      "filename": "oke_gikaidayori_R803.pdf",
+      "sha256": "461271bec6709c789efa40dcf700a97b8ff05acdb4a7525a5d14fdcc042dad7a",
+      "bytes": 2867366,
+      "fetchedAt": "2026-11-03T12:52:18.553Z",
+      "fetchedFrom": "https://www.city.okegawa.lg.jp/material/files/group/2/gikaidayori_R803.pdf"
+    },
+    {
+      "filename": "oke_warp_7333.html",
+      "sha256": "57d964d392c12ef7f2196371eee6a94d6d616f8e649c2f92d5469c8593b17277",
+      "bytes": 53671,
+      "fetchedAt": "2026-11-03T12:52:18.555Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260417/20260408004512id_/https://www.city.okegawa.lg.jp/shisei/shigikai/meibo/7333.html"
+    },
+    {
+      "filename": "oke_r83giankekka.pdf",
+      "sha256": "745e1f5e89d2cdf818df26f5badb549796ce6d33774a1a30dcf98c5af59e26ab",
+      "bytes": 107257,
+      "fetchedAt": "2026-11-03T12:52:18.555Z",
+      "fetchedFrom": "https://www.city.okegawa.lg.jp/material/files/group/2/r83giankekka.pdf"
+    },
+    {
+      "filename": "oke_14613.html",
+      "sha256": "dde73824bbad6c0d700f700252fb95c3730a3fc077d96e03501c844131c31dde",
+      "bytes": 59773,
+      "fetchedAt": "2026-11-03T12:52:18.556Z",
+      "fetchedFrom": "https://www.city.okegawa.lg.jp/soshiki/gikai/gikaijimukyoku/teirei/14613.html"
+    }
+  ]
+}

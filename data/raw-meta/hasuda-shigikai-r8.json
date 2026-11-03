@@ -1,0 +1,40 @@
+{
+  "sourceId": "hasuda-shigikai-r8",
+  "files": [
+    {
+      "filename": "hasuda_kaihabetsu250607_warp20260110.html",
+      "sha256": "089a99dbda061381154c86c58e921f5914c37f161642b4efa721dedaf5530631",
+      "bytes": 10420,
+      "fetchedAt": "2026-11-03T12:52:18.573Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260110/20260110020015id_/https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/ginmebo/kaihabetsu250607.html"
+    },
+    {
+      "filename": "hasuda_r803giketukekka2.pdf",
+      "sha256": "77f9e3e688784c9db468e3d2d1acf8e50424a19a7047bb4f0110763c68a65101",
+      "bytes": 182082,
+      "fetchedAt": "2026-11-03T12:52:18.574Z",
+      "fetchedFrom": "https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/giketsukekka/h29/documents/r803giketukekka2.pdf"
+    },
+    {
+      "filename": "hasuda_0803giketukekka.html",
+      "sha256": "51d1edbf303fb80d7d82921cd42342780e99b9c32a70ae30b020e5394af6adfe",
+      "bytes": 24172,
+      "fetchedAt": "2026-11-03T12:52:18.574Z",
+      "fetchedFrom": "https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/giketsukekka/h29/0803giketukekka.html"
+    },
+    {
+      "filename": "hasuda_e339RG00000022.html",
+      "sha256": "affdcc66f046b002008f20267048f0d2ced0ebf7e2d0434b36d924dafd77b412",
+      "bytes": 8287,
+      "fetchedAt": "2026-11-03T12:52:18.574Z",
+      "fetchedFrom": "https://www1.g-reiki.net/hasuda/reiki_honbun/e339RG00000022.html"
+    },
+    {
+      "filename": "hasuda_kaihabetsu250607_warp20260408.html",
+      "sha256": "089a99dbda061381154c86c58e921f5914c37f161642b4efa721dedaf5530631",
+      "bytes": 10420,
+      "fetchedAt": "2026-11-03T12:52:18.575Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260417/20260408010442id_/https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/ginmebo/kaihabetsu250607.html"
+    }
+  ]
+}

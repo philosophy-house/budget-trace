@@ -1,0 +1,26 @@
+{
+  "sourceId": "saitama-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "gikai-member-kaiha_20260420.html",
+      "sha256": "7c0dba1d24e1d2f30ec7e4bef75025e68914078aecebc4389e26e0b6907457f9",
+      "bytes": 25025,
+      "fetchedAt": "2026-11-03T12:52:18.538Z",
+      "fetchedFrom": "https://web.archive.org/web/20260420064244id_/https://www.pref.saitama.lg.jp/e1601/gikai-member-kaiha.html"
+    },
+    {
+      "filename": "r0802gianbetsukaihabetsuhyoketsujokyo.pdf",
+      "sha256": "00c6f0ca301023a515c1717732153aa82a72946075fc1dc649b50b8c38329d8c",
+      "bytes": 364376,
+      "fetchedAt": "2026-11-03T12:52:18.540Z",
+      "fetchedFrom": "https://www.pref.saitama.lg.jp/documents/277694/r0802gianbetsukaihabetsuhyoketsujokyo.pdf"
+    },
+    {
+      "filename": "gikai-chairman_20260210.html",
+      "sha256": "f1a88a3507cc624974c0ff031abde93bc3653e8f2ade3762c40add4608d9b84f",
+      "bytes": 19644,
+      "fetchedAt": "2026-11-03T12:52:18.540Z",
+      "fetchedFrom": "https://web.archive.org/web/20260210183426id_/https://www.pref.saitama.lg.jp/e1601/gikai-chairman.html"
+    }
+  ]
+}

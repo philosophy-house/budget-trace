@@ -1,0 +1,226 @@
+{
+  "docType": "council-composition",
+  "sourceId": "okegawa-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:52:43.273Z",
+  "fiscalYear": "R8",
+  "body": "桶川市議会",
+  "seats": 18,
+  "asOf": "2026-03-26",
+  "factions": [
+    {
+      "name": "新政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "渡辺まや",
+        "砂川和也",
+        "糸井政樹",
+        "岡安政彦",
+        "江森誠一"
+      ],
+      "locator": {
+        "file": "oke_gikaidayori_R803.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "立憲、国民、無所属の会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "近本あんな",
+        "細谷文人",
+        "佐藤洋",
+        "にいつま亮"
+      ],
+      "locator": {
+        "file": "oke_gikaidayori_R803.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "おけがわ未来",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "榊萌美",
+        "須山陽一朗",
+        "山中敏正"
+      ],
+      "locator": {
+        "file": "oke_gikaidayori_R803.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "仲又清美",
+        "渡邉広美",
+        "岩﨑隆志"
+      ],
+      "locator": {
+        "file": "oke_gikaidayori_R803.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "ともに生きる会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "北村あやこ",
+        "浦田充"
+      ],
+      "locator": {
+        "file": "oke_gikaidayori_R803.pdf",
+        "page": 5
+      }
+    },
+    {
+      "name": "無会派（渡邉光子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "渡邉光子"
+      ],
+      "locator": {
+        "file": "oke_gikaidayori_R803.pdf",
+        "page": 5
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "8",
+    "billName": "令和８年度桶川市一般会計予算",
+    "sessionLabel": "令和8年第1回（3月）定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "oke_r83giankekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "おけがわ市議会だより No.222 p.5「3月定例会で審議された議案とその結果」賛否が分かれた議案の表頭（会派名と議員名）",
+  "resultTitle": "議案の審査結果（R8.3月第1回定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "おけがわ市議会だより No.222 p.5「賛否が分かれた議案」",
+    "sourceFile": "oke_gikaidayori_R803.pdf",
+    "columns": [
+      {
+        "label": "渡辺まや",
+        "faction": "新政会",
+        "member": "渡辺まや",
+        "stance": "賛成"
+      },
+      {
+        "label": "砂川和也",
+        "faction": "新政会",
+        "member": "砂川和也",
+        "stance": "賛成"
+      },
+      {
+        "label": "糸井政樹",
+        "faction": "新政会",
+        "member": "糸井政樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "岡安政彦",
+        "faction": "新政会",
+        "member": "岡安政彦",
+        "stance": "議長"
+      },
+      {
+        "label": "江森誠一",
+        "faction": "新政会",
+        "member": "江森誠一",
+        "stance": "賛成"
+      },
+      {
+        "label": "近本あんな",
+        "faction": "立憲、国民、無所属の会",
+        "member": "近本あんな",
+        "stance": "賛成"
+      },
+      {
+        "label": "細谷文人",
+        "faction": "立憲、国民、無所属の会",
+        "member": "細谷文人",
+        "stance": "賛成"
+      },
+      {
+        "label": "佐藤洋",
+        "faction": "立憲、国民、無所属の会",
+        "member": "佐藤洋",
+        "stance": "賛成"
+      },
+      {
+        "label": "にいつま亮",
+        "faction": "立憲、国民、無所属の会",
+        "member": "にいつま亮",
+        "stance": "賛成"
+      },
+      {
+        "label": "榊萌美",
+        "faction": "おけがわ未来",
+        "member": "榊萌美",
+        "stance": "賛成"
+      },
+      {
+        "label": "須山陽一朗",
+        "faction": "おけがわ未来",
+        "member": "須山陽一朗",
+        "stance": "賛成"
+      },
+      {
+        "label": "山中敏正",
+        "faction": "おけがわ未来",
+        "member": "山中敏正",
+        "stance": "賛成"
+      },
+      {
+        "label": "仲又清美",
+        "faction": "公明党",
+        "member": "仲又清美",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡邉広美",
+        "faction": "公明党",
+        "member": "渡邉広美",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩﨑隆志",
+        "faction": "公明党",
+        "member": "岩﨑隆志",
+        "stance": "欠席"
+      },
+      {
+        "label": "北村あやこ",
+        "faction": "ともに生きる会",
+        "member": "北村あやこ",
+        "stance": "反対"
+      },
+      {
+        "label": "浦田充",
+        "faction": "ともに生きる会",
+        "member": "浦田充",
+        "stance": "反対"
+      },
+      {
+        "label": "渡邉光子",
+        "faction": "無会派（渡邉光子）",
+        "member": "渡邉光子",
+        "stance": "賛成"
+      }
+    ]
+  }
+}

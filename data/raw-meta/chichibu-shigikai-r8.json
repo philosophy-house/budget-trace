@@ -1,0 +1,43 @@
+{
+  "sourceId": "chichibu-shigikai-r8",
+  "files": [
+    {
+      "filename": "7.10.25kaiha.pdf",
+      "sha256": "727088517283a4a4bee29acb81e6062f5fde80cb044045b626437a2964f1ba64",
+      "bytes": 39413,
+      "fetchedAt": "2026-11-03T12:52:18.559Z",
+      "fetchedFrom": "https://www.city.chichibu.lg.jp/secure/2435/7.10.25kaiha.pdf"
+    },
+    {
+      "filename": "gikai_warp20260408.html",
+      "sha256": "e3ff6c61e11ae3ccbcfb8917b7ebe3d826c8a0e4e240a5258fc5e9f3fcdd3f7d",
+      "bytes": 60166,
+      "fetchedAt": "2026-11-03T12:52:18.559Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260420/20260408000449id_/https://city.chichibu.lg.jp/gikai/",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "0803gikestusyorikekka.pdf",
+      "sha256": "c5e88054fca66962b8b06b95cfe12a51cb270e6736a38cb7ce055eb128759471",
+      "bytes": 89719,
+      "fetchedAt": "2026-11-03T12:52:18.560Z",
+      "fetchedFrom": "https://www.city.chichibu.lg.jp/secure/14383/0803gikestusyorikekka.pdf"
+    },
+    {
+      "filename": "R7gikaiyouran.pdf",
+      "sha256": "317d628e3a1d18489ce283b53d53060cd179a70b42ddf9bc5aa85d58f283c1bd",
+      "bytes": 890869,
+      "fetchedAt": "2026-11-03T12:52:18.561Z",
+      "fetchedFrom": "https://www.city.chichibu.lg.jp/secure/2435/R7gikaiyouran.pdf"
+    },
+    {
+      "filename": "gikaidayori84p2-5.pdf",
+      "sha256": "b340043c87730c82c5c53bde2c4d008ae7de4f5b827bb302bcb3cd1ce7ec0aca",
+      "bytes": 1412325,
+      "fetchedAt": "2026-11-03T12:52:18.562Z",
+      "fetchedFrom": "https://www.city.chichibu.lg.jp/secure/28939/gikaidayori84p2-5.pdf"
+    }
+  ]
+}

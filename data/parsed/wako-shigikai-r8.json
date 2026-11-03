@@ -1,0 +1,230 @@
+{
+  "docType": "council-composition",
+  "sourceId": "wako-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:52:42.240Z",
+  "fiscalYear": "R8",
+  "body": "和光市議会",
+  "seats": 17,
+  "asOf": "2026-03-18",
+  "factions": [
+    {
+      "name": "緑風会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "内山恵子",
+        "吉田武司",
+        "片山義久",
+        "渡邉竜幸"
+      ],
+      "locator": {
+        "file": "wako_r80318giinbetukekka.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "伊藤妙子",
+        "富澤啓二",
+        "齋藤幸子"
+      ],
+      "locator": {
+        "file": "wako_r80318giinbetukekka.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "新しい風・希望",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "菅原満",
+        "待鳥美光"
+      ],
+      "locator": {
+        "file": "wako_r80318giinbetukekka.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属の会・維新",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "鎌田泰春",
+        "岩澤侑生"
+      ],
+      "locator": {
+        "file": "wako_r80318giinbetukekka.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "和光・まちづくり市民の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "赤松祐造",
+        "内田あや"
+      ],
+      "locator": {
+        "file": "wako_r80318giinbetukekka.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 3,
+      "isIndependent": true,
+      "members": [
+        "萩原圭一",
+        "吉田活世",
+        "松永靖恵"
+      ],
+      "locator": {
+        "file": "wako_r80318giinbetukekka.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "議長（小嶋智子）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "小嶋智子"
+      ],
+      "locator": {
+        "file": "wako_r80318giinbetukekka.pdf",
+        "row": 7
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第22号",
+    "billName": "令和8年度埼玉県和光市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "wako_2605dayori3.pdf",
+      "page": 4
+    }
+  },
+  "rosterTitle": "令和8年3月定例会 議員別・会派別の採決結果（議決当日 3/18・表頭の会派名と議員名）",
+  "resultTitle": "わこう市議会だより No.132（R8.5）「議案等の採決結果」",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "わこう市議会だより No.132（R8.5）「議案等の採決結果」",
+    "sourceFile": "wako_2605dayori3.pdf",
+    "columns": [
+      {
+        "label": "吉田武司",
+        "faction": "緑風会",
+        "member": "吉田武司",
+        "stance": "賛成"
+      },
+      {
+        "label": "内山恵子",
+        "faction": "緑風会",
+        "member": "内山恵子",
+        "stance": "賛成"
+      },
+      {
+        "label": "片山義久",
+        "faction": "緑風会",
+        "member": "片山義久",
+        "stance": "賛成"
+      },
+      {
+        "label": "渡邉竜幸",
+        "faction": "緑風会",
+        "member": "渡邉竜幸",
+        "stance": "賛成"
+      },
+      {
+        "label": "富澤啓二",
+        "faction": "公明党",
+        "member": "富澤啓二",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤妙子",
+        "faction": "公明党",
+        "member": "伊藤妙子",
+        "stance": "賛成"
+      },
+      {
+        "label": "齋藤幸子",
+        "faction": "公明党",
+        "member": "齋藤幸子",
+        "stance": "賛成"
+      },
+      {
+        "label": "菅原満",
+        "faction": "新しい風・希望",
+        "member": "菅原満",
+        "stance": "賛成"
+      },
+      {
+        "label": "待鳥美光",
+        "faction": "新しい風・希望",
+        "member": "待鳥美光",
+        "stance": "賛成"
+      },
+      {
+        "label": "鎌田泰春",
+        "faction": "無所属の会・維新",
+        "member": "鎌田泰春",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩澤侑生",
+        "faction": "無所属の会・維新",
+        "member": "岩澤侑生",
+        "stance": "賛成"
+      },
+      {
+        "label": "赤松祐造",
+        "faction": "和光・まちづくり市民の会",
+        "member": "赤松祐造",
+        "stance": "賛成"
+      },
+      {
+        "label": "内田あや",
+        "faction": "和光・まちづくり市民の会",
+        "member": "内田あや",
+        "stance": "賛成"
+      },
+      {
+        "label": "萩原圭一",
+        "faction": "無会派",
+        "member": "萩原圭一",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田活世",
+        "faction": "無会派",
+        "member": "吉田活世",
+        "stance": "反対"
+      },
+      {
+        "label": "松永靖恵",
+        "faction": "無会派",
+        "member": "松永靖恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "小嶋智子",
+        "faction": "議長（小嶋智子）",
+        "member": "小嶋智子",
+        "stance": "議長"
+      }
+    ]
+  }
+}

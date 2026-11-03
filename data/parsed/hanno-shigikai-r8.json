@@ -1,0 +1,255 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hanno-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:52:40.569Z",
+  "fiscalYear": "R8",
+  "body": "飯能市議会",
+  "seats": 19,
+  "asOf": "2025-05-15",
+  "teisu": 19,
+  "factions": [
+    {
+      "name": "風の会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "椙田博之",
+        "美齊津大貴",
+        "平沼弘"
+      ],
+      "locator": {
+        "file": "kaiha070515.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "ネクストはんのう",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "武田一宏",
+        "関田直子"
+      ],
+      "locator": {
+        "file": "kaiha070515.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "飯能みらい",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "鳥居誠明",
+        "坂井悦子",
+        "加涌弘貴"
+      ],
+      "locator": {
+        "file": "kaiha070515.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "熊田尚子",
+        "栗原義幸",
+        "中元太"
+      ],
+      "locator": {
+        "file": "kaiha070515.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "金子敏江",
+        "山口則弘",
+        "滝沢修",
+        "新井巧"
+      ],
+      "locator": {
+        "file": "kaiha070515.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "国民民主党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小野まり"
+      ],
+      "locator": {
+        "file": "kaiha070515.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "参政党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "パタソンひとみ"
+      ],
+      "locator": {
+        "file": "kaiha070515.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属",
+      "seats": 2,
+      "isIndependent": true,
+      "members": [
+        "岩田隆弘",
+        "長谷川順子"
+      ],
+      "locator": {
+        "file": "kaiha070515.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第29号",
+    "billName": "令和8年度飯能市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決(多数)",
+    "locator": {
+      "file": "13091.html"
+    }
+  },
+  "rosterTitle": "会派構成一覧表（令和7年5月15日現在）",
+  "resultTitle": "議案一覧表（令和8年3月定例会）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "【議員別賛否状況】令和8年3月定例会（議員別賛否状況・議決結果）",
+    "sourceFile": "sannpizyoukyou8-3.pdf",
+    "columns": [
+      {
+        "label": "小野まり",
+        "faction": "国民民主党",
+        "member": "小野まり",
+        "stance": "反対"
+      },
+      {
+        "label": "山口則弘",
+        "faction": "日本共産党",
+        "member": "山口則弘",
+        "stance": "反対"
+      },
+      {
+        "label": "岩田隆弘",
+        "faction": "無所属",
+        "member": "岩田隆弘",
+        "stance": "反対"
+      },
+      {
+        "label": "美齊津大貴",
+        "faction": "風の会",
+        "member": "美齊津大貴",
+        "stance": "賛成"
+      },
+      {
+        "label": "熊田尚子",
+        "faction": "公明党",
+        "member": "熊田尚子",
+        "stance": "賛成"
+      },
+      {
+        "label": "長谷川順子",
+        "faction": "無所属",
+        "member": "長谷川順子",
+        "stance": "反対"
+      },
+      {
+        "label": "パタソンひとみ",
+        "faction": "参政党",
+        "member": "パタソンひとみ",
+        "stance": "賛成"
+      },
+      {
+        "label": "武田一宏",
+        "faction": "ネクストはんのう",
+        "member": "武田一宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "関田直子",
+        "faction": "ネクストはんのう",
+        "member": "関田直子",
+        "stance": "賛成"
+      },
+      {
+        "label": "坂井悦子",
+        "faction": "飯能みらい",
+        "member": "坂井悦子",
+        "stance": "賛成"
+      },
+      {
+        "label": "栗原義幸",
+        "faction": "公明党",
+        "member": "栗原義幸",
+        "stance": "議長"
+      },
+      {
+        "label": "中元太",
+        "faction": "公明党",
+        "member": "中元太",
+        "stance": "賛成"
+      },
+      {
+        "label": "滝沢修",
+        "faction": "日本共産党",
+        "member": "滝沢修",
+        "stance": "反対"
+      },
+      {
+        "label": "新井巧",
+        "faction": "日本共産党",
+        "member": "新井巧",
+        "stance": "反対"
+      },
+      {
+        "label": "金子敏江",
+        "faction": "日本共産党",
+        "member": "金子敏江",
+        "stance": "反対"
+      },
+      {
+        "label": "平沼弘",
+        "faction": "風の会",
+        "member": "平沼弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "椙田博之",
+        "faction": "風の会",
+        "member": "椙田博之",
+        "stance": "賛成"
+      },
+      {
+        "label": "鳥居誠明",
+        "faction": "飯能みらい",
+        "member": "鳥居誠明",
+        "stance": "賛成"
+      },
+      {
+        "label": "加涌弘貴",
+        "faction": "飯能みらい",
+        "member": "加涌弘貴",
+        "stance": "賛成"
+      }
+    ]
+  }
+}
