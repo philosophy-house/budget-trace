@@ -1,0 +1,26 @@
+{
+  "sourceId": "takahama-shigikai-r8",
+  "files": [
+    {
+      "filename": "takahama_peeple123.pdf",
+      "sha256": "ec20745924e060bcf479893c8c522de2e0d165cbb0282af931c9968f125e1b1d",
+      "bytes": 2251540,
+      "fetchedAt": "2026-11-03T12:56:05.314Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260811/20260808173720id_/https://www.city.takahama.lg.jp/uploaded/attachment/29386.pdf"
+    },
+    {
+      "filename": "takahama_37652_kaigikekka.html",
+      "sha256": "0f95d4984d8c67bf68636e4cb67b2a13921b68c316efc5dc5bfcc90dadaf8edc",
+      "bytes": 35905,
+      "fetchedAt": "2026-11-03T12:56:05.315Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260510162551id_/https://www.city.takahama.lg.jp/site/gikai/37652.html"
+    },
+    {
+      "filename": "takahama_37233_nittei.html",
+      "sha256": "011a3e3df99bbf995607344f5a6a5b5cd22c7a0b945589a0060d3807b9acec0e",
+      "bytes": 33996,
+      "fetchedAt": "2026-11-03T12:56:05.316Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260510112231id_/https://www.city.takahama.lg.jp/site/gikai/37233.html"
+    }
+  ]
+}

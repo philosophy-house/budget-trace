@@ -1,0 +1,36 @@
+{
+  "sourceId": "toshima-kugikai-r8",
+  "files": [
+    {
+      "filename": "toshima_kaiha_20251119.html",
+      "sha256": "99aba69f4395674631c2e15cd760c03c26cfd3d1b0d7c94d0e8df710542e8a93",
+      "bytes": 12095,
+      "fetchedAt": "2026-11-03T12:48:14.673Z",
+      "fetchedFrom": "https://web.archive.org/web/20251119072848id_/https://www.city.toshima.lg.jp/366/kuse/gikai/ginichiran/2305291045.html"
+    },
+    {
+      "filename": "toshima_080324saiketsukekka.pdf",
+      "sha256": "88587403a2ac68ce18709dcd338bfa45b82c0f1201e243fc80d2d61c20fabf0e",
+      "bytes": 357972,
+      "fetchedAt": "2026-11-03T12:48:14.673Z",
+      "fetchedFrom": "https://www.city.toshima.lg.jp/documents/55965/080324saiketsukekka.pdf"
+    },
+    {
+      "filename": "toshima_vod_R080324.html",
+      "sha256": "ce4f8f69bc47ccca8e77235b7f75d8ea43ac32bba6b4369f81b9624862391030",
+      "bytes": 19066,
+      "fetchedAt": "2026-11-03T12:48:14.674Z",
+      "fetchedFrom": "https://www.kensakusystem.jp/toshima-vod/cgi-bin4/GetHTML.exe?ozidjniby311zqkv9s/R080324_00TEIREI.html/0/10/1/0/0",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "toshima_kaiha_20260413.html",
+      "sha256": "99aba69f4395674631c2e15cd760c03c26cfd3d1b0d7c94d0e8df710542e8a93",
+      "bytes": 12095,
+      "fetchedAt": "2026-11-03T12:48:14.674Z",
+      "fetchedFrom": "https://web.archive.org/web/20260413171917id_/https://www.city.toshima.lg.jp/366/kuse/gikai/ginichiran/2305291045.html"
+    }
+  ]
+}

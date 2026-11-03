@@ -1,0 +1,224 @@
+{
+  "docType": "council-composition",
+  "sourceId": "higashiura-chogikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:56:06.695Z",
+  "fiscalYear": "R8",
+  "body": "東浦町議会",
+  "seats": 16,
+  "asOf": "2026-03-23",
+  "teisu": 16,
+  "factions": [
+    {
+      "name": "新政クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "鏡味昭史",
+        "間瀬元明",
+        "前田明弘",
+        "北野興地",
+        "長坂知泰"
+      ],
+      "locator": {
+        "file": "0803kojin.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "清流会",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "三浦雄二",
+        "水野久子",
+        "間瀬宗則",
+        "久松純志"
+      ],
+      "locator": {
+        "file": "0803kojin.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "親和会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "山下享司",
+        "大川晃"
+      ],
+      "locator": {
+        "file": "0803kojin.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党東浦",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "秋葉富士子",
+        "赤川操恵"
+      ],
+      "locator": {
+        "file": "0803kojin.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "庶民倶楽部",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山田眞悟"
+      ],
+      "locator": {
+        "file": "0803kojin.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党ひがしうら",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "杉下久仁子"
+      ],
+      "locator": {
+        "file": "0803kojin.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "高志会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "森靖広"
+      ],
+      "locator": {
+        "file": "0803kojin.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第 21 号",
+    "billName": "令和８年度東浦町一般会計予算",
+    "sessionLabel": "令和８年第１回東浦町議会定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "0803kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "令和８年第１回東浦町議会定例会 議員別審議結果一覧表（令和８年３月23日採決）の会派名・議員名の表頭",
+  "resultTitle": "令和８年第１回東浦町議会定例会 議決結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回東浦町議会定例会 議員別審議結果一覧表（令和８年３月23日採決）",
+    "sourceFile": "0803kojin.pdf",
+    "columns": [
+      {
+        "label": "鏡味昭史",
+        "faction": "新政クラブ",
+        "member": "鏡味昭史",
+        "stance": "議長"
+      },
+      {
+        "label": "間瀬元明",
+        "faction": "新政クラブ",
+        "member": "間瀬元明",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田明弘",
+        "faction": "新政クラブ",
+        "member": "前田明弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "北野興地",
+        "faction": "新政クラブ",
+        "member": "北野興地",
+        "stance": "賛成"
+      },
+      {
+        "label": "長坂知泰",
+        "faction": "新政クラブ",
+        "member": "長坂知泰",
+        "stance": "賛成"
+      },
+      {
+        "label": "三浦雄二",
+        "faction": "清流会",
+        "member": "三浦雄二",
+        "stance": "賛成"
+      },
+      {
+        "label": "水野久子",
+        "faction": "清流会",
+        "member": "水野久子",
+        "stance": "賛成"
+      },
+      {
+        "label": "間瀬宗則",
+        "faction": "清流会",
+        "member": "間瀬宗則",
+        "stance": "賛成"
+      },
+      {
+        "label": "久松純志",
+        "faction": "清流会",
+        "member": "久松純志",
+        "stance": "賛成"
+      },
+      {
+        "label": "山下享司",
+        "faction": "親和会",
+        "member": "山下享司",
+        "stance": "賛成"
+      },
+      {
+        "label": "大川晃",
+        "faction": "親和会",
+        "member": "大川晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "秋葉富士子",
+        "faction": "公明党東浦",
+        "member": "秋葉富士子",
+        "stance": "賛成"
+      },
+      {
+        "label": "赤川操恵",
+        "faction": "公明党東浦",
+        "member": "赤川操恵",
+        "stance": "賛成"
+      },
+      {
+        "label": "山田眞悟",
+        "faction": "庶民倶楽部",
+        "member": "山田眞悟",
+        "stance": "反対"
+      },
+      {
+        "label": "杉下久仁子",
+        "faction": "日本共産党ひがしうら",
+        "member": "杉下久仁子",
+        "stance": "反対"
+      },
+      {
+        "label": "森靖広",
+        "faction": "高志会",
+        "member": "森靖広",
+        "stance": "賛成"
+      }
+    ]
+  }
+}
