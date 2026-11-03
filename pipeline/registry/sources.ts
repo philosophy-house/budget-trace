@@ -56124,6 +56124,8 @@ export const SOURCES: SourceEntry[] = [
       teisuText: "本市では令和5年の一般選挙から、定数は18人になりました。",
       teisuUrl: "https://warp.ndl.go.jp/20260513/20260510091705id_/https://www.city.inuyama.aichi.jp/shisei/gikai/1000336/1000337.html",
       factionMarker: "代表者|議員氏名",
+    },
+  },
   // ---- 議会の構成 — 埼玉の残りへ（`council-transcribed`・docs/data-sources.md §6-29）----
   {
     // 埼玉県議会（団体コード 110001）。資料はすべて県の公式サイト（www.pref.saitama.lg.jp/e1601）にある
