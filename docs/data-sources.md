@@ -2281,7 +2281,7 @@ id は `saitama-ken-gikai-r8`・`<予算の行のローマ字>-shigikai-r8`（�
   - **発行元が Wayback を弾く3件**（2026-11-03 UTC の実測。`pipeline:archive-attempts` は JST の日で集計するので3件とも 2026-11-04 の行に出る。みどり・北広島・魚津と同じ型で、流し直しても登録されない）: 例規集 www1.g-reiki.net の蓮田（`e339RG00000022.html`）・伊奈町（`e345RG00000506.html`）・杉戸町（`e391RG00000026.html`）。
     SPN2 が `error:no-request`（「The target server blocks access to https://www1.g-reiki…」）を返した（試行の記録は `pipeline:archive-attempts`）。台帳に g-reiki.net の登録は1件も無い
 
-#### 6-30. 千葉・神奈川の残りへ広げた（2026-11-03・council-transcribed 0.8.22）
+#### 6-30. 千葉・神奈川の残りへ広げた（2026-11-03・council-transcribed 0.8.22〜0.8.23）
 
 budget 階層で議会の構成が未収録だった千葉19団体・神奈川8団体（計27団体）のうち、**15団体**を収録した
 （千葉の10団体: 千葉県と9市＝銚子・木更津・茂原・東金・君津・四街道・八街・富里・大網白里。神奈川の5団体: 三浦・南足柄・綾瀬・寒川町・愛川町）。**町議会は寒川町・愛川町**（id は `samukawa-chogikai-r8`・`aikawa-chogikai-r8`。§6-27 の熊取町の型）。
