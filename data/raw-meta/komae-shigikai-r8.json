@@ -1,0 +1,26 @@
+{
+  "sourceId": "komae-shigikai-r8",
+  "files": [
+    {
+      "filename": "komae_kakukaiha_meibo_20260210.pdf",
+      "sha256": "967c09fdb5edf85598c4a4df4cd3a9850917101dccb1e9043a8e5d0b126e1817",
+      "bytes": 38360,
+      "fetchedAt": "2026-11-03T12:48:14.691Z",
+      "fetchedFrom": "https://www.city.komae.tokyo.jp/index.cfm/49,95131,c,html/95131/20260216-140847.pdf"
+    },
+    {
+      "filename": "komae_gikaidayori_241.pdf",
+      "sha256": "768c882c1b79672acd8a92e29cc81f24bcf76865c00485818d64af1d53a18c00",
+      "bytes": 8409190,
+      "fetchedAt": "2026-11-03T12:48:14.697Z",
+      "fetchedFrom": "https://www.city.komae.tokyo.jp/index.cfm/49,144209,c,html/144209/20260512-154256.pdf"
+    },
+    {
+      "filename": "komae_r8_1_shinsakekka.pdf",
+      "sha256": "7be06819bdd72dc82fe5f8b010f1e04fc50ec34bda5c9d815cb0b1f988c4b4a8",
+      "bytes": 76477,
+      "fetchedAt": "2026-11-03T12:48:14.697Z",
+      "fetchedFrom": "https://www.city.komae.tokyo.jp/index.cfm/49,145713,c,html/145713/20260817-155303.pdf"
+    }
+  ]
+}

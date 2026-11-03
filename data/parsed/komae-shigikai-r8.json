@@ -1,0 +1,105 @@
+{
+  "docType": "council-composition",
+  "sourceId": "komae-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T15:19:11.602Z",
+  "fiscalYear": "R8",
+  "body": "狛江市議会",
+  "seats": 22,
+  "asOf": "2026-03-25",
+  "teisu": 22,
+  "factions": [
+    {
+      "name": "自由民主党・明政クラブ",
+      "seats": 8,
+      "isIndependent": false,
+      "members": [
+        "三角たけひさ",
+        "小木哲朗",
+        "山田みちこ",
+        "太田久美子",
+        "辻村ともこ",
+        "谷田部かずゆき",
+        "栗山欽行",
+        "石井功"
+      ],
+      "locator": {
+        "file": "komae_kakukaiha_meibo_20260210.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "日本共産党狛江市議団",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "荒木てつ",
+        "岡村しん",
+        "宮坂良子",
+        "西村あつ子"
+      ],
+      "locator": {
+        "file": "komae_kakukaiha_meibo_20260210.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "狛江市議会公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "小野寺克己",
+        "石川和広",
+        "山田幸子",
+        "佐々木貴史"
+      ],
+      "locator": {
+        "file": "komae_kakukaiha_meibo_20260210.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "分かりやすい政治を伝える・維新の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "きたみまさし",
+        "三宅まこと"
+      ],
+      "locator": {
+        "file": "komae_kakukaiha_meibo_20260210.pdf",
+        "page": 4
+      }
+    },
+    {
+      "name": "無会派",
+      "seats": 4,
+      "isIndependent": true,
+      "members": [
+        "ひらい里美",
+        "高木さとこ",
+        "しの浩司",
+        "吉野芳子"
+      ],
+      "locator": {
+        "file": "komae_kakukaiha_meibo_20260210.pdf",
+        "page": 4
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第６号",
+    "billName": "令和８年度狛江市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-25",
+    "decidedDateLabel": "令和8年3月25日",
+    "result": "原案可決",
+    "locator": {
+      "file": "komae_r8_1_shinsakekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "各会派議員名簿（令和８年２月10日現在）／議決時点の所属は市議会だより第241号（令和8年5月15日発行）4面「賛否がわかれた議案の○×結果」の表頭（会派名／名前）で確認",
+  "resultTitle": "令和８年第１回定例会議案、陳情等審査結果一覧"
+}

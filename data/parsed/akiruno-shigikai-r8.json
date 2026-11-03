@@ -1,0 +1,247 @@
+{
+  "docType": "council-composition",
+  "sourceId": "akiruno-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T15:19:13.274Z",
+  "fiscalYear": "R8",
+  "body": "あきる野市議会",
+  "seats": 21,
+  "asOf": "2026-03-26",
+  "teisu": 21,
+  "factions": [
+    {
+      "name": "自由民主党志清会",
+      "seats": 11,
+      "isIndependent": false,
+      "members": [
+        "臼井建",
+        "天野正昭",
+        "浦野治光",
+        "国松まさき",
+        "窪島成一",
+        "子籠敏人",
+        "中村一広",
+        "ひはら省吾",
+        "堀江武史",
+        "村野栄一",
+        "よしざわゆたか"
+      ],
+      "locator": {
+        "file": "akiruno_sanpiR8-3.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "大久保昌代",
+        "原田ひろこ",
+        "増﨑俊宏"
+      ],
+      "locator": {
+        "file": "akiruno_sanpiR8-3.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党あきる野市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "関口えり子",
+        "たばたあずみ",
+        "松本ゆき子"
+      ],
+      "locator": {
+        "file": "akiruno_sanpiR8-3.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "明るい未来を創る会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "清水晃",
+        "中村のりひと"
+      ],
+      "locator": {
+        "file": "akiruno_sanpiR8-3.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "くさしぎ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "辻よし子"
+      ],
+      "locator": {
+        "file": "akiruno_sanpiR8-3.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "リメンバー",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "しょうじさとし"
+      ],
+      "locator": {
+        "file": "akiruno_sanpiR8-3.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "市長提出　21",
+    "billName": "令和8年度あきる野市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会3月定例会議",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "akiruno_0000020278.html"
+    }
+  },
+  "rosterTitle": "令和８年第１回定例会３月定例会議 議案賛否一覧表（表頭の会派名と議員名）",
+  "resultTitle": "令和8年第1回定例会3月定例会議（日程・審議結果）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "令和８年第１回定例会３月定例会議 議案賛否一覧表（議案２１）",
+    "sourceFile": "akiruno_sanpiR8-3.pdf",
+    "columns": [
+      {
+        "label": "天野正昭",
+        "faction": "自由民主党志清会",
+        "member": "天野正昭",
+        "stance": "賛成"
+      },
+      {
+        "label": "浦野治光",
+        "faction": "自由民主党志清会",
+        "member": "浦野治光",
+        "stance": "賛成"
+      },
+      {
+        "label": "国松まさき",
+        "faction": "自由民主党志清会",
+        "member": "国松まさき",
+        "stance": "賛成"
+      },
+      {
+        "label": "窪島成一",
+        "faction": "自由民主党志清会",
+        "member": "窪島成一",
+        "stance": "賛成"
+      },
+      {
+        "label": "子籠敏人",
+        "faction": "自由民主党志清会",
+        "member": "子籠敏人",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村一広",
+        "faction": "自由民主党志清会",
+        "member": "中村一広",
+        "stance": "賛成"
+      },
+      {
+        "label": "ひはら省吾",
+        "faction": "自由民主党志清会",
+        "member": "ひはら省吾",
+        "stance": "賛成"
+      },
+      {
+        "label": "堀江武史",
+        "faction": "自由民主党志清会",
+        "member": "堀江武史",
+        "stance": "賛成"
+      },
+      {
+        "label": "村野栄一",
+        "faction": "自由民主党志清会",
+        "member": "村野栄一",
+        "stance": "賛成"
+      },
+      {
+        "label": "よしざわゆたか",
+        "faction": "自由民主党志清会",
+        "member": "よしざわゆたか",
+        "stance": "賛成"
+      },
+      {
+        "label": "大久保昌代",
+        "faction": "公明党",
+        "member": "大久保昌代",
+        "stance": "賛成"
+      },
+      {
+        "label": "原田ひろこ",
+        "faction": "公明党",
+        "member": "原田ひろこ",
+        "stance": "賛成"
+      },
+      {
+        "label": "増﨑俊宏",
+        "faction": "公明党",
+        "member": "増﨑俊宏",
+        "stance": "賛成"
+      },
+      {
+        "label": "関口えり子",
+        "faction": "日本共産党あきる野市議団",
+        "member": "関口えり子",
+        "stance": "反対"
+      },
+      {
+        "label": "たばたあずみ",
+        "faction": "日本共産党あきる野市議団",
+        "member": "たばたあずみ",
+        "stance": "反対"
+      },
+      {
+        "label": "松本ゆき子",
+        "faction": "日本共産党あきる野市議団",
+        "member": "松本ゆき子",
+        "stance": "反対"
+      },
+      {
+        "label": "清水晃",
+        "faction": "明るい未来を創る会",
+        "member": "清水晃",
+        "stance": "賛成"
+      },
+      {
+        "label": "中村のりひと",
+        "faction": "明るい未来を創る会",
+        "member": "中村のりひと",
+        "stance": "賛成"
+      },
+      {
+        "label": "辻よし子",
+        "faction": "くさしぎ",
+        "member": "辻よし子",
+        "stance": "反対"
+      },
+      {
+        "label": "しょうじさとし",
+        "faction": "リメンバー",
+        "member": "しょうじさとし",
+        "stance": "賛成"
+      },
+      {
+        "label": "臼井建",
+        "faction": "自由民主党志清会",
+        "member": "臼井建",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hamura-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T15:19:12.912Z",
+  "fiscalYear": "R8",
+  "body": "羽村市議会",
+  "seats": 18,
+  "asOf": "2026-03-26",
+  "teisu": 18,
+  "factions": [
+    {
+      "name": "新政会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "櫻沢裕人",
+        "池澤敦",
+        "野崎和也",
+        "秋山義徳",
+        "冨松崇"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 4,
+      "isIndependent": false,
+      "members": [
+        "金子ひとみ",
+        "中嶋勝",
+        "富永訓正",
+        "石居尚郎"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "令和かがやき",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "林田敦子",
+        "馳平耕三"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "浜中順",
+        "鈴木拓也"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "市民ネットワーク",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "門間淑子"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "羽村市議会都民ファーストの会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "濱中俊男"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "世論",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "山崎陽一"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "つながる力",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "高田和登"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "双葉会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "菅勇真"
+      ],
+      "locator": {
+        "file": "hamura_tobira154_p20-24.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第12号",
+    "billName": "令和8年度羽村市一般会計予算",
+    "sessionLabel": "令和8年（2026年）第1回羽村市議会定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "hamura_0000020466.html"
+    }
+  },
+  "rosterTitle": "羽村市議会だより ぎかいのトビラ 第154号（令和8年5月1日発行・令和8年3月定例会の状況）p.22「会派名簿」",
+  "resultTitle": "令和8年（2026年）第1回羽村市議会定例会議事日程",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "ぎかいのトビラ 第154号 p.12「第１回定例会（３月）の議決結果」■令和８年度当初予算（会派ごとの賛否）",
+    "sourceFile": "hamura_tobira154_p10-19.pdf",
+    "columns": [
+      {
+        "label": "新",
+        "faction": "新政会",
+        "stance": "賛成"
+      },
+      {
+        "label": "公",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "令",
+        "faction": "令和かがやき",
+        "stance": "賛成"
+      },
+      {
+        "label": "共",
+        "faction": "日本共産党",
+        "stance": "反対"
+      },
+      {
+        "label": "ネ",
+        "faction": "市民ネットワーク",
+        "stance": "賛成"
+      },
+      {
+        "label": "都",
+        "faction": "羽村市議会都民ファーストの会",
+        "stance": "賛成"
+      },
+      {
+        "label": "世",
+        "faction": "世論",
+        "stance": "賛成"
+      },
+      {
+        "label": "つ",
+        "faction": "つながる力",
+        "stance": "賛成"
+      },
+      {
+        "label": "双",
+        "faction": "双葉会",
+        "stance": "賛成"
+      },
+      {
+        "label": "富永訓正",
+        "faction": "公明党",
+        "member": "富永訓正",
+        "stance": "議長"
+      }
+    ]
+  }
+}

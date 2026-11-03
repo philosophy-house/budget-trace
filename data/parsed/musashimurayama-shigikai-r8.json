@@ -1,0 +1,156 @@
+{
+  "docType": "council-composition",
+  "sourceId": "musashimurayama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T15:19:15.484Z",
+  "fiscalYear": "R8",
+  "body": "武蔵村山市議会",
+  "seats": 20,
+  "asOf": "2025-09-01",
+  "teisu": 20,
+  "factions": [
+    {
+      "name": "新政会",
+      "seats": 7,
+      "isIndependent": false,
+      "members": [
+        "清水彩子",
+        "大野正士",
+        "内野和典",
+        "田口和弘",
+        "長堀武",
+        "土田雅一",
+        "波多野健"
+      ],
+      "locator": {
+        "file": "musashimurayama_kaiha_1003318_wb20260208.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "吉田篤",
+        "石黒照久",
+        "前田善信",
+        "須藤千詠子",
+        "遠藤政雄",
+        "髙橋弘志"
+      ],
+      "locator": {
+        "file": "musashimurayama_kaiha_1003318_wb20260208.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "藤枝奈々",
+        "内野直樹",
+        "田村充子"
+      ],
+      "locator": {
+        "file": "musashimurayama_kaiha_1003318_wb20260208.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "市民のチカラ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "木村祐子",
+        "鈴木明"
+      ],
+      "locator": {
+        "file": "musashimurayama_kaiha_1003318_wb20260208.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "清流",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "天目石要一郎"
+      ],
+      "locator": {
+        "file": "musashimurayama_kaiha_1003318_wb20260208.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "青陽会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "小部山𠮷則"
+      ],
+      "locator": {
+        "file": "musashimurayama_kaiha_1003318_wb20260208.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "第2号",
+    "billName": "令和8年度武蔵村山市一般会計予算",
+    "sessionLabel": "令和8年第1回定例会",
+    "decidedDate": "2026-03-23",
+    "decidedDateLabel": "令和8年3月23日",
+    "result": "原案可決",
+    "locator": {
+      "file": "musashimurayama_kekka_r8-1_1021877.html"
+    }
+  },
+  "rosterTitle": "会派別名簿（更新日 令和7年9月1日）の魚拓（2026年2月8日）",
+  "resultTitle": "令和8年第1回定例会 議決結果",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "武蔵村山市議会だより No.236（令和8年5月1日）「意見の分かれた議案等」第１回定例会",
+    "sourceFile": "musashimurayama_dayori_236.pdf",
+    "columns": [
+      {
+        "label": "新政会",
+        "faction": "新政会",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明党",
+        "faction": "公明党",
+        "stance": "賛成"
+      },
+      {
+        "label": "共産党",
+        "faction": "日本共産党",
+        "stance": "反対"
+      },
+      {
+        "label": "市民のチカラ",
+        "faction": "市民のチカラ",
+        "stance": "賛成"
+      },
+      {
+        "label": "清流",
+        "faction": "清流",
+        "stance": "賛成"
+      },
+      {
+        "label": "青陽会",
+        "faction": "青陽会",
+        "stance": "賛成"
+      },
+      {
+        "label": "吉田篤",
+        "faction": "公明党",
+        "member": "吉田篤",
+        "stance": "議長"
+      }
+    ]
+  }
+}
