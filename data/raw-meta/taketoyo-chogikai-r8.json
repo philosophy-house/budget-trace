@@ -1,0 +1,40 @@
+{
+  "sourceId": "taketoyo-chogikai-r8",
+  "files": [
+    {
+      "filename": "1002820_warp20260208.html",
+      "sha256": "66a06155b1f705a08ccdcd285b7cde1e69047b56d1a1b1ba31487be97d0ed601",
+      "bytes": 24387,
+      "fetchedAt": "2026-11-03T12:56:05.287Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260208/20260208033246id_/https://www.town.taketoyo.lg.jp/gikai/1002800/1002820.html"
+    },
+    {
+      "filename": "1002820_warp20260510.html",
+      "sha256": "13315f03518683092973bd9057b495b2143383435fa121d750d0e6417cc50563",
+      "bytes": 21401,
+      "fetchedAt": "2026-11-03T12:56:05.287Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260513/20260510121423id_/https://www.town.taketoyo.lg.jp/gikai/1002800/1002820.html"
+    },
+    {
+      "filename": "r8_1giketsukekka.pdf",
+      "sha256": "8003409016bf3fd75798bc4a30d57deb8cb74f609c999d24c9b2a01e555c0d40",
+      "bytes": 145835,
+      "fetchedAt": "2026-11-03T12:56:05.288Z",
+      "fetchedFrom": "https://www.town.taketoyo.lg.jp/_res/projects/default_project/_page_/001/006/300/r8_1giketsukekka.pdf"
+    },
+    {
+      "filename": "1002822.html",
+      "sha256": "38f9e2d49071167f3a34724a843cd7f980d9eb1853546f41c17b7d22dc46a8d6",
+      "bytes": 28936,
+      "fetchedAt": "2026-11-03T12:56:05.288Z",
+      "fetchedFrom": "https://www.town.taketoyo.lg.jp/gikai/1002802/1002822.html"
+    },
+    {
+      "filename": "1004032.html",
+      "sha256": "ba11804e2800cbf484265c9fe094536a88272b9e130a221b00b0c89c938a9167",
+      "bytes": 22035,
+      "fetchedAt": "2026-11-03T12:56:05.288Z",
+      "fetchedFrom": "https://www.town.taketoyo.lg.jp/gikai/1002799/1004032/index.html"
+    }
+  ]
+}

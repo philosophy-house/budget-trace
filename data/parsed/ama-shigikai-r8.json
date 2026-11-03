@@ -1,0 +1,279 @@
+{
+  "docType": "council-composition",
+  "sourceId": "ama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.22",
+  "parsedAt": "2026-11-03T12:56:08.478Z",
+  "fiscalYear": "R8",
+  "body": "あま市議会",
+  "seats": 21,
+  "asOf": "2026-03-18",
+  "factions": [
+    {
+      "name": "日本共産党あま市議団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "野中幸夫"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    },
+    {
+      "name": "公明党あま市議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "近藤みどり",
+        "足立詔子",
+        "柏原功"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "山本雄一",
+        "石田良雄",
+        "前田豊光"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    },
+    {
+      "name": "維新の会あま市議団",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "毛利尚義"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    },
+    {
+      "name": "市民改革クラブ",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "八島堅志",
+        "松下昭憲"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    },
+    {
+      "name": "志政会",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "江波圭一",
+        "宮崎環",
+        "後藤哲哉",
+        "森耕治",
+        "伊藤嘉規",
+        "横井敏夫"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    },
+    {
+      "name": "健政会",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "奥田哲弘",
+        "後藤幸正",
+        "林正彦"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    },
+    {
+      "name": "無会派（美濃島絢太）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "美濃島絢太"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    },
+    {
+      "name": "無会派（山内隆久）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "山内隆久"
+      ],
+      "locator": {
+        "file": "64goutayori.pdf",
+        "page": 19
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第16号",
+    "billName": "令和8年度あま市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-18",
+    "decidedDateLabel": "令和8年3月18日",
+    "result": "原案可決",
+    "locator": {
+      "file": "1010746.html"
+    }
+  },
+  "rosterTitle": "あま市議会だより第64号（2026年6月発行）p.19「賛否の分かれた議案」の表頭（3月定例会の議決時の会派）",
+  "resultTitle": "令和8年3月定例会（あま市議会 会議の状況）",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "あま市議会だより第64号（2026年6月発行）p.19「賛否の分かれた議案」",
+    "sourceFile": "64goutayori.pdf",
+    "columns": [
+      {
+        "label": "野中幸夫",
+        "faction": "日本共産党あま市議団",
+        "member": "野中幸夫",
+        "stance": "反対"
+      },
+      {
+        "label": "近藤みどり",
+        "faction": "公明党あま市議団",
+        "member": "近藤みどり",
+        "stance": "賛成"
+      },
+      {
+        "label": "足立詔子",
+        "faction": "公明党あま市議団",
+        "member": "足立詔子",
+        "stance": "賛成"
+      },
+      {
+        "label": "柏原功",
+        "faction": "公明党あま市議団",
+        "member": "柏原功",
+        "stance": "賛成"
+      },
+      {
+        "label": "山本雄一",
+        "faction": "新政会",
+        "member": "山本雄一",
+        "stance": "賛成"
+      },
+      {
+        "label": "石田良雄",
+        "faction": "新政会",
+        "member": "石田良雄",
+        "stance": "賛成"
+      },
+      {
+        "label": "前田豊光",
+        "faction": "新政会",
+        "member": "前田豊光",
+        "stance": "賛成"
+      },
+      {
+        "label": "毛利尚義",
+        "faction": "維新の会あま市議団",
+        "member": "毛利尚義",
+        "stance": "賛成"
+      },
+      {
+        "label": "八島堅志",
+        "faction": "市民改革クラブ",
+        "member": "八島堅志",
+        "stance": "賛成"
+      },
+      {
+        "label": "松下昭憲",
+        "faction": "市民改革クラブ",
+        "member": "松下昭憲",
+        "stance": "反対"
+      },
+      {
+        "label": "江波圭一",
+        "faction": "志政会",
+        "member": "江波圭一",
+        "stance": "賛成"
+      },
+      {
+        "label": "宮崎環",
+        "faction": "志政会",
+        "member": "宮崎環",
+        "stance": "賛成"
+      },
+      {
+        "label": "後藤哲哉",
+        "faction": "志政会",
+        "member": "後藤哲哉",
+        "stance": "賛成"
+      },
+      {
+        "label": "森耕治",
+        "faction": "志政会",
+        "member": "森耕治",
+        "stance": "賛成"
+      },
+      {
+        "label": "伊藤嘉規",
+        "faction": "志政会",
+        "member": "伊藤嘉規",
+        "stance": "賛成"
+      },
+      {
+        "label": "横井敏夫",
+        "faction": "志政会",
+        "member": "横井敏夫",
+        "stance": "賛成"
+      },
+      {
+        "label": "奥田哲弘",
+        "faction": "健政会",
+        "member": "奥田哲弘",
+        "stance": "賛成"
+      },
+      {
+        "label": "後藤幸正",
+        "faction": "健政会",
+        "member": "後藤幸正",
+        "stance": "賛成"
+      },
+      {
+        "label": "林正彦",
+        "faction": "健政会",
+        "member": "林正彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "美濃島絢太",
+        "faction": "無会派（美濃島絢太）",
+        "member": "美濃島絢太",
+        "stance": "賛成"
+      },
+      {
+        "label": "山内隆久",
+        "faction": "無会派（山内隆久）",
+        "member": "山内隆久",
+        "stance": "議長"
+      }
+    ]
+  }
+}
