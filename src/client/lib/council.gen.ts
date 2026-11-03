@@ -42869,6 +42869,190 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
       "newsletterUrl": null
     }
   ],
+  "300004": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "和歌山県議会",
+      "seats": 39,
+      "asOf": "2025-09-09",
+      "asOfLabel": "2025年9月9日",
+      "departures": [
+        {
+          "kind": "辞職",
+          "date": "2026-02-18",
+          "dateLabel": "2月18日",
+          "faction": "自由民主党県議団",
+          "source": {
+            "title": "令和8年2月 和歌山県議会定例会会議録 第1号（2月19日・議長の報告）",
+            "localUrl": "/sources/wakayama-ken-gikai-r8/d00222247.html",
+            "originUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html",
+            "archiveUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html"
+          }
+        },
+        {
+          "kind": "辞職",
+          "date": "2026-02-18",
+          "dateLabel": "2月18日",
+          "faction": "無所属有志の会",
+          "source": {
+            "title": "令和8年2月 和歌山県議会定例会会議録 第1号（2月19日・議長の報告）",
+            "localUrl": "/sources/wakayama-ken-gikai-r8/d00222247.html",
+            "originUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html",
+            "archiveUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html"
+          }
+        }
+      ],
+      "factions": [
+        {
+          "name": "自由民主党県議団",
+          "seats": 25,
+          "isIndependent": false
+        },
+        {
+          "name": "改新クラブ",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "公明党県議団",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属の会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属クラブ",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "みらいの会",
+          "seats": 1,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属（谷洋一）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第1号",
+        "billName": "令和8年度和歌山県一般会計予算",
+        "sessionLabel": "令和8年2月定例会",
+        "decidedDate": "2026-03-17",
+        "decidedDateLabel": "令和8年3月17日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 和歌山県議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "和歌山県議会会派名簿（令和7年9月9日現在・議決前の魚拓）",
+        "localUrl": "/sources/wakayama-ken-gikai-r8/kaihabetu_20251113.pdf",
+        "originUrl": "https://web.archive.org/web/20251113055203id_/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525_d/fil/kaihabetu.pdf",
+        "archiveUrl": "https://web.archive.org/web/20251113055203id_/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525_d/fil/kaihabetu.pdf"
+      },
+      "result": {
+        "title": "令和8年2月定例会の議案・採決結果等一覧",
+        "localUrl": "/sources/wakayama-ken-gikai-r8/d00221625.html",
+        "originUrl": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625.html",
+        "archiveUrl": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625.html"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null,
+      "votes": {
+        "basis": "faction",
+        "stances": [
+          "賛成",
+          "反対",
+          "議長"
+        ],
+        "tally": {
+          "賛成": 37,
+          "議長": 1,
+          "反対": 1
+        },
+        "byFaction": [
+          {
+            "faction": "自由民主党県議団",
+            "counts": {
+              "賛成": 24,
+              "議長": 1
+            },
+            "members": [
+              {
+                "name": "岩田弘彦",
+                "stance": "議長"
+              }
+            ]
+          },
+          {
+            "faction": "改新クラブ",
+            "counts": {
+              "賛成": 5
+            },
+            "members": []
+          },
+          {
+            "faction": "公明党県議団",
+            "counts": {
+              "賛成": 3
+            },
+            "members": []
+          },
+          {
+            "faction": "無所属の会",
+            "counts": {
+              "賛成": 2
+            },
+            "members": []
+          },
+          {
+            "faction": "日本共産党",
+            "counts": {
+              "反対": 1
+            },
+            "members": []
+          },
+          {
+            "faction": "無所属クラブ",
+            "counts": {
+              "賛成": 1
+            },
+            "members": []
+          },
+          {
+            "faction": "みらいの会",
+            "counts": {
+              "賛成": 1
+            },
+            "members": []
+          },
+          {
+            "faction": "無所属（谷洋一）",
+            "counts": {
+              "賛成": 1
+            },
+            "members": []
+          }
+        ],
+        "source": {
+          "title": "令和８年２月定例会における議案等に対する各会派の賛否の状況",
+          "localUrl": "/sources/wakayama-ken-gikai-r8/sanpi.pdf",
+          "originUrl": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625_d/fil/sanpi.pdf",
+          "archiveUrl": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625_d/fil/sanpi.pdf"
+        }
+      }
+    }
+  ],
   "302015": [
     {
       "fy": "R8",
@@ -70108,6 +70292,71 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "localUrl": "/sources/tokaimura-songikai-r8/tokaimura_R80326giketu2.pdf",
         "originUrl": "https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf",
         "archiveUrl": "https://web.archive.org/web/20261031172550/https://www.vill.tokai.ibaraki.jp/material/files/group/31/R80326giketu2.pdf"
+      },
+      "minutesUrl": null,
+      "newsletterUrl": null
+    }
+  ],
+  "022021": [
+    {
+      "fy": "R8",
+      "fyLabel": "令和8年度 当初予算",
+      "body": "弘前市議会",
+      "seats": 26,
+      "asOf": "2026-03-04",
+      "asOfLabel": "2026年3月4日",
+      "factions": [
+        {
+          "name": "創和・公明",
+          "seats": 10,
+          "isIndependent": false
+        },
+        {
+          "name": "奏望会",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "弘前さくら未来",
+          "seats": 5,
+          "isIndependent": false
+        },
+        {
+          "name": "日本共産党",
+          "seats": 3,
+          "isIndependent": false
+        },
+        {
+          "name": "滄桑之会",
+          "seats": 2,
+          "isIndependent": false
+        },
+        {
+          "name": "無所属（東雲）（野村太郎）",
+          "seats": 1,
+          "isIndependent": true
+        }
+      ],
+      "resolution": {
+        "billNo": "議案第11号",
+        "billName": "令和８年度弘前市一般会計予算",
+        "sessionLabel": "令和８年第１回定例会",
+        "decidedDate": "2026-03-19",
+        "decidedDateLabel": "令和8年3月19日",
+        "result": "原案可決"
+      },
+      "sourceTitle": "令和8年度 弘前市議会の構成（会派別議席数）と当初予算の議決",
+      "roster": {
+        "title": "会派一覧（令和8年3月4日現在）— 国立国会図書館 WARP の 2026-04-06 の収集",
+        "localUrl": "/sources/hirosaki-shigikai-r8/kaiha_warp20260406.html",
+        "originUrl": "https://warp.ndl.go.jp/20260416/20260406012022id_/https://www.city.hirosaki.aomori.jp/gikai/kaiha.html",
+        "archiveUrl": "https://warp.ndl.go.jp/20260416/20260406012022id_/https://www.city.hirosaki.aomori.jp/gikai/kaiha.html"
+      },
+      "result": {
+        "title": "令和８年第１回定例会 議決結果",
+        "localUrl": "/sources/hirosaki-shigikai-r8/2026-1_kekka.pdf",
+        "originUrl": "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf",
+        "archiveUrl": "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf"
       },
       "minutesUrl": null,
       "newsletterUrl": null

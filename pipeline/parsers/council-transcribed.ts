@@ -35,7 +35,11 @@ const isIndependentGroupName = (name: string) => INDEPENDENT_GROUP_NAMES.some((n
 const factionSchema = z
   .object({
     name: z.string().min(1),
-    members: z.array(z.string().min(1)).min(1),
+    /**
+     * 議決時の所属議員。空にできるのは、名簿の基準日にいた議員が全員 departures で離れた会派だけ（和歌山県の
+     * 「無所属有志の会」: ただ1人の議員が辞職。0.8.23）。空の会派は画面に出さない
+     */
+    members: z.array(z.string().min(1)),
     independent: z.boolean().optional(),
     /** 会派名が原典で行をまたいで割れているとき、突き合わせに使う断片（例: 「煌・フォーラ」「ム21」） */
     nameParts: z.array(z.string().min(1)).optional(),
@@ -1574,7 +1578,10 @@ export function parseCouncilTranscribed(
     }
   }
   const seen = new Map<string, string>();
-  const factions: CouncilFactionFact[] = opt.factions.map((f, i) => {
+  for (const f of opt.factions) {
+    if (!f.members.length && !departedOf(f).length) missing.push(`会派「${f.name}」の members が空です（空にできるのは、議員が全員 departures で離れた会派だけ）`);
+  }
+  const factionsAll: CouncilFactionFact[] = opt.factions.map((f, i) => {
     const sections = sectionsOf(i);
     // 略称が「会派：○○」の形（名簿の欄見出しつき）なら、○○は会派名そのもの（0.8.13）。名前だけを名簿の
     // 別の欄（政党）の語に書き換えても、略称の照合と名前の出現の照合を両方通った（坂東で実測）
@@ -1766,7 +1773,7 @@ export function parseCouncilTranscribed(
         }
       }
     }
-    const page = isPdf(rosterFile) ? (f.page ?? pageOf(roster.views, f.members[0]!)) : null;
+    const page = isPdf(rosterFile) ? (f.page ?? (f.members[0] ?? departedOf(f)[0]?.name) != null ? pageOf(roster.views, (f.members[0] ?? departedOf(f)[0]?.name)!) : null) : null;
     return {
       name: f.independent && f.members.length === 1 ? `${f.name}（${f.members[0]}）` : f.name,
       seats: f.members.length,
@@ -1775,6 +1782,9 @@ export function parseCouncilTranscribed(
       locator: { file: rosterFile.filename, ...(page != null ? { page } : { row: i + 1 }) },
     };
   });
+  // 議員が全員離れた会派（members が空）は議決時の構成に出さない。賛否の照合もこの並びで行う
+  const factions = factionsAll.filter((f) => f.seats > 0);
+  const factionsLive = opt.factions.filter((f) => f.members.length > 0);
   const seats = factions.reduce((s, f) => s + f.seats, 0);
   const departuresOut = departures.map((d) => checkDeparture(d));
   function checkDeparture(d: NonNullable<CouncilTranscribedOptions["departures"]>[number]) {
@@ -1802,27 +1812,42 @@ export function parseCouncilTranscribed(
     const dates = datePositions(tN);
     const names = [...new Set([...opt.factions.flatMap((g) => g.members), ...departures.map((o) => o.name)].map(norm))];
     // 長い氏名の中の短い氏名（「田中一郎」の中の「田中一」）は数えない
-    const spans0 = names.flatMap((n) => boundedAll(tN, n).map((at) => ({ n, at, end: at + n.length })));
-    const spans = spans0.filter((s) => !spans0.some((o) => o !== s && o.at <= s.at && s.end <= o.end && o.end - o.at > s.end - s.at));
+    // 氏名の直後は区切り・敬称・助詞であること（姓だけの「中本」が原文の「中本浩精君」に当たって通った＝和歌山県の作業者が実測）
+    const NAME_END = /^(?:$|[、。,.・()「」『』:\[\]【】〔〕]|議員|君|氏|さん|様|前|元|が|は|の|から|を|に|と|も|及|並)/;
+    const spans0 = names.flatMap((n) => boundedAll(tN, n).filter((at) => NAME_END.test(tN.slice(at + n.length))).map((at) => ({ n, at, end: at + n.length })));
+    const spans = spans0.filter((s) => !spans0.some((o) => o !== s && o.at <= s.at && s.end <= o.end && o.end - o.at > s.end - s.at)).sort((a, b) => a.at - b.at);
+    // 並べて書いた氏名（「中本浩精君、小西政宏君から…辞職」）は1つの組として扱う。間が敬称・括弧書き・読点・「及び」だけの氏名どうし
+    const LIST_GAP = /^(?:議員|君|氏|さん|様)?(?:\([^()]{0,40}\))?(?:議員|君|氏|さん|様)?(?:[、,・]|及び|並びに|と)$/;
+    const groupOf = (s: (typeof spans)[number]) => {
+      let a = spans.indexOf(s);
+      let b = a;
+      while (a > 0 && LIST_GAP.test(tN.slice(spans[a - 1]!.end, spans[a]!.at))) a--;
+      while (b < spans.length - 1 && LIST_GAP.test(tN.slice(spans[b]!.end, spans[b + 1]!.at))) b++;
+      return spans.slice(a, b + 1);
+    };
     const gap = (a: { at: number; end: number }, b: { at: number; end: number }) => Math.max(0, a.at - b.end, b.at - a.end);
     const kinds = boundedAll(tN, d.kind).map((at) => ({ at, end: at + d.kind.length }));
-    if (!tN.includes(nameN)) missing.push(`${who}: 原文に氏名がありません`);
+    if (!spans.some((s) => s.n === nameN)) missing.push(`${who}: 原文に氏名がありません（氏名の直後が区切り・敬称・助詞の出現が要る）`);
     if (!kinds.length) missing.push(`${who}: 原文に「${d.kind}」の語がありません`);
     if (!dates.some((t) => t.md === md)) missing.push(`${who}: 原文に離れた日「${md}」がありません`);
     for (const t of dates) {
       if (t.md === md && t.reiwa != null && t.reiwa !== y - 2018) missing.push(`${who}: 原文の「令和${t.reiwa}年${md}」が離れた日 ${d.date} の年と合いません`);
     }
-    if (kinds.length && tN.includes(nameN) && dates.some((t) => t.md === md)) {
+    if (kinds.length && spans.some((s) => s.n === nameN) && dates.some((t) => t.md === md)) {
       const ok = kinds.some((k) => {
-        const nearestName = spans.reduce<{ n: string; g: number } | null>((b, s) => (b == null || gap(s, k) < b.g ? { n: s.n, g: gap(s, k) } : b), null);
+        const minN = Math.min(...spans.map((s) => gap(s, k)));
+        const nearest = spans.filter((s) => gap(s, k) === minN);
         const nearDates = dates.map((t) => ({ md: t.md, g: gap(t, k) }));
         const minG = Math.min(...nearDates.map((t) => t.g));
         const nearestMd = new Set(nearDates.filter((t) => t.g === minG).map((t) => t.md));
-        // 同じ距離に別の氏名・別の日付があれば決められないので通さない
-        const tiedNames = new Set(spans.filter((s) => gap(s, k) === nearestName?.g).map((s) => s.n));
-        return nearestName?.n === nameN && tiedNames.size === 1 && nearestMd.size === 1 && nearestMd.has(md);
+        // 最も近い氏名（同じ距離に2つあれば決められないので通さない）の組に name があり、組の全員が同じ日・同じ理由で
+        // departures に書かれていること（組に在籍の議員が混じる原文で、その議員を除く書き写しを通さない）
+        if (nearest.length !== 1) return false;
+        const group = groupOf(nearest[0]!);
+        const sameEvent = (n: string) => departures.some((o) => norm(o.name) === n && o.kind === d.kind && o.date === d.date);
+        return group.some((s) => s.n === nameN) && group.every((s) => sameEvent(s.n)) && nearestMd.size === 1 && nearestMd.has(md);
       });
-      if (!ok) missing.push(`${who}: 原文で「${d.kind}」に最も近い議員の氏名が「${d.name}」で、最も近い日付が「${md}」である箇所がありません`);
+      if (!ok) missing.push(`${who}: 原文で「${d.kind}」に最も近い議員の氏名（並べて書いた組）に「${d.name}」があり、組の全員が同じ日・同じ理由で departures にあり、最も近い日付が「${md}」である箇所がありません`);
     }
     return { name: d.name, faction: f?.name ?? d.faction, kind: d.kind, date: d.date, dateLabel: md, title: d.title, url: d.url, locator: { file: fileFor(d.url).filename } };
   }
@@ -2130,7 +2155,7 @@ export function parseCouncilTranscribed(
   let votesOut: VotesOut | undefined;
   let partsOut: (VotesOut & { part: string })[] | undefined;
   if (opt.votes && opt.votesParts) throw new Error(`${source.id}: votes と votesParts は同時に使わない`);
-  const vctx: VotesCtx = { sourceId: source.id, factionsOpt: opt.factions, factions, rosterViews: roster.views, fileFor, missing, bill: { billNo: r.billNo, billName: r.billName }, result: r.result };
+  const vctx: VotesCtx = { sourceId: source.id, factionsOpt: factionsLive, factions, rosterViews: roster.views, fileFor, missing, bill: { billNo: r.billNo, billName: r.billName }, result: r.result };
   if (opt.votes) votesOut = verifyVotes(vctx, opt.votes);
   if (opt.votesParts) {
     partsOut = opt.votesParts.map((vp) => {

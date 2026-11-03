@@ -1,0 +1,232 @@
+{
+  "docType": "council-composition",
+  "sourceId": "wakayama-ken-gikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T12:28:59.079Z",
+  "fiscalYear": "R8",
+  "body": "和歌山県議会",
+  "seats": 39,
+  "asOf": "2025-09-09",
+  "factions": [
+    {
+      "name": "自由民主党県議団",
+      "seats": 25,
+      "isIndependent": false,
+      "members": [
+        "井出益弘",
+        "尾崎要二",
+        "吉井和視",
+        "中村裕一",
+        "新島雄",
+        "山下直也",
+        "山田正彦",
+        "坂本登",
+        "尾﨑太郎",
+        "藤山将材",
+        "森礼子",
+        "濱口太史",
+        "鈴木太雄",
+        "岩田弘彦",
+        "佐藤武治",
+        "玄素彰人",
+        "鈴木德久",
+        "山家敏宏",
+        "堀龍雄",
+        "秋月史成",
+        "北山慎一",
+        "坂本佳隆",
+        "三栖拓也",
+        "高田英亮",
+        "上山寿示"
+      ],
+      "locator": {
+        "file": "kaihabetu_20251113.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "改新クラブ",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "長坂隆司",
+        "片桐章浩",
+        "藤本眞利子",
+        "浦口高典",
+        "谷口和樹"
+      ],
+      "locator": {
+        "file": "kaihabetu_20251113.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "公明党県議団",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "岩井弘次",
+        "小川浩樹",
+        "中尾友紀"
+      ],
+      "locator": {
+        "file": "kaihabetu_20251113.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属の会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "中西徹",
+        "林隆一"
+      ],
+      "locator": {
+        "file": "kaihabetu_20251113.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "奥村規子"
+      ],
+      "locator": {
+        "file": "kaihabetu_20251113.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "川畑哲哉"
+      ],
+      "locator": {
+        "file": "kaihabetu_20251113.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "みらいの会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "岩永淳志"
+      ],
+      "locator": {
+        "file": "kaihabetu_20251113.pdf",
+        "page": 1
+      }
+    },
+    {
+      "name": "無所属（谷洋一）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "谷洋一"
+      ],
+      "locator": {
+        "file": "kaihabetu_20251113.pdf",
+        "page": 1
+      }
+    }
+  ],
+  "departures": [
+    {
+      "name": "中本浩精",
+      "faction": "自由民主党県議団",
+      "kind": "辞職",
+      "date": "2026-02-18",
+      "dateLabel": "2月18日",
+      "title": "令和8年2月 和歌山県議会定例会会議録 第1号（2月19日・議長の報告）",
+      "url": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html",
+      "locator": {
+        "file": "d00222247.html"
+      }
+    },
+    {
+      "name": "小西政宏",
+      "faction": "無所属有志の会",
+      "kind": "辞職",
+      "date": "2026-02-18",
+      "dateLabel": "2月18日",
+      "title": "令和8年2月 和歌山県議会定例会会議録 第1号（2月19日・議長の報告）",
+      "url": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html",
+      "locator": {
+        "file": "d00222247.html"
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第1号",
+    "billName": "令和8年度和歌山県一般会計予算",
+    "sessionLabel": "令和8年2月定例会",
+    "decidedDate": "2026-03-17",
+    "decidedDateLabel": "令和8年3月17日",
+    "result": "原案可決",
+    "locator": {
+      "file": "d00221625.html"
+    }
+  },
+  "rosterTitle": "和歌山県議会会派名簿（令和7年9月9日現在・議決前の魚拓）",
+  "resultTitle": "令和8年2月定例会の議案・採決結果等一覧",
+  "votes": {
+    "basis": "faction",
+    "sourceTitle": "令和８年２月定例会における議案等に対する各会派の賛否の状況",
+    "sourceFile": "sanpi.pdf",
+    "columns": [
+      {
+        "label": "自民",
+        "faction": "自由民主党県議団",
+        "stance": "賛成"
+      },
+      {
+        "label": "改新",
+        "faction": "改新クラブ",
+        "stance": "賛成"
+      },
+      {
+        "label": "公明",
+        "faction": "公明党県議団",
+        "stance": "賛成"
+      },
+      {
+        "label": "無会",
+        "faction": "無所属の会",
+        "stance": "賛成"
+      },
+      {
+        "label": "共産",
+        "faction": "日本共産党",
+        "stance": "反対"
+      },
+      {
+        "label": "無ク",
+        "faction": "無所属クラブ",
+        "stance": "賛成"
+      },
+      {
+        "label": "み会",
+        "faction": "みらいの会",
+        "stance": "賛成"
+      },
+      {
+        "label": "無",
+        "faction": "無所属（谷洋一）",
+        "stance": "賛成"
+      },
+      {
+        "label": "岩田弘彦",
+        "faction": "自由民主党県議団",
+        "member": "岩田弘彦",
+        "stance": "議長"
+      }
+    ]
+  }
+}

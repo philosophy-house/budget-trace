@@ -1,0 +1,119 @@
+{
+  "docType": "council-composition",
+  "sourceId": "hirosaki-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T12:28:59.357Z",
+  "fiscalYear": "R8",
+  "body": "弘前市議会",
+  "seats": 26,
+  "asOf": "2026-03-04",
+  "factions": [
+    {
+      "name": "創和・公明",
+      "seats": 10,
+      "isIndependent": false,
+      "members": [
+        "蒔苗博英",
+        "清野一榮",
+        "尾﨑寿一",
+        "外崎勝康",
+        "木村隆洋",
+        "石山敬",
+        "畑山聡",
+        "蛯名正樹",
+        "竹浪敦",
+        "志村洋子"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260406.html",
+        "row": 1
+      }
+    },
+    {
+      "name": "奏望会",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "坂本崇",
+        "田中元",
+        "三上秋雄",
+        "齋藤豪",
+        "工藤賢生"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260406.html",
+        "row": 2
+      }
+    },
+    {
+      "name": "弘前さくら未来",
+      "seats": 5,
+      "isIndependent": false,
+      "members": [
+        "竹内博之",
+        "工藤光志",
+        "成田大介",
+        "樋川篤子",
+        "工藤裕介"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260406.html",
+        "row": 3
+      }
+    },
+    {
+      "name": "日本共産党",
+      "seats": 3,
+      "isIndependent": false,
+      "members": [
+        "千葉浩規",
+        "三浦行",
+        "須藤江利加"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260406.html",
+        "row": 4
+      }
+    },
+    {
+      "name": "滄桑之会",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "佐藤哲",
+        "松橋武史"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260406.html",
+        "row": 5
+      }
+    },
+    {
+      "name": "無所属（東雲）（野村太郎）",
+      "seats": 1,
+      "isIndependent": true,
+      "members": [
+        "野村太郎"
+      ],
+      "locator": {
+        "file": "kaiha_warp20260406.html",
+        "row": 6
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第11号",
+    "billName": "令和８年度弘前市一般会計予算",
+    "sessionLabel": "令和８年第１回定例会",
+    "decidedDate": "2026-03-19",
+    "decidedDateLabel": "令和8年3月19日",
+    "result": "原案可決",
+    "locator": {
+      "file": "2026-1_kekka.pdf",
+      "page": 1
+    }
+  },
+  "rosterTitle": "会派一覧（令和8年3月4日現在）— 国立国会図書館 WARP の 2026-04-06 の収集",
+  "resultTitle": "令和８年第１回定例会 議決結果"
+}

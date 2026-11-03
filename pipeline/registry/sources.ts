@@ -55210,6 +55210,82 @@ export const SOURCES: SourceEntry[] = [
       resolution: {"url":"https://www.city.nakama.lg.jp/soshiki/33/18373.html","title":"令和8年第2回（3月）定例会議会議案・議決結果","table":"row","billNo":"第19号議案","billName":"令和8年度中間市一般会計予算","sessionLabel":"令和8年第2回（3月）定例会","decidedDate":"2026-03-25","result":"原案可決"},
     },
   },
+  {
+    // 和歌山県議会（都道府県・団体コード 300004。⚠ 和歌山市議会 302015 と別団体）。名簿は「和歌山県議会会派名簿（令和7年9月9日現在）」（会派別名簿のページ d00154525 の PDF kaihabetu.pdf）の議決前の魚拓 20251113055203。会派ごとの区間（会派名「（N人）」から次の会派名まで）で照合する。発行元の PDF は議決後（令和8年9月15日現在）に差し替えられている
+    // 名簿の版が議決前まで現行だった裏付け: 会派別名簿のページの議決前の魚拓 20260117125037（本文の末尾「（令和7年9月9日現在）」・同じ9会派・同じ41人・選挙区だけで住所は無い）に「会派別議員一覧（PDF形式 62キロバイト）」のリンク（linkedFrom。PDF の魚拓は 62,962 バイト）。ページの魚拓は 2025-09-10〜2026-01-17 の5件が同じダイジェスト
+    // 議決前に離れた議員: 中本浩精（自由民主党県議団・橋本市選挙区）と小西政宏（無所属有志の会・橋本市選挙区）が2月18日に辞職（2月19日の会議録 第1号の議長の報告「中本浩精君、小西政宏君から…議員を辞職したい旨の願い出が２月18日付で提出されましたので、地方自治法第126条ただし書の規定により、同日許可いたしました。」・県議会だより No.72 の「議員の動向」も同旨で会派名つき）。補欠選挙（3/22）の当選者2人は3月24日付けで議決後
+    // departures は2人: 中本浩精（自由民主党県議団）と小西政宏（無所属有志の会）。原文は会議録 第1号の議長の報告で、2人を「中本浩精君、小西政宏君から」と並べて書くので、パーサは並べた氏名を1つの組として読み、組の全員が同じ日・同じ理由で departures にあることを見る（0.8.23）。無所属有志の会は小西のただ1人の会派で議決時には無いので、members を空にして名簿の印字「無所属有志の会（１人）」と照合し、画面には出さない
+    // 議決時点の構成: 3/17 の「各会派の賛否の状況」の列は 自民・改新・公明・無会・共産・無ク・み会・（無）の8つ（R7.9.9 の9会派から無所属有志の会を除いたもの）。県議会だより No.73（令和8年7月13日現在）の議員紹介の会派も、辞職した4人・補欠の2人と谷洋一の一の会（3/17 の表にはまだ無い）を除いて全員が R7.9.9 と同じ。1/17〜3/17 に会派の移籍が無いことは【推定】（その間の名簿の版が残っていない）
+    // 人数の網: 会派ごとの印字「自由民主党県議団（２６人）」など（declared・基準日の人数＝members＋departures）と、議決当日の会議録 第9号（3月17日）の「出席議員（39人）」（totalText・議決時の人数）。定数42（会議録の議席番号は42番まで・欠員は17番・35番・36番の3）は欠員の数を書いた原文が無いので teisu は掛けない。confirmUrls も第9号（39人の氏名がすべて出る）
+    // 議決: 「令和8年2月定例会の議案・採決結果等一覧」（d00221625）の表の行「議案第1号｜令和8年度和歌山県一般会計予算｜予算特別委員会｜原案可決｜3月17日」（table: row）
+    // 賛否: 同じページの「【参考】議案等における各会派の賛否の状況」（sanpi.pdf）の予算の行「〇 〇 〇 〇 × 〇 〇 〇」（会派ごと8列・共産だけ反対）。略称は同じ PDF の凡例「自民 ＝ 自由民主党県議団」等。無所属の列は「（無）」で凡例は「(無) ＝ 会派に属していない」（名簿の「無所属」の語が無い）ので、見出し「無」の1字で照合する（headerWeakReason）。議長 岩田弘彦（自民）は会議録 第9号の「○議長（岩田弘彦君）」で外す
+    // ライセンス: 予算の行（wakayama-ken-yosan-shiryo-r8）と同じ「和歌山県ホームページ公開情報利用規約」の原文（open）。議会のページも県の公式サイト（/prefg/200100/・/gijiroku/）で、議会独自の条項は無い。open なので noDeepLink は評価されず立てない（予算の行と同じ判断）
+    // raw: 魚拓2件は id_ で gzip ではない（PDF は %PDF、ページは <!DOCTYPE html）。電話は議会事務局（073-441-3560）だけ（機械的に確認）。会議録には説明員（知事・部長など）の職と氏名があるが住所は無い（§6-18・§6-19 の前例）
+    id: "wakayama-ken-gikai-r8",
+    title: "令和8年度 和歌山県議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "和歌山県議会",
+    url: null,
+    urls: [
+      "https://web.archive.org/web/20251113055203id_/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525_d/fil/kaihabetu.pdf",
+      "https://web.archive.org/web/20260117125037id_/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525.html",
+      "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625.html",
+      "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625_d/fil/sanpi.pdf",
+      "https://www.pref.wakayama.lg.jp/gijiroku/d00222255.html",
+      "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html",
+    ],
+    landingPage: "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "和歌山県議会（定数42・団体コード300004）",
+    license: "県ホームページのコンテンツは、後述の2に規定する本利用ルールが適用されないコンテンツを除き、どなたでも本利用規約に従って複製、公衆送信、翻訳・変形等の翻案等、自由に利用できます。商用利用も可能です。本利用ルールは、クリエイティブ・コモンズ・ライセンスの表示4.0 国際（https://creativecommons.org/licenses/by/4.0/legalcode.ja に規定される著作権利用許諾条件。以下「CC BY」といいます。）と互換性があり、本利用ルールが適用されるコンテンツはCC BYに従うことでも利用することができます。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "和歌山県議会",
+      asOf: "2025-09-09",
+      asOfText: "（令和7年9月9日現在）",
+      totalText: {"text": "出席議員（39人）", "url": "https://www.pref.wakayama.lg.jp/gijiroku/d00222255.html"},
+      roster: {"url": "https://web.archive.org/web/20251113055203id_/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525_d/fil/kaihabetu.pdf", "title": "和歌山県議会会派名簿（令和7年9月9日現在・議決前の魚拓）", "confirmUrls": ["https://www.pref.wakayama.lg.jp/gijiroku/d00222255.html"], "linkedFrom": {"url": "https://web.archive.org/web/20260117125037id_/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525.html", "text": "会派別議員一覧（PDF形式 62キロバイト）"}},
+      factions: [{"name": "自由民主党県議団", "declared": "自由民主党県議団（２６人）", "members": ["井出益弘", "尾崎要二", "吉井和視", "中村裕一", "新島雄", "山下直也", "山田正彦", "坂本登", "尾﨑太郎", "藤山将材", "森礼子", "濱口太史", "鈴木太雄", "岩田弘彦", "佐藤武治", "玄素彰人", "鈴木德久", "山家敏宏", "堀龍雄", "秋月史成", "北山慎一", "坂本佳隆", "三栖拓也", "高田英亮", "上山寿示"]}, {"name": "改新クラブ", "declared": "改新クラブ（５人）", "members": ["長坂隆司", "片桐章浩", "藤本眞利子", "浦口高典", "谷口和樹"]}, {"name": "公明党県議団", "declared": "公明党県議団（３人）", "members": ["岩井弘次", "小川浩樹", "中尾友紀"]}, {"name": "無所属の会", "declared": "無所属の会（２人）", "members": ["中西徹", "林隆一"]}, {"name": "日本共産党", "declared": "日本共産党（１人）", "members": ["奥村規子"]}, {"name": "無所属クラブ", "declared": "無所属クラブ（１人）", "members": ["川畑哲哉"]}, {"name": "みらいの会", "declared": "みらいの会（１人）", "members": ["岩永淳志"]}, {"name": "無所属", "independent": true, "declared": "無所属（１人）", "members": ["谷洋一"]}, {"name": "無所属有志の会", "declared": "無所属有志の会（１人）", "members": []}],
+      departures: [{"name": "中本浩精", "faction": "自由民主党県議団", "kind": "辞職", "date": "2026-02-18", "text": "中本浩精君、小西政宏君から、一身上の都合により、議員を辞職したい旨の願い出が２月18日付で提出されましたので、地方自治法第126条ただし書の規定により、同日許可いたしました。", "url": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html", "title": "令和8年2月 和歌山県議会定例会会議録 第1号（2月19日・議長の報告）"}, {"name": "小西政宏", "faction": "無所属有志の会", "kind": "辞職", "date": "2026-02-18", "text": "中本浩精君、小西政宏君から、一身上の都合により、議員を辞職したい旨の願い出が２月18日付で提出されましたので、地方自治法第126条ただし書の規定により、同日許可いたしました。", "url": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html", "title": "令和8年2月 和歌山県議会定例会会議録 第1号（2月19日・議長の報告）"}],
+      votes: {"url": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625_d/fil/sanpi.pdf", "title": "令和８年２月定例会における議案等に対する各会派の賛否の状況", "basis": "faction", "legend": {"○": "賛成", "×": "反対", "－": "欠席"}, "legendText": ["○ ＝ 賛成", "× ＝ 反対", "－ ＝ 欠席"], "anchor": "令和8年度和歌山県一般会計予算", "maxGap": 20, "headerWeakReason": "無所属の列の見出しは「（無）」で、凡例は「(無) ＝ 会派に属していない」と書き名簿の「無所属」の語を使わないので、見出しの「無」の1字で照合する", "symbols": "〇〇〇〇×〇〇〇", "columns": [{"label": "自民", "faction": "自由民主党県議団", "evidence": "自民 ＝ 自由民主党県議団"}, {"label": "改新", "faction": "改新クラブ"}, {"label": "公明", "faction": "公明党県議団"}, {"label": "無会", "faction": "無所属の会", "evidence": "無会 ＝ 無所属の会"}, {"label": "共産", "faction": "日本共産党"}, {"label": "無ク", "faction": "無所属クラブ", "evidence": "無ク ＝ 無所属クラブ"}, {"label": "み会", "faction": "みらいの会", "evidence": "み会 ＝ みらいの会"}, {"label": "無", "faction": "無所属"}], "blank": [{"label": "岩田弘彦", "stance": "議長", "evidence": "○議長（岩田弘彦君）", "evidenceUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222255.html"}]},
+      resolution: {"url": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625.html", "title": "令和8年2月定例会の議案・採決結果等一覧", "table": "row", "billNo": "議案第1号", "billName": "令和8年度和歌山県一般会計予算", "sessionLabel": "令和8年2月定例会", "decidedDate": "2026-03-17", "result": "原案可決"},
+    },
+  },
+  {
+    // 弘前市議会（団体コード022021）。§6-22 で「議決前に石岡千鶴子議員が辞職（日付は二次資料）・住所の無い議決前の会派一覧は令和7年5月15日現在の版だけ」として見送った団体。国立国会図書館 WARP に「会派一覧（令和8年3月4日現在）」の収集（2026-04-06）があり、辞職（3/3）の後・議決（3/19）の前の基準日なので departures は要らない（§6-28）
+    // 名簿: WARP の kaiha.html（令和8年3月4日現在・6会派26人・議会事務局の〒と電話だけ）。会派ごとの区間で照合し、人数は会派名の後ろの「（N名）」（declared）。会派名「滄桑之会」は R7.11.18 に「櫻鳴会」から改称（政務活動費のページ R07shuusi-2.html の原文・raw の外）で、基準日より前
+    // 議決前後の版: 議決前の収集（20260108・20260204）は「令和7年11月18日現在」で、3/4 版との差は石岡議員（無所属（りんごの会））が消えたことだけ。議決後の 4/6 の収集も「3月4日現在」のまま。次の版「令和8年4月15日現在」（WARP 20260705・raw の外の目視）は26人の所属が同じで補欠当選の2人が加わっただけ。3/4〜3/19 に会派の異動が無いことは【推定】
+    // 議決: 令和8年第1回定例会の議決結果（2026-1_kekka.pdf）の行「議案第11号 令和８年度弘前市一般会計予算 原案可決」。表に日付が無いので、議決日は会議録検索システム（kensakusystem.jp・GET の固定 URL の GetText3.exe）の3/19 の採決の頁「（第6号 3月19日）」（alsoUrls・farOk・decidedDateText）
+    // 人数の網: 会派ごとの declared と、会議録 3/4 の「出席議員（26名）」（totalText・url つき＝議決時の人数。3/4 は欠席なし）。confirmUrls は 3/19 の議事日程の頁（出席24人と欠席2人＝須藤・木村で26人全員の氏名が出る）。定数28・欠員2を書いた住所の無い原文が無く、3/19 に定数条例の改正（2人減）も議決されているので teisu は掛けない
+    // 賛否は入れない: 予算は起立採決（会議録 3/19「起立多数であります」）。議員ごとの賛否は議会だより第86号 p.6 にあるが画像だけで、同じ号 p.8 に補欠当選者の住所があるので raw に入れない
+    // ライセンス: 予算の行（hirosaki-yosansho-r8）と同じ市の著作権の原文。予算の行が noDeepLink を立てていないので立てない。議員一覧（giin.html）は住所つきなので使っていない。会議録の頁は Shift_JIS（meta の charset で読み分ける）で、拡張子が無いので .html を付けて登録する
+    id: "hirosaki-shigikai-r8",
+    title: "令和8年度 弘前市議会の構成（会派別議席数）と当初予算の議決",
+    publisher: "弘前市議会",
+    url: null,
+    urls: [
+      "https://warp.ndl.go.jp/20260416/20260406012022id_/https://www.city.hirosaki.aomori.jp/gikai/kaiha.html",
+      "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf",
+      "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/14/10/1//0/0",
+      "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/45479/10/1//0/0",
+      "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080304A/13/10/1//0/0",
+    ],
+    landingPage: "https://www.city.hirosaki.aomori.jp/gikai/teireikai.html",
+    kind: "page",
+    fiscalYear: "R8",
+    scope: "弘前市議会（団体コード022021）",
+    license: "弘前市ホームページに掲載している文章、写真、画像、動画、その他全ての情報は著作権の対象となっています。また、「弘前市ホームページ」全体も編集著作物として著作権の対象となっており、共に著作権法により保護されています。これらの情報については、弘前市または第三者が著作権を有しており、「私的利用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    parser: "council-transcribed",
+    parserOptions: {
+      body: "弘前市議会",
+      asOf: "2026-03-04",
+      asOfText: "（令和8年3月4日現在）",
+      totalText: {"text": "出席議員（26名）", "url": "https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080304A/13/10/1//0/0"},
+      roster: {"url": "https://warp.ndl.go.jp/20260416/20260406012022id_/https://www.city.hirosaki.aomori.jp/gikai/kaiha.html", "title": "会派一覧（令和8年3月4日現在）— 国立国会図書館 WARP の 2026-04-06 の収集", "confirmUrls": ["https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/14/10/1//0/0"]},
+      factions: [{"name": "創和・公明", "declared": "創和・公明（10名）", "members": ["蒔苗博英", "清野一榮", "尾﨑寿一", "外崎勝康", "木村隆洋", "石山敬", "畑山聡", "蛯名正樹", "竹浪敦", "志村洋子"]}, {"name": "奏望会", "declared": "奏望会（5名）", "members": ["坂本崇", "田中元", "三上秋雄", "齋藤豪", "工藤賢生"]}, {"name": "弘前さくら未来", "declared": "弘前さくら未来（5名）", "members": ["竹内博之", "工藤光志", "成田大介", "樋川篤子", "工藤裕介"]}, {"name": "日本共産党", "declared": "日本共産党（3名）", "members": ["千葉浩規", "三浦行", "須藤江利加"]}, {"name": "滄桑之会", "declared": "滄桑之会（2名）", "members": ["佐藤哲", "松橋武史"]}, {"name": "無所属（東雲）", "independent": true, "noDeclaredCount": true, "noCountReason": "名簿は1人の無所属の欄に人数を印字しない（会派は「（N名）」つき）。議会全体の数は会議録 3/4 の「出席議員（26名）」で捕まえる", "members": ["野村太郎"]}],
+      resolution: {"url": "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf", "title": "令和８年第１回定例会 議決結果", "alsoUrls": ["https://www.kensakusystem.jp/hirosaki/cgi-bin3/GetText3.exe?jdos47sfsd973gseoq/R080319A/45479/10/1//0/0"], "farOk": ["decidedDate"], "decidedDateText": "（第6号 3月19日） 議長（尾﨑寿一議員） 起立多数であります。 よって、議案第11号は、委員長報告のとおり可決いたしました。", "billNo": "議案第11号", "billName": "令和８年度弘前市一般会計予算", "sessionLabel": "令和８年第１回定例会", "decidedDate": "2026-03-19", "result": "原案可決"},
+    },
+  },
 ];
 
 // 起動時にレジストリ自体を検証する（不正エントリの混入防止）
