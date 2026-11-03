@@ -42881,25 +42881,25 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         {
           "kind": "辞職",
           "date": "2026-02-18",
-          "dateLabel": "2月18日",
+          "dateLabel": "2026年2月18日",
           "faction": "自由民主党県議団",
           "source": {
             "title": "令和8年2月 和歌山県議会定例会会議録 第1号（2月19日・議長の報告）",
             "localUrl": "/sources/wakayama-ken-gikai-r8/d00222247.html",
             "originUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html",
-            "archiveUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html"
+            "archiveUrl": "https://web.archive.org/web/20261103123546/https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html"
           }
         },
         {
           "kind": "辞職",
           "date": "2026-02-18",
-          "dateLabel": "2月18日",
+          "dateLabel": "2026年2月18日",
           "faction": "無所属有志の会",
           "source": {
             "title": "令和8年2月 和歌山県議会定例会会議録 第1号（2月19日・議長の報告）",
             "localUrl": "/sources/wakayama-ken-gikai-r8/d00222247.html",
             "originUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html",
-            "archiveUrl": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html"
+            "archiveUrl": "https://web.archive.org/web/20261103123546/https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html"
           }
         }
       ],
@@ -42964,7 +42964,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "令和8年2月定例会の議案・採決結果等一覧",
         "localUrl": "/sources/wakayama-ken-gikai-r8/d00221625.html",
         "originUrl": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625.html",
-        "archiveUrl": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625.html"
+        "archiveUrl": "https://web.archive.org/web/20261103123415/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625.html"
       },
       "minutesUrl": null,
       "newsletterUrl": null,
@@ -52331,13 +52331,13 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         {
           "kind": "辞職",
           "date": "2026-02-26",
-          "dateLabel": "2月26日",
+          "dateLabel": "2026年2月26日",
           "faction": "宗像志政クラブ",
           "source": {
             "title": "令和８年第１回宗像市議会定例会（第１日・2月26日）会議録「議員の辞職許可について」",
             "localUrl": "/sources/munakata-shigikai-r8/kaigiroku_r080226_d1662.html",
             "originUrl": "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1662",
-            "archiveUrl": "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1662"
+            "archiveUrl": "https://web.archive.org/web/20261103131448/https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1662"
           }
         }
       ],
@@ -52578,7 +52578,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
           "title": "令和８年第１回宗像市議会定例会 賛否が分かれた議案名と議決結果",
           "localUrl": "/sources/munakata-shigikai-r8/sanpi_r0803.pdf",
           "originUrl": "https://www.city.munakata.lg.jp/kiji0032075/3_2075_13440_up_pkkvc4ny.pdf",
-          "archiveUrl": "https://www.city.munakata.lg.jp/kiji0032075/3_2075_13440_up_pkkvc4ny.pdf"
+          "archiveUrl": "https://web.archive.org/web/20261103131021/https://www.city.munakata.lg.jp/kiji0032075/3_2075_13440_up_pkkvc4ny.pdf"
         }
       }
     }
@@ -70620,7 +70620,7 @@ export const MUNI_COUNCIL_YEARS: Record<string, Council[]> = {
         "title": "令和８年第１回定例会 議決結果",
         "localUrl": "/sources/hirosaki-shigikai-r8/2026-1_kekka.pdf",
         "originUrl": "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf",
-        "archiveUrl": "https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf"
+        "archiveUrl": "https://web.archive.org/web/20261103125108/https://www.city.hirosaki.aomori.jp/gikai/2026-1_kekka.pdf"
       },
       "minutesUrl": null,
       "newsletterUrl": null
