@@ -1,0 +1,26 @@
+{
+  "sourceId": "akiruno-shigikai-r8",
+  "files": [
+    {
+      "filename": "akiruno_sanpiR8-3.pdf",
+      "sha256": "6f483e127b83110017a1361c77e75f81d12cfb1cf59d42fa175a98526b316403",
+      "bytes": 105833,
+      "fetchedAt": "2026-11-03T12:48:14.708Z",
+      "fetchedFrom": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000006/6792/sanpiR8-3.pdf"
+    },
+    {
+      "filename": "akiruno_0000020278.html",
+      "sha256": "b36cb7050e29d9ef4ae80e8aedf20e5d19036885280d782e60fd201ed19f2dbc",
+      "bytes": 64974,
+      "fetchedAt": "2026-11-03T12:48:14.708Z",
+      "fetchedFrom": "https://www.city.akiruno.tokyo.jp/0000020278.html"
+    },
+    {
+      "filename": "akiruno_giinR8-1.pdf",
+      "sha256": "20b3803654a36ebd153b6b12f365ca08558ae50b473143267cece801789fca37",
+      "bytes": 52665,
+      "fetchedAt": "2026-11-03T12:48:14.708Z",
+      "fetchedFrom": "https://www.city.akiruno.tokyo.jp/cmsfiles/contents/0000020/20278/giinR8-1.pdf"
+    }
+  ]
+}

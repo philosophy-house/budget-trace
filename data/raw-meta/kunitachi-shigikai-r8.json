@@ -1,0 +1,33 @@
+{
+  "sourceId": "kunitachi-shigikai-r8",
+  "files": [
+    {
+      "filename": "kunitachi_gikai_279.pdf",
+      "sha256": "bf07b89dda6f14746002bd6b10e007a79ca97f12849246de5e8170e43c5598b5",
+      "bytes": 2633222,
+      "fetchedAt": "2026-11-03T12:48:14.689Z",
+      "fetchedFrom": "https://www.city.kunitachi.tokyo.jp/material/files/group/72/gikai_279.pdf"
+    },
+    {
+      "filename": "kunitachi_08kaigikekka1st.pdf",
+      "sha256": "34719da6119ef185dd28577436bcc17d1e24d67423e2959b5b2c8dac051a1e66",
+      "bytes": 192752,
+      "fetchedAt": "2026-11-03T12:48:14.690Z",
+      "fetchedFrom": "https://www.city.kunitachi.tokyo.jp/material/files/group/73/08kaigikekka1st.pdf"
+    },
+    {
+      "filename": "kunitachi_7646.html",
+      "sha256": "46a8acda263d7a1a426fdb35588f00084c11ee962cd09878bbfa6074bbaa5686",
+      "bytes": 58034,
+      "fetchedAt": "2026-11-03T12:48:14.690Z",
+      "fetchedFrom": "https://www.city.kunitachi.tokyo.jp/shisei/gikai/2/7646.html"
+    },
+    {
+      "filename": "kunitachi_7322.html",
+      "sha256": "fe2bb629c5c59042a0a27e2186cbe54cef74fadc3ecf62c87a5fedfc70ea9478",
+      "bytes": 64223,
+      "fetchedAt": "2026-11-03T12:48:14.690Z",
+      "fetchedFrom": "https://www.city.kunitachi.tokyo.jp/shisei/gikai/1/7322.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sourceId": "ichinomiya-shigikai-r8",
+  "files": [
+    {
+      "filename": "ichinomiya_sanpi.pdf",
+      "sha256": "7eaf4758449c87dad60cd67deb927f438ce840f4348f8a547f321f790bba5bbc",
+      "bytes": 67458,
+      "fetchedAt": "2026-11-03T12:56:05.281Z",
+      "fetchedFrom": "https://www.city.ichinomiya.aichi.jp/_res/projects/default_project/_page_/001/074/637/sanpi.pdf"
+    },
+    {
+      "filename": "ichinomiya_1074652.html",
+      "sha256": "05f8372327ae16c6fd30a90e6f9859d19385fb77090b4ef91c7dfaa32f964bd4",
+      "bytes": 47776,
+      "fetchedAt": "2026-11-03T12:56:05.283Z",
+      "fetchedFrom": "https://www.city.ichinomiya.aichi.jp/shigikai/1000085/1000357/1074652.html"
+    },
+    {
+      "filename": "ichinomiya_1074637.html",
+      "sha256": "4805c1498877a7467540fe41069e94f01247b721905a9274baf8d7de8723b895",
+      "bytes": 59376,
+      "fetchedAt": "2026-11-03T12:56:05.284Z",
+      "fetchedFrom": "https://www.city.ichinomiya.aichi.jp/shigikai/1010238/1041978/1074632/1074637.html"
+    }
+  ]
+}

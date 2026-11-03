@@ -1,0 +1,33 @@
+{
+  "sourceId": "musashimurayama-shigikai-r8",
+  "files": [
+    {
+      "filename": "musashimurayama_kaiha_1003318_wb20260208.html",
+      "sha256": "919530873eae5892d6e4e17a7ff39c51f1eeb819eceef1498baa222b8025b771",
+      "bytes": 15788,
+      "fetchedAt": "2026-11-03T12:48:52.111Z",
+      "fetchedFrom": "https://web.archive.org/web/20260208194713id_/https://www.city.musashimurayama.lg.jp/shisei/shigikai/1003318.html"
+    },
+    {
+      "filename": "musashimurayama_dayori_236.pdf",
+      "sha256": "78773aab8f9d4dc60a4a3a891d33c0e91f4ad1d79dbb81802cf80c6838324374",
+      "bytes": 5920911,
+      "fetchedAt": "2026-11-03T12:48:52.115Z",
+      "fetchedFrom": "https://www.city.musashimurayama.lg.jp/_res/projects/default_project/_page_/001/021/905/gikaidayori236gou.pdf"
+    },
+    {
+      "filename": "musashimurayama_kekka_r8-1_1021877.html",
+      "sha256": "e0324afba57ec2a83b08928ab485e6cfbc815f16dac1e6d822f41969d983b924",
+      "bytes": 38284,
+      "fetchedAt": "2026-11-03T12:48:52.116Z",
+      "fetchedFrom": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/1022404/kaigi/1021877.html"
+    },
+    {
+      "filename": "musashimurayama_gaiyou_1003273.html",
+      "sha256": "5debf7eaed4c648ae533659db7af15d59a8a5e105ee964656b189059bc1c0168",
+      "bytes": 21728,
+      "fetchedAt": "2026-11-03T12:48:52.116Z",
+      "fetchedFrom": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/1022402/1003273.html"
+    }
+  ]
+}

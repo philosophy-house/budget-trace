@@ -1,0 +1,47 @@
+{
+  "sourceId": "wakayama-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "kaihabetu_20251113.pdf",
+      "sha256": "329fee95396d5c17bd1fd1a05ca8e54c7c179f2755ddc0a6930d799a677e8e6c",
+      "bytes": 62780,
+      "fetchedAt": "2026-11-03T12:28:52.175Z",
+      "fetchedFrom": "https://web.archive.org/web/20251113055203id_/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525_d/fil/kaihabetu.pdf"
+    },
+    {
+      "filename": "d00154525_20260117.html",
+      "sha256": "88e59fee4d8ee0e4bab355b19ba6bb540fc5c337644ec7d039e2f2e37f15ab1b",
+      "bytes": 31791,
+      "fetchedAt": "2026-11-03T12:28:52.178Z",
+      "fetchedFrom": "https://web.archive.org/web/20260117125037id_/https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00154525.html"
+    },
+    {
+      "filename": "d00221625.html",
+      "sha256": "b58c6866e844341bd34b18ab8ad4a1498dd801955e367c899ea3f8051d006a4e",
+      "bytes": 31620,
+      "fetchedAt": "2026-11-03T12:28:52.178Z",
+      "fetchedFrom": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625.html"
+    },
+    {
+      "filename": "sanpi.pdf",
+      "sha256": "5f6f7c9fe61022aa746ddb77143e7c6f857c2eb0762e7896e75487d8e196e1aa",
+      "bytes": 91271,
+      "fetchedAt": "2026-11-03T12:28:52.179Z",
+      "fetchedFrom": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00221625_d/fil/sanpi.pdf"
+    },
+    {
+      "filename": "d00222255.html",
+      "sha256": "4f0552564ca120f27bd415bcfc90041ba4dcc723612b62f965e25b564928837f",
+      "bytes": 54603,
+      "fetchedAt": "2026-11-03T12:28:52.180Z",
+      "fetchedFrom": "https://www.pref.wakayama.lg.jp/gijiroku/d00222255.html"
+    },
+    {
+      "filename": "d00222247.html",
+      "sha256": "fcab7eaf44287758aee3e40af4c26145633a03f6c50c149038888b3d9090bd10",
+      "bytes": 29883,
+      "fetchedAt": "2026-11-03T12:28:52.180Z",
+      "fetchedFrom": "https://www.pref.wakayama.lg.jp/gijiroku/d00222247.html"
+    }
+  ]
+}

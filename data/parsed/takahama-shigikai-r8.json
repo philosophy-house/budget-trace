@@ -1,0 +1,201 @@
+{
+  "docType": "council-composition",
+  "sourceId": "takahama-shigikai-r8",
+  "parser": "council-transcribed",
+  "parserVersion": "0.8.23",
+  "parsedAt": "2026-11-03T16:29:23.245Z",
+  "fiscalYear": "R8",
+  "body": "高浜市議会",
+  "seats": 13,
+  "asOf": "2026-03-26",
+  "factions": [
+    {
+      "name": "市政クラブ",
+      "seats": 6,
+      "isIndependent": false,
+      "members": [
+        "橋本友樹",
+        "荒川義孝",
+        "神谷直子",
+        "長谷川広昌",
+        "北川広人",
+        "鈴木勝彦"
+      ],
+      "locator": {
+        "file": "takahama_peeple123.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "公明党",
+      "seats": 2,
+      "isIndependent": false,
+      "members": [
+        "今原ゆかり",
+        "野々山啓"
+      ],
+      "locator": {
+        "file": "takahama_peeple123.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "共産党",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "柴口征寛"
+      ],
+      "locator": {
+        "file": "takahama_peeple123.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "高志クラブ",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "岡田公作"
+      ],
+      "locator": {
+        "file": "takahama_peeple123.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "新政会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "黒川美克"
+      ],
+      "locator": {
+        "file": "takahama_peeple123.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "高浜市民の会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "倉田利奈"
+      ],
+      "locator": {
+        "file": "takahama_peeple123.pdf",
+        "page": 3
+      }
+    },
+    {
+      "name": "凛々会",
+      "seats": 1,
+      "isIndependent": false,
+      "members": [
+        "福岡里香"
+      ],
+      "locator": {
+        "file": "takahama_peeple123.pdf",
+        "page": 3
+      }
+    }
+  ],
+  "resolution": {
+    "billNo": "議案第22号",
+    "billName": "令和8年度高浜市一般会計予算",
+    "sessionLabel": "令和8年3月定例会",
+    "decidedDate": "2026-03-26",
+    "decidedDateLabel": "令和8年3月26日",
+    "result": "原案可決",
+    "locator": {
+      "file": "takahama_37652_kaigikekka.html"
+    }
+  },
+  "rosterTitle": "高浜市議会だより ぴいぷる No.123（令和8年3月定例会号）p.3「３月定例会 議決結果（各議員の態度）」の表頭",
+  "resultTitle": "令和8年3月定例会 会議結果",
+  "votes": {
+    "basis": "member",
+    "sourceTitle": "高浜市議会だより ぴいぷる No.123（令和8年3月定例会号）p.3「議決結果（各議員の態度）」",
+    "sourceFile": "takahama_peeple123.pdf",
+    "columns": [
+      {
+        "label": "橋本友樹",
+        "faction": "市政クラブ",
+        "member": "橋本友樹",
+        "stance": "賛成"
+      },
+      {
+        "label": "荒川義孝",
+        "faction": "市政クラブ",
+        "member": "荒川義孝",
+        "stance": "賛成"
+      },
+      {
+        "label": "長谷川広昌",
+        "faction": "市政クラブ",
+        "member": "長谷川広昌",
+        "stance": "賛成"
+      },
+      {
+        "label": "北川広人",
+        "faction": "市政クラブ",
+        "member": "北川広人",
+        "stance": "賛成"
+      },
+      {
+        "label": "鈴木勝彦",
+        "faction": "市政クラブ",
+        "member": "鈴木勝彦",
+        "stance": "賛成"
+      },
+      {
+        "label": "今原ゆかり",
+        "faction": "公明党",
+        "member": "今原ゆかり",
+        "stance": "賛成"
+      },
+      {
+        "label": "野々山啓",
+        "faction": "公明党",
+        "member": "野々山啓",
+        "stance": "賛成"
+      },
+      {
+        "label": "柴口征寛",
+        "faction": "共産党",
+        "member": "柴口征寛",
+        "stance": "反対"
+      },
+      {
+        "label": "岡田公作",
+        "faction": "高志クラブ",
+        "member": "岡田公作",
+        "stance": "賛成"
+      },
+      {
+        "label": "黒川美克",
+        "faction": "新政会",
+        "member": "黒川美克",
+        "stance": "賛成"
+      },
+      {
+        "label": "倉田利奈",
+        "faction": "高浜市民の会",
+        "member": "倉田利奈",
+        "stance": "反対"
+      },
+      {
+        "label": "福岡里香",
+        "faction": "凛々会",
+        "member": "福岡里香",
+        "stance": "反対"
+      },
+      {
+        "label": "神谷直子",
+        "faction": "市政クラブ",
+        "member": "神谷直子",
+        "stance": "議長"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "sourceId": "munakata-shigikai-r8",
+  "files": [
+    {
+      "filename": "kaiha_r061101.pdf",
+      "sha256": "82269469aa5881e17178413675b089a539eeab1cb937b595e04c279e83a5dcf9",
+      "bytes": 60822,
+      "fetchedAt": "2026-11-03T12:31:15.458Z",
+      "fetchedFrom": "https://web.archive.org/web/20250621172117id_/https://www.city.munakata.lg.jp/kiji0037517/3_7517_1_Kaiha.pdf"
+    },
+    {
+      "filename": "kiji0037517_20260120.html",
+      "sha256": "62e16c6afb3549630c433183c5dc0f74c65ccfb22b6faae7849b57b99bda1814",
+      "bytes": 193250,
+      "fetchedAt": "2026-11-03T12:31:15.460Z",
+      "fetchedFrom": "https://web.archive.org/web/20260120024101id_/https://www.city.munakata.lg.jp/kiji0037517/index.html"
+    },
+    {
+      "filename": "giketsu.pdf",
+      "sha256": "07675be5e223ca8f9ab79facce7307cf6e9430f6613a928909058853b4516888",
+      "bytes": 133288,
+      "fetchedAt": "2026-11-03T12:31:15.461Z",
+      "fetchedFrom": "https://www.city.munakata.lg.jp/kiji0032074/3_2074_13454_up_zd07rxsa.pdf"
+    },
+    {
+      "filename": "sanpi_r0803.pdf",
+      "sha256": "17b35e4c081e313fb322f819329a17c8f7413d2f8ede217336c69ec9d326ad80",
+      "bytes": 151979,
+      "fetchedAt": "2026-11-03T12:31:15.461Z",
+      "fetchedFrom": "https://www.city.munakata.lg.jp/kiji0032075/3_2075_13440_up_pkkvc4ny.pdf"
+    },
+    {
+      "filename": "kaigiroku_r080226_d1662.html",
+      "sha256": "041d9558b0c355dc3d5bbb403878b0a32f19a932541bc3c501ace37764248d15",
+      "bytes": 28390,
+      "fetchedAt": "2026-11-03T12:31:15.461Z",
+      "fetchedFrom": "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1662",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "kaigiroku_r080326_d1675_meibo.html",
+      "sha256": "fb5f2b69291a9151507bf34bdf9162fd72dd8f7e41acd875905483492b73a51e",
+      "bytes": 17133,
+      "fetchedAt": "2026-11-03T12:31:15.462Z",
+      "fetchedFrom": "https://www.city.munakata.fukuoka.dbsr.jp/index.php/1234567?Template=doc-printwindow&VoiceType=All&DocumentID=1675",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}
