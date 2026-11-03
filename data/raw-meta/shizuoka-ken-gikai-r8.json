@@ -1,0 +1,61 @@
+{
+  "sourceId": "shizuoka-ken-gikai-r8",
+  "files": [
+    {
+      "filename": "sz_1079434.html",
+      "sha256": "28a8fef355b494a3cf2e0bf14e8ea36f4cd3e0aad7f7a60ce697d8279b73d1bd",
+      "bytes": 82904,
+      "fetchedAt": "2026-11-03T12:46:09.229Z",
+      "fetchedFrom": "https://www.pref.shizuoka.jp/kensei/kengikai/gikaiugoki/1003742/1072331/1079434.html"
+    },
+    {
+      "filename": "sz_1083285.html",
+      "sha256": "d8b4e82b335b0884783a00c91a799200f99ba7256253ebef3a3a90d312a8aa3b",
+      "bytes": 129458,
+      "fetchedAt": "2026-11-03T12:46:09.229Z",
+      "fetchedFrom": "https://www.pref.shizuoka.jp/kensei/kengikai/hirakaretagikai/1003751/1083283/1083285.html"
+    },
+    {
+      "filename": "sz_1083286.html",
+      "sha256": "be21718cdee76b93d572aaea0d8e20f2c7250d5e0413b391b7dd4be4623c509b",
+      "bytes": 70959,
+      "fetchedAt": "2026-11-03T12:46:09.229Z",
+      "fetchedFrom": "https://www.pref.shizuoka.jp/kensei/kengikai/hirakaretagikai/1003751/1083283/1083286.html"
+    },
+    {
+      "filename": "sz_1083287.html",
+      "sha256": "1790273e2a83a3c52913f84ab32fb0f76e55610689379de58a81269dc84cf21d",
+      "bytes": 39838,
+      "fetchedAt": "2026-11-03T12:46:09.230Z",
+      "fetchedFrom": "https://www.pref.shizuoka.jp/kensei/kengikai/hirakaretagikai/1003751/1083283/1083287.html"
+    },
+    {
+      "filename": "sz_1078812.html",
+      "sha256": "de007d561b431cbf6b5eaee4cb0dfde9d748eb421629004c4bddaa4c61177d2f",
+      "bytes": 37649,
+      "fetchedAt": "2026-11-03T12:46:09.230Z",
+      "fetchedFrom": "https://www.pref.shizuoka.jp/kensei/kengikai/hirakaretagikai/1003738/1071638/1078809/1078812.html"
+    },
+    {
+      "filename": "sz_1030974.html",
+      "sha256": "5021ee29c68fa23e351801e9212adcedc0d4a7e6e9e01f55e2d11ca07a03b2c5",
+      "bytes": 27264,
+      "fetchedAt": "2026-11-03T12:46:09.230Z",
+      "fetchedFrom": "https://www.pref.shizuoka.jp/kensei/kengikai/gikaishikumi/1030974.html"
+    },
+    {
+      "filename": "sz_warp_1054942.html",
+      "sha256": "3db4c4801b54d7a6fcdee069618861f85addb8aa9448c52a1dbf7ab25c3de225",
+      "bytes": 33611,
+      "fetchedAt": "2026-11-03T12:46:09.230Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260226/20260203100847id_/https://www.pref.shizuoka.jp/kensei/kengikai/giinshokai/1054942.html"
+    },
+    {
+      "filename": "sz_1081611.html",
+      "sha256": "04161d266d24b7cafd60040db8771b82957b702584d463070365392b44841b37",
+      "bytes": 39082,
+      "fetchedAt": "2026-11-03T12:46:09.230Z",
+      "fetchedFrom": "https://www.pref.shizuoka.jp/kensei/kengikai/hirakaretagikai/1003738/1081607/1081608/1081611.html"
+    }
+  ]
+}

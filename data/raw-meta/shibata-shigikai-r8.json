@@ -1,0 +1,42 @@
+{
+  "sourceId": "shibata-shigikai-r8",
+  "files": [
+    {
+      "filename": "shibata_Kg150_R0802sanpi.pdf",
+      "sha256": "9cdbd4ef2af99864781843884f322e57485d4b88007c7187d3583e12bad273bc",
+      "bytes": 314613,
+      "fetchedAt": "2026-11-03T12:46:09.206Z",
+      "fetchedFrom": "https://www.shibata-shigikai.jp/voices/GikaiDoc/attach/Congress/Kg150_R0802sanpi.pdf"
+    },
+    {
+      "filename": "shibata_giketsu_s141.html",
+      "sha256": "932fb1d27e3ec1a11958b7d4b8c62ac791ccede2449991b8e26b38c3fef6f3cb",
+      "bytes": 15693,
+      "fetchedAt": "2026-11-03T12:46:09.207Z",
+      "fetchedFrom": "https://www.shibata-shigikai.jp/g07_giketsu_s.asp?sflg=2&kaigi=141",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "shibata_g07_Kaiha.html",
+      "sha256": "ac3ab2f4fa67dddd8ad91e4b07da28cb6744c4a1e89f2a957644b1bc6e0f47a2",
+      "bytes": 10461,
+      "fetchedAt": "2026-11-03T12:46:09.208Z",
+      "fetchedFrom": "https://www.shibata-shigikai.jp/g07_Kaiha.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    },
+    {
+      "filename": "shibata_g07_giinlist_s.html",
+      "sha256": "f7b4252452a696e0ae8608c030480e03741f947ab1049bf86d0c8a4afdabd0de",
+      "bytes": 6096,
+      "fetchedAt": "2026-11-03T12:46:09.208Z",
+      "fetchedFrom": "https://www.shibata-shigikai.jp/g07_giinlist_s.asp",
+      "transform": [
+        "ext:.html"
+      ]
+    }
+  ]
+}
