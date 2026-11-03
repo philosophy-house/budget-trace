@@ -1794,15 +1794,16 @@ export function parseCouncilTranscribed(
   const factionsLive = opt.factions.filter((f) => f.members.length > 0);
   const seats = factions.reduce((s, f) => s + f.seats, 0);
   const departuresOut = departures.map((d) => checkDeparture(d));
-  // departures を書く行は、議決時の人数・在籍の網を必須にする（レビュー4巡目）。原文の語・並びの読みは許可リストで、
+  // departures を書く行は、議決時の在籍の網を必須にする（レビュー4巡目）。原文の語・並びの読みは許可リストで、
   // 言い回しを変えると抜けられる（「中本浩精君のほか、小西政宏君から」で組が切れる・「職を…辞職」）。議決時の網があれば、
   // 離れていない議員を離れたことにしても、離れた議員を残しても、議決時の人数・氏名と合わなくなる
+  // 網は**氏名を見るもの**に限る（レビュー5巡目）。人数だけの網（totalText.url・teisu など）は、本当に離れた議員を残して在籍の議員を
+  // 外す入れ替えを捕まえず、declaredIn は離れた議員と関係の無い会派に1つあるだけで条件を満たした
   if (departures.length) {
     const memberVotes = [opt.votes, ...(opt.votesParts ?? [])].some((v) => v?.basis === "member");
-    const decisionNet =
-      (opt.roster.confirmUrls?.length ?? 0) > 0 || opt.totalText?.url != null || opt.memberMarkerUrl != null ||
-      opt.factions.some((f) => f.declaredIn != null) || memberVotes || opt.teisu != null;
-    if (!decisionNet) missing.push(`departures を書く行には議決時の網（confirmUrls・totalText.url・memberMarkerUrl・declaredIn・議員ごとの賛否・teisu のどれか）が要ります`);
+    if (!(opt.roster.confirmUrls?.length ?? 0) && !memberVotes) {
+      missing.push(`departures を書く行には、議決時の氏名の網（confirmUrls か議員ごとの賛否表）が要ります`);
+    }
   }
   function checkDeparture(d: NonNullable<CouncilTranscribedOptions["departures"]>[number]) {
     const who = `議決前に離れた議員「${d.name}」`;
@@ -1883,7 +1884,8 @@ export function parseCouncilTranscribed(
           !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)?[をの]?$/.test(tN.slice(Math.max(0, at - 8), at)) &&
           !/(委員|委員長|理事|会長|監査|役員|代表)が$/.test(tN.slice(Math.max(0, at - 8), at)) &&
           // 役職の語と「辞職」の間に日付などが挟まる「委員の職を２月18日付で辞職」も、同じ文の中の前30字で見る
-          !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)/.test(tN.slice(Math.max(tN.lastIndexOf("。", at - 1) + 1, at - 30), at)),
+          // 役職の語の一覧に無い「幹事長の職を辞職」も同じ（議員以外の「職を」。「議員の職を辞する」は議席の辞職＝レビュー5巡目）
+          !/(委員|議長|委員長|理事|会長|監査|役員|代表)(の職|職)|(?<!議員)(?<!議員の)職を/.test(tN.slice(Math.max(tN.lastIndexOf("。", at - 1) + 1, at - 30), at)),
       )
       .map((at) => ({ at, end: at + d.kind.length }));
     if (!spans.some((s) => s.n === nameN)) missing.push(`${who}: 原文に氏名がありません（氏名の直後が区切り・敬称・助詞の出現が要る）`);
