@@ -2278,7 +2278,7 @@ id は `saitama-ken-gikai-r8`・`<予算の行のローマ字>-shigikai-r8`（�
   - **ジョブ待ちの9件**: SPN2 のジョブは受け付けられ捕捉の時刻も返ったが（要求は 2026-11-03 13:07〜16:59 UTC）、直後の `--resolve-only` でも CDX に載らず `data/.archive-jobs.json` に残った —
     秩父（だより第84号 `gikaidayori84p2-5.pdf`）・和光（`r80318giinbetukekka.pdf`・`r80318giji.pdf`）・北本（`dayori136.pdf`・`18982.html`・`1416921718734.html`）・吉川（議決結果の一覧 `20260318-160117.pdf`）・白岡（だより No.231 `P7-231.pdf`）・杉戸町（`16136.pdf`）。
     `bun run pipeline:archive <sourceId>` を団体ごとに直列で流せば、要求より後の捕捉を CDX で探して登録する。作業中（2026-11-03）は Internet Archive が断続的に止まっていた
-  - **発行元が Wayback を弾く3件**（2026-11-03 UTC の実測。`pipeline:archive-attempts` は JST の日で集計するので伊奈町・杉戸町は 2026-11-04 の行に出る。みどり・北広島・魚津と同じ型で、流し直しても登録されない）: 例規集 www1.g-reiki.net の蓮田（`e339RG00000022.html`）・伊奈町（`e345RG00000506.html`）・杉戸町（`e391RG00000026.html`）。
+  - **発行元が Wayback を弾く3件**（2026-11-03 UTC の実測。`pipeline:archive-attempts` は JST の日で集計するので3件とも 2026-11-04 の行に出る。みどり・北広島・魚津と同じ型で、流し直しても登録されない）: 例規集 www1.g-reiki.net の蓮田（`e339RG00000022.html`）・伊奈町（`e345RG00000506.html`）・杉戸町（`e391RG00000026.html`）。
     SPN2 が `error:no-request`（「The target server blocks access to https://www1.g-reiki…」）を返した（試行の記録は `pipeline:archive-attempts`）。台帳に g-reiki.net の登録は1件も無い
 
 #### 6-31. 東京の残りへ広げた（2026-11-03・council-transcribed 0.8.22）
