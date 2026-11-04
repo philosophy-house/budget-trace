@@ -2371,7 +2371,7 @@ noDeepLink は銚子・君津・四街道・八街・富里（予算の行が立
 愛川町の議会だより第189号（陳情の団体の所在地と代表者名）、八街のだより第245号と `307.html`（農業委員の居住地）。
 **議員でない人の氏名（住所なし）を raw に残した資料**: 富里のだより第230号（教育委員の選任）・寒川町のだより第219号（農業委員8人・人権擁護委員2人）。§6-18・§6-19 の前例どおり
 
-**魚拓**: 15行の urls と landingPage は認証つき SPN2 で登録した（WARP・Wayback の URL そのものの行は設計どおり対象外）。**3 URL は持ち越した**: 君津の landingPage（`https://www.city.kimitsu.lg.jp/site/gikai/87009.html`・SPN2 のジョブが bad-gateway で失敗）と、茂原の審議結果一覧（`https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9368/R8.3.pdf`）・寒川町の議員別賛否（`https://www.town.samukawa.kanagawa.jp/material/files/group/21/202603-4_giinbetusanpi.pdf`）の2件は SPN2 のジョブの結果待ち（ジョブの控え `data/.archive-jobs.json` は gitignore でこのワークツリーにしか無いので、マージ後は `bun run pipeline:archive kimitsu-shigikai-r8`・`mobara-shigikai-r8`・`samukawa-chogikai-r8` を直列で回し直す）
+**魚拓**: 15行の urls と landingPage は認証つき SPN2 で登録した（WARP・Wayback の URL そのものの行は設計どおり対象外）。マージ後の取り直し（#446）で君津の landingPage（`https://www.city.kimitsu.lg.jp/site/gikai/87009.html`）は登録できた。**2 URL は持ち越した**: 茂原の審議結果一覧（`https://www.city.mobara.chiba.jp/cmsfiles/contents/0000009/9368/R8.3.pdf`）と寒川町の議員別賛否（`https://www.town.samukawa.kanagawa.jp/material/files/group/21/202603-4_giinbetusanpi.pdf`）。SPN2 のジョブは捕捉の時刻（`20261103174259`・`20261103195140`）を返したが CDX に載らず（§6-24 の東海村と同じ）、取り直しの要求も同じジョブと時刻を返す。⚠ **どちらも raw と同じ版の議決前後の捕捉が Wayback にある**（茂原 `20260612205729`・寒川町 `20260613063519`。CDX の digest が raw の SHA-1 と一致）が、2026-11-04 の `pipeline:archive` の実行では CDX の照会が空を返してこの捕捉を拾わなかった。次は控え（このワークツリーの `data/.archive-jobs.json`）の2件を消して `bun run pipeline:archive mobara-shigikai-r8`・`samukawa-chogikai-r8` を直列で回し、既存の捕捉を照合させる
 
 #### 6-31. 東京の残りへ広げた（2026-11-03・council-transcribed 0.8.22）
 
