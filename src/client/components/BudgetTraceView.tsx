@@ -48,7 +48,7 @@ export default function BudgetTraceView({ v }: { v: any }) {
           <div data-mq="hero" style={S("flex:1; width:min(1160px,100%); margin:0 auto; padding:32px; display:flex; gap:48px; align-items:center; flex-wrap:wrap; animation:fadeUp .4s ease both;")}>
             <div style={S("flex:1 1 380px; min-width:300px;")}>
               <h1 style={S("margin:0 0 18px; font-size:clamp(32px,4vw,48px); font-weight:700; line-height:1.28;")}>税金のゆくえを、<br />執行まで。</h1>
-              <p style={S("margin:0 0 30px; color:#5C6B77; max-width:44ch;")}>款別の内訳から主な事業、前年比較、類似自治体との比較までを一次資料（エビデンス）付きで確認できます。</p>
+              <p style={S("margin:0 0 30px; color:#5C6B77; max-width:44ch;")}>款別の内訳から主な事業、前年比較、類似自治体との比較、予算を議決した議会の構成までを一次資料（エビデンス）付きで確認できます。</p>
               <div style={S("display:flex; gap:28px; margin-bottom:34px; flex-wrap:wrap;")}>
                 {v.heroStats.map((h: any, i: number) => (
                   <div key={i}>
@@ -125,7 +125,7 @@ export default function BudgetTraceView({ v }: { v: any }) {
               <button onClick={v.goRoadmap} style={S("border:none; background:none; padding:0; margin-left:12px; color:#1798D0; font-size:12px; cursor:pointer; font-family:'IBM Plex Sans JP',sans-serif;")}>進捗と計画 →</button>
               <a href={v.privacyUrl} target="_blank" rel="noopener noreferrer" style={S("margin-left:12px; color:#1798D0; font-size:12px;")}>プライバシーポリシー ↗</a>{v.openCookiePrefs && <button onClick={v.openCookiePrefs} style={S("border:none; background:none; padding:0; margin-left:12px; color:#1798D0; font-size:12px; cursor:pointer; font-family:'IBM Plex Sans JP',sans-serif;")}>Cookie 設定</button>}
             </span>
-            <span style={S("font-family:'IBM Plex Mono',monospace;")}>v0.1 / 2026-07</span>
+            <span style={S("font-family:'IBM Plex Mono',monospace;")}>{v.versionLabel}</span>
           </footer>
         </div>
       )}
@@ -200,7 +200,8 @@ export default function BudgetTraceView({ v }: { v: any }) {
           <div style={S("display:grid; grid-template-columns:repeat(auto-fit, minmax(148px,1fr)); gap:10px; margin-bottom:14px;")}>
             {[
               { k: "詳細まで収録", v: `${v.rm.progress.fullCount}団体`, s: "予算→事業→成果→議会（甲府市）" },
-              { k: "予算（款別）収録", v: `${v.rm.progress.budgetCount}団体`, s: "当初予算＋前年当初比" },
+              { k: "当初予算まで収録", v: `${(v.rm.progress.fullCount + v.rm.progress.budgetCount).toLocaleString()}団体`, s: "款別＋前年当初比（甲府市を含む）" },
+              { k: "議会の構成", v: `${v.rm.progress.councilCount.toLocaleString()}団体`, s: "予算を議決した時点の会派構成" },
               { k: "決算で閲覧可", v: `${v.rm.progress.muniCount.toLocaleString()}市町村`, s: `${v.rm.progress.prefCount}都道府県・${v.rm.progress.kessanRange}` },
               { k: "一次資料", v: `${v.rm.progress.sourceCount}件`, s: `原本${v.rm.progress.fileCount}ファイル・魚拓${v.rm.progress.archivedCount}` },
             ].map((c: any, i: number) => (
@@ -318,7 +319,8 @@ export default function BudgetTraceView({ v }: { v: any }) {
               <div style={S("display:grid; grid-template-columns:repeat(auto-fit, minmax(148px,1fr)); gap:10px; margin-bottom:18px;")}>
                 {[
                   { k: "詳細まで収録", v: `${v.cov.summary.fullCount}団体`, s: "予算→事業→成果→議会" },
-                  { k: "予算（款別）収録", v: `${v.cov.summary.budgetCount}団体`, s: "当初予算＋前年当初比" },
+                  { k: "当初予算まで収録", v: `${(v.cov.summary.fullCount + v.cov.summary.budgetCount).toLocaleString()}団体`, s: "款別＋前年当初比（甲府市を含む）" },
+                  { k: "議会の構成", v: `${v.cov.summary.councilCount.toLocaleString()}団体`, s: "予算を議決した時点の会派構成" },
                   { k: "決算で閲覧可", v: `${v.cov.summary.muniCount.toLocaleString()}市町村`, s: `${v.cov.summary.prefCount}都道府県・${v.cov.summary.kessanRange}` },
                   { k: "一次資料", v: `${v.cov.summary.sourceCount}件`, s: `原本${v.cov.summary.fileCount}ファイル・魚拓${v.cov.summary.archivedCount}` },
                   // 「まだ調べていない」と「調べたが収録できない」は意味が違う。件数は derive が算出する
@@ -1966,7 +1968,7 @@ export default function BudgetTraceView({ v }: { v: any }) {
 
           <footer data-mq-pad="" style={S("border-top:1px solid #DFE7EC; padding:16px 28px; font-size:12px; color:#5C6B77; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap;")}>
             <span>予算トレース — プロトタイプ。掲載数値はすべて一次資料由来の実データです（補正・執行率は資料収録後に追加予定）。<button onClick={v.goSources} style={S("border:none; background:none; padding:0; margin-left:8px; color:#1798D0; font-size:12px; cursor:pointer; font-family:'IBM Plex Sans JP',sans-serif;")}>データ出典・更新日一覧 →</button><button onClick={v.goCoverage} style={S("border:none; background:none; padding:0; margin-left:12px; color:#1798D0; font-size:12px; cursor:pointer; font-family:'IBM Plex Sans JP',sans-serif;")}>データ整備状況・ライセンス →</button><button onClick={v.goRoadmap} style={S("border:none; background:none; padding:0; margin-left:12px; color:#1798D0; font-size:12px; cursor:pointer; font-family:'IBM Plex Sans JP',sans-serif;")}>進捗と計画 →</button><a href={v.privacyUrl} target="_blank" rel="noopener noreferrer" style={S("margin-left:12px; color:#1798D0; font-size:12px;")}>プライバシーポリシー ↗</a>{v.openCookiePrefs && <button onClick={v.openCookiePrefs} style={S("border:none; background:none; padding:0; margin-left:12px; color:#1798D0; font-size:12px; cursor:pointer; font-family:'IBM Plex Sans JP',sans-serif;")}>Cookie 設定</button>}</span>
-            <span style={S("font-family:'IBM Plex Mono',monospace;")}>{v.sourceLabel ? `SOURCE: ${v.sourceLabel}` : "v0.1 / 2026-07"}</span>
+            <span style={S("font-family:'IBM Plex Mono',monospace;")}>{v.sourceLabel ? `SOURCE: ${v.sourceLabel}` : v.versionLabel}</span>
           </footer>
         </div>
       )}

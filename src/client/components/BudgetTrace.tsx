@@ -1065,7 +1065,7 @@ export default function BudgetTrace({ initial, consentEnabled }: { initial?: Par
       };
     };
     return [
-      { title: "事業報告（成果）まで", note: "予算 → 事業 → 成果を1事業ずつたどれる（甲府市は執行・評価・議会の構成まで）", ...mk(2) },
+      { title: "事業報告（成果）まで", note: "予算 → 事業 → 成果を1事業ずつたどれる（甲府市は執行・評価まで）", ...mk(2) },
       { title: "主な事業まで", note: "款別の内訳に加えて、主な事業の一覧と説明つき", ...mk(1) },
       { title: "当初予算（款別）まで", note: "歳入・歳出の款別内訳と前年当初比較", ...mk(0) },
     ];
@@ -1457,14 +1457,18 @@ export default function BudgetTrace({ initial, consentEnabled }: { initial?: Par
           }
         : null,
     showEvidence,
-    // トップの3つの数字は **roadmap.gen.ts が実データから算出したもの**（/roadmap・/coverage と同じ源）。
+    // トップの数字は **roadmap.gen.ts が実データから算出したもの**（/roadmap・/coverage と同じ源）。
     // 手書きにすると必ず実態とズレる — 「当初予算まで収録」は 甲府＋4市だった頃の 5 が
     // 政令市20市を収録し終えた後も残っていた。当初予算が見られるのは full + budget の全団体。
     heroStats: [
       { num: ROADMAP_PROGRESS.prefCount.toLocaleString(), label: "都道府県" },
       { num: ROADMAP_PROGRESS.muniCount.toLocaleString(), label: "市区町村（決算収録）" },
       { num: (ROADMAP_PROGRESS.fullCount + ROADMAP_PROGRESS.budgetCount).toLocaleString(), label: "当初予算まで収録" },
+      { num: ROADMAP_PROGRESS.councilCount.toLocaleString(), label: "議会の構成を収録" },
     ],
+    // フッターの右端。手書きの「v0.1 / 2026-07」が4か月そのままだったので、収録データの
+    // いちばん新しい取得日を derive から引く（資料を足せば黙って進む）
+    versionLabel: `v0.1 / 資料取得 ${ROADMAP_PROGRESS.latestFetchedAt}`,
     onPrefSelect: (name: string) => nav({ screen: "muni", pref: name }),
     // 「収録の深さから選ぶ」（トップ）。段の割り当ては収録データから自動（coverageLevels 参照）
     coverageLevels,

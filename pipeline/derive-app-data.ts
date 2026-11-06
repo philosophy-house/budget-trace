@@ -6139,6 +6139,11 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = ${JSON.stringify(wh
     licenseUnverified: allCards.filter((c) => c.licenseClass === "unverified").length,
     fullCount: Object.values(entityDetail).filter((e) => e.tier === "full").length,
     budgetCount: Object.values(entityDetail).filter((e) => e.tier === "budget").length,
+    // 議会の構成（予算議決時）を収録した団体。甲府（full）も含む。/coverage の「議会」列の ○ の数と同じ
+    councilCount: Object.values(entityDetail).filter((e) => e.detail.council).length,
+    // 収録している原本のうち、いちばん新しい取得日。フッターに「データ更新」として出す
+    // （手書きの「v0.1 / 2026-07」が4か月そのままだった）
+    latestFetchedAt: allCards.flatMap((c) => c.files.map((f) => f.fetchedAt)).sort().at(-1) ?? "",
     muniCount: prefs.reduce((a, p) => a + p.munis.filter((m) => !m.n.includes("（県全体）")).length, 0),
     prefCount: prefs.filter((p) => p.munis.length > 0).length,
     kessanRange,
@@ -6294,6 +6299,8 @@ export const CAVEATS: Record<string, Caveat[]> = ${JSON.stringify(byCode, null, 
     // 3階層のカバレッジ
     fullCount: summary.fullCount,
     budgetCount: summary.budgetCount,
+    councilCount: summary.councilCount,
+    latestFetchedAt: summary.latestFetchedAt,
     muniCount: summary.muniCount,
     prefCount: summary.prefCount,
     // 資料とエビデンス
@@ -6340,6 +6347,8 @@ export const CAVEATS: Record<string, Caveat[]> = ${JSON.stringify(byCode, null, 
       for (const [n, unit] of [
         [progress.muniCount, "市町村"],
         [progress.budgetCount, "団体"],
+        [progress.fullCount + progress.budgetCount, "団体"],
+        [progress.councilCount, "団体"],
         [progress.sourceCount, "件"],
       ] as const) {
         for (const form of [`${n}${unit}`, `${n.toLocaleString()}${unit}`]) {

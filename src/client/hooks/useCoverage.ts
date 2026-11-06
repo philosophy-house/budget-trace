@@ -98,6 +98,10 @@ export interface CoverageData {
     licenseUnverified: number;
     fullCount: number;
     budgetCount: number;
+    /** 議会の構成（予算議決時）を収録した団体（甲府を含む） */
+    councilCount: number;
+    /** 収録している原本のうち、いちばん新しい取得日（YYYY-MM-DD） */
+    latestFetchedAt: string;
     muniCount: number;
     prefCount: number;
     kessanRange: string;
