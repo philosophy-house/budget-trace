@@ -112,15 +112,23 @@ docs に記録して許容（実例: 伊賀市の1千円不整合、統計書 R3
 ## 4. archive（Wayback へ即登録）
 
 ```bash
-bun run pipeline:archive <sourceId>
+# fetch の直後に、その巡で足した資料を全部まとめて「要求だけ」出す（数分で終わる）
+bun run pipeline:archive <sourceId...> --submit-only
+# …parse・validate・derive・レビューは結果を待たずに進める…
+# PR を仕上げる最後の derive の直前に、結果をまとめて確かめて台帳に書く
+bun run pipeline:archive --resolve-only
 ```
 
-**取得したら即座に**。発行元の削除は現実に起きる（甲府市 R4・R5 予算資料が実例。削除後は
+**取得したら即座に要求する**。発行元の削除は現実に起きる（甲府市 R4・R5 予算資料が実例。削除後は
 登録もできない）。`sha256Match: false` は別版を指している印 → `--force` で再登録。
 同一パスへ上書きされる資料（財政事情）は版が変わるたび `--force`。
 `web.archive.org` / WARP 由来の URL は対象外（それ自体が恒久アーカイブ）。
 
-**終わってから derive する**。archive はワークツリーごとにロックを取り、ロック中の derive は止まる。
+**結果は待たない**（2026-11-12）。Wayback の保存は SPN2 の待ち行列で数分〜十数分かかり、資料ごとに完了を待つと
+巡の大半が待ち時間になっていた。要求は fetch の直後に出す（発行元が消す前に写しを頼むのが目的なので、それで足りる）。
+結果は、レビューなどで時間が経ったあとの `--resolve-only` で拾う。そのときに決まっていないジョブは次の実行が拾い、
+控え（`data/.archive-jobs.json`）が消えても CDX の既存の捕捉として見つかる（台帳は失われない）。
+`--submit-only` の実行中も archive のロックは生きているので、**終わってから derive する**。ロック中の derive は止まる。
 待つのは `bun run pipeline:archive --wait-only`（`pgrep` で待たない）。
 「✗ 未確認」には理由が付く。`SPN が3回続けて失敗` と出て残りが「省略」になったら、SPN が落ちている。
 戻ったかを台帳の捕捉日か `bun run pipeline:archive-attempts` で確かめてから流し直す。
