@@ -571,6 +571,14 @@ const MUNI_SLUGS: Record<string, string> = {
   "263664": "seika",
   "223255": "kannami",
   "294268": "koryo",
+  "082074": "yuki",
+  "082317": "sakuragawa",
+  "082295": "inashiki",
+  "022071": "misawa",
+  "122343": "minamiboso",
+  "113247": "miyoshimachi", // ⚠ 愛知県みよし市 232360（miyoshi）・広島県三次市 342092 とは別団体
+  "012254": "takikawa",
+  "044067": "rifu",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",

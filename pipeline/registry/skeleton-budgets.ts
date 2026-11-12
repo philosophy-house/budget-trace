@@ -389,4 +389,5 @@ export const SKELETON_BUDGETS: SkeletonBudget[] = [
   { code: "234257", name: "蟹江町", fy: "R7", evidence: "「令和８年度当初予算案 記者発表資料」（23512.pdf）p.13「※（ ）内は、令和７年度当初予算が骨格予算であったため、一般会計補正予算（第３号）で計上した一般会計の予算額の一部を加算した場合の予算額等を示した。」・p.3 施政方針「前年度（骨格予算）比1.9％増」（R7 自身の資料には「骨格」の語が無い）", ref: "docs/data-sources.md §13-120" },
 
   { code: "172014", name: "金沢市", fy: "R8", evidence: "「金沢市の財政 令和７年度下半期末（令和８年３月 31 日現在）」（金沢市総務局財政課・https://www4.city.kanazawa.lg.jp/material/files/group/16/r7shimohannkizaiseijijounokouhyou1.pdf・「金沢市の財政」のページ /shiseijoho/gyozaisei/zaisei_yosan_kessan/12866.html から）物理 p.4「令和８年度当初予算は、人件費や扶助費などの義務的経費のほか、継続事業などを主体とする「骨格予算」として編成しました。」（2026-11-12 に発行元から取得して pdftotext で照合）。金沢市の R8 は予算概要・予算説明書ともスキャンで未収録", ref: "docs/data-sources.md §13-118" },
+  { code: "012254", name: "滝川市", fy: "H31", evidence: "「平成31年度 滝川市各会計予算案の概要」（0628yosanan.pdf・WARP 20200108）p.3「３１年度は統一地方選挙の年であることから、当初予算については、経常経費や継続事業を中心とした骨格予算となりますが、…」・同じ p.3「３１年度の予算総額は、前年度に対して、１億９，７００万円増（１．０％増）となる２００億３，７００万円とします。」・「令和２年度一般会計予算」の前年度列の見出し「元年度（５月補正後）」（2026-11-12 に WARP の写しで pdftotext で照合）。滝川市の H31 は未収録", ref: "docs/data-sources.md §13-119" },
 ];

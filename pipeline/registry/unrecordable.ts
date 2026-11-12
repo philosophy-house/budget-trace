@@ -3293,6 +3293,65 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.town.mibu.tochigi.jp/category/bunya/gyoseimachizukuri/zaisei/",
     checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
   },
+  {
+    // 結城市（082074）R7。R8・R6〜R2 は収録済み（§13-119）。年度ページ（page009476.html）に「（※修正部分以外可決）」。掲載の予算書（1742261098_doc_18_0.pdf）は原案（22,162,000）で、
+    //   修正（1742261103_doc_18_0.pdf・8p・議案第12号の修正案・結城南中学校区新設校建設事業 1,324,000 を削除・20,838,000）の総括は見え消しで全款が無い。
+    //   R7 の概要 p.3 は修正後だが歳出の目的別だけで歳入の款が無い。修正後の款別の全表は R8 予算書の前年度列にだけある。
+    code: "082074", name: "結城市", dataset: "budget", fiscalYears: ["R7"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計当初予算は議会で修正して可決された。公開されている予算書は修正前の原案で、修正後の款別の額は翌年度の予算書の前年度の列にしか無い。",
+    url: "https://www.city.yuki.lg.jp/shisei/zaisei-gyouseihyouka/yosansho/page009476.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+  },
+  {
+    // 桜川市（082317）R6。R8・R7・R5〜R2 は収録済み（§13-119）。年度ページ（page008983.html）に「※一般会計予算は、市議会において修正案が提出され可決されました。」。
+    //   掲載の予算書（1710828952_doc_25_0.pdf）は原案（20,920,000）。修正案（1711069815_doc_25_0.pdf・7p）の総括は繰越金・総務費・合計の行だけ（各 9,933 減額・20,910,067）。
+    code: "082317", name: "桜川市", dataset: "budget", fiscalYears: ["R6"],
+    categories: ["format-mismatch"],
+    reason:
+      "一般会計当初予算は議会で修正して可決された。公開されている予算書は修正前の原案で、修正案の資料には修正した款の行しか無く、修正後の款別の全体は翌年度の予算書の前年度の列にしか無い。",
+    url: "https://www.city.sakuragawa.lg.jp/shisei/yosan_kessan/yosansho/page008983.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+  },
+  {
+    // 三沢市（022071）R2。R8〜R3 は収録済み（§13-119）。「当初予算の概要」（02_00_tousyo.pdf・一覧に無いがサーバに現存）p.2 は同型だが、
+    //   2行に折り返した款8「国有提供施設等所在市町村助成交付金」が pdftotext -layout で2行交互に混ざり `国市有町提村供助施成設交等付所在金` のまま Σ差0 で通る。
+    //   textSource:"raw" では款名は正しいが合計ラベルが表から離れて throw（totalNoLabel でも throw）。
+    code: "022071", name: "三沢市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason: "款別の表は健全だが、2行に折り返した款名を正しく読み取る処理に対応していない。",
+    url: "https://www.city.misawa.lg.jp/index.cfm/12,1506,58,256,html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+  },
+  {
+    // 柴田町（043231）R8〜R5。予算書の総括（歳入 p.13・歳出 p.14）は R7〜R5 がスキャン画像（CCITT・テキスト層なし）、R8 は Adobe Paper Capture の OCR 層だけで
+    //   款名が化け（町偵・議会毀・地方談与税）数字の桁が縦に割れる。R7・R6 は現行サイト、R5 は Wayback。R4・R3 は現行・Wayback とも取れず（様式未確認なので載せない）。
+    code: "043231", name: "柴田町", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5"],
+    categories: ["scanned-image"],
+    reason: "予算書の款別の表が紙をスキャンした画像で、機械可読な文字が入っていない（令和8年度は文字認識の結果が付いているが誤認識が多い）。",
+    url: "https://www.town.shibata.miyagi.jp/index.cfm/82,27247,221,html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+  },
+  {
+    // 玉村町（104647）R8〜R2。財政のページ（全件一覧）に予算書が無く、広報たまむら 2026年5月号 p.2 に「『令和８年度玉村町予算書及び予算に関する説明書』は
+    //   総務課財政係（役場３階）、町立図書館、…にて閲覧できます。」。ウェブの款別は広報5月号の円グラフ（万円・前年度列なし・「議会費・その他」に統合）と
+    //   R5 の概要（PowerPoint・円グラフ）だけ。R4 は町長説明の動画だけ。議会サイトにも議案の本文は無い。
+    code: "104647", name: "玉村町", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["no-material"],
+    reason: "予算書がウェブに掲載されておらず（役場などでの閲覧のみ）、ウェブにある款別は万円単位の円グラフで前年度の額が無い。",
+    url: "https://www.town.tamamura.lg.jp/category/bunya/chosei/zaisei/more@docs-all.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+  },
+  {
+    // 利府町（044067）R5〜R2。R8〜R6 は収録済み（§13-119）。予算書・説明書のページ（1307.html）に R5 以前は「各種会計予算書」（r5kakusyukaikeiyosannsyo.pdf・r4tousyoyosan.pdf・
+    //   r3tousyoyosansyo.pdf・group/4/r2rifutousyoyosan.pdf・50〜54p）だけで、第1表（款項）は当年度だけ。「事項別」「前年度」の語が0件。Wayback（group/41・group/4）にも説明書の捕捉は無い。
+    code: "044067", name: "利府町", dataset: "budget", fiscalYears: ["R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason: "ウェブにあるのは予算書（款と項の当年度の額だけ）で、前年度の額を並べた款別の表（予算に関する説明書の総括）が掲載されていない。",
+    url: "https://www.town.rifu.miyagi.jp/gyosei/chosei/yosan_zaisei/1307.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+  },
   // ==== 第103巡（2026-11-12・loop.md・docs §13-120）==================================================
   {
     // 津幡町（173614）。予算書（事項別明細書）は町サイト・WARP・Wayback のどこにも無い。公表は「当初予算の概要」だけで、款を束ねた区分（各種交付金・使用料及び手数料等・労働費等）の万円単位の表に前年度額の列が無い（R2 の概要に try-parse ⇒ 款行0件で throw）。
