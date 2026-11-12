@@ -1,5 +1,7 @@
 // [1]→ 一次資料の外部アーカイブ（Wayback Machine）登録。
-// 使い方: bun run pipeline:archive [sourceId] [--force]
+// 使い方: bun run pipeline:archive [sourceId...] [--force] [--submit-only | --resolve-only]
+//   sourceId は複数並べられる（巡で足した資料を1回の実行にまとめる — 要求を出し切ってから結果をまとめて確かめるので、
+//   資料ごとに実行するより速い。2026-11-12）
 //
 // 目的: 一次資料は発行元サイトから削除され得る（実例: 甲府市 R4・R5 当初予算資料は
 // 市サイトから削除済みで Wayback にも無く入手不可になった）。raw 層の git アーカイブが
@@ -531,7 +533,7 @@ function saveLedger(entries: ArchiveEntry[]): void {
 }
 
 const cliArgs = process.argv.slice(2);
-const arg = cliArgs.find((a) => !a.startsWith("--"));
+const ids = cliArgs.filter((a) => !a.startsWith("--"));
 const force = cliArgs.includes("--force");
 
 // 待つだけ（derive の前などに）。`pgrep` の待ちループは自分のコマンドラインに当たる（メモリ wait-loop-matches-itself）
@@ -559,9 +561,14 @@ if (cliArgs.includes("--check-auth")) {
   process.exit(res.ok && /"available"/.test(body) ? 0 : 1);
 }
 
-const targets = SOURCES.filter((s) => !s.fixture && (!arg || s.id === arg));
+const unknownIds = ids.filter((id) => !SOURCES.some((s) => s.id === id));
+if (unknownIds.length > 0) {
+  console.error(`ソースが見つかりません: ${unknownIds.join(", ")}`);
+  process.exit(1);
+}
+const targets = SOURCES.filter((s) => !s.fixture && (ids.length === 0 || ids.includes(s.id)));
 if (targets.length === 0) {
-  console.error(`ソースが見つかりません: ${arg}`);
+  console.error(`対象のソースがありません（fixture だけ）: ${ids.join(", ")}`);
   process.exit(1);
 }
 

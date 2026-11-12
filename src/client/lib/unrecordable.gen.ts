@@ -471,7 +471,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和8年度",
         "reason": "当初予算の概要の歳入の表で、使用料及び手数料の行に款番号と前年度の額が無く、増減率の欄が計算エラーの表示になっている。款番号の無いこの行を款として数えられないので当年度の款の合計が総額と合わず、前年度の合計も前年度の当初予算額と違う額で印字されている。款別の数字が載るほかの資料は、予算書の総括が文字として取り出せず、予算説明資料は紙のスキャンで、代わりにならなかった。",
-        "checkedOn": "2026-09-25"
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -544,7 +544,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和8年度",
         "reason": "「当初予算の概要」がこの年度だけ全47ページのスキャン画像で、pdftotext の抽出が全文47字・PDF に埋め込みフォントが1つも無い（R7 以前は18万字前後で健全）。代わりの「一般会計当初予算書」には文字があるが、総括ページの構成比が款の行から切り離されて別の行に落ちるため金額の並びが崩れ、さらに文字の対応表が壊れていて歳出の款8 が「士木費」（正しくは土木費）になる。金額そのものを信用できないため決定的に読み取れない。R7〜R2 は同じ「当初予算の概要」で収録済み。",
-        "checkedOn": "2026-08-23"
+        "checkedOn": "2026-11-12"
       },
       {
         "fyLabel": "平成31年度・平成30年度・平成29年度・平成28年度・平成27年度",
@@ -694,15 +694,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和2年度",
         "reason": "令和2年度は予算に関する説明書が掲載されておらず、掲載されていた概要などの資料も発行元から消えて、魚拓にも残っていない。",
-        "checkedOn": "2026-10-26"
-      }
-    ]
-  },
-  "162108": {
-    "budget": [
-      {
-        "fyLabel": "令和8年度・令和7年度",
-        "reason": "予算書の表は文字ではなく図形として描かれていて文字の情報が無く、同じ年度の予算の概要も画像だけで、款別の金額を読み取れない。",
         "checkedOn": "2026-10-26"
       }
     ]
@@ -1464,7 +1455,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和8年度",
         "reason": "予算の概要・予算書・予算に関する説明書のどれもが紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
-        "checkedOn": "2026-10-22"
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -1573,7 +1564,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和8年度",
         "reason": "一般会計予算書の文字がすべて図形として描かれていて、文字として取り出せない。当初予算の概要は百万円単位で、いくつかの款をまとめた区分しか載っていない。",
-        "checkedOn": "2026-10-22"
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -1795,15 +1786,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
-  "402231": {
-    "budget": [
-      {
-        "fyLabel": "令和8年度・令和7年度",
-        "reason": "款ごとの前年度比較が載る予算に関する説明書が、見開きの2ページを1ページに収めた版で、歳入の総括表が左右2段（左に款1〜22、右に款23と合計）に分かれていて、既存のパーサで読めない。予算書の第1表には前年度の額が無く、予算案の概要には款別の表が無い。",
-        "checkedOn": "2026-10-22"
-      }
-    ]
-  },
   "403431": {
     "budget": [
       {
@@ -1900,7 +1882,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       {
         "fyLabel": "令和8年度",
         "reason": "一般会計予算書の総括のページが図形として描かれていて、文字として取り出せない。当初予算の概要は紙をスキャンした画像に読み取った文字を重ねたもので、前年度の列も当初ではなく6月補正後の額になっている。",
-        "checkedOn": "2026-10-22"
+        "checkedOn": "2026-11-12"
       }
     ]
   },
