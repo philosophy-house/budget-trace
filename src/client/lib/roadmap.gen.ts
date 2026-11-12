@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 660,
+  "budgetCount": 667,
   "councilCount": 474,
-  "latestFetchedAt": "2026-11-03",
+  "latestFetchedAt": "2026-11-12",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 4987,
-  "fileCount": 7653,
-  "archivedCount": 3866,
+  "sourceCount": 5022,
+  "fileCount": 7688,
+  "archivedCount": 3886,
   "licenseOpen": 145,
-  "licensePermission": 4743,
+  "licensePermission": 4778,
   "licenseUnverified": 99,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -2333,6 +2333,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "粕屋町",
+      "code": "403491",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "唐津市",
       "code": "412023",
       "years": 7,
@@ -2455,6 +2461,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "南城市",
       "code": "472158",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "西原町",
+      "code": "473294",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2903,6 +2915,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "苅田町",
+      "code": "406210",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "長崎市",
       "code": "422011",
       "years": 6,
@@ -3179,6 +3197,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R6（5年度）"
     },
     {
+      "name": "那珂川市",
+      "code": "402311",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
+    },
+    {
       "name": "島原市",
       "code": "422037",
       "years": 5,
@@ -3195,6 +3219,12 @@ export const ROADMAP_PROGRESS = {
       "code": "432105",
       "years": 5,
       "range": "R4〜R8（5年度）"
+    },
+    {
+      "name": "大津町",
+      "code": "434035",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
     },
     {
       "name": "日南市",
@@ -3373,6 +3403,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "延岡市",
       "code": "452033",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
+    },
+    {
+      "name": "指宿市",
+      "code": "462101",
       "years": 4,
       "range": "R5〜R8（4年度）"
     },

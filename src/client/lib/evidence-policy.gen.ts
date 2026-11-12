@@ -29989,6 +29989,216 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "「壬生町公式ウェブサイト」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、壬生町ウェブサイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "file"
   },
+  "/sources/kanda-yosansho-r8/10139.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kanda.lg.jp/uploaded/attachment/10139.pdf",
+    "license": "苅田町ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として苅田町に帰属します。また、一部の画像等の著作権は、苅田町以外の原著作者が所有しています。苅田町ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾に関しては、苅田町企画政策課広報広聴担当までご相談ください。",
+    "target": "file"
+  },
+  "/sources/kanda-yosansho-r7/7905.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kanda.lg.jp/uploaded/attachment/7905.pdf",
+    "license": "苅田町ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として苅田町に帰属します。また、一部の画像等の著作権は、苅田町以外の原著作者が所有しています。苅田町ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾に関しては、苅田町企画政策課広報広聴担当までご相談ください。",
+    "target": "file"
+  },
+  "/sources/kanda-yosansho-r6/5586.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kanda.lg.jp/uploaded/attachment/5586.pdf",
+    "license": "苅田町ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として苅田町に帰属します。また、一部の画像等の著作権は、苅田町以外の原著作者が所有しています。苅田町ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾に関しては、苅田町企画政策課広報広聴担当までご相談ください。",
+    "target": "file"
+  },
+  "/sources/kanda-yosansho-r5/1400.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kanda.lg.jp/uploaded/attachment/1400.pdf",
+    "license": "苅田町ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として苅田町に帰属します。また、一部の画像等の著作権は、苅田町以外の原著作者が所有しています。苅田町ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾に関しては、苅田町企画政策課広報広聴担当までご相談ください。",
+    "target": "file"
+  },
+  "/sources/kanda-yosansho-r4/1346.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kanda.lg.jp/uploaded/attachment/1346.pdf",
+    "license": "苅田町ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として苅田町に帰属します。また、一部の画像等の著作権は、苅田町以外の原著作者が所有しています。苅田町ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾に関しては、苅田町企画政策課広報広聴担当までご相談ください。",
+    "target": "file"
+  },
+  "/sources/kanda-yosansho-r3/1304.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kanda.lg.jp/uploaded/attachment/1304.pdf",
+    "license": "苅田町ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として苅田町に帰属します。また、一部の画像等の著作権は、苅田町以外の原著作者が所有しています。苅田町ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾に関しては、苅田町企画政策課広報広聴担当までご相談ください。",
+    "target": "file"
+  },
+  "/sources/nishihara-okinawa-yosansho-r8/11298.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.nishihara.okinawa.jp/uploaded/attachment/11298.pdf",
+    "license": "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/nishihara-okinawa-yosansho-r7/8478.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.nishihara.okinawa.jp/uploaded/attachment/8478.pdf",
+    "license": "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/nishihara-okinawa-yosansho-r6/7622.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.nishihara.okinawa.jp/uploaded/attachment/7622.pdf",
+    "license": "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/nishihara-okinawa-yosansho-r5/7629.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.nishihara.okinawa.jp/uploaded/attachment/7629.pdf",
+    "license": "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/nishihara-okinawa-yosansho-r4/7638.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.nishihara.okinawa.jp/uploaded/attachment/7638.pdf",
+    "license": "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/nishihara-okinawa-yosansho-r3/7650.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.nishihara.okinawa.jp/uploaded/attachment/7650.pdf",
+    "license": "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/nishihara-okinawa-yosansho-r2/7666.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.nishihara.okinawa.jp/uploaded/attachment/7666.pdf",
+    "license": "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。",
+    "target": "file"
+  },
+  "/sources/nakagawa-fukuoka-setsumeisho-r8/32237.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nakagawa.lg.jp/soshiki/49/r8yosansho.html",
+    "license": "「那珂川市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として那珂川市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/nakagawa-fukuoka-setsumeisho-r7/29649.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nakagawa.lg.jp/soshiki/49/r7yosansho.html",
+    "license": "「那珂川市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として那珂川市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/nakagawa-fukuoka-setsumeisho-r6/26753.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20240724213413/https://www.city.nakagawa.lg.jp/soshiki/49/r6yosansho.html",
+    "license": "「那珂川市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として那珂川市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/nakagawa-fukuoka-setsumeisho-r5/23923.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20240307/20240307061343/https://www.city.nakagawa.lg.jp/soshiki/49/r5yosansho.html",
+    "license": "「那珂川市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として那珂川市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/nakagawa-fukuoka-setsumeisho-r2/15315.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20210615/20210614095942/https://www.city.nakagawa.lg.jp/soshiki/49/h31yosansho.html",
+    "license": "「那珂川市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として那珂川市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "page"
+  },
+  "/sources/kasuya-yosansho-r8/1R8-0.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/20191224173858.html",
+    "license": "個人的な利用を目的として印字や保存等する場合、その他著作権法で認められる場合を除き、コンテンツを著作権者の事前の許諾なしに、複製、公衆送信、頒布、改変、切除、お客様のウェブサイトに転載するなどの行為（以下、「ご利用等」といいます）は著作権法で禁止されています。事前に当町の許諾を得ていただくようお願いします。ただし、肖像や第三者の著作物・商標等が含まれている場合、当町が不適切と判断する場合等、ご利用等の許諾をお断りする場合がございます。",
+    "target": "page"
+  },
+  "/sources/kasuya-yosansho-r7/1R7-0.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/20191224173858.html",
+    "license": "個人的な利用を目的として印字や保存等する場合、その他著作権法で認められる場合を除き、コンテンツを著作権者の事前の許諾なしに、複製、公衆送信、頒布、改変、切除、お客様のウェブサイトに転載するなどの行為（以下、「ご利用等」といいます）は著作権法で禁止されています。事前に当町の許諾を得ていただくようお願いします。ただし、肖像や第三者の著作物・商標等が含まれている場合、当町が不適切と判断する場合等、ご利用等の許諾をお断りする場合がございます。",
+    "target": "page"
+  },
+  "/sources/kasuya-yosansho-r6/R6-0-0.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/20191224173858.html",
+    "license": "個人的な利用を目的として印字や保存等する場合、その他著作権法で認められる場合を除き、コンテンツを著作権者の事前の許諾なしに、複製、公衆送信、頒布、改変、切除、お客様のウェブサイトに転載するなどの行為（以下、「ご利用等」といいます）は著作権法で禁止されています。事前に当町の許諾を得ていただくようお願いします。ただし、肖像や第三者の著作物・商標等が含まれている場合、当町が不適切と判断する場合等、ご利用等の許諾をお断りする場合がございます。",
+    "target": "page"
+  },
+  "/sources/kasuya-yosansho-r5/R5-0-0.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/20191224173858.html",
+    "license": "個人的な利用を目的として印字や保存等する場合、その他著作権法で認められる場合を除き、コンテンツを著作権者の事前の許諾なしに、複製、公衆送信、頒布、改変、切除、お客様のウェブサイトに転載するなどの行為（以下、「ご利用等」といいます）は著作権法で禁止されています。事前に当町の許諾を得ていただくようお願いします。ただし、肖像や第三者の著作物・商標等が含まれている場合、当町が不適切と判断する場合等、ご利用等の許諾をお断りする場合がございます。",
+    "target": "page"
+  },
+  "/sources/kasuya-yosansho-r4/R4-0-0.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/20191224173858.html",
+    "license": "個人的な利用を目的として印字や保存等する場合、その他著作権法で認められる場合を除き、コンテンツを著作権者の事前の許諾なしに、複製、公衆送信、頒布、改変、切除、お客様のウェブサイトに転載するなどの行為（以下、「ご利用等」といいます）は著作権法で禁止されています。事前に当町の許諾を得ていただくようお願いします。ただし、肖像や第三者の著作物・商標等が含まれている場合、当町が不適切と判断する場合等、ご利用等の許諾をお断りする場合がございます。",
+    "target": "page"
+  },
+  "/sources/kasuya-yosansho-r3/R3-0-0.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/20191224173858.html",
+    "license": "個人的な利用を目的として印字や保存等する場合、その他著作権法で認められる場合を除き、コンテンツを著作権者の事前の許諾なしに、複製、公衆送信、頒布、改変、切除、お客様のウェブサイトに転載するなどの行為（以下、「ご利用等」といいます）は著作権法で禁止されています。事前に当町の許諾を得ていただくようお願いします。ただし、肖像や第三者の著作物・商標等が含まれている場合、当町が不適切と判断する場合等、ご利用等の許諾をお断りする場合がございます。",
+    "target": "page"
+  },
+  "/sources/kasuya-yosansho-r2/R2-0-0.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/20191224173858.html",
+    "license": "個人的な利用を目的として印字や保存等する場合、その他著作権法で認められる場合を除き、コンテンツを著作権者の事前の許諾なしに、複製、公衆送信、頒布、改変、切除、お客様のウェブサイトに転載するなどの行為（以下、「ご利用等」といいます）は著作権法で禁止されています。事前に当町の許諾を得ていただくようお願いします。ただし、肖像や第三者の著作物・商標等が含まれている場合、当町が不適切と判断する場合等、ご利用等の許諾をお断りする場合がございます。",
+    "target": "page"
+  },
+  "/sources/ozu-kumamoto-yosansho-r8/18076.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ozu.kumamoto.jp/page/24624.html",
+    "license": "大津町ホームページに掲載されている文章、写真、イラストなどの個々の情報は、特別の記載があるものを除き、著作権の対象となります。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ozu-kumamoto-yosansho-r7/14883.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ozu.kumamoto.jp/page/19003.html",
+    "license": "大津町ホームページに掲載されている文章、写真、イラストなどの個々の情報は、特別の記載があるものを除き、著作権の対象となります。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ozu-kumamoto-yosansho-r6/12275.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ozu.kumamoto.jp/page/12118.html",
+    "license": "大津町ホームページに掲載されている文章、写真、イラストなどの個々の情報は、特別の記載があるものを除き、著作権の対象となります。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ozu-kumamoto-yosansho-r4/2283.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ozu.kumamoto.jp/page/1276.html",
+    "license": "大津町ホームページに掲載されている文章、写真、イラストなどの個々の情報は、特別の記載があるものを除き、著作権の対象となります。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ozu-kumamoto-yosansho-r2/2775.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.ozu.kumamoto.jp/page/1456.html",
+    "license": "大津町ホームページに掲載されている文章、写真、イラストなどの個々の情報は、特別の記載があるものを除き、著作権の対象となります。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/ibusuki-yosansho-r8/令和８年度当初予算書.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+    "license": "「指宿市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として指宿市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。 「指宿市ホームページ」の内容の全部また一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/ibusuki-yosansho-r7/令和７年度 当初予算書.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%97%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+    "license": "「指宿市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として指宿市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。 「指宿市ホームページ」の内容の全部また一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/ibusuki-yosansho-r6/令和６年度 当初予算書.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%96%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+    "license": "「指宿市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として指宿市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。 「指宿市ホームページ」の内容の全部また一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/ibusuki-yosansho-r5/令和５年度 当初予算書.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%95%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+    "license": "「指宿市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として指宿市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。 「指宿市ホームページ」の内容の全部また一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/uto-yosansho-r8/d_q_470ee2156edc118101924afc897aee14.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.uto.lg.jp/article/view/1141/15564.html",
+    "license": "本サイトで提供する文書、画像等の各ファイル及びその内容に関する諸権利は、原則として宇土市に帰属します。一部の画像等の著作権は、原著作者が所有しています。本サイト上の文書・画像等の無断使用・転載を禁止します。",
+    "target": "page"
+  },
   "/sources/agano-yosansho-r8/R08_ippan.pdf": {
     "mode": "origin",
     "href": "https://www.city.agano.niigata.jp/material/files/group/5/R08_ippan.pdf",
