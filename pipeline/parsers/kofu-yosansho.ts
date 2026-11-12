@@ -103,9 +103,14 @@ interface Options {
    *
    * **切り出しは pdftotext 自身の -x/-W に任せる**（座標を自前で組み直さない）。
    * 静岡は A4 横（842pt）で、歳入の右端が約400pt・歳出の左端が約425pt＝**ガター幅24〜26pt**。
+   *
+   * **配列で渡すと、1ページを複数の帯に切って左から順に縦へ連結する**（2026-11-12・古賀 R8・第106巡）。
+   * 見開き2ページを1ページに収めた版で、**1つの表が左右2段に続く**様式用（古賀 R8: 左に款1〜22、右に款23と合計）。
+   * 単一の帯では片方しか読めず、帯なしでは `-layout` が左右を1行に融合して款23 と合計が款の行に混ざる。
+   * ⚠ 右の段の頭に繰り返される見出し（`歳入歳出予算事項別明細書`・`総括`・`（歳入）`）は HeaderExtra で落とす。
    */
-  revenueCropX?: CropX;
-  expenditureCropX?: CropX;
+  revenueCropX?: CropX | CropX[];
+  expenditureCropX?: CropX | CropX[];
   /**
    * **`pdftotext` のテキスト抽出モード**。既定は `-layout`（列がスペースで揃うので行パーサが素直）。
    *
@@ -1021,7 +1026,14 @@ function parseKanPage(
     ? pdfPageText(filePath, spread.namePage, undefined, src, opts.visibleTextOnly) +
       "\n" +
       pdfPageText(filePath, spread.amountPage, undefined, src, opts.visibleTextOnly)
-    : pages.map((p) => pdfPageText(filePath, p, cropX, src, opts.visibleTextOnly)).join("\n");
+    : pages
+        .map((p) =>
+          // 帯の配列は左から順に縦へ連結する（Options.revenueCropX 参照）
+          (Array.isArray(cropX) ? cropX : [cropX])
+            .map((c) => pdfPageText(filePath, p, c, src, opts.visibleTextOnly))
+            .join("\n"),
+        )
+        .join("\n");
   // ToUnicode 欠落の復号（Options.decodeGarble 参照）。パース前にページ全文を復元する
   if (opts.decodeGarble) {
     const band = side === "revenue" ? opts.decodeGarbleBand?.revenue : opts.decodeGarbleBand?.expenditure;
@@ -1086,6 +1098,10 @@ function parseKanPage(
   // 見開き2ページ型（Options.revenueSpread 参照）: 款名ページと金額ページを**行順で1:1に組み**、
   // 以降は通常の1ページ表と同じ経路で読む（皆減・折返し・ヘッダ除外・合計検出をそのまま使えるため）。
   if (spread) {
+    // 帯の配列（左右2段の連結）は見開き2ページ型と組み合わせない（行順の1:1対応が崩れる）
+    if (Array.isArray(cropX)) {
+      throw new Error(`${filename} ${pageLabel}: CropX の配列と revenueSpread/expenditureSpread は併用できません`);
+    }
     const [nameText, amountText] = [
       pdfPageText(filePath, spread.namePage, cropX, src, opts.visibleTextOnly),
       pdfPageText(filePath, spread.amountPage, cropX, src, opts.visibleTextOnly),
