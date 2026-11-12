@@ -1,0 +1,19 @@
+{
+  "sourceId": "uonuma-yosan-r5",
+  "files": [
+    {
+      "filename": "9392.pdf",
+      "sha256": "ff1e827e39a13e2eaf5377a665f94a061e721b3e1c7909d33e9f16b3ba96f5a7",
+      "bytes": 3008174,
+      "fetchedAt": "2026-11-12T12:25:18.188Z",
+      "fetchedFrom": "https://www.city.uonuma.lg.jp/uploaded/attachment/9392.pdf"
+    },
+    {
+      "filename": "9391.pdf",
+      "sha256": "21a539523be7513d5287af638651a2070b464d583c33e6f2ca4311aa862e814e",
+      "bytes": 1632368,
+      "fetchedAt": "2026-11-12T12:25:18.622Z",
+      "fetchedFrom": "https://www.city.uonuma.lg.jp/uploaded/attachment/9391.pdf"
+    }
+  ]
+}

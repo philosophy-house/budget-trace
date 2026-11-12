@@ -3313,4 +3313,40 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.town.mibu.tochigi.jp/category/bunya/gyoseimachizukuri/zaisei/",
     checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
   },
+  {
+    // 熱海市（222054）R7〜R2。R8 は収録済み（§13-125）。予算書（附説明書）は R7 が241頁中24頁だけ文字があり、総括の p.36〜38 は画像の帯。
+    //   R6〜R2 は全頁が画像（R6 242頁・R5 262頁・R4/R3/R2 255頁でテキストは0〜数字）。「予算・施策概要」は文字があるが款別は円グラフの構成比と主な増減だけ。
+    code: "222054", name: "熱海市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["scanned-image", "format-mismatch"],
+    reason: "予算書の款別の表はスキャン画像で文字の情報が無く、予算・施策概要は款別の額が円グラフだけで前年度との比較が款ごとに無い。",
+    url: "https://www.city.atami.lg.jp/shisei/gyozaisei/1001659/1004131/index.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
+  {
+    // 本巣市（212181）R5〜R2。R8〜R6 は収録済み（§13-125）。予算のカテゴリは 2024 年半ばに新設（WARP 2023-08-10・2024-05-11 の財政カテゴリに「予算」が無い）。
+    //   Wayback の CDX も `*tosho*` は R6・R7 だけ。「財政事情の公表」（上半期）に款別の当初予算額はあるが前年度の列が無く、款番号なしの金額順。
+    code: "212181", name: "本巣市", dataset: "budget", fiscalYears: ["R5", "R4", "R3", "R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "当初予算書と当初予算説明資料がウェブに掲載されていない。財政事情の公表には款別の当初予算額があるが、前年度の額が載っていない。",
+    url: "https://www.city.motosu.lg.jp/category/5-15-5-0-0-0-0-0-0-0.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
+  {
+    // 魚沼市（152251）R2。R8〜R3 は収録済み（§13-125）。予算書（2276.pdf）はテキスト層が化けている（Identity-H・ToUnicode なし）。
+    //   予算概要（2275.pdf）の款別一覧表の歳入は `prevAfterBreakdown` が皆減（自動車取得税交付金 … △25,000 皆減）・皆増の行を扱えず throw、外すと前年度 Σ が割れる。
+    code: "152251", name: "魚沼市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported", "broken-text-layer"],
+    reason: "予算の概要の款別の表は、新しくできた款・なくなった款の行の読み取りに対応していない。予算書は文字が正しく文字として埋め込まれていない。",
+    url: "https://www.city.uonuma.lg.jp/page/1446.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
+  {
+    // 大治町（234249）R2。R8〜R3 は収録済み（§13-125）。当初予算案概要書（WARP 2026-08-08・secure/1168/r2gaiyo.pdf）p.32 の歳出の合計行の前年度額 8,906,000 が
+    //   pdftotext（-layout・-raw とも）で合計行の1行上に浮き、既定の推測が現計の 9,591,668 を合計として掴む（前年度 Σ 差 -685,668）。予算書本体はテキスト層がほぼ空。
+    code: "234249", name: "大治町", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason: "当初予算案概要書の款別の表で、歳出の合計の前年度の額が表の中で行がずれて配置されていて、読み取りに対応していない。",
+    url: "https://warp.ndl.go.jp/20260810/20260808184534/https://www.town.oharu.aichi.jp/1181.htm",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
 ];
