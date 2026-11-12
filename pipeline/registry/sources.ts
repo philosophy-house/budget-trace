@@ -34974,7 +34974,7 @@ export const SOURCES: SourceEntry[] = [
   //   （数字・カンマ・△まで）⇒ `decodeGlyphIds: "IPAMincho-003.03"`（#400・pipeline/lib/garble-ipamincho.ts）。
   //   既存の decodeGarble の共通マップとはキーが8字衝突する（0xE6D 割/利 など）ので使わない。ページ番号だけは別フォントの素の ASCII。
   //   R8 は予算書・予算説明書の合冊（p.37/38）。R6・R5 は現行サイトに無く WARP の写し（p.6/7・p.5/6）。landing（/soshiki/6/54152.html）は毎年上書き。
-  //   R7（説明書の総括が画像）・R4（DocuWorks で字が「・」に置換）・R3（款別表が画像）は収録できない ⇒ unrecordable.ts。
+  //   R7 は説明書の総括が画像（フォントなし・2026-11-12 実測）⇒ unrecordable.ts。R4（DocuWorks で字が「・」に置換）・R3（款別表が画像）は §13-107 の偵察の見込みで、この巡では未確認。
   //   歳出の款番号 11（災害復旧費）は計上なしの年度が欠番（原典どおり）。
   // 前年度列は当初（R6 の前年度列＝R5 の本年度列・R8 の前年度列は R7 当初の合計 226億8,000万円）。
   //   R5 は「市長改選の年であるため、政策的判断を要する新たな経費は当初予算に計上しない」（R5 当初予算案の概要 p.1・画像を目視）＝ skeleton-budgets.ts ⇒ R6 に prevNote。

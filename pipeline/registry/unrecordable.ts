@@ -3323,19 +3323,13 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-118",
   },
   {
-    // 諏訪市（202061）R7・R4・R3。R7 は予算説明書の総括が画像、R4 は DocuWorks から作られて字が「・」に置き換わっている、R3 は款別の表が画像（§13-107 の偵察）。
-    code: "202061", name: "諏訪市", dataset: "budget", fiscalYears: ["R7", "R3"],
+    // 諏訪市（202061）R7。予算説明書（70542_139301_misc.pdf・WARP 2025-05-11・403ページ）は総括のページにフォントが無く、pdftotext が空（2026-11-12 に実測）。
+    //   R4・R3 は §13-107 の偵察で「収録できない見込み」とされたが、この巡では原典を確かめていないので載せない。
+    code: "202061", name: "諏訪市", dataset: "budget", fiscalYears: ["R7"],
     categories: ["scanned-image"],
-    reason: "款別の総括表が画像で、文字の情報が無い。",
-    url: "https://www.city.suwa.lg.jp/soshiki/6/54152.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-107・§13-118",
-  },
-  {
-    code: "202061", name: "諏訪市", dataset: "budget", fiscalYears: ["R4"],
-    categories: ["broken-text-layer"],
-    reason: "予算説明書の文字が「・」に置き換わっていて、款名と金額を読み取れない。",
-    url: "https://www.city.suwa.lg.jp/soshiki/6/54152.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-107・§13-118",
+    reason: "予算説明書の款別の総括表が画像で、文字の情報が無い。",
+    url: "https://warp.ndl.go.jp/20250511/20250511073305/https://www.city.suwa.lg.jp/uploaded/life/70542_139301_misc.pdf",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-118",
   },
   {
     // 米原市（252140）R5。伊吹高校生通学支援金 1,800千円を削る議員提案の修正案が令和5年3月23日に可決。概要は原案で、修正後の款別表（syuusei_r5.pdf）には前年度列が無い。予算書は R7 以降しか載っていない。

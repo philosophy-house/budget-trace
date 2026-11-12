@@ -50140,6 +50140,17 @@
       "checkedAt": "2026-10-29T01:32:31.710Z"
     },
     {
+      "sourceId": "okaya-yosan-r8",
+      "url": "https://www.city.okaya.lg.jp/material/files/group/7/99999.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260325224206/https://www.city.okaya.lg.jp/material/files/group/7/99999.pdf",
+      "waybackTimestamp": "20260325224206",
+      "checkedAt": "2026-11-12T11:32:16.133Z",
+      "sha256Match": true,
+      "waybackBytes": 214032,
+      "rawSha256": "aa25c9309f531eeca618285c467b525bd24f81e522d23fd1fa157be7a66b87bf"
+    },
+    {
       "sourceId": "okayama-ken-gikai-r8",
       "url": "https://www.pref.okayama.jp/page/983444.html",
       "kind": "file",
