@@ -23367,7 +23367,7 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20261112124416/https://www.town.kannami.shizuoka.jp/gyosei/zaisei/1/3/3624.html",
       "waybackTimestamp": "20261112124416",
-      "checkedAt": "2026-11-12T12:44:36.502Z"
+      "checkedAt": "2026-11-12T12:59:41.969Z"
     },
     {
       "sourceId": "kannami-yosanjokyo-r3",
@@ -23375,7 +23375,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261112123215/https://www.town.kannami.shizuoka.jp/material/files/group/3/R3sainyuusaisyutujoukyou.pdf",
       "waybackTimestamp": "20261112123215",
-      "checkedAt": "2026-11-12T12:38:04.274Z",
+      "checkedAt": "2026-11-12T12:56:36.418Z",
       "sha256Match": true,
       "waybackBytes": 70564,
       "rawSha256": "23f19f67edeb3f4ab7abc765af9677a1cc2fc3acb6b0eb38b9cb7d2251bc96d0"
@@ -31712,6 +31712,82 @@
       "sha256Match": true,
       "waybackBytes": 9189769,
       "rawSha256": "bfae4d880f66f2abed3d8b046790ed416978dfbbad3d0448531a5d06f9f2f51a"
+    },
+    {
+      "sourceId": "koryo-yosansho-r5",
+      "url": "https://www.town.koryo.nara.jp/0000006068.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112125330/https://www.town.koryo.nara.jp/0000006068.html",
+      "waybackTimestamp": "20261112125330",
+      "checkedAt": "2026-11-12T12:56:15.959Z"
+    },
+    {
+      "sourceId": "koryo-yosansho-r5",
+      "url": "https://www.town.koryo.nara.jp/cmsfiles/contents/0000006/6068/R5ippannkaikei.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250910211113/https://www.town.koryo.nara.jp/cmsfiles/contents/0000006/6068/R5ippannkaikei.pdf",
+      "waybackTimestamp": "20250910211113",
+      "checkedAt": "2026-11-12T12:53:25.112Z",
+      "sha256Match": true,
+      "waybackBytes": 2347874,
+      "rawSha256": "4f6fb43512d35445ba4431b80935d99e922e098d00b930a0f3c0c7bff8b9fc77"
+    },
+    {
+      "sourceId": "koryo-yosansho-r6",
+      "url": "https://www.town.koryo.nara.jp/0000006694.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112125320/https://www.town.koryo.nara.jp/0000006694.html",
+      "waybackTimestamp": "20261112125320",
+      "checkedAt": "2026-11-12T12:56:15.265Z"
+    },
+    {
+      "sourceId": "koryo-yosansho-r6",
+      "url": "https://www.town.koryo.nara.jp/cmsfiles/contents/0000006/6694/R6yosanippankaikei.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240318114204/https://www.town.koryo.nara.jp/cmsfiles/contents/0000006/6694/R6yosanippankaikei.pdf",
+      "waybackTimestamp": "20240318114204",
+      "checkedAt": "2026-11-12T12:53:15.523Z",
+      "sha256Match": true,
+      "waybackBytes": 5595589,
+      "rawSha256": "478c9382b563a5ad91dd370e6adbd33c09415ca88c50755eda45947a0c3104ea"
+    },
+    {
+      "sourceId": "koryo-yosansho-r7",
+      "url": "https://www.town.koryo.nara.jp/0000007262.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112125308/https://www.town.koryo.nara.jp/0000007262.html",
+      "waybackTimestamp": "20261112125308",
+      "checkedAt": "2026-11-12T12:56:14.478Z"
+    },
+    {
+      "sourceId": "koryo-yosansho-r7",
+      "url": "https://www.town.koryo.nara.jp/cmsfiles/contents/0000007/7262/R7yosannsyo.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250324125436/https://www.town.koryo.nara.jp/cmsfiles/contents/0000007/7262/R7yosannsyo.pdf",
+      "waybackTimestamp": "20250324125436",
+      "checkedAt": "2026-11-12T12:48:38.881Z",
+      "sha256Match": true,
+      "waybackBytes": 10143268,
+      "rawSha256": "3ca238f9211ced988c21104d56baebc57c7a70115d1e51533287e15b90f4570b"
+    },
+    {
+      "sourceId": "koryo-yosansho-r8",
+      "url": "https://www.town.koryo.nara.jp/0000007843.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112124732/https://www.town.koryo.nara.jp/0000007843.html",
+      "waybackTimestamp": "20261112124732",
+      "checkedAt": "2026-11-12T12:56:13.935Z"
+    },
+    {
+      "sourceId": "koryo-yosansho-r8",
+      "url": "https://www.town.koryo.nara.jp/cmsfiles/contents/0000007/7843/R8yosan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112124711/https://www.town.koryo.nara.jp/cmsfiles/contents/0000007/7843/R8yosan.pdf",
+      "waybackTimestamp": "20261112124711",
+      "checkedAt": "2026-11-12T12:56:13.148Z",
+      "sha256Match": true,
+      "waybackBytes": 5433808,
+      "rawSha256": "651f33bbd470e2505a2d8c2018d44c40040c36d9d9d8b775974b4c2fac0c6642"
     },
     {
       "sourceId": "kosai-yosan-gaiyou-r2",
