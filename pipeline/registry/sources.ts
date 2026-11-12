@@ -35409,7 +35409,7 @@ export const SOURCES: SourceEntry[] = [
   } satisfies SourceEntry)),
   // 函南町（静岡県・団体コード 223255 ＝ 総務省 R6.json から実引き）。千円。
   //   R8・R5 は一般会計予算書の「歳入歳出予算事項別明細書 １ 総括」（歳入3ページ＝款1〜19／構成比／款20〜22＋合計・歳出1ページ）。
-  //   ⚠ R8・R5 はテキスト層が ToUnicode 欠落（CID フォント）⇒ decodeGarble。見出し「Ⅰ 歳入歳出予算事項別明細書」の Ⅰ（U+03E8）を共通の復号表に足した（§13-119）。
+  //   ⚠ R8・R5 はテキスト層が ToUnicode 欠落（CID フォント）⇒ decodeGarble。見出し「Ⅰ 歳入歳出予算事項別明細書」の Ⅰ（U+03E8）を共通の復号表に足した（§13-120）。
   //   R4・R3・R2 は予算書が載らず、各年度の「一般会計歳入（歳出）予算の状況」（5年分の当初予算額の表・列見出し「当初予算額」）の当年度と前年度の列。
   //     款番号が無く自主財源→依存財源の順（kanNoless・kanNoNumbers・amountIntIndex 4 / prevIntIndex 3）。左端の縦書き「自主財源」「依存財源」を revenueCropX で切る
   //     （kanNamePrefixStrip だと「自動車取得税交付金」の「自」まで落ちる）。小計の行は revenueHeaderExtra で捨てる。自動車取得税交付金・諸支出金（0 / 1）は款として残す。

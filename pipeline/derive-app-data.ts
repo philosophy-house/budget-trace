@@ -4012,7 +4012,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r4", "r3"] as const).map((fy) => ({
       srcId: `mibu-yosansho-${fy}`, muniCode: "093611", muniName: "壬生町", prefName: "栃木県", isPref: false,
     })),
-    // ---- 第103巡（2026-11-12・§13-119） ----
+    // ---- 第103巡（2026-11-12・§13-120） ----
     // 諏訪市の R7 は総括が画像・R4・R3 は未確認。R2 は概要（説明書が見つからない）
     ...(["r8", "r6", "r5"] as const).map((fy) => ({
       srcId: `suwa-yosansho-${fy}`, muniCode: "202061", muniName: "諏訪市", prefName: "長野県", isPref: false,

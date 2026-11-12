@@ -3293,14 +3293,14 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.town.mibu.tochigi.jp/category/bunya/gyoseimachizukuri/zaisei/",
     checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
   },
-  // ==== 第103巡（2026-11-12・loop.md・docs §13-119）==================================================
+  // ==== 第103巡（2026-11-12・loop.md・docs §13-120）==================================================
   {
     // 津幡町（173614）。予算書（事項別明細書）は町サイト・WARP・Wayback のどこにも無い。公表は「当初予算の概要」だけで、款を束ねた区分（各種交付金・使用料及び手数料等・労働費等）の万円単位の表に前年度額の列が無い（R2 の概要に try-parse ⇒ 款行0件で throw）。
     code: "173614", name: "津幡町", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R2"],
     categories: ["format-mismatch", "no-material"],
     reason: "款別の予算書がウェブに無く、公表されている「当初予算の概要」は款をまとめた区分の万円単位の表で、前年度の額の列が無い。",
     url: "https://www.town.tsubata.lg.jp/life/6/22/124/",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
   {
     // 諏訪市（202061）R7。予算説明書（70542_139301_misc.pdf・WARP 2025-05-11・403ページ）は総括のページにフォントが無く、pdftotext が空（2026-11-12 に実測）。
@@ -3309,7 +3309,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["scanned-image"],
     reason: "予算説明書の款別の総括表が画像で、文字の情報が無い。",
     url: "https://warp.ndl.go.jp/20250511/20250511073305/https://www.city.suwa.lg.jp/uploaded/life/70542_139301_misc.pdf",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
   {
     // 米原市（252140）R5。伊吹高校生通学支援金 1,800千円を削る議員提案の修正案が令和5年3月23日に可決。概要は原案で、修正後の款別表（syuusei_r5.pdf）には前年度列が無い。予算書は R7 以降しか載っていない。
@@ -3317,7 +3317,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["format-mismatch"],
     reason: "議会で修正可決された年度で、公表されている款別の表は修正前の原案か、前年度の額の列が無い修正後の表だけ。",
     url: "https://www.city.maibara.lg.jp/shisei/zaisei/yosan/r5_2/r5yosan_2/19286.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
   {
     // かほく市（172090）R2。予算説明書・予算書・内示会資料の3点ともスキャン画像（説明書は CCITT 600dpi の画像で、文字はノンブルだけ）。
@@ -3325,7 +3325,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["scanned-image"],
     reason: "予算説明書・予算書・予算の概要のどれもが紙をスキャンした画像で、文字の情報が無い。",
     url: "https://www.city.kahoku.lg.jp/006/614/615/d010027.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
   {
     // 函南町（223255）R7・R6。年度ページに PDF が無く、予算書はデジタルブック（ecocat）だけ。1ページずつの PDF も中身は jpeg の画像でフォントが無い。
@@ -3333,7 +3333,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["scanned-image"],
     reason: "予算書がデジタルブックのページ画像としてだけ公開されていて、文字の情報が無い。",
     url: "https://www.town.kannami.shizuoka.jp/gyosei/zaisei/5390.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
   {
     // 広陵町（294268）R4。予算書（議会の「令和4年第1回定例会 議案資料」0000005250.html の R4teirei1_ippan-yosansho.pdf）は総括の p.17・p.18 が線画で、フォント0・画像0（try-parse は見出しが見つからず throw）。
@@ -3341,7 +3341,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["broken-text-layer"],
     reason: "予算書の款別の総括のページで、文字が図形として描かれていて文字の情報が無い。",
     url: "https://www.town.koryo.nara.jp/0000005250.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
   {
     // 広陵町（294268）R3・R2。予算書が現行サイトに無く、Wayback に残るのは「一般会計当初予算要求（三役査定後）の状況」（款と合わない区分・「市町村債」など）だけ。WARP には 2025-06 以前の捕捉が無い。
@@ -3349,6 +3349,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["no-material"],
     reason: "当初予算書がウェブに掲載されていない（残っているのは予算要求の査定状況の表だけ）。",
     url: "https://www.town.koryo.nara.jp/soshiki/21-3-0-0-0_2.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
 ];
