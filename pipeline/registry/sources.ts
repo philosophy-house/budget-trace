@@ -35278,7 +35278,8 @@ export const SOURCES: SourceEntry[] = [
   // 前年度列は当初（R2→R8 の6区間で款単位全一致）。議会だよりで各年度「原案のとおり全員賛成で可決」（R3 は画像の号で語は未確認）。
   //   R5 は4月に町長が交代した年だが、予算書・議会だより・所信表明に「骨格」「肉付」の語は無い（台帳に書かない）。
   // ライセンス: 「著作権情報」（/gyosei/koho_kocho/2/1/3240.html・確認日 2026-11-12）＝`無断で加工・転載することを禁じます` で要許可。BODIK に予算は無い。
-  //   リンク（3238.html）「設定する場合は、トップページ（…）をリンク先としてください。」＝指示形で長久手・君津と同型（第2群）⇒ `noDeepLink`。
+  //   リンク（3238.html）「…リンクは原則として自由です。設定する場合は、トップページ（…）をリンク先としてください。」
+  //   「トップページ以外を設定すると、リンク切れなどになる場合があります。あらかじめご了承ください。」＝指示形＋否定句の無い了承で長久手と同じ構成（第2群）⇒ `noDeepLink`。
   ...([
     ["R8", "https://www.town.shingu.fukuoka.jp/material/files/group/12/R8yosan.pdf", "https://www.town.shingu.fukuoka.jp/gyosei/gyozaisei/1/2/8396.html", 11, 12, false],
     ["R7", "https://www.town.shingu.fukuoka.jp/material/files/group/12/20250318_1.pdf", "https://www.town.shingu.fukuoka.jp/gyosei/gyozaisei/1/2/7073.html", 12, 14, false],
