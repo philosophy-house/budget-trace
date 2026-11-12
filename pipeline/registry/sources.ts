@@ -602,6 +602,10 @@ const HITACHIOMIYA_LICENSE =
   "当サイトに掲載されている画像、文書その他すべてのコンテンツの著作権は原則として常陸大宮市に帰属しています。ただし、外部委託先の制作による一部の著作物など、常陸大宮市以外に著作者が存在する場合は、著作権は各著作者に帰属することになります。当サイトにお越し頂いた方が、著作権法で認められている「私的使用」または「引用」などの範囲内において、当サイトのコンテンツをダウンロードしたりプリントアウトする ことは問題ありませんが、無断で他のホームページや印刷媒体に転載したり、複製、翻訳を行うなどといった行為は違法となりますのでご遠慮ください。";
 const ITOIGAWA_LICENSE =
   "糸魚川市公式ウェブサイトに掲載されている文字、写真、イラスト、画像などの個々の情報に関する著作権は、原則として糸魚川市に帰属します。よって糸魚川市公式ウェブサイトの内容等については、「私的利用」または「引用」など著作権法上認められた行為として適切な方法で利用する場合を除き、無断で転載、複製、改変など利用をすることはできません。";
+const OKAYA_LICENSE =
+  "本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。";
+const SUWA_LICENSE =
+  "諏訪市ホームページ上に掲載されている文書や画像等のコンテンツの無断使用・転載・引用を禁じます。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、諏訪市の許可なく諏訪市ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。";
 const TOKAIMURA_LICENSE = "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。";
 const UOZU_LICENSE =
   "このホームページに掲載されている文章、画像等の著作権は、魚津市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ページに記載されている情報発信元、もしくは魚津市企画広報室へお問い合わせください。";
@@ -34918,6 +34922,95 @@ export const SOURCES: SourceEntry[] = [
       expenditureTotalLabel: "合計",
     },
   } satisfies SourceEntry)),
+  // 岡谷市（長野県・団体コード 202045 ＝ 総務省 R6.json から実引き）。「令和N年度 岡谷市の予算」（5ページ）の p.2〜3（歳入）・p.4〜5（歳出・目的別）。千円。
+  //   款と項が同じ表に入っていて、**款の金額は款名の上の「金額だけの行」**にあり、款名は項の行の左端に同居するか単独行になる
+  //   （`１ 市税   ３ 軽自動車税 189,600 …`）⇒ `kanAmountBlockRows`（#403・2026-11-12 に新設）で款のまとまりを1行に畳む。
+  //   p.5 の歳出合計の後に性質別の表が続くが、合計行で打ち切られる。R2 の歳入は廃止款「△ 自動車取得税交付金」を含め23款。
+  //   R5 の歳出は廃止款「△ 災害復旧費 0 / 229,300 皆減」、R4 は「11 災害復旧費 229,300 / 0 皆増」（款のまとまりの金額行に皆増・皆減の語が付く）。
+  //   歳出の款番号は R7〜R5 で 11 が欠番（災害復旧費の計上なし・原典どおり）。
+  // 前年度列は「前年度当初予算額に対する比較」の見出しどおり当初（R8〜R2 の各区間で全款一致）。骨格の語なし。
+  // ライセンス: 「リンク・著作権・免責事項」（/hajimetenokatahe/10018.html・確認日 2026-11-12）＝`無断で複製` で要許可。
+  //   リンク「リンクされる場合は、岡谷市トップページにお願いします。」⇒ `noDeepLink`。
+  ...([
+    ["R8", "99999"],
+    ["R7", "r7yosan"],
+    ["R6", "r6yosan"],
+    ["R5", "r5yosan"],
+    ["R4", "R4_yosan"],
+    ["R3", "R3tousyoyosan"],
+    ["R2", "tousyoyosann"],
+  ] as const).map(([fy, file]) => ({
+    id: `okaya-yosan-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 岡谷市の予算（一般会計歳入歳出予算・当初）`,
+    publisher: "岡谷市",
+    url: `https://www.city.okaya.lg.jp/material/files/group/7/${file}.pdf`,
+    landingPage: "https://www.city.okaya.lg.jp/shiseijoho/zaisei/yosan/8928.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "岡谷市（一般会計・団体コード202045）",
+    license: OKAYA_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: 2, to: 3 }, expenditurePages: { from: 4, to: 5 },
+      revenueHeading: "歳入", expenditureHeading: "歳出",
+      kanAmountBlockRows: { revenue: true, expenditure: true },
+    },
+  } satisfies SourceEntry)),
+  // 諏訪市（長野県・団体コード 202061 ＝ 総務省 R6.json から実引き）。予算説明書の「歳入歳出予算事項別明細書 １ 総括」。千円。
+  //   ⚠⚠ テキスト層が ToUnicode の無い IPAMincho サブセット（Identity-H）で、pdftotext のコードポイントがグリフ ID そのもの
+  //   （数字・カンマ・△まで）⇒ `decodeGlyphIds: "IPAMincho-003.03"`（#400・pipeline/lib/garble-ipamincho.ts）。
+  //   既存の decodeGarble の共通マップとはキーが8字衝突する（0xE6D 割/利 など）ので使わない。ページ番号だけは別フォントの素の ASCII。
+  //   R8 は予算書・予算説明書の合冊（p.37/38）。R6・R5 は現行サイトに無く WARP の写し（p.6/7・p.5/6）。landing（/soshiki/6/54152.html）は毎年上書き。
+  //   R7（説明書の総括が画像）・R4（DocuWorks で字が「・」に置換）・R3（款別表が画像）は収録できない ⇒ unrecordable.ts。
+  //   歳出の款番号 11（災害復旧費）は計上なしの年度が欠番（原典どおり）。
+  // 前年度列は当初（R6 の前年度列＝R5 の本年度列・R8 の前年度列は R7 当初の合計 226億8,000万円）。
+  //   R5 は「市長改選の年であるため、政策的判断を要する新たな経費は当初予算に計上しない」（R5 当初予算案の概要 p.1・画像を目視）＝ skeleton-budgets.ts ⇒ R6 に prevNote。
+  // ライセンス: 「リンク・著作権・免責事項」（/site/userguide/34849.html・確認日 2026-11-12）＝`無断使用・転載・引用を禁じます` で要許可。
+  //   リンク「サイト内のどのページに対しても、していただいて結構です」⇒ noDeepLink なし。
+  ...([
+    ["R8", "https://www.city.suwa.lg.jp/uploaded/life/79649_169328_misc.pdf", 37, 38, "予算書・予算説明書"],
+    ["R6", "https://warp.ndl.go.jp/20240511/20240511062353/https://www.city.suwa.lg.jp/uploaded/life/62642_113091_misc.pdf", 6, 7, "予算説明書"],
+    ["R5", "https://warp.ndl.go.jp/20230510/20230510182605/https://www.city.suwa.lg.jp/uploaded/life/54153_88183_misc.pdf", 5, 6, "予算説明書"],
+  ] as const).map(([fy, url, rp, ep, doc]) => ({
+    id: `suwa-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 諏訪市一般会計${doc}（歳入歳出予算事項別明細書 総括）`,
+    publisher: "諏訪市",
+    url,
+    landingPage: "https://www.city.suwa.lg.jp/soshiki/6/54152.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "諏訪市（一般会計・団体コード202061）",
+    license: SUWA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp, expenditurePage: ep,
+      revenueHeading: "(歳入)", expenditureHeading: "(歳出)",
+      decodeGlyphIds: "IPAMincho-003.03",
+      ...(fy === "R6" ? { prevNote: "前年度（令和5年度）の当初予算は、市の「当初予算案の概要」に「市長改選の年であるため、政策的判断を要する新たな経費は当初予算に計上しない」とされた予算です。ここでの前年度額はその当初予算の額で、その後の補正予算を加えた額ではありません。" } : {}),
+    },
+  } satisfies SourceEntry)),
+  // 諏訪 R2 は予算説明書が見つからず、「令和２年度 諏訪市当初予算(案)の概要」p.4 の「一般会計予算案」の表（WARP の写し・旧サイトの /uploaded/attachment/6944.pdf）。
+  //   列見出しの「左の 構成比」が款名に混ざる（`左の左の市税` が Σ 差0 で通る）⇒ `revenueHeaderExtra`/`expenditureHeaderExtra: "左の"`。
+  //   歳入は廃止款「△ 自動車取得税交付金 0 / 19,000 皆減」を含め23款。前年度列（元年度）は当初（概要 p.1「令和元年度（213億8,000万円）」＝合計と一致・過去最大の予算規模で骨格ではない）。
+  {
+    id: "suwa-yosan-gaiyou-r2",
+    title: "令和2年度 諏訪市当初予算(案)の概要（一般会計予算案）",
+    publisher: "諏訪市",
+    url: "https://warp.ndl.go.jp/20210510/20210517080022/https://www.city.suwa.lg.jp/uploaded/attachment/6944.pdf",
+    landingPage: "https://www.city.suwa.lg.jp/soshiki/6/54152.html",
+    kind: "pdf",
+    fiscalYear: "R2",
+    scope: "諏訪市（一般会計・団体コード202061）",
+    license: SUWA_LICENSE,
+    parser: "kofu-yosansho",
+    parserOptions: {
+      revenuePage: 4, expenditurePage: 4, samePage: true,
+      revenueHeading: "（ 歳 入 ）", expenditureHeading: "（ 歳 出 ）",
+      revenueTotalLabel: "合計", expenditureTotalLabel: "合計",
+      revenueHeaderExtra: "左の", expenditureHeaderExtra: "左の",
+    },
+  },
   // 東海村（茨城県・団体コード 083411 ＝ 総務省 R6.json から実引き。⚠ 愛知県東海市 232220 とは別団体 ⇒ id・スラグは `tokaimura`）。
   //   予算書「Ⅰ 歳入歳出予算事項別明細書 １ 総括」。千円。R6 は一般・特別会計の合本で物理ページが1つずれる。R3 は村債と歳入合計だけが次ページ ⇒ `revenuePages`。
   //   ⚠ 題（「…明細書」）が歳入の款1 に、財源内訳の列見出しが歳出の款1 に付く（Σ差0）⇒ `revenueHeaderExtra`・`expenditureHeaderExtra`。
