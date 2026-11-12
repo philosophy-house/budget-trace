@@ -644,6 +644,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "152081": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度",
+        "reason": "款別の前年度比較の表で2つの款の額が、同じ冊子の別のページや予算書と300千円ずつ食い違う（合計は同じ）。予算書のほうは文字が正しく文字として埋め込まれていない。",
+        "checkedOn": "2026-11-12"
+      }
+    ]
+  },
   "152161": {
     "budget": [
       {
@@ -684,7 +693,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
     "budget": [
       {
         "fyLabel": "令和2年度",
-        "reason": "予算の概要の款別の表は、新しくできた款・なくなった款の行の読み取りに対応していない。予算書は文字が正しく文字として埋め込まれていない。",
+        "reason": "予算の概要の款別の表は原典としては健全だが、新しくできた款・なくなった款の行を、こちらの読み取りの仕組みがまだ扱えない。予算書は文字が正しく文字として埋め込まれていない。",
         "checkedOn": "2026-11-12"
       }
     ]
@@ -1120,7 +1129,12 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
     "budget": [
       {
         "fyLabel": "令和2年度",
-        "reason": "当初予算案概要書の款別の表で、歳出の合計の前年度の額が表の中で行がずれて配置されていて、読み取りに対応していない。",
+        "reason": "当初予算案概要書の款別の表は原典としては健全だが、文字の情報の上で歳出の合計の前年度の額が1行ずれて入っていて、こちらの読み取りの仕組みがまだ扱えない。",
+        "checkedOn": "2026-11-12"
+      },
+      {
+        "fyLabel": "令和5年度",
+        "reason": "歳入の表で、前年度との比率が桁区切りのついた大きな数で印字されている行があり、今の読み取りの仕組みでは金額と区別できない。",
         "checkedOn": "2026-11-12"
       }
     ]
