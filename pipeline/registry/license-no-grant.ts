@@ -122,4 +122,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "南房総市", license: "Copyright (C) Minamiboso City All Rights Reserved." },
   { who: "三沢市", license: "All rights reserved. Copyright (C) MISAWA CITY" },
   { who: "利府町", license: "Copyright (c) 2020 Rifu Town. All Rights Reserved." },
+  { who: "吉野川市", license: "当WEBサイトに掲載されている文書・画像などの各ファイル、およびその内容についての権利は、原則として吉野川市に属します。これらについての使用をご希望の場合は、市役所担当部署までご連絡ください。" },
 ];
