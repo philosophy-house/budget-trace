@@ -3362,11 +3362,11 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
   {
-    // 諏訪市（202061）R7。予算説明書（70542_139301_misc.pdf・WARP 2025-05-11・403ページ）は総括のページにフォントが無く、pdftotext が空（2026-11-12 に実測）。
+    // 諏訪市（202061）R7。予算説明書（70542_139301_misc.pdf・WARP 2025-05-11・403ページ）は総括のページ（p.5）の文字が図形として描かれている（ファイル全体でフォント1つ・画像0・pdftotext が空・2026-11-12 に実測）。
     //   R4・R3 は §13-107 の偵察で「収録できない見込み」とされたが、この巡では原典を確かめていないので載せない。
     code: "202061", name: "諏訪市", dataset: "budget", fiscalYears: ["R7"],
-    categories: ["scanned-image"],
-    reason: "予算説明書の款別の総括表が画像で、文字の情報が無い。",
+    categories: ["broken-text-layer"],
+    reason: "予算説明書の款別の総括のページで、文字が図形として描かれていて文字の情報が無い。",
     url: "https://warp.ndl.go.jp/20250511/20250511073305/https://www.city.suwa.lg.jp/uploaded/life/70542_139301_misc.pdf",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },

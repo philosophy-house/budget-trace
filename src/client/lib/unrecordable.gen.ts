@@ -824,7 +824,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
     "budget": [
       {
         "fyLabel": "令和7年度",
-        "reason": "予算説明書の款別の総括表が画像で、文字の情報が無い。",
+        "reason": "予算説明書の款別の総括のページで、文字が図形として描かれていて文字の情報が無い。",
         "checkedOn": "2026-11-12"
       }
     ]

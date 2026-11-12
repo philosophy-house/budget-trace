@@ -11,8 +11,10 @@
 // 生成手順（再現用）: fontTools で `TTFont("ipam.ttf").getBestCmap()` を `getGlyphID` で逆引きし、上のページの
 // pdftotext -layout の出力に現れたコードポイントを引く。3年度とも全字が引け、Σ は款別で差0。
 //
-// ⚠ ページ番号は別フォント（IPAGothic・非埋め込み・UniJIS-UTF16-H）で、素の ASCII のまま出る。表に無い印字可能
-//   ASCII は素通しにする（表のキーは 0xC6 以上なので素の ASCII と衝突しない）。
+// ⚠ ページ番号は別フォント（IPAGothic・非埋め込み・UniJIS-UTF16-H）で、素の ASCII のまま出る。表に無い字のうち
+//   **ASCII の数字と「-」だけ**を素通しにする（ページ番号「18」「- 18 -」の形）。それ以外の ASCII は throw — グリフ ID が
+//   0x21〜0x7E の帯の字（ipam.ttf でこの帯にもグリフがある）が別の字のまま静かに通らないようにする（第103巡のレビュー）。
+//   ⚠ 空白・改行（0x20・0x0A・0x0C・0x0D・0x09）は区別できないので素通しのまま。今回の3年度で生テキストに出た ASCII はページ番号だけ。
 // ⚠ グリフ ID がアラビア文字・ヘブライ文字の帯に落ちると、pdftotext が RLE(U+202B)〜PDF(U+202C) で囲んで
 //   **視覚順＝逆順**に出す。`decodeGarbleBase` と同じく区間を反転して論理順へ戻す。
 
@@ -169,7 +171,7 @@ export function decodeGlyphIdText(s: string, font: string, where: string): strin
     let mapped: string;
     if (ch === "\n" || ch === "\f" || ch === " " || ch === "\r" || ch === "\t") mapped = ch;
     else if (map[o] != null) mapped = map[o]!;
-    else if (o >= 0x21 && o <= 0x7e) mapped = ch;
+    else if ((o >= 0x30 && o <= 0x39) || o === 0x2d) mapped = ch; // ページ番号の数字と「-」だけ
     else {
       unknown.add(`${ch}(U+${o.toString(16).toUpperCase()})`);
       mapped = ch;

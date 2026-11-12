@@ -22012,7 +22012,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261112114727/https://www.city.kahoku.lg.jp/006/614/615/d010028_d/fil/R03yosannsetumeisyo.pdf",
       "waybackTimestamp": "20261112114727",
-      "checkedAt": "2026-11-12T11:51:39.273Z",
+      "checkedAt": "2026-11-12T13:19:03.219Z",
       "sha256Verified": false,
       "sha256FailReason": "転送が途中で切れた（22,495,964/22,554,785 bytes 受信・The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()）（3回試行）"
     },
@@ -22022,7 +22022,7 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20261112114739/https://www.city.kahoku.lg.jp/006/614/615/d010028.html",
       "waybackTimestamp": "20261112114739",
-      "checkedAt": "2026-11-12T11:48:00.542Z"
+      "checkedAt": "2026-11-12T13:19:05.678Z"
     },
     {
       "sourceId": "kahoku-yosansetsumeisho-r4",
@@ -23501,6 +23501,25 @@
       "waybackUrl": "https://web.archive.org/web/20261112124416/https://www.town.kannami.shizuoka.jp/gyosei/zaisei/1/3/3624.html",
       "waybackTimestamp": "20261112124416",
       "checkedAt": "2026-11-12T12:59:41.969Z"
+    },
+    {
+      "sourceId": "kannami-yosanjokyo-r2",
+      "url": "https://www.town.kannami.shizuoka.jp/material/files/group/3/2020zentaisiryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112125941/https://www.town.kannami.shizuoka.jp/material/files/group/3/2020zentaisiryou.pdf",
+      "waybackTimestamp": "20261112125941",
+      "checkedAt": "2026-11-12T13:18:25.714Z",
+      "sha256Match": true,
+      "waybackBytes": 58968,
+      "rawSha256": "357892b20081fb1310ecc368df58c4801233c0c9e15671c865476780091c52ad"
+    },
+    {
+      "sourceId": "kannami-yosanjokyo-r3",
+      "url": "https://www.town.kannami.shizuoka.jp/gyosei/zaisei/1/4/3631.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112125822/https://www.town.kannami.shizuoka.jp/gyosei/zaisei/1/4/3631.html",
+      "waybackTimestamp": "20261112125822",
+      "checkedAt": "2026-11-12T13:18:15.394Z"
     },
     {
       "sourceId": "kannami-yosanjokyo-r3",

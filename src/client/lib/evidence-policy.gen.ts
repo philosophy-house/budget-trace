@@ -30488,88 +30488,88 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "target": "file"
   },
   "/sources/kanie-yosansho-r8/23649.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.kanie.aichi.jp/soshiki/4/yosan-r8.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260808182311id_/https://www.town.kanie.aichi.jp/uploaded/attachment/23649.pdf",
     "license": "当サイトのコンテンツの著作権は原則として蟹江町が所有しています。そのため当サイトに掲載されている写真は、「私的使用」または「引用」など著作権法上認められた例外を除き、蟹江町に無断で転用、転載などを行うことはできません。引用・転用・転載を行う場合は、必ず事前にご連絡いただくようにお願いいたします。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/kanie-yosansho-r7/20688.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.kanie.aichi.jp/soshiki/4/yosan-r7.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260808224506id_/https://www.town.kanie.aichi.jp/uploaded/attachment/20688.pdf",
     "license": "当サイトのコンテンツの著作権は原則として蟹江町が所有しています。そのため当サイトに掲載されている写真は、「私的使用」または「引用」など著作権法上認められた例外を除き、蟹江町に無断で転用、転載などを行うことはできません。引用・転用・転載を行う場合は、必ず事前にご連絡いただくようにお願いいたします。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/kanie-yosansho-r6/17795.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.kanie.aichi.jp/soshiki/4/yosan-r6.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260808224556id_/https://www.town.kanie.aichi.jp/uploaded/attachment/17795.pdf",
     "license": "当サイトのコンテンツの著作権は原則として蟹江町が所有しています。そのため当サイトに掲載されている写真は、「私的使用」または「引用」など著作権法上認められた例外を除き、蟹江町に無断で転用、転載などを行うことはできません。引用・転用・転載を行う場合は、必ず事前にご連絡いただくようにお願いいたします。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/kanie-yosansho-r5/16128.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.kanie.aichi.jp/soshiki/4/yosan-r5.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260808224640id_/https://www.town.kanie.aichi.jp/uploaded/attachment/16128.pdf",
     "license": "当サイトのコンテンツの著作権は原則として蟹江町が所有しています。そのため当サイトに掲載されている写真は、「私的使用」または「引用」など著作権法上認められた例外を除き、蟹江町に無断で転用、転載などを行うことはできません。引用・転用・転載を行う場合は、必ず事前にご連絡いただくようにお願いいたします。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/kanie-yosansho-r4/14483.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.kanie.aichi.jp/soshiki/4/yosan-r4.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260808224714id_/https://www.town.kanie.aichi.jp/uploaded/attachment/14483.pdf",
     "license": "当サイトのコンテンツの著作権は原則として蟹江町が所有しています。そのため当サイトに掲載されている写真は、「私的使用」または「引用」など著作権法上認められた例外を除き、蟹江町に無断で転用、転載などを行うことはできません。引用・転用・転載を行う場合は、必ず事前にご連絡いただくようにお願いいたします。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/kanie-yosansho-r3/11810.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.kanie.aichi.jp/soshiki/4/yosan-r3.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260808224804id_/https://www.town.kanie.aichi.jp/uploaded/attachment/11810.pdf",
     "license": "当サイトのコンテンツの著作権は原則として蟹江町が所有しています。そのため当サイトに掲載されている写真は、「私的使用」または「引用」など著作権法上認められた例外を除き、蟹江町に無断で転用、転載などを行うことはできません。引用・転用・転載を行う場合は、必ず事前にご連絡いただくようにお願いいたします。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/kanie-yosansho-r2/9950.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.kanie.aichi.jp/soshiki/4/yosan-r2.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260808224843id_/https://www.town.kanie.aichi.jp/uploaded/attachment/9950.pdf",
     "license": "当サイトのコンテンツの著作権は原則として蟹江町が所有しています。そのため当サイトに掲載されている写真は、「私的使用」または「引用」など著作権法上認められた例外を除き、蟹江町に無断で転用、転載などを行うことはできません。引用・転用・転載を行う場合は、必ず事前にご連絡いただくようにお願いいたします。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/fuso-yosansho-r8/reiwa8nenndoippannkaikeiyosannsyo.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.fuso.lg.jp/chousei/1002205/1002563/1002565.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809024959id_/https://www.town.fuso.lg.jp/_res/projects/default_project/_page_/001/002/565/reiwa8nenndoippannkaikeiyosannsyo.pdf",
     "license": "扶桑町公式ホームページに掲載されている情報等の著作権は、扶桑町が所有しております。掲載内容を無断で転載・複製等などは著作権の侵害となり法律で禁止されています。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/fuso-yosansho-r7/r7nenndoyosannsyo.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.fuso.lg.jp/chousei/1002205/1002563/1002565.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809024959id_/https://www.town.fuso.lg.jp/_res/projects/default_project/_page_/001/002/565/r7nenndoyosannsyo.pdf",
     "license": "扶桑町公式ホームページに掲載されている情報等の著作権は、扶桑町が所有しております。掲載内容を無断で転載・複製等などは著作権の侵害となり法律で禁止されています。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/fuso-yosansho-r6/reiwa6nennyosannsyo.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.fuso.lg.jp/chousei/1002205/1002563/1002565.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809024959id_/https://www.town.fuso.lg.jp/_res/projects/default_project/_page_/001/002/565/reiwa6nennyosannsyo.pdf",
     "license": "扶桑町公式ホームページに掲載されている情報等の著作権は、扶桑町が所有しております。掲載内容を無断で転載・複製等などは著作権の侵害となり法律で禁止されています。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/fuso-yosansho-r5/r5nennyosann.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.fuso.lg.jp/chousei/1002205/1002563/1002565.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809024959id_/https://www.town.fuso.lg.jp/_res/projects/default_project/_page_/001/002/565/r5nennyosann.pdf",
     "license": "扶桑町公式ホームページに掲載されている情報等の著作権は、扶桑町が所有しております。掲載内容を無断で転載・複製等などは著作権の侵害となり法律で禁止されています。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/fuso-yosansho-r4/r04yosannsyo.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.fuso.lg.jp/chousei/1002205/1002563/1002565.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809024959id_/https://www.town.fuso.lg.jp/_res/projects/default_project/_page_/001/002/565/r04yosannsyo.pdf",
     "license": "扶桑町公式ホームページに掲載されている情報等の著作権は、扶桑町が所有しております。掲載内容を無断で転載・複製等などは著作権の侵害となり法律で禁止されています。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/fuso-yosansho-r3/yosansyo2021.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.fuso.lg.jp/chousei/1002205/1002563/1002565.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809024959id_/https://www.town.fuso.lg.jp/_res/projects/default_project/_page_/001/002/565/yosansyo2021.pdf",
     "license": "扶桑町公式ホームページに掲載されている情報等の著作権は、扶桑町が所有しております。掲載内容を無断で転載・複製等などは著作権の侵害となり法律で禁止されています。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/fuso-yosansho-r2/r2yosansyo.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.fuso.lg.jp/chousei/1002205/1002563/1002565.html",
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809024959id_/https://www.town.fuso.lg.jp/_res/projects/default_project/_page_/001/002/565/r2yosansyo.pdf",
     "license": "扶桑町公式ホームページに掲載されている情報等の著作権は、扶桑町が所有しております。掲載内容を無断で転載・複製等などは著作権の侵害となり法律で禁止されています。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/kannami-yosansho-r8/R8ittupan.pdf": {
     "mode": "origin",
