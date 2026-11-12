@@ -1,0 +1,12 @@
+{
+  "sourceId": "fuchushi-hiroshima-yosansho-r2",
+  "files": [
+    {
+      "filename": "R2yosan-01ippan.pdf",
+      "sha256": "6980cb591e604703c6f4d60e70573b0b3ccb86f224d879e1791fe1937142225e",
+      "bytes": 1716916,
+      "fetchedAt": "2026-11-12T11:58:01.036Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20210607/20210605010119/https://www.city.fuchu.hiroshima.jp/material/files/group/3/R2yosan-01ippan.pdf"
+    }
+  ]
+}
