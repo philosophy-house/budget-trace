@@ -116,4 +116,5 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "愛川町（旧サイト）", license: "Copyright 2015 Aikawa Town All Rights Reserved." },
   { who: "大月市", license: "大月市ホームページで公開している文章や画像の著作権は、大月市に帰属します。 これらの著作物を大月市の承諾なしに複製、または他の電子メディアや印刷物などに再利用する事はできません。" },
   { who: "函南町", license: "Copyright (c) 2024 Kannami Town. All Rights Reserved." },
+  { who: "広陵町", license: "このホームページ上のすべてのコンテンツは、原則として広陵町が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前に情報担当課までお問い合わせください。" },
 ];

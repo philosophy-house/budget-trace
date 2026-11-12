@@ -3355,4 +3355,20 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.town.kannami.shizuoka.jp/gyosei/zaisei/5390.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-118",
   },
+  {
+    // 広陵町（294268）R4。予算書（議会の「令和4年第1回定例会 議案資料」0000005250.html の R4teirei1_ippan-yosansho.pdf）は総括の p.17・p.18 が線画で、フォント0・画像0（try-parse は見出しが見つからず throw）。
+    code: "294268", name: "広陵町", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["broken-text-layer"],
+    reason: "予算書の款別の総括のページで、文字が図形として描かれていて文字の情報が無い。",
+    url: "https://www.town.koryo.nara.jp/0000005250.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-118",
+  },
+  {
+    // 広陵町（294268）R3・R2。予算書が現行サイトに無く、Wayback に残るのは「一般会計当初予算要求（三役査定後）の状況」（款と合わない区分・「市町村債」など）だけ。WARP には 2025-06 以前の捕捉が無い。
+    code: "294268", name: "広陵町", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason: "当初予算書がウェブに掲載されていない（残っているのは予算要求の査定状況の表だけ）。",
+    url: "https://www.town.koryo.nara.jp/soshiki/21-3-0-0-0_2.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-118",
+  },
 ];

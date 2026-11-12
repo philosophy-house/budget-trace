@@ -570,6 +570,7 @@ const MUNI_SLUGS: Record<string, string> = {
   "212083": "mizunami",
   "263664": "seika",
   "223255": "kannami",
+  "294268": "koryo",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",

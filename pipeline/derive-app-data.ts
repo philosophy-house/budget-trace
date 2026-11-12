@@ -4044,6 +4044,10 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kannami-yosanjokyo-${fy}`, muniCode: "223255", muniName: "函南町", prefName: "静岡県", isPref: false,
     })),
+    // 広陵町の R4 は総括が線画・R3・R2 は予算書なし
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `koryo-yosansho-${fy}`, muniCode: "294268", muniName: "広陵町", prefName: "奈良県", isPref: false,
+    })),
     // ---- 第100巡（2026-10-31・§13-116） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yuzawa-yosansho-${fy}`, muniCode: "052078", muniName: "湯沢市", prefName: "秋田県", isPref: false,

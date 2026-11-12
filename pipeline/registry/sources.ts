@@ -618,6 +618,8 @@ const KANIE_LICENSE =
 const FUSO_LICENSE =
   "扶桑町公式ホームページに掲載されている情報等の著作権は、扶桑町が所有しております。掲載内容を無断で転載・複製等などは著作権の侵害となり法律で禁止されています。";
 const KANNAMI_LICENSE = "Copyright (c) 2024 Kannami Town. All Rights Reserved.";
+const KORYO_LICENSE =
+  "このホームページ上のすべてのコンテンツは、原則として広陵町が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前に情報担当課までお問い合わせください。";
 const TOKAIMURA_LICENSE = "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。";
 const UOZU_LICENSE =
   "このホームページに掲載されている文章、画像等の著作権は、魚津市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ページに記載されている情報発信元、もしくは魚津市企画広報室へお問い合わせください。";
@@ -35309,6 +35311,58 @@ export const SOURCES: SourceEntry[] = [
       revenueHeaderExtra: "^\\s*小\\s*計",
     },
   } satisfies SourceEntry)),
+  // 広陵町（奈良県・団体コード 294268 ＝ 総務省 R6.json から実引き）。「予算書及び予算に関する説明書」の一般会計「歳入歳出予算事項別明細書 １ 総括」。千円。
+  //   歳入20款・歳出12款（「農商工費」の款がある）。R8 は A3 見開きを CropBox で左右2ページに割っていて、pdftotext は両方のページから見開き全体を返す
+  //   （p.18≡p.19・p.20≡p.21）⇒ 左半分の p.18/p.20 を指す。R7・R6 は A3 見開き1ページ（p.8/9・p.7/8）。R5 は A4 縦（p.17/18）で見出しが半角括弧。
+  //   ⚠ 歳出の財源内訳の列見出しが款1 に付く（`一般財源国県支出金地方債その他議会費`・R8〜R6）⇒ expenditureHeaderExtra。
+  //   ⚠ R5 は表題行が款1 に付く（`歳入歳出予算事項別明細書総括町税`）⇒ revenueHeaderExtra。どちらも Σ 差0 のまま通る型。
+  //   R4 は総括のページ（p.17/18）が線画でテキスト層が無い（フォント0・画像0）・R3・R2 は予算書がウェブに無い ⇒ unrecordable.ts。
+  // 前年度列は当初（R8→R7→R6→R5 の3組で全32款一致・R5 の前年度合計 13,480,000 は R4 予算書の本年度合計と一致〔画像を目視〕）。
+  //   ⚠ R7 と R6 は当年度の総額がたまたま同じ 16,310,000（款の額は違う）。骨格の語なし（予算書 R8〜R4・編成方針 R4〜R7 は「年間予算を編成」）。R8〜R3 は原案可決。
+  // ライセンス: 「サイトのご利用について」（/site_policy/0000000004.html・確認日 2026-11-12）＝「必ず事前に情報担当課までお問い合わせください」で語彙に当たらない
+  //   ⇒ license-no-grant.ts（盛岡・長岡京と同じ型）で要許可。リンク「このホームページはリンクフリーです。リンク先は https://www.town.koryo.nara.jp/ としてください。」⇒ noDeepLink（燕と同じ型）。
+  ...([
+    ["R8", "0000007/7843/R8yosan.pdf", "0000007843", 18, 20],
+    ["R7", "0000007/7262/R7yosannsyo.pdf", "0000007262", 8, 9],
+    ["R6", "0000006/6694/R6yosanippankaikei.pdf", "0000006694", 7, 8],
+  ] as const).map(([fy, path, page, rp, ep]) => ({
+    id: `koryo-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 広陵町予算書及び予算に関する説明書（一般会計 歳入歳出予算事項別明細書 総括）`,
+    publisher: "広陵町",
+    url: `https://www.town.koryo.nara.jp/cmsfiles/contents/${path}`,
+    landingPage: `https://www.town.koryo.nara.jp/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "広陵町（一般会計・団体コード294268）",
+    license: KORYO_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp, expenditurePage: ep,
+      revenueHeading: "歳 入", expenditureHeading: "歳 出",
+      revenueTotalLabel: "歳入合計", expenditureTotalLabel: "歳出合計",
+      expenditureHeaderExtra: "一般財源|国県支出金",
+    },
+  } satisfies SourceEntry)),
+  {
+    id: "koryo-yosansho-r5",
+    title: "令和5年度 広陵町一般会計予算書及び予算に関する説明書（歳入歳出予算事項別明細書 総括）",
+    publisher: "広陵町",
+    url: "https://www.town.koryo.nara.jp/cmsfiles/contents/0000006/6068/R5ippannkaikei.pdf",
+    landingPage: "https://www.town.koryo.nara.jp/0000006068.html",
+    kind: "pdf",
+    fiscalYear: "R5",
+    scope: "広陵町（一般会計・団体コード294268）",
+    license: KORYO_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho",
+    parserOptions: {
+      revenuePage: 17, expenditurePage: 18,
+      revenueHeading: "(歳 入)", expenditureHeading: "(歳 出)",
+      revenueTotalLabel: "歳入合計", expenditureTotalLabel: "歳出合計",
+      revenueHeaderExtra: "歳入歳出予算事項別明細書|総括",
+    },
+  },
   // 東海村（茨城県・団体コード 083411 ＝ 総務省 R6.json から実引き。⚠ 愛知県東海市 232220 とは別団体 ⇒ id・スラグは `tokaimura`）。
   //   予算書「Ⅰ 歳入歳出予算事項別明細書 １ 総括」。千円。R6 は一般・特別会計の合本で物理ページが1つずれる。R3 は村債と歳入合計だけが次ページ ⇒ `revenuePages`。
   //   ⚠ 題（「…明細書」）が歳入の款1 に、財源内訳の列見出しが歳出の款1 に付く（Σ差0）⇒ `revenueHeaderExtra`・`expenditureHeaderExtra`。
