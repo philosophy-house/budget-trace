@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 668,
+  "budgetCount": 677,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-12",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5044,
-  "fileCount": 7710,
-  "archivedCount": 3923,
+  "sourceCount": 5100,
+  "fileCount": 7766,
+  "archivedCount": 3978,
   "licenseOpen": 145,
-  "licensePermission": 4802,
+  "licensePermission": 4858,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -2171,6 +2171,18 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "安来市",
+      "code": "322067",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "雲南市",
+      "code": "322091",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "岡山市",
       "code": "331007",
       "years": 7,
@@ -2207,6 +2219,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "府中市",
+      "code": "342084",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "三次市",
       "code": "342092",
       "years": 7,
@@ -2227,6 +2245,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "山陽小野田市",
       "code": "352161",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "吉野川市",
+      "code": "362051",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2275,6 +2299,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "四国中央市",
       "code": "382132",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "西予市",
+      "code": "382141",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2903,6 +2933,18 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R7（6年度）"
     },
     {
+      "name": "井原市",
+      "code": "332071",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "瀬戸内市",
+      "code": "332127",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "呉市",
       "code": "342025",
       "years": 6,
@@ -2929,6 +2971,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "今治市",
       "code": "382027",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "伊予市",
+      "code": "382108",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -3513,6 +3561,12 @@ export const ROADMAP_PROGRESS = {
       "code": "362042",
       "years": 3,
       "range": "R6〜R8（3年度）"
+    },
+    {
+      "name": "阿波市",
+      "code": "362069",
+      "years": 3,
+      "range": "R2〜R8（3年度）"
     },
     {
       "name": "石垣市",
