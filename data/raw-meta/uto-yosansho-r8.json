@@ -1,0 +1,15 @@
+{
+  "sourceId": "uto-yosansho-r8",
+  "files": [
+    {
+      "filename": "d_q_470ee2156edc118101924afc897aee14.pdf",
+      "sha256": "74ea3d06d5a132d395d16e6ccd73673a0ab4da9fdb529f1425b2beb3086f94ad",
+      "bytes": 4445931,
+      "fetchedAt": "2026-11-12T11:57:44.659Z",
+      "fetchedFrom": "https://www.city.uto.lg.jp/d?q=470ee2156edc118101924afc897aee14.pdf",
+      "transform": [
+        "ext:.pdf"
+      ]
+    }
+  ]
+}

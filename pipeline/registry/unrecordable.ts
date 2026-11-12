@@ -3481,6 +3481,101 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.iyo.lg.jp/zaimu/yosan_tor6.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-121",
   },
+  // ---- 第105巡（2026-11-12・docs/data-sources.md §13-122） ----
+  {
+    // 宇美町（403415）。一般会計予算書（/soshiki/61/9330.html）の事項別明細書の本体（R8 p.14〜341）が CCITT のスキャン画像。
+    //   歳入の総括（R8〜R6 p.12・R4〜R2 p.15）は文字があり Σ差0 だが、歳出の総括（R8 p.14・R4 p.16）は画像。第1表は文字があるが前年度の額が無い。
+    //   財政状況の公表8月版の款別当初予算額は単年度（前年度列なし）。R5 の予算書（15180.pdf）は発行元で 404・Wayback の CDX に0件 ⇒ 別の行。
+    code: "403415", name: "宇美町", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason: "予算書の歳出の款別の表（前年度額つき）がスキャン画像で、文字の情報が無い。",
+    url: "https://www.town.umi.lg.jp/soshiki/61/9330.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    code: "403415", name: "宇美町", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["no-material"],
+    reason: "当初予算書が発行元から削除されていて、魚拓も見つからない。",
+    url: "https://www.town.umi.lg.jp/soshiki/61/9330.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 荒尾市（432041）。予算書・説明書はウェブに無い。財政事情の公表「令和N年春」の歳出内訳（目的別）は款別で前年度当初つきだが、
+    //   歳入内訳は「歳 入（財源別）」（地方交付税が普通・特別の2行・自主/依存財源の小計）。款別の当初予算額は秋の「執行状況（歳入）」にあるが、
+    //   横組み・単年度で前年度列が無い（財源別の表を合算した値とは7年度とも全款一致）。
+    code: "432041", name: "荒尾市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason: "歳入を款別に前年度額と並べた表が無く、財源別の表だけが公開されている。",
+    url: "https://www.city.arao.lg.jp/shisei/zaisei/zaisei/",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 武雄市（412066）。予算議案参考資料「１ 一般会計歳入歳出予算」（R8〜R2 とも文字あり）・予算説明書の総括とも、金額を「億｜万｜千」に分けて組む。
+    //   kofu-yosansho は歳入で throw・歳出で Σ が割れる（静かには壊れない）。issue #402。
+    code: "412066", name: "武雄市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason: "金額を億・万・千の欄に分けて書く表で、いまの抽出処理が対応していない。",
+    url: "https://www.city.takeo.lg.jp/shisei/yosan/",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 那珂川市（402311）R4。WARP の説明書（20832.pdf・46MB）は OCR のスキャンで、透明テキストの数字が崩れて歳入の Σ が合わない。
+    code: "402311", name: "那珂川市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["scanned-image"],
+    reason: "予算に関する説明書がスキャン画像で、文字認識の結果の数字が崩れている。",
+    url: "https://www.city.nakagawa.lg.jp/life/8/44/227/",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 那珂川市（402311）R3。WARP の説明書（17839.pdf）の歳出の総括 p.6 は表がパスで描かれ、文字層はページ番号だけ。
+    code: "402311", name: "那珂川市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["broken-text-layer"],
+    reason: "予算に関する説明書の歳出の款別の表が図形として描かれていて、文字の情報が無い。",
+    url: "https://www.city.nakagawa.lg.jp/life/8/44/227/",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 大津町（434035）R5（attachment/1255）・R3（4863）。予算書がスキャン画像でテキスト層が無い。概要は歳入が財源のグループ別。
+    code: "434035", name: "大津町", dataset: "budget", fiscalYears: ["R5", "R3"],
+    categories: ["scanned-image"],
+    reason: "当初予算書がスキャン画像で、文字の情報が無い。",
+    url: "https://www.town.ozu.kumamoto.jp/life/5/23/104/",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 指宿市（462101）R4。予算書（DocuCentre のスキャン）・概要ともテキスト層が無い。
+    code: "462101", name: "指宿市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["scanned-image"],
+    reason: "当初予算書がスキャン画像で、文字の情報が無い。",
+    url: "https://www.city.ibusuki.lg.jp/main/shisei/zaisei/zaisei/page029349.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 指宿市（462101）R3・R2。旧ページ（page003001.html）ごと発行元で 404。Wayback は 404、WARP は「ページが見つかりません」。
+    code: "462101", name: "指宿市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason: "当初予算書が発行元から削除されていて、魚拓も見つからない。",
+    url: "https://www.city.ibusuki.lg.jp/main/shisei/zaisei/zaisei/page029349.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 宇土市（432113）R7〜R2。予算書は R8 だけ（年度ページ 15564 は 2026 年の新設）。概要は広報の見開き（前年度列なし）、
+    //   財政状況報告書6月版の款別表は単年度・金額の降順・款番号なし。
+    code: "432113", name: "宇土市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "当初予算書がウェブに無く、ほかの資料は款別に前年度額と並べた表になっていない。",
+    url: "https://www.city.uto.lg.jp/article/list/1141.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
+  {
+    // 苅田町（406210）R2。年度ページ（/page/1111.html）は HTML の表だけで予算書 PDF が無い。表は款別の「令和2年度／平成31年度／比較」が
+    //   歳入・歳出とも揃っている（R3 の前年度列とは全款一致）が、HTML の款別表を読むパーサが無い。
+    code: "406210", name: "苅田町", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["parser-unsupported"],
+    reason: "款別と前年度額の表はウェブページ（HTML）にあるが、いまの抽出処理が HTML の表に対応していない。",
+    url: "https://www.town.kanda.lg.jp/page/1111.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-122",
+  },
   {
     // 熱海市（222054）R7〜R2。R8 は収録済み（§13-126）。予算書（附説明書）は R7 が241頁中24頁だけ文字があり、総括の p.36〜38 は画像の帯。
     //   R6〜R2 は全頁が画像（R6 242頁・R5 262頁・R4/R3/R2 255頁でテキストは0〜数字）。「予算・施策概要」は文字があるが款別は円グラフの構成比と主な増減だけ。

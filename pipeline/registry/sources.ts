@@ -657,6 +657,21 @@ const UOZU_LICENSE =
   "このホームページに掲載されている文章、画像等の著作権は、魚津市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ページに記載されている情報発信元、もしくは魚津市企画広報室へお問い合わせください。";
 const MIBU_LICENSE =
   "「壬生町公式ウェブサイト」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、壬生町ウェブサイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。";
+// ---- 第105巡（2026-11-12）のライセンス原文 ----
+const KANDA_LICENSE =
+  "苅田町ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として苅田町に帰属します。また、一部の画像等の著作権は、苅田町以外の原著作者が所有しています。苅田町ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾に関しては、苅田町企画政策課広報広聴担当までご相談ください。";
+const NISHIHARA_OKINAWA_LICENSE =
+  "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。";
+const NAKAGAWA_FUKUOKA_LICENSE =
+  "「那珂川市公式ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として那珂川市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。";
+const KASUYA_LICENSE =
+  "個人的な利用を目的として印字や保存等する場合、その他著作権法で認められる場合を除き、コンテンツを著作権者の事前の許諾なしに、複製、公衆送信、頒布、改変、切除、お客様のウェブサイトに転載するなどの行為（以下、「ご利用等」といいます）は著作権法で禁止されています。事前に当町の許諾を得ていただくようお願いします。ただし、肖像や第三者の著作物・商標等が含まれている場合、当町が不適切と判断する場合等、ご利用等の許諾をお断りする場合がございます。";
+const OZU_KUMAMOTO_LICENSE =
+  "大津町ホームページに掲載されている文章、写真、イラストなどの個々の情報は、特別の記載があるものを除き、著作権の対象となります。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。";
+const IBUSUKI_LICENSE =
+  "「指宿市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として指宿市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。 「指宿市ホームページ」の内容の全部また一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。";
+const UTO_LICENSE =
+  "本サイトで提供する文書、画像等の各ファイル及びその内容に関する諸権利は、原則として宇土市に帰属します。一部の画像等の著作権は、原著作者が所有しています。本サイト上の文書・画像等の無断使用・転載を禁止します。";
 // ---- 第109巡（2026-11-12・docs/data-sources.md §13-125）のライセンス原文 ----
 const MIYAMA_LICENSE =
   "本ホームページの文章・画像などのコンテンツに関する諸権利は、原則として本市に帰属します。ただし、一部の画像などの著作権は、コンテンツ提供者に帰属します。本ホームページの文書・画像などを無断で使用・転載することを禁止します。";
@@ -36300,6 +36315,267 @@ export const SOURCES: SourceEntry[] = [
       revenueHeading: "総括", expenditureHeading: "歳出",
     },
   } satisfies SourceEntry)),
+  // ---- 第105巡（2026-11-12・docs/data-sources.md §13-122） ----
+  // 苅田町（福岡県京都郡・団体コード 406210 ＝ 総務省 R6.json から実引き）。「苅田町予算書」（全会計合冊）の
+  //   「［１］歳入歳出予算事項別明細書 １．総括」。千円。歳入は2ページ（款17 寄附金まで／款18〜21＋歳入合計）⇒ `revenuePages`。
+  //   物理 p.18-19＝歳入 / p.20＝歳出（R8）、p.17-18 / p.19（R7〜R3）。
+  //   ⚠ 歳出の財源内訳の列見出し（`本` `一 般 財 源` `国庫支出金 …`）が款1 に連結して `本一般財源国庫支出金県支出金地方債その他議会費`
+  //   になる（Σ差0 のまま）⇒ `expenditureHeaderExtra`（歳出側だけ。国庫支出金は歳入の実在の款）。
+  // 前年度列は当初（R3→R8 の5区間で全35款一致。R3 の前年度列は R2 の年度ページの HTML 表とも一致）。
+  //   R3〜R5 の年度ページの「当初追加」は補正（第1号）で、翌年度の前年度列はこれを含まない。骨格・修正の語は0件。
+  //   R2・H31 は年度ページに HTML の表だけで予算書 PDF が無い ⇒ unrecordable.ts。
+  // ライセンス: 「リンク・著作権」（/site/userguide/2291.html・確認日 2026-11-12）＝`無断で複製・転用` で要許可。
+  //   BODIK の苅田町（406210）は3件で予算・財政は0件。リンク「各ページへの直接リンクをしていただいてかまいません」⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "15645", "10139", 18],
+    ["R7", "12972", "7905", 17],
+    ["R6", "8763", "5586", 17],
+    ["R5", "1114", "1400", 17],
+    ["R4", "1113", "1346", 17],
+    ["R3", "1112", "1304", 17],
+  ] as const).map(([fy, page, att, rp]) => ({
+    id: `kanda-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 苅田町予算書（一般会計 歳入歳出予算事項別明細書 総括）`,
+    publisher: "苅田町",
+    url: `https://www.town.kanda.lg.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: `https://www.town.kanda.lg.jp/page/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "苅田町（一般会計・団体コード406210）",
+    license: KANDA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: rp, to: rp + 1 },
+      expenditurePage: rp + 2,
+      revenueHeading: "歳     入",
+      expenditureHeading: "歳   出",
+      expenditureHeaderExtra: "^本$|一般財源|国庫支出金",
+    },
+  } satisfies SourceEntry)),
+  // 西原町（沖縄県中頭郡・団体コード 473294 ＝ 総務省 R6.json から実引き。⚠ 熊本県西原村 434329 とは別団体）。
+  //   当初予算書の「歳入歳出予算事項別明細書 １ 総括」。千円。見出しは `（歳 入）`／`（歳 出）`（沖縄市と同型）。表紙 p.1〜2 は画像。
+  //   歳入22款（R2 は廃止款 `○. 自動車取得税交付金 0／16,988` を含む23款）・歳出14款。
+  //   ⚠⚠ `expenditureHeaderExtra` が無いと全年度で歳出の款1 が `一般財源国県支出金地方債その他議会費`、
+  //   `revenueHeaderExtra` が無いと R5〜R2 で歳入の款1 が `歳入歳出予算事項別明細書総括町税` になる（どちらも Σ差0 のまま）。
+  // 前年度列は当初（R2→R8 の6区間で款単位全一致。当初予算説明資料も「前年度当初予算比」）。「骨格」0件（予算書・説明資料の7年度）。
+  //   説明資料の目的別一覧は款名が「農林水産費」と予算書と違うので、款別は予算書で揃える。
+  // ライセンス: 「リンク・著作権・免責事項」（/site/userguide/7.html・確認日 2026-11-12）＝`無断で転用・引用することを禁じます` で要許可。
+  //   「オープンデータ・統計」の分類に予算のページが並ぶが、利用規約・CC 表記は無い。リンク「原則としてリンクフリー」⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "11298", 10],
+    ["R7", "8478", 9],
+    ["R6", "7622", 10],
+    ["R5", "7629", 10],
+    ["R4", "7638", 10],
+    ["R3", "7650", 9],
+    ["R2", "7666", 10],
+  ] as const).map(([fy, att, rp]) => ({
+    id: `nishihara-okinawa-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 西原町一般会計当初予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "西原町",
+    url: `https://www.town.nishihara.okinawa.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: "https://www.town.nishihara.okinawa.jp/soshiki/3/2261.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "西原町（一般会計・団体コード473294）",
+    license: NISHIHARA_OKINAWA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: rp + 1,
+      revenueHeading: "（歳 入）",
+      expenditureHeading: "（歳 出）",
+      revenueHeaderExtra: "予算事項別明細書|総括",
+      expenditureHeaderExtra: "一般財源|国県支出金",
+    },
+  } satisfies SourceEntry)),
+  // 那珂川市（福岡県・団体コード 402311 ＝ 総務省 R6.json から実引き）。「令和N年度 那珂川市予算に関する説明書」の「歳入歳出予算事項別明細書 １ 総括」。千円。
+  //   歳入22款（R2 は廃止款「自動車取得税交付金 0/35,006」を含め23）・歳出13款。文字層の ToUnicode が欠けて化ける ⇒ `decodeGarble`（款名は全件復号できた）。
+  //   ⚠ 表題が歳入の款1 に、財源内訳の列見出し（復号後も「一般財※」）が歳出の款1 に付く（どちらも Σ差0 のまま）⇒ 両側の `HeaderExtra`。
+  //   説明書の表紙は化けて読めないので、団体は同じ年度ページの予算書（R8 32236・R7 29648）の表紙「那珂川市予算書 福岡県那珂川市」と取得元で確かめた。
+  // ⚠ R6・R5・R2 は現行サイトに無い（年度ページ 404）⇒ WARP の捕捉から取る。年度ページの URL は使い回される（h31yosansho.html は
+  //   2021-06 時点で R2・2023-03 時点で R4、yosannsyo.html は R3）ので、捕捉日つきで持つ。第90巡の「R6〜R2 は取れない」は WARP を引けていなかった。
+  //   R4（WARP 20832.pdf）は OCR のスキャンで歳入の Σ が合わない、R3（WARP 17839.pdf）は歳出の総括 p.6 に文字層が無い ⇒ unrecordable.ts。
+  // 前年度列は当初（R5→R8 の3区間で款単位全一致・R3 の前年度列＝R2 の本年度列）。骨格・修正の語なし（市長選は 2020-08・2024-08）。
+  // ライセンス: 「このホームページについて」（/site/userguide/info.html・確認日 2026-11-12）の帰属文だけ ⇒ license-no-grant.ts（富山・豊田と同じ型）。
+  //   BODIK（organization 403059）の5件に予算は0件。リンク「トップページへのリンクとし…トップページ以外のページへ直接リンクを設定する場合は、担当部署へお問い合わせください」⇒ `noDeepLink`。
+  ...([
+    ["R8", "https://www.city.nakagawa.lg.jp/uploaded/attachment/32237.pdf", "https://www.city.nakagawa.lg.jp/soshiki/49/r8yosansho.html", 5],
+    ["R7", "https://www.city.nakagawa.lg.jp/uploaded/attachment/29649.pdf", "https://www.city.nakagawa.lg.jp/soshiki/49/r7yosansho.html", 5],
+    ["R6", "https://warp.ndl.go.jp/20250307/20250307163647/https://www.city.nakagawa.lg.jp/uploaded/attachment/26753.pdf", "https://web.archive.org/web/20240724213413/https://www.city.nakagawa.lg.jp/soshiki/49/r6yosansho.html", 5],
+    ["R5", "https://warp.ndl.go.jp/20240307/20240307061343/https://www.city.nakagawa.lg.jp/uploaded/attachment/23923.pdf", "https://warp.ndl.go.jp/20240307/20240307061343/https://www.city.nakagawa.lg.jp/soshiki/49/r5yosansho.html", 5],
+    ["R2", "https://warp.ndl.go.jp/20210615/20210614095942/https://www.city.nakagawa.lg.jp/uploaded/attachment/15315.pdf", "https://warp.ndl.go.jp/20210615/20210614095942/https://www.city.nakagawa.lg.jp/soshiki/49/h31yosansho.html", 3],
+  ] as const).map(([fy, url, landing, rp]) => ({
+    id: `nakagawa-fukuoka-setsumeisho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 那珂川市一般会計予算に関する説明書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "那珂川市",
+    url,
+    landingPage: landing,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "那珂川市（一般会計・団体コード402311）",
+    license: NAKAGAWA_FUKUOKA_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: rp + 1,
+      decodeGarble: true,
+      revenueHeading: "（歳入）",
+      expenditureHeading: "（歳出）",
+      revenueHeaderExtra: "^(?:歳入歳出予算事項別明細書|[1１][.．]?総括)$",
+      expenditureHeaderExtra: "一般財|国県支出金",
+    },
+  } satisfies SourceEntry)),
+  // 粕屋町（福岡県糟屋郡・団体コード 403491 ＝ 総務省 R6.json から実引き）。一般会計予算書の「歳入歳出予算事項別明細書 １ 総括」。千円。
+  //   歳入21款（R2 は番号の無い廃止款「自動車取得税交付金」0/18,000 を含め22）・歳出13款（労働費は無い）。
+  //   ⚠ 歳出の財源内訳の列見出しが款1 に付く（`一般財源国県支出金地方債その他議会費`・Σ差0）⇒ `expenditureHeaderExtra`。歳入側は不要。
+  //   R6・R5・R4・R2 は数字の ToUnicode 欠落（pdftotext で金額が空）⇒ `decodeGarble`。R5 以前は白紙ページが挟まり印字との差が +6〜+8。
+  //   同じフォルダの 2R8-0 / 7R8-0 / 56R8-0 / R8-0 は特別会計・企業会計（取り違えない）。
+  // 前年度列は当初（R2→R8 の6区間で34款全一致・R2 の前年度総額 14,597,000＝H31 予算概要書の「145億9,700万円」）。骨格・修正の語なし。
+  // ライセンス: 「利用上の注意事項」（/s014/040/010/20191227150558.html・確認日 2026-11-12）。「事前の許諾なしに、複製、公衆送信…は著作権法で禁止されています」
+  //   は判定語彙に当たらず unverified ⇒ license-no-grant.ts で要許可。
+  //   ⚠ 割れている: 同じ PDF が BODIK の組織「粕屋町」（403491・説明「粕屋町のオープンデータカタログサイトからのコピーです。」）に CC BY で載っている
+  //   （R6〜R2 は sha256 一致・2025-10-23 作成／R7 は CC BY 4.0・バイト不一致でテキスト同一・2025-11-05／R8 は無い）。町のサイトに BODIK・カタログへの導線は無い。
+  //   「割れたら要許可へ倒す」（open と誤る向きだけ取り返しがつかない）で町のサイトの原文を採る。第91巡で人の判断待ちにしていた件（docs §13-104）。
+  //   リンク「本ウェブサイトにリンクされる場合は、ウェブサイトのトップページに設定してください。」⇒ `noDeepLink`。
+  ...([
+    ["R8", "1R8-0.pdf", 16, false],
+    ["R7", "1R7-0.pdf", 17, false],
+    ["R6", "R6-0-0.pdf", 16, true],
+    ["R5", "R5-0-0.pdf", 23, true],
+    ["R4", "R4-0-0.pdf", 23, true],
+    ["R3", "R3-0-0.pdf", 21, false],
+    ["R2", "R2-0-0.pdf", 19, true],
+  ] as const).map(([fy, file, rp, garble]) => ({
+    id: `kasuya-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 粕屋町一般会計予算（歳入歳出予算事項別明細書 総括）`,
+    publisher: "粕屋町",
+    url: `https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/${file}`,
+    landingPage: "https://www.town.kasuya.fukuoka.jp/s008/010/010/010/010/040/20191224173858.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "粕屋町（一般会計・団体コード403491）",
+    license: KASUYA_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: rp + 1,
+      revenueHeading: "総括",
+      expenditureHeading: "歳出",
+      expenditureHeaderExtra: "一般財源|国県支出金",
+      ...(garble ? { decodeGarble: true } : {}),
+    },
+  } satisfies SourceEntry)),
+  // 大津町（熊本県菊池郡・団体コード 434035 ＝ 総務省 R6.json から実引き。⚠ 滋賀県大津市とは別団体）。
+  //   一般会計当初予算書の「歳入歳出予算事項別明細書 １総括」。千円。歳入22款（R2 は廃止款「自動車取得税交付金」0/9,664 を含め23）。
+  //   歳出は R8〜R6 が12款（総括に労働費の行が無い）・R4 は廃止款「○. 労働費」0/974 を含め13・R2 は13（労働費 997/992）。
+  //   ⚠ 表題が歳入の款1（`歳入歳出予算事項別明細書総括町税`）、財源内訳の列見出しが歳出の款1 に付く（Σ差0 のまま）⇒ 両側の `HeaderExtra`。
+  //   R5（attachment/1255）・R3（4863）は予算書がスキャン画像 ⇒ unrecordable.ts。各年度の「当初予算の概要」は歳入が財源のグループ別で代わりにならない。
+  // 前年度列は当初（R6→R8 の2区間で款単位一致・R6/R4/R2 の前年度合計は R5/R3/H31 の概要の当年度合計と一致）。
+  // ⚠ R7・R3 は骨格予算（台帳 skeleton-budgets.ts）。R8・R4 の前年度列はその骨格の当初額 ⇒ R8・R4 に prevNote。
+  //   R7: 広報資料 attachment/15085.pdf「令和７年度の当初予算額は、２月に町長選挙が行われたことから「骨格予算」となります。」・R8 概要の前年度列見出し「７年度（骨格）」。
+  //   R3: 広報おおづ 2022年5月号（attachment/4771.pdf）「（令和３年度当初予算は、町長選挙のため骨格予算）」。
+  // ライセンス: サイトポリシー「著作権について」（/page/1749.html・確認日 2026-11-12）＝`無断で複製・転用` で要許可。BODIK 434035 の9件に予算は0件。
+  //   リンク（/page/1750.html）「リンク先はトップページを指定してください。」⇒ `noDeepLink`。
+  ...([
+    ["R8", "18076", "24624", 15],
+    ["R7", "14883", "19003", 13],
+    ["R6", "12275", "12118", 13],
+    ["R4", "2283", "1276", 12],
+    ["R2", "2775", "1456", 13],
+  ] as const).map(([fy, att, page, rp]) => ({
+    id: `ozu-kumamoto-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 大津町一般会計当初予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "大津町",
+    url: `https://www.town.ozu.kumamoto.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: `https://www.town.ozu.kumamoto.jp/page/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "大津町（一般会計・団体コード434035）",
+    license: OZU_KUMAMOTO_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: rp + 1,
+      revenueHeading: "（歳入）",
+      expenditureHeading: "（歳出）",
+      revenueHeaderExtra: "明細書|総括",
+      expenditureHeaderExtra: "一般財源|国県支出金|特定財源|財源内訳",
+      ...(fy === "R8"
+        ? { prevNote: "前年度（令和7年度）の当初予算は、2月に町長選挙が行われたことから骨格予算として編成されています（「令和8年度 大津町一般会計・特別会計予算の概要」の前年度列の見出し「７年度（骨格）」）。ここでの前年度額はその骨格予算の当初額で、補正で肉付けした後の額ではありません。" }
+        : fy === "R7"
+          ? { prevNote: "本年度（令和7年度）の当初予算は、2月に町長選挙が行われたことから骨格予算として編成されています（発行元の広報資料「令和７年度の当初予算額は、２月に町長選挙が行われたことから「骨格予算」となります。」）。" }
+        : fy === "R4"
+          ? { prevNote: "前年度（令和3年度）の当初予算は、町長選挙のため骨格予算として編成されています（広報おおづ 2022年5月号「令和３年度当初予算は、町長選挙のため骨格予算」）。ここでの前年度額はその骨格予算の当初額で、補正で肉付けした後の額ではありません。" }
+          : {}),
+    },
+  } satisfies SourceEntry)),
+  // 指宿市（鹿児島県・団体コード 462101 ＝ 総務省 R6.json から実引き）。当初予算書の「歳入歳出予算事項別明細書 １．総括」。千円。歳入22款・歳出13款。
+  //   歳入は2ページ ⇒ `revenuePages`（R8〜R6 p.21〜22／歳出 p.23、R5 p.19〜20／p.21）。
+  //   ⚠ 歳出は同じ行の右に財源内訳が並び、款1 が `一般財源国県支出金地方債その他議会費` になる（Σ差0）⇒ `expenditureCropX` {0, 490}（「国県支出金」の左端 x=497pt）。
+  //   ⚠ ファイル名は R8 だけ「令和８年度当初予算書.pdf」、R7〜R5 は「令和Ｎ年度 当初予算書.pdf」（全角数字＋半角空白）。
+  //   R4 は予算書がスキャン画像（DocuCentre）、R3・R2 は旧ページ（page003001）ごと発行元から消え Wayback・WARP にも無い ⇒ unrecordable.ts。
+  // 前年度列は当初（R5→R8 の3区間で全35款一致・R8 の総則第１条の総額とも一致）。骨格・修正の語は原典で未確認（鎖はすべて一致）。
+  // ライセンス: ご利用ガイド（/main/etc/page002584.html・確認日 2026-11-12）＝`無断で複製・転用` で要許可。オープンデータの CC BY は
+  //   「以下の表示があるもの」に限り、予算のページ・PDF に表示は無い（カタログは準備中・BODIK 0件）。
+  //   リンク「トップページ…へのリンクは原則フリー…リンク元のURLをご連絡ください」＝深いリンクを断る文言なし ⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf", 21],
+    ["R7", "%E4%BB%A4%E5%92%8C%EF%BC%97%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf", 21],
+    ["R6", "%E4%BB%A4%E5%92%8C%EF%BC%96%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf", 21],
+    ["R5", "%E4%BB%A4%E5%92%8C%EF%BC%95%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf", 19],
+  ] as const).map(([fy, file, rp]) => ({
+    id: `ibusuki-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 指宿市当初予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "指宿市",
+    url: `https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/${file}`,
+    landingPage: "https://www.city.ibusuki.lg.jp/main/shisei/zaisei/zaisei/page029349.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "指宿市（一般会計・団体コード462101）",
+    license: IBUSUKI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: rp, to: rp + 1 },
+      expenditurePage: rp + 2,
+      revenueHeading: "（歳入）",
+      expenditureHeading: "（歳出）",
+      expenditureCropX: { from: 0, to: 490 },
+    },
+  } satisfies SourceEntry)),
+  // 宇土市（熊本県・団体コード 432113 ＝ 総務省 R6.json から実引き）。令和8年度予算書の「歳入歳出予算事項別明細書 １．総括」。千円。歳入23款・歳出13款。
+  //   歳入 p.20〜21・歳出 p.22（財源内訳つき）。⚠ 表題が歳入の款1 に付く（`歳入歳出予算事項別明細書歳入市税`・Σ差0）⇒ `revenueHeaderExtra`。
+  //   R7〜R2 は予算書がウェブに無い（この年度ページは 2026 年の新設・WARP と Wayback の財政資料一覧にも無い）。概要は広報の見開き（前年度列なし）、
+  //   財政状況報告書6月版の款別表は単年度・金額の降順・款番号なし ⇒ unrecordable.ts。
+  // ⚠ R8 は骨格予算（台帳 skeleton-budgets.ts）。「令和８年度当初予算の概要」（広報）「市長選挙の関係で建設事業費や単独補助金などの政策的な経費を除いた「骨格予算」として編成しました。」
+  //   前年度列は R7 当初（財政状況報告書 R7.6.2 の「令和7年度一般会計当初予算款別表」と全36款一致）。
+  // ライセンス: 「著作権・リンク」（/article/view/1280/12.html・確認日 2026-11-12）＝`無断使用・転載を禁止` で要許可。オープンデータ9件に予算は0件。
+  //   リンク「宇土市のトップページ…へのリンクはフリーです。その他のページへリンクを張る場合については、それぞれ担当課へ問合せください。」⇒ `noDeepLink`。
+  {
+    id: "uto-yosansho-r8",
+    title: "令和8年度 宇土市予算書（歳入歳出予算事項別明細書 総括）",
+    publisher: "宇土市",
+    url: "https://www.city.uto.lg.jp/d?q=470ee2156edc118101924afc897aee14.pdf",
+    landingPage: "https://www.city.uto.lg.jp/article/view/1141/15564.html",
+    kind: "pdf",
+    fiscalYear: "R8",
+    scope: "宇土市（一般会計・団体コード432113）",
+    license: UTO_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho",
+    parserOptions: {
+      revenuePages: { from: 20, to: 21 },
+      expenditurePage: 22,
+      revenueHeading: "事項別明細書",
+      expenditureHeading: "財源内訳",
+      revenueHeaderExtra: "事項別明細書|総括|^歳入$",
+      prevNote: "本年度（令和8年度）の当初予算は、市長選挙の関係で建設事業費や単独補助金などの政策的な経費を除いた「骨格予算」として編成されています（「令和８年度当初予算の概要」）。前年当初比は、この骨格予算と前年度の当初予算との比較です。",
+    },
+  },
+  // ---- 第105巡ここまで ----
   // ---- 第109巡（2026-11-12・docs/data-sources.md §13-125） ----
   // みやま市（福岡県・団体コード 402290 ＝ 総務省 R6.json から実引き）。議会に出した「みやま市一般会計予算」の
   //   「歳入歳出予算事項別明細書 １ 総括」。千円。歳入は合計行だけが次のページに載る ⇒ revenuePages で連結（山口県と同型）。

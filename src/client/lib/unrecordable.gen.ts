@@ -1954,6 +1954,34 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "402311": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "予算に関する説明書がスキャン画像で、文字認識の結果の数字が崩れている。",
+        "checkedOn": "2026-11-12"
+      },
+      {
+        "fyLabel": "令和3年度",
+        "reason": "予算に関する説明書の歳出の款別の表が図形として描かれていて、文字の情報が無い。",
+        "checkedOn": "2026-11-12"
+      }
+    ]
+  },
+  "403415": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和4年度・令和3年度・令和2年度",
+        "reason": "予算書の歳出の款別の表（前年度額つき）がスキャン画像で、文字の情報が無い。",
+        "checkedOn": "2026-11-12"
+      },
+      {
+        "fyLabel": "令和5年度",
+        "reason": "当初予算書が発行元から削除されていて、魚拓も見つからない。",
+        "checkedOn": "2026-11-12"
+      }
+    ]
+  },
   "403431": {
     "budget": [
       {
@@ -1963,12 +1991,30 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "406210": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "款別と前年度額の表はウェブページ（HTML）にあるが、いまの抽出処理が HTML の表に対応していない。",
+        "checkedOn": "2026-11-12"
+      }
+    ]
+  },
   "412015": {
     "budget": [
       {
         "fyLabel": "令和4年度・令和3年度",
         "reason": "「当初予算の概要」がこの2年度とも全ページ スキャン画像で、1ページに画像が1枚ずつ入っており、文字として取り出せる中身が無い（令和4年度は17ページで17字、令和3年度は15ページで15字。収録時に実測）。文字を読み取る処理もかかっていないため、数値を取り出す手立てがない。同じ年度の別冊「当初予算資料」にも款ごとの表は入っていない。令和8年度と令和5年度は同じ資料で収録済み。",
         "checkedOn": "2026-08-24"
+      }
+    ]
+  },
+  "412066": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "金額を億・万・千の欄に分けて書く表で、いまの抽出処理が対応していない。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -2031,6 +2077,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "432041": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "歳入を款別に前年度額と並べた表が無く、財源別の表だけが公開されている。",
+        "checkedOn": "2026-11-12"
+      }
+    ]
+  },
   "432067": {
     "budget": [
       {
@@ -2054,6 +2109,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "432113": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "当初予算書がウェブに無く、ほかの資料は款別に前年度額と並べた表になっていない。",
+        "checkedOn": "2026-11-12"
+      }
+    ]
+  },
   "432156": {
     "budget": [
       {
@@ -2069,6 +2133,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度",
         "reason": "款別の構成表のうち、廃止された款（自動車取得税交付金）の行が括弧書きで款番号の無い形になっていて、こちらの抽出処理ではその行を読めない（前年度の合計が1千円合わなくなる）。原典の表は健全。",
         "checkedOn": "2026-10-22"
+      }
+    ]
+  },
+  "434035": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度・令和3年度",
+        "reason": "当初予算書がスキャン画像で、文字の情報が無い。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -2150,6 +2223,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "予算書と予算に関する説明書は文字を取り出せない画像のPDFで、読める資料は「当初予算の概要」の対前年度比較表だけ。その表の廃止された款「○【廃款】自動車取得税交付金」が当年度の欄が空欄のため既存パーサが当年度を読み違え、歳入の当年度の合計が 40,000千円合わなくなる。",
         "checkedOn": "2026-10-01"
+      }
+    ]
+  },
+  "462101": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "当初予算書がスキャン画像で、文字の情報が無い。",
+        "checkedOn": "2026-11-12"
+      },
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "当初予算書が発行元から削除されていて、魚拓も見つからない。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -2874,6 +2961,15 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "402192": [
+    "budget"
+  ],
+  "403415": [
+    "budget"
+  ],
+  "412066": [
+    "budget"
+  ],
+  "432041": [
     "budget"
   ],
   "442119": [

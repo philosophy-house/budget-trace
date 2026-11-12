@@ -4079,6 +4079,33 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r4", "r3"] as const).map((fy) => ({
       srcId: `mibu-yosansho-${fy}`, muniCode: "093611", muniName: "壬生町", prefName: "栃木県", isPref: false,
     })),
+    // ---- 第105巡（2026-11-12・§13-122） ----
+    // 苅田町の R2 は年度ページに HTML の表だけ
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `kanda-yosansho-${fy}`, muniCode: "406210", muniName: "苅田町", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `nishihara-okinawa-yosansho-${fy}`, muniCode: "473294", muniName: "西原町", prefName: "沖縄県", isPref: false,
+    })),
+    // 那珂川市の R4 は OCR のスキャン・R3 は歳出の総括に文字層なし
+    ...(["r8", "r7", "r6", "r5", "r2"] as const).map((fy) => ({
+      srcId: `nakagawa-fukuoka-setsumeisho-${fy}`, muniCode: "402311", muniName: "那珂川市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kasuya-yosansho-${fy}`, muniCode: "403491", muniName: "粕屋町", prefName: "福岡県", isPref: false,
+    })),
+    // 大津町（熊本）の R5・R3 はスキャン
+    ...(["r8", "r7", "r6", "r4", "r2"] as const).map((fy) => ({
+      srcId: `ozu-kumamoto-yosansho-${fy}`, muniCode: "434035", muniName: "大津町", prefName: "熊本県", isPref: false,
+    })),
+    // 指宿市の R4 はスキャン・R3・R2 は資料なし
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `ibusuki-yosansho-${fy}`, muniCode: "462101", muniName: "指宿市", prefName: "鹿児島県", isPref: false,
+    })),
+    // 宇土市は R8 だけ（R7〜R2 は予算書がウェブに無い）
+    ...(["r8"] as const).map((fy) => ({
+      srcId: `uto-yosansho-${fy}`, muniCode: "432113", muniName: "宇土市", prefName: "熊本県", isPref: false,
+    })),
     // ---- 第109巡（2026-11-12・§13-125） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `miyama-yosansho-${fy}`, muniCode: "402290", muniName: "みやま市", prefName: "福岡県", isPref: false,
