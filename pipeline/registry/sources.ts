@@ -607,6 +607,11 @@ const UOZU_LICENSE =
   "このホームページに掲載されている文章、画像等の著作権は、魚津市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ページに記載されている情報発信元、もしくは魚津市企画広報室へお問い合わせください。";
 const MIBU_LICENSE =
   "「壬生町公式ウェブサイト」に掲載している個々の情報(文章、写真、イラストなど)は、著作権の対象となっています。また、壬生町ウェブサイト全体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。";
+// ---- 第105巡（2026-11-12）のライセンス原文 ----
+const KANDA_LICENSE =
+  "苅田町ホームページに掲載している内容（文章、写真、図、イラスト、音声・動画等）に関する著作権は、原則として苅田町に帰属します。また、一部の画像等の著作権は、苅田町以外の原著作者が所有しています。苅田町ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾に関しては、苅田町企画政策課広報広聴担当までご相談ください。";
+const NISHIHARA_OKINAWA_LICENSE =
+  "西原町ホームページの情報については、原則として西原町が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。";
 const MIURA_LICENSE =
   "このホームページの情報は、三浦市が著作権を有しています。法律で認められた場合を除き、無断で転用・引用することを禁じます。";
 const MINAMIASHIGARA_LICENSE =
@@ -35010,6 +35015,81 @@ export const SOURCES: SourceEntry[] = [
       revenueHeading: "総括", expenditureHeading: "歳出",
     },
   } satisfies SourceEntry)),
+  // ---- 第105巡（2026-11-12・docs/data-sources.md §13-118） ----
+  // 苅田町（福岡県京都郡・団体コード 406210 ＝ 総務省 R6.json から実引き）。「苅田町予算書」（全会計合冊）の
+  //   「［１］歳入歳出予算事項別明細書 １．総括」。千円。歳入は2ページ（款17 寄附金まで／款18〜21＋歳入合計）⇒ `revenuePages`。
+  //   物理 p.18-19＝歳入 / p.20＝歳出（R8）、p.17-18 / p.19（R7〜R3）。
+  //   ⚠ 歳出の財源内訳の列見出し（`本` `一 般 財 源` `国庫支出金 …`）が款1 に連結して `本一般財源国庫支出金県支出金地方債その他議会費`
+  //   になる（Σ差0 のまま）⇒ `expenditureHeaderExtra`（歳出側だけ。国庫支出金は歳入の実在の款）。
+  // 前年度列は当初（R3→R8 の5区間で全35款一致。R3 の前年度列は R2 の年度ページの HTML 表とも一致）。
+  //   R3〜R5 の年度ページの「当初追加」は補正（第1号）で、翌年度の前年度列はこれを含まない。骨格・修正の語は0件。
+  //   R2・H31 は年度ページに HTML の表だけで予算書 PDF が無い ⇒ unrecordable.ts。
+  // ライセンス: 「リンク・著作権」（/site/userguide/2291.html・確認日 2026-11-12）＝`無断で複製・転用` で要許可。
+  //   BODIK の苅田町（406210）は3件で予算・財政は0件。リンク「各ページへの直接リンクをしていただいてかまいません」⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "15645", "10139", 18],
+    ["R7", "12972", "7905", 17],
+    ["R6", "8763", "5586", 17],
+    ["R5", "1114", "1400", 17],
+    ["R4", "1113", "1346", 17],
+    ["R3", "1112", "1304", 17],
+  ] as const).map(([fy, page, att, rp]) => ({
+    id: `kanda-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 苅田町予算書（一般会計 歳入歳出予算事項別明細書 総括）`,
+    publisher: "苅田町",
+    url: `https://www.town.kanda.lg.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: `https://www.town.kanda.lg.jp/page/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "苅田町（一般会計・団体コード406210）",
+    license: KANDA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: rp, to: rp + 1 },
+      expenditurePage: rp + 2,
+      revenueHeading: "歳     入",
+      expenditureHeading: "歳   出",
+      expenditureHeaderExtra: "^本$|一般財源|国庫支出金",
+    },
+  } satisfies SourceEntry)),
+  // 西原町（沖縄県中頭郡・団体コード 473294 ＝ 総務省 R6.json から実引き。⚠ 熊本県西原村 434329 とは別団体）。
+  //   当初予算書の「歳入歳出予算事項別明細書 １ 総括」。千円。見出しは `（歳 入）`／`（歳 出）`（沖縄市と同型）。表紙 p.1〜2 は画像。
+  //   歳入22款（R2 は廃止款 `○. 自動車取得税交付金 0／16,988` を含む23款）・歳出14款。
+  //   ⚠⚠ `expenditureHeaderExtra` が無いと全年度で歳出の款1 が `一般財源国県支出金地方債その他議会費`、
+  //   `revenueHeaderExtra` が無いと R5〜R2 で歳入の款1 が `歳入歳出予算事項別明細書総括町税` になる（どちらも Σ差0 のまま）。
+  // 前年度列は当初（R2→R8 の6区間で款単位全一致。当初予算説明資料も「前年度当初予算比」）。「骨格」0件（予算書・説明資料の7年度）。
+  //   説明資料の目的別一覧は款名が「農林水産費」と予算書と違うので、款別は予算書で揃える。
+  // ライセンス: 「リンク・著作権・免責事項」（/site/userguide/7.html・確認日 2026-11-12）＝`無断で転用・引用することを禁じます` で要許可。
+  //   「オープンデータ・統計」の分類に予算のページが並ぶが、利用規約・CC 表記は無い。リンク「原則としてリンクフリー」⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "11298", 10],
+    ["R7", "8478", 9],
+    ["R6", "7622", 10],
+    ["R5", "7629", 10],
+    ["R4", "7638", 10],
+    ["R3", "7650", 9],
+    ["R2", "7666", 10],
+  ] as const).map(([fy, att, rp]) => ({
+    id: `nishihara-okinawa-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 西原町一般会計当初予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "西原町",
+    url: `https://www.town.nishihara.okinawa.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: "https://www.town.nishihara.okinawa.jp/soshiki/3/2261.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "西原町（一般会計・団体コード473294）",
+    license: NISHIHARA_OKINAWA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp,
+      expenditurePage: rp + 1,
+      revenueHeading: "（歳 入）",
+      expenditureHeading: "（歳 出）",
+      revenueHeaderExtra: "予算事項別明細書|総括",
+      expenditureHeaderExtra: "一般財源|国県支出金",
+    },
+  } satisfies SourceEntry)),
+  // ---- 第105巡ここまで ----
   // ---- 第100巡（2026-10-31・docs/data-sources.md §13-116） ----
   // 阿賀野市（新潟県・団体コード 152234 ＝ 総務省 R6.json から実引き）。当初予算書の「歳入歳出予算事項別明細書 １ 総括」。千円。
   //   R8 は一般会計単独の冊子（歳入 p.12・歳出 p.13）、R7〜R2 は一般・特別会計の合冊（p.16・p.17）。
