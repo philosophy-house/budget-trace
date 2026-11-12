@@ -4198,6 +4198,8 @@ export const MUNI_BUDGET_INDEX: Record<string, MuniBudgetIndexEntry> = {
     "isPref": false,
     "fys": [
       "R8",
+      "R7",
+      "R6",
       "R5",
       "R4",
       "R3",

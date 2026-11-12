@@ -3405,14 +3405,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
   },
   {
-    // 函南町（223255）R7・R6。年度ページに PDF が無く、予算書はデジタルブック（ecocat）だけ。1ページずつの PDF も中身は jpeg の画像でフォントが無い。
-    code: "223255", name: "函南町", dataset: "budget", fiscalYears: ["R7", "R6"],
-    categories: ["scanned-image"],
-    reason: "予算書がデジタルブックのページ画像としてだけ公開されていて、文字の情報が無い。",
-    url: "https://www.town.kannami.shizuoka.jp/gyosei/zaisei/5390.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
-  },
-  {
     // 広陵町（294268）R4。予算書（議会の「令和4年第1回定例会 議案資料」0000005250.html の R4teirei1_ippan-yosansho.pdf）は総括の p.17・p.18 が線画で、フォント0・画像0（try-parse は見出しが見つからず throw）。
     code: "294268", name: "広陵町", dataset: "budget", fiscalYears: ["R4"],
     categories: ["broken-text-layer"],

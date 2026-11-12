@@ -18,11 +18,11 @@ export const ROADMAP_PROGRESS = {
   "latestFetchedAt": "2026-11-12",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5311,
-  "fileCount": 7988,
-  "archivedCount": 4175,
+  "sourceCount": 5313,
+  "fileCount": 7990,
+  "archivedCount": 4177,
   "licenseOpen": 145,
-  "licensePermission": 5069,
+  "licensePermission": 5071,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1733,6 +1733,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "函南町",
+      "code": "223255",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "長泉町",
       "code": "223425",
       "years": 7,
@@ -3307,12 +3313,6 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "三島市",
       "code": "222062",
-      "years": 5,
-      "range": "R2〜R8（5年度）"
-    },
-    {
-      "name": "函南町",
-      "code": "223255",
       "years": 5,
       "range": "R2〜R8（5年度）"
     },
