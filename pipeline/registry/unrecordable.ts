@@ -3293,6 +3293,24 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.town.mibu.tochigi.jp/category/bunya/gyoseimachizukuri/zaisei/",
     checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
   },
+  // ==== 第109巡（2026-11-12・docs §13-125）====
+  {
+    // 五島市（422118）R3・R2。発行元から消えていて WARP（2023-03-08）にだけあり、一般会計予算書は全ページが JPEG/CCITT の画像（文字0）。
+    //   R4 の前年度列は R3 スキャンの総括 p.13 の本年度欄と目視で一致（§13-125）。
+    code: "422118", name: "五島市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["scanned-image"],
+    reason: "当初予算書は国立国会図書館のウェブアーカイブにだけ残っており、紙をスキャンした画像で文字の情報が無い。予算の概要などの別の資料も見つからない。",
+    url: "https://warp.ndl.go.jp/20230309/20230308172829/https://www.city.goto.nagasaki.jp/li/shisei/070/010/index.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
+  {
+    // 八重瀬町（473626）R5。発行元の R05_4_tosyo.pdf は全面が 1bit の CCITT 画像（Creator CIP1.5）。「わかりやすい予算書 R5」は万円・前年度列なしで代わりにならない（§13-125）。
+    code: "473626", name: "八重瀬町", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["scanned-image"],
+    reason: "当初予算書は紙をスキャンした画像で文字の情報が無い。同じ年度の「わかりやすい予算書」は金額を万円で丸めて前年度の列も無いので代わりにならない。",
+    url: "https://www.town.yaese.lg.jp/docs/2014030300014/",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
   {
     // 結城市（082074）R7。R8・R6〜R2 は収録済み（§13-119）。年度ページ（page009476.html）に「（※修正部分以外可決）」。掲載の予算書（1742261098_doc_18_0.pdf）は原案（22,162,000）で、
     //   修正（1742261103_doc_18_0.pdf・8p・議案第12号の修正案・結城南中学校区新設校建設事業 1,324,000 を削除・20,838,000）の総括は見え消しで全款が無い。

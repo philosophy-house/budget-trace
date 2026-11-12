@@ -1963,6 +1963,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "422118": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "当初予算書は国立国会図書館のウェブアーカイブにだけ残っており、紙をスキャンした画像で文字の情報が無い。予算の概要などの別の資料も見つからない。",
+        "checkedOn": "2026-11-12"
+      }
+    ]
+  },
   "422134": {
     "budget": [
       {
@@ -2214,6 +2223,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度・令和2年度",
         "reason": "予算書の文字の情報が画像からの自動読み取りで、数字や款の名前が読み違えられている。",
         "checkedOn": "2026-10-29"
+      }
+    ]
+  },
+  "473626": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度",
+        "reason": "当初予算書は紙をスキャンした画像で文字の情報が無い。同じ年度の「わかりやすい予算書」は金額を万円で丸めて前年度の列も無いので代わりにならない。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
