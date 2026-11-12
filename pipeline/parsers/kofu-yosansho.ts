@@ -103,9 +103,14 @@ interface Options {
    *
    * **切り出しは pdftotext 自身の -x/-W に任せる**（座標を自前で組み直さない）。
    * 静岡は A4 横（842pt）で、歳入の右端が約400pt・歳出の左端が約425pt＝**ガター幅24〜26pt**。
+   *
+   * **配列で渡すと、1ページを複数の帯に切って左から順に縦へ連結する**（2026-11-12・古賀 R8・第106巡）。
+   * 見開き2ページを1ページに収めた版で、**1つの表が左右2段に続く**様式用（古賀 R8: 左に款1〜22、右に款23と合計）。
+   * 単一の帯では片方しか読めず、帯なしでは `-layout` が左右を1行に融合して款23 と合計が款の行に混ざる。
+   * ⚠ 右の段の頭に繰り返される見出し（`歳入歳出予算事項別明細書`・`総括`・`（歳入）`）は HeaderExtra で落とす。
    */
-  revenueCropX?: CropX;
-  expenditureCropX?: CropX;
+  revenueCropX?: CropX | CropX[];
+  expenditureCropX?: CropX | CropX[];
   /**
    * **`pdftotext` のテキスト抽出モード**。既定は `-layout`（列がスペースで揃うので行パーサが素直）。
    *
@@ -1021,7 +1026,14 @@ function parseKanPage(
     ? pdfPageText(filePath, spread.namePage, undefined, src, opts.visibleTextOnly) +
       "\n" +
       pdfPageText(filePath, spread.amountPage, undefined, src, opts.visibleTextOnly)
-    : pages.map((p) => pdfPageText(filePath, p, cropX, src, opts.visibleTextOnly)).join("\n");
+    : pages
+        .map((p) =>
+          // 帯の配列は左から順に縦へ連結する（Options.revenueCropX 参照）
+          (Array.isArray(cropX) ? cropX : [cropX])
+            .map((c) => pdfPageText(filePath, p, c, src, opts.visibleTextOnly))
+            .join("\n"),
+        )
+        .join("\n");
   // ToUnicode 欠落の復号（Options.decodeGarble 参照）。パース前にページ全文を復元する
   if (opts.decodeGarble) {
     const band = side === "revenue" ? opts.decodeGarbleBand?.revenue : opts.decodeGarbleBand?.expenditure;
@@ -1086,6 +1098,10 @@ function parseKanPage(
   // 見開き2ページ型（Options.revenueSpread 参照）: 款名ページと金額ページを**行順で1:1に組み**、
   // 以降は通常の1ページ表と同じ経路で読む（皆減・折返し・ヘッダ除外・合計検出をそのまま使えるため）。
   if (spread) {
+    // 帯の配列（左右2段の連結）は見開き2ページ型と組み合わせない（行順の1:1対応が崩れる）
+    if (Array.isArray(cropX)) {
+      throw new Error(`${filename} ${pageLabel}: CropX の配列と revenueSpread/expenditureSpread は併用できません`);
+    }
     const [nameText, amountText] = [
       pdfPageText(filePath, spread.namePage, cropX, src, opts.visibleTextOnly),
       pdfPageText(filePath, spread.amountPage, cropX, src, opts.visibleTextOnly),
@@ -2399,22 +2415,41 @@ function parseProjectsTableLines(
   const facts: BudgetProjectFact[] = [];
   let currentShisaku = "";
   for (let page = from; page <= to; page++) {
+    // 直前の行が事業行だったときの、その事業（事業名の折返しを連結する先）
+    let lastFact: BudgetProjectFact | null = null;
     for (const rawOrig of pdfPageText(filePath, page).split("\n")) {
       const raw = toHalfDigits(rawOrig);
       // 施策見出し「（N）…」
       const shM = raw.match(/^\s*（\s*\d+\s*）\s*(.+?)\s*$/);
       if (shM) {
         currentShisaku = shM[1]!.replace(/[\s　]/g, "");
+        lastFact = null;
         continue;
       }
       // 事業行: 行頭が非空白の事業名 → 2つ以上の空白 → 予算額（千円）
       const m = raw.match(/^(\S.+?)\s{2,}([\d,]+)(?:\s|$)/);
-      if (!m) continue;
+      if (!m) {
+        // **事業名の折返し**（2026-11-12・山口 R7・R8・第106巡のレビュー）: 事業名欄が狭く、事業行の**直後の行の0桁目**に
+        //   名前の続きが来る（`地域救急医療運営費補助事  76,987 …` / `業費      る補助`）。捨てると R8 688件中156件・R7 731件中170件の
+        //   事業名が途中で切れていた（表示専用の項目なので Σ もゲートも通る）。内容・担当課の列の折返しは行頭が空白なので当たらない。
+        //   空行・見出しを挟んだら連結しない（lastFact を切る）。
+        const cont = lastFact ? raw.match(/^(\S+)(?:\s{2,}|$)/) : null;
+        if (cont && lastFact) {
+          lastFact.name += cont[1]!;
+          lastFact = null; // 折返しは1行だけ（3行目は来ない様式）
+        } else {
+          lastFact = null;
+        }
+        continue;
+      }
       const name = m[1]!.replace(/[\s　]/g, "");
       const amount = toAmount(m[2]!);
       // 見出し・ヘッダ・少額ノイズを除去（事業名2文字以上・10万円=100千円以上）
-      if (name.length < 2 || amount < 100 || /予算額|事業名|事業内容|担当課|単位/.test(name)) continue;
-      facts.push({
+      if (name.length < 2 || amount < 100 || /予算額|事業名|事業内容|担当課|単位/.test(name)) {
+        lastFact = null;
+        continue;
+      }
+      const fact: BudgetProjectFact = {
         kan: null,
         no: null,
         kubun: null,
@@ -2425,7 +2460,9 @@ function parseProjectsTableLines(
         basicGoal: "",
         shisaku: currentShisaku,
         locator: { file: filename, page },
-      });
+      };
+      facts.push(fact);
+      lastFact = fact;
     }
   }
   if (facts.length === 0) throw new Error(`${filename}: 主な事業（table-lines）が1件も抽出できませんでした`);

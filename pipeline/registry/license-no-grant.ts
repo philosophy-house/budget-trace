@@ -115,5 +115,10 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "愛川町", license: "Copyright (c)2023 Aikawa town. All Rights Reserved." },
   { who: "愛川町（旧サイト）", license: "Copyright 2015 Aikawa Town All Rights Reserved." },
   { who: "大月市", license: "大月市ホームページで公開している文章や画像の著作権は、大月市に帰属します。 これらの著作物を大月市の承諾なしに複製、または他の電子メディアや印刷物などに再利用する事はできません。" },
+  { who: "稲敷市", license: "© City of Inashiki.（稲敷市公式ホームページ フッター）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（ご利用ガイド配下・サイトマップに著作権の語が無い。2026-11-12 確認）。" },
+  { who: "結城市", license: "© YUKI CITY.（結城市公式ホームページ フッター）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（サイトマップ・サイト内検索で該当なし。2026-11-12 確認）。" },
+  { who: "南房総市", license: "Copyright (C) Minamiboso City All Rights Reserved." },
+  { who: "三沢市", license: "All rights reserved. Copyright (C) MISAWA CITY" },
+  { who: "利府町", license: "Copyright (c) 2020 Rifu Town. All Rights Reserved." },
   { who: "吉野川市", license: "当WEBサイトに掲載されている文書・画像などの各ファイル、およびその内容についての権利は、原則として吉野川市に属します。これらについての使用をご希望の場合は、市役所担当部署までご連絡ください。" },
 ];

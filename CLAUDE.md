@@ -55,6 +55,8 @@ bun run pipeline:archive [id...] --submit-only  # 認証つき SPN2 に登録要
 bun run pipeline:archive --resolve-only         # 控えたジョブの結果をまとめて確かめて台帳に書く（巡では最後の derive の直前）
 bun run pipeline:archive-attempts [--since YYYY-MM-DD]  # SPN の試行の結末を日・時間ごとに集計（全ワークツリー共通の記録）
 bun run pipeline:inflight [語...]               # 別セッションの仕掛かり（PR・ブランチ・他ワークツリー）と照合。当たれば exit 1
+bun run worktree:slim                           # このワークツリーで data/raw（14GB）を取り出さない。巡の最初に回す
+bun run worktree:raw <id...> | --parser <p> | --all  # raw を取り出す（parse し直す資料だけ・パーサ単位・全部）
 ```
 
 - テストランナーは未導入。サーバー層を導入するときに Vitest + Testcontainers を [docs/architecture.md](docs/architecture.md) の方針で入れる。

@@ -2181,8 +2181,12 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
 // ============================================================================
 {
   const BUDGET_SOURCES = [
+    // R8 は第106巡（2026-11-12）で追加
+    { srcId: "toyokawa-yosansho-r8", muniCode: "232076", muniName: "豊川市", prefName: "愛知県", isPref: false },
     { srcId: "toyokawa-yosansho-r7", muniCode: "232076", muniName: "豊川市", prefName: "愛知県", isPref: false },
+    { srcId: "yamaguchi-yosansho-r8", muniCode: "352039", muniName: "山口市", prefName: "山口県", isPref: false },
     { srcId: "yamaguchi-yosansho-r7", muniCode: "352039", muniName: "山口市", prefName: "山口県", isPref: false },
+    { srcId: "numazu-yosansho-r8", muniCode: "222038", muniName: "沼津市", prefName: "静岡県", isPref: false },
     { srcId: "numazu-yosansho-r7", muniCode: "222038", muniName: "沼津市", prefName: "静岡県", isPref: false },
     { srcId: "izumi-yosansho-r8", muniCode: "272191", muniName: "和泉市", prefName: "大阪府", isPref: false },
     // 山梨県内（甲府に次ぐ規模）
@@ -3076,8 +3080,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "h31", "h30", "h29"] as const).map((fy) => ({
       srcId: `noda-yosan-setsumeisho-${fy}`, muniCode: "122084", muniName: "野田市", prefName: "千葉県", isPref: false,
     })),
-    // ⚠ 川西は予算説明書の総括 7年（H30〜H28 は復号）。前年度列は当初だが毎年 組替後 → R7・R6・H30 に事実だけの prevNote
-    ...(["r7", "r6", "r5", "h31", "h30", "h29", "h28"] as const).map((fy) => ({
+    // ⚠ 川西は予算説明書の総括 8年（H30〜H28 は復号・R8 は第106巡）。前年度列は当初だが毎年 組替後 → R8・R7・R6・H30 に事実だけの prevNote
+    ...(["r8", "r7", "r6", "r5", "h31", "h30", "h29", "h28"] as const).map((fy) => ({
       srcId: `kawanishi-yosan-setsumeisho-${fy}`, muniCode: "282171", muniName: "川西市", prefName: "兵庫県", isPref: false,
     })),
     // ⚠ 上田は「当初予算の概要」の款別 7年。円グラフの凡例が款名に食い込むので CropX 必須（歳出は Σ 差0 のまま壊れる型）。R8・R4 は骨格予算（当年度側）
@@ -3805,7 +3809,10 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
       srcId: `takashima-yosan-gaiyousho-${fy}`, muniCode: "252123", muniName: "高島市", prefName: "滋賀県", isPref: false,
     })),
-    // ⚠ 南砺 R8・R7 は予算書の表が図形（unrecordable.ts）
+    // ⚠ 南砺 R8・R7 は市の予算書の表が図形なので、市議会サイトの提出時の予算書から取る（第106巡）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `nanto-gikai-yosansho-${fy}`, muniCode: "162108", muniName: "南砺市", prefName: "富山県", isPref: false,
+    })),
     ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `nanto-yosan-youryou-${fy}`, muniCode: "162108", muniName: "南砺市", prefName: "富山県", isPref: false,
     })),
@@ -3971,6 +3978,36 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     // 真庭市は R3・R7 骨格 ⇒ R4・R8 に prevNote。R5 以前は Wayback・WARP
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `maniwa-yosansho-${fy}`, muniCode: "332143", muniName: "真庭市", prefName: "岡山県", isPref: false,
+    })),
+    // ---- 第102巡（2026-11-12・§13-119） ----
+    // 結城市の R7 は議会修正前の原案だけ
+    ...(["r8", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yuki-yosansho-${fy}`, muniCode: "082074", muniName: "結城市", prefName: "茨城県", isPref: false,
+    })),
+    // 桜川市の R6 は議会修正前の原案だけ
+    ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sakuragawa-yosansho-${fy}`, muniCode: "082317", muniName: "桜川市", prefName: "茨城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `inashiki-yosansho-${fy}`, muniCode: "082295", muniName: "稲敷市", prefName: "茨城県", isPref: false,
+    })),
+    // 三沢市の R2 は款名が2行で交互に混ざる
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `misawa-yosan-gaiyou-${fy}`, muniCode: "022071", muniName: "三沢市", prefName: "青森県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `minamiboso-yosansho-${fy}`, muniCode: "122343", muniName: "南房総市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `miyoshimachi-yosansho-${fy}`, muniCode: "113247", muniName: "三芳町", prefName: "埼玉県", isPref: false,
+    })),
+    // 滝川市の R2 は前年度列が5月補正後（H31 骨格）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `takikawa-yosan-gaiyou-${fy}`, muniCode: "012254", muniName: "滝川市", prefName: "北海道", isPref: false,
+    })),
+    // 利府町の R5〜R2 は予算書だけで前年度列が無い
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `rifu-yosansho-${fy}`, muniCode: "044067", muniName: "利府町", prefName: "宮城県", isPref: false,
     })),
     // ---- 第101巡（2026-10-31・§13-117） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
@@ -4849,7 +4886,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `ogori-yosansho-hikaku-${fy}`, muniCode: "402168", muniName: "小郡市", prefName: "福岡県", isPref: false,
     })),
-    ...(["r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+    // 古賀 R8・R7 は第106巡（見開き2段の歳入を帯の配列で読む）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `koga-fukuoka-yosan-setsumei-${fy}`, muniCode: "402231", muniName: "古賀市", prefName: "福岡県", isPref: false,
     })),
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
