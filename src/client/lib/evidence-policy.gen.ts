@@ -19,10 +19,40 @@ export interface RestrictedEvidenceLink {
 
 /** キー: 自サーバー配信コピーのパス（/sources/<sourceId>/<filename>。フラグメント無し） */
 export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
+  "/sources/toyokawa-yosansho-r7/R7_yosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyokawa.lg.jp/material/files/group/10/R7_yosann.pdf",
+    "license": "豊川市ホームページ内の内容等については、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、許可なく複製・転用・販売といった二次利用をすることはできません。",
+    "target": "file"
+  },
+  "/sources/toyokawa-yosansho-r8/R8_yosann_.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260408075233id_/https://www.city.toyokawa.lg.jp/material/files/group/10/R8_yosann_.pdf",
+    "license": "豊川市ホームページ内の内容等については、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、許可なく複製・転用・販売といった二次利用をすることはできません。",
+    "target": "file"
+  },
+  "/sources/yamaguchi-yosansho-r7/105329.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamaguchi.lg.jp/site/shiseijoho/171302.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、山口市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yamaguchi-yosansho-r8/117924.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamaguchi.lg.jp/site/shiseijoho/189076.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、山口市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
   "/sources/numazu-yosansho-r7/s-1.pdf": {
     "mode": "origin",
     "href": "https://www.city.numazu.shizuoka.jp/shisei/gyozaisei/finance/yosan2025/gaiyousho/pdf/s-1.pdf",
-    "license": "沼津市ウェブサイト掲載資料（非営利・二次利用要許可。利用条件は同サイト参照）",
+    "license": "沼津市ホームページから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は沼津市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は事前にぬまづプロモーション課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。",
+    "target": "file"
+  },
+  "/sources/numazu-yosansho-r8/s-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.numazu.shizuoka.jp/shisei/gyozaisei/finance/yosan2026/gaiyousho/pdf/s-1.pdf",
+    "license": "沼津市ホームページから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は沼津市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は事前にぬまづプロモーション課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。",
     "target": "file"
   },
   "/sources/izumi-yosansho-r8/02_R8_ippan.pdf": {
@@ -15313,6 +15343,12 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "Copyright © City Noda, All Rights Reserved.",
     "target": "file"
   },
+  "/sources/kawanishi-yosan-setsumeisho-r8/r8yosannsetumeisyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/023/909/r8yosannsetumeisyo.pdf",
+    "license": "本ホームページで掲載している情報（文章・画像などの全てのコンテンツデータ）の著作権は、原則として川西市に帰属します（一部の画像等は原著作者が所有しています）。著作権法上認められている場合を除き、権利者の許可なく複製・転用・販売・改変といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
   "/sources/kawanishi-yosan-setsumeisho-r7/R7yosannsetumeisho0214.pdf": {
     "mode": "origin",
     "href": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/021/134/R7yosannsetumeisho0214.pdf",
@@ -26725,6 +26761,18 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本ウェブサイトに掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。また、本ウェブサイト全体も、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
     "target": "page"
   },
+  "/sources/koga-fukuoka-yosan-setsumei-r8/R8setsumeisho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koga.fukuoka.jp/cityhall/work/zaisei/015.php",
+    "license": "本ウェブサイトに掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。また、本ウェブサイト全体も、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/koga-fukuoka-yosan-setsumei-r7/R7setumeisho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.koga.fukuoka.jp/cityhall/work/zaisei/015.php",
+    "license": "本ウェブサイトに掲載されている情報（文章、写真、イラスト、画像など）は、著作権の対象となっています。また、本ウェブサイト全体も、編集著作物として著作権の対象となっており、ともに著作権法により保護されています。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
   "/sources/minamisoma-yosansho-r8/ippannyosannsho.pdf": {
     "mode": "origin",
     "href": "https://www.city.minamisoma.lg.jp/material/files/group/4/ippannyosannsho.pdf",
@@ -28180,6 +28228,18 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   "/sources/nanto-yosan-youryou-r2/0000071043.pdf": {
     "mode": "origin",
     "href": "https://www.city.nanto.toyama.jp/material/files/group/7/0000071043.pdf",
+    "license": "南砺市ホームページ（以下、当ホームページといいます）で提供するすべてのコンテンツ（情報・文章・画像など)について、権利者の許可なく複製・転用・販売といった二次利用をすることをかたく禁じます。当ホームページに掲載した著作物(文章・画像・音声など）、プログラムにかかわる著作権は、特別の断りがない限り南砺市が保有します。当ホームページに掲載した社名・商品名などの名称は、一般に関係各社の商標・登録商標です。",
+    "target": "file"
+  },
+  "/sources/nanto-gikai-yosansho-r8/d3ca3674fc8fc4713c895ffb24c9ff4d.pdf": {
+    "mode": "origin",
+    "href": "https://www.nanto-shigikai.jp/wp-content/uploads/2026/02/d3ca3674fc8fc4713c895ffb24c9ff4d.pdf",
+    "license": "南砺市ホームページ（以下、当ホームページといいます）で提供するすべてのコンテンツ（情報・文章・画像など)について、権利者の許可なく複製・転用・販売といった二次利用をすることをかたく禁じます。当ホームページに掲載した著作物(文章・画像・音声など）、プログラムにかかわる著作権は、特別の断りがない限り南砺市が保有します。当ホームページに掲載した社名・商品名などの名称は、一般に関係各社の商標・登録商標です。",
+    "target": "file"
+  },
+  "/sources/nanto-gikai-yosansho-r7/6fc88aebded2d8f96beab577a13e2e91.pdf": {
+    "mode": "origin",
+    "href": "https://www.nanto-shigikai.jp/wp-content/uploads/2025/02/6fc88aebded2d8f96beab577a13e2e91.pdf",
     "license": "南砺市ホームページ（以下、当ホームページといいます）で提供するすべてのコンテンツ（情報・文章・画像など)について、権利者の許可なく複製・転用・販売といった二次利用をすることをかたく禁じます。当ホームページに掲載した著作物(文章・画像・音声など）、プログラムにかかわる著作権は、特別の断りがない限り南砺市が保有します。当ホームページに掲載した社名・商品名などの名称は、一般に関係各社の商標・登録商標です。",
     "target": "file"
   },
