@@ -4173,12 +4173,15 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `seikacho-yosansho-${fy}`, muniCode: "263664", muniName: "精華町", prefName: "京都府", isPref: false,
     })),
-    // 函南町の R7・R6 は予算書がデジタルブックの画像だけ。R4〜R2 は「予算の状況」（5年分の表）
+    // 函南町の R7・R6 は予算書がデジタルブックの画像だけなので R8 附属資料の5年分の表から。R4〜R2 は各年度の「予算の状況」（5年分の表）
     ...(["r8", "r5"] as const).map((fy) => ({
       srcId: `kannami-yosansho-${fy}`, muniCode: "223255", muniName: "函南町", prefName: "静岡県", isPref: false,
     })),
     ...(["r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kannami-yosanjokyo-${fy}`, muniCode: "223255", muniName: "函南町", prefName: "静岡県", isPref: false,
+    })),
+    ...(["r7", "r6"] as const).map((fy) => ({
+      srcId: `kannami-fuzoku-${fy}`, muniCode: "223255", muniName: "函南町", prefName: "静岡県", isPref: false,
     })),
     // 広陵町の R4 は総括が線画・R3・R2 は予算書なし
     ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({

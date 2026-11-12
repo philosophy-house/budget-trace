@@ -36122,7 +36122,8 @@ export const SOURCES: SourceEntry[] = [
   //   R4・R3・R2 は予算書が載らず、各年度の「一般会計歳入（歳出）予算の状況」（5年分の当初予算額の表・列見出し「当初予算額」）の当年度と前年度の列。
   //     款番号が無く自主財源→依存財源の順（kanNoless・kanNoNumbers・amountIntIndex 4 / prevIntIndex 3）。左端の縦書き「自主財源」「依存財源」を revenueCropX で切る
   //     （kanNamePrefixStrip だと「自動車取得税交付金」の「自」まで落ちる）。小計の行は revenueHeaderExtra で捨てる。自動車取得税交付金・諸支出金（0 / 1）は款として残す。
-  //   R7・R6 は年度ページに PDF が無く、デジタルブック（ecocat）のページ画像だけ ⇒ unrecordable.ts。
+  //   R7・R6 は年度ページに PDF が無く、予算書はデジタルブック（ecocat）のページ画像だけ ⇒ R8 の一般会計附属資料（R8fuzokuichi.pdf）の
+  //     「一般会計歳入（歳出）予算の状況」（R4〜R8 の5年分の当初予算額）の列から取る（下の kannami-fuzoku-r7/r6・2026-11-12 に人が判断）。
   // 前年度列は当初（R8←R7〔画像を目視〕←R6〔画像〕←R5←R4←R3←R2 で款単位一致・偵察が実測）。骨格の語なし（R8 予算書の復号全文・概要）。議会修正の記載なし。
   // ライセンス: 全ページのフッター「Copyright (c) 2024 Kannami Town. All Rights Reserved.」だけ（著作権・リンクのページがサイトに無い・確認日 2026-11-12）
   //   ⇒ license-no-grant.ts で要許可。ふじのくにオープンデータカタログに函南町の予算・決算は0件。リンクの条項なし ⇒ noDeepLink なし。
@@ -36169,6 +36170,38 @@ export const SOURCES: SourceEntry[] = [
       amountIntIndex: 4, prevIntIndex: 3,
       revenueCropX: { from: 57, to: 842 },
       revenueHeaderExtra: "^\\s*小\\s*計",
+    },
+  } satisfies SourceEntry)),
+  // 函南町 R7・R6（2026-11-12・第103巡の続き・docs §13-120）。予算書はデジタルブックの画像だけなので、R8 の一般会計附属資料（R8fuzokuichi.pdf）
+  //   p.4（歳入）・p.6（歳出）の「予算の状況」＝ R4〜R8 の5年分の当初予算額の表から、その年度の列と前年度の列を取る（後年度の資料から取ることは人が判断して入れた）。
+  //   列は [R4, R5, R6, R7, R8] ⇒ R7 は amountIntIndex 3 / prevIntIndex 2、R6 は 2 / 1。⚠ 添字を取り違えても Σ は通るので年度間の鎖が唯一の守り
+  //   （R8 予算書の前年度列＝R7 の列・R5 予算書の本年度列＝R6 の前年度列を款単位で照合済み。偵察が R7・R6 の予算書の画像とも全款一致を目視）。
+  //   ⚠ R8 版は空セルが「―」で、dashAsZero が無いと `自動車取得税交付金―――…環境性能割交付金` が Σ 差0 のまま通る。
+  //   比較画面の資料注記（prevNote）に、この年度の数字の出所を書く。
+  ...([
+    ["R7", 3, 2],
+    ["R6", 2, 1],
+  ] as const).map(([fy, ai, pi]) => ({
+    id: `kannami-fuzoku-${fy.toLowerCase()}`,
+    title: `令和8年度 函南町一般会計当初予算附属資料（予算の状況 ${eraYear(fy)}年度の当初予算額）`,
+    publisher: "函南町",
+    url: "https://www.town.kannami.shizuoka.jp/material/files/group/3/R8fuzokuichi.pdf",
+    landingPage: "https://www.town.kannami.shizuoka.jp/gyosei/zaisei/6211.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "函南町（一般会計・団体コード223255）",
+    license: KANNAMI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 4, expenditurePage: 6,
+      revenueHeading: "一般会計歳入予算の状況", expenditureHeading: "一般会計歳出予算の状況",
+      revenueTotalLabel: "合計", expenditureTotalLabel: "合計",
+      kanNoless: true, kanNoNumbers: true,
+      amountIntIndex: ai, prevIntIndex: pi,
+      revenueCropX: { from: 57, to: 842 },
+      revenueHeaderExtra: "^\\s*小\\s*計",
+      dashAsZero: true,
+      prevNote: `${eraYear(fy)}年度の予算書はページ画像でしか公開されていないため、この年度の額と前年度の額は、令和8年度の「一般会計当初予算附属資料」の「予算の状況」（令和4〜8年度の当初予算額の表）から取っています。`,
     },
   } satisfies SourceEntry)),
   // 広陵町（奈良県・団体コード 294268 ＝ 総務省 R6.json から実引き）。「予算書及び予算に関する説明書」の一般会計「歳入歳出予算事項別明細書 １ 総括」。千円。

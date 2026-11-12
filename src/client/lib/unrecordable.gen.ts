@@ -979,15 +979,6 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
-  "223255": {
-    "budget": [
-      {
-        "fyLabel": "令和7年度・令和6年度",
-        "reason": "予算書がデジタルブックのページ画像としてだけ公開されていて、文字の情報が無い。",
-        "checkedOn": "2026-11-12"
-      }
-    ]
-  },
   "232017": {
     "budget": [
       {

@@ -30961,6 +30961,18 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "Copyright (c) 2024 Kannami Town. All Rights Reserved.",
     "target": "file"
   },
+  "/sources/kannami-fuzoku-r7/R8fuzokuichi.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kannami.shizuoka.jp/material/files/group/3/R8fuzokuichi.pdf",
+    "license": "Copyright (c) 2024 Kannami Town. All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/kannami-fuzoku-r6/R8fuzokuichi.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.kannami.shizuoka.jp/material/files/group/3/R8fuzokuichi.pdf",
+    "license": "Copyright (c) 2024 Kannami Town. All Rights Reserved.",
+    "target": "file"
+  },
   "/sources/koryo-yosansho-r8/R8yosan.pdf": {
     "mode": "origin",
     "href": "https://www.town.koryo.nara.jp/0000007843.html",
