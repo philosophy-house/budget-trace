@@ -345,7 +345,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "（正しくは土木費）になる。金額そのものを信用できないため決定的に読み取れない。" +
       "R7〜R2 は同じ「当初予算の概要」で収録済み。",
     url: "https://www.city.hiratsuka.kanagawa.jp/keikaku/page-c_02405.html",
-    checkedOn: "2026-08-23", ref: "docs/data-sources.md §13-14",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-14",
   },
   {
     code: "142034", name: "平塚市", dataset: "budget",
@@ -1542,7 +1542,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "款番号の無いこの行を款として数えられないので当年度の款の合計が総額と合わず、前年度の合計も前年度の当初予算額と違う額で印字されている。" +
       "款別の数字が載るほかの資料は、予算書の総括が文字として取り出せず、予算説明資料は紙のスキャンで、代わりにならなかった。",
     url: "https://www.city.koganei.lg.jp/shisei/zaiseiyosan/yosan/yosanhensei/R8tousyoyosanhensei.html",
-    checkedOn: "2026-09-25", ref: "docs/data-sources.md §13-39",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-39",
   },
   {
     // 霧島市（462187）R2。R8〜R3・H31 の7年度は収録済み（§13-39）。
@@ -2125,7 +2125,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
       "一般会計予算書の総括のページが図形として描かれていて、文字として取り出せない。" +
       "当初予算の概要は紙をスキャンした画像に読み取った文字を重ねたもので、前年度の列も当初ではなく6月補正後の額になっている。",
     url: "https://www.city.amakusa.kumamoto.jp/kiji00314086/index.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-70",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-70",
   },
   {
     // 渋川市（102083）R8〜R2。1年度も収録できていない（§13-70）。
@@ -2320,17 +2320,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-87",
   },
   {
-    // 古賀市（402231）R8・R7。R6〜R2 は収録済み（§13-85）。説明書 R8setsumeisho.pdf・R7setumeisho.pdf の p.4 は A3 見開きを1ページに収めた版で、歳入の総括が左右2段。
-    // 既存パーサは1ページを1つの帯としてしか読めない（CropX は1区間だけ）。歳出の総括 p.5 は読めるが、歳入が読めないので年度ごと見送る。
-    code: "402231", name: "古賀市", dataset: "budget", fiscalYears: ["R8", "R7"],
-    categories: ["parser-unsupported"],
-    reason:
-      "款ごとの前年度比較が載る予算に関する説明書が、見開きの2ページを1ページに収めた版で、歳入の総括表が左右2段（左に款1〜22、右に款23と合計）に分かれていて、既存のパーサで読めない。" +
-      "予算書の第1表には前年度の額が無く、予算案の概要には款別の表が無い。",
-    url: "https://www.city.koga.fukuoka.jp/cityhall/work/zaisei/015.php",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-85",
-  },
-  {
     // 佐伯市（442054）R2。R8〜R3 は収録済み（§13-82）。
     // 予算書 3_1997_4470_up_4n0mxoso.pdf（36MB・337p・Producer「Microsoft: Print To PDF」）はテキスト層もフォントも無い。概要の分冊「歳入」は「地方譲与税･各種交付金」をまとめた集約表で款別でない（偵察）。
     code: "442054", name: "佐伯市", dataset: "budget", fiscalYears: ["R2"],
@@ -2404,7 +2393,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "予算の概要・予算書・予算に関する説明書のどれもが紙をスキャンした画像の PDF で、款ごとの表を文字として取り出せない。",
     url: "https://www.city.yamatotakada.nara.jp/shisei/zaisei_yosan_kessan/3298.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-86",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-86",
   },
   {
     // 白河市（072052）R8〜R2。1年度も収録できていない（§13-88）。
@@ -2478,7 +2467,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     reason:
       "一般会計予算書の文字がすべて図形として描かれていて、文字として取り出せない。当初予算の概要は百万円単位で、いくつかの款をまとめた区分しか載っていない。",
     url: "https://www.city.tamano.lg.jp/site/zaisei/54011.html",
-    checkedOn: "2026-10-22", ref: "docs/data-sources.md §13-91",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-91",
   },
   {
     // 福生市（132187）R5・R4。R8〜R6・R3・R2 は収録済み（§13-92）。予算書の総括は R4 が歳入ページ（物理 p.19）だけ文字が図形に変換されていて（pdfimages 0件）、R5 は文字が二重に描かれて「88,,092,」のように崩れる。
@@ -2936,15 +2925,6 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["scanned-image"],
     reason: "予算概要書は紙をスキャンした画像で文字の情報が無く、文字の情報がある記者向けの資料には款別の表が無い。",
     url: "https://www.city.takashima.lg.jp/material/files/group/9/02shiryo1.pdf",
-    checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
-  },
-  {
-    // 南砺市（162108）R8・R7。「予算の要領の公表」の当初予算書（/material/files/group/7/yosan_R8_tosyo1.pdf・yosan_R7_tosyo1.pdf・DocuWorks）は表全体が図形（ベクタ）で描かれ、
-    // 取り出せる文字は1ページ目の公表文と議決印だけ。同じ年度の「南砺市予算の概要」も全ページ画像。Wayback に捕捉なし・WARP は照会が 500 で未確認（§13-109）。
-    code: "162108", name: "南砺市", dataset: "budget", fiscalYears: ["R8", "R7"],
-    categories: ["broken-text-layer", "scanned-image"],
-    reason: "予算書の表は文字ではなく図形として描かれていて文字の情報が無く、同じ年度の予算の概要も画像だけで、款別の金額を読み取れない。",
-    url: "https://www.city.nanto.toyama.jp/soshiki/zaisei/1/2/1/index.html",
     checkedOn: "2026-10-26", ref: "docs/data-sources.md §13-109",
   },
   {
