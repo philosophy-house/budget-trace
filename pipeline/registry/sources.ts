@@ -606,6 +606,9 @@ const OKAYA_LICENSE =
   "本ホームページは、著作権法上認められた「私的使用のための複製」や「引用」などの場合を除き、無断で複製、転載、販売、貸与することはできません。また、本ホームページの内容の全部または一部について、無断で改変することもできません。";
 const SUWA_LICENSE =
   "諏訪市ホームページ上に掲載されている文書や画像等のコンテンツの無断使用・転載・引用を禁じます。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、諏訪市の許可なく諏訪市ホームページに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。";
+const MIZUNAMI_LICENSE = "瑞浪市ホームページ(www.city.mizunami.lg.jp/)内の各ページに記載されている記事、写真、音声、イラスト等の無断転載を禁じます。";
+const MAIBARA_LICENSE =
+  "米原市ウェブサイトに掲載している記事や写真、イラストなどの著作権は、米原市に帰属します。著作権は、法律や国際条約で保護されています。このウェブサイトに掲載されているコンテンツを、私的な利用、その他法律で認める範囲を超えて許可なく使用・複製・転載できません。";
 const TOKAIMURA_LICENSE = "掲載されている画像,文章等に関する著作権は,特別の断りがない限り東海村に帰属します。無断で転載することを禁じます。";
 const UOZU_LICENSE =
   "このホームページに掲載されている文章、画像等の著作権は、魚津市または文章、画像等の提供者の方にあります。これらの著作物は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については各ページに記載されている情報発信元、もしくは魚津市企画広報室へお問い合わせください。";
@@ -35011,6 +35014,90 @@ export const SOURCES: SourceEntry[] = [
       revenueHeaderExtra: "左の", expenditureHeaderExtra: "左の",
     },
   },
+  // 瑞浪市（岐阜県・団体コード 212083 ＝ 総務省 R6.json から実引き）。「当初予算の概要」の「一般会計歳入歳出予算額の内訳」（歳入）と（歳出）（目的別）。千円。
+  //   歳入22款（R2 は廃止款「自動車取得税交付金 0 / 24,000」を含め23）・歳出14款。物理ページは年度で動く（印字＋2）。
+  //   ⚠ expenditureHeading を「（目的別）」にすると款1 が「（歳出）議会費」になり Σ 差0 のまま通る ⇒「（歳出）」を見出しにする。
+  //   ⚠ R7 の歳出「災害復旧費 0 5,850 △ 5,850 △ 100.0」は款番号も「皆減」の語も無く行ごと落ちる（前年度 Σ −5,850）⇒ abolishedKanNames。
+  //   歳出の合計ラベルは R8・R7 が「歳出合計」、R6〜R2 が「合計」。添付のファイル名は年度で版番号が付く（r5-yosangaiyo2 など）。
+  // 前年度列は当初（R3〜R8 の6組とも款単位で全一致・偵察が実測）。骨格の語なし（概要・編成方針 R2〜R8。市長選は7月）。議会修正なし（R2〜R8 原案可決）。
+  //   R5 の総額は R4 と同じ 161億円（概要本文「前年度比±０．０％」・款の内訳は違う）。
+  // ライセンス: 「著作権・免責事項」（/about/1003438.html・確認日 2026-11-12）＝`無断転載を禁じます` で要許可。リンクの条項なし ⇒ noDeepLink なし。
+  ...([
+    ["R8", "011/634", "r8-yosangaiyo.pdf", "1011634", 14, 16, "歳出合計"],
+    ["R7", "011/008", "r7-yosangaiyo.pdf", "1011008", 14, 16, "歳出合計"],
+    ["R6", "009/898", "r6-yosangaiyo.pdf", "1009898", 15, 17, "合計"],
+    ["R5", "008/430", "r5-yosangaiyo2.pdf", "1008430", 16, 18, "合計"],
+    ["R4", "007/396", "r4-yosangaiyo3.pdf", "1007396", 16, 18, "合計"],
+    ["R3", "006/328", "r3-yosangaiyo02.pdf", "1006328", 16, 18, "合計"],
+    ["R2", "004/717", "r2-yosangaiyo.pdf", "1004717", 13, 15, "合計"],
+  ] as const).map(([fy, dir, file, landingId, rp, ep, etl]) => ({
+    id: `mizunami-yosan-gaiyo-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 瑞浪市当初予算の概要（一般会計歳入歳出予算額の内訳）`,
+    publisher: "瑞浪市",
+    url: `https://www.city.mizunami.lg.jp/_res/projects/default_project/_page_/001/${dir}/${file}`,
+    landingPage: `https://www.city.mizunami.lg.jp/shisei/yosan/1001336/${landingId}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "瑞浪市（一般会計・団体コード212083）",
+    license: MIZUNAMI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: rp, expenditurePage: ep,
+      revenueHeading: "（歳入）", expenditureHeading: "（歳出）",
+      ...(etl === "合計" ? { expenditureTotalLabel: "合計" } : {}),
+      ...(fy === "R7" ? { abolishedKanNames: { expenditure: ["災害復旧費"] } } : {}),
+    },
+  } satisfies SourceEntry)),
+  // 米原市（滋賀県・団体コード 252140 ＝ 総務省 R6.json から実引き）。千円。
+  //   R8・R7 は一般会計予算書の「歳入歳出予算事項別明細書 １ 総括」（p.13/14）。R6〜R2 は予算書が載らず「当初予算（案）の概要」の
+  //   「①歳入の内訳」（p.9）・「④歳出の内訳〔目的別〕」（p.15）。同じ概要に「⑥歳出の内訳〔性質別〕」があるので見出しは④まで書く。
+  //   ⚠ 概要は列見出しの「差 引」が款1 に付く（`差引市税`・`差引議会費`。Σ 差0 のまま）⇒ revenueHeaderExtra/expenditureHeaderExtra。
+  //   R2 の歳入は廃止款「△ 自動車取得税交付金 0 / 16,000 皆減」を含め22款。年度ページは r{N}_2/r{N}yosan_2/（R2 だけ reiwa2nendo/r2/）。
+  //   ⚠ R5 は議会修正（伊吹高校生通学支援金 1,800千円を削除・令和5年3月23日可決）。概要は原案で、修正後の款別表（syuusei_r5.pdf）には前年度列が無い ⇒ unrecordable.ts。
+  //     R6 の前年度列 22,214,200 は修正可決後の R5（syuusei_r5.pdf の「修正可決後」列と全款一致）＝議決された当初予算なので prevNote は要らない。
+  // 前年度列は当初（R8/R7・R7/R6・R4/R3・R3/R2・R2/H31 で款単位全一致）。骨格: R8 概要 p.5 の注記で骨格（政策的経費を除いて編成）は H29 だけ。
+  //   R3 は「準通年型予算」で作業していたが市長選挙が無投票となり「最終的に通年予算として予算案を編成」（R3 概要 p.3）＝骨格ではない。
+  // ライセンス: サイトポリシー（/homepage/policy.html・確認日 2026-11-12）＝「許可なく使用・複製・転載できません」で要許可。BODIK のオープンデータ（6件）に予算は無い。
+  //   リンク「米原市ウェブサイトへのリンクは原則自由にしていただけます。」⇒ noDeepLink なし。
+  ...([
+    ["R8", "R8ippannkaikei.pdf", "r8_2/r8yosan_2/23008"],
+    ["R7", "R7ippannkaikei00.pdf", "r7_2/r7yosan_2/21557"],
+  ] as const).map(([fy, file, landing]) => ({
+    id: `maibara-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 米原市一般会計予算（歳入歳出予算事項別明細書 総括）`,
+    publisher: "米原市",
+    url: `https://www.city.maibara.lg.jp/material/files/group/8/${file}`,
+    landingPage: `https://www.city.maibara.lg.jp/shisei/zaisei/yosan/${landing}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "米原市（一般会計・団体コード252140）",
+    license: MAIBARA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: { revenuePage: 13, expenditurePage: 14, revenueHeading: "歳入", expenditureHeading: "歳出" },
+  } satisfies SourceEntry)),
+  ...([
+    ["R6", "r6_yosangaiyou.pdf", "r6_2/r6yosan_2/20047"],
+    ["R4", "r4_yosangaiyou.pdf", "r4_2/r4yosan_2/16635"],
+    ["R3", "r3_yosangaiyou.pdf", "r3_2/r3yosan_2/15165"],
+    ["R2", "r2_yosangaiyou.pdf", "reiwa2nendo/r2/13561"],
+  ] as const).map(([fy, file, landing]) => ({
+    id: `maibara-yosangaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 米原市当初予算案の概要（一般会計 歳入の内訳・歳出の内訳〔目的別〕）`,
+    publisher: "米原市",
+    url: `https://www.city.maibara.lg.jp/material/files/group/8/${file}`,
+    landingPage: `https://www.city.maibara.lg.jp/shisei/zaisei/yosan/${landing}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "米原市（一般会計・団体コード252140）",
+    license: MAIBARA_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 9, expenditurePage: 15,
+      revenueHeading: "①歳入の内訳", expenditureHeading: "④歳出の内訳",
+      revenueTotalLabel: "合計", expenditureTotalLabel: "合計",
+      revenueHeaderExtra: "^差引$", expenditureHeaderExtra: "^差引$",
+    },
+  } satisfies SourceEntry)),
   // 東海村（茨城県・団体コード 083411 ＝ 総務省 R6.json から実引き。⚠ 愛知県東海市 232220 とは別団体 ⇒ id・スラグは `tokaimura`）。
   //   予算書「Ⅰ 歳入歳出予算事項別明細書 １ 総括」。千円。R6 は一般・特別会計の合本で物理ページが1つずれる。R3 は村債と歳入合計だけが次ページ ⇒ `revenuePages`。
   //   ⚠ 題（「…明細書」）が歳入の款1 に、財源内訳の列見出しが歳出の款1 に付く（Σ差0）⇒ `revenueHeaderExtra`・`expenditureHeaderExtra`。
