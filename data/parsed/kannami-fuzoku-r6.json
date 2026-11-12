@@ -3,7 +3,7 @@
   "sourceId": "kannami-fuzoku-r6",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-11-12T14:28:15.586Z",
+  "parsedAt": "2026-11-12T14:33:27.031Z",
   "unit": "thousandYen",
   "fiscalYear": "R6",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 12474000,
   "prevExpenditureTotal": 12474000,
   "prevBasis": "当初",
-  "prevNote": "令和6年度の予算書はページ画像でしか公開されていないため、この年度の額と前年度の額は、令和8年度の一般会計予算附属資料「予算の状況」（令和4〜8年度の当初予算額の表）から取っています。",
+  "prevNote": "令和6年度の予算書はページ画像でしか公開されていないため、この年度の額と前年度の額は、令和8年度の「一般会計当初予算附属資料」の「予算の状況」（令和4〜8年度の当初予算額の表）から取っています。",
   "facts": [
     {
       "side": "revenue",

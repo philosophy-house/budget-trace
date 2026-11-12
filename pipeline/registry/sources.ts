@@ -36183,7 +36183,7 @@ export const SOURCES: SourceEntry[] = [
     ["R6", 2, 1],
   ] as const).map(([fy, ai, pi]) => ({
     id: `kannami-fuzoku-${fy.toLowerCase()}`,
-    title: `令和8年度 函南町一般会計予算附属資料（予算の状況 ${eraYear(fy)}年度の当初予算額）`,
+    title: `令和8年度 函南町一般会計当初予算附属資料（予算の状況 ${eraYear(fy)}年度の当初予算額）`,
     publisher: "函南町",
     url: "https://www.town.kannami.shizuoka.jp/material/files/group/3/R8fuzokuichi.pdf",
     landingPage: "https://www.town.kannami.shizuoka.jp/gyosei/zaisei/6211.html",
@@ -36201,7 +36201,7 @@ export const SOURCES: SourceEntry[] = [
       revenueCropX: { from: 57, to: 842 },
       revenueHeaderExtra: "^\\s*小\\s*計",
       dashAsZero: true,
-      prevNote: `${eraYear(fy)}年度の予算書はページ画像でしか公開されていないため、この年度の額と前年度の額は、令和8年度の一般会計予算附属資料「予算の状況」（令和4〜8年度の当初予算額の表）から取っています。`,
+      prevNote: `${eraYear(fy)}年度の予算書はページ画像でしか公開されていないため、この年度の額と前年度の額は、令和8年度の「一般会計当初予算附属資料」の「予算の状況」（令和4〜8年度の当初予算額の表）から取っています。`,
     },
   } satisfies SourceEntry)),
   // 広陵町（奈良県・団体コード 294268 ＝ 総務省 R6.json から実引き）。「予算書及び予算に関する説明書」の一般会計「歳入歳出予算事項別明細書 １ 総括」。千円。
