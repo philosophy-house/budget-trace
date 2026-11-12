@@ -16,6 +16,7 @@ import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { decodeGarbleText } from "../lib/garble-decode";
+import { decodeGlyphIdText } from "../lib/garble-ipamincho";
 import type { BudgetBookDoc, BudgetLineFact, BudgetProjectFact, SourceEntry } from "../types";
 
 export const PARSER_VERSION = "0.2.0";
@@ -103,9 +104,14 @@ interface Options {
    *
    * **切り出しは pdftotext 自身の -x/-W に任せる**（座標を自前で組み直さない）。
    * 静岡は A4 横（842pt）で、歳入の右端が約400pt・歳出の左端が約425pt＝**ガター幅24〜26pt**。
+   *
+   * **配列で渡すと、1ページを複数の帯に切って左から順に縦へ連結する**（2026-11-12・古賀 R8・第106巡）。
+   * 見開き2ページを1ページに収めた版で、**1つの表が左右2段に続く**様式用（古賀 R8: 左に款1〜22、右に款23と合計）。
+   * 単一の帯では片方しか読めず、帯なしでは `-layout` が左右を1行に融合して款23 と合計が款の行に混ざる。
+   * ⚠ 右の段の頭に繰り返される見出し（`歳入歳出予算事項別明細書`・`総括`・`（歳入）`）は HeaderExtra で落とす。
    */
-  revenueCropX?: CropX;
-  expenditureCropX?: CropX;
+  revenueCropX?: CropX | CropX[];
+  expenditureCropX?: CropX | CropX[];
   /**
    * **`pdftotext` のテキスト抽出モード**。既定は `-layout`（列がスペースで揃うので行パーサが素直）。
    *
@@ -190,6 +196,30 @@ interface Options {
    * `(給)` の無い款（公債費・職員給与費・予備費など）は1行で、従来どおり読む。⚠ **opt-in・側ごと**。
    */
   salaryRegroupRows?: { revenue?: boolean; expenditure?: boolean };
+  /**
+   * **款と項を1つの表に入れ、款の金額を款名より上の「金額だけの行」に置く様式**（側ごと・2026-11-12・岡谷 R8〜R2・#403）。
+   * 岡谷の「岡谷市の予算」は款ごとに、金額だけの行（款の額）→ 項の行（字下げ）が続き、**款名は項の行の左端に同居する**か単独行になる:
+   * ```
+   *                                       6,973,000     6,845,000        128,000   ← ① 款の金額（款名も項も無い）
+   *                  １ 市民税                3,250,800     3,209,800         41,000   ← 項（字下げ）
+   * １ 市税             ３ 軽自動車税               189,600       198,600        △ 9,000   ← 款名（左端）＋別の項
+   *                                       143,000       162,000        △ 19,000   ← 次の款の ①
+   * ２ 地方譲与税                                                                       ← 款名だけの行
+   * ```
+   * `amountsAboveName` は直前の行しか見ないので当たらない。`true` の側では、金額だけの行から次の金額だけの行（か合計ラベルの行）までを
+   * 1つの款のまとまりとみなし、**左端（字下げなし）で款番号から始まる行**の款名と ① の金額で `番号 款名 金額…` の1行に書き換え、
+   * まとまりの他の行（項）を消す。まとまりに款名の行が0本・2本以上なら throw（静かに読み違えない）。合計ラベルの行以降は触らない。
+   * ⚠ **opt-in・側ごと**。款名は空白を含まない1語として読む（款名の後ろに2つ以上の空白を挟んで項が同居するため）。
+   */
+  kanAmountBlockRows?: { revenue?: boolean; expenditure?: boolean };
+  /**
+   * **グリフ ID そのものが出る PDF の復号**（2026-11-12・諏訪 R8・R6・R5・#400・pipeline/lib/garble-ipamincho.ts）。
+   * ToUnicode の無い CID フォント（Identity-H）で、pdftotext のコードポイントがフォントのグリフ ID になっている資料に、
+   * そのフォントの cmap を逆引きした表を当てる。値は表の名前（いまは `"IPAMincho-003.03"` だけ）。
+   * 既存の `decodeGarble`（荒川系の共通マップ）とは**キーが衝突する**ので併用しない（両方指定すると throw）。
+   * 表に無い字は throw する。⚠ **両側のページ全文に効く**（側ごとには分けない — 同じ冊子は同じフォントで組まれる）。
+   */
+  decodeGlyphIds?: string;
   /**
    * **ToUnicode 欠落 PDF の決定論的復号**（#159・pipeline/lib/garble-decode.ts）。
    * 豊島 R4/R2/H31〜H29・大田 H27・品川 R2 は荒川（#125）と同一の化けマップで、
@@ -962,6 +992,41 @@ function foldSalaryRegroupRows(text: string, where: string): string {
   return lines.join("\n");
 }
 
+/** Options.kanAmountBlockRows の本体。金額だけの行で始まる款のまとまりを `番号 款名 金額…` の1行に畳む。 */
+function foldKanAmountBlockRows(text: string, where: string): string {
+  const lines = text.split("\n");
+  const AMOUNT_ONLY = /^[\s　\d,.△▲]+$/;
+  const isPageNo = (l: string) => /^[\s　]*[-－‐]\s*\d+\s*[-－‐]?[\s　]*$/.test(l);
+  // 皆増・皆減の款（R5 `0 229,300 皆減`・R4 `229,300 0 皆増`）は比較の欄が語になるので、末尾の語だけ許す
+  const isAmountOnly = (l: string) => {
+    const body = l.replace(/[\s　]*皆[増減][\s　]*$/, "");
+    return AMOUNT_ONLY.test(body) && !isPageNo(body) && (body.match(/[\d,]+/g) ?? []).filter((t) => /\d/.test(t)).length >= 2;
+  };
+  const TOTAL = /合[\s　]*計/;
+  // 款番号か、廃止款の印（R5 `△ 災害復旧費`）。番号の無い款は印のまま書き戻し、以降の廃止款の分岐に任せる
+  const KAN = /^([0-9０-９]{1,2}|[△▲])[ 　]*([^\s　0-9０-９△▲][^\s　]*)/;
+  let i = lines.findIndex(isAmountOnly);
+  if (i < 0) throw new Error(`${where}: kanAmountBlockRows — 金額だけの行がありません`);
+  while (i < lines.length) {
+    const amountLine = lines[i]!;
+    let j = i + 1;
+    while (j < lines.length && !isAmountOnly(lines[j]!) && !TOTAL.test(lines[j]!)) j++;
+    const kanRows: number[] = [];
+    for (let k = i + 1; k < j; k++) if (KAN.test(lines[k]!)) kanRows.push(k);
+    if (kanRows.length !== 1) {
+      throw new Error(
+        `${where}: kanAmountBlockRows — 金額行「${amountLine.trim()}」のまとまりに款名の行が ${kanRows.length} 本あります（1本であるべき）`,
+      );
+    }
+    const m = lines[kanRows[0]!]!.match(KAN)!;
+    lines[i] = `${m[1]} ${m[2]}   ${amountLine.trim()}`;
+    for (let k = i + 1; k < j; k++) lines[k] = "";
+    if (j >= lines.length || TOTAL.test(lines[j]!)) break;
+    i = j;
+  }
+  return lines.join("\n");
+}
+
 function parseKanPage(
   filePath: string,
   filename: string,
@@ -1021,7 +1086,19 @@ function parseKanPage(
     ? pdfPageText(filePath, spread.namePage, undefined, src, opts.visibleTextOnly) +
       "\n" +
       pdfPageText(filePath, spread.amountPage, undefined, src, opts.visibleTextOnly)
-    : pages.map((p) => pdfPageText(filePath, p, cropX, src, opts.visibleTextOnly)).join("\n");
+    : pages
+        .map((p) =>
+          // 帯の配列は左から順に縦へ連結する（Options.revenueCropX 参照）
+          (Array.isArray(cropX) ? cropX : [cropX])
+            .map((c) => pdfPageText(filePath, p, c, src, opts.visibleTextOnly))
+            .join("\n"),
+        )
+        .join("\n");
+  // グリフ ID そのものが出る PDF の復号（Options.decodeGlyphIds 参照）。decodeGarble とは併用しない
+  if (opts.decodeGlyphIds) {
+    if (opts.decodeGarble) throw new Error(`${filename}: decodeGlyphIds と decodeGarble は併用できません`);
+    text = decodeGlyphIdText(text, opts.decodeGlyphIds, `${filename} ${pageLabel}`);
+  }
   // ToUnicode 欠落の復号（Options.decodeGarble 参照）。パース前にページ全文を復元する
   if (opts.decodeGarble) {
     const band = side === "revenue" ? opts.decodeGarbleBand?.revenue : opts.decodeGarbleBand?.expenditure;
@@ -1041,6 +1118,10 @@ function parseKanPage(
   // 職員給与費の組替を併記する3行組を1行に畳む（Options.salaryRegroupRows 参照）。誤植修正より前（行の組み替えだけで字は変えない）
   if (side === "revenue" ? opts.salaryRegroupRows?.revenue : opts.salaryRegroupRows?.expenditure) {
     text = foldSalaryRegroupRows(text, `${filename} ${pageLabel}`);
+  }
+  // 款のまとまり（金額だけの行＋項の行）を1行に畳む（Options.kanAmountBlockRows 参照）。行の組み替えだけで字は変えない
+  if (side === "revenue" ? opts.kanAmountBlockRows?.revenue : opts.kanAmountBlockRows?.expenditure) {
+    text = foldKanAmountBlockRows(text, `${filename} ${pageLabel}`);
   }
   // 原典の誤植をピンポイントで直す（Options.amountTypos 参照）。**dashAsZero・折返し復元より先** —
   // 誤植は原典の印字そのものなので、以降の全処理が「正しい印字」を前提に動けるようにする
@@ -1086,6 +1167,10 @@ function parseKanPage(
   // 見開き2ページ型（Options.revenueSpread 参照）: 款名ページと金額ページを**行順で1:1に組み**、
   // 以降は通常の1ページ表と同じ経路で読む（皆減・折返し・ヘッダ除外・合計検出をそのまま使えるため）。
   if (spread) {
+    // 帯の配列（左右2段の連結）は見開き2ページ型と組み合わせない（行順の1:1対応が崩れる）
+    if (Array.isArray(cropX)) {
+      throw new Error(`${filename} ${pageLabel}: CropX の配列と revenueSpread/expenditureSpread は併用できません`);
+    }
     const [nameText, amountText] = [
       pdfPageText(filePath, spread.namePage, cropX, src, opts.visibleTextOnly),
       pdfPageText(filePath, spread.amountPage, cropX, src, opts.visibleTextOnly),
@@ -2399,22 +2484,41 @@ function parseProjectsTableLines(
   const facts: BudgetProjectFact[] = [];
   let currentShisaku = "";
   for (let page = from; page <= to; page++) {
+    // 直前の行が事業行だったときの、その事業（事業名の折返しを連結する先）
+    let lastFact: BudgetProjectFact | null = null;
     for (const rawOrig of pdfPageText(filePath, page).split("\n")) {
       const raw = toHalfDigits(rawOrig);
       // 施策見出し「（N）…」
       const shM = raw.match(/^\s*（\s*\d+\s*）\s*(.+?)\s*$/);
       if (shM) {
         currentShisaku = shM[1]!.replace(/[\s　]/g, "");
+        lastFact = null;
         continue;
       }
       // 事業行: 行頭が非空白の事業名 → 2つ以上の空白 → 予算額（千円）
       const m = raw.match(/^(\S.+?)\s{2,}([\d,]+)(?:\s|$)/);
-      if (!m) continue;
+      if (!m) {
+        // **事業名の折返し**（2026-11-12・山口 R7・R8・第106巡のレビュー）: 事業名欄が狭く、事業行の**直後の行の0桁目**に
+        //   名前の続きが来る（`地域救急医療運営費補助事  76,987 …` / `業費      る補助`）。捨てると R8 688件中156件・R7 731件中170件の
+        //   事業名が途中で切れていた（表示専用の項目なので Σ もゲートも通る）。内容・担当課の列の折返しは行頭が空白なので当たらない。
+        //   空行・見出しを挟んだら連結しない（lastFact を切る）。
+        const cont = lastFact ? raw.match(/^(\S+)(?:\s{2,}|$)/) : null;
+        if (cont && lastFact) {
+          lastFact.name += cont[1]!;
+          lastFact = null; // 折返しは1行だけ（3行目は来ない様式）
+        } else {
+          lastFact = null;
+        }
+        continue;
+      }
       const name = m[1]!.replace(/[\s　]/g, "");
       const amount = toAmount(m[2]!);
       // 見出し・ヘッダ・少額ノイズを除去（事業名2文字以上・10万円=100千円以上）
-      if (name.length < 2 || amount < 100 || /予算額|事業名|事業内容|担当課|単位/.test(name)) continue;
-      facts.push({
+      if (name.length < 2 || amount < 100 || /予算額|事業名|事業内容|担当課|単位/.test(name)) {
+        lastFact = null;
+        continue;
+      }
+      const fact: BudgetProjectFact = {
         kan: null,
         no: null,
         kubun: null,
@@ -2425,7 +2529,9 @@ function parseProjectsTableLines(
         basicGoal: "",
         shisaku: currentShisaku,
         locator: { file: filename, page },
-      });
+      };
+      facts.push(fact);
+      lastFact = fact;
     }
   }
   if (facts.length === 0) throw new Error(`${filename}: 主な事業（table-lines）が1件も抽出できませんでした`);

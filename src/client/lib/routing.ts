@@ -570,6 +570,24 @@ const MUNI_SLUGS: Record<string, string> = {
   "083411": "tokaimura", // ⚠ 愛知県東海市 232220 が "tokai"
   "162043": "uozu",
   "093611": "mibu",
+  "202061": "suwa",
+  "202045": "okaya",
+  "172090": "kahoku", // ⚠ 山形県河北町 063215 とは別団体（河北町は未収録）
+  "252140": "maibara",
+  "234257": "kanie",
+  "233625": "fuso",
+  "212083": "mizunami",
+  "263664": "seika",
+  "223255": "kannami",
+  "294268": "koryo",
+  "082074": "yuki",
+  "082317": "sakuragawa",
+  "082295": "inashiki",
+  "022071": "misawa",
+  "122343": "minamiboso",
+  "113247": "miyoshimachi", // ⚠ 愛知県みよし市 232360（miyoshi）・広島県三次市 342092 とは別団体
+  "012254": "takikawa",
+  "044067": "rifu",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",
