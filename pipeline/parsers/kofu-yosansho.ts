@@ -2415,22 +2415,41 @@ function parseProjectsTableLines(
   const facts: BudgetProjectFact[] = [];
   let currentShisaku = "";
   for (let page = from; page <= to; page++) {
+    // 直前の行が事業行だったときの、その事業（事業名の折返しを連結する先）
+    let lastFact: BudgetProjectFact | null = null;
     for (const rawOrig of pdfPageText(filePath, page).split("\n")) {
       const raw = toHalfDigits(rawOrig);
       // 施策見出し「（N）…」
       const shM = raw.match(/^\s*（\s*\d+\s*）\s*(.+?)\s*$/);
       if (shM) {
         currentShisaku = shM[1]!.replace(/[\s　]/g, "");
+        lastFact = null;
         continue;
       }
       // 事業行: 行頭が非空白の事業名 → 2つ以上の空白 → 予算額（千円）
       const m = raw.match(/^(\S.+?)\s{2,}([\d,]+)(?:\s|$)/);
-      if (!m) continue;
+      if (!m) {
+        // **事業名の折返し**（2026-11-12・山口 R7・R8・第106巡のレビュー）: 事業名欄が狭く、事業行の**直後の行の0桁目**に
+        //   名前の続きが来る（`地域救急医療運営費補助事  76,987 …` / `業費      る補助`）。捨てると R8 688件中156件・R7 731件中170件の
+        //   事業名が途中で切れていた（表示専用の項目なので Σ もゲートも通る）。内容・担当課の列の折返しは行頭が空白なので当たらない。
+        //   空行・見出しを挟んだら連結しない（lastFact を切る）。
+        const cont = lastFact ? raw.match(/^(\S+)(?:\s{2,}|$)/) : null;
+        if (cont && lastFact) {
+          lastFact.name += cont[1]!;
+          lastFact = null; // 折返しは1行だけ（3行目は来ない様式）
+        } else {
+          lastFact = null;
+        }
+        continue;
+      }
       const name = m[1]!.replace(/[\s　]/g, "");
       const amount = toAmount(m[2]!);
       // 見出し・ヘッダ・少額ノイズを除去（事業名2文字以上・10万円=100千円以上）
-      if (name.length < 2 || amount < 100 || /予算額|事業名|事業内容|担当課|単位/.test(name)) continue;
-      facts.push({
+      if (name.length < 2 || amount < 100 || /予算額|事業名|事業内容|担当課|単位/.test(name)) {
+        lastFact = null;
+        continue;
+      }
+      const fact: BudgetProjectFact = {
         kan: null,
         no: null,
         kubun: null,
@@ -2441,7 +2460,9 @@ function parseProjectsTableLines(
         basicGoal: "",
         shisaku: currentShisaku,
         locator: { file: filename, page },
-      });
+      };
+      facts.push(fact);
+      lastFact = fact;
     }
   }
   if (facts.length === 0) throw new Error(`${filename}: 主な事業（table-lines）が1件も抽出できませんでした`);

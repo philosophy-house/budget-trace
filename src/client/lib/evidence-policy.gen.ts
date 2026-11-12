@@ -19,16 +19,40 @@ export interface RestrictedEvidenceLink {
 
 /** キー: 自サーバー配信コピーのパス（/sources/<sourceId>/<filename>。フラグメント無し） */
 export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
+  "/sources/toyokawa-yosansho-r7/R7_yosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.toyokawa.lg.jp/material/files/group/10/R7_yosann.pdf",
+    "license": "豊川市ホームページ内の内容等については、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、許可なく複製・転用・販売といった二次利用をすることはできません。",
+    "target": "file"
+  },
+  "/sources/toyokawa-yosansho-r8/R8_yosann_.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20260408075233id_/https://www.city.toyokawa.lg.jp/material/files/group/10/R8_yosann_.pdf",
+    "license": "豊川市ホームページ内の内容等については、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、許可なく複製・転用・販売といった二次利用をすることはできません。",
+    "target": "file"
+  },
+  "/sources/yamaguchi-yosansho-r7/105329.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamaguchi.lg.jp/site/shiseijoho/171302.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、山口市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
+  "/sources/yamaguchi-yosansho-r8/117924.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yamaguchi.lg.jp/site/shiseijoho/189076.html",
+    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、山口市の許可なく当サイトに掲載されている文書・画像等を無断使用・複製・転載・販売・改変・印刷配布することを禁止します。",
+    "target": "page"
+  },
   "/sources/numazu-yosansho-r7/s-1.pdf": {
     "mode": "origin",
     "href": "https://www.city.numazu.shizuoka.jp/shisei/gyozaisei/finance/yosan2025/gaiyousho/pdf/s-1.pdf",
-    "license": "沼津市ウェブサイト掲載資料（非営利・二次利用要許可。利用条件は同サイト参照）",
+    "license": "沼津市ホームページから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は沼津市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は事前にぬまづプロモーション課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。",
     "target": "file"
   },
   "/sources/numazu-yosansho-r8/s-1.pdf": {
     "mode": "origin",
     "href": "https://www.city.numazu.shizuoka.jp/shisei/gyozaisei/finance/yosan2026/gaiyousho/pdf/s-1.pdf",
-    "license": "沼津市ウェブサイト掲載資料（非営利・二次利用要許可。利用条件は同サイト参照）",
+    "license": "沼津市ホームページから発信するコンテンツ（テキスト、画像、PDF、そのほかのデータ）の著作権は沼津市に帰属します。また、一部の画像などの著作権は原著作者が所有しています。本サイト上の文書・画像などの無断使用・転載、二次利用を禁止します。掲載されている情報は、個人的かつ非営利的な使用目的だけのために利用する場合に限り、複製、使用、ダウンロードすることができます。著作権法上の「私的使用」や「引用」の範囲を越えて、本ページのコンテンツの使用を希望する場合は事前にぬまづプロモーション課までお問い合わせください。事前の許可がない限り、転載、変更、発行、配布、掲示などは一切できません。",
     "target": "file"
   },
   "/sources/izumi-yosansho-r8/02_R8_ippan.pdf": {
