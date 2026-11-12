@@ -1,0 +1,19 @@
+{
+  "sourceId": "namerikawa-yosan-gaiyou-r6",
+  "files": [
+    {
+      "filename": "R6sainyuu.pdf",
+      "sha256": "77fb4bba0cb097410b770c0862efb84bd1e25a54f00fe05f85d22d3f8321d78f",
+      "bytes": 93237,
+      "fetchedAt": "2026-11-12T12:24:57.322Z",
+      "fetchedFrom": "https://www.city.namerikawa.toyama.jp/material/files/group/6/R6sainyuu.pdf"
+    },
+    {
+      "filename": "R6mokutekibetsu.pdf",
+      "sha256": "ec57cab781628454bdaf19eb6f0d5cbd6e344bd38ce99642cbf7f6a590114cfd",
+      "bytes": 82209,
+      "fetchedAt": "2026-11-12T12:24:57.721Z",
+      "fetchedFrom": "https://www.city.namerikawa.toyama.jp/material/files/group/6/R6mokutekibetsu.pdf"
+    }
+  ]
+}
