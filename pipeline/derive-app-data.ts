@@ -4122,6 +4122,42 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
       srcId: `koryo-yosansho-${fy}`, muniCode: "294268", muniName: "広陵町", prefName: "奈良県", isPref: false,
     })),
+    // ---- 第104巡（2026-11-12・§13-121） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yoshinogawa-tousyo-yosan-gaiyou-${fy}`, muniCode: "362051", muniName: "吉野川市", prefName: "徳島県", isPref: false,
+    })),
+    // 瀬戸内市の R2 は議会修正後の款別がスキャン画像にしか無い
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `setouchi-yosansho-${fy}`, muniCode: "332127", muniName: "瀬戸内市", prefName: "岡山県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yasugi-yosan-gaiyou-${fy}`, muniCode: "322067", muniName: "安来市", prefName: "島根県", isPref: false,
+    })),
+    // ⚠ 広島県府中市（342084）。東京都府中市 132063・府中町 343021 とは別団体
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `fuchushi-hiroshima-yosansho-${fy}`, muniCode: "342084", muniName: "府中市", prefName: "広島県", isPref: false,
+    })),
+    // 伊予市の R2 は化けた字が復号表に無い
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `iyo-yosan-point-${fy}`, muniCode: "382108", muniName: "伊予市", prefName: "愛媛県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `unnan-yosan-gaiyou-${fy}`, muniCode: "322091", muniName: "雲南市", prefName: "島根県", isPref: false,
+    })),
+    // 阿波市の R6〜R4 は予算書にテキスト層が無く、R3 は化けた字が復号表に無い
+    ...(["r8", "r7", "r2"] as const).map((fy) => ({
+      srcId: `awa-yosansho-${fy}`, muniCode: "362069", muniName: "阿波市", prefName: "徳島県", isPref: false,
+    })),
+    // 西予市の R7 は予算書の歳入総括にテキスト層が無いので説明資料
+    ...(["r8", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `seiyo-yosansho-${fy}`, muniCode: "382141", muniName: "西予市", prefName: "愛媛県", isPref: false,
+    })),
+    { srcId: "seiyo-tousyoyosannsetumeisiryou-r7", muniCode: "382141", muniName: "西予市", prefName: "愛媛県", isPref: false },
+    // 井原市の R8〜R4 は概要（R8・R5 は議会修正後）、R3 は予算書。R2 は修正後の款別がスキャン画像にしか無い
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `ibara-yosan-gaiyou-${fy}`, muniCode: "332071", muniName: "井原市", prefName: "岡山県", isPref: false,
+    })),
+    { srcId: "ibara-yosansho-r3", muniCode: "332071", muniName: "井原市", prefName: "岡山県", isPref: false },
     // ---- 第100巡（2026-10-31・§13-116） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yuzawa-yosansho-${fy}`, muniCode: "052078", muniName: "湯沢市", prefName: "秋田県", isPref: false,

@@ -1,0 +1,12 @@
+{
+  "sourceId": "seiyo-yosansho-r3",
+  "files": [
+    {
+      "filename": "tousyp.pdf",
+      "sha256": "abe5cf14724b163dcb50ce09ce25ca3b6e60adced63878108ef031b49b265797",
+      "bytes": 1464675,
+      "fetchedAt": "2026-11-12T11:58:13.416Z",
+      "fetchedFrom": "https://www.city.seiyo.ehime.jp/material/files/group/6/tousyp.pdf"
+    }
+  ]
+}

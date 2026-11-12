@@ -1,0 +1,12 @@
+{
+  "sourceId": "fuchushi-hiroshima-yosansho-r4",
+  "files": [
+    {
+      "filename": "R4yosan-01ippan.pdf",
+      "sha256": "8b843d2ea3e972e1627a7fe0a9201684d761a639fefdd3223bf212b194704f01",
+      "bytes": 1389680,
+      "fetchedAt": "2026-11-12T11:58:00.284Z",
+      "fetchedFrom": "https://www.city.fuchu.hiroshima.jp/material/files/group/3/R4yosan-01ippan.pdf"
+    }
+  ]
+}
