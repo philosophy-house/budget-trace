@@ -3,7 +3,7 @@
   "sourceId": "ozu-kumamoto-yosansho-r7",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-11-12T11:58:57.615Z",
+  "parsedAt": "2026-11-12T13:13:22.923Z",
   "unit": "thousandYen",
   "fiscalYear": "R7",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 18584926,
   "prevExpenditureTotal": 18584926,
   "prevBasis": "当初",
+  "prevNote": "本年度（令和7年度）の当初予算は、2月に町長選挙が行われたことから骨格予算として編成されています（発行元の広報資料「令和７年度の当初予算額は、２月に町長選挙が行われたことから「骨格予算」となります。」）。",
   "facts": [
     {
       "side": "revenue",

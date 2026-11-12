@@ -15462,6 +15462,47 @@
       "checkedAt": "2026-11-12T12:58:09.808Z"
     },
     {
+      "sourceId": "ibusuki-yosansho-r6",
+      "url": "https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%96%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112125631/https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%96%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+      "waybackTimestamp": "20261112125631",
+      "checkedAt": "2026-11-12T13:18:27.207Z",
+      "sha256Match": true,
+      "waybackBytes": 9523830,
+      "rawSha256": "0c09cac6c367d1858336e0b404516594ba63c1228e4ca889f674050a77e15bef"
+    },
+    {
+      "sourceId": "ibusuki-yosansho-r7",
+      "url": "https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%97%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112125608/https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%97%E5%B9%B4%E5%BA%A6%20%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+      "waybackTimestamp": "20261112125608",
+      "checkedAt": "2026-11-12T13:18:15.619Z",
+      "sha256Match": true,
+      "waybackBytes": 5342552,
+      "rawSha256": "1fb747c95db8e63b01fbc527bd7a4f08eaa21ab94c6a2f4c2a7b7777dc52651a"
+    },
+    {
+      "sourceId": "ibusuki-yosansho-r8",
+      "url": "https://www.city.ibusuki.lg.jp/main/shisei/zaisei/zaisei/page029349.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112125637/https://www.city.ibusuki.lg.jp/main/shisei/zaisei/zaisei/page029349.html",
+      "waybackTimestamp": "20261112125637",
+      "checkedAt": "2026-11-12T13:18:09.203Z"
+    },
+    {
+      "sourceId": "ibusuki-yosansho-r8",
+      "url": "https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112125539/https://www.city.ibusuki.lg.jp/main/uploads/zaisei/docs/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+      "waybackTimestamp": "20261112125539",
+      "checkedAt": "2026-11-12T13:18:08.392Z",
+      "sha256Match": true,
+      "waybackBytes": 41700993,
+      "rawSha256": "3f795a438ae4e1a460ca60e27d564371992cf32289e9cb03d8f0224f5a6a4e3d"
+    },
+    {
       "sourceId": "ichihara-shigikai-r8",
       "url": "https://www.city.ichihara.chiba.jp/article?articleId=605d337febefad5392f9e333",
       "kind": "landing",
@@ -23110,13 +23151,12 @@
       "sourceId": "kanda-yosansho-r8",
       "url": "https://www.town.kanda.lg.jp/uploaded/attachment/10139.pdf",
       "kind": "file",
-      "waybackUrl": "https://web.archive.org/web/20260515080951/https://www.town.kanda.lg.jp/uploaded/attachment/10139.pdf",
-      "waybackTimestamp": "20260515080951",
-      "checkedAt": "2026-11-12T11:49:41.769Z",
-      "sha256Match": false,
-      "waybackBytes": 5242880,
-      "rawSha256": "4599ad89b4fa10a5b8e8e45d5121a87c267fe2d2193c99b6ecb1fd28ad652911",
-      "waybackTruncated": true
+      "waybackUrl": "https://web.archive.org/web/20261112133501/https://www.town.kanda.lg.jp/uploaded/attachment/10139.pdf",
+      "waybackTimestamp": "20261112133501",
+      "checkedAt": "2026-11-12T13:37:10.430Z",
+      "sha256Match": true,
+      "waybackBytes": 15670805,
+      "rawSha256": "4599ad89b4fa10a5b8e8e45d5121a87c267fe2d2193c99b6ecb1fd28ad652911"
     },
     {
       "sourceId": "kani-shigikai-r8",
@@ -44130,6 +44170,25 @@
       "checkedAt": "2026-09-14T12:41:43.197Z"
     },
     {
+      "sourceId": "nakagawa-fukuoka-setsumeisho-r7",
+      "url": "https://www.city.nakagawa.lg.jp/soshiki/49/r7yosansho.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112120704/https://www.city.nakagawa.lg.jp/soshiki/49/r7yosansho.html",
+      "waybackTimestamp": "20261112120704",
+      "checkedAt": "2026-11-12T13:12:47.970Z"
+    },
+    {
+      "sourceId": "nakagawa-fukuoka-setsumeisho-r7",
+      "url": "https://www.city.nakagawa.lg.jp/uploaded/attachment/29649.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112120558/https://www.city.nakagawa.lg.jp/uploaded/attachment/29649.pdf",
+      "waybackTimestamp": "20261112120558",
+      "checkedAt": "2026-11-12T13:12:45.883Z",
+      "sha256Match": true,
+      "waybackBytes": 2510708,
+      "rawSha256": "1e573613b56a6d27bc99b6272d7c89970ad1f10df084a7ef9b65c2ef092b5d18"
+    },
+    {
       "sourceId": "nakagawa-fukuoka-setsumeisho-r8",
       "url": "https://www.city.nakagawa.lg.jp/uploaded/attachment/32237.pdf",
       "kind": "file",
@@ -53114,15 +53173,60 @@
     },
     {
       "sourceId": "ozu-kumamoto-yosansho-r2",
+      "url": "https://www.town.ozu.kumamoto.jp/page/1456.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112125421/https://www.town.ozu.kumamoto.jp/page/1456.html",
+      "waybackTimestamp": "20261112125421",
+      "checkedAt": "2026-11-12T13:37:26.328Z"
+    },
+    {
+      "sourceId": "ozu-kumamoto-yosansho-r2",
       "url": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/2775.pdf",
       "kind": "file",
-      "waybackUrl": "https://web.archive.org/web/20260512004612/https://www.town.ozu.kumamoto.jp/uploaded/attachment/2775.pdf",
-      "waybackTimestamp": "20260512004612",
-      "checkedAt": "2026-11-12T12:54:05.741Z",
-      "sha256Match": false,
-      "waybackBytes": 5242880,
-      "waybackTruncated": true,
+      "waybackUrl": "https://web.archive.org/web/20261112133642/https://www.town.ozu.kumamoto.jp/uploaded/attachment/2775.pdf",
+      "waybackTimestamp": "20261112133642",
+      "checkedAt": "2026-11-12T13:37:25.287Z",
+      "sha256Match": true,
+      "waybackBytes": 5451406,
       "rawSha256": "1e5693215e5fecde82dea9fac60e2d9a82f0201bc82d0fb803b92f6bdc296cf5"
+    },
+    {
+      "sourceId": "ozu-kumamoto-yosansho-r4",
+      "url": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/2283.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112124911/https://www.town.ozu.kumamoto.jp/uploaded/attachment/2283.pdf",
+      "waybackTimestamp": "20261112124911",
+      "checkedAt": "2026-11-12T13:13:16.866Z",
+      "sha256Match": true,
+      "waybackBytes": 1170120,
+      "rawSha256": "e8e9c6a45ee328689309dff717d9ee986c95db2a255ef95609206f8e2f2a180f"
+    },
+    {
+      "sourceId": "ozu-kumamoto-yosansho-r6",
+      "url": "https://www.town.ozu.kumamoto.jp/page/12118.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112124437/https://www.town.ozu.kumamoto.jp/page/12118.html",
+      "waybackTimestamp": "20261112124437",
+      "checkedAt": "2026-11-12T13:13:09.761Z"
+    },
+    {
+      "sourceId": "ozu-kumamoto-yosansho-r6",
+      "url": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/12275.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112124315/https://www.town.ozu.kumamoto.jp/uploaded/attachment/12275.pdf",
+      "waybackTimestamp": "20261112124315",
+      "checkedAt": "2026-11-12T13:13:08.746Z",
+      "sha256Match": true,
+      "waybackBytes": 1245758,
+      "rawSha256": "0790b0a61a0129557c2d4b625163e6c57afc72a33ed76aeda37359bfb3bd5513"
+    },
+    {
+      "sourceId": "ozu-kumamoto-yosansho-r7",
+      "url": "https://www.town.ozu.kumamoto.jp/page/19003.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112124313/https://www.town.ozu.kumamoto.jp/page/19003.html",
+      "waybackTimestamp": "20261112124313",
+      "checkedAt": "2026-11-12T13:13:04.339Z"
     },
     {
       "sourceId": "ozu-kumamoto-yosansho-r7",
@@ -53134,6 +53238,25 @@
       "sha256Match": true,
       "waybackBytes": 1200245,
       "rawSha256": "e80f36d316a4629270b5023c7b1ef5741714c1c741fc9cd200dde44a1fb84ab6"
+    },
+    {
+      "sourceId": "ozu-kumamoto-yosansho-r8",
+      "url": "https://www.town.ozu.kumamoto.jp/page/24624.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112123816/https://www.town.ozu.kumamoto.jp/page/24624.html",
+      "waybackTimestamp": "20261112123816",
+      "checkedAt": "2026-11-12T13:13:02.785Z"
+    },
+    {
+      "sourceId": "ozu-kumamoto-yosansho-r8",
+      "url": "https://www.town.ozu.kumamoto.jp/uploaded/attachment/18076.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112123629/https://www.town.ozu.kumamoto.jp/uploaded/attachment/18076.pdf",
+      "waybackTimestamp": "20261112123629",
+      "checkedAt": "2026-11-12T13:13:00.040Z",
+      "sha256Match": true,
+      "waybackBytes": 1307524,
+      "rawSha256": "15a3775b87693a1d8b25d1b8af76f4156b7fcda4c1925d1677707f1e61e1e77a"
     },
     {
       "sourceId": "ozu-oozushinoyosan-r2",
@@ -77975,6 +78098,14 @@
       "waybackUrl": "https://web.archive.org/web/20261021162730/https://www.city.ushiku.lg.jp/shisei/shinotorikumi/keikaku-zeisei-shisaku-kaikaku/yosan-kessan/yosan/page012690.html",
       "waybackTimestamp": "20261021162730",
       "checkedAt": "2026-10-21T16:27:56.979Z"
+    },
+    {
+      "sourceId": "uto-yosansho-r8",
+      "url": "https://www.city.uto.lg.jp/article/view/1141/15564.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112125833/https://www.city.uto.lg.jp/article/view/1141/15564.html",
+      "waybackTimestamp": "20261112125833",
+      "checkedAt": "2026-11-12T13:18:32.736Z"
     },
     {
       "sourceId": "uto-yosansho-r8",

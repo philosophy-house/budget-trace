@@ -3,7 +3,7 @@
   "sourceId": "uto-yosansho-r8",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-11-12T11:59:00.490Z",
+  "parsedAt": "2026-11-12T13:13:22.735Z",
   "unit": "thousandYen",
   "fiscalYear": "R8",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 22980000,
   "prevExpenditureTotal": 22980000,
   "prevBasis": "当初",
+  "prevNote": "本年度（令和8年度）の当初予算は、市長選挙の関係で建設事業費や単独補助金などの政策的な経費を除いた「骨格予算」として編成されています（「令和８年度当初予算の概要」）。前年当初比は、この骨格予算と前年度の当初予算との比較です。",
   "facts": [
     {
       "side": "revenue",

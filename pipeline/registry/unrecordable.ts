@@ -3394,16 +3394,17 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     // 宇土市（432113）R7〜R2。予算書は R8 だけ（年度ページ 15564 は 2026 年の新設）。概要は広報の見開き（前年度列なし）、
     //   財政状況報告書6月版の款別表は単年度・金額の降順・款番号なし。
     code: "432113", name: "宇土市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3", "R2"],
-    categories: ["format-mismatch"],
+    categories: ["no-material", "format-mismatch"],
     reason: "当初予算書がウェブに無く、ほかの資料は款別に前年度額と並べた表になっていない。",
     url: "https://www.city.uto.lg.jp/article/list/1141.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-118",
   },
   {
-    // 苅田町（406210）R2。年度ページ（/page/1111.html）は HTML の表だけで予算書 PDF が無い（R3 の前年度列とは全款一致）。
+    // 苅田町（406210）R2。年度ページ（/page/1111.html）は HTML の表だけで予算書 PDF が無い。表は款別の「令和2年度／平成31年度／比較」が
+    //   歳入・歳出とも揃っている（R3 の前年度列とは全款一致）が、HTML の款別表を読むパーサが無い。
     code: "406210", name: "苅田町", dataset: "budget", fiscalYears: ["R2"],
-    categories: ["format-mismatch"],
-    reason: "年度ページに予算書が無く、ウェブページの表だけが載っている。",
+    categories: ["parser-unsupported"],
+    reason: "款別と前年度額の表はウェブページ（HTML）にあるが、いまの抽出処理が HTML の表に対応していない。",
     url: "https://www.town.kanda.lg.jp/page/1111.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-118",
   },

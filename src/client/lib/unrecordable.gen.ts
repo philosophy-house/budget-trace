@@ -1845,7 +1845,7 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
     "budget": [
       {
         "fyLabel": "令和2年度",
-        "reason": "年度ページに予算書が無く、ウェブページの表だけが載っている。",
+        "reason": "款別と前年度額の表はウェブページ（HTML）にあるが、いまの抽出処理が HTML の表に対応していない。",
         "checkedOn": "2026-11-12"
       }
     ]
