@@ -386,4 +386,5 @@ export const SKELETON_BUDGETS: SkeletonBudget[] = [
   { code: "082252", name: "常陸大宮市", fy: "R2", evidence: "常陸大宮市議会「議会広報」第62号（1588927840_doc_75_0.pdf）p.2 の見出し「令和時代初の当初予算編成 骨格予算内容は」（画像で照合・2026-10-31）。市の予算書・「令和２年度 一般会計等当初予算案概要」には「骨格」の語が無い。2020-04 に市長が交代", ref: "docs/data-sources.md §13-117" },
 
   { code: "172014", name: "金沢市", fy: "R8", evidence: "「金沢市の財政 令和７年度下半期末（令和８年３月 31 日現在）」（金沢市総務局財政課・https://www4.city.kanazawa.lg.jp/material/files/group/16/r7shimohannkizaiseijijounokouhyou1.pdf・「金沢市の財政」のページ /shiseijoho/gyozaisei/zaisei_yosan_kessan/12866.html から）物理 p.4「令和８年度当初予算は、人件費や扶助費などの義務的経費のほか、継続事業などを主体とする「骨格予算」として編成しました。」（2026-11-12 に発行元から取得して pdftotext で照合）。金沢市の R8 は予算概要・予算説明書ともスキャンで未収録", ref: "docs/data-sources.md §13-118" },
+  { code: "012254", name: "滝川市", fy: "H31", evidence: "「平成31年度 滝川市各会計予算案の概要」（0628yosanan.pdf・WARP 20200108）p.3「３１年度は統一地方選挙の年であることから、当初予算については、経常経費や継続事業を中心とした骨格予算となりますが、…」・同じ p.3「３１年度の予算総額は、前年度に対して、１億９，７００万円増（１．０％増）となる２００億３，７００万円とします。」・「令和２年度一般会計予算」の前年度列の見出し「元年度（５月補正後）」（2026-11-12 に WARP の写しで pdftotext で照合）。滝川市の H31 は未収録", ref: "docs/data-sources.md §13-119" },
 ];

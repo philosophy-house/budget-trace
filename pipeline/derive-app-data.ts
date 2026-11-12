@@ -3979,6 +3979,36 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `maniwa-yosansho-${fy}`, muniCode: "332143", muniName: "真庭市", prefName: "岡山県", isPref: false,
     })),
+    // ---- 第102巡（2026-11-12・§13-119） ----
+    // 結城市の R7 は議会修正前の原案だけ
+    ...(["r8", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yuki-yosansho-${fy}`, muniCode: "082074", muniName: "結城市", prefName: "茨城県", isPref: false,
+    })),
+    // 桜川市の R6 は議会修正前の原案だけ
+    ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sakuragawa-yosansho-${fy}`, muniCode: "082317", muniName: "桜川市", prefName: "茨城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `inashiki-yosansho-${fy}`, muniCode: "082295", muniName: "稲敷市", prefName: "茨城県", isPref: false,
+    })),
+    // 三沢市の R2 は款名が2行で交互に混ざる
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `misawa-yosan-gaiyou-${fy}`, muniCode: "022071", muniName: "三沢市", prefName: "青森県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `minamiboso-yosansho-${fy}`, muniCode: "122343", muniName: "南房総市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `miyoshimachi-yosansho-${fy}`, muniCode: "113247", muniName: "三芳町", prefName: "埼玉県", isPref: false,
+    })),
+    // 滝川市の R2 は前年度列が5月補正後（H31 骨格）
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `takikawa-yosan-gaiyou-${fy}`, muniCode: "012254", muniName: "滝川市", prefName: "北海道", isPref: false,
+    })),
+    // 利府町の R5〜R2 は予算書だけで前年度列が無い
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `rifu-yosansho-${fy}`, muniCode: "044067", muniName: "利府町", prefName: "宮城県", isPref: false,
+    })),
     // ---- 第101巡（2026-10-31・§13-117） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `nishiwaki-yosan-gaiyo-${fy}`, muniCode: "282138", muniName: "西脇市", prefName: "兵庫県", isPref: false,
