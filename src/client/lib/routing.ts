@@ -560,6 +560,13 @@ const MUNI_SLUGS: Record<string, string> = {
   "152161": "itoigawa",
   "083411": "tokaimura", // ⚠ 愛知県東海市 232220 が "tokai"
   "162043": "uozu",
+  "406210": "kanda",
+  "473294": "nishihara-okinawa", // ⚠ 熊本県西原村 434329 とは別団体
+  "402311": "nakagawa-fukuoka", // ⚠ 栃木県那珂川町 094111 とは別団体
+  "403491": "kasuya",
+  "434035": "ozu-kumamoto", // ⚠ 愛媛県大洲市 382078 が "ozu"
+  "462101": "ibusuki",
+  "432113": "uto",
   "093611": "mibu",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
