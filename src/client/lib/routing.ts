@@ -128,7 +128,7 @@ const MUNI_SLUGS: Record<string, string> = {
   "102059": "ota-gunma", // ⚠ 大田区 131113 が "ota" を使っているので衝突を避ける
   "142123": "atsugi",
   "022039": "hachinohe",
-  "132063": "fuchu-tokyo", // ⚠ 広島県府中市 342084 が未収録なだけなので `fuchu` 単独は使わない
+  "132063": "fuchu-tokyo", // ⚠ 広島県府中市 342084（"fuchu-hiroshima"）と区別するため `fuchu` 単独は使わない
   "122203": "nagareyama",
   "102041": "isesaki",
   "342025": "kure",
@@ -552,6 +552,15 @@ const MUNI_SLUGS: Record<string, string> = {
   "382159": "toon",
   "392111": "konan-kochi", // ⚠ 江南市 232173 が "konan"・湖南市 252115 が "konan-shiga"
   "312045": "sakaiminato",
+  "362051": "yoshinogawa",
+  "332127": "setouchi", // ⚠ 鹿児島県瀬戸内町 465259 とは別団体（瀬戸内町は未収録）
+  "322067": "yasugi",
+  "342084": "fuchu-hiroshima", // ⚠ 東京都府中市 132063 が "fuchu-tokyo"・広島県府中町 343021 が "fuchucho"
+  "382108": "iyo",
+  "322091": "unnan",
+  "362069": "awa",
+  "382141": "seiyo",
+  "332071": "ibara",
   "052078": "yuzawa", // ⚠ 新潟県湯沢町 154610 とは別団体（湯沢町は未収録）
   "423076": "nagayo",
   "062065": "sagae",
@@ -571,6 +580,24 @@ const MUNI_SLUGS: Record<string, string> = {
   "083411": "tokaimura", // ⚠ 愛知県東海市 232220 が "tokai"
   "162043": "uozu",
   "093611": "mibu",
+  "202061": "suwa",
+  "202045": "okaya",
+  "172090": "kahoku", // ⚠ 山形県河北町 063215 とは別団体（河北町は未収録）
+  "252140": "maibara",
+  "234257": "kanie",
+  "233625": "fuso",
+  "212083": "mizunami",
+  "263664": "seika",
+  "223255": "kannami",
+  "294268": "koryo",
+  "082074": "yuki",
+  "082317": "sakuragawa",
+  "082295": "inashiki",
+  "022071": "misawa",
+  "122343": "minamiboso",
+  "113247": "miyoshimachi", // ⚠ 愛知県みよし市 232360（miyoshi）・広島県三次市 342092 とは別団体
+  "012254": "takikawa",
+  "044067": "rifu",
   "342092": "miyoshi-hiroshima", // ⚠ 愛知県みよし市 232360 とは別団体
   "202070": "suzaka",
   "112402": "satte",

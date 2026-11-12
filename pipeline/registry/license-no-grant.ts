@@ -119,4 +119,12 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "五島市", license: "本サイトの文字、写真、イラストなどの個々の情報に関する著作権は、五島市またはその情報提供者に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。本サイトのコンテンツを著作権法上で認められている「私的使用」や「引用」の範囲を超えて使用することをご希望の際は、五島市まで、お問い合わせください。" },
   { who: "東温市", license: "本ホームページで掲載されている文書や写真等の画像、及びファイルの著作権は東温市内に帰属し、著作権法により保護されています。" },
   { who: "香南市", license: "Copyright (c) 2022 Konan city. All Rights Reserved." },
+  { who: "函南町", license: "Copyright (c) 2024 Kannami Town. All Rights Reserved." },
+  { who: "広陵町", license: "このホームページ上のすべてのコンテンツは、原則として広陵町が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前に情報担当課までお問い合わせください。" },
+  { who: "稲敷市", license: "© City of Inashiki.（稲敷市公式ホームページ フッター）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（ご利用ガイド配下・サイトマップに著作権の語が無い。2026-11-12 確認）。" },
+  { who: "結城市", license: "© YUKI CITY.（結城市公式ホームページ フッター）。著作権・利用条件・リンクに関する規約のページは市サイトに存在しない（サイトマップ・サイト内検索で該当なし。2026-11-12 確認）。" },
+  { who: "南房総市", license: "Copyright (C) Minamiboso City All Rights Reserved." },
+  { who: "三沢市", license: "All rights reserved. Copyright (C) MISAWA CITY" },
+  { who: "利府町", license: "Copyright (c) 2020 Rifu Town. All Rights Reserved." },
+  { who: "吉野川市", license: "当WEBサイトに掲載されている文書・画像などの各ファイル、およびその内容についての権利は、原則として吉野川市に属します。これらについての使用をご希望の場合は、市役所担当部署までご連絡ください。" },
 ];

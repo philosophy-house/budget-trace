@@ -1,0 +1,12 @@
+{
+  "sourceId": "kahoku-yosansetsumeisho-r8",
+  "files": [
+    {
+      "filename": "R8yosansetumeisyo.pdf",
+      "sha256": "dd3e39a81a1e3781e16c66c8bd71be666460600016f4ce50ae63e78779200cc3",
+      "bytes": 3015250,
+      "fetchedAt": "2026-11-12T11:25:50.322Z",
+      "fetchedFrom": "https://www.city.kahoku.lg.jp/006/614/615/d011737_d/fil/R8yosansetumeisyo.pdf"
+    }
+  ]
+}

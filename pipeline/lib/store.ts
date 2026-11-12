@@ -7,6 +7,7 @@
 // - data/normalized/<dataset>/<fy>.json     比較可能データ（コミット対象）
 // - data/normalized/_fixtures/…             フィクスチャ由来の隔離出力
 import { createHash } from "node:crypto";
+import { execFileSync } from "node:child_process";
 import { mkdirSync, readFileSync, writeFileSync, existsSync, copyFileSync } from "node:fs";
 import { dirname, join, basename } from "node:path";
 import { rawMetaSchema, type RawMeta } from "../types";
@@ -19,6 +20,32 @@ export const validationPath = (sourceId: string) =>
   join(DATA_DIR, "parsed", `${sourceId}.validation.json`);
 export const normalizedPath = (dataset: string, fiscalYear: string, fixture: boolean) =>
   join(DATA_DIR, "normalized", ...(fixture ? ["_fixtures"] : []), dataset, `${fiscalYear}.json`);
+
+// data/raw を取り出していないワークツリー（`bun run worktree:slim`・sparse-checkout）かどうか。
+// raw は1本 14GB あり、並列の巡のワークツリーごとに取り出すとディスクが尽きる（2026-11-12）。
+let sparse: boolean | null = null;
+const git = (args: string[]) =>
+  execFileSync("git", args, { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }).trim();
+export function isSparseWorktree(): boolean {
+  if (sparse === null) {
+    try {
+      sparse = git(["config", "--get", "core.sparseCheckout"]) === "true";
+    } catch {
+      sparse = false;
+    }
+  }
+  return sparse;
+}
+/**
+ * その資料の raw を sparse-checkout の対象に入れる。**raw を書く前に呼ぶ** — 対象の外に書いたファイルは
+ * `git add` が黙って拒む（`--sparse` が要る）ので、raw-meta だけがコミットされて原本が落ちる。
+ */
+export function includeRawInSparseCheckout(sourceId: string): void {
+  if (!isSparseWorktree()) return;
+  const pattern = `/data/raw/${sourceId}/`;
+  if (git(["sparse-checkout", "list"]).split("\n").includes(pattern)) return;
+  git(["sparse-checkout", "add", pattern]);
+}
 
 export function sha256Of(filePath: string): string {
   return createHash("sha256").update(readFileSync(filePath)).digest("hex");
@@ -50,6 +77,7 @@ export function registerRawFile(
   transform?: string[],
 ): { meta: RawMeta; changed: boolean } {
   const dir = rawDir(sourceId);
+  includeRawInSparseCheckout(sourceId);
   mkdirSync(dir, { recursive: true });
   const filename = basename(srcFilePath);
   const dest = join(dir, filename);
@@ -92,7 +120,10 @@ export function resolveRawFile(sourceId: string, filename: string): string {
   const path = join(rawDir(sourceId), filename);
   if (!existsSync(path)) {
     throw new Error(
-      `${path} がありません。fetch/ingest で再取得してください（フィクスチャは pipeline:fixture で再生成）。`,
+      `${path} がありません。` +
+        (isSparseWorktree()
+          ? `このワークツリーは data/raw を取り出していません。bun run worktree:raw ${sourceId} で取り出してください。`
+          : `fetch/ingest で再取得してください（フィクスチャは pipeline:fixture で再生成）。`),
     );
   }
   const actual = sha256Of(path);
