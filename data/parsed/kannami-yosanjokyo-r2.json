@@ -1,0 +1,424 @@
+{
+  "docType": "budget-book",
+  "sourceId": "kannami-yosanjokyo-r2",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-11-12T11:30:14.449Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R2",
+  "account": "一般会計",
+  "revenueTotal": 11218000,
+  "expenditureTotal": 11218000,
+  "prevRevenueTotal": 11242000,
+  "prevExpenditureTotal": 11242000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "町税",
+      "amount": 5213250,
+      "prevAmount": 5284332,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "分担金及び負担金",
+      "amount": 143095,
+      "prevAmount": 198752,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "使用料及び手数料",
+      "amount": 154497,
+      "prevAmount": 145995,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "財産収入",
+      "amount": 68622,
+      "prevAmount": 1336,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "寄附金",
+      "amount": 46374,
+      "prevAmount": 36374,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰入金",
+      "amount": 224463,
+      "prevAmount": 448701,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰越金",
+      "amount": 250000,
+      "prevAmount": 250000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "諸収入",
+      "amount": 178510,
+      "prevAmount": 164606,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方譲与税",
+      "amount": 134800,
+      "prevAmount": 124000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "利子割交付金",
+      "amount": 8000,
+      "prevAmount": 9000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "配当割交付金",
+      "amount": 21000,
+      "prevAmount": 23000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 19000,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "法人事業税交付金",
+      "amount": 70000,
+      "prevAmount": 0,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方消費税交付金",
+      "amount": 720000,
+      "prevAmount": 670000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 36000,
+      "prevAmount": 39000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "自動車取得税交付金",
+      "amount": 1,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "環境性能割交付金",
+      "amount": 22500,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方特例交付金",
+      "amount": 41300,
+      "prevAmount": 96550,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方交付税",
+      "amount": 1248000,
+      "prevAmount": 1027000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 8000,
+      "prevAmount": 8000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国庫支出金",
+      "amount": 1176799,
+      "prevAmount": 1155099,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "県支出金",
+      "amount": 846089,
+      "prevAmount": 807855,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "町債",
+      "amount": 587700,
+      "prevAmount": 682400,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 1
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "議会費",
+      "amount": 116090,
+      "prevAmount": 119482,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "総務費",
+      "amount": 1254163,
+      "prevAmount": 1206108,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "民生費",
+      "amount": 4148267,
+      "prevAmount": 4017381,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "衛生費",
+      "amount": 1014684,
+      "prevAmount": 987108,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "労働費",
+      "amount": 12568,
+      "prevAmount": 12358,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "農林水産業費",
+      "amount": 253615,
+      "prevAmount": 236086,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "商工費",
+      "amount": 273074,
+      "prevAmount": 213313,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "土木費",
+      "amount": 926938,
+      "prevAmount": 1048823,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "消防費",
+      "amount": 659852,
+      "prevAmount": 651781,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "教育費",
+      "amount": 1473797,
+      "prevAmount": 1733300,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "災害復旧費",
+      "amount": 56003,
+      "prevAmount": 4,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "公債費",
+      "amount": 1008948,
+      "prevAmount": 996256,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "諸支出金",
+      "amount": 1,
+      "prevAmount": 0,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "予備費",
+      "amount": 20000,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "2020zentaisiryou.pdf",
+        "page": 2
+      }
+    }
+  ]
+}
