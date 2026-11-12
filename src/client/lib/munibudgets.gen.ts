@@ -3056,6 +3056,8 @@ export const MUNI_BUDGET_INDEX: Record<string, MuniBudgetIndexEntry> = {
     "prefName": "富山県",
     "isPref": false,
     "fys": [
+      "R8",
+      "R7",
       "R6",
       "R5",
       "R4",
@@ -3786,6 +3788,7 @@ export const MUNI_BUDGET_INDEX: Record<string, MuniBudgetIndexEntry> = {
     "prefName": "静岡県",
     "isPref": false,
     "fys": [
+      "R8",
       "R7"
     ],
     "hasProjects": false
@@ -4175,6 +4178,7 @@ export const MUNI_BUDGET_INDEX: Record<string, MuniBudgetIndexEntry> = {
     "prefName": "愛知県",
     "isPref": false,
     "fys": [
+      "R8",
       "R7"
     ],
     "hasProjects": true
@@ -5919,6 +5923,7 @@ export const MUNI_BUDGET_INDEX: Record<string, MuniBudgetIndexEntry> = {
     "prefName": "兵庫県",
     "isPref": false,
     "fys": [
+      "R8",
       "R7",
       "R6",
       "R5",
@@ -6733,6 +6738,7 @@ export const MUNI_BUDGET_INDEX: Record<string, MuniBudgetIndexEntry> = {
     "prefName": "山口県",
     "isPref": false,
     "fys": [
+      "R8",
       "R7"
     ],
     "hasProjects": true
@@ -7356,6 +7362,8 @@ export const MUNI_BUDGET_INDEX: Record<string, MuniBudgetIndexEntry> = {
     "prefName": "福岡県",
     "isPref": false,
     "fys": [
+      "R8",
+      "R7",
       "R6",
       "R5",
       "R4",
