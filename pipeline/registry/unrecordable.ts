@@ -3336,7 +3336,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     //   予算概要（2275.pdf）の款別一覧表の歳入は `prevAfterBreakdown` が皆減（自動車取得税交付金 … △25,000 皆減）・皆増の行を扱えず throw、外すと前年度 Σ が割れる。
     code: "152251", name: "魚沼市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["parser-unsupported", "broken-text-layer"],
-    reason: "予算の概要の款別の表は、新しくできた款・なくなった款の行の読み取りに対応していない。予算書は文字が正しく文字として埋め込まれていない。",
+    reason: "予算の概要の款別の表は原典としては健全だが、新しくできた款・なくなった款の行を、こちらの読み取りの仕組みがまだ扱えない。予算書は文字が正しく文字として埋め込まれていない。",
     url: "https://www.city.uonuma.lg.jp/page/1446.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
   },
@@ -3345,8 +3345,26 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     //   pdftotext（-layout・-raw とも）で合計行の1行上に浮き、既定の推測が現計の 9,591,668 を合計として掴む（前年度 Σ 差 -685,668）。予算書本体はテキスト層がほぼ空。
     code: "234249", name: "大治町", dataset: "budget", fiscalYears: ["R2"],
     categories: ["parser-unsupported"],
-    reason: "当初予算案概要書の款別の表で、歳出の合計の前年度の額が表の中で行がずれて配置されていて、読み取りに対応していない。",
+    reason: "当初予算案概要書の款別の表は原典としては健全だが、文字の情報の上で歳出の合計の前年度の額が1行ずれて入っていて、こちらの読み取りの仕組みがまだ扱えない。",
     url: "https://warp.ndl.go.jp/20260810/20260808184534/https://www.town.oharu.aichi.jp/1181.htm",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
+  {
+    // 大治町（234249）R5。当初予算案概要書（WARP 2026-08-08・secure/4549/gaiyou.pdf.pdf）p.39 の歳入で、款8 自動車取得税交付金の対前年度比率が「10,000」（%）と
+    //   桁区切りつきで印字され、前年度の列に読まれる（前年度 Σ +9,999）。原典は誤植ではないので amountTypos では直さない（弥富 R2 と同じ・§13-125）。
+    code: "234249", name: "大治町", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["parser-unsupported"],
+    reason: "歳入の表で、前年度との比率が桁区切りのついた大きな数で印字されている行があり、今の読み取りの仕組みでは金額と区別できない。",
+    url: "https://warp.ndl.go.jp/20260810/20260808174145/https://www.town.oharu.aichi.jp/4662.htm",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
+  {
+    // 小千谷市（152081）R8。R7〜R2 は収録済み（§13-125）。「予算案の概要【計数資料編】」（40899.pdf）p.4-5 の款別の表は使用料及び手数料 290,818・諸収入 620,572 で、
+    //   項まで足し上がる。同じ冊子の p.8・資料№1 の概要・予算書の第1表と総括・補正第6号の補正前の額は 290,518・620,872。予算書（42056.pdf）は文字化け。
+    code: "152081", name: "小千谷市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["format-mismatch", "broken-text-layer"],
+    reason: "款別の前年度比較の表で2つの款の額が、同じ冊子の別のページや予算書と300千円ずつ食い違う（合計は同じ）。予算書のほうは文字が正しく文字として埋め込まれていない。",
+    url: "https://www.city.ojiya.niigata.jp/soshiki/kikakuseisaku/yosan.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
   },
 ];

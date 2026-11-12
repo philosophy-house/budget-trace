@@ -3993,8 +3993,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r4", "r3"] as const).map((fy) => ({
       srcId: `uonuma-yosan-gaiyou-${fy}`, muniCode: "152251", muniName: "魚沼市", prefName: "新潟県", isPref: false,
     })),
-    // 小千谷市の R2 は Wayback の写し
-    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+    // 小千谷市の R8 は計数資料編の2款が予算書と食い違うので収録せず、R2 は Wayback の写し
+    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `ojiya-yosan-gaiyou-${fy}`, muniCode: "152081", muniName: "小千谷市", prefName: "新潟県", isPref: false,
     })),
     // 太子町（兵庫県）の R3・R2 は WARP の写し
@@ -4005,8 +4005,8 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `shimamoto-yosan-profile-${fy}`, muniCode: "273015", muniName: "島本町", prefName: "大阪府", isPref: false,
     })),
-    // 大治町は WARP の写し（発行元は Incapsula で取得不可）・R2 はパーサ未対応
-    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+    // 大治町は WARP の写し（発行元は Incapsula で取得不可）・R5・R2 はパーサ未対応
+    ...(["r8", "r7", "r6", "r4", "r3"] as const).map((fy) => ({
       srcId: `oharu-yosan-gaiyou-${fy}`, muniCode: "234249", muniName: "大治町", prefName: "愛知県", isPref: false,
     })),
     // ---- 第101巡（2026-10-31・§13-117） ----
