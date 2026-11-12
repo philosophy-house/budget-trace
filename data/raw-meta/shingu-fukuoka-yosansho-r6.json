@@ -1,0 +1,12 @@
+{
+  "sourceId": "shingu-fukuoka-yosansho-r6",
+  "files": [
+    {
+      "filename": "6tousho.pdf",
+      "sha256": "ad4e59968505f984dceede4619f3d010a4dced62a2987f96428870de738c11b6",
+      "bytes": 3668475,
+      "fetchedAt": "2026-11-12T12:27:17.738Z",
+      "fetchedFrom": "https://www.town.shingu.fukuoka.jp/material/files/group/12/6tousho.pdf"
+    }
+  ]
+}

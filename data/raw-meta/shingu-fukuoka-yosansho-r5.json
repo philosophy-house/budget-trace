@@ -1,0 +1,12 @@
+{
+  "sourceId": "shingu-fukuoka-yosansho-r5",
+  "files": [
+    {
+      "filename": "05.pdf",
+      "sha256": "3afe8b63ecae9be6bfe6c5a64af928f69daabbc11b77a54f615b12f8305076d8",
+      "bytes": 3649004,
+      "fetchedAt": "2026-11-12T12:27:18.311Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20230907/20230906043509id_/https://www.town.shingu.fukuoka.jp/material/files/group/12/05.pdf"
+    }
+  ]
+}

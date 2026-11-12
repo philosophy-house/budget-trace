@@ -4009,7 +4009,7 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6"] as const).map((fy) => ({
       srcId: `rifu-yosansho-${fy}`, muniCode: "044067", muniName: "利府町", prefName: "宮城県", isPref: false,
     })),
-    // ---- 第108巡（2026-11-12・§13-125） ----
+    // ---- 第108巡（2026-11-12・§13-126） ----
     // 熱海市は R7 以前の予算書がスキャン
     { srcId: "atami-yosansho-r8", muniCode: "222054", muniName: "熱海市", prefName: "静岡県", isPref: false },
     // 本巣市は R5 以前の予算資料がウェブに無い
@@ -4078,6 +4078,41 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     // 壬生町の R8 は図形化・R7〜R5 は化け字・R2 は予算書なし
     ...(["r4", "r3"] as const).map((fy) => ({
       srcId: `mibu-yosansho-${fy}`, muniCode: "093611", muniName: "壬生町", prefName: "栃木県", isPref: false,
+    })),
+    // ---- 第109巡（2026-11-12・§13-125） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `miyama-yosansho-${fy}`, muniCode: "402290", muniName: "みやま市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kama-yosansho-${fy}`, muniCode: "402273", muniName: "嘉麻市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `mashiki-yosansho-${fy}`, muniCode: "434434", muniName: "益城町", prefName: "熊本県", isPref: false,
+    })),
+    // 五島市の R3・R2 はスキャン画像（WARP のみ）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `goto-yosansho-${fy}`, muniCode: "422118", muniName: "五島市", prefName: "長崎県", isPref: false,
+    })),
+    // 由布市は R8 が予算書、R7〜R2 が予算の概要
+    { srcId: "yufu-yosansho-r8", muniCode: "442135", muniName: "由布市", prefName: "大分県", isPref: false },
+    ...(["r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yufu-yosan-gaiyou-${fy}`, muniCode: "442135", muniName: "由布市", prefName: "大分県", isPref: false,
+    })),
+    // 八重瀬町の R5 はスキャン画像
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yaese-yosansho-${fy}`, muniCode: "473626", muniName: "八重瀬町", prefName: "沖縄県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shingu-fukuoka-yosansho-${fy}`, muniCode: "403458", muniName: "新宮町", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `toon-yosansho-${fy}`, muniCode: "382159", muniName: "東温市", prefName: "愛媛県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `konan-kochi-yosan-setsumei-${fy}`, muniCode: "392111", muniName: "香南市", prefName: "高知県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sakaiminato-yosansho-${fy}`, muniCode: "312045", muniName: "境港市", prefName: "鳥取県", isPref: false,
     })),
     // ---- 第103巡（2026-11-12・§13-120） ----
     // 諏訪市の R7 は総括が画像・R4・R3 は未確認。R2 は概要（説明書が見つからない）

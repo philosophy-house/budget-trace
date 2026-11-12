@@ -3293,6 +3293,24 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.town.mibu.tochigi.jp/category/bunya/gyoseimachizukuri/zaisei/",
     checkedOn: "2026-10-31", ref: "docs/data-sources.md §13-117",
   },
+  // ==== 第109巡（2026-11-12・docs §13-125）====
+  {
+    // 五島市（422118）R3・R2。発行元から消えていて WARP（2023-03-08）にだけあり、一般会計予算書は全ページが JPEG/CCITT の画像（文字0）。
+    //   R4 の前年度列は R3 スキャンの総括 p.13 の本年度欄と目視で一致（§13-125）。
+    code: "422118", name: "五島市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["scanned-image"],
+    reason: "当初予算書は国立国会図書館のウェブアーカイブにだけ残っており、紙をスキャンした画像で文字の情報が無い。予算の概要などの別の資料も見つからない。",
+    url: "https://warp.ndl.go.jp/20230309/20230308172829/https://www.city.goto.nagasaki.jp/li/shisei/070/010/index.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
+  {
+    // 八重瀬町（473626）R5。発行元の R05_4_tosyo.pdf は全面が 1bit の CCITT 画像（Creator CIP1.5）。「わかりやすい予算書 R5」は万円・前年度列なしで代わりにならない（§13-125）。
+    code: "473626", name: "八重瀬町", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["scanned-image"],
+    reason: "当初予算書は紙をスキャンした画像で文字の情報が無い。同じ年度の「わかりやすい予算書」は金額を万円で丸めて前年度の列も無いので代わりにならない。",
+    url: "https://www.town.yaese.lg.jp/docs/2014030300014/",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+  },
   {
     // 結城市（082074）R7。R8・R6〜R2 は収録済み（§13-119）。年度ページ（page009476.html）に「（※修正部分以外可決）」。掲載の予算書（1742261098_doc_18_0.pdf）は原案（22,162,000）で、
     //   修正（1742261103_doc_18_0.pdf・8p・議案第12号の修正案・結城南中学校区新設校建設事業 1,324,000 を削除・20,838,000）の総括は見え消しで全款が無い。
@@ -3464,57 +3482,57 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-121",
   },
   {
-    // 熱海市（222054）R7〜R2。R8 は収録済み（§13-125）。予算書（附説明書）は R7 が241頁中24頁だけ文字があり、総括の p.36〜38 は画像の帯。
+    // 熱海市（222054）R7〜R2。R8 は収録済み（§13-126）。予算書（附説明書）は R7 が241頁中24頁だけ文字があり、総括の p.36〜38 は画像の帯。
     //   R6〜R2 は全頁が画像（R6 242頁・R5 262頁・R4/R3/R2 255頁でテキストは0〜数字）。「予算・施策概要」は文字があるが款別は円グラフの構成比と主な増減だけ。
     code: "222054", name: "熱海市", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3", "R2"],
     categories: ["scanned-image", "format-mismatch"],
     reason: "予算書の款別の表はスキャン画像で文字の情報が無く、予算・施策概要は款別の額が円グラフだけで前年度との比較が款ごとに無い。",
     url: "https://www.city.atami.lg.jp/shisei/gyozaisei/1001659/1004131/index.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
   {
-    // 本巣市（212181）R5〜R2。R8〜R6 は収録済み（§13-125）。予算のカテゴリは 2024 年半ばに新設（WARP 2023-08-10・2024-05-11 の財政カテゴリに「予算」が無い）。
+    // 本巣市（212181）R5〜R2。R8〜R6 は収録済み（§13-126）。予算のカテゴリは 2024 年半ばに新設（WARP 2023-08-10・2024-05-11 の財政カテゴリに「予算」が無い）。
     //   Wayback の CDX も `*tosho*` は R6・R7 だけ。「財政事情の公表」（上半期）に款別の当初予算額はあるが前年度の列が無く、款番号なしの金額順。
     code: "212181", name: "本巣市", dataset: "budget", fiscalYears: ["R5", "R4", "R3", "R2"],
     categories: ["no-material", "format-mismatch"],
     reason: "当初予算書と当初予算説明資料がウェブに掲載されていない。財政事情の公表には款別の当初予算額があるが、前年度の額が載っていない。",
     url: "https://www.city.motosu.lg.jp/category/5-15-5-0-0-0-0-0-0-0.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
   {
-    // 魚沼市（152251）R2。R8〜R3 は収録済み（§13-125）。予算書（2276.pdf）はテキスト層が化けている（Identity-H・ToUnicode なし）。
+    // 魚沼市（152251）R2。R8〜R3 は収録済み（§13-126）。予算書（2276.pdf）はテキスト層が化けている（Identity-H・ToUnicode なし）。
     //   予算概要（2275.pdf）の款別一覧表の歳入は `prevAfterBreakdown` が皆減（自動車取得税交付金 … △25,000 皆減）・皆増の行を扱えず throw、外すと前年度 Σ が割れる。
     code: "152251", name: "魚沼市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["parser-unsupported", "broken-text-layer"],
     reason: "予算の概要の款別の表は原典としては健全だが、新しくできた款・なくなった款の行を、こちらの読み取りの仕組みがまだ扱えない。予算書は文字が正しく文字として埋め込まれていない。",
     url: "https://www.city.uonuma.lg.jp/page/1446.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
   {
-    // 大治町（234249）R2。R8〜R3 は収録済み（§13-125）。当初予算案概要書（WARP 2026-08-08・secure/1168/r2gaiyo.pdf）p.32 の歳出の合計行の前年度額 8,906,000 が
+    // 大治町（234249）R2。R8〜R3 は収録済み（§13-126）。当初予算案概要書（WARP 2026-08-08・secure/1168/r2gaiyo.pdf）p.32 の歳出の合計行の前年度額 8,906,000 が
     //   pdftotext（-layout・-raw とも）で合計行の1行上に浮き、既定の推測が現計の 9,591,668 を合計として掴む（前年度 Σ 差 -685,668）。予算書本体はテキスト層がほぼ空。
     code: "234249", name: "大治町", dataset: "budget", fiscalYears: ["R2"],
     categories: ["parser-unsupported"],
     reason: "当初予算案概要書の款別の表は原典としては健全だが、文字の情報の上で歳出の合計の前年度の額が1行ずれて入っていて、こちらの読み取りの仕組みがまだ扱えない。",
     url: "https://warp.ndl.go.jp/20260810/20260808184534/https://www.town.oharu.aichi.jp/1181.htm",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
   {
     // 大治町（234249）R5。当初予算案概要書（WARP 2026-08-08・secure/4549/gaiyou.pdf.pdf）p.39 の歳入で、款8 自動車取得税交付金の対前年度比率が「10,000」（%）と
-    //   桁区切りつきで印字され、前年度の列に読まれる（前年度 Σ +9,999）。原典は誤植ではないので amountTypos では直さない（弥富 R2 と同じ・§13-125）。
+    //   桁区切りつきで印字され、前年度の列に読まれる（前年度 Σ +9,999）。原典は誤植ではないので amountTypos では直さない（弥富 R2 と同じ・§13-126）。
     code: "234249", name: "大治町", dataset: "budget", fiscalYears: ["R5"],
     categories: ["parser-unsupported"],
     reason: "歳入の表で、前年度との比率が桁区切りのついた大きな数で印字されている行があり、今の読み取りの仕組みでは金額と区別できない。",
     url: "https://warp.ndl.go.jp/20260810/20260808174145/https://www.town.oharu.aichi.jp/4662.htm",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
   {
-    // 小千谷市（152081）R8。R7〜R2 は収録済み（§13-125）。「予算案の概要【計数資料編】」（40899.pdf）p.4-5 の款別の表は使用料及び手数料 290,818・諸収入 620,572 で、
+    // 小千谷市（152081）R8。R7〜R2 は収録済み（§13-126）。「予算案の概要【計数資料編】」（40899.pdf）p.4-5 の款別の表は使用料及び手数料 290,818・諸収入 620,572 で、
     //   項まで足し上がる。同じ冊子の p.8・資料№1 の概要・予算書の第1表と総括・補正第6号の補正前の額は 290,518・620,872。予算書（42056.pdf）は文字化け。
     code: "152081", name: "小千谷市", dataset: "budget", fiscalYears: ["R8"],
     categories: ["format-mismatch", "broken-text-layer"],
     reason: "款別の前年度比較の表で2つの款の額が、同じ冊子の別のページや予算書と300千円ずつ食い違う（合計は同じ）。予算書のほうは文字が正しく文字として埋め込まれていない。",
     url: "https://www.city.ojiya.niigata.jp/soshiki/kikakuseisaku/yosan.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-125",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
 ];

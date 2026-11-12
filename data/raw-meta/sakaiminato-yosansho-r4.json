@@ -1,0 +1,12 @@
+{
+  "sourceId": "sakaiminato-yosansho-r4",
+  "files": [
+    {
+      "filename": "R4yosansyo.pdf",
+      "sha256": "703f7a941ad2cebcf3bdffabb33bde74bcf401d2c87048b54f178d69cca90ca7",
+      "bytes": 2932868,
+      "fetchedAt": "2026-11-12T12:28:07.656Z",
+      "fetchedFrom": "https://www.city.sakaiminato.lg.jp/zaisei/R4yosansyo.pdf"
+    }
+  ]
+}

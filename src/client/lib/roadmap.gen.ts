@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 696,
+  "budgetCount": 706,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-12",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5209,
-  "fileCount": 7886,
-  "archivedCount": 4086,
+  "sourceCount": 5276,
+  "fileCount": 7953,
+  "archivedCount": 4148,
   "licenseOpen": 145,
-  "licensePermission": 4967,
+  "licensePermission": 5034,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -2213,6 +2213,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "境港市",
+      "code": "312045",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "浜田市",
       "code": "322024",
       "years": 7,
@@ -2363,6 +2369,18 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "東温市",
+      "code": "382159",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "香南市",
+      "code": "392111",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "北九州市",
       "code": "401005",
       "years": 7,
@@ -2441,14 +2459,32 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "嘉麻市",
+      "code": "402273",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "朝倉市",
       "code": "402281",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "みやま市",
+      "code": "402290",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "糸島市",
       "code": "402303",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "新宮町",
+      "code": "403458",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2507,6 +2543,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "益城町",
+      "code": "434434",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "別府市",
       "code": "442020",
       "years": 7,
@@ -2515,6 +2557,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "中津市",
       "code": "442038",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "由布市",
+      "code": "442135",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -3143,6 +3191,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "八重瀬町",
+      "code": "473626",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "弘前市",
       "code": "022021",
       "years": 5,
@@ -3361,6 +3415,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "島原市",
       "code": "422037",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
+    },
+    {
+      "name": "五島市",
+      "code": "422118",
       "years": 5,
       "range": "R4〜R8（5年度）"
     },
