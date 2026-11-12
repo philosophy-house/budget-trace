@@ -15569,11 +15569,19 @@
     },
     {
       "sourceId": "ibara-yosan-gaiyou-r8",
+      "url": "https://www.city.ibara.okayama.jp/soshiki/6/1757.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112131237/https://www.city.ibara.okayama.jp/soshiki/6/1757.html",
+      "waybackTimestamp": "20261112131237",
+      "checkedAt": "2026-11-12T13:29:15.546Z"
+    },
+    {
+      "sourceId": "ibara-yosan-gaiyou-r8",
       "url": "https://www.city.ibara.okayama.jp/uploaded/attachment/11002.pdf",
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20260711151747/https://www.city.ibara.okayama.jp/uploaded/attachment/11002.pdf",
       "waybackTimestamp": "20260711151747",
-      "checkedAt": "2026-11-12T13:11:16.831Z",
+      "checkedAt": "2026-11-12T13:29:14.482Z",
       "sha256Match": true,
       "waybackBytes": 1649426,
       "rawSha256": "2eb91bf47d20e4b50e0dd333ed2f97a54d647fd79848dc2e3ff0a7fa5f0b0953"
@@ -63776,6 +63784,14 @@
     },
     {
       "sourceId": "seiyo-tousyoyosannsetumeisiryou-r7",
+      "url": "https://www.city.seiyo.ehime.jp/kakuka/soumu/zaisei/zaisei/yosann/16520.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112130423/https://www.city.seiyo.ehime.jp/kakuka/soumu/zaisei/zaisei/yosann/16520.html",
+      "waybackTimestamp": "20261112130423",
+      "checkedAt": "2026-11-12T13:24:43.614Z"
+    },
+    {
+      "sourceId": "seiyo-tousyoyosannsetumeisiryou-r7",
       "url": "https://www.city.seiyo.ehime.jp/material/files/group/6/R7tousyoyosannsetumeisiryou.pdf",
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261112130358/https://www.city.seiyo.ehime.jp/material/files/group/6/R7tousyoyosannsetumeisiryou.pdf",
@@ -63848,7 +63864,18 @@
       "kind": "landing",
       "waybackUrl": "https://web.archive.org/web/20261112124724/https://www.city.seiyo.ehime.jp/kakuka/soumu/zaisei/zaisei/yosann/12164.html",
       "waybackTimestamp": "20261112124724",
-      "checkedAt": "2026-11-12T13:11:12.037Z"
+      "checkedAt": "2026-11-12T13:29:13.356Z"
+    },
+    {
+      "sourceId": "seiyo-yosansho-r5",
+      "url": "https://www.city.seiyo.ehime.jp/material/files/group/6/05tousyo_ippan_syusei.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20261112131113/https://www.city.seiyo.ehime.jp/material/files/group/6/05tousyo_ippan_syusei.pdf",
+      "waybackTimestamp": "20261112131113",
+      "checkedAt": "2026-11-12T13:29:10.476Z",
+      "sha256Match": true,
+      "waybackBytes": 1952909,
+      "rawSha256": "351923c4e2cd423939b0f60bf7cddf41fbf63c841306578f7e67b458bdb9348d"
     },
     {
       "sourceId": "seiyo-yosansho-r6",
@@ -78562,10 +78589,18 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261112123425/https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/zaisei/yosanr07/files/R7tousho_01_koushin.pdf",
       "waybackTimestamp": "20261112123425",
-      "checkedAt": "2026-11-12T13:09:10.134Z",
+      "checkedAt": "2026-11-12T13:29:07.508Z",
       "sha256Match": true,
       "waybackBytes": 5604510,
       "rawSha256": "2e56a8b13db3634314b93e60984261e74901773a3da4308c34ac5a0293160ac9"
+    },
+    {
+      "sourceId": "unnan-yosan-gaiyou-r7",
+      "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/zaisei/yosanr07/tousho.html",
+      "kind": "landing",
+      "waybackUrl": "https://web.archive.org/web/20261112130933/https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/zaisei/yosanr07/tousho.html",
+      "waybackTimestamp": "20261112130933",
+      "checkedAt": "2026-11-12T13:29:08.677Z"
     },
     {
       "sourceId": "unnan-yosan-gaiyou-r8",
@@ -86488,7 +86523,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261112120850/https://www.city.yoshinogawa.lg.jp/docs/2023021300032/file_contents/r5tousyoyosan.pdf",
       "waybackTimestamp": "20261112120850",
-      "checkedAt": "2026-11-12T13:08:41.071Z",
+      "checkedAt": "2026-11-12T13:27:53.103Z",
       "sha256Match": true,
       "waybackBytes": 7849080,
       "rawSha256": "8bd784d656047feff2a2b01cd2adca1445e72fe297867b014b222e108465ea65"
@@ -86499,7 +86534,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20240612143614/https://www.city.yoshinogawa.lg.jp/docs/2024021500033/file_contents/r06tousyoyosan.pdf",
       "waybackTimestamp": "20240612143614",
-      "checkedAt": "2026-11-12T12:01:33.102Z",
+      "checkedAt": "2026-11-12T13:27:51.135Z",
       "sha256Match": true,
       "waybackBytes": 13374500,
       "rawSha256": "8fc7fab0109f890b8a5a89dab7c7ffd6c0c2c9665da90478a8312319d982cedf"
@@ -86516,13 +86551,12 @@
       "sourceId": "yoshinogawa-tousyo-yosan-gaiyou-r7",
       "url": "https://www.city.yoshinogawa.lg.jp/docs/2025021000028/file_contents/r07tousyoyosan.pdf",
       "kind": "file",
-      "waybackUrl": "https://web.archive.org/web/20250426142940/https://www.city.yoshinogawa.lg.jp/docs/2025021000028/file_contents/r07tousyoyosan.pdf",
-      "waybackTimestamp": "20250426142940",
-      "checkedAt": "2026-11-12T12:01:14.275Z",
-      "sha256Match": false,
-      "waybackBytes": 5242880,
-      "rawSha256": "af097d507bae2a92e304d11a806c49bf8cd6a1186b6ae76464aef0e7aa85dd07",
-      "waybackTruncated": true
+      "waybackUrl": "https://web.archive.org/web/20261112132516/https://www.city.yoshinogawa.lg.jp/docs/2025021000028/file_contents/r07tousyoyosan.pdf",
+      "waybackTimestamp": "20261112132516",
+      "checkedAt": "2026-11-12T13:27:12.245Z",
+      "sha256Match": true,
+      "waybackBytes": 10544542,
+      "rawSha256": "af097d507bae2a92e304d11a806c49bf8cd6a1186b6ae76464aef0e7aa85dd07"
     },
     {
       "sourceId": "yoshinogawa-tousyo-yosan-gaiyou-r8",
@@ -86530,7 +86564,7 @@
       "kind": "file",
       "waybackUrl": "https://web.archive.org/web/20261112120029/https://www.city.yoshinogawa.lg.jp/docs/2026021300033/file_contents/r08tousyo.pdf",
       "waybackTimestamp": "20261112120029",
-      "checkedAt": "2026-11-12T13:05:07.657Z",
+      "checkedAt": "2026-11-12T13:27:20.343Z",
       "sha256Match": true,
       "waybackBytes": 37637582,
       "rawSha256": "f5ae651c19719580980d069031e5e4c758ad4529aa89ceec9be0128bd6ed964f"

@@ -36111,7 +36111,8 @@ export const SOURCES: SourceEntry[] = [
   // 前年度列は当初（議決額。R3→R8 の5区間で35款一致。R6 の前年度列は R5 の修正後、R3 の前年度列は R2 の修正後の額）。
   //   R8〜R4 の概要に「骨格」「肉付」0件（R3 は概要がスキャン画像で文言では未確認）。
   // ライセンス: 「リンク・著作権・免責事項」（/site/userguide/7.html・確認日 2026-11-12）＝`許可なく無断で複製・転用` で要許可。
-  //   リンク「トップページへのリンクは原則として自由です。事前連絡は必要ありませんが…ご連絡ください」＝トップ以外に触れない ⇒ `noDeepLink` なし。
+  //   リンク「井原市ホームページのトップページへのリンクは原則として自由です。」＝自由をトップページに限り、深いリンクを認める句が無い。
+  //   先例が割れる（岩国・射水・中津川・南相馬は立てない／南魚沼・丹波・燕は閉じる側に倒して立てた）⇒ 制限の強い方へ倒して `noDeepLink`（寒河江と同じ判断）。
   ...([
     ["R8", "https://www.city.ibara.okayama.jp/uploaded/attachment/11002.pdf", "https://www.city.ibara.okayama.jp/soshiki/6/1757.html", 17, 19, 20, 21],
     ["R7", "https://www.city.ibara.okayama.jp/uploaded/attachment/8257.pdf", "https://www.city.ibara.okayama.jp/soshiki/6/1757.html", 16, 17, 18, 19],
@@ -36128,6 +36129,7 @@ export const SOURCES: SourceEntry[] = [
     fiscalYear: fy,
     scope: "井原市（一般会計・団体コード332071）",
     license: "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
+    noDeepLink: true,
     parser: "kofu-yosansho" as const,
     parserOptions: {
       revenuePages: { from: r0, to: r1 }, expenditurePages: { from: e0, to: e1 },
@@ -36147,6 +36149,7 @@ export const SOURCES: SourceEntry[] = [
     fiscalYear: "R3",
     scope: "井原市（一般会計・団体コード332071）",
     license: "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
+    noDeepLink: true,
     parser: "kofu-yosansho",
     parserOptions: { revenuePage: 21, expenditurePage: 22, revenueHeading: "（歳入）", expenditureHeading: "（歳出）" },
   } satisfies SourceEntry,

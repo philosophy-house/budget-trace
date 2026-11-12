@@ -31035,39 +31035,39 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   },
   "/sources/ibara-yosan-gaiyou-r8/11002.pdf": {
     "mode": "origin",
-    "href": "https://www.city.ibara.okayama.jp/uploaded/attachment/11002.pdf",
+    "href": "https://www.city.ibara.okayama.jp/soshiki/6/1757.html",
     "license": "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/ibara-yosan-gaiyou-r7/8257.pdf": {
     "mode": "origin",
-    "href": "https://www.city.ibara.okayama.jp/uploaded/attachment/8257.pdf",
+    "href": "https://www.city.ibara.okayama.jp/soshiki/6/1757.html",
     "license": "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/ibara-yosan-gaiyou-r6/6145.pdf": {
     "mode": "archive",
-    "href": "https://warp.ndl.go.jp/20240607/20240606075740/https://www.city.ibara.okayama.jp/uploaded/attachment/6145.pdf",
+    "href": "https://warp.ndl.go.jp/20240607/20240606070845/https://www.city.ibara.okayama.jp/soshiki/6/1757.html",
     "license": "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/ibara-yosan-gaiyou-r5/3005.pdf": {
     "mode": "archive",
-    "href": "https://warp.ndl.go.jp/20240607/20240606075803/https://www.city.ibara.okayama.jp/uploaded/attachment/3005.pdf",
+    "href": "https://warp.ndl.go.jp/20240607/20240606070845/https://www.city.ibara.okayama.jp/soshiki/6/1757.html",
     "license": "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/ibara-yosan-gaiyou-r4/3018.pdf": {
     "mode": "archive",
-    "href": "https://warp.ndl.go.jp/20240607/20240606075828/https://www.city.ibara.okayama.jp/uploaded/attachment/3018.pdf",
+    "href": "https://warp.ndl.go.jp/20240607/20240606070845/https://www.city.ibara.okayama.jp/soshiki/6/1757.html",
     "license": "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/ibara-yosansho-r3/R3tousyoyosannsyoan.pdf": {
     "mode": "archive",
-    "href": "https://warp.ndl.go.jp/20210910/20210909162024/https://www.city.ibara.okayama.jp/docs/2019091800015/file_contents/R3tousyoyosannsyoan.pdf",
+    "href": "https://warp.ndl.go.jp/20210910/20210909120000/https://www.city.ibara.okayama.jp/docs/2019091800015/",
     "license": "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
-    "target": "file"
+    "target": "page"
   },
   "/sources/sumoto-yosan-gaiyo-r8/20310.pdf": {
     "mode": "origin",
