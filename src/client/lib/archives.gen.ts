@@ -4028,6 +4028,7 @@ export const WAYBACK_BY_URL: Record<string, string> = {
   "https://www.city.miyakonojo.miyazaki.jp/uploaded/life/44032_67939_misc.pdf": "https://web.archive.org/web/20220222161334/https://www.city.miyakonojo.miyazaki.jp/uploaded/life/44032_67939_misc.pdf",
   "https://www.city.miyakonojo.miyazaki.jp/soshiki/19/61724.html": "https://web.archive.org/web/20260910012401/https://www.city.miyakonojo.miyazaki.jp/soshiki/19/61724.html",
   "https://www.city.miyakonojo.miyazaki.jp/uploaded/attachment/31143.pdf": "https://web.archive.org/web/20260910012222/https://www.city.miyakonojo.miyazaki.jp/uploaded/attachment/31143.pdf",
+  "https://www.city.miyama.lg.jp/s008/shisei/070/010/reiwa7/R7ippan.pdf": "https://web.archive.org/web/20250221224637/https://www.city.miyama.lg.jp/s008/shisei/070/010/reiwa7/R7ippan.pdf",
   "https://www.pref.miyazaki.lg.jp/documents/107577/107577_20260323113927-1.pdf": "https://web.archive.org/web/20260613030739/https://www.pref.miyazaki.lg.jp/documents/107577/107577_20260323113927-1.pdf",
   "https://www.pref.miyazaki.lg.jp/documents/82306/82306_20260603093320-1.pdf": "https://web.archive.org/web/20261031084545/https://www.pref.miyazaki.lg.jp/documents/82306/82306_20260603093320-1.pdf",
   "https://www.pref.miyazaki.lg.jp/gikai/session/r8/2gatsu/result.html": "https://web.archive.org/web/20260516051140/https://www.pref.miyazaki.lg.jp/gikai/session/r8/2gatsu/result.html",

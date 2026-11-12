@@ -115,4 +115,8 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "愛川町", license: "Copyright (c)2023 Aikawa town. All Rights Reserved." },
   { who: "愛川町（旧サイト）", license: "Copyright 2015 Aikawa Town All Rights Reserved." },
   { who: "大月市", license: "大月市ホームページで公開している文章や画像の著作権は、大月市に帰属します。 これらの著作物を大月市の承諾なしに複製、または他の電子メディアや印刷物などに再利用する事はできません。" },
+  { who: "益城町", license: "©2024 Town Mashiki" },
+  { who: "五島市", license: "本サイトの文字、写真、イラストなどの個々の情報に関する著作権は、五島市またはその情報提供者に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。本サイトのコンテンツを著作権法上で認められている「私的使用」や「引用」の範囲を超えて使用することをご希望の際は、五島市まで、お問い合わせください。" },
+  { who: "東温市", license: "本ホームページで掲載されている文書や写真等の画像、及びファイルの著作権は東温市内に帰属し、著作権法により保護されています。" },
+  { who: "香南市", license: "Copyright (c) 2022 Konan city. All Rights Reserved." },
 ];

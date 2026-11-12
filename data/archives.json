@@ -40206,6 +40206,17 @@
       "rawSha256": "6b1b3827bdd6413ad94aac531ce88d49eb20394d67325122b1c18c9fff56ceff"
     },
     {
+      "sourceId": "miyama-yosansho-r7",
+      "url": "https://www.city.miyama.lg.jp/s008/shisei/070/010/reiwa7/R7ippan.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250221224637/https://www.city.miyama.lg.jp/s008/shisei/070/010/reiwa7/R7ippan.pdf",
+      "waybackTimestamp": "20250221224637",
+      "checkedAt": "2026-11-12T12:28:42.868Z",
+      "sha256Match": true,
+      "waybackBytes": 3496510,
+      "rawSha256": "e2e0e6f73c9522411cbf69cb86c4471058191a4f03e2e35bbb276ddcb3f840bd"
+    },
+    {
       "sourceId": "miyazaki-ken-gikai-r8",
       "url": "https://www.pref.miyazaki.lg.jp/documents/107577/107577_20260323113927-1.pdf",
       "kind": "file",

@@ -542,6 +542,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "082309": "kasumigaura",
   "282057": "sumoto",
   "243418": "komono",
+  "402290": "miyama",
+  "402273": "kama",
+  "434434": "mashiki",
+  "422118": "goto",
+  "442135": "yufu",
+  "473626": "yaese",
+  "403458": "shingu-fukuoka", // ⚠ 和歌山県新宮市 302074 とは別団体（新宮市は未収録）
+  "382159": "toon",
+  "392111": "konan-kochi", // ⚠ 江南市 232173 が "konan"・湖南市 252115 が "konan-shiga"
+  "312045": "sakaiminato",
   "052078": "yuzawa", // ⚠ 新潟県湯沢町 154610 とは別団体（湯沢町は未収録）
   "423076": "nagayo",
   "062065": "sagae",
