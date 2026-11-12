@@ -716,12 +716,30 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "172090": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "予算説明書・予算書・予算の概要のどれもが紙をスキャンした画像で、文字の情報が無い。",
+        "checkedOn": "2026-11-12"
+      }
+    ]
+  },
   "172103": {
     "budget": [
       {
         "fyLabel": "令和2年度",
         "reason": "当初予算の一般会計附表（歳入・歳出の款別予算額調）が紙をスキャンした画像で、文字の情報が入っていない。予算書も同じく画像だけ。",
         "checkedOn": "2026-09-27"
+      }
+    ]
+  },
+  "173614": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和2年度",
+        "reason": "款別の予算書がウェブに無く、公表されている「当初予算の概要」は款をまとめた区分の万円単位の表で、前年度の額の列が無い。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -799,6 +817,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成20年度",
         "reason": "予算のページの「平成20年度予算」の節に「当初予算の概要」のリンクが無い（補正予算の概要・専決予算の概要・予算編成方針だけ）。前後の平成22・21・19・18年度には当初予算の概要がある。",
         "checkedOn": "2026-09-10"
+      }
+    ]
+  },
+  "202061": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度",
+        "reason": "予算説明書の款別の総括のページで、文字が図形として描かれていて文字の情報が無い。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -913,6 +940,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "令和2年度の当初予算の資料は紙をスキャンした画像だけで文字の情報が無く、予算書は見当たらない（発行元のページも消えている）。",
         "checkedOn": "2026-10-26"
+      }
+    ]
+  },
+  "223255": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度・令和6年度",
+        "reason": "予算書がデジタルブックのページ画像としてだけ公開されていて、文字の情報が無い。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -1173,6 +1209,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "予算概要書は紙をスキャンした画像で文字の情報が無く、文字の情報がある記者向けの資料には款別の表が無い。",
         "checkedOn": "2026-10-26"
+      }
+    ]
+  },
+  "252140": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度",
+        "reason": "議会で修正可決された年度で、公表されている款別の表は修正前の原案か、前年度の額の列が無い修正後の表だけ。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -1497,6 +1542,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和5年度・令和4年度",
         "reason": "一般会計当初予算は議会で修正して可決された。公開されている予算案の概要は修正前の案のままで、修正後の款別の額は翌年度の資料の前年度の列にしか無い。",
         "checkedOn": "2026-10-31"
+      }
+    ]
+  },
+  "294268": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "予算書の款別の総括のページで、文字が図形として描かれていて文字の情報が無い。",
+        "checkedOn": "2026-11-12"
+      },
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "当初予算書がウェブに掲載されていない（残っているのは予算要求の査定状況の表だけ）。",
+        "checkedOn": "2026-11-12"
       }
     ]
   },
@@ -2678,6 +2737,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "report"
   ],
   "132144": [
+    "budget"
+  ],
+  "173614": [
     "budget"
   ],
   "192058": [

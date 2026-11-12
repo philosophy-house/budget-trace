@@ -3352,7 +3352,65 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.town.rifu.miyagi.jp/gyosei/chosei/yosan_zaisei/1307.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-119",
   },
-  // ==== 第104巡（2026-11-12・docs §13-120）==================================
+  // ==== 第103巡（2026-11-12・loop.md・docs §13-120）==================================================
+  {
+    // 津幡町（173614）。予算書（事項別明細書）は町サイト・WARP・Wayback のどこにも無い。公表は「当初予算の概要」だけで、款を束ねた区分（各種交付金・使用料及び手数料等・労働費等）の万円単位の表に前年度額の列が無い（R2 の概要に try-parse ⇒ 款行0件で throw）。
+    code: "173614", name: "津幡町", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R2"],
+    categories: ["format-mismatch", "no-material"],
+    reason: "款別の予算書がウェブに無く、公表されている「当初予算の概要」は款をまとめた区分の万円単位の表で、前年度の額の列が無い。",
+    url: "https://www.town.tsubata.lg.jp/life/6/22/124/",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+  },
+  {
+    // 諏訪市（202061）R7。予算説明書（70542_139301_misc.pdf・WARP 2025-05-11・403ページ）は総括のページ（p.5）の文字が図形として描かれている（ファイル全体でフォント1つ・画像0・pdftotext が空・2026-11-12 に実測）。
+    //   R4・R3 は §13-107 の偵察で「収録できない見込み」とされたが、この巡では原典を確かめていないので載せない。
+    code: "202061", name: "諏訪市", dataset: "budget", fiscalYears: ["R7"],
+    categories: ["broken-text-layer"],
+    reason: "予算説明書の款別の総括のページで、文字が図形として描かれていて文字の情報が無い。",
+    url: "https://warp.ndl.go.jp/20250511/20250511073305/https://www.city.suwa.lg.jp/uploaded/life/70542_139301_misc.pdf",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+  },
+  {
+    // 米原市（252140）R5。伊吹高校生通学支援金 1,800千円を削る議員提案の修正案が令和5年3月23日に可決。概要は原案で、修正後の款別表（syuusei_r5.pdf）には前年度列が無い。予算書は R7 以降しか載っていない。
+    code: "252140", name: "米原市", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["format-mismatch"],
+    reason: "議会で修正可決された年度で、公表されている款別の表は修正前の原案か、前年度の額の列が無い修正後の表だけ。",
+    url: "https://www.city.maibara.lg.jp/shisei/zaisei/yosan/r5_2/r5yosan_2/19286.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+  },
+  {
+    // かほく市（172090）R2。予算説明書・予算書・内示会資料の3点ともスキャン画像（説明書は CCITT 600dpi の画像で、文字はノンブルだけ）。
+    code: "172090", name: "かほく市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason: "予算説明書・予算書・予算の概要のどれもが紙をスキャンした画像で、文字の情報が無い。",
+    url: "https://www.city.kahoku.lg.jp/006/614/615/d010027.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+  },
+  {
+    // 函南町（223255）R7・R6。年度ページに PDF が無く、予算書はデジタルブック（ecocat）だけ。1ページずつの PDF も中身は jpeg の画像でフォントが無い。
+    code: "223255", name: "函南町", dataset: "budget", fiscalYears: ["R7", "R6"],
+    categories: ["scanned-image"],
+    reason: "予算書がデジタルブックのページ画像としてだけ公開されていて、文字の情報が無い。",
+    url: "https://www.town.kannami.shizuoka.jp/gyosei/zaisei/5390.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+  },
+  {
+    // 広陵町（294268）R4。予算書（議会の「令和4年第1回定例会 議案資料」0000005250.html の R4teirei1_ippan-yosansho.pdf）は総括の p.17・p.18 が線画で、フォント0・画像0（try-parse は見出しが見つからず throw）。
+    code: "294268", name: "広陵町", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["broken-text-layer"],
+    reason: "予算書の款別の総括のページで、文字が図形として描かれていて文字の情報が無い。",
+    url: "https://www.town.koryo.nara.jp/0000005250.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+  },
+  {
+    // 広陵町（294268）R3・R2。予算書が現行サイトに無く、Wayback に残るのは「一般会計当初予算要求（三役査定後）の状況」（款と合わない区分・「市町村債」など）だけ。WARP には 2025-06 以前の捕捉が無い。
+    code: "294268", name: "広陵町", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["no-material"],
+    reason: "当初予算書がウェブに掲載されていない（残っているのは予算要求の査定状況の表だけ）。",
+    url: "https://www.town.koryo.nara.jp/soshiki/21-3-0-0-0_2.html",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+  },
+  // ==== 第104巡（2026-11-12・docs §13-121）==================================
   {
     // 藍住町（364037）。町のサイトの財政・予算カテゴリに予算の記事が0件。当初予算の款別は広報あいずみ4月号の見開きだけ
     //   （一般会計の表に前年度の列なし・万円の丸め・「予備費・その他」の統合・R7/R8 号に前年号の数値が不可視テキストで残る）。
@@ -3360,7 +3418,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["no-material", "format-mismatch"],
     reason: "町のサイトに当初予算の資料（予算書・予算の概要）が無い。款別が載っているのは広報紙の記事だけで、前年度の列が無く、金額は万円単位に丸められ、款が「予備費・その他」にまとめられている。",
     url: "https://www.town.aizumi.lg.jp/category/bunya/administration/finance/",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-121",
   },
   {
     // 瀬戸内市（332127）R2。R8〜R3 は収録済み。第1条を 19,648,348 千円から 19,546,385 千円に改める修正可決。予算書（100816.pdf）・概要は原案、修正（100817.pdf）はスキャン。
@@ -3368,7 +3426,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["format-mismatch", "scanned-image"],
     reason: "当初予算が議会で修正されて成立したが、文字として読める予算書と概要は修正前の原案のもので、修正後の款別はスキャン画像にしか載っていない。",
     url: "https://www.city.setouchi.lg.jp/soshiki/4/1635.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-121",
   },
   {
     // 井原市（332071）R2。R8〜R3 は収録済み。第1条を 22,905,000 千円から 22,703,000 千円に改める修正可決。予算書（R2ippannyosannsho.pdf）は原案、
@@ -3377,7 +3435,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["format-mismatch", "scanned-image"],
     reason: "当初予算が議会で修正されて成立したが、文字として読める予算書は修正前の原案のもので、修正後の額が分かる概要と修正内容はスキャン画像しか無い。",
     url: "https://warp.ndl.go.jp/20210910/20210909120000/https://www.city.ibara.okayama.jp/docs/2019091800015/",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-121",
   },
   {
     // 阿波市（362069）R6・R5・R4。R8・R7・R2 は収録済み。予算書（99R6.pdf・R5ippannkaikei.pdf・ippannkaikei.pdf）の説明書部分は字形が図形化（pdfimages 0）で、
@@ -3386,7 +3444,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["broken-text-layer", "format-mismatch"],
     reason: "款ごとの表が載っている予算書のページで、文字が図形として描かれていて文字の情報が無い。予算の概要の歳入の表は款ごとの並びになっていない。",
     url: "https://www.city.awa.lg.jp/docs/2012032100038/",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-121",
   },
   {
     // 阿波市（362069）R3。予算書（reiwa3ippann.pdf）は CIDFont の私用領域（U+F022〜）の化けで decodeGarble が throw する。概要の歳入表は R6〜R4 と同じく款別でない。
@@ -3394,15 +3452,15 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     categories: ["broken-text-layer", "format-mismatch"],
     reason: "予算書の文字が正しく文字として埋め込まれておらず、款ごとの金額を取り出せない。予算の概要の歳入の表は款ごとの並びになっていない。",
     url: "https://www.city.awa.lg.jp/docs/2012032100038/",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-121",
   },
   {
     // 伊予市（382108）R2。R8〜R3 は収録済み。「ポイント」（20200319-01-01yosannnopoinnto.pdf）は ToUnicode 欠落。数字は帯 +0x3EAC で戻るが、
-    //   復号表に無い字が6つ（元・普・調・基・併・＋）。復号表に足せば Σ 差0 になることは偵察で実測（docs §13-120）。
+    //   復号表に無い字が6つ（元・普・調・基・併・＋）。復号表に足せば Σ 差0 になることは偵察で実測（docs §13-121）。
     code: "382108", name: "伊予市", dataset: "budget", fiscalYears: ["R2"],
     categories: ["broken-text-layer", "parser-unsupported"],
     reason: "資料の文字が正しく文字として埋め込まれておらず、こちらの文字の復元の表に無い字がある。",
     url: "https://www.city.iyo.lg.jp/zaimu/yosan_tor6.html",
-    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-120",
+    checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-121",
   },
 ];

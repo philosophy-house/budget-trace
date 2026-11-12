@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 677,
+  "budgetCount": 687,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-12",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5100,
-  "fileCount": 7766,
-  "archivedCount": 3979,
+  "sourceCount": 5160,
+  "fileCount": 7826,
+  "archivedCount": 4039,
   "licenseOpen": 145,
-  "licensePermission": 4858,
+  "licensePermission": 4918,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1571,6 +1571,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "岡谷市",
+      "code": "202045",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "飯田市",
       "code": "202053",
       "years": 7,
@@ -1639,6 +1645,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "中津川市",
       "code": "212067",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "瑞浪市",
+      "code": "212083",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1841,6 +1853,18 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "扶桑町",
+      "code": "233625",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "蟹江町",
+      "code": "234257",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "武豊町",
       "code": "234478",
       "years": 7,
@@ -1951,6 +1975,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "京丹後市",
       "code": "262129",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "精華町",
+      "code": "263664",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2777,6 +2807,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "かほく市",
+      "code": "172090",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
       "name": "白山市",
       "code": "172103",
       "years": 6,
@@ -2865,6 +2901,12 @@ export const ROADMAP_PROGRESS = {
       "code": "252123",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "米原市",
+      "code": "252140",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "福知山市",
@@ -3161,6 +3203,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（5年度）"
     },
     {
+      "name": "函南町",
+      "code": "223255",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
+    },
+    {
       "name": "豊田市",
       "code": "232114",
       "years": 5,
@@ -3401,6 +3449,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（4年度）"
     },
     {
+      "name": "諏訪市",
+      "code": "202061",
+      "years": 4,
+      "range": "R2〜R8（4年度）"
+    },
+    {
       "name": "佐久市",
       "code": "202177",
       "years": 4,
@@ -3433,6 +3487,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "橿原市",
       "code": "292052",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
+    },
+    {
+      "name": "広陵町",
+      "code": "294268",
       "years": 4,
       "range": "R5〜R8（4年度）"
     },
