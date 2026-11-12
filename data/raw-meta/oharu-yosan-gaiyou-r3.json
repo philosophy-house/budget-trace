@@ -1,0 +1,12 @@
+{
+  "sourceId": "oharu-yosan-gaiyou-r3",
+  "files": [
+    {
+      "filename": "r3gaiyo.pdf",
+      "sha256": "04e63b4e20405309d26aaa0effd728dff3f06d33fb1d919747188013fb9d8277",
+      "bytes": 1678516,
+      "fetchedAt": "2026-11-12T12:25:35.004Z",
+      "fetchedFrom": "https://warp.ndl.go.jp/20260810/20260808184955id_/https://www.town.oharu.aichi.jp/secure/1231/r3gaiyo.pdf"
+    }
+  ]
+}

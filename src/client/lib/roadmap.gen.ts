@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 697,
+  "budgetCount": 706,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-12",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5227,
-  "fileCount": 7893,
-  "archivedCount": 4101,
+  "sourceCount": 5276,
+  "fileCount": 7953,
+  "archivedCount": 4148,
   "licenseOpen": 145,
-  "licensePermission": 4985,
+  "licensePermission": 5034,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1487,6 +1487,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "滑川市",
+      "code": "162060",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "黒部市",
       "code": "162078",
       "years": 7,
@@ -2063,6 +2069,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "島本町",
+      "code": "273015",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "熊取町",
       "code": "273619",
       "years": 7,
@@ -2141,8 +2153,20 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "宍粟市",
+      "code": "282278",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "たつの市",
       "code": "282294",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "太子町",
+      "code": "284645",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2819,6 +2843,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（6年度）"
     },
     {
+      "name": "小千谷市",
+      "code": "152081",
+      "years": 6,
+      "range": "R2〜R7（6年度）"
+    },
+    {
       "name": "糸魚川市",
       "code": "152161",
       "years": 6,
@@ -2833,6 +2863,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "佐渡市",
       "code": "152242",
+      "years": 6,
+      "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "魚沼市",
+      "code": "152251",
       "years": 6,
       "range": "R3〜R8（6年度）"
     },
@@ -3293,6 +3329,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "大治町",
+      "code": "234249",
+      "years": 5,
+      "range": "R3〜R8（5年度）"
+    },
+    {
       "name": "伊賀市",
       "code": "242161",
       "years": 5,
@@ -3625,6 +3667,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "岐阜市",
       "code": "212016",
+      "years": 3,
+      "range": "R6〜R8（3年度）"
+    },
+    {
+      "name": "本巣市",
+      "code": "212181",
       "years": 3,
       "range": "R6〜R8（3年度）"
     },

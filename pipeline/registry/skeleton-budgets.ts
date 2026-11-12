@@ -397,4 +397,6 @@ export const SKELETON_BUDGETS: SkeletonBudget[] = [
   { code: "382108", name: "伊予市", fy: "R3", evidence: "「令和３年度 伊予市当初予算編成のポイント」（20210317-01-01yosannnopoinnto.pdf）p.3「本年度当初予算は骨格予算とし、義務的経費や継続的事業を中心に編成を行う」（2026-11-12 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-121" },
   { code: "322091", name: "雲南市", fy: "R3", evidence: "「令和３年度 雲南市当初予算資料」（R3tousyo01_1.pdf）p.2「令和３年度当初予算については、骨格予算により編成しました。」（2026-11-12 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-121" },
   { code: "362069", name: "阿波市", fy: "R3", evidence: "「令和３年度 当初予算概要」（2012032100038_docs_2012032100038_file_contents_reiwa3gaiyou.pdf）p.8「令和３年度の一般会計予算は、市長選挙を控え、経常的経費や継続事業を中心とした「骨格的予算」とし」（2026-11-12 に発行元から取得して pdftotext で照合）。阿波市の R3・R4 は未収録", ref: "docs/data-sources.md §13-121" },
+  { code: "162060", name: "滑川市", fy: "R4", evidence: "「広報なめりかわ」令和4年4月1日号の予算特集（当初予算の概要の年度ページに「広報なめりかわ掲載版」として掲載・2204yosankouhou.pdf）p.1「…市民福祉の向上のための諸経費を中心とした準骨格予算として編成しました。」（2026-11-12 に発行元から取得して画像で照合）。2022年2月の市長選で市長が交代", ref: "docs/data-sources.md §13-126" },
+  { code: "273015", name: "島本町", fy: "R3", evidence: "「令和３年度予算（案）資料」・「令和４年度予算（案）資料」・「令和５年度予算（案）資料」の一般会計歳入予算内訳表の注記「※令和３年度は骨格予算である。」（2026-11-12 に発行元から取得して pdftotext で照合）", ref: "docs/data-sources.md §13-126" },
 ];

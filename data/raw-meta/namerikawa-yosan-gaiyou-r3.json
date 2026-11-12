@@ -1,0 +1,19 @@
+{
+  "sourceId": "namerikawa-yosan-gaiyou-r3",
+  "files": [
+    {
+      "filename": "3sainyuyosan.pdf",
+      "sha256": "0eab08e8b896b65eef499915794da0d507d9a30686b4a245b8ecd5da75b5ce8e",
+      "bytes": 244141,
+      "fetchedAt": "2026-11-12T12:25:02.419Z",
+      "fetchedFrom": "https://www.city.namerikawa.toyama.jp/material/files/group/6/3sainyuyosan.pdf"
+    },
+    {
+      "filename": "3saisyutumokuteki.pdf",
+      "sha256": "4027c3fda16add4da625584b896bfe3526fdac7322b4a571240f3adf4f958433",
+      "bytes": 207859,
+      "fetchedAt": "2026-11-12T12:25:03.086Z",
+      "fetchedFrom": "https://www.city.namerikawa.toyama.jp/material/files/group/6/3saisyutumokuteki.pdf"
+    }
+  ]
+}
