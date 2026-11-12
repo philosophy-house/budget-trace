@@ -20,7 +20,9 @@
     "pipeline:derive": "bun pipeline/derive-app-data.ts",
     "pipeline:archive": "bun pipeline/archive.ts",
     "pipeline:archive-attempts": "bun pipeline/archive-attempts.ts",
-    "pipeline:inflight": "bun pipeline/inflight.ts"
+    "pipeline:inflight": "bun pipeline/inflight.ts",
+    "worktree:slim": "bun pipeline/worktree-raw.ts slim",
+    "worktree:raw": "bun pipeline/worktree-raw.ts"
   },
   "dependencies": {
     "next": "^16.2.12",
