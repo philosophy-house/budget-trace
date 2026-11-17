@@ -3355,6 +3355,11 @@ GTM は「既定＝granted」として**一度発火してしまう**。HTML 内
     ESM ビルドは `readFile` が fs を掴まず "Cannot access file …" で落ちるため、ラッパで `set_fs` 済み。
     **アプリ本体は xlsx を使わない（パイプライン専用）**ので devDependencies が正しい
   - `postcss` は Next が 8.4.31 固定 → `overrides` で 8.x 最新へ（GHSA-qx2v-qp2m-jg93）
+    — **2026-11-17 に外した**。Next 16.4.6 が postcss 8.5.23・sharp ^0.35.5 を自分で要求するようになり、
+    overrides（postcss ^8.5.19・sharp ^0.35.3）が逆に古い版へ留めていた。この日 `bun audit` は 20 件
+    （critical 5・high 9）まで溜まっており、next 16.2.12→16.4.6・pdfjs-dist 6.1.200→6.5.438・zod 4.4.3→4.6.7 と、
+    間接依存2つ（source-map-js・baseline-browser-mapping）の overrides で 0 件に戻した。
+    **気づけなかった理由**: Dependabot は `bun.lock` を読まず、警告が1件も出ない。CI も `bun audit` を回していない
   - React 19: グローバル `JSX` 名前空間が廃止 → `React.JSX`。`Record<string, unknown>` と交差した props は
     既知プロパティが `unknown`/`{}` に落ちるので使う分だけ絞り込む（`ui.tsx` の HoverBox）
   - Next 15+: `params`/`searchParams` は Promise → catch-all ルートで `await`

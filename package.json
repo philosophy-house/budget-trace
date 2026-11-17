@@ -25,12 +25,12 @@
     "worktree:raw": "bun pipeline/worktree-raw.ts"
   },
   "dependencies": {
-    "next": "^16.2.12",
-    "pdfjs-dist": "^6.1.200",
+    "next": "^16.4.6",
+    "pdfjs-dist": "^6.5.438",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "vanilla-cookieconsent": "3.1.0",
-    "zod": "^4.4.3"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/node": "20.14.10",
@@ -40,9 +40,10 @@
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
   },
   "overrides": {
-    "//": "next が postcss 8.4.31 を固定するが GHSA-qx2v-qp2m-jg93（CSS stringify の XSS）があるため 8.x 内で最新へ上げる",
-    "postcss": "^8.5.19",
-    "//sharp": "next は sharp を optionalDependencies ^0.34.5 で連れてくるが GHSA-f88m-g3jw-g9cj（libvips 由来）があるため 0.35 系へ上げる。⚠ このアプリは next/image も next/og も sharp も使っておらず（grep で0件）、画像最適化は動かないので実質デッドコード。next 側の宣言範囲外なので、next を上げたときは必ず bun audit と build で確かめること",
-    "sharp": "^0.35.3"
+    "//": "next 16.4.6 が postcss 8.5.23・sharp ^0.35.5 を自分で要求するようになったので、以前あった postcss と sharp の overrides は外した（2026-11-17。残すと古い版に留めてしまう）。下の2つは next が連れてくる間接依存で、lock が脆弱性のある版に留まるため、直った版へ上げている",
+    "//source-map-js": "next › postcss › source-map-js。1.2.2 未満に GHSA-68fv-2mgg-jv7q。postcss の要求は ^1.2.1 なので範囲内",
+    "source-map-js": "^1.2.2",
+    "//baseline-browser-mapping": "next › baseline-browser-mapping。2.11.0 未満に GHSA-w5vr-8v7q-w6rv。next を上げて lock が自然に 2.11 以上になったら外してよい",
+    "baseline-browser-mapping": "^2.11.0"
   }
 }
