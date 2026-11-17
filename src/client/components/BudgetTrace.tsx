@@ -1477,6 +1477,9 @@ export default function BudgetTrace({ initial, consentEnabled }: { initial?: Par
     // 同じ計測の仕組みなので2つに分けない）。Cookie 設定は**バナーを出す環境でだけ**出す
     // （dev や Preview では同意バナー自体が無いので、押しても何も起きないボタンになる）
     privacyUrl: D.PRIVACY_URL,
+    // 運営元（www.phh.jp）へのリンク。名前と URL は site.ts の1か所に持つ
+    operatorName: D.OPERATOR_NAME,
+    operatorUrl: D.OPERATOR_URL,
     openCookiePrefs: consentEnabled
       ? () => { void import("vanilla-cookieconsent").then((cc) => cc.showPreferences()); }
       : null,

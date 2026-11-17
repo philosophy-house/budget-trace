@@ -85,7 +85,7 @@ export const GLOSS: Record<string, string> = {
 
 // 実データの生成モジュール（来歴付き）
 // 公開サイトの素性（ドメイン・プライバシーポリシー）。画面から D.PRIVACY_URL で引く
-export { SITE_URL, SITE_NAME, PRIVACY_URL } from './site';
+export { SITE_URL, SITE_NAME, PRIVACY_URL, OPERATOR_NAME, OPERATOR_URL } from './site';
 export { SIMILAR_FY_LABEL, SIMILAR_INDEX_URL, SIMILAR_EVIDENCE, type SimilarEvidence } from './similar.gen';
 // 類似自治体比較（軸で選ぶ）。比較行そのものは全国索引を取得して組み立てる
 export {

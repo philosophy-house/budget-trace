@@ -18,6 +18,15 @@ export const SITE_NAME = "予算トレース";
  * こちらで相対にすると budget-trace.phh.jp に存在しないページを指す。
  */
 export const PRIVACY_URL = "https://www.phh.jp/privacy";
+
+/**
+ * 運営元（合同会社 哲學舎）とそのサイト。フッターから辿れるようにする（2026-11-17）。
+ * 検索から来る人の多くはこのサイトに直接着くが、運営元へのリンクがプライバシーポリシーしか
+ * 無く、誰が作っているサイトかが分からなかった。
+ * ⚠ **www 付きで持つ** — phh.jp は www.phh.jp へ転送されており、www.phh.jp 側の canonical も www。
+ */
+export const OPERATOR_NAME = "合同会社 哲學舎";
+export const OPERATOR_URL = "https://www.phh.jp";
 export const SITE_TITLE = `${SITE_NAME} — 地方自治体の予算執行可視化`;
 export const SITE_DESCRIPTION =
   "税金のゆくえを、執行まで。地方公共団体の予算（歳入・歳出）から執行率・支出先・事業報告までを一次資料付きで確認できるプロトタイプ。";
