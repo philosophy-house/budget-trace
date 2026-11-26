@@ -1,0 +1,402 @@
+{
+  "docType": "budget-book",
+  "sourceId": "yoshida-sz-yosan-gaiyou-r4",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-11-26T13:05:30.650Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R4",
+  "account": "一般会計",
+  "revenueTotal": 11949000,
+  "expenditureTotal": 11949000,
+  "prevRevenueTotal": 11049000,
+  "prevExpenditureTotal": 11049000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "町税",
+      "amount": 5465225,
+      "prevAmount": 4917869,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 100860,
+      "prevAmount": 71050,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 2900,
+      "prevAmount": 3700,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 25100,
+      "prevAmount": 17200,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 34400,
+      "prevAmount": 21400,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 112200,
+      "prevAmount": 91900,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 713900,
+      "prevAmount": 702700,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 16000,
+      "prevAmount": 13200,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 36200,
+      "prevAmount": 70400,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 469000,
+      "prevAmount": 511000,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 4400,
+      "prevAmount": 4400,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 65204,
+      "prevAmount": 65702,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 72405,
+      "prevAmount": 74610,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 1254897,
+      "prevAmount": 929177,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 840073,
+      "prevAmount": 1006824,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 21442,
+      "prevAmount": 16828,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 1013000,
+      "prevAmount": 722000,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 740864,
+      "prevAmount": 530993,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 200000,
+      "prevAmount": 200000,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 198230,
+      "prevAmount": 182947,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "町債",
+      "amount": 562700,
+      "prevAmount": 895100,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 12
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 94834,
+      "prevAmount": 97781,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 1844986,
+      "prevAmount": 1614692,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 3175254,
+      "prevAmount": 2951225,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 2020633,
+      "prevAmount": 1687727,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 2965,
+      "prevAmount": 2961,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 305766,
+      "prevAmount": 521625,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 146185,
+      "prevAmount": 70223,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 1344087,
+      "prevAmount": 1354947,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 508854,
+      "prevAmount": 485239,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 1073008,
+      "prevAmount": 946403,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 4,
+      "prevAmount": 4,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 1108514,
+      "prevAmount": 1079759,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "諸支出金",
+      "amount": 303910,
+      "prevAmount": 216414,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 14,
+      "kanName": "予備費",
+      "amount": 20000,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "令和4年度当初予算概要.pdf",
+        "page": 14
+      }
+    }
+  ]
+}
