@@ -1216,6 +1216,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "234419": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度",
+        "reason": "款別の前年度比較を載せているのは一般会計予算書の総括だけだが、文字がすべて図形として描かれていてテキストとして取り出せない。年度ページは主な款と「その他」しか載せていない。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "235016": {
     "budget": [
       {
@@ -1672,6 +1681,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "293440": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "予算の概要の歳入が12の区分にまとめた表で、11の款が「その他の歳入」の1行に合算されている。予算書はウェブに掲載されていない。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "293636": {
     "budget": [
       {
@@ -1915,6 +1933,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
         "reason": "予算書のウェブへの掲載は令和7年度からで、それより前の年度の予算の概要は、歳出が性質別の表と、款別の構成比の円グラフだけで、款別の歳出の金額が無い。",
         "checkedOn": "2026-10-26"
+      }
+    ]
+  },
+  "352110": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "各年度の当初予算の概要では、歳入が款ごとでなく財源の種類ごとにまとめた百万円単位の表（または円グラフ）で、その資料からは款ごとの額が取れない。予算書はウェブに掲載されていない。",
+        "checkedOn": "2026-11-26"
       }
     ]
   },
@@ -3264,6 +3291,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "280003": [
+    "budget"
+  ],
+  "293440": [
     "budget"
   ],
   "312011": [
