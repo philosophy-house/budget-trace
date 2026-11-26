@@ -578,6 +578,15 @@ const MUNI_SLUGS: Record<string, string> = {
   "082252": "hitachiomiya",
   "152161": "itoigawa",
   "222054": "atami",
+  "114081": "yorii",
+  "032077": "kuji",
+  "143413": "oiso",
+  "082333": "namegata",
+  "012335": "date-hokkaido", // ⚠ 福島県伊達市 072133 が "date-fukushima"
+  "133035": "mizuho-tokyo", // ⚠ 岐阜県瑞穂市 212164 が "mizuho"
+  "113263": "moroyama",
+  "052116": "katagami",
+  "143014": "hayama",
   "212181": "motosu",
   "162060": "namerikawa", // ⚠ 埼玉県滑川町 113417 とは別団体（滑川町は未収録）
   "282278": "shiso",
