@@ -672,6 +672,25 @@ const IBUSUKI_LICENSE =
   "「指宿市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として指宿市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。 「指宿市ホームページ」の内容の全部また一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。";
 const UTO_LICENSE =
   "本サイトで提供する文書、画像等の各ファイル及びその内容に関する諸権利は、原則として宇土市に帰属します。一部の画像等の著作権は、原著作者が所有しています。本サイト上の文書・画像等の無断使用・転載を禁止します。";
+// ---- 第117巡（2026-11-26・docs/data-sources.md §13-134）のライセンス原文 ----
+const SUE_LICENSE =
+  "須恵町公式ウェブサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたお問い合わせ先へ、事前にご相談ください。";
+const CHATAN_LICENSE =
+  "「北谷町ホームページ」に掲載されている情報（文章、写真、イラスト等）および「北谷町ホームページ」自体の著作物として、著作権の対象となっております。「私的利用のための複製」や「引用」など著作権法上認めらた場合を除き、無断で使用・引用はできません。";
+const HIRADO_LICENSE =
+  "平戸市ホームページの文書・画像等のコンテンツに関する諸権利は，原則として平戸市に帰属します。ただし，一部の画像等の著作権は，コンテンツ提供者に帰属します。これらの平戸市ホームページ上の文書・画像などは、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用・転載することを禁止します。";
+const ZENTSUJI_LICENSE =
+  "「善通寺市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として善通寺市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。";
+const HITOYOSHI_LICENSE =
+  "当サイトで掲載している文章や画像などは、「私的使用のための複製」や「引用」など、著作権法上認められている適切な方法で利用する場合を除き、無断での複製・変更・使用などはできません。";
+const SHIBUSHI_LICENSE =
+  "志布志市公式ホームページに掲載しているすべてのコンテンツは、特別の断りがない限り原則として志布志市が保有します。　私的使用のための複製など著作権法上で認められている場合を除き、権利者の許可なく複製・転用することはできません。";
+const TOGITSU_LICENSE =
+  "時津町ホームページに掲載されている文章、画像などの著作権は時津町またはコンテンツ提供者に帰属します。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については下記メールリンクまでお問い合わせください。";
+const SAITO_LICENSE = "Copyright © 2026 西都市 All rights reserved.";
+const KANZAKI_LICENSE =
+  "神埼市ホームページに掲載しているすべての文章や写真、イラスト、画像等、またはプログラムの著作権は神埼市またはコンテンツ提供者が保有します。権利者の許可なくこれらの情報を無断で複製・転用・引用・販売といった二次利用することを固く禁じます。";
+// ---- 第117巡のライセンス原文ここまで ----
 // ---- 第109巡（2026-11-12・docs/data-sources.md §13-125）のライセンス原文 ----
 const MIYAMA_LICENSE =
   "本ホームページの文章・画像などのコンテンツに関する諸権利は、原則として本市に帰属します。ただし、一部の画像などの著作権は、コンテンツ提供者に帰属します。本ホームページの文書・画像などを無断で使用・転載することを禁止します。";
@@ -36609,6 +36628,342 @@ export const SOURCES: SourceEntry[] = [
     },
   },
   // ---- 第105巡ここまで ----
+  // ---- 第117巡（2026-11-26・docs/data-sources.md §13-134） ----
+  // 須恵町（福岡県糟屋郡・団体コード 403440 ＝ 総務省 R6.json から実引き）。一般会計当初予算書の「歳入歳出予算事項別明細書 １ 総括」。千円。
+  //   R8〜R2 は全年度とも歳入 p.17・歳出 p.18（物理ページ＝印字ノンブル）。歳入21款（R2 は廃止款「自動車取得税交付金」0/14,000 を含め22）・歳出13款。
+  //   年度ページは記事番号でファイル名も不規則。R8 だけ group/91。
+  // 前年度列は当初（R3↔R2 … R8↔R7 の6区間で全款一致・R2 の前年度総額 8,960,000 ＝ H31 予算書の当年度合計）。
+  //   各年度ページに「3月定例議会に提出され、本議会において可決されました。」。「骨格」0件（R8 は 4/19 に町長選だが通常予算）。
+  // ライセンス: 免責事項（/hajimete/menseki.html・確認日 2026-11-26）＝`無断で複製・転用` で要許可。
+  //   リンク「須恵町公式ウェブサイトトップページへのリンクは原則として自由です。」＋明記の依頼だけ（岩国と同型）⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "91/R8yosan.pdf", "10477"],
+    ["R7", "4/R7yosan.pdf", "8889"],
+    ["R6", "4/R6yosan.pdf", "6994"],
+    ["R5", "4/R5yosann.pdf", "5661"],
+    ["R4", "4/R4yosannsho.pdf", "4203"],
+    ["R3", "4/9294.pdf", "2510"],
+    ["R2", "4/7154.pdf", "2505"],
+  ] as const).map(([fy, file, page]) => ({
+    id: `sue-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 須恵町一般会計予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "須恵町",
+    url: `https://www.town.sue.fukuoka.jp/material/files/group/${file}`,
+    landingPage: `https://www.town.sue.fukuoka.jp/gyosei/zaimu_yosan_kessan/yosan/yosangaiyou/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "須恵町（一般会計・団体コード403440）",
+    license: SUE_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: { revenuePage: 17, expenditurePage: 18, revenueHeading: "（歳入）", expenditureHeading: "（歳出）" },
+  } satisfies SourceEntry)),
+  // 北谷町（沖縄県中頭郡・団体コード 473260 ＝ 総務省 R6.json から実引き）。当初予算書の「歳入歳出予算事項別明細書 １ 総括」。千円。
+  //   見出しは `（歳 入）`／`（歳 出）`。R8〜R4 は物理 p.16／p.17。歳入23款・歳出14款。
+  //   ⚠ 款9「国有提供施設等所在市町村／助成交付金」と款10「施設等所在市町村調整交付／金」が2行に折り返す ⇒ kanNameContinues
+  //     （無いと `助成交付金施設等…`・`金地方特例交付金` が Σ差0 のまま残る）。
+  //   ⚠ HeaderExtra が無いと歳入款1 が `歳入歳出予算事項別明細書総括町税`、歳出款1 が `一般財源国庫支出金…議会費` になる（Σ差0）。
+  // 前年度列は当初（R4↔R5 … R7↔R8 の4区間で全款一致）。R4〜R8 の年度ページはどれも「原案可決されています。」。「骨格」0件（町長選は11月）。
+  //   ⚠ R3 は議会修正（議案第42号に対する修正案・3/30 可決＝繰入金と教育費（社会教育費）を各 13,000 減・総額 17,426,909 → 17,413,909）。
+  //     R4 の前年度列は修正後（合計 17,413,909・繰入金 2,490,598・教育費 3,455,603 で一致）⇒ R4 に prevNote。
+  //   R3 はスキャン（原案・修正反映版とも文字層なし）、R2 は予算書の掲載なし ⇒ unrecordable.ts。
+  // ライセンス: 「このサイトについて」（/site_joho/site_joho.html・確認日 2026-11-26）＝`無断で使用・引用はできません` で要許可（「認めらた」は原文の誤記）。
+  //   リンク「…原則フリーとなっております。リンクを行った場合は、必ずリンク元のURLをご連絡お願い致します。（事前連絡不要）」⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "ippankaikeiyosan", "ippankaikeiyosan.files/R8tousyoyosan.pdf"],
+    ["R7", "R7tousyoyosan", "R7tousyoyosan.files/R7tousyo.pdf"],
+    ["R6", "R6yosan20240327", "R6yosan20240327.files/R6.pdf"],
+    ["R5", "zaisei20230404", "zaisei20230404.files/reiwa5tousyo.pdf"],
+    ["R4", "R4ippannkaikeiyosann", "R4ippannkaikeiyosann.files/R4tousyoyosannsyo.pdf"],
+  ] as const).map(([fy, page, file]) => ({
+    id: `chatan-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 北谷町一般会計予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "北谷町",
+    url: `https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/${file}`,
+    landingPage: `https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "北谷町（一般会計・団体コード473260）",
+    license: CHATAN_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 16, expenditurePage: 17,
+      revenueHeading: "（歳 入）", expenditureHeading: "（歳 出）",
+      revenueHeaderExtra: "予算事項別明細書|総括",
+      expenditureHeaderExtra: "一般財源|国庫支出金",
+      kanNameContinues: { revenue: [9, 10] },
+      ...(fy === "R4"
+        ? { prevNote: "前年度（令和3年度）の一般会計当初予算は、町議会で修正のうえ可決されています（町の令和3年度予算のページに「令和3年度一般会計当初予算の原案となります。修正可決されています。」とあり、修正案は繰入金と教育費（社会教育費）をそれぞれ1,300万円減らすものです）。ここでの前年度額は修正後の額（174億1,390万9千円）で、町が掲載している令和3年度の当初予算書（修正前の原案・174億2,690万9千円）とは、繰入金と教育費の額が違います。" }
+        : {}),
+    },
+  } satisfies SourceEntry)),
+  // 平戸市（長崎県・団体コード 422070 ＝ 総務省 R6.json から実引き）。一般会計予算書の「歳入歳出予算事項別明細書 1 総括」。千円。歳入21款・歳出14款。
+  //   物理ページ: R8・R7 13/14、R5 11/12、R4 12/13、R3 8/9、R2 10/11。年度ページ・ファイル名に規則なし。
+  //   ⚠ 歳出の合計行は字が二重に描かれ -layout で「歳 歳出 出合 合計 計」⇒ expenditureTotalLabel "合計"（R2 は二重描画なし）。R2 だけ罫線文字 ⇒ stripBoxDrawing。
+  //   廃止款: R8「△ 環境性能割交付金 0/17,700」・R2「△ 自動車取得税交付金 0/17,900」（既存の廃止款の印で読める）。
+  //   ⚠ R6 は議会修正（議案35号・令和6年3月22日に修正案を可決＝繰入金 △98,400・市債 △200,000・教育費 △298,400、総額 27,296,000 → 26,997,600）。
+  //     修正後の予算書（R6tousyoyosansyuuseigo.pdf）は見え消しで新旧の額が同じセルに出る（Σ が割れて止まる）。予算書（案）は議決額と3款違う。
+  //     ⇒ 年度ページの「概要（修正後）」R6gaiyou.pdf（「（案）の概要」と同じファイルを指す・中身は修正後）を別エントリにする。
+  //     概要の款名は「交通安全対策交付金」（予算書は「交通安全対策特別交付金」）で原典どおり。款番号は無い ⇒ kanNoless。括弧書きの内数の行 ⇒ revenueHeaderExtra。
+  // 前年度列は当初（R2→R3・R3→R4・R4→R5・R7→R8 で全款一致）。R7 の前年度列は R6 修正後と全款一致（R6 の収録値と同じ基準なので prevNote は置かない）。
+  //   「骨格」「肉付」は年度ページ・施政方針・概要のどれにも0件。年度ページは全年度「当初予算が３月定例市議会で可決されました」。
+  // ライセンス: 「著作権について」（/kurashi/gyosei/site/site_link.html・確認日 2026-11-26）＝`無断で使用・転載することを禁止` で要許可。
+  //   リンク「各ページへのリンクについては修正の際にそのURLが変更される可能性がありますので、リンクの設定は、平戸市ホームページのトップページにしてください。」
+  //   ＝トップページを指示形で指定し否定句の除外が無い（第2群・新宮町と同じ）⇒ `noDeepLink`。
+  ...([
+    ["R8", "2025-1205-2105-92", "0803yosansiyo", 13, false],
+    ["R7", "2025-0325-0836-92", "0703yosansiyo", 13, false],
+    ["R5", "2023-0328-2115-92", "R503", 11, false],
+    ["R4", "2022-0323-1704-92", "03", 12, false],
+    ["R3", "2021-0329-1753-92", "03R3yosannsyo", 8, false],
+    ["R2", "2020-0331-1323-92", "4R2tousyoyosannsyo", 10, true],
+  ] as const).map(([fy, page, file, rp, box]) => ({
+    id: `hirado-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 平戸市一般会計予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "平戸市",
+    url: `https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/files/${file}.pdf`,
+    landingPage: `https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/${page}.html`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "平戸市（一般会計・団体コード422070）",
+    license: HIRADO_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: box
+      ? { revenuePage: rp, expenditurePage: rp + 1, revenueHeading: "総", expenditureHeading: "歳", stripBoxDrawing: true }
+      : { revenuePage: rp, expenditurePage: rp + 1, revenueHeading: "総", expenditureHeading: "歳", expenditureTotalLabel: "合計" },
+  } satisfies SourceEntry)),
+  {
+    id: "hirado-yosan-gaiyou-r6",
+    title: "令和6年度 平戸市当初予算の概要（修正後）（歳入予算総括表・歳出予算総括表 目的別）",
+    publisher: "平戸市",
+    url: "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/files/R6gaiyou.pdf",
+    landingPage: "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/2024-0222-1447-92.html",
+    kind: "pdf" as const,
+    fiscalYear: "R6",
+    scope: "平戸市（一般会計・団体コード422070）",
+    license: HIRADO_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 4, expenditurePage: 6,
+      revenueHeading: "歳入", expenditureHeading: "目的別",
+      kanNoless: true,
+      revenueHeaderExtra: "[(（][\\d,]+[)）]|^（うち|応援基金）$",
+    },
+  } satisfies SourceEntry,
+  // 善通寺市（香川県・団体コード 372048 ＝ 総務省 R6.json から実引き）。政策課「予算の状況」（/soshiki/3/yosan.html）の
+  //   「令和N年度予算の概要」（7頁）物理 p.3「令和N年度一般会計予算 款別予算の状況」。歳入22款・歳出13款（款13 諸支出金は欠番）が同じページに縦積み ⇒ samePage。千円。
+  //   合計行は「歳 入 合 計」「歳 出 合 計」で samePage の区切りには共通の「合計」を指定する（既定の「歳入合計」だと1件しか当たらず throw）。
+  //   ⚠ ファイル ID は 2022 年以降に総入れ替え（旧 12413_*・現 62414_*）。R3・R2 は現行サイトで 404 ⇒ Wayback（2022-04-25 の捕捉）。
+  //   ⚠ R4 は文字がアウトライン化されテキスト層が無い（Wayback 版も同じ sha1）⇒ unrecordable.ts。
+  // 前年度列は当初（R3↔R2・R6↔R5・R7↔R6・R8↔R7 で全款一致。R5 の前年度列は R4 のアウトライン PDF を描画した当年度と総額一致）。
+  //   ⚠ R4 は骨格予算（R4 予算の概要 p.1「なお、令和４年度は、市長選挙が行われることから、…骨格予算とする方針で編成した。」・画像で照合）⇒ R5 に prevNote・skeleton-budgets.ts。
+  //   R8 も改選期だが概要・施政方針に「骨格」「肉付」0件（前年比 +1.3%）⇒ 台帳に書かない。「修正」の語は全年度0件。
+  // ライセンス: 「免責事項・著作権」（/site/hajimetenokatahe/menseki.html・確認日 2026-11-26）は権利の帰属だけで許諾の述語が無い
+  //   ⇒ license-no-grant.ts で要許可（福岡県・ひたちなか市と同じ定型文）。被リンクの条項は無い ⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "https://www.city.zentsuji.kagawa.jp/uploaded/life/62414_145660_misc.pdf", "https://www.city.zentsuji.kagawa.jp/soshiki/3/yosan.html"],
+    ["R7", "https://www.city.zentsuji.kagawa.jp/uploaded/life/62414_145656_misc.pdf", "https://www.city.zentsuji.kagawa.jp/soshiki/3/yosan.html"],
+    ["R6", "https://www.city.zentsuji.kagawa.jp/uploaded/life/62414_145651_misc.pdf", "https://www.city.zentsuji.kagawa.jp/soshiki/3/yosan.html"],
+    ["R5", "https://www.city.zentsuji.kagawa.jp/uploaded/life/62414_145644_misc.pdf", "https://www.city.zentsuji.kagawa.jp/soshiki/3/yosan.html"],
+    ["R3", "https://web.archive.org/web/20220425103944id_/https://www.city.zentsuji.kagawa.jp/uploaded/life/12413_75008_misc.pdf",
+      "https://web.archive.org/web/20220425103905/https://www.city.zentsuji.kagawa.jp/soshiki/3/yosan.html"],
+    ["R2", "https://web.archive.org/web/20220425103948id_/https://www.city.zentsuji.kagawa.jp/uploaded/life/12413_74824_misc.pdf",
+      "https://web.archive.org/web/20220425103905/https://www.city.zentsuji.kagawa.jp/soshiki/3/yosan.html"],
+  ] as const).map(([fy, url, landingPage]) => ({
+    id: `zentsuji-yosan-gaiyou-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 善通寺市予算の概要（一般会計予算 款別予算の状況）`,
+    publisher: "善通寺市",
+    url,
+    landingPage,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "善通寺市（一般会計・団体コード372048）",
+    license: ZENTSUJI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 3, expenditurePage: 3, samePage: true,
+      revenueHeading: "（歳入）", expenditureHeading: "（歳出）",
+      revenueTotalLabel: "合計", expenditureTotalLabel: "合計",
+      ...(fy === "R5"
+        ? { prevNote: "前年度（令和4年度）の当初予算は骨格予算（「令和4年度予算の概要」p.1に「なお、令和４年度は、市長選挙が行われることから、今回取りまとめる予算案については、喫緊の課題である新型コロナウイルス感染拡大防止対策や、次世代に引き継ぐべき地方創生関連施策を中心とした骨格予算とする方針で編成した。」と明記）。ここでの前年度額はその骨格予算の当初額で、補正で肉付けした後の額ではない。" }
+        : {}),
+    },
+  } satisfies SourceEntry)),
+  // 人吉市（熊本県・団体コード 432032 ＝ 総務省 R6.json から実引き）。一般会計予算書（議案）の「歳入歳出予算事項別明細書 １．総括」。千円。
+  //   R8〜R2 とも歳入 p.13・歳出 p.14（物理）。歳入22款（R2 は廃止款「○ 自動車取得税交付金 0/25,000」を含め23）・歳出14款。
+  //   ⚠ 歳出は財源内訳の列見出し（一般財源／国県支出金 地方債 その他）が款1 に付く（`一般財源国県支出金地方債その他議会費`・Σ差0）⇒ 見出しを「国県支出金地方債その他」＋ expenditureHeaderExtra。
+  //   ⚠ URL は `resource.php?e=<token>`（宇城と同じ CMS）⇒ 取得元 URL はそのまま、raw は `hitoyoshi_yosansho_<年度>.pdf` で registerRawFile（宇城・玉名と同じ扱い）。
+  //   R8〜R6 は財政ページ、R5〜R2 は議会の議案ページ（財政の「当初予算概要」のページが「議会ホームページで公開」とリンク）。
+  //   ⚠ R8 は2版ある。議会の議案ページの版（総額 20,540,652）は初版で、3/13 の議案訂正（消防費の女性消防隊詰所建築設計委託料 8,516 を削除）前。
+  //     財政ページの版（総額 20,532,152）が訂正後 ＝ 補正予算（第1号）の補正前の額と一致 ⇒ 財政ページの token を使う。
+  // 前年度列は当初（R2→R8 の6区間で全款一致。R2 の前年度総額 16,542,341 ＝ H31 当初）。令和2年7月豪雨は R2 当初の後（R3 は災害復旧費で大きく伸びる・資料どおり）。
+  //   ⚠ R5 と H31 は骨格予算（各年度の「一般会計当初予算概要」に明記）⇒ R5・R6・R2 に prevNote・skeleton-budgets.ts に2行。
+  // ライセンス: 「著作権およびリンクについて」（/toppage/copyright/2263168・確認日 2026-11-26）＝`無断での複製・変更・使用などはできません` で要許可。
+  //   リンク「当サイトへのリンクは原則として自由です。事前連絡の必要はありません。…」⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "c768d3687d9362cef9c2d8d434c0b70922dafa7cf8f03a8f31d8490ac6a9c4d09c0f9cacd6851103467dffc07361fae8", "/shisei/zaisei/yosan_jyokyo/2471976", null],
+    ["R7", "da635f5261e42daab3228c9593e0111c60adda581e87aa39c82c143079e654232963dac63ab8843283b0435127d12247", "/shisei/zaisei/yosan_jyokyo/2403625", null],
+    ["R6", "88690178a89b4b40eb93804d4f5191b1c1da84625155788b8cbe467e205cdf555611fdb1886fa5945d5a80266a102313", "/shisei/zaisei/yosan_jyokyo/2403144",
+      "前年度（令和5年度）の当初予算は骨格予算（「令和５年度人吉市一般会計当初予算概要」に「令和５年度の当初予算は市長選挙の年のため骨格予算となり、政策的な経費は６月補正予算以降に肉付けされます。」と明記）。ここでの前年度額はその骨格予算の当初額で、6月補正以降の肉付けを含まない。"],
+    ["R5", "193aff6723d12cf41f634eae1254caed9fdc02f4e934e085f06fce1bf2ae6c6b20c5178b16e12b3dc138ca586905c9f6", "/shisei/gikaijyoho/gian/38502",
+      "本年度（令和5年度）の当初予算は骨格予算（「令和５年度人吉市一般会計当初予算概要」に「令和５年度の当初予算は市長選挙の年のため骨格予算となり、政策的な経費は６月補正予算以降に肉付けされます。」と明記）。前年度との比較は、この骨格予算と前年度の当初予算との比較になる。"],
+    ["R4", "24ec2e1bb659530f32767bf46a5dd968b353e79a9723233474b66fd55b165c92e2c1d6bef4253b7bc3231fa868f438e5", "/shisei/gikaijyoho/gian/36760", null],
+    ["R3", "525716df56f06206caa91bc63932bc0a6cf8f105c4fca84edbd5466e350da5ecf6477165fbf4e3c6a779d966f75e954a", "/shisei/gikaijyoho/gian/35055", null],
+    ["R2", "aa2d1fba5934000ec1c911ceba3f825029f6d45efb59df8c7c538520d3c80cf635cc4d17a6b7a28c02a77738ad68f54b", "/shisei/gikaijyoho/gian/32521",
+      "前年度（平成31年度）の当初予算は骨格予算（「平成３１年度人吉市一般会計当初予算概要」に「なお、平成３１年度の当初予算は市長選挙の年のため骨格予算となり、政策的な経費は６月補正予算で肉付けされます。」と明記）。ここでの前年度額はその骨格予算の当初額で、6月補正の肉付けを含まない。"],
+  ] as const).map(([fy, token, landing, prevNote]) => ({
+    id: `hitoyoshi-yosansho-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 人吉市一般会計予算書（歳入歳出予算事項別明細書 総括）`,
+    publisher: "人吉市",
+    url: `https://www.city.hitoyoshi.lg.jp/resource.php?e=${token}`,
+    landingPage: `https://www.city.hitoyoshi.lg.jp${landing}`,
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "人吉市（一般会計・団体コード432032）",
+    license: HITOYOSHI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 13, expenditurePage: 14,
+      revenueHeading: "（歳入）",
+      expenditureHeading: "国県支出金地方債その他", expenditureHeaderExtra: "一般財源",
+      ...(prevNote ? { prevNote } : {}),
+    },
+  } satisfies SourceEntry)),
+  // 志布志市（鹿児島県・団体コード 462217 ＝ 総務省 R6.json から実引き）。財務課「財政状況の公表」（/soshiki/4/1800.html）の
+  //   「令和N-1年度下半期の財政状況及び令和N年度当初予算の状況」p.8 第10表 一般会計歳入予算の内訳／p.10 第13表 一般会計歳出予算の内訳（款別）。千円。款番号なし。
+  //   予算書の総括は R8・R6 だけ読める（R7 はスキャン・R5 以前は掲載なし）⇒ 7年度を揃えられる財政状況のシリーズに統一した。
+  //   歳入は自主財源→依存財源の順で各群に小計行 ⇒ revenueHeaderExtra。表の左端の縦書き「自主財源」「依存財源」⇒ revenueCropX で切る。
+  //   ⚠ kanNamePrefixStrip は使わない（R2 の「自動車取得税交付金」が「動車取得税交付金」に化けて Σ差0 のまま通る・偵察が実測）。
+  //   ゴルフ場利用税交付金は金額が次の行に折り返す ⇒ kanNoNumbers（無いと 500 を款番号と読む）。R2 の寄附金は原文どおり「寄付金」。
+  // 前年度列: R8〜R6・R4〜R2 は当初（R2→R3・R3→R4・R5→R6・R6→R7・R7→R8 で全款一致）。
+  //   ⚠ R5 だけ列見出しが「令和４年度（６月補正後）」（第10表・第13表とも）＝ R4 当初 25,400,000 に第1〜3号補正 1,370,392 を加えた 26,770,392 ⇒ prevBasis "補正後"。
+  //   ⚠ R8 は骨格予算（「志布志市の予算と仕事」R8 版に明記）⇒ R8 に prevNote・skeleton-budgets.ts。R4 も選挙（2022-01）の年だが原典に「骨格」の語が無い ⇒ 台帳に書かない。
+  //   議会修正・初版と修正版の併存は無し。
+  // ライセンス: 「免責事項・著作権」（/soshiki/1/5661.html・確認日 2026-11-26）＝`権利者の許可なく複製・転用することはできません` で要許可。
+  //   市のオープンデータ（CC BY 4.0）は BODIK のデータについての記述で、予算・財政は0件 ⇒ 及ばない。
+  //   リンク「リンクはトップページに限らずどのページに対してしていただいて構いませんが、…」⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "17011"],
+    ["R7", "14959"],
+    ["R6", "12729"],
+    ["R5", "12728"],
+    ["R4", "7901"],
+    ["R3", "6598"],
+    ["R2", "4991"],
+  ] as const).map(([fy, att]) => ({
+    id: `shibushi-zaisei-jokyo-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 志布志市 当初予算の状況（財政状況の公表 第10表 一般会計歳入予算の内訳・第13表 一般会計歳出予算の内訳（款別））`,
+    publisher: "志布志市",
+    url: `https://www.city.shibushi.lg.jp/uploaded/attachment/${att}.pdf`,
+    landingPage: "https://www.city.shibushi.lg.jp/soshiki/4/1800.html",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "志布志市（一般会計・団体コード462217）",
+    license: SHIBUSHI_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 8, expenditurePage: 10,
+      revenueHeading: "第10表", expenditureHeading: "第13表",
+      revenueTotalLabel: "歳入合計", expenditureTotalLabel: "合計",
+      kanNoless: true, kanNoNumbers: true, kanNolessUpperOnly: true,
+      revenueHeaderExtra: "^種別$|^小計",
+      revenueCropX: { from: 80, to: 596 },
+      ...(fy === "R8" ? { prevNote: "本年度（令和8年度）の当初予算は骨格予算（市の「志布志市の予算と仕事」令和8年度版に「本年２月に任期満了による市長選挙が実施されたことにより、一般会計の当初予算については義務的経費、継続事業等を主体としたいわゆる骨格予算としておりました。」とあり、政策的経費や新規事業は6月議会の補正予算（肉付け予算）で追加されている）。前年度との比較は、この骨格予算と前年度の当初予算との比較になる。" } : {}),
+      ...(fy === "R5" ? { prevBasis: "補正後" as const, prevNote: "前年度（令和4年度）の額は、原典の列見出し「令和４年度（６月補正後）」のとおり、当初予算に6月までの補正予算を加えた額で、令和4年度の当初予算額（254億円）とは違う。" } : {}),
+    },
+  } satisfies SourceEntry)),
+  // 時津町（長崎県西彼杵郡・団体コード 423084 ＝ 総務省 R6.json から実引き）。一般会計予算（議案第17号）の「歳入歳出予算事項別明細書 １．総括」。千円。
+  //   歳入 p.12（印字 －10－）・歳出 p.13（印字 －11－）。歳入20款（款19 繰越金は両年度とも計上なしで行が無い）・歳出14款。
+  //   ⚠ 表題行（事項別明細書・総括）が歳入款1 に、財源内訳の2段見出しが歳出款1 に付く（Σ差0）⇒ HeaderExtra を両側に。
+  //   ⚠ 予算書は町議会の「提出議案等」のページ（7083.html）にだけ載り、同じ URL で会期ごとに差し替わる（旧会期の PDF は発行元で 404）⇒ WARP 2026-03-04 の捕捉から取る。
+  //     R7〜R5 の予算書は WARP にあるが全ページスキャン、R4〜R2 はウェブに掲載なし ⇒ unrecordable.ts。広報の抜刷（万円・前年度款別なし）・財政状況の公表（単年度）は代わりにならない。
+  // 前年度列は当初（R7 の当初額＝「令和7年度上半期の財政状況」の当初予算額列と全款一致）。「令和8年第1回定例会会議結果」で議案第17号は 3/23 原案可決。「骨格」0件。
+  // ライセンス: 「著作権・免責事項について」（/konositenitsuite/2685.html・確認日 2026-11-26）＝`無断で転用・引用することはできません` で要許可。リンクの条項は無い ⇒ `noDeepLink` なし。
+  {
+    id: "togitsu-yosansho-r8",
+    title: "令和8年度 時津町一般会計予算書（歳入歳出予算事項別明細書 総括）",
+    publisher: "時津町",
+    url: "https://warp.ndl.go.jp/20260304/20260304001919id_/https://www.town.togitsu.nagasaki.jp/material/files/group/2/20-2026-1gian17.pdf",
+    landingPage: "https://warp.ndl.go.jp/20260304/20260304001919/https://www.town.togitsu.nagasaki.jp/gyoseijoho/chogikai/7083.html",
+    kind: "pdf" as const,
+    fiscalYear: "R8",
+    scope: "時津町（一般会計・団体コード423084）",
+    license: TOGITSU_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 12, expenditurePage: 13,
+      revenueHeading: "総括", revenueHeaderExtra: "事項別明細書",
+      expenditureHeading: "歳出", expenditureHeaderExtra: "一般財源|国県支出金",
+    },
+  } satisfies SourceEntry,
+  // 西都市（宮崎県・団体コード 452084 ＝ 総務省 R6.json から実引き）。年度ページ「市の財政情報(予算状況)」（/shiseigyosei/yosan/post_176）の
+  //   「令和N年度当初予算」（4p・Excel 書き出し）p.2 歳入・p.3 歳出（目的別。下に性質別が続く）。千円。款番号なし。歳入22款（R8 は自動車取得税交付金の行が無く21款）・歳出14款。
+  //   ⚠ 款名は原典どおり「地方税」「地方債」（予算書の「市税」「市債」ではない）。歳入は自主財源→依存財源の順。
+  //     予算書（款番号つき・「市税」）は R8・R7 しかウェブに無い ⇒ 7年度を同じ様式で揃えられるこの資料に統一した。
+  //   ⚠ 左端の縦書きラベル（自主財源・依存財源・目的別）⇒ CropX from 94（90 では R2 のラベルが残り「自財産収入」「目民生費」等が Σ差0 で通る）。
+  //   ⚠ 歳入の「小計」2行と地方交付税の内訳（普通交付税・特別交付税）⇒ kanIndentMax 4。歳出の合計行は「計」（性質別の「計」が同じページ下にもある）。
+  //   2026-10 の CMS 移行で旧 URL（/shiseigyosei/kaikaku_kokai/…）は全部 404。旧サイトは WARP にある。
+  // 前年度列は当初（R8→R2 の6区間で全款一致。R2 の前年度 19,766,198 ＝ H31 の当年度）。
+  //   ⚠ R7・R3 は骨格予算（R7 当初予算 p.4「令和７年度当初予算は、骨格予算でありながらも、…」・R3 当初予算 p.4「令和３年度当初予算は、いわゆる骨格予算を念頭におき編成しました。」）
+  //     ⇒ R8・R4 に prevNote・skeleton-budgets.ts に2行。R4 の前年度の列見出しは「令和３年度（骨格）」（列は当初）。「修正」0件。
+  // ライセンス: 著作権・リンク・免責のページがサイトに無く、フッターの「Copyright © 2026 西都市 All rights reserved.」だけ（確認日 2026-11-26）
+  //   ⇒ license-no-grant.ts で要許可。リンクの条項も無い ⇒ `noDeepLink` なし。
+  ...([
+    ["R8", "1793851247_292408a17e8ad848575213c53248eabc.pdf", "前年度（令和7年度）の当初予算は骨格予算（市の「令和８年度当初予算概要」に「なお、令和７年度当初予算は骨格予算のため、肉付け後の令和７年度６月補正後の予算額と比較すると、１．７％増となります。」と明記）。ここでの前年度額はその骨格予算の当初額で、6月補正で肉付けした後の額ではない。"],
+    ["R7", "1793851247_8c66c60f38b0de1f716d59d2a8c3947e_1.pdf", null],
+    ["R6", "1793851247_3cb7027970ce8d77f09c2ff7fc738912.pdf", null],
+    ["R5", "1793851247_R5nendo_tousyoyosan.pdf", null],
+    ["R4", "1793851247_02941b3abd12ce3b40e7a11f227a4f04_7.pdf", "前年度（令和3年度）の当初予算は骨格予算（この資料の前年度の列見出しが「令和３年度（骨格）」で、本文にも「なお、令和３年度当初予算は骨格予算のため、肉付け後の令和３年度６月補正後の予算額と比較すると８．６％減となります。」とある）。ここでの前年度額はその骨格予算の当初額で、6月補正で肉付けした後の額ではない。"],
+    ["R3", "1793851247_R3tousyoyosan_koxtukaku_saitosi.pdf", null],
+    ["R2", "1793851247_0f1cafb9f928f45074964af0915089855974947a.pdf", null],
+  ] as const).map(([fy, file, prevNote]) => ({
+    id: `saito-tosho-yosan-${fy.toLowerCase()}`,
+    title: `${eraYear(fy)}年度 西都市当初予算（一般会計当初予算 歳入・歳出）`,
+    publisher: "西都市",
+    url: `https://www.city.saito.lg.jp/uploads/docs/shiseigyosei2/${file}`,
+    landingPage: "https://www.city.saito.lg.jp/shiseigyosei/yosan/post_176",
+    kind: "pdf" as const,
+    fiscalYear: fy,
+    scope: "西都市（一般会計・団体コード452084）",
+    license: SAITO_LICENSE,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePage: 2, expenditurePage: 3,
+      revenueHeading: "区分", expenditureHeading: "区分",
+      expenditureTotalLabel: "計", kanNoless: true, kanIndentMax: 4,
+      revenueCropX: { from: 94, to: 596 }, expenditureCropX: { from: 94, to: 596 },
+      ...(prevNote ? { prevNote } : {}),
+    },
+  } satisfies SourceEntry)),
+  // 神埼市（佐賀県・団体コード 412104 ＝ 総務省 R6.json から実引き）。令和8年度神埼市一般会計予算（議案第２６号）の「歳入歳出予算事項別明細書 １ 総括」。千円。
+  //   歳入 p.13〜14・歳出 p.15〜16（物理＝印字）で両側とも2ページにまたがる。歳入23款・歳出14款。DocuWorks 製・テキスト層あり。
+  //   R8 は財政 > 「予算の状況」（/main/19988.html）の本体。年度ページの ID・ファイル名に規則なし（R7 は子ページ 18490 に移った）。
+  //   ⚠ R7（JUST PDF 製）は款の行の金額がカンマの後で切れる（`3, 553, 439`）⇒ Σ が桁違いに割れて止まる。今のオプションでは直せない ⇒ unrecordable.ts（パーサ未対応）。
+  //   R6〜R2 は財政ページの Wayback（2022-03〜2024-03）に予算の項目が無く、ウェブに掲載なし ⇒ unrecordable.ts。
+  // 前年度列は当初（R7 予算書の本年度列と全款一致）。R8 の概要・予算書に「骨格」「修正」0件。
+  //   ⚠ R6 は骨格予算（R7 概要 p.1「令和7年度の当初予算は、骨格予算である前年度当初予算と比較して1.3％増加し、…」）⇒ skeleton-budgets.ts（R6・R7 は未収録）。
+  // ライセンス: 「サイトポリシー」（/main/53.html・確認日 2026-11-26）＝`権利者の許可なく…無断で複製・転用・引用・販売といった二次利用することを固く禁じます` で要許可。
+  //   リンク「…個別のページに関しましては更新の際にアドレス(URL)が変更される場合がありますので、リンクしていただく場合は当ホームページのトップページ (…) にお願いします。」
+  //   ＝トップページを指定し否定句の除外が無い（第2群）⇒ `noDeepLink`。
+  {
+    id: "kanzaki-yosansho-r8",
+    title: "令和8年度 神埼市一般会計予算書（歳入歳出予算事項別明細書 総括）",
+    publisher: "神埼市",
+    url: "https://www.city.kanzaki.saga.jp/site_files/file/2026/202603/69ba4f8fdfc93nZwJUQdr.pdf",
+    landingPage: "https://www.city.kanzaki.saga.jp/main/19988.html",
+    kind: "pdf" as const,
+    fiscalYear: "R8",
+    scope: "神埼市（一般会計・団体コード412104）",
+    license: KANZAKI_LICENSE,
+    noDeepLink: true,
+    parser: "kofu-yosansho" as const,
+    parserOptions: {
+      revenuePages: { from: 13, to: 14 }, expenditurePages: { from: 15, to: 16 },
+      revenueHeading: "（歳入）", expenditureHeading: "（歳出）",
+    },
+  } satisfies SourceEntry,
+  // ---- 第117巡ここまで ----
   // ---- 第109巡（2026-11-12・docs/data-sources.md §13-125） ----
   // みやま市（福岡県・団体コード 402290 ＝ 総務省 R6.json から実引き）。議会に出した「みやま市一般会計予算」の
   //   「歳入歳出予算事項別明細書 １ 総括」。千円。歳入は合計行だけが次のページに載る ⇒ revenuePages で連結（山口県と同型）。

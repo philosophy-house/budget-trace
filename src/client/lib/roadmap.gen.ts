@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 713,
+  "budgetCount": 722,
   "councilCount": 474,
-  "latestFetchedAt": "2026-11-12",
+  "latestFetchedAt": "2026-11-26",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5313,
-  "fileCount": 7990,
-  "archivedCount": 4177,
+  "sourceCount": 5361,
+  "fileCount": 8038,
+  "archivedCount": 4180,
   "licenseOpen": 145,
-  "licensePermission": 5071,
+  "licensePermission": 5119,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -2489,6 +2489,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "須恵町",
+      "code": "403440",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "新宮町",
       "code": "403458",
       "years": 7,
@@ -2525,6 +2531,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "平戸市",
+      "code": "422070",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "南島原市",
       "code": "422142",
       "years": 7,
@@ -2533,6 +2545,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "長与町",
       "code": "423076",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "人吉市",
+      "code": "432032",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2597,6 +2615,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "西都市",
+      "code": "452084",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "出水市",
       "code": "462080",
       "years": 7,
@@ -2619,6 +2643,12 @@ export const ROADMAP_PROGRESS = {
       "code": "462187",
       "years": 7,
       "range": "H31〜R8（7年度）"
+    },
+    {
+      "name": "志布志市",
+      "code": "462217",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
     },
     {
       "name": "沖縄市",
@@ -3113,6 +3143,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "善通寺市",
+      "code": "372048",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "今治市",
       "code": "382027",
       "years": 6,
@@ -3495,6 +3531,12 @@ export const ROADMAP_PROGRESS = {
       "code": "472140",
       "years": 5,
       "range": "R2〜R8（5年度）"
+    },
+    {
+      "name": "北谷町",
+      "code": "473260",
+      "years": 5,
+      "range": "R4〜R8（5年度）"
     },
     {
       "name": "南風原町",

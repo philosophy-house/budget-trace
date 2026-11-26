@@ -552,6 +552,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "382159": "toon",
   "392111": "konan-kochi", // ⚠ 江南市 232173 が "konan"・湖南市 252115 が "konan-shiga"
   "312045": "sakaiminato",
+  // 第117巡（2026-11-26・§13-134）
+  "372048": "zentsuji",
+  "432032": "hitoyoshi",
+  "403440": "sue",
+  "473260": "chatan",
+  "423084": "togitsu",
+  "462217": "shibushi",
+  "452084": "saito",
+  "422070": "hirado",
+  "412104": "kanzaki", // 佐賀県神埼市（兵庫県神崎郡・千葉県神崎町とは別）
   "362051": "yoshinogawa",
   "332127": "setouchi", // ⚠ 鹿児島県瀬戸内町 465259 とは別団体（瀬戸内町は未収録）
   "322067": "yasugi",
