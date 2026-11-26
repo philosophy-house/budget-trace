@@ -3,7 +3,7 @@
   "sourceId": "chikuzen-yosansho-r4",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-11-26T12:57:03.261Z",
+  "parsedAt": "2026-11-26T13:10:51.389Z",
   "unit": "thousandYen",
   "fiscalYear": "R4",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 11685573,
   "prevExpenditureTotal": 11685573,
   "prevBasis": "当初",
+  "prevNote": "前年度（令和3年度）の当初予算は、町長選挙のため骨格予算として編成されている（広報ちくぜん 2021年4月号 p.8「令和３年度は、４月11日㊐に町長選挙が予定されているため、骨格予算編成となりました。」）。前年当初比はその骨格予算との比較。",
   "facts": [
     {
       "side": "revenue",

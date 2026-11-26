@@ -3,7 +3,7 @@
   "sourceId": "chikuzen-yosansho-r8",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-11-26T12:57:01.827Z",
+  "parsedAt": "2026-11-26T13:10:51.152Z",
   "unit": "thousandYen",
   "fiscalYear": "R8",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 15314989,
   "prevExpenditureTotal": 15314989,
   "prevBasis": "当初",
+  "prevNote": "前年度（令和7年度）の当初予算は、町長選挙のため骨格予算として編成されている（広報ちくぜん 2025年5月号 p.9「令和７年度一般会計当初予算は、４月13日㊐町長選挙のため、骨格予算編成となりました。」）。前年当初比はその骨格予算との比較。",
   "facts": [
     {
       "side": "revenue",
