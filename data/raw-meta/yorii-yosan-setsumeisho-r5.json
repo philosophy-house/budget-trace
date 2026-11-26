@@ -1,0 +1,19 @@
+{
+  "sourceId": "yorii-yosan-setsumeisho-r5",
+  "files": [
+    {
+      "filename": "20844.pdf",
+      "sha256": "afd8b1d64d480fd7af119abb370ae1c4fd79ca3af53bf2756bedfe9189d93792",
+      "bytes": 84713,
+      "fetchedAt": "2026-11-26T12:42:14.929Z",
+      "fetchedFrom": "https://www.town.yorii.saitama.jp/uploaded/attachment/20844.pdf"
+    },
+    {
+      "filename": "20845.pdf",
+      "sha256": "0ff7b252e3b0d061a5be277aefe5af59db87e7a3d50ab3c42898b0dd505a1e81",
+      "bytes": 9312,
+      "fetchedAt": "2026-11-26T12:42:15.425Z",
+      "fetchedFrom": "https://www.town.yorii.saitama.jp/uploaded/attachment/20845.pdf"
+    }
+  ]
+}

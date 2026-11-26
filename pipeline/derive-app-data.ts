@@ -4046,6 +4046,42 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r4", "r3"] as const).map((fy) => ({
       srcId: `oharu-yosan-gaiyou-${fy}`, muniCode: "234249", muniName: "大治町", prefName: "愛知県", isPref: false,
     })),
+    // ---- 第111巡（2026-11-26・data-sources.md の第111巡の節） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yorii-yosan-setsumeisho-${fy}`, muniCode: "114081", muniName: "寄居町", prefName: "埼玉県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kuji-yosansho-${fy}`, muniCode: "032077", muniName: "久慈市", prefName: "岩手県", isPref: false,
+    })),
+    // 大磯町の R7・R4 は議会修正後の「予算のあらまし」
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `oiso-yosan-aramashi-${fy}`, muniCode: "143413", muniName: "大磯町", prefName: "神奈川県", isPref: false,
+    })),
+    // 行方市の R7・R2 は議会修正後の説明書
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `namegata-yosan-setsumeisho-${fy}`, muniCode: "082333", muniName: "行方市", prefName: "茨城県", isPref: false,
+    })),
+    // 伊達市（北海道）の R5 は資料がアウトライン化
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hokkaido-date-yosan-gaiyou-${fy}`, muniCode: "012335", muniName: "伊達市", prefName: "北海道", isPref: false,
+    })),
+    // 瑞穂町（東京都）の R7・R3 は歳出の款別表がアウトライン化・R2 は Wayback の写し
+    ...(["r8", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `tokyo-mizuho-yosan-setsumei-${fy}`, muniCode: "133035", muniName: "瑞穂町", prefName: "東京都", isPref: false,
+    })),
+    // 毛呂山町の R7・R6 は議会修正後の概要
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `moroyama-yosan-gaiyou-${fy}`, muniCode: "113263", muniName: "毛呂山町", prefName: "埼玉県", isPref: false,
+    })),
+    // 潟上市の R3 は概要がアウトライン化・予算書は ZIP。R7 骨格 ⇒ R8 に prevNote、R3（肉付け）⇒ R4 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `katagami-yosan-gaiyou-${fy}`, muniCode: "052116", muniName: "潟上市", prefName: "秋田県", isPref: false,
+    })),
+    // 葉山町の R8〜R6 は議案がアウトライン化・概要の歳入が款別でない
+    ...(["r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hayama-ippan-yosan-gian-${fy}`, muniCode: "143014", muniName: "葉山町", prefName: "神奈川県", isPref: false,
+    })),
+    // ---- 第111巡ここまで ----
     // ---- 第101巡（2026-10-31・§13-117） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `nishiwaki-yosan-gaiyo-${fy}`, muniCode: "282138", muniName: "西脇市", prefName: "兵庫県", isPref: false,

@@ -1,0 +1,12 @@
+{
+  "sourceId": "kuji-yosansho-r7",
+  "files": [
+    {
+      "filename": "ippan.pdf",
+      "sha256": "94526f8aea9f5d0e5ca92b271020215e0d6f97aa7af2b608ac46e4bc4bdf2169",
+      "bytes": 5513205,
+      "fetchedAt": "2026-11-26T12:44:48.025Z",
+      "fetchedFrom": "https://www.city.kuji.lg.jp/material/files/group/3/ippan.pdf"
+    }
+  ]
+}
