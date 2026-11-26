@@ -561,6 +561,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "382159": "toon",
   "392111": "konan-kochi", // ⚠ 江南市 232173 が "konan"・湖南市 252115 が "konan-shiga"
   "312045": "sakaiminato",
+  // 第117巡（2026-11-26・§13-134）
+  "372048": "zentsuji",
+  "432032": "hitoyoshi",
+  "403440": "sue",
+  "473260": "chatan",
+  "423084": "togitsu",
+  "462217": "shibushi",
+  "452084": "saito",
+  "422070": "hirado",
+  "412104": "kanzaki", // 佐賀県神埼市（兵庫県神崎郡・千葉県神崎町とは別）
   "362051": "yoshinogawa",
   "332127": "setouchi", // ⚠ 鹿児島県瀬戸内町 465259 とは別団体（瀬戸内町は未収録）
   "322067": "yasugi",
@@ -587,6 +597,15 @@ const MUNI_SLUGS: Record<string, string> = {
   "082252": "hitachiomiya",
   "152161": "itoigawa",
   "222054": "atami",
+  "114081": "yorii",
+  "032077": "kuji",
+  "143413": "oiso",
+  "082333": "namegata",
+  "012335": "date-hokkaido", // ⚠ 福島県伊達市 072133 が "date-fukushima"
+  "133035": "mizuho-tokyo", // ⚠ 岐阜県瑞穂市 212164 が "mizuho"
+  "113263": "moroyama",
+  "052116": "katagami",
+  "143014": "hayama",
   "212181": "motosu",
   "162060": "namerikawa", // ⚠ 埼玉県滑川町 113417 とは別団体（滑川町は未収録）
   "282278": "shiso",
