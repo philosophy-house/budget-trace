@@ -1,0 +1,12 @@
+{
+  "sourceId": "chikuzen-yosansho-r5",
+  "files": [
+    {
+      "filename": "R5ippan.pdf",
+      "sha256": "cb4035c10efa278d977df25713ef78985fb581f48e166a1129f889747eab5904",
+      "bytes": 5575316,
+      "fetchedAt": "2026-11-26T12:55:58.115Z",
+      "fetchedFrom": "https://www.town.chikuzen.fukuoka.jp/S024/R5ippan.pdf"
+    }
+  ]
+}

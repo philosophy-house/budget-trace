@@ -4223,6 +4223,38 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `ibara-yosan-gaiyou-${fy}`, muniCode: "332071", muniName: "井原市", prefName: "岡山県", isPref: false,
     })),
     { srcId: "ibara-yosansho-r3", muniCode: "332071", muniName: "井原市", prefName: "岡山県", isPref: false },
+    // ---- 第114巡（2026-11-26・docs/data-sources.md §13-131） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaita-yosan-gaiyou-${fy}`, muniCode: "343048", muniName: "海田町", prefName: "広島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chikuzen-yosansho-${fy}`, muniCode: "404471", muniName: "筑前町", prefName: "福岡県", isPref: false,
+    })),
+    // 上三川町の R5 は概要の表が画像で予算書の見開きがパーサ未対応
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaminokawa-yosan-gaiyou-${fy}`, muniCode: "093017", muniName: "上三川町", prefName: "栃木県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiroishi-yosan-shiryou-${fy}`, muniCode: "042064", muniName: "白石市", prefName: "宮城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kamisato-yosan-setsumeisho-${fy}`, muniCode: "113859", muniName: "上里町", prefName: "埼玉県", isPref: false,
+    })),
+    // 茨城町の R6〜R2 は予算書がスキャン
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `ibarakimachi-yosansho-${fy}`, muniCode: "083020", muniName: "茨城町", prefName: "茨城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `inami-tosho-sankou-${fy}`, muniCode: "283819", muniName: "稲美町", prefName: "兵庫県", isPref: false,
+    })),
+    // 稚内市は H31・R5 骨格 ⇒ R2・R6 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `wakkanai-yosan-gaiyou-${fy}`, muniCode: "012149", muniName: "稚内市", prefName: "北海道", isPref: false,
+    })),
+    // 鴨川市は R3・R7 骨格 ⇒ R4・R8 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kamogawa-setsumeisho-${fy}`, muniCode: "122238", muniName: "鴨川市", prefName: "千葉県", isPref: false,
+    })),
     // ---- 第100巡（2026-10-31・§13-116） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yuzawa-yosansho-${fy}`, muniCode: "052078", muniName: "湯沢市", prefName: "秋田県", isPref: false,

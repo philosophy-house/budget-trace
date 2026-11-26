@@ -2495,6 +2495,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "083020": {
+    "budget": [
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "当初予算書がスキャン画像で、文字の情報が無い。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "083411": {
     "budget": [
       {
@@ -2690,6 +2699,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "022047": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款別の表は読めるが、歳入と歳出が同じページに並び合計の行が3つある組み方に、こちらの抽出処理が対応していない。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "022071": {
     "budget": [
       {
@@ -2714,6 +2732,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
         "reason": "予算書の款別の総括表は文字が図形に変換されていて読み取れず、同じ年度の財政状況の公表は文章だけで款別の表が無い。",
         "checkedOn": "2026-10-27"
+      }
+    ]
+  },
+  "093017": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度",
+        "reason": "予算の概要の表は画像で、予算書の総括は読めるが、こちらの抽出処理が見開きの表の一部の行に対応していない。",
+        "checkedOn": "2026-11-26"
       }
     ]
   },
@@ -2979,6 +3006,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "060003": [
+    "budget"
+  ],
+  "022047": [
     "budget"
   ],
   "072052": [
