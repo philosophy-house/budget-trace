@@ -3622,4 +3622,33 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.ojiya.niigata.jp/soshiki/kikakuseisaku/yosan.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
+  {
+    // 茨城町（083020）R6〜R2。一般会計予算書がスキャン画像（R6 は 600dpi CCITT・66MB、R5〜R2 も文字層はページ番号だけ・2026-11-26 に pdftotext で実測）。
+    //   年度ページに概要・Excel など他の形式は無い。
+    code: "083020", name: "茨城町", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["scanned-image"],
+    reason: "当初予算書がスキャン画像で、文字の情報が無い。",
+    url: "https://www.town.ibaraki.lg.jp/gyousei/gyousei/seisakuzaisei/yosansyo/index.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
+  },
+  {
+    // 上三川町（093017）R5。概要の款別表（p.4・p.5）が画像。予算書（640681580cb36.pdf）p.16〜18 の総括はテキスト層があるが、
+    //   歳入が見開き（p.16 款名・p.17 金額）で、交通安全対策特別交付金の行（前年度 4,000・比較が空欄）が整数1個になり、
+    //   kofu-yosansho の見開きの行数チェックで throw する（款名22行・金額21行）。壬生町 R4・R3 と同じ見開き型の亜種。
+    code: "093017", name: "上三川町", dataset: "budget", fiscalYears: ["R5"],
+    categories: ["parser-unsupported"],
+    reason: "予算の概要の表は画像で、予算書の総括は読めるが、こちらの抽出処理が見開きの表の一部の行に対応していない。",
+    url: "https://www.town.kaminokawa.lg.jp/0172/info-0000002952-0.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
+  },
+  {
+    // 黒石市（022047）R8〜R2。財政課「当初予算資料」の「一般会計予算款別等比較表」は歳入・歳出が同じページに縦積みで、
+    //   歳入の区画に「合計」行が2つある（合計／自主財源／依存財源／合計）。kofu-yosansho の samePage は throw、samePage なしは
+    //   歳出に歳入21款が入って Σ差0 で静かに通る。issue #468。R8 は現行版がアウトライン化（WARP の初版なら読める）。
+    code: "022047", name: "黒石市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason: "款別の表は読めるが、歳入と歳出が同じページに並び合計の行が3つある組み方に、こちらの抽出処理が対応していない。",
+    url: "https://www.city.kuroishi.aomori.jp/shisei/keikaku/zai_zaisei_jokyo.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
+  },
 ];

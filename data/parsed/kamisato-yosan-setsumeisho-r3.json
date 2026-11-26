@@ -1,0 +1,391 @@
+{
+  "docType": "budget-book",
+  "sourceId": "kamisato-yosan-setsumeisho-r3",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-11-26T12:57:08.334Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R3",
+  "account": "一般会計",
+  "revenueTotal": 9032000,
+  "expenditureTotal": 9032000,
+  "prevRevenueTotal": 8827800,
+  "prevExpenditureTotal": 8827800,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "町税",
+      "amount": 3601555,
+      "prevAmount": 3815556,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 112400,
+      "prevAmount": 112400,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 1900,
+      "prevAmount": 1700,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 12000,
+      "prevAmount": 12000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 9200,
+      "prevAmount": 5000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 28000,
+      "prevAmount": 21000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 550000,
+      "prevAmount": 560000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 8000,
+      "prevAmount": 8000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "環境性能割交付金",
+      "amount": 16000,
+      "prevAmount": 14000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方特例交付金",
+      "amount": 24001,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方交付税",
+      "amount": 1040000,
+      "prevAmount": 950000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 5644,
+      "prevAmount": 5315,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "分担金及び負担金",
+      "amount": 62811,
+      "prevAmount": 64032,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "使用料及び手数料",
+      "amount": 100424,
+      "prevAmount": 100050,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "国庫支出金",
+      "amount": 1218933,
+      "prevAmount": 1146620,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "県支出金",
+      "amount": 733403,
+      "prevAmount": 726463,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "財産収入",
+      "amount": 4547,
+      "prevAmount": 5194,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "寄附金",
+      "amount": 5600,
+      "prevAmount": 5000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰入金",
+      "amount": 668410,
+      "prevAmount": 456360,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰越金",
+      "amount": 100000,
+      "prevAmount": 100000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "諸収入",
+      "amount": 77872,
+      "prevAmount": 57410,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "町債",
+      "amount": 651300,
+      "prevAmount": 641700,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 106737,
+      "prevAmount": 108367,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 1310133,
+      "prevAmount": 1190462,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 3750373,
+      "prevAmount": 3474764,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 740860,
+      "prevAmount": 583162,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "農林水産業費",
+      "amount": 171419,
+      "prevAmount": 143621,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "商工費",
+      "amount": 35183,
+      "prevAmount": 41057,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "土木費",
+      "amount": 560290,
+      "prevAmount": 776674,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "消防費",
+      "amount": 407727,
+      "prevAmount": 566525,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "教育費",
+      "amount": 962819,
+      "prevAmount": 977668,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "公債費",
+      "amount": 966362,
+      "prevAmount": 944783,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "諸支出金",
+      "amount": 97,
+      "prevAmount": 717,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "予備費",
+      "amount": 20000,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "R3当初予算説明書2.28MB.pdf",
+        "page": 8
+      }
+    }
+  ]
+}
