@@ -37101,7 +37101,7 @@ export const SOURCES: SourceEntry[] = [
     },
   } satisfies SourceEntry)),
   // 下呂市（岐阜県・団体コード 212202 ＝ 総務省 R6.json から実引き）。「一般会計予算書」の歳入歳出予算事項別明細書「１ 総括」。
-  //   歳入は2ページ（revenuePages）、歳出は1ページ。千円。歳入22款（R5〜R3 は寄附金を計上せず21款）・歳出13款（款13 は欠番で 14 予備費）。
+  //   歳入は2ページ（revenuePages）、歳出は1ページ。千円。歳入22款（R5〜R2 は寄附金を計上せず21款。R2 は番号なし0円の自動車取得税交付金の行を含めて22行）・歳出13款（款13 は欠番で 14 予備費）。
   //   合計行は縦書きラベルが混ざり「合 計 入 合 計」と出る ⇒ 合計ラベルは歳入・歳出とも「合計」。
   //   R8「環境性能割交付金」・R2「自動車取得税交付金」「災害復旧費」は款番号なしの0円行（kanNoless）。空セルは「－」か「-」⇒ dashAsZero。
   //   ⚠ R7 だけ左余白の印字ノンブル（x≈13pt）が款8 の行頭に融合して行が落ちる ⇒ CropX from 40（全年度共通）。
@@ -37268,7 +37268,7 @@ export const SOURCES: SourceEntry[] = [
     ["R5", "https://www.city.myoko.niigata.jp/fs/2/3/6/2/7/2/_/1_ichikai.pdf", "230", 7, { revenueCropX: { from: 595, to: 1191 }, expenditureCropX: { from: 0, to: 595 }, visibleTextOnly: true }],
   ] as const).map(([fy, url, doc, rp, extra]) => ({
     id: `myoko-yosansho-${fy.toLowerCase()}`,
-    title: `${eraYear(fy)}年度 妙高市予算書（歳入歳出予算事項別明細書 総括）`,
+    title: `${eraYear(fy)}年度 妙高市予算書${fy === "R8" ? "（案）" : ""}（歳入歳出予算事項別明細書 総括）`,
     publisher: "妙高市",
     url,
     landingPage: `https://www.city.myoko.niigata.jp/docs/${doc}.html`,
