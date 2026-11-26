@@ -1,0 +1,391 @@
+{
+  "docType": "budget-book",
+  "sourceId": "yawatahama-tousho-shiryou-r8",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-11-26T13:07:45.009Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R8",
+  "account": "一般会計",
+  "revenueTotal": 27255066,
+  "expenditureTotal": 27255066,
+  "prevRevenueTotal": 28086798,
+  "prevExpenditureTotal": 28086798,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 3313300,
+      "prevAmount": 3178000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 135000,
+      "prevAmount": 135000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 20000,
+      "prevAmount": 3000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 40000,
+      "prevAmount": 15000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 80000,
+      "prevAmount": 30000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 60000,
+      "prevAmount": 60000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 800000,
+      "prevAmount": 800000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "環境性能割交付金",
+      "amount": 0,
+      "prevAmount": 10000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "地方特例交付金",
+      "amount": 60000,
+      "prevAmount": 15000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "地方交付税",
+      "amount": 8170000,
+      "prevAmount": 8120000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 1500,
+      "prevAmount": 2000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "分担金及び負担金",
+      "amount": 576150,
+      "prevAmount": 660593,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "使用料及び手数料",
+      "amount": 387629,
+      "prevAmount": 405190,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "国庫支出金",
+      "amount": 2430676,
+      "prevAmount": 2360148,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "県支出金",
+      "amount": 1625802,
+      "prevAmount": 3810137,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "財産収入",
+      "amount": 73724,
+      "prevAmount": 90461,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "寄附金",
+      "amount": 4024067,
+      "prevAmount": 3028558,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "繰入金",
+      "amount": 1880851,
+      "prevAmount": 2341581,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "繰越金",
+      "amount": 1,
+      "prevAmount": 1,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "諸収入",
+      "amount": 428466,
+      "prevAmount": 408529,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "市債",
+      "amount": 3147900,
+      "prevAmount": 2613600,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 45
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 153493,
+      "prevAmount": 155644,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 4264156,
+      "prevAmount": 4061773,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 8425091,
+      "prevAmount": 6991525,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 3722570,
+      "prevAmount": 3187578,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 20725,
+      "prevAmount": 20687,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 1456440,
+      "prevAmount": 3912645,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 557636,
+      "prevAmount": 316641,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 2518199,
+      "prevAmount": 2448033,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 924826,
+      "prevAmount": 1324009,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 2590760,
+      "prevAmount": 3048028,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 37006,
+      "prevAmount": 73206,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 2554164,
+      "prevAmount": 2517029,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "予備費",
+      "amount": 30000,
+      "prevAmount": 30000,
+      "locator": {
+        "file": "202604-shiryou.pdf",
+        "page": 47
+      }
+    }
+  ]
+}

@@ -4046,6 +4046,36 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r4", "r3"] as const).map((fy) => ({
       srcId: `oharu-yosan-gaiyou-${fy}`, muniCode: "234249", muniName: "大治町", prefName: "愛知県", isPref: false,
     })),
+    // ---- 第116巡（2026-11-26・§13-133） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `inagawa-yosan-gaiyou-${fy}`, muniCode: "283011", muniName: "猪名川町", prefName: "兵庫県", isPref: false,
+    })),
+    // 長門市は R8・R7 だけ（R6 以前の概要は歳入が財源別の要約で款別でない）
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `nagato-yosan-gaiyo-${fy}`, muniCode: "352110", muniName: "長門市", prefName: "山口県", isPref: false,
+    })),
+    // 松前町（愛媛県）の R2 は WARP の写し
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `masaki-ehime-tousho-gaiyou-${fy}`, muniCode: "384011", muniName: "松前町", prefName: "愛媛県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yawatahama-tousho-shiryou-${fy}`, muniCode: "382043", muniName: "八幡浜市", prefName: "愛媛県", isPref: false,
+    })),
+    // 柳井市は R7・R3 骨格 ⇒ R8・R4 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `yanai-yosan-setsumeisho-${fy}`, muniCode: "352128", muniName: "柳井市", prefName: "山口県", isPref: false,
+    })),
+    // 南丹市は R8〜R4 が予算書・R3・R2 が当初予算の概要（予算書の説明書は画像だけ）。R8・R4 骨格 ⇒ R5 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `nantan-yosansho-${fy}`, muniCode: "262137", muniName: "南丹市", prefName: "京都府", isPref: false,
+    })),
+    ...(["r3", "r2"] as const).map((fy) => ({
+      srcId: `nantan-yosan-gaiyou-${fy}`, muniCode: "262137", muniName: "南丹市", prefName: "京都府", isPref: false,
+    })),
+    // 阿久比町は R3・R2 だけ（R8〜R4 の予算書は文字がアウトライン化）・WARP の写し
+    ...(["r3", "r2"] as const).map((fy) => ({
+      srcId: `agui-yosansho-${fy}`, muniCode: "234419", muniName: "阿久比町", prefName: "愛知県", isPref: false,
+    })),
     // ---- 第110巡（2026-11-26・§13-127） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `isumi-yosan-gaiyou-${fy}`, muniCode: "122386", muniName: "いすみ市", prefName: "千葉県", isPref: false,

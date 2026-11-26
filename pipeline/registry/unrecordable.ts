@@ -3622,6 +3622,35 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.ojiya.niigata.jp/soshiki/kikakuseisaku/yosan.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
+  {
+    // 長門市（352110）R6〜R2。R8・R7 は収録済み（§13-133）。財政課「当初予算の概要」の歳入は R6〜R4 が財源別の要約（自主財源・依存財源の各「その他」・百万円）、
+    //   R3・R2 は円グラフだけ。歳出の目的別は14款あるが百万円の丸め（原典に「合計等と一致しない場合があります」）。予算書・事項別明細書は市のサイトに無い。
+    code: "352110", name: "長門市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason: "各年度の当初予算の概要では、歳入が款ごとでなく財源の種類ごとにまとめた百万円単位の表（または円グラフ）で、その資料からは款ごとの額が取れない。予算書はウェブに掲載されていない。",
+    url: "https://www.city.nagato.yamaguchi.jp/soshiki/5/52329.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-133",
+  },
+  {
+    // 斑鳩町（293440）R8〜R2。「予算の概要」（0000000270.html）の歳入は12区分の集約で、最終行「その他の歳入」が利子割交付金・繰越金・諸収入など11款の和
+    //   （R8 603,470・補正第1号の補正前の額で検算）。try-parse は Σ差0 で通る（沖縄県・野洲と同じ型）。予算書・事項別明細書はウェブに無い。
+    //   款別の歳入は補正予算（第1号）の総括表の補正前の額にあるが前年度の列が無い（2つのファイルを突き合わせる機能が要る）。
+    code: "293440", name: "斑鳩町", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason: "予算の概要の歳入が12の区分にまとめた表で、11の款が「その他の歳入」の1行に合算されている。予算書はウェブに掲載されていない。",
+    url: "https://www.town.ikaruga.nara.jp/0000000270.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-133",
+  },
+  {
+    // 阿久比町（234419）R8〜R4。R3・R2 は収録済み（§13-133・WARP の写し）。款別＋前年度額を持つのは一般会計予算書の事項別明細書 総括だけだが、
+    //   5年度とも本文の文字がすべてベクタのアウトライン（pdftotext はノンブルだけ・pdfimages 0件＝スキャンでもない）。R8 p.16 を画像で見て表があることは確認。
+    //   年度ページの HTML は上位7〜8款と「その他」だけ、広報の予算特集は画像。
+    code: "234419", name: "阿久比町", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4"],
+    categories: ["broken-text-layer"],
+    reason: "款別の前年度比較を載せているのは一般会計予算書の総括だけだが、文字がすべて図形として描かれていてテキストとして取り出せない。年度ページは主な款と「その他」しか載せていない。",
+    url: "https://warp.ndl.go.jp/20260810/20260808204729/https://www.town.agui.lg.jp/soshiki/1-5-1-0-0_3.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-133",
+  },
   // ==== 第110巡（2026-11-26・docs §13-127）==================================================
   {
     // 紫波町（033219）R7・R6。R8・R5〜R2 は同じ予算書の総括で収録済み。R7 は歳入の款名22件が ToUnicode の無い MS-Mincho のグリフ番号のまま（金額は読めて Σ差0 で通る）、

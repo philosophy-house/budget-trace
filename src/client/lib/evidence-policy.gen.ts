@@ -33733,6 +33733,240 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "井原市ホームページに掲載されている個々の情報（文字、写真、イラスト等）の著作権は原則として井原市に帰属します。また、井原市ホームページ自体も編集著作物として著作権の対象となっており、ともに著作権法により保護されています。これらの情報については、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、井原市の許可なく無断で複製・転用することはできません。",
     "target": "page"
   },
+  "/sources/inagawa-yosan-gaiyou-r8/666gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.inagawa.lg.jp/material/files/group/1/666gaiyou.pdf",
+    "license": "「猪名川町ホームページ」に掲載されている個々の情報（文字・イラスト・写真等）に関する諸権利は、著作権の対象であり法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製・転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/inagawa-yosan-gaiyou-r7/yosannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.inagawa.lg.jp/material/files/group/1/yosannogaiyou.pdf",
+    "license": "「猪名川町ホームページ」に掲載されている個々の情報（文字・イラスト・写真等）に関する諸権利は、著作権の対象であり法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製・転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/inagawa-yosan-gaiyou-r6/R6yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.inagawa.lg.jp/material/files/group/6/R6yosangaiyou.pdf",
+    "license": "「猪名川町ホームページ」に掲載されている個々の情報（文字・イラスト・写真等）に関する諸権利は、著作権の対象であり法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製・転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/inagawa-yosan-gaiyou-r5/79297633.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.inagawa.lg.jp/material/files/group/6/79297633.pdf",
+    "license": "「猪名川町ホームページ」に掲載されている個々の情報（文字・イラスト・写真等）に関する諸権利は、著作権の対象であり法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製・転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/inagawa-yosan-gaiyou-r4/R4yosanngaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.inagawa.lg.jp/material/files/group/6/R4yosanngaiyou.pdf",
+    "license": "「猪名川町ホームページ」に掲載されている個々の情報（文字・イラスト・写真等）に関する諸権利は、著作権の対象であり法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製・転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/inagawa-yosan-gaiyou-r3/R03_yosan_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.inagawa.lg.jp/material/files/group/6/R03_yosan_gaiyou.pdf",
+    "license": "「猪名川町ホームページ」に掲載されている個々の情報（文字・イラスト・写真等）に関する諸権利は、著作権の対象であり法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製・転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/inagawa-yosan-gaiyou-r2/R02_yosan_gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.inagawa.lg.jp/material/files/group/6/R02_yosan_gaiyou.pdf",
+    "license": "「猪名川町ホームページ」に掲載されている個々の情報（文字・イラスト・写真等）に関する諸権利は、著作権の対象であり法律によって保護されています。これらの情報について、「私的使用のための複製」や「引用」など著作権法上で認められている行為を除き、無断で複製・転用等をすることは法律で禁止されています。",
+    "target": "file"
+  },
+  "/sources/nagato-yosan-gaiyo-r8/37460.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagato.yamaguchi.jp/uploaded/attachment/37460.pdf",
+    "license": "長門市ホームページに掲載している文章、画像などの著作権は、長門市または原著作者に帰属します。リンク先の著作権等はそれぞれの管理者の定めるところによります。本ホームページの内容を引用される場合は、企画総務部企画政策課広報広聴係までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/nagato-yosan-gaiyo-r7/33616.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nagato.yamaguchi.jp/uploaded/attachment/33616.pdf",
+    "license": "長門市ホームページに掲載している文章、画像などの著作権は、長門市または原著作者に帰属します。リンク先の著作権等はそれぞれの管理者の定めるところによります。本ホームページの内容を引用される場合は、企画総務部企画政策課広報広聴係までお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/masaki-ehime-tousho-gaiyou-r8/34934_108872_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.masaki.ehime.jp/uploaded/life/34934_108872_misc.pdf",
+    "license": "Copyright © Masaki Town All rights reserved",
+    "target": "file"
+  },
+  "/sources/masaki-ehime-tousho-gaiyou-r7/31468_98445_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.masaki.ehime.jp/uploaded/life/31468_98445_misc.pdf",
+    "license": "Copyright © Masaki Town All rights reserved",
+    "target": "file"
+  },
+  "/sources/masaki-ehime-tousho-gaiyou-r6/27729_87227_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.masaki.ehime.jp/uploaded/life/27729_87227_misc.pdf",
+    "license": "Copyright © Masaki Town All rights reserved",
+    "target": "file"
+  },
+  "/sources/masaki-ehime-tousho-gaiyou-r5/23839_71572_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.masaki.ehime.jp/uploaded/life/23839_71572_misc.pdf",
+    "license": "Copyright © Masaki Town All rights reserved",
+    "target": "file"
+  },
+  "/sources/masaki-ehime-tousho-gaiyou-r4/20212_58585_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.masaki.ehime.jp/uploaded/life/20212_58585_misc.pdf",
+    "license": "Copyright © Masaki Town All rights reserved",
+    "target": "file"
+  },
+  "/sources/masaki-ehime-tousho-gaiyou-r3/16420_38094_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.masaki.ehime.jp/uploaded/life/16420_38094_misc.pdf",
+    "license": "Copyright © Masaki Town All rights reserved",
+    "target": "file"
+  },
+  "/sources/masaki-ehime-tousho-gaiyou-r2/12517_25784_misc.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20200610/20200609002252id_/https://www.town.masaki.ehime.jp/uploaded/life/12517_25784_misc.pdf",
+    "license": "Copyright © Masaki Town All rights reserved",
+    "target": "file"
+  },
+  "/sources/yawatahama-tousho-shiryou-r8/202604-shiryou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawatahama.ehime.jp/doc/2022110400011/file_contents/202604-shiryou.pdf",
+    "license": "八幡浜市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として八幡浜市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/yawatahama-tousho-shiryou-r7/202502_tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawatahama.ehime.jp/doc/2026060100045/file_contents/202502_tousyo.pdf",
+    "license": "八幡浜市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として八幡浜市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/yawatahama-tousho-shiryou-r6/file_20256275163055_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawatahama.ehime.jp/doc/2025062700048/file_contents/file_20256275163055_1.pdf",
+    "license": "八幡浜市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として八幡浜市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/yawatahama-tousho-shiryou-r5/2023-yosansiryou-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawatahama.ehime.jp/doc/2024060500018/file_contents/2023-yosansiryou-1.pdf",
+    "license": "八幡浜市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として八幡浜市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/yawatahama-tousho-shiryou-r4/2022110400011_docs_2015040200011_files_2022-yosansiryou-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawatahama.ehime.jp/doc/2023042400025/file_contents/2022110400011_docs_2015040200011_files_2022-yosansiryou-1.pdf",
+    "license": "八幡浜市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として八幡浜市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/yawatahama-tousho-shiryou-r3/2022052300011_docs_2022051600075_files_2021-yosansiryou-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawatahama.ehime.jp/doc/2022052300011/file_contents/2022052300011_docs_2022051600075_files_2021-yosansiryou-1.pdf",
+    "license": "八幡浜市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として八幡浜市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/yawatahama-tousho-shiryou-r2/2021033100015_docs_2021040100015_files_2020-yosansiryou-1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yawatahama.ehime.jp/doc/2021033100015/file_contents/2021033100015_docs_2021040100015_files_2020-yosansiryou-1.pdf",
+    "license": "八幡浜市公式ホームページ（以下、「本サイト」）に掲載するコンテンツ（テキスト、画像、PDF等）に関する著作権は、原則として八幡浜市に帰属します。ただし、一部の画像などの著作権は原著作者が所有しています。著作権法上の「私的使用」や「引用」の範囲を越えて、無断で転用、引用、複製などをすることは出来ません。",
+    "target": "file"
+  },
+  "/sources/yanai-yosan-setsumeisho-r8/41457.pdf": {
+    "mode": "origin",
+    "href": "https://www.city-yanai.jp/uploaded/attachment/41457.pdf",
+    "license": "Copyright Yanai City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/yanai-yosan-setsumeisho-r7/37360.pdf": {
+    "mode": "origin",
+    "href": "https://www.city-yanai.jp/uploaded/attachment/37360.pdf",
+    "license": "Copyright Yanai City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/yanai-yosan-setsumeisho-r6/33038.pdf": {
+    "mode": "origin",
+    "href": "https://www.city-yanai.jp/uploaded/attachment/33038.pdf",
+    "license": "Copyright Yanai City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/yanai-yosan-setsumeisho-r5/28897.pdf": {
+    "mode": "origin",
+    "href": "https://www.city-yanai.jp/uploaded/attachment/28897.pdf",
+    "license": "Copyright Yanai City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/yanai-yosan-setsumeisho-r4/25266.pdf": {
+    "mode": "origin",
+    "href": "https://www.city-yanai.jp/uploaded/attachment/25266.pdf",
+    "license": "Copyright Yanai City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/yanai-yosan-setsumeisho-r3/25267.pdf": {
+    "mode": "origin",
+    "href": "https://www.city-yanai.jp/uploaded/attachment/25267.pdf",
+    "license": "Copyright Yanai City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/yanai-yosan-setsumeisho-r2/25268.pdf": {
+    "mode": "origin",
+    "href": "https://www.city-yanai.jp/uploaded/attachment/25268.pdf",
+    "license": "Copyright Yanai City All rights reserved.",
+    "target": "file"
+  },
+  "/sources/nantan-yosansho-r8/1020613_1_501_80.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nantan.kyoto.jp/www/gove/138/001/001/index_1017112.html",
+    "license": "南丹市ホームページに掲載されている個々の情報（文章、写真、イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nantan-yosansho-r7/1011229_1_501_80.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nantan.kyoto.jp/www/gove/138/001/001/index_1009460.html",
+    "license": "南丹市ホームページに掲載されている個々の情報（文章、写真、イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nantan-yosansho-r6/1005397_1_501_75.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nantan.kyoto.jp/www/gove/138/001/001/index_1003225.html",
+    "license": "南丹市ホームページに掲載されている個々の情報（文章、写真、イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nantan-yosansho-r5/1002371_1_501_46.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nantan.kyoto.jp/www/gove/138/001/001/index_95868.html",
+    "license": "南丹市ホームページに掲載されている個々の情報（文章、写真、イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nantan-yosansho-r4/1002372_1_501_12.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nantan.kyoto.jp/www/gove/138/001/001/index_87536.html",
+    "license": "南丹市ホームページに掲載されている個々の情報（文章、写真、イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nantan-yosan-gaiyou-r3/1002374_1_501_46.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nantan.kyoto.jp/www/gove/138/001/001/index_80051.html",
+    "license": "南丹市ホームページに掲載されている個々の情報（文章、写真、イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/nantan-yosan-gaiyou-r2/1006101_1_501_23.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.nantan.kyoto.jp/www/gove/138/001/001/index_73530.html",
+    "license": "南丹市ホームページに掲載されている個々の情報（文章、写真、イラストなど）について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/agui-yosansho-r3/R3ippan.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809024949/https://www.town.agui.lg.jp/cmsfiles/contents/0000005/5619/R3ippan.pdf",
+    "license": "本サイトに記載された文章・画像に関する権利は、阿久比町に帰属しています。無断で転載することを禁じます。もし、これらの文書などについて転用などを希望される場合は、その旨ご連絡ください。",
+    "target": "file"
+  },
+  "/sources/agui-yosansho-r2/R2ippann.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260810/20260809025005/https://www.town.agui.lg.jp/cmsfiles/contents/0000005/5025/R2ippann.pdf",
+    "license": "本サイトに記載された文章・画像に関する権利は、阿久比町に帰属しています。無断で転載することを禁じます。もし、これらの文書などについて転用などを希望される場合は、その旨ご連絡ください。",
+    "target": "file"
+  },
   "/sources/sumoto-yosan-gaiyo-r8/20310.pdf": {
     "mode": "origin",
     "href": "https://www.city.sumoto.lg.jp/uploaded/attachment/20310.pdf",

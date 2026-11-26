@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 779,
+  "budgetCount": 786,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-26",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5699,
-  "fileCount": 8386,
-  "archivedCount": 4365,
+  "sourceCount": 5738,
+  "fileCount": 8425,
+  "archivedCount": 4383,
   "licenseOpen": 150,
-  "licensePermission": 5452,
+  "licensePermission": 5491,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -2123,6 +2123,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "南丹市",
+      "code": "262137",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "精華町",
       "code": "263664",
       "years": 7,
@@ -2303,6 +2309,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "猪名川町",
+      "code": "283011",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "稲美町",
       "code": "283819",
       "years": 7,
@@ -2471,6 +2483,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "柳井市",
+      "code": "352128",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "山陽小野田市",
       "code": "352161",
       "years": 7,
@@ -2519,6 +2537,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "八幡浜市",
+      "code": "382043",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "西条市",
       "code": "382060",
       "years": 7,
@@ -2545,6 +2569,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "東温市",
       "code": "382159",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "松前町",
+      "code": "384011",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -4259,6 +4289,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R5（2年度）"
     },
     {
+      "name": "阿久比町",
+      "code": "234419",
+      "years": 2,
+      "range": "R2〜R3（2年度）"
+    },
+    {
       "name": "三重県",
       "code": "240001",
       "years": 2,
@@ -4297,6 +4333,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "光市",
       "code": "352101",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "長門市",
+      "code": "352110",
       "years": 2,
       "range": "R7〜R8（2年度）"
     },
