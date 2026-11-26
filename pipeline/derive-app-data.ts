@@ -4046,6 +4046,53 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r4", "r3"] as const).map((fy) => ({
       srcId: `oharu-yosan-gaiyou-${fy}`, muniCode: "234249", muniName: "大治町", prefName: "愛知県", isPref: false,
     })),
+    // ---- 第112巡（2026-11-26・§13-129） ----
+    // 播磨町は R8〜R5 が予算概要・R4〜R2 が歳入・歳出別ファイルの款別集計表
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `harima-yosan-gaiyou-${fy}`, muniCode: "283827", muniName: "播磨町", prefName: "兵庫県", isPref: false,
+    })),
+    ...(["r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `harima-kanbetsu-${fy}`, muniCode: "283827", muniName: "播磨町", prefName: "兵庫県", isPref: false,
+    })),
+    // 清水町（静岡県）は R7 以前の款別資料がウェブに無い
+    { srcId: "shimizu-shizuoka-yosan-gaiyou-r8", muniCode: "223417", muniName: "清水町", prefName: "静岡県", isPref: false },
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaizu-yosan-gaiyou-${fy}`, muniCode: "212211", muniName: "海津市", prefName: "岐阜県", isPref: false,
+    })),
+    // 田原本町は R6 骨格 ⇒ R7 に prevNote。R4 以前の予算書はウェブに無い
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `tawaramoto-yosansho-${fy}`, muniCode: "293636", muniName: "田原本町", prefName: "奈良県", isPref: false,
+    })),
+    // 駒ケ根市は R4 がスキャン・R2 骨格 ⇒ R3 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `komagane-yosan-aramashi-${fy}`, muniCode: "202100", muniName: "駒ケ根市", prefName: "長野県", isPref: false,
+    })),
+    // 四万十市は R7 が修正可決（差し替え後の概要）かつ骨格 ⇒ R8 に prevNote。R5 以前は資料なし
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `shimanto-yosan-gaiyou-${fy}`, muniCode: "392103", muniName: "四万十市", prefName: "高知県", isPref: false,
+    })),
+    // 綾部市は R8〜R5 が予算書・R4〜R2 が総括1枚（R3・R2 は Wayback）。R8 骨格
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `ayabe-yosansho-${fy}`, muniCode: "262030", muniName: "綾部市", prefName: "京都府", isPref: false,
+    })),
+    ...(["r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ayabe-yosan-soukatsu-${fy}`, muniCode: "262030", muniName: "綾部市", prefName: "京都府", isPref: false,
+    })),
+    // 浅口市は R8〜R3 が予算書・R2 は議会修正後の概要。R4 骨格 ⇒ R5 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `asakuchi-yosansho-${fy}`, muniCode: "332160", muniName: "浅口市", prefName: "岡山県", isPref: false,
+    })),
+    { srcId: "asakuchi-yosan-gaiyou-r2", muniCode: "332160", muniName: "浅口市", prefName: "岡山県", isPref: false },
+    // 小松島市は R8 が成立版の予算説明書・R7〜R3 が議案の参考資料・R2 が簡易版
+    { srcId: "komatsushima-yosan-setsumeisho-r8", muniCode: "362034", muniName: "小松島市", prefName: "徳島県", isPref: false },
+    ...(["r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `komatsushima-gian-sankou-${fy}`, muniCode: "362034", muniName: "小松島市", prefName: "徳島県", isPref: false,
+    })),
+    { srcId: "komatsushima-yosan-kani-r2", muniCode: "362034", muniName: "小松島市", prefName: "徳島県", isPref: false },
+    // 大田市（島根）は R3 がパーサ未対応・R4・R2 がスキャン
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `oda-shimane-yosansho-${fy}`, muniCode: "322059", muniName: "大田市", prefName: "島根県", isPref: false,
+    })),
     // ---- 第101巡（2026-10-31・§13-117） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `nishiwaki-yosan-gaiyo-${fy}`, muniCode: "282138", muniName: "西脇市", prefName: "兵庫県", isPref: false,
