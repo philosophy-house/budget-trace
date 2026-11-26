@@ -46029,21 +46029,21 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
   },
   "/sources/shimanto-yosan-gaiyou-r8/13973.pdf": {
     "mode": "origin",
-    "href": "https://www.city.shimanto.lg.jp/soshiki/3/14871.html",
+    "href": "https://www.city.shimanto.lg.jp/uploaded/attachment/13973.pdf",
     "license": "「四万十市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として四万十市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。「四万十市ホームページ」の内容の全部または一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/shimanto-yosan-gaiyou-r7/11448.pdf": {
     "mode": "origin",
-    "href": "https://www.city.shimanto.lg.jp/soshiki/3/14871.html",
+    "href": "https://www.city.shimanto.lg.jp/uploaded/attachment/11448.pdf",
     "license": "「四万十市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として四万十市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。「四万十市ホームページ」の内容の全部または一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/shimanto-yosan-gaiyou-r6/11450.pdf": {
     "mode": "origin",
-    "href": "https://www.city.shimanto.lg.jp/soshiki/3/24758.html",
+    "href": "https://www.city.shimanto.lg.jp/uploaded/attachment/11450.pdf",
     "license": "「四万十市ホームページ」に掲載されている、文字、写真、イラストなどの個々の情報に関する著作権は、原則として四万十市に帰属します。ただし、一部の画像などにおいては原著作者が著作権を所有しています。「四万十市ホームページ」の内容の全部または一部は、「私的使用」または「引用」など著作権法上認められた場合を除き、無断で複製・転用などの利用をすることは出来ません。",
-    "target": "page"
+    "target": "file"
   },
   "/sources/ayabe-yosansho-r8/r8_ippankaikeiyosansho.pdf": {
     "mode": "origin",
