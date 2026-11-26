@@ -680,6 +680,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "152170": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度・令和3年度・令和2年度",
+        "reason": "発行元のサイトから予算書が消えており、国立国会図書館の保存（WARP）に残る写しはスキャン画像で文字として読めない。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "152188": {
     "budget": [
       {
@@ -776,6 +785,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和4年度・令和2年度",
         "reason": "款別の予算書がウェブに無く、公表されている「当初予算の概要」は款をまとめた区分の万円単位の表で、前年度の額の列が無い。",
         "checkedOn": "2026-11-12"
+      }
+    ]
+  },
+  "182052": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "当初予算説明資料のうち、歳出の款別の表がスキャン画像で、文字として読めない（歳入の表だけは読める）。",
+        "checkedOn": "2026-11-26"
       }
     ]
   },
@@ -979,6 +997,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "222232": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "その年度の予算書が発行元のサイトから消えており、ウェブ上の保存でも館外から取得できるものが無い。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "222241": {
     "budget": [
       {
@@ -994,6 +1021,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "令和2年度の当初予算の資料は紙をスキャンした画像だけで文字の情報が無く、予算書は見当たらない（発行元のページも消えている）。",
         "checkedOn": "2026-10-26"
+      }
+    ]
+  },
+  "224243": {
+    "budget": [
+      {
+        "fyLabel": "令和2年度",
+        "reason": "その年度の予算書・説明書・概要がすべてスキャン画像で、文字として読めない。",
+        "checkedOn": "2026-11-26"
       }
     ]
   },
@@ -2851,6 +2887,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和3年度",
         "reason": "「当初予算案の大綱」は議会修正前の「案」（一般会計 229,000,000千円）で、可決された当初予算は修正後の 229,140,000千円（同ページの「令和３年第２回市議会定例会予算（修正案）総括表」）。R4 の大綱の前年度列と市統計書 17-3 はどちらも修正後なので、案のまま収録すると年度間のクロスチェックが R4↔R3 で食い違う（歳入4款・歳出 教育費 +140,000）。修正後の款別は統計書 17-3 XLSX（CC BY）にあるが別様式で未収録。R8〜R4・R2〜H28 は同じ資料で収録済み。",
         "checkedOn": "2026-08-22"
+      }
+    ]
+  },
+  "092118": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度・令和2年度",
+        "reason": "款別の表は文字として読めるが、前年度の欄が空の行（新しくできた款）があり、いまの抽出の設定では列の位置を決められない。",
+        "checkedOn": "2026-11-26"
       }
     ]
   },

@@ -3822,4 +3822,48 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.kuroishi.aomori.jp/shisei/keikaku/zai_zaisei_jokyo.html",
     checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
   },
+  // ==== 第115巡（2026-11-26・docs §13-132）==================================
+  {
+    // 矢板市（092118）R3・R2。R8〜R4 は収録済み。「当初予算（案）の概要」は同じ様式だが、皆増の行（R3 款6 法人事業税交付金・R2 款8 環境性能割交付金）で
+    //   前年度の欄が空になり、列の添字を指定する方式（amountIntIndex/prevIntIndex）が行の整数の数で throw する。R2 は番号のない廃止款の行もある。
+    code: "092118", name: "矢板市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["parser-unsupported"],
+    reason: "款別の表は文字として読めるが、前年度の欄が空の行（新しくできた款）があり、いまの抽出の設定では列の位置を決められない。",
+    url: "https://www.city.yaita.tochigi.jp/soshiki/zaisei/tousyoyosanpast.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-132",
+  },
+  {
+    // 吉田町（静岡県・224243）R2。R8〜R3 は収録済み。R2 の予算書・説明書・当初予算概要・参考資料はすべてページ画像（テキスト層なし）。
+    //   R4 の参考資料「款別最近５か年間の当初予算額の推移」に R2・R1 の列があるが、後年度の資料からの収録は人の判断待ち（§13-132）。
+    code: "224243", name: "吉田町", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason: "その年度の予算書・説明書・概要がすべてスキャン画像で、文字として読めない。",
+    url: "https://www.town.yoshida.shizuoka.jp/7571.htm",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-132",
+  },
+  {
+    // 大野市（福井県・182052）R2。R8〜R3 は収録済み。R2 の当初予算説明資料（Wayback の R2all.pdf）は歳入の頁（p.4）だけが文字で、歳出（目的別）の頁（p.7）は画像。
+    code: "182052", name: "大野市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason: "当初予算説明資料のうち、歳出の款別の表がスキャン画像で、文字として読めない（歳入の表だけは読める）。",
+    url: "https://www.city.ono.fukui.jp/shisei/zaisei/yosan/index.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-132",
+  },
+  {
+    // 妙高市（152170）R4〜R2。R8〜R5 は収録済み。発行元では 404、WARP の写し（1_itikai.pdf）は 600dpi のスキャン画像でテキスト層なし。Wayback に捕捉なし。
+    code: "152170", name: "妙高市", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["no-material", "scanned-image"],
+    reason: "発行元のサイトから予算書が消えており、国立国会図書館の保存（WARP）に残る写しはスキャン画像で文字として読めない。",
+    url: "https://www.city.myoko.niigata.jp/city-info/finance/finance/",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-132",
+  },
+  {
+    // 御前崎市（222232）R2。R8〜R3 は収録済み（R4 は Wayback の議案版）。R2 の一般会計予算書（R2_ippan.pdf）は現行 404・Wayback の CDX 0件・WARP は館内限定。
+    //   Wayback にある R2 の当初予算骨子概要は様式が違う（款番号なし・略称・財源別の小計）。
+    code: "222232", name: "御前崎市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material"],
+    reason: "その年度の予算書が発行元のサイトから消えており、ウェブ上の保存でも館外から取得できるものが無い。",
+    url: "https://www.city.omaezaki.shizuoka.jp/kurashi/shisei/yosan_zaisei/yosan/index.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-132",
+  },
 ];
