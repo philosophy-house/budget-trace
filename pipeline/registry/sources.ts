@@ -690,6 +690,10 @@ const MINAMIKYUSHU_LICENSE =
   "南九州市ホームページで提供している情報（文書や画像等の各ファイル及びその内容）の著作権は，特記されていない限り南九州市に帰属し，権利表記の記載がない限り「公共データ利用規約（第1.0版）」（PDL1.0）が適用されています。";
 const BIZEN_LICENSE =
   "本サイトに掲載の文章、画像などの著作権は、備前市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。";
+// 南九州の R7・R6 は著作権のページの更新（2025-03-06）より前の掲載で、掲載時点の本文が確かめられない（Wayback・WARP に捕捉なし）。
+//   確かめられるのは全ページのフッターだけなので、それを書いて license-no-grant.ts で要許可へ倒す（昭島 R7〜R2 の「掲載時点の規約」と同じ考え方・§13-130）。
+const MINAMIKYUSHU_FOOTER_LICENSE =
+  "Copyright (c) 2023 Minamikyushu city. All Rights Reserved.（南九州市公式ホームページ フッター）。著作権のページ（公共データ利用規約（第1.0版）を適用）は 2025年03月06日に更新されており、この資料の掲載時点の本文は確かめられない（2026-11-26 確認）。";
 // ---- 第113巡のライセンス原文ここまで ----
 // ---- 第109巡（2026-11-12・docs/data-sources.md §13-125）のライセンス原文 ----
 const MIYAMA_LICENSE =
@@ -36881,7 +36885,10 @@ export const SOURCES: SourceEntry[] = [
   // ライセンス: 「南九州市ホームページの著作権・リンク」（/soshikikarasagasu/miraisousei/ijyuteijyusokushin/5/1607.html・確認日 2026-11-26・自分で本文を読んだ）
   //   ＝サイト全体に PDL1.0（岡山県 §11 と同じ「ポータル登載を条件にしない型」）。適用外の列挙（ロゴ・写真・市民が映る写真・委託して作成したもの・
   //   自治体に権利が無いもの・別ルールを明示したもの）に予算書は当たらない。ページ内に「無断」「禁止」「許可」は0件。⚠ 適用外の列挙を license 欄に混ぜない（§9g）。
-  //   リンク「…原則としてトップページ（http://www.city.minamikyushu.lg.jp）へのリンクとしてください。」＝指示形 ⇒ `noDeepLink`（open の間は振替に効かないが意思の記録として立てる）。
+  //   ⚠ フッターの「Copyright … All Rights Reserved.」より本文を優先する（2026-10-22 の人の判断・§13-59）。ただし本文が及ぶのはその本文の下で掲載された資料だけで、
+  //   ページは 2025-03-06 に更新されている。R8（2026-02 掲載）は今の本文の下 ⇒ open。R7（2025-02-18 ごろ）・R6 は更新前の掲載で、更新前の本文は Wayback・WARP に無く
+  //   確かめられない ⇒ フッターを書いて license-no-grant.ts で要許可へ倒した（§13-130・第113巡のレビューで指摘）。
+  //   リンク「…原則としてトップページ（http://www.city.minamikyushu.lg.jp）へのリンクとしてください。」＝指示形 ⇒ `noDeepLink`（R8 は open なので振替に効かないが意思の記録として立てる）。
   ...([
     ["R8", "R8toushoyosansho080217-1.pdf", "10848", 14, false],
     ["R7", "R7yosansho0218.pdf", "8718", 15, true],
@@ -36895,7 +36902,7 @@ export const SOURCES: SourceEntry[] = [
     kind: "pdf" as const,
     fiscalYear: fy,
     scope: "南九州市（一般会計・団体コード462233）",
-    license: MINAMIKYUSHU_LICENSE,
+    license: fy === "R8" ? MINAMIKYUSHU_LICENSE : MINAMIKYUSHU_FOOTER_LICENSE,
     noDeepLink: true,
     parser: "kofu-yosansho" as const,
     parserOptions: {
