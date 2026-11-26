@@ -3622,4 +3622,42 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.ojiya.niigata.jp/soshiki/kikakuseisaku/yosan.html",
     checkedOn: "2026-11-12", ref: "docs/data-sources.md §13-126",
   },
+  // ==== 第114巡（2026-11-26・docs §13-131）==================================
+  {
+    // 本宮市（072141）。財政課の年度ページ（/soshiki/43/r8yosan.html〜r3yosan.html・R2 は 20190805fgdfs.html）に載るのは4ページの「当初予算」の概要（千円・前年度当初の列あり）だけ。
+    //   歳入の表１は自主財源／依存財源の小計の下に14区分で、利子割〜交通安全対策特別交付金の法定の款が「各種交付金」1行に束ねてある（歳出の表２は14款そろう）。
+    //   ⚠ kofu-yosansho（kanNoless）に当てると Σ差0 で通ってしまう（R8〜R2 で実測）。予算書（事項別明細書）は市サイト・議会サイト・Wayback に見当たらない。
+    code: "072141", name: "本宮市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["format-mismatch"],
+    reason: "款別の予算書がウェブに無く、公表されている「当初予算」の概要の歳入は、複数の交付金の款を「各種交付金」1行にまとめた区分の表で、款別になっていない。",
+    url: "https://www.city.motomiya.lg.jp/life/6/26/107/",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
+  },
+  {
+    // つがる市（022098）。財政課のページは健全化判断比率・財政状況（予算現計と執行の額・前年度の列なし）・財政状況資料集・財務書類・財務状況把握だけで、予算のページが無い
+    //   （WARP 2018-04・2021-07 の捕捉も同じ）。広報つがる4月号の当初予算の特集は財源別・性質別で万円・億円に丸めた額、款は市民1人当たりの額だけ。
+    code: "022098", name: "つがる市", dataset: "budget", fiscalYears: ["R8", "R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["no-material"],
+    reason: "当初予算の款別の額を前年度と並べた資料（予算書・予算の概要）が市のウェブサイトに無い。広報の当初予算の特集は財源別・性質別の丸めた額で、財政状況の公表は補正後の予算額と執行の額だけ。",
+    url: "https://www.city.tsugaru.aomori.jp/soshiki/zaisei/zaisei/index.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
+  },
+  {
+    // 南陽市（062138）R6〜R3。R8・R7 は予算書で収録済み（§13-131）。予算書の掲載は R7 から（Wayback の CDX・議会のページにも無い）。
+    //   代わりの「当初予算概要」の歳入の表（見開き p.8〜9）は [当年度総額, 当年度一般財源, 前年度総額, …] の列が交互で、一般財源のセルが空の行では添字が詰まり、
+    //   前年度に一般財源を読む（R6 で前年度 Σ +4,806,870。前年度 Σ は warning 止まりで静かに通る）。歳出の表（p.10）は通る。
+    code: "062138", name: "南陽市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3"],
+    categories: ["parser-unsupported"],
+    reason: "予算書がウェブに無く、代わりの当初予算概要の歳入の表は原典としては健全だが、総額と一般財源の列が交互に並び空欄の行があるため、こちらの読み取りの仕組みが前年度の額を正しく読めない。",
+    url: "http://www.city.nanyo.yamagata.jp/yosan/1259",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
+  },
+  {
+    // 南陽市（062138）R2。予算書の掲載なし。当初予算概要は複合機で読み取った画像（フォント0・テキスト層なし）。
+    code: "062138", name: "南陽市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["scanned-image"],
+    reason: "予算書がウェブに無く、当初予算概要は紙をスキャンした画像で、文字の情報が入っていない。",
+    url: "http://www.city.nanyo.yamagata.jp/yosan/1259",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
+  },
 ];

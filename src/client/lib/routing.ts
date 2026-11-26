@@ -606,6 +606,9 @@ const MUNI_SLUGS: Record<string, string> = {
   "263664": "seika",
   "223255": "kannami",
   "294268": "koryo",
+  "022101": "hirakawa", // 第114巡
+  "032115": "kamaishi",
+  "062138": "nanyo",
   "082074": "yuki",
   "082317": "sakuragawa",
   "082295": "inashiki",
