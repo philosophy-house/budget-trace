@@ -1,0 +1,19 @@
+{
+  "sourceId": "tokyo-mizuho-yosan-setsumei-r4",
+  "files": [
+    {
+      "filename": "R4yosangaiyou.pdf",
+      "sha256": "ac4d89d7dc273d5262e08f7cfb11c8897971e230ea2289c6ed040d769153e0d0",
+      "bytes": 460340,
+      "fetchedAt": "2026-11-26T12:48:43.051Z",
+      "fetchedFrom": "https://www.town.mizuho.tokyo.jp/tyosei/003/012/016/p008706_d/fil/R4yosangaiyou.pdf"
+    },
+    {
+      "filename": "4siryou.pdf",
+      "sha256": "d3ab0c03ed667513d3a425898a6537d2aff296ebc0720ae85005e79839333240",
+      "bytes": 3173817,
+      "fetchedAt": "2026-11-26T12:48:44.389Z",
+      "fetchedFrom": "https://www.town.mizuho.tokyo.jp/tyosei/003/012/001/p001153_d/fil/4siryou.pdf"
+    }
+  ]
+}
