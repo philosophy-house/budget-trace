@@ -60519,7 +60519,7 @@ export const SOURCES: SourceEntry[] = [
   //   ⇒ skeleton-budgets.ts・R8 に prevNote。R3 も骨格（未収録・台帳だけ）。議決は R8・R6 原案可決。
   // ライセンス: 「著作権について」（/site/userguide/4515.html・2026-11-26 確認）＝`無断で複製・転用` で要許可。市のオープンデータ（/soshiki/4/20187.html・CC）の10件に予算0件。
   //   リンク「四万十市のトップページ ( https://www.city.shimanto.lg.jp ) へのリンクは原則フリーです。…リンクを行った場合は、…リンク元のURLをご連絡ください。」
-  //   ＝トップページ以外を断る句が無い。鎌倉（§13・「トップページへのリンクは自由」のみ＝立てない）と同じ型 ⇒ `noDeepLink` なし
+  //   ＝トップページ以外を断る句が無い。鎌倉（data-sources.md §13-23 の「鎌倉」・「トップページへのリンクは自由」のみ＝立てない）と同じ型 ⇒ `noDeepLink` なし
   //   （大東は「トップページ以外は担当課へお問い合わせ」の句があって立てた）。
   ...([
     ["R8", "13973", "14871"],
@@ -60535,13 +60535,13 @@ export const SOURCES: SourceEntry[] = [
     fiscalYear: fy,
     scope: "四万十市（一般会計・団体コード392103）",
     license: SHIMANTO_LICENSE,
-        parser: "kofu-yosansho" as const,
+    parser: "kofu-yosansho" as const,
     parserOptions: {
       revenuePage: 3, expenditurePage: 5,
       revenueHeading: "歳 入 予 算", expenditureHeading: "歳 出 予 算 （ 目 的 別 ）",
       revenueTotalLabel: "計", expenditureTotalLabel: "計",
       ...(fy === "R8"
-        ? { prevNote: "前年度（令和7年度）の当初予算は骨格予算です（「市長施政方針要旨（令和７年３月市議会定例会）」に「５月が市長改選期となりますので、義務的経費や継続事業を中心とした骨格予算として編成しています。」とあります）。また令和7年度の一般会計予算は議会で修正可決されており、ここでの前年度額は修正後の当初額（256億5,031万5千円）で、その後の補正予算を加えた額ではありません。" }
+        ? { prevNote: "前年度（令和7年度）の当初予算は骨格予算です（「市長施政方針要旨」（令和７年３月市議会定例会）に「５月が市長改選期となりますので、義務的経費や継続事業を中心とした骨格予算として編成しています。」とあります）。また令和7年度の一般会計予算は議会で修正可決されており、ここでの前年度額は修正後の当初額（256億5,031万5千円）で、その後の補正予算を加えた額ではありません。" }
         : {}),
     },
   } satisfies SourceEntry)),
