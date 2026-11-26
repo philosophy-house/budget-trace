@@ -847,6 +847,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "202100": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度",
+        "reason": "予算のあらましも予算書も紙をスキャンした画像で、文字の情報が入っていない。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "202142": {
     "budget": [
       {
@@ -976,6 +985,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和2年度",
         "reason": "令和2年度の当初予算の資料は紙をスキャンした画像だけで文字の情報が無く、予算書は見当たらない（発行元のページも消えている）。",
         "checkedOn": "2026-10-26"
+      }
+    ]
+  },
+  "223417": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度・令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款別に前年度と比べた予算の資料が、町のウェブサイトに掲載されたことが無い（予算のページは令和8年2月に新しく作られ、令和8年度の分だけが載っている）。",
+        "checkedOn": "2026-11-26"
       }
     ]
   },
@@ -1586,6 +1604,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "293636": {
+    "budget": [
+      {
+        "fyLabel": "令和4年度・令和3年度・令和2年度",
+        "reason": "この年度の予算書は町のウェブサイトに掲載されたことが無く、残っている「予算の概要」は円グラフだけで、款ごとの前年度の額が無い。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "294268": {
     "budget": [
       {
@@ -1647,6 +1674,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "平成19年度",
         "reason": "「一般会計・特別会計予算の概要」（H19yosan.pdf・27p）がスキャン画像で、pdftotext の出力は空白と改ページのみ（可読文字0）・画像462（各ページ十数枚の帯画像）。",
         "checkedOn": "2026-09-09"
+      }
+    ]
+  },
+  "322059": {
+    "budget": [
+      {
+        "fyLabel": "令和3年度",
+        "reason": "予算書の総括は原典としては健全だが、見開きのもう一方のページの数字が全角で書かれていて、こちらの読み取りの仕組みがまだ扱えない。",
+        "checkedOn": "2026-11-26"
+      },
+      {
+        "fyLabel": "令和4年度・令和2年度",
+        "reason": "予算書も予算の概要も紙をスキャンした画像で、文字の情報が入っていない。",
+        "checkedOn": "2026-11-26"
       }
     ]
   },
@@ -1888,6 +1929,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
         "fyLabel": "令和8年度・令和7年度・令和6年度・令和5年度・令和3年度",
         "reason": "款別の当初予算の資料（予算書・予算の概要）が市のウェブサイトに見当たらない。公開されているのは広報の見開き1枚で、総額と、歳入の財源別・歳出の性質別の円グラフだけで、款別の表が無い。",
         "checkedOn": "2026-10-26"
+      }
+    ]
+  },
+  "392103": {
+    "budget": [
+      {
+        "fyLabel": "令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "この年度の予算書・予算の概要が、市のウェブサイトにも国立国会図書館の保存にも見当たらない。",
+        "checkedOn": "2026-11-26"
       }
     ]
   },
