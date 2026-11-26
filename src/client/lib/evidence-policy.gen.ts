@@ -47232,5 +47232,347 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "href": "https://www.town.aikawa.kanagawa.jp/material/files/group/22/seimukatudouR7.pdf",
     "license": "Copyright (c)2023 Aikawa town. All Rights Reserved.／愛川町議会ウェブサイト「情報公開に関する注意事項（著作権等）」（kouhou/17213.html）: 「私的使用のための複製」や「引用」など、著作権法で認められている場合を除き、無断での複製・転載・転用はできません。",
     "target": "file"
+  },
+  "/sources/tamura-yosan-gaiyou-r8/R8当初予算_市HP用 (1).pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamura.lg.jp/soshiki/3/assets/R8%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97_%E5%B8%82HP%E7%94%A8%20%281%29.pdf",
+    "license": "田村市ホームページ（以下、当ホームページ）に掲載している内容（文章、写真、図、イラスト等）に関する著作権は、原則として田村市に帰属します。また、一部の画像等の著作権は、田村市以外の原著作者が所有しています。当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたホームページ担当課へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/tamura-yosan-gaiyou-r7/R7当初予算_市HP用_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamura.lg.jp/soshiki/3/assets/R7%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97_%E5%B8%82HP%E7%94%A8_1.pdf",
+    "license": "田村市ホームページ（以下、当ホームページ）に掲載している内容（文章、写真、図、イラスト等）に関する著作権は、原則として田村市に帰属します。また、一部の画像等の著作権は、田村市以外の原著作者が所有しています。当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたホームページ担当課へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/tamura-yosan-gaiyou-r6/R6当初予算_市HP用_2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamura.lg.jp/soshiki/3/assets/R6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97_%E5%B8%82HP%E7%94%A8_2.pdf",
+    "license": "田村市ホームページ（以下、当ホームページ）に掲載している内容（文章、写真、図、イラスト等）に関する著作権は、原則として田村市に帰属します。また、一部の画像等の著作権は、田村市以外の原著作者が所有しています。当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたホームページ担当課へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/tamura-yosan-gaiyou-r5/R5当初予算_市HP用.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamura.lg.jp/soshiki/3/assets/R5%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97_%E5%B8%82HP%E7%94%A8.pdf",
+    "license": "田村市ホームページ（以下、当ホームページ）に掲載している内容（文章、写真、図、イラスト等）に関する著作権は、原則として田村市に帰属します。また、一部の画像等の著作権は、田村市以外の原著作者が所有しています。当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたホームページ担当課へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/tamura-yosan-gaiyou-r4/R4当初予算　市HP用.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamura.lg.jp/soshiki/3/assets/R4%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E3%80%80%E5%B8%82HP%E7%94%A8.pdf",
+    "license": "田村市ホームページ（以下、当ホームページ）に掲載している内容（文章、写真、図、イラスト等）に関する著作権は、原則として田村市に帰属します。また、一部の画像等の著作権は、田村市以外の原著作者が所有しています。当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたホームページ担当課へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/tamura-yosan-gaiyou-r3/R3tousyoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamura.lg.jp/soshiki/3/assets/R3tousyoyosan.pdf",
+    "license": "田村市ホームページ（以下、当ホームページ）に掲載している内容（文章、写真、図、イラスト等）に関する著作権は、原則として田村市に帰属します。また、一部の画像等の著作権は、田村市以外の原著作者が所有しています。当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたホームページ担当課へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/tamura-yosan-gaiyou-r2/21152.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tamura.lg.jp/uploaded/attachment/21152.pdf",
+    "license": "田村市ホームページ（以下、当ホームページ）に掲載している内容（文章、写真、図、イラスト等）に関する著作権は、原則として田村市に帰属します。また、一部の画像等の著作権は、田村市以外の原著作者が所有しています。当ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたホームページ担当課へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/isumi-yosan-gaiyou-r8/R8gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.isumi.lg.jp/material/files/group/7/R8gaiyou.pdf",
+    "license": "本サイトで使用されている文書・写真・画像等の著作権は、一部の資料を除き、基本的にいすみ市に帰属します。無断使用・転載を禁止します。必ずいすみ市の許可を受けてください。",
+    "target": "file"
+  },
+  "/sources/isumi-yosan-gaiyou-r7/yosannsyogaiyou7.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.isumi.lg.jp/material/files/group/7/yosannsyogaiyou7.pdf",
+    "license": "本サイトで使用されている文書・写真・画像等の著作権は、一部の資料を除き、基本的にいすみ市に帰属します。無断使用・転載を禁止します。必ずいすみ市の許可を受けてください。",
+    "target": "file"
+  },
+  "/sources/isumi-yosan-gaiyou-r6/r6toushoyosannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.isumi.lg.jp/material/files/group/7/r6toushoyosannogaiyou.pdf",
+    "license": "本サイトで使用されている文書・写真・画像等の著作権は、一部の資料を除き、基本的にいすみ市に帰属します。無断使用・転載を禁止します。必ずいすみ市の許可を受けてください。",
+    "target": "file"
+  },
+  "/sources/isumi-yosan-gaiyou-r5/r5toushoyosannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.isumi.lg.jp/material/files/group/7/r5toushoyosannogaiyou.pdf",
+    "license": "本サイトで使用されている文書・写真・画像等の著作権は、一部の資料を除き、基本的にいすみ市に帰属します。無断使用・転載を禁止します。必ずいすみ市の許可を受けてください。",
+    "target": "file"
+  },
+  "/sources/isumi-yosan-gaiyou-r4/reiwa4nendoyosannogaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.isumi.lg.jp/material/files/group/7/reiwa4nendoyosannogaiyou.pdf",
+    "license": "本サイトで使用されている文書・写真・画像等の著作権は、一部の資料を除き、基本的にいすみ市に帰属します。無断使用・転載を禁止します。必ずいすみ市の許可を受けてください。",
+    "target": "file"
+  },
+  "/sources/isumi-yosan-gaiyou-r3/r3yosanngaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.isumi.lg.jp/material/files/group/7/r3yosanngaiyou.pdf",
+    "license": "本サイトで使用されている文書・写真・画像等の著作権は、一部の資料を除き、基本的にいすみ市に帰属します。無断使用・転載を禁止します。必ずいすみ市の許可を受けてください。",
+    "target": "file"
+  },
+  "/sources/isumi-yosan-gaiyou-r2/2c9b6fd5176c5c6c32d0078ed6cf5054_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.isumi.lg.jp/material/files/group/7/2c9b6fd5176c5c6c32d0078ed6cf5054_1.pdf",
+    "license": "本サイトで使用されている文書・写真・画像等の著作権は、一部の資料を除き、基本的にいすみ市に帰属します。無断使用・転載を禁止します。必ずいすみ市の許可を受けてください。",
+    "target": "file"
+  },
+  "/sources/ofunato-yosan-gaiyou-r8/令和８年度大船渡市当初予算（案）の概要.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000005538_00/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E5%BA%A6%E5%A4%A7%E8%88%B9%E6%B8%A1%E5%B8%82%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%EF%BC%88%E6%A1%88%EF%BC%89%E3%81%AE%E6%A6%82%E8%A6%81.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、大船渡市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/ofunato-yosan-gaiyou-r7/40123.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000003370_00/40123.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、大船渡市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/ofunato-yosan-gaiyou-r6/36956.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000001710_00/36956.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、大船渡市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/ofunato-yosan-gaiyou-r5/33372.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000001293_00/33372.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、大船渡市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/ofunato-yosan-gaiyou-r4/29919.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000001019_00/29919.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、大船渡市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/ofunato-yosan-gaiyou-r3/26468.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000000793_00/26468.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、大船渡市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/ofunato-yosan-gaiyou-r2/22032.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ofunato.iwate.jp/uploads/contents/archive_0000000629_00/22032.pdf",
+    "license": "本サイトに掲載の文章、画像などの著作権は、大船渡市または原著作者に帰属します。「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、本サイトに掲載の文章、画像などについて無断で複製・転用することを禁止します。",
+    "target": "file"
+  },
+  "/sources/watari-yosan-sanko-r8/content_20260326_114155.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.watari.miyagi.jp/detail.php?content=311",
+    "license": "「亘理町公式ホームページ」に掲載されている写真、画像、イラスト、動画などの個々の情報についての著作権は、町またはコンテンツ提供者にあります。これらの情報については、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/watari-yosan-sanko-r7/content_20250407_092129.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.watari.miyagi.jp/detail.php?content=311",
+    "license": "「亘理町公式ホームページ」に掲載されている写真、画像、イラスト、動画などの個々の情報についての著作権は、町またはコンテンツ提供者にあります。これらの情報については、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/watari-yosan-sanko-r3/content_20220131_112406.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.watari.miyagi.jp/detail.php?content=311",
+    "license": "「亘理町公式ホームページ」に掲載されている写真、画像、イラスト、動画などの個々の情報についての著作権は、町またはコンテンツ提供者にあります。これらの情報については、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/watari-yosan-sanko-r2/content_20220131_112455.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.watari.miyagi.jp/detail.php?content=311",
+    "license": "「亘理町公式ホームページ」に掲載されている写真、画像、イラスト、動画などの個々の情報についての著作権は、町またはコンテンツ提供者にあります。これらの情報については、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/watari-tosho-yosan-r6/content_20240319_084746.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.watari.miyagi.jp/detail.php?content=311",
+    "license": "「亘理町公式ホームページ」に掲載されている写真、画像、イラスト、動画などの個々の情報についての著作権は、町またはコンテンツ提供者にあります。これらの情報については、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/watari-tosho-yosan-r5/content_20230323_134038.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.watari.miyagi.jp/detail.php?content=311",
+    "license": "「亘理町公式ホームページ」に掲載されている写真、画像、イラスト、動画などの個々の情報についての著作権は、町またはコンテンツ提供者にあります。これらの情報については、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/watari-tosho-yosan-r4/content_20220401_084835.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.watari.miyagi.jp/detail.php?content=311",
+    "license": "「亘理町公式ホームページ」に掲載されている写真、画像、イラスト、動画などの個々の情報についての著作権は、町またはコンテンツ提供者にあります。これらの情報については、「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製・転用することはできません。",
+    "target": "page"
+  },
+  "/sources/sosa-tosho-yosan-r8/1772523296_doc_123_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sosa.lg.jp/data/doc/1772523296_doc_123_0.pdf",
+    "license": "匝瑳市公式ホームページの各ページに掲載の写真、動画及び記事（文章）の無断転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/sosa-tosho-yosan-r7/1740701518_doc_123_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sosa.lg.jp/data/doc/1740701518_doc_123_0.pdf",
+    "license": "匝瑳市公式ホームページの各ページに掲載の写真、動画及び記事（文章）の無断転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/sosa-tosho-yosan-r6/1710206315_doc_123_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sosa.lg.jp/data/doc/1710206315_doc_123_0.pdf",
+    "license": "匝瑳市公式ホームページの各ページに掲載の写真、動画及び記事（文章）の無断転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/sosa-tosho-yosan-r5/1677829911_doc_123_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sosa.lg.jp/data/doc/1677829911_doc_123_0.pdf",
+    "license": "匝瑳市公式ホームページの各ページに掲載の写真、動画及び記事（文章）の無断転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/sosa-tosho-yosan-r4/1646807093_doc_123_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sosa.lg.jp/data/doc/1646807093_doc_123_0.pdf",
+    "license": "匝瑳市公式ホームページの各ページに掲載の写真、動画及び記事（文章）の無断転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/sosa-tosho-yosan-r3/1614130278_doc_123_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sosa.lg.jp/data/doc/1614130278_doc_123_0.pdf",
+    "license": "匝瑳市公式ホームページの各ページに掲載の写真、動画及び記事（文章）の無断転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/sosa-tosho-yosan-r2/1582271197_doc_123_0.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.sosa.lg.jp/data/doc/1582271197_doc_123_0.pdf",
+    "license": "匝瑳市公式ホームページの各ページに掲載の写真、動画及び記事（文章）の無断転載を禁止します。",
+    "target": "file"
+  },
+  "/sources/shiwa-yosansho-r8/令和８年度一般会計当初予算.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.shiwa.iwate.jp/soshiki/4_4/3_2/2673.html/",
+    "license": "本サイトに掲載されている情報は、明記されているものを除き、すべて紫波町が著作権を保有しています。紫波町の許可なく複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shiwa-yosansho-r5/R05一般会計予算書.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.shiwa.iwate.jp/soshiki/4_4/3_2/2673.html/",
+    "license": "本サイトに掲載されている情報は、明記されているものを除き、すべて紫波町が著作権を保有しています。紫波町の許可なく複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shiwa-yosansho-r4/R04yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.shiwa.iwate.jp/soshiki/4_4/3_2/2673.html/",
+    "license": "本サイトに掲載されている情報は、明記されているものを除き、すべて紫波町が著作権を保有しています。紫波町の許可なく複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shiwa-yosansho-r3/R030122.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.shiwa.iwate.jp/soshiki/4_4/3_2/2673.html/",
+    "license": "本サイトに掲載されている情報は、明記されているものを除き、すべて紫波町が著作権を保有しています。紫波町の許可なく複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shiwa-yosansho-r2/R02ysn.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.shiwa.iwate.jp/soshiki/4_4/3_2/2673.html/",
+    "license": "本サイトに掲載されている情報は、明記されているものを除き、すべて紫波町が著作権を保有しています。紫波町の許可なく複製、転用することはできません。",
+    "target": "page"
+  },
+  "/sources/shinjo-zaiseijokyo-r8/zaiseijoukyouR8.5.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shinjo.yamagata.jp/s003/020/070/zaiseijoukyouR8.5.pdf",
+    "license": "各ページの掲載記事、および写真の無断転載は固くお断りします。",
+    "target": "file"
+  },
+  "/sources/shinjo-zaiseijokyo-r7/zaiseijoukyouR7.5.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shinjo.yamagata.jp/s003/020/070/zaiseijoukyouR7.5.pdf",
+    "license": "各ページの掲載記事、および写真の無断転載は固くお断りします。",
+    "target": "file"
+  },
+  "/sources/shinjo-zaiseijokyo-r6/zaiseijoukyouR6.5.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shinjo.yamagata.jp/s003/020/070/zaiseijoukyouR6.5.pdf",
+    "license": "各ページの掲載記事、および写真の無断転載は固くお断りします。",
+    "target": "file"
+  },
+  "/sources/shinjo-zaiseijokyo-r5/zaiseijoukyouR5.5.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shinjo.yamagata.jp/s003/020/070/zaiseijoukyouR5.5.pdf",
+    "license": "各ページの掲載記事、および写真の無断転載は固くお断りします。",
+    "target": "file"
+  },
+  "/sources/shinjo-zaiseijokyo-r4/0405.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shinjo.yamagata.jp/s003/020/070/0405.pdf",
+    "license": "各ページの掲載記事、および写真の無断転載は固くお断りします。",
+    "target": "file"
+  },
+  "/sources/shinjo-zaiseijokyo-r3/0305.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shinjo.yamagata.jp/s003/020/070/0305.pdf",
+    "license": "各ページの掲載記事、および写真の無断転載は固くお断りします。",
+    "target": "file"
+  },
+  "/sources/shinjo-zaiseijokyo-r2/0205.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shinjo.yamagata.jp/s003/0205.pdf",
+    "license": "各ページの掲載記事、および写真の無断転載は固くお断りします。",
+    "target": "file"
+  },
+  "/sources/abashiri-yosan-r8/14649.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.abashiri.hokkaido.jp/uploaded/attachment/14649.pdf",
+    "license": "網走市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/abashiri-yosan-r7/11119.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.abashiri.hokkaido.jp/uploaded/attachment/11119.pdf",
+    "license": "網走市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/abashiri-yosan-r6/8006.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.abashiri.hokkaido.jp/uploaded/attachment/8006.pdf",
+    "license": "網走市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/abashiri-yosan-r5/yosannsiryou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20240110/20240109142733id_/https://www.city.abashiri.hokkaido.jp/030shisei/040zaisei/files/yosannsiryou.pdf",
+    "license": "網走市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/abashiri-yosan-r4/R4zaisei_yosan_soukatsu.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20240110/20240109142744id_/https://www.city.abashiri.hokkaido.jp/030shisei/040zaisei/files/R4zaisei_yosan_soukatsu.pdf",
+    "license": "網走市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/abashiri-yosan-r3/R3zaisei_yosan_soukatsuhyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20240110/20240109142754id_/https://www.city.abashiri.hokkaido.jp/030shisei/040zaisei/files/R3zaisei_yosan_soukatsuhyou.pdf",
+    "license": "網走市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/abashiri-yosan-r2/R2soukatuhyou.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20240110/20240109142804id_/https://www.city.abashiri.hokkaido.jp/030shisei/040zaisei/files/R2soukatuhyou.pdf",
+    "license": "網走市ホームページに掲載されている記事、画像、データ類は、すべて著作権の対象になっています。また、ホームページ全体も、編集著作権の対象となっています。「私的使用のための複製」や「引用」など、著作権法上認められた場合を除き、無断で複製、転用することはできません。",
+    "target": "file"
+  },
+  "/sources/miyashiro-yosan-r3/R3yosansho.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.miyashiro.lg.jp/cmsfiles/contents/0000016/16222/R3yosansho.pdf",
+    "license": "Copyright (C) Miyashiro Town All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/miyashiro-yosan-r3/watayosaR3.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.miyashiro.lg.jp/cmsfiles/contents/0000016/16222/watayosaR3.pdf",
+    "license": "Copyright (C) Miyashiro Town All Rights Reserved.",
+    "target": "file"
+  },
+  "/sources/miyashiro-yosan-r2/R2yosansyo.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20201014/20201012195311id_/https://www.town.miyashiro.lg.jp/cmsfiles/contents/0000003/3745/R2yosansyo.pdf",
+    "license": "Copyright (C) Miyashiro Town All Rights Reserved.",
+    "target": "file"
   }
 };
