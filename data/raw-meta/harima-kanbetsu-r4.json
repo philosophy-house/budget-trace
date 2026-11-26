@@ -1,0 +1,19 @@
+{
+  "sourceId": "harima-kanbetsu-r4",
+  "files": [
+    {
+      "filename": "02sainyuukannbetushuukeihyou.pdf",
+      "sha256": "1d10a97ae790ec941a596d5b71946db9ff2f2194ad1a6a6600e504fce30675d7",
+      "bytes": 262142,
+      "fetchedAt": "2026-11-26T12:47:40.193Z",
+      "fetchedFrom": "https://www.town.harima.lg.jp/somu/chosejoho/yosan/gaiyo/documents/02sainyuukannbetushuukeihyou.pdf"
+    },
+    {
+      "filename": "03saishutukannbetushuukeihyou.pdf",
+      "sha256": "d66d1e87bd049ee5f1ddd903828234fee0679fb6ce82f2ba6c589d90aeae3611",
+      "bytes": 133011,
+      "fetchedAt": "2026-11-26T12:47:40.814Z",
+      "fetchedFrom": "https://www.town.harima.lg.jp/somu/chosejoho/yosan/gaiyo/documents/03saishutukannbetushuukeihyou.pdf"
+    }
+  ]
+}
