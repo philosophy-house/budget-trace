@@ -143,4 +143,7 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "高根沢町", license: "© Takanezawa Town. All rights reserved." },
   { who: "東御市", license: "東御市公式ホームページ(Webサイトという。以下同じ)から発信するコンテンツ(文章、画像で構成された閲覧可能な情報をいう。以下同じ)の著作権は、東御市に属します。この「著作権について」のページ中で与えられていない著作権に係る権利は、すべて東御市に留保されます。このWebサイトから発信するコンテンツについて、次項の例外を除いて引用を承認します。引用の承認を求める行為は不要です。 ただし、引用の際は一般書籍における引用のルールに従ってください。" },
   { who: "大野市（福井県）", license: "「大野市ホームページ」に掲載されている個々の情報（文章・写真・イラストなど）の著作権は、大野市に帰属します。" },
+  // 第112巡（2026-11-26）: 著作権・利用条件の条項がサイトに無く、フッターだけ（サイトポリシー /0000000844.html はリンクの条項だけ）
+  { who: "綾部市", license: "Copyright Ayabe City All rights reserved." },
+  { who: "小松島市", license: "Copyright © Komatsushima City All rights reserved." },
 ];

@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 767,
+  "budgetCount": 777,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-26",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5631,
-  "fileCount": 8315,
-  "archivedCount": 4331,
+  "sourceCount": 5684,
+  "fileCount": 8371,
+  "archivedCount": 4363,
   "licenseOpen": 145,
-  "licensePermission": 5389,
+  "licensePermission": 5442,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -1805,6 +1805,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "海津市",
+      "code": "212211",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "伊東市",
       "code": "222089",
       "years": 7,
@@ -2069,6 +2075,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "綾部市",
+      "code": "262030",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "亀岡市",
       "code": "262064",
       "years": 7,
@@ -2309,6 +2321,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "播磨町",
+      "code": "283827",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "太子町",
       "code": "284645",
       "years": 7,
@@ -2417,6 +2435,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "浅口市",
+      "code": "332160",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "三原市",
       "code": "342041",
       "years": 7,
@@ -2461,6 +2485,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "山陽小野田市",
       "code": "352161",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "小松島市",
+      "code": "362034",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -3147,6 +3177,12 @@ export const ROADMAP_PROGRESS = {
       "code": "182079",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "駒ケ根市",
+      "code": "202100",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "瑞穂市",
@@ -3905,8 +3941,20 @@ export const ROADMAP_PROGRESS = {
       "range": "R5〜R8（4年度）"
     },
     {
+      "name": "田原本町",
+      "code": "293636",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
+    },
+    {
       "name": "広陵町",
       "code": "294268",
+      "years": 4,
+      "range": "R5〜R8（4年度）"
+    },
+    {
+      "name": "大田市",
+      "code": "322059",
       "years": 4,
       "range": "R5〜R8（4年度）"
     },
@@ -4053,6 +4101,12 @@ export const ROADMAP_PROGRESS = {
       "code": "362069",
       "years": 3,
       "range": "R2〜R8（3年度）"
+    },
+    {
+      "name": "四万十市",
+      "code": "392103",
+      "years": 3,
+      "range": "R6〜R8（3年度）"
     },
     {
       "name": "石垣市",

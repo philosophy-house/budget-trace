@@ -1,0 +1,12 @@
+{
+  "sourceId": "harima-yosan-gaiyou-r5",
+  "files": [
+    {
+      "filename": "soukatu.pdf",
+      "sha256": "ce7d076e5d4c243c9cda09d83fd15d5489ce3f0dd1bc8174cb3a94b834f1ce53",
+      "bytes": 483016,
+      "fetchedAt": "2026-11-26T12:47:39.085Z",
+      "fetchedFrom": "https://www.town.harima.lg.jp/somu/chosejoho/yosan/gaiyo/documents/soukatu.pdf"
+    }
+  ]
+}

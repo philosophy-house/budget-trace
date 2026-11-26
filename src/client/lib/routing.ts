@@ -631,6 +631,17 @@ const MUNI_SLUGS: Record<string, string> = {
   "152170": "myoko",
   "222232": "omaezaki",
   // ---- 第115巡ここまで ----
+  // 第112巡（2026-11-26）
+  "283827": "harima",
+  "223417": "shimizu-shizuoka", // ⚠ 北海道清水町 016365 とは別団体（北海道清水町は未収録）
+  "212211": "kaizu", // ⚠ 大阪府貝塚市 272086 が "kaizuka"
+  "293636": "tawaramoto",
+  "202100": "komagane",
+  "392103": "shimanto", // ⚠ 高知県四万十町 394122 とは別団体（四万十町は未収録）
+  "262030": "ayabe",
+  "332160": "asakuchi",
+  "362034": "komatsushima",
+  "322059": "oda-shimane", // ⚠ 東京都大田区 131113 が "ota"・群馬県太田市 102059 が "ota-gunma"
   "083411": "tokaimura", // ⚠ 愛知県東海市 232220 が "tokai"
   "162043": "uozu",
   "406210": "kanda",
