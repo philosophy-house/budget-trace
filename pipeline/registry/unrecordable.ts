@@ -3962,4 +3962,59 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.omaezaki.shizuoka.jp/kurashi/shisei/yosan_zaisei/yosan/index.html",
     checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-132",
   },
+  // ==== 第112巡（2026-11-26・docs/data-sources.md §13-129）====
+  {
+    // 田原本町（293636）R4〜R2。R8〜R5 は予算書の総括で収録済み。予算ページ（gyosei/zaisei/3046.html）の Wayback 2019-10-15・2022-03-08・2023-09-23 を読み、
+    //   予算書のリンクは 2023-09 の R5 が初出。R4 以前は「予算の概要」（広報たわらもと4月号の抜粋）だけで、円グラフのラベルに款の額があるだけ（前年度の款別も合計行も無い）。
+    code: "293636", name: "田原本町", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "この年度の予算書は町のウェブサイトに掲載されたことが無く、残っている「予算の概要」は円グラフだけで、款ごとの前年度の額が無い。",
+    url: "https://www.town.tawaramoto.nara.jp/gyosei/zaisei/3046.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-129",
+  },
+  {
+    // 清水町（静岡県・223417）R7〜R2。R8 は「予算（案）概要」で収録済み。「清水町の予算」（somu/somu00417.html）は 2026-02-18 の新設で、
+    //   財政・会計のカテゴリ（category00000059.html）の Wayback 9版（2020-04〜2026-02）にも款別の資料は無い。議会だより・広報は円グラフと万円単位で前年度の款別列が無い。
+    code: "223417", name: "清水町", dataset: "budget", fiscalYears: ["R7", "R6", "R5", "R4", "R3", "R2"],
+    categories: ["no-material"],
+    reason: "款別に前年度と比べた予算の資料が、町のウェブサイトに掲載されたことが無い（予算のページは令和8年2月に新しく作られ、令和8年度の分だけが載っている）。",
+    url: "https://www.town.shimizu.shizuoka.jp/somu/somu00417.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-129",
+  },
+  {
+    // 駒ケ根市（202100）R4。R8〜R5・R3・R2 は「予算のあらまし」で収録済み。R4 のあらまし（2022aramashi.pdf・48頁）は全頁で 219 字しか出ないスキャン、
+    //   予算書（2022yosan1.pdf）もスキャン（DocuCentre-V 6080）。主要事業概要書はテキストがあるが款別の総括表が無い。
+    code: "202100", name: "駒ケ根市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["scanned-image"],
+    reason: "予算のあらましも予算書も紙をスキャンした画像で、文字の情報が入っていない。",
+    url: "https://www.city.komagane.nagano.jp/gyosei/shiseijoho/zaisei_zaisan/zaisei/yosan/8826.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-129",
+  },
+  {
+    // 四万十市（392103）R5〜R2。R8〜R6 は当初予算（案）の概要で収録済み。現行の予算ページ（soshiki/3/14871.html）は R6 から、
+    //   WARP の予算・財政ページ（2022-06・2023-06・2023-12・2024-03）は H14〜H30 の当初予算概要まで、旧サイト /gyosei/yosan/ の Wayback も yosan-h30.pdf が最後。
+    code: "392103", name: "四万十市", dataset: "budget", fiscalYears: ["R5", "R4", "R3", "R2"],
+    categories: ["no-material"],
+    reason: "この年度の予算書・予算の概要が、市のウェブサイトにも国立国会図書館の保存にも見当たらない。",
+    url: "https://www.city.shimanto.lg.jp/soshiki/3/14871.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-129",
+  },
+  {
+    // 大田市（島根・322059）R3。R8〜R5 は予算書の総括で収録済み。R3 の予算書（20220311114627562fc05108b.pdf）はテキスト層があるが、
+    //   歳入の総括が見開き（款名＋本年度 p.16・前年度 p.17）で前年度の数字が全角。kofu-yosansho の見開き（revenueSpread）の金額ページの絞り込みが
+    //   全角数字を拾わず「見開きの行数が合いません（款名 22 行 / 金額 0 行）」で throw する（偵察が1行の修正で通ることを scratchpad のコピーで実測）。
+    code: "322059", name: "大田市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["parser-unsupported"],
+    reason: "予算書の総括は原典としては健全だが、見開きのもう一方のページの数字が全角で書かれていて、こちらの読み取りの仕組みがまだ扱えない。",
+    url: "https://www.city.oda.lg.jp/ohda_city/city_organization/25/32/303/1731/5030401/5854",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-129",
+  },
+  {
+    // 大田市（島根・322059）R4・R2。予算書・当初予算の概要ともスキャン画像（ScanSnap）。R2 は WARP 2020-06 時点の別ページ（/303/3010）の版も SHA1 が同一。
+    code: "322059", name: "大田市", dataset: "budget", fiscalYears: ["R4", "R2"],
+    categories: ["scanned-image"],
+    reason: "予算書も予算の概要も紙をスキャンした画像で、文字の情報が入っていない。",
+    url: "https://www.city.oda.lg.jp/ohda_city/city_organization/25/32/303/1731/",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-129",
+  },
 ];
