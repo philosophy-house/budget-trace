@@ -4379,6 +4379,39 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `kamogawa-setsumeisho-${fy}`, muniCode: "122238", muniName: "鴨川市", prefName: "千葉県", isPref: false,
     })),
+    // ---- 第115巡（2026-11-26・§13-132） ----
+    // 矢板市の R3・R2 は皆増の行で添字指定が throw する（パーサ待ち）
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `yaita-yosan-gaiyou-${fy}`, muniCode: "092118", muniName: "矢板市", prefName: "栃木県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `takanezawa-yosansho-${fy}`, muniCode: "093866", muniName: "高根沢町", prefName: "栃木県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `gero-yosansho-${fy}`, muniCode: "212202", muniName: "下呂市", prefName: "岐阜県", isPref: false,
+    })),
+    // 吉田町（静岡県）の R2 は資料がすべてスキャン画像
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `yoshida-sz-yosan-gaiyou-${fy}`, muniCode: "224243", muniName: "吉田町", prefName: "静岡県", isPref: false,
+    })),
+    // 東御市 R6 は予算書が画像 PDF なので説明資料の総括表・R3 以前は現行サイトに無い
+    ...(["r8", "r7", "r5", "r4"] as const).map((fy) => ({
+      srcId: `tomi-yosansho-${fy}`, muniCode: "202193", muniName: "東御市", prefName: "長野県", isPref: false,
+    })),
+    { srcId: "tomi-yosan-setsumei-r6", muniCode: "202193", muniName: "東御市", prefName: "長野県", isPref: false },
+    // 大野市（福井県）の R3 は Wayback の写し・R2 は歳出の表が画像
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `ohno-fukui-tousho-setsumei-${fy}`, muniCode: "182052", muniName: "大野市", prefName: "福井県", isPref: false,
+    })),
+    // 妙高市の R4〜R2 は WARP の写しがスキャン画像
+    ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
+      srcId: `myoko-yosansho-${fy}`, muniCode: "152170", muniName: "妙高市", prefName: "新潟県", isPref: false,
+    })),
+    // 御前崎市の R4 は Wayback の議案版（可決版はテキスト層なし）・R2 は予算書が手に入らない
+    ...(["r8", "r7", "r6", "r5", "r4", "r3"] as const).map((fy) => ({
+      srcId: `omaezaki-yosansho-${fy}`, muniCode: "222232", muniName: "御前崎市", prefName: "静岡県", isPref: false,
+    })),
+    // ---- 第115巡ここまで ----
     // ---- 第100巡（2026-10-31・§13-116） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yuzawa-yosansho-${fy}`, muniCode: "052078", muniName: "湯沢市", prefName: "秋田県", isPref: false,

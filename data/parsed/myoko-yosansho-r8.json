@@ -1,0 +1,413 @@
+{
+  "docType": "budget-book",
+  "sourceId": "myoko-yosansho-r8",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-11-26T13:08:22.303Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R8",
+  "account": "一般会計",
+  "revenueTotal": 23410000,
+  "expenditureTotal": 23410000,
+  "prevRevenueTotal": 22430000,
+  "prevExpenditureTotal": 22430000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": 1,
+      "kanName": "市税",
+      "amount": 4740443,
+      "prevAmount": 4581048,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 2,
+      "kanName": "地方譲与税",
+      "amount": 207801,
+      "prevAmount": 206201,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 3,
+      "kanName": "利子割交付金",
+      "amount": 20000,
+      "prevAmount": 2100,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 4,
+      "kanName": "配当割交付金",
+      "amount": 43500,
+      "prevAmount": 22300,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 5,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 39420,
+      "prevAmount": 20100,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 6,
+      "kanName": "法人事業税交付金",
+      "amount": 75500,
+      "prevAmount": 69800,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 7,
+      "kanName": "地方消費税交付金",
+      "amount": 910000,
+      "prevAmount": 800000,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 8,
+      "kanName": "ゴルフ場利用税交付金",
+      "amount": 21100,
+      "prevAmount": 20000,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 9,
+      "kanName": "環境性能割交付金",
+      "amount": 1,
+      "prevAmount": 22700,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 10,
+      "kanName": "国有提供施設等所在市町村助成交付金",
+      "amount": 43222,
+      "prevAmount": 42917,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 11,
+      "kanName": "地方特例交付金",
+      "amount": 58452,
+      "prevAmount": 25000,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 12,
+      "kanName": "地方交付税",
+      "amount": 7144549,
+      "prevAmount": 7090790,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 13,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 2338,
+      "prevAmount": 2256,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 14,
+      "kanName": "分担金及び負担金",
+      "amount": 66500,
+      "prevAmount": 64541,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 15,
+      "kanName": "使用料及び手数料",
+      "amount": 311772,
+      "prevAmount": 314988,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 16,
+      "kanName": "国庫支出金",
+      "amount": 2772738,
+      "prevAmount": 2792195,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 17,
+      "kanName": "県支出金",
+      "amount": 1236855,
+      "prevAmount": 1297374,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 18,
+      "kanName": "財産収入",
+      "amount": 219789,
+      "prevAmount": 117954,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 19,
+      "kanName": "寄附金",
+      "amount": 1006201,
+      "prevAmount": 632201,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 20,
+      "kanName": "繰入金",
+      "amount": 1466197,
+      "prevAmount": 1823384,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 21,
+      "kanName": "繰越金",
+      "amount": 300000,
+      "prevAmount": 500000,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 22,
+      "kanName": "諸収入",
+      "amount": 346826,
+      "prevAmount": 361647,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": 23,
+      "kanName": "市債",
+      "amount": 2376796,
+      "prevAmount": 1620504,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 16
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 1,
+      "kanName": "議会費",
+      "amount": 140062,
+      "prevAmount": 136680,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 2,
+      "kanName": "総務費",
+      "amount": 3791993,
+      "prevAmount": 3171887,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 3,
+      "kanName": "民生費",
+      "amount": 5472446,
+      "prevAmount": 5598999,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 4,
+      "kanName": "衛生費",
+      "amount": 1926020,
+      "prevAmount": 1841664,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 5,
+      "kanName": "労働費",
+      "amount": 28521,
+      "prevAmount": 31429,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 6,
+      "kanName": "農林水産業費",
+      "amount": 810374,
+      "prevAmount": 1057295,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 7,
+      "kanName": "商工費",
+      "amount": 499154,
+      "prevAmount": 480870,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 8,
+      "kanName": "土木費",
+      "amount": 3853284,
+      "prevAmount": 3569073,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 9,
+      "kanName": "消防費",
+      "amount": 692801,
+      "prevAmount": 751857,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 10,
+      "kanName": "教育費",
+      "amount": 3072025,
+      "prevAmount": 3629950,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 11,
+      "kanName": "災害復旧費",
+      "amount": 139595,
+      "prevAmount": 211070,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 12,
+      "kanName": "公債費",
+      "amount": 2943725,
+      "prevAmount": 1909226,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": 13,
+      "kanName": "予備費",
+      "amount": 40000,
+      "prevAmount": 40000,
+      "locator": {
+        "file": "議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf",
+        "page": 17
+      }
+    }
+  ]
+}
