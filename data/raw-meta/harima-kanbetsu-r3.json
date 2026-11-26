@@ -1,0 +1,19 @@
+{
+  "sourceId": "harima-kanbetsu-r3",
+  "files": [
+    {
+      "filename": "r3-02-01sainyuu.pdf",
+      "sha256": "cf877b6d872d3a3c57e5036204d4705fd4b66c10a84333e0af428aab957d538c",
+      "bytes": 155860,
+      "fetchedAt": "2026-11-26T12:47:41.902Z",
+      "fetchedFrom": "https://www.town.harima.lg.jp/somu/chosejoho/yosan/gaiyo/documents/r3-02-01sainyuu.pdf"
+    },
+    {
+      "filename": "r3-03-01kanbetu_saishutu.pdf",
+      "sha256": "e0d82512d6685e514d8acb632407247df51f8ac506fd30aa9993da0e60cfdbfd",
+      "bytes": 102885,
+      "fetchedAt": "2026-11-26T12:47:42.389Z",
+      "fetchedFrom": "https://www.town.harima.lg.jp/somu/chosejoho/yosan/gaiyo/documents/r3-03-01kanbetu_saishutu.pdf"
+    }
+  ]
+}
