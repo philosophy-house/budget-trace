@@ -15591,6 +15591,39 @@
       "rawSha256": "026ba4c5afaf9e2ebb8d575daf62dc95ddf91b5144e8ac16105264ae15ae1540"
     },
     {
+      "sourceId": "hokkaido-date-yosan-gaiyou-r2",
+      "url": "https://www.city.date.hokkaido.jp/hotnews/files/00000800/00000820/20200313102601.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220308004846/https://www.city.date.hokkaido.jp/hotnews/files/00000800/00000820/20200313102601.pdf",
+      "waybackTimestamp": "20220308004846",
+      "checkedAt": "2026-11-26T14:37:45.388Z",
+      "sha256Match": true,
+      "waybackBytes": 1134536,
+      "rawSha256": "a2028eec37f32f558f33f5eee9214e2c0a8285fee55a17290f6f5691ed82911f"
+    },
+    {
+      "sourceId": "hokkaido-date-yosan-gaiyou-r3",
+      "url": "https://www.city.date.hokkaido.jp/hotnews/files/00000800/00000820/20210316174234.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220309004721/https://www.city.date.hokkaido.jp/hotnews/files/00000800/00000820/20210316174234.pdf",
+      "waybackTimestamp": "20220309004721",
+      "checkedAt": "2026-11-26T14:37:39.252Z",
+      "sha256Match": true,
+      "waybackBytes": 1080711,
+      "rawSha256": "3216e3503f71903ab79018ddfd6eab2f43efe58426003c6872312d2a0cbce66b"
+    },
+    {
+      "sourceId": "hokkaido-date-yosan-gaiyou-r4",
+      "url": "https://www.city.date.hokkaido.jp/hotnews/files/00000800/00000820/20220316134511.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220708081115/https://www.city.date.hokkaido.jp/hotnews/files/00000800/00000820/20220316134511.pdf",
+      "waybackTimestamp": "20220708081115",
+      "checkedAt": "2026-11-26T14:37:34.477Z",
+      "sha256Match": true,
+      "waybackBytes": 826847,
+      "rawSha256": "ed5498425276a61121d501efc96d1c8b746b537df83062b646a96231b87e62c2"
+    },
+    {
       "sourceId": "hokkaido-do-gikai-r8",
       "url": "http://www03.gikai.pref.hokkaido.jp/minnnano/2026_07/minnanodougikai_No37_look01.pdf",
       "kind": "file",
@@ -33995,6 +34028,17 @@
       "rawSha256": "2b12764a24a63f474fe8cc8be5c9bf3eedb059f5b154dfffba6d04a1ed346595"
     },
     {
+      "sourceId": "kuji-yosansho-r6",
+      "url": "https://www.city.kuji.lg.jp/material/files/group/3/38222382.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260305223738/https://www.city.kuji.lg.jp/material/files/group/3/38222382.pdf",
+      "waybackTimestamp": "20260305223738",
+      "checkedAt": "2026-11-26T13:15:31.294Z",
+      "sha256Match": true,
+      "waybackBytes": 5604570,
+      "rawSha256": "c44575d2f3ead0d60cfeadff886d18b2002838d2f2bd1aae13b0ef097f7c4a99"
+    },
+    {
       "sourceId": "kuki-shigikai-r8",
       "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/011/602/r7-11-giin_gian.pdf",
       "kind": "file",
@@ -47223,6 +47267,72 @@
       "checkedAt": "2026-10-30T12:06:20.313Z"
     },
     {
+      "sourceId": "namegata-yosan-setsumeisho-r2",
+      "url": "https://www.city.namegata.ibaraki.jp/data/doc/1585196760_doc_163_6.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240901232827/https://www.city.namegata.ibaraki.jp/data/doc/1585196760_doc_163_6.pdf",
+      "waybackTimestamp": "20240901232827",
+      "checkedAt": "2026-11-26T14:27:18.484Z",
+      "sha256Match": true,
+      "waybackBytes": 4964984,
+      "rawSha256": "f77df43fa051b08b0315fdbfaff6b99e7eb52d9a8f10cbc835f60be7073cfe20"
+    },
+    {
+      "sourceId": "namegata-yosan-setsumeisho-r3",
+      "url": "https://www.city.namegata.ibaraki.jp/data/doc/1616631361_doc_163_0.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240626073751/https://www.city.namegata.ibaraki.jp/data/doc/1616631361_doc_163_0.pdf",
+      "waybackTimestamp": "20240626073751",
+      "checkedAt": "2026-11-26T14:22:33.764Z",
+      "sha256Match": true,
+      "waybackBytes": 5339385,
+      "rawSha256": "bb862b332b2418b0dc63200d2480aa109e616a7191e419badd16a7047b66250f"
+    },
+    {
+      "sourceId": "namegata-yosan-setsumeisho-r4",
+      "url": "https://www.city.namegata.ibaraki.jp/data/doc/1648018178_doc_163_0.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240528043315/https://www.city.namegata.ibaraki.jp/data/doc/1648018178_doc_163_0.pdf",
+      "waybackTimestamp": "20240528043315",
+      "checkedAt": "2026-11-26T14:20:31.962Z",
+      "sha256Match": true,
+      "waybackBytes": 6079651,
+      "rawSha256": "084b4cb6eae3262e37464330957e1869113380cb6f14f710ae81c2bf8930748d"
+    },
+    {
+      "sourceId": "namegata-yosan-setsumeisho-r5",
+      "url": "https://www.city.namegata.ibaraki.jp/data/doc/1679558091_doc_311_0.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20240714134750/https://www.city.namegata.ibaraki.jp/data/doc/1679558091_doc_311_0.pdf",
+      "waybackTimestamp": "20240714134750",
+      "checkedAt": "2026-11-26T14:19:39.121Z",
+      "sha256Match": true,
+      "waybackBytes": 6082705,
+      "rawSha256": "dc510874b7367519dcafd6e8b0164299902c4d4257fb9e727624ccfb1545cddf"
+    },
+    {
+      "sourceId": "namegata-yosan-setsumeisho-r6",
+      "url": "https://www.city.namegata.ibaraki.jp/data/doc/1711096697_doc_311_0.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260312233207/https://www.city.namegata.ibaraki.jp/data/doc/1711096697_doc_311_0.pdf",
+      "waybackTimestamp": "20260312233207",
+      "checkedAt": "2026-11-26T14:14:11.229Z",
+      "sha256Match": true,
+      "waybackBytes": 3589955,
+      "rawSha256": "ea4d1ac496f85aa70242a2ef54738b27db0c69b50e506c4139f3f44f408c9c91"
+    },
+    {
+      "sourceId": "namegata-yosan-setsumeisho-r7",
+      "url": "https://www.city.namegata.ibaraki.jp/data/doc/1742774773_doc_311_0.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260316141647/https://www.city.namegata.ibaraki.jp/data/doc/1742774773_doc_311_0.pdf",
+      "waybackTimestamp": "20260316141647",
+      "checkedAt": "2026-11-26T14:13:22.763Z",
+      "sha256Match": true,
+      "waybackBytes": 4697837,
+      "rawSha256": "e199e0b8f7a4c1ceac35b64aeabc1953434cf885c73115aa174a77c27ed2a12c"
+    },
+    {
       "sourceId": "namerikawa-yosan-gaiyou-r2",
       "url": "https://www.city.namerikawa.toyama.jp/material/files/group/6/R2mokutekibetu.pdf",
       "kind": "file",
@@ -52913,6 +53023,17 @@
       "sha256Match": true,
       "waybackBytes": 3783142,
       "rawSha256": "c4348c357fdcc108319925e107437720939fca7d22566f78ec28a3f3b0dd7dbd"
+    },
+    {
+      "sourceId": "oiso-yosan-aramashi-r2",
+      "url": "https://www.town.oiso.kanagawa.jp/material/files/group/9/ippan_r2.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20260119204616/https://www.town.oiso.kanagawa.jp/material/files/group/9/ippan_r2.pdf",
+      "waybackTimestamp": "20260119204616",
+      "checkedAt": "2026-11-26T14:08:38.918Z",
+      "sha256Match": true,
+      "waybackBytes": 1374057,
+      "rawSha256": "d061a2988483960278de32b7aec7a9e16ee9101e7a81d4502830e071df82c711"
     },
     {
       "sourceId": "oita-ken-gikai-r8",
@@ -78209,6 +78330,52 @@
       "checkedAt": "2026-09-14T14:46:57.774Z"
     },
     {
+      "sourceId": "tokyo-mizuho-yosan-setsumei-r4",
+      "url": "https://www.town.mizuho.tokyo.jp/tyosei/003/012/001/p001153_d/fil/4siryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220329235242/https://www.town.mizuho.tokyo.jp/tyosei/003/012/001/p001153_d/fil/4siryou.pdf",
+      "waybackTimestamp": "20220329235242",
+      "checkedAt": "2026-11-26T14:39:48.591Z",
+      "sha256Match": true,
+      "waybackBytes": 3173817,
+      "rawSha256": "d3ab0c03ed667513d3a425898a6537d2aff296ebc0720ae85005e79839333240"
+    },
+    {
+      "sourceId": "tokyo-mizuho-yosan-setsumei-r4",
+      "url": "https://www.town.mizuho.tokyo.jp/tyosei/003/012/016/p008706_d/fil/R4yosangaiyou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220222115326/https://www.town.mizuho.tokyo.jp/tyosei/003/012/016/p008706_d/fil/R4yosangaiyou.pdf",
+      "waybackTimestamp": "20220222115326",
+      "checkedAt": "2026-11-26T14:39:38.627Z",
+      "sha256Match": true,
+      "waybackBytes": 460340,
+      "rawSha256": "ac4d89d7dc273d5262e08f7cfb11c8897971e230ea2289c6ed040d769153e0d0"
+    },
+    {
+      "sourceId": "tokyo-mizuho-yosan-setsumei-r5",
+      "url": "https://www.town.mizuho.tokyo.jp/tyosei/003/012/001/p001153_d/fil/5siryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250120130427/https://www.town.mizuho.tokyo.jp/tyosei/003/012/001/p001153_d/fil/5siryou.pdf",
+      "waybackTimestamp": "20250120130427",
+      "checkedAt": "2026-11-26T14:39:35.089Z",
+      "sha256Match": false,
+      "waybackBytes": 1048576,
+      "waybackTruncated": true,
+      "rawSha256": "cac913647b2231dd176c06bb8b989c3e64864ed9d454d2f3e63991a0ee4e0985"
+    },
+    {
+      "sourceId": "tokyo-mizuho-yosan-setsumei-r6",
+      "url": "https://www.town.mizuho.tokyo.jp/tyosei/003/012/001/p001153_d/fil/6siryou.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20250120124218/https://www.town.mizuho.tokyo.jp/tyosei/003/012/001/p001153_d/fil/6siryou.pdf",
+      "waybackTimestamp": "20250120124218",
+      "checkedAt": "2026-11-26T14:39:30.841Z",
+      "sha256Match": false,
+      "waybackBytes": 1048576,
+      "waybackTruncated": true,
+      "rawSha256": "be6808cde43d54f618271fa35eec7807375a78031f359db0841a295bdde603a7"
+    },
+    {
       "sourceId": "tokyo-togikai-r8",
       "url": "https://www.gikai.metro.tokyo.lg.jp/bill/reg2026-1.html",
       "kind": "file",
@@ -90276,6 +90443,28 @@
       "waybackUrl": "https://web.archive.org/web/20251112223134/https://www.city.yonezawa.yamagata.jp/gikai/yonezawa_shigikai/1/8595.html",
       "waybackTimestamp": "20251112223134",
       "checkedAt": "2026-10-31T09:35:27.057Z"
+    },
+    {
+      "sourceId": "yorii-yosan-setsumeisho-r2",
+      "url": "https://www.town.yorii.saitama.jp/uploaded/attachment/13763.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220810020504/https://www.town.yorii.saitama.jp/uploaded/attachment/13763.pdf",
+      "waybackTimestamp": "20220810020504",
+      "checkedAt": "2026-11-26T13:02:09.426Z",
+      "sha256Match": true,
+      "waybackBytes": 88135,
+      "rawSha256": "a20e05505ade6a12bee44306a82e0182a1cd33204e13e010fdc4cfd55b3ef723"
+    },
+    {
+      "sourceId": "yorii-yosan-setsumeisho-r2",
+      "url": "https://www.town.yorii.saitama.jp/uploaded/attachment/13764.pdf",
+      "kind": "file",
+      "waybackUrl": "https://web.archive.org/web/20220810021358/https://www.town.yorii.saitama.jp/uploaded/attachment/13764.pdf",
+      "waybackTimestamp": "20220810021358",
+      "checkedAt": "2026-11-26T13:02:10.821Z",
+      "sha256Match": true,
+      "waybackBytes": 9362,
+      "rawSha256": "625c174b7248fd42fe7035049763944baa8a6f286c4726ce055d30548741073f"
     },
     {
       "sourceId": "yoshikawa-shigikai-r8",
