@@ -242,6 +242,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "114421": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度・令和6年度",
+        "reason": "当初予算書の歳入歳出の総括のページが、文字ではなく図形として描かれていて文字を取り出せない。町民向けの予算書の歳入の表は、いくつかの款をまとめた区分になっている。",
+        "checkedOn": "2026-11-26"
+      },
+      {
+        "fyLabel": "令和5年度・令和4年度",
+        "reason": "当初予算書の歳入の総括は文字の埋め込みが壊れていて復元して読む必要があり、歳出の総括は見えない層に同じ表が重ねて描かれている。歳入と歳出を別の資料から別々の読み方で読む仕組みが、こちらにまだ無い。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "114642": {
     "budget": [
       {
@@ -2672,6 +2686,15 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "033219": {
+    "budget": [
+      {
+        "fyLabel": "令和7年度・令和6年度",
+        "reason": "予算書の歳入歳出の総括のページで、文字が正しく文字として埋め込まれていない（令和7年度は歳入の款の名前、令和6年度はページ全体）。ほかの年度は同じ予算書で収録している。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "042021": {
     "budget": [
       {
@@ -2954,6 +2977,20 @@ export const UNRECORDABLE_BY_CODE: Record<string, Record<string, UnrecordableNot
       }
     ]
   },
+  "072095": {
+    "budget": [
+      {
+        "fyLabel": "令和8年度・令和7年度",
+        "reason": "議会に配られた予算の概要に前年度との比較の表はあるが、歳入は「交付金」「その他」のように複数の款をまとめた9つの区分で、款ごとの額になっていない。歳入歳出の予算書そのものはウェブに掲載されていない。",
+        "checkedOn": "2026-11-26"
+      },
+      {
+        "fyLabel": "令和6年度・令和5年度・令和4年度・令和3年度・令和2年度",
+        "reason": "款別で前年度と比べた当初予算の資料がウェブに見つからない。市の予算のページは歳入と歳出を数区分にまとめた要約だけで、前年度の額も載っていない。",
+        "checkedOn": "2026-11-26"
+      }
+    ]
+  },
   "072109": {
     "budget": [
       {
@@ -3209,6 +3246,9 @@ export const UNRECORDABLE_WHOLLY: Record<string, string[]> = {
     "budget"
   ],
   "072052": [
+    "budget"
+  ],
+  "072095": [
     "budget"
   ],
   "072141": [

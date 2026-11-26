@@ -133,6 +133,7 @@ export const NO_GRANT_LICENSES: NoGrantLicense[] = [
   { who: "長門市", license: "長門市ホームページに掲載している文章、画像などの著作権は、長門市または原著作者に帰属します。リンク先の著作権等はそれぞれの管理者の定めるところによります。本ホームページの内容を引用される場合は、企画総務部企画政策課広報広聴係までお問い合わせください。" },
   { who: "松前町（愛媛県）", license: "Copyright © Masaki Town All rights reserved" },
   { who: "柳井市", license: "Copyright Yanai City All rights reserved." },
+  { who: "宮代町", license: "Copyright (C) Miyashiro Town All Rights Reserved." },
   { who: "伊達市（北海道）", license: "Copyright © Hokkaido Date City All rights reserved." },
   { who: "潟上市", license: "Copyright (c) 2021 Katagami City. All Rights Reserved." },
   { who: "善通寺市", license: "「善通寺市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として善通寺市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。" },

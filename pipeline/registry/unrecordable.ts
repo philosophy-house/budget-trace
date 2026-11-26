@@ -3651,6 +3651,52 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://warp.ndl.go.jp/20260810/20260808204729/https://www.town.agui.lg.jp/soshiki/1-5-1-0-0_3.html",
     checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-133",
   },
+  // ==== 第110巡（2026-11-26・docs §13-127）==================================================
+  {
+    // 紫波町（033219）R7・R6。R8・R5〜R2 は同じ予算書の総括で収録済み。R7 は歳入の款名22件が ToUnicode の無い MS-Mincho のグリフ番号のまま（金額は読めて Σ差0 で通る）、
+    //   R6 は数字が制御文字の帯（真の字 − 0x1D）・款名がグリフ番号・見出しが別系統の化けの3系統が混ざり、既存の復号表では読めない。スキャンではない（pdfimages 0件）。
+    code: "033219", name: "紫波町", dataset: "budget", fiscalYears: ["R7", "R6"],
+    categories: ["broken-text-layer"],
+    reason: "予算書の歳入歳出の総括のページで、文字が正しく文字として埋め込まれていない（令和7年度は歳入の款の名前、令和6年度はページ全体）。ほかの年度は同じ予算書で収録している。",
+    url: "https://www.town.shiwa.iwate.jp/soshiki/4_4/3_2/2673.html/",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-127",
+  },
+  {
+    // 相馬市（072095）R8・R7。市議会の本会議配布資料「予算の概要」（提出議案 資料）p.9 の歳入内訳は9区分（交付金・その他が複数の款の合算）で款別でない。
+    //   歳出（p.10）は13款で Σ差0 だが、片側だけでは入れない（沖縄県・水戸 R3 と同じ扱い）。予算書本体はウェブに無い。
+    code: "072095", name: "相馬市", dataset: "budget", fiscalYears: ["R8", "R7"],
+    categories: ["format-mismatch"],
+    reason: "議会に配られた予算の概要に前年度との比較の表はあるが、歳入は「交付金」「その他」のように複数の款をまとめた9つの区分で、款ごとの額になっていない。歳入歳出の予算書そのものはウェブに掲載されていない。",
+    url: "https://www.city.soma.fukushima.jp/kanrenn_soshiki/somashigikai/kaigi_jouhou/r8/r8_2/19531.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-127",
+  },
+  {
+    // 相馬市（072095）R6〜R2。年度ページ（shiseijoho/zaisei/yosan/）は7年度とも HTML の万円単位の集約だけで前年度額が無く、
+    //   本会議配布資料の掲載は令和6年9月定例会から。WARP は相馬市のサイト全体が館内限定公開。
+    code: "072095", name: "相馬市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["no-material", "format-mismatch"],
+    reason: "款別で前年度と比べた当初予算の資料がウェブに見つからない。市の予算のページは歳入と歳出を数区分にまとめた要約だけで、前年度の額も載っていない。",
+    url: "https://www.city.soma.fukushima.jp/shiseijoho/zaisei/yosan/index.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-127",
+  },
+  {
+    // 宮代町（114421）R8・R7・R6。当初予算書（0000003745.html・各50MB 前後）の一般会計の説明書が総括を含めて文字ごとベクターのアウトライン
+    //   （R8 p.19 の内容ストリームは曲線 11,143・テキストはノンブルだけ）。「わたしたちの予算書」の歳入は8区分にまとめた表で款別でない。
+    code: "114421", name: "宮代町", dataset: "budget", fiscalYears: ["R8", "R7", "R6"],
+    categories: ["broken-text-layer", "format-mismatch"],
+    reason: "当初予算書の歳入歳出の総括のページが、文字ではなく図形として描かれていて文字を取り出せない。町民向けの予算書の歳入の表は、いくつかの款をまとめた区分になっている。",
+    url: "https://www.town.miyashiro.lg.jp/0000003745.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-127",
+  },
+  {
+    // 宮代町（114421）R5・R4。予算書の歳入の総括は ToUnicode 欠落で decodeGarble で読めるが、歳出の総括は二重描画（ページ全体を白で塗った下に隠れた層）で
+    //   合計行が見つからず止まる。歳出を「わたしたちの予算書」で読むと decodeGarble が健全なページにも掛かって止まる（側ごとの切替が要る）。
+    code: "114421", name: "宮代町", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["parser-unsupported", "broken-text-layer"],
+    reason: "当初予算書の歳入の総括は文字の埋め込みが壊れていて復元して読む必要があり、歳出の総括は見えない層に同じ表が重ねて描かれている。歳入と歳出を別の資料から別々の読み方で読む仕組みが、こちらにまだ無い。",
+    url: "https://www.town.miyashiro.lg.jp/0000003745.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-127",
+  },
   // ---- 第111巡（2026-11-26・§13-128） ----
   {
     // 瑞穂町（東京都・133035）R7・R3。R8・R6・R5・R4・R2 は収録済み（§13-128）。当初予算説明資料（7siryou.pdf）は歳入 p.7 だけ文字があり、
