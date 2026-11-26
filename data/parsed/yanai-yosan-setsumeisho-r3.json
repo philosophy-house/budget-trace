@@ -3,7 +3,7 @@
   "sourceId": "yanai-yosan-setsumeisho-r3",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-11-26T13:07:42.601Z",
+  "parsedAt": "2026-11-26T14:50:49.017Z",
   "unit": "thousandYen",
   "fiscalYear": "R3",
   "account": "一般会計",
@@ -12,7 +12,7 @@
   "prevRevenueTotal": 15699000,
   "prevExpenditureTotal": 15699000,
   "prevBasis": "当初",
-  "prevNote": "本年度（令和3年度）の当初予算は骨格予算です（「令和3年度当初予算の概要」に「本年３月に市長任期の満了を迎えることから骨格予算※として編成いたしました。」とあります）。前年当初比は、この骨格予算と前年度の当初予算との比較です。",
+  "prevNote": "本年度（令和3年度）の当初予算は骨格予算です（「令和3年度当初予算の概要」に「本年３月に市長任期の満了を迎えることから骨格予算」として編成したとあります）。前年当初比は、この骨格予算と前年度の当初予算との比較です。",
   "facts": [
     {
       "side": "revenue",

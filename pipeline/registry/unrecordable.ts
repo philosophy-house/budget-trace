@@ -3627,7 +3627,7 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     //   R3・R2 は円グラフだけ。歳出の目的別は14款あるが百万円の丸め（原典に「合計等と一致しない場合があります」）。予算書・事項別明細書は市のサイトに無い。
     code: "352110", name: "長門市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
     categories: ["format-mismatch"],
-    reason: "当初予算の概要の歳入が款ごとでなく財源の種類ごとにまとめた百万円単位の表（または円グラフ）で、款ごとの額が取れない。予算書はウェブに掲載されていない。",
+    reason: "各年度の当初予算の概要では、歳入が款ごとでなく財源の種類ごとにまとめた百万円単位の表（または円グラフ）で、その資料からは款ごとの額が取れない。予算書はウェブに掲載されていない。",
     url: "https://www.city.nagato.yamaguchi.jp/soshiki/5/52329.html",
     checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-133",
   },

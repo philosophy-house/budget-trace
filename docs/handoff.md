@@ -3961,6 +3961,9 @@ curl -s -o /dev/null -w "replay:       %{http_code}\n" "https://web.archive.org/
 2. サーバー層導入（Hono/Inversify/CASL/Postgres + Testcontainers）— data/ の DB 移行、
    `v` の型付け解消もこのタイミング。`*.gen.ts`（pipeline:derive の生成モジュール）も
    API 化して置き換える
+3. **八幡浜 R8 の取得元の付け替え**（第116巡・data-sources.md §13-133）— R8 の url は当年度の置き場
+   （`/doc/2022110400011/`）を指しており、R9 が公開されるとファイルが別の doc ID へ移って 404 になる
+   （要許可なので、その間は「発行元で開く」も 404）。R9 を収録する巡で、R8 の url を移転先へ付け替える
 
 ## 6. 動かし方（要点）
 
