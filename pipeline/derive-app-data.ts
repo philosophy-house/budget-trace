@@ -4142,6 +4142,36 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8"] as const).map((fy) => ({
       srcId: `uto-yosansho-${fy}`, muniCode: "432113", muniName: "宇土市", prefName: "熊本県", isPref: false,
     })),
+    // ---- 第117巡（2026-11-26・§13-134） ----
+    // 善通寺市の R4 はアウトライン化（骨格）
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `zentsuji-yosan-gaiyou-${fy}`, muniCode: "372048", muniName: "善通寺市", prefName: "香川県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hitoyoshi-yosansho-${fy}`, muniCode: "432032", muniName: "人吉市", prefName: "熊本県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sue-yosansho-${fy}`, muniCode: "403440", muniName: "須恵町", prefName: "福岡県", isPref: false,
+    })),
+    // 北谷町の R3 はスキャン・R2 は掲載なし
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `chatan-yosansho-${fy}`, muniCode: "473260", muniName: "北谷町", prefName: "沖縄県", isPref: false,
+    })),
+    // 時津町は R8 だけ（R7〜R5 はスキャン・R4〜R2 は掲載なし）
+    { srcId: "togitsu-yosansho-r8", muniCode: "423084", muniName: "時津町", prefName: "長崎県", isPref: false },
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shibushi-zaisei-jokyo-${fy}`, muniCode: "462217", muniName: "志布志市", prefName: "鹿児島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `saito-tosho-yosan-${fy}`, muniCode: "452084", muniName: "西都市", prefName: "宮崎県", isPref: false,
+    })),
+    // 平戸市の R6 は議会修正後の概要
+    ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hirado-yosansho-${fy}`, muniCode: "422070", muniName: "平戸市", prefName: "長崎県", isPref: false,
+    })),
+    { srcId: "hirado-yosan-gaiyou-r6", muniCode: "422070", muniName: "平戸市", prefName: "長崎県", isPref: false },
+    // 神埼市は R8 だけ（R7 はパーサ未対応・R6〜R2 は掲載なし）
+    { srcId: "kanzaki-yosansho-r8", muniCode: "412104", muniName: "神埼市", prefName: "佐賀県", isPref: false },
     // ---- 第109巡（2026-11-12・§13-125） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `miyama-yosansho-${fy}`, muniCode: "402290", muniName: "みやま市", prefName: "福岡県", isPref: false,

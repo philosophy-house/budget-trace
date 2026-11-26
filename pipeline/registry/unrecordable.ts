@@ -3669,6 +3669,63 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.town.hayama.lg.jp/soshiki/zaisei/6/index.html",
     checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-128",
   },
+  // ---- 第117巡（2026-11-26・docs/data-sources.md §13-134） ----
+  {
+    // 善通寺市（372048）R4。「令和4年度予算の概要」は文字がアウトライン化（pdftotext 0字・曲線命令約12.9万個）。2022-04 の Wayback 版も同じ sha1。R4 は骨格予算（skeleton-budgets.ts）。
+    code: "372048", name: "善通寺市", dataset: "budget", fiscalYears: ["R4"],
+    categories: ["broken-text-layer"],
+    reason: "予算の概要の文字がすべて図形（アウトライン）に変換されていて、文字の情報が無い。款別の表は印刷面には存在する。",
+    url: "https://www.city.zentsuji.kagawa.jp/soshiki/3/yosan.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-134",
+  },
+  {
+    // 北谷町（473260）R3。原案（R3ippanntousyoyosansyo.pdf）も修正動議反映版（R3tousyoyosanhanneigo.pdf）も pdftotext 0字。R3 は議会修正（R4 に prevNote）。
+    code: "473260", name: "北谷町", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["scanned-image"],
+    reason: "当初予算書は、修正前の原案も議会修正を反映した版も紙をスキャンした画像で、文字の情報が無い。",
+    url: "https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/ippannkaikeiyosan.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-134",
+  },
+  {
+    // 北谷町（473260）R2。年度一覧（Wayback 2022-06-30）は R4・R3・R2 決算書だけ。WARP は未確認。
+    code: "473260", name: "北谷町", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material"],
+    reason: "当初予算書が町のサイトに掲載されていない（予算の一覧ページには令和3年度以降だけが並ぶ）。",
+    url: "https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/index.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-134",
+  },
+  {
+    // 時津町（423084）R7〜R5。予算書は町議会「提出議案等」（7083.html・会期ごとに差し替え）にだけ載り、WARP の捕捉は全ページスキャン（Creator DocuCentre-VI C7771・pdffonts 0件）。
+    code: "423084", name: "時津町", dataset: "budget", fiscalYears: ["R7", "R6", "R5"],
+    categories: ["scanned-image"],
+    reason: "当初予算書は国立国会図書館のウェブアーカイブにだけ残っており、紙をスキャンした画像で文字の情報が無い。広報の抜き刷りは万円単位で前年度の款別額が無く、財政状況の公表は1年度分だけで、代わりにならない。",
+    url: "https://www.town.togitsu.nagasaki.jp/gyoseijoho/chogikai/7083.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-134",
+  },
+  {
+    // 時津町（423084）R4〜R2。議案ページの WARP の最古の捕捉は令和4年第3回（2022-09）。
+    code: "423084", name: "時津町", dataset: "budget", fiscalYears: ["R4", "R3", "R2"],
+    categories: ["no-material"],
+    reason: "当初予算書がウェブに掲載されていない（議会の提出議案のページは令和4年の第3回定例会から始まる）。広報の抜き刷りと財政状況の公表は前年度の款別額が無く、代わりにならない。",
+    url: "https://www.town.togitsu.nagasaki.jp/gyoseijoho/zaiseijoho/yosan/2348.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-134",
+  },
+  {
+    // 神埼市（412104）R7。予算書（JUST PDF 4・p1inaug2l9115j4db4l717i2177h4.pdf）は款の行の金額がカンマの後で切れる（`3, 553, 439`）。totalRowJoinSpacedDigits は合計行だけに効く。
+    code: "412104", name: "神埼市", dataset: "budget", fiscalYears: ["R7"],
+    categories: ["parser-unsupported"],
+    reason: "予算書は健全だが、金額の桁区切りのあとに空白が入って書き出されており、こちらの抽出処理が金額を1つの数として読めない。",
+    url: "https://www.city.kanzaki.saga.jp/main/18490.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-134",
+  },
+  {
+    // 神埼市（412104）R6〜R2。財政ページ（/main/7052.html）の Wayback 2022-03・2023-03・2023-10・2024-03 に「予算の状況」が無い（初出は 2025-08）。WARP は未確認。
+    code: "412104", name: "神埼市", dataset: "budget", fiscalYears: ["R6", "R5", "R4", "R3", "R2"],
+    categories: ["no-material"],
+    reason: "当初予算の資料が市のサイトに掲載されていない（予算の状況のページは令和7年度から）。",
+    url: "https://www.city.kanzaki.saga.jp/main/7052.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-134",
+  },
   // ==== 第114巡（北日本）（2026-11-26・docs §13-135）==================================
   {
     // 本宮市（072141）。財政課の年度ページ（/soshiki/43/r8yosan.html〜r3yosan.html・R2 は 20190805fgdfs.html）に載るのは4ページの「当初予算」の概要（千円・前年度当初の列あり）だけ。
