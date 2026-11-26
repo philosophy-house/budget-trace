@@ -1,0 +1,12 @@
+{
+  "sourceId": "inami-tosho-sankou-r3",
+  "files": [
+    {
+      "filename": "03sankousiryou.pdf",
+      "sha256": "da28c606e354d1e21fe01e18346b9900989929ceed15bf22af8e74a518f600dd",
+      "bytes": 464601,
+      "fetchedAt": "2026-11-26T12:50:27.106Z",
+      "fetchedFrom": "https://www.town.hyogo-inami.lg.jp/cmsfiles/contents/0000000/3/03sankousiryou.pdf"
+    }
+  ]
+}
