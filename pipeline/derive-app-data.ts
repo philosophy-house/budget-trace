@@ -4321,6 +4321,37 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `sakaiminato-yosansho-${fy}`, muniCode: "312045", muniName: "境港市", prefName: "鳥取県", isPref: false,
     })),
+    // ---- 第113巡（2026-11-26・§13-130） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shobara-yosansho-${fy}`, muniCode: "342106", muniName: "庄原市", prefName: "広島県", isPref: false,
+    })),
+    // 備前市の R8・R3 は予算書が図形化
+    ...(["r7", "r6", "r5", "r4", "r2"] as const).map((fy) => ({
+      srcId: `bizen-yosansho-${fy}`, muniCode: "332119", muniName: "備前市", prefName: "岡山県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `soo-yosan-setsumeisho-${fy}`, muniCode: "462179", muniName: "曽於市", prefName: "鹿児島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `bungoono-yosan-gaiyosho-${fy}`, muniCode: "442127", muniName: "豊後大野市", prefName: "大分県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `okagaki-tosho-yosan-${fy}`, muniCode: "403831", muniName: "岡垣町", prefName: "福岡県", isPref: false,
+    })),
+    // 南九州市の R5・R4 は別系統の化け、R3・R2 は款別の歳入が無い
+    ...(["r8", "r7", "r6"] as const).map((fy) => ({
+      srcId: `minamikyushu-yosansho-${fy}`, muniCode: "462233", muniName: "南九州市", prefName: "鹿児島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sasaguri-yosansho-${fy}`, muniCode: "403423", muniName: "篠栗町", prefName: "福岡県", isPref: false,
+    })),
+    // 大川市の R5・R4 はスキャン、R2 は資料なし
+    ...(["r8", "r7", "r6", "r3"] as const).map((fy) => ({
+      srcId: `okawa-yosansho-${fy}`, muniCode: "402125", muniName: "大川市", prefName: "福岡県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `minamisatsuma-yosansho-${fy}`, muniCode: "462209", muniName: "南さつま市", prefName: "鹿児島県", isPref: false,
+    })),
     // ---- 第103巡（2026-11-12・§13-120） ----
     // 諏訪市の R7 は総括が画像・R4・R3 は未確認。R2 は概要（説明書が見つからない）
     ...(["r8", "r6", "r5"] as const).map((fy) => ({
