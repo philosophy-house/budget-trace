@@ -4136,6 +4136,36 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8"] as const).map((fy) => ({
       srcId: `uto-yosansho-${fy}`, muniCode: "432113", muniName: "宇土市", prefName: "熊本県", isPref: false,
     })),
+    // ---- 第117巡（2026-11-26・§13-134） ----
+    // 善通寺市の R4 はアウトライン化（骨格）
+    ...(["r8", "r7", "r6", "r5", "r3", "r2"] as const).map((fy) => ({
+      srcId: `zentsuji-yosan-gaiyou-${fy}`, muniCode: "372048", muniName: "善通寺市", prefName: "香川県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hitoyoshi-yosansho-${fy}`, muniCode: "432032", muniName: "人吉市", prefName: "熊本県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sue-yosansho-${fy}`, muniCode: "403440", muniName: "須恵町", prefName: "福岡県", isPref: false,
+    })),
+    // 北谷町の R3 はスキャン・R2 は掲載なし
+    ...(["r8", "r7", "r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `chatan-yosansho-${fy}`, muniCode: "473260", muniName: "北谷町", prefName: "沖縄県", isPref: false,
+    })),
+    // 時津町は R8 だけ（R7〜R5 はスキャン・R4〜R2 は掲載なし）
+    { srcId: "togitsu-yosansho-r8", muniCode: "423084", muniName: "時津町", prefName: "長崎県", isPref: false },
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shibushi-zaisei-jokyo-${fy}`, muniCode: "462217", muniName: "志布志市", prefName: "鹿児島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `saito-tosho-yosan-${fy}`, muniCode: "452084", muniName: "西都市", prefName: "宮崎県", isPref: false,
+    })),
+    // 平戸市の R6 は議会修正後の概要
+    ...(["r8", "r7", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hirado-yosansho-${fy}`, muniCode: "422070", muniName: "平戸市", prefName: "長崎県", isPref: false,
+    })),
+    { srcId: "hirado-yosan-gaiyou-r6", muniCode: "422070", muniName: "平戸市", prefName: "長崎県", isPref: false },
+    // 神埼市は R8 だけ（R7 はパーサ未対応・R6〜R2 は掲載なし）
+    { srcId: "kanzaki-yosansho-r8", muniCode: "412104", muniName: "神埼市", prefName: "佐賀県", isPref: false },
     // ---- 第109巡（2026-11-12・§13-125） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `miyama-yosansho-${fy}`, muniCode: "402290", muniName: "みやま市", prefName: "福岡県", isPref: false,
@@ -4217,6 +4247,17 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
       srcId: `koryo-yosansho-${fy}`, muniCode: "294268", muniName: "広陵町", prefName: "奈良県", isPref: false,
     })),
+    // ---- 第114巡（北日本）（2026-11-26・§13-135） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hirakawa-yosan-gaiyou-${fy}`, muniCode: "022101", muniName: "平川市", prefName: "青森県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kamaishi-yosansho-${fy}`, muniCode: "032115", muniName: "釜石市", prefName: "岩手県", isPref: false,
+    })),
+    // 南陽市の R6〜R3 は概要の歳入の表を読めない（総額と一般財源の列が交互）・R2 はスキャン
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `nanyo-yosansho-${fy}`, muniCode: "062138", muniName: "南陽市", prefName: "山形県", isPref: false,
+    })),
     // ---- 第104巡（2026-11-12・§13-121） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yoshinogawa-tousyo-yosan-gaiyou-${fy}`, muniCode: "362051", muniName: "吉野川市", prefName: "徳島県", isPref: false,
@@ -4253,6 +4294,38 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
       srcId: `ibara-yosan-gaiyou-${fy}`, muniCode: "332071", muniName: "井原市", prefName: "岡山県", isPref: false,
     })),
     { srcId: "ibara-yosansho-r3", muniCode: "332071", muniName: "井原市", prefName: "岡山県", isPref: false },
+    // ---- 第114巡（2026-11-26・docs/data-sources.md §13-131） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaita-yosan-gaiyou-${fy}`, muniCode: "343048", muniName: "海田町", prefName: "広島県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `chikuzen-yosansho-${fy}`, muniCode: "404471", muniName: "筑前町", prefName: "福岡県", isPref: false,
+    })),
+    // 上三川町の R5 は概要の表が画像で予算書の見開きがパーサ未対応
+    ...(["r8", "r7", "r6", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kaminokawa-yosan-gaiyou-${fy}`, muniCode: "093017", muniName: "上三川町", prefName: "栃木県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiroishi-yosan-shiryou-${fy}`, muniCode: "042064", muniName: "白石市", prefName: "宮城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kamisato-yosan-setsumeisho-${fy}`, muniCode: "113859", muniName: "上里町", prefName: "埼玉県", isPref: false,
+    })),
+    // 茨城町の R6〜R2 は予算書がスキャン
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `ibarakimachi-yosansho-${fy}`, muniCode: "083020", muniName: "茨城町", prefName: "茨城県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `inami-tosho-sankou-${fy}`, muniCode: "283819", muniName: "稲美町", prefName: "兵庫県", isPref: false,
+    })),
+    // 稚内市は H31・R5 骨格 ⇒ R2・R6 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `wakkanai-yosan-gaiyou-${fy}`, muniCode: "012149", muniName: "稚内市", prefName: "北海道", isPref: false,
+    })),
+    // 鴨川市は R3・R7 骨格 ⇒ R4・R8 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kamogawa-setsumeisho-${fy}`, muniCode: "122238", muniName: "鴨川市", prefName: "千葉県", isPref: false,
+    })),
     // ---- 第100巡（2026-10-31・§13-116） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yuzawa-yosansho-${fy}`, muniCode: "052078", muniName: "湯沢市", prefName: "秋田県", isPref: false,
