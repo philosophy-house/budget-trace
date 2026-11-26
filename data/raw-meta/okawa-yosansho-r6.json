@@ -1,0 +1,12 @@
+{
+  "sourceId": "okawa-yosansho-r6",
+  "files": [
+    {
+      "filename": "01_ippan.pdf",
+      "sha256": "cbe4a2f12335655c1030a71aacfec4d9f869fd11bb08ce6e12d96b61f69fd54d",
+      "bytes": 908248,
+      "fetchedAt": "2026-11-26T12:45:03.817Z",
+      "fetchedFrom": "https://www.city.okawa.lg.jp/s004/01_ippan.pdf"
+    }
+  ]
+}
