@@ -19690,6 +19690,9 @@ budget 階層に収録済みなのに R8 の当初予算が無い20団体（議�
 #### 魚拓（この巡では登録を後回しにした）
 
 - SPN の送信間隔を8本の巡で分け合い、どの巡も archive の待ちで1時間以上止まったため、**ユーザーの判断で魚拓を後回しにして PR を先に仕上げた**（2026-11-26）。`--submit-only` を途中で止め、`--resolve-only` は回していない。台帳（`data/archives.json`）は壊れておらず、届いた分だけが入っている。
-- **要求済みで結果が未確認**（`data/.archive-jobs.json` に控えあり）: 猪名川町 R8〜R2（R6 は file のみ台帳入り）、松前町 R8・R7・R6・R5・R4、長門 R8（landing）、南丹 `nantan-yosansho-r8`、柳井 R8〜R5、八幡浜 R8〜R2（R6〜R2 は file のみ台帳入り）。
-- **まだ要求していない**: 松前町 R2（WARP の URL）、南丹 `nantan-yosan-gaiyou-r3`・`-r2`・`nantan-yosansho-r6`・`-r5`・`-r4`、`nantan-yosansho-r7` の landing。阿久比町 R3・R2 は取得元が WARP なので対象外。
+- **PDF（file）の魚拓の状態**（37資料。阿久比町 R3・R2 は取得元が WARP なので対象外）:
+  - 台帳に入った（15）: 猪名川町 R6、松前町 R6・R4・R3、長門 R8・R7、南丹 `nantan-yosansho-r7`、柳井 R4〜R2、八幡浜 R6〜R2
+  - 要求済みで結果が未確認（14・`data/.archive-jobs.json` に控えあり）: 猪名川町 R8・R7・R5〜R2、松前町 R8・R7、南丹 `nantan-yosansho-r8`、柳井 R7〜R5、八幡浜 R8・R7
+  - まだ要求していない（8）: 松前町 R5・R2、南丹 `nantan-yosan-gaiyou-r3`・`-r2`・`nantan-yosansho-r6`〜`-r4`、柳井 R8
+- 掲載ページ（landing）は37資料とも台帳に入っていない（要求済みで未確認か、未要求）。
 - 出し直しは、全巡のマージ後に別のセッションが1本ずつ直列で回す。
