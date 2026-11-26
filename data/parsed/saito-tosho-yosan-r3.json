@@ -3,7 +3,7 @@
   "sourceId": "saito-tosho-yosan-r3",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-11-26T13:07:23.892Z",
+  "parsedAt": "2026-11-26T13:20:12.998Z",
   "unit": "thousandYen",
   "fiscalYear": "R3",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 21756448,
   "prevExpenditureTotal": 21756448,
   "prevBasis": "当初",
+  "prevNote": "本年度（令和3年度）の当初予算は骨格予算（この資料に「令和３年度当初予算は、いわゆる骨格予算を念頭におき編成しました。このため、政策判断を要する新規事業や継続事業は、当初予算に計上せず、６月補正予算（肉付け予算）に計上します。」と明記）。前年度との比較は、この骨格予算と前年度の当初予算との比較になる。",
   "facts": [
     {
       "side": "revenue",

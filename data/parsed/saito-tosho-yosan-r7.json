@@ -3,7 +3,7 @@
   "sourceId": "saito-tosho-yosan-r7",
   "parser": "kofu-yosansho",
   "parserVersion": "0.2.0",
-  "parsedAt": "2026-11-26T13:07:23.050Z",
+  "parsedAt": "2026-11-26T13:20:12.811Z",
   "unit": "thousandYen",
   "fiscalYear": "R7",
   "account": "一般会計",
@@ -12,6 +12,7 @@
   "prevRevenueTotal": 20242277,
   "prevExpenditureTotal": 20242277,
   "prevBasis": "当初",
+  "prevNote": "本年度（令和7年度）の当初予算は骨格予算（この資料に「令和７年度当初予算は、骨格予算でありながらも、ふるさと納税推進事業、消防施設維持補修事業や介護給付・訓練等給付費などの増加により、昨年度よりも予算総額が増額となりました。」とあり、市の年度ページのリンク名も「令和７年度当初予算（骨格）」）。前年度との比較は、この骨格予算と前年度の当初予算との比較になる。",
   "facts": [
     {
       "side": "revenue",
