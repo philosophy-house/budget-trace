@@ -32413,6 +32413,282 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "上三川町公式ホームページに掲載されているすべてのページ（文章、写真、イラスト、画像等）は、上三川町、又はコンテンツ提供者に帰属します。これらの情報は、「私的使用のための複製」や「引用」など著作権法で認められている場合を除き、無断で転用・引用することはできません。また、当ページ内の内容を改変することもできません。",
     "target": "file"
   },
+  "/sources/yaita-yosan-gaiyou-r8/23498.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yaita.tochigi.jp/uploaded/attachment/23498.pdf",
+    "license": "矢板市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として矢板市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。矢板市ホームページは利用目的を問わず自由に閲覧していただくことが可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、矢板市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/yaita-yosan-gaiyou-r7/23486.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yaita.tochigi.jp/uploaded/attachment/23486.pdf",
+    "license": "矢板市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として矢板市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。矢板市ホームページは利用目的を問わず自由に閲覧していただくことが可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、矢板市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/yaita-yosan-gaiyou-r6/21027.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yaita.tochigi.jp/uploaded/attachment/21027.pdf",
+    "license": "矢板市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として矢板市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。矢板市ホームページは利用目的を問わず自由に閲覧していただくことが可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、矢板市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/yaita-yosan-gaiyou-r5/18760.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yaita.tochigi.jp/uploaded/attachment/18760.pdf",
+    "license": "矢板市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として矢板市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。矢板市ホームページは利用目的を問わず自由に閲覧していただくことが可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、矢板市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/yaita-yosan-gaiyou-r4/16596.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.yaita.tochigi.jp/uploaded/attachment/16596.pdf",
+    "license": "矢板市ホームページに掲載している個々の情報（文章、写真、イラストなど）に関する著作権は、原則として矢板市に帰属します。ただし、一部の画像等の著作権は、原著作者が所有しています。矢板市ホームページは利用目的を問わず自由に閲覧していただくことが可能ですが、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。ただし、矢板市ホームページ内の各ページに特段の定めがある場合には、その取り扱いが優先されます。",
+    "target": "file"
+  },
+  "/sources/takanezawa-yosansho-r8/R8ippantosho.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.takanezawa.tochigi.jp/gyosei/zaisei/yosan/documents/R8ippantosho.pdf",
+    "license": "© Takanezawa Town. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/takanezawa-yosansho-r7/R7ippantousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.takanezawa.tochigi.jp/gyosei/zaisei/yosan/documents/R7ippantousyo.pdf",
+    "license": "© Takanezawa Town. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/takanezawa-yosansho-r6/R6ippannkaikeitousyoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.takanezawa.tochigi.jp/gyosei/zaisei/yosan/documents/R6ippannkaikeitousyoyosan.pdf",
+    "license": "© Takanezawa Town. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/takanezawa-yosansho-r5/R5ippannkaikei.giketugo.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.takanezawa.tochigi.jp/gyosei/zaisei/documents/R5ippannkaikei.giketugo.pdf",
+    "license": "© Takanezawa Town. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/takanezawa-yosansho-r4/r4_ippankaikei_tosho_yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.takanezawa.tochigi.jp/gyosei/zaisei/documents/r4_ippankaikei_tosho_yosan.pdf",
+    "license": "© Takanezawa Town. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/takanezawa-yosansho-r3/01-2021tousho-ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.takanezawa.tochigi.jp/gyosei/zaisei/documents/01-2021tousho-ippan.pdf",
+    "license": "© Takanezawa Town. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/takanezawa-yosansho-r2/r2ippann.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.takanezawa.tochigi.jp/gyosei/zaisei/documents/r2ippann.pdf",
+    "license": "© Takanezawa Town. All rights reserved.",
+    "target": "file"
+  },
+  "/sources/gero-yosansho-r8/23827.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gero.lg.jp/soshiki/3/37868.html",
+    "license": "下呂市ホームページに掲載している内容（文章、写真、図、イラストなど）に関する著作権は、原則として下呂市に帰属します。また、一部の画像などの著作権は、下呂市以外の原著作者が所有しています。ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された担当課へ、事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/gero-yosansho-r7/20108.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gero.lg.jp/soshiki/3/31915.html",
+    "license": "下呂市ホームページに掲載している内容（文章、写真、図、イラストなど）に関する著作権は、原則として下呂市に帰属します。また、一部の画像などの著作権は、下呂市以外の原著作者が所有しています。ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された担当課へ、事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/gero-yosansho-r6/16979.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gero.lg.jp/soshiki/3/26883.html",
+    "license": "下呂市ホームページに掲載している内容（文章、写真、図、イラストなど）に関する著作権は、原則として下呂市に帰属します。また、一部の画像などの著作権は、下呂市以外の原著作者が所有しています。ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された担当課へ、事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/gero-yosansho-r5/14908.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gero.lg.jp/soshiki/3/22966.html",
+    "license": "下呂市ホームページに掲載している内容（文章、写真、図、イラストなど）に関する著作権は、原則として下呂市に帰属します。また、一部の画像などの著作権は、下呂市以外の原著作者が所有しています。ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された担当課へ、事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/gero-yosansho-r4/11985.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gero.lg.jp/soshiki/3/17532.html",
+    "license": "下呂市ホームページに掲載している内容（文章、写真、図、イラストなど）に関する著作権は、原則として下呂市に帰属します。また、一部の画像などの著作権は、下呂市以外の原著作者が所有しています。ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された担当課へ、事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/gero-yosansho-r3/9051.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gero.lg.jp/soshiki/3/11745.html",
+    "license": "下呂市ホームページに掲載している内容（文章、写真、図、イラストなど）に関する著作権は、原則として下呂市に帰属します。また、一部の画像などの著作権は、下呂市以外の原著作者が所有しています。ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された担当課へ、事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/gero-yosansho-r2/2020.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.gero.lg.jp/soshiki/3/226.html",
+    "license": "下呂市ホームページに掲載している内容（文章、写真、図、イラストなど）に関する著作権は、原則として下呂市に帰属します。また、一部の画像などの著作権は、下呂市以外の原著作者が所有しています。ホームページの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載された担当課へ、事前にご相談ください。",
+    "target": "page"
+  },
+  "/sources/yoshida-sz-yosan-gaiyou-r8/R8gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.yoshida.shizuoka.jp/secure/13738/R8gaiyou.pdf",
+    "license": "本Webサイトで掲載している、情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/yoshida-sz-yosan-gaiyou-r7/R7touysoyosanngaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.yoshida.shizuoka.jp/secure/12651/R7touysoyosanngaiyou.pdf",
+    "license": "本Webサイトで掲載している、情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/yoshida-sz-yosan-gaiyou-r6/令和6年度当初予算概要-.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.yoshida.shizuoka.jp/secure/11394/%E4%BB%A4%E5%92%8C6%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%A6%82%E8%A6%81-.pdf",
+    "license": "本Webサイトで掲載している、情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/yoshida-sz-yosan-gaiyou-r5/令和5年度当初予算概要.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.yoshida.shizuoka.jp/secure/10207/%E4%BB%A4%E5%92%8C5%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%A6%82%E8%A6%81.pdf",
+    "license": "本Webサイトで掲載している、情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/yoshida-sz-yosan-gaiyou-r4/令和4年度当初予算概要.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.yoshida.shizuoka.jp/secure/9442/%E4%BB%A4%E5%92%8C4%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%A6%82%E8%A6%81.pdf",
+    "license": "本Webサイトで掲載している、情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/yoshida-sz-yosan-gaiyou-r3/令和３年度当初予算概要.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.yoshida.shizuoka.jp/secure/8526/%E4%BB%A4%E5%92%8C%EF%BC%93%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%A6%82%E8%A6%81.pdf",
+    "license": "本Webサイトで掲載している、情報・文章・画像などの全てのコンテンツデータについては、「私的使用のための複製」や「引用」といった、著作権法上認められた場合を除き、権利者の許可なく複製・転用・販売といった二次利用をすることを固く禁じます。",
+    "target": "file"
+  },
+  "/sources/tomi-yosansho-r8/183194.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tomi.nagano.jp/category/r08/186236.html",
+    "license": "東御市公式ホームページ(Webサイトという。以下同じ)から発信するコンテンツ(文章、画像で構成された閲覧可能な情報をいう。以下同じ)の著作権は、東御市に属します。この「著作権について」のページ中で与えられていない著作権に係る権利は、すべて東御市に留保されます。このWebサイトから発信するコンテンツについて、次項の例外を除いて引用を承認します。引用の承認を求める行為は不要です。 ただし、引用の際は一般書籍における引用のルールに従ってください。",
+    "target": "page"
+  },
+  "/sources/tomi-yosansho-r7/154745.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tomi.nagano.jp/category/r07/168697.html",
+    "license": "東御市公式ホームページ(Webサイトという。以下同じ)から発信するコンテンツ(文章、画像で構成された閲覧可能な情報をいう。以下同じ)の著作権は、東御市に属します。この「著作権について」のページ中で与えられていない著作権に係る権利は、すべて東御市に留保されます。このWebサイトから発信するコンテンツについて、次項の例外を除いて引用を承認します。引用の承認を求める行為は不要です。 ただし、引用の際は一般書籍における引用のルールに従ってください。",
+    "target": "page"
+  },
+  "/sources/tomi-yosansho-r5/141545.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tomi.nagano.jp/category/r05/162650.html",
+    "license": "東御市公式ホームページ(Webサイトという。以下同じ)から発信するコンテンツ(文章、画像で構成された閲覧可能な情報をいう。以下同じ)の著作権は、東御市に属します。この「著作権について」のページ中で与えられていない著作権に係る権利は、すべて東御市に留保されます。このWebサイトから発信するコンテンツについて、次項の例外を除いて引用を承認します。引用の承認を求める行為は不要です。 ただし、引用の際は一般書籍における引用のルールに従ってください。",
+    "target": "page"
+  },
+  "/sources/tomi-yosansho-r4/135497.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tomi.nagano.jp/category/r04/158691.html",
+    "license": "東御市公式ホームページ(Webサイトという。以下同じ)から発信するコンテンツ(文章、画像で構成された閲覧可能な情報をいう。以下同じ)の著作権は、東御市に属します。この「著作権について」のページ中で与えられていない著作権に係る権利は、すべて東御市に留保されます。このWebサイトから発信するコンテンツについて、次項の例外を除いて引用を承認します。引用の承認を求める行為は不要です。 ただし、引用の際は一般書籍における引用のルールに従ってください。",
+    "target": "page"
+  },
+  "/sources/tomi-yosan-setsumei-r6/147952.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.tomi.nagano.jp/category/r06/165488.html",
+    "license": "東御市公式ホームページ(Webサイトという。以下同じ)から発信するコンテンツ(文章、画像で構成された閲覧可能な情報をいう。以下同じ)の著作権は、東御市に属します。この「著作権について」のページ中で与えられていない著作権に係る権利は、すべて東御市に留保されます。このWebサイトから発信するコンテンツについて、次項の例外を除いて引用を承認します。引用の承認を求める行為は不要です。 ただし、引用の際は一般書籍における引用のルールに従ってください。",
+    "target": "page"
+  },
+  "/sources/ohno-fukui-tousho-setsumei-r8/r8_toushoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.fukui.jp/shisei/zaisei/yosan/R8yosangaiyou.html",
+    "license": "「大野市ホームページ」に掲載されている個々の情報（文章・写真・イラストなど）の著作権は、大野市に帰属します。",
+    "target": "page"
+  },
+  "/sources/ohno-fukui-tousho-setsumei-r7/0005_20250326.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.fukui.jp/shisei/zaisei/yosan/R7tousyo_yosanan.html",
+    "license": "「大野市ホームページ」に掲載されている個々の情報（文章・写真・イラストなど）の著作権は、大野市に帰属します。",
+    "target": "page"
+  },
+  "/sources/ohno-fukui-tousho-setsumei-r6/0005_20240325.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.fukui.jp/shisei/zaisei/yosan/R6yosan.html",
+    "license": "「大野市ホームページ」に掲載されている個々の情報（文章・写真・イラストなど）の著作権は、大野市に帰属します。",
+    "target": "page"
+  },
+  "/sources/ohno-fukui-tousho-setsumei-r5/R5_4_yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.fukui.jp/shisei/zaisei/yosan/R5yosan.html",
+    "license": "「大野市ホームページ」に掲載されている個々の情報（文章・写真・イラストなど）の著作権は、大野市に帰属します。",
+    "target": "page"
+  },
+  "/sources/ohno-fukui-tousho-setsumei-r4/0003_20220331.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.ono.fukui.jp/shisei/zaisei/yosan/R4yosan.html",
+    "license": "「大野市ホームページ」に掲載されている個々の情報（文章・写真・イラストなど）の著作権は、大野市に帰属します。",
+    "target": "page"
+  },
+  "/sources/ohno-fukui-tousho-setsumei-r3/R3all-3.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20210326093747/http://www.city.ono.fukui.jp/shisei/zaisei/yosan/R3yosan.html",
+    "license": "「大野市ホームページ」に掲載されている個々の情報（文章・写真・イラストなど）の著作権は、大野市に帰属します。",
+    "target": "page"
+  },
+  "/sources/myoko-yosansho-r8/議案第3号～第7号_令和８年度予算書・予算に関する説明書（案）.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.myoko.niigata.jp/docs/78386.html",
+    "license": "妙高市ホームページ（以下「当ホームページ」といいます。）で提供するすべてのコンテンツ（情報・文章・画像など)について、権利者の許可なく複製・転用・販売といった二次利用をすることをかたく禁じます。",
+    "target": "page"
+  },
+  "/sources/myoko-yosansho-r7/01ichikainew.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.myoko.niigata.jp/docs/67142.html",
+    "license": "妙高市ホームページ（以下「当ホームページ」といいます。）で提供するすべてのコンテンツ（情報・文章・画像など)について、権利者の許可なく複製・転用・販売といった二次利用をすることをかたく禁じます。",
+    "target": "page"
+  },
+  "/sources/myoko-yosansho-r6/1_ichikai.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.myoko.niigata.jp/docs/55447.html",
+    "license": "妙高市ホームページ（以下「当ホームページ」といいます。）で提供するすべてのコンテンツ（情報・文章・画像など)について、権利者の許可なく複製・転用・販売といった二次利用をすることをかたく禁じます。",
+    "target": "page"
+  },
+  "/sources/myoko-yosansho-r5/1_ichikai.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.myoko.niigata.jp/docs/230.html",
+    "license": "妙高市ホームページ（以下「当ホームページ」といいます。）で提供するすべてのコンテンツ（情報・文章・画像など)について、権利者の許可なく複製・転用・販売といった二次利用をすることをかたく禁じます。",
+    "target": "page"
+  },
+  "/sources/omaezaki-yosansho-r8/R8_ippan_tosho_kaketsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omaezaki.shizuoka.jp/kurashi/shisei/yosan_zaisei/yosan/11181.html",
+    "license": "御前崎市のホームページ内に掲載されている画像等の著作権は、御前崎市または、コンテンツ提供事業者にあります。これらのものは、著作権法上認められた場合以外を除き、無断で転用・引用することはできません。利用をご希望の場合は、、「ホームページコンテンツ使用許可様式(Wordファイル:32KB)」に必要事項を記入し、御前崎市総務課へ申請してください。",
+    "target": "page"
+  },
+  "/sources/omaezaki-yosansho-r7/R7_ippan_tosho_kaketsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omaezaki.shizuoka.jp/kurashi/shisei/yosan_zaisei/yosan/10617.html",
+    "license": "御前崎市のホームページ内に掲載されている画像等の著作権は、御前崎市または、コンテンツ提供事業者にあります。これらのものは、著作権法上認められた場合以外を除き、無断で転用・引用することはできません。利用をご希望の場合は、、「ホームページコンテンツ使用許可様式(Wordファイル:32KB)」に必要事項を記入し、御前崎市総務課へ申請してください。",
+    "target": "page"
+  },
+  "/sources/omaezaki-yosansho-r6/01_R6_ippan_tosho.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omaezaki.shizuoka.jp/kurashi/shisei/yosan_zaisei/yosan/9912.html",
+    "license": "御前崎市のホームページ内に掲載されている画像等の著作権は、御前崎市または、コンテンツ提供事業者にあります。これらのものは、著作権法上認められた場合以外を除き、無断で転用・引用することはできません。利用をご希望の場合は、、「ホームページコンテンツ使用許可様式(Wordファイル:32KB)」に必要事項を記入し、御前崎市総務課へ申請してください。",
+    "target": "page"
+  },
+  "/sources/omaezaki-yosansho-r5/R5ippan_kaketsu.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omaezaki.shizuoka.jp/kurashi/shisei/yosan_zaisei/yosan/9076.html",
+    "license": "御前崎市のホームページ内に掲載されている画像等の著作権は、御前崎市または、コンテンツ提供事業者にあります。これらのものは、著作権法上認められた場合以外を除き、無断で転用・引用することはできません。利用をご希望の場合は、、「ホームページコンテンツ使用許可様式(Wordファイル:32KB)」に必要事項を記入し、御前崎市総務課へ申請してください。",
+    "target": "page"
+  },
+  "/sources/omaezaki-yosansho-r4/R4_ippan_an.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omaezaki.shizuoka.jp/kurashi/shisei/yosan_zaisei/yosan/8131.html",
+    "license": "御前崎市のホームページ内に掲載されている画像等の著作権は、御前崎市または、コンテンツ提供事業者にあります。これらのものは、著作権法上認められた場合以外を除き、無断で転用・引用することはできません。利用をご希望の場合は、、「ホームページコンテンツ使用許可様式(Wordファイル:32KB)」に必要事項を記入し、御前崎市総務課へ申請してください。",
+    "target": "page"
+  },
+  "/sources/omaezaki-yosansho-r3/R3_tosho_ippan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.omaezaki.shizuoka.jp/kurashi/shisei/yosan_zaisei/yosan/7417.html",
+    "license": "御前崎市のホームページ内に掲載されている画像等の著作権は、御前崎市または、コンテンツ提供事業者にあります。これらのものは、著作権法上認められた場合以外を除き、無断で転用・引用することはできません。利用をご希望の場合は、、「ホームページコンテンツ使用許可様式(Wordファイル:32KB)」に必要事項を記入し、御前崎市総務課へ申請してください。",
+    "target": "page"
+  },
   "/sources/agano-yosansho-r8/R08_ippan.pdf": {
     "mode": "origin",
     "href": "https://www.city.agano.niigata.jp/material/files/group/5/R08_ippan.pdf",
