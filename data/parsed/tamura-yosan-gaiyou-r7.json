@@ -1,0 +1,413 @@
+{
+  "docType": "budget-book",
+  "sourceId": "tamura-yosan-gaiyou-r7",
+  "parser": "kofu-yosansho",
+  "parserVersion": "0.2.0",
+  "parsedAt": "2026-11-26T12:41:00.000Z",
+  "unit": "thousandYen",
+  "fiscalYear": "R7",
+  "account": "一般会計",
+  "revenueTotal": 29230000,
+  "expenditureTotal": 29230000,
+  "prevRevenueTotal": 26100000,
+  "prevExpenditureTotal": 26100000,
+  "prevBasis": "当初",
+  "facts": [
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "市税",
+      "amount": 4020595,
+      "prevAmount": 3877390,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方譲与税",
+      "amount": 302387,
+      "prevAmount": 306507,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "利子割交付金",
+      "amount": 1732,
+      "prevAmount": 1057,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "配当割交付金",
+      "amount": 14155,
+      "prevAmount": 12293,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "株式等譲渡所得割交付金",
+      "amount": 15055,
+      "prevAmount": 8591,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "法人事業税交付金",
+      "amount": 75871,
+      "prevAmount": 76804,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方消費税交付金",
+      "amount": 880096,
+      "prevAmount": 921973,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "環境性能割交付金",
+      "amount": 25819,
+      "prevAmount": 18215,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国有提供施設等所在市町村助成交付金",
+      "amount": 1184,
+      "prevAmount": 1288,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方特例交付金",
+      "amount": 24967,
+      "prevAmount": 24363,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "地方交付税",
+      "amount": 8996696,
+      "prevAmount": 8657674,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "交通安全対策特別交付金",
+      "amount": 2563,
+      "prevAmount": 2791,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "分担金及び負担金",
+      "amount": 558034,
+      "prevAmount": 953831,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "使用料及び手数料",
+      "amount": 412841,
+      "prevAmount": 403330,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "国庫支出金",
+      "amount": 4705942,
+      "prevAmount": 3498447,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "県支出金",
+      "amount": 1973018,
+      "prevAmount": 1805747,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "財産収入",
+      "amount": 71454,
+      "prevAmount": 57209,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "寄附金",
+      "amount": 192201,
+      "prevAmount": 170004,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰入金",
+      "amount": 3765910,
+      "prevAmount": 2080652,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "繰越金",
+      "amount": 100000,
+      "prevAmount": 100000,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "諸収入",
+      "amount": 627980,
+      "prevAmount": 413705,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "revenue",
+      "kanNo": null,
+      "kanName": "市債",
+      "amount": 2461500,
+      "prevAmount": 2708129,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 6
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "議会費",
+      "amount": 186594,
+      "prevAmount": 182231,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "総務費",
+      "amount": 3373923,
+      "prevAmount": 2987593,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "民生費",
+      "amount": 5978656,
+      "prevAmount": 5726832,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "衛生費",
+      "amount": 6015342,
+      "prevAmount": 4668493,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "労働費",
+      "amount": 9214,
+      "prevAmount": 9214,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "農林水産業費",
+      "amount": 3757427,
+      "prevAmount": 3113976,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "商工費",
+      "amount": 1164858,
+      "prevAmount": 914865,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "土木費",
+      "amount": 1895706,
+      "prevAmount": 1863172,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "消防費",
+      "amount": 1552187,
+      "prevAmount": 1372194,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "教育費",
+      "amount": 2260537,
+      "prevAmount": 2131089,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "災害復旧費",
+      "amount": 109,
+      "prevAmount": 109,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "公債費",
+      "amount": 2763326,
+      "prevAmount": 2840881,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "諸支出金",
+      "amount": 172121,
+      "prevAmount": 189351,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    },
+    {
+      "side": "expenditure",
+      "kanNo": null,
+      "kanName": "予備費",
+      "amount": 100000,
+      "prevAmount": 100000,
+      "locator": {
+        "file": "R7当初予算_市HP用_1.pdf",
+        "page": 7
+      }
+    }
+  ]
+}

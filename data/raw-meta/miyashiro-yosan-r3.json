@@ -1,0 +1,19 @@
+{
+  "sourceId": "miyashiro-yosan-r3",
+  "files": [
+    {
+      "filename": "R3yosansho.pdf",
+      "sha256": "a5b11b78b709c1d419d18b5671270f73ed9cde21c9665671f7f5a41af98fdaf2",
+      "bytes": 8863176,
+      "fetchedAt": "2026-11-26T13:05:43.531Z",
+      "fetchedFrom": "https://www.town.miyashiro.lg.jp/cmsfiles/contents/0000016/16222/R3yosansho.pdf"
+    },
+    {
+      "filename": "watayosaR3.pdf",
+      "sha256": "06c3027054b360bbf011399fe0af8daf655a2b38f57c449727be841448a27fcf",
+      "bytes": 14172875,
+      "fetchedAt": "2026-11-26T13:05:45.235Z",
+      "fetchedFrom": "https://www.town.miyashiro.lg.jp/cmsfiles/contents/0000016/16222/watayosaR3.pdf"
+    }
+  ]
+}
