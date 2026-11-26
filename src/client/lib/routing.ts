@@ -586,6 +586,13 @@ const MUNI_SLUGS: Record<string, string> = {
   "284645": "taishi", // ⚠ 大阪府太子町 273813 とは別団体（大阪府太子町は未収録）
   "273015": "shimamoto",
   "234249": "oharu",
+  "283011": "inagawa",
+  "352110": "nagato",
+  "384011": "masaki", // ⚠ 北海道の松前町 013315（まつまえ）とは別団体
+  "382043": "yawatahama",
+  "352128": "yanai",
+  "262137": "nantan",
+  "234419": "agui",
   "083411": "tokaimura", // ⚠ 愛知県東海市 232220 が "tokai"
   "162043": "uozu",
   "406210": "kanda",
