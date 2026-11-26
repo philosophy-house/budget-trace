@@ -30991,6 +30991,102 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "このホームページ上のすべてのコンテンツは、原則として広陵町が所有し、各国の著作権法、各種条約及びその他の法律によって保護されています。引用、転用、転載を行う場合には、必ず事前に情報担当課までお問い合わせください。",
     "target": "page"
   },
+  "/sources/hirakawa-yosan-gaiyou-r8/R8yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirakawa.lg.jp/jouhou/zaisei/tousyoyosangaiyou.html",
+    "license": "1.4 本利用ルールが適用されないコンテンツについて 以下のコンテンツについては、本利用ルールの適用外です。 …（市章・ロゴマーク・キャラクターデザインの項は中略）… 写真、画像、動画、歌詞、音源データ、PDFドキュメント、Wordファイル、Excelファイル、パワーポイント資料",
+    "target": "page"
+  },
+  "/sources/hirakawa-yosan-gaiyou-r7/R7yosangaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirakawa.lg.jp/jouhou/zaisei/tousyoyosangaiyou.html",
+    "license": "1.4 本利用ルールが適用されないコンテンツについて 以下のコンテンツについては、本利用ルールの適用外です。 …（市章・ロゴマーク・キャラクターデザインの項は中略）… 写真、画像、動画、歌詞、音源データ、PDFドキュメント、Wordファイル、Excelファイル、パワーポイント資料",
+    "target": "page"
+  },
+  "/sources/hirakawa-yosan-gaiyou-r6/R6_yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirakawa.lg.jp/jouhou/zaisei/tousyoyosangaiyou.html",
+    "license": "1.4 本利用ルールが適用されないコンテンツについて 以下のコンテンツについては、本利用ルールの適用外です。 …（市章・ロゴマーク・キャラクターデザインの項は中略）… 写真、画像、動画、歌詞、音源データ、PDFドキュメント、Wordファイル、Excelファイル、パワーポイント資料",
+    "target": "page"
+  },
+  "/sources/hirakawa-yosan-gaiyou-r5/R5_yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirakawa.lg.jp/jouhou/zaisei/tousyoyosangaiyou.html",
+    "license": "1.4 本利用ルールが適用されないコンテンツについて 以下のコンテンツについては、本利用ルールの適用外です。 …（市章・ロゴマーク・キャラクターデザインの項は中略）… 写真、画像、動画、歌詞、音源データ、PDFドキュメント、Wordファイル、Excelファイル、パワーポイント資料",
+    "target": "page"
+  },
+  "/sources/hirakawa-yosan-gaiyou-r4/R4_yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirakawa.lg.jp/jouhou/zaisei/tousyoyosangaiyou.html",
+    "license": "1.4 本利用ルールが適用されないコンテンツについて 以下のコンテンツについては、本利用ルールの適用外です。 …（市章・ロゴマーク・キャラクターデザインの項は中略）… 写真、画像、動画、歌詞、音源データ、PDFドキュメント、Wordファイル、Excelファイル、パワーポイント資料",
+    "target": "page"
+  },
+  "/sources/hirakawa-yosan-gaiyou-r3/R3_yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirakawa.lg.jp/jouhou/zaisei/tousyoyosangaiyou.html",
+    "license": "1.4 本利用ルールが適用されないコンテンツについて 以下のコンテンツについては、本利用ルールの適用外です。 …（市章・ロゴマーク・キャラクターデザインの項は中略）… 写真、画像、動画、歌詞、音源データ、PDFドキュメント、Wordファイル、Excelファイル、パワーポイント資料",
+    "target": "page"
+  },
+  "/sources/hirakawa-yosan-gaiyou-r2/R2_yosangaiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirakawa.lg.jp/jouhou/zaisei/tousyoyosangaiyou.html",
+    "license": "1.4 本利用ルールが適用されないコンテンツについて 以下のコンテンツについては、本利用ルールの適用外です。 …（市章・ロゴマーク・キャラクターデザインの項は中略）… 写真、画像、動画、歌詞、音源データ、PDFドキュメント、Wordファイル、Excelファイル、パワーポイント資料",
+    "target": "page"
+  },
+  "/sources/kamaishi-yosansho-r8/file_20263135153643_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kamaishi.iwate.jp/docs/2026031300030/",
+    "license": "著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、釜石市に無断で利用することはできません。",
+    "target": "page"
+  },
+  "/sources/kamaishi-yosansho-r7/R070319.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kamaishi.iwate.jp/docs/2025031900073/",
+    "license": "著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、釜石市に無断で利用することはできません。",
+    "target": "page"
+  },
+  "/sources/kamaishi-yosansho-r6/R060319.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kamaishi.iwate.jp/docs/2024032100048/",
+    "license": "著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、釜石市に無断で利用することはできません。",
+    "target": "page"
+  },
+  "/sources/kamaishi-yosansho-r5/R050315.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kamaishi.iwate.jp/docs/2023031500057/",
+    "license": "著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、釜石市に無断で利用することはできません。",
+    "target": "page"
+  },
+  "/sources/kamaishi-yosansho-r4/R040317.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kamaishi.iwate.jp/docs/2022031800013/",
+    "license": "著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、釜石市に無断で利用することはできません。",
+    "target": "page"
+  },
+  "/sources/kamaishi-yosansho-r3/R3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kamaishi.iwate.jp/docs/2021031900037/",
+    "license": "著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、釜石市に無断で利用することはできません。",
+    "target": "page"
+  },
+  "/sources/kamaishi-yosansho-r2/R020220.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kamaishi.iwate.jp/docs/2020031900207/",
+    "license": "著作権法上認められた場合を除き、当サイトの記事、写真、表、図面、グラフなど、内容の全部又は一部を、釜石市に無断で利用することはできません。",
+    "target": "page"
+  },
+  "/sources/nanyo-yosansho-r8/令和８年度一般会計及び特別会計予算書.pdf": {
+    "mode": "origin",
+    "href": "http://www.city.nanyo.yamagata.jp/up/files/giyousei/yosanketusan/yosan/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E5%BA%A6%E4%B8%80%E8%88%AC%E4%BC%9A%E8%A8%88%E5%8F%8A%E3%81%B3%E7%89%B9%E5%88%A5%E4%BC%9A%E8%A8%88%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+    "license": "南陽市ホームページに掲載している文書、画像などのファイルやその内容(以下「内容等」という)については、原則として南陽市に帰属します。ただし、一部の内容等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市ホームページに掲載されている内容等のコンテンツの引用及び転載をされる際には、ホームページ管理者にメールなどでご相談ください。",
+    "target": "file"
+  },
+  "/sources/nanyo-yosansho-r7/【結合版】令和７年度当初予算書.pdf": {
+    "mode": "origin",
+    "href": "http://www.city.nanyo.yamagata.jp/up/files/giyousei/yosanketusan/yosan/%E3%80%90%E7%B5%90%E5%90%88%E7%89%88%E3%80%91%E4%BB%A4%E5%92%8C%EF%BC%97%E5%B9%B4%E5%BA%A6%E5%BD%93%E5%88%9D%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+    "license": "南陽市ホームページに掲載している文書、画像などのファイルやその内容(以下「内容等」という)については、原則として南陽市に帰属します。ただし、一部の内容等の著作権は、原著作者が所有しています。「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、当市ホームページに掲載されている内容等のコンテンツの引用及び転載をされる際には、ホームページ管理者にメールなどでご相談ください。",
+    "target": "file"
+  },
   "/sources/koryo-yosansho-r5/R5ippannkaikei.pdf": {
     "mode": "origin",
     "href": "https://www.town.koryo.nara.jp/0000006068.html",

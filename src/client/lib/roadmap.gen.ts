@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 722,
+  "budgetCount": 725,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-26",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5370,
-  "fileCount": 8047,
-  "archivedCount": 4181,
+  "sourceCount": 5386,
+  "fileCount": 8063,
+  "archivedCount": 4197,
   "licenseOpen": 145,
-  "licensePermission": 5128,
+  "licensePermission": 5144,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -833,6 +833,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "平川市",
+      "code": "022101",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "宮古市",
       "code": "032026",
       "years": 7,
@@ -841,6 +847,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "一関市",
       "code": "032093",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "釜石市",
+      "code": "032115",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -3841,6 +3853,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "山形市",
       "code": "062014",
+      "years": 2,
+      "range": "R7〜R8（2年度）"
+    },
+    {
+      "name": "南陽市",
+      "code": "062138",
       "years": 2,
       "range": "R7〜R8（2年度）"
     },

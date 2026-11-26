@@ -4187,6 +4187,17 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r5"] as const).map((fy) => ({
       srcId: `koryo-yosansho-${fy}`, muniCode: "294268", muniName: "広陵町", prefName: "奈良県", isPref: false,
     })),
+    // ---- 第114巡（北日本）（2026-11-26・§13-135） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `hirakawa-yosan-gaiyou-${fy}`, muniCode: "022101", muniName: "平川市", prefName: "青森県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `kamaishi-yosansho-${fy}`, muniCode: "032115", muniName: "釜石市", prefName: "岩手県", isPref: false,
+    })),
+    // 南陽市の R6〜R3 は概要の歳入の表を読めない（総額と一般財源の列が交互）・R2 はスキャン
+    ...(["r8", "r7"] as const).map((fy) => ({
+      srcId: `nanyo-yosansho-${fy}`, muniCode: "062138", muniName: "南陽市", prefName: "山形県", isPref: false,
+    })),
     // ---- 第104巡（2026-11-12・§13-121） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `yoshinogawa-tousyo-yosan-gaiyou-${fy}`, muniCode: "362051", muniName: "吉野川市", prefName: "徳島県", isPref: false,
