@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 713,
+  "budgetCount": 722,
   "councilCount": 474,
-  "latestFetchedAt": "2026-11-12",
+  "latestFetchedAt": "2026-11-26",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5313,
-  "fileCount": 7990,
-  "archivedCount": 4177,
+  "sourceCount": 5369,
+  "fileCount": 8047,
+  "archivedCount": 4233,
   "licenseOpen": 145,
-  "licensePermission": 5071,
+  "licensePermission": 5127,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -773,6 +773,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "網走市",
+      "code": "012114",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "千歳市",
       "code": "012246",
       "years": 7,
@@ -833,6 +839,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "大船渡市",
+      "code": "032034",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "一関市",
       "code": "032093",
       "years": 7,
@@ -865,6 +877,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "東松島市",
       "code": "042145",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "亘理町",
+      "code": "043613",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -911,6 +929,12 @@ export const ROADMAP_PROGRESS = {
       "range": "H31〜R8（7年度）"
     },
     {
+      "name": "新庄市",
+      "code": "062057",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "会津若松市",
       "code": "072028",
       "years": 7,
@@ -931,6 +955,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "喜多方市",
       "code": "072087",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "田村市",
+      "code": "072117",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1289,6 +1319,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "匝瑳市",
+      "code": "122351",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "香取市",
       "code": "122360",
       "years": 7,
@@ -1297,6 +1333,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "山武市",
       "code": "122378",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "いすみ市",
+      "code": "122386",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -3233,6 +3275,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R4〜R8（5年度）"
     },
     {
+      "name": "紫波町",
+      "code": "033219",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
+    },
+    {
       "name": "気仙沼市",
       "code": "042056",
       "years": 5,
@@ -3837,6 +3885,12 @@ export const ROADMAP_PROGRESS = {
       "code": "112143",
       "years": 2,
       "range": "R6〜R8（2年度）"
+    },
+    {
+      "name": "宮代町",
+      "code": "114421",
+      "years": 2,
+      "range": "R2〜R3（2年度）"
     },
     {
       "name": "千葉市",

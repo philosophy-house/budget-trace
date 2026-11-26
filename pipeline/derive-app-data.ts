@@ -4046,6 +4046,43 @@ export const DECISION_SOURCES: Record<string, { city: DecisionEvidenceCard[]; to
     ...(["r8", "r7", "r6", "r4", "r3"] as const).map((fy) => ({
       srcId: `oharu-yosan-gaiyou-${fy}`, muniCode: "234249", muniName: "大治町", prefName: "愛知県", isPref: false,
     })),
+    // ---- 第110巡（2026-11-26・§13-127） ----
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `isumi-yosan-gaiyou-${fy}`, muniCode: "122386", muniName: "いすみ市", prefName: "千葉県", isPref: false,
+    })),
+    // 匝瑳市は R8・R4 が骨格 ⇒ R5 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `sosa-tosho-yosan-${fy}`, muniCode: "122351", muniName: "匝瑳市", prefName: "千葉県", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `tamura-yosan-gaiyou-${fy}`, muniCode: "072117", muniName: "田村市", prefName: "福島県", isPref: false,
+    })),
+    // 亘理町は R6〜R4 の参考資料がスキャンなので総括表（watari-tosho-yosan）で埋める
+    ...(["r8", "r7", "r3", "r2"] as const).map((fy) => ({
+      srcId: `watari-yosan-sanko-${fy}`, muniCode: "043613", muniName: "亘理町", prefName: "宮城県", isPref: false,
+    })),
+    ...(["r6", "r5", "r4"] as const).map((fy) => ({
+      srcId: `watari-tosho-yosan-${fy}`, muniCode: "043613", muniName: "亘理町", prefName: "宮城県", isPref: false,
+    })),
+    // 紫波町の R7・R6 は予算書の文字が化けていて収録できず
+    ...(["r8", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shiwa-yosansho-${fy}`, muniCode: "033219", muniName: "紫波町", prefName: "岩手県", isPref: false,
+    })),
+    // 新庄市は R2 の前年度列が平成31年度の議会修正後 ⇒ prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `shinjo-zaiseijokyo-${fy}`, muniCode: "062057", muniName: "新庄市", prefName: "山形県", isPref: false,
+    })),
+    // 網走市の R5〜R2 は WARP の写し・R3 は議会修正後の版 ⇒ R4 に prevNote
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `abashiri-yosan-${fy}`, muniCode: "012114", muniName: "網走市", prefName: "北海道", isPref: false,
+    })),
+    ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
+      srcId: `ofunato-yosan-gaiyou-${fy}`, muniCode: "032034", muniName: "大船渡市", prefName: "岩手県", isPref: false,
+    })),
+    // 宮代町は R3・R2 だけ（R8〜R6 は予算書がアウトライン化・R5・R4 は歳出の総括が二重描画）。R3 の歳出は「わたしたちの予算書」
+    ...(["r3", "r2"] as const).map((fy) => ({
+      srcId: `miyashiro-yosan-${fy}`, muniCode: "114421", muniName: "宮代町", prefName: "埼玉県", isPref: false,
+    })),
     // ---- 第101巡（2026-10-31・§13-117） ----
     ...(["r8", "r7", "r6", "r5", "r4", "r3", "r2"] as const).map((fy) => ({
       srcId: `nishiwaki-yosan-gaiyo-${fy}`, muniCode: "282138", muniName: "西脇市", prefName: "兵庫県", isPref: false,
