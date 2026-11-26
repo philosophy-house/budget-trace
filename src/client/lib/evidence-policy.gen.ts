@@ -47995,30 +47995,6 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "当サイト上の文書や画像等の各ファイル、およびその内容に関する諸権利は、原則として海津市に帰属します。また、一部の画像等の著作権は、原著作者が所有しています。当サイト上の文書・画像等の無断使用・転載を禁止します。",
     "target": "page"
   },
-  "/sources/tawaramoto-yosansho-r8/yosan2.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.tawaramoto.nara.jp/material/files/group/41/yosan2.pdf",
-    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、田原本町の許可なく当ホームページに掲載されている文書・画像等を複製・転用することはできません。",
-    "target": "file"
-  },
-  "/sources/tawaramoto-yosansho-r7/r7yosansho.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.tawaramoto.nara.jp/material/files/group/41/r7yosansho.pdf",
-    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、田原本町の許可なく当ホームページに掲載されている文書・画像等を複製・転用することはできません。",
-    "target": "file"
-  },
-  "/sources/tawaramoto-yosansho-r6/yosansyo06.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.tawaramoto.nara.jp/material/files/group/41/yosansyo06.pdf",
-    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、田原本町の許可なく当ホームページに掲載されている文書・画像等を複製・転用することはできません。",
-    "target": "file"
-  },
-  "/sources/tawaramoto-yosansho-r5/yosansyo05.pdf": {
-    "mode": "origin",
-    "href": "https://www.town.tawaramoto.nara.jp/material/files/group/41/yosansyo05.pdf",
-    "license": "「私的使用のための複製」や「引用」など著作権法上認められる場合を除き、田原本町の許可なく当ホームページに掲載されている文書・画像等を複製・転用することはできません。",
-    "target": "file"
-  },
   "/sources/shimizu-shizuoka-yosan-gaiyou-r8/300356451.pdf": {
     "mode": "origin",
     "href": "https://www.town.shimizu.shizuoka.jp/content/300356451.pdf",
