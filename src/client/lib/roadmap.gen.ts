@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 742,
+  "budgetCount": 751,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-26",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5480,
-  "fileCount": 8157,
-  "archivedCount": 4241,
+  "sourceCount": 5536,
+  "fileCount": 8219,
+  "archivedCount": 4257,
   "licenseOpen": 145,
-  "licensePermission": 5238,
+  "licensePermission": 5294,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -845,6 +845,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "久慈市",
+      "code": "032077",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "一関市",
       "code": "032093",
       "years": 7,
@@ -1043,6 +1049,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "行方市",
+      "code": "082333",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "鉾田市",
       "code": "082341",
       "years": 7,
@@ -1223,8 +1235,20 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "毛呂山町",
+      "code": "113263",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "上里町",
       "code": "113859",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "寄居町",
+      "code": "114081",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -1465,6 +1489,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "海老名市",
       "code": "142158",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "大磯町",
+      "code": "143413",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2753,6 +2783,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（6年度）"
     },
     {
+      "name": "伊達市",
+      "code": "012335",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
+    },
+    {
       "name": "青森市",
       "code": "022012",
       "years": 6,
@@ -2775,6 +2811,12 @@ export const ROADMAP_PROGRESS = {
       "code": "032051",
       "years": 6,
       "range": "R3〜R8（6年度）"
+    },
+    {
+      "name": "潟上市",
+      "code": "052116",
+      "years": 6,
+      "range": "R2〜R8（6年度）"
     },
     {
       "name": "米沢市",
@@ -3437,6 +3479,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（5年度）"
     },
     {
+      "name": "瑞穂町",
+      "code": "133035",
+      "years": 5,
+      "range": "R2〜R8（5年度）"
+    },
+    {
       "name": "東御市",
       "code": "202193",
       "years": 5,
@@ -3723,6 +3771,12 @@ export const ROADMAP_PROGRESS = {
       "code": "142182",
       "years": 4,
       "range": "R4〜R8（4年度）"
+    },
+    {
+      "name": "葉山町",
+      "code": "143014",
+      "years": 4,
+      "range": "R2〜R5（4年度）"
     },
     {
       "name": "妙高市",
