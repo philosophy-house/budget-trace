@@ -31381,6 +31381,294 @@ export const RESTRICTED_EVIDENCE: Record<string, RestrictedEvidenceLink> = {
     "license": "本サイトで提供する文書、画像等の各ファイル及びその内容に関する諸権利は、原則として宇土市に帰属します。一部の画像等の著作権は、原著作者が所有しています。本サイト上の文書・画像等の無断使用・転載を禁止します。",
     "target": "page"
   },
+  "/sources/sue-yosansho-r8/R8yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sue.fukuoka.jp/material/files/group/91/R8yosan.pdf",
+    "license": "須恵町公式ウェブサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたお問い合わせ先へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/sue-yosansho-r7/R7yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sue.fukuoka.jp/material/files/group/4/R7yosan.pdf",
+    "license": "須恵町公式ウェブサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたお問い合わせ先へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/sue-yosansho-r6/R6yosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sue.fukuoka.jp/material/files/group/4/R6yosan.pdf",
+    "license": "須恵町公式ウェブサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたお問い合わせ先へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/sue-yosansho-r5/R5yosann.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sue.fukuoka.jp/material/files/group/4/R5yosann.pdf",
+    "license": "須恵町公式ウェブサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたお問い合わせ先へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/sue-yosansho-r4/R4yosannsho.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sue.fukuoka.jp/material/files/group/4/R4yosannsho.pdf",
+    "license": "須恵町公式ウェブサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたお問い合わせ先へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/sue-yosansho-r3/9294.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sue.fukuoka.jp/material/files/group/4/9294.pdf",
+    "license": "須恵町公式ウェブサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたお問い合わせ先へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/sue-yosansho-r2/7154.pdf": {
+    "mode": "origin",
+    "href": "https://www.town.sue.fukuoka.jp/material/files/group/4/7154.pdf",
+    "license": "須恵町公式ウェブサイトの内容について、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で複製・転用することはできません。使用許諾は、各ページ内に記載されたお問い合わせ先へ、事前にご相談ください。",
+    "target": "file"
+  },
+  "/sources/chatan-yosansho-r8/R8tousyoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/ippankaikeiyosan.files/R8tousyoyosan.pdf",
+    "license": "「北谷町ホームページ」に掲載されている情報（文章、写真、イラスト等）および「北谷町ホームページ」自体の著作物として、著作権の対象となっております。「私的利用のための複製」や「引用」など著作権法上認めらた場合を除き、無断で使用・引用はできません。",
+    "target": "file"
+  },
+  "/sources/chatan-yosansho-r7/R7tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/R7tousyoyosan.files/R7tousyo.pdf",
+    "license": "「北谷町ホームページ」に掲載されている情報（文章、写真、イラスト等）および「北谷町ホームページ」自体の著作物として、著作権の対象となっております。「私的利用のための複製」や「引用」など著作権法上認めらた場合を除き、無断で使用・引用はできません。",
+    "target": "file"
+  },
+  "/sources/chatan-yosansho-r6/R6.pdf": {
+    "mode": "origin",
+    "href": "https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/R6yosan20240327.files/R6.pdf",
+    "license": "「北谷町ホームページ」に掲載されている情報（文章、写真、イラスト等）および「北谷町ホームページ」自体の著作物として、著作権の対象となっております。「私的利用のための複製」や「引用」など著作権法上認めらた場合を除き、無断で使用・引用はできません。",
+    "target": "file"
+  },
+  "/sources/chatan-yosansho-r5/reiwa5tousyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/zaisei20230404.files/reiwa5tousyo.pdf",
+    "license": "「北谷町ホームページ」に掲載されている情報（文章、写真、イラスト等）および「北谷町ホームページ」自体の著作物として、著作権の対象となっております。「私的利用のための複製」や「引用」など著作権法上認めらた場合を除き、無断で使用・引用はできません。",
+    "target": "file"
+  },
+  "/sources/chatan-yosansho-r4/R4tousyoyosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.chatan.jp/choseijoho/zaisei/chatan_town_finance/R4ippannkaikeiyosann.files/R4tousyoyosannsyo.pdf",
+    "license": "「北谷町ホームページ」に掲載されている情報（文章、写真、イラスト等）および「北谷町ホームページ」自体の著作物として、著作権の対象となっております。「私的利用のための複製」や「引用」など著作権法上認めらた場合を除き、無断で使用・引用はできません。",
+    "target": "file"
+  },
+  "/sources/hirado-yosansho-r8/0803yosansiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/2025-1205-2105-92.html",
+    "license": "平戸市ホームページの文書・画像等のコンテンツに関する諸権利は，原則として平戸市に帰属します。ただし，一部の画像等の著作権は，コンテンツ提供者に帰属します。これらの平戸市ホームページ上の文書・画像などは、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hirado-yosansho-r7/0703yosansiyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/2025-0325-0836-92.html",
+    "license": "平戸市ホームページの文書・画像等のコンテンツに関する諸権利は，原則として平戸市に帰属します。ただし，一部の画像等の著作権は，コンテンツ提供者に帰属します。これらの平戸市ホームページ上の文書・画像などは、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hirado-yosansho-r5/R503.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/2023-0328-2115-92.html",
+    "license": "平戸市ホームページの文書・画像等のコンテンツに関する諸権利は，原則として平戸市に帰属します。ただし，一部の画像等の著作権は，コンテンツ提供者に帰属します。これらの平戸市ホームページ上の文書・画像などは、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hirado-yosansho-r4/03.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/2022-0323-1704-92.html",
+    "license": "平戸市ホームページの文書・画像等のコンテンツに関する諸権利は，原則として平戸市に帰属します。ただし，一部の画像等の著作権は，コンテンツ提供者に帰属します。これらの平戸市ホームページ上の文書・画像などは、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hirado-yosansho-r3/03R3yosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/2021-0329-1753-92.html",
+    "license": "平戸市ホームページの文書・画像等のコンテンツに関する諸権利は，原則として平戸市に帰属します。ただし，一部の画像等の著作権は，コンテンツ提供者に帰属します。これらの平戸市ホームページ上の文書・画像などは、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hirado-yosansho-r2/4R2tousyoyosannsyo.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/2020-0331-1323-92.html",
+    "license": "平戸市ホームページの文書・画像等のコンテンツに関する諸権利は，原則として平戸市に帰属します。ただし，一部の画像等の著作権は，コンテンツ提供者に帰属します。これらの平戸市ホームページ上の文書・画像などは、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/hirado-yosan-gaiyou-r6/R6gaiyou.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hirado.nagasaki.jp/kurashi/gyosei/zaisei/yosan/tousyo/2024-0222-1447-92.html",
+    "license": "平戸市ホームページの文書・画像等のコンテンツに関する諸権利は，原則として平戸市に帰属します。ただし，一部の画像等の著作権は，コンテンツ提供者に帰属します。これらの平戸市ホームページ上の文書・画像などは、「私的使用のための複製」や「引用」など著作権法上認められた場合を除き、無断で使用・転載することを禁止します。",
+    "target": "page"
+  },
+  "/sources/zentsuji-yosan-gaiyou-r8/62414_145660_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zentsuji.kagawa.jp/uploaded/life/62414_145660_misc.pdf",
+    "license": "「善通寺市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として善通寺市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "file"
+  },
+  "/sources/zentsuji-yosan-gaiyou-r7/62414_145656_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zentsuji.kagawa.jp/uploaded/life/62414_145656_misc.pdf",
+    "license": "「善通寺市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として善通寺市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "file"
+  },
+  "/sources/zentsuji-yosan-gaiyou-r6/62414_145651_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zentsuji.kagawa.jp/uploaded/life/62414_145651_misc.pdf",
+    "license": "「善通寺市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として善通寺市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "file"
+  },
+  "/sources/zentsuji-yosan-gaiyou-r5/62414_145644_misc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.zentsuji.kagawa.jp/uploaded/life/62414_145644_misc.pdf",
+    "license": "「善通寺市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として善通寺市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "file"
+  },
+  "/sources/zentsuji-yosan-gaiyou-r3/12413_75008_misc.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20220425103944id_/https://www.city.zentsuji.kagawa.jp/uploaded/life/12413_75008_misc.pdf",
+    "license": "「善通寺市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として善通寺市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "file"
+  },
+  "/sources/zentsuji-yosan-gaiyou-r2/12413_74824_misc.pdf": {
+    "mode": "archive",
+    "href": "https://web.archive.org/web/20220425103948id_/https://www.city.zentsuji.kagawa.jp/uploaded/life/12413_74824_misc.pdf",
+    "license": "「善通寺市ホームページ」に掲載されている情報（文書、写真、イラストなど）は原則として善通寺市に帰属します。また、一部の画像等の著作権は原著作者が所有しています。",
+    "target": "file"
+  },
+  "/sources/hitoyoshi-yosansho-r8/hitoyoshi_yosansho_R8.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hitoyoshi.lg.jp/resource.php?e=c768d3687d9362cef9c2d8d434c0b70922dafa7cf8f03a8f31d8490ac6a9c4d09c0f9cacd6851103467dffc07361fae8",
+    "license": "当サイトで掲載している文章や画像などは、「私的使用のための複製」や「引用」など、著作権法上認められている適切な方法で利用する場合を除き、無断での複製・変更・使用などはできません。",
+    "target": "file"
+  },
+  "/sources/hitoyoshi-yosansho-r7/hitoyoshi_yosansho_R7.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hitoyoshi.lg.jp/resource.php?e=da635f5261e42daab3228c9593e0111c60adda581e87aa39c82c143079e654232963dac63ab8843283b0435127d12247",
+    "license": "当サイトで掲載している文章や画像などは、「私的使用のための複製」や「引用」など、著作権法上認められている適切な方法で利用する場合を除き、無断での複製・変更・使用などはできません。",
+    "target": "file"
+  },
+  "/sources/hitoyoshi-yosansho-r6/hitoyoshi_yosansho_R6.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hitoyoshi.lg.jp/resource.php?e=88690178a89b4b40eb93804d4f5191b1c1da84625155788b8cbe467e205cdf555611fdb1886fa5945d5a80266a102313",
+    "license": "当サイトで掲載している文章や画像などは、「私的使用のための複製」や「引用」など、著作権法上認められている適切な方法で利用する場合を除き、無断での複製・変更・使用などはできません。",
+    "target": "file"
+  },
+  "/sources/hitoyoshi-yosansho-r5/hitoyoshi_yosansho_R5.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hitoyoshi.lg.jp/resource.php?e=193aff6723d12cf41f634eae1254caed9fdc02f4e934e085f06fce1bf2ae6c6b20c5178b16e12b3dc138ca586905c9f6",
+    "license": "当サイトで掲載している文章や画像などは、「私的使用のための複製」や「引用」など、著作権法上認められている適切な方法で利用する場合を除き、無断での複製・変更・使用などはできません。",
+    "target": "file"
+  },
+  "/sources/hitoyoshi-yosansho-r4/hitoyoshi_yosansho_R4.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hitoyoshi.lg.jp/resource.php?e=24ec2e1bb659530f32767bf46a5dd968b353e79a9723233474b66fd55b165c92e2c1d6bef4253b7bc3231fa868f438e5",
+    "license": "当サイトで掲載している文章や画像などは、「私的使用のための複製」や「引用」など、著作権法上認められている適切な方法で利用する場合を除き、無断での複製・変更・使用などはできません。",
+    "target": "file"
+  },
+  "/sources/hitoyoshi-yosansho-r3/hitoyoshi_yosansho_R3.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hitoyoshi.lg.jp/resource.php?e=525716df56f06206caa91bc63932bc0a6cf8f105c4fca84edbd5466e350da5ecf6477165fbf4e3c6a779d966f75e954a",
+    "license": "当サイトで掲載している文章や画像などは、「私的使用のための複製」や「引用」など、著作権法上認められている適切な方法で利用する場合を除き、無断での複製・変更・使用などはできません。",
+    "target": "file"
+  },
+  "/sources/hitoyoshi-yosansho-r2/hitoyoshi_yosansho_R2.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.hitoyoshi.lg.jp/resource.php?e=aa2d1fba5934000ec1c911ceba3f825029f6d45efb59df8c7c538520d3c80cf635cc4d17a6b7a28c02a77738ad68f54b",
+    "license": "当サイトで掲載している文章や画像などは、「私的使用のための複製」や「引用」など、著作権法上認められている適切な方法で利用する場合を除き、無断での複製・変更・使用などはできません。",
+    "target": "file"
+  },
+  "/sources/shibushi-zaisei-jokyo-r8/17011.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibushi.lg.jp/uploaded/attachment/17011.pdf",
+    "license": "志布志市公式ホームページに掲載しているすべてのコンテンツは、特別の断りがない限り原則として志布志市が保有します。　私的使用のための複製など著作権法上で認められている場合を除き、権利者の許可なく複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/shibushi-zaisei-jokyo-r7/14959.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibushi.lg.jp/uploaded/attachment/14959.pdf",
+    "license": "志布志市公式ホームページに掲載しているすべてのコンテンツは、特別の断りがない限り原則として志布志市が保有します。　私的使用のための複製など著作権法上で認められている場合を除き、権利者の許可なく複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/shibushi-zaisei-jokyo-r6/12729.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibushi.lg.jp/uploaded/attachment/12729.pdf",
+    "license": "志布志市公式ホームページに掲載しているすべてのコンテンツは、特別の断りがない限り原則として志布志市が保有します。　私的使用のための複製など著作権法上で認められている場合を除き、権利者の許可なく複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/shibushi-zaisei-jokyo-r5/12728.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibushi.lg.jp/uploaded/attachment/12728.pdf",
+    "license": "志布志市公式ホームページに掲載しているすべてのコンテンツは、特別の断りがない限り原則として志布志市が保有します。　私的使用のための複製など著作権法上で認められている場合を除き、権利者の許可なく複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/shibushi-zaisei-jokyo-r4/7901.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibushi.lg.jp/uploaded/attachment/7901.pdf",
+    "license": "志布志市公式ホームページに掲載しているすべてのコンテンツは、特別の断りがない限り原則として志布志市が保有します。　私的使用のための複製など著作権法上で認められている場合を除き、権利者の許可なく複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/shibushi-zaisei-jokyo-r3/6598.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibushi.lg.jp/uploaded/attachment/6598.pdf",
+    "license": "志布志市公式ホームページに掲載しているすべてのコンテンツは、特別の断りがない限り原則として志布志市が保有します。　私的使用のための複製など著作権法上で認められている場合を除き、権利者の許可なく複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/shibushi-zaisei-jokyo-r2/4991.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.shibushi.lg.jp/uploaded/attachment/4991.pdf",
+    "license": "志布志市公式ホームページに掲載しているすべてのコンテンツは、特別の断りがない限り原則として志布志市が保有します。　私的使用のための複製など著作権法上で認められている場合を除き、権利者の許可なく複製・転用することはできません。",
+    "target": "file"
+  },
+  "/sources/togitsu-yosansho-r8/20-2026-1gian17.pdf": {
+    "mode": "archive",
+    "href": "https://warp.ndl.go.jp/20260304/20260304001919id_/https://www.town.togitsu.nagasaki.jp/material/files/group/2/20-2026-1gian17.pdf",
+    "license": "時津町ホームページに掲載されている文章、画像などの著作権は時津町またはコンテンツ提供者に帰属します。これらの情報は、「私的使用のための複製」や「引用」などの著作権法上認められた場合を除き、無断で転用・引用することはできません。利用許諾については下記メールリンクまでお問い合わせください。",
+    "target": "file"
+  },
+  "/sources/saito-tosho-yosan-r8/1793851247_292408a17e8ad848575213c53248eabc.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.saito.lg.jp/uploads/docs/shiseigyosei2/1793851247_292408a17e8ad848575213c53248eabc.pdf",
+    "license": "Copyright © 2026 西都市 All rights reserved.",
+    "target": "file"
+  },
+  "/sources/saito-tosho-yosan-r7/1793851247_8c66c60f38b0de1f716d59d2a8c3947e_1.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.saito.lg.jp/uploads/docs/shiseigyosei2/1793851247_8c66c60f38b0de1f716d59d2a8c3947e_1.pdf",
+    "license": "Copyright © 2026 西都市 All rights reserved.",
+    "target": "file"
+  },
+  "/sources/saito-tosho-yosan-r6/1793851247_3cb7027970ce8d77f09c2ff7fc738912.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.saito.lg.jp/uploads/docs/shiseigyosei2/1793851247_3cb7027970ce8d77f09c2ff7fc738912.pdf",
+    "license": "Copyright © 2026 西都市 All rights reserved.",
+    "target": "file"
+  },
+  "/sources/saito-tosho-yosan-r5/1793851247_R5nendo_tousyoyosan.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.saito.lg.jp/uploads/docs/shiseigyosei2/1793851247_R5nendo_tousyoyosan.pdf",
+    "license": "Copyright © 2026 西都市 All rights reserved.",
+    "target": "file"
+  },
+  "/sources/saito-tosho-yosan-r4/1793851247_02941b3abd12ce3b40e7a11f227a4f04_7.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.saito.lg.jp/uploads/docs/shiseigyosei2/1793851247_02941b3abd12ce3b40e7a11f227a4f04_7.pdf",
+    "license": "Copyright © 2026 西都市 All rights reserved.",
+    "target": "file"
+  },
+  "/sources/saito-tosho-yosan-r3/1793851247_R3tousyoyosan_koxtukaku_saitosi.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.saito.lg.jp/uploads/docs/shiseigyosei2/1793851247_R3tousyoyosan_koxtukaku_saitosi.pdf",
+    "license": "Copyright © 2026 西都市 All rights reserved.",
+    "target": "file"
+  },
+  "/sources/saito-tosho-yosan-r2/1793851247_0f1cafb9f928f45074964af0915089855974947a.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.saito.lg.jp/uploads/docs/shiseigyosei2/1793851247_0f1cafb9f928f45074964af0915089855974947a.pdf",
+    "license": "Copyright © 2026 西都市 All rights reserved.",
+    "target": "file"
+  },
+  "/sources/kanzaki-yosansho-r8/69ba4f8fdfc93nZwJUQdr.pdf": {
+    "mode": "origin",
+    "href": "https://www.city.kanzaki.saga.jp/main/19988.html",
+    "license": "神埼市ホームページに掲載しているすべての文章や写真、イラスト、画像等、またはプログラムの著作権は神埼市またはコンテンツ提供者が保有します。権利者の許可なくこれらの情報を無断で複製・転用・引用・販売といった二次利用することを固く禁じます。",
+    "target": "page"
+  },
   "/sources/miyama-yosansho-r8/1.R8ippan.pdf": {
     "mode": "origin",
     "href": "https://www.city.miyama.lg.jp/s008/shisei/070/010/reiwa8/1.R8ippan.pdf",
