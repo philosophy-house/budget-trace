@@ -13,16 +13,16 @@ export interface RoadmapItem {
 
 export const ROADMAP_PROGRESS = {
   "fullCount": 1,
-  "budgetCount": 770,
+  "budgetCount": 779,
   "councilCount": 474,
   "latestFetchedAt": "2026-11-26",
   "muniCount": 1741,
   "prefCount": 47,
-  "sourceCount": 5645,
-  "fileCount": 8332,
-  "archivedCount": 4345,
-  "licenseOpen": 145,
-  "licensePermission": 5403,
+  "sourceCount": 5699,
+  "fileCount": 8386,
+  "archivedCount": 4365,
+  "licenseOpen": 146,
+  "licensePermission": 5456,
   "licenseUnverified": 97,
   "kessanRange": "R2〜R6（5年度）",
   "kofuBudgetRange": "R2〜R8（7年度）",
@@ -2447,6 +2447,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "庄原市",
+      "code": "342106",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "東広島市",
       "code": "342122",
       "years": 7,
@@ -2651,6 +2657,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "篠栗町",
+      "code": "403423",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "須恵町",
       "code": "403440",
       "years": 7,
@@ -2665,6 +2677,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "粕屋町",
       "code": "403491",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
+      "name": "岡垣町",
+      "code": "403831",
       "years": 7,
       "range": "R2〜R8（7年度）"
     },
@@ -2759,6 +2777,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "豊後大野市",
+      "code": "442127",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "由布市",
       "code": "442135",
       "years": 7,
@@ -2807,10 +2831,22 @@ export const ROADMAP_PROGRESS = {
       "range": "R2〜R8（7年度）"
     },
     {
+      "name": "曽於市",
+      "code": "462179",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
+    },
+    {
       "name": "霧島市",
       "code": "462187",
       "years": 7,
       "range": "H31〜R8（7年度）"
+    },
+    {
+      "name": "南さつま市",
+      "code": "462209",
+      "years": 7,
+      "range": "R2〜R8（7年度）"
     },
     {
       "name": "志布志市",
@@ -3689,6 +3725,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R3〜R8（5年度）"
     },
     {
+      "name": "備前市",
+      "code": "332119",
+      "years": 5,
+      "range": "R2〜R7（5年度）"
+    },
+    {
       "name": "廿日市市",
       "code": "342131",
       "years": 5,
@@ -3947,6 +3989,12 @@ export const ROADMAP_PROGRESS = {
       "range": "R5〜R8（4年度）"
     },
     {
+      "name": "大川市",
+      "code": "402125",
+      "years": 4,
+      "range": "R3〜R8（4年度）"
+    },
+    {
       "name": "小城市",
       "code": "412082",
       "years": 4,
@@ -4075,6 +4123,12 @@ export const ROADMAP_PROGRESS = {
     {
       "name": "四万十市",
       "code": "392103",
+      "years": 3,
+      "range": "R6〜R8（3年度）"
+    },
+    {
+      "name": "南九州市",
+      "code": "462233",
       "years": 3,
       "range": "R6〜R8（3年度）"
     },

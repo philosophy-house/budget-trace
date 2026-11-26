@@ -3839,6 +3839,85 @@ export const UNRECORDABLE: UnrecordableRecord[] = [
     url: "https://www.city.kuroishi.aomori.jp/shisei/keikaku/zai_zaisei_jokyo.html",
     checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-131",
   },
+  // ==== 第113巡（2026-11-26・docs §13-130）==================================
+  {
+    // 臼杵市（442062）。款別＋前年度の表は「一般会計当初予算書」の事項別明細書「1 総括」（R8 物理 p.21〜23）にしか無い。
+    //   R8（JUST PDF 5）・R7（DocuWorks）・R6（InDesign 18.1）は総括と第1表の文字が図形（テキスト層はノンブルだけ・画像0）。
+    //   R5・R4・R3 は1ページ1枚の CCITT 画像（スキャン）。R8 の記者会見資料の款別は歳入6款・歳出8款で前年度額なし、広報は総額と主な事業だけ。
+    code: "442062", name: "臼杵市", dataset: "budget", fiscalYears: ["R8", "R7", "R6"],
+    categories: ["broken-text-layer"],
+    reason: "款別の前年度比較の表は予算書の総括にしか無く、この3年度は文字が図形に変換されていて取り出せない（ページ番号だけが文字として残る）。ほかの資料の款別は一部の款だけで前年度額が無い。",
+    url: "https://www.city.usuki.oita.jp/categories/shimin/about/zaisei/yosan/",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
+  {
+    code: "442062", name: "臼杵市", dataset: "budget", fiscalYears: ["R5", "R4", "R3"],
+    categories: ["scanned-image"],
+    reason: "款別の前年度比較の表は予算書の総括にしか無く、この3年度の予算書は紙をスキャンした画像で、文字が入っていない。",
+    url: "https://www.city.usuki.oita.jp/categories/shimin/about/zaisei/yosan/",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
+  {
+    // 予算のカテゴリの年度ページは R3〜R8 だけ。Wayback の財政カテゴリ（2021-03-04 捕捉）に予算の項目が無く、2021-05-15 捕捉で初めて R3 の予算書が出る。WARP は未確認。
+    code: "442062", name: "臼杵市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material"],
+    reason: "予算書の公開は令和3年度からで、令和2年度の款別の表はウェブに見当たらない。",
+    url: "https://www.city.usuki.oita.jp/categories/shimin/about/zaisei/yosan/",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
+  {
+    // 大川市（402125）R5・R4。R8〜R6・R3 は収録済み。予算書（R5 /s004/010/010/030/ippan.pdf・R4 01.R4ippan.pdf）は Canon 複合機のスキャンでフォント0・文字0。
+    //   WARP の最古の捕捉（R5 2023-03-08）も同じバイト数のスキャン。代わりの款別＋前年度の資料は無い（財政公表は財務書類だけ）。
+    code: "402125", name: "大川市", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["scanned-image"],
+    reason: "款別の前年度比較の表は予算書の総括にしか無く、この2年度の予算書は紙をスキャンした画像で、文字が入っていない。",
+    url: "https://www.city.okawa.lg.jp/100/060/010/20230220151538.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
+  {
+    // 予算の一覧は R8〜R3 だけ。推測した URL は 404、WARP の timemap は空、Wayback の CDX にも当初予算書は無い（補正2件だけ）。
+    code: "402125", name: "大川市", dataset: "budget", fiscalYears: ["R2"],
+    categories: ["no-material"],
+    reason: "令和2年度の予算書はウェブに掲載された形跡が無い（発行元・国立国会図書館の保存・Internet Archive のどれにも無い）。",
+    url: "https://www.city.okawa.lg.jp/100/060/010/20230220151538.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
+  {
+    // 南九州市（462233）R5・R4。R8〜R6 は収録済み。予算書（r5-tousho-yosan.pdf・r4yosan.pdf）の総括は ToUnicode 欠落で、数字は既存の復号と同じ −0x1D だが
+    //   漢字が既存の復号表と別系統（Ѓ U+403・⠎ U+280E など）で decodeGarble が throw する。
+    //   ⚠ R4 は掲載の予算書が議会修正前の原案（24,947,000）。修正後（24,322,509）の款別は修正案（r4yosanshuusei.pdf・4款だけ）にしか無い。
+    code: "462233", name: "南九州市", dataset: "budget", fiscalYears: ["R5", "R4"],
+    categories: ["broken-text-layer", "parser-unsupported"],
+    reason: "予算書の総括は文字が正しく文字として埋め込まれておらず、こちらの復元の仕組みが知らない系統の化け方をしている。令和4年度は掲載の予算書が議会で修正される前の案のままでもある。",
+    url: "https://www.city.minamikyushu.lg.jp/gyoseijoho/gyozaisei/1/1/index.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
+  {
+    // 予算書の掲載は R4 から（旧サイトの Wayback でも R3・R2 は概要だけ）。R3 は「施政方針（抜粋）」、R2 の概要は全ページ画像。
+    //   財政事情の公表 5月版の「当初予算の概要」は歳出の款別＋前年度があるが、歳入が自主財源・依存財源の区分で「その他」が2行あり款別でない（荒尾と同じ型）。
+    code: "462233", name: "南九州市", dataset: "budget", fiscalYears: ["R3", "R2"],
+    categories: ["format-mismatch", "no-material"],
+    reason: "予算書が掲載されておらず、ほかの資料の歳入は款別でなく財源の区分ごとにまとめた表しか無い。",
+    url: "https://www.city.minamikyushu.lg.jp/gyoseijoho/gyozaisei/1/1/index.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
+  {
+    // 備前市（332119）R8。R7〜R4・R2 は収録済み。概要（28769.pdf）・予算書（28772.pdf）・参考資料（28773.pdf）のどれも字形が図形でテキストはノンブルだけ（画像0）。
+    code: "332119", name: "備前市", dataset: "budget", fiscalYears: ["R8"],
+    categories: ["broken-text-layer"],
+    reason: "予算書・概要・参考資料のどれも文字が図形に変換されていて取り出せない（ページ番号だけが文字として残る）。",
+    url: "https://www.city.bizen.okayama.jp/soshiki/6/619.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
+  {
+    // 備前市 R3。予算書（15966.pdf）はフォント0・画像0（図形化）。参考資料（15239.pdf）の「２.一般会計内訳」は款行は復号できるが、項の行と注記に
+    //   復号表に無い字（U+115B・U+3228・U+334D など17種）があり decodeGarble が throw する。概要（14560.pdf）は歳入が一般財源・特定財源の区分で款別でない。
+    code: "332119", name: "備前市", dataset: "budget", fiscalYears: ["R3"],
+    categories: ["broken-text-layer", "parser-unsupported"],
+    reason: "予算書は文字が図形に変換されていて取り出せない。参考資料の款別の表は文字が正しく埋め込まれておらず、こちらの復元の仕組みが知らない字が含まれる。概要の歳入は款別でない。",
+    url: "https://www.city.bizen.okayama.jp/soshiki/6/619.html",
+    checkedOn: "2026-11-26", ref: "docs/data-sources.md §13-130",
+  },
   // ==== 第115巡（2026-11-26・docs §13-132）==================================
   {
     // 矢板市（092118）R3・R2。R8〜R4 は収録済み。「当初予算（案）の概要」は同じ様式だが、皆増の行（R3 款6 法人事業税交付金・R2 款8 環境性能割交付金）で
