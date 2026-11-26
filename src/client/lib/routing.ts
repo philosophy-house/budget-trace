@@ -562,6 +562,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "403423": "sasaguri",
   "402125": "okawa", // ⚠ 高知県大川村 393649 とは別団体（大川村は未収録）
   "462209": "minamisatsuma",
+  // 第117巡（2026-11-26・§13-134）
+  "372048": "zentsuji",
+  "432032": "hitoyoshi",
+  "403440": "sue",
+  "473260": "chatan",
+  "423084": "togitsu",
+  "462217": "shibushi",
+  "452084": "saito",
+  "422070": "hirado",
+  "412104": "kanzaki", // 佐賀県神埼市（兵庫県神崎郡・千葉県神崎町とは別）
   "362051": "yoshinogawa",
   "332127": "setouchi", // ⚠ 鹿児島県瀬戸内町 465259 とは別団体（瀬戸内町は未収録）
   "322067": "yasugi",
@@ -606,6 +616,16 @@ const MUNI_SLUGS: Record<string, string> = {
   "462101": "ibusuki",
   "432113": "uto",
   "093611": "mibu",
+  // 第114巡
+  "343048": "kaita",
+  "404471": "chikuzen",
+  "093017": "kaminokawa",
+  "042064": "shiroishi-miyagi", // ⚠ 佐賀県白石町 414255 とは別団体（白石町は未収録）
+  "113859": "kamisato",
+  "083020": "ibarakimachi", // ⚠ 大阪府茨木市 272116 とは別団体
+  "283819": "inami-hyogo", // ⚠ 和歌山県印南町 303909 とは別団体（印南町は未収録）
+  "012149": "wakkanai",
+  "122238": "kamogawa",
   "202061": "suwa",
   "202045": "okaya",
   "172090": "kahoku", // ⚠ 山形県河北町 063215 とは別団体（河北町は未収録）
@@ -616,6 +636,9 @@ const MUNI_SLUGS: Record<string, string> = {
   "263664": "seika",
   "223255": "kannami",
   "294268": "koryo",
+  "022101": "hirakawa", // 第114巡
+  "032115": "kamaishi",
+  "062138": "nanyo",
   "082074": "yuki",
   "082317": "sakuragawa",
   "082295": "inashiki",
